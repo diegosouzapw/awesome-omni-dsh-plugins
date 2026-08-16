@@ -1,0 +1,243 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Awesome Omni DSH Plugin Entry
+description: Public schema version 1 for one creator-sourced DSH catalog artifact.
+type: object
+additionalProperties: false
+required:
+  - schemaVersion
+  - id
+  - name
+  - kind
+  - primaryCategory
+  - tags
+  - source
+  - creator
+  - package
+  - dsh
+  - repositoryScope
+  - popularity
+  - license
+  - verification
+  - provenance
+properties:
+  schemaVersion:
+    const: 1
+  id:
+    type: string
+    pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  name:
+    type: string
+    minLength: 1
+    maxLength: 120
+  kind:
+    enum:
+      - plugin
+      - plugin-family
+      - skin-theme
+      - skill
+      - preset-profile
+      - client-interface
+      - bridge-adapter
+      - marketplace-catalog
+      - ecosystem-project
+  primaryCategory:
+    enum:
+      - user-interface-dashboards
+      - memory-rag
+      - search-research
+      - coding-developer-tools
+      - browser-automation
+      - vision-audio-multimodal
+      - sessions-productivity
+      - security-permissions-approvals
+      - diagnostics-observability
+      - models-providers-routing
+      - messaging-notifications
+      - data-external-services
+      - entertainment-customization
+  tags:
+    type: array
+    uniqueItems: true
+    items:
+      type: string
+      pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  source:
+    type: object
+    additionalProperties: false
+    required:
+      - repository
+      - repositoryNodeId
+      - subpath
+      - commit
+    properties:
+      repository:
+        type: string
+        pattern: "^https://github\\.com/[^/]+/[^/]+/?$"
+      repositoryNodeId:
+        type: string
+        minLength: 1
+      subpath:
+        oneOf:
+          - type: string
+            minLength: 1
+            pattern: "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+[^/]$"
+          - type: "null"
+      commit:
+        type: string
+        pattern: "^[0-9a-fA-F]{40}$"
+  creator:
+    type: object
+    additionalProperties: false
+    required:
+      - github
+      - profile
+    properties:
+      github:
+        type: string
+        pattern: "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$"
+      profile:
+        type: string
+        format: uri
+        pattern: "^https://github\\.com/[^/]+/?$"
+  package:
+    type: object
+    additionalProperties: false
+    required:
+      - ecosystem
+      - name
+    properties:
+      ecosystem:
+        enum:
+          - npm
+          - github
+      name:
+        type: string
+        minLength: 1
+  dsh:
+    type: object
+    additionalProperties: false
+    required:
+      - integration
+      - profiles
+      - installSource
+    properties:
+      integration:
+        enum:
+          - native-bundle
+          - plugin-family
+          - skin-theme
+          - skill
+          - preset-profile
+          - client-interface
+          - bridge-adapter
+          - marketplace-catalog
+          - ecosystem-integration
+      profiles:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          type: string
+          minLength: 1
+      installSource:
+        type: string
+        minLength: 1
+  repositoryScope:
+    enum:
+      - dedicated
+      - monorepo
+  popularity:
+    type: object
+    additionalProperties: false
+    required:
+      - starsPolicy
+      - stars
+    properties:
+      starsPolicy:
+        enum:
+          - exact-repository
+          - undefined-parent-repository
+      stars:
+        oneOf:
+          - type: integer
+            minimum: 0
+          - type: "null"
+  license:
+    type: object
+    additionalProperties: false
+    required:
+      - spdx
+    properties:
+      spdx:
+        type: string
+        minLength: 1
+  verification:
+    type: object
+    additionalProperties: false
+    required:
+      - status
+      - checkedCommit
+      - checkedAt
+    properties:
+      status:
+        enum:
+          - eligible
+          - verified
+          - stale
+          - unavailable
+          - archived
+          - quarantined
+      checkedCommit:
+        type: string
+        pattern: "^[0-9a-fA-F]{40}$"
+      checkedAt:
+        type: string
+        format: date-time
+  provenance:
+    type: object
+    additionalProperties: false
+    required:
+      - discussion
+      - comment
+    properties:
+      discussion:
+        oneOf:
+          - type: string
+            format: uri
+          - type: "null"
+      comment:
+        oneOf:
+          - type: string
+            format: uri
+          - type: "null"
+allOf:
+  - if:
+      properties:
+        repositoryScope:
+          const: monorepo
+      required:
+        - repositoryScope
+    then:
+      properties:
+        popularity:
+          properties:
+            starsPolicy:
+              const: undefined-parent-repository
+            stars:
+              type: "null"
+  - if:
+      properties:
+        repositoryScope:
+          const: dedicated
+      required:
+        - repositoryScope
+    then:
+      properties:
+        popularity:
+          properties:
+            starsPolicy:
+              const: exact-repository
+            stars:
+              type: integer
+              minimum: 0
+
