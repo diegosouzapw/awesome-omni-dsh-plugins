@@ -1,6 +1,7 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 title: Awesome Omni DSH Plugin Entry
 description: Public schema version 1 for one creator-sourced DSH catalog artifact.
+$comment: Standard formats use bounded safe shapes here and mandatory semantic parsers in catalog-core.
 type: object
 additionalProperties: false
 required:
@@ -92,7 +93,7 @@ properties:
     properties:
       repository:
         type: string
-        pattern: '^https://github\.com/[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?/(?![^/]+\.git$)[A-Za-z0-9_-](?:[A-Za-z0-9._-]{0,98}[A-Za-z0-9_-])?$'
+        pattern: '^https://github\.com/[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?/(?!\.{1,2}$)(?![A-Za-z0-9._-]*\.git$)[A-Za-z0-9._-]{1,100}$'
       repositoryNodeId:
         type: string
         minLength: 1
@@ -133,10 +134,15 @@ properties:
             pattern: '^(?:@[a-z0-9][a-z0-9._~-]*/)?[a-z0-9][a-z0-9._~-]*$'
           version:
             type: string
-            pattern: '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$'
+            maxLength: 64
+            pattern: '^[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$'
+            $comment: Safe shape only; catalog-core must accept it with a SemVer parser and require an exact version.
           integrity:
             type: string
-            pattern: '^sha512-[A-Za-z0-9+/]+={0,2}$'
+            minLength: 8
+            maxLength: 256
+            pattern: '^sha512-[A-Za-z0-9+/=]+$'
+            $comment: Safe shape only; catalog-core must parse SRI and verify a SHA-512 digest.
       - type: object
         additionalProperties: false
         required:
@@ -189,7 +195,9 @@ properties:
     properties:
       spdx:
         type: string
-        pattern: '^[A-Za-z0-9][A-Za-z0-9.+-]*(?: WITH [A-Za-z0-9][A-Za-z0-9.+-]*)?(?: (?:AND|OR) [A-Za-z0-9][A-Za-z0-9.+-]*(?: WITH [A-Za-z0-9][A-Za-z0-9.+-]*)?)*$'
+        minLength: 2
+        maxLength: 256
+        pattern: '^(?!-)[A-Za-z0-9.+() -]+$'
     $comment: catalog-core must parse and normalize this value with an SPDX expression parser.
   verification:
     type: object
@@ -238,7 +246,9 @@ properties:
                     pattern: '^(?:@[a-z0-9][a-z0-9._~-]*/)?[a-z0-9][a-z0-9._~-]*$'
                   version:
                     type: string
-                    pattern: '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$'
+                    maxLength: 64
+                    pattern: '^[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$'
+                    $comment: Safe shape only; catalog-core must accept it with a SemVer parser.
               result:
                 const: passed
     $comment: Verification applies to source.commit. The smoke target references package or pinned source without duplicating mutable values.

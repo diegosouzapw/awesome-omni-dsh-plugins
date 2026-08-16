@@ -37,13 +37,16 @@ Provide:
 Never submit credentials, cookies, private email addresses, unpublished source or other secrets.
 
 The package descriptor is canonical installation data, never a shell command. An npm descriptor
-must contain a valid package name and exact version. A source descriptor is bound to
+must contain a valid package name and exact version. The public schema rejects option-like and
+unbounded values but does not reimplement SemVer or SRI: `catalog-core` must parse the version,
+require an exact SemVer and parse any integrity value as valid SHA-512 SRI. A source descriptor is bound to
 `source.repository`, `source.commit` and `source.subpath` without
 duplicating them. Installers must use argument arrays, disable shell execution and place an option
 terminator before catalog-provided positional values where the invoked command supports it.
 
 Catalog validation must resolve the repository node ID, confirm the canonical repository URL,
-parse the SPDX expression, inspect the declared evidence paths at `source.commit` and
+parse the complete SPDX expression (including valid parentheses), inspect the declared evidence
+paths at `source.commit` and
 reject identity or provenance mismatches before an entry reaches `eligible`.
 
 ## Creator precedence
