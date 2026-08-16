@@ -1,0 +1,42 @@
+name: Claim a plugin entry
+description: Ask to establish or correct creator ownership for one catalog entry.
+title: "[Claim]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is an unofficial community project, not affiliated with or endorsed by DeepSeek.
+        Submit only public evidence and never include credentials or private personal data.
+  - type: input
+    id: plugin_id
+    attributes:
+      label: Plugin ID
+      description: The lowercase catalog ID, or the proposed ID if no entry is merged yet.
+      placeholder: example-plugin
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Original repository
+      description: Public URL of the original creator repository.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Creator evidence
+      description: Public evidence connecting you or your organization to the repository and plugin.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I understand that a claim is reviewed and does not rewrite merged Git history.
+          required: true
+        - label: I have not included tokens, credentials, private email addresses or other secrets.
+          required: true
+

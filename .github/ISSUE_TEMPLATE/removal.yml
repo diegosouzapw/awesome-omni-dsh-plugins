@@ -1,0 +1,51 @@
+name: Request removal or quarantine
+description: Request removal, quarantine or unavailability review for one catalog entry.
+title: "[Removal]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is an unofficial community project, not affiliated with or endorsed by DeepSeek.
+        Do not publish exploit details. Report plugin vulnerabilities privately to the creator first.
+  - type: input
+    id: plugin_id
+    attributes:
+      label: Plugin ID
+      placeholder: example-plugin
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Original repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Requested action
+      options:
+        - Mark unavailable
+        - Mark archived
+        - Quarantine pending review
+        - Remove the catalog entry
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public, non-sensitive evidence
+      description: Explain the request with public URLs; omit private vulnerability details.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have not included unpublished exploit details or private repository contents.
+          required: true
+        - label: I have not included tokens, credentials, private email addresses or other secrets.
+          required: true
+

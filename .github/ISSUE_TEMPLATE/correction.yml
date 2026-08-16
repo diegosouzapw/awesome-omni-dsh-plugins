@@ -1,0 +1,47 @@
+name: Correct a plugin entry
+description: Report one evidence-backed metadata correction.
+title: "[Correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is an unofficial community project, not affiliated with or endorsed by DeepSeek.
+        Corrections must cite the original repository at an immutable source commit.
+  - type: input
+    id: plugin_id
+    attributes:
+      label: Plugin ID
+      placeholder: example-plugin
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Original repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Requested correction
+      description: State the current value, corrected value and why it is inaccurate.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence
+      description: Link to the original repository and full 40-character commit that proves the change.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The evidence comes from the original creator source, not another catalog.
+          required: true
+        - label: I have not included tokens, credentials, private email addresses or other secrets.
+          required: true
+
