@@ -197,7 +197,7 @@ properties:
         type: string
         minLength: 2
         maxLength: 256
-        pattern: '^(?!-)[A-Za-z0-9.+() -]+$'
+        pattern: '^(?!-)[A-Za-z0-9.+(): -]+$'
     $comment: catalog-core must parse and normalize this value with an SPDX expression parser.
   verification:
     type: object
