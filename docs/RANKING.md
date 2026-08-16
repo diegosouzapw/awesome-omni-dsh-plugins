@@ -7,19 +7,21 @@ combined score and never treat stars from a broad parent project as plugin popul
 
 An entry qualifies only when every condition below is true:
 
-`@text
-kind == plugin
+```text
+kind == plugin (the canonical native DSH bundle discriminator)
 repositoryScope == dedicated
-dsh.integration == native-bundle
 verification.status in [eligible, verified]
 repository is active and not archived
 stars belong to the exact plugin repository
 entry is merged into the public catalog
-`@
+```
 
 Qualifying entries use `popularity.starsPolicy: exact-repository` and a non-negative integer in
 `popularity.stars`. Ties use the case-insensitive plugin ID as a deterministic display order; the
 tie-break does not imply a quality difference.
+
+`kind` is the only artifact-type discriminator. The schema intentionally does not store
+a second DSH integration kind that could contradict it.
 
 ## Explicit exclusions
 
@@ -47,4 +49,3 @@ or fabricated ranking is allowed.
 `eligible` means the public structure and DSH integration were validated. `verified` additionally
 means an installation smoke test passed for the pinned source or package. Neither status is an
 endorsement, guarantee or absolute security certification.
-

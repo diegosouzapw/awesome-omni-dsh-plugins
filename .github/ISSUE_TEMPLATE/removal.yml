@@ -48,4 +48,3 @@ body:
           required: true
         - label: I have not included tokens, credentials, private email addresses or other secrets.
           required: true
-

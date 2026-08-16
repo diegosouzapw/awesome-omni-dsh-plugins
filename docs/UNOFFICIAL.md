@@ -13,4 +13,3 @@ compatibility targets only.
 
 Plugin names, project names, logos, screenshots, code and documentation belong to their respective
 owners and remain subject to their original licenses and trademark policies.
-

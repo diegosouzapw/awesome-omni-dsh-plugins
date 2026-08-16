@@ -23,15 +23,28 @@ is only a lead; it is not evidence for the final public entry.
 
 Provide:
 
-- The original public repository URL and immutable repository node ID.
+- The canonical public repository URL and immutable repository node ID. Catalog validation
+  resolves the node ID and rejects any URL mismatch.
 - The exact plugin subpath, or `null` for a repository-root plugin.
 - A full 40-character source commit OID.
-- The creator's public GitHub handle and profile.
+- The creator's public GitHub handle. The profile URL is derived from that handle.
+- A bounded English summary with its evidence path at the pinned commit.
 - Package and native DSH integration evidence at that commit.
 - The upstream SPDX license expression.
 - Public Discussion or comment provenance when it exists; otherwise use `null`.
+- The machine-readable `unofficial: true` value.
 
 Never submit credentials, cookies, private email addresses, unpublished source or other secrets.
+
+The package descriptor is canonical installation data, never a shell command. An npm descriptor
+must contain a valid package name and exact version. A source descriptor is bound to
+`source.repository`, `source.commit` and `source.subpath` without
+duplicating them. Installers must use argument arrays, disable shell execution and place an option
+terminator before catalog-provided positional values where the invoked command supports it.
+
+Catalog validation must resolve the repository node ID, confirm the canonical repository URL,
+parse the SPDX expression, inspect the declared evidence paths at `source.commit` and
+reject identity or provenance mismatches before an entry reaches `eligible`.
 
 ## Creator precedence
 
@@ -48,12 +61,12 @@ claim or correction request and then contribute a follow-up pull request directl
 Parent-project stars must never be attributed to a plugin stored inside a broader monorepo. Such
 an entry remains eligible for functional catalog sections but must declare:
 
-`@yaml
+```yaml
 repositoryScope: monorepo
 popularity:
   starsPolicy: undefined-parent-repository
   stars: null
-`@
+```
 
 Read [docs/RANKING.md](docs/RANKING.md) before submitting popularity data.
 
@@ -70,4 +83,3 @@ Read [docs/RANKING.md](docs/RANKING.md) before submitting popularity data.
 
 Launch documentation and catalog descriptions are English-only. The 43-locale rollout remains a
 post-MVP backlog item; do not add empty locale documents or automatic bulk translations.
-

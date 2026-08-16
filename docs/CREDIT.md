@@ -18,8 +18,10 @@ contribution.
 
 ## Public attribution
 
-Every catalog entry carries the creator's public GitHub handle and profile, original repository,
-repository node ID, plugin subpath and full pinned commit. Pull request descriptions should say
+Every catalog entry carries the creator's public GitHub handle, original repository, repository
+node ID, plugin subpath and full pinned commit. The public creator profile is derived from the
+single handle instead of being stored as a second identity. Catalog validation resolves the node
+ID and rejects a repository URL mismatch. Pull request descriptions should say
 `Created by @handle` and include source repository and source commit metadata.
 
 A person who posts or comments on a Discussion is not automatically treated as the creator.
@@ -38,4 +40,3 @@ Visible YAML attribution is required independently of Git identity mapping.
 Catalog facts and editorial YAML metadata are dedicated under CC0-1.0. That dedication does not
 change the upstream plugin's license. Upstream code, documentation, screenshots, logos and other
 creative material remain subject to their original licenses and owners.
-

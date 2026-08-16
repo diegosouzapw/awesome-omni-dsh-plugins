@@ -22,6 +22,11 @@ An umbrella repository is not treated as one plugin merely because it contains m
 Catalog the independently installable child artifacts and preserve their actual creator, package
 and source subpath.
 
+The `kind` field is the canonical DSH artifact discriminator. There is no separate
+integration kind: `plugin` already means a native DSH bundle, while
+`ecosystem-project` already means a broader project with DSH integration. This prevents
+contradictory classification pairs.
+
 ## Primary capability categories
 
 | Value | Display label |
@@ -54,4 +59,3 @@ capability tags are allowed when they describe evidence visible in the pinned or
 Use `dedicated` only when repository stars belong to the exact cataloged plugin. Use `monorepo`
 when the plugin is a subpath or package inside a broader project. A monorepo entry must use
 `popularity.starsPolicy: undefined-parent-repository` and `popularity.stars: null`.
-

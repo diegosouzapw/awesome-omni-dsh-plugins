@@ -5,6 +5,8 @@
 - Source repository:
 - Source commit (40-character OID):
 - Plugin subpath:
+- Curated English description evidence path:
+- Canonical package or pinned-source descriptor:
 - Public evidence for DSH integration and package:
 
 ## Checklist
@@ -19,4 +21,3 @@
 
 > This is an unofficial community project. It is not affiliated with, endorsed by, or sponsored
 > by DeepSeek. DeepSeek names and marks belong to their respective owner.
-

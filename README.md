@@ -14,9 +14,9 @@ creator repository, with a pinned source commit and explicit attribution.
 
 ## Install the CLI
 
-`@bash
+```bash
 npx @diegosouzapw/dsh-plugins --help
-`@
+```
 
 The scoped package is released through a separate publication gate. The command above is the
 canonical invocation once that release is available; no installer script is hosted here.
@@ -78,4 +78,3 @@ Documentation and repository templates are licensed under the [MIT License](LICE
 catalog facts and editorial YAML metadata are dedicated under [CC0-1.0](LICENSE-CATALOG).
 Upstream code, names, logos and screenshots remain under their original owners and licenses.
 See [docs/CREDIT.md](docs/CREDIT.md) and [docs/UNOFFICIAL.md](docs/UNOFFICIAL.md).
-
