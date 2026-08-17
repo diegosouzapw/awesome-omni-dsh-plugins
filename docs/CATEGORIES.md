@@ -6,6 +6,8 @@ without duplicating the entry.
 
 ## Artifact kinds
 
+<!-- catalog-policy:aggregators-never-entries -->
+
 | Value | Meaning | Star-ranked as a plugin |
 |---|---|---:|
 | `plugin` | Installable native DSH bundle | Only when every ranking condition is met |
@@ -15,15 +17,14 @@ without duplicating the entry.
 | `preset-profile` | DSH profile or preset | No |
 | `client-interface` | Desktop, TUI, editor or remote client | No |
 | `bridge-adapter` | Integration from another product into DSH | No |
-| `marketplace-catalog` | Catalog or installer marketplace | No |
 | `ecosystem-project` | Broader project containing a DSH integration | No |
 
-An umbrella repository, aggregator, marketplace or list is not accepted as a substitute for a
-plugin entry merely because it contains or links to many plugins. Follow each lead to the
-independently installable child artifact and resolve its actual creator, original repository,
-package and source subpath before submitting it. A genuine creator monorepo may be the original
-repository for a child plugin, but the child must use that exact subpath and the monorepo stars
-policy.
+An umbrella repository, aggregator, marketplace, installer catalog or list is never a catalog
+entry, even when the aggregator itself is installable. It may only be used as a lead. Follow each
+lead to an independently installable child artifact and resolve that artifact's actual creator,
+original repository, package and source subpath before submitting it. A genuine creator monorepo
+may be the original repository for a child plugin, but the child must use that exact subpath and
+the monorepo stars policy.
 
 The `kind` field is the canonical DSH artifact discriminator. There is no separate
 integration kind: `plugin` already means a native DSH bundle, while

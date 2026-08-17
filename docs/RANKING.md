@@ -30,9 +30,10 @@ plugin ranking. It must use `repositoryScope: monorepo`,
 `popularity.starsPolicy: undefined-parent-repository` and `popularity.stars: null`. It appears in
 functional sections and is excluded from every star-based ranking.
 
-Plugin families, themes, skins, skills, presets, clients, interfaces, bridges, marketplaces and
-broader ecosystem projects do not appear in Top Plugins by Stars. They receive separate sections
-where comparable data exists.
+Plugin families, themes, skins, skills, presets, clients, interfaces, bridges and broader
+ecosystem projects do not appear in Top Plugins by Stars. They receive separate sections where
+comparable data exists. Aggregators, marketplaces, installer catalogs and lists are not catalog
+entries and receive no catalog section.
 
 ## Ranking views
 

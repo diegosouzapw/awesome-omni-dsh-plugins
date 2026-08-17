@@ -5,6 +5,8 @@ its creators. Public entries cite the original repository and an immutable sourc
 
 ## Precedence for the same plugin
 
+<!-- creator-first:direct-pr-supersedes-curation-and-automation -->
+
 1. A pull request opened by the plugin creator or owning organization.
 2. A community pull request explicitly approved or co-authored by the creator.
 3. An existing valid community pull request.
@@ -21,8 +23,8 @@ merged, history remains intact and the creator may claim or correct it in a new 
 
 Every catalog entry carries the creator's public GitHub handle, original repository, repository
 node ID, plugin subpath and full pinned commit. The public creator profile is derived from the
-single handle instead of being stored as a second identity. Catalog validation resolves the node
-ID and rejects a repository URL mismatch. Pull request descriptions should say
+single handle instead of being stored as a second identity. The separate maintainer provenance
+gate resolves the node ID and rejects a repository URL mismatch. Pull request descriptions should say
 `Created by @handle` and include source repository and source commit metadata.
 
 A person who posts or comments on a Discussion is not automatically treated as the creator.
@@ -30,6 +32,8 @@ Ownership must be supported by the repository owner or organization, package aut
 metadata or exact pinned source history.
 
 ## Git identity
+
+<!-- creator-first:source-bound-git-identity -->
 
 Commit authorship and pull request authorship are separate. A creator-originated pull request keeps
 the creator as pull request author, and their commits preserve authorship naturally. A maintainer

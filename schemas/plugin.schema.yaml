@@ -59,7 +59,6 @@ properties:
       - preset-profile
       - client-interface
       - bridge-adapter
-      - marketplace-catalog
       - ecosystem-project
   primaryCategory:
     enum:

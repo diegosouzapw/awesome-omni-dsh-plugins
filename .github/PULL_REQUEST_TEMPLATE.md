@@ -1,3 +1,7 @@
+<!-- catalog-policy:one-plugin-per-branch-and-pr -->
+<!-- creator-first:direct-pr-supersedes-curation-and-automation -->
+<!-- creator-first:source-bound-git-identity -->
+
 ## Plugin scope and source
 
 - Plugin ID:
@@ -30,6 +34,7 @@
 - [ ] Dedicated stars are verifiable, or monorepo stars are `null` with `undefined-parent-repository`.
 - [ ] I checked for the same canonical repository/subpath, package and install target.
 - [ ] I understand that a direct creator PR supersedes an open curated or automation PR.
+- [ ] Creator Git authorship is source-bound and verified, or curator authorship keeps visible creator credit.
 - [ ] The entry is explicitly unofficial.
 - [ ] This PR contains no credentials, private contact details or other secrets.
 

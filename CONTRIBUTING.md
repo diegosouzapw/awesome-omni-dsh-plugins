@@ -16,6 +16,8 @@ their work in a curator or automation branch.
 Community curation is welcome when it helps a creator who has not opened a pull request. It does
 not establish ownership or priority over a later direct creator contribution.
 
+<!-- catalog-policy:one-plugin-per-branch-and-pr -->
+
 ## One plugin per branch and pull request
 
 Create a dedicated branch for one plugin and open one pull request from that branch. The branch
@@ -35,17 +37,18 @@ prose, category assignment, screenshots, ranking, badges or generated metadata. 
 an umbrella project, marketplace, list or aggregator is only a lead, not evidence and not the
 plugin source.
 
-Do not submit an umbrella or aggregator as a substitute for its plugins. Resolve each
-independently installable plugin to its actual creator and original repository. A plugin in its
-creator's real monorepo can be submitted from its exact subpath, but it must follow the monorepo
-stars policy below.
+Never submit an umbrella, aggregator, marketplace, installer catalog or list as a catalog entry,
+even when it is independently installable. Use it only as a lead and resolve each independently
+installable child plugin to its actual creator and original repository. A plugin in its creator's
+real monorepo can be submitted from its exact subpath, but it must follow the monorepo stars policy
+below.
 
 ## Required evidence
 
 Provide all of the following in the pull request:
 
 - The canonical public URL of the original repository and its immutable repository node ID.
-  Catalog validation resolves the node ID and rejects a URL mismatch.
+  Maintainers resolve the node ID and reject URL mismatches in the separate provenance gate.
 - The creator's public GitHub handle and matching public profile URL. YAML stores the handle once;
   the profile URL is derived as `https://github.com/<handle>`.
 - A full 40-character source commit OID and the exact plugin subpath, or `null` for a
@@ -88,9 +91,19 @@ Installers must use argument arrays, disable shell execution and place an option
 catalog-provided positional values where the invoked command supports it. Submission validation
 must not invoke an installer or plugin lifecycle.
 
-Catalog validation also resolves repository identity, confirms the canonical repository URL,
-parses the complete SPDX expression, inspects declared evidence paths at `source.commit` and
-rejects identity or provenance mismatches before an entry reaches `eligible`.
+<!-- catalog-validation:local-structure-and-semantics-only -->
+
+`catalog validate` is a local, read-only structural and semantic check. It parses safe YAML,
+validates the public schema, parses SPDX expressions, requires exact SemVer and valid SHA-512 SRI,
+and rejects duplicate IDs and canonical repository-node-plus-subpath keys. It does not contact
+GitHub, resolve repository identity or inspect evidence paths at the pinned commit.
+
+<!-- maintainer-gate:repository-origin-and-pinned-evidence -->
+
+Before an entry reaches `eligible`, maintainers separately resolve the canonical repository and
+node ID, bind the creator to the original source, and inspect the declared description, license,
+DSH integration and smoke evidence at `source.commit`. A local green validation result is not
+provenance or origin proof.
 
 ## Repository stars
 
@@ -108,6 +121,8 @@ popularity:
 A dedicated entry uses `repositoryScope: dedicated`, `starsPolicy: exact-repository` and the
 non-negative star count observed on that same repository. Read
 [docs/RANKING.md](docs/RANKING.md) before submitting popularity data.
+
+<!-- creator-first:direct-pr-supersedes-curation-and-automation -->
 
 ## Creator precedence and respectful contact
 
@@ -128,6 +143,8 @@ A curated pull request should use one respectful public `@creator` mention in it
 next to a link to the original repository, inviting the creator to review or replace it with a
 direct pull request. Do not repeat the mention, open promotional issues, cross-post, send
 unsolicited direct messages or otherwise spam the creator.
+
+<!-- creator-first:source-bound-git-identity -->
 
 Creator-authored pull requests and commits preserve creator credit naturally. Curated commits may
 use creator Git authorship or a `Co-authored-by` trailer only with a source-bound, publicly
@@ -152,10 +169,12 @@ npx @diegosouzapw/dsh-plugins catalog docs-check .
 npx @diegosouzapw/dsh-plugins catalog github-forms-check .
 ```
 
-`catalog validate` validates YAML, the public schema and semantic rules, and accepts the
-intentional zero-entry catalog. The other commands check the required public documentation and
-structured GitHub issue forms. Until the package is released, maintainers apply the corresponding
-release gates; the absence of a published command does not relax the evidence requirements.
+`catalog validate` performs only the local YAML, schema, SPDX, exact SemVer, SHA-512 SRI and
+duplicate checks described above, and accepts the intentional zero-entry catalog. It does not
+prove remote repository identity or pinned-source evidence. The other commands check the required
+public documentation and structured GitHub issue forms. Until the package is released,
+maintainers apply the corresponding release gates; the absence of a published command does not
+relax the evidence requirements.
 
 ## Review gates, collisions and merge
 
