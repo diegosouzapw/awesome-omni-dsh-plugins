@@ -11,10 +11,11 @@ its creators. Public entries cite the original repository and an immutable sourc
 4. A catalog automation pull request.
 5. A private candidate with no public pull request.
 
-When a creator pull request appears while an automation pull request is open, the automation pull
-request is superseded. The creator's branch is never overwritten or force-pushed. If an automated
-entry already merged, history remains intact and the creator may claim or correct it in a new
-contribution.
+A direct creator pull request is always preferred and supersedes any open community curation or
+automation pull request for the same canonical plugin, regardless of which opened first or is
+further along. The creator's pull request becomes the review vehicle; their branch is never
+overwritten, force-pushed or transplanted into the curated pull request. If a curated entry already
+merged, history remains intact and the creator may claim or correct it in a new contribution.
 
 ## Public attribution
 
@@ -30,10 +31,27 @@ metadata or exact pinned source history.
 
 ## Git identity
 
-Commit authorship and pull request authorship are separate. Never guess a creator's email or use a
-private address found outside an authorized public source. Add a `Co-authored-by` trailer only when
-the creator supplied the exact address or it is already verifiably associated with their account.
-Visible YAML attribution is required independently of Git identity mapping.
+Commit authorship and pull request authorship are separate. A creator-originated pull request keeps
+the creator as pull request author, and their commits preserve authorship naturally. A maintainer
+or automation account may appear as committer or as a verified co-author, but must not replace the
+creator's authorship.
+
+For a curated commit, use the creator as Git author or add a `Co-authored-by` trailer only when the
+exact identity is source-bound and publicly verifiable, such as an identity already attached to
+the creator's commit in the original repository. Never guess an email, manufacture a noreply
+address or use a private address found outside an authorized public source.
+
+When a verified Git identity is unavailable, the curator or automation account authors the commit
+and gives explicit visible credit instead: `Created by @handle`, the matching public profile and a
+link to the original repository in the entry and pull request. Visible YAML attribution is always
+required independently of Git identity mapping. A later direct creator pull request replaces an
+open curated pull request rather than inheriting its synthetic history.
+
+## Respectful creator mention
+
+A curated pull request uses one respectful public `@creator` mention in its description next to
+the original repository link. It may invite review or a replacement direct pull request. Do not
+repeat the mention, open promotional issues, cross-post or send unsolicited direct messages.
 
 ## Catalog license versus upstream license
 

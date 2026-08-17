@@ -18,9 +18,12 @@ without duplicating the entry.
 | `marketplace-catalog` | Catalog or installer marketplace | No |
 | `ecosystem-project` | Broader project containing a DSH integration | No |
 
-An umbrella repository is not treated as one plugin merely because it contains many plugins.
-Catalog the independently installable child artifacts and preserve their actual creator, package
-and source subpath.
+An umbrella repository, aggregator, marketplace or list is not accepted as a substitute for a
+plugin entry merely because it contains or links to many plugins. Follow each lead to the
+independently installable child artifact and resolve its actual creator, original repository,
+package and source subpath before submitting it. A genuine creator monorepo may be the original
+repository for a child plugin, but the child must use that exact subpath and the monorepo stars
+policy.
 
 The `kind` field is the canonical DSH artifact discriminator. There is no separate
 integration kind: `plugin` already means a native DSH bundle, while
