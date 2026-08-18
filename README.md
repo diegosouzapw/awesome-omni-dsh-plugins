@@ -18,8 +18,8 @@ creator repository, with a pinned source commit and explicit attribution.
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-The scoped package is released through a separate publication gate. The command above is the
-canonical invocation once that release is available; no installer script is hosted here.
+The scoped package is published as `@diegosouza.pw/dsh-plugins@0.1.0` and the command above is
+the canonical invocation today; no installer script is hosted here.
 
 ## Catalog sections
 
