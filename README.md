@@ -15,7 +15,7 @@ creator repository, with a pinned source commit and explicit attribution.
 ## Install the CLI
 
 ```bash
-npx @diegosouzapw/dsh-plugins --help
+npx @diegosouza.pw/dsh-plugins --help
 ```
 
 The scoped package is released through a separate publication gate. The command above is the

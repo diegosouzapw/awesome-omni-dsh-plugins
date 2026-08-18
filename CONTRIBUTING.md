@@ -156,25 +156,24 @@ or verified co-author, but must not replace the creator's authorship. See
 
 ## Validation commands and availability
 
-The npm CLI has not been released yet. The commands below are implemented, but they become
-available through `npx` only after `@diegosouzapw/dsh-plugins` is published. They are not a claim
-that a public CI workflow or install path is currently available, and contributors should not
-invent substitute commands.
+The npm CLI is published as `@diegosouza.pw/dsh-plugins@0.1.0`, so the commands below are
+available through `npx` today. Use them exactly as written; contributors should not invent
+substitute commands.
 
-After the npm release, run these commands from the repository root:
+Run these commands from the repository root:
 
 ```bash
-npx @diegosouzapw/dsh-plugins catalog validate --catalog .
-npx @diegosouzapw/dsh-plugins catalog docs-check .
-npx @diegosouzapw/dsh-plugins catalog github-forms-check .
+npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
+npx @diegosouza.pw/dsh-plugins catalog docs-check .
+npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` performs only the local YAML, schema, SPDX, exact SemVer, SHA-512 SRI and
 duplicate checks described above, and accepts the intentional zero-entry catalog. It does not
 prove remote repository identity or pinned-source evidence. The other commands check the required
-public documentation and structured GitHub issue forms. Until the package is released,
-maintainers apply the corresponding release gates; the absence of a published command does not
-relax the evidence requirements.
+public documentation and structured GitHub issue forms. Passing these commands locally does not
+relax the evidence requirements; maintainers still apply every corresponding release gate before
+merging.
 
 ## Review gates, collisions and merge
 
