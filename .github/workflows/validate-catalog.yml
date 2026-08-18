@@ -1,0 +1,24 @@
+name: validate-catalog
+
+on:
+  pull_request:
+    paths:
+      - "catalog/plugins/**"
+      - "schemas/**"
+      - ".github/workflows/validate-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog-validation:
+    name: catalog-validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate catalog
+        run: npx --yes @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
