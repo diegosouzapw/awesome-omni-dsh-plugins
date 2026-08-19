@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dsh-pet-remielle
+name: dsh-pet-remielle
+description:
+  en: 'Hot-pluggable desktop pet for the DSH web GUI: a transparent floating Remielle companion (Zenless Zone Zero) that switches animated moods while the agent works.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+- desktop-pet
+- companion
+- web-ui
+- animation
+- fun
+source:
+  repository: https://github.com/Gin-7/dsh-pet-remielle
+  repositoryNodeId: R_kgDOT5B6oA
+  subpath: null
+  commit: 897fc30b275c794cf3d6d88319915a61f2f16ee8
+creator:
+  github: Gin-7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19 03:42:12.470000+00:00
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null
