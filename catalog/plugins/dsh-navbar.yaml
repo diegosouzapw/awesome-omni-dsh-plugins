@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: dsh-navbar
+name: "@vlln/dsh-navbar"
+description:
+  en: 对话节点导航条——user 消息快速跳转（自渲染 DOM，官方 client 通道）
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - user
+  - client
+  - dsh
+source:
+  repository: https://github.com/vlln/dsh-navbar
+  repositoryNodeId: R_kgDOT0bTDw
+  subpath: null
+  commit: 08c1acf164c779a09584b7199cced1f0d59399ce
+creator:
+  github: vlln
+package:
+  ecosystem: npm
+  name: "@vlln/dsh-navbar"
+  version: 0.3.0
+  integrity: sha512-dMynNNnKuePm1HgNOCe2tEe86OecPn7KJEUWAQunf/d0TPQV6yyQ+prPle7ztvpyHFXsqACErzyqP2tn75l1EQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:17.974Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 46
+provenance:
+  discussion: null
+  comment: null
