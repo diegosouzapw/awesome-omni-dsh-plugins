@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: meow-memory
+name: meow-memory
+description:
+  en: "Cross-session project memory for DeepSeek Harness: seven-layer SQLite memory, first-turn snapshot injection, per-message keyword hits, memory remember/search/project tools, automatic reflection with reflection-fold UI, and nightly dream consolidation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+  - agent-memory
+  - project-memory
+  - cross
+  - session
+  - seven
+  - layer
+  - sqlite
+  - first
+  - turn
+  - snapshot
+  - injection
+  - message
+source:
+  repository: https://github.com/Phant0Meow/dsh-meow-memory
+  repositoryNodeId: R_kgDOT4MGmA
+  subpath: null
+  commit: fbe6bded4b5dcf4c9c66c01a4f866780ea351fcf
+creator:
+  github: Phant0Meow
+package:
+  ecosystem: npm
+  name: meow-memory
+  version: 0.10.0
+  integrity: sha512-mLD8p8mIbOb4sNaMCGTuvjhDSUNYUWFNfylFCDScgpk8aBru+wKSV4Xgk9iMHBeI8sofKNeWrqBGjDCkqv14Yg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:10:01.045Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 17
+provenance:
+  discussion: null
+  comment: null
