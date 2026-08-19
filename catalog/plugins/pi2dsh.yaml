@@ -6,7 +6,7 @@ description:
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: vision-audio-multimodal
+primaryCategory: data-external-services
 tags:
   - deepseek-harness
   - dsh-plugin
