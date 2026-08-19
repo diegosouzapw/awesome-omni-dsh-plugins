@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dsh-themes
+name: dsh-themes
+description:
+  en: 'Appearance and themes plugin for DeepSeek Harness: built-in palettes, light/dark/system mode and VS Code theme import for the web GUI.'
+  evidencePath: README.md
+unofficial: true
+kind: skin-theme
+primaryCategory: entertainment-customization
+tags:
+- themes
+- appearance
+- dark-mode
+- vscode-themes
+- web-ui
+source:
+  repository: https://github.com/MangMax/dsh-themes
+  repositoryNodeId: R_kgDOT35ZdQ
+  subpath: null
+  commit: 85fe103cc2792da5eec2d57b045509256a5206d1
+creator:
+  github: MangMax
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19 03:45:10.555000+00:00
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
