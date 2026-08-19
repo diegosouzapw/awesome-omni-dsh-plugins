@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-commandcode-provider
+name: "@mars-sea/dsh-commandcode-provider"
+description:
+  en: Unofficial DeepSeek Harness LLM provider plugin for Command Code, ported from pi-commandcode-provider (MIT). Registers the 'commandcode' provider route with a Models-page card and live model catalog.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - commandcode
+  - command-code
+  - llm
+  - adapter
+  - provider
+  - bundle
+  - unofficial
+  - command
+  - code
+  - ported
+  - registers
+  - route
+  - models
+  - page
+source:
+  repository: https://github.com/Mars-Sea/dsh-commandcode-provider
+  repositoryNodeId: R_kgDOT4UInw
+  subpath: null
+  commit: c2d14917cf38c2f625989a4204f8d9489be9743e
+creator:
+  github: Mars-Sea
+package:
+  ecosystem: npm
+  name: "@mars-sea/dsh-commandcode-provider"
+  version: 0.5.0
+  integrity: sha512-dddmfAJEmOgKuklXf33UFOvdpjWZK9foaui4QUOsI3guQt4ZjVtnT3C0KGUp7kdZkFJvgD9BjnJiJEJeuqb0aQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:08.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 69
+provenance:
+  discussion: null
+  comment: null
