@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-visual-plugin
+name: dsh-visual-plugin
+description:
+  en: "Vision bridge plugin for DeepSeek Harness: when the main model has no vision, forward user images to a configurable OpenAI-compatible vision model and show results in a Web UI right panel. Host tool + browser half, distributed as a dsh bundle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - vision
+  - bridge
+  - main
+  - model
+  - forward
+  - user
+  - images
+  - configurable
+  - openai
+  - compatible
+  - show
+  - results
+  - right
+  - panel
+  - host
+  - tool
+source:
+  repository: https://github.com/jyh20030112/dsh-visual-plugin
+  repositoryNodeId: R_kgDOT3-N4g
+  subpath: null
+  commit: 21d67581f14f0d977feeca1cf93fed3be7737a2f
+creator:
+  github: jyh20030112
+package:
+  ecosystem: npm
+  name: dsh-visual-plugin
+  version: 0.2.7
+  integrity: sha512-ImpIWWAYFfzSZ+NMQ6NdFlhIQLfm6ksOpGMmsWFDbSh4MnUnvt8XSkOAI8nrlPun4uWWYiKkDObqaqHLmsEI3Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:34.369Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
