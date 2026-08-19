@@ -2,7 +2,7 @@ schemaVersion: 1
 id: dsh-recommend
 name: dsh-recommend
 description:
-  en: DSH 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态 + 公开评分模型 + rank/recommend/search 工具 + 设置页排行标签
+  en: "A plugin leaderboard and recommendation source for DeepSeek Harness: a scheduled pipeline re-scans the GitHub dsh-plugin topic every 5 hours and scores it with a published model, surfaced as rank/recommend/search tools, a settings-page ranking tab and a static leaderboard site."
   evidencePath: README.md
 unofficial: true
 kind: plugin
