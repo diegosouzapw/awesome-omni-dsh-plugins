@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: dsh-change-review
+name: dsh-change-review
+description:
+  en: DeepSeek Harness 会话修改审查：追踪会话内 write/edit 工具调用，以可自定义颜色的 diff 对比展示；会话隔离、子代理聚合、SSE 实时推送。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - diff
+  - review
+  - write
+  - edit
+source:
+  repository: https://github.com/cirelir/dsh-change-review
+  repositoryNodeId: R_kgDOT5QGIA
+  subpath: null
+  commit: 1f2de55b3f95dd1c513e713fe56664648ca2e447
+creator:
+  github: cirelir
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:09.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
