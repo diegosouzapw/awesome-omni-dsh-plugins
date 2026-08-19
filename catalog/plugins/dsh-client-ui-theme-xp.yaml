@@ -5,7 +5,7 @@ description:
   en: "Windows XP Luna desktop theme for the DeepSeek Harness web GUI: floating window manager with taskbar and desktop icons, Explorer-style workspace/session browser, native directory picker, search and the Luna token palette."
   evidencePath: README.md
 unofficial: true
-kind: plugin
+kind: skin-theme
 primaryCategory: entertainment-customization
 tags:
   - dsh

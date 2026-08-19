@@ -6,7 +6,7 @@ description:
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: diagnostics-observability
+primaryCategory: browser-automation
 tags:
   - deepseek-harness
   - computer-use
