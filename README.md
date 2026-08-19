@@ -25,7 +25,7 @@ catalog data, schema and policies they consume.
 
 ## Catalog status
 
-**0 plugins merged.** Every plugin enters through an individually reviewed pull request.
+**9 plugins merged.** Every plugin enters through an individually reviewed pull request.
 
 The catalog intentionally starts empty. Entries are added one at a time from the original
 creator repository, with a pinned source commit and explicit attribution.
