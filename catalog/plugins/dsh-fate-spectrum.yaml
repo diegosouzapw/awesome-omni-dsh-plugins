@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-fate-spectrum
 name: dsh-fate-spectrum
 description:
-  en: 四柱八字与紫微斗数排盘 Bundle for DeepSeek Harness.
+  en: "A deterministic Chinese astrology charting plugin for DeepSeek Harness: computes BaZi (Four Pillars) and Zi Wei Dou Shu charts as structured, agent-callable tools, keeps candidate charts when the birth hour is unknown or near a day boundary, and asks for missing details instead of guessing."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: memory-rag
+primaryCategory: entertainment-customization
 tags:
   - deepseek-harness
   - dsh-plugin
