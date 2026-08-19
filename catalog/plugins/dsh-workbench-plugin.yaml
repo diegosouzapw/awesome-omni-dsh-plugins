@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-workbench-plugin
 name: dsh-workbench-plugin
 description:
-  en: DeepSeek Harness Web UI 工作台：聊天 / 编辑器（语法高亮） / 文件与 Git、侧边栏、模型工具
+  en: "A three-column workbench for the DeepSeek Harness Web UI: chat on the left, a CodeMirror editor and local PTY terminal in the center, and a right dock with the file tree, Git including streamed AI commit messages, a usage and balance panel, and Ultra Slash commands."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: coding-developer-tools
+primaryCategory: user-interface-dashboards
 tags:
   - dsh
 source:
