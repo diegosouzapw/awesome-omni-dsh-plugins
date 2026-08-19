@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-auto-collapse
 name: dsh-auto-collapse
 description:
-  en: DeepSeek Harness Web 客户端插件：把会话里的工具卡片与 Think 推理块折叠成一行，折叠态实时显示当前正在进行的工作（工具名 + 正在执行的命令/参数、或思考内容），运行中带流光动画；点击展开/收起。让界面只保留模型说的话。
+  en: "A front-end plugin for the DeepSeek Harness Web chat that collapses the working process: tool cards and Think blocks fold into one-line summaries per turn and expand level by level, styled with native DSH icons and tokens, and every collapsed node is restored when the plugin is removed."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: coding-developer-tools
+primaryCategory: user-interface-dashboards
 tags:
   - dsh
   - deepseek-harness
