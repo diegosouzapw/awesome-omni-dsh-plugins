@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dsh-tavily-workspace
+name: dsh-tavily-workspace
+description:
+  en: 'Tavily search integration for DeepSeek Harness: an opt-in advanced search tool with multi-key management, a usage gauge and a Tavily Search settings card.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+- tavily
+- web-search
+- search-tool
+- api-keys
+- settings
+source:
+  repository: https://github.com/moguiyu/dsh-tavily
+  repositoryNodeId: R_kgDOT5QALQ
+  subpath: null
+  commit: bc0d8a651256b5c1768a954002cc7f44e1985274
+creator:
+  github: moguiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19 03:47:37.594000+00:00
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
