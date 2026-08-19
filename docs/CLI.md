@@ -1,5 +1,7 @@
 # CLI Reference — `@diegosouza.pw/dsh-plugins@0.1.0`
 
+> 🌐 **English** · [Português (Brasil)](i18n/pt-BR/CLI.md) · [中文（简体）](i18n/zh-CN/CLI.md)
+
 > **Unofficial community project. Not affiliated with, endorsed by, or sponsored by DeepSeek.**
 > DeepSeek names and marks belong to their respective owner.
 
