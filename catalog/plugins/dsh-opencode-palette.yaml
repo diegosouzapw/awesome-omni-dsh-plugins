@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-opencode-palette
 name: dsh-opencode-palette
 description:
-  en: DSH Web 多主题引擎：完整支持 opencode TUI 全部 34 个主题（33 内置 + system）。数据驱动三层管线：主题 JSON → 颜色解析 → DSH 适配注入。
+  en: "Brings the opencode colour schemes to the DeepSeek Harness web UI: all 34 themes (33 built in plus `system`), delivered through the official DSH bundle mechanism — the package ships its own cordis.patch.yml, so `dsh plugin add` and `dsh plugin remove` wire and unwire the theme with no file editing."
   evidencePath: README.md
 unofficial: true
-kind: plugin
-primaryCategory: user-interface-dashboards
+kind: skin-theme
+primaryCategory: entertainment-customization
 tags:
   - opencode
   - system
