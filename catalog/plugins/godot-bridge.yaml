@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: godot-bridge
+name: godot-bridge
+description:
+  en: "DSH (DeepSeek Harness) plugin: launch and drive a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - godot
+  - godot-engine
+  - godot-plugin
+  - mcp
+  - game-development
+  - ai-agent
+  - launch
+  - drive
+  - running
+  - game
+  - through
+  - interaction
+  - server
+source:
+  repository: https://github.com/Smalldy/godot-bridge
+  repositoryNodeId: R_kgDOT4fcwA
+  subpath: null
+  commit: e586db3fdd29bfa367caa9b46ac6daee2d9ac287
+creator:
+  github: Smalldy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:18.989Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
