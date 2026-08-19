@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-mcp-lens
+name: dsh-mcp-lens
+description:
+  en: Cut MCP context and API cost in DeepSeek Harness with two model-facing tools, lazy discovery, and exact-schema calls
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - mcp-gateway
+  - model-context-protocol
+  - progressive-disclosure
+  - context-optimization
+  - cost-optimization
+  - tool-discovery
+  - tool-routing
+  - context
+  - cost
+  - model
+  - facing
+  - tools
+source:
+  repository: https://github.com/labmimors/dsh-mcp-lens
+  repositoryNodeId: R_kgDOT4aglQ
+  subpath: null
+  commit: d6ff88b976ad2898786049bbeb1f29f85ee492e3
+creator:
+  github: sluckyli2023
+package:
+  ecosystem: npm
+  name: dsh-mcp-lens
+  version: 0.1.0-rc.9
+  integrity: sha512-P4GwpIf8s4bo97BnGiQUHsYrQSz9K1RFto3GExrW2lZjwEcXq9dmwkHKLgDadlWd8BUWUO9Su41N/UEpmIrH8A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:39.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
