@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: dsh-desktop-bridge
+name: "@deepseek-ai/dsh-desktop-bridge"
+description:
+  en: "Host half of the desktop shell bridge: settings, balance, Explorer, and bounded Search routes"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - host
+  - half
+  - desktop
+  - shell
+  - bridge
+  - settings
+  - balance
+  - explorer
+  - bounded
+  - search
+  - routes
+  - dsh
+source:
+  repository: https://github.com/tsdaer/dsh-desktop
+  repositoryNodeId: R_kgDOT44kBg
+  subpath: apps/desktop/bridge
+  commit: f74dd8a2a4d38452bffb3f398ae933f5364429f7
+creator:
+  github: tsdaer
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/desktop/bridge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:39:27.106Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
