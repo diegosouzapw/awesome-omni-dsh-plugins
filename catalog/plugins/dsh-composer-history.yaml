@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-composer-history
+name: dsh-composer-history
+description:
+  en: "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace-scoped recall, and fully configurable keys — plus sliding-context awareness (compaction summaries join recall/search, a compaction notic"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web-gui
+  - composer
+  - input-history
+  - keyboard-shortcuts
+  - terminal
+  - compaction
+  - sliding-context
+  - context-window
+  - typescript
+  - ui
+  - style
+  - input
+  - history
+source:
+  repository: https://github.com/PerryLink/dsh-composer-history
+  repositoryNodeId: R_kgDOT3r_7g
+  subpath: null
+  commit: 0d53b7022c4ad265883e269ab4e7b1af2c1befe6
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-composer-history
+  version: 0.5.0
+  integrity: sha512-2mE7e2t/xF/O9k0fjxgbhmJ18yMpnRApoJaGiAEFN0hXGekM5K1ElGYv1saM1dQ+5axrqvI2J1/6d+9V3rXmtA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:16.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
