@@ -6,7 +6,7 @@ description:
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: sessions-productivity
+primaryCategory: user-interface-dashboards
 tags:
   - deepseek-harness
   - dsh-plugin
