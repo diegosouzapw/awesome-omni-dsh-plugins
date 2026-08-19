@@ -2,7 +2,7 @@ schemaVersion: 1
 id: model-catalog
 name: model-catalog
 description:
-  en: dsh 插件：模型目录自动发现 —— 从 OpenAI 兼容 API 主机自动拉取模型列表、定价与能力，归一化后生成可直接使用的配置。
+  en: "Model-catalog auto-discovery for DeepSeek Harness: probes a configured OpenAI-compatible host (official API, relay gateway, Ollama, vLLM), pulls model listings, pricing and capability flags, normalizes units and provenance, and writes ready-to-use model configuration."
   evidencePath: README.md
 unofficial: true
 kind: plugin
