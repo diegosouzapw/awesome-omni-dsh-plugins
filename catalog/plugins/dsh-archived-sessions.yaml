@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dsh-archived-sessions
+name: dsh-archived-sessions
+description:
+  en: View and restore archived DeepSeek Harness sessions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - archived-sessions
+  - view
+  - restore
+  - archived
+  - sessions
+source:
+  repository: https://github.com/smackgg/dsh-archived-sessions
+  repositoryNodeId: R_kgDOT4O1rA
+  subpath: null
+  commit: 7f58de3e5fc1dd6f0262b47c3e0735312b956312
+creator:
+  github: smackgg
+package:
+  ecosystem: npm
+  name: dsh-archived-sessions
+  version: 0.1.0
+  integrity: sha512-C2XvQuRh1FjsZxW54L4soDN7iDYlHeYFmcUVS9Es3r5IhJ6rwOsih6EN24uuYIsxBa7hdJ6IdFaVqzpQWAeYSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:51.843Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
