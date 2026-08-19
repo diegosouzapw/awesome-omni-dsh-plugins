@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-usage-chart
 name: dsh-usage-chart
 description:
-  en: DeepSeek 用量 / 成本 / 余额仪表盘 for DSH Web：输入框下方实时指标指示器 + 零依赖 SVG 用量可视化图表（含每轮成本视角、耗时叠加、异常标记、成本徽章、上下文压力条），token 数据来自官方 adapter 上报，成本按官方刊例价 + 用户覆盖 pricing.json 解析，余额来自官方 /user/balance 接口。
+  en: "A usage, cost and balance dashboard for the DeepSeek Harness Web UI: a live indicator under the composer plus a zero-dependency SVG panel with per-turn token and cost views, peak and off-peak CNY/USD list pricing, a context-pressure bar, and the official /user/balance query."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: models-providers-routing
+primaryCategory: diagnostics-observability
 tags:
   - dsh
   - dsh-plugin
