@@ -2,7 +2,7 @@ schemaVersion: 1
 id: anime-find
 name: "@cocofhu/anime-find"
 description:
-  en: DeepSeek Harness 插件：对话内多源搜番，卡片详情、磁力复制与规则流媒体在线播放
+  en: "An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and AnimeGarden into clickable cards in the chat, with per-fansub episode lists, magnet and .torrent links, Bangumi details, and an optional rule-based streaming tab."
   evidencePath: README.md
 unofficial: true
 kind: plugin
