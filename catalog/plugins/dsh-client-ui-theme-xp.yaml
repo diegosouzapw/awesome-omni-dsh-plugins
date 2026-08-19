@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-client-ui-theme-xp
+name: dsh-client-ui-theme-xp
+description:
+  en: "Windows XP Luna desktop theme for the DeepSeek Harness web GUI: floating window manager with taskbar and desktop icons, Explorer-style workspace/session browser, native directory picker, search and the Luna token palette."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - theme
+  - windows-xp
+  - luna
+  - ui
+  - windows
+  - desktop
+  - floating
+  - window
+  - manager
+  - taskbar
+  - icons
+  - explorer
+  - style
+  - workspace
+source:
+  repository: https://github.com/SamizuHM/dsh-client-ui-theme-xp
+  repositoryNodeId: R_kgDOT4UM1A
+  subpath: null
+  commit: 3cc412f4e877c127dea2e5b6e3413e5ddc95ce97
+creator:
+  github: SamizuHM
+package:
+  ecosystem: npm
+  name: dsh-client-ui-theme-xp
+  version: 0.1.1
+  integrity: sha512-PAD3jNggSUsiRSIKvEZs/QrGEx3L3cdwO/WE4XuTnPfn6Wyglt6ThClfuvBm+/ozw0Cn+mQapM03t9dcn+IODQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:48.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
