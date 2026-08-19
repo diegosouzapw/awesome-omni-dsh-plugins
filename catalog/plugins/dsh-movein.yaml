@@ -2,7 +2,7 @@ schemaVersion: 1
 id: dsh-movein
 name: dsh-movein
 description:
-  en: Migrate your whole Claude Code or Codex setup into DeepSeek Harness (DSH) with one command - import skills, slash commands, MCP servers, hooks, subagents, permission rules. 一键迁移导入，从 Claude Code 拎包入住 DSH。
+  en: "A setup migration tool for DeepSeek Harness: moves a Claude Code or Codex configuration over in one command, converting skills, slash commands, subagents, MCP servers, hooks and permission rules, with a dry run by default, a movein_from_claude_code tool, a doctor check and a reverse mode."
   evidencePath: README.md
 unofficial: true
 kind: plugin
