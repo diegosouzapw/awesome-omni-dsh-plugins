@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: dsh-blue-whale
+name: dsh-blue-whale
+description:
+  en: A DeepSeek Chat-style blue-whale color skin. Light and dark follow the built-in appearance.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - blue-whale
+  - chat
+  - style
+  - blue
+  - whale
+  - color
+  - light
+  - dark
+  - follow
+  - built
+  - appearance
+source:
+  repository: https://github.com/starslittle/dsh-blue-whale
+  repositoryNodeId: R_kgDOT4mb6g
+  subpath: null
+  commit: e18aa1e27e98df98c478b8d24076a94e64d43ed5
+creator:
+  github: starslittle
+package:
+  ecosystem: npm
+  name: dsh-blue-whale
+  version: 0.1.0
+  integrity: sha512-fQRkkY86lygqGKCjbW1qMQGU+sso854vJM8WiG36G6f+izejnT48y0qWqshMAIleZatRzcEYPJFZrziRtuxJdA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:22.805Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
