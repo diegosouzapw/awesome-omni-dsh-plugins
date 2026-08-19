@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-clawrouter
+name: dsh-clawrouter
+description:
+  en: A second brain for your DeepSeek Harness agent — strong-model review before risky tool calls, plus 67 models from one wallet. No accounts, no API keys.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - blockrun
+  - clawrouter
+  - x402
+  - llm-router
+  - code-review
+  - second
+  - brain
+  - agent
+  - strong
+  - model
+  - review
+  - before
+  - risky
+  - tool
+source:
+  repository: https://github.com/BlockRunAI/dsh-clawrouter
+  repositoryNodeId: R_kgDOT34UjA
+  subpath: null
+  commit: 18fc2466cdea00d3854323b01756b51eec190029
+creator:
+  github: VickyXAI
+package:
+  ecosystem: npm
+  name: dsh-clawrouter
+  version: 0.10.1
+  integrity: sha512-m8Vyhlpl3k42jB7j2cB4ulPh2bMyaA6bSk2QmotdFswQ4x5kvUGezrVYgsYmFlTLS3ydGpE2yetIXM7kcbOXKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:47.059Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
