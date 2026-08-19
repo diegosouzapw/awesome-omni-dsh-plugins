@@ -31,7 +31,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-19 03:47:37.594000+00:00
+  checkedAt: "2026-08-19T03:47:37.594Z"
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
