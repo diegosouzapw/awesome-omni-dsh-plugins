@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-evolve-modes
+name: "@graysilver/dsh-evolve-modes"
+description:
+  en: Composable working, reasoning, quality, and human-reviewed self-evolution controls for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ai-agents
+  - prompt-engineering
+  - agent-review
+  - plan-mode
+  - acceptance-review
+  - composable
+  - working
+  - reasoning
+  - quality
+  - human
+  - reviewed
+  - self
+  - evolution
+source:
+  repository: https://github.com/GraySilver/dsh-evolve-modes
+  repositoryNodeId: R_kgDOT5_geA
+  subpath: null
+  commit: d1f717c8e7e6deae21e6f8e22c728c8572999cc9
+creator:
+  github: GraySilver
+package:
+  ecosystem: npm
+  name: "@graysilver/dsh-evolve-modes"
+  version: 0.3.1
+  integrity: sha512-uklsf/Hd/JC7efwvkScFK+sIByMxHFcsH/bhwFbt9remTkCo5TJBvWUxEQBYUTwN0JRq3qmc+oZeJT0WZT8y2A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:51.596Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null
