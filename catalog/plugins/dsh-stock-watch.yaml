@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-stock-watch
 name: dsh-stock-watch
 description:
-  en: A股自选股实时行情盯盘插件 - DeepSeek Harness Web 右上角可折叠弹窗（分时/K线/目标价/主题切换/可拖动/添加股票分组）
+  en: "A watchlist ticker panel for the DeepSeek Harness Web UI: a draggable, edge-snapping pill in the top-right corner tracks Chinese A-share quotes on a 10-second refresh, with grouped lists, intraday and candlestick charts, editable target prices, and buttons that open a new DSH session for analysis."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: search-research
+primaryCategory: data-external-services
 tags:
   - dsh
   - deepseek-harness
