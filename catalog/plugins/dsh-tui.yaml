@@ -30,7 +30,7 @@ license:
   spdx: BSD-3-Clause
 verification:
   status: eligible
-  checkedAt: 2026-08-19 03:42:52.261000+00:00
+  checkedAt: "2026-08-19T03:42:52.261Z"
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
