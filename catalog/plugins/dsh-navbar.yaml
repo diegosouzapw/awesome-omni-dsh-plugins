@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-navbar
 name: "@vlln/dsh-navbar"
 description:
-  en: 对话节点导航条——user 消息快速跳转（自渲染 DOM，官方 client 通道）
+  en: "A conversation navigation rail for DeepSeek Harness: one node per user message along the right edge of the chat, hover preview cards, click and scroll-wheel jumping, a sliding window past 11 nodes, and a pin button that marks a chosen assistant reply."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: coding-developer-tools
+primaryCategory: user-interface-dashboards
 tags:
   - user
   - client
