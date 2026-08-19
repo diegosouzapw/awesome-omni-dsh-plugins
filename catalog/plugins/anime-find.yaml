@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: anime-find
+name: "@cocofhu/anime-find"
+description:
+  en: DeepSeek Harness 插件：对话内多源搜番，卡片详情、磁力复制与规则流媒体在线播放
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - anime
+  - mikan
+  - bangumi
+source:
+  repository: https://github.com/cocofhu/anime-find
+  repositoryNodeId: R_kgDOT5RvJA
+  subpath: null
+  commit: 66f21a9836b33709041aa72853a2edadb771a87b
+creator:
+  github: cocofhu00
+package:
+  ecosystem: npm
+  name: "@cocofhu/anime-find"
+  version: 0.1.11
+  integrity: sha512-cJ1IiP0C4nEo09SihwSTlfzDjzBaH3yxtNrlNDDMZtlHrLlwTuIEtdzdEWiJNMzH+W94LbKJucKxwW4Tiy6OKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:25:57.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 152
+provenance:
+  discussion: null
+  comment: null
