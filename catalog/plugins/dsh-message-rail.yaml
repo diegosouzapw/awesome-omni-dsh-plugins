@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: dsh-message-rail
+name: dsh-message-rail
+description:
+  en: Codex 风格左侧消息导航轨道：等距刻度 + 悬停波纹 + 预览浮层 + 点击跳转用户消息
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - message-rail
+  - navigation
+  - codex
+source:
+  repository: https://github.com/wx-yss/dsh-message-rail
+  repositoryNodeId: R_kgDOT5KJdA
+  subpath: null
+  commit: 2efb1ded515d5f2a490c2057790d4eb1655b6f8c
+creator:
+  github: wx-yss
+package:
+  ecosystem: npm
+  name: dsh-message-rail
+  version: 0.1.3
+  integrity: sha512-m86PHr7G0qQ1h/zl4MNUXCR5GvwEk8CRM66022TrBn57Qk8fFwZLpdK6TH/8USJbVApzpAeeU4wRKsIM9wAXtg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:03.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
