@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dsh-whale-musume
+name: dsh-whale-musume
+description:
+  en: 'Whale-girl Kanban Musume mascot for the DeepSeek Harness web GUI: an animated dashboard companion that reacts to agent activity.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+- mascot
+- companion
+- web-ui
+- animation
+- fun
+source:
+  repository: https://github.com/Sutera-Diffusus/dsh-whale-musume
+  repositoryNodeId: R_kgDOT5YdoQ
+  subpath: null
+  commit: 032ff113d75116d573a555bc32eca52f788dbdc9
+creator:
+  github: Sutera-Diffusus
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19 03:42:13.693000+00:00
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
