@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-win32
 name: dsh-win32
 description:
-  en: "在 Windows 上把 DSH 用起来。一行装好极简模式的持久 shell，沙箱内也能用 Get DSH working on Windows: persistent shell for Minimal mode, sandbox included"
+  en: "A Windows compatibility bundle for DeepSeek Harness: swaps in a win32-aware subprocess runtime so persistent PTY shells work, ships the minimal-windows and sandboxed busybox presets, decodes GBK and UTF-16 file reads, and adds dsh-win32 setup and doctor commands."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: security-permissions-approvals
+primaryCategory: coding-developer-tools
 tags:
   - dsh
   - dsh-plugin
