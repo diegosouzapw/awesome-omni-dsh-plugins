@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: dsh-workbench-plugin
+name: dsh-workbench-plugin
+description:
+  en: DeepSeek Harness Web UI 工作台：聊天 / 编辑器（语法高亮） / 文件与 Git、侧边栏、模型工具
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+source:
+  repository: https://github.com/loadingvx/deepseek-harness-workbench-plugin
+  repositoryNodeId: R_kgDOT5Ea5w
+  subpath: null
+  commit: 96bc9be1a8efa946a16eee3d20d2c02f3fab85fe
+creator:
+  github: loadingvx
+package:
+  ecosystem: npm
+  name: dsh-workbench-plugin
+  version: 0.1.21
+  integrity: sha512-wfvVItcKqmaDBIbd9GGLFK5eiEKehvfZQyIyhZmS+qiIv30WrVeLzS33RaOXHcilrAFanIQ/y2NqyO3rH6HbDA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:41.909Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
