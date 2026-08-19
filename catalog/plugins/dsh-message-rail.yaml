@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-message-rail
 name: dsh-message-rail
 description:
-  en: Codex 风格左侧消息导航轨道：等距刻度 + 悬停波纹 + 预览浮层 + 点击跳转用户消息
+  en: "A left-side message navigation rail for the DeepSeek Harness Web UI: one evenly spaced tick per user message, hover previews showing index, relative time and text, click-to-jump with highlight, background indexing of the whole session history, and virtualized rendering."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: messaging-notifications
+primaryCategory: user-interface-dashboards
 tags:
   - dsh
   - dsh-plugin
