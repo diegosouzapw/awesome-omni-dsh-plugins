@@ -6,7 +6,7 @@ description:
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: user-interface-dashboards
+primaryCategory: vision-audio-multimodal
 tags:
   - image
   - generation
