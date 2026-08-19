@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: dsh-plugin-genui
+name: dsh-plugin-genui
+description:
+  en: Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - generative-ui
+  - genui
+  - mcp
+  - react
+  - task
+  - specific
+  - apps
+  - state
+  - carried
+  - next
+  - agent
+  - turn
+  - dsh
+source:
+  repository: https://github.com/pengyue-polaron/deepseek-harness-genui
+  repositoryNodeId: R_kgDOT4uuiA
+  subpath: null
+  commit: 59fa47b01281bf34dd1234f153ae60d2dc30a759
+creator:
+  github: pengyue-polaron
+package:
+  ecosystem: npm
+  name: dsh-plugin-genui
+  version: 0.13.1
+  integrity: sha512-CS6w286p3PJfSFHvfijhgRUG7fgJ/fGofmqiy4NmYMDgq91E0nxhoO05GCalcDFzjXEY5zt/MZJuuJy9S/8Nkw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:16.543Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 49
+provenance:
+  discussion: null
+  comment: null
