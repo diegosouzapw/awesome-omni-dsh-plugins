@@ -1,5 +1,7 @@
 # Contributing
 
+> 🌐 **English** · [Português (Brasil)](docs/i18n/pt-BR/CONTRIBUTING.md) · [中文（简体）](docs/i18n/zh-CN/CONTRIBUTING.md)
+
 > **Unofficial community project. Not affiliated with, endorsed by, or sponsored by DeepSeek.**
 > DeepSeek names and marks belong to their respective owner.
 
