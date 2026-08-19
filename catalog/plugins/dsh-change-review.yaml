@@ -2,7 +2,7 @@ schemaVersion: 1
 id: dsh-change-review
 name: dsh-change-review
 description:
-  en: DeepSeek Harness 会话修改审查：追踪会话内 write/edit 工具调用，以可自定义颜色的 diff 对比展示；会话隔离、子代理聚合、SSE 实时推送。
+  en: "A session change-review panel for DeepSeek Harness: tracks write and edit tool calls per session, renders line-level diffs with configurable colors, aggregates subagent changes into the parent session, pushes updates over SSE, and reverts a single change or a whole file."
   evidencePath: README.md
 unofficial: true
 kind: plugin
