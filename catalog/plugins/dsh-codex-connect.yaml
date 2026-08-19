@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: dsh-codex-connect
+name: dsh-codex-connect
+description:
+  en: ChatGPT OAuth and Codex models for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - openai-codex
+  - chatgpt-oauth
+  - oauth
+  - codex
+  - chatgpt
+  - models
+  - dsh
+source:
+  repository: https://github.com/franksong2702/dsh-codex-connect
+  repositoryNodeId: R_kgDOT33VZQ
+  subpath: null
+  commit: ed7eaf2da664885637033961522b5cb2e6e861ce
+creator:
+  github: Yan-Zero
+package:
+  ecosystem: npm
+  name: dsh-codex-connect
+  version: 0.1.0-alpha.4.10
+  integrity: sha512-Da8WIdhfaXAV0HcBnlCsyLRz/RhNnSxS5+DWXKKmvMULpTfCc/tIKh2YVawA+/k+NU33mHCLK3RcmnriVZWCqA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:25.621Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 29
+provenance:
+  discussion: null
+  comment: null
