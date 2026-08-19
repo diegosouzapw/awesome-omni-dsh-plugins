@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: dsh-background-agents
+name: dsh-background-agents
+description:
+  en: "Interactive long-session background agents plus persistent multi-agent team rooms for DeepSeek Harness: durable continuable child agents with progress, steering and interruption, and cross-session team rooms with a message bus, shared task board, approval-gated handoffs and a shared timeline that survive DSH restarts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - background-agent
+  - background-agents
+  - agent-dashboard
+  - conversation-steering
+  - team-rooms
+  - multi-agent
+  - message-bus
+  - task-board
+  - collaboration
+  - interactive
+  - long
+  - session
+source:
+  repository: https://github.com/PerryLink/dsh-background-agents
+  repositoryNodeId: R_kgDOT38lTw
+  subpath: null
+  commit: 6be49a39e5a154ac5d79efb2c3990fa55f64882c
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-background-agents
+  version: 0.5.4
+  integrity: sha512-MQvqWlJktgzEb3DtAxcpzp8iMn1mS9wkzAgEjiicfQc8tpe+weXNajWdRLpgjvTcqgxqlUJ4aLQRwxcGmCtGUg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:44.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
