@@ -6,7 +6,7 @@ description:
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: models-providers-routing
+primaryCategory: coding-developer-tools
 tags:
   - dsh
   - deepseek-harness
