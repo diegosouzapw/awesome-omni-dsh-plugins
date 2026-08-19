@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: dsh-plugin
+name: "@loongsuite/dsh-plugin"
+description:
+  en: Standalone OpenTelemetry GenAI observability plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - opentelemetry
+  - otel
+  - otlp
+  - genai
+  - observability
+  - loongsuite
+  - standalone
+source:
+  repository: https://github.com/loongsuite/dsh-plugin
+  repositoryNodeId: R_kgDOT49nog
+  subpath: null
+  commit: 5e893af6172beb703a98b56ccc5e443495287732
+creator:
+  github: ralf0131
+package:
+  ecosystem: npm
+  name: "@loongsuite/dsh-plugin"
+  version: 0.1.1
+  integrity: sha512-wQmSzOzyjp0rd3XKFmcK+vXRETqVr0V7xL5qh8El2RujteV4Gkc1vz1OxTG12lQZrjKVWV5ixRRJU1HDlBafog==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:00.510Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
