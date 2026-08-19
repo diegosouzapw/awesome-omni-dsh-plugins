@@ -82,16 +82,16 @@ repository, pinned at the exact commit the catalog validated.
 
 | #   | Plugin | Creator | ★ | Category | What it does |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization: the model renders interactive charts and diagrams inside the session |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Hot-pluggable transparent desktop pet (Remielle, Zenless Zone Zero) for the DSH web GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animated whale-girl Kanban Musume mascot that reacts to dashboard activity |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Full-screen curses-style terminal chat client for driving dsh sessions |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interactive pi-tui terminal front door: session picker, streaming chat, keybindings |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Opt-in Tavily advanced search tool with multi-key management and a usage gauge |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Floating bilibili video widget: recommendations, trending, rankings and search |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Appearance plugin: built-in palettes, light/dark/system mode, VS Code themes |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Non-commercial Arknights astral-garden skin featuring Pramanix and Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-authenticated WebSocket bridge for the companion browser extension |
+| 1 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 2 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 3 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 4 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 5 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
+| 6 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | UI & dashboards | DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by… |
+| 7 | [workflow](https://github.com/omdsh-dev/dsh_workflow) | [@icetomoyo](https://github.com/icetomoyo) | 88 | Coding & dev tools | KodaX-parity dynamic workflow harness for DeepSeek Harness |
+| 8 | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | [@taekchef](https://github.com/taekchef) | 79 | UI & dashboards | DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the… |
+| 9 | [dsh-vision](https://github.com/oil-oil/dsh-vision) | [@oil-oil](https://github.com/oil-oil) | 70 | Vision & multimodal | Near-native image understanding for text-only DeepSeek Harness models |
+| 10 | [dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) | [@Mars-Sea](https://github.com/Mars-Sea) | 69 | Models & routing | Unofficial DeepSeek Harness LLM provider plugin for Command Code, ported from pi-commandcode-provider (MIT… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@ catalog data, schema and policies they consume.
 
 ## Catalog status
 
-**10 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
+**86 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
 a time, from the original creator repository, with a pinned source commit and explicit
 attribution.
 
@@ -167,16 +167,8 @@ WSL. Read-only and dry-run commands work everywhere.
 
 ## 🔍 How a plugin enters the catalog
 
-```mermaid
-flowchart LR
-    A["Creator repository<br/>(pinned commit)"] --> B["One branch,<br/>one PR,<br/>one YAML entry"]
-    B --> C["catalog-validation CI<br/>(schema + local semantics)"]
-    C --> D["Maintainer gates<br/>(identity, creator binding,<br/>pinned evidence)"]
-    D --> E["catalog/plugins/*.yaml<br/>merged"]
-    E --> F["Website"]
-    E --> G["CLI"]
-    E --> H["catalog.json feeds"]
-```
+![How a plugin enters the catalog](./docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![How a plugin enters the catalog](./docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **One plugin, one branch, one pull request.** The PR adds or changes exactly one YAML file
    under `catalog/plugins/`.

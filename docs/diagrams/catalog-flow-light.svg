@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 806" role="img" aria-roledescription="flowchart" aria-labelledby="dg-title" aria-describedby="dg-desc">
+<title id="dg-title">How a plugin enters the catalog animated diagram</title>
+<desc id="dg-desc">Top-down flow diagram; dashed connectors animate in the direction of flow and dots ride the main paths. All information is also conveyed by the static layout.</desc>
+<style>:root{--bg:#f8fafc;--grid:#e2e8f0;--panel:#ffffff;--panel2:#f1f5f9;--line:#cbd5e1;--ink:#0f172a;--soft:#334155;--muted:#475569;--dim:#64748b;--bnd-region:#b45309;--bnd-subnet:#be123c;--f-frontend:rgba(34,211,238,0.14);--f-backend:rgba(52,211,153,0.14);--f-database:rgba(167,139,250,0.16);--f-cloud:rgba(251,191,36,0.18);--f-security:rgba(251,113,133,0.14);--f-bus:rgba(251,146,60,0.18);--f-external:rgba(148,163,184,0.22)}.ink{fill:var(--ink)}.soft{fill:var(--soft)}.muted{fill:var(--muted)}.dim{fill:var(--dim)}.panel{fill:var(--panel)}.f-frontend{fill:var(--f-frontend)}.f-backend{fill:var(--f-backend)}.f-database{fill:var(--f-database)}.f-cloud{fill:var(--f-cloud)}.f-security{fill:var(--f-security)}.f-bus{fill:var(--f-bus)}.f-external{fill:var(--f-external)}.bg{fill:var(--bg);stroke:var(--line)}.panel2{fill:var(--panel2);stroke:var(--line)}.grid{stroke:var(--grid)}.bnd-region{stroke:var(--bnd-region)}.bnd-subnet{stroke:var(--bnd-subnet)}.bnd-region-t{fill:var(--bnd-region)}.bnd-subnet-t{fill:var(--bnd-subnet)}@media (prefers-reduced-motion: reduce){.dot{display:none}}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" class="grid" stroke-width="0.5"/></pattern></defs>
+<rect width="760" height="806" rx="12" class="bg"/>
+<rect width="760" height="806" rx="12" fill="url(#grid)"/>
+<g font-family="Consolas, 'Courier New', monospace">
+<circle cx="39" cy="30" r="5" fill="#34d399"><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="54" y="35" class="ink" font-size="18" font-weight="600">How a plugin enters the catalog</text>
+<text x="54" y="56" class="muted" font-size="11">Creator-first curation: one plugin, one branch, one pull request</text>
+</g>
+<g fill="none">
+<path d="M380 176 V228" stroke="#10b981" stroke-width="1.5" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 290 V342" stroke="#10b981" stroke-width="1.5" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 404 V456" stroke="#10b981" stroke-width="1.5" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 518 V570" stroke="#10b981" stroke-width="1.5" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 632 V660 H214.5 V684" stroke="#10b981" stroke-width="1" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 632 V660 H354.5 V684" stroke="#10b981" stroke-width="1" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+<path d="M380 632 V660 H520 V684" stroke="#10b981" stroke-width="1" opacity="0.85" stroke-dasharray="5 5" marker-end="url(#arrow)"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.75s" repeatCount="indefinite"/></path>
+</g>
+<g>
+<circle r="3.5" class="dot" fill="#22d3ee"><animateMotion id="j0_0" dur="0.6s" begin="0s;j0_4.end+0.6s" fill="freeze" path="M380 176 V228"/></circle>
+<circle r="3.5" class="dot" fill="#22d3ee"><animateMotion id="j0_1" dur="0.6s" begin="j0_0.end+0.3s" fill="freeze" path="M380 290 V342"/></circle>
+<circle r="3.5" class="dot" fill="#22d3ee"><animateMotion id="j0_2" dur="0.6s" begin="j0_1.end+0.3s" fill="freeze" path="M380 404 V456"/></circle>
+<circle r="3.5" class="dot" fill="#22d3ee"><animateMotion id="j0_3" dur="0.6s" begin="j0_2.end+0.3s" fill="freeze" path="M380 518 V570"/></circle>
+<circle r="3.5" class="dot" fill="#22d3ee"><animateMotion id="j0_4" dur="1.4s" begin="j0_3.end+0.3s" fill="freeze" path="M380 632 V660 H214.5 V684"/></circle>
+<circle r="3.5" class="dot" fill="#a78bfa"><animateMotion id="j1_0" dur="0.6s" begin="0s;j1_0.end+0.6s" fill="freeze" path="M380 632 V660 H354.5 V684"/></circle>
+<circle r="3.5" class="dot" fill="#f472b6"><animateMotion id="j2_0" dur="1.3s" begin="0s;j2_0.end+0.6s" fill="freeze" path="M380 632 V660 H520 V684"/></circle>
+</g>
+<g font-family="Consolas, 'Courier New', monospace" text-anchor="middle">
+<rect x="298" y="118" width="164" height="58" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="380" y="144" class="ink" font-size="13" font-weight="500"><tspan x="380">Creator repository</tspan><tspan x="380" dy="15">(pinned commit)</tspan></text>
+<rect x="298" y="232" width="164" height="58" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="380" y="258" class="ink" font-size="13" font-weight="500"><tspan x="380">One branch, one</tspan><tspan x="380" dy="15">PR, one YAML entry</tspan></text>
+<rect x="267.5" y="346" width="225" height="58" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="380" y="372" class="ink" font-size="13" font-weight="500"><tspan x="380">catalog-validation CI</tspan><tspan x="380" dy="15">(schema + local semantics)</tspan></text>
+<rect x="245.5" y="460" width="269" height="58" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="380" y="486" class="ink" font-size="13" font-weight="500"><tspan x="380">Maintainer gates (identity,</tspan><tspan x="380" dy="15">creator binding, pinned evidence)</tspan></text>
+<rect x="283.5" y="574" width="193" height="58" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="380" y="600" class="ink" font-size="13" font-weight="500"><tspan x="380">catalog/plugins/*.yaml</tspan><tspan x="380" dy="15">merged</tspan></text>
+<rect x="159.5" y="688" width="110" height="44" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="214.5" y="714" class="ink" font-size="13" font-weight="500">Website</text>
+<rect x="299.5" y="688" width="110" height="44" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="354.5" y="714" class="ink" font-size="13" font-weight="500">CLI</text>
+<rect x="439.5" y="688" width="161" height="44" rx="8" fill="rgba(16,185,129,0.04)" stroke="#10b981"/>
+<text x="520" y="714" class="ink" font-size="13" font-weight="500">catalog.json feeds</text>
+</g>
+<g font-family="Consolas, 'Courier New', monospace">
+<text x="34" y="794" class="dim" font-size="10">Community-maintained and unofficial. Not affiliated with, endorsed by, or sponsored by DeepSeek.</text>
+</g>
+</svg>
