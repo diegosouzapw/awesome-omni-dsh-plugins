@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-vision-proxy
+name: dsh-vision-proxy
+description:
+  en: "DeepSeek brain + automatic image transcription for DeepSeek Harness: a deepseek-vision provider route that transcribes attached images to text via any OpenAI-compatible VLM before delegating to the text-only DeepSeek adapter. Paid fast path with a key (DashScope/Zhipu/OpenRouter...), zero-config local Ollama auto-detec"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - multimodal
+  - image
+  - image-understanding
+  - ocr
+  - vlm
+  - qwen
+  - dashscope
+  - brain
+  - automatic
+  - transcription
+  - provider
+  - route
+source:
+  repository: https://github.com/Flyvhidbwo/dsh-vision-proxy
+  repositoryNodeId: R_kgDOT3bpkw
+  subpath: null
+  commit: 0108d1a5c2e07e607be81b136516fc947d479cd9
+creator:
+  github: Flyvhidbwo
+package:
+  ecosystem: npm
+  name: dsh-vision-proxy
+  version: 0.2.5
+  integrity: sha512-KlHr7xqfLcCBRQMh7W8DZieA0TgDqwOOO+/IEaPx/IwVsPK5t/8bd1DtjibmlQrf5F15UfxI+SxCrOxo255NCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:14.452Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
