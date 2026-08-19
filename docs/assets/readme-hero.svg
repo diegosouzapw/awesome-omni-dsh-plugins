@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-label="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Every entry pinned to a source commit, credited to its creator, merged one reviewed PR at a time. Browse and install at dsh-plugins.omniroute.online">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#101a2b"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#79c0ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="230" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="0" y="222" width="1200" height="8" rx="4" fill="url(#accent)"/>
+
+  <!-- plug glyph -->
+  <g transform="translate(64,58)" stroke="#79c0ff" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M28 0 v28"/>
+    <path d="M62 0 v28"/>
+    <path d="M10 28 h70 v22 a35 35 0 0 1 -70 0 z"/>
+    <path d="M45 85 v22"/>
+  </g>
+  <g transform="translate(64,58)">
+    <circle cx="45" cy="52" r="8" fill="#3fb950"/>
+  </g>
+
+  <text x="200" y="86" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#e6edf3">Awesome Omni DSH Plugins</text>
+  <text x="200" y="126" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="21" fill="#8b949e">Creator-first catalog &amp; one-command install for DeepSeek Harness plugins</text>
+  <text x="200" y="162" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" fill="#e6edf3">
+    <tspan fill="#79c0ff">pinned source commits</tspan>
+    <tspan fill="#484f58">  ·  </tspan>
+    <tspan fill="#3fb950">credited creators</tspan>
+    <tspan fill="#484f58">  ·  </tspan>
+    <tspan fill="#d29922">one reviewed PR per plugin</tspan>
+  </text>
+  <text x="200" y="200" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" font-weight="700" fill="#58a6ff">dsh-plugins.omniroute.online</text>
+
+  <text x="1136" y="200" text-anchor="end" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" fill="#484f58">unofficial community project</text>
+</svg>

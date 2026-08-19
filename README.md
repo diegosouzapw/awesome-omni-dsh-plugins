@@ -1,9 +1,113 @@
-# Awesome Omni DSH Plugins
+<div align="center">
+
+<img src="docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Pinned source commits, credited creators, one reviewed PR per plugin. dsh-plugins.omniroute.online"/>
+
+# 🧩 Awesome Omni DSH Plugins
 
 > **Unofficial community project. Not affiliated with, endorsed by, or sponsored by DeepSeek.**
 > DeepSeek names and marks belong to their respective owner.
 
-Creator-first discovery and one-command installation for DeepSeek Harness (DSH) plugins.
+Creator-first discovery and one-command installation for **DeepSeek Harness (DSH)** plugins.
+
+<h2>
+  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+</h2>
+<h3>
+  <a href="https://dsh-plugins.omniroute.online">Browse, search and install every plugin on the website →</a>
+</h3>
+
+[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](LICENSE)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+
+<br/>
+
+<b>🌐 In 43 languages</b>
+<br/><br/>
+<a href="README.md"><img src="docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
+<a href="docs/i18n/pt-BR/README.md"><img src="docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
+<a href="docs/i18n/zh-CN/README.md"><img src="docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
+<a href="docs/i18n/zh-TW/README.md"><img src="docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
+<a href="docs/i18n/pt/README.md"><img src="docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
+<a href="docs/i18n/es/README.md"><img src="docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
+<a href="docs/i18n/fr/README.md"><img src="docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
+<a href="docs/i18n/it/README.md"><img src="docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
+<a href="docs/i18n/de/README.md"><img src="docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
+<a href="docs/i18n/nl/README.md"><img src="docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
+<a href="docs/i18n/ru/README.md"><img src="docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
+<a href="docs/i18n/uk-UA/README.md"><img src="docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
+<a href="docs/i18n/pl/README.md"><img src="docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
+<a href="docs/i18n/cs/README.md"><img src="docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
+<a href="docs/i18n/sk/README.md"><img src="docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
+<a href="docs/i18n/ro/README.md"><img src="docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
+<a href="docs/i18n/hu/README.md"><img src="docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
+<a href="docs/i18n/bg/README.md"><img src="docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
+<a href="docs/i18n/da/README.md"><img src="docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
+<a href="docs/i18n/fi/README.md"><img src="docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
+<a href="docs/i18n/no/README.md"><img src="docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
+<a href="docs/i18n/sv/README.md"><img src="docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
+<a href="docs/i18n/ja/README.md"><img src="docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
+<a href="docs/i18n/ko/README.md"><img src="docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
+<a href="docs/i18n/th/README.md"><img src="docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
+<a href="docs/i18n/vi/README.md"><img src="docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
+<a href="docs/i18n/id/README.md"><img src="docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
+<a href="docs/i18n/ms/README.md"><img src="docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
+<a href="docs/i18n/phi/README.md"><img src="docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
+<a href="docs/i18n/in/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
+<a href="docs/i18n/hi/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
+<a href="docs/i18n/gu/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
+<a href="docs/i18n/mr/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
+<a href="docs/i18n/ta/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
+<a href="docs/i18n/te/README.md"><img src="docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
+<a href="docs/i18n/bn/README.md"><img src="docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
+<a href="docs/i18n/ur/README.md"><img src="docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
+<a href="docs/i18n/fa/README.md"><img src="docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
+<a href="docs/i18n/ar/README.md"><img src="docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
+<a href="docs/i18n/he/README.md"><img src="docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
+<a href="docs/i18n/tr/README.md"><img src="docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
+<a href="docs/i18n/az/README.md"><img src="docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
+<a href="docs/i18n/sw/README.md"><img src="docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
+
+</div>
+
+---
+
+## ⭐ Top 10 plugins
+
+Ranked by exact-repository stars — only stars earned by the plugin's own repository count, never
+a parent project's ([ranking predicate](docs/RANKING.md)). Every name links to the creator's
+repository, pinned at the exact commit the catalog validated.
+
+| #   | Plugin | Creator | ★ | Category | What it does |
+| --- | ------ | ------- | --- | -------- | ------------ |
+| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization: the model renders interactive charts and diagrams inside the session |
+| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Hot-pluggable transparent desktop pet (Remielle, Zenless Zone Zero) for the DSH web GUI |
+| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animated whale-girl Kanban Musume mascot that reacts to dashboard activity |
+| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Full-screen curses-style terminal chat client for driving dsh sessions |
+| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interactive pi-tui terminal front door: session picker, streaming chat, keybindings |
+| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Opt-in Tavily advanced search tool with multi-key management and a usage gauge |
+| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Floating bilibili video widget: recommendations, trending, rankings and search |
+| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Appearance plugin: built-in palettes, light/dark/system mode, VS Code themes |
+| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Non-commercial Arknights astral-garden skin featuring Pramanix and Eyjafjalla |
+| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-authenticated WebSocket bridge for the companion browser extension |
+
+<div align="center">
+
+### 👉 [**Search all plugins, read the details and copy the install command on the website →**](https://dsh-plugins.omniroute.online) 👈
+
+</div>
+
+## At a glance
+
+| Surface     | What it is                                                       | Where                                                                    |
+| ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Website** | Rendered catalog browser with search and ranking                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Catalog** | One YAML file per plugin, the single source of truth             | [`catalog/plugins/`](catalog/plugins)                                    |
+| **Schema**  | Public JSON Schema (draft 2020-12) every entry validates against | [`schemas/plugin.schema.yaml`](schemas/plugin.schema.yaml)               |
+| **CLI**     | Search, inspect, validate and install from the catalog           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Machine feeds** | `catalog.json` + `catalog.snapshot.json` for tools           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 This repository is the public source of truth for the catalog. Every listing is one YAML file
 under `catalog/plugins/`, validated against a published JSON Schema, added through one
@@ -11,26 +115,16 @@ individually reviewed pull request, and always credited to the plugin's original
 Nothing in the catalog is generated from another catalog or list: each entry is reconstructed
 from the original creator repository at a pinned commit.
 
-## At a glance
-
-| Surface     | What it is                                                       | Where                                                                    |
-| ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Catalog** | One YAML file per plugin, the single source of truth             | [`catalog/plugins/`](catalog/plugins)                                    |
-| **Schema**  | Public JSON Schema (draft 2020-12) every entry validates against | [`schemas/plugin.schema.yaml`](schemas/plugin.schema.yaml)               |
-| **CLI**     | Search, inspect, validate and install from the catalog           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Website** | Rendered catalog browser                                         | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-
 The website and the CLI are maintained from private source; this repository carries the public
 catalog data, schema and policies they consume.
 
 ## Catalog status
 
-**10 plugins merged.** Every plugin enters through an individually reviewed pull request.
+**10 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
+a time, from the original creator repository, with a pinned source commit and explicit
+attribution.
 
-The catalog intentionally starts empty. Entries are added one at a time from the original
-creator repository, with a pinned source commit and explicit attribution.
-
-## Install the CLI
+## 🚀 Install the CLI
 
 ```bash
 npx @diegosouza.pw/dsh-plugins --help
@@ -39,7 +133,7 @@ npx @diegosouza.pw/dsh-plugins --help
 The scoped package is published as `@diegosouza.pw/dsh-plugins@0.1.0` and the command above is
 the canonical invocation today; no installer script is hosted here.
 
-## Use the CLI today
+### Use the CLI today
 
 Version 0.1.0 ships read-only discovery and validation commands plus consent-gated install
 commands. The full command reference, including flags, exit codes and the code-execution
@@ -71,7 +165,18 @@ Mutating commands (`add`, `update`, `remove`) never execute plugin lifecycle cod
 pass `--allow-code-execution`. On native Windows those mutations are disabled in v0.1.0; use
 WSL. Read-only and dry-run commands work everywhere.
 
-## How a plugin enters the catalog
+## 🔍 How a plugin enters the catalog
+
+```mermaid
+flowchart LR
+    A["Creator repository<br/>(pinned commit)"] --> B["One branch,<br/>one PR,<br/>one YAML entry"]
+    B --> C["catalog-validation CI<br/>(schema + local semantics)"]
+    C --> D["Maintainer gates<br/>(identity, creator binding,<br/>pinned evidence)"]
+    D --> E["catalog/plugins/*.yaml<br/>merged"]
+    E --> F["Website"]
+    E --> G["CLI"]
+    E --> H["catalog.json feeds"]
+```
 
 1. **One plugin, one branch, one pull request.** The PR adds or changes exactly one YAML file
    under `catalog/plugins/`.
@@ -90,7 +195,7 @@ The complete contract — required evidence, YAML rules, stars policy, collision
 review gates — is in [CONTRIBUTING.md](CONTRIBUTING.md). How decisions are made and by whom is
 in [docs/GOVERNANCE.md](docs/GOVERNANCE.md).
 
-## Anatomy of an entry
+## 📄 Anatomy of an entry
 
 Each entry is one YAML file named after its ID. The example below validates against the current
 schema (field-by-field reference in [docs/SCHEMA.md](docs/SCHEMA.md)):
@@ -151,23 +256,7 @@ Key invariants enforced by the schema:
 - `verified` status requires reviewable smoke-test evidence; otherwise the entry is `eligible`
   with `smokeTest: null`.
 
-## Catalog sections
-
-The catalog will be rendered from merged YAML entries only. Each artifact appears once in its
-primary section and can be discovered through tags.
-
-- Native plugins by capability: no entries yet.
-- Plugin families: no entries yet.
-- Themes and skins: no entries yet.
-- Clients and interfaces: no entries yet.
-- Skills and presets: no entries yet.
-- Bridges and ecosystem integrations: no entries yet.
-- Alphabetical index: no entries yet.
-
-A star-ranked table is not shown until an eligible plugin is merged. It becomes **Top 10** only
-after ten entries satisfy the public ranking predicate.
-
-## What belongs here
+## 🗂 What belongs here
 
 This repository catalogs independently published integrations for DeepSeek Harness (DSH),
 including native plugins, plugin families, themes, skills, clients and bridges. Artifact kinds,
@@ -177,7 +266,7 @@ Each public record is one YAML file under `catalog/plugins/` and must validate a
 `schemas/plugin.schema.yaml`. A listing means the documented eligibility or verification checks
 were completed; it is not a security certification or DeepSeek endorsement.
 
-## Ranking and verification
+## 🏅 Ranking and verification
 
 Only dedicated, native, eligible or verified plugin repositories with stars belonging to that
 exact repository can enter a star ranking. Integrations stored inside broader monorepos remain
@@ -188,7 +277,7 @@ Public verification states distinguish structural eligibility from an installati
 No state represents absolute safety. Review a plugin's repository, pinned commit, license and
 installation behavior before using it.
 
-## Contribute or claim an entry
+## 🤝 Contribute or claim an entry
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. A pull request must add or
 change exactly one plugin entry and must cite the original creator repository rather than another
@@ -197,7 +286,27 @@ catalog. Creator-authored pull requests take precedence over automated catalog p
 Structured issue forms are available for creator claims, corrections and removals. Never submit
 credentials, private contact details or other secrets.
 
-## Documentation
+## 👩‍🎨 Plugin creators
+
+The catalog exists because these creators shipped plugins. Every entry credits its creator and
+links back to their repository — always.
+
+<a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
+<a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
+<a href="https://github.com/Sutera-Diffusus" title="@Sutera-Diffusus — dsh-whale-musume"><img src="https://github.com/Sutera-Diffusus.png?size=64" width="64" height="64" alt="@Sutera-Diffusus"/></a>
+<a href="https://github.com/gxinxing" title="@gxinxing — deepseek-harness-tui"><img src="https://github.com/gxinxing.png?size=64" width="64" height="64" alt="@gxinxing"/></a>
+<a href="https://github.com/turtle1999" title="@turtle1999 — dsh-tui"><img src="https://github.com/turtle1999.png?size=64" width="64" height="64" alt="@turtle1999"/></a>
+<a href="https://github.com/moguiyu" title="@moguiyu — dsh-tavily-workspace"><img src="https://github.com/moguiyu.png?size=64" width="64" height="64" alt="@moguiyu"/></a>
+<a href="https://github.com/pyf2818" title="@pyf2818 — dsh-bili-widget"><img src="https://github.com/pyf2818.png?size=64" width="64" height="64" alt="@pyf2818"/></a>
+<a href="https://github.com/MangMax" title="@MangMax — dsh-themes"><img src="https://github.com/MangMax.png?size=64" width="64" height="64" alt="@MangMax"/></a>
+<a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
+<a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
+
+Want your plugin here with full credit? [Open one PR with one YAML entry](CONTRIBUTING.md) — or
+[claim an existing entry](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+if someone cataloged your work before you did.
+
+## 📚 Documentation
 
 | Document                                     | What it covers                                                       |
 | -------------------------------------------- | -------------------------------------------------------------------- |
@@ -211,14 +320,24 @@ credentials, private contact details or other secrets.
 | [docs/RANKING.md](docs/RANKING.md)           | The public ranking predicate and verification states                  |
 | [docs/UNOFFICIAL.md](docs/UNOFFICIAL.md)     | Unofficial status and trademark posture                               |
 
-## Language roadmap
+## 🌐 Translations
 
-The launch documentation is English-only. Support for the complete 43-locale OmniRoute language
-set is an explicit post-MVP backlog item; empty or machine-filled locale pages are not shipped.
+This README is available in 43 languages under [`docs/i18n/`](docs/i18n) — use the flag selector
+at the top. English is the source of truth; when a translation and the English text disagree,
+the English text governs. Corrections to any translation are welcome through normal pull
+requests.
 
-## License and attribution
+## 📜 License and attribution
 
 Documentation and repository templates are licensed under the [MIT License](LICENSE). Original
 catalog facts and editorial YAML metadata are dedicated under [CC0-1.0](LICENSE-CATALOG).
 Upstream code, names, logos and screenshots remain under their original owners and licenses.
 See [docs/CREDIT.md](docs/CREDIT.md) and [docs/UNOFFICIAL.md](docs/UNOFFICIAL.md).
+
+<div align="center">
+
+### ⭐ If this catalog helped you find a plugin, star the repo — it helps creators get found.
+
+**[Browse all plugins on the website →](https://dsh-plugins.omniroute.online)**
+
+</div>
