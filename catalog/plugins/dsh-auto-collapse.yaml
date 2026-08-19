@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: dsh-auto-collapse
+name: dsh-auto-collapse
+description:
+  en: DeepSeek Harness Web 客户端插件：把会话里的工具卡片与 Think 推理块折叠成一行，折叠态实时显示当前正在进行的工作（工具名 + 正在执行的命令/参数、或思考内容），运行中带流光动画；点击展开/收起。让界面只保留模型说的话。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - client-plugin
+  - ui
+  - collapse
+  - auto-collapse
+  - chat
+  - think
+source:
+  repository: https://github.com/a179-sanae/dsh-auto-collapse
+  repositoryNodeId: R_kgDOT4nMEg
+  subpath: null
+  commit: 9d02fb02e8dd2fb56c5e82fcc5d68b5a5b62efcd
+creator:
+  github: a179302
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:20.916Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 30
+provenance:
+  discussion: null
+  comment: null
