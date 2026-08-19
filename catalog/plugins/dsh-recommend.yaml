@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: dsh-recommend
+name: dsh-recommend
+description:
+  en: DSH 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态 + 公开评分模型 + rank/recommend/search 工具 + 设置页排行标签
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - ranking
+  - leaderboard
+  - recommendation
+  - rank
+  - recommend
+  - search
+source:
+  repository: https://github.com/zp-home/dsh-recommend
+  repositoryNodeId: R_kgDOT3ykeQ
+  subpath: null
+  commit: 269afff5d277fb0e2c37e3bbda78c55b43c51159
+creator:
+  github: zp-home
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:45.490Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 17
+provenance:
+  discussion: null
+  comment: null
