@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dsh-ding
+name: dsh-ding
+description:
+  en: DSH 插件：对话完成时播放提示音 + Windows 通知，WebUI 铃铛按钮可调开关/音量/音效
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - notification
+  - windows
+  - toast
+  - dsh-plugin
+  - webui
+source:
+  repository: https://github.com/CAOGGL/dsh-ding
+  repositoryNodeId: R_kgDOT3m0Fg
+  subpath: null
+  commit: c92bfda6618ee52e52f147d5b626de396bfd6bbe
+creator:
+  github: CAOGGL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:20.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
