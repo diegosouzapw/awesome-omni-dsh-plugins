@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-claude-cli
+name: dsh-claude-cli
+description:
+  en: Use the locally installed Claude Code CLI as a DeepSeek Harness LLM provider — no API key, native tool calls through an MCP bridge
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - llm-provider
+  - claude-code
+  - locally
+  - installed
+  - claude
+  - code
+  - provider
+  - native
+  - tool
+  - calls
+  - through
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/katsos/dsh-claude-cli
+  repositoryNodeId: R_kgDOT5T9Yw
+  subpath: null
+  commit: 3a3a57f22a3e748c9720a1b96ce64e015f0f9643
+creator:
+  github: katsos
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:32.353Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
