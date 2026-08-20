@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: modlens
+name: "@liustack/modlens"
+description:
+  en: Plug-in vision for text-only LLMs, powered by the free Antigravity CLI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - cli
+  - vision
+  - ocr
+  - antigravity
+  - agent-skill
+  - claude-code
+  - skill
+  - image-to-text
+  - multimodal
+  - modlens
+  - plug
+  - text
+  - only
+  - llms
+  - powered
+  - free
+source:
+  repository: https://github.com/liustack/modlens
+  repositoryNodeId: R_kgDORV5N0w
+  subpath: null
+  commit: 6e1fb0666a11c8c6c04b0895b0fc3f0d10ba0c96
+creator:
+  github: liustack
+package:
+  ecosystem: npm
+  name: "@liustack/modlens"
+  version: 3.21.1
+  integrity: sha512-/Yb79rhhvFI18qouDqxh8RqmCZx0/OP06AvKEhCsraE4RtgH1PTOdFnJ0N4Wk4dt82fbIcnDMuEjn4eX6mPzhw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:26.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3270
+provenance:
+  discussion: null
+  comment: null
