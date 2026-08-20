@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-skill-manager-ytxue
+name: dsh-skill-manager-ytxue
+description:
+  en: "DSH web plugin: skill pool manager in the Settings sidebar. Audits skills against the DSH skill spec (kebab-case names, required description, boolean fields) with state-driven one-click check and auto-fix; folder-picker single/batch import with rename-conflict prompts; enable/disable between skill-pool and skills."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - skill-manager-ytxue
+  - cordis
+  - pool
+  - manager
+  - settings
+  - sidebar
+  - audits
+  - skills
+  - against
+  - spec
+  - kebab
+  - case
+source:
+  repository: https://github.com/YTxue/dsh-skill-manager-ytxue
+  repositoryNodeId: R_kgDOT4WZbg
+  subpath: null
+  commit: f254f3005a446062e312144f27ed0820d38d4654
+creator:
+  github: YTxue
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:14.915Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
