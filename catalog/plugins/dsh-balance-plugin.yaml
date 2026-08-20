@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dsh-balance-plugin
+name: dsh-balance-plugin
+description:
+  en: DeepSeek API balance and token usage monitor for the dsh web sidebar
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - balance
+  - usage
+  - dsh-plugin
+  - token
+  - monitor
+  - sidebar
+source:
+  repository: https://github.com/stevenx65/dsh-balance-plugin
+  repositoryNodeId: R_kgDOT4S86g
+  subpath: null
+  commit: 9067ed33ac83f986b54096bcd21c2c1db0583bb4
+creator:
+  github: stevenx65
+package:
+  ecosystem: npm
+  name: dsh-balance-plugin
+  version: 0.1.0
+  integrity: sha512-9+zp19FHXdVJVUktJn9R7G9RZtoYpU3z8rSFp71QQ8PvX3lJ4imO8idIGwrVx544YcvE2zpAT7Brvf1inwWCJQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:51.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
