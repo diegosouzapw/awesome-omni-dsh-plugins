@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog upřednostňující tvůrce a instalace jedním příkazem pro pluginy DeepSeek Harness. Připnuté zdrojové commity, uvedení tvůrci, jeden zkontrolovaný PR na plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog s prioritou pro tvůrce a instalace jedním příkazem pro pluginy DeepSeek Harness. Fixované zdrojové commity, kreditovaní tvůrci, jeden zkontrolovaný PR na plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Neoficiální komunitní projekt. Není propojen se společností DeepSeek, není jí schválen ani sponzorován.**
-> Názvy a ochranné známky DeepSeek patří jejich vlastníkovi.
+> **Neoficiální komunitní projekt. Není přidružen k DeepSeek, DeepSeek jej neschvaluje ani nesponzoruje.**
+> Názvy a značky DeepSeek patří jejich příslušným vlastníkům.
 
-Vyhledávání upřednostňující tvůrce a instalace jedním příkazem pro pluginy **DeepSeek Harness (DSH)**.
+Objevování s prioritou pro tvůrce a instalace jedním příkazem pro pluginy **DeepSeek Harness (DSH)**.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Procházejte, vyhledávejte a instalujte libovolný plugin na webu →</a>
+  <a href="https://dsh-plugins.omniroute.online">Procházejte, vyhledávejte a instalujte všechny pluginy na webu →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -24,7 +24,7 @@ Vyhledávání upřednostňující tvůrce a instalace jedním příkazem pro pl
 
 <br/>
 
-<b>🌐 V 43 jazycích</b>
+<b>🌐 Ve 43 jazycích</b>
 <br/><br/>
 <a href="../../README.md"><img src="../../docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
 <a href="../pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
@@ -76,22 +76,20 @@ Vyhledávání upřednostňující tvůrce a instalace jedním příkazem pro pl
 
 ## ⭐ 10 nejlepších pluginů
 
-Žebříček podle hvězdiček přesného repozitáře — počítají se pouze hvězdičky získané vlastním
-repozitářem pluginu, nikdy repozitářem nadřazeného projektu ([predikát žebříčku](../../docs/RANKING.md)).
-Každý název odkazuje na repozitář tvůrce, připnutý na přesném commitu, který katalog ověřil.
+Seřazeno podle hvězdiček přesného repozitáře — počítají se pouze hvězdičky získané vlastním repozitářem pluginu, nikdy nadřazeného projektu ([predikát řazení](../../docs/RANKING.md)). Každý název odkazuje na repozitář tvůrce, fixovaný na přesný commit, který katalog ověřil.
 
-| #   | Plugin | Tvůrce | ★ | Kategorie | Co dělá |
+| # | Plugin | Tvůrce | ★ | Kategorie | Co dělá |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Vizualizace přímo v obsahu: model vykresluje interaktivní grafy a diagramy přímo v relaci |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Za chodu připojitelný průhledný desktopový mazlíček (Remielle, Zenless Zone Zero) pro webové rozhraní DSH |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animovaný maskot velrybí dívky ve stylu Kanban Musume, reagující na aktivitu na nástěnce |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Celoobrazovkový terminálový chatovací klient ve stylu curses pro ovládání relací dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktivní terminálové rozhraní pi-tui: výběr relace, streamovaný chat, klávesové zkratky |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Volitelný pokročilý vyhledávací nástroj Tavily se správou více klíčů a ukazatelem využití |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Plovoucí video widget bilibili: doporučení, trendy, žebříčky a vyhledávání |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Plugin vzhledu: vestavěné palety, světlý/tmavý/systémový režim, motivy VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Nekomerční vzhled „astrální zahrada“ podle Arknights s postavami Pramanix a Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | WebSocket most s autentizací tokenem pro doprovodné rozšíření prohlížeče |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Zásuvné vidění pro čistě textové LLM, poháněné bezplatným Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Webový plugin DSH: pravý postranní panel podobný VSCode (průzkumník / editor / terminál / git / prohlížeč), izolovaný pro každou… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Oči pro čistě textové agenty DeepSeek Harness: vestavěný bezplatný řetězec vidění (bez klíče) + nástroje vidění na úrovni pixelů… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Nativní integrace DeepSeek Harness pro agent-vision-toolkit: otázky a odpovědi k obrázkům, OCR, ukotvení, obnova UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin zamoření reklamami DSH: lokalizované čínské portálové reklamy a anglická parodie podvodné reklamy, s falešnými vyskakovacími okny, a… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI pro DeepSeek Harness: interaktivní UI komponenty vykreslené přímo v odpovědích asistenta prostřednictvím dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: interaktivní plugin terminálového UI pro oficiální DeepSeek Harness — streamování… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Vestavěná vizualizace pro DeepSeek Harness: nástroj visualize spolu s přibalenou dovedností umožňují modelu vykreslit… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Plugin pro vyhledávání anime pro DeepSeek Harness: nástroj anime_find_search agreguje Mikan, AniBT a… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Systém zpět/rollback pro DSH: snímek konfiguračních souborů při změně, zpět/znovu poslední akce z WebUI nebo pomocí… |
 
 <div align="center">
 
@@ -99,30 +97,23 @@ Každý název odkazuje na repozitář tvůrce, připnutý na přesném commitu,
 
 </div>
 
-## Stručný přehled
+## Na první pohled
 
-| Oblast     | Co to je                                                       | Kde                                                                    |
+| Rozhraní     | Co to je                                                       | Kde                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Web** | Vykreslený prohlížeč katalogu s vyhledáváním a žebříčkem                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Web** | Vykreslený prohlížeč katalogu s vyhledáváním a řazením                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Jeden soubor YAML na plugin, jediný zdroj pravdy             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **Schéma**  | Veřejné JSON Schema (draft 2020-12), vůči kterému je ověřen každý záznam | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Vyhledávání, prohlížení, ověřování a instalace z katalogu           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Strojově čitelné zdroje** | `catalog.json` + `catalog.snapshot.json` pro nástroje           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Schéma**  | Veřejné JSON Schema (draft 2020-12), proti kterému se ověřuje každý záznam | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Vyhledávání, kontrola, ověřování a instalace z katalogu           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Strojová data** | `catalog.json` + `catalog.snapshot.json` pro nástroje           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Tento repozitář je veřejným zdrojem pravdy pro katalog. Každý záznam je jeden soubor YAML
-v `catalog/plugins/`, ověřený vůči zveřejněnému JSON Schema, přidaný samostatně zkontrolovaným
-pull requestem a vždy s uvedením původního tvůrce pluginu.
-Nic v katalogu není generováno z jiného katalogu nebo seznamu: každý záznam je rekonstruován
-z repozitáře původního tvůrce na připnutém commitu.
+Tento repozitář je veřejným zdrojem pravdy pro katalog. Každý záznam je jeden soubor YAML pod `catalog/plugins/`, ověřený proti publikovanému JSON Schema, přidaný prostřednictvím jednotlivě zkontrolovaného pull requestu a vždy kreditovaný původnímu tvůrci pluginu. Nic v katalogu není generováno z jiného katalogu ani seznamu: každý záznam je rekonstruován z repozitáře původního tvůrce na fixovaném commitu.
 
-Web a CLI jsou udržovány ze soukromého zdrojového kódu; tento repozitář obsahuje veřejná
-data katalogu, schéma a zásady, které využívají.
+Web a CLI jsou udržovány ze soukromého zdroje; tento repozitář obsahuje veřejná data katalogu, schéma a zásady, které využívají.
 
 ## Stav katalogu
 
-**Sloučeno 10 pluginů.** Každý plugin vstupuje do katalogu přes samostatně zkontrolovaný pull
-request, jeden po druhém, z repozitáře původního tvůrce, s připnutým zdrojovým commitem
-a výslovným uvedením autorství.
+**160 sloučených pluginů.** Každý plugin vstupuje prostřednictvím jednotlivě zkontrolovaného pull requestu, jeden po druhém, z repozitáře původního tvůrce, s fixovaným zdrojovým commitem a explicitním atributem.
 
 ## 🚀 Instalace CLI
 
@@ -130,24 +121,21 @@ a výslovným uvedením autorství.
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Balíček s rozsahem je publikován jako `@diegosouza.pw/dsh-plugins@0.1.0` a výše uvedený příkaz
-je dnes kanonickým způsobem vyvolání; instalační skript zde není hostován.
+Balíček s rozsahem je publikován jako `@diegosouza.pw/dsh-plugins@0.1.0` a výše uvedený příkaz je dnes kanonickým způsobem volání; zde není hostován žádný instalační skript.
 
-### Možnosti CLI už dnes
+### Použití CLI dnes
 
-Verze 0.1.0 obsahuje příkazy pro vyhledávání a ověřování pouze pro čtení a instalační příkazy
-podmíněné souhlasem. Úplná referenční dokumentace příkazů, včetně příznaků, návratových kódů
-a brány souhlasu se spuštěním kódu, je v [docs/CLI.md](../../docs/CLI.md).
+Verze 0.1.0 nabízí příkazy pro zjišťování a ověřování pouze pro čtení plus instalační příkazy podmíněné souhlasem. Úplná referenční příručka příkazů, včetně příznaků, návratových kódů a brány souhlasu s vykonáváním kódu, je v [docs/CLI.md](../../docs/CLI.md).
 
-| Příkaz                        | Co dělá                                                        | Zasahuje do systému?                    |
+| Příkaz                        | Co dělá                                                        | Zasahuje do vašeho systému?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
 | `catalog validate --catalog .` | Ověří YAML katalogu, schéma a lokální sémantiku                   | Ne — pouze pro čtení                          |
 | `search <query...>`            | Lokálně prohledá veřejná pole katalogu                                | Ne — pouze pro čtení                          |
 | `info <id>`                    | Zobrazí jeden veřejný záznam katalogu                                       | Ne — pouze pro čtení                          |
-| `list`                         | Vypíše instalace spravované katalogem bez úprav profilů            | Ne — pouze pro čtení                          |
-| `doctor`                       | Diagnostika Node, DSH, nativní politiky Windows a katalogu pouze pro čtení  | Ne — pouze pro čtení                          |
-| `add <id> --profile <name> --dry-run` | Zobrazí ověřený instalační plán bez souborů nebo podprocesů | Ne — zkušební běh                            |
-| `add <id> --profile <name> --allow-code-execution` | Instaluje přes oficiální delegaci DSH        | Ano — pouze s výslovným příznakem souhlasu   |
+| `list`                         | Vypíše instalace spravované katalogem, aniž by měnil profily            | Ne — pouze pro čtení                          |
+| `doctor`                       | Diagnostika Node, DSH, nativní zásady Windows a katalogu pouze pro čtení  | Ne — pouze pro čtení                          |
+| `add <id> --profile <name> --dry-run` | Zobrazí ověřený instalační plán bez souborů nebo podprocesů | Ne — nanečisto                            |
+| `add <id> --profile <name> --allow-code-execution` | Instaluje prostřednictvím oficiální delegace DSH        | Ano — pouze s explicitním příznakem souhlasu   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -161,44 +149,24 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud
-nepředáte příznak `--allow-code-execution`. V nativním Windows jsou tyto měnící operace ve
-v0.1.0 zakázány; použijte WSL. Příkazy pouze pro čtení a zkušební běh fungují všude.
+Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud nepředáte `--allow-code-execution`. Na nativním Windows jsou tyto změny ve v0.1.0 zakázány; použijte WSL. Příkazy pouze pro čtení a nanečisto fungují všude.
 
 ## 🔍 Jak se plugin dostane do katalogu
 
-```mermaid
-flowchart LR
-    A["Repozitář tvůrce<br/>(připnutý commit)"] --> B["Jedna větev,<br/>jeden PR,<br/>jeden záznam YAML"]
-    B --> C["CI catalog-validation<br/>(schéma + lokální sémantika)"]
-    C --> D["Kontroly správců<br/>(identita, vazba na tvůrce,<br/>připnuté důkazy)"]
-    D --> E["catalog/plugins/*.yaml<br/>sloučeno"]
-    E --> F["Web"]
-    E --> G["CLI"]
-    E --> H["Zdroje catalog.json"]
-```
+![Jak se plugin dostane do katalogu](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Jak se plugin dostane do katalogu](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Jeden plugin, jedna větev, jeden pull request.** PR přidává nebo mění přesně jeden soubor
-   YAML v `catalog/plugins/`.
-2. **Přednost tvůrce.** PR otevřený tvůrcem pluginu nebo vlastnící organizací má vždy přednost
-   před kurátorstvím komunity nebo automatizací pro stejný plugin — viz
-   [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Důkazy z původního zdroje.** Každé pole je rekonstruováno z repozitáře tvůrce na
-   připnutém 40znakovém commitu: popis, licence, integrace s DSH, instalační deskriptor,
-   hvězdičky.
-4. **Lokální validace.** `catalog validate` kontroluje strukturu a lokální sémantiku; jde
-   o stejnou kontrolu, jakou pro PR spouští úloha CI `catalog-validation`.
-5. **Kontroly správců.** Před sloučením správci samostatně ověřují identitu repozitáře,
-   vazbu na tvůrce a připnuté důkazy. Zelená lokální validace je nutná, nikdy však postačující.
+1. **Jeden plugin, jedna větev, jeden pull request.** PR přidává nebo mění přesně jeden soubor YAML pod `catalog/plugins/`.
+2. **Priorita pro tvůrce.** PR otevřený tvůrcem pluginu nebo vlastnící organizací má vždy přednost před kurátorstvím komunity nebo automatizací pro stejný plugin — viz [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Důkaz z původního zdroje.** Každé pole je rekonstruováno z repozitáře tvůrce na fixovaném 40znakovém commitu: popis, licence, integrace DSH, deskriptor instalace, hvězdičky.
+4. **Lokální ověření.** `catalog validate` kontroluje strukturu a lokální sémantiku; jde o stejnou kontrolu, kterou na PR spouští CI úloha `catalog-validation`.
+5. **Brány správců.** Před sloučením správci samostatně ověřují identitu repozitáře, vazbu na tvůrce a fixovaný důkaz. Zelené lokální ověření je nutné, nikdy však ne dostačující.
 
-Úplná smlouva — požadované důkazy, pravidla YAML, zásady hvězdiček, řešení kolizí a kontroly
-při revizi — je v [CONTRIBUTING.md](../../CONTRIBUTING.md). Jak a kým se rozhoduje, popisuje
-[docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Úplná smlouva — požadovaný důkaz, pravidla YAML, zásady hvězdiček, řešení kolizí a kontrolní brány — je v [CONTRIBUTING.md](../../CONTRIBUTING.md). Jak se přijímají rozhodnutí a kým, je v [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomie záznamu
 
-Každý záznam je jeden soubor YAML pojmenovaný podle svého ID. Níže uvedený příklad je platný
-vůči aktuálnímu schématu (referenci pole po poli najdete v [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Každý záznam je jeden soubor YAML pojmenovaný podle svého ID. Následující příklad se ověřuje proti aktuálnímu schématu (referenci pole po poli najdete v [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -247,50 +215,34 @@ provenance:
   comment: null
 ```
 
-Klíčové invarianty vynucené schématem:
+Klíčové invarianty vynucované schématem:
 
 - `unofficial: true` a `schemaVersion: 1` jsou konstanty.
-- Plugin z monorepozitáře musí používat `stars: null` — hvězdičky nadřazeného projektu se nikdy nedědí.
-- Instalační deskriptor je buď npm balíček s přesnou verzí, nebo přímo připnutý zdroj; jde
-  o data, nikdy o shellový příkaz.
-- Stav `verified` vyžaduje ověřitelné důkazy o smoke testu; jinak má záznam stav `eligible`
-  s `smokeTest: null`.
+- Plugin z monorepa musí používat `stars: null` — hvězdičky nadřazeného projektu se nikdy nedědí.
+- Deskriptor instalace je buď npm balíček s přesnou verzí, nebo samotný fixovaný zdroj; jsou to data, nikdy shellový příkaz.
+- Stav `verified` vyžaduje ověřitelný důkaz smoke testu; jinak je záznam `eligible` se `smokeTest: null`.
 
 ## 🗂 Co sem patří
 
-Tento repozitář katalogizuje nezávisle publikované integrace pro DeepSeek Harness (DSH),
-včetně nativních pluginů, rodin pluginů, motivů, dovedností, klientů a mostů. Druhy artefaktů,
-kategorie schopností a značky rozhraní jsou definovány v [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Tento repozitář katalogizuje nezávisle publikované integrace pro DeepSeek Harness (DSH), včetně nativních pluginů, rodin pluginů, motivů, dovedností, klientů a mostů. Typy artefaktů, kategorie schopností a tagy rozhraní jsou definovány v [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Každý veřejný záznam je jeden soubor YAML v `catalog/plugins/` a musí být platný vůči
-`schemas/plugin.schema.yaml`. Zařazení znamená, že byly dokončeny zdokumentované kontroly
-způsobilosti nebo ověření; nejde o bezpečnostní certifikaci ani schválení ze strany DeepSeek.
+Každý veřejný záznam je jeden soubor YAML pod `catalog/plugins/` a musí se ověřovat proti `schemas/plugin.schema.yaml`. Zařazení znamená, že byly dokončeny zdokumentované kontroly způsobilosti nebo ověření; není to bezpečnostní certifikace ani schválení ze strany DeepSeek.
 
-## 🏅 Žebříček a ověření
+## 🏅 Řazení a ověřování
 
-Do žebříčku hvězdiček se mohou dostat pouze vyhrazené, nativní, způsobilé nebo ověřené
-repozitáře pluginů, jejichž hvězdičky patří přesně tomuto repozitáři. Integrace uložené
-uvnitř širších monorepozitářů zůstávají dohledatelné, ale používají `stars: null` a nikdy
-nedědí hvězdičky nadřazeného projektu. Úplný predikát je v [docs/RANKING.md](../../docs/RANKING.md).
+Do žebříčku hvězdiček mohou vstoupit pouze vyhrazené, nativní, způsobilé nebo ověřené repozitáře pluginů, jejichž hvězdičky patří přesně tomuto repozitáři. Integrace uložené uvnitř širších monorep zůstávají dohledatelné, ale používají `stars: null` a nikdy nedědí hvězdičky nadřazeného projektu. Úplný predikát viz [docs/RANKING.md](../../docs/RANKING.md).
 
-Veřejné stavy ověření odlišují strukturální způsobilost od instalačního smoke testu.
-Žádný stav nepředstavuje absolutní bezpečnost. Před použitím pluginu zkontrolujte jeho
-repozitář, připnutý commit, licenci a chování při instalaci.
+Veřejné stavy ověření odlišují strukturální způsobilost od instalačního smoke testu. Žádný stav nepředstavuje absolutní bezpečnost. Před použitím zkontrolujte repozitář pluginu, fixovaný commit, licenci a chování při instalaci.
 
 ## 🤝 Přispějte nebo si nárokujte záznam
 
-Před otevřením pull requestu si přečtěte [CONTRIBUTING.md](../../CONTRIBUTING.md). Pull request musí
-přidávat nebo měnit přesně jeden záznam pluginu a musí odkazovat na repozitář původního tvůrce,
-nikoli na jiný katalog. Pull requesty od tvůrců mají přednost před automatizovanými pull
-requesty katalogu.
+Před otevřením pull requestu si přečtěte [CONTRIBUTING.md](../../CONTRIBUTING.md). Pull request musí přidat nebo změnit přesně jeden záznam pluginu a musí citovat repozitář původního tvůrce, nikoli jiný katalog. Pull requesty vytvořené tvůrcem mají přednost před automatizovanými pull requesty katalogu.
 
-Pro nároky tvůrců, opravy a odstranění jsou k dispozici strukturované formuláře issue. Nikdy
-neposílejte přihlašovací údaje, soukromé kontaktní údaje ani jiná tajemství.
+Pro nároky tvůrců, opravy a odstranění jsou k dispozici strukturované formuláře issues. Nikdy neodesílejte přihlašovací údaje, soukromé kontaktní informace ani jiná tajemství.
 
 ## 👩‍🎨 Tvůrci pluginů
 
-Tento katalog existuje díky tomu, že tito tvůrci vydali své pluginy. Každý záznam vždy uvádí
-svého tvůrce a odkazuje zpět na jeho repozitář.
+Katalog existuje, protože tito tvůrci vydali pluginy. Každý záznam kredituje svého tvůrce a odkazuje zpět na jeho repozitář — vždy.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -303,43 +255,36 @@ svého tvůrce a odkazuje zpět na jeho repozitář.
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Chcete tady svůj plugin s plným uvedením autorství? [Otevřete jeden PR s jedním záznamem
-YAML](../../CONTRIBUTING.md) — nebo [si nárokujte existující
-záznam](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose), pokud vaši
-práci zkatalogizoval někdo jiný dřív než vy.
+Chcete, aby tu byl váš plugin s plným kreditem? [Otevřete jeden PR s jedním záznamem YAML](../../CONTRIBUTING.md) — nebo [si nárokujte existující záznam](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose), pokud někdo vaši práci katalogizoval dříve než vy.
 
 ## 📚 Dokumentace
 
-| Dokument                                     | Co popisuje                                                       |
-| -------------------------------------------- | -------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná smlouva pro přispěvatele: důkazy, pravidla YAML, kontroly při revizi    |
-| [SECURITY.md](../../SECURITY.md)                   | Hlášení zranitelností pluginu nebo katalogu; zásady pro tajemství           |
+| Dokument                                     | Co pokrývá                                                       |
+| -------------------------------------------- | ---------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná smlouva o přispívání: důkazy, pravidla YAML, kontrolní brány    |
+| [SECURITY.md](../../SECURITY.md)                   | Hlášení zranitelností pluginů nebo katalogu; zásady tajemství           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Reference pole po poli pro `schemas/plugin.schema.yaml`             |
 | [docs/CLI.md](../../docs/CLI.md)                   | Reference příkazů CLI pro `@diegosouza.pw/dsh-plugins@0.1.0`          |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jak je katalog řízen: přednost, kontroly, nároky a odstranění   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Druhy artefaktů, hlavní kategorie schopností, značky, rozsah repozitáře |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | Uvedení tvůrce, přednost PR a zásady identity v Gitu                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | Veřejný predikát žebříčku a stavy ověření                  |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jak je katalog spravován: přednost, brány, nároky a odstranění   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Typy artefaktů, primární kategorie schopností, tagy, rozsah repozitáře |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kreditování tvůrců, přednost PR a zásady identity Git                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Veřejný predikát řazení a stavy ověření                  |
 | [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Neoficiální status a postoj k ochranným známkám                               |
 
 ## 🌐 Překlady
 
-Tento README je k dispozici ve 43 jazycích ve složce [`docs/i18n/`](..) — použijte výběr
-vlajek nahoře. Zdrojem pravdy je anglický text; pokud se překlad a anglický text liší,
-platí anglický text. Opravy jakéhokoli překladu jsou vítány prostřednictvím běžných pull
-requestů.
+Tento README je k dispozici ve 43 jazycích pod [`docs/i18n/`](..) — použijte výběr vlajek nahoře. Angličtina je zdrojem pravdy; pokud se překlad a anglický text neshodují, platí anglický text. Opravy jakéhokoli překladu jsou vítány prostřednictvím běžných pull requestů.
 
-## 📜 Licence a uvedení autorství
+## 📜 Licence a atribuce
 
-Dokumentace a šablony repozitáře jsou licencovány pod [licencí MIT](../../LICENSE). Původní
-fakta katalogu a redakční metadata YAML jsou uvolněna pod licencí [CC0-1.0](../../LICENSE-CATALOG).
-Zdrojový kód, názvy, loga a snímky obrazovky zůstávají pod svými původními vlastníky a
-licencemi. Viz [docs/CREDIT.md](../../docs/CREDIT.md) a [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Dokumentace a šablony repozitáře jsou licencovány pod [MIT License](../../LICENSE). Původní fakta katalogu a redakční metadata YAML jsou uvolněna pod [CC0-1.0](../../LICENSE-CATALOG). Upstream kód, názvy, loga a snímky obrazovky zůstávají pod svými původními vlastníky a licencemi. Viz [docs/CREDIT.md](../../docs/CREDIT.md) a [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Pokud vám tento katalog pomohl najít plugin, dejte repozitáři hvězdičku — pomůže to tvůrcům, aby je bylo vidět.
+### ⭐ Pokud vám tento katalog pomohl najít plugin, ohodnoťte repozitář hvězdičkou — pomáhá to tvůrcům, aby byli nalezeni.
 
-**[Procházet všechny pluginy na webu →](https://dsh-plugins.omniroute.online)**
+**[Procházejte všechny pluginy na webu →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — skaparfokuserad katalog och installation med ett kommando för DeepSeek Harness-plugin. Fastlåsta källcommit, krediterade skapare, en granskad PR per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — kreatörsfokuserad katalog och installation med ett kommando för DeepSeek Harness-plugins. Fastnålade källcommits, krediterade skapare, en granskad PR per plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Inofficiellt community-projekt. Inte anslutet till, godkänt av eller sponsrat av DeepSeek.**
-> DeepSeek-namn och -märken tillhör sina respektive ägare.
+> **Inofficiellt community-projekt. Inte anknutet till, godkänt av eller sponsrat av DeepSeek.**
+> DeepSeek-namn och -märken tillhör respektive ägare.
 
-Skaparfokuserad upptäckt och installation med ett kommando för **DeepSeek Harness (DSH)**-plugin.
+Kreatörsfokuserad upptäckt och installation med ett kommando för **DeepSeek Harness (DSH)**-plugins.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Bläddra, sök och installera alla plugin på webbplatsen →</a>
+  <a href="https://dsh-plugins.omniroute.online">Bläddra, sök och installera alla plugins på webbplatsen →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -27,127 +27,128 @@ Skaparfokuserad upptäckt och installation med ett kommando för **DeepSeek Harn
 <b>🌐 På 43 språk</b>
 <br/><br/>
 <a href="../../README.md"><img src="../../docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
-<a href="../pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
-<a href="../zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
-<a href="../zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
-<a href="../pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
-<a href="../es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
-<a href="../fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
-<a href="../it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
-<a href="../de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
-<a href="../nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
-<a href="../ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
-<a href="../uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
-<a href="../pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
-<a href="../cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
-<a href="../sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
-<a href="../ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
-<a href="../hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
-<a href="../bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
-<a href="../da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
-<a href="../fi/README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
-<a href="../no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
-<a href="README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
-<a href="../ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
-<a href="../ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
-<a href="../th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
-<a href="../vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
-<a href="../id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
-<a href="../ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
-<a href="../phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
-<a href="../in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
-<a href="../hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
-<a href="../gu/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
-<a href="../mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
-<a href="../ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
-<a href="../te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
-<a href="../bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
-<a href="../ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
-<a href="../fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
-<a href="../ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
-<a href="../he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
-<a href="../tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
-<a href="../az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
-<a href="../sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
+<a href="../../docs/i18n/pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
+<a href="../../docs/i18n/zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
+<a href="../../docs/i18n/zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
+<a href="../../docs/i18n/pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
+<a href="../../docs/i18n/es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
+<a href="../../docs/i18n/fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
+<a href="../../docs/i18n/it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
+<a href="../../docs/i18n/de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
+<a href="../../docs/i18n/nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
+<a href="../../docs/i18n/ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
+<a href="../../docs/i18n/uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
+<a href="../../docs/i18n/pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
+<a href="../../docs/i18n/cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
+<a href="../../docs/i18n/sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
+<a href="../../docs/i18n/ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
+<a href="../../docs/i18n/hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
+<a href="../../docs/i18n/bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
+<a href="../../docs/i18n/da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
+<a href="../../docs/i18n/fi/README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
+<a href="../../docs/i18n/no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
+<a href="../../docs/i18n/sv/README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
+<a href="../../docs/i18n/ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
+<a href="../../docs/i18n/ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
+<a href="../../docs/i18n/th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
+<a href="../../docs/i18n/vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
+<a href="../../docs/i18n/id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
+<a href="../../docs/i18n/ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
+<a href="../../docs/i18n/phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
+<a href="../../docs/i18n/in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
+<a href="../../docs/i18n/hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
+<a href="../../docs/i18n/gu/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
+<a href="../../docs/i18n/mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
+<a href="../../docs/i18n/ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
+<a href="../../docs/i18n/te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
+<a href="../../docs/i18n/bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
+<a href="../../docs/i18n/ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
+<a href="../../docs/i18n/fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
+<a href="../../docs/i18n/ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
+<a href="../../docs/i18n/he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
+<a href="../../docs/i18n/tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
+<a href="../../docs/i18n/az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
+<a href="../../docs/i18n/sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
 
 </div>
 
 ---
 
-## ⭐ Topp 10 plugin
+## ⭐ Topp 10 plugins
 
-Rankade efter exakta repository-stjärnor — endast stjärnor som pluginets eget repository har
-fått räknas, aldrig ett moderprojekts ([rankningspredikat](../../docs/RANKING.md)). Varje namn
-länkar till skaparens repository, fastlåst vid den exakta commit som katalogen validerade.
+Rankad efter exakta repository-stjärnor — endast stjärnor som pluginets eget repository har fått
+räknas, aldrig ett överordnat projekts ([rankningspredikat](../../docs/RANKING.md)). Varje namn
+länkar till skaparens repository, fastnålat vid den exakta commit som katalogen validerade.
 
-| #   | Plugin | Skapare | ★ | Kategori | Vad det gör |
+| #   | Plugin | Skapare | ★ | Kategori | Vad den gör |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Infogad visualisering: modellen renderar interaktiva diagram och grafer direkt i sessionen |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Hot-pluggbart transparent skrivbordshusdjur (Remielle, Zenless Zone Zero) för DSH:s webbgränssnitt |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animerad val-flicka-maskot (Kanban Musume) som reagerar på aktivitet i instrumentpanelen |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Helskärms terminalchattklient i curses-stil för att styra dsh-sessioner |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktiv pi-tui-terminalentré: sessionsväljare, strömmande chatt, tangentbindningar |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Valbart avancerat Tavily-sökverktyg med hantering av flera nycklar och en användningsmätare |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Flytande bilibili-videowidget: rekommendationer, trender, rankningar och sökning |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Utseendeplugin: inbyggda paletter, ljust/mörkt/systemläge, VS Code-teman |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Icke-kommersiellt Arknights astral-garden-skin med Pramanix och Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Tokenautentiserad WebSocket-brygga för det medföljande webbläsartillägget |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Insticksbaserad syn för endast-text-LLM:ar, driven av den kostnadsfria Antigravity CLI:n |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-webbplugin: ett VSCode-liknande högersidofält (explorer / editor / terminal / git / browser), isolerat per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ögon för endast-text DeepSeek Harness-agenter: inbyggd kostnadsfri synkedja (ingen nyckel) + pixelnivå-synverktyg… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration för agent-vision-toolkit: bild-frågor och svar, OCR, grounding, UI-återställning,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-annonsinvasionsplugin: lokaliserade kinesiska portalannonser och engelsk parodi på bedrägeriannonser, med falska popup-fönster, en… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI för DeepSeek Harness: interaktiva UI-komponenter renderade infogat i assistentens svar via dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: en interaktiv terminal-UI-plugin för den officiella DeepSeek Harness — strömmande… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Infogad visualisering för DeepSeek Harness: ett visualize-verktyg plus medföljande skill låter modellen rendera… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | En animesökplugin för DeepSeek Harness: ett anime_find_search-verktyg aggregerar Mikan, AniBT och… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH ångra/återställ-system: ta ögonblicksbilder av konfigurationsfiler vid ändring, ångra/gör om den senaste åtgärden från WebUI eller via… |
 
 <div align="center">
 
-### 👉 [**Sök bland alla plugin, läs detaljerna och kopiera installationskommandot på webbplatsen →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Sök bland alla plugins, läs detaljerna och kopiera installationskommandot på webbplatsen →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
 ## I korthet
 
-| Yta         | Vad det är                                                       | Var                                                                       |
+| Yta         | Vad det är                                                       | Var                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Webbplats** | Renderad katalogbläddrare med sökning och rankning                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-| **Katalog** | En YAML-fil per plugin, den enda sanningskällan             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **Schema**  | Publikt JSON Schema (draft 2020-12) som varje post validerar mot | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **Webbplats** | Renderad katalogbläddrare med sökning och rankning              | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalog** | En YAML-fil per plugin, den enda sanningskällan                   | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Schema**  | Offentligt JSON Schema (draft 2020-12) som varje post valideras mot | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Sök, inspektera, validera och installera från katalogen           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
 | **Maskinflöden** | `catalog.json` + `catalog.snapshot.json` för verktyg           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Detta repository är den publika sanningskällan för katalogen. Varje post är en YAML-fil under
-`catalog/plugins/`, validerad mot ett publicerat JSON Schema, tillagd genom en individuellt
-granskad pull request och alltid krediterad till pluginets ursprungliga skapare. Ingenting i
-katalogen genereras från en annan katalog eller lista: varje post rekonstrueras från skaparens
-ursprungliga repository vid en fastlåst commit.
+Detta repository är den offentliga sanningskällan för katalogen. Varje post är en YAML-fil
+under `catalog/plugins/`, validerad mot ett publicerat JSON Schema, tillagd genom en
+individuellt granskad pull request, och alltid krediterad till pluginets ursprungliga skapare.
+Ingenting i katalogen genereras från en annan katalog eller lista: varje post rekonstrueras
+från skaparens ursprungliga repository vid en fastnålad commit.
 
-Webbplatsen och CLI:et underhålls från privat källkod; detta repository innehåller de publika
-katalogdata, schema och policyer som de använder.
+Webbplatsen och CLI:n underhålls från privat källkod; detta repository innehåller den offentliga
+katalogdatan, schemat och policyerna som de konsumerar.
 
 ## Katalogstatus
 
-**10 plugin sammanslagna.** Varje plugin kommer in genom en individuellt granskad pull request,
-en i taget, från det ursprungliga skaparrepositoryt, med en fastlåst källcommit och uttrycklig
-kreditering.
+**160 plugins sammanslagna.** Varje plugin läggs till genom en individuellt granskad pull
+request, en i taget, från skaparens ursprungliga repository, med en fastnålad källcommit och
+tydlig attribution.
 
-## 🚀 Installera CLI:et
+## 🚀 Installera CLI:n
 
 ```bash
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Det scopade paketet publiceras som `@diegosouza.pw/dsh-plugins@0.1.0` och kommandot ovan är det
-kanoniska anropet idag; inget installationsskript hostas här.
+Det scopade paketet publiceras som `@diegosouza.pw/dsh-plugins@0.1.0` och kommandot ovan är
+den kanoniska anropsformen idag; inget installationsskript finns hostat här.
 
-### Använd CLI:et idag
+### Använd CLI:n idag
 
-Version 0.1.0 levereras med skrivskyddade kommandon för upptäckt och validering samt
-installationskommandon som kräver samtycke. Den fullständiga kommandoreferensen, inklusive
-flaggor, avslutskoder och samtyckesgrinden för kodkörning, finns i [docs/CLI.md](../../docs/CLI.md).
+Version 0.1.0 levereras med skrivskyddade upptäckts- och valideringskommandon samt
+installationskommandon som kräver uttryckligt samtycke. Den fullständiga kommandoreferensen,
+inklusive flaggor, avslutningskoder och samtyckesspärren för kodkörning, finns i
+[docs/CLI.md](../../docs/CLI.md).
 
-| Kommando                       | Vad det gör                                                        | Påverkar det ditt system?               |
+| Kommando                        | Vad det gör                                                          | Påverkar ditt system?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | Validerar katalogens YAML, schema och lokala semantik                   | Nej — skrivskyddat                          |
-| `search <query...>`            | Söker i katalogens publika fält lokalt                                | Nej — skrivskyddat                          |
-| `info <id>`                    | Visar en publik katalogpost                                       | Nej — skrivskyddat                          |
-| `list`                         | Listar katalogstyrda installationer utan att ändra profiler            | Nej — skrivskyddat                          |
-| `doctor`                       | Skrivskyddad diagnostik för Node, DSH, nativ Windows-policy och katalogen  | Nej — skrivskyddat                          |
-| `add <id> --profile <name> --dry-run` | Visar den verifierade installationsplanen utan filer eller subprocesser | Nej — torrkörning                            |
-| `add <id> --profile <name> --allow-code-execution` | Installerar genom officiell DSH-delegering        | Ja — endast med uttrycklig samtyckesflagga   |
+| `catalog validate --catalog .` | Validera katalogens YAML, schema och lokal semantik                   | Nej — skrivskyddat                          |
+| `search <query...>`            | Sök i offentliga katalogfält lokalt                                | Nej — skrivskyddat                          |
+| `info <id>`                    | Visa en offentlig katalogpost                                       | Nej — skrivskyddat                          |
+| `list`                         | Lista katalogstyrda installationer utan att ändra profiler            | Nej — skrivskyddat                          |
+| `doctor`                       | Skrivskyddad diagnostik för Node, DSH, native Windows-policy och katalogen  | Nej — skrivskyddat                          |
+| `add <id> --profile <name> --dry-run` | Visa den verifierade installationsplanen utan filer eller underprocesser | Nej — dry-run                            |
+| `add <id> --profile <name> --allow-code-execution` | Installera via officiell DSH-delegering        | Ja — endast med uttrycklig samtyckesflagga   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -162,37 +163,29 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
 Muterande kommandon (`add`, `update`, `remove`) kör aldrig pluginets livscykelkod om du inte
-anger `--allow-code-execution`. På nativ Windows är dessa mutationer avaktiverade i v0.1.0;
-använd WSL. Skrivskyddade kommandon och torrkörningar fungerar överallt.
+skickar med `--allow-code-execution`. På native Windows är dessa mutationer inaktiverade i
+v0.1.0; använd WSL. Skrivskyddade kommandon och dry-run-kommandon fungerar överallt.
 
-## 🔍 Så kommer en plugin in i katalogen
+## 🔍 Hur en plugin läggs till i katalogen
 
-```mermaid
-flowchart LR
-    A["Skaparens repository<br/>(fastlåst commit)"] --> B["En branch,<br/>en PR,<br/>en YAML-post"]
-    B --> C["catalog-validation CI<br/>(schema + lokal semantik)"]
-    C --> D["Maintainer-kontroller<br/>(identitet, koppling till skapare,<br/>fastlåst bevis)"]
-    D --> E["catalog/plugins/*.yaml<br/>sammanslagen"]
-    E --> F["Webbplats"]
-    E --> G["CLI"]
-    E --> H["catalog.json-flöden"]
-```
+![Hur en plugin läggs till i katalogen](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Hur en plugin läggs till i katalogen](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **En plugin, en branch, en pull request.** PR:en lägger till eller ändrar exakt en YAML-fil
    under `catalog/plugins/`.
-2. **Skaparen först.** En PR öppnad av pluginets skapare eller ägande organisation har alltid
+2. **Skaparen först.** En PR som öppnas av pluginets skapare eller ägande organisation har alltid
    företräde framför community-kuratering eller automatisering för samma plugin — se
    [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Bevis från den ursprungliga källan.** Varje fält rekonstrueras från skaparens repository vid
-   en fastlåst 40-teckens commit: beskrivning, licens, DSH-integration, installationsdeskriptor,
+3. **Bevis från originalkällan.** Varje fält rekonstrueras från skaparens repository vid en
+   fastnålad 40-tecken-commit: beskrivning, licens, DSH-integration, installationsdeskriptor,
    stjärnor.
 4. **Lokal validering.** `catalog validate` kontrollerar struktur och lokal semantik; det är
    samma kontroll som CI-jobbet `catalog-validation` kör på PR:en.
-5. **Maintainer-kontroller.** Före sammanslagning verifierar maintainers separat repositoryts
-   identitet, kopplingen till skaparen och det fastlåsta beviset. En grön lokal validering är
+5. **Underhållargrindar.** Före sammanslagning verifierar underhållarna separat
+   repository-identitet, koppling till skaparen och fastnålat bevis. En grön lokal validering är
    nödvändig, men aldrig tillräcklig.
 
-Det fullständiga kontraktet — nödvändiga bevis, YAML-regler, stjärnpolicy, hantering av
+Det fullständiga kontraktet — nödvändigt bevis, YAML-regler, stjärnpolicy, hantering av
 kollisioner och granskningsgrindarna — finns i [CONTRIBUTING.md](../../CONTRIBUTING.md). Hur
 beslut fattas och av vem beskrivs i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
@@ -251,49 +244,49 @@ provenance:
 Viktiga invarianter som upprätthålls av schemat:
 
 - `unofficial: true` och `schemaVersion: 1` är konstanter.
-- En plugin i ett monorepo måste använda `stars: null` — moderprojektets stjärnor ärvs aldrig.
+- En monorepo-plugin måste använda `stars: null` — det överordnade projektets stjärnor ärvs
+  aldrig.
 - Installationsdeskriptorn är antingen ett npm-paket med exakt version eller själva den
-  fastlåsta källan; det är data, aldrig ett shell-kommando.
-- Statusen `verified` kräver granskningsbart bevis från ett smoke-test; annars är posten
-  `eligible` med `smokeTest: null`.
+  fastnålade källan; det är data, aldrig ett skalkommando.
+- Status `verified` kräver granskningsbart bevis från ett rök-test (smoke test); annars är
+  posten `eligible` med `smokeTest: null`.
 
-## 🗂 Vad hör hemma här
+## 🗂 Vad som hör hemma här
 
 Detta repository katalogiserar oberoende publicerade integrationer för DeepSeek Harness (DSH),
-inklusive nativa plugin, pluginfamiljer, teman, skills, klienter och bryggor. Artefakttyper,
-kapabilitetskategorier och gränssnittstaggar definieras i [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+inklusive native plugins, pluginfamiljer, teman, skills, klienter och bryggor. Artefakttyper,
+förmågekategorier och gränssnittstaggar definieras i [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Varje publik post är en YAML-fil under `catalog/plugins/` och måste validera mot
+Varje offentlig post är en YAML-fil under `catalog/plugins/` och måste validera mot
 `schemas/plugin.schema.yaml`. En listning innebär att de dokumenterade behörighets- eller
-verifieringskontrollerna har genomförts; det är inte ett säkerhetsintyg eller ett godkännande
-från DeepSeek.
+verifieringskontrollerna har slutförts; det är inte en säkerhetscertifiering eller ett
+godkännande från DeepSeek.
 
 ## 🏅 Rankning och verifiering
 
-Endast dedikerade, nativa, behöriga eller verifierade pluginrepositoryn med stjärnor som tillhör
-exakt det repositoryt kan komma med i en stjärnrankning. Integrationer som lagras inuti bredare
-monorepon förblir sökbara men använder `stars: null` och ärver aldrig moderprojektets stjärnor.
-Se [docs/RANKING.md](../../docs/RANKING.md) för det fullständiga predikatet.
+Endast dedikerade, native, behöriga eller verifierade plugin-repositories med stjärnor som
+tillhör exakt det repositoryt kan ingå i en stjärnrankning. Integrationer som lagras inuti
+bredare monorepos förblir sökbara men använder `stars: null` och ärver aldrig det överordnade
+projektets stjärnor. Se [docs/RANKING.md](../../docs/RANKING.md) för det fullständiga predikatet.
 
-Publika verifieringstillstånd skiljer strukturell behörighet från ett installationssmoke-test.
-Inget tillstånd representerar absolut säkerhet. Granska ett plugins repository, fastlåsta
-commit, licens och installationsbeteende innan du använder det.
+Offentliga verifieringsstatusar skiljer strukturell behörighet från ett installations-rök-test.
+Ingen status representerar absolut säkerhet. Granska ett plugins repository, fastnålade commit,
+licens och installationsbeteende innan du använder det.
 
 ## 🤝 Bidra eller gör anspråk på en post
 
 Läs [CONTRIBUTING.md](../../CONTRIBUTING.md) innan du öppnar en pull request. En pull request
-måste lägga till eller ändra exakt en pluginpost och måste hänvisa till det ursprungliga
-skaparrepositoryt snarare än en annan katalog. Pull requests författade av skaparen har
-företräde framför automatiserade katalog-pull requests.
+måste lägga till eller ändra exakt en pluginpost och måste hänvisa till skaparens ursprungliga
+repository snarare än en annan katalog. Pull requests skrivna av skaparen har företräde framför
+automatiserade katalog-pull requests.
 
-Strukturerade issue-formulär finns tillgängliga för anspråk från skapare, korrigeringar och
-borttagningar. Skicka aldrig in inloggningsuppgifter, privata kontaktuppgifter eller andra
-hemligheter.
+Strukturerade issue-formulär finns för skaparanspråk, korrigeringar och borttagningar. Skicka
+aldrig in autentiseringsuppgifter, privata kontaktuppgifter eller andra hemligheter.
 
 ## 👩‍🎨 Pluginskapare
 
-Katalogen finns eftersom dessa skapare lanserade plugin. Varje post krediterar sin skapare och
-länkar tillbaka till dennes repository — alltid.
+Katalogen finns tack vare att dessa skapare har levererat plugins. Varje post krediterar sin
+skapare och länkar tillbaka till deras repository — alltid.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -306,7 +299,8 @@ länkar tillbaka till dennes repository — alltid.
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Vill du ha ditt plugin här med full kreditering? [Öppna en PR med en YAML-post](../../CONTRIBUTING.md) — eller
+Vill du ha ditt plugin här med full kredit?
+[Öppna en PR med en YAML-post](../../CONTRIBUTING.md) — eller
 [gör anspråk på en befintlig post](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
 om någon katalogiserade ditt arbete innan du gjorde det.
 
@@ -315,34 +309,36 @@ om någon katalogiserade ditt arbete innan du gjorde det.
 | Dokument                                     | Vad det täcker                                                       |
 | -------------------------------------------- | -------------------------------------------------------------------- |
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Det fullständiga bidragskontraktet: bevis, YAML-regler, granskningsgrindar    |
-| [SECURITY.md](../../SECURITY.md)                   | Rapportering av sårbarheter i plugin eller katalog; policy för hemligheter           |
+| [SECURITY.md](../../SECURITY.md)                   | Rapportera sårbarheter i plugins eller katalogen; policy för hemligheter           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Fält-för-fält-referens för `schemas/plugin.schema.yaml`             |
 | [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferens för `@diegosouza.pw/dsh-plugins@0.1.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hur katalogen styrs: företräde, grindar, anspråk och borttagningar   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primära kapabilitetskategorier, taggar, repository-omfattning |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kreditering av skapare, PR-företräde och policy för Git-identitet                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | Det publika rankningspredikatet och verifieringstillstånden                  |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Inofficiell status och hållning kring varumärken                               |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primära förmågekategorier, taggar, repository-omfattning |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaparkredit, PR-företräde och Git-identitetspolicy                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Det offentliga rankningspredikatet och verifieringsstatusar           |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Inofficiell status och varumärkeshållning                               |
 
 ## 🌐 Översättningar
 
-Denna README finns tillgänglig på 43 språk under [`docs/i18n/`](..) — använd flaggväljaren
-högst upp. Engelska är sanningskällan; när en översättning och den engelska texten skiljer sig
-åt gäller den engelska texten. Korrigeringar av alla översättningar är välkomna genom vanliga
-pull requests.
+Denna README finns tillgänglig på 43 språk under [`docs/i18n/`](../../docs/i18n) — använd
+flaggväljaren högst upp. Engelska är sanningskällan; om en översättning och den engelska texten
+skiljer sig åt är det den engelska texten som gäller. Korrigeringar av vilken översättning som
+helst välkomnas genom vanliga pull requests.
 
-## 📜 Licens och kreditering
+## 📜 Licens och attribution
 
 Dokumentation och repository-mallar är licensierade under [MIT-licensen](../../LICENSE).
-Ursprungliga katalogfakta och redaktionell YAML-metadata är dedikerade under
-[CC0-1.0](../../LICENSE-CATALOG). Uppströmskod, namn, logotyper och skärmdumpar förblir under
+Ursprungliga katalogfakta och redaktionell YAML-metadata är tillgängliggjorda under
+[CC0-1.0](../../LICENSE-CATALOG). Ursprungskod, namn, logotyper och skärmdumpar förblir under
 sina ursprungliga ägare och licenser. Se [docs/CREDIT.md](../../docs/CREDIT.md) och
 [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Om den här katalogen hjälpte dig att hitta ett plugin, ge repot en stjärna — det hjälper skapare att bli hittade.
+### ⭐ Om den här katalogen hjälpte dig hitta en plugin, sätt en stjärna på repot — det hjälper skapare att bli upptäckta.
 
-**[Bläddra bland alla plugin på webbplatsen →](https://dsh-plugins.omniroute.online)**
+**[Bläddra bland alla plugins på webbplatsen →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

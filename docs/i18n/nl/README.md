@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogus met voorrang voor de maker en installatie met één commando voor DeepSeek Harness-plugins. Vastgepinde broncommits, gecrediteerde makers, één beoordeelde PR per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogus met voorrang voor makers en installatie met één commando voor DeepSeek Harness-plugins. Vastgepinde broncommits, gecrediteerde makers, één beoordeelde PR per plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Niet-officieel communityproject. Niet verbonden aan, onderschreven door of gesponsord door DeepSeek.**
-> DeepSeek-namen en -merken zijn eigendom van hun respectievelijke eigenaars.
+> **Onofficieel communityproject. Niet verbonden aan, goedgekeurd door of gesponsord door DeepSeek.**
+> DeepSeek-namen en -merken zijn eigendom van hun respectieve eigenaar.
 
-Ontdekking met voorrang voor de maker en installatie met één commando voor **DeepSeek Harness (DSH)**-plugins.
+Ontdekking met voorrang voor makers en installatie met één commando voor **DeepSeek Harness (DSH)**-plugins.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
@@ -16,7 +16,7 @@ Ontdekking met voorrang voor de maker en installatie met één commando voor **D
   <a href="https://dsh-plugins.omniroute.online">Blader, zoek en installeer elke plugin op de website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,44 +76,54 @@ Ontdekking met voorrang voor de maker en installatie met één commando voor **D
 
 ## ⭐ Top 10 plugins
 
-Gerangschikt op sterren van de exacte repository — alleen sterren die de eigen repository van de plugin heeft verdiend tellen mee, nooit die van een bovenliggend project ([rangschikkingspredicaat](../../docs/RANKING.md)). Elke naam linkt naar de repository van de maker, vastgepind op de exacte commit die de catalogus heeft gevalideerd.
+Gerangschikt op sterren van het exacte repository — alleen sterren die het eigen repository van
+de plugin heeft verdiend tellen mee, nooit die van een bovenliggend project ([rangschikkingspredicaat](../../docs/RANKING.md)).
+Elke naam linkt naar het repository van de maker, vastgepind op de exacte commit die de catalogus heeft gevalideerd.
 
-| # | Plugin | Maker | ★ | Categorie | Wat het doet |
+| #   | Plugin | Maker | ★ | Categorie | Wat het doet |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualisatie: het model rendert interactieve grafieken en diagrammen binnen de sessie |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Verwisselbaar transparant bureaubladhuisdier (Remielle, Zenless Zone Zero) voor de DSH-web-GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Geanimeerde walvismeisje-mascotte Kanban Musume die reageert op dashboardactiviteit |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Volledig-scherm terminal-chatclient in curses-stijl voor het aansturen van dsh-sessies |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interactieve pi-tui-terminalvoordeur: sessiekiezer, streaming chat, sneltoetsen |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Optionele geavanceerde Tavily-zoektool met beheer van meerdere sleutels en een gebruiksmeter |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Zwevende bilibili-videowidget: aanbevelingen, trending, ranglijsten en zoeken |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Uiterlijk-plugin: ingebouwde paletten, licht/donker/systeemmodus, VS Code-thema's |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Niet-commerciële Arknights-astraltuin-skin met Pramanix en Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-geverifieerde WebSocket-brug voor de bijbehorende browserextensie |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Insteekbaar zicht voor alleen-tekst-LLM's, aangedreven door de gratis Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-webplugin: een rechterzijbalk in VSCode-stijl (verkenner / editor / terminal / git / browser), geïsoleerd per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ogen voor alleen-tekst DeepSeek Harness-agents: ingebouwde gratis visieketen (geen sleutel nodig) + visietools op pixelniveau… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integratie voor agent-vision-toolkit: beeld-Q&A, OCR, grounding, UI-herstel,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-advertentie-infestatieplugin: gelokaliseerde Chinese portaladvertenties en Engelse nepoplichting-advertentieparodie, met nep-pop-ups,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI voor DeepSeek Harness: interactieve UI-componenten die inline in antwoorden van de assistent worden weergegeven via de dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: een interactieve terminal-UI-plugin voor de officiële DeepSeek Harness — streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualisatie voor DeepSeek Harness: een visualize-tool plus meegeleverde skill laten het model tekenen… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Een anime-zoekplugin voor DeepSeek Harness: een anime_find_search-tool bundelt Mikan, AniBT en… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH ongedaan-maken/terugdraaisysteem: maakt een momentopname van configuratiebestanden bij wijziging, maakt de laatste actie ongedaan of opnieuw vanuit de WebUI of via… |
 
 <div align="center">
 
-### 👉 👉 [**Doorzoek alle plugins, lees de details en kopieer het installatiecommando op de website →**](https://dsh-plugins.omniroute.online) 👈 👈
+### 👉 [**Doorzoek alle plugins, lees de details en kopieer het installatiecommando op de website →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## In het kort
+## In één oogopslag
 
-| Surface     | Wat het is                                                       | Waar                                                                    |
+| Oppervlak     | Wat het is                                                       | Waar                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Website** | Gerenderde catalogusbrowser met zoeken en ranking | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
-| **Catalogus** | Eén YAML-bestand per plugin, de enige bron van waarheid | [`catalog/plugins/`](../../catalog/plugins) |
-| **Schema** | Openbaar JSON Schema (draft 2020-12) waartegen elke invoer wordt gevalideerd | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | Doorzoek, inspecteer, valideer en installeer vanuit de catalogus | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Machine-feeds** | `catalog.json` + `catalog.snapshot.json` voor tools | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Website** | Gerenderde catalogusbrowser met zoeken en rangschikking                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Catalogus** | Eén YAML-bestand per plugin, de enige bron van waarheid             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Schema**  | Publiek JSON Schema (draft 2020-12) waartegen elke invoer wordt gevalideerd | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Doorzoekt, inspecteert, valideert en installeert vanuit de catalogus           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Machinefeeds** | `catalog.json` + `catalog.snapshot.json` voor tools           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Deze repository is de openbare bron van waarheid voor de catalogus. Elke vermelding is één YAML-bestand onder `catalog/plugins/`, gevalideerd tegen een gepubliceerd JSON Schema, toegevoegd via één individueel beoordeelde pull request en altijd toegeschreven aan de oorspronkelijke maker van de plugin. Niets in de catalogus wordt gegenereerd uit een andere catalogus of lijst: elke vermelding wordt gereconstrueerd vanuit de oorspronkelijke repository van de maker, op een vastgepinde commit.
+Deze repository is de publieke bron van waarheid voor de catalogus. Elke vermelding is één
+YAML-bestand onder `catalog/plugins/`, gevalideerd tegen een gepubliceerd JSON Schema,
+toegevoegd via één individueel beoordeelde pull request, en altijd gecrediteerd aan de
+oorspronkelijke maker van de plugin. Niets in de catalogus wordt gegenereerd uit een andere
+catalogus of lijst: elke invoer wordt gereconstrueerd vanuit het oorspronkelijke repository
+van de maker, op een vastgepinde commit.
 
-De website en de CLI worden onderhouden vanuit privébroncode; deze repository bevat de openbare catalogusgegevens, het schema en het beleid dat ze gebruiken.
+De website en de CLI worden onderhouden vanuit privébroncode; deze repository bevat de
+publieke catalogusdata, het schema en het beleid dat ze gebruiken.
 
 ## Catalogusstatus
 
-**10 plugins samengevoegd.** Elke plugin komt binnen via één individueel beoordeelde pull request, één tegelijk, vanuit de oorspronkelijke repository van de maker, met een vastgepinde broncommit en expliciete toeschrijving.
+**160 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
+request, één tegelijk, vanuit het oorspronkelijke repository van de maker, met een
+vastgepinde broncommit en expliciete attributie.
 
 ## 🚀 Installeer de CLI
 
@@ -121,21 +131,24 @@ De website en de CLI worden onderhouden vanuit privébroncode; deze repository b
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Het scoped package wordt gepubliceerd als `@diegosouza.pw/dsh-plugins@0.1.0` en het bovenstaande commando is vandaag de canonieke aanroep; hier wordt geen installatiescript gehost.
+Het scoped package wordt gepubliceerd als `@diegosouza.pw/dsh-plugins@0.1.0` en het commando
+hierboven is vandaag de canonieke aanroep; er wordt hier geen installatiescript gehost.
 
 ### Gebruik de CLI vandaag
 
-Versie 0.1.0 levert alleen-lezen ontdekkings- en validatiecommando's plus installatiecommando's die toestemming vereisen. De volledige commandoreferentie, inclusief vlaggen, afsluitcodes en de toestemmingspoort voor codeuitvoering, staat in [docs/CLI.md](../../docs/CLI.md).
+Versie 0.1.0 levert alleen-lezen ontdekkings- en validatiecommando's plus installatie-
+commando's die aan toestemming gebonden zijn. De volledige commandoreferentie, inclusief
+vlaggen, afsluitcodes en de toestemmingscontrole voor codeuitvoering, staat in [docs/CLI.md](../../docs/CLI.md).
 
-| Commando                        | Wat het doet                                                        | Raakt het uw systeem?                    |
-| ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
-| `catalog validate --catalog .` | Valideert catalogus-YAML, schema en lokale semantiek | Nee — alleen-lezen |
-| `search <query...>` | Doorzoekt openbare catalogusvelden lokaal | Nee — alleen-lezen |
-| `info <id>` | Toont één openbare catalogusvermelding | Nee — alleen-lezen |
-| `list` | Lijst installaties beheerd door de catalogus zonder profielen te wijzigen | Nee — alleen-lezen |
-| `doctor` | Alleen-lezen diagnostiek van Node, DSH, native Windows-beleid en catalogus | Nee — alleen-lezen |
-| `add <id> --profile <name> --dry-run` | Toont het geverifieerde installatieplan zonder bestanden of subprocessen | Nee — dry-run |
-| `add <id> --profile <name> --allow-code-execution` | Installeert via officiële DSH-delegatie | Ja — alleen met de expliciete toestemmingsvlag |
+| Commando                        | Wat het doet                                                        | Raakt het uw systeem aan?                    |
+| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
+| `catalog validate --catalog .` | Valideert de catalogus-YAML, het schema en de lokale semantiek                   | Nee — alleen-lezen                          |
+| `search <query...>`            | Doorzoekt lokaal publieke catalogusvelden                                | Nee — alleen-lezen                          |
+| `info <id>`                    | Toont één publieke catalogusinvoer                                       | Nee — alleen-lezen                          |
+| `list`                         | Geeft door de catalogus beheerde installaties weer zonder profielen te wijzigen            | Nee — alleen-lezen                          |
+| `doctor`                       | Alleen-lezen diagnostiek van Node, DSH, nativief Windows-beleid en catalogus  | Nee — alleen-lezen                          |
+| `add <id> --profile <name> --dry-run` | Toont het geverifieerde installatieplan zonder bestanden of subprocessen | Nee — dry-run                            |
+| `add <id> --profile <name> --allow-code-execution` | Installeert via officiële DSH-delegatie        | Ja — alleen met expliciete toestemmingsvlag   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -149,32 +162,37 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Muterende commando's (`add`, `update`, `remove`) voeren nooit plugin-levenscycluscode uit, tenzij u `--allow-code-execution` doorgeeft. Op native Windows zijn die mutaties uitgeschakeld in v0.1.0; gebruik WSL. Alleen-lezen en dry-run-commando's werken overal.
+Muterende commando's (`add`, `update`, `remove`) voeren nooit levenscycluscode van de plugin
+uit, tenzij u `--allow-code-execution` opgeeft. Op nativief Windows zijn die mutaties
+uitgeschakeld in v0.1.0; gebruik WSL. Alleen-lezen- en dry-run-commando's werken overal.
 
 ## 🔍 Hoe een plugin de catalogus binnenkomt
 
-```mermaid
-flowchart LR
-    A["Repository van de maker<br/>(vastgepinde commit)"] --> B["Eén branch,<br/>één PR,<br/>één YAML-invoer"]
-    B --> C["catalog-validation CI<br/>(schema + lokale semantiek)"]
-    C --> D["Maintainer-poorten<br/>(identiteit, koppeling met maker,<br/>vastgepind bewijs)"]
-    D --> E["catalog/plugins/*.yaml<br/>samengevoegd"]
-    E --> F["Website"]
-    E --> G["CLI"]
-    E --> H["catalog.json-feeds"]
-```
+![Hoe een plugin de catalogus binnenkomt](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Hoe een plugin de catalogus binnenkomt](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Eén plugin, één branch, één pull request.** De PR voegt precies één YAML-bestand toe onder `catalog/plugins/` of wijzigt het.
-2. **Voorrang voor de maker.** Een PR geopend door de maker van de plugin of de eigenaarsorganisatie krijgt voor dezelfde plugin altijd voorrang boven community-curatie of automatisering — zie [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Bewijs uit de oorspronkelijke bron.** Elk veld wordt gereconstrueerd vanuit de repository van de maker, op een vastgepinde commit van 40 tekens: beschrijving, licentie, DSH-integratie, installatiedescriptor, sterren.
-4. **Lokale validatie.** `catalog validate` controleert structuur en lokale semantiek; dit is dezelfde controle die de CI-job `catalog-validation` op de PR uitvoert.
-5. **Maintainer-poorten.** Vóór het samenvoegen verifiëren maintainers apart de repository-identiteit, de koppeling met de maker en het vastgepinde bewijs. Een groene lokale validatie is noodzakelijk, maar nooit voldoende.
+1. **Eén plugin, één branch, één pull request.** De PR voegt precies één YAML-bestand toe of
+   wijzigt het onder `catalog/plugins/`.
+2. **Voorrang voor de maker.** Een PR geopend door de maker van de plugin of de eigenaarsorganisatie
+   heeft altijd voorrang op community-curatie of automatisering voor dezelfde plugin — zie
+   [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Bewijs uit de oorspronkelijke bron.** Elk veld wordt gereconstrueerd vanuit het repository
+   van de maker, op een vastgepinde commit van 40 tekens: beschrijving, licentie, DSH-integratie,
+   installatiedescriptor, sterren.
+4. **Lokale validatie.** `catalog validate` controleert structuur en lokale semantiek; dit is
+   dezelfde controle die de CI-taak `catalog-validation` op de PR uitvoert.
+5. **Beheerderscontroles.** Vóór de merge verifiëren beheerders afzonderlijk de repository-
+   identiteit, de binding met de maker en het vastgepinde bewijs. Een groene lokale validatie
+   is noodzakelijk, maar nooit voldoende.
 
-Het volledige contract — vereist bewijs, YAML-regels, sterrenbeleid, afhandeling van botsingen en de reviewpoorten — staat in [CONTRIBUTING.md](../../CONTRIBUTING.md). Hoe beslissingen worden genomen en door wie, staat in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Het volledige contract — vereist bewijs, YAML-regels, sterrenbeleid, afhandeling van
+botsingen en de beoordelingscontroles — staat in [CONTRIBUTING.md](../../CONTRIBUTING.md). Hoe
+besluiten worden genomen en door wie, staat in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomie van een invoer
 
-Elke invoer is één YAML-bestand, genoemd naar de bijbehorende ID. Het onderstaande voorbeeld valideert tegen het huidige schema (veld-voor-veld-referentie in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Elke invoer is één YAML-bestand vernoemd naar zijn ID. Het onderstaande voorbeeld valideert
+tegen het huidige schema (veld-voor-veld-referentie in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -223,34 +241,53 @@ provenance:
   comment: null
 ```
 
-Belangrijke invarianten die door het schema worden afgedwongen:
+Belangrijkste invarianten die het schema afdwingt:
 
 - `unofficial: true` en `schemaVersion: 1` zijn constanten.
-- Een monorepo-plugin moet `stars: null` gebruiken — sterren van het bovenliggende project worden nooit overgenomen.
-- De installatiedescriptor is ofwel een npm-pakket met exacte versie, ofwel de vastgepinde bron zelf; het is data, nooit een shellcommando.
-- De status `verified` vereist controleerbaar smoke-test-bewijs; anders is de invoer `eligible` met `smokeTest: null`.
+- Een monorepo-plugin moet `stars: null` gebruiken — sterren van het bovenliggende project
+  worden nooit overgenomen.
+- De installatiedescriptor is ofwel een npm-package met exacte versie, ofwel de vastgepinde
+  bron zelf; het is data, nooit een shellcommando.
+- De status `verified` vereist controleerbaar smoketest-bewijs; anders is de invoer `eligible`
+  met `smokeTest: null`.
 
 ## 🗂 Wat hier thuishoort
 
-Deze repository catalogiseert onafhankelijk gepubliceerde integraties voor DeepSeek Harness (DSH), waaronder native plugins, pluginfamilies, thema's, skills, clients en bridges. Artefacttypen, capaciteitscategorieën en interfacetags zijn gedefinieerd in [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Deze repository catalogiseert onafhankelijk gepubliceerde integraties voor DeepSeek Harness
+(DSH), waaronder native plugins, pluginfamilies, thema's, skills, clients en bruggen.
+Artefacttypen, capaciteitscategorieën en interfacetags zijn gedefinieerd in [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Elke openbare vermelding is één YAML-bestand onder `catalog/plugins/` en moet valideren tegen `schemas/plugin.schema.yaml`. Een vermelding betekent dat de gedocumenteerde geschiktheids- of verificatiecontroles zijn voltooid; het is geen beveiligingscertificering en geen goedkeuring door DeepSeek.
+Elk publiek record is één YAML-bestand onder `catalog/plugins/` en moet valideren tegen
+`schemas/plugin.schema.yaml`. Een vermelding betekent dat de gedocumenteerde
+geschiktheids- of verificatiecontroles zijn voltooid; het is geen beveiligingscertificering
+of goedkeuring door DeepSeek.
 
-## 🏅 Ranking en verificatie
+## 🏅 Rangschikking en verificatie
 
-Alleen toegewijde, native, geschikte of geverifieerde pluginrepository's met sterren die exact bij die repository horen, kunnen deelnemen aan een sterrenranking. Integraties die zijn opgeslagen binnen bredere monorepo's blijven vindbaar, maar gebruiken `stars: null` en erven nooit sterren van het bovenliggende project. Zie [docs/RANKING.md](../../docs/RANKING.md) voor het volledige predicaat.
+Alleen toegewijde, native, geschikte of geverifieerde pluginrepositories met sterren die tot
+dat exacte repository behoren, kunnen in een sterrenranglijst komen. Integraties opgeslagen
+binnen bredere monorepo's blijven vindbaar, maar gebruiken `stars: null` en erven nooit
+sterren van het bovenliggende project over. Zie [docs/RANKING.md](../../docs/RANKING.md) voor
+het volledige predicaat.
 
-Openbare verificatiestatussen onderscheiden structurele geschiktheid van een installatie-smoke-test. Geen enkele status betekent absolute veiligheid. Bekijk de repository, de vastgepinde commit, de licentie en het installatiegedrag van een plugin voordat u deze gebruikt.
+Publieke verificatiestatussen onderscheiden structurele geschiktheid van een installatie-
+smoketest. Geen enkele status vertegenwoordigt absolute veiligheid. Bekijk het repository van
+de plugin, de vastgepinde commit, de licentie en het installatiegedrag voordat u het gebruikt.
 
 ## 🤝 Draag bij of claim een invoer
 
-Lees [CONTRIBUTING.md](../../CONTRIBUTING.md) voordat u een pull request opent. Een pull request moet precies één plugininvoer toevoegen of wijzigen en moet verwijzen naar de oorspronkelijke repository van de maker in plaats van naar een andere catalogus. Pull requests van de maker zelf krijgen voorrang boven geautomatiseerde catalogus-pull-requests.
+Lees [CONTRIBUTING.md](../../CONTRIBUTING.md) voordat u een pull request opent. Een pull
+request moet precies één pluginvermelding toevoegen of wijzigen en moet het oorspronkelijke
+repository van de maker citeren in plaats van een andere catalogus. Pull requests van de
+maker zelf hebben voorrang op geautomatiseerde catalogus-pull-requests.
 
-Voor claims van makers, correcties en verwijderingen zijn gestructureerde issue-formulieren beschikbaar. Verstuur nooit inloggegevens, privécontactgegevens of andere geheimen.
+Gestructureerde issue-formulieren zijn beschikbaar voor makersclaims, correcties en
+verwijderingen. Verstuur nooit inloggegevens, privécontactgegevens of andere geheimen.
 
 ## 👩‍🎨 Pluginmakers
 
-De catalogus bestaat omdat deze makers plugins hebben uitgebracht. Elke invoer crediteert de maker en linkt terug naar diens repository — altijd.
+De catalogus bestaat omdat deze makers plugins hebben uitgebracht. Elke invoer crediteert
+zijn maker en linkt terug naar hun repository — altijd.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -263,34 +300,44 @@ De catalogus bestaat omdat deze makers plugins hebben uitgebracht. Elke invoer c
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Wilt u uw plugin hier, met volledige credits? [Open één PR met één YAML-invoer](../../CONTRIBUTING.md) — of [claim een bestaande invoer](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose) als iemand uw werk al vóór u heeft gecatalogiseerd.
+Wilt u uw plugin hier met volledige credit? [Open één PR met één YAML-invoer](../../CONTRIBUTING.md) — of
+[claim een bestaande invoer](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+als iemand uw werk al heeft gecatalogiseerd voordat u dat deed.
 
 ## 📚 Documentatie
 
 | Document                                     | Wat het behandelt                                                       |
-| --------------------------------------------- | ---------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Het volledige bijdragecontract: bewijs, YAML-regels, reviewpoorten    |
-| [SECURITY.md](../../SECURITY.md)           | Het melden van plugin- of catalogus-kwetsbaarheden; geheimenbeleid    |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)           | Veld-voor-veld-referentie voor `schemas/plugin.schema.yaml`    |
-| [docs/CLI.md](../../docs/CLI.md)           | CLI-commandoreferentie voor `@diegosouza.pw/dsh-plugins@0.1.0`    |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)           | Hoe de catalogus wordt bestuurd: voorrang, poorten, claims en verwijderingen    |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)           | Artefacttypen, primaire capaciteitscategorieën, tags, repository-bereik    |
-| [docs/CREDIT.md](../../docs/CREDIT.md)           | Toeschrijving aan de maker, PR-voorrang en Git-identiteitsbeleid    |
-| [docs/RANKING.md](../../docs/RANKING.md)           | Het openbare rankingpredicaat en de verificatiestatussen    |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)           | Niet-officiële status en houding ten aanzien van handelsmerken    |
+| -------------------------------------------- | -------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Het volledige bijdragecontract: bewijs, YAML-regels, beoordelingscontroles    |
+| [SECURITY.md](../../SECURITY.md)                   | Kwetsbaarheden in plugins of catalogus melden; geheimenbeleid           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Veld-voor-veld-referentie voor `schemas/plugin.schema.yaml`             |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-commandoreferentie voor `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hoe de catalogus wordt bestuurd: voorrang, controles, claims en verwijderingen   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefacttypen, primaire capaciteitscategorieën, tags, repositoryomvang |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Makerscredit, PR-voorrang en Git-identiteitsbeleid                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Het publieke rangschikkingspredicaat en de verificatiestatussen                  |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Onofficiële status en houding ten aanzien van handelsmerken                               |
 
 ## 🌐 Vertalingen
 
-Deze README is beschikbaar in 43 talen onder [`docs/i18n/`](..) — gebruik de vlaggenkiezer bovenaan. Engels is de bron van waarheid; wanneer een vertaling en de Engelse tekst van elkaar verschillen, is de Engelse tekst leidend. Correcties op elke vertaling zijn welkom via normale pull requests.
+Deze README is beschikbaar in 43 talen onder [`docs/i18n/`](../../docs/i18n) — gebruik de
+vlaggenkiezer bovenaan. Engels is de bron van waarheid; wanneer een vertaling en de Engelse
+tekst van elkaar afwijken, geldt de Engelse tekst. Correcties op elke vertaling zijn welkom
+via normale pull requests.
 
-## 📜 Licentie en toeschrijving
+## 📜 Licentie en attributie
 
-Documentatie en repositorysjablonen zijn gelicentieerd onder de [MIT-licentie](../../LICENSE). Oorspronkelijke catalogusfeiten en redactionele YAML-metadata zijn toegewijd onder [CC0-1.0](../../LICENSE-CATALOG). Upstream-code, namen, logo's en screenshots blijven bij hun oorspronkelijke eigenaren en licenties. Zie [docs/CREDIT.md](../../docs/CREDIT.md) en [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Documentatie en repositorysjablonen zijn gelicentieerd onder de [MIT-licentie](../../LICENSE). De
+oorspronkelijke catalogusfeiten en redactionele YAML-metadata zijn vrijgegeven onder [CC0-1.0](../../LICENSE-CATALOG).
+Upstream-code, namen, logo's en screenshots blijven onder hun oorspronkelijke eigenaars en
+licenties. Zie [docs/CREDIT.md](../../docs/CREDIT.md) en [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Als deze catalogus u heeft geholpen een plugin te vinden, geef de repository dan een ster — dat helpt makers om gevonden te worden.
+### ⭐ Als deze catalogus u geholpen heeft een plugin te vinden, geef de repository dan een ster — dat helpt makers om gevonden te worden.
 
 **[Blader door alle plugins op de website →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

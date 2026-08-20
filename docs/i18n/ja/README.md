@@ -7,7 +7,7 @@
 > **これは非公式のコミュニティプロジェクトです。DeepSeek とは提携・承認・スポンサー関係はありません。**
 > DeepSeek の名称および商標は、それぞれの権利者に帰属します。
 
-**DeepSeek Harness (DSH)** プラグインを、クリエイター最優先で見つけ、ワンコマンドでインストールできます。
+**DeepSeek Harness (DSH)** プラグインのための、クリエイター最優先の発見とワンコマンドインストール。
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ウェブサイトですべてのプラグインを閲覧・検索・インストール →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,75 +76,66 @@
 
 ## ⭐ トップ10プラグイン
 
-ランキングは、そのプラグイン自身のリポジトリが獲得したスターのみを対象とし、親プロジェクトのスターは決してカウントしません
-([ランキング判定基準](../../docs/RANKING.md))。名前はすべて、カタログが検証した時点のコミットに固定されたクリエイターの
-リポジトリにリンクしています。
+正確なリポジトリのスター数でランク付けされています — 親プロジェクトのスターは決してカウントされず、プラグイン自身のリポジトリが獲得したスターのみが対象です（[ランキング述語](../../docs/RANKING.md)）。すべての名前はクリエイターのリポジトリにリンクしており、カタログが検証した正確なコミットに固定されています。
 
-| #   | Plugin | Creator | ★ | Category | 機能概要 |
+| #   | プラグイン | クリエイター | ★ | カテゴリ | 何をするか |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | インライン可視化:セッション内でモデルがインタラクティブなチャートや図を描画 |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | DSH Web GUI 向けのホットプラグ対応・透過型デスクトップペット(『ゼンレスゾーンゼロ』のレミリア) |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | ダッシュボードの活動に反応するアニメーション付きクジラ少女の看板娘マスコット |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | dsh セッションを操作するための curses 風フルスクリーン端末チャットクライアント |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | インタラクティブな pi-tui 端末フロントドア:セッション選択、ストリーミングチャット、キーバインド |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | オプトイン方式の Tavily 高度検索ツール、複数キー管理と使用量ゲージ付き |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | フローティング bilibili 動画ウィジェット:おすすめ、トレンド、ランキング、検索 |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | 外観プラグイン:内蔵パレット、ライト/ダーク/システム連動モード、VS Code テーマ |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | 『アークナイツ』プラマニクス&エイヤフィヤトラをフィーチャーした非商用の基地デコレーション |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | 対応ブラウザ拡張機能向けのトークン認証 WebSocket ブリッジ |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | 無料の Antigravity CLI を利用した、テキスト専用LLM向けのプラグイン式ビジョン |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH webプラグイン: VSCode風の右サイドバー（エクスプローラー / エディタ / ターミナル / git / ブラウザ）を提供し、…ごとに分離… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | テキスト専用の DeepSeek Harness エージェントに目を与える: 組み込みの無料ビジョンチェーン（キー不要）+ ピクセル単位のビジョンツール… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit 向けの DeepSeek Harness ネイティブ統合: 画像Q&A、OCR、グラウンディング、UI復元、… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH広告汚染プラグイン: ローカライズされた中国のポータル広告と英語の詐欺広告パロディ、偽のポップアップ、あ… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness向けのGenUI: dsh-ui… を通じてアシスタントの返信内にインラインでレンダリングされるインタラクティブなUIコンポーネント |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: 公式 DeepSeek Harness 向けのインタラクティブなターミナルUIプラグイン — ストリーミング… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness向けのインラインビジュアライゼーション: visualizeツールと同梱のskillにより、モデルが…をレンダリングできる |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness向けのアニメ検索プラグイン: anime_find_searchツールがMikan、AniBT、… を集約 |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSHのundo/rollbackシステム: 変更時に設定ファイルをスナップショットし、WebUIから、または…によって最後の操作をundo/redo |
 
 <div align="center">
 
-### 👉 [**ウェブサイトですべてのプラグインを検索し、詳細を読んでインストールコマンドをコピー →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**ウェブサイトですべてのプラグインを検索し、詳細を読み、インストールコマンドをコピー →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## 概要
+## ひと目でわかる概要
 
-| 項目     | 内容                                                       | 場所                                                                    |
+| 面     | それは何か                                                       | 場所                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **ウェブサイト** | 検索とランキング機能付きのカタログ閲覧画面                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-| **カタログ** | プラグインごとに1つの YAML ファイル、唯一の信頼できる情報源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **スキーマ**  | すべてのエントリが検証対象とする、公開された JSON Schema(draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | カタログからの検索、確認、検証、インストール           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **ウェブサイト** | 検索とランキング機能を備えたレンダリング済みカタログブラウザ                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **カタログ** | プラグインごとに1つのYAMLファイル、唯一の信頼できる情報源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **スキーマ**  | すべてのエントリが検証される、公開のJSON Schema（draft 2020-12） | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | カタログから検索・調査・検証・インストール           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
 | **マシン向けフィード** | ツール向けの `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-このリポジトリは、カタログの公開された信頼できる情報源です。すべての掲載項目は `catalog/plugins/` 配下の1つの YAML
-ファイルであり、公開された JSON Schema に対して検証され、個別にレビューされた1件のプルリクエストを通じて追加され、常に
-プラグインの本来のクリエイターがクレジットされます。カタログ内のいかなる項目も他のカタログや一覧から生成されることはなく、
-各エントリはクリエイター本来のリポジトリの固定コミットから再構築されています。
+このリポジトリは、カタログの公開された信頼できる情報源です。すべてのエントリは `catalog/plugins/` 配下の1つのYAMLファイルであり、公開されたJSON Schemaに対して検証され、個別にレビューされた1件のプルリクエストを通じて追加され、常にプラグインの元のクリエイターにクレジットされます。カタログ内のいかなる項目も、他のカタログやリストから生成されたものではありません。各エントリは、固定されたコミットにおけるクリエイターの元のリポジトリから再構築されています。
 
-ウェブサイトと CLI は非公開のソースコードから保守されています。本リポジトリは、それらが利用する公開カタログデータ、
-スキーマ、ポリシーを保持しています。
+ウェブサイトとCLIは非公開のソースから保守されています。このリポジトリには、それらが利用する公開カタログデータ、スキーマ、ポリシーが含まれています。
 
 ## カタログの状況
 
-**10件のプラグインをマージ済み。** すべてのプラグインは、本来のクリエイターのリポジトリから、固定されたソースコミット
-と明確なクレジット表示とともに、個別にレビューされた1件のプルリクエストを通じて、1件ずつ登録されます。
+**160件のプラグインがマージ済み。** すべてのプラグインは、固定されたソースコミットと明示的なクレジットとともに、元のクリエイターのリポジトリから、1件ずつ個別にレビューされたプルリクエストを通じて登録されます。
 
-## 🚀 CLI のインストール
+## 🚀 CLIをインストール
 
 ```bash
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-このスコープ付きパッケージは `@diegosouza.pw/dsh-plugins@0.1.0` として公開されており、上記のコマンドが現時点での標準
-呼び出し方法です。インストーラースクリプトはここではホストされていません。
+このスコープ付きパッケージは `@diegosouza.pw/dsh-plugins@0.1.0` として公開されており、上記のコマンドが現時点での正規の呼び出し方法です。インストーラースクリプトはここではホストされていません。
 
-### CLI を今すぐ使う
+### 今すぐCLIを使う
 
-バージョン 0.1.0 は、読み取り専用の発見・検証コマンドと、同意を必要とするインストールコマンドを提供します。フラグ、
-終了コード、コード実行の同意ゲートを含む完全なコマンドリファレンスは [docs/CLI.md](../../docs/CLI.md) にあります。
+バージョン0.1.0には、読み取り専用の発見・検証コマンドに加えて、同意ゲート付きのインストールコマンドが含まれています。フラグ、終了コード、コード実行の同意ゲートを含む完全なコマンドリファレンスは [docs/CLI.md](../../docs/CLI.md) にあります。
 
-| コマンド                        | 機能概要                                                        | システムへの影響                    |
+| コマンド                        | 何をするか                                                        | システムに影響するか？                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | カタログの YAML、スキーマ、ローカル整合性を検証                   | なし——読み取り専用                          |
-| `search <query...>`            | 公開カタログのフィールドをローカルで検索                                | なし——読み取り専用                          |
-| `info <id>`                    | 公開カタログの1エントリを表示                                       | なし——読み取り専用                          |
-| `list`                         | プロファイルを変更せずに、カタログで管理されたインストール一覧を表示            | なし——読み取り専用                          |
-| `doctor`                       | Node、DSH、ネイティブ Windows のポリシー、カタログの読み取り専用診断  | なし——読み取り専用                          |
-| `add <id> --profile <name> --dry-run` | ファイルもサブプロセスも生成せずに、検証済みのインストール計画を表示 | なし——ドライラン                            |
-| `add <id> --profile <name> --allow-code-execution` | 公式の DSH デリゲーション経由でインストール        | あり——明示的な同意フラグを渡した場合のみ   |
+| `catalog validate --catalog .` | カタログのYAML、スキーマ、ローカルセマンティクスを検証                   | いいえ — 読み取り専用                          |
+| `search <query...>`            | 公開カタログのフィールドをローカルで検索                                | いいえ — 読み取り専用                          |
+| `info <id>`                    | 1件の公開カタログエントリを表示                                       | いいえ — 読み取り専用                          |
+| `list`                         | プロファイルを変更せずにカタログ管理下のインストールを一覧表示            | いいえ — 読み取り専用                          |
+| `doctor`                       | Node、DSH、ネイティブWindowsポリシー、カタログの読み取り専用診断  | いいえ — 読み取り専用                          |
+| `add <id> --profile <name> --dry-run` | ファイルやサブプロセスなしで、検証済みのインストール計画を表示 | いいえ — ドライラン                            |
+| `add <id> --profile <name> --allow-code-execution` | 公式DSHの委譲を通じてインストール        | はい — 明示的な同意フラグがある場合のみ   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -158,42 +149,24 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-状態を変更するコマンド(`add`、`update`、`remove`)は、`--allow-code-execution` を渡さない限り、プラグインの
-ライフサイクルコードを実行することはありません。ネイティブ Windows 上では、v0.1.0 においてこれらの変更操作は無効化
-されています。WSL を使用してください。読み取り専用コマンドとドライランコマンドはどの環境でも動作します。
+変更を伴うコマンド（`add`、`update`、`remove`）は、`--allow-code-execution` を渡さない限り、プラグインのライフサイクルコードを実行することはありません。ネイティブWindowsでは、これらの変更操作はv0.1.0で無効化されています。WSLを使用してください。読み取り専用コマンドとドライランコマンドはどこでも動作します。
 
-## 🔍 プラグインがカタログに登録される流れ
+## 🔍 プラグインがカタログに登録される仕組み
 
-```mermaid
-flowchart LR
-    A["クリエイターのリポジトリ<br/>(固定コミット)"] --> B["1つのブランチ、<br/>1件のPR、<br/>1つのYAMLエントリ"]
-    B --> C["catalog-validation CI<br/>(スキーマ + ローカル整合性)"]
-    C --> D["メンテナーによるゲート<br/>(身元確認、クリエイター紐付け、<br/>固定された証拠)"]
-    D --> E["catalog/plugins/*.yaml<br/>マージ済み"]
-    E --> F["ウェブサイト"]
-    E --> G["CLI"]
-    E --> H["catalog.json フィード"]
-```
+![プラグインがカタログに登録される仕組み](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![プラグインがカタログに登録される仕組み](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **1プラグイン、1ブランチ、1プルリクエスト。** PR は `catalog/plugins/` 配下のちょうど1つの YAML ファイルのみを
-   追加または変更します。
-2. **クリエイター優先。** プラグインのクリエイター本人、または権利を持つ組織が開いた PR は、同一プラグインについて
-   コミュニティによる整理や自動化よりも常に優先されます——[docs/CREDIT.md](../../docs/CREDIT.md) を参照してください。
-3. **本来の情報源からの証拠。** すべてのフィールドは、固定された40文字のコミットにおけるクリエイターのリポジトリから
-   再構築されます:説明、ライセンス、DSH 統合、インストール記述子、スター数。
-4. **ローカル検証。** `catalog validate` は構造とローカル整合性をチェックします。これは `catalog-validation` CI
-   ジョブが PR 上で実行するチェックと同一です。
-5. **メンテナーによるゲート。** マージ前に、メンテナーがリポジトリの身元、クリエイターへの紐付け、固定された証拠を
-   個別に確認します。ローカル検証が緑であることは必要条件ですが、十分条件ではありません。
+1. **1つのプラグイン、1つのブランチ、1件のプルリクエスト。** PRは `catalog/plugins/` 配下の1つのYAMLファイルのみを追加または変更します。
+2. **クリエイター優先。** プラグインのクリエイター、またはそれを所有する組織が開いたPRは、同じプラグインに対するコミュニティによるキュレーションや自動化よりも常に優先されます — [docs/CREDIT.md](../../docs/CREDIT.md) を参照してください。
+3. **元のソースからの証拠。** 各フィールドは、固定された40文字のコミットにおけるクリエイターのリポジトリから再構築されます: 説明、ライセンス、DSH統合、インストール記述子、スター数。
+4. **ローカル検証。** `catalog validate` は構造とローカルセマンティクスをチェックします。これはCIジョブ `catalog-validation` がPR上で実行するのと同じチェックです。
+5. **メンテナーによるゲート。** マージ前に、メンテナーはリポジトリの識別情報、クリエイターとの紐付け、固定された証拠を個別に検証します。ローカル検証が緑であることは必要条件ですが、それだけでは十分ではありません。
 
-必要な証拠、YAML ルール、スターポリシー、衝突時の扱い、レビューゲートを含む完全な取り決めは
-[CONTRIBUTING.md](../../CONTRIBUTING.md) にあります。意思決定がどのように、誰によって行われるかは
-[docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) にあります。
+必要な証拠、YAMLのルール、スターポリシー、衝突の扱い、レビューゲートを含む完全な契約内容は [CONTRIBUTING.md](../../CONTRIBUTING.md) にあります。意思決定がどのように、誰によって行われるかは [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) にあります。
 
 ## 📄 エントリの構造
 
-各エントリは、その ID にちなんで名付けられた1つの YAML ファイルです。以下の例は現行スキーマに対して検証を通過します
-(フィールドごとのリファレンスは [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+各エントリは、そのIDにちなんで名付けられた1つのYAMLファイルです。以下の例は現在のスキーマに対して検証されます（フィールドごとのリファレンスは [docs/SCHEMA.md](../../docs/SCHEMA.md)）:
 
 ```yaml
 schemaVersion: 1
@@ -244,48 +217,32 @@ provenance:
 
 スキーマによって強制される主な不変条件:
 
-- `unofficial: true` と `schemaVersion: 1` は固定値です。
-- monorepo 内のプラグインは `stars: null` を使用しなければなりません——親プロジェクトのスターは決して継承されません。
-- インストール記述子は、バージョンが厳密に指定された npm パッケージ、または固定されたソースそのもののいずれかであり、
-  データであってシェルコマンドでは決してありません。
-- `verified` ステータスにはレビュー可能なスモークテストの証拠が必要です。それ以外の場合、エントリは `smokeTest: null`
-  の `eligible` ステータスになります。
+- `unofficial: true` と `schemaVersion: 1` は定数です。
+- モノレポのプラグインは `stars: null` を使用しなければなりません — 親プロジェクトのスターが継承されることは決してありません。
+- インストール記述子は、正確なバージョンのnpmパッケージか、固定されたソース自体のいずれかです。それはデータであり、シェルコマンドでは決してありません。
+- `verified` ステータスには、レビュー可能なスモークテストの証拠が必要です。そうでない場合、エントリは `smokeTest: null` を伴う `eligible` になります。
 
-## 🗂 このリポジトリが扱う対象
+## 🗂 ここに掲載されるもの
 
-このリポジトリは、DeepSeek Harness(DSH)向けに独立して公開された統合機能——ネイティブプラグイン、プラグインファミリー、
-テーマ、スキル、クライアント、ブリッジなど——をカタログ化しています。成果物の種類、機能カテゴリ、インターフェースタグは
-[docs/CATEGORIES.md](../../docs/CATEGORIES.md) で定義されています。
+このリポジトリは、DeepSeek Harness (DSH) 向けに独立して公開された統合をカタログ化しています。ネイティブプラグイン、プラグインファミリー、テーマ、skill、クライアント、ブリッジを含みます。アーティファクトの種類、機能カテゴリ、インターフェースタグは [docs/CATEGORIES.md](../../docs/CATEGORIES.md) で定義されています。
 
-各公開レコードは `catalog/plugins/` 配下の1つの YAML ファイルであり、`schemas/plugin.schema.yaml` に対して検証を
-通過する必要があります。掲載されていることは、文書化された適格性または検証チェックが完了したことを意味するのみで、
-セキュリティ認証や DeepSeek による承認を意味するものではありません。
+公開される各レコードは `catalog/plugins/` 配下の1つのYAMLファイルであり、`schemas/plugin.schema.yaml` に対して検証されなければなりません。掲載されているということは、文書化された適格性または検証チェックが完了したことを意味します。それはセキュリティ認証でもDeepSeekによる推奨でもありません。
 
 ## 🏅 ランキングと検証
 
-そのリポジトリ自身に帰属するスターを持つ、専用・ネイティブ・適格・検証済みのプラグインリポジトリのみが、スター
-ランキングに参加できます。より大きな monorepo 内に格納された統合機能も引き続き発見可能ですが、`stars: null` を
-使用し、親プロジェクトのスターを継承することは決してありません。完全な判定基準は
-[docs/RANKING.md](../../docs/RANKING.md) を参照してください。
+そのリポジトリ自身に属するスターを持つ、専用の、ネイティブの、適格な、または検証済みのプラグインリポジトリのみが、スターランキングに参加できます。より大きなモノレポ内に保存されている統合は発見可能なままですが、`stars: null` を使用し、親プロジェクトのスターを決して継承しません。完全な述語については [docs/RANKING.md](../../docs/RANKING.md) を参照してください。
 
-公開されている検証ステータスは、構造上の適格性とインストールのスモークテストを区別するものです。どのステータスも
-絶対的な安全性を表すものではありません。使用前に、プラグインのリポジトリ、固定コミット、ライセンス、インストール時の
-挙動を必ず確認してください。
+公開されている検証ステータスは、構造的な適格性とインストールのスモークテストを区別します。どのステータスも絶対的な安全性を表すものではありません。使用する前に、プラグインのリポジトリ、固定されたコミット、ライセンス、インストール時の挙動を確認してください。
 
-## 🤝 貢献する・エントリを申請する
+## 🤝 貢献する、またはエントリをクレームする
 
-プルリクエストを送る前に [CONTRIBUTING.md](../../CONTRIBUTING.md) を読んでください。1件のプルリクエストは、ちょうど
-1つのプラグインエントリを追加または変更するものでなければならず、他のカタログではなく本来のクリエイターのリポジトリを
-引用しなければなりません。クリエイター本人によるプルリクエストは、自動化されたカタログのプルリクエストよりも優先され
-ます。
+プルリクエストを開く前に [CONTRIBUTING.md](../../CONTRIBUTING.md) を読んでください。プルリクエストは、正確に1つのプラグインエントリを追加または変更しなければならず、他のカタログではなく元のクリエイターのリポジトリを引用しなければなりません。クリエイター自身が作成したプルリクエストは、自動化されたカタログのプルリクエストより優先されます。
 
-クリエイターによる申請、修正、削除には、構造化された issue フォームが用意されています。認証情報、個人の連絡先、
-その他の機密情報は決して送信しないでください。
+クリエイターによるクレーム、修正、削除のために、構造化されたIssueフォームが用意されています。認証情報、個人の連絡先情報、その他の秘密情報は決して送信しないでください。
 
-## 👩‍🎨 プラグインクリエイター
+## 👩‍🎨 プラグインのクリエイターたち
 
-このカタログが存在するのは、これらのクリエイターがプラグインを公開してくれたからです。すべてのエントリは、必ず
-クリエイターをクレジットし、そのリポジトリへリンクしています。
+このカタログは、これらのクリエイターがプラグインをリリースしてくれたからこそ存在します。すべてのエントリは、そのクリエイターにクレジットを与え、そのリポジトリへのリンクを — 常に — 提供します。
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -298,42 +255,36 @@ provenance:
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-あなたのプラグインもここに、しっかりクレジット付きで掲載しませんか?[1つの YAML エントリを含む1件の PR を送る](../../CONTRIBUTING.md)か、
-すでに誰かがあなたの作品より先にカタログ化していた場合は
-[既存エントリを申請する](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)ことができます。
+あなたのプラグインをここに、フルクレジット付きで掲載しませんか？ [1つのYAMLエントリで1件のPRを開く](../../CONTRIBUTING.md) — または、誰かがあなたより先にあなたの作品をカタログ化していた場合は [既存のエントリをクレームする](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)。
 
 ## 📚 ドキュメント
 
 | ドキュメント                                     | 内容                                                       |
-| -------------------------------------------- | ---------------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完全な貢献規約:必要な証拠、YAML ルール、レビューゲート    |
-| [SECURITY.md](../../SECURITY.md)                   | プラグインやカタログの脆弱性の報告方法、機密情報ポリシー           |
+| -------------------------------------------- | ---------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完全な貢献契約: 証拠、YAMLルール、レビューゲート    |
+| [SECURITY.md](../../SECURITY.md)                   | プラグインまたはカタログの脆弱性の報告; 秘密情報に関するポリシー           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` のフィールドごとのリファレンス             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` の CLI コマンドリファレンス          |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | カタログの統治方法:優先順位、ゲート、申請、削除   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | 成果物の種類、主要な機能カテゴリ、タグ、リポジトリ範囲 |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | クリエイターのクレジット、PR の優先順位、Git ID ポリシー                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | 公開されているランキング判定基準と検証ステータス                  |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | 非公式である旨の位置付けと商標に関する立場                               |
+| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` のCLIコマンドリファレンス          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | カタログがどのように統治されているか: 優先順位、ゲート、クレーム、削除   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | アーティファクトの種類、主な機能カテゴリ、タグ、リポジトリの範囲 |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | クリエイターへのクレジット、PRの優先順位、Gitアイデンティティポリシー                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | 公開されているランキング述語と検証ステータス                               |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | 非公式ステータスと商標に関する立場                               |
 
 ## 🌐 翻訳
 
-この README は [`docs/i18n/`](..) 配下で43言語版が提供されています——ページ上部の国旗セレクターを使用してください。
-英語版が唯一の信頼できる情報源であり、翻訳と英語のテキストが食い違う場合は、英語のテキストが優先されます。翻訳への
-修正提案は、通常のプルリクエストを通じて歓迎します。
+このREADMEは [`docs/i18n/`](..) 配下に43言語で用意されています — 上部にある国旗セレクターを使用してください。英語が信頼できる情報源であり、翻訳と英語のテキストが食い違う場合は、英語のテキストが優先されます。どの翻訳への修正も、通常のプルリクエストを通じて歓迎されます。
 
-## 📜 ライセンスとクレジット
+## 📜 ライセンスと帰属表示
 
-ドキュメントおよびリポジトリテンプレートは [MIT ライセンス](../../LICENSE) の下で提供されています。カタログの元となる
-事実情報および編集された YAML メタデータは、[CC0-1.0](../../LICENSE-CATALOG) の下でパブリックドメインに提供されて
-います。アップストリームのコード、名称、ロゴ、スクリーンショットは、それぞれの本来の所有者と本来のライセンスの下に
-残ります。[docs/CREDIT.md](../../docs/CREDIT.md) および [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md) を参照して
-ください。
+ドキュメントとリポジトリテンプレートは [MITライセンス](../../LICENSE) の下でライセンスされています。カタログの元データと編集上のYAMLメタデータは [CC0-1.0](../../LICENSE-CATALOG) の下で提供されています。上流のコード、名称、ロゴ、スクリーンショットは、それぞれの元の権利者とライセンスの下にとどまります。[docs/CREDIT.md](../../docs/CREDIT.md) および [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md) を参照してください。
 
 <div align="center">
 
-### ⭐ このカタログでお目当てのプラグインが見つかったら、ぜひリポジトリにスターを——クリエイターに見つけてもらう助けになります。
+### ⭐ このカタログがプラグインを見つける助けになったなら、リポジトリにスターを付けてください — それがクリエイターに見つけてもらう助けになります。
 
-**[ウェブサイトですべてのプラグインを見る →](https://dsh-plugins.omniroute.online)**
+**[ウェブサイトですべてのプラグインを閲覧 →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

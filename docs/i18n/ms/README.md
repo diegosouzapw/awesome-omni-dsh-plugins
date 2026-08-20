@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog yang mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam DeepSeek Harness. Komit sumber yang disematkan, pencipta yang diberi kredit, satu PR yang disemak bagi setiap pemalam. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam DeepSeek Harness. Komit sumber yang dipasak, pencipta yang dikreditkan, satu PR disemak bagi setiap pemalam. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Projek komuniti tidak rasmi. Tidak bergabung dengan, disahkan oleh, atau ditaja oleh DeepSeek.**
-> Nama dan tanda DeepSeek adalah milik pemilik masing-masing.
+> **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
+> Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.
 
-Penemuan yang mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **DeepSeek Harness (DSH)**.
+Penemuan mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **DeepSeek Harness (DSH)**.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
@@ -16,7 +16,7 @@ Penemuan yang mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **D
   <a href="https://dsh-plugins.omniroute.online">Layari, cari dan pasang setiap pemalam di laman web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,20 +76,22 @@ Penemuan yang mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **D
 
 ## ⭐ 10 pemalam teratas
 
-Disenaraikan mengikut bintang repositori tepat — hanya bintang yang diperoleh oleh repositori pemalam itu sendiri dikira, bukan bintang projek induk ([predikat kedudukan](../../docs/RANKING.md)). Setiap nama dipautkan ke repositori pencipta, disematkan pada komit tepat yang disahkan oleh katalog.
+Disusun mengikut bintang repositori tepat — hanya bintang yang diperoleh oleh repositori
+pemalam itu sendiri dikira, bukan bintang projek induk ([predikat kedudukan](../../docs/RANKING.md)).
+Setiap nama dipautkan ke repositori pencipta, dipasak pada komit tepat yang disahkan oleh katalog.
 
-| # | Pemalam | Pencipta | ★ | Kategori | Apa yang dilakukannya |
+| #   | Pemalam | Pencipta | ★ | Kategori | Apa yang dilakukannya |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualisasi dalam talian: model merender carta dan gambar rajah interaktif dalam sesi |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Haiwan peliharaan meja kerja telus boleh palam-panas (Remielle, Zenless Zone Zero) untuk GUI web DSH |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Maskot ikan paus-gadis beranimasi Kanban Musume yang bertindak balas terhadap aktiviti papan pemuka |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Klien sembang terminal gaya curses skrin penuh untuk memacu sesi dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Pintu depan terminal interaktif pi-tui: pemilih sesi, sembang strim, kekunci pintasan |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Alat carian lanjutan Tavily pilih-masuk dengan pengurusan berbilang kunci dan tolok penggunaan |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Widget video bilibili terapung: cadangan, tular, kedudukan dan carian |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Pemalam penampilan: palet terbina dalam, mod terang/gelap/sistem, tema VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Kulit taman astral Arknights bukan komersial yang memaparkan Pramanix dan Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Jambatan WebSocket disahkan token untuk sambungan pelayar rakan |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Penglihatan boleh pasang untuk LLM teks sahaja, dikuasakan oleh CLI Antigravity percuma |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Pemalam web DSH: bar sisi kanan gaya VSCode (peninjau / editor / terminal / git / pelayar), diasingkan bagi setiap… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Mata untuk ejen DeepSeek Harness teks sahaja: rantaian penglihatan percuma terbina dalam (tanpa kunci) + alat penglihatan peringkat piksel… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integrasi asli DeepSeek Harness untuk agent-vision-toolkit: soal jawab imej, OCR, grounding, pemulihan UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Pemalam "serangan iklan" DSH: iklan portal Cina yang dilokalkan dan parodi iklan penipuan bahasa Inggeris, dengan tetingkap timbul palsu,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI untuk DeepSeek Harness: komponen UI interaktif dipaparkan sebaris dalam balasan pembantu melalui dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: pemalam UI terminal interaktif untuk DeepSeek Harness rasmi — penstriman… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualisasi sebaris untuk DeepSeek Harness: alat visualize berserta skill terbina dalam membolehkan model melukis… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Pemalam carian anime untuk DeepSeek Harness: alat anime_find_search menghimpunkan Mikan, AniBT dan… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistem buat asal/rollback DSH: mengambil snapshot fail konfigurasi apabila berubah, buat asal/buat semula tindakan terakhir dari WebUI atau melalui… |
 
 <div align="center">
 
@@ -97,23 +99,31 @@ Disenaraikan mengikut bintang repositori tepat — hanya bintang yang diperoleh 
 
 </div>
 
-## Sekilas pandang
+## Sepintas lalu
 
-| Permukaan | Apa itu | Di mana |
+| Permukaan     | Apa dia                                                       | Di mana                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Laman web** | Pelayar katalog terpapar dengan carian dan kedudukan | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
-| **Katalog** | Satu fail YAML bagi setiap pemalam, satu-satunya sumber kebenaran | [`catalog/plugins/`](../../catalog/plugins) |
-| **Skema** | Skema JSON awam (draf 2020-12) yang menjadi rujukan pengesahan setiap entri | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | Cari, periksa, sahkan dan pasang daripada katalog | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Suapan mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Laman web** | Pelayar katalog yang dipaparkan, dengan carian dan kedudukan                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalog** | Satu fail YAML bagi setiap pemalam, satu-satunya sumber kebenaran             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Skema**  | JSON Schema awam (draf 2020-12) yang menjadi rujukan pengesahan setiap entri | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Mencari, memeriksa, mengesahkan dan memasang daripada katalog           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Suapan mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Repositori ini adalah sumber kebenaran awam untuk katalog. Setiap penyenaraian ialah satu fail YAML di bawah `catalog/plugins/`, disahkan terhadap Skema JSON yang diterbitkan, ditambah melalui satu permintaan tarik yang disemak secara individu, dan sentiasa diberi kredit kepada pencipta asal pemalam. Tiada apa dalam katalog dijana daripada katalog atau senarai lain: setiap entri dibina semula daripada repositori pencipta asal pada komit yang disematkan.
+Repositori ini adalah sumber kebenaran awam untuk katalog. Setiap senarai adalah satu fail
+YAML di bawah `catalog/plugins/`, disahkan berdasarkan JSON Schema yang diterbitkan,
+ditambah melalui satu pull request yang disemak secara individu, dan sentiasa dikreditkan
+kepada pencipta asal pemalam. Tiada apa-apa dalam katalog dijana daripada katalog atau
+senarai lain: setiap entri dibina semula daripada repositori asal pencipta, pada komit
+yang dipasak.
 
-Laman web dan CLI diselenggara daripada sumber persendirian; repositori ini membawa data katalog awam, skema dan dasar yang mereka gunakan.
+Laman web dan CLI diselenggara daripada sumber persendirian; repositori ini membawa data
+katalog awam, skema dan dasar yang digunakan olehnya.
 
 ## Status katalog
 
-**10 pemalam digabungkan.** Setiap pemalam masuk melalui satu permintaan tarik yang disemak secara individu, satu demi satu, daripada repositori pencipta asal, dengan komit sumber yang disematkan dan pengiktirafan yang jelas.
+**160 pemalam digabungkan.** Setiap pemalam masuk melalui satu pull request yang disemak
+secara individu, satu demi satu, daripada repositori asal pencipta, dengan komit sumber
+yang dipasak dan atribusi yang jelas.
 
 ## 🚀 Pasang CLI
 
@@ -121,21 +131,24 @@ Laman web dan CLI diselenggara daripada sumber persendirian; repositori ini memb
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Pakej berskop ini diterbitkan sebagai `@diegosouza.pw/dsh-plugins@0.1.0` dan arahan di atas ialah panggilan kanonik hari ini; tiada skrip pemasang dihoskan di sini.
+Pakej berskop diterbitkan sebagai `@diegosouza.pw/dsh-plugins@0.1.0` dan arahan di atas
+ialah panggilan kanonik hari ini; tiada skrip pemasang dihoskan di sini.
 
-### Guna CLI hari ini
+### Gunakan CLI hari ini
 
-Versi 0.1.0 menyediakan arahan penemuan dan pengesahan baca sahaja serta arahan pemasangan yang dikawal persetujuan. Rujukan arahan penuh, termasuk bendera, kod keluar dan get persetujuan pelaksanaan kod, terdapat di [docs/CLI.md](../../docs/CLI.md).
+Versi 0.1.0 menyediakan arahan penemuan dan pengesahan baca sahaja, ditambah arahan
+pemasangan yang memerlukan kebenaran. Rujukan arahan penuh, termasuk bendera, kod keluar
+dan pintu gerbang kebenaran untuk pelaksanaan kod, terdapat di [docs/CLI.md](../../docs/CLI.md).
 
-| Arahan | Apa yang dilakukannya | Menyentuh sistem anda? |
+| Arahan                        | Apa yang dilakukannya                                                        | Menyentuh sistem anda?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | Sahkan YAML katalog, skema dan semantik tempatan | Tidak — baca sahaja |
-| `search <query...>` | Cari medan katalog awam secara tempatan | Tidak — baca sahaja |
-| `info <id>` | Tunjukkan satu entri katalog awam | Tidak — baca sahaja |
-| `list` | Senaraikan pemasangan terurus katalog tanpa mengubah profil | Tidak — baca sahaja |
-| `doctor` | Diagnostik baca sahaja untuk Node, DSH, dasar Windows asli dan katalog | Tidak — baca sahaja |
-| `add <id> --profile <name> --dry-run` | Tunjukkan pelan pemasangan yang disahkan tanpa fail atau subproses | Tidak — dry-run |
-| `add <id> --profile <name> --allow-code-execution` | Pasang melalui pewakilan DSH rasmi | Ya — hanya dengan bendera persetujuan jelas |
+| `catalog validate --catalog .` | Mengesahkan YAML katalog, skema dan semantik tempatan                   | Tidak — baca sahaja                          |
+| `search <query...>`            | Mencari medan katalog awam secara tempatan                                | Tidak — baca sahaja                          |
+| `info <id>`                    | Memaparkan satu entri katalog awam                                       | Tidak — baca sahaja                          |
+| `list`                         | Menyenaraikan pemasangan yang diurus katalog tanpa mengubah profil            | Tidak — baca sahaja                          |
+| `doctor`                       | Diagnostik baca sahaja untuk Node, DSH, dasar Windows asli dan katalog  | Tidak — baca sahaja                          |
+| `add <id> --profile <name> --dry-run` | Memaparkan pelan pemasangan yang disahkan tanpa fail atau subproses | Tidak — dry-run                            |
+| `add <id> --profile <name> --allow-code-execution` | Memasang melalui delegasi rasmi DSH        | Ya — hanya dengan bendera kebenaran yang jelas   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -149,32 +162,38 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Arahan yang mengubah (`add`, `update`, `remove`) tidak pernah melaksanakan kod kitaran hayat pemalam melainkan anda memasukkan `--allow-code-execution`. Pada Windows asli, perubahan ini dilumpuhkan dalam v0.1.0; guna WSL. Arahan baca sahaja dan dry-run berfungsi di mana-mana.
+Arahan yang mengubah sistem (`add`, `update`, `remove`) tidak sesekali melaksanakan kod
+kitaran hayat pemalam melainkan anda memberikan `--allow-code-execution`. Pada Windows
+asli, mutasi tersebut dinyahdayakan dalam v0.1.0; gunakan WSL. Arahan baca sahaja dan
+dry-run berfungsi di mana-mana sahaja.
 
-## 🔍 Bagaimana pemalam memasuki katalog
+## 🔍 Bagaimana pemalam masuk ke dalam katalog
 
-```mermaid
-flowchart LR
-    A["Repositori pencipta<br/>(komit disematkan)"] --> B["Satu cabang,<br/>satu PR,<br/>satu entri YAML"]
-    B --> C["catalog-validation CI<br/>(skema + semantik tempatan)"]
-    C --> D["Get penyelenggara<br/>(identiti, pengikatan pencipta,<br/>bukti disematkan)"]
-    D --> E["catalog/plugins/*.yaml<br/>digabungkan"]
-    E --> F["Laman web"]
-    E --> G["CLI"]
-    E --> H["Suapan catalog.json"]
-```
+![Bagaimana pemalam masuk ke dalam katalog](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Bagaimana pemalam masuk ke dalam katalog](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Satu pemalam, satu cabang, satu permintaan tarik.** PR menambah atau mengubah tepat satu fail YAML di bawah `catalog/plugins/`.
-2. **Pencipta diutamakan.** PR yang dibuka oleh pencipta pemalam atau organisasi pemilik sentiasa mengatasi kurasi komuniti atau automasi untuk pemalam yang sama — lihat [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Bukti daripada sumber asal.** Setiap medan dibina semula daripada repositori pencipta pada komit 40 aksara yang disematkan: penerangan, lesen, integrasi DSH, deskriptor pemasangan, bintang.
-4. **Pengesahan tempatan.** `catalog validate` memeriksa struktur dan semantik tempatan; ini ialah semakan yang sama yang dijalankan oleh kerja CI `catalog-validation` pada PR.
-5. **Get penyelenggara.** Sebelum penggabungan, penyelenggara mengesahkan secara berasingan identiti repositori, pengikatan pencipta dan bukti disematkan. Pengesahan tempatan hijau adalah perlu, tetapi tidak pernah mencukupi.
+1. **Satu pemalam, satu cabang, satu pull request.** PR menambah atau mengubah tepat satu
+   fail YAML di bawah `catalog/plugins/`.
+2. **Pencipta diutamakan.** PR yang dibuka oleh pencipta pemalam atau organisasi pemilik
+   sentiasa mengatasi kurasi komuniti atau automasi bagi pemalam yang sama — lihat
+   [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Bukti daripada sumber asal.** Setiap medan dibina semula daripada repositori pencipta,
+   pada komit 40 aksara yang dipasak: penerangan, lesen, integrasi DSH, deskriptor
+   pemasangan, bintang.
+4. **Pengesahan tempatan.** `catalog validate` menyemak struktur dan semantik tempatan; ia
+   adalah semakan yang sama yang dijalankan oleh tugas CI `catalog-validation` pada PR.
+5. **Pintu gerbang penyelenggara.** Sebelum penggabungan, penyelenggara mengesahkan secara
+   berasingan identiti repositori, ikatan dengan pencipta dan bukti yang dipasak.
+   Pengesahan tempatan yang hijau adalah perlu, tetapi tidak sesekali mencukupi.
 
-Kontrak lengkap — bukti yang diperlukan, peraturan YAML, dasar bintang, pengendalian perlanggaran dan get semakan — terdapat di [CONTRIBUTING.md](../../CONTRIBUTING.md). Bagaimana keputusan dibuat dan oleh siapa terdapat di [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Kontrak penuh — bukti yang diperlukan, peraturan YAML, dasar bintang, pengendalian
+perlanggaran dan pintu gerbang semakan — terdapat di [CONTRIBUTING.md](../../CONTRIBUTING.md).
+Bagaimana keputusan dibuat dan oleh siapa terdapat di [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomi satu entri
 
-Setiap entri ialah satu fail YAML yang dinamakan sempena ID-nya. Contoh di bawah disahkan terhadap skema semasa (rujukan medan demi medan di [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Setiap entri adalah satu fail YAML dinamakan mengikut ID-nya. Contoh di bawah disahkan
+berdasarkan skema semasa (rujukan medan demi medan di [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -226,31 +245,49 @@ provenance:
 Invarian utama yang dikuatkuasakan oleh skema:
 
 - `unofficial: true` dan `schemaVersion: 1` adalah pemalar.
-- Pemalam monorepo mesti menggunakan `stars: null` — bintang projek induk tidak pernah diwarisi.
-- Deskriptor pemasangan ialah sama ada pakej npm versi tepat atau sumber disematkan itu sendiri; ia adalah data, bukan arahan shell.
-- Status `verified` memerlukan bukti ujian asap yang boleh disemak; jika tidak, entri itu `eligible` dengan `smokeTest: null`.
+- Pemalam monorepo mesti menggunakan `stars: null` — bintang projek induk tidak sesekali diwarisi.
+- Deskriptor pemasangan sama ada pakej npm versi tepat, atau sumber yang dipasak itu sendiri;
+  ia adalah data, bukan arahan shell.
+- Status `verified` memerlukan bukti ujian asap yang boleh disemak; jika tidak, entri
+  berstatus `eligible` dengan `smokeTest: null`.
 
 ## 🗂 Apa yang tergolong di sini
 
-Repositori ini mengkatalogkan integrasi yang diterbitkan secara bebas untuk DeepSeek Harness (DSH), termasuk pemalam asli, keluarga pemalam, tema, kemahiran, klien dan jambatan. Jenis artifak, kategori keupayaan dan tag antara muka ditakrifkan dalam [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Repositori ini mengkatalogkan integrasi yang diterbitkan secara bebas untuk DeepSeek
+Harness (DSH), termasuk pemalam asli, keluarga pemalam, tema, skill, klien dan jambatan.
+Jenis artifak, kategori keupayaan dan tag antara muka ditakrifkan di [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Setiap rekod awam ialah satu fail YAML di bawah `catalog/plugins/` dan mesti disahkan terhadap `schemas/plugin.schema.yaml`. Penyenaraian bermaksud semakan kelayakan atau pengesahan yang didokumenkan telah selesai; ia bukan pensijilan keselamatan atau pengiktirafan DeepSeek.
+Setiap rekod awam adalah satu fail YAML di bawah `catalog/plugins/` dan mesti disahkan
+berdasarkan `schemas/plugin.schema.yaml`. Satu senarai bermaksud semakan kelayakan atau
+pengesahan yang didokumenkan telah selesai; ia bukan pensijilan keselamatan atau kelulusan
+DeepSeek.
 
 ## 🏅 Kedudukan dan pengesahan
 
-Hanya repositori pemalam khusus, asli, layak atau disahkan yang bintangnya tergolong pada repositori tepat itu boleh masuk ke dalam kedudukan bintang. Integrasi yang disimpan di dalam monorepo yang lebih luas kekal boleh ditemui tetapi menggunakan `stars: null` dan tidak pernah mewarisi bintang projek induk. Lihat [docs/RANKING.md](../../docs/RANKING.md) untuk predikat lengkap.
+Hanya repositori pemalam khusus, asli, layak atau disahkan dengan bintang kepunyaan
+repositori tepat itu boleh masuk ke dalam kedudukan bintang. Integrasi yang disimpan
+dalam monorepo yang lebih luas kekal boleh ditemui, tetapi menggunakan `stars: null` dan
+tidak sesekali mewarisi bintang projek induk. Lihat [docs/RANKING.md](../../docs/RANKING.md)
+untuk predikat lengkap.
 
-Status pengesahan awam membezakan kelayakan struktur daripada ujian asap pemasangan. Tiada status mewakili keselamatan mutlak. Semak repositori pemalam, komit disematkan, lesen dan tingkah laku pemasangan sebelum menggunakannya.
+Status pengesahan awam membezakan kelayakan struktur daripada ujian asap pemasangan.
+Tiada status mewakili keselamatan mutlak. Semak repositori pemalam, komit yang dipasak,
+lesen dan tingkah laku pemasangan sebelum menggunakannya.
 
 ## 🤝 Sumbang atau tuntut satu entri
 
-Baca [CONTRIBUTING.md](../../CONTRIBUTING.md) sebelum membuka permintaan tarik. Permintaan tarik mesti menambah atau mengubah tepat satu entri pemalam dan mesti memetik repositori pencipta asal berbanding katalog lain. Permintaan tarik yang ditulis pencipta mengatasi permintaan tarik katalog automatik.
+Baca [CONTRIBUTING.md](../../CONTRIBUTING.md) sebelum membuka pull request. Satu pull
+request mesti menambah atau mengubah tepat satu entri pemalam dan mesti merujuk repositori
+asal pencipta, bukan katalog lain. Pull request yang dikarang oleh pencipta mengatasi
+pull request katalog automatik.
 
-Borang isu berstruktur tersedia untuk tuntutan pencipta, pembetulan dan penyingkiran. Jangan sekali-kali hantar kelayakan, butiran hubungan persendirian atau rahsia lain.
+Borang isu berstruktur tersedia untuk tuntutan pencipta, pembetulan dan penyingkiran.
+Jangan sesekali hantar kelayakan masuk, butiran hubungan persendirian atau rahsia lain.
 
 ## 👩‍🎨 Pencipta pemalam
 
-Katalog ini wujud kerana pencipta ini menghantar pemalam. Setiap entri memberi kredit kepada penciptanya dan sentiasa dipautkan kembali ke repositori mereka.
+Katalog ini wujud kerana pencipta ini telah menerbitkan pemalam. Setiap entri mengkreditkan
+penciptanya dan dipautkan semula ke repositori mereka — sentiasa.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -263,34 +300,44 @@ Katalog ini wujud kerana pencipta ini menghantar pemalam. Setiap entri memberi k
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Mahu pemalam anda di sini dengan kredit penuh? [Buka satu PR dengan satu entri YAML](../../CONTRIBUTING.md) — atau [tuntut entri sedia ada](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose) jika seseorang telah mengkatalogkan kerja anda sebelum anda.
+Mahu pemalam anda di sini dengan kredit penuh? [Buka satu PR dengan satu entri YAML](../../CONTRIBUTING.md) — atau
+[tuntut entri sedia ada](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+jika seseorang telah mengkatalogkan kerja anda sebelum anda melakukannya.
 
 ## 📚 Dokumentasi
 
-| Dokumen | Apa yang diliputi |
-| --------------------------------------------- | ---------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md) | Kontrak sumbangan penuh: bukti, peraturan YAML, get semakan |
-| [SECURITY.md](../../SECURITY.md) | Melaporkan kelemahan pemalam atau katalog; dasar rahsia |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md) | Rujukan medan demi medan untuk `schemas/plugin.schema.yaml` |
-| [docs/CLI.md](../../docs/CLI.md) | Rujukan arahan CLI untuk `@diegosouza.pw/dsh-plugins@0.1.0` |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | Bagaimana katalog ditadbir: keutamaan, get, tuntutan dan penyingkiran |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | Jenis artifak, kategori keupayaan utama, tag, skop repositori |
-| [docs/CREDIT.md](../../docs/CREDIT.md) | Kredit pencipta, keutamaan PR dan dasar identiti Git |
-| [docs/RANKING.md](../../docs/RANKING.md) | Predikat kedudukan awam dan status pengesahan |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md) | Status tidak rasmi dan pendirian tanda dagangan |
+| Dokumen                                     | Apa yang dirangkumi                                                       |
+| -------------------------------------------- | -------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Kontrak sumbangan penuh: bukti, peraturan YAML, pintu gerbang semakan    |
+| [SECURITY.md](../../SECURITY.md)                   | Melaporkan kerentanan pemalam atau katalog; dasar rahsia           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Rujukan medan demi medan untuk `schemas/plugin.schema.yaml`             |
+| [docs/CLI.md](../../docs/CLI.md)                   | Rujukan arahan CLI untuk `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Bagaimana katalog ditadbir: keutamaan, pintu gerbang, tuntutan dan penyingkiran   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Jenis artifak, kategori keupayaan utama, tag, skop repositori |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredit pencipta, keutamaan PR dan dasar identiti Git                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Predikat kedudukan awam dan status pengesahan                  |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Status tidak rasmi dan pendirian mengenai tanda dagangan                               |
 
 ## 🌐 Terjemahan
 
-README ini tersedia dalam 43 bahasa di bawah [`docs/i18n/`](..) — guna pemilih bendera di bahagian atas. Bahasa Inggeris ialah sumber kebenaran; apabila terjemahan dan teks Inggeris tidak sepadan, teks Inggeris diutamakan. Pembetulan kepada mana-mana terjemahan dialu-alukan melalui permintaan tarik biasa.
+README ini tersedia dalam 43 bahasa di bawah [`docs/i18n/`](../../docs/i18n) — gunakan
+pemilih bendera di bahagian atas. Bahasa Inggeris ialah sumber kebenaran; apabila
+terjemahan dan teks Inggeris berbeza, teks Inggeris diguna pakai. Pembetulan kepada
+mana-mana terjemahan dialu-alukan melalui pull request biasa.
 
-## 📜 Lesen dan pengiktirafan
+## 📜 Lesen dan atribusi
 
-Dokumentasi dan templat repositori dilesenkan di bawah [Lesen MIT](../../LICENSE). Fakta katalog asal dan metadata YAML editorial didedikasikan di bawah [CC0-1.0](../../LICENSE-CATALOG). Kod huluan, nama, logo dan tangkapan skrin kekal di bawah pemilik dan lesen asal mereka. Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Dokumentasi dan templat repositori dilesenkan di bawah [Lesen MIT](../../LICENSE). Fakta
+katalog asal dan metadata editorial YAML didedikasikan di bawah [CC0-1.0](../../LICENSE-CATALOG).
+Kod huluan, nama, logo dan tangkapan skrin kekal di bawah pemilik dan lesen asal mereka.
+Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Jika katalog ini membantu anda menemui pemalam, bintangkan repositori — ia membantu pencipta ditemui.
+### ⭐ Jika katalog ini membantu anda mencari pemalam, berikan bintang pada repositori — ia membantu pencipta ditemui.
 
 **[Layari semua pemalam di laman web →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

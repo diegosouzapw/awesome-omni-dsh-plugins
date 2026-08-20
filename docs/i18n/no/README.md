@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — kreatørfokusert katalog og installasjon med én kommando for DeepSeek Harness-plugins. Fastlåste kildekommiter, krediterte skapere, én gjennomgått PR per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — skaperfokusert katalog og installasjon med én kommando for DeepSeek Harness-plugins. Fastpinnede kildekommitter, krediterte skapere, én gjennomgått PR per plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Uoffisielt fellesskapsprosjekt. Ikke tilknyttet, godkjent av eller sponset av DeepSeek.**
+> **Uoffisielt community-prosjekt. Ikke tilknyttet, godkjent av eller sponset av DeepSeek.**
 > DeepSeek-navn og -merker tilhører sine respektive eiere.
 
-Kreatørfokusert oppdagelse og installasjon med én kommando for **DeepSeek Harness (DSH)**-plugins.
+Skaperfokusert oppdagelse og installasjon med én kommando for **DeepSeek Harness (DSH)**-plugins.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Bla gjennom, søk i og installer alle plugins på nettsiden →</a>
+  <a href="https://dsh-plugins.omniroute.online">Bla gjennom, søk og installer alle plugins på nettsiden →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -74,24 +74,24 @@ Kreatørfokusert oppdagelse og installasjon med én kommando for **DeepSeek Harn
 
 ---
 
-## ⭐ Topp 10 plugins
+## ⭐ Topp 10-plugins
 
-Rangert etter stjerner i det nøyaktige repositoriet — bare stjerner opptjent av pluginens eget
-repositorium teller, aldri et foreldreprosjekts ([rangeringspredikat](../../docs/RANKING.md)).
-Hvert navn lenker til skaperens repositorium, fastlåst til den nøyaktige kommiten katalogen validerte.
+Rangert etter stjerner fra det eksakte repositoriet — bare stjerner opptjent av selve
+pluginens repositorium teller, aldri et overordnet prosjekts ([rangeringspredikat](../../docs/RANKING.md)).
+Hvert navn lenker til skaperens repositorium, fastpinnet til den eksakte kommitten katalogen validerte.
 
 | #   | Plugin | Skaper | ★ | Kategori | Hva den gjør |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Innebygd visualisering: modellen tegner interaktive diagrammer og grafer inne i økten |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Hot-pluggbart, gjennomsiktig skrivebordskjæledyr (Remielle, Zenless Zone Zero) for DSH-nettgrensesnittet |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animert hvaljente-maskott (Kanban Musume) som reagerer på aktivitet i dashbordet |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Fullskjerms terminal-chatteklient i curses-stil for å styre dsh-økter |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktiv pi-tui-terminalinngang: øktvelger, strømmende chat, tastatursnarveier |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Valgfritt avansert Tavily-søkeverktøy med håndtering av flere nøkler og en bruksmåler |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Flytende bilibili-videowidget: anbefalinger, trender, rangeringer og søk |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Utseende-plugin: innebygde fargepaletter, lys/mørk/system-modus, VS Code-temaer |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Ikke-kommersiell Arknights astral-garden-skin med Pramanix og Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Tokenautentisert WebSocket-bro for den tilhørende nettleserutvidelsen |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Innstikkbart syn for tekst-bare LLM-er, drevet av den gratis Antigravity CLI-en |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-nettplugin: en høyre sidepanel i VSCode-stil (utforsker / editor / terminal / git / nettleser), isolert per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Øyne for tekst-bare DeepSeek Harness-agenter: innebygd gratis synskjede (uten nøkkel) + synverktøy på pikselnivå… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-nativ integrasjon for agent-vision-toolkit: bilde-spørsmål og -svar, OCR, grounding, UI-gjenoppretting,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-annonseinfestasjonsplugin: lokaliserte kinesiske portalannonser og engelsk svindelannonse-parodi, med falske sprettoppvinduer,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interaktive UI-komponenter vist inline i assistentens svar via dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: en interaktiv terminal-UI-plugin for den offisielle DeepSeek Harness — streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline-visualisering for DeepSeek Harness: et visualize-verktøy pluss en medfølgende skill lar modellen tegne… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | En anime-søkeplugin for DeepSeek Harness: et anime_find_search-verktøy samler Mikan, AniBT og… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH angre/tilbakestillingssystem: tar øyeblikksbilde av konfigurasjonsfiler ved endring, angrer/gjør om siste handling fra WebUI eller via… |
 
 <div align="center">
 
@@ -99,30 +99,30 @@ Hvert navn lenker til skaperens repositorium, fastlåst til den nøyaktige kommi
 
 </div>
 
-## Kort oversikt
+## Kort fortalt
 
 | Overflate     | Hva det er                                                       | Hvor                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Nettside** | Visuell katalogvisning med søk og rangering                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Nettsted** | Rendret katalogleser med søk og rangering                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Én YAML-fil per plugin, den eneste kilden til sannhet             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **Skjema**  | Offentlig JSON Schema (draft 2020-12) hver oppføring valideres mot | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Søk, inspiser, valider og installer fra katalogen           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Skjema**  | Offentlig JSON Schema (draft 2020-12) som hver oppføring valideres mot | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Søker, inspiserer, validerer og installerer fra katalogen           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
 | **Maskinfeeder** | `catalog.json` + `catalog.snapshot.json` for verktøy           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Dette repositoriet er den offentlige kilden til sannhet for katalogen. Hver oppføring er én
-YAML-fil under `catalog/plugins/`, validert mot et publisert JSON Schema, lagt til gjennom én
-individuelt gjennomgått pull request, og alltid kreditert til pluginens opprinnelige skaper.
-Ingenting i katalogen genereres fra en annen katalog eller liste: hver oppføring er
-rekonstruert fra skaperens opprinnelige repositorium ved en fastlåst kommit.
+YAML-fil under `catalog/plugins/`, validert mot et publisert JSON Schema, lagt til gjennom
+én individuelt gjennomgått pull request, og alltid kreditert til pluginens opprinnelige
+skaper. Ingenting i katalogen genereres fra en annen katalog eller liste: hver oppføring
+er rekonstruert fra skaperens opprinnelige repositorium, ved en fastpinnet kommit.
 
-Nettsiden og CLI-en vedlikeholdes fra privat kildekode; dette repositoriet inneholder de
+Nettstedet og CLI-en vedlikeholdes fra privat kildekode; dette repositoriet inneholder de
 offentlige katalogdataene, skjemaet og retningslinjene de bruker.
 
 ## Katalogstatus
 
-**10 plugins er slått sammen.** Hver plugin kommer inn gjennom en individuelt gjennomgått pull
-request, én om gangen, fra skaperens opprinnelige repositorium, med en fastlåst kildekommit og
-eksplisitt kreditering.
+**160 plugins sammenslått.** Hver plugin kommer inn gjennom en individuelt gjennomgått pull
+request, én om gangen, fra skaperens opprinnelige repositorium, med en fastpinnet kildekommit
+og eksplisitt attribusjon.
 
 ## 🚀 Installer CLI-en
 
@@ -130,24 +130,23 @@ eksplisitt kreditering.
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Den skopede pakken er publisert som `@diegosouza.pw/dsh-plugins@0.1.0`, og kommandoen over er
-den kanoniske måten å kjøre den på i dag; det hostes ikke noe installasjonsskript her.
+Den avgrensede pakken publiseres som `@diegosouza.pw/dsh-plugins@0.1.0`, og kommandoen over
+er den kanoniske påkallingen i dag; det er ikke hostet noe installasjonsskript her.
 
 ### Bruk CLI-en i dag
 
-Versjon 0.1.0 leveres med skrivebeskyttede kommandoer for oppdagelse og validering, pluss
+Versjon 0.1.0 leverer skrivebeskyttede oppdagelses- og valideringskommandoer i tillegg til
 installasjonskommandoer som krever samtykke. Den fullstendige kommandoreferansen, inkludert
-flagg, avslutningskoder og samtykkeporten for kodekjøring, finner du i
-[docs/CLI.md](../../docs/CLI.md).
+flagg, avslutningskoder og samtykkesperren for kodekjøring, finnes i [docs/CLI.md](../../docs/CLI.md).
 
 | Kommando                        | Hva den gjør                                                        | Berører den systemet ditt?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | Validerer katalogens YAML, skjema og lokal semantikk                   | Nei — kun lesing                          |
-| `search <query...>`            | Søker lokalt i offentlige katalogfelt                                | Nei — kun lesing                          |
-| `info <id>`                    | Viser én offentlig katalogoppføring                                       | Nei — kun lesing                          |
-| `list`                         | Lister katalogstyrte installasjoner uten å endre profiler            | Nei — kun lesing                          |
-| `doctor`                       | Skrivebeskyttet diagnose av Node, DSH, retningslinjer for nativ Windows og katalogen  | Nei — kun lesing                          |
-| `add <id> --profile <name> --dry-run` | Viser den verifiserte installasjonsplanen uten filer eller underprosesser | Nei — tørrkjøring                            |
+| `catalog validate --catalog .` | Validerer katalog-YAML, skjema og lokal semantikk                   | Nei — skrivebeskyttet                          |
+| `search <query...>`            | Søker i offentlige katalogfelt lokalt                                | Nei — skrivebeskyttet                          |
+| `info <id>`                    | Viser én offentlig katalogoppføring                                       | Nei — skrivebeskyttet                          |
+| `list`                         | Lister katalogstyrte installasjoner uten å endre profiler            | Nei — skrivebeskyttet                          |
+| `doctor`                       | Skrivebeskyttet diagnostikk for Node, DSH, nativ Windows-policy og katalog  | Nei — skrivebeskyttet                          |
+| `add <id> --profile <name> --dry-run` | Viser den verifiserte installasjonsplanen uten filer eller underprosesser | Nei — dry-run                            |
 | `add <id> --profile <name> --allow-code-execution` | Installerer via offisiell DSH-delegering        | Ja — kun med eksplisitt samtykkeflagg   |
 
 ```bash
@@ -162,46 +161,38 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Kommandoer som endrer noe (`add`, `update`, `remove`) kjører aldri kode fra pluginens
-livssyklus med mindre du sender `--allow-code-execution`. På nativ Windows er disse
-endringene deaktivert i v0.1.0; bruk WSL. Skrivebeskyttede kommandoer og tørrkjøringer
-fungerer overalt.
+Muterende kommandoer (`add`, `update`, `remove`) kjører aldri livssyklus-kode for pluginen
+med mindre du sender `--allow-code-execution`. På nativ Windows er disse mutasjonene
+deaktivert i v0.1.0; bruk WSL. Skrivebeskyttede kommandoer og dry-run-kommandoer fungerer
+overalt.
 
-## 🔍 Slik kommer en plugin inn i katalogen
+## 🔍 Hvordan en plugin kommer inn i katalogen
 
-```mermaid
-flowchart LR
-    A["Skaperens repositorium<br/>(fastlåst kommit)"] --> B["Én gren,<br/>én PR,<br/>én YAML-oppføring"]
-    B --> C["catalog-validation CI<br/>(skjema + lokal semantikk)"]
-    C --> D["Vedlikeholder-porter<br/>(identitet, kobling til skaper,<br/>fastlåst bevis)"]
-    D --> E["catalog/plugins/*.yaml<br/>slått sammen"]
-    E --> F["Nettside"]
-    E --> G["CLI"]
-    E --> H["catalog.json-feeder"]
-```
+![Hvordan en plugin kommer inn i katalogen](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Hvordan en plugin kommer inn i katalogen](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Én plugin, én gren, én pull request.** PR-en legger til eller endrer nøyaktig én YAML-fil
-   under `catalog/plugins/`.
-2. **Skaperen først.** En PR åpnet av pluginens skaper eller eierorganisasjon har alltid forrang
-   fremfor fellesskapskurasjon eller automatisering for samme plugin — se
+1. **Én plugin, én branch, én pull request.** PR-en legger til eller endrer nøyaktig én
+   YAML-fil under `catalog/plugins/`.
+2. **Skaperen først.** En PR åpnet av pluginens skaper eller eierorganisasjonen har alltid
+   forrang foran fellesskapskuratering eller automatisering for samme plugin — se
    [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Bevis fra den opprinnelige kilden.** Hvert felt rekonstrueres fra skaperens repositorium ved
-   en fastlåst 40-tegns kommit: beskrivelse, lisens, DSH-integrasjon, installasjonsdeskriptor,
-   stjerner.
-4. **Lokal validering.** `catalog validate` sjekker struktur og lokal semantikk; det er den samme
-   sjekken som CI-jobben `catalog-validation` kjører på PR-en.
-5. **Vedlikeholder-porter.** Før sammenslåing verifiserer vedlikeholderne separat
-   repositoriumsidentitet, kobling til skaperen og fastlåst bevis. En grønn lokal validering er
-   nødvendig, men aldri tilstrekkelig.
+3. **Bevis fra den opprinnelige kilden.** Hvert felt rekonstrueres fra skaperens repositorium,
+   ved en fastpinnet kommit på 40 tegn: beskrivelse, lisens, DSH-integrasjon,
+   installasjonsdeskriptor, stjerner.
+4. **Lokal validering.** `catalog validate` sjekker struktur og lokal semantikk; det er den
+   samme sjekken CI-jobben `catalog-validation` kjører på PR-en.
+5. **Vedlikeholderportene.** Før sammenslåing verifiserer vedlikeholderne separat
+   repositoriets identitet, tilknytningen til skaperen og det fastpinnede beviset. En grønn
+   lokal validering er nødvendig, men aldri tilstrekkelig.
 
-Den fullstendige kontrakten — nødvendig bevis, YAML-regler, stjernepolicy, håndtering av
-kollisjoner og gjennomgangsportene — finnes i [CONTRIBUTING.md](../../CONTRIBUTING.md). Hvordan
-beslutninger tas og av hvem står i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Den fullstendige avtalen — påkrevd bevis, YAML-regler, stjernepolicy, kollisjonshåndtering
+og gjennomgangsportene — finnes i [CONTRIBUTING.md](../../CONTRIBUTING.md). Hvordan beslutninger
+tas og av hvem, finnes i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomien til en oppføring
 
-Hver oppføring er én YAML-fil oppkalt etter sin ID. Eksempelet under valideres mot gjeldende
-skjema (feltvis referanse i [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Hver oppføring er én YAML-fil oppkalt etter sin ID. Eksempelet nedenfor validerer mot det
+gjeldende skjemaet (felt-for-felt-referanse i [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -250,52 +241,52 @@ provenance:
   comment: null
 ```
 
-Sentrale invarianter som håndheves av skjemaet:
+Sentrale invarianter håndhevet av skjemaet:
 
 - `unofficial: true` og `schemaVersion: 1` er konstanter.
-- En monorepo-plugin må bruke `stars: null` — stjerner fra et foreldreprosjekt arves aldri.
-- Installasjonsdeskriptoren er enten en npm-pakke med eksakt versjon eller den fastlåste kilden
-  selv; det er data, aldri en shell-kommando.
-- Statusen `verified` krever gjennomgåelig bevis fra en smoke-test; ellers er oppføringen
-  `eligible` med `smokeTest: null`.
+- En monorepo-plugin må bruke `stars: null` — stjerner fra det overordnede prosjektet arves aldri.
+- Installasjonsdeskriptoren er enten en npm-pakke med eksakt versjon eller selve den
+  fastpinnede kilden; det er data, aldri en shell-kommando.
+- Statusen `verified` krever kontrollerbart smoketest-bevis; ellers er oppføringen `eligible`
+  med `smokeTest: null`.
 
 ## 🗂 Hva hører hjemme her
 
-Dette repositoriet katalogiserer uavhengig publiserte integrasjoner for DeepSeek Harness (DSH),
-inkludert native plugins, pluginfamilier, temaer, ferdigheter, klienter og broer. Artefakttyper,
-funksjonskategorier og grensesnitt-tagger er definert i
-[docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Dette repositoriet katalogiserer uavhengig publiserte integrasjoner for DeepSeek Harness
+(DSH), inkludert native plugins, pluginfamilier, temaer, skills, klienter og broer.
+Artefakttyper, kapasitetskategorier og grensesnitt-tagger er definert i [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Hver offentlig oppføring er én YAML-fil under `catalog/plugins/` og må valideres mot
+Hver offentlige post er én YAML-fil under `catalog/plugins/` og må valideres mot
 `schemas/plugin.schema.yaml`. En oppføring betyr at de dokumenterte kvalifiserings- eller
-verifiseringssjekkene er fullført; det er ikke en sikkerhetssertifisering eller en godkjenning
-fra DeepSeek.
+verifiseringssjekkene er fullført; det er ikke en sikkerhetssertifisering eller en
+godkjenning fra DeepSeek.
 
 ## 🏅 Rangering og verifisering
 
 Bare dedikerte, native, kvalifiserte eller verifiserte pluginrepositorier med stjerner som
-tilhører nettopp det repositoriet, kan inngå i en stjernerangering. Integrasjoner lagret inne i
-større monorepoer forblir søkbare, men bruker `stars: null` og arver aldri stjerner fra et
-foreldreprosjekt. Se [docs/RANKING.md](../../docs/RANKING.md) for det fullstendige predikatet.
+tilhører nettopp det repositoriet, kan komme med i en stjernerangering. Integrasjoner
+lagret inne i bredere monorepoer forblir søkbare, men bruker `stars: null` og arver aldri
+stjerner fra det overordnede prosjektet. Se [docs/RANKING.md](../../docs/RANKING.md) for det
+fullstendige predikatet.
 
-Offentlige verifiseringstilstander skiller strukturell kvalifisering fra en installasjons-
-smoke-test. Ingen tilstand representerer absolutt sikkerhet. Gjennomgå pluginens repositorium,
-fastlåste kommit, lisens og installasjonsatferd før du bruker den.
+Offentlige verifiseringsstatuser skiller strukturell kvalifisering fra en installasjons-
+smoketest. Ingen status representerer absolutt sikkerhet. Gjennomgå pluginens repositorium,
+fastpinnede kommit, lisens og installasjonsatferd før du bruker den.
 
 ## 🤝 Bidra eller gjør krav på en oppføring
 
-Les [CONTRIBUTING.md](../../CONTRIBUTING.md) før du åpner en pull request. En pull request må
-legge til eller endre nøyaktig én pluginoppføring og må sitere det opprinnelige
-skaper-repositoriet fremfor en annen katalog. Pull requests forfattet av skaperen har forrang
-fremfor automatiserte katalog-pull-requester.
+Les [CONTRIBUTING.md](../../CONTRIBUTING.md) før du åpner en pull request. En pull request
+må legge til eller endre nøyaktig én pluginoppføring, og må sitere skaperens opprinnelige
+repositorium fremfor en annen katalog. Pull requests forfattet av skaperen har forrang
+foran automatiserte katalog-pull-requester.
 
-Strukturerte skjemaer for saker er tilgjengelige for skaperkrav, rettelser og fjerninger. Send
-aldri inn påloggingsinformasjon, private kontaktopplysninger eller andre hemmeligheter.
+Strukturerte issue-skjemaer er tilgjengelige for skaperkrav, rettelser og fjerninger.
+Send aldri inn legitimasjon, private kontaktopplysninger eller andre hemmeligheter.
 
 ## 👩‍🎨 Pluginskapere
 
-Katalogen finnes fordi disse skaperne har laget plugins. Hver oppføring krediterer skaperen sin
-og lenker tilbake til repositoriet deres — alltid.
+Katalogen finnes fordi disse skaperne har utgitt plugins. Hver oppføring krediterer sin
+skaper og lenker tilbake til deres repositorium — alltid.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -308,43 +299,44 @@ og lenker tilbake til repositoriet deres — alltid.
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Vil du ha pluginen din her med full kreditering?
-[Åpne én PR med én YAML-oppføring](../../CONTRIBUTING.md) — eller
+Vil du ha pluginen din her med full kreditering? [Åpne én PR med én YAML-oppføring](../../CONTRIBUTING.md) — eller
 [gjør krav på en eksisterende oppføring](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
-hvis noen katalogiserte arbeidet ditt før du gjorde det selv.
+hvis noen katalogiserte arbeidet ditt før du gjorde det.
 
 ## 📚 Dokumentasjon
 
 | Dokument                                     | Hva det dekker                                                       |
 | -------------------------------------------- | -------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Hele bidragskontrakten: bevis, YAML-regler, gjennomgangsporter    |
-| [SECURITY.md](../../SECURITY.md)                   | Rapportering av sårbarheter i plugins eller katalogen; policy for hemmeligheter           |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Feltvis referanse for `schemas/plugin.schema.yaml`             |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Hele bidragsavtalen: bevis, YAML-regler, gjennomgangsporter    |
+| [SECURITY.md](../../SECURITY.md)                   | Rapportere sårbarheter i plugins eller katalog; retningslinjer for hemmeligheter           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Felt-for-felt-referanse for `schemas/plugin.schema.yaml`             |
 | [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferanse for `@diegosouza.pw/dsh-plugins@0.1.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hvordan katalogen styres: forrang, porter, krav og fjerninger   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primære funksjonskategorier, tagger, repositoriumsomfang |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kreditering av skaper, PR-forrang og policy for Git-identitet                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | Det offentlige rangeringspredikatet og verifiseringstilstandene                  |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primære kapasitetskategorier, tagger, repositorieomfang |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaperkreditering, PR-forrang og Git-identitetspolicy                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Det offentlige rangeringspredikatet og verifiseringsstatusene                  |
 | [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Uoffisiell status og holdning til varemerker                               |
 
 ## 🌐 Oversettelser
 
-Denne README-en er tilgjengelig på 43 språk under [`docs/i18n/`](..) — bruk flaggvelgeren øverst.
-Engelsk er kilden til sannhet; når en oversettelse og den engelske teksten er uenige, gjelder den
-engelske teksten. Rettelser til enhver oversettelse er velkomne gjennom vanlige pull requests.
+Denne README-en er tilgjengelig på 43 språk under [`docs/i18n/`](../../docs/i18n) — bruk
+flaggvelgeren øverst. Engelsk er kilden til sannhet; når en oversettelse og den engelske
+teksten er uenige, gjelder den engelske teksten. Rettelser til enhver oversettelse er
+velkomne gjennom vanlige pull requests.
 
-## 📜 Lisens og kreditering
+## 📜 Lisens og attribusjon
 
-Dokumentasjon og repositoriumsmaler er lisensiert under [MIT-lisensen](../../LICENSE).
-Opprinnelige katalogfakta og redaksjonelle YAML-metadata er viet under
-[CC0-1.0](../../LICENSE-CATALOG). Kildekode, navn, logoer og skjermbilder fra oppstrøms forblir
-under sine opprinnelige eiere og lisenser. Se [docs/CREDIT.md](../../docs/CREDIT.md) og
-[docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Dokumentasjon og repositoriemaler er lisensiert under [MIT-lisensen](../../LICENSE).
+Opprinnelige katalogfakta og redaksjonelle YAML-metadata er viet til [CC0-1.0](../../LICENSE-CATALOG).
+Oppstrøms kode, navn, logoer og skjermbilder forblir under sine opprinnelige eiere og
+lisenser. Se [docs/CREDIT.md](../../docs/CREDIT.md) og [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Hvis denne katalogen hjalp deg å finne en plugin, gi repositoriet en stjerne — det hjelper skapere med å bli oppdaget.
+### ⭐ Hvis denne katalogen hjalp deg med å finne en plugin, gi repositoriet en stjerne — det hjelper skapere med å bli funnet.
 
 **[Bla gjennom alle plugins på nettsiden →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

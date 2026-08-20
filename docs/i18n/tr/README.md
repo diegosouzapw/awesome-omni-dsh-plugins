@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Web sitesinde tüm eklentilere göz atın, arayın ve kurun →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Her isim, katalogun doğruladığı tam commit'e sabitlenmiş üretici deposuna 
 
 | #   | Eklenti | Üretici | ★ | Kategori | Ne yapar |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Satır içi görselleştirme: model, oturum içinde etkileşimli grafikler ve diyagramlar oluşturur |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | DSH web arayüzü için sıcak takılabilir, saydam masaüstü evcil hayvanı (Remielle, Zenless Zone Zero) |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Panodaki etkinliğe tepki veren animasyonlu balina-kız Kanban Musume maskotu |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | dsh oturumlarını yönetmek için tam ekran, curses tarzı terminal sohbet istemcisi |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Etkileşimli pi-tui terminal ön yüzü: oturum seçici, akışlı sohbet, tuş atamaları |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Çoklu anahtar yönetimi ve kullanım göstergesi ile isteğe bağlı Tavily gelişmiş arama aracı |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Kayan bilibili video widget'ı: öneriler, gündemdekiler, sıralamalar ve arama |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Görünüm eklentisi: yerleşik paletler, açık/koyu/sistem modu, VS Code temaları |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Pramanix ve Eyjafjalla'yı içeren ticari olmayan Arknights astral-garden görünümü |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Eşlik eden tarayıcı uzantısı için token ile kimlik doğrulamalı WebSocket köprüsü |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Yalnızca metin tabanlı LLM'ler için eklenti tipi görme yeteneği; ücretsiz Antigravity CLI ile çalışır |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web eklentisi: VSCode benzeri sağ kenar çubuğu (gezgin / düzenleyici / terminal / git / tarayıcı), her biri için izole… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Yalnızca metin tabanlı DeepSeek Harness ajanları için gözler: yerleşik ücretsiz görme zinciri (anahtar gerekmez) + piksel düzeyinde görme araçları… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit için DeepSeek Harness'a özgü entegrasyon: görsel soru-cevap, OCR, konumlandırma, arayüz onarımı,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH reklam istilası eklentisi: yerelleştirilmiş Çince portal reklamları ve İngilizce dolandırıcılık reklamı parodisi, sahte açılır pencerelerle,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness için GenUI: dsh-ui üzerinden asistan yanıtlarında satır içi olarak oluşturulan etkileşimli arayüz bileşenleri… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: resmi DeepSeek Harness için etkileşimli bir terminal arayüzü eklentisi — akışlı… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness için satır içi görselleştirme: bir visualize aracı ve birlikte gelen beceri, modelin oluşturmasını sağlar… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness için bir anime arama eklentisi: anime_find_search aracı Mikan, AniBT ve diğerlerini bir araya getirir… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH geri alma/geri sarma sistemi: değişiklikte yapılandırma dosyalarının anlık görüntüsünü alır, son eylemi WebUI'den veya… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@ verilerini, şemayı ve politikaları taşır.
 
 ## Katalog durumu
 
-**10 eklenti birleştirildi.** Her eklenti, özgün üretici deposundan, sabitlenmiş bir kaynak
+**160 eklenti birleştirildi.** Her eklenti, özgün üretici deposundan, sabitlenmiş bir kaynak
 commit'i ve açık atıf ile, tek tek ve ayrı ayrı incelenmiş bir pull request üzerinden katalog'a
 girer.
 
@@ -168,16 +168,8 @@ her yerde çalışır.
 
 ## 🔍 Bir eklenti kataloga nasıl girer
 
-```mermaid
-flowchart LR
-    A["Üretici deposu<br/>(sabitlenmiş commit)"] --> B["Bir dal,<br/>bir PR,<br/>bir YAML kaydı"]
-    B --> C["catalog-validation CI<br/>(şema + yerel semantik)"]
-    C --> D["Sürdürücü kapıları<br/>(kimlik, üretici bağlama,<br/>sabitlenmiş kanıt)"]
-    D --> E["catalog/plugins/*.yaml<br/>birleştirildi"]
-    E --> F["Web sitesi"]
-    E --> G["CLI"]
-    E --> H["catalog.json beslemeleri"]
-```
+![Bir eklenti kataloga nasıl girer](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Bir eklenti kataloga nasıl girer](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **Bir eklenti, bir dal, bir pull request.** PR, `catalog/plugins/` altında tam olarak bir
    YAML dosyası ekler veya değiştirir.
@@ -348,3 +340,5 @@ lisansları altında kalır. Bkz. [docs/CREDIT.md](../../docs/CREDIT.md) ve
 **[Web sitesinde tüm eklentilere göz atın →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

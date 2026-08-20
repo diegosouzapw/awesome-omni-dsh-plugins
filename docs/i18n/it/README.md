@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogo incentrato sul creatore e installazione con un solo comando per i plugin DeepSeek Harness. Commit di origine bloccati, creatori accreditati, una PR revisionata per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogo orientato ai creatori e installazione con un solo comando per i plugin DeepSeek Harness. Commit sorgente fissati, creatori accreditati, una PR revisionata per plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Progetto comunitario non ufficiale. Non affiliato, sostenuto o sponsorizzato da DeepSeek.**
+> **Progetto comunitario non ufficiale. Non affiliato, approvato o sponsorizzato da DeepSeek.**
 > I nomi e i marchi DeepSeek appartengono ai rispettivi proprietari.
 
-Scoperta incentrata sul creatore e installazione con un solo comando per i plugin **DeepSeek Harness (DSH)**.
+Scoperta orientata ai creatori e installazione con un solo comando per i plugin **DeepSeek Harness (DSH)**.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Sfoglia, cerca e installa qualsiasi plugin sul sito →</a>
+  <a href="https://dsh-plugins.omniroute.online">Sfoglia, cerca e installa ogni plugin sul sito →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,44 +76,53 @@ Scoperta incentrata sul creatore e installazione con un solo comando per i plugi
 
 ## ⭐ Top 10 plugin
 
-Classificato in base alle stelle del repository esatto — contano solo le stelle guadagnate dal repository del plugin stesso, mai quelle di un progetto principale ([predicato di classifica](../../docs/RANKING.md)). Ogni nome rimanda al repository del creatore, bloccato al commit esatto validato dal catalogo.
+Classificati in base alle stelle del repository esatto — contano solo le stelle guadagnate dal
+repository del plugin stesso, mai quelle di un progetto padre ([predicato di classifica](../../docs/RANKING.md)).
+Ogni nome rimanda al repository del creatore, fissato esattamente al commit validato dal catalogo.
 
-| # | Plugin | Creatore | ★ | Categoria | Cosa fa |
+| #   | Plugin | Creatore | ★ | Categoria | Cosa fa |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualizzazione inline: il modello genera grafici e diagrammi interattivi all'interno della sessione |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Pet da desktop trasparente collegabile a caldo (Remielle, Zenless Zone Zero) per la GUI web del DSH |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Mascotte animata balena-ragazza Kanban Musume che reagisce all'attività della dashboard |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Client di chat da terminale a schermo intero, in stile curses, per guidare le sessioni dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Punto d'accesso interattivo in terminale pi-tui: selettore di sessione, chat in streaming, scorciatoie da tastiera |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Strumento di ricerca avanzata Tavily opzionale, con gestione multi-chiave e indicatore di utilizzo |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Widget flottante di video bilibili: consigliati, di tendenza, classifiche e ricerca |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Plugin di aspetto: palette integrate, modalità chiaro/scuro/sistema, temi VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Skin non commerciale del giardino astrale di Arknights con Pramanix ed Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Bridge WebSocket autenticato tramite token per l'estensione del browser complementare |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Visione ad innesto per LLM solo testuali, basata sulla CLI gratuita Antigravity |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web DSH: una barra laterale destra in stile VSCode (esplora file / editor / terminale / git / browser), isolata per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Occhi per agenti DeepSeek Harness solo testuali: catena di visione gratuita integrata (senza chiave) + strumenti di visione a livello di pixel… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integrazione nativa DeepSeek Harness per agent-vision-toolkit: Q&A su immagini, OCR, grounding, ripristino UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin di infestazione pubblicitaria DSH: annunci localizzati di portali cinesi e parodia di annunci-truffa in inglese, con finti pop-up, un… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI per DeepSeek Harness: componenti UI interattivi renderizzati in linea nelle risposte dell'assistente tramite il dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: un plugin di UI da terminale interattivo per il DeepSeek Harness ufficiale — streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualizzazione in linea per DeepSeek Harness: uno strumento visualize più una skill inclusa permettono al modello di renderizzare… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Un plugin di ricerca anime per DeepSeek Harness: uno strumento anime_find_search aggrega Mikan, AniBT e… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema di annullamento/ripristino DSH: salva lo stato dei file di configurazione a ogni modifica, annulla/ripeti l'ultima azione dalla WebUI o via… |
 
 <div align="center">
 
-### 👉 👉 [**Cerca tutti i plugin, leggi i dettagli e copia il comando di installazione sul sito →**](https://dsh-plugins.omniroute.online) 👈 👈
+### 👉 [**Cerca tutti i plugin, leggi i dettagli e copia il comando di installazione sul sito →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## In breve
+## Uno sguardo d'insieme
 
-| Surface     | Cos'è                                                       | Dove                                                                    |
+| Superficie     | Cos'è                                                       | Dove                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Sito** | Browser del catalogo renderizzato, con ricerca e classifica | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
-| **Catalogo** | Un file YAML per plugin, l'unica fonte di verità | [`catalog/plugins/`](../../catalog/plugins) |
-| **Schema** | JSON Schema pubblico (draft 2020-12) rispetto al quale ogni voce viene validata | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | Cerca, ispeziona, valida e installa dal catalogo | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Feed per macchine** | `catalog.json` + `catalog.snapshot.json` per gli strumenti | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Sito web** | Browser del catalogo renderizzato con ricerca e classifica                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Catalogo** | Un file YAML per plugin, l'unica fonte di verità             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Schema**  | JSON Schema pubblico (draft 2020-12) rispetto al quale ogni voce viene validata | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Cerca, ispeziona, valida e installa dal catalogo           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Feed per macchine** | `catalog.json` + `catalog.snapshot.json` per gli strumenti           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Questo repository è la fonte pubblica di verità per il catalogo. Ogni voce è un file YAML sotto `catalog/plugins/`, validato rispetto a un JSON Schema pubblicato, aggiunto tramite una pull request revisionata individualmente e sempre accreditato al creatore originale del plugin. Nulla nel catalogo viene generato da un altro catalogo o elenco: ogni voce è ricostruita dal repository originale del creatore, a un commit bloccato.
+Questo repository è la fonte pubblica di verità per il catalogo. Ogni voce è un file YAML
+sotto `catalog/plugins/`, validato rispetto a un JSON Schema pubblicato, aggiunto tramite una
+singola pull request revisionata individualmente, e sempre accreditato al creatore originale
+del plugin. Niente nel catalogo è generato da un altro catalogo o da un'altra lista: ogni voce
+viene ricostruita a partire dal repository originale del creatore, a un commit fissato.
 
-Il sito e la CLI sono mantenuti da codice sorgente privato; questo repository contiene i dati pubblici del catalogo, lo schema e le policy che consumano.
+Il sito web e la CLI sono mantenuti a partire da sorgenti private; questo repository contiene i
+dati pubblici del catalogo, lo schema e le policy che essi consumano.
 
 ## Stato del catalogo
 
-**10 plugin uniti.** Ogni plugin entra tramite una pull request revisionata individualmente, una alla volta, dal repository originale del creatore, con un commit di origine bloccato e attribuzione esplicita.
+**160 plugin uniti.** Ogni plugin entra tramite una pull request revisionata individualmente, una
+alla volta, dal repository originale del creatore, con un commit sorgente fissato e attribuzione
+esplicita.
 
 ## 🚀 Installa la CLI
 
@@ -121,21 +130,24 @@ Il sito e la CLI sono mantenuti da codice sorgente privato; questo repository co
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Il pacchetto con scope viene pubblicato come `@diegosouza.pw/dsh-plugins@0.1.0` e il comando sopra è oggi l'invocazione canonica; qui non è ospitato alcuno script di installazione.
+Il pacchetto con scope è pubblicato come `@diegosouza.pw/dsh-plugins@0.1.0` e il comando sopra è
+l'invocazione canonica di oggi; qui non è ospitato alcuno script di installazione.
 
 ### Usa la CLI oggi
 
-La versione 0.1.0 include comandi di individuazione e validazione in sola lettura, oltre a comandi di installazione protetti da consenso. Il riferimento completo dei comandi, inclusi flag, codici di uscita e il gate di consenso per l'esecuzione del codice, si trova in [docs/CLI.md](../../docs/CLI.md).
+La versione 0.1.0 fornisce comandi di scoperta e validazione in sola lettura, oltre a comandi di
+installazione soggetti a consenso. Il riferimento completo dei comandi, inclusi i flag, i codici
+di uscita e il gate di consenso all'esecuzione di codice, è in [docs/CLI.md](../../docs/CLI.md).
 
 | Comando                        | Cosa fa                                                        | Tocca il tuo sistema?                    |
-| ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
-| `catalog validate --catalog .` | Convalida lo YAML del catalogo, lo schema e la semantica locale | No — sola lettura |
-| `search <query...>` | Cerca localmente i campi pubblici del catalogo | No — sola lettura |
-| `info <id>` | Mostra una voce pubblica del catalogo | No — sola lettura |
-| `list` | Elenca le installazioni gestite dal catalogo senza modificare i profili | No — sola lettura |
-| `doctor` | Diagnostica in sola lettura di Node, DSH, policy nativa di Windows e catalogo | No — sola lettura |
-| `add <id> --profile <name> --dry-run` | Mostra il piano di installazione verificato senza file né sottoprocessi | No — simulazione (dry-run) |
-| `add <id> --profile <name> --allow-code-execution` | Installa tramite la delega ufficiale del DSH | Sì — solo con il flag esplicito di consenso |
+| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
+| `catalog validate --catalog .` | Valida lo YAML del catalogo, lo schema e la semantica locale                   | No — sola lettura                          |
+| `search <query...>`            | Cerca i campi pubblici del catalogo localmente                                | No — sola lettura                          |
+| `info <id>`                    | Mostra una voce pubblica del catalogo                                       | No — sola lettura                          |
+| `list`                         | Elenca le installazioni gestite dal catalogo senza modificare i profili            | No — sola lettura                          |
+| `doctor`                       | Diagnostica in sola lettura di Node, DSH, policy Windows nativa e catalogo  | No — sola lettura                          |
+| `add <id> --profile <name> --dry-run` | Mostra il piano di installazione verificato senza file né sottoprocessi | No — simulazione (dry-run)                            |
+| `add <id> --profile <name> --allow-code-execution` | Installa tramite la delega ufficiale del DSH        | Sì — solo con il flag di consenso esplicito   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -149,32 +161,38 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-I comandi che modificano il sistema (`add`, `update`, `remove`) non eseguono mai il codice del ciclo di vita del plugin a meno che non venga passato `--allow-code-execution`. Su Windows nativo queste modifiche sono disabilitate nella v0.1.0; usa WSL. I comandi in sola lettura e di simulazione funzionano ovunque.
+I comandi che modificano lo stato (`add`, `update`, `remove`) non eseguono mai il codice del ciclo
+di vita del plugin a meno che tu non passi `--allow-code-execution`. Su Windows nativo queste
+mutazioni sono disabilitate nella v0.1.0; usa WSL. I comandi in sola lettura e in dry-run
+funzionano ovunque.
 
 ## 🔍 Come un plugin entra nel catalogo
 
-```mermaid
-flowchart LR
-    A["Repository del creatore<br/>(commit bloccato)"] --> B["Un branch,<br/>una PR,<br/>una voce YAML"]
-    B --> C["CI catalog-validation<br/>(schema + semantica locale)"]
-    C --> D["Controlli dei maintainer<br/>(identità, legame con il creatore,<br/>evidenza bloccata)"]
-    D --> E["catalog/plugins/*.yaml<br/>unito"]
-    E --> F["Sito"]
-    E --> G["CLI"]
-    E --> H["Feed catalog.json"]
-```
+![Come un plugin entra nel catalogo](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Come un plugin entra nel catalogo](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Un plugin, un branch, una pull request.** La PR aggiunge o modifica esattamente un file YAML sotto `catalog/plugins/`.
-2. **Priorità al creatore.** Una PR aperta dal creatore del plugin o dall'organizzazione proprietaria ha sempre la precedenza sulla curatela della community o sull'automazione per lo stesso plugin — vedi [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Evidenza dalla fonte originale.** Ogni campo viene ricostruito dal repository del creatore, a un commit bloccato di 40 caratteri: descrizione, licenza, integrazione DSH, descrittore di installazione, stelle.
-4. **Validazione locale.** `catalog validate` controlla la struttura e la semantica locale; è lo stesso controllo eseguito dal job CI `catalog-validation` sulla PR.
-5. **Controlli dei maintainer.** Prima del merge, i maintainer verificano separatamente l'identità del repository, il legame con il creatore e l'evidenza bloccata. Una validazione locale verde è necessaria, ma mai sufficiente.
+1. **Un plugin, un branch, una pull request.** La PR aggiunge o modifica esattamente un file YAML
+   sotto `catalog/plugins/`.
+2. **Priorità al creatore.** Una PR aperta dal creatore del plugin o dall'organizzazione
+   proprietaria ha sempre la precedenza sulla curatela della community o sull'automazione per lo
+   stesso plugin — vedi [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Prove dalla fonte originale.** Ogni campo viene ricostruito dal repository del creatore a un
+   commit fissato di 40 caratteri: descrizione, licenza, integrazione DSH, descrittore di
+   installazione, stelle.
+4. **Validazione locale.** `catalog validate` verifica la struttura e la semantica locale; è lo
+   stesso controllo che il job CI `catalog-validation` esegue sulla PR.
+5. **Gate dei maintainer.** Prima della fusione, i maintainer verificano separatamente l'identità
+   del repository, il legame con il creatore e le prove fissate. Una validazione locale verde è
+   necessaria, mai sufficiente.
 
-Il contratto completo — evidenza richiesta, regole YAML, policy sulle stelle, gestione delle collisioni e i controlli di revisione — è in [CONTRIBUTING.md](../../CONTRIBUTING.md). Come vengono prese le decisioni e da chi è descritto in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Il contratto completo — prove richieste, regole YAML, policy sulle stelle, gestione delle
+collisioni e i gate di revisione — è in [CONTRIBUTING.md](../../CONTRIBUTING.md). Come vengono
+prese le decisioni e da chi è in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomia di una voce
 
-Ogni voce è un file YAML denominato in base al suo ID. L'esempio seguente è valido rispetto allo schema attuale (riferimento campo per campo in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Ogni voce è un file YAML nominato secondo il proprio ID. L'esempio sotto valida rispetto allo
+schema attuale (riferimento campo per campo in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -223,34 +241,54 @@ provenance:
   comment: null
 ```
 
-Invarianti chiave imposti dallo schema:
+Invarianti chiave imposte dallo schema:
 
 - `unofficial: true` e `schemaVersion: 1` sono costanti.
-- Un plugin monorepo deve usare `stars: null` — le stelle del progetto principale non vengono mai ereditate.
-- Il descrittore di installazione è un pacchetto npm a versione esatta oppure la fonte bloccata stessa; è un dato, mai un comando di shell.
-- Lo stato `verified` richiede evidenza di smoke test revisionabile; altrimenti la voce è `eligible` con `smokeTest: null`.
+- Un plugin di monorepo deve usare `stars: null` — le stelle del progetto padre non vengono mai
+  ereditate.
+- Il descrittore di installazione è un pacchetto npm a versione esatta oppure la sorgente fissata
+  stessa; sono dati, mai un comando shell.
+- Lo stato `verified` richiede prove di smoke-test revisionabili; altrimenti la voce è `eligible`
+  con `smokeTest: null`.
 
-## 🗂 Cosa appartiene qui
+## 🗂 Cosa trova posto qui
 
-Questo repository cataloga integrazioni pubblicate in modo indipendente per DeepSeek Harness (DSH), inclusi plugin nativi, famiglie di plugin, temi, skill, client e bridge. I tipi di artefatto, le categorie di capacità e i tag di interfaccia sono definiti in [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Questo repository cataloga integrazioni pubblicate in modo indipendente per DeepSeek Harness
+(DSH), inclusi plugin nativi, famiglie di plugin, temi, skill, client e bridge. I tipi di
+artefatto, le categorie di capacità e i tag di interfaccia sono definiti in
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Ogni voce pubblica è un file YAML sotto `catalog/plugins/` e deve essere valida rispetto a `schemas/plugin.schema.yaml`. Una voce nel catalogo significa che i controlli documentati di idoneità o verifica sono stati completati; non è una certificazione di sicurezza né un'approvazione di DeepSeek.
+Ogni record pubblico è un file YAML sotto `catalog/plugins/` e deve validare rispetto a
+`schemas/plugin.schema.yaml`. Una voce nel catalogo significa che i controlli di idoneità o di
+verifica documentati sono stati completati; non è una certificazione di sicurezza né un
+avallo da parte di DeepSeek.
 
 ## 🏅 Classifica e verifica
 
-Solo i repository di plugin dedicati, nativi, idonei o verificati, con stelle appartenenti esattamente a quel repository, possono entrare in una classifica per stelle. Le integrazioni memorizzate all'interno di monorepo più ampi restano individuabili ma usano `stars: null` e non ereditano mai le stelle del progetto principale. Vedi [docs/RANKING.md](../../docs/RANKING.md) per il predicato completo.
+Solo i repository di plugin dedicati, nativi, idonei o verificati con stelle appartenenti a
+quello specifico repository possono entrare in una classifica per stelle. Le integrazioni
+memorizzate all'interno di monorepo più ampi restano individuabili ma usano `stars: null` e non
+ereditano mai le stelle del progetto padre. Vedi [docs/RANKING.md](../../docs/RANKING.md) per il
+predicato completo.
 
-Gli stati di verifica pubblici distinguono l'idoneità strutturale da uno smoke test di installazione. Nessuno stato rappresenta sicurezza assoluta. Esamina il repository del plugin, il commit bloccato, la licenza e il comportamento di installazione prima di usarlo.
+Gli stati di verifica pubblici distinguono l'idoneità strutturale da uno smoke-test di
+installazione. Nessuno stato rappresenta una sicurezza assoluta. Esamina il repository del
+plugin, il commit fissato, la licenza e il comportamento di installazione prima di usarlo.
 
 ## 🤝 Contribuisci o rivendica una voce
 
-Leggi [CONTRIBUTING.md](../../CONTRIBUTING.md) prima di aprire una pull request. Una pull request deve aggiungere o modificare esattamente una voce di plugin e deve citare il repository originale del creatore anziché un altro catalogo. Le pull request scritte dal creatore hanno la precedenza sulle pull request automatizzate del catalogo.
+Leggi [CONTRIBUTING.md](../../CONTRIBUTING.md) prima di aprire una pull request. Una pull request
+deve aggiungere o modificare esattamente una voce di plugin e deve citare il repository originale
+del creatore anziché un altro catalogo. Le pull request scritte dal creatore hanno la precedenza
+sulle pull request automatizzate del catalogo.
 
-Sono disponibili moduli di issue strutturati per rivendicazioni del creatore, correzioni e rimozioni. Non inviare mai credenziali, dati di contatto privati o altri segreti.
+Sono disponibili moduli di issue strutturati per rivendicazioni del creatore, correzioni e
+rimozioni. Non inviare mai credenziali, dettagli di contatto privati o altri segreti.
 
 ## 👩‍🎨 Creatori dei plugin
 
-Il catalogo esiste perché questi creatori hanno pubblicato plugin. Ogni voce accredita il proprio creatore e rimanda al suo repository — sempre.
+Il catalogo esiste perché questi creatori hanno pubblicato dei plugin. Ogni voce accredita il
+proprio creatore e rimanda al suo repository — sempre.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -263,34 +301,44 @@ Il catalogo esiste perché questi creatori hanno pubblicato plugin. Ogni voce ac
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Vuoi il tuo plugin qui, con pieno credito? [Apri una PR con una voce YAML](../../CONTRIBUTING.md) — oppure [rivendica una voce esistente](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose) se qualcuno ha catalogato il tuo lavoro prima di te.
+Vuoi il tuo plugin qui, con pieno credito? [Apri una PR con una voce YAML](../../CONTRIBUTING.md)
+— oppure [rivendica una voce esistente](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+se qualcuno ha catalogato il tuo lavoro prima di te.
 
 ## 📚 Documentazione
 
 | Documento                                     | Cosa copre                                                       |
-| --------------------------------------------- | ---------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Il contratto completo di contribuzione: evidenza, regole YAML, controlli di revisione    |
-| [SECURITY.md](../../SECURITY.md)           | Come segnalare vulnerabilità di plugin o del catalogo; policy sui segreti    |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)           | Riferimento campo per campo di `schemas/plugin.schema.yaml`    |
-| [docs/CLI.md](../../docs/CLI.md)           | Riferimento dei comandi CLI per `@diegosouza.pw/dsh-plugins@0.1.0`    |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)           | Come viene governato il catalogo: precedenza, controlli, rivendicazioni e rimozioni    |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)           | Tipi di artefatto, categorie principali di capacità, tag, ambito del repository    |
-| [docs/CREDIT.md](../../docs/CREDIT.md)           | Credito al creatore, precedenza delle PR e policy di identità Git    |
-| [docs/RANKING.md](../../docs/RANKING.md)           | Il predicato pubblico di classifica e gli stati di verifica    |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)           | Stato non ufficiale e posizione sui marchi    |
+| -------------------------------------------- | ---------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Il contratto di contribuzione completo: prove, regole YAML, gate di revisione    |
+| [SECURITY.md](../../SECURITY.md)                   | Come segnalare vulnerabilità di plugin o catalogo; policy sui segreti           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Riferimento campo per campo per `schemas/plugin.schema.yaml`             |
+| [docs/CLI.md](../../docs/CLI.md)                   | Riferimento dei comandi CLI per `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Come viene governato il catalogo: precedenza, gate, rivendicazioni e rimozioni   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Tipi di artefatto, categorie di capacità principali, tag, ambito del repository |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Credito al creatore, precedenza delle PR e policy sull'identità Git                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Il predicato di classifica pubblico e gli stati di verifica                               |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Stato non ufficiale e posizione sui marchi                               |
 
 ## 🌐 Traduzioni
 
-Questo README è disponibile in 43 lingue sotto [`docs/i18n/`](..) — usa il selettore di bandiere in alto. L'inglese è la fonte di verità; quando una traduzione e il testo inglese sono in disaccordo, prevale il testo inglese. Le correzioni a qualsiasi traduzione sono benvenute tramite normali pull request.
+Questo README è disponibile in 43 lingue sotto [`docs/i18n/`](..) — usa il selettore di bandiere
+in alto. L'inglese è la fonte di verità; quando una traduzione e il testo inglese sono in
+disaccordo, prevale il testo inglese. Le correzioni a qualsiasi traduzione sono benvenute
+tramite normali pull request.
 
 ## 📜 Licenza e attribuzione
 
-La documentazione e i template del repository sono concessi in licenza secondo la [licenza MIT](../../LICENSE). I fatti originali del catalogo e i metadati editoriali YAML sono dedicati secondo [CC0-1.0](../../LICENSE-CATALOG). Il codice, i nomi, i loghi e gli screenshot a monte restano sotto i rispettivi proprietari e licenze originali. Vedi [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+La documentazione e i template del repository sono sotto licenza [MIT](../../LICENSE). I fatti
+originali del catalogo e i metadati editoriali YAML sono dedicati sotto [CC0-1.0](../../LICENSE-CATALOG).
+Il codice, i nomi, i loghi e gli screenshot a monte restano sotto i loro proprietari e licenze
+originali. Vedi [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Se questo catalogo ti ha aiutato a trovare un plugin, metti una stella al repository — aiuta i creatori a farsi notare.
+### ⭐ Se questo catalogo ti ha aiutato a trovare un plugin, metti una stella al repository — aiuta i creatori a farsi trovare.
 
 **[Sfoglia tutti i plugin sul sito →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

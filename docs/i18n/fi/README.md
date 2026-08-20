@@ -16,7 +16,7 @@ Luojalähtöinen löytäminen ja yhden komennon asennus **DeepSeek Harness (DSH)
   <a href="https://dsh-plugins.omniroute.online">Selaa, hae ja asenna jokainen laajennus verkkosivustolla →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -27,48 +27,48 @@ Luojalähtöinen löytäminen ja yhden komennon asennus **DeepSeek Harness (DSH)
 <b>🌐 43 kielellä</b>
 <br/><br/>
 <a href="../../README.md"><img src="../../docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
-<a href="../pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
-<a href="../zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
-<a href="../zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
-<a href="../pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
-<a href="../es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
-<a href="../fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
-<a href="../it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
-<a href="../de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
-<a href="../nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
-<a href="../ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
-<a href="../uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
-<a href="../pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
-<a href="../cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
-<a href="../sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
-<a href="../ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
-<a href="../hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
-<a href="../bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
-<a href="../da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
-<a href="README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
-<a href="../no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
-<a href="../sv/README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
-<a href="../ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
-<a href="../ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
-<a href="../th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
-<a href="../vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
-<a href="../id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
-<a href="../ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
-<a href="../phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
-<a href="../in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
-<a href="../hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
-<a href="../gu/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
-<a href="../mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
-<a href="../ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
-<a href="../te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
-<a href="../bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
-<a href="../ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
-<a href="../fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
-<a href="../ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
-<a href="../he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
-<a href="../tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
-<a href="../az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
-<a href="../sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
+<a href="../../docs/i18n/pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
+<a href="../../docs/i18n/zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
+<a href="../../docs/i18n/zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
+<a href="../../docs/i18n/pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
+<a href="../../docs/i18n/es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
+<a href="../../docs/i18n/fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
+<a href="../../docs/i18n/it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
+<a href="../../docs/i18n/de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
+<a href="../../docs/i18n/nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
+<a href="../../docs/i18n/ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
+<a href="../../docs/i18n/uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
+<a href="../../docs/i18n/pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
+<a href="../../docs/i18n/cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
+<a href="../../docs/i18n/sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
+<a href="../../docs/i18n/ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
+<a href="../../docs/i18n/hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
+<a href="../../docs/i18n/bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
+<a href="../../docs/i18n/da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
+<a href="../../docs/i18n/fi/README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
+<a href="../../docs/i18n/no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
+<a href="../../docs/i18n/sv/README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
+<a href="../../docs/i18n/ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
+<a href="../../docs/i18n/ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
+<a href="../../docs/i18n/th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
+<a href="../../docs/i18n/vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
+<a href="../../docs/i18n/id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
+<a href="../../docs/i18n/ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
+<a href="../../docs/i18n/phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
+<a href="../../docs/i18n/in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
+<a href="../../docs/i18n/hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
+<a href="../../docs/i18n/gu/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
+<a href="../../docs/i18n/mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
+<a href="../../docs/i18n/ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
+<a href="../../docs/i18n/te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
+<a href="../../docs/i18n/bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
+<a href="../../docs/i18n/ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
+<a href="../../docs/i18n/fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
+<a href="../../docs/i18n/ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
+<a href="../../docs/i18n/he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
+<a href="../../docs/i18n/tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
+<a href="../../docs/i18n/az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
+<a href="../../docs/i18n/sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
 
 </div>
 
@@ -80,18 +80,18 @@ Järjestetty tarkan repositorion tähtien mukaan — mukaan lasketaan vain laaje
 repositorioon kertyneet tähdet, ei koskaan emoprojektin tähtiä ([järjestyksen määrittelevä ehto](../../docs/RANKING.md)).
 Jokainen nimi linkittää luojan repositorioon, kiinnitettynä siihen commitiin, jonka katalogi on validoinut.
 
-| #   | Laajennus | Luoja | ★ | Kategoria | Mitä se tekee |
+| #   | Plugin | Luoja | ★ | Kategoria | Mitä se tekee |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Sisäänrakennettu visualisointi: malli piirtää interaktiivisia kaavioita ja diagrammeja suoraan istunnon sisällä |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Lennossa liitettävä läpinäkyvä työpöytälemmikki (Remielle, Zenless Zone Zero) DSH:n web-käyttöliittymään |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animoitu valastyttö-maskotti Kanban Musume, joka reagoi hallintapaneelin toimintaan |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Koko näytön curses-tyylinen pääteohjelman chat-asiakas dsh-istuntojen ohjaamiseen |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktiivinen pi-tui-pääte-etusivu: istunnon valitsin, suoratoistochat, näppäinsidonnat |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Valinnainen Tavily-edistyshakutyökalu, jossa on usean avaimen hallinta ja käyttömittari |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Kelluva bilibili-videowidget: suositukset, trendit, listaukset ja haku |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Ulkoasulaajennus: sisäänrakennetut väripaletit, vaalea/tumma/järjestelmätila, VS Code -teemat |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Ei-kaupallinen Arknights astral-garden -ulkoasu, jossa esiintyvät Pramanix ja Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Tokenilla todennettu WebSocket-silta selainlaajennukselle |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Liitännäinen näkökyky tekstipohjaisille LLM:ille, ilmaisen Antigravity CLI:n avulla |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-web-laajennus: VSCode:n kaltainen oikea sivupalkki (resurssienhallinta / editori / pääte / git / selain), eristetty per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Silmät tekstipohjaisille DeepSeek Harness -agenteille: sisäänrakennettu ilmainen näköketju (ei avainta) + pikselitason näkötyökalut… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness -natiivi integraatio agent-vision-toolkitille: kuva-Q&A, OCR, kohdistus, käyttöliittymän palautus,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-mainostulva-laajennus: lokalisoituja kiinalaisia portaalimainoksia ja englanninkielinen huijausmainosparodia, mukana väärennettyjä ponnahdusikkunoita ja… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI DeepSeek Harnessille: interaktiivisia käyttöliittymäkomponentteja, jotka renderöidään suoraan avustajan vastauksiin dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: interaktiivinen pääte-käyttöliittymälaajennus viralliselle DeepSeek Harnessille — suoratoisto… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Sisäänrakennettu visualisointi DeepSeek Harnessille: visualize-työkalu ja mukana tuleva taito antavat mallin renderöidä… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Anime-hakulaajennus DeepSeek Harnessille: anime_find_search-työkalu kokoaa yhteen Mikanin, AniBT:n ja… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH:n kumoamis-/palautusjärjestelmä: ottaa tilannevedoksia asetustiedostoista muutosten yhteydessä, kumoa/tee uudelleen viimeisin toiminto WebUI:sta tai… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@ julkisen katalogidatan, skeeman ja käytännöt, joita ne käyttävät.
 
 ## Katalogin tila
 
-**10 laajennusta yhdistetty.** Jokainen laajennus tulee mukaan yksilöllisesti tarkastetun pull
+**160 laajennusta yhdistetty.** Jokainen laajennus tulee mukaan yksilöllisesti tarkastetun pull
 requestin kautta, yksi kerrallaan, alkuperäisen luojan repositoriosta, kiinnitetyllä
 lähdekommitilla ja selkeällä tunnustuksella.
 
@@ -167,16 +167,8 @@ käytöstä versiossa v0.1.0; käytä WSL:ää. Vain luku- ja kuivaharjoituskome
 
 ## 🔍 Miten laajennus liittyy katalogiin
 
-```mermaid
-flowchart LR
-    A["Luojan repositorio<br/>(kiinnitetty commit)"] --> B["Yksi haara,<br/>yksi PR,<br/>yksi YAML-merkintä"]
-    B --> C["catalog-validation CI<br/>(skeema + paikallinen semantiikka)"]
-    C --> D["Ylläpitäjän portit<br/>(identiteetti, luojan sidonta,<br/>kiinnitetty todiste)"]
-    D --> E["catalog/plugins/*.yaml<br/>yhdistetty"]
-    E --> F["Verkkosivusto"]
-    E --> G["CLI"]
-    E --> H["catalog.json-syötteet"]
-```
+![Miten laajennus liittyy katalogiin](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Miten laajennus liittyy katalogiin](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **Yksi laajennus, yksi haara, yksi pull request.** PR lisää tai muuttaa täsmälleen yhden
    YAML-tiedoston hakemistossa `catalog/plugins/`.
@@ -330,18 +322,17 @@ jos joku on luetteloinut työsi ennen sinua.
 
 ## 🌐 Käännökset
 
-Tämä README on saatavilla 43 kielellä hakemistossa [`docs/i18n/`](..) — käytä yläreunan
+Tämä README on saatavilla 43 kielellä hakemistossa [`docs/i18n/`](../../docs/i18n) — käytä yläreunan
 lippuvalitsinta. Englanti on totuuden lähde; jos käännös ja englanninkielinen teksti ovat
 ristiriidassa, englanninkielinen teksti on ratkaiseva. Korjaukset mihin tahansa käännökseen ovat
 tervetulleita tavallisten pull requestien kautta.
 
 ## 📜 Lisenssi ja tunnustaminen
 
-Dokumentaatio ja repositorion mallipohjat on lisensoitu [MIT-lisenssillä](../../LICENSE).
-Alkuperäiset katalogitiedot ja toimitukselliset YAML-metatiedot on omistettu
-[CC0-1.0](../../LICENSE-CATALOG) -lisenssillä. Upstream-koodi, nimet, logot ja kuvakaappaukset
-pysyvät alkuperäisten omistajiensa ja lisenssiensä alaisina. Katso
-[docs/CREDIT.md](../../docs/CREDIT.md) ja [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Dokumentaatio ja repositorion mallipohjat on lisensoitu [MIT-lisenssillä](../../LICENSE). Alkuperäiset
+katalogitiedot ja toimitukselliset YAML-metatiedot on omistettu [CC0-1.0](../../LICENSE-CATALOG) -lisenssillä.
+Upstream-koodi, nimet, logot ja kuvakaappaukset pysyvät alkuperäisten omistajiensa ja lisenssiensä alaisina.
+Katso [docs/CREDIT.md](../../docs/CREDIT.md) ja [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
@@ -350,3 +341,5 @@ pysyvät alkuperäisten omistajiensa ja lisenssiensä alaisina. Katso
 **[Selaa kaikkia laajennuksia verkkosivustolla →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
