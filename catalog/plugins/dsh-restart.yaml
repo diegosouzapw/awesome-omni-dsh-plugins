@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dsh-restart
+name: dsh-restart
+description:
+  en: DSH 重启插件：可配置的重启方式（Node 原生 / 旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - restart
+  - watchdog
+  - client-plugin
+  - node
+  - powershell
+source:
+  repository: https://github.com/anweat/dsh-restart
+  repositoryNodeId: R_kgDOT4H3Dw
+  subpath: null
+  commit: 8d9f4947530a08e9a2967a7847ae2f906c2d7b5b
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: dsh-restart
+  version: 0.1.0
+  integrity: sha512-dUAzFC2ld6Kn5V+udWHB0Z1M2g+/ehprTyABKo5yoEd6F7OTKvpzkpaAwjGMQ9tc+Uha0tRrTISpu0xRLr9T9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:14.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
