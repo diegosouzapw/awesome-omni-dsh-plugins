@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: dsh-plugin-subhub
+name: dsh-plugin-subhub
+description:
+  en: DeepSeek Harness 第三方订阅接入插件:登录第三方订阅账户即可使用订阅内的模型(当前支持 OpenAI / ChatGPT 订阅,更多订阅服务规划中;支持图片理解与对话内图片生成、编辑)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - openai
+  - chatgpt
+  - dsh
+source:
+  repository: https://github.com/kinoward/dsh-plugin-subhub
+  repositoryNodeId: R_kgDOT42Y4g
+  subpath: null
+  commit: 92d578d734806a4a81c53c6baf24a369d292a445
+creator:
+  github: kinoward
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:33.786Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
