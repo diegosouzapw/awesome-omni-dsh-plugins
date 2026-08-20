@@ -82,6 +82,27 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 ```
 
+### `discover` — 在目录之外查找插件
+
+```text
+dsh-plugins discover [options] <query...>
+```
+
+> **未包含在已发布的 `0.1.0` 中。** `discover` 随 `1.0.0` 发布;本页其他所有命令都适用于当前发布到
+> npm 上的版本。对 `@0.1.0` 运行该命令会因未知命令而失败。
+
+它会先搜索经过策展的目录,然后——除非传入 `--offline`——再搜索实时的 GitHub `dsh-plugin` 主题
+(topic),因此即使某个插件尚未提交,也仍然可以被找到。目录结果携带目录持有的证据(固定提交、创作
+者、许可证);社区结果不携带任何这些信息,并会被相应标注,因为它们完全没有经过审查。
+
+`--limit <n>` 限制每一层级的结果数量(默认 `8`)。`--json` 输出稳定的机器可读格式,该格式绝不会本
+地化。
+
+```bash
+npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
+npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+```
+
 ### `info` — 显示一个公开目录条目
 
 ```text
@@ -176,3 +197,5 @@ catalog [ok]: catalog is valid and empty
 `catalog validate` 通过(绿色)只能确认结构和本地语义,不能证明远程仓库身份、创作者所有权,或
 固定提交处的证据——维护者会在任何合并之前应用那些单独的溯源门禁,详见
 [CONTRIBUTING.md](../../CONTRIBUTING.md) 和 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)。
+
+<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
