@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dsh-store
+name: dsh-store
+description:
+  en: DeepSeek Harness 插件商店：npm 权威源 + awesome 精选 + 自动雷达（550+ 插件、11 分类、运行级验证），官方 dsh plugin add/remove 一键安装卸载，dsh 原生 UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - store
+  - marketplace
+  - plugin-manager
+  - awesome
+  - remove
+source:
+  repository: https://github.com/huguangyu666/dsh-store
+  repositoryNodeId: R_kgDOT4fvkg
+  subpath: null
+  commit: 1f7c63c4e16804717f0faa734adf613324999919
+creator:
+  github: huguangyu666
+package:
+  ecosystem: npm
+  name: dsh-store
+  version: 0.5.2
+  integrity: sha512-hag43sNlFmXts0jwWlO5UYlMDY9CIuAVTggQKkFVjDQe/HSd+keCkztoAGaAHfsrQOfHGQwwXQscZpaEC/+iOw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:26.376Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
