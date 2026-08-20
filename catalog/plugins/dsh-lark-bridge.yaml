@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: dsh-lark-bridge
+name: dsh-lark-bridge
+description:
+  en: Bidirectional Lark/Feishu control bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - feishu
+  - lark
+  - agent
+  - bot
+  - bidirectional
+  - control
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/imetn/dsh-lark-bridge
+  repositoryNodeId: R_kgDOT3hT6A
+  subpath: null
+  commit: f1e544cce5108873e238313bf7c5ccf092827e2a
+creator:
+  github: imetn
+package:
+  ecosystem: npm
+  name: dsh-lark-bridge
+  version: 0.1.0
+  integrity: sha512-qaFvR01FXjIEDd6kfSTwWEgyDkiyJAzxMN0UgJ91diHpGk9kCTTyGoeIauscRkF/99Ne+B8IZsiYij7q1ZF1vw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:42.160Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
