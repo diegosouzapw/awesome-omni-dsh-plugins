@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dsh-deepseek-girl-pet
+name: dsh-deepseek-girl-pet
+description:
+  en: Animated deepseek girl desktop pet overlay for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - animated
+  - girl
+  - desktop
+  - overlay
+  - dsh
+source:
+  repository: https://github.com/f0909172434/dsh-deepseek-girl-pet
+  repositoryNodeId: R_kgDOT3uxhg
+  subpath: null
+  commit: c96029f7f05adf78931c934d01974ae70527e911
+creator:
+  github: f0909172434
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:22.244Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
