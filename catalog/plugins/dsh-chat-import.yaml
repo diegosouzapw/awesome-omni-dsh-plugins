@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-chat-import
+name: dsh-chat-import
+description:
+  en: Import Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / Pi Coding Agent / opencode / ZCode / Grok Build / OpenClaw / Hermes / Kimi CLI / Qoder CLI conversation histories as resumable DeepSeek Harness sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - claude-code
+  - codex
+  - chatgpt
+  - cursor
+  - gemini
+  - reasonix
+  - pi-coding-agent
+  - opencode
+  - zcode
+  - grokbuild
+  - openclaw
+  - hermes
+  - kimi
+source:
+  repository: https://github.com/Nwflower/dsh-chat-import
+  repositoryNodeId: R_kgDOT3cGVA
+  subpath: null
+  commit: 2a29395619ef89fe191bfc04d29b3140c820402a
+creator:
+  github: Nwflower
+package:
+  ecosystem: npm
+  name: dsh-chat-import
+  version: 0.6.2
+  integrity: sha512-8TBQzK3UqTpNO1zTa/vPPHgySU6wBFvOHIbIT9YwbfFSI69c2C1y4XincrkFIK01oatrLlQla8MAM+qRP+AaCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:52.211Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 76
+provenance:
+  discussion: null
+  comment: null
