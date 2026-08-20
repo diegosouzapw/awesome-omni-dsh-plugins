@@ -105,6 +105,29 @@ jobs:
           fi
           "$SCRATCH/node_modules/.bin/dsh-plugins" --help > /dev/null
 
+      # Two authentication paths, in npm's own order of preference.
+      #
+      # Trusted publishing (no secret) is the destination: npm exchanges this workflow's OIDC
+      # token for a scoped credential and nothing long-lived exists anywhere. But it cannot be
+      # configured for a package that does not exist yet — the exchange answers
+      # "package not found", which is precisely how the first release of this name failed. So the
+      # FIRST publish needs NPM_TOKEN; once it has created the package, the trusted publisher can
+      # be attached and the secret deleted, and this step keeps working without it.
+      #
+      # `NODE_AUTH_TOKEN` is what the .npmrc written by setup-node reads. Absent secret means an
+      # empty value, which npm ignores in favour of the OIDC exchange — so removing the secret is
+      # all it takes to go back to trusted publishing.
+      - name: Report which credential path this run will take
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -n "${NPM_TOKEN:-}" ]; then
+            echo "NPM_TOKEN present: publishing with the token (bootstrap path)."
+            echo "Delete the secret once the trusted publisher is configured."
+          else
+            echo "No NPM_TOKEN: publishing through trusted publishing (OIDC)."
+          fi
+
       # Trusted publishing: npm exchanges the workflow's OIDC token for a scoped credential.
       # --provenance is possible here and was not in the previous home: attestation requires a
       # public source repository, so moving the CLI beside the catalog is what lets an installer
@@ -116,6 +139,8 @@ jobs:
       # credential was issued but may not write this package. A release that fails opaquely
       # costs a round trip through a web UI nobody can read from here.
       - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           set -eu
           npm publish "./$(cat /tmp/tarball-name)" --access public --provenance --loglevel verbose
