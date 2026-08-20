@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: dsh-plugin-notify
+name: dsh-plugin-notify
+description:
+  en: DeepSeek Harness 插件：通知出口——agent 通过桌面通知 / 中文语音播报 / 提示音主动联系用户（长任务完成、出错、呼叫用户回来）。Windows 本机零依赖。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - notify
+  - notification
+  - tts
+  - voice
+  - alert
+  - agent
+  - windows
+source:
+  repository: https://github.com/huguangyu666/dsh-plugin-notify
+  repositoryNodeId: R_kgDOT4Y5Lg
+  subpath: null
+  commit: df39977781cdd3166d38eef04aae0e5bf4bf0ba2
+creator:
+  github: huguangyu666
+package:
+  ecosystem: npm
+  name: dsh-plugin-notify
+  version: 0.1.1
+  integrity: sha512-PsJrRD3Ov0K3uYf3kqm5S0BzMTfDeyFKtv3X+PQ2vwMiFWN9lwez4hcBSa6k1C+imUZe2+dCBee+Gl8ZAa83BQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:25.022Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
