@@ -26,7 +26,9 @@ const manifestVersion = (
     version: string;
   }
 ).version;
-const repoRoot = fileURLToPath(new URL("../../../", import.meta.url));
+// The repository root, one level above the CLI now that it lives inside the catalog repo. Used
+// only to assert the bundle embeds no absolute build path.
+const repoRoot = fileURLToPath(new URL("../../", import.meta.url));
 const output = mkdtempSync(join(tmpdir(), "dsh-plugins-pack-"));
 let dryRun: PackResult;
 let packed: PackResult;
@@ -44,10 +46,10 @@ function npmPack(args: readonly string[]): PackResult {
 // The build + double npm pack competes with the rest of the suite for CPU;
 // 30s flaked under full-suite load (same REV-33 class as the npx smoke).
 beforeAll(() => {
-  execFileSync("pnpm", ["--filter", "@diegosouza.pw/dsh-plugins", "build"], {
-    cwd: repoRoot,
-    stdio: "pipe",
-  });
+  // Plain npm in the CLI directory: this package is no longer a member of a pnpm workspace, and
+  // invoking a package manager the environment may not have is a failure that only shows up off
+  // the author's machine.
+  execFileSync("npm", ["run", "build"], { cwd: cliRoot, stdio: "pipe" });
   dryRun = npmPack(["--dry-run"]);
   packed = npmPack(["--pack-destination", output]);
   tarball = join(output, packed.filename);
