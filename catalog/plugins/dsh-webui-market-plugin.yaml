@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: dsh-webui-market-plugin
+name: "@sanqi-normal/dsh-webui-market-plugin"
+description:
+  en: "In-harness community plugin market for the dsh web GUI: browse awesome-dsh-plugin.com, install and uninstall plugins into a profile"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - agent-harness
+  - market
+  - web
+  - ui
+  - community
+  - browse
+  - awesome
+  - install
+  - uninstall
+  - profile
+source:
+  repository: https://github.com/Sanqi-normal/dsh-webui-market-plugin
+  repositoryNodeId: R_kgDOT3rL4A
+  subpath: null
+  commit: 44cd1ababaeeda11519042ab876c598f5961774d
+creator:
+  github: Sanqi-normal
+package:
+  ecosystem: npm
+  name: "@sanqi-normal/dsh-webui-market-plugin"
+  version: 0.5.5
+  integrity: sha512-pGHgU3YyfX7OatsUh3pgd+iDQEbwCET+/f1xu3QAQAPNarbhWbhCUuBFklzaCbia7HtoEzVn4yStD2tjuWUlMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:46.283Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 90
+provenance:
+  discussion: null
+  comment: null
