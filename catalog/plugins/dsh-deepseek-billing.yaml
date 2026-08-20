@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-deepseek-billing
 name: dsh-deepseek-billing
 description:
-  en: DSH WebUI 插件:侧边栏 DeepSeek 账户余额显示与按会话费用估算
+  en: "A balance card for the DeepSeek Harness web UI: the sidebar shows your DeepSeek account balance and what the current session cost, expanding to token breakdown, cache hit rate and per-rate subtotals. Refreshes every minute; the figures are an estimate, not a bill."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: models-providers-routing
+primaryCategory: data-external-services
 tags:
   - webui
   - dsh

@@ -2,7 +2,7 @@ schemaVersion: 1
 id: dsh-plugin-subhub
 name: dsh-plugin-subhub
 description:
-  en: DeepSeek Harness 第三方订阅接入插件:登录第三方订阅账户即可使用订阅内的模型(当前支持 OpenAI / ChatGPT 订阅,更多订阅服务规划中;支持图片理解与对话内图片生成、编辑)
+  en: "Use a third-party subscription's models inside DeepSeek Harness: sign in to the subscription account and its models become available in the model menu, with image understanding and conversation support. OpenAI/ChatGPT subscriptions are supported today and more are planned."
   evidencePath: README.md
 unofficial: true
 kind: plugin

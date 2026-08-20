@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-store
 name: dsh-store
 description:
-  en: DeepSeek Harness 插件商店：npm 权威源 + awesome 精选 + 自动雷达（550+ 插件、11 分类、运行级验证），官方 dsh plugin add/remove 一键安装卸载，dsh 原生 UI
+  en: "A plugin store inside DeepSeek Harness built on the npm registry as the authoritative source, plus the awesome list and GitHub stars: entries are verified by their dsh field, categorised and star-ranked, and installed through the official dsh plugin add/remove path, so every listed npm entry actually installs."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: models-providers-routing
+primaryCategory: coding-developer-tools
 tags:
   - dsh
   - dsh-plugin
