@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-im-gateway
+name: "@lijian-ui/dsh-im-gateway"
+description:
+  en: "Multi-channel IM gateway plugin for DeepSeek Harness (dsh): DingTalk / QQ / WeChat(iLink) with QR-scan binding, streaming replies, and a unified ctx.imGateway service. 为 DeepSeek Harness 提供钉钉/QQ/个人微信多 IM 通道接入。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - im-gateway
+  - dingtalk
+  - qq
+  - wechat
+  - weixin
+  - cordis
+  - multi
+  - channel
+  - gateway
+  - ilink
+  - scan
+  - binding
+  - streaming
+source:
+  repository: https://github.com/lijian-ui/dsh-im-gateway
+  repositoryNodeId: R_kgDOT5qajw
+  subpath: null
+  commit: 00a9eeac1bd76369f112f63a4b904ec8129c2e73
+creator:
+  github: lijian-ui
+package:
+  ecosystem: npm
+  name: "@lijian-ui/dsh-im-gateway"
+  version: 0.1.1
+  integrity: sha512-GbkjySHozO20nGsBW2zVSaR4xG8FzBsNxz2XvYT+cRT/Vg5iR6/U+/eNFDs4OsdyztfK7EidS4kECkkW58lhGA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:36.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
