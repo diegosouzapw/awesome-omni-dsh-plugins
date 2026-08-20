@@ -1,0 +1,115 @@
+# npm release via trusted publishing. Owner-dispatched only; fails closed until the trusted
+# publisher is configured on npmjs.com for this repository and this workflow. No npm token
+# exists anywhere in this repository — authentication is the OIDC exchange itself.
+name: release-npm
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version being released (must equal cli/package.json)"
+        required: true
+
+permissions:
+  contents: read
+  id-token: write # OIDC for npm trusted publishing AND provenance attestation
+
+concurrency:
+  group: release-npm
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm-release
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      # Owner dispatch can target any ref; a release may only ever come from main so a hostile
+      # or stale branch cannot reach the OIDC publish step.
+      - name: Enforce the release ref
+        working-directory: .
+        run: |
+          case "$GITHUB_REF" in
+            refs/heads/main) : ;;
+            *) echo "release-npm may only run from main (got $GITHUB_REF)" >&2; exit 1 ;;
+          esac
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          cache: npm
+          cache-dependency-path: cli/package-lock.json
+
+      - name: Guard the requested version
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          set -eu
+          PACKAGE_VERSION="$(node -p "require('./package.json').version")"
+          if [ "$REQUESTED_VERSION" != "$PACKAGE_VERSION" ]; then
+            echo "Requested $REQUESTED_VERSION but cli/package.json says $PACKAGE_VERSION" >&2
+            exit 1
+          fi
+          if [ "$PACKAGE_VERSION" = "0.1.0" ]; then
+            echo "0.1.0 is the immutable bootstrap release and must never be republished" >&2
+            exit 1
+          fi
+
+      - run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Build the publishable artifact
+        run: npm run build
+
+      # Exact-manifest verification: the tarball must contain precisely these four files —
+      # a prefix allowlist would let anything under dist/ ride along unseen.
+      - name: Verify the artifact set
+        run: |
+          set -eu
+          npm pack --json > /tmp/pack.json
+          node -e "
+            const report = require('/tmp/pack.json')[0];
+            const files = report.files.map((f) => f.path).sort();
+            const expected = ['LICENSE', 'README.md', 'dist/bin.js', 'package.json'];
+            if (JSON.stringify(files) !== JSON.stringify(expected)) {
+              console.error('Tarball must contain exactly', expected, 'but has', files);
+              process.exit(1);
+            }
+            require('node:fs').writeFileSync('/tmp/tarball-name', report.filename);
+          "
+
+      # The artifact that smokes is the artifact that ships: install the packed tarball into a
+      # scratch prefix and prove the published entrypoint actually runs — and that it answers
+      # with the version being released. Running --version without reading it is what once let a
+      # build reach the release gate still calling itself by the previous version; npm versions
+      # are immutable, so this must fail here or never.
+      - name: Smoke the packed tarball
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          set -eu
+          TARBALL="$(cat /tmp/tarball-name)"
+          SCRATCH="$(mktemp -d)"
+          npm install --prefix "$SCRATCH" --no-save --ignore-scripts "./$TARBALL"
+          REPORTED="$("$SCRATCH/node_modules/.bin/dsh-plugins" --version)"
+          if [ "$REPORTED" != "$REQUESTED_VERSION" ]; then
+            echo "Packed binary reports $REPORTED but this release is $REQUESTED_VERSION" >&2
+            exit 1
+          fi
+          "$SCRATCH/node_modules/.bin/dsh-plugins" --help > /dev/null
+
+      # Trusted publishing: npm exchanges the workflow's OIDC token for a scoped credential.
+      # --provenance is possible here and was not in the previous home: attestation requires a
+      # public source repository, so moving the CLI beside the catalog is what lets an installer
+      # trace this binary back to the commit and workflow run that built it.
+      - name: Publish
+        run: |
+          set -eu
+          npm publish "./$(cat /tmp/tarball-name)" --access public --provenance
