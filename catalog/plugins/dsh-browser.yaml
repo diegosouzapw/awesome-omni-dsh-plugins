@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: dsh-browser
+name: "@anweat/dsh-browser"
+description:
+  en: Self-contained browser runtime plugin for DeepSeek Harness (scoped @anweat) — bundles Playwright (chromium) and OpenCLI as plugin-local dependencies (with global-reuse fallback), exposes a browser service and interactive browser tools.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - browser
+  - playwright
+  - opencli
+  - self
+  - contained
+  - runtime
+  - scoped
+  - anweat
+  - bundles
+  - chromium
+  - local
+  - dependencies
+  - global
+  - reuse
+source:
+  repository: https://github.com/anweat/dsh-browser
+  repositoryNodeId: R_kgDOT36ugg
+  subpath: null
+  commit: 570ac8b54bd152b3f1be26cc0cc068f1a4eeb001
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: "@anweat/dsh-browser"
+  version: 0.1.3
+  integrity: sha512-YDNcR7xRw2cUSCn2xCTNRRtb2dpSsStAt9zXWUx+GLiUze93DyWnxSKCeJFiufyA4vzQZi9Z0R3mbTe9CzFsSg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:57.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
