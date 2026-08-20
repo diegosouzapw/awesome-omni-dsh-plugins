@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sjh9714-dsh-win32
+name: dsh-win32
+description:
+  en: "A Windows compatibility bundle for DeepSeek Harness: swaps in a win32-aware subprocess runtime so persistent PTY shells work, ships the minimal-windows and sandboxed busybox presets, decodes GBK and UTF-16 file reads, and adds dsh-win32 setup and doctor commands."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-plugins
+  - deepseek-harness
+  - windows
+  - win32
+  - git-bash
+  - persistent-shell
+  - minimal-mode
+  - shell
+  - working
+  - persistent
+  - minimal
+  - mode
+  - sandbox
+  - included
+source:
+  repository: https://github.com/sjh9714/dsh-win32
+  repositoryNodeId: R_kgDOT5Ca-w
+  subpath: null
+  commit: 1e3e54cbf34853ad9ca22084d515932903c2535f
+creator:
+  github: sjh9714
+package:
+  ecosystem: npm
+  name: dsh-win32
+  version: 0.14.0
+  integrity: sha512-Fwo8/GaUx6tlVqZ+IsGLS7yXqTEBfUdIBLYk2hUkWg8N0USDwyI6UOR3jTN8GNLLy9c17jnuDk7PQmazclC9xg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:17.515Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null

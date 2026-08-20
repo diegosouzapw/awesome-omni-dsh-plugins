@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: zihengwind-dsh-spend
+name: dsh-spend
+description:
+  en: Token usage, multi-dimensional statistics, auto-detected billing plans (Code/Token) and estimated spend for the dsh web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - token
+  - usage
+  - tokens
+  - billing
+  - cost
+  - spend
+  - monitoring
+  - codex
+  - opencode
+  - multi
+  - dimensional
+  - statistics
+  - auto
+  - detected
+source:
+  repository: https://github.com/nonewind/dsh-spend
+  repositoryNodeId: R_kgDOT3-uiw
+  subpath: null
+  commit: 43fb7b08b2b38d3da9f09c0ac085720a4144e61f
+creator:
+  github: Zihengwind
+package:
+  ecosystem: npm
+  name: dsh-spend
+  version: 0.4.6
+  integrity: sha512-s8qRoTW5TWgfdp3J/qpQtL8awwZQwehdM4gD9rv08QjH+Yl6BPimH28nfdKsDX2Z7QhD9dxi/wsbqqkKjJcilw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:31:06.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null

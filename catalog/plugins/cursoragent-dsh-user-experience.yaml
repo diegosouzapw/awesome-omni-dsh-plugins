@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: cursoragent-dsh-user-experience
+name: dsh-user-experience
+description:
+  en: "DeepSeek Harness UX walkthrough plugin: persona-driven source-code UX review for React (TypeScript/JavaScript) and Vue 3 projects, with change-triggered automatic walkthroughs"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - ux
+  - code-review
+  - persona
+  - accessibility
+  - walkthrough
+  - driven
+  - source
+  - code
+  - review
+  - react
+  - typescript
+  - javascript
+  - projects
+  - change
+source:
+  repository: https://github.com/DietCokewithSugar/dsh-user-experience
+  repositoryNodeId: R_kgDOT38ljw
+  subpath: null
+  commit: bba21e6a634844b448b34aae4e7c8af1d8bbd9d4
+creator:
+  github: cursoragent
+package:
+  ecosystem: npm
+  name: dsh-user-experience
+  version: 0.4.2
+  integrity: sha512-AbGIN6zJF9gEyGSe+AaPl6HFNEY1IretiaT0ZwoYWU3IaZSulRZrWHlo5V6neKnmIdE0tH6AkKBqx0mCbs8EnA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:26.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null

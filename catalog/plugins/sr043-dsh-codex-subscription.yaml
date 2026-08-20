@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sr043-dsh-codex-subscription
+name: dsh-codex-subscription
+description:
+  en: ChatGPT and Codex subscriptions for DeepSeek Harness with OAuth login, image generation, quota, and subscription web search
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - openai-codex
+  - codex-cli
+  - chatgpt
+  - chatgpt-plus
+  - subscription
+  - quota
+  - usage
+  - oauth
+  - web-search
+  - image-generation
+  - codex
+  - subscriptions
+  - login
+source:
+  repository: https://github.com/WSL043/dsh-codex-subscription
+  repositoryNodeId: R_kgDOT3wJGQ
+  subpath: null
+  commit: b5d19ee0fafdfe3a9e15fc7cf635754ede623676
+creator:
+  github: SR043
+package:
+  ecosystem: npm
+  name: dsh-codex-subscription
+  version: 1.0.0
+  integrity: sha512-+r85ajBOuPs92CvN2FUwzEPA96zl9j1VI5nwYyZR+sCyXpzCqznoTY35prBCVnuRlw+BxnjIk9MVVUHj82Z9jQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:54.594Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null

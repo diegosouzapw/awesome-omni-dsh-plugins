@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: mooling0602-dsh-web-file-uploader
+name: dsh-web-file-uploader
+description:
+  en: "A DeepSeek-style paperclip attach button in the DSH web composer; uploads files to the DSH host (model-aware: native image blocks for multimodal models, file paths for text-only models)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - web
+  - upload
+  - attachment
+  - style
+  - paperclip
+  - attach
+  - button
+  - composer
+  - uploads
+  - files
+  - host
+  - model
+  - aware
+source:
+  repository: https://github.com/Mooling0602/dsh-web-file-uploader
+  repositoryNodeId: R_kgDOT6UzDg
+  subpath: null
+  commit: 6ee65d1c662b1038196a2c24c800c98da5bc6e4c
+creator:
+  github: Mooling0602
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:23.446Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null

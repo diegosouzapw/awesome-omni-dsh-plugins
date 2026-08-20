@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fmlin0429712024-dsh-cdi-plugin
+name: dsh-cdi-plugin
+description:
+  en: "Synthetic CDI (clinical documentation integrity) auditing plugin for DeepSeek Harness — Step 1: pure host plugin, AS-IS GUI. Bundles the deterministic SOP-rule evaluation tools, the SQLite SOP stores, the synthetic gold sets, the audit rules, and a packaged copy of the CDI skills."
+  evidencePath: plugins/dsh-cdi-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - synthetic
+  - clinical
+  - documentation
+  - integrity
+  - auditing
+  - step
+  - pure
+  - host
+  - bundles
+  - deterministic
+  - rule
+  - evaluation
+  - tools
+  - sqlite
+  - stores
+  - gold
+source:
+  repository: https://github.com/fmlin0429712024/linkhealth-dsh-platform
+  repositoryNodeId: R_kgDOT6mwFA
+  subpath: plugins/dsh-cdi-plugin
+  commit: ac726ea9dcef9e8e6f90a8dcf512d09b4572a7d1
+creator:
+  github: fmlin0429712024
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-cdi-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:35:23.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null

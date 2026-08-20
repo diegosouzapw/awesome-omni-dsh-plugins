@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wx-yss-dsh-message-rail
+name: dsh-message-rail
+description:
+  en: "A left-side message navigation rail for the DeepSeek Harness Web UI: one evenly spaced tick per user message, hover previews showing index, relative time and text, click-to-jump with highlight, background indexing of the whole session history, and virtualized rendering."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - message-rail
+  - navigation
+  - codex
+source:
+  repository: https://github.com/wx-yss/dsh-message-rail
+  repositoryNodeId: R_kgDOT5KJdA
+  subpath: null
+  commit: 2efb1ded515d5f2a490c2057790d4eb1655b6f8c
+creator:
+  github: wx-yss
+package:
+  ecosystem: npm
+  name: dsh-message-rail
+  version: 0.1.3
+  integrity: sha512-m86PHr7G0qQ1h/zl4MNUXCR5GvwEk8CRM66022TrBn57Qk8fFwZLpdK6TH/8USJbVApzpAeeU4wRKsIM9wAXtg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:03.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: tkingxiao-dsh-any-background
+name: dsh-any-background
+description:
+  en: "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - wallpaper
+  - web-ui
+  - appearance
+  - custom
+  - color
+  - style
+  - wheel
+  - background
+  - opacity
+  - blur
+  - controls
+  - separate
+source:
+  repository: https://github.com/Tkingxiao/dsh-any-background
+  repositoryNodeId: R_kgDOT4tdOg
+  subpath: null
+  commit: 5e4c0e0c3758c834422a6528ac26821ebf764b29
+creator:
+  github: Tkingxiao
+package:
+  ecosystem: npm
+  name: dsh-any-background
+  version: 0.1.8
+  integrity: sha512-zqUZPBJ2FjAg6zZDbm/PgVC9JlaG8J7Coq7lsBx5zTi3FCl4RFHaDXDULAXeA3p8ixhCy5QoNRnW0NBXWbD1Pw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:11.302Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null

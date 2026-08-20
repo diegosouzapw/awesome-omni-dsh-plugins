@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: cirelir-dsh-change-review
+name: dsh-change-review
+description:
+  en: "A session change-review panel for DeepSeek Harness: tracks write and edit tool calls per session, renders line-level diffs with configurable colors, aggregates subagent changes into the parent session, pushes updates over SSE, and reverts a single change or a whole file."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - diff
+  - review
+  - write
+  - edit
+source:
+  repository: https://github.com/cirelir/dsh-change-review
+  repositoryNodeId: R_kgDOT5QGIA
+  subpath: null
+  commit: 1f2de55b3f95dd1c513e713fe56664648ca2e447
+creator:
+  github: cirelir
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:09.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

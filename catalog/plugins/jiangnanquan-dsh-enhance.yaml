@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jiangnanquan-dsh-enhance
+name: dsh-enhance
+description:
+  en: "A web UI experience kit for DeepSeek Harness: a Solarized light theme with a Maple Mono stack, a wider and more compact message column, thinking blocks and tool chains folded into capsules that rewrap with the column, and a footer with account balance, per-turn token cost and 30-day usage."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - theme
+  - generative-ui
+  - solarized
+  - maple
+  - mono
+source:
+  repository: https://github.com/jiangnanquan/dsh-ux
+  repositoryNodeId: R_kgDOT4EZaw
+  subpath: null
+  commit: 9a2a16c57e05b051fc05ceea26cbcef90af60546
+creator:
+  github: jiangnanquan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:43.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

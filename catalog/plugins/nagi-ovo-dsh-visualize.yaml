@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: nagi-ovo-dsh-visualize
+name: '@dsh-external/dsh-visualize'
+description:
+  en: 'Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render interactive HTML fragments as sandboxed cards directly in the conversation.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+- visualization
+- inline-cards
+- sandboxed-html
+- web-ui
+- skill
+source:
+  repository: https://github.com/Nagi-ovo/dsh-visualize
+  repositoryNodeId: R_kgDOT3X7_w
+  subpath: null
+  commit: e86f68fe66b980a0ebeed8ef7409522b0b720bed
+creator:
+  github: Nagi-ovo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: "2026-08-19T03:41:52.040Z"
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 180
+provenance:
+  discussion: null
+  comment: null

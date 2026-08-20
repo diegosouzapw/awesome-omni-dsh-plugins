@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: liliucourier-dsh-chat-outline
+name: dsh-chat-outline
+description:
+  en: "A persistent conversation outline down the left of the DeepSeek Harness chat: one row per turn with the question and that turn's last reply, click to jump, Ctrl/Shift-click to land in the trace view. A marker follows what you are reading, and a light mode reads only the already-loaded window at zero cost."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chat-outline
+  - user
+  - assistant
+source:
+  repository: https://github.com/liliuCourier/dsh-chat-outline
+  repositoryNodeId: R_kgDOT3uOCg
+  subpath: null
+  commit: be56f36e4d51b7da3a618dbe5abc47c010a444ed
+creator:
+  github: liliuCourier
+package:
+  ecosystem: npm
+  name: dsh-chat-outline
+  version: 0.1.10
+  integrity: sha512-D+OaWvbVjXud5/B4lI+6L6Z9r/VuTTsbhHsPDxXSVJX5U6CGFNrqiLFPT7RycnXX94m+GrLnHha5trS9phpNrw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:59.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null

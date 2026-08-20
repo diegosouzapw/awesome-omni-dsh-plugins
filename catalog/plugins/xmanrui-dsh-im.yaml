@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xmanrui-dsh-im
+name: "@xmanrui/dsh-im"
+description:
+  en: "Connect IM bots to DeepSeek Harness via QR code or bot credentials — nine channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord and WhatsApp."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ai-agent
+  - im
+  - instant-messaging
+  - chatbot
+  - feishu
+  - lark
+  - wechat
+  - wecom
+  - dingtalk
+  - qq
+  - slack
+  - telegram
+  - discord
+source:
+  repository: https://github.com/xmanrui/dsh-im
+  repositoryNodeId: R_kgDOT4vL9Q
+  subpath: null
+  commit: 443d3b4799a2e751e7666b10de968c05a795978a
+creator:
+  github: xmanrui
+package:
+  ecosystem: npm
+  name: "@xmanrui/dsh-im"
+  version: 0.11.0
+  integrity: sha512-cxwI+6I+5A1sUIKOaqmCMPUuuLu6bqMuKV+cT/1mEGJKwn2AAdtdBf/Kh216P757+o6O1F/dUSckeINS3oU4KA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:56.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 71
+provenance:
+  discussion: null
+  comment: null

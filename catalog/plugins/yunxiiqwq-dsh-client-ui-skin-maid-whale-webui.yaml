@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yunxiiqwq-dsh-client-ui-skin-maid-whale-webui
+name: "@dsh-external/dsh-client-ui-skin-maid-whale-webui"
+description:
+  en: Cloud-paper DeepSeek skin for the DSH web GUI with the deepseek-drool character as a quiet page-edge mascot
+  evidencePath: maid-whale-webui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - cloud
+  - paper
+  - skin
+  - drool
+  - character
+  - quiet
+  - page
+  - edge
+  - mascot
+  - dsh
+source:
+  repository: https://github.com/yunxiiQwQ/dsh-maid-whale-webUI
+  repositoryNodeId: R_kgDOT49vPA
+  subpath: maid-whale-webui
+  commit: f574f151bdfde7e8569797962eb8ff6aad4b3bf1
+creator:
+  github: yunxiiQwQ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: maid-whale-webui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:40:40.112Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null

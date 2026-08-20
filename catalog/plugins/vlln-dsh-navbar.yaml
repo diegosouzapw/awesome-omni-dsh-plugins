@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: vlln-dsh-navbar
+name: "@vlln/dsh-navbar"
+description:
+  en: "A conversation navigation rail for DeepSeek Harness: one node per user message along the right edge of the chat, hover preview cards, click and scroll-wheel jumping, a sliding window past 11 nodes, and a pin button that marks a chosen assistant reply."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - user
+  - client
+  - dsh
+source:
+  repository: https://github.com/vlln/dsh-navbar
+  repositoryNodeId: R_kgDOT0bTDw
+  subpath: null
+  commit: 08c1acf164c779a09584b7199cced1f0d59399ce
+creator:
+  github: vlln
+package:
+  ecosystem: npm
+  name: "@vlln/dsh-navbar"
+  version: 0.3.0
+  integrity: sha512-dMynNNnKuePm1HgNOCe2tEe86OecPn7KJEUWAQunf/d0TPQV6yyQ+prPle7ztvpyHFXsqACErzyqP2tn75l1EQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:17.974Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 46
+provenance:
+  discussion: null
+  comment: null

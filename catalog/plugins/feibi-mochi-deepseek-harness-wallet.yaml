@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: feibi-mochi-deepseek-harness-wallet
+name: deepseek-harness-wallet
+description:
+  en: Local-first account monitoring, usage accounting, official recharge, completion reminders, flexible layout, host-gated session controls, and multi-account management with hot account switching for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - balance-monitor
+  - recharge
+  - token-tracking
+  - cost-tracking
+  - wallet
+  - multi-account
+  - account-switching
+  - llm
+  - agentic-ai
+  - local
+  - first
+  - account
+  - monitoring
+  - usage
+  - accounting
+source:
+  repository: https://github.com/feibi-mochi/deepseek-harness-control-center
+  repositoryNodeId: R_kgDOT4RiEA
+  subpath: null
+  commit: 79d2ea3ff7050326adaa7f13f8455e61967e3f8b
+creator:
+  github: feibi-mochi
+package:
+  ecosystem: npm
+  name: deepseek-harness-wallet
+  version: 0.2.0
+  integrity: sha512-5x/Dyvd7kTfCEQ8UAdp9Tl1MT7F5fV/VnlJzsZ1woyLmVD4oZtc/9NJ5s9VIvNofSSEhcqInBsrG/NdQazqTmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:01.475Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 54
+provenance:
+  discussion: null
+  comment: null

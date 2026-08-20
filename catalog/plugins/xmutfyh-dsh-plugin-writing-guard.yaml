@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xmutfyh-dsh-plugin-writing-guard
+name: dsh-plugin-writing-guard
+description:
+  en: DeepSeek Harness (DSH) academic writing guard for papers — 论文去AI味 / AI-writing style detection, evidence preservation, journal-fit calibration, manuscript proofreading, writing audit & automatic checks. Local, zero network, zero LLM.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - host-plugin
+  - academic-writing
+  - scientific-writing
+  - paper-writing
+  - paper
+  - manuscript
+  - writing-style
+  - ai-detection
+  - ai-writing
+  - llm-writing
+  - defensive-writing
+  - scientific-integrity
+  - evidence-based-writing
+source:
+  repository: https://github.com/xmutfyh/dsh-plugin-writing-guard
+  repositoryNodeId: R_kgDOT47vgg
+  subpath: null
+  commit: aa037036122d12e6bebf6e9052b16b0425f61a47
+creator:
+  github: xmutfyh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:53.187Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null
