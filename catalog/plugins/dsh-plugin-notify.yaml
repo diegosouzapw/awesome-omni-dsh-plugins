@@ -2,7 +2,7 @@ schemaVersion: 1
 id: dsh-plugin-notify
 name: dsh-plugin-notify
 description:
-  en: DeepSeek Harness 插件：通知出口——agent 通过桌面通知 / 中文语音播报 / 提示音主动联系用户（长任务完成、出错、呼叫用户回来）。Windows 本机零依赖。
+  en: "A notification outlet for DeepSeek Harness so the agent can reach you: desktop toast, spoken announcement and sound, with no native dependency on Windows. It injects a proactive-notification rule into every agent's prompt, exposes a notify_user tool and a /notify command, and still notifies on turn end or error."
   evidencePath: README.md
 unofficial: true
 kind: plugin
