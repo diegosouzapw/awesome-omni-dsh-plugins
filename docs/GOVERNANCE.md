@@ -46,7 +46,7 @@ Every pull request touching `catalog/plugins/`, `schemas/` or the workflow itsel
 CLI:
 
 ```bash
-npx --yes @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx --yes omni-dsh-plugins@1.0.0 catalog validate --catalog .
 ```
 
 **What it validates** — local structure and semantics only:

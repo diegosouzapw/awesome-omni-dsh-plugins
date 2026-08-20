@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **वेबसाइट** | शोध आणि क्रमवारीसह रेंडर केलेला कॅटलॉग ब्राउझर                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **कॅटलॉग** | प्रति प्लगइन एक YAML फाइल, एकमेव सत्याचा स्रोत             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **स्कीमा**  | सार्वजनिक JSON Schema (draft 2020-12) ज्याविरुद्ध प्रत्येक एंट्री पडताळली जाते | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | कॅटलॉगमधून शोधा, तपासा, पडताळा आणि इंस्टॉल करा           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | कॅटलॉगमधून शोधा, तपासा, पडताळा आणि इंस्टॉल करा           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **मशीन फीड्स** | साधनांसाठी `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 हे रिपॉझिटरी कॅटलॉगसाठी सत्याचा सार्वजनिक स्रोत आहे. प्रत्येक एंट्री ही `catalog/plugins/` अंतर्गत एक
@@ -127,15 +127,15 @@ YAML फाइल आहे, प्रकाशित JSON Schema विरु�
 ## 🚀 CLI इंस्टॉल करा
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-स्कोप्ड पॅकेज `@diegosouza.pw/dsh-plugins@0.1.0` म्हणून प्रकाशित केलेले आहे आणि वरील कमांड आजची
+स्कोप्ड पॅकेज `omni-dsh-plugins@1.0.0` म्हणून प्रकाशित केलेले आहे आणि वरील कमांड आजची
 प्रमाणित पद्धत आहे; इथे कोणतीही इंस्टॉलर स्क्रिप्ट होस्ट केलेली नाही.
 
 ### आज CLI वापरा
 
-आवृत्ती 0.1.0 फक्त-वाचनीय शोध आणि पडताळणी कमांड्स, तसेच संमती-गेट केलेल्या इंस्टॉल कमांड्स पुरवते.
+आवृत्ती 1.0.0 फक्त-वाचनीय शोध आणि पडताळणी कमांड्स, तसेच संमती-गेट केलेल्या इंस्टॉल कमांड्स पुरवते.
 फ्लॅग्स, एक्झिट कोड्स आणि कोड-एक्झिक्युशन संमती गेटसह संपूर्ण कमांड संदर्भ [docs/CLI.md](../../docs/CLI.md)
 मध्ये आहे.
 
@@ -151,18 +151,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 बदल करणाऱ्या कमांड्स (`add`, `update`, `remove`) तुम्ही `--allow-code-execution` दिल्याशिवाय
-कधीही प्लगइन लाइफसायकल कोड एक्झिक्यूट करत नाहीत. नेटिव्ह Windows वर, v0.1.0 मध्ये हे बदल अक्षम
+कधीही प्लगइन लाइफसायकल कोड एक्झिक्यूट करत नाहीत. नेटिव्ह Windows वर, v1.0.0 मध्ये हे बदल अक्षम
 केलेले आहेत; WSL वापरा. फक्त-वाचनीय आणि ड्राय-रन कमांड्स सर्वत्र कार्य करतात.
 
 ## 🔍 एखादा प्लगइन कॅटलॉगमध्ये कसा दाखल होतो
@@ -308,7 +308,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | संपूर्ण योगदान करार: पुरावा, YAML नियम, पुनरावलोकन गेट्स    |
 | [SECURITY.md](../../SECURITY.md)                   | प्लगइन किंवा कॅटलॉग असुरक्षिततेची तक्रार करणे; गुपित धोरण           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` साठी फील्ड-दर-फील्ड संदर्भ             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` साठी CLI कमांड संदर्भ          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` साठी CLI कमांड संदर्भ          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | कॅटलॉगचे शासन कसे होते: प्राधान्य, गेट्स, दावे आणि काढून टाकणे   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | आर्टिफॅक्ट प्रकार, प्रमुख क्षमता श्रेणी, टॅग्स, रिपॉझिटरी व्याप्ती |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | निर्माता श्रेय, PR प्राधान्य आणि Git ओळख धोरण                 |

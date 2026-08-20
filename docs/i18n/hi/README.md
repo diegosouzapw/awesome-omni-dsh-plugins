@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **वेबसाइट** | खोज और रैंकिंग के साथ रेंडर किया गया कैटलॉग ब्राउज़र                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **कैटलॉग** | प्रति प्लगइन एक YAML फ़ाइल, सत्य का एकमात्र स्रोत             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **स्कीमा**  | सार्वजनिक JSON स्कीमा (draft 2020-12) जिसके विरुद्ध हर एंट्री मान्य होती है | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | कैटलॉग से खोजें, निरीक्षण करें, मान्य करें और इंस्टॉल करें           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | कैटलॉग से खोजें, निरीक्षण करें, मान्य करें और इंस्टॉल करें           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **मशीन फ़ीड्स** | टूल्स के लिए `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 यह रिपॉज़िटरी कैटलॉग के लिए सत्य का सार्वजनिक स्रोत है। हर लिस्टिंग `catalog/plugins/` के अंतर्गत एक YAML फ़ाइल है, जो एक
@@ -125,15 +125,15 @@
 ## 🚀 CLI इंस्टॉल करें
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-स्कोप्ड पैकेज `@diegosouza.pw/dsh-plugins@0.1.0` के रूप में प्रकाशित किया गया है और ऊपर दिया गया कमांड आज का कैनोनिकल
+स्कोप्ड पैकेज `omni-dsh-plugins@1.0.0` के रूप में प्रकाशित किया गया है और ऊपर दिया गया कमांड आज का कैनोनिकल
 इनवोकेशन है; यहां कोई इंस्टॉलर स्क्रिप्ट होस्ट नहीं की गई है।
 
 ### आज ही CLI का उपयोग करें
 
-संस्करण 0.1.0 रीड-ओनली डिस्कवरी और वैलिडेशन कमांड के साथ-साथ सहमति-गेटेड इंस्टॉल कमांड भी प्रदान करता है। फ्लैग्स,
+संस्करण 1.0.0 रीड-ओनली डिस्कवरी और वैलिडेशन कमांड के साथ-साथ सहमति-गेटेड इंस्टॉल कमांड भी प्रदान करता है। फ्लैग्स,
 एग्ज़िट कोड और कोड-एग्ज़ीक्यूशन सहमति गेट सहित पूरा कमांड संदर्भ [docs/CLI.md](../../docs/CLI.md) में है।
 
 | कमांड                        | यह क्या करता है                                                        | क्या यह आपके सिस्टम को छूता है?                    |
@@ -148,18 +148,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 म्यूटेटिंग कमांड (`add`, `update`, `remove`) तब तक कभी भी प्लगइन लाइफ़साइकल कोड को एग्ज़ीक्यूट नहीं करते जब तक आप
-`--allow-code-execution` पास न करें। नेटिव Windows पर ये म्यूटेशन v0.1.0 में अक्षम हैं; WSL का उपयोग करें। रीड-ओनली और
+`--allow-code-execution` पास न करें। नेटिव Windows पर ये म्यूटेशन v1.0.0 में अक्षम हैं; WSL का उपयोग करें। रीड-ओनली और
 ड्राई-रन कमांड हर जगह काम करते हैं।
 
 ## 🔍 एक प्लगइन कैटलॉग में कैसे प्रवेश करता है
@@ -297,7 +297,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | पूरा योगदान अनुबंध: प्रमाण, YAML नियम, समीक्षा गेट्स    |
 | [SECURITY.md](../../SECURITY.md)                   | प्लगइन या कैटलॉग की भेद्यताओं की रिपोर्ट करना; गोपनीय जानकारी नीति           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` के लिए फ़ील्ड-दर-फ़ील्ड संदर्भ             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` के लिए CLI कमांड संदर्भ          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` के लिए CLI कमांड संदर्भ          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | कैटलॉग को कैसे संचालित किया जाता है: प्राथमिकता, गेट्स, दावे और हटाना   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | आर्टिफैक्ट प्रकार, प्राथमिक क्षमता श्रेणियां, टैग, रिपॉज़िटरी स्कोप |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | निर्माता श्रेय, PR प्राथमिकता और Git पहचान नीति                 |

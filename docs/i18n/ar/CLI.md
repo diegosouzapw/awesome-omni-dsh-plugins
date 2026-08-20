@@ -1,21 +1,21 @@
-# مرجع الأوامر (CLI) — `@diegosouza.pw/dsh-plugins@0.1.0`
+# مرجع الأوامر (CLI) — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **العربية**
 
 > **مشروع مجتمعي غير رسمي. غير منتسب لشركة DeepSeek ولا معتمد أو ممول منها.**
 > أسماء DeepSeek وعلاماتها التجارية ملك لأصحابها المعنيين.
 
-توثّق هذه الصفحة الـ CLI المنشور تمامًا كما يتصرف في الإصدار `0.1.0`. كل ملخص أمر (synopsis) وكل علامة (flag) أدناه مأخوذة من مخرجات `--help` الخاصة بالأمر المنشور نفسه؛ لا شيء هنا يصف سلوكًا لم يُنشَر بعد. يُصان الـ CLI من مصدر خاص ويُنشَر على npm كحزمة مُقيَّدة النطاق (scoped) باسم [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins).
+توثّق هذه الصفحة الـ CLI المنشور تمامًا كما يتصرف في الإصدار `1.0.0`. كل ملخص أمر (synopsis) وكل علامة (flag) أدناه مأخوذة من مخرجات `--help` الخاصة بالأمر المنشور نفسه؛ لا شيء هنا يصف سلوكًا لم يُنشَر بعد. يُصان الـ CLI من مصدر خاص ويُنشَر على npm كحزمة مُقيَّدة النطاق (scoped) باسم [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## مبادئ التصميم في الإصدار v0.1.0
+## مبادئ التصميم في الإصدار v1.0.0
 
 - **للقراءة فقط افتراضيًا.** لا تُعدِّل `catalog`، و`search`، و`info`، و`list`، و`doctor` أبدًا الملفات الشخصية (profiles)، ولا تكتب ملفات، ولا تُشغِّل كود إضافة.
 - **بوابة موافقة لتنفيذ الكود.** ترفض `add`، و`update`، و`remove` تشغيل كود دورة حياة DSH/pnpm ما لم تُمرِّر `--allow-code-execution`. بدونها، استخدم `--dry-run` لرؤية الخطة المُتحقَّق منها.
-- **سياسة Windows الأصلية.** في الإصدار v0.1.0، تكون `add`/`update`/`remove` الأصلية على Windows مع تنفيذ الكود مُعطَّلة؛ استخدم WSL. يبقى الـ dry-run والأوامر للقراءة فقط متاحة، وتتطلب علامات الاسترجاع (recovery markers) الأصلية على Windows استرجاعًا يدويًا موثَّقًا.
+- **سياسة Windows الأصلية.** في الإصدار v1.0.0، تكون `add`/`update`/`remove` الأصلية على Windows مع تنفيذ الكود مُعطَّلة؛ استخدم WSL. يبقى الـ dry-run والأوامر للقراءة فقط متاحة، وتتطلب علامات الاسترجاع (recovery markers) الأصلية على Windows استرجاعًا يدويًا موثَّقًا.
 - **مدخلات مثبَّتة.** يمكن أن يكون مدخل الكتالوج دليلًا محليًا، أو ملف لقطة (snapshot)، أو عنوان URL للقطة عامة مثبَّتة، مقيَّدًا اختياريًا بمراجعة (revision) دقيقة مكوّنة من 40 حرفًا.
 
 ## الخيارات المشتركة
@@ -39,7 +39,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
 | `0`       | نجاح (بما في ذلك نتائج "فارغة لكن صالحة" مثل كتالوج فارغ)     |
 | `1`       | فشل: خطأ تحقق، أو إدخال غير موجود، أو خيار مطلوب مفقود، أو فحص تشخيصي يُبلِّغ عن خطأ |
 
-أمثلة لوحظت في الإصدار v0.1.0: يخرج `catalog validate` على كتالوج فارغ صالح بـ `0` مع `0 entries valid; catalog is empty`؛ ويخرج `info <unknown-id>` بـ `1` مع `Plugin not found`؛ ويخرج `doctor` بـ `1` عندما يُبلِّغ أي فحص (مثل عدم وجود ملف `dsh` التنفيذي) عن خطأ.
+أمثلة لوحظت في الإصدار v1.0.0: يخرج `catalog validate` على كتالوج فارغ صالح بـ `0` مع `0 entries valid; catalog is empty`؛ ويخرج `info <unknown-id>` بـ `1` مع `Plugin not found`؛ ويخرج `doctor` بـ `1` عندما يُبلِّغ أي فحص (مثل عدم وجود ملف `dsh` التنفيذي) عن خطأ.
 
 ## الأوامر
 
@@ -57,9 +57,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # From the repository root:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — البحث محليًا في حقول الكتالوج العامة
@@ -71,8 +71,8 @@ dsh-plugins search [options] <query...>
 يبحث محليًا في حقول الكتالوج العامة ضمن مدخل الكتالوج المُختار. يطبع الإدخالات المطابقة، أو `No plugins found.` (خروج `0`) عندما لا يوجد أي تطابق.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — العثور على إضافات خارج الكتالوج
@@ -81,15 +81,15 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **غير موجود في الإصدار المنشور `0.1.0`.** يُشحَن `discover` في الإصدار `1.0.0`؛ ويعمل كل أمر آخر في هذه الصفحة مع الإصدار الحالي على npm. تشغيله مقابل `@0.1.0` يفشل بأمر غير معروف.
+> **غير موجود في الإصدار المنشور `1.0.0`.** يُشحَن `discover` في الإصدار `1.0.0`؛ ويعمل كل أمر آخر في هذه الصفحة مع الإصدار الحالي على npm. تشغيله مقابل `@1.0.0` يفشل بأمر غير معروف.
 
 يبحث أولًا في الكتالوج المُنسَّق، ثم — ما لم تُمرَّر `--offline` — في موضوع (topic) `dsh-plugin` الحي على GitHub، بحيث تبقى الإضافة التي لم تُقدَّم بعد قابلة للعثور عليها. تحمل نتائج الكتالوج الأدلة التي يحتفظ بها الكتالوج (الالتزام المثبَّت، والمنشئ، والترخيص)؛ ولا تحمل نتائج المجتمع أيًا من ذلك وتُوسَم على هذا النحو، لأن لا شيء منها روجِع.
 
 يُحدِّد `--limit <n>` عدد النتائج القصوى لكل طبقة (الافتراضي `8`). تُصدِر `--json` الشكل الآلي المستقر، الذي لا يُترجَم (localized) أبدًا.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — عرض إدخال كتالوج عام واحد
@@ -101,7 +101,7 @@ dsh-plugins info [options] <id>
 يعرض إدخال كتالوج عام واحد حسب معرّف الإضافة القانوني. يخرج بـ `1` مع `Plugin not found: <id>` عندما لا يكون المعرّف موجودًا في الكتالوج.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — إضافة إضافة كتالوج واحدة عبر تفويض DSH الرسمي
@@ -121,10 +121,10 @@ dsh-plugins add [options] <id>
 
 ```bash
 # Preview only — nothing is written, nothing executes:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Real install — explicit consent to lifecycle code:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — تحديث إضافة كتالوج واحدة عبر تفويض DSH الرسمي

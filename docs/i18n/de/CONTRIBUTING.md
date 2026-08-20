@@ -180,16 +180,16 @@ darf aber nicht die Autorschaft des Erstellers ersetzen. Siehe
 
 ## Validierungsbefehle und Verfügbarkeit
 
-Der npm-CLI ist als `@diegosouza.pw/dsh-plugins@0.1.0` veröffentlicht, daher sind die
+Der npm-CLI ist als `omni-dsh-plugins@1.0.0` veröffentlicht, daher sind die
 untenstehenden Befehle heute über `npx` verfügbar. Verwende sie exakt wie geschrieben;
 Mitwirkende sollten keine Ersatzbefehle erfinden.
 
 Führe diese Befehle vom Repository-Root aus aus:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` führt nur die oben beschriebenen lokalen YAML-, Schema-, SPDX-, exakten

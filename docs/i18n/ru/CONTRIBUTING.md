@@ -174,16 +174,16 @@ Pull request'ы и коммиты, авторизованные создател
 
 ## Команды валидации и доступность
 
-CLI на npm опубликован как `@diegosouza.pw/dsh-plugins@0.1.0`, поэтому приведённые ниже команды
+CLI на npm опубликован как `omni-dsh-plugins@1.0.0`, поэтому приведённые ниже команды
 уже сегодня доступны через `npx`. Используйте их точно как написано; авторам вклада не следует
 придумывать замещающие команды.
 
 Запускайте эти команды из корня репозитория:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` выполняет только локальные проверки YAML, схемы, SPDX, точного SemVer,

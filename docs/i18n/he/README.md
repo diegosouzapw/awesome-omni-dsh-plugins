@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **אתר** | דפדפן קטלוג מרונדר עם חיפוש ודירוג                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **קטלוג** | קובץ YAML אחד לכל תוסף, מקור האמת היחיד             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **סכימה**  | סכימת JSON ציבורית (טיוטה 2020-12) שכל רשומה מאומתת מולה | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | חיפוש, בדיקה, אימות והתקנה מהקטלוג           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | חיפוש, בדיקה, אימות והתקנה מהקטלוג           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **הזנות מכונה** | `catalog.json` + `catalog.snapshot.json` לכלים           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 מאגר זה הוא מקור האמת הציבורי לקטלוג. כל רשומה היא קובץ YAML אחד תחת `catalog/plugins/`, מאומתת
@@ -125,15 +125,15 @@
 ## 🚀 התקנת ה-CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-החבילה בעלת ההיקף המוגבל מפורסמת בתור `@diegosouza.pw/dsh-plugins@0.1.0`, והפקודה שלמעלה היא
+החבילה בעלת ההיקף המוגבל מפורסמת בתור `omni-dsh-plugins@1.0.0`, והפקודה שלמעלה היא
 הקריאה הקנונית כיום; אין כאן סקריפט התקנה מתארח.
 
 ### שימוש ב-CLI כיום
 
-גרסה 0.1.0 כוללת פקודות גילוי ואימות לקריאה בלבד, בנוסף לפקודות התקנה המותנות בהסכמה. הפניה
+גרסה 1.0.0 כוללת פקודות גילוי ואימות לקריאה בלבד, בנוסף לפקודות התקנה המותנות בהסכמה. הפניה
 המלאה לפקודות, כולל דגלים, קודי יציאה ושער ההסכמה להרצת קוד, נמצאת ב-[docs/CLI.md](../../docs/CLI.md).
 
 | פקודה                        | מה היא עושה                                                        | האם היא נוגעת במערכת שלכם?                    |
@@ -148,18 +148,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 פקודות משנות (`add`, `update`, `remove`) לעולם לא מריצות קוד מחזור חיים של תוסף אלא אם תעבירו
-`--allow-code-execution`. ב-Windows מקורי שינויים אלו מושבתים ב-v0.1.0; השתמשו ב-WSL. פקודות
+`--allow-code-execution`. ב-Windows מקורי שינויים אלו מושבתים ב-v1.0.0; השתמשו ב-WSL. פקודות
 לקריאה בלבד ופקודות dry-run פועלות בכל מקום.
 
 ## 🔍 כיצד תוסף נכנס לקטלוג
@@ -299,7 +299,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | חוזה התרומה המלא: ראיות, כללי YAML, שערי בדיקה    |
 | [SECURITY.md](../../SECURITY.md)                   | דיווח על פגיעויות בתוספים או בקטלוג; מדיניות סודות           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | הפניה שדה-אחר-שדה עבור `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | הפניית פקודות CLI עבור `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | הפניית פקודות CLI עבור `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | כיצד מנוהל הקטלוג: קדימות, שערים, תביעות והסרות   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | סוגי חפצים, קטגוריות יכולת עיקריות, תגים, היקף מאגר |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | קרדיט יוצר, קדימות PR ומדיניות זהות Git                 |

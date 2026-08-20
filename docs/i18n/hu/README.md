@@ -17,7 +17,7 @@ Alkotó-központú felfedezés és egyparancsos telepítés a **DeepSeek Harness
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -107,7 +107,7 @@ ellenőrzött.
 | **Weboldal** | Renderelt katalógusböngésző kereséssel és rangsorolással                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalógus** | Egy YAML-fájl bővítményenként, az egyetlen hiteles forrás             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Séma**  | Nyilvános JSON Schema (draft 2020-12), amely ellen minden bejegyzés validál | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Keresés, vizsgálat, validálás és telepítés a katalógusból           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Keresés, vizsgálat, validálás és telepítés a katalógusból           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Gépi feedek** | `catalog.json` + `catalog.snapshot.json` eszközök számára           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Ez a repository a katalógus nyilvános hiteles forrása. Minden bejegyzés egy YAML-fájl a
@@ -128,15 +128,15 @@ jóváírással.
 ## 🚀 Telepítsd a CLI-t
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-A scope-olt csomag `@diegosouza.pw/dsh-plugins@0.1.0` néven van publikálva, és a fenti parancs a
+A scope-olt csomag `omni-dsh-plugins@1.0.0` néven van publikálva, és a fenti parancs a
 ma érvényes kanonikus meghívási mód; itt nincs telepítő szkript hosztolva.
 
 ### Használd a CLI-t már ma
 
-A 0.1.0-s verzió csak olvasható felfedező és validáló parancsokat kínál, valamint
+A 1.0.0-s verzió csak olvasható felfedező és validáló parancsokat kínál, valamint
 hozzájárulás-kapuzott telepítő parancsokat. A teljes parancsreferencia, beleértve a flageket, a
 kilépési kódokat és a kódvégrehajtási hozzájárulási kaput, itt található: [docs/CLI.md](../../docs/CLI.md).
 
@@ -152,19 +152,19 @@ kilépési kódokat és a kódvégrehajtási hozzájárulási kaput, itt találh
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Az állapotot módosító parancsok (`add`, `update`, `remove`) soha nem futtatják le a bővítmény
 életciklus-kódját, hacsak nem adod meg a `--allow-code-execution` kapcsolót. Natív Windows alatt
-ezek a módosítások a v0.1.0-ban le vannak tiltva; használj WSL-t. A csak olvasható és a dry-run
+ezek a módosítások a v1.0.0-ban le vannak tiltva; használj WSL-t. A csak olvasható és a dry-run
 parancsok mindenhol működnek.
 
 ## 🔍 Hogyan kerül be egy bővítmény a katalógusba
@@ -315,7 +315,7 @@ ha valaki már katalogizálta a munkádat, mielőtt te tetted volna.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | A teljes hozzájárulási szerződés: bizonyítékok, YAML-szabályok, átvizsgálási kapuk    |
 | [SECURITY.md](../../SECURITY.md)                   | Bővítmény- vagy katalógus-sérülékenységek bejelentése; titokkezelési szabályzat           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Mezőnkénti referencia a `schemas/plugin.schema.yaml`-hoz             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-parancsreferencia a `@diegosouza.pw/dsh-plugins@0.1.0`-hoz          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-parancsreferencia a `omni-dsh-plugins@1.0.0`-hoz          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hogyan irányítják a katalógust: elsőbbség, kapuk, igénylések és eltávolítások   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefaktumtípusok, elsődleges képességkategóriák, címkék, repository-hatókör |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Alkotói jóváírás, PR-elsőbbség és Git-identitási szabályzat                 |

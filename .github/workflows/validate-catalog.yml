@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: 22
       - name: Validate catalog
-        run: npx --yes @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+        run: npx --yes omni-dsh-plugins@0.1.0 catalog validate --catalog .

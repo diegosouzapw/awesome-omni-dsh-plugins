@@ -1,21 +1,21 @@
-# Referenční příručka CLI — `@diegosouza.pw/dsh-plugins@0.1.0`
+# Referenční příručka CLI — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Čeština**
 
 > **Neoficiální komunitní projekt. Není přidružen k DeepSeek, DeepSeek jej neschvaluje ani nesponzoruje.**
 > Názvy a značky DeepSeek náleží jejich příslušným vlastníkům.
 
-Tato stránka dokumentuje publikované CLI přesně tak, jak se chová ve verzi `0.1.0`. Každá
+Tato stránka dokumentuje publikované CLI přesně tak, jak se chová ve verzi `1.0.0`. Každá
 synopse a přepínač níže pochází přímo z výstupu `--help` publikovaného příkazu; nic zde nepopisuje
 nevydané chování. CLI je udržováno ze soukromého zdrojového kódu a vydáváno do npm jako balíček
 se scope
-[`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins).
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## Návrhové principy ve v0.1.0
+## Návrhové principy ve v1.0.0
 
 - **Ve výchozím stavu pouze pro čtení.** `catalog`, `search`, `info`, `list` a `doctor` nikdy
   neupravují profily, nezapisují soubory ani nespouštějí kód pluginu.
@@ -23,7 +23,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
   životního cyklu DSH/pnpm, pokud nepředáte `--allow-code-execution`. Bez toho použijte
   `--dry-run` k zobrazení ověřeného plánu.
 - **Politika pro nativní Windows.** Nativní Windows `add`/`update`/`remove` se spouštěním kódu
-  jsou ve v0.1.0 zakázány; použijte WSL. Dry-run a příkazy pouze pro čtení zůstávají dostupné a
+  jsou ve v1.0.0 zakázány; použijte WSL. Dry-run a příkazy pouze pro čtení zůstávají dostupné a
   markery obnovy pro nativní Windows vyžadují dokumentovanou ruční obnovu.
 - **Fixované vstupy.** Vstup katalogu může být lokální adresář, soubor snapshotu, nebo fixovaná
   veřejná URL snapshotu, volitelně uzamčená na přesnou 40znakovou revizi.
@@ -51,7 +51,7 @@ CLI používá konvenční návratové kódy procesu:
 | `0`           | Úspěch (včetně výsledků „prázdné, ale platné“, jako je prázdný katalog)    |
 | `1`           | Selhání: chyba validace, záznam nenalezen, chybí povinná volba, nebo diagnostická kontrola hlásí chybu |
 
-Příklady pozorované u v0.1.0: `catalog validate` na platném prázdném katalogu skončí s `0` a
+Příklady pozorované u v1.0.0: `catalog validate` na platném prázdném katalogu skončí s `0` a
 hlášením `0 entries valid; catalog is empty`; `info <unknown-id>` skončí s `1` a hlášením
 `Plugin not found`; `doctor` skončí s `1`, pokud jakákoli kontrola (například chybějící
 spustitelný soubor `dsh`) hlásí chybu.
@@ -78,9 +78,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # From the repository root:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — lokálně prohledává veřejná pole katalogu
@@ -93,8 +93,8 @@ Lokálně prohledává veřejná pole katalogu proti zvolenému vstupu katalogu.
 záznamy, nebo `No plugins found.` (návratový kód `0`), pokud nic neodpovídá.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — najde pluginy nad rámec katalogu
@@ -103,9 +103,9 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Není součástí publikované verze `0.1.0`.** `discover` je vydáno ve verzi `1.0.0`; každý
+> **Není součástí publikované verze `1.0.0`.** `discover` je vydáno ve verzi `1.0.0`; každý
 > další příkaz na této stránce funguje s verzí aktuálně dostupnou na npm. Spuštění proti
-> `@0.1.0` selže s hlášením o neznámém příkazu.
+> `@1.0.0` selže s hlášením o neznámém příkazu.
 
 Nejprve prohledá kurátorovaný katalog, poté — pokud není zadáno `--offline` — živé téma
 (topic) `dsh-plugin` na GitHubu, takže plugin, který ještě nebyl podán, je stále dohledatelný.
@@ -117,8 +117,8 @@ nebylo posouzeno.
 tvar, který se nikdy nelokalizuje.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — zobrazí jeden veřejný záznam katalogu
@@ -131,7 +131,7 @@ Zobrazí jeden veřejný záznam katalogu podle kanonického ID pluginu. Skonč�
 `Plugin not found: <id>`, pokud dané ID není v katalogu.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — přidá jeden plugin z katalogu prostřednictvím oficiální delegace na DSH
@@ -153,10 +153,10 @@ nástroje DSH a pokračuje pouze s `--allow-code-execution`.
 
 ```bash
 # Preview only — nothing is written, nothing executes:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Real install — explicit consent to lifecycle code:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — aktualizuje jeden plugin z katalogu prostřednictvím oficiální delegace na DSH

@@ -63,7 +63,7 @@ describe("packed public CLI", () => {
   it("contains only package metadata, public docs and the executable bundle", () => {
     // The tarball must declare the same identity the manifest does. Asserting a literal version
     // here made every release red for shipping a new version.
-    expect(packed.name).toBe("@diegosouza.pw/dsh-plugins");
+    expect(packed.name).toBe("omni-dsh-plugins");
     expect(packed.version).toBe(manifestVersion);
     expect(packed.version).toMatch(/^\d+\.\d+\.\d+$/u);
     const paths = dryRun.files.map((file) => file.path).sort();

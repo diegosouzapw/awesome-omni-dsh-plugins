@@ -157,16 +157,16 @@ popularity:
 
 ## 검증 명령어와 가용성
 
-npm CLI는 `@diegosouza.pw/dsh-plugins@0.1.0`으로 배포되어 있으므로, 아래 명령어는 오늘
+npm CLI는 `omni-dsh-plugins@1.0.0`으로 배포되어 있으므로, 아래 명령어는 오늘
 `npx`를 통해 사용할 수 있습니다. 정확히 작성된 대로 사용하세요; 기여자는 대체 명령어를 지어내지
 말아야 합니다.
 
 이 명령어들을 저장소 루트에서 실행하세요:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate`는 위에서 설명한 로컬 YAML, 스키마, SPDX, 정확한 SemVer, SHA-512 SRI 및

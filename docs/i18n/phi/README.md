@@ -17,7 +17,7 @@ Pagtuklas na unang inuuna ang mga lumikha at pag-install na isang-command para s
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -107,7 +107,7 @@ lumikha, nakapirmi sa eksaktong commit na na-validate ng katalogo.
 | **Website** | Naka-render na catalog browser na may paghahanap at ranggo                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalogo** | Isang YAML file bawat plugin, ang tanging pinagmumulan ng katotohanan             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | Pampublikong JSON Schema (draft 2020-12) na kinukumpara ng bawat entry | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Naghahanap, sumusuri, nagva-validate, at nag-i-install mula sa katalogo           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Naghahanap, sumusuri, nagva-validate, at nag-i-install mula sa katalogo           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Machine feed** | `catalog.json` + `catalog.snapshot.json` para sa mga tool           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Ang repository na ito ang pampublikong pinagmumulan ng katotohanan para sa katalogo. Bawat
@@ -129,15 +129,15 @@ source commit at malinaw na attribution.
 ## 🚀 I-install ang CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Ang scoped package ay inilathala bilang `@diegosouza.pw/dsh-plugins@0.1.0` at ang command sa
+Ang scoped package ay inilathala bilang `omni-dsh-plugins@1.0.0` at ang command sa
 itaas ang canonical na paraan ng pagtawag ngayon; walang install script na naka-host dito.
 
 ### Gamitin ang CLI ngayon
 
-Nagdadala ang bersyon 0.1.0 ng mga read-only na command para sa pagtuklas at pag-validate,
+Nagdadala ang bersyon 1.0.0 ng mga read-only na command para sa pagtuklas at pag-validate,
 kasama ang mga install command na may consent gate. Ang kumpletong sanggunian ng command,
 kasama ang mga flag, exit code, at ang consent gate para sa pagpapatakbo ng code, ay
 matatagpuan sa [docs/CLI.md](../../docs/CLI.md).
@@ -154,19 +154,19 @@ matatagpuan sa [docs/CLI.md](../../docs/CLI.md).
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Ang mga command na nagmumutate (`add`, `update`, `remove`) ay hindi kailanman nagpapatakbo
 ng lifecycle code ng plugin maliban kung ipapasa ninyo ang `--allow-code-execution`. Sa
-native na Windows, naka-disable ang mga mutation na ito sa v0.1.0; gamitin ang WSL. Ang mga
+native na Windows, naka-disable ang mga mutation na ito sa v1.0.0; gamitin ang WSL. Ang mga
 read-only at dry-run na command ay gumagana kahit saan.
 
 ## 🔍 Paano pumapasok ang isang plugin sa katalogo
@@ -318,7 +318,7 @@ kung mayroon nang nagkatalogo ng inyong trabaho bago ninyo ito ginawa.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Ang kumpletong kontrata ng pag-aambag: ebidensya, tuntunin ng YAML, gate ng review    |
 | [SECURITY.md](../../SECURITY.md)                   | Pag-uulat ng mga kahinaan ng plugin o katalogo; patakaran sa sekreto           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Sanggunian nang field-by-field para sa `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Sanggunian ng CLI command para sa `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Sanggunian ng CLI command para sa `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Kung paano pinapamahalaan ang katalogo: prayoridad, gate, claim, at pag-alis   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Mga uri ng artifact, pangunahing kategorya ng kakayahan, tag, saklaw ng repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredito sa lumikha, prayoridad ng PR, at patakaran sa pagkakakilanlan sa Git                 |

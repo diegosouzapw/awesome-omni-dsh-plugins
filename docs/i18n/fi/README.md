@@ -17,7 +17,7 @@ Luojalähtöinen löytäminen ja yhden komennon asennus **DeepSeek Harness (DSH)
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Jokainen nimi linkittää luojan repositorioon, kiinnitettynä siihen commitiin,
 | **Verkkosivusto** | Renderöity katalogiselain hakuineen ja järjestyksineen                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalogi** | Yksi YAML-tiedosto per laajennus, ainoa totuuden lähde             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Skeema**  | Julkinen JSON Schema (draft 2020-12), jota vasten jokainen merkintä validoidaan | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Hae, tarkastele, validoi ja asenna katalogista           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Hae, tarkastele, validoi ja asenna katalogista           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Konesyötteet** | `catalog.json` + `catalog.snapshot.json` työkaluille           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Tämä repositorio on katalogin julkinen totuuden lähde. Jokainen merkintä on yksi YAML-tiedosto
@@ -127,15 +127,15 @@ lähdekommitilla ja selkeällä tunnustuksella.
 ## 🚀 Asenna CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Scope-paketti on julkaistu nimellä `@diegosouza.pw/dsh-plugins@0.1.0`, ja yllä oleva komento on
+Scope-paketti on julkaistu nimellä `omni-dsh-plugins@1.0.0`, ja yllä oleva komento on
 tällä hetkellä kanoninen kutsutapa; täällä ei isännöidä asennusskriptiä.
 
 ### Käytä CLI:tä jo tänään
 
-Versio 0.1.0 sisältää vain luku -tilaiset löytämis- ja validointikomennot sekä suostumuksen taakse
+Versio 1.0.0 sisältää vain luku -tilaiset löytämis- ja validointikomennot sekä suostumuksen taakse
 lukitut asennuskomennot. Täydellinen komentoreferenssi, mukaan lukien liput, poistumiskoodit ja
 koodin suoritukseen liittyvä suostumusportti, löytyy tiedostosta [docs/CLI.md](../../docs/CLI.md).
 
@@ -151,19 +151,19 @@ koodin suoritukseen liittyvä suostumusportti, löytyy tiedostosta [docs/CLI.md]
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Muuttavat komennot (`add`, `update`, `remove`) eivät koskaan suorita laajennuksen elinkaarikoodia,
 ellet anna lippua `--allow-code-execution`. Natiivissa Windowsissa nämä muutokset on poistettu
-käytöstä versiossa v0.1.0; käytä WSL:ää. Vain luku- ja kuivaharjoituskomennot toimivat kaikkialla.
+käytöstä versiossa v1.0.0; käytä WSL:ää. Vain luku- ja kuivaharjoituskomennot toimivat kaikkialla.
 
 ## 🔍 Miten laajennus liittyy katalogiin
 
@@ -313,7 +313,7 @@ jos joku on luetteloinut työsi ennen sinua.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Täydellinen osallistumissopimus: todisteet, YAML-säännöt, tarkastusportit    |
 | [SECURITY.md](../../SECURITY.md)                   | Laajennuksen tai katalogin haavoittuvuuksien ilmoittaminen; salaisuuskäytäntö           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Kenttäkohtainen referenssi tiedostolle `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-komentoreferenssi paketille `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-komentoreferenssi paketille `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Miten katalogia hallinnoidaan: etusijajärjestys, portit, vaatimukset ja poistot   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefaktityypit, ensisijaiset ominaisuuskategoriat, tunnisteet, repositorion laajuus |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Luojan tunnustaminen, PR:ien etusijajärjestys ja Git-identiteettikäytäntö                 |

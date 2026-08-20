@@ -98,14 +98,14 @@ popularity:
 
 ## বৈধতা যাচাইকরণ কমান্ড এবং প্রাপ্যতা
 
-npm CLI `@diegosouza.pw/dsh-plugins@0.1.0` হিসেবে প্রকাশিত, তাই নিচের কমান্ডগুলি আজ `npx`-এর মাধ্যমে উপলব্ধ। এগুলি ঠিক যেভাবে লেখা আছে সেভাবে ব্যবহার করুন; অবদানকারীদের বিকল্প কমান্ড উদ্ভাবন করা উচিত নয়।
+npm CLI `omni-dsh-plugins@1.0.0` হিসেবে প্রকাশিত, তাই নিচের কমান্ডগুলি আজ `npx`-এর মাধ্যমে উপলব্ধ। এগুলি ঠিক যেভাবে লেখা আছে সেভাবে ব্যবহার করুন; অবদানকারীদের বিকল্প কমান্ড উদ্ভাবন করা উচিত নয়।
 
 রিপোজিটরির রুট থেকে এই কমান্ডগুলি চালান:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` উপরে বর্ণিত শুধুমাত্র স্থানীয় YAML, স্কিমা, SPDX, সঠিক SemVer, SHA-512 SRI এবং ডুপ্লিকেট চেকগুলি সম্পাদন করে, এবং ইচ্ছাকৃতভাবে শূন্য-এন্ট্রি ক্যাটালগ গ্রহণ করে। এটি দূরবর্তী রিপোজিটরির পরিচয় বা পিন করা-উৎস প্রমাণ প্রমাণ করে না। অন্যান্য কমান্ডগুলি প্রয়োজনীয় সর্বজনীন ডকুমেন্টেশন এবং স্ট্রাকচার্ড GitHub ইস্যু ফর্ম পরীক্ষা করে। স্থানীয়ভাবে এই কমান্ডগুলি পাস করা প্রমাণের প্রয়োজনীয়তাগুলি শিথিল করে না; মেইনটেইনাররা মার্জ করার আগেও প্রতিটি সংশ্লিষ্ট রিলিজ গেট প্রয়োগ করেন।

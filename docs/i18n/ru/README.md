@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -107,7 +107,7 @@
 | **Сайт**    | Отрисованный обозреватель каталога с поиском и ранжированием      | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Каталог** | Один YAML-файл на плагин — единственный источник истины           | [`catalog/plugins/`](../../catalog/plugins)                              |
 | **Схема**   | Публичная JSON Schema (draft 2020-12), которой соответствует каждая запись | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI**     | Поиск, просмотр, валидация и установка из каталога                | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Поиск, просмотр, валидация и установка из каталога                | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Машинные фиды** | `catalog.json` + `catalog.snapshot.json` для инструментов    | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Этот репозиторий — публичный источник истины для каталога. Каждая запись представляет собой один
@@ -128,15 +128,15 @@ request, по одному за раз, из оригинального репо
 ## 🚀 Установка CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Пакет с областью видимости опубликован как `@diegosouza.pw/dsh-plugins@0.1.0`, и приведённая выше
+Пакет с областью видимости опубликован как `omni-dsh-plugins@1.0.0`, и приведённая выше
 команда — канонический способ вызова на сегодня; никакого установочного скрипта здесь не размещено.
 
 ### Как пользоваться CLI сегодня
 
-Версия 0.1.0 предоставляет команды поиска и валидации только для чтения, а также команды установки
+Версия 1.0.0 предоставляет команды поиска и валидации только для чтения, а также команды установки
 с обязательным подтверждением согласия. Полный справочник команд, включая флаги, коды возврата и
 барьер согласия на выполнение кода, находится в [docs/CLI.md](../../docs/CLI.md).
 
@@ -152,19 +152,19 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Изменяющие команды (`add`, `update`, `remove`) никогда не выполняют код жизненного цикла плагина,
 если вы не передали `--allow-code-execution`. В нативной Windows эти изменения отключены в
-версии 0.1.0 — используйте WSL. Команды только для чтения и пробные прогоны работают везде.
+версии 1.0.0 — используйте WSL. Команды только для чтения и пробные прогоны работают везде.
 
 ## 🔍 Как плагин попадает в каталог
 
@@ -311,7 +311,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)     | Полный контракт участия: доказательства, правила YAML, барьеры проверки |
 | [SECURITY.md](../../SECURITY.md)             | Сообщение об уязвимостях плагинов или каталога; политика секретов     |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)       | Пополевой справочник по `schemas/plugin.schema.yaml`                  |
-| [docs/CLI.md](../../docs/CLI.md)             | Справочник команд CLI для `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)             | Справочник команд CLI для `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | Как управляется каталог: приоритет, барьеры, заявки и удаления      |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | Виды артефактов, основные категории возможностей, теги, область репозитория |
 | [docs/CREDIT.md](../../docs/CREDIT.md)       | Указание создателя, приоритет PR и политика Git-идентичности          |

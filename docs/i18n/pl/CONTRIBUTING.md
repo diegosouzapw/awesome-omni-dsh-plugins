@@ -98,14 +98,14 @@ Pull requesty i commity autorstwa twórcy w naturalny sposób zachowują przypis
 
 ## Polecenia walidacyjne i dostępność
 
-CLI npm jest opublikowane jako `@diegosouza.pw/dsh-plugins@0.1.0`, więc poniższe polecenia są już dziś dostępne przez `npx`. Używaj ich dokładnie tak, jak zapisano; współtwórcy nie powinni wymyślać zastępczych poleceń.
+CLI npm jest opublikowane jako `omni-dsh-plugins@1.0.0`, więc poniższe polecenia są już dziś dostępne przez `npx`. Używaj ich dokładnie tak, jak zapisano; współtwórcy nie powinni wymyślać zastępczych poleceń.
 
 Uruchom te polecenia z katalogu głównego repozytorium:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` wykonuje wyłącznie opisane powyżej lokalne sprawdzenia YAML, schematu, SPDX, dokładnego SemVer, SHA-512 SRI i duplikatów, i akceptuje celowo pusty katalog. Nie dowodzi tożsamości zdalnego repozytorium ani dowodu pochodzenia przypiętego źródła. Pozostałe polecenia sprawdzają wymaganą publiczną dokumentację i ustrukturyzowane formularze issue na GitHubie. Pomyślne przejście tych poleceń lokalnie nie łagodzi wymagań dowodowych; maintainerzy nadal stosują każdą odpowiednią bramkę wydania przed scaleniem.

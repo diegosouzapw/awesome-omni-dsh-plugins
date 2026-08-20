@@ -17,7 +17,7 @@ Skaber-først opdagelse og installation med én kommando til **DeepSeek Harness 
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -107,7 +107,7 @@ validerede.
 | **Hjemmeside** | Renderet katalogbrowser med søgning og rangering                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Én YAML-fil pr. plugin, den eneste kilde til sandhed             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Skema**  | Offentligt JSON Schema (draft 2020-12), som hver post valideres imod | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Søg, inspicér, validér og installér fra kataloget           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Søg, inspicér, validér og installér fra kataloget           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Maskinfeeds** | `catalog.json` + `catalog.snapshot.json` til værktøjer           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Dette repository er den offentlige kilde til sandhed for kataloget. Hver post er én YAML-fil
@@ -128,15 +128,15 @@ kreditering.
 ## 🚀 Installér CLI'en
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Den scopede pakke udgives som `@diegosouza.pw/dsh-plugins@0.1.0`, og kommandoen ovenfor er i dag
+Den scopede pakke udgives som `omni-dsh-plugins@1.0.0`, og kommandoen ovenfor er i dag
 den kanoniske måde at køre den på; der hostes ikke noget installationsscript her.
 
 ### Brug CLI'en i dag
 
-Version 0.1.0 leveres med skrivebeskyttede opdagelses- og valideringskommandoer samt
+Version 1.0.0 leveres med skrivebeskyttede opdagelses- og valideringskommandoer samt
 installationskommandoer, der kræver samtykke. Den fulde kommandoreference, inklusive flag,
 exitkoder og samtykkespærren for kodeudførelse, findes i [docs/CLI.md](../../docs/CLI.md).
 
@@ -152,19 +152,19 @@ exitkoder og samtykkespærren for kodeudførelse, findes i [docs/CLI.md](../../d
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Kommandoer, der ændrer noget (`add`, `update`, `remove`), udfører aldrig plugin-livscykluskode,
 medmindre du angiver `--allow-code-execution`. På native Windows er disse ændringer deaktiveret
-i v0.1.0; brug WSL. Skrivebeskyttede og dry-run-kommandoer virker overalt.
+i v1.0.0; brug WSL. Skrivebeskyttede og dry-run-kommandoer virker overalt.
 
 ## 🔍 Sådan kommer et plugin ind i kataloget
 
@@ -310,7 +310,7 @@ hvis nogen har katalogiseret dit arbejde, før du selv gjorde det.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Den fulde bidragskontrakt: dokumentation, YAML-regler, gennemgangs-gates    |
 | [SECURITY.md](../../SECURITY.md)                   | Rapportering af plugin- eller katalogsårbarheder; hemmelighedspolitik           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Felt-for-felt-reference for `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreference for `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreference for `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hvordan kataloget styres: forrang, gates, krav og fjernelser   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primære kapacitetskategorier, tags, repository-omfang |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaberkreditering, PR-forrang og Git-identitetspolitik                 |

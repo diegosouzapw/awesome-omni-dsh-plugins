@@ -17,7 +17,7 @@ Ugunduzi unaotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ na hazina ya muumba, iliyobandikwa kwenye commit halisi ambayo katalogi ilithibi
 | **Tovuti** | Kivinjari cha katalogi kilichoonyeshwa chenye utafutaji na upangaji                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalogi** | Faili moja la YAML kwa kila programu-jalizi, chanzo kikuu cha ukweli             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | JSON Schema ya umma (rasimu ya 2020-12) ambayo kila kiingilio kinathibitishwa dhidi yake | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Tafuta, kagua, thibitisha na sakinisha kutoka kwa katalogi           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Tafuta, kagua, thibitisha na sakinisha kutoka kwa katalogi           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Malisho ya mashine** | `catalog.json` + `catalog.snapshot.json` kwa zana           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Hazina hii ndiyo chanzo kikuu cha ukweli cha umma kwa katalogi. Kila kiingilio ni faili moja la YAML
@@ -127,15 +127,15 @@ utambuzi wa wazi.
 ## 🚀 Sakinisha CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Kifurushi hiki chenye upeo kinachapishwa kama `@diegosouza.pw/dsh-plugins@0.1.0` na amri iliyo hapo juu ndiyo
+Kifurushi hiki chenye upeo kinachapishwa kama `omni-dsh-plugins@1.0.0` na amri iliyo hapo juu ndiyo
 njia rasmi ya kuita leo; hakuna hati ya usakinishaji inayohifadhiwa hapa.
 
 ### Tumia CLI Leo
 
-Toleo la 0.1.0 linakuja na amri za ugunduzi na uthibitishaji za kusoma tu, pamoja na amri za usakinishaji
+Toleo la 1.0.0 linakuja na amri za ugunduzi na uthibitishaji za kusoma tu, pamoja na amri za usakinishaji
 zinazohitaji idhini. Marejeo kamili ya amri, ikiwa ni pamoja na bendera, misimbo ya kutoka na lango la
 idhini ya utekelezaji wa msimbo, yamo katika [docs/CLI.md](../../docs/CLI.md).
 
@@ -151,19 +151,19 @@ idhini ya utekelezaji wa msimbo, yamo katika [docs/CLI.md](../../docs/CLI.md).
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Amri zinazobadilisha (`add`, `update`, `remove`) kamwe hazitekelezi msimbo wa mzunguko wa maisha wa
 programu-jalizi isipokuwa upitishe `--allow-code-execution`. Kwenye Windows asilia, mabadiliko hayo
-yamezimwa katika v0.1.0; tumia WSL. Amri za kusoma tu na dry-run zinafanya kazi kila mahali.
+yamezimwa katika v1.0.0; tumia WSL. Amri za kusoma tu na dry-run zinafanya kazi kila mahali.
 
 ## 🔍 Jinsi Programu-jalizi Inavyoingia Katalogini
 
@@ -307,7 +307,7 @@ ikiwa mtu mwingine alikataloga kazi yako kabla yako.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Mkataba kamili wa uchangiaji: ushahidi, kanuni za YAML, malango ya ukaguzi    |
 | [SECURITY.md](../../SECURITY.md)                   | Kuripoti udhaifu wa programu-jalizi au katalogi; sera ya siri           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Marejeo ya sehemu-kwa-sehemu ya `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Marejeo ya amri za CLI kwa `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Marejeo ya amri za CLI kwa `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jinsi katalogi inavyotawaliwa: kipaumbele, malango, madai na uondoaji   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Aina za mazao, jamii kuu za uwezo, lebo, wigo wa hazina |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Utambuzi wa muumba, kipaumbele cha PR na sera ya utambulisho wa Git                 |

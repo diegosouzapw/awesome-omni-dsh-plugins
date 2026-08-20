@@ -1,21 +1,21 @@
-# CLI Referencia — `@diegosouza.pw/dsh-plugins@0.1.0`
+# CLI Referencia — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.
 
-Ez az oldal a publikált CLI-t dokumentálja pontosan úgy, ahogyan a `0.1.0` verzióban viselkedik.
+Ez az oldal a publikált CLI-t dokumentálja pontosan úgy, ahogyan a `1.0.0` verzióban viselkedik.
 Minden alábbi szinopszis és flag a publikált parancs saját `--help` kimenetéből származik; semmi
 itt nem ír le meg nem jelent viselkedést. A CLI privát forrásból van karbantartva, és az npm-re
-`@diegosouza.pw/dsh-plugins` scope-olt csomagként kerül kiadásra
-([`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)).
+`omni-dsh-plugins` scope-olt csomagként kerül kiadásra
+([`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins)).
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## Tervezési elvek a v0.1.0-ban
+## Tervezési elvek a v1.0.0-ban
 
 - **Alapértelmezésben csak olvasható.** A `catalog`, `search`, `info`, `list` és `doctor`
   parancsok soha nem módosítanak profilokat, nem írnak fájlokat, és nem indítanak
@@ -25,7 +25,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
   `--allow-code-execution` kapcsolót. Enélkül használd a `--dry-run` kapcsolót az ellenőrzött
   terv megtekintéséhez.
 - **Natív Windows-szabályzat.** A natív Windowson futó `add`/`update`/`remove` kódvégrehajtással
-  le van tiltva a v0.1.0-ban; használj WSL-t. A dry-run és a csak olvasható parancsok
+  le van tiltva a v1.0.0-ban; használj WSL-t. A dry-run és a csak olvasható parancsok
   elérhetők maradnak, és a natív Windows helyreállítási jelzők dokumentált manuális
   helyreállítást igényelnek.
 - **Rögzített bemenetek.** A katalógusbemenet lehet egy helyi könyvtár, egy snapshot-fájl, vagy
@@ -55,7 +55,7 @@ A CLI hagyományos folyamat-kilépési kódokat használ:
 | `0`          | Siker (beleértve az "üres, de érvényes" eredményeket, mint egy üres katalógus) |
 | `1`          | Hiba: validációs hiba, nem található bejegyzés, hiányzó kötelező opció, vagy egy diagnosztikai ellenőrzés hibát jelent |
 
-A v0.1.0-nál megfigyelt példák: a `catalog validate` egy érvényes üres katalóguson `0`-val lép
+A v1.0.0-nál megfigyelt példák: a `catalog validate` egy érvényes üres katalóguson `0`-val lép
 ki, `0 entries valid; catalog is empty` üzenettel; az `info <unknown-id>` `1`-gyel lép ki,
 `Plugin not found` üzenettel; a `doctor` `1`-gyel lép ki, ha bármely ellenőrzés (mint egy
 hiányzó `dsh` futtatható) hibát jelent.
@@ -83,9 +83,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # A repository gyökeréből:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — nyilvános katalógusmezők helyi keresése
@@ -99,8 +99,8 @@ egyező bejegyzéseket, vagy a `No plugins found.` üzenetet (kilépés `0`-val)
 egyezik.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — bővítmények keresése a katalógoson túl
@@ -109,8 +109,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Nincs benne a publikált `0.1.0`-ban.** A `discover` az `1.0.0`-ban jelenik meg; az oldal
-> minden más parancsa az npm-en jelenleg elérhető verzióval működik. Ha a `@0.1.0` ellen
+> **Nincs benne a publikált `1.0.0`-ban.** A `discover` az `1.0.0`-ban jelenik meg; az oldal
+> minden más parancsa az npm-en jelenleg elérhető verzióval működik. Ha a `@1.0.0` ellen
 > futtatod, ismeretlen paranccsal hibázik.
 
 Először a kurált katalógusban keres, majd — hacsak nem adod meg a `--offline` kapcsolót — az
@@ -123,8 +123,8 @@ A `--limit <n>` korlátozza a szintenkénti eredményeket (alapértelmezett `8`)
 stabil gépi formát adja, amely soha nincs lokalizálva.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — egy nyilvános katalógusbejegyzés megjelenítése
@@ -137,7 +137,7 @@ Megjelenít egy nyilvános katalógusbejegyzést a kanonikus bővítmény-ID ala
 `Plugin not found: <id>` üzenettel, ha az ID nincs a katalógusban.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — egy katalógus-bővítmény hozzáadása hivatalos DSH-delegáláson keresztül
@@ -159,10 +159,10 @@ a hivatalos DSH-eszközökre delegál, és csak a `--allow-code-execution` megad
 
 ```bash
 # Csak előnézet — semmi nem íródik, semmi nem fut:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Valódi telepítés — explicit hozzájárulás az életciklus-kódhoz:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — egy katalógus-bővítmény frissítése hivatalos DSH-delegáláson keresztül
