@@ -1,0 +1,57 @@
+# Build and test the CLI on every change that can affect it. The catalog itself is validated by
+# validate-catalog.yml; this job answers the other question — does the client that reads the
+# catalog still work.
+name: cli
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: cli-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  cli:
+    name: cli
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: cli/package-lock.json
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      # The published binary must answer with the version in its own manifest. Running
+      # --version without reading the output is exactly what let a build whose embedded
+      # version literal had drifted reach a release gate unnoticed.
+      - name: The built binary reports its own version
+        run: |
+          set -eu
+          EXPECTED="$(node -p "require('./package.json').version")"
+          REPORTED="$(node dist/bin.js --version)"
+          if [ "$REPORTED" != "$EXPECTED" ]; then
+            echo "Built binary reports $REPORTED but package.json says $EXPECTED" >&2
+            exit 1
+          fi
+          node dist/bin.js --help > /dev/null
