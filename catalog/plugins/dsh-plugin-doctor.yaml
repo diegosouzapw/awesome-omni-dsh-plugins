@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-plugin-doctor
+name: dsh-plugin-doctor
+description:
+  en: "Health checks for DeepSeek Harness: manifest/patch/entry/build/pack/install verification, model-callable plugin check, profile host-shadowing + manifest-BOM detection, environment diagnostics, supply-chain poison preflight, and broken tool-call-sequence detection ( 2334)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - doctor
+  - health-check
+  - cli
+  - security
+  - supply-chain
+  - health
+  - checks
+  - manifest
+  - patch
+  - entry
+  - build
+  - pack
+  - install
+  - verification
+source:
+  repository: https://github.com/zoahdev/dsh-plugin-doctor
+  repositoryNodeId: R_kgDOT48tCw
+  subpath: null
+  commit: 7a8eb59a0fddade56200d1a4c42c4a6311a6e5d2
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:49.771Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
