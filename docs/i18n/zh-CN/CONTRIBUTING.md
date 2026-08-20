@@ -141,3 +141,6 @@ npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
 ## 语言政策
 
 发布文档和目录描述仅提供英文版本。覆盖 43 种语言的推广计划仍是 MVP 之后的待办事项;请勿添加空的语言文档或自动批量翻译。
+
+<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+
