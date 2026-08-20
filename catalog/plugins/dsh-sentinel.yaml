@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: dsh-sentinel
+name: dsh-sentinel
+description:
+  en: "Condition-driven wakeup for DeepSeek Harness: the agent registers a watch, goes to sleep — even closes the session — and the sentinel wakes it when the condition happens. File, process, port and command sensors probe on a shared heartbeat, and every subscription and fire is a visible session event."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - agent
+  - dsh
+source:
+  repository: https://github.com/fuhefei/dsh-sentinel
+  repositoryNodeId: R_kgDOT3XXlQ
+  subpath: null
+  commit: 0a63241ba0370f516fc951e9d32cc94e874190b0
+creator:
+  github: fuhefei
+package:
+  ecosystem: npm
+  name: dsh-sentinel
+  version: 0.11.0
+  integrity: sha512-zscBPaEim4DOnf1qgpoHNPd0ZlyKzDID/k3x7OBMZ5XR4r79XMxWWd+T2P5PbGPhvchpn0/7uU/T/owM/0muQg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:03.986Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
