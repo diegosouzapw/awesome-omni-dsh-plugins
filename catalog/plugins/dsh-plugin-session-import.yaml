@@ -2,11 +2,11 @@ schemaVersion: 1
 id: dsh-plugin-session-import
 name: dsh-plugin-session-import
 description:
-  en: DeepSeek Harness 插件：导入 claude-code / codex / reasonix / zcode 的聊天记录为 dsh 会话（含工作区绑定）。
+  en: "Import chat history from claude-code, codex, reasonix and zcode into DeepSeek Harness as real sessions, workspace binding included, and carry on the conversation. Sessions are discovered with title, project and message count, imported in bulk, and their 25+ tools work like any other session's."
   evidencePath: README.md
 unofficial: true
 kind: plugin
-primaryCategory: coding-developer-tools
+primaryCategory: sessions-productivity
 tags:
   - dsh
   - dsh-plugin
