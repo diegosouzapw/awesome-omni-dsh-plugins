@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: dsh-blender
+name: dsh-blender
+description:
+  en: DeepSeek Harness Blender production, reconstruction, validation, and export plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - blender
+  - 3d-modeling
+  - agent-skill
+  - production
+  - reconstruction
+  - validation
+  - export
+  - dsh
+source:
+  repository: https://github.com/CheshireJCat/blender
+  repositoryNodeId: R_kgDOT4P7PA
+  subpath: null
+  commit: 3d641dae1c84248f213095f322f6beace0631409
+creator:
+  github: CheshireJCat
+package:
+  ecosystem: npm
+  name: dsh-blender
+  version: 0.2.1
+  integrity: sha512-JtgGGWhYYy/F6tVImmFINYDUzAhqD7tr7uRSFf+bwg37I0gqiB4B0r+CthXhmX7yBBBI6YFhlQSFaT2Xw1Gj0g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:29.529Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
