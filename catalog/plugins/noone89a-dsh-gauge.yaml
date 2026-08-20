@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: noone89a-dsh-gauge
+name: dsh-gauge
+description:
+  en: "Accurate cache-hit rate, token usage, and cost estimates for the DeepSeek Harness Web UI: one-decimal hit rate, bucket breakdown, peak/off-peak pricing with auto price-switch, and a session usage panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cache-hit
+  - token-usage
+  - accurate
+  - cache
+  - rate
+  - token
+  - usage
+  - cost
+  - estimates
+  - decimal
+  - bucket
+  - breakdown
+  - peak
+source:
+  repository: https://github.com/noone89A/dsh-gauge
+  repositoryNodeId: R_kgDOT4abKA
+  subpath: null
+  commit: ca176d7658661c91bdea666102a51692fc3d88d6
+creator:
+  github: noone89A
+package:
+  ecosystem: npm
+  name: dsh-gauge
+  version: 0.1.1
+  integrity: sha512-Kd14hSOUxomqnN6LjfJlUtfvMGQPCRGh+hOeKijdkwwkunMYwt8fd2j+k7trhSlxLTKYrl5tOqao6k6avjX+jg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:42.529Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null

@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: timwhitez-candidate-v011-baseline
+name: "@dsh-self-evolving/candidate-v011-baseline"
+description:
+  en: v0.1.1 migration baseline
+  evidencePath: packages/candidate-v011-baseline/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - migration
+  - baseline
+  - dsh
+source:
+  repository: https://github.com/timwhitez/dsh-self-evolving
+  repositoryNodeId: R_kgDOT5BH8A
+  subpath: packages/candidate-v011-baseline
+  commit: 4eb3bb4058dce4330ecbfc2b96e9c2bdabb71677
+creator:
+  github: timwhitez
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/candidate-v011-baseline/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:39:18.043Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null

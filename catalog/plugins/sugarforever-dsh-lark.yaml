@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sugarforever-dsh-lark
+name: "@sugarforever/dsh-lark"
+description:
+  en: Feishu/Lark WebSocket channel plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - feishu
+  - lark
+  - websocket
+  - channel
+  - dsh
+source:
+  repository: https://github.com/sugarforever/dsh-lark
+  repositoryNodeId: R_kgDOT5WU-Q
+  subpath: null
+  commit: ee639df50fc7c004ac4e3ea90fa523a4d366729c
+creator:
+  github: sugarforever
+package:
+  ecosystem: npm
+  name: "@sugarforever/dsh-lark"
+  version: 0.2.2
+  integrity: sha512-jKBEqTd3yRvnEmvmyrFo+B6abKNn/UoAKOZdlMNB6Dkfb/EgTKo/spUxEvqbRahITY7r4ZIGsqe/z2hjFNlc5A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:25.201Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null

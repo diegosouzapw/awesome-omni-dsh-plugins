@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: taekchef-dsh-annotation
+name: "@omdsh-dev/dsh-annotation"
+description:
+  en: "DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the annotation block with your message — the model replies to each annotation by number, with hoverable chips in the reply."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - selection
+  - annotation
+  - select
+  - assistant
+  - text
+  - annotate
+  - optional
+  - press
+  - enter
+  - send
+  - block
+  - message
+  - model
+  - replies
+  - each
+  - number
+source:
+  repository: https://github.com/omdsh-dev/dsh-annotation
+  repositoryNodeId: R_kgDOT0ePZw
+  subpath: null
+  commit: cd356724cb5cab2c1cc3cdb64c50a7ce807bbb84
+creator:
+  github: taekchef
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:03.650Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 79
+provenance:
+  discussion: null
+  comment: null

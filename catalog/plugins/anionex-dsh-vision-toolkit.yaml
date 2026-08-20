@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: anionex-dsh-vision-toolkit
+name: "@anionex/dsh-vision-toolkit"
+description:
+  en: "DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration, pixel diff, Artifacts, and Web UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - agent-vision-toolkit
+  - agent-skills
+  - text-only-llm
+  - vision-language-model
+  - vision-tools
+  - vision-skills
+  - computer-vision
+  - ocr
+  - ui-restoration
+  - screenshot-testing
+  - gui-automation
+  - native
+  - integration
+  - agent
+  - vision
+source:
+  repository: https://github.com/Anionex/dsh-vision-toolkit
+  repositoryNodeId: R_kgDOT3V-Jw
+  subpath: null
+  commit: ebedb91885e56f9fb0ba81de47f3ec58a884eb00
+creator:
+  github: Anionex
+package:
+  ecosystem: npm
+  name: "@anionex/dsh-vision-toolkit"
+  version: 0.1.34
+  integrity: sha512-LdcUJVA1u5WLWhQuAtlfO7eUH4YYGTyfHC6Fp+ojd3NLj/Hq39PmCn7bLq5Tg4WsYCU5bGtyK2N5Ln1a/yXeWA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:35.987Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 750
+provenance:
+  discussion: null
+  comment: null

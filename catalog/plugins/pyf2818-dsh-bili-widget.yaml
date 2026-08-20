@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: pyf2818-dsh-bili-widget
+name: '@dsh-external/dsh-bili-widget'
+description:
+  en: 'Floating bilibili video widget for the DSH web GUI: recommendations, trending, rankings, subscriptions and search with history persistence, autoplay and a mini focus mode.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+- bilibili
+- video
+- floating-window
+- web-ui
+- entertainment
+source:
+  repository: https://github.com/pyf2818/dsh-bili-widget
+  repositoryNodeId: R_kgDOT5Nvmg
+  subpath: null
+  commit: 7d564f5f134389a905b5f39485469d602eee2b4a
+creator:
+  github: pyf2818
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: "2026-08-19T03:44:38.783Z"
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null

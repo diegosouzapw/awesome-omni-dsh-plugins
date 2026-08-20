@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: qjcnmd-reasoning-slider
+name: reasoning-slider
+description:
+  en: Codex-style reasoning-effort slider embedded in the DSH model selector
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - reasoning
+  - slider
+  - codex
+  - style
+  - effort
+  - embedded
+  - model
+  - selector
+source:
+  repository: https://github.com/qjcnmd/dsh-reasoning-slider
+  repositoryNodeId: R_kgDOT4WR2A
+  subpath: null
+  commit: dae619c312a061c1c913279d86a79f5d857baa8c
+creator:
+  github: qjcnmd
+package:
+  ecosystem: npm
+  name: reasoning-slider
+  version: 0.0.3
+  integrity: sha512-Al9zF5bmBWqK33hGnFe9WQBXNQUjlOr/sa8Q4GPscak9Sn0e8fJYvoofdVmINOM2uuBtVkhQuzkPxyxihKoWIw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:04.295Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null

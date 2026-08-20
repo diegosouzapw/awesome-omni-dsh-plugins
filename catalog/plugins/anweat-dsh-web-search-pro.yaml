@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: anweat-dsh-web-search-pro
+name: dsh-web-search-pro
+description:
+  en: Enhanced, persistent web search plugin for DeepSeek Harness — multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS), SQLite+LRU cache, userscript-style extraction, and Playwright rendering.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - web-search
+  - search
+  - enhanced
+  - persistent
+  - multi
+  - engine
+  - routing
+  - bing
+  - jina
+  - youtube
+  - v2ex
+  - twitter
+  - reddit
+  - sqlite
+source:
+  repository: https://github.com/anweat/dsh-web-search-pro
+  repositoryNodeId: R_kgDOT3jZcQ
+  subpath: null
+  commit: f8f388c75d11a5fbee673a4ab010c166098a989b
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: dsh-web-search-pro
+  version: 0.1.2
+  integrity: sha512-fBY6ObydoWrB6LVsPt7AwBd9I4S1WYpdOcXyUAUBFs+23weSeFAk8G1Yt6ybyu/j7p8no74m6HQauoiJRLWmqw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:10.396Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 26
+provenance:
+  discussion: null
+  comment: null

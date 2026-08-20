@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: perrylink-dsh-doublecheck
+name: dsh-doublecheck
+description:
+  en: "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - engineering-discipline
+  - requirements
+  - guard
+  - skill
+  - quality-gate
+  - delivery-gate
+  - delivery
+  - quality
+  - gate
+  - grill
+  - test
+  - implementation
+  - prove
+source:
+  repository: https://github.com/PerryLink/dsh-doublecheck
+  repositoryNodeId: R_kgDOT397Fg
+  subpath: null
+  commit: ef7870e78f5fac3e0004086371e3e5be21e7e6b0
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-doublecheck
+  version: 0.7.1
+  integrity: sha512-pYGXU3gF0iohvOdRDIKOM51J/hSLh+Qt3EYMGQGXx0TviDSKxNiMIvD5K91YVXi/wEMSn0q0FbQxIKg9Gf4H5g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:43.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null

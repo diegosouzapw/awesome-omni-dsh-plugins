@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: acidgr-dsh-web-lan-access
+name: dsh-web-lan-access
+description:
+  en: "LAN / remote access support for the DeepSeek Harness Web UI: self-contained 0.0.0.0 binding + crypto.randomUUID polyfill on plain-HTTP origins."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - lan
+  - remote-access
+  - polyfill
+  - remote
+  - access
+  - self
+  - contained
+  - binding
+  - crypto
+  - randomuuid
+  - plain
+  - origins
+source:
+  repository: https://github.com/AcidGr/dsh-web-lan-access
+  repositoryNodeId: R_kgDOT4ceuA
+  subpath: null
+  commit: e27e909f2f079d2213c13823f56fe9ade4726f80
+creator:
+  github: AcidGr
+package:
+  ecosystem: npm
+  name: dsh-web-lan-access
+  version: 1.1.0
+  integrity: sha512-sX1cedrKDpXmh2k1E15aOz4Pm3c1kSE8nEr3jwLtAhGHAxAwkfp82zERxSvVUqOJqkFaAD8qRbiNzz3YIytjCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:32.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null

@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yyyyukari-dsh-plugin-workshop
+name: "@dsh-external/dsh-plugin-workshop"
+description:
+  en: "Steam Workshop-style plugin browser for the DeepSeek Harness (DSH) web UI: search, hot/newest/trending windows, Chinese keyword mapping, bilingual description & README translation, plugin-signature filtering, one-click install/update/uninstall, and an installed-plugins manager."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - steam
+  - workshop
+  - style
+  - browser
+  - search
+  - newest
+  - trending
+  - windows
+  - chinese
+  - keyword
+  - mapping
+  - bilingual
+  - description
+  - translation
+  - signature
+  - filtering
+source:
+  repository: https://github.com/yyyyukari/dsh-plugin-workshop
+  repositoryNodeId: R_kgDOT3_bsQ
+  subpath: null
+  commit: f53a7e466948a6c5636f2079b2382976a1eea4c8
+creator:
+  github: yyyyukari
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:13.421Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null

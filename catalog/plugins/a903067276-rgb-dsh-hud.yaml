@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-hud
+name: dsh-hud
+description:
+  en: "A HUD status panel for DSH web: git status, MCP servers, skills, model and token usage in a floating side panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - hud
+  - git
+  - git-status
+  - mcp
+  - web-ui
+  - status
+  - panel
+  - servers
+  - skills
+  - model
+  - token
+  - usage
+  - floating
+  - side
+source:
+  repository: https://github.com/a903067276-rgb/dsh-hud
+  repositoryNodeId: R_kgDOT4GnHg
+  subpath: null
+  commit: c1ae452f7ffeff6122a0897ad71a813b1a9897b1
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:16.341Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null

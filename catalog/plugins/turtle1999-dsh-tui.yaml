@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: turtle1999-dsh-tui
+name: '@deepseek-ai/dsh-tui'
+description:
+  en: 'Interactive pi-tui terminal front door for DeepSeek Harness agents: session picker, streaming chat view and keyboard-first controls.'
+  evidencePath: README.md
+unofficial: true
+kind: client-interface
+primaryCategory: user-interface-dashboards
+tags:
+- tui
+- terminal
+- chat-client
+- pi-tui
+source:
+  repository: https://github.com/turtle1999/turtle-ui
+  repositoryNodeId: R_kgDOT1JF8Q
+  subpath: null
+  commit: b08ed69e4c4edbd0dcaba556fa7b5ea6cd0f91e2
+creator:
+  github: turtle1999
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: "2026-08-19T03:42:52.261Z"
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

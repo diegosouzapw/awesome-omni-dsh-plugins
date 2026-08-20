@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: perrylink-dsh-checkpoint-rewind
+name: dsh-checkpoint-rewind
+description:
+  en: "Unified DSH checkpoints: session + workspace + config three-state snapshots with one-shot rollback — /checkpoint and /rewind commands, a checkpoint tool, automatic interval snapshots, a Settings page timeline with pairwise diffs, and seed-replay session rollback via the official sessions.create API"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - rewind
+  - checkpoint
+  - snapshot
+  - session-replay
+  - session-fork
+  - config-restore
+  - workspace-safety
+  - undo
+  - cordis-plugin
+  - unified
+  - checkpoints
+  - session
+  - workspace
+source:
+  repository: https://github.com/PerryLink/dsh-checkpoint-rewind
+  repositoryNodeId: R_kgDOT3vfIw
+  subpath: null
+  commit: f070f47a2f2171ebaf5ed33672a3c230256d6e4e
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-checkpoint-rewind
+  version: 0.5.2
+  integrity: sha512-qm0HP5ZFhjhd4oN2bcounkU8h7X9dTRC9krwLjcuPL0s5tXQYdR1o9OKGeChJ/eXB4KRKJgw8VbQpu7/m0S3qQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:46.451Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null

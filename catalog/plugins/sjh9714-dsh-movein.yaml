@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sjh9714-dsh-movein
+name: dsh-movein
+description:
+  en: "A setup migration tool for DeepSeek Harness: moves a Claude Code or Codex configuration over in one command, converting skills, slash commands, subagents, MCP servers, hooks and permission rules, with a dry run by default, a movein_from_claude_code tool, a doctor check and a reverse mode."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - claude-code
+  - migration
+  - mcp
+  - skills
+  - migrate
+  - whole
+  - claude
+  - code
+  - codex
+  - setup
+  - command
+  - import
+  - slash
+source:
+  repository: https://github.com/sjh9714/dsh-movein
+  repositoryNodeId: R_kgDOT469Vg
+  subpath: null
+  commit: d305b89a08b8ed0901aac398bb1abfdc374055c3
+creator:
+  github: sjh9714
+package:
+  ecosystem: npm
+  name: dsh-movein
+  version: 0.6.0
+  integrity: sha512-X4ZnCRG+kkUagzB6I4stRiqLt7i2UWCLNrcaZ8dFwXq8xgsNfwRv5MOA3CuIlgUxXW5RQlNB6U7Q/rWdwPiOfw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:57.629Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null

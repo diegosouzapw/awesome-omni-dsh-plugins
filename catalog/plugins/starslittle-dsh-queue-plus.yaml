@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: starslittle-dsh-queue-plus
+name: dsh-queue-plus
+description:
+  en: A calm, unified prompt queue for DeepSeek Harness with smart expansion, persistent confirmations, editing, steering, accessible reordering, and official queue removal.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - queue
+  - prompt-queue
+  - calm
+  - unified
+  - prompt
+  - smart
+  - expansion
+  - persistent
+  - confirmations
+  - editing
+  - steering
+  - accessible
+  - reordering
+source:
+  repository: https://github.com/starslittle/dsh-queue-plus
+  repositoryNodeId: R_kgDOT4rBjw
+  subpath: null
+  commit: ed6448d4828d5fd5c3933dc3c1e08340b9fbc2f9
+creator:
+  github: starslittle
+package:
+  ecosystem: npm
+  name: dsh-queue-plus
+  version: 0.3.0
+  integrity: sha512-Jjlj6OZsArO5JEpQW0B9inMXtMT0DRE77TCLOwHpdqp31IvkP7uT+75MqGpNwQ3RaVkTJgz6pQ0Uivw8QfsMYQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:59.023Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null

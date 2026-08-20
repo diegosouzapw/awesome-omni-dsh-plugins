@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: featherhunter-dsh-opencode-palette
+name: dsh-opencode-palette
+description:
+  en: "Brings the opencode colour schemes to the DeepSeek Harness web UI: all 34 themes (33 built in plus `system`), delivered through the official DSH bundle mechanism — the package ships its own cordis.patch.yml, so `dsh plugin add` and `dsh plugin remove` wire and unwire the theme with no file editing."
+  evidencePath: README.md
+unofficial: true
+kind: skin-theme
+primaryCategory: entertainment-customization
+tags:
+  - opencode
+  - system
+  - json
+  - dsh
+source:
+  repository: https://github.com/FeatherHunter/dsh-opencode-palette
+  repositoryNodeId: R_kgDOT5Qmlw
+  subpath: null
+  commit: 5aeadca70606ceb38f94080694e0c9fe47d4b10f
+creator:
+  github: FeatherHunter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:10:56.817Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
