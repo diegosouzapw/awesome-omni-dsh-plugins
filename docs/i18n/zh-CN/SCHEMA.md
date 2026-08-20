@@ -216,3 +216,6 @@ source 描述符刻意不存储其他任何内容:仓库、提交和子路径均
 是否在固定提交处存在、星标数是否准确,或创作者是否拥有该来源的所有权。这些检查属于
 [CONTRIBUTING.md](../../CONTRIBUTING.md) 和 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) 中所述的
 维护者审查门禁。
+
+<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+
