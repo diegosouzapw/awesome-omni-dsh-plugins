@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: dsh-opencode-zen
+name: dsh-opencode-zen
+description:
+  en: "OpenCode Zen free-tier models for DeepSeek Harness: zero-config public-key provider with quota-aware pacing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - opencode
+  - zen
+  - free
+  - llm
+  - provider
+  - tier
+  - models
+  - zero
+  - config
+  - public
+  - quota
+  - aware
+  - pacing
+source:
+  repository: https://github.com/xiaozhe7772222/dsh-opencode-zen
+  repositoryNodeId: R_kgDOT6cL2A
+  subpath: null
+  commit: e569f42e2ef245fe1edf779af6caab2280ce5add
+creator:
+  github: xiaozhe7772222
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:48.206Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
