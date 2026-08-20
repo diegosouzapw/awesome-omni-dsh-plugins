@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dsh-web-mobile-fix
+name: dsh-web-mobile-fix
+description:
+  en: "Mobile layout fixes for the DeepSeek Harness Web UI: settings panel, popups, sidebar, and session header on narrow (≤700px) screens. Pure client-side CSS overlay."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mobile
+  - web-ui
+  - css
+  - layout
+  - fixes
+  - settings
+  - panel
+  - popups
+  - sidebar
+  - session
+  - header
+  - narrow
+  - 700px
+source:
+  repository: https://github.com/AcidGr/dsh-web-mobile-fix
+  repositoryNodeId: R_kgDOT4cekg
+  subpath: null
+  commit: 015d905b5f9196b5d442878e5682d8aaa598aa3f
+creator:
+  github: AcidGr
+package:
+  ecosystem: npm
+  name: dsh-web-mobile-fix
+  version: 1.0.2
+  integrity: sha512-AQQQDncGw4osPaRIER7AlhY9mWB7qfA+7MNeePWsGM83avhtBg7/kF64Nnf3K34s9+q+YNJQwre/0/tcus7EoQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:52.477Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
