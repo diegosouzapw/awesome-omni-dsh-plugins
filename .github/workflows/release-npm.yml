@@ -109,7 +109,13 @@ jobs:
       # --provenance is possible here and was not in the previous home: attestation requires a
       # public source repository, so moving the CLI beside the catalog is what lets an installer
       # trace this binary back to the commit and workflow run that built it.
+      # --loglevel verbose on purpose: without it npm prints only the final error, and the two
+      # failures that actually happen here are indistinguishable from it. A rejected OIDC
+      # exchange ("package not found" on /-/npm/v1/oidc/token/exchange) means no trusted
+      # publisher matches this repository and workflow; a 404 on the PUT afterwards means a
+      # credential was issued but may not write this package. A release that fails opaquely
+      # costs a round trip through a web UI nobody can read from here.
       - name: Publish
         run: |
           set -eu
-          npm publish "./$(cat /tmp/tarball-name)" --access public --provenance
+          npm publish "./$(cat /tmp/tarball-name)" --access public --provenance --loglevel verbose
