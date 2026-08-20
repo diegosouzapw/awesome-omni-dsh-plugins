@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: ysr666-dsh-vision-router
+name: dsh-vision-router
+description:
+  en: "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - vision
+  - vision-tools
+  - multimodal
+  - openrouter
+  - image
+  - ocr
+  - screenshot
+  - eyes
+  - text
+  - only
+  - agents
+  - built
+  - free
+  - chain
+source:
+  repository: https://github.com/ysr666/dsh-vision-router
+  repositoryNodeId: R_kgDOT3rG5g
+  subpath: null
+  commit: b8620bc65047aaba315a3cb39ebc44e0e78e58a3
+creator:
+  github: ysr666
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:25:48.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 843
+provenance:
+  discussion: null
+  comment: null

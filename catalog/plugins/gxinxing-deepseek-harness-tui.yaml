@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: gxinxing-deepseek-harness-tui
+name: deepseek-harness-tui
+description:
+  en: 'Interactive terminal chat TUI for DeepSeek Harness: a full-screen curses-style client for driving dsh sessions from the terminal.'
+  evidencePath: README.md
+unofficial: true
+kind: client-interface
+primaryCategory: user-interface-dashboards
+tags:
+- tui
+- terminal
+- chat-client
+- headless
+source:
+  repository: https://github.com/gxinxing/deepseek-harness-tui
+  repositoryNodeId: R_kgDOT3iQng
+  subpath: null
+  commit: 0c251a26a3228ffc6d4195f9dd31db45ddbc557f
+creator:
+  github: gxinxing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: "2026-08-19T03:42:45.768Z"
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

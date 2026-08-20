@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: oil-oil-dsh-vision
+name: "@oil-oil/dsh-vision"
+description:
+  en: Near-native image understanding for text-only DeepSeek Harness models
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - multimodal
+  - image-understanding
+  - near
+  - native
+  - image
+  - understanding
+  - text
+  - only
+  - models
+  - dsh
+source:
+  repository: https://github.com/oil-oil/dsh-vision
+  repositoryNodeId: R_kgDOT39-NA
+  subpath: null
+  commit: 9446a41dc96bd9fc96a7cc3b3a11365e125c9bd7
+creator:
+  github: oil-oil
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:06.536Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 70
+provenance:
+  discussion: null
+  comment: null

@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: literaf-dsh-ai4scholar
+name: dsh-ai4scholar
+description:
+  en: "AI4Scholar for DeepSeek Harness (dsh): 38 native academic tools — Semantic Scholar, PubMed, Google Scholar, arXiv, bioRxiv/medRxiv, DOI resolution, PDF full text, auto-cite, scientific figures, credit balance — with an API-key card in the Web UI settings. Powered by ai4scholar.net."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - ai4scholar
+  - academic
+  - literature
+  - paper-search
+  - semantic-scholar
+  - pubmed
+  - google-scholar
+  - arxiv
+  - biorxiv
+  - medrxiv
+  - doi
+  - auto-cite
+  - scientific-figures
+source:
+  repository: https://github.com/literaf/dsh-ai4scholar
+  repositoryNodeId: R_kgDOT5zjkw
+  subpath: null
+  commit: 500e49d004715908122b76fef90e1db05db7c7f4
+creator:
+  github: literaf
+package:
+  ecosystem: npm
+  name: dsh-ai4scholar
+  version: 0.3.3
+  integrity: sha512-HEIBBCi2S8uf13gFN4PLbeyDS1JZPDZn51BPVOlVXCLgCrITfYPxx/o03DDg77hXE9TL/Xwzzr9pq76f6m7NEg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:21.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null

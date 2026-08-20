@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: welsione-dsh-mmx-bridge
+name: dsh-mmx-bridge
+description:
+  en: MiniMax multimodal bridge for DeepSeek Harness (DSH). One mmx bridge tool covers describe/image/video/speech/music/cover/search/quota; optional web search/read image takeover; built-in client enhancement renders inline players/previews plus a settings-page management card in the Web GUI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - minimax
+  - mmx-cli
+  - multimodal
+  - ai-agent
+  - bridge
+  - tool
+  - covers
+  - describe
+  - image
+  - video
+  - speech
+  - music
+  - cover
+  - search
+source:
+  repository: https://github.com/welsione/dsh-mmx-bridge
+  repositoryNodeId: R_kgDOT4L_7w
+  subpath: null
+  commit: bab6c71fb3abbf8963cb68f087323aa033821599
+creator:
+  github: welsione
+package:
+  ecosystem: npm
+  name: dsh-mmx-bridge
+  version: 1.0.6
+  integrity: sha512-dwdk9D99MptFoCDUasROWso3Q84a7qm3dO8CSONlpENzF2+284N88Hk5VUBJ2QQJlqbutH/0SRB2uyw6oKPWGg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:25.691Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null

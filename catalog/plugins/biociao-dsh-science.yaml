@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: biociao-dsh-science
+name: dsh-science
+description:
+  en: "Claude Science-style research workbench for DeepSeek Harness: ReAct research-loop engine (research tools), versioned artifacts with provenance (artifact tools), SSH remote-compute engine for long bioinformatics jobs on workstations/HPC (remote tools), and 11 science skills for genomics / pathogens / bioinformatics. Shi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - science
+  - research
+  - react-loop
+  - artifact
+  - provenance
+  - reproducibility
+  - genomics
+  - pathogen
+  - bioinformatics
+  - remote-compute
+  - ssh
+  - hpc
+  - slurm
+  - claude
+source:
+  repository: https://github.com/biociao/dsh-science
+  repositoryNodeId: R_kgDOT382Zw
+  subpath: null
+  commit: 23767ab2f8d7bcf84a0820daa4c6ae79549da000
+creator:
+  github: biociao
+package:
+  ecosystem: npm
+  name: dsh-science
+  version: 0.2.0
+  integrity: sha512-7On5CDZKd2Jwm4hpbPwpeI0beSNJdpK1tAuWFzUs4vTlP4reSNHgz6kbwnO7b0Za3Q1Jm7Qzb51h9HORq0PDLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:26:35.207Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null

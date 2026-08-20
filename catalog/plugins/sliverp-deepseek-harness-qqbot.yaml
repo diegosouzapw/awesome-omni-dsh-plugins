@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sliverp-deepseek-harness-qqbot
+name: deepseek-harness-qqbot
+description:
+  en: QQ Bot channel bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - qqbot
+  - cordis
+  - channel
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/sliverp/DeepSeek-harness-qqbot
+  repositoryNodeId: R_kgDOT3jZHA
+  subpath: null
+  commit: 691af8ca2ffc9a1d67784d49744565b08d936f5e
+creator:
+  github: sliverp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:59.831Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null

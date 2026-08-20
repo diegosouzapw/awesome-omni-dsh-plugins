@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: heartmove-dsh-side-chat
+name: dsh-side-chat
+description:
+  en: "侧边聊天 (Side chat) — DSH web plugin: select text in a conversation and ask it in a per-session side chat (hidden ordinary session, own right-side panel, inherits model/effort/permissions, lookup toggle)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - side
+  - chat
+  - select
+  - text
+  - conversation
+  - session
+  - hidden
+  - ordinary
+  - right
+  - panel
+  - inherits
+  - model
+  - effort
+  - permissions
+  - lookup
+  - toggle
+source:
+  repository: https://github.com/heartmove/dsh-side-chat
+  repositoryNodeId: R_kgDOT4GG6A
+  subpath: null
+  commit: 9dda48d72d3b51589096e8b130d3dd83740531f7
+creator:
+  github: heartmove
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:19.407Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null

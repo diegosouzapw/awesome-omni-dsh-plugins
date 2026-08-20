@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jesse-chatnode-wechat
+name: "@dsh-cowork/chatnode-wechat"
+description:
+  en: Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - wechat
+  - weixin
+  - ilink
+  - conversation-node
+  - chat
+  - monitor
+  - approve
+  - agents
+  - gateway
+  - conversation
+  - node
+  - bundle
+source:
+  repository: https://github.com/Jesse-njx/dsh-chatnode-wechat
+  repositoryNodeId: R_kgDOT3khgw
+  subpath: null
+  commit: a724da34b5c78a9b9ab4a5de79f5d2a05fac1745
+creator:
+  github: jesse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:11:19.618Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null

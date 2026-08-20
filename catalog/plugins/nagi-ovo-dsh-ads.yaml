@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: nagi-ovo-dsh-ads
+name: "@dsh-external/dsh-ads"
+description:
+  en: "DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a jackpot wheel, rewarded inference ads, and fake-game animation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - infestation
+  - localized
+  - chinese
+  - portal
+  - english
+  - scam
+  - parody
+  - fake
+  - jackpot
+  - wheel
+  - rewarded
+  - inference
+  - game
+  - animation
+  - dsh
+source:
+  repository: https://github.com/Nagi-ovo/dsh-ads
+  repositoryNodeId: R_kgDOTzipNQ
+  subpath: null
+  commit: 3a2ba704bc383099c686d3288ff6e0d61fc391e5
+creator:
+  github: Nagi-ovo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:28:37.419Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 511
+provenance:
+  discussion: null
+  comment: null

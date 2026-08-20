@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: anionex-dsh-computer-use
+name: "@anionex/dsh-computer-use"
+description:
+  en: Accessibility-first macOS Computer Use capability for DeepSeek Harness with stale-observation protection, app leases, confirmations, screenshots, and Web diagnostics
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - computer-use
+  - macos
+  - accessibility
+  - desktop-automation
+  - first
+  - computer
+  - capability
+  - stale
+  - observation
+  - protection
+  - leases
+  - confirmations
+  - screenshots
+  - diagnostics
+  - dsh
+source:
+  repository: https://github.com/Anionex/dsh-computer-use
+  repositoryNodeId: R_kgDOT3W-ow
+  subpath: null
+  commit: 76bfe8607f61945c1cbb84e73976e601100c13a2
+creator:
+  github: Anionex
+package:
+  ecosystem: npm
+  name: "@anionex/dsh-computer-use"
+  version: 0.1.0
+  integrity: sha512-3Fm5ZKGbPD3HoWS145IsSWzuLl8CqbPwHOHTRgzbVPnJHb7TZIx1wAezU8J5TdciZFas6nwEVAx3L5Q59dt21Q==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:09:36.062Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null

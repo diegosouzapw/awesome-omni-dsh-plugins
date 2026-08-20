@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 2768651338-dsh-effort-slider
+name: dsh-effort-slider
+description:
+  en: "A Claude Code-style reasoning-effort slider for DeepSeek Harness: click Effort in the model menu for a panel with an OFF/MAX scale, stepless dragging that snaps on release, and Low/Medium/High/Ultracode shown live. Any third-party model or provider gets working thinking-effort control."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - claude
+  - code
+  - webgl
+  - medium
+  - high
+  - ultracode
+  - dsh
+source:
+  repository: https://github.com/2768651338/dsh-effort-slider
+  repositoryNodeId: R_kgDOT54uWA
+  subpath: null
+  commit: b95d997a787ddfc2dfe05e167f59229ccd8bafb2
+creator:
+  github: "2768651338"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:51.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null

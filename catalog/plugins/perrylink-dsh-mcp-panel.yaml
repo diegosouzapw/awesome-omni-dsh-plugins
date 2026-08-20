@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: perrylink-dsh-mcp-panel
+name: dsh-mcp-panel
+description:
+  en: "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (append-only profile-patch fragments, approval-gated writes with automatic backups), a tool trial console over the official tool pipeline, connection st"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - mcp
+  - mcp-client
+  - mcp-console
+  - management
+  - observability
+  - panel
+  - console
+  - official
+  - client
+  - command
+  - health
+  - diagnostics
+source:
+  repository: https://github.com/PerryLink/dsh-mcp-panel
+  repositoryNodeId: R_kgDOT3-v7A
+  subpath: null
+  commit: 2d5f84ff46031914f5d7ce2d47fc8b909da347b9
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-mcp-panel
+  version: 0.4.1
+  integrity: sha512-IsHwXoWbjaWEVsQQjOjcTqky3p9CLMwd9+qQprI/vkie9Xiua+EwauSwoHcBMg4xvX3i3DkrN77nQRCOVzkGWA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:27:25.004Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null

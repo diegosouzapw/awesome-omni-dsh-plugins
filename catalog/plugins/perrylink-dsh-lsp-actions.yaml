@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: perrylink-dsh-lsp-actions
+name: dsh-lsp-actions
+description:
+  en: "LSP action surface for DeepSeek Harness: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over language servers, plus the editor action protocol (lsp.actions. ) that makes the plugin the IDE integration backend"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - lsp
+  - language-server
+  - diagnostics
+  - formatting
+  - completion
+  - code-action
+  - symbols
+  - signature-help
+  - inlay-hints
+  - rename
+  - refactor
+  - ide
+  - editor
+source:
+  repository: https://github.com/PerryLink/dsh-lsp-actions
+  repositoryNodeId: R_kgDOT3v_gQ
+  subpath: null
+  commit: 07bbcc07e9b02e6a3dde1ec41833c02e0f75dd64
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-lsp-actions
+  version: 0.3.1
+  integrity: sha512-NxP8tmzbP7uSDZ6Kn2plJ8xezq5GuJPX6WKwFWB7Ed6NuMToFQxcoHmRijA/djz6we2uvAU3PfWs6rV+IcvWNg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:45.639Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null

@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dfkai-dsh-board
+name: dsh-board
+description:
+  en: "dsh client bundle: a sidebar usage & cost dashboard — token stats, peak/off-peak aware per-model pricing, membership ladder, achievements and a daily heatmap."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - dashboard
+  - usage
+  - cost
+  - billing
+  - pricing
+  - tokens
+  - sidebar
+  - ui
+  - client
+  - bundle
+  - token
+  - stats
+  - peak
+source:
+  repository: https://github.com/dfkai/dsh-board
+  repositoryNodeId: R_kgDOT485gg
+  subpath: null
+  commit: 8f5b96279e3cb776a62e098be1c89de360a9d938
+creator:
+  github: dfkai
+package:
+  ecosystem: npm
+  name: dsh-board
+  version: 0.2.6
+  integrity: sha512-HCpqLoHiPw6m/026wAThgvNygzYGoOsCZYSci/gFLO16/Vc7OBZi/SX0OdlOPLDLcJUj+chGb/Z4xGW9j2qgfw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T19:28:10.624Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null

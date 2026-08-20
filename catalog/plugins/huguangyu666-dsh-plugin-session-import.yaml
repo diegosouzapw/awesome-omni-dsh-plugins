@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: huguangyu666-dsh-plugin-session-import
+name: dsh-plugin-session-import
+description:
+  en: "Import chat history from claude-code, codex, reasonix and zcode into DeepSeek Harness as real sessions, workspace binding included, and carry on the conversation. Sessions are discovered with title, project and message count, imported in bulk, and their 25+ tools work like any other session's."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - session
+  - import
+  - claude-code
+  - codex
+  - reasonix
+  - zcode
+  - claude
+  - code
+source:
+  repository: https://github.com/huguangyu666/dsh-plugin-session-import
+  repositoryNodeId: R_kgDOT3zPiA
+  subpath: null
+  commit: 13139abe5820ea07bf5a89cef36801ee17987aa0
+creator:
+  github: huguangyu666
+package:
+  ecosystem: npm
+  name: dsh-plugin-session-import
+  version: 0.1.1
+  integrity: sha512-ZCRx2Ml9dNh1prj6BAK1Be9BdJosPtEh27jqsxMQdVWU9dg8XcDOY0II0/tyoxZkd3Tz+DN5S78xObTGWYdQWg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:55.244Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null

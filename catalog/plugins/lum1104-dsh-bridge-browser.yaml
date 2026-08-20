@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lum1104-dsh-bridge-browser
+name: '@yuxianglin/dsh-bridge-browser'
+description:
+  en: 'Browser bridge for DeepSeek Harness: a token-authenticated WebSocket carrier for the companion extension plus text-only tools that let the agent drive the user''s Chrome.'
+  evidencePath: packages/browser/bridge-browser/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+- browser
+- chrome-extension
+- websocket
+- automation
+- tools
+source:
+  repository: https://github.com/Lum1104/dsh-browser
+  repositoryNodeId: R_kgDOTvnWAw
+  subpath: packages/browser/bridge-browser
+  commit: 02758b13893980fdf334aea320d20e0a5fd730ff
+creator:
+  github: Lum1104
+package:
+  ecosystem: source
+dsh:
+  profiles:
+  - web
+  evidencePath: packages/browser/bridge-browser/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: "2026-08-19T03:47:34.929Z"
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
