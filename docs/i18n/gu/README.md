@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">વેબસાઇટ પર દરેક પ્લગિન બ્રાઉઝ, સર્ચ અને ઇન્સ્ટોલ કરો →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -27,48 +27,48 @@
 <b>🌐 43 ભાષાઓમાં</b>
 <br/><br/>
 <a href="../../README.md"><img src="../../docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
-<a href="../pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
-<a href="../zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
-<a href="../zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
-<a href="../pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
-<a href="../es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
-<a href="../fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
-<a href="../it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
-<a href="../de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
-<a href="../nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
-<a href="../ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
-<a href="../uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
-<a href="../pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
-<a href="../cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
-<a href="../sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
-<a href="../ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
-<a href="../hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
-<a href="../bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
-<a href="../da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
-<a href="../fi/README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
-<a href="../no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
-<a href="../sv/README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
-<a href="../ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
-<a href="../ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
-<a href="../th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
-<a href="../vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
-<a href="../id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
-<a href="../ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
-<a href="../phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
-<a href="../in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
-<a href="../hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
-<a href="README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
-<a href="../mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
-<a href="../ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
-<a href="../te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
-<a href="../bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
-<a href="../ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
-<a href="../fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
-<a href="../ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
-<a href="../he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
-<a href="../tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
-<a href="../az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
-<a href="../sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
+<a href="../../docs/i18n/pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
+<a href="../../docs/i18n/zh-CN/README.md"><img src="../../docs/assets/flags/cn.svg" width="30" alt="中文 — 简体 (zh-CN)" title="中文 — 简体 (zh-CN)"></a>
+<a href="../../docs/i18n/zh-TW/README.md"><img src="../../docs/assets/flags/tw.svg" width="30" alt="中文 — 繁體 (zh-TW)" title="中文 — 繁體 (zh-TW)"></a>
+<a href="../../docs/i18n/pt/README.md"><img src="../../docs/assets/flags/pt.svg" width="30" alt="Português (pt)" title="Português (pt)"></a>
+<a href="../../docs/i18n/es/README.md"><img src="../../docs/assets/flags/es.svg" width="30" alt="Español (es)" title="Español (es)"></a>
+<a href="../../docs/i18n/fr/README.md"><img src="../../docs/assets/flags/fr.svg" width="30" alt="Français (fr)" title="Français (fr)"></a>
+<a href="../../docs/i18n/it/README.md"><img src="../../docs/assets/flags/it.svg" width="30" alt="Italiano (it)" title="Italiano (it)"></a>
+<a href="../../docs/i18n/de/README.md"><img src="../../docs/assets/flags/de.svg" width="30" alt="Deutsch (de)" title="Deutsch (de)"></a>
+<a href="../../docs/i18n/nl/README.md"><img src="../../docs/assets/flags/nl.svg" width="30" alt="Nederlands (nl)" title="Nederlands (nl)"></a>
+<a href="../../docs/i18n/ru/README.md"><img src="../../docs/assets/flags/ru.svg" width="30" alt="Русский (ru)" title="Русский (ru)"></a>
+<a href="../../docs/i18n/uk-UA/README.md"><img src="../../docs/assets/flags/ua.svg" width="30" alt="Українська (uk-UA)" title="Українська (uk-UA)"></a>
+<a href="../../docs/i18n/pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
+<a href="../../docs/i18n/cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
+<a href="../../docs/i18n/sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
+<a href="../../docs/i18n/ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
+<a href="../../docs/i18n/hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
+<a href="../../docs/i18n/bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
+<a href="../../docs/i18n/da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
+<a href="../../docs/i18n/fi/README.md"><img src="../../docs/assets/flags/fi.svg" width="30" alt="Suomi (fi)" title="Suomi (fi)"></a>
+<a href="../../docs/i18n/no/README.md"><img src="../../docs/assets/flags/no.svg" width="30" alt="Norsk (no)" title="Norsk (no)"></a>
+<a href="../../docs/i18n/sv/README.md"><img src="../../docs/assets/flags/se.svg" width="30" alt="Svenska (sv)" title="Svenska (sv)"></a>
+<a href="../../docs/i18n/ja/README.md"><img src="../../docs/assets/flags/jp.svg" width="30" alt="日本語 (ja)" title="日本語 (ja)"></a>
+<a href="../../docs/i18n/ko/README.md"><img src="../../docs/assets/flags/kr.svg" width="30" alt="한국어 (ko)" title="한국어 (ko)"></a>
+<a href="../../docs/i18n/th/README.md"><img src="../../docs/assets/flags/th.svg" width="30" alt="ไทย (th)" title="ไทย (th)"></a>
+<a href="../../docs/i18n/vi/README.md"><img src="../../docs/assets/flags/vn.svg" width="30" alt="Tiếng Việt (vi)" title="Tiếng Việt (vi)"></a>
+<a href="../../docs/i18n/id/README.md"><img src="../../docs/assets/flags/id.svg" width="30" alt="Bahasa Indonesia (id)" title="Bahasa Indonesia (id)"></a>
+<a href="../../docs/i18n/ms/README.md"><img src="../../docs/assets/flags/my.svg" width="30" alt="Bahasa Melayu (ms)" title="Bahasa Melayu (ms)"></a>
+<a href="../../docs/i18n/phi/README.md"><img src="../../docs/assets/flags/ph.svg" width="30" alt="Filipino (phi)" title="Filipino (phi)"></a>
+<a href="../../docs/i18n/in/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (in)" title="हिन्दी (in)"></a>
+<a href="../../docs/i18n/hi/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="हिन्दी (hi)" title="हिन्दी (hi)"></a>
+<a href="../../docs/i18n/gu/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="ગુજરાતી (gu)" title="ગુજરાતી (gu)"></a>
+<a href="../../docs/i18n/mr/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="मराठी (mr)" title="मराठी (mr)"></a>
+<a href="../../docs/i18n/ta/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="தமிழ் (ta)" title="தமிழ் (ta)"></a>
+<a href="../../docs/i18n/te/README.md"><img src="../../docs/assets/flags/in.svg" width="30" alt="తెలుగు (te)" title="తెలుగు (te)"></a>
+<a href="../../docs/i18n/bn/README.md"><img src="../../docs/assets/flags/bd.svg" width="30" alt="বাংলা (bn)" title="বাংলা (bn)"></a>
+<a href="../../docs/i18n/ur/README.md"><img src="../../docs/assets/flags/pk.svg" width="30" alt="اردو (ur)" title="اردو (ur)"></a>
+<a href="../../docs/i18n/fa/README.md"><img src="../../docs/assets/flags/ir.svg" width="30" alt="فارسی (fa)" title="فارسی (fa)"></a>
+<a href="../../docs/i18n/ar/README.md"><img src="../../docs/assets/flags/sa.svg" width="30" alt="العربية (ar)" title="العربية (ar)"></a>
+<a href="../../docs/i18n/he/README.md"><img src="../../docs/assets/flags/il.svg" width="30" alt="עברית (he)" title="עברית (he)"></a>
+<a href="../../docs/i18n/tr/README.md"><img src="../../docs/assets/flags/tr.svg" width="30" alt="Türkçe (tr)" title="Türkçe (tr)"></a>
+<a href="../../docs/i18n/az/README.md"><img src="../../docs/assets/flags/az.svg" width="30" alt="Azərbaycan (az)" title="Azərbaycan (az)"></a>
+<a href="../../docs/i18n/sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
 
 </div>
 
@@ -82,16 +82,16 @@
 
 | #   | Plugin | Creator | ★ | Category | તે શું કરે છે |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | ઇનલાઇન વિઝ્યુલાઇઝેશન: મોડેલ સેશનની અંદર ઇન્ટરેક્ટિવ ચાર્ટ્સ અને ડાયાગ્રામ્સ રેન્ડર કરે છે |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | DSH વેબ GUI માટે હોટ-પ્લગેબલ પારદર્શક ડેસ્કટોપ પેટ (Remielle, Zenless Zone Zero) |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | એનિમેટેડ વ્હેલ-ગર્લ Kanban Musume મેસ્કોટ જે ડેશબોર્ડ પ્રવૃત્તિ પર પ્રતિક્રિયા આપે છે |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | dsh સેશન ચલાવવા માટે ફુલ-સ્ક્રીન curses-શૈલીનું ટર્મિનલ ચેટ ક્લાયન્ટ |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | ઇન્ટરેક્ટિવ pi-tui ટર્મિનલ ફ્રન્ટ ડોર: સેશન પિકર, સ્ટ્રીમિંગ ચેટ, કીબાઇન્ડિંગ્સ |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | મલ્ટિ-કી મેનેજમેન્ટ અને યુસેજ ગેજ સાથે ઓપ્ટ-ઇન Tavily એડવાન્સ્ડ સર્ચ ટૂલ |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | ફ્લોટિંગ bilibili વિડિયો વિજેટ: ભલામણો, ટ્રેન્ડિંગ, રેન્કિંગ્સ અને સર્ચ |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | દેખાવ પ્લગિન: બિલ્ટ-ઇન પેલેટ્સ, લાઇટ/ડાર્ક/સિસ્ટમ મોડ, VS Code થીમ્સ |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Pramanix અને Eyjafjalla દર્શાવતી બિન-વ્યાવસાયિક Arknights એસ્ટ્રલ-ગાર્ડન સ્કિન |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | કમ્પેનિયન બ્રાઉઝર એક્સટેન્શન માટે ટોકન-ઓથેન્ટિકેટેડ WebSocket બ્રિજ |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | ફ્રી Antigravity CLI દ્વારા સંચાલિત, ટેક્સ્ટ-ઓન્લી LLMs માટે પ્લગ-ઇન વિઝન |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH વેબ પ્લગિન: VSCode જેવી જમણી સાઇડબાર (એક્સપ્લોરર / એડિટર / ટર્મિનલ / git / બ્રાઉઝર), દરેક માટે અલગ… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | ટેક્સ્ટ-ઓન્લી DeepSeek Harness એજન્ટ્સ માટે આંખો: બિલ્ટ-ઇન ફ્રી વિઝન ચેઇન (કી વગર) + પિક્સેલ-લેવલ વિઝન ટૂલ્સ… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit માટે DeepSeek Harness-નેટિવ ઇન્ટિગ્રેશન: ઇમેજ Q&A, OCR, ગ્રાઉન્ડિંગ, UI રિસ્ટોરેશન,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH એડ-ઇન્ફેસ્ટેશન પ્લગિન: લોકલાઇઝ્ડ ચાઇનીઝ પોર્ટલ એડ્સ અને અંગ્રેજી સ્કેમ-એડ પેરોડી, નકલી પોપ-અપ્સ સાથે, એક… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness માટે GenUI: dsh-ui દ્વારા આસિસ્ટન્ટના જવાબોમાં ઇનલાઇન રેન્ડર થતા ઇન્ટરેક્ટિવ UI કમ્પોનન્ટ્સ… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ઓફિશિયલ DeepSeek Harness માટે ઇન્ટરેક્ટિવ ટર્મિનલ UI પ્લગિન — સ્ટ્રીમિંગ… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness માટે ઇનલાઇન વિઝ્યુલાઇઝેશન: visualize ટૂલ અને બન્ડલ્ડ સ્કિલ મોડેલને રેન્ડર કરવા દે છે… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness માટે એનિમે સર્ચ પ્લગિન: anime_find_search ટૂલ Mikan, AniBT અને… ને એકત્રિત કરે છે |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH અન્ડુ/રોલબેક સિસ્ટમ: ફેરફાર પર કન્ફિગ ફાઇલોનો સ્નેપશોટ લે છે, WebUI અથવા બીજી રીતે છેલ્લી ક્રિયાને અન્ડુ/રીડુ કરો… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@
 
 ## કેટલોગ સ્ટેટસ
 
-**10 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
+**160 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
 મૂળ ક્રિએટર રિપોઝીટરીમાંથી, પિન કરેલા સોર્સ કમિટ અને સ્પષ્ટ
 એટ્રિબ્યુશન સાથે દાખલ થાય છે.
 
@@ -140,7 +140,7 @@ npx @diegosouza.pw/dsh-plugins --help
 કન્સેન્ટ ગેટ સહિતનો સંપૂર્ણ કમાન્ડ સંદર્ભ [docs/CLI.md](../../docs/CLI.md) માં છે.
 
 | Command                        | તે શું કરે છે                                                        | શું તે તમારી સિસ્ટમને સ્પર્શે છે?                    |
-| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
+| ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
 | `catalog validate --catalog .` | કેટલોગ YAML, સ્કીમા અને લોકલ સિમેન્ટિક્સ વેલિડેટ કરો                   | ના — રીડ-ઓન્લી                          |
 | `search <query...>`            | પબ્લિક કેટલોગ ફિલ્ડ્સ લોકલી સર્ચ કરો                                | ના — રીડ-ઓન્લી                          |
 | `info <id>`                    | એક પબ્લિક કેટલોગ એન્ટ્રી બતાવો                                       | ના — રીડ-ઓન્લી                          |
@@ -167,16 +167,8 @@ WSL. રીડ-ઓન્લી અને ડ્રાય-રન કમાન્�
 
 ## 🔍 એક પ્લગિન કેટલોગમાં કેવી રીતે દાખલ થાય છે
 
-```mermaid
-flowchart LR
-    A["ક્રિએટર રિપોઝીટરી<br/>(પિન કરેલ કમિટ)"] --> B["એક બ્રાન્ચ,<br/>એક PR,<br/>એક YAML એન્ટ્રી"]
-    B --> C["catalog-validation CI<br/>(સ્કીમા + લોકલ સિમેન્ટિક્સ)"]
-    C --> D["મેન્ટેનર ગેટ્સ<br/>(ઓળખ, ક્રિએટર બાઇન્ડિંગ,<br/>પિન કરેલ પુરાવો)"]
-    D --> E["catalog/plugins/*.yaml<br/>મર્જ થયું"]
-    E --> F["વેબસાઇટ"]
-    E --> G["CLI"]
-    E --> H["catalog.json ફીડ્સ"]
-```
+![એક પ્લગિન કેટલોગમાં કેવી રીતે દાખલ થાય છે](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![એક પ્લગિન કેટલોગમાં કેવી રીતે દાખલ થાય છે](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **એક પ્લગિન, એક બ્રાન્ચ, એક પુલ રિક્વેસ્ટ.** PR `catalog/plugins/` હેઠળ બરાબર એક YAML ફાઇલ
    ઉમેરે છે અથવા બદલે છે.
@@ -322,7 +314,7 @@ provenance:
 
 ## 🌐 અનુવાદો
 
-આ README [`docs/i18n/`](..) હેઠળ 43 ભાષાઓમાં ઉપલબ્ધ છે — ઉપર આપેલા ફ્લેગ સિલેક્ટરનો
+આ README [`docs/i18n/`](../../docs/i18n) હેઠળ 43 ભાષાઓમાં ઉપલબ્ધ છે — ઉપર આપેલા ફ્લેગ સિલેક્ટરનો
 ઉપયોગ કરો. અંગ્રેજી સોર્સ ઓફ ટ્રુથ છે; જ્યારે અનુવાદ અને અંગ્રેજી ટેક્સ્ટ વચ્ચે મતભેદ હોય,
 ત્યારે અંગ્રેજી ટેક્સ્ટ લાગુ પડે છે. કોઈ પણ અનુવાદમાં સુધારા સામાન્ય પુલ
 રિક્વેસ્ટ્સ દ્વારા આવકાર્ય છે.
@@ -341,3 +333,5 @@ provenance:
 **[વેબસાઇટ પર બધા પ્લગિન્સ બ્રાઉઝ કરો →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — alkotó-központú katalógus és egyparancsos telepítés a DeepSeek Harness bővítményekhez. Rögzített forrás-commitok, feltüntetett alkotók, bővítményenként egy átvizsgált PR. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — alkotó-központú katalógus és egyparancsos telepítés a DeepSeek Harness bővítményekhez. Rögzített forráscommitok, elismert alkotók, bővítményenként egy átvizsgált PR. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és a DeepSeek nem hagyta jóvá, nem is támogatja.**
-> A DeepSeek nevek és védjegyek a jogos tulajdonosukat illetik.
+> **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
+> A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.
 
 Alkotó-központú felfedezés és egyparancsos telepítés a **DeepSeek Harness (DSH)** bővítményekhez.
 
@@ -13,10 +13,10 @@ Alkotó-központú felfedezés és egyparancsos telepítés a **DeepSeek Harness
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Böngéssz, keress és telepíts bármelyik bővítményt a weboldalon →</a>
+  <a href="https://dsh-plugins.omniroute.online">Böngéssz, keress és telepíts minden bővítményt a weboldalon →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,78 +76,79 @@ Alkotó-központú felfedezés és egyparancsos telepítés a **DeepSeek Harness
 
 ## ⭐ Top 10 bővítmény
 
-A rangsor a pontos repository csillagai alapján készül — csak a bővítmény saját repositoryja
-által szerzett csillagok számítanak, egy szülőprojekté soha ([rangsorolási szabály](../../docs/RANKING.md)).
-Minden név az alkotó repositoryjára mutat, a katalógus által ellenőrzött pontos commitra rögzítve.
+A pontos saját tárhely csillagai szerint rangsorolva — csak a bővítmény saját tárhelye által
+szerzett csillagok számítanak, soha egy szülőprojekté ([rangsorolási szabály](../../docs/RANKING.md)).
+Minden név az alkotó tárhelyére mutat, rögzítve pontosan azon a commiton, amelyet a katalógus
+ellenőrzött.
 
 | #   | Bővítmény | Alkotó | ★ | Kategória | Mit csinál |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Beágyazott vizualizáció: a modell interaktív diagramokat és grafikonokat jelenít meg közvetlenül a munkamenetben |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Menet közben csatlakoztatható, átlátszó asztali kedvenc (Remielle, Zenless Zone Zero) a DSH webes felületéhez |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animált bálnalány Kanban Musume kabala, amely reagál a vezérlőpult aktivitására |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Teljes képernyős, curses-stílusú terminál chatkliens dsh munkamenetek vezérléséhez |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktív pi-tui terminál előtér: munkamenet-választó, streamelt chat, billentyűkombinációk |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Opcionálisan bekapcsolható Tavily fejlett keresőeszköz több kulcs kezelésével és használati mérővel |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Lebegő bilibili videó widget: ajánlások, trendek, ranglisták és keresés |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Megjelenés bővítmény: beépített paletták, világos/sötét/rendszer mód, VS Code témák |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Nem kereskedelmi célú, Arknights ihletésű „asztrálkert” kinézet Pramanix és Eyjafjalla szereplőkkel |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-hitelesítésű WebSocket híd a kísérő böngészőbővítményhez |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Beépülő látás szövegalapú LLM-ekhez, az ingyenes Antigravity CLI-vel működtetve |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH webes bővítmény: egy VSCode-szerű jobb oldali oldalsáv (fájlkezelő / szerkesztő / terminál / git / böngésző), elkülönítve…-nkénti… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Szemek a csak szöveget kezelő DeepSeek Harness ügynököknek: beépített ingyenes látáslánc (kulcs nélkül) + pixelszintű látáseszközök… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-natív integráció az agent-vision-toolkithez: kép-Q&A, OCR, grounding, UI-helyreállítás,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH hirdetésözön-bővítmény: lokalizált kínai portálhirdetések és angol nyelvű átveréshirdetés-paródia, hamis felugró ablakokkal, egy… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI a DeepSeek Harnesshez: interaktív UI-komponensek, amelyek a dsh-ui… segítségével közvetlenül az asszisztens válaszaiba renderelődnek |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: interaktív terminál UI-bővítmény a hivatalos DeepSeek Harnesshez — streamelés… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Beágyazott vizualizáció DeepSeek Harnesshez: egy visualize eszköz és a hozzá csomagolt skill lehetővé teszi, hogy a modell megjelenítsen… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Anime kereső bővítmény a DeepSeek Harnesshez: az anime_find_search eszköz összegyűjti a Mikan, AniBT és… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH visszavonó/visszaállító rendszer: pillanatképet készít a konfigurációs fájlokról módosításkor, visszavonja/megismétli az utolsó műveletet a WebUI-ból vagy… |
 
 <div align="center">
 
-### 👉 [**Keress az összes bővítmény között, olvasd el a részleteket, és másold ki a telepítőparancsot a weboldalon →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Keress rá minden bővítményre, olvasd el a részleteket, és másold ki a telepítési parancsot a weboldalon →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## Röviden
+## Egy pillantásra
 
 | Felület     | Mi ez                                                       | Hol                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Weboldal** | Renderelt katalógusböngésző kereséssel és rangsorral                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-| **Katalógus** | Bővítményenként egy YAML-fájl, az egyetlen hiteles forrás             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **Séma**  | Nyilvános JSON Schema (draft 2020-12), amely alapján minden bejegyzést ellenőriznek | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Keresés, vizsgálat, ellenőrzés és telepítés a katalógusból           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Weboldal** | Renderelt katalógusböngésző kereséssel és rangsorolással                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalógus** | Egy YAML-fájl bővítményenként, az egyetlen hiteles forrás             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Séma**  | Nyilvános JSON Schema (draft 2020-12), amely ellen minden bejegyzés validál | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Keresés, vizsgálat, validálás és telepítés a katalógusból           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
 | **Gépi feedek** | `catalog.json` + `catalog.snapshot.json` eszközök számára           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Ez a repository a katalógus nyilvános hiteles forrása. Minden bejegyzés egy YAML-fájl
-a `catalog/plugins/` alatt, amelyet egy közzétett JSON Schema alapján ellenőriztek, egyedileg
-átvizsgált pull requesten keresztül adtak hozzá, és mindig a bővítmény eredeti alkotójának
-tulajdonítanak. A katalógusban semmi nem másik katalógusból vagy listából származik: minden
-bejegyzés az eredeti alkotó repositoryjából épül újra, egy rögzített commitnál.
+Ez a repository a katalógus nyilvános hiteles forrása. Minden bejegyzés egy YAML-fájl a
+`catalog/plugins/` alatt, amely egy publikált JSON Schema ellen validál, egy egyedileg
+átvizsgált pull requesten keresztül került hozzáadásra, és mindig a bővítmény eredeti alkotójának
+van jóváírva. A katalógusban semmi sem egy másik katalógusból vagy listából generálódik: minden
+bejegyzés az eredeti alkotó repository-jából épül újra, egy rögzített commitnál.
 
-A weboldalt és a CLI-t privát forrásból tartják karban; ez a repository tartalmazza azokat
-a nyilvános katalógusadatokat, sémát és irányelveket, amelyeket felhasználnak.
+A weboldalt és a CLI-t privát forrásból tartják karban; ez a repository a katalógus nyilvános
+adatait, sémáját és az általuk használt szabályokat tartalmazza.
 
-## Katalógus állapota
+## A katalógus állapota
 
-**10 bővítmény összevonva.** Minden bővítmény egyedileg átvizsgált pull requesten keresztül
-kerül a katalógusba, egyesével, az eredeti alkotó repositoryjából, rögzített forrás-committal
-és kifejezett tulajdonítással.
+**160 bővítmény egyesítve.** Minden bővítmény egy egyedileg átvizsgált pull requesten keresztül
+kerül be, egyenként, az eredeti alkotó repository-jából, rögzített forráscommittal és explicit
+jóváírással.
 
-## 🚀 A CLI telepítése
+## 🚀 Telepítsd a CLI-t
 
 ```bash
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-A hatókörös csomag `@diegosouza.pw/dsh-plugins@0.1.0` néven jelenik meg, és a fenti parancs
-ma a hivatalos hívási mód; telepítő szkript itt nincs elhelyezve.
+A scope-olt csomag `@diegosouza.pw/dsh-plugins@0.1.0` néven van publikálva, és a fenti parancs a
+ma érvényes kanonikus meghívási mód; itt nincs telepítő szkript hosztolva.
 
-### A CLI már ma is használható
+### Használd a CLI-t már ma
 
-A 0.1.0 verzió csak olvasható felfedező és ellenőrző parancsokat tartalmaz, valamint
-hozzájáruláshoz kötött telepítő parancsokat. A teljes parancsreferencia — a jelölőkkel,
-kilépési kódokkal és a kódfuttatási hozzájárulási kapuval együtt — a [docs/CLI.md](../../docs/CLI.md) fájlban található.
+A 0.1.0-s verzió csak olvasható felfedező és validáló parancsokat kínál, valamint
+hozzájárulás-kapuzott telepítő parancsokat. A teljes parancsreferencia, beleértve a flageket, a
+kilépési kódokat és a kódvégrehajtási hozzájárulási kaput, itt található: [docs/CLI.md](../../docs/CLI.md).
 
-| Parancs                        | Mit csinál                                                        | Módosítja a rendszert?                    |
+| Parancs                        | Mit csinál                                                        | Módosítja a rendszeredet?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | Ellenőrzi a katalógus YAML-ját, sémáját és a helyi szemantikát                   | Nem — csak olvasható                          |
-| `search <query...>`            | Helyben keres a katalógus nyilvános mezői között                                | Nem — csak olvasható                          |
+| `catalog validate --catalog .` | Validálja a katalógus YAML-ját, a sémát és a helyi szemantikát                   | Nem — csak olvasható                          |
+| `search <query...>`            | Helyben keres a nyilvános katalógusmezőkben                                | Nem — csak olvasható                          |
 | `info <id>`                    | Megjelenít egy nyilvános katalógusbejegyzést                                       | Nem — csak olvasható                          |
 | `list`                         | Felsorolja a katalógus által kezelt telepítéseket a profilok módosítása nélkül            | Nem — csak olvasható                          |
-| `doctor`                       | Csak olvasható diagnosztika a Node-hoz, DSH-hoz, natív Windows-irányelvhez és a katalógushoz  | Nem — csak olvasható                          |
-| `add <id> --profile <name> --dry-run` | Megjeleníti az ellenőrzött telepítési tervet fájlok vagy alfolyamatok nélkül | Nem — próbafuttatás                            |
-| `add <id> --profile <name> --allow-code-execution` | Telepít a hivatalos DSH-delegáláson keresztül        | Igen — csak kifejezett hozzájárulási jelölővel   |
+| `doctor`                       | Csak olvasható diagnosztika a Node-ról, a DSH-ról, a natív Windows-szabályokról és a katalógusról  | Nem — csak olvasható                          |
+| `add <id> --profile <name> --dry-run` | Megjeleníti az ellenőrzött telepítési tervet fájlok vagy alfolyamatok nélkül | Nem — próbafuttatás (dry-run)                            |
+| `add <id> --profile <name> --allow-code-execution` | Telepít a hivatalos DSH-delegáláson keresztül        | Igen — csak explicit hozzájárulási flaggel   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -161,46 +162,40 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-A módosító parancsok (`add`, `update`, `remove`) soha nem futtatják a bővítmény
-élettartam-kódját, hacsak nem adod meg a `--allow-code-execution` jelölőt. Natív Windowson
-ezek a módosítások a v0.1.0-ban le vannak tiltva; használj WSL-t. A csak olvasható és a
-próbafuttatási parancsok mindenhol működnek.
+Az állapotot módosító parancsok (`add`, `update`, `remove`) soha nem futtatják le a bővítmény
+életciklus-kódját, hacsak nem adod meg a `--allow-code-execution` kapcsolót. Natív Windows alatt
+ezek a módosítások a v0.1.0-ban le vannak tiltva; használj WSL-t. A csak olvasható és a dry-run
+parancsok mindenhol működnek.
 
-## 🔍 Hogyan kerül egy bővítmény a katalógusba
+## 🔍 Hogyan kerül be egy bővítmény a katalógusba
 
-```mermaid
-flowchart LR
-    A["Alkotó repositoryja<br/>(rögzített commit)"] --> B["Egy branch,<br/>egy PR,<br/>egy YAML bejegyzés"]
-    B --> C["catalog-validation CI<br/>(séma + helyi szemantika)"]
-    C --> D["Karbantartói kapuk<br/>(azonosság, alkotóhoz kötés,<br/>rögzített bizonyíték)"]
-    D --> E["catalog/plugins/*.yaml<br/>összevonva"]
-    E --> F["Weboldal"]
-    E --> G["CLI"]
-    E --> H["catalog.json feedek"]
-```
+![Hogyan kerül be egy bővítmény a katalógusba](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Hogyan kerül be egy bővítmény a katalógusba](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Egy bővítmény, egy branch, egy pull request.** A PR pontosan egy YAML-fájlt ad hozzá
-   vagy módosít a `catalog/plugins/` alatt.
-2. **Alkotó-elsőbbség.** A bővítmény alkotója vagy a tulajdonos szervezet által nyitott PR
-   mindig elsőbbséget élvez a közösségi kurátorlással vagy automatizálással szemben
-   ugyanahhoz a bővítményhez — lásd [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Bizonyíték az eredeti forrásból.** Minden mező az alkotó repositoryjából épül újra, egy
-   rögzített, 40 karakteres committal: leírás, licenc, DSH-integráció, telepítési leíró,
+1. **Egy bővítmény, egy branch, egy pull request.** A PR pontosan egy YAML-fájlt ad hozzá vagy
+   módosít a `catalog/plugins/` alatt.
+2. **Alkotó-elsőbbség.** A bővítmény alkotója vagy a tulajdonos szervezet által nyitott PR mindig
+   elsőbbséget élvez a közösségi kurátori munkával vagy az automatizálással szemben ugyanahhoz a
+   bővítményhez — lásd [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Bizonyíték az eredeti forrásból.** Minden mező az alkotó repository-jából épül újra, egy
+   rögzített, 40 karakteres commitnál: leírás, licenc, DSH-integráció, telepítési deszkriptor,
    csillagok.
-4. **Helyi ellenőrzés.** A `catalog validate` ellenőrzi a szerkezetet és a helyi szemantikát;
-   ugyanaz az ellenőrzés, amelyet a `catalog-validation` CI feladat futtat a PR-on.
-5. **Karbantartói kapuk.** Az összevonás előtt a karbantartók külön ellenőrzik a repository
-   azonosságát, az alkotóhoz kötést és a rögzített bizonyítékokat. A zöld helyi ellenőrzés
-   szükséges, de soha nem elégséges.
+4. **Helyi validáció.** A `catalog validate` ellenőrzi a struktúrát és a helyi szemantikát; ez
+   ugyanaz az ellenőrzés, amelyet a `catalog-validation` CI job futtat a PR-en.
+5. **Karbantartói kapuk.** Egyesítés előtt a karbantartók külön ellenőrzik a repository
+   azonosságát, az alkotóval való kapcsolatot és a rögzített bizonyítékokat. Egy zöld helyi
+   validáció szükséges, de sosem elégséges.
 
-A teljes szerződés — a szükséges bizonyítékok, a YAML-szabályok, a csillag-irányelv, az
-ütközéskezelés és az átvizsgálási kapuk — a [CONTRIBUTING.md](../../CONTRIBUTING.md) fájlban található.
-Hogy hogyan és ki hozza meg a döntéseket, azt a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) írja le.
+A teljes szerződés — a szükséges bizonyítékok, a YAML-szabályok, a csillag-szabályzat, az
+ütközéskezelés és az átvizsgálási kapuk — a [CONTRIBUTING.md](../../CONTRIBUTING.md) fájlban
+található. Hogy hogyan és ki hozza a döntéseket, azt a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)
+tartalmazza.
 
 ## 📄 Egy bejegyzés felépítése
 
-Minden bejegyzés egy, az azonosítója szerint elnevezett YAML-fájl. Az alábbi példa megfelel a
-jelenlegi sémának (mezőnkénti referencia a [docs/SCHEMA.md](../../docs/SCHEMA.md) fájlban):
+Minden bejegyzés egy YAML-fájl, amelyet az azonosítója (ID) alapján neveztek el. Az alábbi
+példa validál az aktuális séma ellen (mezőnkénti referencia a [docs/SCHEMA.md](../../docs/SCHEMA.md)
+fájlban):
 
 ```yaml
 schemaVersion: 1
@@ -251,50 +246,52 @@ provenance:
 
 A séma által kikényszerített kulcsfontosságú invariánsok:
 
-- Az `unofficial: true` és a `schemaVersion: 1` állandók.
-- Egy monorepóból származó bővítménynek `stars: null` értéket kell használnia — a szülőprojekt csillagai soha nem öröklődnek.
-- A telepítési leíró vagy egy pontos verziójú npm csomag, vagy maga a rögzített forrás; ez
-  adat, soha nem shell parancs.
-- A `verified` állapot ellenőrizhető smoke-teszt bizonyítékot igényel; egyébként a bejegyzés
-  állapota `eligible`, `smokeTest: null` értékkel.
+- Az `unofficial: true` és a `schemaVersion: 1` konstansok.
+- Egy monorepo-bővítménynek `stars: null` értéket kell használnia — a szülőprojekt csillagai
+  soha nem öröklődnek.
+- A telepítési deszkriptor vagy egy pontos verziójú npm-csomag, vagy maga a rögzített forrás; ez
+  adat, soha nem shell-parancs.
+- A `verified` állapothoz átvizsgálható smoke-test bizonyíték szükséges; ellenkező esetben a
+  bejegyzés `eligible`, `smokeTest: null` értékkel.
 
-## 🗂 Mi tartozik ide
+## 🗂 Mi kerül ide
 
-Ez a repository a DeepSeek Harness (DSH) számára önállóan közzétett integrációkat katalogizálja,
+Ez a repository a DeepSeek Harness (DSH) számára függetlenül publikált integrációkat katalogizálja,
 beleértve a natív bővítményeket, bővítménycsaládokat, témákat, skilleket, klienseket és hidakat.
-A műtárgytípusok, képességkategóriák és interfészcímkék a [docs/CATEGORIES.md](../../docs/CATEGORIES.md) fájlban vannak meghatározva.
+Az artefaktumtípusokat, a képességkategóriákat és az interfész-címkéket a
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md) fájl határozza meg.
 
-Minden nyilvános bejegyzés egy YAML-fájl a `catalog/plugins/` alatt, és meg kell felelnie a
-`schemas/plugin.schema.yaml` sémának. Egy bejegyzés azt jelenti, hogy a dokumentált
-jogosultsági vagy ellenőrzési vizsgálatok megtörténtek; ez nem biztonsági tanúsítvány, és nem
-is a DeepSeek jóváhagyása.
+Minden nyilvános rekord egy YAML-fájl a `catalog/plugins/` alatt, és validálnia kell a
+`schemas/plugin.schema.yaml` séma ellen. Egy bejegyzés azt jelenti, hogy a dokumentált
+jogosultsági vagy verifikációs ellenőrzések teljesültek; ez nem biztonsági tanúsítvány és nem a
+DeepSeek jóváhagyása.
 
-## 🏅 Rangsorolás és ellenőrzés
+## 🏅 Rangsorolás és verifikáció
 
-Csillag-rangsorba csak dedikált, natív, jogosult vagy ellenőrzött bővítmény-repositoryk
-kerülhetnek, amelyek csillagai pontosan ahhoz a repositoryhoz tartoznak. A nagyobb monorepókban
-tárolt integrációk továbbra is felfedezhetők, de `stars: null` értéket használnak, és soha nem
-örökölnek szülőprojekt-csillagokat. A teljes szabályt lásd a [docs/RANKING.md](../../docs/RANKING.md) fájlban.
+Csak dedikált, natív, jogosult vagy verifikált bővítmény-repository-k léphetnek be egy
+csillag-rangsorba, amelyeknek a csillagai pontosan ahhoz a repository-hoz tartoznak. A nagyobb
+monorepókban tárolt integrációk továbbra is felfedezhetők maradnak, de `stars: null` értéket
+használnak, és soha nem öröklik a szülőprojekt csillagait. Lásd a
+[docs/RANKING.md](../../docs/RANKING.md) fájlt a teljes szabályért.
 
-A nyilvános ellenőrzési állapotok megkülönböztetik a szerkezeti jogosultságot a telepítési
-smoke-teszttől. Egyik állapot sem jelent abszolút biztonságot. Használat előtt vizsgáld meg a
-bővítmény repositoryját, a rögzített commitot, a licencet és a telepítés viselkedését.
+A nyilvános verifikációs állapotok megkülönböztetik a strukturális jogosultságot a telepítési
+smoke-teszttől. Egyetlen állapot sem jelent abszolút biztonságot. Használat előtt vizsgáld meg a
+bővítmény repository-ját, a rögzített commitot, a licencet és a telepítési viselkedést.
 
 ## 🤝 Járulj hozzá, vagy igényelj egy bejegyzést
 
-Olvasd el a [CONTRIBUTING.md](../../CONTRIBUTING.md) fájlt, mielőtt pull requestet nyitnál. Egy pull
-requestnek pontosan egy bővítménybejegyzést kell hozzáadnia vagy módosítania, és az eredeti
-alkotó repositoryjára kell hivatkoznia, nem egy másik katalógusra. Az alkotók által készített
-pull requestek elsőbbséget élveznek az automatizált katalógus pull requestekkel szemben.
+Olvasd el a [CONTRIBUTING.md](../../CONTRIBUTING.md) fájlt, mielőtt pull requestet nyitnál. Egy
+pull requestnek pontosan egy bővítménybejegyzést kell hozzáadnia vagy módosítania, és az eredeti
+alkotó repository-jára kell hivatkoznia, nem egy másik katalógusra. Az alkotó által írt pull
+requestek elsőbbséget élveznek az automatizált katalógus pull requestekkel szemben.
 
 Strukturált issue-űrlapok állnak rendelkezésre alkotói igénylésekhez, javításokhoz és
-eltávolításokhoz. Soha ne küldj be hitelesítő adatokat, privát elérhetőségeket vagy más
-titkokat.
+eltávolításokhoz. Soha ne küldj hitelesítő adatokat, privát elérhetőségeket vagy más titkokat.
 
 ## 👩‍🎨 Bővítmény-alkotók
 
 A katalógus azért létezik, mert ezek az alkotók bővítményeket adtak ki. Minden bejegyzés
-feltünteti az alkotóját, és mindig visszamutat a repositoryjára.
+jóváírja az alkotóját, és visszamutat a repository-jára — mindig.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -307,43 +304,44 @@ feltünteti az alkotóját, és mindig visszamutat a repositoryjára.
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Szeretnéd, hogy a bővítményed itt szerepeljen, teljes elismeréssel? [Nyiss egy PR-t egy YAML
-bejegyzéssel](../../CONTRIBUTING.md) — vagy [igényelj egy meglévő
-bejegyzést](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose), ha valaki
-már korábban katalogizálta a munkádat, mint te.
+Szeretnéd, hogy a bővítményed itt szerepeljen, teljes jóváírással? [Nyiss egy PR-t egy YAML-bejegyzéssel](../../CONTRIBUTING.md)
+— vagy [igényelj egy meglévő bejegyzést](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose),
+ha valaki már katalogizálta a munkádat, mielőtt te tetted volna.
 
 ## 📚 Dokumentáció
 
-| Dokumentum                                     | Miről szól                                                       |
-| -------------------------------------------- | -------------------------------------------------------------------- |
+| Dokumentum                                     | Mit tartalmaz                                                       |
+| -------------------------------------------- | ---------------------------------------------------------------------- |
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | A teljes hozzájárulási szerződés: bizonyítékok, YAML-szabályok, átvizsgálási kapuk    |
-| [SECURITY.md](../../SECURITY.md)                   | Bővítmény- vagy katalógussérülékenységek jelentése; titok-irányelv           |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Mezőnkénti referencia a `schemas/plugin.schema.yaml` fájlhoz             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI parancsreferencia a `@diegosouza.pw/dsh-plugins@0.1.0` verzióhoz          |
+| [SECURITY.md](../../SECURITY.md)                   | Bővítmény- vagy katalógus-sérülékenységek bejelentése; titokkezelési szabályzat           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Mezőnkénti referencia a `schemas/plugin.schema.yaml`-hoz             |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-parancsreferencia a `@diegosouza.pw/dsh-plugins@0.1.0`-hoz          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hogyan irányítják a katalógust: elsőbbség, kapuk, igénylések és eltávolítások   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Műtárgytípusok, elsődleges képességkategóriák, címkék, repository-hatókör |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | Alkotói elismerés, PR-elsőbbség és Git-azonosítási irányelv                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | A nyilvános rangsorolási szabály és az ellenőrzési állapotok                  |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefaktumtípusok, elsődleges képességkategóriák, címkék, repository-hatókör |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Alkotói jóváírás, PR-elsőbbség és Git-identitási szabályzat                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | A nyilvános rangsorolási szabály és a verifikációs állapotok                               |
 | [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Nem hivatalos státusz és védjegyekkel kapcsolatos álláspont                               |
 
 ## 🌐 Fordítások
 
-Ez a README 43 nyelven elérhető a [`docs/i18n/`](..) mappában — használd a lap tetején lévő
-zászlóválasztót. Az angol szöveg a hiteles forrás; ha egy fordítás eltér az angol szövegtől, az
-angol szöveg az irányadó. Bármely fordítás javításait szívesen fogadjuk szokásos pull
+Ez a README 43 nyelven érhető el a [`docs/i18n/`](..) alatt — használd a fenti
+zászlóválasztót. Az angol a hiteles forrás; ha egy fordítás és az angol szöveg eltér egymástól,
+az angol szöveg az irányadó. A fordításokhoz érkező javításokat szívesen fogadjuk normál pull
 requesteken keresztül.
 
-## 📜 Licenc és tulajdonítás
+## 📜 Licenc és jóváírás
 
 A dokumentáció és a repository-sablonok az [MIT licenc](../../LICENSE) alatt állnak. Az eredeti
-katalógustényeket és a szerkesztői YAML-metaadatokat [CC0-1.0](../../LICENSE-CATALOG) alatt tették
-közkinccsé. Az upstream kód, nevek, logók és képernyőképek az eredeti tulajdonosaik és
-licenceik alatt maradnak. Lásd: [docs/CREDIT.md](../../docs/CREDIT.md) és [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+katalógusadatok és a szerkesztői YAML-metaadatok a [CC0-1.0](../../LICENSE-CATALOG) alatt vannak
+felajánlva. Az upstream kód, nevek, logók és képernyőképek megmaradnak eredeti tulajdonosaik és
+licenceik alatt. Lásd [docs/CREDIT.md](../../docs/CREDIT.md) és [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Ha ez a katalógus segített megtalálni egy bővítményt, csillagozd meg a repositoryt — ezzel segíted az alkotók felfedezését.
+### ⭐ Ha ez a katalógus segített megtalálni egy bővítményt, csillagozd meg a repository-t — ez segít, hogy az alkotókat megtalálják.
 
-**[Böngéssz az összes bővítmény között a weboldalon →](https://dsh-plugins.omniroute.online)**
+**[Böngéssz minden bővítményt a weboldalon →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">在网站上浏览、搜索并安装所有插件 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,16 +80,16 @@
 
 | #   | 插件 | 创作者 | ★ | 分类 | 功能说明 |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 内联可视化:模型在会话内直接渲染交互式图表和示意图 |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | 可热插拔的透明桌面宠物(《绝区零》角色 Remielle),用于 DSH 网页版 GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | 会对仪表盘活动作出反应的鲸鱼少女看板娘动画吉祥物 |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | 全屏 curses 风格终端聊天客户端,用于驱动 dsh 会话 |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | 交互式 pi-tui 终端入口:会话选择器、流式聊天、按键绑定 |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | 可选启用的 Tavily 高级搜索工具,支持多密钥管理和用量仪表 |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | 悬浮式哔哩哔哩视频小组件:推荐、热门、排行榜与搜索 |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | 外观插件:内置调色板、浅色/深色/跟随系统模式、VS Code 主题 |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | 非商业性质的《明日方舟》星海花园皮肤,角色为 Pramanix 与 Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | 配套浏览器扩展使用的令牌认证 WebSocket 桥接 |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | 为纯文本 LLM 提供的插件式视觉能力,由免费的 Antigravity CLI 驱动 |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH 网页插件:类似 VSCode 的右侧边栏(资源管理器 / 编辑器 / 终端 / git / 浏览器),每个会话独立隔离… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | 为纯文本 DeepSeek Harness 智能体提供的视觉能力:内置免费视觉链路(无需密钥)+ 像素级视觉工具… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | 面向 agent-vision-toolkit 的 DeepSeek Harness 原生集成:图像问答、OCR、目标定位、界面还原,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH 广告轰炸模拟插件:本地化的中文门户广告与英文诈骗广告仿作,配有虚假弹窗,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | 面向 DeepSeek Harness 的 GenUI:通过 dsh-ui 在助手回复中内联渲染交互式 UI 组件… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui:面向官方 DeepSeek Harness 的交互式终端 UI 插件——流式… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 面向 DeepSeek Harness 的内联可视化:配套的 visualize 工具与内置技能让模型渲染… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | 面向 DeepSeek Harness 的动漫搜索插件:anime_find_search 工具聚合来自 Mikan、AniBT 及… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH 撤销/回滚系统:在配置文件变更时创建快照,可从 WebUI 或通过… 撤销/重做最近一次操作 |
 
 <div align="center">
 
@@ -113,7 +113,7 @@
 
 ## 目录状态
 
-**已合并 10 个插件。** 每个插件都通过一次单独评审的拉取请求逐个纳入,来自原始创作者仓库,附带固定的源代码提交和明确署名。
+**已合并 160 个插件。** 每个插件都通过一次单独评审的拉取请求逐个纳入,来自原始创作者仓库,附带固定的源代码提交和明确署名。
 
 ## 🚀 安装 CLI
 
@@ -153,16 +153,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 
 ## 🔍 插件如何进入目录
 
-```mermaid
-flowchart LR
-    A["创作者仓库<br/>(固定提交)"] --> B["一个分支,<br/>一个 PR,<br/>一个 YAML 条目"]
-    B --> C["catalog-validation CI<br/>(模式 + 本地语义)"]
-    C --> D["维护者关卡<br/>(身份、创作者绑定,<br/>固定证据)"]
-    D --> E["catalog/plugins/*.yaml<br/>已合并"]
-    E --> F["网站"]
-    E --> G["CLI"]
-    E --> H["catalog.json 订阅源"]
-```
+![插件如何进入目录](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![插件如何进入目录](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **一个插件,一个分支,一个拉取请求。** 该 PR 只新增或修改 `catalog/plugins/` 下的一个 YAML 文件。
 2. **创作者优先。** 由插件创作者本人或所属组织发起的 PR,针对同一插件始终优先于社区整理或自动化提交——参见
@@ -308,3 +300,5 @@ provenance:
 **[在网站上浏览所有插件 →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

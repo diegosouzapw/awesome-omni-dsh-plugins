@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness प्लगइन के लिए निर्माता-पहले कैटलॉग और वन-कमांड इंस्टॉल। पिन किए गए सोर्स कमिट, श्रेय प्राप्त निर्माता, प्रति प्लगइन एक समीक्षित PR। dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog yang mengutamakan kreator dan instalasi satu perintah untuk plugin DeepSeek Harness. Commit sumber yang dipatok, kreator yang diberi kredit, satu PR yang ditinjau per plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
-> DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।
+> **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
+> Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.
 
-**DeepSeek Harness (DSH)** प्लगइन के लिए निर्माता-पहले खोज और वन-कमांड इंस्टॉलेशन।
+Penemuan yang mengutamakan kreator dan instalasi satu perintah untuk plugin **DeepSeek Harness (DSH)**.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">वेबसाइट पर हर प्लगइन ब्राउज़, खोज और इंस्टॉल करें →</a>
+  <a href="https://dsh-plugins.omniroute.online">Jelajahi, cari, dan instal setiap plugin di situs web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -24,7 +24,7 @@
 
 <br/>
 
-<b>🌐 43 भाषाओं में</b>
+<b>🌐 Dalam 43 bahasa</b>
 <br/><br/>
 <a href="../../README.md"><img src="../../docs/assets/flags/us.svg" width="30" alt="English (en)" title="English (en)"></a>
 <a href="../pt-BR/README.md"><img src="../../docs/assets/flags/br.svg" width="30" alt="Português — Brasil (pt-BR)" title="Português — Brasil (pt-BR)"></a>
@@ -74,77 +74,80 @@
 
 ---
 
-## ⭐ शीर्ष 10 प्लगइन
+## ⭐ 10 plugin teratas
 
-सटीक-रिपॉज़िटरी स्टार्स के अनुसार रैंक किया गया — केवल वे स्टार गिने जाते हैं जो प्लगइन की अपनी रिपॉज़िटरी ने कमाए हों,
-कभी किसी पेरेंट प्रोजेक्ट के नहीं ([रैंकिंग प्रेडिकेट](../../docs/RANKING.md))। हर नाम निर्माता की उस रिपॉज़िटरी से लिंक करता
-है, जो उसी कमिट पर पिन की गई है जिसे कैटलॉग ने मान्य किया था।
+Diperingkat berdasarkan bintang repositori yang tepat — hanya bintang yang diperoleh repositori
+plugin itu sendiri yang dihitung, tidak pernah bintang proyek induk ([predikat peringkat](../../docs/RANKING.md)).
+Setiap nama tertaut ke repositori kreator, dipatok pada commit tepat yang divalidasi oleh katalog.
 
-| #   | प्लगइन | निर्माता | ★ | श्रेणी | यह क्या करता है |
+| #   | Plugin | Kreator | ★ | Kategori | Fungsinya |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | इनलाइन विज़ुअलाइज़ेशन: मॉडल सत्र के भीतर इंटरैक्टिव चार्ट और डायग्राम रेंडर करता है |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | DSH वेब GUI के लिए हॉट-प्लगेबल पारदर्शी डेस्कटॉप पालतू (Remielle, Zenless Zone Zero) |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | एनिमेटेड व्हेल-गर्ल कानबन मुसुमे शुभंकर जो डैशबोर्ड गतिविधि पर प्रतिक्रिया देता है |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | dsh सत्रों को चलाने के लिए फुल-स्क्रीन curses-शैली का टर्मिनल चैट क्लाइंट |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | इंटरैक्टिव pi-tui टर्मिनल फ्रंट डोर: सेशन पिकर, स्ट्रीमिंग चैट, कीबाइंडिंग |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | मल्टी-की प्रबंधन और उपयोग गेज के साथ ऑप्ट-इन Tavily एडवांस्ड सर्च टूल |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | फ्लोटिंग bilibili वीडियो विजेट: सिफारिशें, ट्रेंडिंग, रैंकिंग और खोज |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | अपीयरेंस प्लगइन: बिल्ट-इन पैलेट, लाइट/डार्क/सिस्टम मोड, VS Code थीम |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Pramanix और Eyjafjalla वाली गैर-व्यावसायिक Arknights एस्ट्रल-गार्डन स्किन |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | साथी ब्राउज़र एक्सटेंशन के लिए टोकन-प्रमाणित WebSocket ब्रिज |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Visi colok-pasang untuk LLM khusus teks, didukung oleh CLI Antigravity yang gratis |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web DSH: bilah sisi kanan mirip VSCode (explorer / editor / terminal / git / browser), terisolasi per… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Mata untuk agen DeepSeek Harness khusus teks: rantai visi gratis bawaan (tanpa kunci) + alat visi tingkat piksel… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integrasi native DeepSeek Harness untuk agent-vision-toolkit: tanya-jawab gambar, OCR, grounding, pemulihan UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin serbuan iklan DSH: iklan portal Tiongkok yang dilokalkan dan parodi iklan-penipuan berbahasa Inggris, dengan pop-up palsu, se… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI untuk DeepSeek Harness: komponen UI interaktif dirender inline dalam balasan asisten lewat dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: plugin UI terminal interaktif untuk DeepSeek Harness resmi — streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualisasi inline untuk DeepSeek Harness: alat visualize plus skill bawaan memungkinkan model merender… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Plugin pencarian anime untuk DeepSeek Harness: alat anime_find_search menggabungkan Mikan, AniBT, dan… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistem undo/rollback DSH: mengambil snapshot file konfigurasi saat berubah, undo/redo aksi terakhir dari WebUI atau lewat… |
 
 <div align="center">
 
-### 👉 [**वेबसाइट पर सभी प्लगइन खोजें, विवरण पढ़ें और इंस्टॉल कमांड कॉपी करें →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Cari semua plugin, baca detailnya, dan salin perintah instalasi di situs web →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## एक नज़र में
+## Sekilas pandang
 
-| सतह     | यह क्या है                                                       | कहां                                                                    |
+| Permukaan     | Apa itu                                                       | Di mana                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **वेबसाइट** | खोज और रैंकिंग के साथ रेंडर किया गया कैटलॉग ब्राउज़र                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-| **कैटलॉग** | प्रति प्लगइन एक YAML फ़ाइल, सत्य का एकमात्र स्रोत             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **स्कीमा**  | सार्वजनिक JSON स्कीमा (draft 2020-12) जिसके विरुद्ध हर एंट्री मान्य होती है | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | कैटलॉग से खोजें, निरीक्षण करें, मान्य करें और इंस्टॉल करें           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **मशीन फ़ीड्स** | टूल्स के लिए `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Situs web** | Peramban katalog yang dirender lengkap dengan pencarian dan peringkat                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalog** | Satu file YAML per plugin, satu-satunya sumber kebenaran             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Skema**  | JSON Schema publik (draft 2020-12) yang divalidasi oleh setiap entri | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Cari, periksa, validasi, dan instal dari katalog           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Feed mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat bantu           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-यह रिपॉज़िटरी कैटलॉग के लिए सत्य का सार्वजनिक स्रोत है। हर लिस्टिंग `catalog/plugins/` के अंतर्गत एक YAML फ़ाइल है, जो एक
-प्रकाशित JSON स्कीमा के विरुद्ध मान्य की जाती है, एक अलग से समीक्षा किए गए पुल रिक्वेस्ट के माध्यम से जोड़ी जाती है, और हमेशा
-प्लगइन के मूल निर्माता को श्रेय दिया जाता है। कैटलॉग में कुछ भी किसी अन्य कैटलॉग या सूची से जनरेट नहीं किया जाता: हर एंट्री
-को मूल निर्माता की रिपॉज़िटरी से एक पिन की गई कमिट पर पुनर्निर्मित किया जाता है।
+Repositori ini adalah sumber kebenaran publik untuk katalog. Setiap entri adalah satu file YAML
+di bawah `catalog/plugins/`, divalidasi terhadap JSON Schema yang dipublikasikan, ditambahkan
+melalui satu pull request yang ditinjau secara individual, dan selalu diberi kredit kepada
+kreator asli plugin tersebut. Tidak ada yang dihasilkan dari katalog atau daftar lain: setiap
+entri direkonstruksi dari repositori kreator asli pada commit yang dipatok.
 
-वेबसाइट और CLI को निजी स्रोत से बनाए रखा जाता है; यह रिपॉज़िटरी सार्वजनिक कैटलॉग डेटा, स्कीमा और नीतियां रखती है जिनका
-वे उपयोग करते हैं।
+Situs web dan CLI dikelola dari sumber privat; repositori ini memuat data katalog publik, skema,
+dan kebijakan yang mereka konsumsi.
 
-## कैटलॉग स्थिति
+## Status katalog
 
-**10 प्लगइन मर्ज किए गए।** हर प्लगइन एक-एक करके, मूल निर्माता की रिपॉज़िटरी से, एक पिन किए गए सोर्स कमिट और स्पष्ट श्रेय
-के साथ, एक अलग से समीक्षा किए गए पुल रिक्वेस्ट के माध्यम से आता है।
+**160 plugin tergabung.** Setiap plugin masuk melalui satu pull request yang ditinjau secara
+individual, satu per satu, dari repositori kreator asli, dengan commit sumber yang dipatok dan
+atribusi yang eksplisit.
 
-## 🚀 CLI इंस्टॉल करें
+## 🚀 Instal CLI
 
 ```bash
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-स्कोप्ड पैकेज `@diegosouza.pw/dsh-plugins@0.1.0` के रूप में प्रकाशित किया गया है और ऊपर दिया गया कमांड आज का कैनोनिकल
-इनवोकेशन है; यहां कोई इंस्टॉलर स्क्रिप्ट होस्ट नहीं की गई है।
+Paket dengan scope ini dipublikasikan sebagai `@diegosouza.pw/dsh-plugins@0.1.0` dan perintah di
+atas adalah pemanggilan kanonis saat ini; tidak ada skrip installer yang di-hosting di sini.
 
-### आज ही CLI का उपयोग करें
+### Gunakan CLI hari ini
 
-संस्करण 0.1.0 रीड-ओनली डिस्कवरी और वैलिडेशन कमांड के साथ-साथ सहमति-गेटेड इंस्टॉल कमांड भी प्रदान करता है। फ्लैग्स,
-एग्ज़िट कोड और कोड-एग्ज़ीक्यूशन सहमति गेट सहित पूरा कमांड संदर्भ [docs/CLI.md](../../docs/CLI.md) में है।
+Versi 0.1.0 menyediakan perintah penemuan dan validasi baca-saja, ditambah perintah instalasi
+yang memerlukan persetujuan. Referensi perintah lengkap, termasuk flag, kode keluar, dan gerbang
+persetujuan eksekusi kode, ada di [docs/CLI.md](../../docs/CLI.md).
 
-| कमांड                        | यह क्या करता है                                                        | क्या यह आपके सिस्टम को छूता है?                    |
+| Perintah                        | Fungsinya                                                        | Menyentuh sistem Anda?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | कैटलॉग YAML, स्कीमा और लोकल सिमेंटिक्स को मान्य करता है                   | नहीं — केवल पढ़ने के लिए                          |
-| `search <query...>`            | सार्वजनिक कैटलॉग फ़ील्ड को स्थानीय रूप से खोजता है                                | नहीं — केवल पढ़ने के लिए                          |
-| `info <id>`                    | एक सार्वजनिक कैटलॉग एंट्री दिखाता है                                       | नहीं — केवल पढ़ने के लिए                          |
-| `list`                         | प्रोफाइल में बदलाव किए बिना कैटलॉग-प्रबंधित इंस्टॉल की सूची दिखाता है            | नहीं — केवल पढ़ने के लिए                          |
-| `doctor`                       | Node, DSH, नेटिव Windows नीति और कैटलॉग के लिए रीड-ओनली डायग्नोस्टिक्स  | नहीं — केवल पढ़ने के लिए                          |
-| `add <id> --profile <name> --dry-run` | बिना फ़ाइलों या सबप्रोसेस के सत्यापित इंस्टॉल योजना दिखाता है | नहीं — ड्राई-रन                            |
-| `add <id> --profile <name> --allow-code-execution` | आधिकारिक DSH डेलिगेशन के माध्यम से इंस्टॉल करता है        | हां — केवल स्पष्ट सहमति फ्लैग के साथ   |
+| `catalog validate --catalog .` | Memvalidasi YAML katalog, skema, dan semantik lokal                   | Tidak — baca-saja                          |
+| `search <query...>`            | Mencari bidang katalog publik secara lokal                                | Tidak — baca-saja                          |
+| `info <id>`                    | Menampilkan satu entri katalog publik                                       | Tidak — baca-saja                          |
+| `list`                         | Mendaftar instalasi yang dikelola katalog tanpa mengubah profil            | Tidak — baca-saja                          |
+| `doctor`                       | Diagnostik baca-saja untuk Node, DSH, kebijakan Windows native, dan katalog  | Tidak — baca-saja                          |
+| `add <id> --profile <name> --dry-run` | Menampilkan rencana instalasi terverifikasi tanpa file atau subproses | Tidak — dry-run                            |
+| `add <id> --profile <name> --allow-code-execution` | Menginstal lewat delegasi resmi DSH        | Ya — hanya dengan flag persetujuan eksplisit   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -158,40 +161,36 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-म्यूटेटिंग कमांड (`add`, `update`, `remove`) तब तक कभी भी प्लगइन लाइफ़साइकल कोड को एग्ज़ीक्यूट नहीं करते जब तक आप
-`--allow-code-execution` पास न करें। नेटिव Windows पर ये म्यूटेशन v0.1.0 में अक्षम हैं; WSL का उपयोग करें। रीड-ओनली और
-ड्राई-रन कमांड हर जगह काम करते हैं।
+Perintah yang mengubah data (`add`, `update`, `remove`) tidak pernah mengeksekusi kode siklus
+hidup plugin kecuali Anda menambahkan `--allow-code-execution`. Pada Windows native, mutasi ini
+dinonaktifkan di v0.1.0; gunakan WSL. Perintah baca-saja dan dry-run berfungsi di mana saja.
 
-## 🔍 एक प्लगइन कैटलॉग में कैसे प्रवेश करता है
+## 🔍 Bagaimana sebuah plugin masuk ke katalog
 
-```mermaid
-flowchart LR
-    A["निर्माता की रिपॉज़िटरी<br/>(पिन की गई कमिट)"] --> B["एक ब्रांच,<br/>एक PR,<br/>एक YAML एंट्री"]
-    B --> C["catalog-validation CI<br/>(स्कीमा + स्थानीय सिमेंटिक्स)"]
-    C --> D["मेंटेनर गेट्स<br/>(पहचान, निर्माता बाइंडिंग,<br/>पिन किया गया प्रमाण)"]
-    D --> E["catalog/plugins/*.yaml<br/>मर्ज किया गया"]
-    E --> F["वेबसाइट"]
-    E --> G["CLI"]
-    E --> H["catalog.json फ़ीड्स"]
-```
+![Bagaimana sebuah plugin masuk ke katalog](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Bagaimana sebuah plugin masuk ke katalog](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **एक प्लगइन, एक ब्रांच, एक पुल रिक्वेस्ट।** PR `catalog/plugins/` के अंतर्गत ठीक एक YAML फ़ाइल जोड़ता या बदलता है।
-2. **निर्माता-पहले।** प्लगइन के निर्माता या स्वामित्व वाले संगठन द्वारा खोला गया PR उसी प्लगइन के लिए हमेशा सामुदायिक
-   क्यूरेशन या ऑटोमेशन पर प्राथमिकता लेता है — देखें [docs/CREDIT.md](../../docs/CREDIT.md)।
-3. **मूल स्रोत से प्रमाण।** हर फ़ील्ड को निर्माता की रिपॉज़िटरी से एक पिन की गई 40-कैरेक्टर कमिट पर पुनर्निर्मित किया
-   जाता है: विवरण, लाइसेंस, DSH एकीकरण, इंस्टॉल डिस्क्रिप्टर, स्टार्स।
-4. **स्थानीय सत्यापन।** `catalog validate` संरचना और स्थानीय सिमेंटिक्स की जांच करता है; यह वही जांच है जो
-   `catalog-validation` CI जॉब PR पर चलाता है।
-5. **मेंटेनर गेट्स।** मर्ज से पहले, मेंटेनर अलग से रिपॉज़िटरी पहचान, निर्माता बाइंडिंग और पिन किए गए प्रमाण की पुष्टि करते
-   हैं। एक हरा (green) स्थानीय सत्यापन आवश्यक है, पर्याप्त कभी नहीं।
+1. **Satu plugin, satu branch, satu pull request.** PR menambah atau mengubah tepat satu file
+   YAML di bawah `catalog/plugins/`.
+2. **Kreator diutamakan.** PR yang dibuka oleh kreator plugin atau organisasi pemiliknya selalu
+   didahulukan atas kurasi komunitas atau otomatisasi untuk plugin yang sama — lihat
+   [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Bukti dari sumber asli.** Setiap bidang direkonstruksi dari repositori kreator pada commit
+   40 karakter yang dipatok: deskripsi, lisensi, integrasi DSH, deskriptor instalasi, bintang.
+4. **Validasi lokal.** `catalog validate` memeriksa struktur dan semantik lokal; ini adalah
+   pemeriksaan yang sama yang dijalankan job CI `catalog-validation` pada PR.
+5. **Gerbang maintainer.** Sebelum digabungkan, maintainer secara terpisah memverifikasi identitas
+   repositori, ikatan dengan kreator, dan bukti yang dipatok. Validasi lokal yang hijau itu perlu,
+   tapi tidak pernah cukup.
 
-पूरा अनुबंध — आवश्यक प्रमाण, YAML नियम, स्टार्स नीति, टकराव प्रबंधन और समीक्षा गेट्स — [CONTRIBUTING.md](../../CONTRIBUTING.md)
-में है। निर्णय कैसे और किसके द्वारा लिए जाते हैं यह [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) में है।
+Kontrak lengkap — bukti yang diperlukan, aturan YAML, kebijakan bintang, penanganan tabrakan, dan
+gerbang tinjauan — ada di [CONTRIBUTING.md](../../CONTRIBUTING.md). Bagaimana keputusan dibuat
+dan oleh siapa ada di [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-## 📄 एक एंट्री की संरचना
+## 📄 Anatomi sebuah entri
 
-हर एंट्री उसके ID के नाम पर बनी एक YAML फ़ाइल होती है। नीचे दिया गया उदाहरण वर्तमान स्कीमा के विरुद्ध मान्य होता है
-(फ़ील्ड-दर-फ़ील्ड संदर्भ [docs/SCHEMA.md](../../docs/SCHEMA.md) में):
+Setiap entri adalah satu file YAML yang dinamai sesuai ID-nya. Contoh di bawah tervalidasi
+terhadap skema saat ini (referensi bidang-demi-bidang di [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -240,48 +239,53 @@ provenance:
   comment: null
 ```
 
-स्कीमा द्वारा लागू की गई मुख्य अपरिवर्तनीयताएं (invariants):
+Invarian kunci yang diberlakukan oleh skema:
 
-- `unofficial: true` और `schemaVersion: 1` स्थिर (constant) मान हैं।
-- एक मोनोरेपो प्लगइन को `stars: null` का उपयोग करना चाहिए — पेरेंट-प्रोजेक्ट के स्टार्स कभी विरासत में नहीं मिलते।
-- इंस्टॉल डिस्क्रिप्टर या तो एक सटीक-संस्करण npm पैकेज है या स्वयं पिन किया गया स्रोत; यह डेटा है, कभी शेल कमांड नहीं।
-- `verified` स्थिति के लिए समीक्षा योग्य स्मोक-टेस्ट प्रमाण आवश्यक है; अन्यथा एंट्री `smokeTest: null` के साथ `eligible`
-  होती है।
+- `unofficial: true` dan `schemaVersion: 1` adalah konstanta.
+- Plugin monorepo harus menggunakan `stars: null` — bintang proyek induk tidak pernah diwariskan.
+- Deskriptor instalasi adalah paket npm dengan versi persis atau sumber yang dipatok itu sendiri;
+  itu adalah data, bukan perintah shell.
+- Status `verified` memerlukan bukti smoke-test yang dapat ditinjau; jika tidak, entri berstatus
+  `eligible` dengan `smokeTest: null`.
 
-## 🗂 यहां क्या शामिल है
+## 🗂 Apa yang masuk di sini
 
-यह रिपॉज़िटरी DeepSeek Harness (DSH) के लिए स्वतंत्र रूप से प्रकाशित इंटीग्रेशनों को सूचीबद्ध करती है, जिनमें नेटिव
-प्लगइन, प्लगइन परिवार, थीम, स्किल, क्लाइंट और ब्रिज शामिल हैं। आर्टिफैक्ट प्रकार, क्षमता श्रेणियां और इंटरफ़ेस टैग
-[docs/CATEGORIES.md](../../docs/CATEGORIES.md) में परिभाषित हैं।
+Repositori ini mengatalogkan integrasi yang dipublikasikan secara independen untuk DeepSeek
+Harness (DSH), termasuk plugin native, keluarga plugin, tema, skill, klien, dan bridge. Jenis
+artefak, kategori kapabilitas, dan tag antarmuka didefinisikan di
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-हर सार्वजनिक रिकॉर्ड `catalog/plugins/` के अंतर्गत एक YAML फ़ाइल है और इसे `schemas/plugin.schema.yaml` के विरुद्ध
-मान्य होना चाहिए। एक लिस्टिंग का मतलब है कि दस्तावेज़ीकृत योग्यता या सत्यापन जांच पूरी की गई थी; यह कोई सुरक्षा
-प्रमाणन या DeepSeek समर्थन नहीं है।
+Setiap catatan publik adalah satu file YAML di bawah `catalog/plugins/` dan harus tervalidasi
+terhadap `schemas/plugin.schema.yaml`. Sebuah entri berarti pemeriksaan kelayakan atau verifikasi
+yang terdokumentasi telah diselesaikan; ini bukan sertifikasi keamanan atau dukungan dari
+DeepSeek.
 
-## 🏅 रैंकिंग और सत्यापन
+## 🏅 Peringkat dan verifikasi
 
-केवल समर्पित, नेटिव, योग्य या सत्यापित प्लगइन रिपॉज़िटरी जिनके स्टार्स उसी सटीक रिपॉज़िटरी से संबंधित हों, स्टार
-रैंकिंग में शामिल हो सकती हैं। व्यापक मोनोरेपो के भीतर संग्रहीत इंटीग्रेशन खोजे जा सकने योग्य बने रहते हैं लेकिन
-`stars: null` का उपयोग करते हैं और पेरेंट-प्रोजेक्ट के स्टार्स कभी विरासत में नहीं लेते। पूरे प्रेडिकेट के लिए
-[docs/RANKING.md](../../docs/RANKING.md) देखें।
+Hanya repositori plugin yang dedicated, native, eligible, atau verified dengan bintang milik
+repositori itu sendiri yang bisa masuk peringkat bintang. Integrasi yang disimpan di dalam
+monorepo yang lebih luas tetap dapat ditemukan tetapi menggunakan `stars: null` dan tidak pernah
+mewarisi bintang proyek induk. Lihat [docs/RANKING.md](../../docs/RANKING.md) untuk predikat
+lengkapnya.
 
-सार्वजनिक सत्यापन स्थितियां संरचनात्मक योग्यता को इंस्टॉलेशन स्मोक-टेस्ट से अलग करती हैं। कोई भी स्थिति पूर्ण सुरक्षा
-को नहीं दर्शाती। उपयोग करने से पहले किसी प्लगइन की रिपॉज़िटरी, पिन की गई कमिट, लाइसेंस और इंस्टॉलेशन व्यवहार की
-समीक्षा करें।
+Status verifikasi publik membedakan kelayakan struktural dari uji asap (smoke test) instalasi.
+Tidak ada status yang merepresentasikan keamanan mutlak. Tinjau repositori plugin, commit yang
+dipatok, lisensi, dan perilaku instalasi sebelum menggunakannya.
 
-## 🤝 योगदान करें या किसी एंट्री का दावा करें
+## 🤝 Berkontribusi atau mengklaim sebuah entri
 
-पुल रिक्वेस्ट खोलने से पहले [CONTRIBUTING.md](../../CONTRIBUTING.md) पढ़ें। एक पुल रिक्वेस्ट को ठीक एक प्लगइन एंट्री
-जोड़नी या बदलनी चाहिए और किसी अन्य कैटलॉग के बजाय मूल निर्माता की रिपॉज़िटरी का हवाला देना चाहिए। निर्माता द्वारा लिखे
-गए पुल रिक्वेस्ट स्वचालित कैटलॉग पुल रिक्वेस्ट पर प्राथमिकता लेते हैं।
+Baca [CONTRIBUTING.md](../../CONTRIBUTING.md) sebelum membuka pull request. Sebuah pull request
+harus menambah atau mengubah tepat satu entri plugin dan harus mengutip repositori kreator asli,
+bukan katalog lain. Pull request yang ditulis oleh kreator didahulukan atas pull request katalog
+otomatis.
 
-निर्माता के दावों, सुधारों और हटाने के लिए संरचित इश्यू फ़ॉर्म उपलब्ध हैं। कभी भी क्रेडेंशियल, निजी संपर्क विवरण या
-अन्य गोपनीय जानकारी सबमिट न करें।
+Formulir issue terstruktur tersedia untuk klaim kreator, koreksi, dan penghapusan. Jangan pernah
+mengirimkan kredensial, detail kontak pribadi, atau rahasia lainnya.
 
-## 👩‍🎨 प्लगइन निर्माता
+## 👩‍🎨 Kreator plugin
 
-यह कैटलॉग इसलिए मौजूद है क्योंकि इन निर्माताओं ने प्लगइन बनाए। हर एंट्री अपने निर्माता को श्रेय देती है और हमेशा उनकी
-रिपॉज़िटरी से जुड़ी होती है।
+Katalog ini ada karena para kreator ini telah merilis plugin. Setiap entri memberi kredit kepada
+kreatornya dan tertaut kembali ke repositorinya — selalu.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -294,41 +298,44 @@ provenance:
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-क्या आप चाहते हैं कि आपका प्लगइन पूरे श्रेय के साथ यहां हो? [एक YAML एंट्री के साथ एक PR खोलें](../../CONTRIBUTING.md) — या
-[किसी मौजूदा एंट्री का दावा करें](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
-अगर किसी ने आपसे पहले आपके काम को कैटलॉग कर दिया है।
+Ingin plugin Anda ada di sini, dengan kredit penuh? [Buka satu PR dengan satu entri YAML](../../CONTRIBUTING.md)
+— atau [klaim entri yang sudah ada](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+jika seseorang sudah mengatalogkan karya Anda lebih dulu.
 
-## 📚 दस्तावेज़ीकरण
+## 📚 Dokumentasi
 
-| दस्तावेज़                                     | यह क्या कवर करता है                                                       |
-| --------------------------------------------- | --------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | पूरा योगदान अनुबंध: प्रमाण, YAML नियम, समीक्षा गेट्स    |
-| [SECURITY.md](../../SECURITY.md)                   | प्लगइन या कैटलॉग की भेद्यताओं की रिपोर्ट करना; गोपनीय जानकारी नीति           |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` के लिए फ़ील्ड-दर-फ़ील्ड संदर्भ             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` के लिए CLI कमांड संदर्भ          |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | कैटलॉग को कैसे संचालित किया जाता है: प्राथमिकता, गेट्स, दावे और हटाना   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | आर्टिफैक्ट प्रकार, प्राथमिक क्षमता श्रेणियां, टैग, रिपॉज़िटरी स्कोप |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | निर्माता श्रेय, PR प्राथमिकता और Git पहचान नीति                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | सार्वजनिक रैंकिंग प्रेडिकेट और सत्यापन स्थितियां               |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | गैर-आधिकारिक स्थिति और ट्रेडमार्क रुख                               |
+| Dokumen                                     | Apa yang dicakup                                                       |
+| -------------------------------------------- | ---------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Kontrak kontribusi lengkap: bukti, aturan YAML, gerbang tinjauan    |
+| [SECURITY.md](../../SECURITY.md)                   | Melaporkan kerentanan plugin atau katalog; kebijakan rahasia           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referensi bidang-demi-bidang untuk `schemas/plugin.schema.yaml`             |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referensi perintah CLI untuk `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Bagaimana katalog diatur: prioritas, gerbang, klaim, dan penghapusan   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Jenis artefak, kategori kapabilitas utama, tag, ruang lingkup repositori |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredit kreator, prioritas PR, dan kebijakan identitas Git                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Predikat peringkat publik dan status verifikasi                               |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Status tidak resmi dan sikap terhadap merek dagang                               |
 
-## 🌐 अनुवाद
+## 🌐 Terjemahan
 
-यह README [`docs/i18n/`](..) के अंतर्गत 43 भाषाओं में उपलब्ध है — ऊपर दिए गए ध्वज (flag) चयनकर्ता का उपयोग करें।
-अंग्रेज़ी सत्य का स्रोत है; जब कोई अनुवाद और अंग्रेज़ी पाठ असहमत हों, तो अंग्रेज़ी पाठ मान्य होता है। किसी भी अनुवाद में
-सुधार सामान्य पुल रिक्वेस्ट के माध्यम से स्वागत योग्य हैं।
+README ini tersedia dalam 43 bahasa di bawah [`docs/i18n/`](..) — gunakan pemilih bendera di
+bagian atas. Bahasa Inggris adalah sumber kebenaran; ketika sebuah terjemahan dan teks bahasa
+Inggris tidak sesuai, teks bahasa Inggris yang berlaku. Koreksi untuk terjemahan mana pun
+diterima lewat pull request normal.
 
-## 📜 लाइसेंस और श्रेय
+## 📜 Lisensi dan atribusi
 
-दस्तावेज़ीकरण और रिपॉज़िटरी टेम्पलेट [MIT लाइसेंस](../../LICENSE) के अंतर्गत लाइसेंस प्राप्त हैं। मूल कैटलॉग तथ्य और
-संपादकीय YAML मेटाडेटा [CC0-1.0](../../LICENSE-CATALOG) के अंतर्गत समर्पित हैं। अपस्ट्रीम कोड, नाम, लोगो और स्क्रीनशॉट
-अपने मूल स्वामियों और लाइसेंसों के अंतर्गत रहते हैं। [docs/CREDIT.md](../../docs/CREDIT.md) और
-[docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md) देखें।
+Dokumentasi dan templat repositori dilisensikan di bawah [Lisensi MIT](../../LICENSE). Fakta
+katalog asli dan metadata editorial YAML didedikasikan di bawah [CC0-1.0](../../LICENSE-CATALOG).
+Kode, nama, logo, dan tangkapan layar hulu tetap berada di bawah pemilik dan lisensi aslinya.
+Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ अगर इस कैटलॉग ने आपको कोई प्लगइन खोजने में मदद की, तो रिपो को स्टार करें — इससे निर्माताओं को खोजे जाने में मदद मिलती है।
+### ⭐ Jika katalog ini membantu Anda menemukan plugin, beri bintang pada repositorinya — ini membantu para kreator ditemukan.
 
-**[वेबसाइट पर सभी प्लगइन ब्राउज़ करें →](https://dsh-plugins.omniroute.online)**
+**[Jelajahi semua plugin di situs web →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

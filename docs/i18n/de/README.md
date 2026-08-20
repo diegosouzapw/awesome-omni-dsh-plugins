@@ -16,7 +16,7 @@ Creator-first-Entdeckung und Ein-Befehl-Installation für **DeepSeek Harness (DS
   <a href="https://dsh-plugins.omniroute.online">Alle Plugins auf der Website durchsuchen, suchen und installieren →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -78,22 +78,22 @@ Creator-first-Entdeckung und Ein-Befehl-Installation für **DeepSeek Harness (DS
 
 Sortiert nach Sternen des exakten Repositorys — es zählen nur Sterne, die das eigene Repository des Plugins erhalten hat, niemals die eines übergeordneten Projekts ([Ranking-Prädikat](../../docs/RANKING.md)). Jeder Name verlinkt auf das Repository des Erstellers, fixiert auf den exakten Commit, den der Katalog validiert hat.
 
-| # | Plugin | Ersteller | ★ | Kategorie | Was es macht |
+| #   | Plugin | Ersteller | ★ | Kategorie | Was es macht |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline-Visualisierung: Das Modell rendert interaktive Diagramme und Grafiken direkt in der Sitzung |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Heiß einsteckbares transparentes Desktop-Haustier (Remielle, Zenless Zone Zero) für die DSH-Web-GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animiertes Wal-Mädchen-Maskottchen Kanban Musume, das auf Dashboard-Aktivität reagiert |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Curses-artiger Vollbild-Terminal-Chat-Client zur Steuerung von dsh-Sitzungen |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interaktive pi-tui-Terminal-Eingangstür: Sitzungsauswahl, Streaming-Chat, Tastenkürzel |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Optionales erweitertes Tavily-Suchwerkzeug mit Mehrschlüsselverwaltung und Nutzungsanzeige |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Schwebendes Bilibili-Video-Widget: Empfehlungen, Trends, Ranglisten und Suche |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Erscheinungsbild-Plugin: eingebaute Paletten, Hell-/Dunkel-/Systemmodus, VS-Code-Themes |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Nicht kommerzieller Arknights-Astralgarten-Skin mit Pramanix und Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-authentifizierte WebSocket-Bridge für die begleitende Browser-Erweiterung |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in-Vision für reine Text-LLMs, angetrieben von der kostenlosen Antigravity-CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-Web-Plugin: eine VSCode-artige rechte Seitenleiste (Explorer / Editor / Terminal / Git / Browser), isoliert pro… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Augen für reine Text-DeepSeek-Harness-Agenten: eingebaute kostenlose Vision-Kette (kein Schlüssel) + pixelgenaue Vision-Werkzeuge… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek-Harness-native Integration für agent-vision-toolkit: Bild-Fragen und -Antworten, OCR, Grounding, UI-Wiederherstellung,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-Werbe-Befall-Plugin: lokalisierte chinesische Portal-Werbung und englische Betrugs-Werbe-Parodie, mit gefälschten Pop-ups, einer… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI für DeepSeek Harness: interaktive UI-Komponenten, inline in Antworten des Assistenten gerendert über dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ein interaktives Terminal-UI-Plugin für den offiziellen DeepSeek Harness — Streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline-Visualisierung für DeepSeek Harness: ein visualize-Tool plus gebündelter Skill lassen das Modell rendern… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Ein Anime-Suchplugin für DeepSeek Harness: ein anime_find_search-Tool aggregiert Mikan, AniBT und… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH-Undo/Rollback-System: Snapshot von Konfigurationsdateien bei Änderung, Undo/Redo der letzten Aktion über die WebUI oder per… |
 
 <div align="center">
 
-### 👉 👉 [**Alle Plugins durchsuchen, Details lesen und den Installationsbefehl auf der Website kopieren →**](https://dsh-plugins.omniroute.online) 👈 👈
+### 👉 [**Alle Plugins durchsuchen, Details lesen und den Installationsbefehl auf der Website kopieren →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
@@ -101,19 +101,27 @@ Sortiert nach Sternen des exakten Repositorys — es zählen nur Sterne, die das
 
 | Surface     | Was es ist                                                       | Wo                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Website** | Gerenderter Katalog-Browser mit Suche und Ranking | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
-| **Katalog** | Eine YAML-Datei pro Plugin, die einzige Quelle der Wahrheit | [`catalog/plugins/`](../../catalog/plugins) |
-| **Schema** | Öffentliches JSON Schema (draft 2020-12), gegen das jeder Eintrag validiert wird | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | Suchen, inspizieren, validieren und installieren aus dem Katalog heraus | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Maschinen-Feeds** | `catalog.json` + `catalog.snapshot.json` für Tools | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Website** | Gerenderter Katalog-Browser mit Suche und Ranking                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalog** | Eine YAML-Datei pro Plugin, die einzige Quelle der Wahrheit             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Schema**  | Öffentliches JSON Schema (draft 2020-12), gegen das jeder Eintrag validiert wird | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Suchen, inspizieren, validieren und installieren aus dem Katalog heraus           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Maschinen-Feeds** | `catalog.json` + `catalog.snapshot.json` für Werkzeuge           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Dieses Repository ist die öffentliche Quelle der Wahrheit für den Katalog. Jeder Eintrag ist eine YAML-Datei unter `catalog/plugins/`, validiert gegen ein veröffentlichtes JSON Schema, hinzugefügt über einen einzeln geprüften Pull Request und stets dem ursprünglichen Ersteller des Plugins zugeschrieben. Nichts im Katalog wird aus einem anderen Katalog oder einer anderen Liste generiert: Jeder Eintrag wird aus dem ursprünglichen Repository des Erstellers, an einem fixierten Commit, rekonstruiert.
+Dieses Repository ist die öffentliche Quelle der Wahrheit für den Katalog. Jeder Eintrag ist eine
+YAML-Datei unter `catalog/plugins/`, validiert gegen ein veröffentlichtes JSON Schema, hinzugefügt
+über einen einzeln geprüften Pull Request und stets dem ursprünglichen Ersteller des Plugins
+zugeschrieben. Nichts im Katalog wird aus einem anderen Katalog oder einer anderen Liste generiert:
+Jeder Eintrag wird aus dem ursprünglichen Repository des Erstellers, an einem fixierten Commit,
+rekonstruiert.
 
-Die Website und die CLI werden aus privatem Quellcode gepflegt; dieses Repository enthält die öffentlichen Katalogdaten, das Schema und die Richtlinien, die sie nutzen.
+Die Website und die CLI werden aus privatem Quellcode gepflegt; dieses Repository enthält die
+öffentlichen Katalogdaten, das Schema und die Richtlinien, die sie nutzen.
 
 ## Katalogstatus
 
-**10 Plugins zusammengeführt.** Jedes Plugin gelangt über einen einzeln geprüften Pull Request, einen nach dem anderen, aus dem ursprünglichen Repository des Erstellers hinein, mit einem fixierten Quell-Commit und expliziter Zuschreibung.
+**160 Plugins zusammengeführt.** Jedes Plugin gelangt über einen einzeln geprüften Pull Request,
+einen nach dem anderen, aus dem ursprünglichen Repository des Erstellers hinein, mit einem
+fixierten Quell-Commit und expliziter Zuschreibung.
 
 ## 🚀 Die CLI installieren
 
@@ -121,14 +129,18 @@ Die Website und die CLI werden aus privatem Quellcode gepflegt; dieses Repositor
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Das gescopte Paket wird als `@diegosouza.pw/dsh-plugins@0.1.0` veröffentlicht, und der obige Befehl ist heute der kanonische Aufruf; hier wird kein Installationsskript gehostet.
+Das gescopte Paket wird als `@diegosouza.pw/dsh-plugins@0.1.0` veröffentlicht, und der obige Befehl
+ist heute der kanonische Aufruf; hier wird kein Installationsskript gehostet.
 
 ### Die CLI heute nutzen
 
-Version 0.1.0 liefert schreibgeschützte Discovery- und Validierungsbefehle sowie durch Zustimmung abgesicherte Installationsbefehle. Die vollständige Befehlsreferenz, einschließlich Flags, Exit-Codes und dem Zustimmungs-Gate für die Codeausführung, befindet sich in [docs/CLI.md](../../docs/CLI.md).
+Version 0.1.0 liefert schreibgeschützte Discovery- und Validierungsbefehle sowie durch Zustimmung
+abgesicherte Installationsbefehle. Die vollständige Befehlsreferenz, einschließlich Flags,
+Exit-Codes und dem Zustimmungs-Gate für die Codeausführung, befindet sich in
+[docs/CLI.md](../../docs/CLI.md).
 
 | Befehl                        | Was er macht                                                        | Greift er in Ihr System ein?                    |
-| ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
+| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
 | `catalog validate --catalog .` | Validiert das Katalog-YAML, das Schema und die lokale Semantik | Nein — schreibgeschützt |
 | `search <query...>` | Durchsucht öffentliche Katalogfelder lokal | Nein — schreibgeschützt |
 | `info <id>` | Zeigt einen öffentlichen Katalogeintrag an | Nein — schreibgeschützt |
@@ -149,32 +161,37 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Verändernde Befehle (`add`, `update`, `remove`) führen niemals Plugin-Lifecycle-Code aus, es sei denn, Sie übergeben `--allow-code-execution`. Unter nativem Windows sind diese Änderungen in v0.1.0 deaktiviert; verwenden Sie WSL. Schreibgeschützte Befehle und Dry-Run-Befehle funktionieren überall.
+Verändernde Befehle (`add`, `update`, `remove`) führen niemals Plugin-Lifecycle-Code aus, es sei
+denn, Sie übergeben `--allow-code-execution`. Unter nativem Windows sind diese Änderungen in v0.1.0
+deaktiviert; verwenden Sie WSL. Schreibgeschützte Befehle und Dry-Run-Befehle funktionieren überall.
 
 ## 🔍 Wie ein Plugin in den Katalog gelangt
 
-```mermaid
-flowchart LR
-    A["Repository des Erstellers<br/>(fixierter Commit)"] --> B["Ein Branch,<br/>ein PR,<br/>ein YAML-Eintrag"]
-    B --> C["catalog-validation CI<br/>(Schema + lokale Semantik)"]
-    C --> D["Maintainer-Gates<br/>(Identität, Ersteller-Bindung,<br/>fixierter Nachweis)"]
-    D --> E["catalog/plugins/*.yaml<br/>zusammengeführt"]
-    E --> F["Website"]
-    E --> G["CLI"]
-    E --> H["catalog.json-Feeds"]
-```
+![Wie ein Plugin in den Katalog gelangt](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Wie ein Plugin in den Katalog gelangt](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Ein Plugin, ein Branch, ein Pull Request.** Der PR fügt genau eine YAML-Datei unter `catalog/plugins/` hinzu oder ändert sie.
-2. **Creator-first.** Ein vom Ersteller des Plugins oder der besitzenden Organisation eröffneter PR hat für dasselbe Plugin immer Vorrang vor Community-Kuration oder Automatisierung — siehe [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Nachweis aus der Originalquelle.** Jedes Feld wird aus dem Repository des Erstellers rekonstruiert, an einem fixierten 40-Zeichen-Commit: Beschreibung, Lizenz, DSH-Integration, Installationsdeskriptor, Sterne.
-4. **Lokale Validierung.** `catalog validate` prüft Struktur und lokale Semantik; es ist derselbe Check, den der CI-Job `catalog-validation` auf dem PR ausführt.
-5. **Maintainer-Gates.** Vor dem Merge verifizieren die Maintainer separat die Repository-Identität, die Ersteller-Bindung und den fixierten Nachweis. Eine grüne lokale Validierung ist notwendig, aber nie hinreichend.
+1. **Ein Plugin, ein Branch, ein Pull Request.** Der PR fügt genau eine YAML-Datei unter
+   `catalog/plugins/` hinzu oder ändert sie.
+2. **Creator-first.** Ein vom Ersteller des Plugins oder der besitzenden Organisation eröffneter PR
+   hat für dasselbe Plugin immer Vorrang vor Community-Kuration oder Automatisierung — siehe
+   [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Nachweis aus der Originalquelle.** Jedes Feld wird aus dem Repository des Erstellers
+   rekonstruiert, an einem fixierten 40-Zeichen-Commit: Beschreibung, Lizenz, DSH-Integration,
+   Installationsdeskriptor, Sterne.
+4. **Lokale Validierung.** `catalog validate` prüft Struktur und lokale Semantik; es ist derselbe
+   Check, den der CI-Job `catalog-validation` auf dem PR ausführt.
+5. **Maintainer-Gates.** Vor dem Merge verifizieren die Maintainer separat die
+   Repository-Identität, die Ersteller-Bindung und den fixierten Nachweis. Eine grüne lokale
+   Validierung ist notwendig, aber nie hinreichend.
 
-Der vollständige Vertrag — erforderliche Nachweise, YAML-Regeln, Sterne-Richtlinie, Kollisionsbehandlung und die Prüf-Gates — steht in [CONTRIBUTING.md](../../CONTRIBUTING.md). Wie Entscheidungen getroffen werden und von wem, steht in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Der vollständige Vertrag — erforderliche Nachweise, YAML-Regeln, Sterne-Richtlinie,
+Kollisionsbehandlung und die Prüf-Gates — steht in [CONTRIBUTING.md](../../CONTRIBUTING.md). Wie
+Entscheidungen getroffen werden und von wem, steht in [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomie eines Eintrags
 
-Jeder Eintrag ist eine nach seiner ID benannte YAML-Datei. Das folgende Beispiel validiert gegen das aktuelle Schema (Feld-für-Feld-Referenz in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Jeder Eintrag ist eine nach seiner ID benannte YAML-Datei. Das folgende Beispiel validiert gegen das
+aktuelle Schema (Feld-für-Feld-Referenz in [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -226,31 +243,52 @@ provenance:
 Wichtige, vom Schema erzwungene Invarianten:
 
 - `unofficial: true` und `schemaVersion: 1` sind Konstanten.
-- Ein Monorepo-Plugin muss `stars: null` verwenden — Sterne des übergeordneten Projekts werden niemals übernommen.
-- Der Installationsdeskriptor ist entweder ein npm-Paket mit exakter Version oder die fixierte Quelle selbst; es sind Daten, niemals ein Shell-Befehl.
-- Der Status `verified` erfordert überprüfbare Smoke-Test-Nachweise; andernfalls ist der Eintrag `eligible` mit `smokeTest: null`.
+- Ein Monorepo-Plugin muss `stars: null` verwenden — Sterne des übergeordneten Projekts werden
+  niemals übernommen.
+- Der Installationsdeskriptor ist entweder ein npm-Paket mit exakter Version oder die fixierte
+  Quelle selbst; es sind Daten, niemals ein Shell-Befehl.
+- Der Status `verified` erfordert überprüfbare Smoke-Test-Nachweise; andernfalls ist der Eintrag
+  `eligible` mit `smokeTest: null`.
 
 ## 🗂 Was hierher gehört
 
-Dieses Repository katalogisiert unabhängig veröffentlichte Integrationen für DeepSeek Harness (DSH), darunter native Plugins, Plugin-Familien, Themes, Skills, Clients und Bridges. Artefakttypen, Fähigkeitskategorien und Interface-Tags sind in [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definiert.
+Dieses Repository katalogisiert unabhängig veröffentlichte Integrationen für DeepSeek Harness
+(DSH), darunter native Plugins, Plugin-Familien, Themes, Skills, Clients und Bridges.
+Artefakttypen, Fähigkeitskategorien und Interface-Tags sind in
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md) definiert.
 
-Jeder öffentliche Eintrag ist eine YAML-Datei unter `catalog/plugins/` und muss gegen `schemas/plugin.schema.yaml` validieren. Ein Eintrag bedeutet, dass die dokumentierten Eignungs- oder Verifizierungsprüfungen abgeschlossen wurden; es ist keine Sicherheitszertifizierung und keine Empfehlung durch DeepSeek.
+Jeder öffentliche Eintrag ist eine YAML-Datei unter `catalog/plugins/` und muss gegen
+`schemas/plugin.schema.yaml` validieren. Ein Eintrag bedeutet, dass die dokumentierten
+Eignungs- oder Verifizierungsprüfungen abgeschlossen wurden; es ist keine Sicherheitszertifizierung
+und keine Empfehlung durch DeepSeek.
 
 ## 🏅 Ranking und Verifizierung
 
-Nur dedizierte, native, geeignete oder verifizierte Plugin-Repositorys mit Sternen, die exakt zu diesem Repository gehören, können in ein Sterne-Ranking eintreten. Integrationen, die in größeren Monorepos gespeichert sind, bleiben auffindbar, verwenden aber `stars: null` und übernehmen niemals die Sterne des übergeordneten Projekts. Das vollständige Prädikat steht in [docs/RANKING.md](../../docs/RANKING.md).
+Nur dedizierte, native, geeignete oder verifizierte Plugin-Repositorys mit Sternen, die exakt zu
+diesem Repository gehören, können in ein Sterne-Ranking eintreten. Integrationen, die in größeren
+Monorepos gespeichert sind, bleiben auffindbar, verwenden aber `stars: null` und übernehmen niemals
+die Sterne des übergeordneten Projekts. Das vollständige Prädikat steht in
+[docs/RANKING.md](../../docs/RANKING.md).
 
-Öffentliche Verifizierungsstatus unterscheiden strukturelle Eignung von einem Installations-Smoke-Test. Kein Status stellt absolute Sicherheit dar. Prüfen Sie vor der Nutzung das Repository des Plugins, den fixierten Commit, die Lizenz und das Installationsverhalten.
+Öffentliche Verifizierungsstatus unterscheiden strukturelle Eignung von einem
+Installations-Smoke-Test. Kein Status stellt absolute Sicherheit dar. Prüfen Sie vor der Nutzung
+das Repository des Plugins, den fixierten Commit, die Lizenz und das Installationsverhalten.
 
 ## 🤝 Beitragen oder einen Eintrag beanspruchen
 
-Lesen Sie [CONTRIBUTING.md](../../CONTRIBUTING.md), bevor Sie einen Pull Request öffnen. Ein Pull Request muss genau einen Plugin-Eintrag hinzufügen oder ändern und muss das ursprüngliche Repository des Erstellers zitieren, nicht einen anderen Katalog. Vom Ersteller verfasste Pull Requests haben Vorrang vor automatisierten Katalog-Pull-Requests.
+Lesen Sie [CONTRIBUTING.md](../../CONTRIBUTING.md), bevor Sie einen Pull Request öffnen. Ein Pull
+Request muss genau einen Plugin-Eintrag hinzufügen oder ändern und muss das ursprüngliche
+Repository des Erstellers zitieren, nicht einen anderen Katalog. Vom Ersteller verfasste Pull
+Requests haben Vorrang vor automatisierten Katalog-Pull-Requests.
 
-Für Ersteller-Ansprüche, Korrekturen und Entfernungen stehen strukturierte Issue-Formulare zur Verfügung. Übermitteln Sie niemals Zugangsdaten, private Kontaktinformationen oder andere Geheimnisse.
+Für Ersteller-Ansprüche, Korrekturen und Entfernungen stehen strukturierte Issue-Formulare zur
+Verfügung. Übermitteln Sie niemals Zugangsdaten, private Kontaktinformationen oder andere
+Geheimnisse.
 
 ## 👩‍🎨 Plugin-Ersteller
 
-Der Katalog existiert, weil diese Ersteller Plugins veröffentlicht haben. Jeder Eintrag schreibt seinem Ersteller die Urheberschaft zu und verlinkt zurück auf dessen Repository — immer.
+Der Katalog existiert, weil diese Ersteller Plugins veröffentlicht haben. Jeder Eintrag schreibt
+seinem Ersteller die Urheberschaft zu und verlinkt zurück auf dessen Repository — immer.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -263,7 +301,10 @@ Der Katalog existiert, weil diese Ersteller Plugins veröffentlicht haben. Jeder
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Möchten Sie Ihr Plugin hier mit vollständiger Namensnennung sehen? [Öffnen Sie einen PR mit einem YAML-Eintrag](../../CONTRIBUTING.md) — oder [beanspruchen Sie einen bestehenden Eintrag](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose), falls jemand Ihre Arbeit vor Ihnen katalogisiert hat.
+Möchten Sie Ihr Plugin hier mit vollständiger Namensnennung sehen?
+[Öffnen Sie einen PR mit einem YAML-Eintrag](../../CONTRIBUTING.md) — oder
+[beanspruchen Sie einen bestehenden Eintrag](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+falls jemand Ihre Arbeit vor Ihnen katalogisiert hat.
 
 ## 📚 Dokumentation
 
@@ -281,11 +322,18 @@ Möchten Sie Ihr Plugin hier mit vollständiger Namensnennung sehen? [Öffnen Si
 
 ## 🌐 Übersetzungen
 
-Diese README ist in 43 Sprachen unter [`docs/i18n/`](..) verfügbar — verwenden Sie den Flaggen-Selektor oben. Englisch ist die maßgebliche Quelle; weichen eine Übersetzung und der englische Text voneinander ab, gilt der englische Text. Korrekturen an jeder Übersetzung sind über normale Pull Requests willkommen.
+Diese README ist in 43 Sprachen unter [`docs/i18n/`](..) verfügbar — verwenden Sie den
+Flaggen-Selektor oben. Englisch ist die maßgebliche Quelle; weichen eine Übersetzung und der
+englische Text voneinander ab, gilt der englische Text. Korrekturen an jeder Übersetzung sind über
+normale Pull Requests willkommen.
 
 ## 📜 Lizenz und Zuschreibung
 
-Dokumentation und Repository-Vorlagen sind unter der [MIT-Lizenz](../../LICENSE) lizenziert. Ursprüngliche Katalogfakten und redaktionelle YAML-Metadaten sind unter [CC0-1.0](../../LICENSE-CATALOG) freigegeben. Upstream-Code, Namen, Logos und Screenshots verbleiben bei ihren ursprünglichen Eigentümern und Lizenzen. Siehe [docs/CREDIT.md](../../docs/CREDIT.md) und [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Dokumentation und Repository-Vorlagen sind unter der [MIT-Lizenz](../../LICENSE) lizenziert.
+Ursprüngliche Katalogfakten und redaktionelle YAML-Metadaten sind unter
+[CC0-1.0](../../LICENSE-CATALOG) freigegeben. Upstream-Code, Namen, Logos und Screenshots
+verbleiben bei ihren ursprünglichen Eigentümern und Lizenzen. Siehe
+[docs/CREDIT.md](../../docs/CREDIT.md) und [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
@@ -294,3 +342,5 @@ Dokumentation und Repository-Vorlagen sind unter der [MIT-Lizenz](../../LICENSE)
 **[Alle Plugins auf der Website durchsuchen →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

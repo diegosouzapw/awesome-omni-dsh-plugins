@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalogo na unang nagbibigay-priyoridad sa mga creator at isang-utos na pag-install para sa mga plugin ng DeepSeek Harness. Naka-pin na source commit, kinikilalang mga creator, isang na-review na PR bawat plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalogo na unang inuuna ang mga lumikha at pag-install na isang-command para sa mga plugin ng DeepSeek Harness. Nakapirming source commits, kinikredito ang mga lumikha, isang nasuring PR bawat plugin. dsh-plugins.omniroute.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
-> **Hindi opisyal na proyekto ng komunidad. Hindi kaugnay, inendorso, o inispansor ng DeepSeek.**
+> **Hindi opisyal na proyekto ng komunidad. Walang kaugnayan sa, hindi inendorso, at hindi itinataguyod ng DeepSeek.**
 > Ang mga pangalan at marka ng DeepSeek ay pag-aari ng kani-kanilang may-ari.
 
-Pagtuklas na unang nagbibigay-priyoridad sa mga creator at isang-utos na pag-install para sa mga plugin ng **DeepSeek Harness (DSH)**.
+Pagtuklas na unang inuuna ang mga lumikha at pag-install na isang-command para sa mga plugin ng **DeepSeek Harness (DSH)**.
 
 <h2>
   🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Mag-browse, maghanap at mag-install ng bawat plugin sa website →</a>
+  <a href="https://dsh-plugins.omniroute.online">Mag-browse, maghanap, at mag-install ng bawat plugin sa website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -74,46 +74,57 @@ Pagtuklas na unang nagbibigay-priyoridad sa mga creator at isang-utos na pag-ins
 
 ---
 
-## ⭐ Nangungunang 10 plugin
+## ⭐ Top 10 na plugin
 
-Inayos ayon sa eksaktong bituin ng repository — ang mga bituing kinita lamang ng sariling repository ng plugin ang binibilang, hindi kailanman ang sa isang parent project ([predicate ng ranggo](../../docs/RANKING.md)). Bawat pangalan ay naka-link sa repository ng creator, naka-pin sa eksaktong commit na na-validate ng katalogo.
+Inayos ayon sa bituin ng eksaktong repository — ang mga bituin lamang na kinamit ng sarili
+ninyong repository ng plugin ang binibilang, hindi kailanman ang sa isang parent project
+([predicate ng ranggo](../../docs/RANKING.md)). Bawat pangalan ay naka-link sa repository ng
+lumikha, nakapirmi sa eksaktong commit na na-validate ng katalogo.
 
-| # | Plugin | Creator | ★ | Kategorya | Ano ang ginagawa nito |
+| #   | Plugin | Lumikha | ★ | Kategorya | Ano ang ginagawa nito |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline na visualization: nagre-render ang modelo ng interactive na mga chart at diagram sa loob ng session |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Hot-pluggable na transparent na desktop pet (Remielle, Zenless Zone Zero) para sa web GUI ng DSH |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Animated na balyena-babae na Kanban Musume mascot na tumutugon sa aktibidad ng dashboard |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Full-screen curses-style na terminal chat client para sa pagpapatakbo ng mga dsh session |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Interactive na pi-tui terminal front door: session picker, streaming chat, keybindings |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Opt-in na advanced na search tool ng Tavily na may multi-key management at usage gauge |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Lumulutang na bilibili video widget: mga rekomendasyon, trending, ranking at paghahanap |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Plugin sa hitsura: built-in na palette, light/dark/system mode, mga tema ng VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Non-commercial na Arknights astral-garden skin na may Pramanix at Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Token-authenticated na WebSocket bridge para sa kasamang browser extension |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in na paningin para sa mga text-only na LLM, pinapagana ng libreng Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Web plugin ng DSH: isang right sidebar na estilo-VSCode (explorer / editor / terminal / git / browser), hiwalay bawat… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Mga mata para sa text-only na DeepSeek Harness agents: built-in na libreng vision chain (walang key) + mga vision tool sa antas ng pixel… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Native na integrasyon ng DeepSeek Harness para sa agent-vision-toolkit: Q&A ng larawan, OCR, grounding, UI restoration,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin ng DSH na "ad-infestation": naka-localize na mga Chinese portal ad at parody ng English scam-ad, may mga pekeng pop-up,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI para sa DeepSeek Harness: mga interactive UI component na ipinapakita nang inline sa mga sagot ng assistant sa pamamagitan ng dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: isang interactive na terminal UI plugin para sa opisyal na DeepSeek Harness — streaming… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline na visualization para sa DeepSeek Harness: isang visualize tool at kasamang skill ang nagpapahintulot sa modelo na gumuhit… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Isang anime search plugin para sa DeepSeek Harness: isang anime_find_search tool ang nag-iipon ng Mikan, AniBT at… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema ng undo/rollback ng DSH: kumukuha ng snapshot ng mga configuration file kapag nagbago ito, nag-a-undo/redo ng huling aksyon mula sa WebUI o sa pamamagitan ng… |
 
 <div align="center">
 
-### 👉 [**Hanapin ang lahat ng plugin, basahin ang mga detalye at kopyahin ang install command sa website →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Hanapin ang lahat ng plugin, basahin ang mga detalye, at kopyahin ang install command sa website →**](https://dsh-plugins.omniroute.online) 👈
 
 </div>
 
-## Sa isang tingin
+## Sa madaling salita
 
-| Surface | Ano ito | Saan |
+| Ibabaw     | Ano ito                                                       | Saan                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Website** | Nakarender na catalog browser na may paghahanap at ranggo | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
-| **Catalog** | Isang YAML file bawat plugin, ang nag-iisang pinagmumulan ng katotohanan | [`catalog/plugins/`](../../catalog/plugins) |
-| **Schema** | Pampublikong JSON Schema (draft 2020-12) na kinokompara ang bawat entry | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | Maghanap, suriin, i-validate at i-install mula sa katalogo | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
-| **Machine feeds** | `catalog.json` + `catalog.snapshot.json` para sa mga tool | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Website** | Naka-render na catalog browser na may paghahanap at ranggo                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Katalogo** | Isang YAML file bawat plugin, ang tanging pinagmumulan ng katotohanan             | [`catalog/plugins/`](../../catalog/plugins)                                    |
+| **Schema**  | Pampublikong JSON Schema (draft 2020-12) na kinukumpara ng bawat entry | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
+| **CLI**     | Naghahanap, sumusuri, nagva-validate, at nag-i-install mula sa katalogo           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **Machine feed** | `catalog.json` + `catalog.snapshot.json` para sa mga tool           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
-Ang repository na ito ang pampublikong pinagmumulan ng katotohanan para sa katalogo. Ang bawat listing ay isang YAML file sa ilalim ng `catalog/plugins/`, na-validate laban sa isang naipublikang JSON Schema, idinagdag sa pamamagitan ng isang indibidwal na na-review na pull request, at palaging kinikilala ang orihinal na creator ng plugin. Walang anuman sa katalogo ang ginawa mula sa ibang katalogo o listahan: ang bawat entry ay muling binuo mula sa orihinal na repository ng creator sa isang naka-pin na commit.
+Ang repository na ito ang pampublikong pinagmumulan ng katotohanan para sa katalogo. Bawat
+listahan ay isang YAML file sa ilalim ng `catalog/plugins/`, na na-validate laban sa
+inilathalang JSON Schema, idinagdag sa pamamagitan ng isang isa-isang sinuring pull request,
+at palaging kinikredito sa orihinal na lumikha ng plugin. Wala sa katalogo ang nabuo mula sa
+ibang katalogo o listahan: bawat entry ay muling itinayo mula sa orihinal na repository ng
+lumikha, sa isang nakapirming commit.
 
-Ang website at CLI ay pinapanatili mula sa pribadong source; dala ng repository na ito ang pampublikong data ng katalogo, schema, at mga patakarang ginagamit nila.
+Ang website at ang CLI ay pinapanatili mula sa pribadong source; taglay ng repository na ito
+ang pampublikong data ng katalogo, ang schema, at ang mga patakarang ginagamit nila.
 
-## Status ng katalogo
+## Katayuan ng katalogo
 
-**10 plugin na ang na-merge.** Ang bawat plugin ay pumapasok sa pamamagitan ng isang indibidwal na na-review na pull request, isa-isa, mula sa orihinal na repository ng creator, na may naka-pin na source commit at malinaw na atribusyon.
+**160 na plugin ang na-merge.** Bawat plugin ay pumapasok sa pamamagitan ng isang isa-isang
+sinuring pull request, isa-isa, mula sa orihinal na repository ng lumikha, may nakapirming
+source commit at malinaw na attribution.
 
 ## 🚀 I-install ang CLI
 
@@ -121,21 +132,25 @@ Ang website at CLI ay pinapanatili mula sa pribadong source; dala ng repository 
 npx @diegosouza.pw/dsh-plugins --help
 ```
 
-Ang scoped na package ay inilalathala bilang `@diegosouza.pw/dsh-plugins@0.1.0` at ang command sa itaas ang pamantayang paraan sa paggamit ngayon; walang naka-host na installer script dito.
+Ang scoped package ay inilathala bilang `@diegosouza.pw/dsh-plugins@0.1.0` at ang command sa
+itaas ang canonical na paraan ng pagtawag ngayon; walang install script na naka-host dito.
 
 ### Gamitin ang CLI ngayon
 
-Ang bersyon 0.1.0 ay naglalaman ng read-only na mga command para sa discovery at validation kasama ang mga install command na may consent gate. Ang buong command reference, kasama ang mga flag, exit code, at ang code-execution consent gate, ay nasa [docs/CLI.md](../../docs/CLI.md).
+Nagdadala ang bersyon 0.1.0 ng mga read-only na command para sa pagtuklas at pag-validate,
+kasama ang mga install command na may consent gate. Ang kumpletong sanggunian ng command,
+kasama ang mga flag, exit code, at ang consent gate para sa pagpapatakbo ng code, ay
+matatagpuan sa [docs/CLI.md](../../docs/CLI.md).
 
-| Command | Ano ang ginagawa nito | May hinahawakan ba ito sa system mo? |
+| Command                        | Ano ang ginagawa nito                                                        | Ginagalaw ba nito ang inyong sistema?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | I-validate ang catalog YAML, schema at lokal na semantics | Hindi — read-only |
-| `search <query...>` | Maghanap ng mga pampublikong catalog field nang lokal | Hindi — read-only |
-| `info <id>` | Ipakita ang isang pampublikong catalog entry | Hindi — read-only |
-| `list` | Ilista ang mga install na pinamamahalaan ng katalogo nang hindi binabago ang mga profile | Hindi — read-only |
-| `doctor` | Read-only na diagnostics para sa Node, DSH, native na Windows policy at katalogo | Hindi — read-only |
-| `add <id> --profile <name> --dry-run` | Ipakita ang na-verify na install plan nang walang file o subprocess | Hindi — dry-run |
-| `add <id> --profile <name> --allow-code-execution` | Mag-install sa pamamagitan ng opisyal na delegasyon ng DSH | Oo — sa flag lamang ng malinaw na pahintulot |
+| `catalog validate --catalog .` | Nagva-validate ng YAML ng katalogo, schema, at lokal na semantics                   | Hindi — read-only                          |
+| `search <query...>`            | Naghahanap ng mga pampublikong field ng katalogo nang lokal                                | Hindi — read-only                          |
+| `info <id>`                    | Ipinapakita ang isang pampublikong entry ng katalogo                                       | Hindi — read-only                          |
+| `list`                         | Nililista ang mga install na pinamamahalaan ng katalogo nang hindi binabago ang mga profile            | Hindi — read-only                          |
+| `doctor`                       | Read-only na diagnostics para sa Node, DSH, native na patakaran ng Windows, at katalogo  | Hindi — read-only                          |
+| `add <id> --profile <name> --dry-run` | Ipinapakita ang na-verify na install plan nang walang file o subprocess | Hindi — dry-run                            |
+| `add <id> --profile <name> --allow-code-execution` | Nag-i-install sa pamamagitan ng opisyal na delegasyon ng DSH        | Oo — sa pamamagitan lamang ng malinaw na consent flag   |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -149,32 +164,39 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 ```
 
-Ang mga mutating command (`add`, `update`, `remove`) ay hindi kailanman nagpapatakbo ng plugin lifecycle code maliban kung ipapasa mo ang `--allow-code-execution`. Sa native na Windows, naka-disable ang mga mutation na ito sa v0.1.0; gumamit ng WSL. Gumagana kahit saan ang mga read-only at dry-run na command.
+Ang mga command na nagmumutate (`add`, `update`, `remove`) ay hindi kailanman nagpapatakbo
+ng lifecycle code ng plugin maliban kung ipapasa ninyo ang `--allow-code-execution`. Sa
+native na Windows, naka-disable ang mga mutation na ito sa v0.1.0; gamitin ang WSL. Ang mga
+read-only at dry-run na command ay gumagana kahit saan.
 
 ## 🔍 Paano pumapasok ang isang plugin sa katalogo
 
-```mermaid
-flowchart LR
-    A["Repository ng creator<br/>(naka-pin na commit)"] --> B["Isang branch,<br/>isang PR,<br/>isang YAML entry"]
-    B --> C["catalog-validation CI<br/>(schema + lokal na semantics)"]
-    C --> D["Mga gate ng maintainer<br/>(pagkakakilanlan, pagbuklod sa creator,<br/>naka-pin na ebidensya)"]
-    D --> E["catalog/plugins/*.yaml<br/>na-merge"]
-    E --> F["Website"]
-    E --> G["CLI"]
-    E --> H["Mga feed ng catalog.json"]
-```
+![Paano pumapasok ang isang plugin sa katalogo](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Paano pumapasok ang isang plugin sa katalogo](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
-1. **Isang plugin, isang branch, isang pull request.** Ang PR ay nagdaragdag o nagbabago ng eksaktong isang YAML file sa ilalim ng `catalog/plugins/`.
-2. **Creator ang unang priyoridad.** Ang PR na binuksan ng creator ng plugin o ang organisasyong may-ari nito ay laging nauuna sa community curation o automation para sa parehong plugin — tingnan ang [docs/CREDIT.md](../../docs/CREDIT.md).
-3. **Ebidensya mula sa orihinal na source.** Ang bawat field ay muling binuo mula sa repository ng creator sa isang naka-pin na 40-karakter na commit: paglalarawan, lisensya, integrasyon ng DSH, install descriptor, mga bituin.
-4. **Lokal na validation.** Sinusuri ng `catalog validate` ang istruktura at lokal na semantics; ito rin ang parehong check na pinapatakbo ng `catalog-validation` CI job sa PR.
-5. **Mga gate ng maintainer.** Bago mag-merge, hiwalay na beinerify ng mga maintainer ang pagkakakilanlan ng repository, pagbuklod sa creator, at naka-pin na ebidensya. Kailangan ang berdeng lokal na validation, ngunit hindi ito kailanman sapat.
+1. **Isang plugin, isang branch, isang pull request.** Ang PR ay nagdaragdag o nagbabago ng
+   eksaktong isang YAML file sa ilalim ng `catalog/plugins/`.
+2. **Unahin ang lumikha.** Ang isang PR na binuksan ng lumikha ng plugin o ng organisasyong
+   may-ari ay palaging mananaig kaysa sa community curation o automation para sa parehong
+   plugin — tingnan ang [docs/CREDIT.md](../../docs/CREDIT.md).
+3. **Ebidensya mula sa orihinal na source.** Bawat field ay muling itinayo mula sa repository
+   ng lumikha, sa isang nakapirming 40-character commit: paglalarawan, lisensya,
+   integrasyon ng DSH, install descriptor, mga bituin.
+4. **Lokal na validation.** Sinusuri ng `catalog validate` ang istruktura at lokal na
+   semantics; ito ang parehong pagsusuri na isinasagawa ng CI job na `catalog-validation` sa
+   PR.
+5. **Mga gate ng maintainer.** Bago ang merge, hiwalay na beripikahin ng mga maintainer ang
+   pagkakakilanlan ng repository, ang pagkakaugnay sa lumikha, at ang nakapirming ebidensya.
+   Kailangan ang berdeng lokal na validation, ngunit hindi ito kailanman sapat.
 
-Ang buong kontrata — kinakailangang ebidensya, mga panuntunan sa YAML, patakaran sa bituin, paghawak sa banggaan, at mga review gate — ay nasa [CONTRIBUTING.md](../../CONTRIBUTING.md). Kung paano ginagawa ang mga desisyon at ng sino ay nasa [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+Ang kumpletong kontrata — kinakailangang ebidensya, mga tuntunin ng YAML, patakaran sa
+bituin, paghawak ng banggaan, at ang mga gate ng review — ay nasa [CONTRIBUTING.md](../../CONTRIBUTING.md).
+Kung paano ginagawa ang mga desisyon at ng sino ay nasa [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomiya ng isang entry
 
-Ang bawat entry ay isang YAML file na pinangalanan ayon sa ID nito. Ang halimbawa sa ibaba ay na-validate laban sa kasalukuyang schema (field-by-field na reference sa [docs/SCHEMA.md](../../docs/SCHEMA.md)):
+Bawat entry ay isang YAML file na pinangalanan ayon sa ID nito. Ang halimbawa sa ibaba ay
+nagva-validate laban sa kasalukuyang schema (sanggunian nang field-by-field sa [docs/SCHEMA.md](../../docs/SCHEMA.md)):
 
 ```yaml
 schemaVersion: 1
@@ -223,34 +245,56 @@ provenance:
   comment: null
 ```
 
-Mga pangunahing invariant na pinapatupad ng schema:
+Mga pangunahing invariant na ipinapatupad ng schema:
 
-- Ang `unofficial: true` at `schemaVersion: 1` ay mga constant.
-- Ang isang monorepo na plugin ay dapat gumamit ng `stars: null` — ang mga bituin ng parent project ay hindi kailanman namamana.
-- Ang install descriptor ay maaaring isang exact-version na npm package o ang naka-pin na source mismo; datos ito, hindi kailanman shell command.
-- Kailangan ng status na `verified` ang na-verify na smoke-test evidence; kung hindi, ang entry ay `eligible` na may `smokeTest: null`.
+- `unofficial: true` at `schemaVersion: 1` ay mga constant.
+- Ang isang monorepo na plugin ay dapat gumamit ng `stars: null` — ang mga bituin ng parent
+  project ay hindi kailanman namamana.
+- Ang install descriptor ay maaaring isang npm package na may eksaktong bersyon, o ang
+  mismong nakapirming source; ito ay data, hindi kailanman isang shell command.
+- Ang status na `verified` ay nangangailangan ng nasusuring ebidensya ng smoke test; kung
+  hindi, ang entry ay `eligible` na may `smokeTest: null`.
 
-## 🗂 Ano ang nabibilang dito
+## 🗂 Ano ang kabilang dito
 
-Ang repository na ito ay nagkakatalogo ng mga independiyenteng inilathalang integration para sa DeepSeek Harness (DSH), kabilang ang mga native na plugin, plugin family, tema, skill, client, at bridge. Ang mga uri ng artifact, kategorya ng kakayahan, at mga interface tag ay tinutukoy sa [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
+Kinakatalogo ng repository na ito ang mga integrasyong independiyenteng inilathala para sa
+DeepSeek Harness (DSH), kabilang ang mga native plugin, pamilya ng plugin, tema, skill,
+client, at bridge. Ang mga uri ng artifact, kategorya ng kakayahan, at interface tag ay
+tinukoy sa [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
-Ang bawat pampublikong record ay isang YAML file sa ilalim ng `catalog/plugins/` at dapat mag-validate laban sa `schemas/plugin.schema.yaml`. Ang pagiging naka-lista ay nangangahulugang natapos na ang mga naka-dokumentong pagsusuri sa pagiging kwalipikado o pag-verify; hindi ito security certification o pag-endorso ng DeepSeek.
+Bawat pampublikong record ay isang YAML file sa ilalim ng `catalog/plugins/` at dapat
+mag-validate laban sa `schemas/plugin.schema.yaml`. Ang isang listahan ay nangangahulugang
+natapos na ang mga naka-dokumentong pagsusuri sa pagiging kwalipikado o beripikasyon; hindi
+ito isang sertipikasyon sa seguridad o pag-endorso ng DeepSeek.
 
-## 🏅 Ranggo at pag-verify
+## 🏅 Ranggo at beripikasyon
 
-Tanging ang dedicated, native, kwalipikado, o na-verify na mga repository ng plugin na ang mga bituin ay pag-aari mismo ng eksaktong repository na iyon ang maaaring makapasok sa ranggo ng bituin. Ang mga integration na naka-imbak sa loob ng mas malawak na monorepo ay nananatiling matutuklasan ngunit gumagamit ng `stars: null` at hindi kailanman namamana ang mga bituin ng parent project. Tingnan ang [docs/RANKING.md](../../docs/RANKING.md) para sa kumpletong predicate.
+Tanging ang mga dedicated, native, kwalipikado, o na-verify na repository ng plugin na may
+mga bituing pag-aari ng eksaktong repository na iyon ang maaaring makapasok sa isang ranggo
+ng bituin. Ang mga integrasyong nakaimbak sa loob ng mas malawak na monorepo ay nananatiling
+madidiskubre, ngunit gumagamit ng `stars: null` at hindi kailanman namamana ang mga bituin ng
+parent project. Tingnan ang [docs/RANKING.md](../../docs/RANKING.md) para sa kumpletong predicate.
 
-Ang mga pampublikong estado ng pag-verify ay ibinubukod ang structural eligibility mula sa isang installation smoke test. Walang estadong kumakatawan sa ganap na kaligtasan. Suriin ang repository, naka-pin na commit, lisensya, at gawi sa pag-install ng isang plugin bago ito gamitin.
+Ang mga pampublikong estado ng beripikasyon ay naghihiwalay ng structural eligibility mula sa
+isang installation smoke test. Walang estado ang kumakatawan sa ganap na kaligtasan. Suriin
+ang repository ng plugin, ang nakapirming commit, ang lisensya, at ang pag-uugali ng
+pag-install bago ito gamitin.
 
 ## 🤝 Mag-ambag o mag-claim ng entry
 
-Basahin ang [CONTRIBUTING.md](../../CONTRIBUTING.md) bago magbukas ng pull request. Ang isang pull request ay dapat magdagdag o magbago ng eksaktong isang plugin entry at dapat banggitin ang orihinal na repository ng creator sa halip na ibang katalogo. Ang mga pull request na isinulat ng creator ay nauuna sa mga awtomatikong pull request ng katalogo.
+Basahin ang [CONTRIBUTING.md](../../CONTRIBUTING.md) bago magbukas ng pull request. Ang isang
+pull request ay dapat magdagdag o magbago ng eksaktong isang plugin entry at dapat banggitin
+ang orihinal na repository ng lumikha sa halip na ibang katalogo. Ang mga pull request na
+ginawa ng lumikha ay mananaig kaysa sa mga awtomatikong pull request ng katalogo.
 
-May available na structured na issue form para sa mga claim ng creator, pagwawasto, at pagtanggal. Huwag kailanman magsumite ng credential, pribadong detalye ng contact, o iba pang lihim.
+Available ang mga structured issue form para sa mga claim ng lumikha, pagwawasto, at
+pag-alis. Huwag kailanman magpadala ng mga kredensyal, pribadong detalye ng pakikipag-ugnayan,
+o iba pang sekreto.
 
-## 👩‍🎨 Mga creator ng plugin
+## 👩‍🎨 Mga lumikha ng plugin
 
-Umiiral ang katalogo dahil naglabas ang mga creator na ito ng mga plugin. Bawat entry ay kumikilala sa kanilang creator at laging naka-link pabalik sa kanilang repository.
+Umiiral ang katalogo dahil naglabas ang mga lumikhang ito ng mga plugin. Bawat entry ay
+kinikredito ang kanyang lumikha at nag-uugnay pabalik sa kanilang repository — palagi.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
 <a href="https://github.com/Gin-7" title="@Gin-7 — dsh-pet-remielle"><img src="https://github.com/Gin-7.png?size=64" width="64" height="64" alt="@Gin-7"/></a>
@@ -263,34 +307,46 @@ Umiiral ang katalogo dahil naglabas ang mga creator na ito ng mga plugin. Bawat 
 <a href="https://github.com/DocJlm" title="@DocJlm — dsh-arknights"><img src="https://github.com/DocJlm.png?size=64" width="64" height="64" alt="@DocJlm"/></a>
 <a href="https://github.com/Lum1104" title="@Lum1104 — dsh-bridge-browser"><img src="https://github.com/Lum1104.png?size=64" width="64" height="64" alt="@Lum1104"/></a>
 
-Gusto mo bang narito ang iyong plugin nang may buong credit? [Magbukas ng isang PR na may isang YAML entry](../../CONTRIBUTING.md) — o [mag-claim ng umiiral na entry](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose) kung may nagkatalogo na ng iyong trabaho bago ka.
+Gusto ninyong makita rito ang inyong plugin na may buong kredito? [Magbukas ng isang PR na may
+isang YAML entry](../../CONTRIBUTING.md) — o [mag-claim ng umiiral nang entry](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/issues/new/choose)
+kung mayroon nang nagkatalogo ng inyong trabaho bago ninyo ito ginawa.
 
 ## 📚 Dokumentasyon
 
-| Dokumento | Ano ang saklaw nito |
-| --------------------------------------------- | ---------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md) | Ang buong kontrata ng pag-ambag: ebidensya, mga panuntunan sa YAML, review gate |
-| [SECURITY.md](../../SECURITY.md) | Pag-uulat ng mga vulnerability sa plugin o katalogo; patakaran sa lihim |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md) | Field-by-field na reference para sa `schemas/plugin.schema.yaml` |
-| [docs/CLI.md](../../docs/CLI.md) | CLI command reference para sa `@diegosouza.pw/dsh-plugins@0.1.0` |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | Kung paano pinapamahalaan ang katalogo: priyoridad, gate, mga claim at pagtanggal |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | Mga uri ng artifact, pangunahing kategorya ng kakayahan, tag, saklaw ng repository |
-| [docs/CREDIT.md](../../docs/CREDIT.md) | Credit ng creator, priyoridad ng PR at patakaran sa pagkakakilanlan ng Git |
-| [docs/RANKING.md](../../docs/RANKING.md) | Ang pampublikong ranking predicate at mga estado ng pag-verify |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md) | Hindi opisyal na status at pananaw sa trademark |
+| Dokumento                                     | Ano ang sinasaklaw nito                                                       |
+| -------------------------------------------- | -------------------------------------------------------------------- |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Ang kumpletong kontrata ng pag-aambag: ebidensya, tuntunin ng YAML, gate ng review    |
+| [SECURITY.md](../../SECURITY.md)                   | Pag-uulat ng mga kahinaan ng plugin o katalogo; patakaran sa sekreto           |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Sanggunian nang field-by-field para sa `schemas/plugin.schema.yaml`             |
+| [docs/CLI.md](../../docs/CLI.md)                   | Sanggunian ng CLI command para sa `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Kung paano pinapamahalaan ang katalogo: prayoridad, gate, claim, at pag-alis   |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Mga uri ng artifact, pangunahing kategorya ng kakayahan, tag, saklaw ng repository |
+| [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredito sa lumikha, prayoridad ng PR, at patakaran sa pagkakakilanlan sa Git                 |
+| [docs/RANKING.md](../../docs/RANKING.md)           | Ang pampublikong predicate ng ranggo at ang mga estado ng beripikasyon                  |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Katayuang hindi opisyal at paninindigan sa trademark                               |
 
 ## 🌐 Mga salin
 
-Available ang README na ito sa 43 wika sa ilalim ng [`docs/i18n/`](..) — gamitin ang flag selector sa itaas. Ang Ingles ang pinagmumulan ng katotohanan; kapag hindi magkatugma ang isang salin at ang tekstong Ingles, ang tekstong Ingles ang mananaig. Malugod na tinatanggap ang mga pagwawasto sa alinmang salin sa pamamagitan ng normal na pull request.
+Ang README na ito ay available sa 43 wika sa ilalim ng [`docs/i18n/`](../../docs/i18n) —
+gamitin ang flag selector sa itaas. Ang Ingles ang pinagmumulan ng katotohanan; kapag
+magkaiba ang isang salin at ang tekstong Ingles, ang tekstong Ingles ang mananaig. Malugod
+na tinatanggap ang mga pagwawasto sa anumang salin sa pamamagitan ng normal na mga pull
+request.
 
-## 📜 Lisensya at atribusyon
+## 📜 Lisensya at attribution
 
-Ang dokumentasyon at mga template ng repository ay lisensyado sa ilalim ng [MIT License](../../LICENSE). Ang orihinal na katotohanan ng katalogo at editoryal na YAML metadata ay nakalaan sa ilalim ng [CC0-1.0](../../LICENSE-CATALOG). Ang upstream na code, mga pangalan, logo, at screenshot ay nananatili sa ilalim ng kanilang orihinal na may-ari at lisensya. Tingnan ang [docs/CREDIT.md](../../docs/CREDIT.md) at [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+Ang dokumentasyon at mga template ng repository ay lisensyado sa ilalim ng [MIT License](../../LICENSE).
+Ang orihinal na mga katotohanan ng katalogo at editoryal na YAML metadata ay inilaan sa
+ilalim ng [CC0-1.0](../../LICENSE-CATALOG). Ang upstream code, mga pangalan, logo, at screenshot
+ay nananatili sa ilalim ng kanilang orihinal na may-ari at lisensya. Tingnan ang
+[docs/CREDIT.md](../../docs/CREDIT.md) at [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
-### ⭐ Kung nakatulong sa iyo ang katalogong ito na makahanap ng plugin, i-star ang repo — nakakatulong ito sa mga creator na matuklasan.
+### ⭐ Kung tinulungan kayo ng katalogong ito na makahanap ng plugin, bigyan ng bituin ang repository — nakakatulong ito upang matuklasan ang mga lumikha.
 
-**[I-browse ang lahat ng plugin sa website →](https://dsh-plugins.omniroute.online)**
+**[Mag-browse ng lahat ng plugin sa website →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

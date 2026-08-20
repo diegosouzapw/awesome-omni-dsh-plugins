@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ویب سائٹ پر تمام پلگ انز کو براؤز، تلاش اور انسٹال کریں →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,16 +80,16 @@
 
 | # | پلگ ان | تخلیق کار | ★ | زمرہ | یہ کیا کرتا ہے |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | ان لائن ویژولائزیشن: ماڈل سیشن کے اندر انٹرایکٹو چارٹس اور ڈایاگرام رینڈر کرتا ہے |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | DSH ویب GUI کے لیے ہاٹ پلگ ایبل شفاف ڈیسک ٹاپ پیٹ (Remielle، Zenless Zone Zero) |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | ایک متحرک وہیل گرل Kanban Musume شبیہ جو ڈیش بورڈ کی سرگرمی پر ردعمل دیتی ہے |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | dsh سیشنز چلانے کے لیے فل اسکرین curses طرز کا ٹرمینل چیٹ کلائنٹ |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | انٹرایکٹو pi-tui ٹرمینل فرنٹ ڈور: سیشن پکر، اسٹریمنگ چیٹ، کی بائنڈنگز |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | ملٹی کی مینجمنٹ اور یوزیج گیج کے ساتھ اختیاری Tavily ایڈوانسڈ سرچ ٹول |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | فلوٹنگ bilibili ویڈیو ویجٹ: تجاویز، ٹرینڈنگ، رینکنگز اور تلاش |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | ظاہری شکل کا پلگ ان: بلٹ اِن پیلیٹس، لائٹ/ڈارک/سسٹم موڈ، VS Code تھیمز |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | غیر تجارتی Arknights ایسٹرل گارڈن اسکن جس میں Pramanix اور Eyjafjalla شامل ہیں |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | ساتھی براؤزر ایکسٹینشن کے لیے ٹوکن مصدقہ WebSocket برج |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | صرف متن پر مبنی LLMs کے لیے پلگ اِن وژن، مفت Antigravity CLI سے چلتا ہے |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH ویب پلگ ان: VSCode جیسی دائیں سائیڈبار (ایکسپلورر / ایڈیٹر / ٹرمینل / git / براؤزر)، ہر ایک کے لیے علیحدہ… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | صرف متن پر مبنی DeepSeek Harness ایجنٹس کے لیے آنکھیں: بلٹ اِن مفت وژن چین (بغیر کسی کی کے) + پکسل سطح کے وژن ٹولز… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit کے لیے DeepSeek Harness نیٹو انٹیگریشن: امیج سوال و جواب، OCR، گراؤنڈنگ، UI بحالی،… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH اشتہار-انفیکشن پلگ ان: مقامی بنائے گئے چینی پورٹل اشتہارات اور انگریزی اسکیم-اشتہار پیروڈی، جعلی پاپ اپس کے ساتھ،… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness کے لیے GenUI: dsh-ui کے ذریعے اسسٹنٹ کے جوابات میں ان لائن رینڈر ہونے والے انٹرایکٹو UI کمپوننٹس… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: سرکاری DeepSeek Harness کے لیے ایک انٹرایکٹو ٹرمینل UI پلگ ان — سٹریمنگ… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness کے لیے ان لائن ویژولائزیشن: ایک visualize ٹول کے ساتھ ساتھ بنڈل کردہ سکل ماڈل کو رینڈر کرنے دیتی ہے… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness کے لیے ایک اینیمی سرچ پلگ ان: ایک anime_find_search ٹول Mikan، AniBT اور… کو یکجا کرتا ہے |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH undo/rollback نظام: تبدیلی پر کنفیگ فائلوں کا سنیپ شاٹ لیتا ہے، WebUI سے یا… کے ذریعے آخری عمل کو undo/redo کریں |
 
 <div align="center">
 
@@ -113,7 +113,7 @@
 
 ## کیٹلاگ کی صورتحال
 
-**10 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
+**160 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
 
 ## 🚀 CLI انسٹال کریں
 
@@ -153,16 +153,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 
 ## 🔍 پلگ ان کیٹلاگ میں کیسے داخل ہوتا ہے
 
-```mermaid
-flowchart LR
-    A["تخلیق کار کی ریپوزٹری<br/>(پن شدہ کمٹ)"] --> B["ایک برانچ،<br/>ایک PR،<br/>ایک YAML اندراج"]
-    B --> C["catalog-validation CI<br/>(اسکیما + مقامی سیمنٹکس)"]
-    C --> D["مینٹینر گیٹس<br/>(شناخت، تخلیق کار بائنڈنگ،<br/>پن شدہ ثبوت)"]
-    D --> E["catalog/plugins/*.yaml<br/>ضم شدہ"]
-    E --> F["ویب سائٹ"]
-    E --> G["CLI"]
-    E --> H["catalog.json فیڈز"]
-```
+![پلگ ان کیٹلاگ میں کیسے داخل ہوتا ہے](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![پلگ ان کیٹلاگ میں کیسے داخل ہوتا ہے](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **ایک پلگ ان، ایک برانچ، ایک pull request۔** PR بالکل ایک YAML فائل `catalog/plugins/` کے تحت شامل یا تبدیل کرتی ہے۔
 2. **تخلیق کار کو ترجیح۔** پلگ ان کے تخلیق کار یا مالک تنظیم کی طرف سے کھولی گئی PR ہمیشہ اسی پلگ ان کے لیے کمیونٹی کیوریشن یا آٹومیشن پر فوقیت رکھتی ہے — دیکھیں [docs/CREDIT.md](../../docs/CREDIT.md)۔
@@ -294,3 +286,5 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 **[ویب سائٹ پر تمام پلگ انز براؤز کریں →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

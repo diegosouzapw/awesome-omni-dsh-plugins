@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">在網站上瀏覽、搜尋並安裝所有外掛 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,16 +80,16 @@
 
 | #   | 外掛 | 創作者 | ★ | 分類 | 功能說明 |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 內嵌視覺化:模型在對話階段中直接繪製互動式圖表與示意圖 |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | 可熱插拔的透明桌面寵物(《絕區零》角色 Remielle),用於 DSH 網頁版 GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | 會對儀表板活動作出反應的鯨魚少女看板娘動畫吉祥物 |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | 全螢幕 curses 風格終端聊天客戶端,用於驅動 dsh 對話階段 |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | 互動式 pi-tui 終端入口:對話階段選擇器、串流聊天、按鍵綁定 |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | 可選擇啟用的 Tavily 進階搜尋工具,支援多把金鑰管理與用量儀表 |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | 懸浮式 bilibili 影片小工具:推薦、熱門、排行榜與搜尋 |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | 外觀外掛:內建調色盤、淺色/深色/跟隨系統模式、VS Code 主題 |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | 非商業性質的《明日方舟》星海庭園造型,角色為 Pramanix 與 Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | 供搭配瀏覽器擴充功能使用的權杖驗證 WebSocket 橋接 |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | 為純文字 LLM 提供的外掛式視覺能力,由免費的 Antigravity CLI 驅動 |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH 網頁外掛:類似 VSCode 的右側邊欄(檔案總管 / 編輯器 / 終端機 / git / 瀏覽器),每個對話階段皆獨立隔離… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | 為純文字 DeepSeek Harness 代理提供的視覺能力:內建免費視覺鏈(無需金鑰)+ 像素級視覺工具… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | 面向 agent-vision-toolkit 的 DeepSeek Harness 原生整合:圖像問答、OCR、目標定位、介面還原,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH 廣告轟炸模擬外掛:在地化的中文入口網站廣告與英文詐騙廣告仿作,附帶假彈出視窗,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | 面向 DeepSeek Harness 的 GenUI:透過 dsh-ui 在助理回覆中內嵌呈現互動式 UI 元件… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui:面向官方 DeepSeek Harness 的互動式終端機 UI 外掛——串流… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 面向 DeepSeek Harness 的內嵌視覺化:搭配的 visualize 工具與內建技能讓模型繪製… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | 面向 DeepSeek Harness 的動漫搜尋外掛:anime_find_search 工具彙整來自 Mikan、AniBT 及… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH 復原/回溯系統:在設定檔變更時建立快照,可從 WebUI 或透過… 復原/重做最近一次操作 |
 
 <div align="center">
 
@@ -115,7 +115,7 @@
 
 ## 目錄狀態
 
-**已合併 10 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
+**已合併 160 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
 掛名。
 
 ## 🚀 安裝 CLI
@@ -159,16 +159,8 @@ Windows 上,v0.1.0 中這些變更操作已被停用;請改用 WSL。唯讀與�
 
 ## 🔍 外掛如何進入目錄
 
-```mermaid
-flowchart LR
-    A["創作者儲存庫<br/>(固定提交)"] --> B["一個分支,<br/>一個 PR,<br/>一筆 YAML 項目"]
-    B --> C["catalog-validation CI<br/>(結構描述 + 本地語義)"]
-    C --> D["維護者關卡<br/>(身分、創作者綁定,<br/>固定證據)"]
-    D --> E["catalog/plugins/*.yaml<br/>已合併"]
-    E --> F["網站"]
-    E --> G["CLI"]
-    E --> H["catalog.json 饋送"]
-```
+![外掛如何進入目錄](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![外掛如何進入目錄](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **一個外掛,一個分支,一個提取請求。** 該 PR 只新增或修改 `catalog/plugins/` 底下的一個 YAML 檔案。
 2. **創作者優先。** 由外掛創作者本人或所屬組織發起的 PR,針對同一外掛永遠優先於社群整理或自動化提交——參見
@@ -315,3 +307,5 @@ monorepo 中的整合仍可被發現,但使用 `stars: null`,絕不繼承母專�
 **[在網站上瀏覽所有外掛 →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

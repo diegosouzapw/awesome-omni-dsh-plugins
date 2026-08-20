@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Переглядайте, шукайте та встановлюйте будь-який плагін на сайті →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@
 
 | #   | Плагін | Автор | ★ | Категорія | Що робить |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Вбудована візуалізація: модель відображає інтерактивні графіки та діаграми прямо в сесії |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Підключуваний на льоту прозорий десктопний вихованець (Реміель, Zenless Zone Zero) для вебінтерфейсу DSH |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Анімований маскот-кит-дівчина у стилі Kanban Musume, що реагує на активність у панелі |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Повноекранний термінальний чат-клієнт у стилі curses для керування сесіями dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Інтерактивна термінальна оболонка на pi-tui: вибір сесії, потоковий чат, гарячі клавіші |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Підключуваний за бажанням розширений пошук через Tavily з керуванням кількома ключами та індикатором використання |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Плаваючий відеовіджет bilibili: рекомендації, тренди, рейтинги та пошук |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Плагін оформлення: вбудовані палітри, світлий/темний/системний режим, теми VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Некомерційний скін «астральний сад» за мотивами Arknights з персонажами Pramanix і Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | WebSocket-міст із токен-автентифікацією для супутнього браузерного розширення |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Візуальне сприйняття, що підключається до текстових LLM, на базі безкоштовного Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Вебплагін DSH: права бічна панель у стилі VSCode (провідник / редактор / термінал / git / браузер), ізольована для кожної… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Очі для текстових агентів DeepSeek Harness: вбудований безкоштовний ланцюжок зору (без ключа) + інструменти зору на рівні пікселів… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Нативна для DeepSeek Harness інтеграція agent-vision-toolkit: питання-відповіді за зображенням, OCR, прив'язка до елементів, відновлення UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Плагін «зараження рекламою» для DSH: локалізована китайська портальна реклама та пародія на англомовну шахрайську рекламу, з фальшивими спливаючими вікнами,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI для DeepSeek Harness: інтерактивні компоненти інтерфейсу, що відображаються прямо у відповідях асистента через dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: інтерактивний плагін термінального інтерфейсу для офіційного DeepSeek Harness — потокова передача… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Вбудована візуалізація для DeepSeek Harness: інструмент visualize разом із доданим навиком дозволяють моделі відображати… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Плагін пошуку аніме для DeepSeek Harness: інструмент anime_find_search агрегує дані з Mikan, AniBT та… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Система скасування/відкату DSH: створює знімки конфігураційних файлів при зміні, дозволяє скасувати/повторити останню дію з WebUI або за… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@
 
 ## Статус каталогу
 
-**Об'єднано 10 плагінів.** Кожен плагін потрапляє до каталогу через окремо розглянутий pull
+**Об'єднано 160 плагінів.** Кожен плагін потрапляє до каталогу через окремо розглянутий pull
 request, по одному за раз, із репозиторію оригінального автора, із закріпленим вихідним
 комітом і явною вказівкою авторства.
 
@@ -167,16 +167,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 
 ## 🔍 Як плагін потрапляє до каталогу
 
-```mermaid
-flowchart LR
-    A["Репозиторій автора<br/>(закріплений коміт)"] --> B["Одна гілка,<br/>один PR,<br/>один запис YAML"]
-    B --> C["CI catalog-validation<br/>(схема + локальна семантика)"]
-    C --> D["Перевірки мейнтейнерів<br/>(особистість, прив'язка автора,<br/>закріплені докази)"]
-    D --> E["catalog/plugins/*.yaml<br/>об'єднано"]
-    E --> F["Сайт"]
-    E --> G["CLI"]
-    E --> H["Фіди catalog.json"]
-```
+![Як плагін потрапляє до каталогу](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Як плагін потрапляє до каталогу](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **Один плагін, одна гілка, один pull request.** PR додає або змінює рівно один YAML-файл
    у `catalog/plugins/`.
@@ -346,3 +338,5 @@ issue. Ніколи не надсилайте облікові дані, при�
 **[Переглянути всі плагіни на сайті →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->

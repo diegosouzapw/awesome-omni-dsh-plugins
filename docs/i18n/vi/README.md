@@ -16,7 +16,7 @@ Khám phá và cài đặt plugin **DeepSeek Harness (DSH)** chỉ bằng một 
   <a href="https://dsh-plugins.omniroute.online">Duyệt, tìm kiếm và cài đặt mọi plugin trên website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ của nhà phát triển, được ghim tại đúng commit mà danh mục đã 
 
 | #   | Plugin | Creator | ★ | Category | Chức năng |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Trực quan hóa nội tuyến: mô hình dựng biểu đồ và sơ đồ tương tác ngay trong phiên làm việc |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | Thú cưng desktop trong suốt, cắm là chạy (nhân vật Remielle, Zenless Zone Zero) cho DSH web GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | Linh vật hoạt hình cô gái cá voi Kanban Musume, phản ứng theo hoạt động trên dashboard |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | Ứng dụng chat toàn màn hình phong cách curses trên terminal, dùng để điều khiển phiên dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | Cổng vào terminal pi-tui tương tác: bộ chọn phiên, chat theo luồng, gán phím tắt |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | Công cụ tìm kiếm nâng cao Tavily tùy chọn bật, kèm quản lý nhiều khóa và đồng hồ đo mức sử dụng |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | Widget video bilibili dạng nổi: đề xuất, thịnh hành, bảng xếp hạng và tìm kiếm |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | Plugin giao diện: bảng màu tích hợp sẵn, chế độ sáng/tối/theo hệ thống, giao diện kiểu VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | Giao diện vườn sao Arknights phi thương mại, có sự xuất hiện của Pramanix và Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | Cầu nối WebSocket xác thực bằng token cho tiện ích mở rộng trình duyệt đi kèm |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Khả năng thị giác dạng cắm thêm cho các LLM chỉ xử lý văn bản, chạy trên Antigravity CLI miễn phí |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web của DSH: thanh bên phải kiểu VSCode (trình khám phá tệp / trình soạn thảo / terminal / git / trình duyệt), cô lập riêng cho từng… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Đôi mắt cho các agent DeepSeek Harness chỉ xử lý văn bản: chuỗi thị giác miễn phí tích hợp sẵn (không cần khóa) + công cụ thị giác cấp pixel… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Tích hợp gốc DeepSeek Harness cho agent-vision-toolkit: hỏi đáp hình ảnh, OCR, xác định vị trí, khôi phục UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin mô phỏng "ngập tràn quảng cáo" cho DSH: quảng cáo cổng thông tin Trung Quốc bản địa hóa và quảng cáo lừa đảo tiếng Anh dạng châm biếm, kèm popup giả,… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI cho DeepSeek Harness: các thành phần giao diện tương tác được kết xuất nội tuyến trong câu trả lời của trợ lý thông qua dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: plugin giao diện terminal tương tác cho DeepSeek Harness chính thức — truyền phát… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Trực quan hóa nội tuyến cho DeepSeek Harness: công cụ visualize cùng kỹ năng đi kèm cho phép mô hình kết xuất… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Plugin tìm kiếm anime cho DeepSeek Harness: công cụ anime_find_search tổng hợp dữ liệu từ Mikan, AniBT và… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Hệ thống undo/rollback cho DSH: chụp nhanh các tệp cấu hình khi có thay đổi, undo/redo hành động cuối cùng từ WebUI hoặc bằng… |
 
 <div align="center">
 
@@ -119,7 +119,7 @@ sách mà chúng sử dụng.
 
 ## Trạng thái danh mục
 
-**Đã hợp nhất 10 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
+**Đã hợp nhất 160 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
 repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố định và ghi công rõ ràng.
 
 ## 🚀 Cài đặt CLI
@@ -164,16 +164,8 @@ WSL. Các lệnh chỉ đọc và chạy thử hoạt động ở mọi nơi.
 
 ## 🔍 Một plugin gia nhập danh mục như thế nào
 
-```mermaid
-flowchart LR
-    A["Repository của nhà phát triển<br/>(commit đã ghim)"] --> B["Một nhánh,<br/>một PR,<br/>một mục YAML"]
-    B --> C["CI catalog-validation<br/>(schema + ngữ nghĩa cục bộ)"]
-    C --> D["Các cổng kiểm soát của người bảo trì<br/>(danh tính, gắn kết với nhà phát triển,<br/>bằng chứng đã ghim)"]
-    D --> E["catalog/plugins/*.yaml<br/>đã hợp nhất"]
-    E --> F["Website"]
-    E --> G["CLI"]
-    E --> H["Nguồn dữ liệu catalog.json"]
-```
+![Một plugin gia nhập danh mục như thế nào](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![Một plugin gia nhập danh mục như thế nào](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **Một plugin, một nhánh, một pull request.** PR chỉ thêm hoặc thay đổi đúng một file YAML dưới `catalog/plugins/`.
 2. **Ưu tiên nhà phát triển.** PR do chính nhà phát triển plugin hoặc tổ chức sở hữu mở ra luôn được ưu tiên hơn việc
@@ -335,3 +327,5 @@ chụp màn hình ở nguồn gốc vẫn thuộc về chủ sở hữu và gi�
 **[Duyệt tất cả plugin trên website →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
