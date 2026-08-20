@@ -117,8 +117,8 @@ dsh-plugins discover [options] <query...>
 않는 안정적인 기계 형식을 내보냅니다.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — 하나의 공개 카탈로그 항목을 표시합니다

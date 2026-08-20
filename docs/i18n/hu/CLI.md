@@ -123,8 +123,8 @@ A `--limit <n>` korlátozza a szintenkénti eredményeket (alapértelmezett `8`)
 stabil gépi formát adja, amely soha nincs lokalizálva.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — egy nyilvános katalógusbejegyzés megjelenítése
