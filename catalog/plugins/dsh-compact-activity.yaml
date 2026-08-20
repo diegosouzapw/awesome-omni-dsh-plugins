@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dsh-compact-activity
+name: dsh-compact-activity
+description:
+  en: Codex-style one-line disclosures for DeepSeek Harness reasoning and tool activity
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - codex
+  - style
+  - line
+  - disclosures
+  - reasoning
+  - tool
+  - activity
+  - dsh
+source:
+  repository: https://github.com/wallpap/dsh-compact-activity
+  repositoryNodeId: R_kgDOT5RoBQ
+  subpath: null
+  commit: 9cdedd6a5f41cd3778cf2037abffb75041c37c8f
+creator:
+  github: wallpap
+package:
+  ecosystem: npm
+  name: dsh-compact-activity
+  version: 1.2.2
+  integrity: sha512-UiKPy4nUxMKtleoNEjNnWgKEeHDE5Ll2bbYVCF0yvo0v1rG5JeP71omUKn2DMnldfeYvu2vs4S1WKbd8WFUc2Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:10.258Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
