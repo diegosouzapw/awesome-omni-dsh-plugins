@@ -95,6 +95,29 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
 npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 ```
 
+### `discover` — find plugins beyond the catalog
+
+```text
+dsh-plugins discover [options] <query...>
+```
+
+> **Not in the published `0.1.0`.** `discover` ships in `1.0.0`; every other command on this page
+> works with the version currently on npm. Running it against `@0.1.0` fails with an unknown
+> command.
+
+Searches the curated catalog first, then — unless `--offline` is given — the live GitHub
+`dsh-plugin` topic, so a plugin that has not been submitted yet is still findable. Catalog results
+carry the evidence the catalog holds (pinned commit, creator, license); community results carry
+none of it and are labelled as such, because nothing about them has been reviewed.
+
+`--limit <n>` caps results per tier (default `8`). `--json` emits the stable machine shape, which
+is never localized.
+
+```bash
+npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
+npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+```
+
 ### `info` — show one public catalog entry
 
 ```text
