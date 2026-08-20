@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-task-planner
+name: dsh-task-planner
+description:
+  en: "Task planning with experience muscle-memory for DeepSeek Harness: condition-reflex recall of past solutions + LLM-driven capability matching + auto-persisted lessons. Zero keys, zero hard-coded paths."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - planning
+  - memory
+  - experience
+  - task
+  - muscle
+  - condition
+  - reflex
+  - recall
+  - past
+  - solutions
+  - driven
+  - capability
+  - matching
+source:
+  repository: https://github.com/ztl34245881-commits/dsh-task-planner
+  repositoryNodeId: R_kgDOT4aFIw
+  subpath: null
+  commit: 7326670e4131d54d8a4a5602c45fc0f3628bc413
+creator:
+  github: leon
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:51.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
