@@ -1,11 +1,12 @@
 name: validate-catalog
 
+# Runs on EVERY pull request, not only the ones touching catalog paths. A path filter and a
+# required status check cannot coexist: GitHub never reports a check that a filter skipped, so a
+# documentation-only pull request would wait forever for a run that will never start. Validating
+# an unchanged catalog costs seconds, and it is what lets this be a required check instead of an
+# advisory one — a catalog pull request could merge red until now.
 on:
   pull_request:
-    paths:
-      - "catalog/plugins/**"
-      - "schemas/**"
-      - ".github/workflows/validate-catalog.yml"
   workflow_dispatch:
 
 permissions:
