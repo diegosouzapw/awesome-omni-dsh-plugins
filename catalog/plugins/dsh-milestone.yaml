@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: dsh-milestone
+name: dsh-milestone
+description:
+  en: "Git-style milestone timeline for DeepSeek Harness: one dot per question down the side of the session, hover for the content, click to jump to any message."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - conversation
+  - navigation
+  - style
+  - milestone
+  - timeline
+  - hover
+  - metadata
+  - click
+  - jump
+  - message
+source:
+  repository: https://github.com/SnowCrescenter-tech/dsh-milestone
+  repositoryNodeId: R_kgDOT3lV1A
+  subpath: null
+  commit: c238f8c5d4afe153ede8559e5f7e3d1a652b6327
+creator:
+  github: SnowCrescenter-tech
+package:
+  ecosystem: npm
+  name: dsh-milestone
+  version: 0.6.0
+  integrity: sha512-ShgvR2A9QPmaU7zknYF1wU0+zaXJbK9WR6Bb9wr4i/5NhkFh0Zgl41RWoWbo3ujMCvCjlIbpjxy2L+vtJppUgQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:35.878Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 17
+provenance:
+  discussion: null
+  comment: null
