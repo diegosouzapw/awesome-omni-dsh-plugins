@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-calculator
+name: dsh-calculator
+description:
+  en: "DeepSeek Harness web plugin: DeepSeek API spend (per session / all sessions) and account balance in a top-right overlay card. Only deepseek-official routes are billed; third-party models are reported as unbilled."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - cost
+  - spend
+  - balance
+  - session
+  - sessions
+  - account
+  - right
+  - overlay
+  - card
+  - only
+  - official
+  - routes
+  - billed
+source:
+  repository: https://github.com/bobcat848/dsh-calculator
+  repositoryNodeId: R_kgDOT4Ed9A
+  subpath: null
+  commit: 1f4b17db702a6742490ec9410daba86910a59a7a
+creator:
+  github: bobcat848
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:17.805Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
