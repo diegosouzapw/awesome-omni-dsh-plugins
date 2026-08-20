@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: dsh-remote
+name: "@xgone/dsh-remote"
+description:
+  en: "Remote access & authentication for the DeepSeek Harness web UI: login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, account management settings. Fully localized (zh/en)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - auth
+  - authentication
+  - mfa
+  - totp
+  - 2fa
+  - security
+  - remote-access
+  - gateway
+  - login
+  - remote
+  - access
+  - gate
+  - signed
+  - session
+source:
+  repository: https://github.com/xgone/dsh-remote
+  repositoryNodeId: R_kgDOT53uWg
+  subpath: null
+  commit: 7f63759737673b89a1276e0070c92360f4513834
+creator:
+  github: xgone
+package:
+  ecosystem: npm
+  name: "@xgone/dsh-remote"
+  version: 0.1.8
+  integrity: sha512-uobYPPqdoInx3n9/ifejv+mC+KYqFp4A8ZTQTb4hjb7AbJqrJWx0OqseQ1ggysfQ9/hQCwn4pfFWbEeqvifbfA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:13.094Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
