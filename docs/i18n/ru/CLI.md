@@ -120,8 +120,8 @@ dsh-plugins discover [options] <query...>
 стабильную машинную форму, которая никогда не локализуется.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — показывает одну публичную запись каталога
