@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: context-vista
+name: context-vista
+description:
+  en: "A live context-window donut for DeepSeek Harness: token usage, compaction savings, and cost at a glance"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - slash-command
+  - context
+  - tokens
+  - compaction
+  - cost
+  - pricing
+  - live
+  - window
+  - donut
+  - token
+  - usage
+  - savings
+  - glance
+source:
+  repository: https://github.com/GooodWei/context-vista
+  repositoryNodeId: R_kgDOT3eBIw
+  subpath: null
+  commit: a26cd744557d5d537a801bd5f51853658b70971a
+creator:
+  github: GooodWei
+package:
+  ecosystem: npm
+  name: context-vista
+  version: 0.1.0
+  integrity: sha512-oE8xX1j4NZK40MlL9eu7k5a+p1YN2fMFqHep7kzKVo8rQHWEishrN9bEUYRu8nNq+YCw5ynXeAxduDVvC5vGiA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:30:08.732Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
