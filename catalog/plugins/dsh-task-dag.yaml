@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dsh-task-dag
+name: dsh-task-dag
+description:
+  en: Persistent live DAG visualization for DeepSeek Harness subagents and workflows
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - dag
+  - subagent
+  - workflow
+  - visualization
+  - persistent
+  - live
+  - subagents
+  - workflows
+source:
+  repository: https://github.com/LeemanCheung/dsh-task-dag
+  repositoryNodeId: R_kgDOT4VT4g
+  subpath: null
+  commit: 256cfdab272e35b1e72dd11f948a74d2dcfc4ee0
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:58.478Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
