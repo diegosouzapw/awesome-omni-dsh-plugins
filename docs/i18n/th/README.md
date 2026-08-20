@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">เรียกดู ค้นหา และติดตั้งปลั๊กอินทั้งหมดได้ที่เว็บไซต์ →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-10_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -79,18 +79,18 @@
 จัดอันดับตามจำนวนดาวของรีโพซิทอรีจริงเท่านั้น — นับเฉพาะดาวที่รีโพซิทอรีของปลั๊กอินเองได้รับ ไม่นับดาวของโปรเจกต์แม่
 ([หลักเกณฑ์การจัดอันดับ](../../docs/RANKING.md)) ทุกชื่อจะลิงก์ไปยังรีโพซิทอรีของผู้สร้าง ซึ่งตรึงไว้ที่คอมมิตที่แคตตาล็อกตรวจสอบแล้ว
 
-| #   | Plugin | Creator | ★ | Category | สิ่งที่ทำได้ |
+| #   | ปลั๊กอิน | ผู้สร้าง | ★ | หมวดหมู่ | สิ่งที่ทำได้ |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | การแสดงผลแบบอินไลน์: โมเดลเรนเดอร์แผนภูมิและไดอะแกรมแบบโต้ตอบภายในเซสชันโดยตรง |
-| 2 | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | [@Gin-7](https://github.com/Gin-7) | 20 | Entertainment | สัตว์เลี้ยงเดสก์ท็อปแบบโปร่งใส เสียบใช้งานได้ทันที (Remielle จาก Zenless Zone Zero) สำหรับ DSH web GUI |
-| 3 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | [@Sutera-Diffusus](https://github.com/Sutera-Diffusus) | 19 | Entertainment | มาสคอตแอนิเมชันสาวปลาวาฬ Kanban Musume ที่ตอบสนองต่อกิจกรรมบนแดชบอร์ด |
-| 4 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | [@gxinxing](https://github.com/gxinxing) | 7 | UI & dashboards | ไคลเอนต์แชทเต็มจอสไตล์ curses บนเทอร์มินัล สำหรับควบคุมเซสชัน dsh |
-| 5 | [dsh-tui](https://github.com/turtle1999/turtle-ui) | [@turtle1999](https://github.com/turtle1999) | 7 | UI & dashboards | หน้าประตูเทอร์มินัลแบบโต้ตอบ pi-tui: ตัวเลือกเซสชัน แชทแบบสตรีมมิง การผูกปุ่มลัด |
-| 6 | [dsh-tavily-workspace](https://github.com/moguiyu/dsh-tavily) | [@moguiyu](https://github.com/moguiyu) | 3 | Search & research | เครื่องมือค้นหาขั้นสูง Tavily แบบเลือกเปิดใช้เอง พร้อมการจัดการหลายคีย์และมาตรวัดการใช้งาน |
-| 7 | [dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) | [@pyf2818](https://github.com/pyf2818) | 2 | Entertainment | วิดเจ็ตวิดีโอ bilibili แบบลอย: คำแนะนำ กระแสนิยม อันดับ และการค้นหา |
-| 8 | [dsh-themes](https://github.com/MangMax/dsh-themes) | [@MangMax](https://github.com/MangMax) | 1 | Entertainment | ปลั๊กอินรูปลักษณ์: ชุดสีในตัว โหมดสว่าง/มืด/ตามระบบ ธีมสไตล์ VS Code |
-| 9 | [dsh-arknights](https://github.com/DocJlm/dsh-arknights) | [@DocJlm](https://github.com/DocJlm) | — | Entertainment | สกินสวนดวงดาวจาก Arknights แบบไม่แสวงหากำไร นำเสนอตัวละคร Pramanix และ Eyjafjalla |
-| 10 | [dsh-bridge-browser](https://github.com/Lum1104/dsh-browser) | [@Lum1104](https://github.com/Lum1104) | — | Browser automation | สะพานเชื่อม WebSocket ที่ยืนยันตัวตนด้วยโทเคน สำหรับส่วนขยายเบราว์เซอร์คู่หู |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | การมองเห็นแบบเสียบปลั๊กสำหรับ LLM ที่รองรับข้อความอย่างเดียว ขับเคลื่อนด้วย Antigravity CLI ฟรี |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | ปลั๊กอินเว็บของ DSH: แถบด้านข้างขวาสไตล์ VSCode (เอ็กซ์พลอเรอร์ / เอดิเตอร์ / เทอร์มินัล / git / เบราว์เซอร์) แยกอิสระต่อ… |
+| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | ดวงตาสำหรับเอเจนต์ DeepSeek Harness ที่รองรับข้อความอย่างเดียว: ห่วงโซ่การมองเห็นฟรีในตัว (ไม่ต้องใช้คีย์) + เครื่องมือมองเห็นระดับพิกเซล… |
+| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | การผสานรวมแบบเนทีฟกับ DeepSeek Harness สำหรับ agent-vision-toolkit: ถาม-ตอบภาพ, OCR, การระบุตำแหน่งวัตถุ, การกู้คืน UI,… |
+| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | ปลั๊กอินจำลองโฆษณารบกวนสำหรับ DSH: โฆษณาพอร์ทัลจีนที่แปลเป็นภาษาท้องถิ่นและโฆษณาหลอกลวงภาษาอังกฤษแบบล้อเลียน พร้อมป๊อปอัปปลอม… |
+| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI สำหรับ DeepSeek Harness: คอมโพเนนต์ UI แบบโต้ตอบที่เรนเดอร์แบบอินไลน์ในคำตอบของผู้ช่วยผ่าน dsh-ui… |
+| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ปลั๊กอิน UI เทอร์มินัลแบบโต้ตอบสำหรับ DeepSeek Harness อย่างเป็นทางการ — สตรีมมิง… |
+| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | การแสดงผลแบบอินไลน์สำหรับ DeepSeek Harness: เครื่องมือ visualize พร้อมสกิลที่มาพร้อมให้โมเดลเรนเดอร์… |
+| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | ปลั๊กอินค้นหาอนิเมะสำหรับ DeepSeek Harness: เครื่องมือ anime_find_search รวบรวมข้อมูลจาก Mikan, AniBT และ… |
+| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | ระบบ undo/rollback ของ DSH: สแนปช็อตไฟล์คอนฟิกเมื่อมีการเปลี่ยนแปลง ทำ undo/redo การกระทำล่าสุดจาก WebUI หรือโดย… |
 
 <div align="center">
 
@@ -117,7 +117,7 @@
 
 ## สถานะแคตตาล็อก
 
-**รวมปลั๊กอินแล้ว 10 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
+**รวมปลั๊กอินแล้ว 160 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
 พร้อมคอมมิตต้นทางที่ตรึงไว้และการให้เครดิตอย่างชัดเจน
 
 ## 🚀 ติดตั้ง CLI
@@ -162,16 +162,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
 
 ## 🔍 ปลั๊กอินเข้าสู่แคตตาล็อกได้อย่างไร
 
-```mermaid
-flowchart LR
-    A["รีโพซิทอรีของผู้สร้าง<br/>(คอมมิตที่ตรึงไว้)"] --> B["หนึ่งแบรนช์,<br/>หนึ่ง PR,<br/>หนึ่งรายการ YAML"]
-    B --> C["catalog-validation CI<br/>(สคีมา + ความหมายเชิงตรรกะภายในเครื่อง)"]
-    C --> D["ด่านตรวจของผู้ดูแล<br/>(ยืนยันตัวตน, ผูกกับผู้สร้าง,<br/>หลักฐานที่ตรึงไว้)"]
-    D --> E["catalog/plugins/*.yaml<br/>ถูกผสานแล้ว"]
-    E --> F["เว็บไซต์"]
-    E --> G["CLI"]
-    E --> H["ฟีด catalog.json"]
-```
+![ปลั๊กอินเข้าสู่แคตตาล็อกได้อย่างไร](../../docs/diagrams/catalog-flow-dark.svg#gh-dark-mode-only)
+![ปลั๊กอินเข้าสู่แคตตาล็อกได้อย่างไร](../../docs/diagrams/catalog-flow-light.svg#gh-light-mode-only)
 
 1. **หนึ่งปลั๊กอิน หนึ่งแบรนช์ หนึ่งพูลรีเควสต์** PR จะเพิ่มหรือแก้ไขไฟล์ YAML เพียงไฟล์เดียวภายใต้ `catalog/plugins/`
    เท่านั้น
@@ -330,3 +322,5 @@ README ฉบับนี้มีให้บริการ 43 ภาษาภ
 **[เรียกดูปลั๊กอินทั้งหมดบนเว็บไซต์ →](https://dsh-plugins.omniroute.online)**
 
 </div>
+
+<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
