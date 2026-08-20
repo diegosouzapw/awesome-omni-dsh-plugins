@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dsh-effort-slider
+name: dsh-effort-slider
+description:
+  en: 仿 Claude Code 推理等级滑块 DSH 插件：无极拖动、松手吸附、WebGL 火焰跟随、OFF/MAX 刻度、Low/Medium/High/Ultracode 状态；宿主侧通用思考强度供给——任何自定义第三方模型/提供商都能获得真实生效的思考强度调节。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - claude
+  - code
+  - webgl
+  - medium
+  - high
+  - ultracode
+  - dsh
+source:
+  repository: https://github.com/2768651338/dsh-effort-slider
+  repositoryNodeId: R_kgDOT54uWA
+  subpath: null
+  commit: b95d997a787ddfc2dfe05e167f59229ccd8bafb2
+creator:
+  github: "2768651338"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:44:51.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
