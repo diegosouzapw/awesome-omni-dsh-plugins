@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: dsh-agent-skills
+name: dsh-agent-skills
+description:
+  en: Discover and manage Claude Code, Codex, Gemini CLI, and other Agent Skills inside DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - skills
+  - codex
+  - claude-code
+  - discover
+  - manage
+  - claude
+  - code
+  - gemini
+  - other
+  - agent
+  - inside
+  - dsh
+source:
+  repository: https://github.com/minivv/dsh-agent-skills
+  repositoryNodeId: R_kgDOT6rOBw
+  subpath: null
+  commit: fcc914b5189b6882ce24fa245022a32eb907326f
+creator:
+  github: kuweiMaster
+package:
+  ecosystem: npm
+  name: dsh-agent-skills
+  version: 0.1.7
+  integrity: sha512-w+rZVJVVQ15MpBqrJmGuFyig//lnT68OcI43Lo6ZOrNPJQxrh0JhbMi9ASdOLP8l5NtbsqsBvEVBDLgZl5fQ0Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:31:05.243Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
