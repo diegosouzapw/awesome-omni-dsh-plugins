@@ -120,8 +120,8 @@ etiquetados como tal, porque nada sobre ellos ha sido revisado.
 de máquina, que nunca se localiza.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — muestra una entrada pública del catálogo

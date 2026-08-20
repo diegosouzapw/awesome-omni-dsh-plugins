@@ -88,8 +88,8 @@ dsh-plugins discover [options] <query...>
 يُحدِّد `--limit <n>` عدد النتائج القصوى لكل طبقة (الافتراضي `8`). تُصدِر `--json` الشكل الآلي المستقر، الذي لا يُترجَم (localized) أبدًا.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — عرض إدخال كتالوج عام واحد

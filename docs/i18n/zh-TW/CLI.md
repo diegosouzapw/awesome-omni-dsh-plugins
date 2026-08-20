@@ -100,8 +100,8 @@ dsh-plugins discover [options] <query...>
 會在地化。
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — 顯示一個公開目錄條目

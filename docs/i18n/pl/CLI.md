@@ -88,8 +88,8 @@ Przeszukuje najpierw wykuratorowany katalog, a następnie — jeśli nie podano 
 `--limit <n>` ogranicza liczbę wyników na warstwę (domyślnie `8`). `--json` zwraca stabilny kształt maszynowy, który nigdy nie jest lokalizowany.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — pokaż jeden publiczny wpis katalogu

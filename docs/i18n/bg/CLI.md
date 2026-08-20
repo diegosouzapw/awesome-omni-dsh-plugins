@@ -119,8 +119,8 @@ commit, създател, лиценз); резултатите от общно�
 машинна форма, която никога не се локализира.
 
 ```bash
-npx omni-dsh-plugins@1.0.0 discover memory --catalog .
-npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — показва един публичен запис от каталога
