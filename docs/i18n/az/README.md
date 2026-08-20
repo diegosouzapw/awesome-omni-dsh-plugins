@@ -17,7 +17,7 @@ Yaradıcı-önləşdirilmiş kəşf və **DeepSeek Harness (DSH)** əlavələri 
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@ Dəqiq repozitoriya ulduzlarına görə sıralanıb — yalnız əlavənin öz r
 | **Veb sayt** | Axtarış və sıralama ilə render edilmiş kataloq brauzeri                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Kataloq** | Hər əlavə üçün bir YAML faylı, yeganə həqiqət mənbəyi             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Sxem**  | Hər qeydin doğrulandığı ictimai JSON Schema (draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Kataloqdan axtarış, yoxlama, doğrulama və quraşdırma           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Kataloqdan axtarış, yoxlama, doğrulama və quraşdırma           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Maşın lentləri** | Alətlər üçün `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Bu repozitoriya kataloq üçün ictimai həqiqət mənbəyidir. Hər qeyd `catalog/plugins/` altında bir YAML
@@ -125,15 +125,15 @@ olur.
 ## 🚀 CLI-ni quraşdırın
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Əhatə dairəli paket `@diegosouza.pw/dsh-plugins@0.1.0` kimi dərc edilir və yuxarıdakı əmr bu gün
+Əhatə dairəli paket `omni-dsh-plugins@1.0.0` kimi dərc edilir və yuxarıdakı əmr bu gün
 üçün kanonik çağırışdır; burada heç bir quraşdırma skripti yerləşdirilmir.
 
 ### CLI-ni bu gün istifadə edin
 
-Versiya 0.1.0 yalnız-oxu kəşf və doğrulama əmrləri, eləcə də razılıq tələb edən quraşdırma əmrləri
+Versiya 1.0.0 yalnız-oxu kəşf və doğrulama əmrləri, eləcə də razılıq tələb edən quraşdırma əmrləri
 təqdim edir. Bayraqlar, çıxış kodları və kod icrası razılıq qapısı daxil olmaqla tam əmr istinadı
 [docs/CLI.md](../../docs/CLI.md) sənədindədir.
 
@@ -149,19 +149,19 @@ təqdim edir. Bayraqlar, çıxış kodları və kod icrası razılıq qapısı d
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Dəyişiklik edən əmrlər (`add`, `update`, `remove`) `--allow-code-execution` bayrağını
 ötürmədiyiniz müddətcə heç vaxt əlavə həyat dövrü kodunu icra etmir. Yerli Windows-da bu
-dəyişikliklər v0.1.0-da deaktiv edilib; WSL istifadə edin. Yalnız-oxu və sınaq işə salma əmrləri
+dəyişikliklər v1.0.0-da deaktiv edilib; WSL istifadə edin. Yalnız-oxu və sınaq işə salma əmrləri
 hər yerdə işləyir.
 
 ## 🔍 Bir əlavə kataloqa necə daxil olur
@@ -307,7 +307,7 @@ kataloqlaşdırıbsa, [mövcud qeydi tələb edin](https://github.com/diegosouza
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Tam töhfə müqaviləsi: sübut, YAML qaydaları, baxış qapıları    |
 | [SECURITY.md](../../SECURITY.md)                   | Əlavə və ya kataloq zəifliklərini bildirmək; sirlər siyasəti           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` üçün sahə-sahə istinad             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` üçün CLI əmr istinadı          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` üçün CLI əmr istinadı          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Kataloqun necə idarə edildiyi: üstünlük, qapılar, iddialar və silinmələr   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakt növləri, əsas imkan kateqoriyaları, teqlər, repozitoriya əhatəsi |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Yaradıcı atribusiyası, PR üstünlüyü və Git kimlik siyasəti                 |

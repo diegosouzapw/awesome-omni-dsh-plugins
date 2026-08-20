@@ -1,21 +1,21 @@
-# CLI-reference — `@diegosouza.pw/dsh-plugins@0.1.0`
+# CLI-reference — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Dansk**
 
 > **Uofficielt community-projekt. Ikke tilknyttet, godkendt af eller sponsoreret af DeepSeek.**
 > DeepSeeks navne og mærker tilhører deres respektive ejere.
 
-Denne side dokumenterer det udgivne CLI præcis, som det opfører sig i version `0.1.0`. Hver
+Denne side dokumenterer det udgivne CLI præcis, som det opfører sig i version `1.0.0`. Hver
 synopsis og flag nedenfor stammer fra den udgivne kommandos egen `--help`-output; intet her
 beskriver ikke-udgivet adfærd. CLI'et vedligeholdes fra privat kildekode og udgives til npm som
 den scopede pakke
-[`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins).
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## Designprincipper i v0.1.0
+## Designprincipper i v1.0.0
 
 - **Skrivebeskyttet som standard.** `catalog`, `search`, `info`, `list` og `doctor` ændrer aldrig
   profiler, skriver aldrig filer og starter aldrig plugin-kode.
@@ -23,7 +23,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
   livscykluskode, medmindre du angiver `--allow-code-execution`. Uden den kan du bruge `--dry-run`
   for at se den verificerede plan.
 - **Native Windows-politik.** Native Windows `add`/`update`/`remove` med kodeeksekvering er
-  deaktiveret i v0.1.0; brug WSL. Dry-run og de skrivebeskyttede kommandoer forbliver
+  deaktiveret i v1.0.0; brug WSL. Dry-run og de skrivebeskyttede kommandoer forbliver
   tilgængelige, og native Windows-genopretningsmarkører kræver dokumenteret manuel genopretning.
 - **Fastlåste input.** Katalogets input kan være en lokal mappe, en snapshot-fil, eller en
   fastlåst offentlig snapshot-URL, eventuelt låst til en præcis 40-tegns revision.
@@ -51,7 +51,7 @@ CLI'et bruger konventionelle proces-exit-koder:
 | `0`       | Succes (inklusive "tomt, men gyldigt"-resultater, såsom et tomt katalog)   |
 | `1`       | Fejl: valideringsfejl, post ikke fundet, manglende påkrævet indstilling, eller en diagnostisk kontrol, der rapporterer en fejl |
 
-Eksempler observeret i v0.1.0: `catalog validate` på et gyldigt tomt katalog afsluttes med `0` og
+Eksempler observeret i v1.0.0: `catalog validate` på et gyldigt tomt katalog afsluttes med `0` og
 `0 entries valid; catalog is empty`; `info <unknown-id>` afsluttes med `1` og `Plugin not found`;
 `doctor` afsluttes med `1`, når en vilkårlig kontrol (såsom en manglende eksekverbar fil `dsh`)
 rapporterer en fejl.
@@ -79,9 +79,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # From the repository root:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — søger i offentlige katalogfelter lokalt
@@ -94,8 +94,8 @@ Søger i offentlige katalogfelter lokalt mod det valgte katalog-input. Udskriver
 eller `No plugins found.` (exit `0`), når intet matcher.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — finder plugins ud over kataloget
@@ -104,8 +104,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Ikke i den udgivne `0.1.0`.** `discover` udgives i `1.0.0`; alle andre kommandoer på denne
-> side virker med den version, der aktuelt er på npm. Kører du den mod `@0.1.0`, fejler den med
+> **Ikke i den udgivne `1.0.0`.** `discover` udgives i `1.0.0`; alle andre kommandoer på denne
+> side virker med den version, der aktuelt er på npm. Kører du den mod `@1.0.0`, fejler den med
 > en ukendt kommando.
 
 Søger først i det kuraterede katalog, og derefter — medmindre `--offline` angives — i det aktive
@@ -118,8 +118,8 @@ gennemgået.
 stabile maskinform, som aldrig lokaliseres.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — viser én offentlig katalogpost
@@ -132,7 +132,7 @@ Viser én offentlig katalogpost ud fra det kanoniske plugin-ID. Afsluttes med `1
 `Plugin not found: <id>`, når ID'et ikke findes i kataloget.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — tilføjer én katalog-plugin via officiel DSH-delegering
@@ -154,10 +154,10 @@ delegeres til de officielle DSH-værktøjer og fortsætter kun med `--allow-code
 
 ```bash
 # Preview only — nothing is written, nothing executes:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Real install — explicit consent to lifecycle code:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — opdaterer én katalog-plugin via officiel DSH-delegering

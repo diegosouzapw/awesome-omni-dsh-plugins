@@ -98,14 +98,14 @@ popularity:
 
 ## 校验命令与可用性
 
-该 npm CLI 以 `@diegosouza.pw/dsh-plugins@0.1.0` 发布,因此下面的命令目前可以通过 `npx` 使用。请按原样使用这些命令;贡献者不应自行编造替代命令。
+该 npm CLI 以 `omni-dsh-plugins@1.0.0` 发布,因此下面的命令目前可以通过 `npx` 使用。请按原样使用这些命令;贡献者不应自行编造替代命令。
 
 请在仓库根目录运行以下命令:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` 只执行上文所述的本地 YAML、模式、SPDX、确切 SemVer、SHA-512 SRI 和重复项检查,并接受有意为之的零条目目录。它不能证明远程仓库身份或固定来源证据。其他命令会检查所需的公开文档和结构化的 GitHub issue 表单。这些命令在本地通过并不会放宽证据要求;维护者在合并前仍会应用每一项对应的发布门禁。

@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@
 | **ویب سائٹ** | تلاش اور درجہ بندی کے ساتھ رینڈر شدہ کیٹلاگ براؤزر | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online) |
 | **کیٹلاگ** | ہر پلگ ان کے لیے ایک YAML فائل، سچائی کا واحد ذریعہ | [`catalog/plugins/`](../../catalog/plugins) |
 | **اسکیما** | پبلک JSON Schema (ڈرافٹ 2020-12) جس کے خلاف ہر اندراج کی توثیق ہوتی ہے | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI** | کیٹلاگ سے تلاش، معائنہ، توثیق اور تنصیب | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI** | کیٹلاگ سے تلاش، معائنہ، توثیق اور تنصیب | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **مشین فیڈز** | ٹولز کے لیے `catalog.json` + `catalog.snapshot.json` | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 یہ ریپوزٹری کیٹلاگ کے لیے عوامی سچائی کا ذریعہ ہے۔ ہر اندراج `catalog/plugins/` کے تحت ایک YAML فائل ہے، جو ایک شائع شدہ JSON Schema کے خلاف توثیق شدہ ہے، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے شامل کی گئی ہے، اور ہمیشہ پلگ ان کے اصل تخلیق کار کو کریڈٹ دیا جاتا ہے۔ کیٹلاگ میں کچھ بھی کسی دوسرے کیٹلاگ یا فہرست سے تیار نہیں کیا جاتا: ہر اندراج اصل تخلیق کار کی ریپوزٹری سے ایک پن شدہ کمٹ پر دوبارہ تعمیر کی جاتی ہے۔
@@ -118,14 +118,14 @@
 ## 🚀 CLI انسٹال کریں
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-اسکوپڈ پیکج `@diegosouza.pw/dsh-plugins@0.1.0` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
+اسکوپڈ پیکج `omni-dsh-plugins@1.0.0` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
 
 ### آج CLI استعمال کریں
 
-ورژن 0.1.0 صرف پڑھنے کے لیے ڈسکوری اور توثیق کمانڈز کے ساتھ ساتھ رضامندی سے مشروط انسٹال کمانڈز فراہم کرتا ہے۔ فلیگز، exit codes اور کوڈ ایگزیکیوشن رضامندی گیٹ سمیت مکمل کمانڈ ریفرنس [docs/CLI.md](../../docs/CLI.md) میں ہے۔
+ورژن 1.0.0 صرف پڑھنے کے لیے ڈسکوری اور توثیق کمانڈز کے ساتھ ساتھ رضامندی سے مشروط انسٹال کمانڈز فراہم کرتا ہے۔ فلیگز، exit codes اور کوڈ ایگزیکیوشن رضامندی گیٹ سمیت مکمل کمانڈ ریفرنس [docs/CLI.md](../../docs/CLI.md) میں ہے۔
 
 | کمانڈ | یہ کیا کرتا ہے | کیا یہ آپ کے سسٹم کو چھوتا ہے؟ |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -139,17 +139,17 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-میوٹیٹنگ کمانڈز (`add`، `update`، `remove`) کبھی بھی پلگ ان lifecycle کوڈ ایگزیکیوٹ نہیں کرتیں جب تک آپ `--allow-code-execution` پاس نہ کریں۔ نیٹو Windows پر یہ میوٹیشنز v0.1.0 میں غیر فعال ہیں؛ WSL استعمال کریں۔ صرف پڑھنے کے لیے اور dry-run کمانڈز ہر جگہ کام کرتی ہیں۔
+میوٹیٹنگ کمانڈز (`add`، `update`، `remove`) کبھی بھی پلگ ان lifecycle کوڈ ایگزیکیوٹ نہیں کرتیں جب تک آپ `--allow-code-execution` پاس نہ کریں۔ نیٹو Windows پر یہ میوٹیشنز v1.0.0 میں غیر فعال ہیں؛ WSL استعمال کریں۔ صرف پڑھنے کے لیے اور dry-run کمانڈز ہر جگہ کام کرتی ہیں۔
 
 ## 🔍 پلگ ان کیٹلاگ میں کیسے داخل ہوتا ہے
 
@@ -264,7 +264,7 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 | [CONTRIBUTING.md](../../CONTRIBUTING.md) | مکمل شراکت کا معاہدہ: ثبوت، YAML قواعد، جائزہ گیٹس |
 | [SECURITY.md](../../SECURITY.md) | پلگ ان یا کیٹلاگ کی خامیوں کی رپورٹنگ؛ خفیہ معلومات کی پالیسی |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md) | `schemas/plugin.schema.yaml` کے لیے فیلڈ بہ فیلڈ ریفرنس |
-| [docs/CLI.md](../../docs/CLI.md) | `@diegosouza.pw/dsh-plugins@0.1.0` کے لیے CLI کمانڈ ریفرنس |
+| [docs/CLI.md](../../docs/CLI.md) | `omni-dsh-plugins@1.0.0` کے لیے CLI کمانڈ ریفرنس |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | کیٹلاگ کیسے چلایا جاتا ہے: فوقیت، گیٹس، دعوے اور ہٹانا |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | آرٹیفیکٹ اقسام، بنیادی صلاحیت کے زمرے، ٹیگز، ریپوزٹری اسکوپ |
 | [docs/CREDIT.md](../../docs/CREDIT.md) | تخلیق کار کریڈٹ، PR فوقیت اور Git شناخت کی پالیسی |

@@ -172,16 +172,16 @@ siyasət üçün [docs/CREDIT.md](../../docs/CREDIT.md) sənədinə baxın.
 
 ## Validasiya əmrləri və əlçatanlıq
 
-npm CLI-si `@diegosouza.pw/dsh-plugins@0.1.0` kimi nəşr olunub, ona görə də aşağıdakı əmrlər bu
+npm CLI-si `omni-dsh-plugins@1.0.0` kimi nəşr olunub, ona görə də aşağıdakı əmrlər bu
 gün `npx` vasitəsilə əlçatandır. Onları tam olaraq yazıldığı kimi istifadə edin; töhfəçilər
 əvəzedici əmrlər uydurmamalıdır.
 
 Bu əmrləri repozitoriyanın kök qovluğundan icra edin:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` yalnız yuxarıda təsvir edilmiş lokal YAML, schema, SPDX, dəqiq SemVer,

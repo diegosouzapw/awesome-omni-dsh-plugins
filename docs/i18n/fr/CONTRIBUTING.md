@@ -177,16 +177,16 @@ dépôt d'origine dans le YAML et la pull request. Un compte de mainteneur ou d'
 
 ## Commandes de validation et disponibilité
 
-Le CLI npm est publié sous le nom `@diegosouza.pw/dsh-plugins@0.1.0`, donc les commandes
+Le CLI npm est publié sous le nom `omni-dsh-plugins@1.0.0`, donc les commandes
 ci-dessous sont disponibles via `npx` dès aujourd'hui. Utilisez-les exactement telles qu'écrites ;
 les contributeurs ne doivent pas inventer de commandes de substitution.
 
 Exécutez ces commandes depuis la racine du dépôt :
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` n'effectue que les contrôles locaux de YAML, schéma, SPDX, SemVer exact, SRI

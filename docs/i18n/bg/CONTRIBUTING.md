@@ -173,16 +173,16 @@ commit-а и дава изрична заслуга „Created by @handle“ с 
 
 ## Команди за валидация и наличност
 
-CLI за npm се публикува като `@diegosouza.pw/dsh-plugins@0.1.0`, така че командите по-долу са
+CLI за npm се публикува като `omni-dsh-plugins@1.0.0`, така че командите по-долу са
 налични чрез `npx` още сега. Използвайте ги точно както са написани; сътрудниците не трябва да
 измислят заместващи команди.
 
 Изпълнете тези команди от корена на хранилището:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` извършва само локалните проверки за YAML, схема, SPDX, точен SemVer, SHA-512

@@ -17,7 +17,7 @@ Scoperta orientata ai creatori e installazione con un solo comando per i plugin 
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Ogni nome rimanda al repository del creatore, fissato esattamente al commit vali
 | **Sito web** | Browser del catalogo renderizzato con ricerca e classifica                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Catalogo** | Un file YAML per plugin, l'unica fonte di verità             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | JSON Schema pubblico (draft 2020-12) rispetto al quale ogni voce viene validata | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Cerca, ispeziona, valida e installa dal catalogo           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Cerca, ispeziona, valida e installa dal catalogo           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Feed per macchine** | `catalog.json` + `catalog.snapshot.json` per gli strumenti           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Questo repository è la fonte pubblica di verità per il catalogo. Ogni voce è un file YAML
@@ -127,15 +127,15 @@ esplicita.
 ## 🚀 Installa la CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Il pacchetto con scope è pubblicato come `@diegosouza.pw/dsh-plugins@0.1.0` e il comando sopra è
+Il pacchetto con scope è pubblicato come `omni-dsh-plugins@1.0.0` e il comando sopra è
 l'invocazione canonica di oggi; qui non è ospitato alcuno script di installazione.
 
 ### Usa la CLI oggi
 
-La versione 0.1.0 fornisce comandi di scoperta e validazione in sola lettura, oltre a comandi di
+La versione 1.0.0 fornisce comandi di scoperta e validazione in sola lettura, oltre a comandi di
 installazione soggetti a consenso. Il riferimento completo dei comandi, inclusi i flag, i codici
 di uscita e il gate di consenso all'esecuzione di codice, è in [docs/CLI.md](../../docs/CLI.md).
 
@@ -151,19 +151,19 @@ di uscita e il gate di consenso all'esecuzione di codice, è in [docs/CLI.md](..
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 I comandi che modificano lo stato (`add`, `update`, `remove`) non eseguono mai il codice del ciclo
 di vita del plugin a meno che tu non passi `--allow-code-execution`. Su Windows nativo queste
-mutazioni sono disabilitate nella v0.1.0; usa WSL. I comandi in sola lettura e in dry-run
+mutazioni sono disabilitate nella v1.0.0; usa WSL. I comandi in sola lettura e in dry-run
 funzionano ovunque.
 
 ## 🔍 Come un plugin entra nel catalogo
@@ -312,7 +312,7 @@ se qualcuno ha catalogato il tuo lavoro prima di te.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Il contratto di contribuzione completo: prove, regole YAML, gate di revisione    |
 | [SECURITY.md](../../SECURITY.md)                   | Come segnalare vulnerabilità di plugin o catalogo; policy sui segreti           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Riferimento campo per campo per `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Riferimento dei comandi CLI per `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Riferimento dei comandi CLI per `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Come viene governato il catalogo: precedenza, gate, rivendicazioni e rimozioni   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Tipi di artefatto, categorie di capacità principali, tag, ambito del repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Credito al creatore, precedenza delle PR e policy sull'identità Git                 |

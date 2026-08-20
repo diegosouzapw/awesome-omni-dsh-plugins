@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@
 | **ウェブサイト** | 検索とランキング機能を備えたレンダリング済みカタログブラウザ                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **カタログ** | プラグインごとに1つのYAMLファイル、唯一の信頼できる情報源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **スキーマ**  | すべてのエントリが検証される、公開のJSON Schema（draft 2020-12） | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | カタログから検索・調査・検証・インストール           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | カタログから検索・調査・検証・インストール           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **マシン向けフィード** | ツール向けの `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 このリポジトリは、カタログの公開された信頼できる情報源です。すべてのエントリは `catalog/plugins/` 配下の1つのYAMLファイルであり、公開されたJSON Schemaに対して検証され、個別にレビューされた1件のプルリクエストを通じて追加され、常にプラグインの元のクリエイターにクレジットされます。カタログ内のいかなる項目も、他のカタログやリストから生成されたものではありません。各エントリは、固定されたコミットにおけるクリエイターの元のリポジトリから再構築されています。
@@ -118,14 +118,14 @@
 ## 🚀 CLIをインストール
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-このスコープ付きパッケージは `@diegosouza.pw/dsh-plugins@0.1.0` として公開されており、上記のコマンドが現時点での正規の呼び出し方法です。インストーラースクリプトはここではホストされていません。
+このスコープ付きパッケージは `omni-dsh-plugins@1.0.0` として公開されており、上記のコマンドが現時点での正規の呼び出し方法です。インストーラースクリプトはここではホストされていません。
 
 ### 今すぐCLIを使う
 
-バージョン0.1.0には、読み取り専用の発見・検証コマンドに加えて、同意ゲート付きのインストールコマンドが含まれています。フラグ、終了コード、コード実行の同意ゲートを含む完全なコマンドリファレンスは [docs/CLI.md](../../docs/CLI.md) にあります。
+バージョン1.0.0には、読み取り専用の発見・検証コマンドに加えて、同意ゲート付きのインストールコマンドが含まれています。フラグ、終了コード、コード実行の同意ゲートを含む完全なコマンドリファレンスは [docs/CLI.md](../../docs/CLI.md) にあります。
 
 | コマンド                        | 何をするか                                                        | システムに影響するか？                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -139,17 +139,17 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-変更を伴うコマンド（`add`、`update`、`remove`）は、`--allow-code-execution` を渡さない限り、プラグインのライフサイクルコードを実行することはありません。ネイティブWindowsでは、これらの変更操作はv0.1.0で無効化されています。WSLを使用してください。読み取り専用コマンドとドライランコマンドはどこでも動作します。
+変更を伴うコマンド（`add`、`update`、`remove`）は、`--allow-code-execution` を渡さない限り、プラグインのライフサイクルコードを実行することはありません。ネイティブWindowsでは、これらの変更操作はv1.0.0で無効化されています。WSLを使用してください。読み取り専用コマンドとドライランコマンドはどこでも動作します。
 
 ## 🔍 プラグインがカタログに登録される仕組み
 
@@ -264,7 +264,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完全な貢献契約: 証拠、YAMLルール、レビューゲート    |
 | [SECURITY.md](../../SECURITY.md)                   | プラグインまたはカタログの脆弱性の報告; 秘密情報に関するポリシー           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` のフィールドごとのリファレンス             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` のCLIコマンドリファレンス          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` のCLIコマンドリファレンス          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | カタログがどのように統治されているか: 優先順位、ゲート、クレーム、削除   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | アーティファクトの種類、主な機能カテゴリ、タグ、リポジトリの範囲 |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | クリエイターへのクレジット、PRの優先順位、Gitアイデンティティポリシー                 |

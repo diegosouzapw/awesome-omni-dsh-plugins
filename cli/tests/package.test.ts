@@ -21,7 +21,7 @@ const pkg = JSON.parse(
 
 describe("published CLI package metadata", () => {
   it("owns the exact scoped package and executable", () => {
-    expect(pkg.name).toBe("@diegosouza.pw/dsh-plugins");
+    expect(pkg.name).toBe("omni-dsh-plugins");
     // Not a frozen literal: the version moves every release, and freezing it means the release
     // itself fails the test for doing the one thing a release does. What must hold is that it is
     // exact semver — a range or a prerelease tag here would publish something npm resolves

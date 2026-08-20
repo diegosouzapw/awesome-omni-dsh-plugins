@@ -98,14 +98,14 @@ popularity:
 
 ## أوامر التحقق ومدى توفرها
 
-يُنشَر CLI الخاص بـ npm باسم `@diegosouza.pw/dsh-plugins@0.1.0`، لذا فإن الأوامر أدناه متوفرة اليوم عبر `npx`. استخدمها تمامًا كما هي مكتوبة؛ يجب ألّا يخترع المساهمون أوامر بديلة.
+يُنشَر CLI الخاص بـ npm باسم `omni-dsh-plugins@1.0.0`، لذا فإن الأوامر أدناه متوفرة اليوم عبر `npx`. استخدمها تمامًا كما هي مكتوبة؛ يجب ألّا يخترع المساهمون أوامر بديلة.
 
 نفِّذ هذه الأوامر من جذر المستودع:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 يُجري `catalog validate` فقط الفحوصات المحلية لـ YAML، والمخطط، وSPDX، وSemVer الدقيق، وSRI من نوع SHA-512، والتكرار الموصوفة أعلاه، ويقبل الكتالوج الفارغ عمدًا. وهو لا يُثبِت هوية المستودع البعيدة ولا دليل المصدر المثبَّت. تتحقق الأوامر الأخرى من التوثيق العام المطلوب ونماذج مشكلات (issue) GitHub المُهيكَلة. اجتياز هذه الأوامر محليًا لا يُخفِّف من متطلبات الأدلة؛ ولا يزال المشرفون يُطبِّقون كل بوابة إصدار (release gate) مقابلة قبل الدمج.

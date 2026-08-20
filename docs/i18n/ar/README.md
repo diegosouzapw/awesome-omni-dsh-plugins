@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **الموقع** | متصفّح كتالوج مُصيَّر مع بحث وترتيب                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **الكتالوج** | ملف YAML واحد لكل إضافة، وهو المصدر الوحيد للحقيقة             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **المخطط (Schema)**  | مخطط JSON Schema عام (المسودة 2020-12) يتحقق كل مُدخل بموجبه | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **واجهة سطر الأوامر (CLI)**     | البحث والفحص والتحقق والتثبيت من الكتالوج           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **واجهة سطر الأوامر (CLI)**     | البحث والفحص والتحقق والتثبيت من الكتالوج           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **تغذية آلية (Machine feeds)** | `catalog.json` + `catalog.snapshot.json` للأدوات           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 هذا المستودع هو المصدر العلني الموثوق للكتالوج. كل إدراج هو ملف YAML واحد تحت `catalog/plugins/`،
@@ -125,15 +125,15 @@
 ## 🚀 تثبيت واجهة سطر الأوامر
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-تُنشر الحزمة المُقيَّدة النطاق باسم `@diegosouza.pw/dsh-plugins@0.1.0`، والأمر أعلاه هو الاستدعاء
+تُنشر الحزمة المُقيَّدة النطاق باسم `omni-dsh-plugins@1.0.0`، والأمر أعلاه هو الاستدعاء
 المعتمد حاليًا؛ ولا يُستضاف هنا أي سكربت تثبيت.
 
 ### استخدام واجهة سطر الأوامر اليوم
 
-يشحن الإصدار 0.1.0 أوامر اكتشاف وتحقق للقراءة فقط، إضافةً إلى أوامر تثبيت مشروطة بموافقة صريحة.
+يشحن الإصدار 1.0.0 أوامر اكتشاف وتحقق للقراءة فقط، إضافةً إلى أوامر تثبيت مشروطة بموافقة صريحة.
 المرجع الكامل للأوامر، بما في ذلك الخيارات ورموز الخروج وبوابة الموافقة على تنفيذ التعليمات
 البرمجية، موجود في [docs/CLI.md](../../docs/CLI.md).
 
@@ -149,18 +149,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 الأوامر المُغيِّرة (`add`، `update`، `remove`) لا تنفّذ أبدًا شيفرة دورة حياة الإضافة ما لم تمرّر
-`--allow-code-execution`. على Windows الأصلي، هذه التغييرات معطّلة في الإصدار v0.1.0؛ استخدم WSL
+`--allow-code-execution`. على Windows الأصلي، هذه التغييرات معطّلة في الإصدار v1.0.0؛ استخدم WSL
 بدلًا من ذلك. أوامر القراءة فقط والتشغيل التجريبي تعمل في كل مكان.
 
 ## 🔍 كيف تدخل الإضافة إلى الكتالوج
@@ -304,7 +304,7 @@ monorepos أوسع قابلة للاكتشاف، لكنها تستخدم `stars:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | عقد المساهمة الكامل: الأدلة، وقواعد YAML، وبوابات المراجعة    |
 | [SECURITY.md](../../SECURITY.md)                   | الإبلاغ عن ثغرات الإضافات أو الكتالوج؛ وسياسة الأسرار           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | مرجع حقلًا بحقل لـ `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | مرجع أوامر واجهة سطر الأوامر لـ `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | مرجع أوامر واجهة سطر الأوامر لـ `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | كيفية إدارة الكتالوج: الأولوية، والبوابات، والمطالبات، وعمليات الإزالة   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | أنواع الأصول، وفئات القدرات الأساسية، والوسوم، ونطاق المستودع |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | نسب الفضل للمُنشئ، وأولوية طلبات السحب، وسياسة هوية Git                 |

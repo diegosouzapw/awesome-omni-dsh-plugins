@@ -98,14 +98,14 @@ popularity:
 
 ## 驗證指令與可用性
 
-該 npm CLI 以 `@diegosouza.pw/dsh-plugins@0.1.0` 發布,因此下列指令目前可透過 `npx` 使用。請照原樣使用這些指令;貢獻者不應自行捏造替代指令。
+該 npm CLI 以 `omni-dsh-plugins@1.0.0` 發布,因此下列指令目前可透過 `npx` 使用。請照原樣使用這些指令;貢獻者不應自行捏造替代指令。
 
 請在儲存庫根目錄執行下列指令:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` 只執行上文所述的本機 YAML、結構描述、SPDX、確切 SemVer、SHA-512 SRI 與重複項檢查,並接受刻意為之的零條目目錄。它無法證明遠端儲存庫身分或固定來源證據。其他指令會檢查所需的公開文件與結構化的 GitHub Issue 表單。這些指令在本機通過,並不會放寬證據要求;維護者在合併前仍會套用每一項對應的發布關卡。

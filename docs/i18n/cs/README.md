@@ -17,7 +17,7 @@ Objevování s prioritou pro tvůrce a instalace jedním příkazem pro pluginy 
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@ Seřazeno podle hvězdiček přesného repozitáře — počítají se pouze hv�
 | **Web** | Vykreslený prohlížeč katalogu s vyhledáváním a řazením                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Jeden soubor YAML na plugin, jediný zdroj pravdy             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schéma**  | Veřejné JSON Schema (draft 2020-12), proti kterému se ověřuje každý záznam | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Vyhledávání, kontrola, ověřování a instalace z katalogu           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Vyhledávání, kontrola, ověřování a instalace z katalogu           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Strojová data** | `catalog.json` + `catalog.snapshot.json` pro nástroje           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Tento repozitář je veřejným zdrojem pravdy pro katalog. Každý záznam je jeden soubor YAML pod `catalog/plugins/`, ověřený proti publikovanému JSON Schema, přidaný prostřednictvím jednotlivě zkontrolovaného pull requestu a vždy kreditovaný původnímu tvůrci pluginu. Nic v katalogu není generováno z jiného katalogu ani seznamu: každý záznam je rekonstruován z repozitáře původního tvůrce na fixovaném commitu.
@@ -118,14 +118,14 @@ Web a CLI jsou udržovány ze soukromého zdroje; tento repozitář obsahuje ve�
 ## 🚀 Instalace CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Balíček s rozsahem je publikován jako `@diegosouza.pw/dsh-plugins@0.1.0` a výše uvedený příkaz je dnes kanonickým způsobem volání; zde není hostován žádný instalační skript.
+Balíček s rozsahem je publikován jako `omni-dsh-plugins@1.0.0` a výše uvedený příkaz je dnes kanonickým způsobem volání; zde není hostován žádný instalační skript.
 
 ### Použití CLI dnes
 
-Verze 0.1.0 nabízí příkazy pro zjišťování a ověřování pouze pro čtení plus instalační příkazy podmíněné souhlasem. Úplná referenční příručka příkazů, včetně příznaků, návratových kódů a brány souhlasu s vykonáváním kódu, je v [docs/CLI.md](../../docs/CLI.md).
+Verze 1.0.0 nabízí příkazy pro zjišťování a ověřování pouze pro čtení plus instalační příkazy podmíněné souhlasem. Úplná referenční příručka příkazů, včetně příznaků, návratových kódů a brány souhlasu s vykonáváním kódu, je v [docs/CLI.md](../../docs/CLI.md).
 
 | Příkaz                        | Co dělá                                                        | Zasahuje do vašeho systému?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -139,17 +139,17 @@ Verze 0.1.0 nabízí příkazy pro zjišťování a ověřování pouze pro čte
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud nepředáte `--allow-code-execution`. Na nativním Windows jsou tyto změny ve v0.1.0 zakázány; použijte WSL. Příkazy pouze pro čtení a nanečisto fungují všude.
+Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud nepředáte `--allow-code-execution`. Na nativním Windows jsou tyto změny ve v1.0.0 zakázány; použijte WSL. Příkazy pouze pro čtení a nanečisto fungují všude.
 
 ## 🔍 Jak se plugin dostane do katalogu
 
@@ -264,7 +264,7 @@ Chcete, aby tu byl váš plugin s plným kreditem? [Otevřete jeden PR s jedním
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná smlouva o přispívání: důkazy, pravidla YAML, kontrolní brány    |
 | [SECURITY.md](../../SECURITY.md)                   | Hlášení zranitelností pluginů nebo katalogu; zásady tajemství           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Reference pole po poli pro `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Reference příkazů CLI pro `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Reference příkazů CLI pro `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jak je katalog spravován: přednost, brány, nároky a odstranění   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Typy artefaktů, primární kategorie schopností, tagy, rozsah repozitáře |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kreditování tvůrců, přednost PR a zásady identity Git                 |

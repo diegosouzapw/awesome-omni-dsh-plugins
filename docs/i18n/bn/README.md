@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **ওয়েবসাইট** | সার্চ ও র‍্যাঙ্কিংসহ রেন্ডার করা ক্যাটালগ ব্রাউজার                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **ক্যাটালগ** | প্রতি প্লাগইনের জন্য একটি YAML ফাইল, একমাত্র সত্যের উৎস             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **স্কিমা**  | পাবলিক JSON Schema (draft 2020-12) যার বিপরীতে প্রতিটি এন্ট্রি যাচাই হয় | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | ক্যাটালগ থেকে সার্চ, পরিদর্শন, যাচাই এবং ইনস্টল করুন           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | ক্যাটালগ থেকে সার্চ, পরিদর্শন, যাচাই এবং ইনস্টল করুন           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **মেশিন ফিড** | টুলের জন্য `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 এই রিপোজিটরি ক্যাটালগের জন্য সত্যের পাবলিক উৎস। প্রতিটি তালিকাভুক্তি `catalog/plugins/`-এর অধীনে একটি YAML
@@ -125,15 +125,15 @@
 ## 🚀 CLI ইনস্টল করুন
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-স্কোপড প্যাকেজটি `@diegosouza.pw/dsh-plugins@0.1.0` হিসেবে প্রকাশিত, এবং উপরের কমান্ডটি আজকের হিসেবে প্রামাণিক
+স্কোপড প্যাকেজটি `omni-dsh-plugins@1.0.0` হিসেবে প্রকাশিত, এবং উপরের কমান্ডটি আজকের হিসেবে প্রামাণিক
 আহ্বান; এখানে কোনো ইনস্টলার স্ক্রিপ্ট হোস্ট করা হয় না।
 
 ### আজই CLI ব্যবহার করুন
 
-সংস্করণ 0.1.0-এ রিড-অনলি ডিসকভারি ও ভ্যালিডেশন কমান্ড এবং সম্মতি-নিয়ন্ত্রিত ইনস্টল কমান্ড অন্তর্ভুক্ত। ফ্ল্যাগ,
+সংস্করণ 1.0.0-এ রিড-অনলি ডিসকভারি ও ভ্যালিডেশন কমান্ড এবং সম্মতি-নিয়ন্ত্রিত ইনস্টল কমান্ড অন্তর্ভুক্ত। ফ্ল্যাগ,
 এক্সিট কোড এবং কোড-এক্সিকিউশন সম্মতি গেটসহ সম্পূর্ণ কমান্ড রেফারেন্স [docs/CLI.md](../../docs/CLI.md)-এ পাওয়া যাবে।
 
 | Command                        | এটি কী করে                                                        | এটি কি আপনার সিস্টেম স্পর্শ করে?                    |
@@ -148,18 +148,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 পরিবর্তনকারী কমান্ডগুলো (`add`, `update`, `remove`) কখনও প্লাগইন লাইফসাইকেল কোড এক্সিকিউট করে না যদি না আপনি
-`--allow-code-execution` পাস করেন। নেটিভ Windows-এ এই পরিবর্তনগুলো v0.1.0-এ নিষ্ক্রিয় করা আছে; WSL ব্যবহার
+`--allow-code-execution` পাস করেন। নেটিভ Windows-এ এই পরিবর্তনগুলো v1.0.0-এ নিষ্ক্রিয় করা আছে; WSL ব্যবহার
 করুন। রিড-অনলি এবং ড্রাই-রান কমান্ড সর্বত্র কাজ করে।
 
 ## 🔍 কীভাবে একটি প্লাগইন ক্যাটালগে প্রবেশ করে
@@ -296,7 +296,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | সম্পূর্ণ অবদান চুক্তি: প্রমাণ, YAML নিয়ম, পর্যালোচনা গেট    |
 | [SECURITY.md](../../SECURITY.md)                   | প্লাগইন বা ক্যাটালগের দুর্বলতা রিপোর্ট করা; গোপনীয়তা নীতি           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml`-এর জন্য ফিল্ড-বাই-ফিল্ড রেফারেন্স             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0`-এর জন্য CLI কমান্ড রেফারেন্স          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0`-এর জন্য CLI কমান্ড রেফারেন্স          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | ক্যাটালগ কীভাবে পরিচালিত হয়: অগ্রাধিকার, গেট, দাবি এবং অপসারণ   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | আর্টিফ্যাক্ট প্রকার, প্রাথমিক সক্ষমতা বিভাগ, ট্যাগ, রিপোজিটরি সুযোগ |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | নির্মাতা কৃতিত্ব, PR অগ্রাধিকার এবং Git পরিচয় নীতি                 |

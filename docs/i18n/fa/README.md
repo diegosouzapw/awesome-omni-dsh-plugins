@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **وب‌سایت** | مرورگر کاتالوگ رندرشده با جستجو و رتبه‌بندی                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **کاتالوگ** | یک فایل YAML برای هر افزونه، تنها منبع حقیقت             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **اسکیما**  | JSON Schema عمومی (پیش‌نویس 2020-12) که هر ورودی در برابر آن اعتبارسنجی می‌شود | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | جستجو، بازرسی، اعتبارسنجی و نصب از کاتالوگ           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | جستجو، بازرسی، اعتبارسنجی و نصب از کاتالوگ           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **فیدهای ماشینی** | `catalog.json` + `catalog.snapshot.json` برای ابزارها           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 این ریپازیتوری منبع حقیقتِ عمومیِ کاتالوگ است. هر فهرست یک فایل YAML زیر `catalog/plugins/` است که در برابر یک
@@ -125,15 +125,15 @@ JSON Schema منتشرشده اعتبارسنجی شده، از طریق یک pu
 ## 🚀 نصب CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-این بستهٔ اسکوپ‌شده به‌صورت `@diegosouza.pw/dsh-plugins@0.1.0` منتشر می‌شود و دستور بالا امروز فراخوانی استاندارد
+این بستهٔ اسکوپ‌شده به‌صورت `omni-dsh-plugins@1.0.0` منتشر می‌شود و دستور بالا امروز فراخوانی استاندارد
 است؛ هیچ اسکریپت نصب‌کننده‌ای اینجا میزبانی نمی‌شود.
 
 ### استفاده از CLI امروز
 
-نسخهٔ 0.1.0 دستورات فقط‌خواندنیِ کشف و اعتبارسنجی به‌همراه دستورات نصبِ مشروط به رضایت را ارائه می‌دهد. مرجع کامل
+نسخهٔ 1.0.0 دستورات فقط‌خواندنیِ کشف و اعتبارسنجی به‌همراه دستورات نصبِ مشروط به رضایت را ارائه می‌دهد. مرجع کامل
 دستورات، شامل پرچم‌ها، کدهای خروج و دروازهٔ رضایتِ اجرای کد، در [docs/CLI.md](../../docs/CLI.md) است.
 
 | Command                        | چه کاری انجام می‌دهد                                                        | به سیستم شما دست می‌زند؟                    |
@@ -148,18 +148,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 دستورات جهش‌دهنده (`add`، `update`، `remove`) هرگز کد چرخهٔ حیات افزونه را اجرا نمی‌کنند مگر آنکه
-`--allow-code-execution` را ارسال کنید. در Windows بومی این جهش‌ها در نسخهٔ v0.1.0 غیرفعال‌اند؛ از WSL استفاده کنید.
+`--allow-code-execution` را ارسال کنید. در Windows بومی این جهش‌ها در نسخهٔ v1.0.0 غیرفعال‌اند؛ از WSL استفاده کنید.
 دستورات فقط‌خواندنی و dry-run همه‌جا کار می‌کنند.
 
 ## 🔍 چگونه یک افزونه وارد کاتالوگ می‌شود
@@ -298,7 +298,7 @@ requestهایی که توسط سازنده نوشته شده‌اند بر pull 
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | قرارداد کامل مشارکت: شواهد، قواعد YAML، دروازه‌های بازبینی    |
 | [SECURITY.md](../../SECURITY.md)                   | گزارش آسیب‌پذیری‌های افزونه یا کاتالوگ؛ سیاست اطلاعات محرمانه           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | مرجع فیلد‌به‌فیلد برای `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | مرجع دستورات CLI برای `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | مرجع دستورات CLI برای `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | کاتالوگ چگونه اداره می‌شود: اولویت، دروازه‌ها، ادعاها و حذف‌ها   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | انواع مصنوع، دسته‌های اصلی قابلیت، برچسب‌ها، دامنهٔ ریپازیتوری |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | اعتبار سازنده، اولویت PR و سیاست هویت Git                 |

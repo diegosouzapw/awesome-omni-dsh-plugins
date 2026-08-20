@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -105,7 +105,7 @@
 | **เว็บไซต์** | ตัวเรียกดูแคตตาล็อกแบบเรนเดอร์ พร้อมการค้นหาและการจัดอันดับ                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **แคตตาล็อก** | ไฟล์ YAML หนึ่งไฟล์ต่อหนึ่งปลั๊กอิน คือแหล่งข้อมูลจริงเพียงแหล่งเดียว             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **สคีมา**  | JSON Schema สาธารณะ (draft 2020-12) ที่ทุกรายการต้องตรวจสอบผ่าน | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | ค้นหา ตรวจสอบข้อมูล ยืนยันความถูกต้อง และติดตั้งจากแคตตาล็อก           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | ค้นหา ตรวจสอบข้อมูล ยืนยันความถูกต้อง และติดตั้งจากแคตตาล็อก           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **ฟีดสำหรับเครื่องจักร** | `catalog.json` + `catalog.snapshot.json` สำหรับเครื่องมือต่าง ๆ           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 รีโพซิทอรีนี้คือแหล่งข้อมูลจริงสาธารณะของแคตตาล็อก ทุกรายการที่ลงคือไฟล์ YAML หนึ่งไฟล์ภายใต้ `catalog/plugins/`
@@ -123,15 +123,15 @@
 ## 🚀 ติดตั้ง CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-แพ็กเกจแบบ scoped นี้เผยแพร่ในชื่อ `@diegosouza.pw/dsh-plugins@0.1.0` และคำสั่งด้านบนคือวิธีเรียกใช้มาตรฐานในปัจจุบัน
+แพ็กเกจแบบ scoped นี้เผยแพร่ในชื่อ `omni-dsh-plugins@1.0.0` และคำสั่งด้านบนคือวิธีเรียกใช้มาตรฐานในปัจจุบัน
 ไม่มีสคริปต์ตัวติดตั้งใด ๆ ที่โฮสต์ไว้ที่นี่
 
 ### ใช้งาน CLI วันนี้
 
-เวอร์ชัน 0.1.0 มาพร้อมคำสั่งค้นพบและตรวจสอบแบบอ่านอย่างเดียว รวมถึงคำสั่งติดตั้งที่ต้องได้รับความยินยอมก่อน
+เวอร์ชัน 1.0.0 มาพร้อมคำสั่งค้นพบและตรวจสอบแบบอ่านอย่างเดียว รวมถึงคำสั่งติดตั้งที่ต้องได้รับความยินยอมก่อน
 คู่มืออ้างอิงคำสั่งฉบับเต็ม รวมทั้งแฟล็ก รหัสออก และขั้นตอนขอความยินยอมก่อนรันโค้ด อยู่ที่ [docs/CLI.md](../../docs/CLI.md)
 
 | คำสั่ง                        | สิ่งที่ทำได้                                                        | มีผลต่อระบบของคุณหรือไม่?                    |
@@ -146,18 +146,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 คำสั่งที่เปลี่ยนแปลงสถานะ (`add`, `update`, `remove`) จะไม่รันโค้ดวงจรชีวิตของปลั๊กอินเลย เว้นแต่คุณจะส่งแฟล็ก
-`--allow-code-execution` บน Windows แบบเนทีฟ การเปลี่ยนแปลงเหล่านี้ถูกปิดใช้งานใน v0.1.0 — ให้ใช้ WSL แทน
+`--allow-code-execution` บน Windows แบบเนทีฟ การเปลี่ยนแปลงเหล่านี้ถูกปิดใช้งานใน v1.0.0 — ให้ใช้ WSL แทน
 ส่วนคำสั่งอ่านอย่างเดียวและโหมดจำลองใช้งานได้ทุกที่
 
 ## 🔍 ปลั๊กอินเข้าสู่แคตตาล็อกได้อย่างไร
@@ -296,7 +296,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | ข้อตกลงการมีส่วนร่วมฉบับเต็ม: หลักฐาน กฎ YAML ด่านตรวจการรีวิว    |
 | [SECURITY.md](../../SECURITY.md)                   | การรายงานช่องโหว่ของปลั๊กอินหรือแคตตาล็อก นโยบายด้านความลับ           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | คู่มืออ้างอิงแบบรายฟิลด์สำหรับ `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | คู่มืออ้างอิงคำสั่ง CLI สำหรับ `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | คู่มืออ้างอิงคำสั่ง CLI สำหรับ `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | วิธีการกำกับดูแลแคตตาล็อก: ลำดับความสำคัญ ด่านตรวจ การขอเป็นเจ้าของ และการนำออก   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | ประเภทของผลงาน หมวดหมู่ความสามารถหลัก แท็ก ขอบเขตของรีโพซิทอรี |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | การให้เครดิตผู้สร้าง ลำดับความสำคัญของ PR และนโยบายตัวตนบน Git                 |

@@ -174,16 +174,16 @@ szabályzatért.
 
 ## Validációs parancsok és elérhetőség
 
-Az npm CLI `@diegosouza.pw/dsh-plugins@0.1.0` néven van publikálva, így az alábbi parancsok ma is
+Az npm CLI `omni-dsh-plugins@1.0.0` néven van publikálva, így az alábbi parancsok ma is
 elérhetők `npx`-en keresztül. Használd őket pontosan úgy, ahogy le vannak írva; a
 hozzájárulóknak nem szabad helyettesítő parancsokat kitalálniuk.
 
 Futtasd ezeket a parancsokat a repository gyökeréből:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 A `catalog validate` csak a fent leírt helyi YAML-, séma-, SPDX-, pontos SemVer-, SHA-512 SRI- és
