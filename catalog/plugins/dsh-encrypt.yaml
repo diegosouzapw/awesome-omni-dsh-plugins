@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: dsh-encrypt
+name: dsh-encrypt
+description:
+  en: "WebUI-managed encrypted credentials for DeepSeek Harness: one file, plaintext until a password is set, then AES-256-GCM ciphertext under an Argon2id-derived key with SHA3-256 fingerprints; per-request decryption, unlock lockout, leak-guard output redaction, and shipped-code integrity self-checks."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - aes-256-gcm
+  - argon2id
+  - credentials
+  - dsh
+  - encryption
+  - leak-guard
+  - password
+  - prompt-injection
+  - sha3-256
+  - webui
+  - managed
+  - encrypted
+  - file
+  - plaintext
+  - until
+  - ciphertext
+source:
+  repository: https://github.com/yauntyour/DSH-Encrypt
+  repositoryNodeId: R_kgDOT5aeZg
+  subpath: null
+  commit: 00e114472919218a36ff8656d8a201e005d67a4d
+creator:
+  github: yauntyour
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:31:20.059Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
