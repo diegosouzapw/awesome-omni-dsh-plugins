@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dsh-session-audit
+name: dsh-session-audit
+description:
+  en: "Session execution analytics and audit reports for DeepSeek Harness. Understand how your agent actually worked: steps, tool calls, failures, repeated actions, token usage and verification signals."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - agent-observability
+  - session
+  - audit
+  - analytics
+  - execution
+  - reports
+  - understand
+  - actually
+  - worked
+  - steps
+  - tool
+  - calls
+source:
+  repository: https://github.com/bwndlct/dsh-session-audit
+  repositoryNodeId: R_kgDOT4RX5w
+  subpath: null
+  commit: 7f1d90e70fc628e602bc5cff531183a37ef6cae2
+creator:
+  github: bwndlct
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-20T00:45:19.295Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
