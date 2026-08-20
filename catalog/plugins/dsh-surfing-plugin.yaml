@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dsh-surfing-plugin
+name: dsh-surfing-plugin
+description:
+  en: SearXNG search and Crawl4AI fetch providers for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - searxng
+  - crawl4ai
+  - web-search
+  - web-fetch
+  - search
+  - fetch
+  - providers
+source:
+  repository: https://github.com/cyijun/dsh-surfing-plugin
+  repositoryNodeId: R_kgDOT4OZuQ
+  subpath: null
+  commit: 40041327e552157bafcc9bba866925b775c1469d
+creator:
+  github: cyijun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-19T21:29:54.662Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
