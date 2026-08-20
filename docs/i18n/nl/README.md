@@ -17,7 +17,7 @@ Ontdekking met voorrang voor makers en installatie met één commando voor **Dee
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Elke naam linkt naar het repository van de maker, vastgepind op de exacte commit
 | **Website** | Gerenderde catalogusbrowser met zoeken en rangschikking                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Catalogus** | Eén YAML-bestand per plugin, de enige bron van waarheid             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | Publiek JSON Schema (draft 2020-12) waartegen elke invoer wordt gevalideerd | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Doorzoekt, inspecteert, valideert en installeert vanuit de catalogus           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Doorzoekt, inspecteert, valideert en installeert vanuit de catalogus           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Machinefeeds** | `catalog.json` + `catalog.snapshot.json` voor tools           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Deze repository is de publieke bron van waarheid voor de catalogus. Elke vermelding is één
@@ -128,15 +128,15 @@ vastgepinde broncommit en expliciete attributie.
 ## 🚀 Installeer de CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Het scoped package wordt gepubliceerd als `@diegosouza.pw/dsh-plugins@0.1.0` en het commando
+Het scoped package wordt gepubliceerd als `omni-dsh-plugins@1.0.0` en het commando
 hierboven is vandaag de canonieke aanroep; er wordt hier geen installatiescript gehost.
 
 ### Gebruik de CLI vandaag
 
-Versie 0.1.0 levert alleen-lezen ontdekkings- en validatiecommando's plus installatie-
+Versie 1.0.0 levert alleen-lezen ontdekkings- en validatiecommando's plus installatie-
 commando's die aan toestemming gebonden zijn. De volledige commandoreferentie, inclusief
 vlaggen, afsluitcodes en de toestemmingscontrole voor codeuitvoering, staat in [docs/CLI.md](../../docs/CLI.md).
 
@@ -152,19 +152,19 @@ vlaggen, afsluitcodes en de toestemmingscontrole voor codeuitvoering, staat in [
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Muterende commando's (`add`, `update`, `remove`) voeren nooit levenscycluscode van de plugin
 uit, tenzij u `--allow-code-execution` opgeeft. Op nativief Windows zijn die mutaties
-uitgeschakeld in v0.1.0; gebruik WSL. Alleen-lezen- en dry-run-commando's werken overal.
+uitgeschakeld in v1.0.0; gebruik WSL. Alleen-lezen- en dry-run-commando's werken overal.
 
 ## 🔍 Hoe een plugin de catalogus binnenkomt
 
@@ -311,7 +311,7 @@ als iemand uw werk al heeft gecatalogiseerd voordat u dat deed.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Het volledige bijdragecontract: bewijs, YAML-regels, beoordelingscontroles    |
 | [SECURITY.md](../../SECURITY.md)                   | Kwetsbaarheden in plugins of catalogus melden; geheimenbeleid           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Veld-voor-veld-referentie voor `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-commandoreferentie voor `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-commandoreferentie voor `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hoe de catalogus wordt bestuurd: voorrang, controles, claims en verwijderingen   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefacttypen, primaire capaciteitscategorieën, tags, repositoryomvang |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Makerscredit, PR-voorrang en Git-identiteitsbeleid                 |

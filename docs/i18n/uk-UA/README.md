@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **Сайт** | Готовий вебкаталог із пошуком і рейтингом                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Каталог** | Один YAML-файл на плагін, єдине джерело істини             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Схема**  | Публічна JSON Schema (draft 2020-12), за якою перевіряється кожен запис | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Пошук, перегляд, перевірка та встановлення з каталогу           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Пошук, перегляд, перевірка та встановлення з каталогу           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Машиночитані фіди** | `catalog.json` + `catalog.snapshot.json` для інструментів           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Цей репозиторій — публічне джерело істини для каталогу. Кожен запис — це один YAML-файл
@@ -127,15 +127,15 @@ request, по одному за раз, із репозиторію оригін
 ## 🚀 Встановлення CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Пакет опубліковано під скоупом як `@diegosouza.pw/dsh-plugins@0.1.0`, і наведена вище команда
+Пакет опубліковано під скоупом як `omni-dsh-plugins@1.0.0`, і наведена вище команда
 сьогодні є канонічним способом виклику; скрипт встановлення тут не розміщено.
 
 ### Можливості CLI вже зараз
 
-Версія 0.1.0 включає команди пошуку й валідації лише для читання, а також команди встановлення,
+Версія 1.0.0 включає команди пошуку й валідації лише для читання, а також команди встановлення,
 що потребують явної згоди. Повний довідник команд — із прапорцями, кодами завершення та шлюзом
 згоди на виконання коду — у [docs/CLI.md](../../docs/CLI.md).
 
@@ -151,19 +151,19 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Змінювальні команди (`add`, `update`, `remove`) ніколи не виконують код життєвого циклу плагіна,
 якщо не передано прапорець `--allow-code-execution`. У нативному Windows ці змінювальні команди
-вимкнено у v0.1.0; використовуйте WSL. Команди лише для читання й тестового прогону працюють усюди.
+вимкнено у v1.0.0; використовуйте WSL. Команди лише для читання й тестового прогону працюють усюди.
 
 ## 🔍 Як плагін потрапляє до каталогу
 
@@ -309,7 +309,7 @@ issue. Ніколи не надсилайте облікові дані, при�
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Повний контракт учасника: докази, правила YAML, перевірки під час ревʼю    |
 | [SECURITY.md](../../SECURITY.md)                   | Як повідомляти про вразливості плагіна чи каталогу; політика секретів           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Поатрибутний довідник щодо `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Довідник команд CLI для `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Довідник команд CLI для `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Як керується каталог: пріоритети, перевірки, заявки та видалення   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Види артефактів, основні категорії можливостей, теги, область репозиторію |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Вказівка авторства, пріоритет PR і політика ідентифікації в Git                 |

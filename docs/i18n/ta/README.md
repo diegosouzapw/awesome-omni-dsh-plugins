@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -107,7 +107,7 @@
 | **இணையதளம்** | தேடல் மற்றும் தரவரிசையுடன் காட்டப்படும் பட்டியல் உலாவி                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **பட்டியல்** | ஒவ்வொரு செருகுநிரலுக்கும் ஒரு YAML கோப்பு, ஒரே உண்மை மூலம்             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **திட்டவரைவு**  | ஒவ்வொரு பதிவும் சரிபார்க்கும் பொது JSON திட்டவரைவு (draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | பட்டியலிலிருந்து தேடு, ஆய்வு செய், சரிபார் மற்றும் நிறுவு           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | பட்டியலிலிருந்து தேடு, ஆய்வு செய், சரிபார் மற்றும் நிறுவு           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **இயந்திரத் தரவுகள்** | கருவிகளுக்கான `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 இந்தக் களஞ்சியம் பட்டியலுக்கான பொது உண்மை மூலமாகும். ஒவ்வொரு பதிவும் `catalog/plugins/` கீழ் ஒரு
@@ -129,15 +129,15 @@ YAML கோப்பாகும், வெளியிடப்பட்ட JSO
 ## 🚀 CLI-ஐ நிறுவுங்கள்
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-இந்த scoped package `@diegosouza.pw/dsh-plugins@0.1.0` எனப் பதிப்பிக்கப்பட்டுள்ளது, மேலே உள்ள
+இந்த scoped package `omni-dsh-plugins@1.0.0` எனப் பதிப்பிக்கப்பட்டுள்ளது, மேலே உள்ள
 கட்டளையே இன்றைய நியமிக்கப்பட்ட அழைப்பாகும்; இங்கு எந்த நிறுவல் ஸ்கிரிப்டும் ஹோஸ்ட் செய்யப்படவில்லை.
 
 ### இன்று CLI-யைப் பயன்படுத்துங்கள்
 
-பதிப்பு 0.1.0 படிக்க-மட்டும் கண்டறிதல் மற்றும் சரிபார்ப்புக் கட்டளைகளையும், சம்மதம்-கேட்டு-நிறுத்தும்
+பதிப்பு 1.0.0 படிக்க-மட்டும் கண்டறிதல் மற்றும் சரிபார்ப்புக் கட்டளைகளையும், சம்மதம்-கேட்டு-நிறுத்தும்
 நிறுவல் கட்டளைகளையும் வழங்குகிறது. கொடிகள், வெளியேறும் குறியீடுகள் மற்றும் குறியீடு-செயல்படுத்தல்
 சம்மத நுழைவாயில் உட்பட முழு கட்டளைக் குறிப்பு [docs/CLI.md](../../docs/CLI.md)-இல் உள்ளது.
 
@@ -153,19 +153,19 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # இந்தக் களஞ்சியத்தில் உள்ள பட்டியலைச் சரிபார்க்கவும் (CI இயக்குவது இதுவே):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # எதையும் நிறுவாமல் உள்ளூரில் தேடி ஆய்வு செய்யவும்:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # ஒரு நிறுவல் திட்டத்தை முன்னோட்டமிடவும்; எதுவும் எழுதப்படாது, துணை-செயல்முறையும் இயங்காது:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 மாற்றியமைக்கும் கட்டளைகள் (`add`, `update`, `remove`) நீங்கள் `--allow-code-execution` கொடுக்காத
 வரை செருகுநிரல் வாழ்க்கைச் சுழற்சிக் குறியீட்டை ஒருபோதும் இயக்காது. சொந்த Windows-இல் இந்த மாற்றங்கள்
-v0.1.0-இல் முடக்கப்பட்டுள்ளன; WSL பயன்படுத்தவும். படிக்க-மட்டும் மற்றும் dry-run கட்டளைகள் எல்லா
+v1.0.0-இல் முடக்கப்பட்டுள்ளன; WSL பயன்படுத்தவும். படிக்க-மட்டும் மற்றும் dry-run கட்டளைகள் எல்லா
 இடங்களிலும் வேலை செய்கின்றன.
 
 ## 🔍 ஒரு செருகுநிரல் பட்டியலில் எப்படி நுழைகிறது
@@ -314,7 +314,7 @@ pull request திறப்பதற்கு முன் [CONTRIBUTING.md](..
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | முழுமையான பங்களிப்பு ஒப்பந்தம்: ஆதாரம், YAML விதிகள், மதிப்பாய்வு நுழைவாயில்கள்    |
 | [SECURITY.md](../../SECURITY.md)                   | செருகுநிரல் அல்லது பட்டியல் பாதிப்புகளைப் புகாரளித்தல்; ரகசியக் கொள்கை           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml`-க்கான புலவாரியான குறிப்பு             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0`-க்கான CLI கட்டளைக் குறிப்பு          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0`-க்கான CLI கட்டளைக் குறிப்பு          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | பட்டியல் எவ்வாறு நிர்வகிக்கப்படுகிறது: முன்னுரிமை, நுழைவாயில்கள், கோரிக்கைகள் மற்றும் நீக்கங்கள்   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | கலைப்படைப்பு வகைகள், முதன்மைத் திறன் வகைகள், குறிச்சொற்கள், களஞ்சிய நோக்கம் |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | படைப்பாளர் வரவு, PR முன்னுரிமை மற்றும் Git அடையாளக் கொள்கை                 |

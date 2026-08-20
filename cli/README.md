@@ -1,13 +1,13 @@
-# @diegosouza.pw/dsh-plugins
+# omni-dsh-plugins
 
 > **Unofficial community project. Not affiliated with, endorsed by, or sponsored by DeepSeek.**
 > DeepSeek names and marks belong to their respective owner.
 
-`@diegosouza.pw/dsh-plugins` is a thin catalog client and safety boundary for public DeepSeek
+`omni-dsh-plugins` is a thin catalog client and safety boundary for public DeepSeek
 Harness (DSH) plugin entries. Its canonical invocation is:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
 The npm artifact is MIT-licensed executable JavaScript built from the sources in
@@ -28,14 +28,14 @@ never ships here.
 ## Discover and validate
 
 ```bash
-npx @diegosouza.pw/dsh-plugins search vision
-npx @diegosouza.pw/dsh-plugins info example-plugin
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog ./awesome-omni-dsh-plugins
-npx @diegosouza.pw/dsh-plugins catalog validate \
+npx omni-dsh-plugins search vision
+npx omni-dsh-plugins info example-plugin
+npx omni-dsh-plugins catalog validate --catalog ./awesome-omni-dsh-plugins
+npx omni-dsh-plugins catalog validate \
   --catalog ./awesome-omni-dsh-plugins \
   --revision <40-character-commit>
-npx @diegosouza.pw/dsh-plugins catalog docs-check ./awesome-omni-dsh-plugins
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check ./awesome-omni-dsh-plugins
+npx omni-dsh-plugins catalog docs-check ./awesome-omni-dsh-plugins
+npx omni-dsh-plugins catalog github-forms-check ./awesome-omni-dsh-plugins
 ```
 
 An empty catalog is valid and reports `0 entries valid; catalog is empty`. `catalog validate`
@@ -50,7 +50,7 @@ signed snapshot manifest.
 Preview an operation without downloads, file changes or subprocesses:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins add example-plugin --profile web --dry-run
+npx omni-dsh-plugins add example-plugin --profile web --dry-run
 ```
 
 Dry-run is strictly syntactic. It does not load a local or remote catalog and does not read or
@@ -61,18 +61,18 @@ may execute during that delegated step. The CLI therefore refuses mutation unles
 explicit consent:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins add example-plugin \
+npx omni-dsh-plugins add example-plugin \
   --profile web \
   --allow-code-execution
-npx @diegosouza.pw/dsh-plugins update example-plugin \
+npx omni-dsh-plugins update example-plugin \
   --profile web \
   --allow-code-execution
-npx @diegosouza.pw/dsh-plugins remove example-plugin \
+npx omni-dsh-plugins remove example-plugin \
   --profile web \
   --allow-code-execution
 ```
 
-Native Windows policy for v0.1.0: code-executing `add`, `update`, and `remove` are disabled
+Native Windows policy for v1.0.0: code-executing `add`, `update`, and `remove` are disabled
 before any profile, state, cache, or subprocess access because complete descendant containment
 cannot be proven. Use WSL for mutations. `--dry-run` and the read-only catalog, `search`, `info`,
 `list`, and `doctor` commands remain available. A native Windows recovery marker is never
@@ -102,7 +102,7 @@ code-executing mutations are disabled rather than claiming unproven descendant c
 Explicit POSIX recovery is available with:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins recover
+npx omni-dsh-plugins recover
 ```
 
 Recovery does not load the catalog. Before durable DSH success it rolls back; after durable DSH
@@ -117,8 +117,8 @@ catalog-managed is also a successful no-op.
 ## Inspect the local environment
 
 ```bash
-npx @diegosouza.pw/dsh-plugins list --profile web
-npx @diegosouza.pw/dsh-plugins doctor
+npx omni-dsh-plugins list --profile web
+npx omni-dsh-plugins doctor
 ```
 
 These commands are read-only. Output never intentionally includes tokens, credentials, stack
@@ -142,7 +142,7 @@ declare exactly that SHA. Redirects, alternate hosts, traversal, symlinks, overs
 and revision mismatches are rejected before catalog validation.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins search tui \
+npx omni-dsh-plugins search tui \
   --catalog https://dsh-plugins.omniroute.online/catalog.snapshot.json \
   --revision <published-catalog-revision>
 ```

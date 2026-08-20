@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@
 | **Уебсайт** | Изобразен браузър на каталога с търсене и класиране                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Каталог** | Един YAML файл за плъгин, единственият източник на истина             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Схема**  | Публична JSON Schema (draft 2020-12), спрямо която се валидира всеки запис | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Търсене, преглед, валидиране и инсталиране от каталога           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Търсене, преглед, валидиране и инсталиране от каталога           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Машинни емисии** | `catalog.json` + `catalog.snapshot.json` за инструменти           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Това хранилище е публичният източник на истина за каталога. Всеки запис е един YAML файл под `catalog/plugins/`, валидиран спрямо публикувана JSON схема, добавен чрез отделно прегледан pull request и винаги кредитиран на оригиналния създател на плъгина. Нищо в каталога не е генерирано от друг каталог или списък: всеки запис се възстановява от хранилището на оригиналния създател при фиксиран комит.
@@ -118,14 +118,14 @@
 ## 🚀 Инсталирайте CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Пакетът с обхват е публикуван като `@diegosouza.pw/dsh-plugins@0.1.0` и командата по-горе е каноничният начин на извикване днес; тук не се хоства инсталационен скрипт.
+Пакетът с обхват е публикуван като `omni-dsh-plugins@1.0.0` и командата по-горе е каноничният начин на извикване днес; тук не се хоства инсталационен скрипт.
 
 ### Използвайте CLI днес
 
-Версия 0.1.0 предлага команди за откриване и валидиране само за четене, плюс инсталационни команди, обвързани със съгласие. Пълната справка за командите, включително флагове, кодове за изход и портала за съгласие за изпълнение на код, е в [docs/CLI.md](../../docs/CLI.md).
+Версия 1.0.0 предлага команди за откриване и валидиране само за четене, плюс инсталационни команди, обвързани със съгласие. Пълната справка за командите, включително флагове, кодове за изход и портала за съгласие за изпълнение на код, е в [docs/CLI.md](../../docs/CLI.md).
 
 | Команда                        | Какво прави                                                        | Засяга ли вашата система?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -139,17 +139,17 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-Мутиращите команди (`add`, `update`, `remove`) никога не изпълняват код от жизнения цикъл на плъгина, освен ако не подадете `--allow-code-execution`. На родни Windows системи тези мутации са изключени във v0.1.0; използвайте WSL. Командите само за четене и пробните изпълнения работят навсякъде.
+Мутиращите команди (`add`, `update`, `remove`) никога не изпълняват код от жизнения цикъл на плъгина, освен ако не подадете `--allow-code-execution`. На родни Windows системи тези мутации са изключени във v1.0.0; използвайте WSL. Командите само за четене и пробните изпълнения работят навсякъде.
 
 ## 🔍 Как плъгин влиза в каталога
 
@@ -264,7 +264,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Пълният договор за принос: доказателства, правила за YAML, портали за преглед    |
 | [SECURITY.md](../../SECURITY.md)                   | Докладване на уязвимости в плъгини или каталога; политика за тайни           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Справка поле по поле за `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Справка за командите на CLI за `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Справка за командите на CLI за `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Как се управлява каталогът: предимство, портали, претенции и премахвания   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Видове артефакти, основни категории на способности, тагове, обхват на хранилището |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Кредитиране на създатели, предимство на PR и политика за Git идентичност                 |

@@ -1,21 +1,21 @@
-# CLI 参考手册 — `@diegosouza.pw/dsh-plugins@0.1.0`
+# CLI 参考手册 — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · **中文（简体）**
 
 > **非官方社区项目,与 DeepSeek 无关联、未经其认可,也未获其赞助。**
 > DeepSeek 的名称与标识归其各自所有者所有。
 
-本页记录已发布 CLI 在 `0.1.0` 版本中的确切行为。下文的每一条命令概要和参数都来自已发布命令自身的 `--help` 输出;此处不描述任何尚未发布的行为。该 CLI 从私有源代码维护,并作为带作用域的软件包 [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) 发布到 npm。
+本页记录已发布 CLI 在 `1.0.0` 版本中的确切行为。下文的每一条命令概要和参数都来自已发布命令自身的 `--help` 输出;此处不描述任何尚未发布的行为。该 CLI 从私有源代码维护,并作为带作用域的软件包 [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) 发布到 npm。
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## v0.1.0 中的设计原则
+## v1.0.0 中的设计原则
 
 - **默认只读。** `catalog`、`search`、`info`、`list` 和 `doctor` 绝不会修改配置文件(profile)、写入文件或启动插件代码。
 - **代码执行需明确同意。** 除非传入 `--allow-code-execution`,否则 `add`、`update` 和 `remove` 会拒绝运行 DSH/pnpm 生命周期代码。若不传入该参数,可使用 `--dry-run` 查看已验证的执行计划。
-- **原生 Windows 政策。** 在 v0.1.0 中,原生 Windows 上带代码执行的 `add`/`update`/`remove` 已被禁用;请使用 WSL。Dry-run 和只读命令仍然可用,原生 Windows 的恢复标记需要按文档说明进行手动恢复。
+- **原生 Windows 政策。** 在 v1.0.0 中,原生 Windows 上带代码执行的 `add`/`update`/`remove` 已被禁用;请使用 WSL。Dry-run 和只读命令仍然可用,原生 Windows 的恢复标记需要按文档说明进行手动恢复。
 - **固定输入。** 目录输入可以是本地目录、快照文件,或固定的公开快照 URL,并可选地锁定到确切的 40 个字符的修订版本(revision)。
 
 ## 通用选项
@@ -39,7 +39,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
 | `0`       | 成功(包括“为空但有效”的结果,例如空目录)     |
 | `1`       | 失败:校验错误、条目未找到、缺少必需选项,或诊断检查报告了错误 |
 
-在 v0.1.0 中观察到的示例:对一个有效的空目录运行 `catalog validate` 会以 `0` 退出,并输出
+在 v1.0.0 中观察到的示例:对一个有效的空目录运行 `catalog validate` 会以 `0` 退出,并输出
 `0 entries valid; catalog is empty`;`info <unknown-id>` 会以 `1` 退出,并输出 `Plugin not found`;
 当任何检查项(例如缺少 `dsh` 可执行文件)报告错误时,`doctor` 会以 `1` 退出。
 
@@ -63,9 +63,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # From the repository root:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — 在本地搜索公开目录字段
@@ -78,8 +78,8 @@ dsh-plugins search [options] <query...>
 `No plugins found.`(退出码为 `0`)。
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — 在目录之外查找插件
@@ -88,8 +88,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **未包含在已发布的 `0.1.0` 中。** `discover` 随 `1.0.0` 发布;本页其他所有命令都适用于当前发布到
-> npm 上的版本。对 `@0.1.0` 运行该命令会因未知命令而失败。
+> **未包含在已发布的 `1.0.0` 中。** `discover` 随 `1.0.0` 发布;本页其他所有命令都适用于当前发布到
+> npm 上的版本。对 `@1.0.0` 运行该命令会因未知命令而失败。
 
 它会先搜索经过策展的目录,然后——除非传入 `--offline`——再搜索实时的 GitHub `dsh-plugin` 主题
 (topic),因此即使某个插件尚未提交,也仍然可以被找到。目录结果携带目录持有的证据(固定提交、创作
@@ -99,8 +99,8 @@ dsh-plugins discover [options] <query...>
 地化。
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — 显示一个公开目录条目
@@ -113,7 +113,7 @@ dsh-plugins info [options] <id>
 `Plugin not found: <id>`。
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — 通过官方 DSH 委托添加一个目录插件
@@ -135,10 +135,10 @@ dsh-plugins add [options] <id>
 
 ```bash
 # Preview only — nothing is written, nothing executes:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Real install — explicit consent to lifecycle code:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — 通过官方 DSH 委托更新一个目录插件

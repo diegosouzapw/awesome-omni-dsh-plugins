@@ -162,16 +162,16 @@ Git authorshipまたは `Co-authored-by` トレーラーを使用できます。
 
 ## 検証コマンドと利用可能性
 
-npmのCLIは `@diegosouza.pw/dsh-plugins@0.1.0` として公開されているため、以下のコマンドは現在 `npx` を通
+npmのCLIは `omni-dsh-plugins@1.0.0` として公開されているため、以下のコマンドは現在 `npx` を通
 じて利用できます。記載されているとおりに正確に使用してください。貢献者は代替コマンドを創作すべきではあり
 ません。
 
 これらのコマンドはリポジトリのルートから実行してください:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` は、上記で説明したローカルのYAML、スキーマ、SPDX、正確なSemVer、SHA-512 SRI、重複の

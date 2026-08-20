@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **వెబ్‌సైట్** | శోధన మరియు ర్యాంకింగ్‌తో రెండర్ చేయబడిన కేటలాగ్ బ్రౌజర్                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **కేటలాగ్** | ప్రతి ప్లగిన్‌కు ఒక YAML ఫైల్, ఏకైక మూలం (సింగిల్ సోర్స్ ఆఫ్ ట్రూత్)             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **స్కీమా**  | ప్రతి ఎంట్రీ ధృవీకరించే పబ్లిక్ JSON స్కీమా (draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | కేటలాగ్ నుండి శోధించండి, పరిశీలించండి, ధృవీకరించండి మరియు ఇన్‌స్టాల్ చేయండి           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | కేటలాగ్ నుండి శోధించండి, పరిశీలించండి, ధృవీకరించండి మరియు ఇన్‌స్టాల్ చేయండి           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **మెషిన్ ఫీడ్‌లు** | టూల్స్ కోసం `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 ఈ రిపాజిటరీ కేటలాగ్ కోసం పబ్లిక్ సోర్స్ ఆఫ్ ట్రూత్. ప్రతి లిస్టింగ్ `catalog/plugins/` కింద ఒక YAML ఫైల్,
@@ -126,15 +126,15 @@
 ## 🚀 CLIని ఇన్‌స్టాల్ చేయండి
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-స్కోప్డ్ ప్యాకేజీ `@diegosouza.pw/dsh-plugins@0.1.0`గా ప్రచురించబడింది మరియు పైన ఉన్న కమాండ్ ఈరోజు
+స్కోప్డ్ ప్యాకేజీ `omni-dsh-plugins@1.0.0`గా ప్రచురించబడింది మరియు పైన ఉన్న కమాండ్ ఈరోజు
 ప్రామాణిక ఇన్వొకేషన్; ఇక్కడ ఎటువంటి ఇన్‌స్టాలర్ స్క్రిప్ట్ హోస్ట్ చేయబడలేదు.
 
 ### CLIని ఈరోజు ఉపయోగించండి
 
-వెర్షన్ 0.1.0లో రీడ్-ఓన్లీ డిస్కవరీ మరియు వాలిడేషన్ కమాండ్‌లతో పాటు కన్సెంట్-గేటెడ్ ఇన్‌స్టాల్ కమాండ్‌లు
+వెర్షన్ 1.0.0లో రీడ్-ఓన్లీ డిస్కవరీ మరియు వాలిడేషన్ కమాండ్‌లతో పాటు కన్సెంట్-గేటెడ్ ఇన్‌స్టాల్ కమాండ్‌లు
 ఉన్నాయి. ఫ్లాగ్‌లు, ఎగ్జిట్ కోడ్‌లు మరియు కోడ్-ఎగ్జిక్యూషన్ కన్సెంట్ గేట్‌తో సహా పూర్తి కమాండ్ రిఫరెన్స్
 [docs/CLI.md](../../docs/CLI.md)లో ఉంది.
 
@@ -150,18 +150,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 మ్యుటేటింగ్ కమాండ్‌లు (`add`, `update`, `remove`) మీరు `--allow-code-execution` పాస్ చేయకపోతే ప్లగిన్
-లైఫ్‌సైకిల్ కోడ్‌ను ఎప్పుడూ ఎగ్జిక్యూట్ చేయవు. నేటివ్ Windowsలో ఆ మ్యుటేషన్‌లు v0.1.0లో డిసేబుల్ చేయబడ్డాయి;
+లైఫ్‌సైకిల్ కోడ్‌ను ఎప్పుడూ ఎగ్జిక్యూట్ చేయవు. నేటివ్ Windowsలో ఆ మ్యుటేషన్‌లు v1.0.0లో డిసేబుల్ చేయబడ్డాయి;
 WSL ఉపయోగించండి. రీడ్-ఓన్లీ మరియు డ్రై-రన్ కమాండ్‌లు ప్రతిచోటా పని చేస్తాయి.
 
 ## 🔍 కేటలాగ్‌లోకి ప్లగిన్ ఎలా ప్రవేశిస్తుంది
@@ -305,7 +305,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | పూర్తి కంట్రిబ్యూషన్ ఒప్పందం: సాక్ష్యం, YAML నియమాలు, సమీక్ష గేట్‌లు    |
 | [SECURITY.md](../../SECURITY.md)                   | ప్లగిన్ లేదా కేటలాగ్ దుర్బలత్వాలను నివేదించడం; రహస్యాల పాలసీ           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` కోసం ఫీల్డ్-బై-ఫీల్డ్ రిఫరెన్స్             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` కోసం CLI కమాండ్ రిఫరెన్స్          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` కోసం CLI కమాండ్ రిఫరెన్స్          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | కేటలాగ్ ఎలా నిర్వహించబడుతుంది: ప్రాధాన్యత, గేట్‌లు, క్లెయిమ్‌లు మరియు తొలగింపులు |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | ఆర్టిఫ్యాక్ట్ రకాలు, ప్రాథమిక సామర్థ్య వర్గాలు, ట్యాగ్‌లు, రిపాజిటరీ స్కోప్ |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | సృష్టికర్త క్రెడిట్, PR ప్రాధాన్యత మరియు Git ఐడెంటిటీ పాలసీ                 |

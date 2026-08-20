@@ -17,7 +17,7 @@ Khám phá và cài đặt plugin **DeepSeek Harness (DSH)** chỉ bằng một 
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ của nhà phát triển, được ghim tại đúng commit mà danh mục đã 
 | **Website** | Trình duyệt danh mục đã kết xuất, có tìm kiếm và xếp hạng                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Danh mục** | Một file YAML cho mỗi plugin, là nguồn dữ liệu chân lý duy nhất             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | JSON Schema công khai (draft 2020-12) mà mọi mục đều xác thực theo | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Tìm kiếm, xem chi tiết, xác thực và cài đặt từ danh mục           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Tìm kiếm, xem chi tiết, xác thực và cài đặt từ danh mục           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Nguồn dữ liệu cho máy** | `catalog.json` + `catalog.snapshot.json` dành cho các công cụ           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Repository này là nguồn dữ liệu chân lý công khai của danh mục. Mỗi mục niêm yết là một file YAML nằm dưới
@@ -125,15 +125,15 @@ repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố đ
 ## 🚀 Cài đặt CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Gói scoped này được phát hành với tên `@diegosouza.pw/dsh-plugins@0.1.0`, và lệnh trên đây là cách gọi chính thức hiện
+Gói scoped này được phát hành với tên `omni-dsh-plugins@1.0.0`, và lệnh trên đây là cách gọi chính thức hiện
 tại; không có script cài đặt nào được lưu trữ tại đây.
 
 ### Dùng CLI ngay hôm nay
 
-Phiên bản 0.1.0 cung cấp các lệnh khám phá và xác thực chỉ đọc, cùng các lệnh cài đặt yêu cầu sự đồng ý. Tài liệu tham
+Phiên bản 1.0.0 cung cấp các lệnh khám phá và xác thực chỉ đọc, cùng các lệnh cài đặt yêu cầu sự đồng ý. Tài liệu tham
 khảo lệnh đầy đủ, bao gồm cờ, mã thoát và cơ chế đồng ý trước khi thực thi mã, có tại [docs/CLI.md](../../docs/CLI.md).
 
 | Lệnh                        | Chức năng                                                        | Có tác động đến hệ thống của bạn không?                    |
@@ -148,18 +148,18 @@ khảo lệnh đầy đủ, bao gồm cờ, mã thoát và cơ chế đồng ý 
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Các lệnh làm thay đổi trạng thái (`add`, `update`, `remove`) không bao giờ thực thi mã vòng đời của plugin trừ khi bạn
-truyền `--allow-code-execution`. Trên Windows gốc, các thao tác thay đổi này đã bị vô hiệu hóa trong v0.1.0; hãy dùng
+truyền `--allow-code-execution`. Trên Windows gốc, các thao tác thay đổi này đã bị vô hiệu hóa trong v1.0.0; hãy dùng
 WSL. Các lệnh chỉ đọc và chạy thử hoạt động ở mọi nơi.
 
 ## 🔍 Một plugin gia nhập danh mục như thế nào
@@ -300,7 +300,7 @@ nếu ai đó đã đưa tác phẩm của bạn vào danh mục trước khi b�
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Quy ước đóng góp đầy đủ: bằng chứng, quy tắc YAML, cổng xét duyệt    |
 | [SECURITY.md](../../SECURITY.md)                   | Báo cáo lỗ hổng của plugin hoặc danh mục; chính sách về bí mật           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Tài liệu tham khảo theo từng trường cho `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Tài liệu tham khảo lệnh CLI cho `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Tài liệu tham khảo lệnh CLI cho `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Cách danh mục được quản trị: thứ tự ưu tiên, cổng kiểm soát, nhận quyền sở hữu và gỡ bỏ   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Loại sản phẩm, danh mục năng lực chính, thẻ, phạm vi repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Ghi công nhà phát triển, thứ tự ưu tiên PR và chính sách danh tính Git                 |

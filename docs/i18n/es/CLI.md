@@ -1,21 +1,21 @@
-# Referencia del CLI — `@diegosouza.pw/dsh-plugins@0.1.0`
+# Referencia del CLI — `omni-dsh-plugins@1.0.0`
 
 > 🌐 [English](../../docs/CLI.md) · **Español**
 
 > **Proyecto comunitario no oficial. No afiliado, respaldado ni patrocinado por DeepSeek.**
 > Los nombres y marcas de DeepSeek pertenecen a sus respectivos propietarios.
 
-Esta página documenta el CLI publicado exactamente como se comporta en la versión `0.1.0`. Cada
+Esta página documenta el CLI publicado exactamente como se comporta en la versión `1.0.0`. Cada
 sinopsis y flag a continuación proviene de la propia salida `--help` del comando publicado; nada
 aquí describe comportamiento no lanzado. El CLI se mantiene desde código fuente privado y se
 publica en npm como el paquete con alcance
-[`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins).
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 --help
+npx omni-dsh-plugins --help
 ```
 
-## Principios de diseño en v0.1.0
+## Principios de diseño en v1.0.0
 
 - **Solo lectura por defecto.** `catalog`, `search`, `info`, `list` y `doctor` nunca modifican
   perfiles, escriben archivos ni disparan código de plugin.
@@ -23,7 +23,7 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 --help
   ejecutar código de ciclo de vida de DSH/pnpm a menos que pase `--allow-code-execution`. Sin
   ella, use `--dry-run` para ver el plan verificado.
 - **Política nativa de Windows.** `add`/`update`/`remove` nativos en Windows con ejecución de
-  código están deshabilitados en v0.1.0; use WSL. El dry-run y los comandos de solo lectura
+  código están deshabilitados en v1.0.0; use WSL. El dry-run y los comandos de solo lectura
   siguen disponibles, y los marcadores de recuperación nativos de Windows requieren recuperación
   manual documentada.
 - **Entradas fijadas.** La entrada del catálogo puede ser un directorio local, un archivo de
@@ -53,7 +53,7 @@ El CLI usa códigos de salida de proceso convencionales:
 | `0`       | Éxito (incluyendo resultados "vacíos pero válidos" como un catálogo vacío)     |
 | `1`       | Fallo: error de validación, entrada no encontrada, opción requerida faltante, o una comprobación de diagnóstico que reporta un error |
 
-Ejemplos observados en v0.1.0: `catalog validate` en un catálogo vacío válido sale con `0` y
+Ejemplos observados en v1.0.0: `catalog validate` en un catálogo vacío válido sale con `0` y
 `0 entries valid; catalog is empty`; `info <unknown-id>` sale con `1` y `Plugin not found`;
 `doctor` sale con `1` cuando alguna comprobación (como un ejecutable `dsh` faltante) reporta un
 error.
@@ -81,9 +81,9 @@ dsh-plugins catalog github-forms-check [root]
 
 ```bash
 # Desde la raíz del repositorio:
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog docs-check .
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 ### `search` — busca campos públicos del catálogo localmente
@@ -96,8 +96,8 @@ Busca campos públicos del catálogo localmente en la entrada de catálogo selec
 entradas coincidentes, o `No plugins found.` (salida `0`) cuando nada coincide.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins search notes markdown --catalog . --json
 ```
 
 ### `discover` — encuentra plugins más allá del catálogo
@@ -106,8 +106,8 @@ npx @diegosouza.pw/dsh-plugins@0.1.0 search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **No está en la `0.1.0` publicada.** `discover` se publica en `1.0.0`; el resto de los comandos
-> de esta página funcionan con la versión actualmente en npm. Ejecutarlo contra `@0.1.0` falla
+> **No está en la `1.0.0` publicada.** `discover` se publica en `1.0.0`; el resto de los comandos
+> de esta página funcionan con la versión actualmente en npm. Ejecutarlo contra `@1.0.0` falla
 > con un comando desconocido.
 
 Busca primero en el catálogo curado, luego — a menos que se dé `--offline` — en el tema
@@ -120,8 +120,8 @@ etiquetados como tal, porque nada sobre ellos ha sido revisado.
 de máquina, que nunca se localiza.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover memory --catalog .
-npx @diegosouza.pw/dsh-plugins@1.0.0 discover vision --offline --catalog . --json
+npx omni-dsh-plugins@1.0.0 discover memory --catalog .
+npx omni-dsh-plugins@1.0.0 discover vision --offline --catalog . --json
 ```
 
 ### `info` — muestra una entrada pública del catálogo
@@ -134,7 +134,7 @@ Muestra una entrada pública del catálogo por ID canónico de plugin. Sale con 
 `Plugin not found: <id>` cuando el ID no está en el catálogo.
 
 ```bash
-npx @diegosouza.pw/dsh-plugins@0.1.0 info example-notes-search --catalog .
+npx omni-dsh-plugins info example-notes-search --catalog .
 ```
 
 ### `add` — agrega un plugin del catálogo mediante delegación oficial a DSH
@@ -156,10 +156,10 @@ las herramientas oficiales de DSH y solo procede con `--allow-code-execution`.
 
 ```bash
 # Solo vista previa — nada se escribe, nada se ejecuta:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --dry-run
+npx omni-dsh-plugins add example-notes-search --profile default --dry-run
 
 # Instalación real — consentimiento explícito al código de ciclo de vida:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add example-notes-search --profile default --allow-code-execution
+npx omni-dsh-plugins add example-notes-search --profile default --allow-code-execution
 ```
 
 ### `update` — actualiza un plugin del catálogo mediante delegación oficial a DSH

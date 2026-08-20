@@ -153,15 +153,15 @@ popularity:
 
 ## વેલિડેશન કમાન્ડ્સ અને ઉપલબ્ધતા
 
-npm CLI `@diegosouza.pw/dsh-plugins@0.1.0` તરીકે પ્રકાશિત થયેલ છે, તેથી નીચેના કમાન્ડ્સ આજે `npx`
+npm CLI `omni-dsh-plugins@1.0.0` તરીકે પ્રકાશિત થયેલ છે, તેથી નીચેના કમાન્ડ્સ આજે `npx`
 દ્વારા ઉપલબ્ધ છે. તેમને બરાબર લખેલા છે તે પ્રમાણે વાપરો; યોગદાનકર્તાઓએ વિકલ્પ કમાન્ડ્સ શોધવા ન જોઈએ.
 
 આ કમાન્ડ્સ રિપોઝિટરીના રૂટમાંથી ચલાવો:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` ફક્ત ઉપર વર્ણવેલા લોકલ YAML, સ્કીમા, SPDX, ચોક્કસ SemVer, SHA-512 SRI અને

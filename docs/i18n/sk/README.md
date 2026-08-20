@@ -17,7 +17,7 @@ Objavovanie s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy *
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Každý názov odkazuje na repozitár tvorcu, pripnutý na presný commit, ktor�
 | **Web** | Vykreslený prehliadač katalógu s vyhľadávaním a rebríčkom                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalóg** | Jeden YAML súbor na plugin, jediný zdroj pravdy             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schéma**  | Verejná JSON schéma (draft 2020-12), voči ktorej sa validuje každý záznam | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Vyhľadávanie, kontrola, validácia a inštalácia z katalógu           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Vyhľadávanie, kontrola, validácia a inštalácia z katalógu           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Strojové zdroje** | `catalog.json` + `catalog.snapshot.json` pre nástroje           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Tento repozitár je verejným zdrojom pravdy pre katalóg. Každý záznam je jeden YAML súbor v priečinku
@@ -127,15 +127,15 @@ explicitným pripísaním autorstva.
 ## 🚀 Inštalácia CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Balík v rozsahu (scoped package) je publikovaný ako `@diegosouza.pw/dsh-plugins@0.1.0` a príkaz
+Balík v rozsahu (scoped package) je publikovaný ako `omni-dsh-plugins@1.0.0` a príkaz
 vyššie je dnes kanonickým spôsobom spustenia; žiadny inštalačný skript tu nie je hosťovaný.
 
 ### Používanie CLI už dnes
 
-Verzia 0.1.0 obsahuje príkazy len na čítanie pre objavovanie a validáciu, ako aj inštalačné
+Verzia 1.0.0 obsahuje príkazy len na čítanie pre objavovanie a validáciu, ako aj inštalačné
 príkazy podmienené súhlasom. Úplný referenčný prehľad príkazov vrátane príznakov, návratových
 kódov a brány súhlasu na spustenie kódu nájdete v [docs/CLI.md](../../docs/CLI.md).
 
@@ -151,18 +151,18 @@ kódov a brány súhlasu na spustenie kódu nájdete v [docs/CLI.md](../../docs/
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Meniace príkazy (`add`, `update`, `remove`) nikdy nespúšťajú kód životného cyklu pluginu, pokiaľ
-nezadáte `--allow-code-execution`. Na natívnom Windows sú tieto zmeny vo verzii v0.1.0 zakázané;
+nezadáte `--allow-code-execution`. Na natívnom Windows sú tieto zmeny vo verzii v1.0.0 zakázané;
 použite WSL. Príkazy len na čítanie a skúšobný beh fungujú všade.
 
 ## 🔍 Ako sa plugin dostane do katalógu
@@ -309,7 +309,7 @@ vašu prácu katalogizoval skôr než vy.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná zmluva o prispievaní: dôkazy, pravidlá YAML, brány posúdenia    |
 | [SECURITY.md](../../SECURITY.md)                   | Nahlasovanie zraniteľností pluginov alebo katalógu; politika tajomstiev           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referencia pole po poli pre `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referencia príkazov CLI pre `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referencia príkazov CLI pre `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Ako je katalóg spravovaný: priorita, brány, nároky a odstránenia   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Druhy artefaktov, primárne kategórie schopností, značky, rozsah repozitára |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Pripísanie zásluh tvorcovi, priorita pull requestov a politika Git identity                 |

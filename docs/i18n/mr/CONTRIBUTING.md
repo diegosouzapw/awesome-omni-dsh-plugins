@@ -163,16 +163,16 @@ YAML व पुल रिक्वेस्टमध्ये मूळ रि�
 
 ## पडताळणी कमांड्स आणि उपलब्धता
 
-npm CLI `@diegosouza.pw/dsh-plugins@0.1.0` म्हणून प्रकाशित आहे, त्यामुळे खालील कमांड्स आज
+npm CLI `omni-dsh-plugins@1.0.0` म्हणून प्रकाशित आहे, त्यामुळे खालील कमांड्स आज
 `npx` द्वारे उपलब्ध आहेत. त्या लिहिल्याप्रमाणे अचूक वापरा; योगदानकर्त्यांनी पर्यायी कमांड्स
 बनवू नयेत.
 
 हे कमांड्स रिपॉझिटरी रूटवरून चालवा:
 
 ```bash
-npx @diegosouza.pw/dsh-plugins catalog validate --catalog .
-npx @diegosouza.pw/dsh-plugins catalog docs-check .
-npx @diegosouza.pw/dsh-plugins catalog github-forms-check .
+npx omni-dsh-plugins catalog validate --catalog .
+npx omni-dsh-plugins catalog docs-check .
+npx omni-dsh-plugins catalog github-forms-check .
 ```
 
 `catalog validate` फक्त वर वर्णन केलेल्या स्थानिक YAML, स्कीमा, SPDX, अचूक SemVer, SHA-512

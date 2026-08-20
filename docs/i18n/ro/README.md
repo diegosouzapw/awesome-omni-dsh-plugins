@@ -18,7 +18,7 @@ Descoperire centrată pe creatori și instalare cu o singură comandă pentru pl
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -108,7 +108,7 @@ la commit-ul exact validat de catalog.
 | **Site**    | Interfață web randată a catalogului, cu căutare și clasament     | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Catalog** | Un fișier YAML per plugin, sursa unică de adevăr                 | [`catalog/plugins/`](../../catalog/plugins)                              |
 | **Schemă**  | Schemă JSON publică (draft 2020-12) față de care se validează fiecare intrare | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
-| **CLI**     | Caută, inspectează, validează și instalează din catalog          | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Caută, inspectează, validează și instalează din catalog          | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Fluxuri pentru mașini** | `catalog.json` + `catalog.snapshot.json` pentru unelte | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Acest repository este sursa publică de adevăr pentru catalog. Fiecare intrare este un fișier YAML
@@ -129,15 +129,15 @@ explicită.
 ## 🚀 Instalează CLI-ul
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Pachetul cu scope este publicat ca `@diegosouza.pw/dsh-plugins@0.1.0`, iar comanda de mai sus este
+Pachetul cu scope este publicat ca `omni-dsh-plugins@1.0.0`, iar comanda de mai sus este
 invocarea canonică actuală; niciun script de instalare nu este găzduit aici.
 
 ### Folosește CLI-ul astăzi
 
-Versiunea 0.1.0 oferă comenzi de descoperire și validare read-only, plus comenzi de instalare
+Versiunea 1.0.0 oferă comenzi de descoperire și validare read-only, plus comenzi de instalare
 condiționate de consimțământ. Referința completă de comenzi, inclusiv flagurile, codurile de
 ieșire și poarta de consimțământ pentru execuția de cod, se află în
 [docs/CLI.md](../../docs/CLI.md).
@@ -154,19 +154,19 @@ ieșire și poarta de consimțământ pentru execuția de cod, se află în
 
 ```bash
 # Validează catalogul din acest repository (ce rulează CI):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Caută și inspectează local, fără să instalezi nimic:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Previzualizează un plan de instalare; nu se scrie nimic și nu rulează niciun subproces:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Comenzile care modifică starea (`add`, `update`, `remove`) nu execută niciodată codul de ciclu de
 viață al pluginului decât dacă adaugi `--allow-code-execution`. Pe Windows nativ, aceste mutații
-sunt dezactivate în v0.1.0; folosește WSL. Comenzile read-only și dry-run funcționează peste tot.
+sunt dezactivate în v1.0.0; folosește WSL. Comenzile read-only și dry-run funcționează peste tot.
 
 ## 🔍 Cum intră un plugin în catalog
 
@@ -315,7 +315,7 @@ dacă cineva ți-a catalogat munca înaintea ta.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)     | Contractul complet de contribuție: dovezi, reguli YAML, porți de review |
 | [SECURITY.md](../../SECURITY.md)             | Raportarea vulnerabilităților de plugin sau de catalog; politica privind secretele |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)       | Referință câmp cu câmp pentru `schemas/plugin.schema.yaml`              |
-| [docs/CLI.md](../../docs/CLI.md)             | Referința comenzilor CLI pentru `@diegosouza.pw/dsh-plugins@0.1.0`      |
+| [docs/CLI.md](../../docs/CLI.md)             | Referința comenzilor CLI pentru `omni-dsh-plugins@1.0.0`      |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | Cum este guvernat catalogul: prioritate, porți, revendicări și eliminări |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | Tipuri de artefact, categorii principale de capabilități, tag-uri, scop repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)       | Creditarea creatorilor, prioritatea PR-urilor și politica de identitate Git |

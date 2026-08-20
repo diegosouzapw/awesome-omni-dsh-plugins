@@ -17,7 +17,7 @@ Penemuan mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **DeepSe
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Setiap nama dipautkan ke repositori pencipta, dipasak pada komit tepat yang disa
 | **Laman web** | Pelayar katalog yang dipaparkan, dengan carian dan kedudukan                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Satu fail YAML bagi setiap pemalam, satu-satunya sumber kebenaran             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Skema**  | JSON Schema awam (draf 2020-12) yang menjadi rujukan pengesahan setiap entri | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Mencari, memeriksa, mengesahkan dan memasang daripada katalog           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Mencari, memeriksa, mengesahkan dan memasang daripada katalog           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Suapan mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Repositori ini adalah sumber kebenaran awam untuk katalog. Setiap senarai adalah satu fail
@@ -128,15 +128,15 @@ yang dipasak dan atribusi yang jelas.
 ## 🚀 Pasang CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Pakej berskop diterbitkan sebagai `@diegosouza.pw/dsh-plugins@0.1.0` dan arahan di atas
+Pakej berskop diterbitkan sebagai `omni-dsh-plugins@1.0.0` dan arahan di atas
 ialah panggilan kanonik hari ini; tiada skrip pemasang dihoskan di sini.
 
 ### Gunakan CLI hari ini
 
-Versi 0.1.0 menyediakan arahan penemuan dan pengesahan baca sahaja, ditambah arahan
+Versi 1.0.0 menyediakan arahan penemuan dan pengesahan baca sahaja, ditambah arahan
 pemasangan yang memerlukan kebenaran. Rujukan arahan penuh, termasuk bendera, kod keluar
 dan pintu gerbang kebenaran untuk pelaksanaan kod, terdapat di [docs/CLI.md](../../docs/CLI.md).
 
@@ -152,19 +152,19 @@ dan pintu gerbang kebenaran untuk pelaksanaan kod, terdapat di [docs/CLI.md](../
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Arahan yang mengubah sistem (`add`, `update`, `remove`) tidak sesekali melaksanakan kod
 kitaran hayat pemalam melainkan anda memberikan `--allow-code-execution`. Pada Windows
-asli, mutasi tersebut dinyahdayakan dalam v0.1.0; gunakan WSL. Arahan baca sahaja dan
+asli, mutasi tersebut dinyahdayakan dalam v1.0.0; gunakan WSL. Arahan baca sahaja dan
 dry-run berfungsi di mana-mana sahaja.
 
 ## 🔍 Bagaimana pemalam masuk ke dalam katalog
@@ -311,7 +311,7 @@ jika seseorang telah mengkatalogkan kerja anda sebelum anda melakukannya.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Kontrak sumbangan penuh: bukti, peraturan YAML, pintu gerbang semakan    |
 | [SECURITY.md](../../SECURITY.md)                   | Melaporkan kerentanan pemalam atau katalog; dasar rahsia           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Rujukan medan demi medan untuk `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Rujukan arahan CLI untuk `@diegosouza.pw/dsh-plugins@0.1.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Rujukan arahan CLI untuk `omni-dsh-plugins@1.0.0`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Bagaimana katalog ditadbir: keutamaan, pintu gerbang, tuntutan dan penyingkiran   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Jenis artifak, kategori keupayaan utama, tag, skop repositori |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredit pencipta, keutamaan PR dan dasar identiti Git                 |

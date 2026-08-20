@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@
 | **વેબસાઇટ** | સર્ચ અને રેન્કિંગ સાથે રેન્ડર થયેલ કેટલોગ બ્રાઉઝર                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **કેટલોગ** | દરેક પ્લગિન માટે એક YAML ફાઇલ, એકમાત્ર સોર્સ ઓફ ટ્રુથ             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **સ્કીમા**  | પબ્લિક JSON સ્કીમા (draft 2020-12) જેની સામે દરેક એન્ટ્રી વેલિડેટ થાય છે | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | કેટલોગમાંથી સર્ચ, ઇન્સ્પેક્ટ, વેલિડેટ અને ઇન્સ્ટોલ કરો           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | કેટલોગમાંથી સર્ચ, ઇન્સ્પેક્ટ, વેલિડેટ અને ઇન્સ્ટોલ કરો           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **મશીન ફીડ્સ** | ટૂલ્સ માટે `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 આ રિપોઝીટરી કેટલોગ માટે પબ્લિક સોર્સ ઓફ ટ્રુથ છે. દરેક લિસ્ટિંગ `catalog/plugins/` હેઠળની
@@ -127,15 +127,15 @@
 ## 🚀 CLI ઇન્સ્ટોલ કરો
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-સ્કોપ્ડ પેકેજ `@diegosouza.pw/dsh-plugins@0.1.0` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
+સ્કોપ્ડ પેકેજ `omni-dsh-plugins@1.0.0` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
 કેનોનિકલ ઇન્વોકેશન છે; અહીં કોઈ ઇન્સ્ટોલર સ્ક્રિપ્ટ હોસ્ટ કરવામાં આવી નથી.
 
 ### આજે CLI નો ઉપયોગ કરો
 
-વર્ઝન 0.1.0 રીડ-ઓન્લી ડિસ્કવરી અને વેલિડેશન કમાન્ડ્સ ઉપરાંત કન્સેન્ટ-ગેટેડ ઇન્સ્ટોલ
+વર્ઝન 1.0.0 રીડ-ઓન્લી ડિસ્કવરી અને વેલિડેશન કમાન્ડ્સ ઉપરાંત કન્સેન્ટ-ગેટેડ ઇન્સ્ટોલ
 કમાન્ડ્સ પ્રદાન કરે છે. ફ્લેગ્સ, એક્ઝિટ કોડ્સ અને કોડ-એક્ઝિક્યુશન
 કન્સેન્ટ ગેટ સહિતનો સંપૂર્ણ કમાન્ડ સંદર્ભ [docs/CLI.md](../../docs/CLI.md) માં છે.
 
@@ -151,18 +151,18 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 મ્યુટેટિંગ કમાન્ડ્સ (`add`, `update`, `remove`) ક્યારેય પ્લગિન લાઇફસાયકલ કોડ એક્ઝિક્યુટ કરતા નથી જ્યાં સુધી તમે
-`--allow-code-execution` પાસ ન કરો. નેટિવ Windows પર આ મ્યુટેશન્સ v0.1.0 માં ડિસેબલ છે; વાપરો
+`--allow-code-execution` પાસ ન કરો. નેટિવ Windows પર આ મ્યુટેશન્સ v1.0.0 માં ડિસેબલ છે; વાપરો
 WSL. રીડ-ઓન્લી અને ડ્રાય-રન કમાન્ડ્સ દરેક જગ્યાએ કામ કરે છે.
 
 ## 🔍 એક પ્લગિન કેટલોગમાં કેવી રીતે દાખલ થાય છે
@@ -305,7 +305,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | સંપૂર્ણ યોગદાન કરાર: પુરાવો, YAML નિયમો, રિવ્યૂ ગેટ્સ    |
 | [SECURITY.md](../../SECURITY.md)                   | પ્લગિન કે કેટલોગની નબળાઈઓની જાણ કરવી; ગુપ્ત માહિતી પોલિસી           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` માટે ફિલ્ડ-બાય-ફિલ્ડ સંદર્ભ             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` માટે CLI કમાન્ડ સંદર્ભ          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` માટે CLI કમાન્ડ સંદર્ભ          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | કેટલોગનું સંચાલન કેવી રીતે થાય છે: અગ્રતા, ગેટ્સ, દાવાઓ અને દૂર કરવું   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | આર્ટિફેક્ટ પ્રકારો, પ્રાથમિક ક્ષમતા શ્રેણીઓ, ટૅગ્સ, રિપોઝીટરી સ્કોપ |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | ક્રિએટર ક્રેડિટ, PR અગ્રતા અને Git ઓળખ પોલિસી                 |

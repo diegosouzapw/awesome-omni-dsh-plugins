@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -104,7 +104,7 @@
 | **网站** | 带搜索和排名功能的目录浏览网页                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **目录** | 每个插件一个 YAML 文件,是唯一的真实来源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **模式**  | 公开的 JSON Schema(draft 2020-12),所有条目均据此校验 | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | 从目录中搜索、查看、校验并安装           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | 从目录中搜索、查看、校验并安装           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **机器订阅源** | 供工具使用的 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 本仓库是该目录的公开真实来源。每一条记录都是 `catalog/plugins/` 下的一个 YAML 文件,依据已发布的 JSON Schema 校验,通过一次单独评审的拉取请求添加,并始终署名插件的原始创作者。目录中的任何内容都不是从其他目录或列表生成的:每个条目都是根据创作者原始仓库在固定提交处重新构建而成。
@@ -118,14 +118,14 @@
 ## 🚀 安装 CLI
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-该带作用域的包以 `@diegosouza.pw/dsh-plugins@0.1.0` 发布,上面的命令是目前的标准调用方式;本仓库不托管任何安装脚本。
+该带作用域的包以 `omni-dsh-plugins@1.0.0` 发布,上面的命令是目前的标准调用方式;本仓库不托管任何安装脚本。
 
 ### 立即使用 CLI
 
-0.1.0 版本提供只读的发现与校验命令,以及需要征得同意才能执行的安装命令。完整的命令参考(包括参数、退出码和代码执行同意机制)见 [docs/CLI.md](../../docs/CLI.md)。
+1.0.0 版本提供只读的发现与校验命令,以及需要征得同意才能执行的安装命令。完整的命令参考(包括参数、退出码和代码执行同意机制)见 [docs/CLI.md](../../docs/CLI.md)。
 
 | 命令                        | 功能说明                                                        | 是否会改动你的系统?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -139,17 +139,17 @@ npx @diegosouza.pw/dsh-plugins --help
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-变更类命令(`add`、`update`、`remove`)在未传入 `--allow-code-execution` 时绝不会执行插件生命周期代码。在原生 Windows 上,v0.1.0 中这些变更操作已被禁用;请改用 WSL。只读和演练模式命令在任何环境下都可用。
+变更类命令(`add`、`update`、`remove`)在未传入 `--allow-code-execution` 时绝不会执行插件生命周期代码。在原生 Windows 上,v1.0.0 中这些变更操作已被禁用;请改用 WSL。只读和演练模式命令在任何环境下都可用。
 
 ## 🔍 插件如何进入目录
 
@@ -275,7 +275,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完整的贡献约定:证据要求、YAML 规则、评审关卡    |
 | [SECURITY.md](../../SECURITY.md)                   | 报告插件或目录漏洞;敏感信息政策           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` 的逐字段参考             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` 的 CLI 命令参考          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` 的 CLI 命令参考          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | 目录的治理方式:优先级、关卡、认领与移除   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | 制品类型、主要能力分类、标签、仓库范围 |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | 创作者署名、PR 优先级与 Git 身份政策                 |

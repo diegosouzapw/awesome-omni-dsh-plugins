@@ -17,7 +17,7 @@
 </h3>
 
 [![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
-[![npm](https://img.shields.io/npm/v/@diegosouza.pw/dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins)
+[![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
 [![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
@@ -106,7 +106,7 @@ Her isim, katalogun doğruladığı tam commit'e sabitlenmiş üretici deposuna 
 | **Web sitesi** | Arama ve sıralama içeren, oluşturulmuş katalog tarayıcısı                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **Katalog** | Eklenti başına bir YAML dosyası, tek gerçek kaynak             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Şema**  | Her kaydın doğrulandığı genel JSON Şeması (taslak 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Katalogdan arama, inceleme, doğrulama ve kurulum yapma           | [`@diegosouza.pw/dsh-plugins`](https://www.npmjs.com/package/@diegosouza.pw/dsh-plugins) |
+| **CLI**     | Katalogdan arama, inceleme, doğrulama ve kurulum yapma           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
 | **Makine beslemeleri** | Araçlar için `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Bu depo, katalog için herkese açık gerçek kaynaktır. Her liste öğesi, `catalog/plugins/`
@@ -127,15 +127,15 @@ girer.
 ## 🚀 CLI'yi kurun
 
 ```bash
-npx @diegosouza.pw/dsh-plugins --help
+npx omni-dsh-plugins --help
 ```
 
-Kapsamlı (scoped) paket `@diegosouza.pw/dsh-plugins@0.1.0` olarak yayımlanır ve yukarıdaki
+Kapsamlı (scoped) paket `omni-dsh-plugins@1.0.0` olarak yayımlanır ve yukarıdaki
 komut bugün için kanonik çağrı biçimidir; burada barındırılan bir kurulum betiği yoktur.
 
 ### CLI'yi bugün kullanın
 
-0.1.0 sürümü, salt okunur keşif ve doğrulama komutlarının yanı sıra onay gerektiren kurulum
+1.0.0 sürümü, salt okunur keşif ve doğrulama komutlarının yanı sıra onay gerektiren kurulum
 komutlarını da içerir. Bayraklar, çıkış kodları ve kod çalıştırma onay kapısı dahil tam komut
 referansı [docs/CLI.md](../../docs/CLI.md) içinde bulunur.
 
@@ -151,19 +151,19 @@ referansı [docs/CLI.md](../../docs/CLI.md) içinde bulunur.
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
-npx @diegosouza.pw/dsh-plugins@0.1.0 catalog validate --catalog .
+npx omni-dsh-plugins catalog validate --catalog .
 
 # Search and inspect locally, without installing anything:
-npx @diegosouza.pw/dsh-plugins@0.1.0 search memory --catalog .
-npx @diegosouza.pw/dsh-plugins@0.1.0 info <plugin-id> --catalog .
+npx omni-dsh-plugins search memory --catalog .
+npx omni-dsh-plugins info <plugin-id> --catalog .
 
 # Preview an install plan; nothing is written and no subprocess runs:
-npx @diegosouza.pw/dsh-plugins@0.1.0 add <plugin-id> --profile default --dry-run
+npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Değişiklik yapan komutlar (`add`, `update`, `remove`), siz `--allow-code-execution` bayrağını
 geçirmediğiniz sürece eklenti yaşam döngüsü kodunu asla çalıştırmaz. Yerel Windows'ta bu
-değişiklikler v0.1.0'da devre dışıdır; WSL kullanın. Salt okunur ve deneme çalıştırması komutları
+değişiklikler v1.0.0'da devre dışıdır; WSL kullanın. Salt okunur ve deneme çalıştırması komutları
 her yerde çalışır.
 
 ## 🔍 Bir eklenti kataloga nasıl girer
@@ -311,7 +311,7 @@ sizden önce kataloglamışsa,
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Tam katkı sözleşmesi: kanıtlar, YAML kuralları, inceleme kapıları    |
 | [SECURITY.md](../../SECURITY.md)                   | Eklenti veya katalog güvenlik açıklarını bildirme; gizli bilgi politikası           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` için alan alan referans             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `@diegosouza.pw/dsh-plugins@0.1.0` için CLI komut referansı          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` için CLI komut referansı          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Katalogun nasıl yönetildiği: öncelik, kapılar, talepler ve kaldırmalar   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Yapı türleri, birincil yetenek kategorileri, etiketler, depo kapsamı |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Üretici ataması, PR önceliği ve Git kimlik politikası                 |
