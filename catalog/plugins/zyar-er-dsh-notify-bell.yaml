@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zyar-er-dsh-notify-bell
+name: dsh-notify-bell
+description:
+  en: A community plugin for DeepSeek Harness (DSH) that provides semantic notification sounds for important agent events.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - community
+  - semantic
+  - notification
+  - sounds
+  - important
+  - agent
+  - events
+  - dsh
+source:
+  repository: https://github.com/ZYar-er/dsh-notify-bell
+  repositoryNodeId: R_kgDOT5oY6Q
+  subpath: null
+  commit: 6889435d40af30c8a9d73861d3ebdd0ed5b4f697
+creator:
+  github: ZYar-er
+package:
+  ecosystem: npm
+  name: dsh-notify-bell
+  version: 0.12.0
+  integrity: sha512-VVW40OnwGjdyD2Dy3iIFkBw7z08SCr0ROJxRl/MLMv8w2uk41Qt+8IPUKCRdDOcykWst3gtWmsG34ifkNtLulg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:27.738Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
