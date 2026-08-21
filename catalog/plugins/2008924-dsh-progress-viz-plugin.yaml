@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: 2008924-dsh-progress-viz-plugin
+name: dsh-progress-viz-plugin
+description:
+  en: bash cd publish/dsh-progress-viz/plugin pnpm install --registry https://registry.npmmirror.com pnpm build dsh plugin --profile headless add <本插件目录绝对路径
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - progress
+  - dashboard
+source:
+  repository: https://github.com/2008924/dsh-progress-viz
+  repositoryNodeId: R_kgDOT4qT8Q
+  subpath: plugin
+  commit: 736909845ac33cf5ac671e1a4b6beecc814d983f
+creator:
+  github: "2008924"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:30.944Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
