@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: altairpaca-dsh
+name: "@dshelm/dsh"
+description:
+  en: English documentation is being kept concise while the Chinese-first community release is prepared. See the 简体中文 README for the current source-preview install, scope, screenshots, desktop strategy, and upstream DSH Discussion links.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - english
+  - documentation
+  - being
+  - kept
+  - concise
+  - while
+  - chinese
+  - first
+  - community
+  - release
+  - prepared
+  - current
+  - source
+  - preview
+  - install
+  - scope
+source:
+  repository: https://github.com/Altairpaca/dshelm
+  repositoryNodeId: R_kgDOT4iEgg
+  subpath: packages/dsh
+  commit: a8d2df48f2229e8d22b3d70139daa9c6eacd3da9
+creator:
+  github: Altairpaca
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:46.471Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
