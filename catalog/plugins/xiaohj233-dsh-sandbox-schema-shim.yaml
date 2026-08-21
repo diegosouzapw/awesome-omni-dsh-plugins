@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xiaohj233-dsh-sandbox-schema-shim
+name: dsh-sandbox-schema-shim
+description:
+  en: Compatibility shim that removes redundant sandbox escalation fields from model-facing shell and file tool schemas only in danger-full-access sessions.
+  evidencePath: packages/sandbox-schema-shim/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - compatibility
+  - shim
+  - removes
+  - redundant
+  - sandbox
+  - escalation
+  - fields
+  - model
+  - facing
+  - shell
+  - file
+  - tool
+  - schemas
+  - only
+  - danger
+  - full
+source:
+  repository: https://github.com/xiaohj233/dsh-compat-shims
+  repositoryNodeId: R_kgDOT4ZsWw
+  subpath: packages/sandbox-schema-shim
+  commit: ba4088c1a7b77b1c73fd5d5438f46800720d6bcd
+creator:
+  github: xiaohj233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/sandbox-schema-shim/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:20.803Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
