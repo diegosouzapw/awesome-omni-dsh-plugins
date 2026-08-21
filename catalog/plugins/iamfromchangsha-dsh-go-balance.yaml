@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: iamfromchangsha-dsh-go-balance
+name: dsh-go-balance
+description:
+  en: "OpenCode Go subscription balance widget for DeepSeek Harness Web: rolling/weekly/monthly quota remaining, shown at the right end of the composer tool row."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - opencode
+  - go
+  - quota
+  - balance
+  - web
+source:
+  repository: https://github.com/iamfromchangsha/dsh-go-balance
+  repositoryNodeId: R_kgDOT5THxg
+  subpath: null
+  commit: 3915c56fcf7030a11734f2ad8878676827d1381c
+creator:
+  github: iamfromchangsha
+package:
+  ecosystem: npm
+  name: dsh-go-balance
+  version: 0.1.1
+  integrity: sha512-O66kLdCjoTl5xd77fyX/uv+evcZNTzlBX0bOxY0N9zhy+R+yWAVsPeYrsAeg6humeCPwmL5QYNoe25W8fY0LeA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:41.099Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
