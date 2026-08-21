@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yan-zero-dsh-progressive-tools
+name: dsh-progressive-tools
+description:
+  en: Standalone direct-first progressive tool disclosure for every DeepSeek Harness presentation mode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - standalone
+  - direct
+  - first
+  - progressive
+  - tool
+  - disclosure
+  - every
+  - presentation
+  - mode
+  - dsh
+source:
+  repository: https://github.com/Yan-Zero/dsh-progressive-tools
+  repositoryNodeId: R_kgDOT4KNcA
+  subpath: null
+  commit: 23f4253e81a38fee1e56e9853c93b1ae1fa6a21d
+creator:
+  github: Yan-Zero
+package:
+  ecosystem: npm
+  name: dsh-progressive-tools
+  version: 0.2.3
+  integrity: sha512-FvnVNY3KaRp9jzh3Gf6mwL5zeMCHXt0RK/v3VTuTKxhFYvH8WwJrU2XWVlpaGmsZpFJ5GXwTYJmVzgUG4yAM/g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:21.695Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
