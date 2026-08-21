@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: haiziyao-dsh-vision-mix
+name: dsh-vision-mix
+description:
+  en: A DeepSeek Harness Mix plugin for vision routing plus GPT Image generation and editing.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - vision-agent
+  - multimodal
+  - image-generation
+  - gpt-image-2
+  - dsh
+source:
+  repository: https://github.com/haiziyao/dsh-vision-mix
+  repositoryNodeId: R_kgDOT5PZ4w
+  subpath: null
+  commit: 6188b630c0c3be8d770bb6ffd660be3ee671190e
+creator:
+  github: haiziyao
+package:
+  ecosystem: npm
+  name: dsh-vision-mix
+  version: 0.2.2
+  integrity: sha512-3XBez9k/2DVfs37YwjjvUknnwgqHkuG/uawdvGNC+uFXIhl4hQ/weFYwRcD/DMeXB2eFdeBvoPsSTK4RW+zjLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:00.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
