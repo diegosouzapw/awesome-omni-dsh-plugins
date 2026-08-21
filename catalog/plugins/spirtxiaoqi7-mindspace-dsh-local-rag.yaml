@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: spirtxiaoqi7-mindspace-dsh-local-rag
+name: mindspace-dsh-local-rag
+description:
+  en: Local, model-invoked hybrid RAG for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - rag
+  - local-rag
+  - hybrid-search
+  - arpm
+  - bm25
+  - vector-search
+  - dsh
+source:
+  repository: https://github.com/Spirtxiaoqi7/mindspace-dsh-local-rag
+  repositoryNodeId: R_kgDOT4IhvQ
+  subpath: null
+  commit: 744bec2d8b6a5039ebe7d20720e3a4d8d13f39fb
+creator:
+  github: Spirtxiaoqi7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:23.905Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
