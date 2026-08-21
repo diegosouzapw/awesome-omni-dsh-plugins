@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wanbinyu-dsh-plugin-git-inspect
+name: dsh-plugin-git-inspect
+description:
+  en: Read-only Git inspection tools for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - git
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/Wanbinyu/dsh-plugin-git-inspect
+  repositoryNodeId: R_kgDOT37G4Q
+  subpath: null
+  commit: 1c14f3cae436e0ec94c68bf34fe16416daeba968
+creator:
+  github: Wanbinyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:10.520Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
