@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kam74515-boop-dsh-everything-oauth
+name: dsh-everything-oauth
+description:
+  en: Import local Codex / Grok / Claude / Copilot / Gemini login state into DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - oauth
+  - codex
+  - claude
+  - grok
+  - opencode
+  - dsh
+source:
+  repository: https://github.com/kam74515-boop/dsh-everything-oauth
+  repositoryNodeId: R_kgDOT4BMLg
+  subpath: null
+  commit: fe7b691f52bc1acd433095f4abc47fa0e577dd89
+creator:
+  github: kam74515-boop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:14.175Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
