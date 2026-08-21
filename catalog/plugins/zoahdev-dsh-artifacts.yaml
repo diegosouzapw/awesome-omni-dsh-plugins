@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: zoahdev-dsh-artifacts
+name: dsh-artifacts
+description:
+  en: "Claude-Artifacts-style rendering for DeepSeek Harness: turn agent output (Markdown + JSON) into beautiful, shareable, self-contained HTML cards, dashboards, galleries, and documents. Zero runtime dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - artifacts
+  - markdown
+  - html
+  - dashboard
+  - gallery
+  - card
+  - visualization
+  - agent
+  - zero-dependency
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-artifacts
+  repositoryNodeId: R_kgDOT6Bctw
+  subpath: null
+  commit: 80a38a6374319198bd12e0db883a3c328830cfde
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-artifacts
+  version: 0.1.1
+  integrity: sha512-74sXeLywo4rL62ugBxAGRgLXG3z9iUc2bMW37C+rEy7CjoGTl9Ti/AEWmIY9PDfEHUfhLocvf6NtWdYTa+gVyA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:44.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
