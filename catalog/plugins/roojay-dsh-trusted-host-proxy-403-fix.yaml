@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: roojay-dsh-trusted-host-proxy-403-fix
+name: dsh-trusted-host-proxy-403-fix
+description:
+  en: Fix privileged /api 403 when DeepSeek Harness Web UI is reached through a reverse proxy Host already listed in --trusted-host; make settings persistence work for those hosts too. Not an authentication layer.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - trusted-host
+  - proxy
+  - "403"
+source:
+  repository: https://github.com/roojay/dsh-trusted-host-proxy-403-fix
+  repositoryNodeId: R_kgDOT4j2Kg
+  subpath: null
+  commit: f79d4e653b23554371b4687021bffa9047432002
+creator:
+  github: roojay
+package:
+  ecosystem: npm
+  name: dsh-trusted-host-proxy-403-fix
+  version: 0.2.0
+  integrity: sha512-gL8UpfaJqV+Lab3lelydpHs0c5epZww8nJinAVgdsak9S416VSp9olSviNapkuZA3G2hS3cU/mhDEGlopauI8A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:23.530Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
