@@ -170,7 +170,7 @@ committer tai todennettu yhteistekijä, mutta se ei saa korvata luojan tekijyytt
 
 ## Validointikomennot ja saatavuus
 
-npm-CLI on julkaistu nimellä `omni-dsh-plugins@1.0.0`, joten alla olevat komennot ovat
+npm-CLI on julkaistu nimellä `omni-dsh-plugins@1.0.1`, joten alla olevat komennot ovat
 saatavilla `npx`:n kautta jo nyt. Käytä niitä täsmälleen sellaisina kuin ne on kirjoitettu;
 osallistujien ei tule keksiä korvaavia komentoja.
 

@@ -130,7 +130,7 @@ request, po jednej naraz, z oryginalnego repozytorium twórcy, z przypiętym com
 npx omni-dsh-plugins --help
 ```
 
-Pakiet ze scope publikowany jest jako `omni-dsh-plugins@1.0.0`, a powyższa komenda
+Pakiet ze scope publikowany jest jako `omni-dsh-plugins@1.0.1`, a powyższa komenda
 jest dziś kanonicznym wywołaniem; nie jest tu hostowany żaden skrypt instalacyjny.
 
 ### Używaj CLI już dziś
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Komendy mutujące (`add`, `update`, `remove`) nigdy nie wykonują kodu cyklu życia wtyczki,
 chyba że przekażesz `--allow-code-execution`. Na natywnym Windowsie te mutacje są wyłączone
-w v1.0.0; użyj WSL. Komendy tylko do odczytu i dry-run działają wszędzie.
+w v1.0.1; użyj WSL. Komendy tylko do odczytu i dry-run działają wszędzie.
 
 ## 🔍 Jak wtyczka trafia do katalogu
 
@@ -310,7 +310,7 @@ jeśli ktoś skatalogował twoją pracę, zanim ty to zrobiłeś.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Pełna umowa dotycząca współtworzenia: dowody, reguły YAML, bramki przeglądu    |
 | [SECURITY.md](../../SECURITY.md)                   | Zgłaszanie podatności wtyczek lub katalogu; polityka sekretów           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referencja pole po polu dla `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referencja komend CLI dla `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referencja komend CLI dla `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jak zarządzany jest katalog: pierwszeństwo, bramki, roszczenia i usunięcia   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Rodzaje artefaktów, główne kategorie możliwości, tagi, zakres repozytorium |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Uznanie dla twórcy, pierwszeństwo PR i polityka tożsamości Git                 |

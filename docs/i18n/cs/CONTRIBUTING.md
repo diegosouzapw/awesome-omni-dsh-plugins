@@ -168,7 +168,7 @@ nahradit autorství tvůrce. Úplnou politiku najdete v [docs/CREDIT.md](../../d
 
 ## Validační příkazy a dostupnost
 
-CLI npm je publikováno jako `omni-dsh-plugins@1.0.0`, takže níže uvedené příkazy jsou
+CLI npm je publikováno jako `omni-dsh-plugins@1.0.1`, takže níže uvedené příkazy jsou
 dnes dostupné přes `npx`. Používejte je přesně tak, jak jsou napsány; přispěvatelé by si neměli
 vymýšlet náhradní příkazy.
 

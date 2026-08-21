@@ -130,7 +130,7 @@ girer.
 npx omni-dsh-plugins --help
 ```
 
-Kapsamlı (scoped) paket `omni-dsh-plugins@1.0.0` olarak yayımlanır ve yukarıdaki
+Kapsamlı (scoped) paket `omni-dsh-plugins@1.0.1` olarak yayımlanır ve yukarıdaki
 komut bugün için kanonik çağrı biçimidir; burada barındırılan bir kurulum betiği yoktur.
 
 ### CLI'yi bugün kullanın
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Değişiklik yapan komutlar (`add`, `update`, `remove`), siz `--allow-code-execution` bayrağını
 geçirmediğiniz sürece eklenti yaşam döngüsü kodunu asla çalıştırmaz. Yerel Windows'ta bu
-değişiklikler v1.0.0'da devre dışıdır; WSL kullanın. Salt okunur ve deneme çalıştırması komutları
+değişiklikler v1.0.1'da devre dışıdır; WSL kullanın. Salt okunur ve deneme çalıştırması komutları
 her yerde çalışır.
 
 ## 🔍 Bir eklenti kataloga nasıl girer
@@ -311,7 +311,7 @@ sizden önce kataloglamışsa,
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Tam katkı sözleşmesi: kanıtlar, YAML kuralları, inceleme kapıları    |
 | [SECURITY.md](../../SECURITY.md)                   | Eklenti veya katalog güvenlik açıklarını bildirme; gizli bilgi politikası           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` için alan alan referans             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` için CLI komut referansı          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1` için CLI komut referansı          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Katalogun nasıl yönetildiği: öncelik, kapılar, talepler ve kaldırmalar   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Yapı türleri, birincil yetenek kategorileri, etiketler, depo kapsamı |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Üretici ataması, PR önceliği ve Git kimlik politikası                 |

@@ -128,7 +128,7 @@
 npx omni-dsh-plugins --help
 ```
 
-החבילה בעלת ההיקף המוגבל מפורסמת בתור `omni-dsh-plugins@1.0.0`, והפקודה שלמעלה היא
+החבילה בעלת ההיקף המוגבל מפורסמת בתור `omni-dsh-plugins@1.0.1`, והפקודה שלמעלה היא
 הקריאה הקנונית כיום; אין כאן סקריפט התקנה מתארח.
 
 ### שימוש ב-CLI כיום
@@ -159,7 +159,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 פקודות משנות (`add`, `update`, `remove`) לעולם לא מריצות קוד מחזור חיים של תוסף אלא אם תעבירו
-`--allow-code-execution`. ב-Windows מקורי שינויים אלו מושבתים ב-v1.0.0; השתמשו ב-WSL. פקודות
+`--allow-code-execution`. ב-Windows מקורי שינויים אלו מושבתים ב-v1.0.1; השתמשו ב-WSL. פקודות
 לקריאה בלבד ופקודות dry-run פועלות בכל מקום.
 
 ## 🔍 כיצד תוסף נכנס לקטלוג
@@ -299,7 +299,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | חוזה התרומה המלא: ראיות, כללי YAML, שערי בדיקה    |
 | [SECURITY.md](../../SECURITY.md)                   | דיווח על פגיעויות בתוספים או בקטלוג; מדיניות סודות           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | הפניה שדה-אחר-שדה עבור `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | הפניית פקודות CLI עבור `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | הפניית פקודות CLI עבור `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | כיצד מנוהל הקטלוג: קדימות, שערים, תביעות והסרות   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | סוגי חפצים, קטגוריות יכולת עיקריות, תגים, היקף מאגר |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | קרדיט יוצר, קדימות PR ומדיניות זהות Git                 |

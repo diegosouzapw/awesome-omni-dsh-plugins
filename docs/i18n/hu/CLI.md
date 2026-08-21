@@ -1,4 +1,4 @@
-# CLI Referencia — `omni-dsh-plugins@1.0.0`
+# CLI Referencia — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · **Magyar**
 
@@ -15,7 +15,7 @@ itt nem ír le meg nem jelent viselkedést. A CLI privát forrásból van karban
 npx omni-dsh-plugins --help
 ```
 
-## Tervezési elvek a v1.0.0-ban
+## Tervezési elvek a v1.0.1-ban
 
 - **Alapértelmezésben csak olvasható.** A `catalog`, `search`, `info`, `list` és `doctor`
   parancsok soha nem módosítanak profilokat, nem írnak fájlokat, és nem indítanak
@@ -25,7 +25,7 @@ npx omni-dsh-plugins --help
   `--allow-code-execution` kapcsolót. Enélkül használd a `--dry-run` kapcsolót az ellenőrzött
   terv megtekintéséhez.
 - **Natív Windows-szabályzat.** A natív Windowson futó `add`/`update`/`remove` kódvégrehajtással
-  le van tiltva a v1.0.0-ban; használj WSL-t. A dry-run és a csak olvasható parancsok
+  le van tiltva a v1.0.1-ban; használj WSL-t. A dry-run és a csak olvasható parancsok
   elérhetők maradnak, és a natív Windows helyreállítási jelzők dokumentált manuális
   helyreállítást igényelnek.
 - **Rögzített bemenetek.** A katalógusbemenet lehet egy helyi könyvtár, egy snapshot-fájl, vagy
@@ -55,7 +55,7 @@ A CLI hagyományos folyamat-kilépési kódokat használ:
 | `0`          | Siker (beleértve az "üres, de érvényes" eredményeket, mint egy üres katalógus) |
 | `1`          | Hiba: validációs hiba, nem található bejegyzés, hiányzó kötelező opció, vagy egy diagnosztikai ellenőrzés hibát jelent |
 
-A v1.0.0-nál megfigyelt példák: a `catalog validate` egy érvényes üres katalóguson `0`-val lép
+A v1.0.1-nál megfigyelt példák: a `catalog validate` egy érvényes üres katalóguson `0`-val lép
 ki, `0 entries valid; catalog is empty` üzenettel; az `info <unknown-id>` `1`-gyel lép ki,
 `Plugin not found` üzenettel; a `doctor` `1`-gyel lép ki, ha bármely ellenőrzés (mint egy
 hiányzó `dsh` futtatható) hibát jelent.

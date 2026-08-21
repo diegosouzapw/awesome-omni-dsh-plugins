@@ -121,7 +121,7 @@ Web a CLI jsou udržovány ze soukromého zdroje; tento repozitář obsahuje ve�
 npx omni-dsh-plugins --help
 ```
 
-Balíček s rozsahem je publikován jako `omni-dsh-plugins@1.0.0` a výše uvedený příkaz je dnes kanonickým způsobem volání; zde není hostován žádný instalační skript.
+Balíček s rozsahem je publikován jako `omni-dsh-plugins@1.0.1` a výše uvedený příkaz je dnes kanonickým způsobem volání; zde není hostován žádný instalační skript.
 
 ### Použití CLI dnes
 
@@ -149,7 +149,7 @@ npx omni-dsh-plugins info <plugin-id> --catalog .
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud nepředáte `--allow-code-execution`. Na nativním Windows jsou tyto změny ve v1.0.0 zakázány; použijte WSL. Příkazy pouze pro čtení a nanečisto fungují všude.
+Měnící příkazy (`add`, `update`, `remove`) nikdy nespustí kód životního cyklu pluginu, pokud nepředáte `--allow-code-execution`. Na nativním Windows jsou tyto změny ve v1.0.1 zakázány; použijte WSL. Příkazy pouze pro čtení a nanečisto fungují všude.
 
 ## 🔍 Jak se plugin dostane do katalogu
 
@@ -264,7 +264,7 @@ Chcete, aby tu byl váš plugin s plným kreditem? [Otevřete jeden PR s jedním
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná smlouva o přispívání: důkazy, pravidla YAML, kontrolní brány    |
 | [SECURITY.md](../../SECURITY.md)                   | Hlášení zranitelností pluginů nebo katalogu; zásady tajemství           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Reference pole po poli pro `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Reference příkazů CLI pro `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Reference příkazů CLI pro `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Jak je katalog spravován: přednost, brány, nároky a odstranění   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Typy artefaktů, primární kategorie schopností, tagy, rozsah repozitáře |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kreditování tvůrců, přednost PR a zásady identity Git                 |

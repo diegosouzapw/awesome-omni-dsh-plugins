@@ -130,7 +130,7 @@ explicitným pripísaním autorstva.
 npx omni-dsh-plugins --help
 ```
 
-Balík v rozsahu (scoped package) je publikovaný ako `omni-dsh-plugins@1.0.0` a príkaz
+Balík v rozsahu (scoped package) je publikovaný ako `omni-dsh-plugins@1.0.1` a príkaz
 vyššie je dnes kanonickým spôsobom spustenia; žiadny inštalačný skript tu nie je hosťovaný.
 
 ### Používanie CLI už dnes
@@ -162,7 +162,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Meniace príkazy (`add`, `update`, `remove`) nikdy nespúšťajú kód životného cyklu pluginu, pokiaľ
-nezadáte `--allow-code-execution`. Na natívnom Windows sú tieto zmeny vo verzii v1.0.0 zakázané;
+nezadáte `--allow-code-execution`. Na natívnom Windows sú tieto zmeny vo verzii v1.0.1 zakázané;
 použite WSL. Príkazy len na čítanie a skúšobný beh fungujú všade.
 
 ## 🔍 Ako sa plugin dostane do katalógu
@@ -309,7 +309,7 @@ vašu prácu katalogizoval skôr než vy.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Úplná zmluva o prispievaní: dôkazy, pravidlá YAML, brány posúdenia    |
 | [SECURITY.md](../../SECURITY.md)                   | Nahlasovanie zraniteľností pluginov alebo katalógu; politika tajomstiev           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referencia pole po poli pre `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referencia príkazov CLI pre `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referencia príkazov CLI pre `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Ako je katalóg spravovaný: priorita, brány, nároky a odstránenia   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Druhy artefaktov, primárne kategórie schopností, značky, rozsah repozitára |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Pripísanie zásluh tvorcovi, priorita pull requestov a politika Git identity                 |

@@ -158,7 +158,7 @@ or verified co-author, but must not replace the creator's authorship. See
 
 ## Validation commands and availability
 
-The npm CLI is published as `omni-dsh-plugins@1.0.0`, so the commands below are
+The npm CLI is published as `omni-dsh-plugins@1.0.1`, so the commands below are
 available through `npx` today. Use them exactly as written; contributors should not invent
 substitute commands.
 

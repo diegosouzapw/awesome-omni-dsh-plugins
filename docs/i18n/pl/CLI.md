@@ -1,4 +1,4 @@
-# Dokumentacja CLI — `omni-dsh-plugins@1.0.0`
+# Dokumentacja CLI — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../CLI.md) · **Polski**
 
@@ -11,11 +11,11 @@ Ta strona dokumentuje opublikowane CLI dokładnie tak, jak zachowuje się ono w 
 npx omni-dsh-plugins --help
 ```
 
-## Zasady projektowe w v1.0.0
+## Zasady projektowe w v1.0.1
 
 - **Domyślnie tylko do odczytu.** `catalog`, `search`, `info`, `list` i `doctor` nigdy nie modyfikują profili, nie zapisują plików ani nie uruchamiają kodu wtyczek.
 - **Bramka zgody na wykonanie kodu.** `add`, `update` i `remove` odmawiają uruchomienia kodu cyklu życia DSH/pnpm, chyba że przekażesz `--allow-code-execution`. Bez tego użyj `--dry-run`, aby zobaczyć zweryfikowany plan.
-- **Natywna polityka Windows.** Natywne `add`/`update`/`remove` w Windows z wykonaniem kodu są wyłączone w v1.0.0; użyj WSL. Dry-run oraz polecenia tylko do odczytu pozostają dostępne, a natywne znaczniki odzyskiwania w Windows wymagają udokumentowanego ręcznego odzyskiwania.
+- **Natywna polityka Windows.** Natywne `add`/`update`/`remove` w Windows z wykonaniem kodu są wyłączone w v1.0.1; użyj WSL. Dry-run oraz polecenia tylko do odczytu pozostają dostępne, a natywne znaczniki odzyskiwania w Windows wymagają udokumentowanego ręcznego odzyskiwania.
 - **Przypięte dane wejściowe.** Wejście katalogu może być lokalnym katalogiem, plikiem snapshotu lub przypiętym publicznym URL-em snapshotu, opcjonalnie zablokowanym do dokładnej 40-znakowej rewizji.
 
 ## Wspólne opcje
@@ -39,7 +39,7 @@ CLI używa konwencjonalnych kodów wyjścia procesu:
 | `0`       | Sukces (w tym wyniki „puste, ale prawidłowe”, np. pusty katalog)     |
 | `1`       | Niepowodzenie: błąd walidacji, wpis nie znaleziony, brak wymaganej opcji, lub sprawdzenie diagnostyczne zgłaszające błąd |
 
-Przykłady zaobserwowane w v1.0.0: `catalog validate` na prawidłowym, pustym katalogu kończy się kodem `0` z komunikatem `0 entries valid; catalog is empty`; `info <unknown-id>` kończy się kodem `1` z komunikatem `Plugin not found`; `doctor` kończy się kodem `1`, gdy dowolne sprawdzenie (na przykład brakujący plik wykonywalny `dsh`) zgłasza błąd.
+Przykłady zaobserwowane w v1.0.1: `catalog validate` na prawidłowym, pustym katalogu kończy się kodem `0` z komunikatem `0 entries valid; catalog is empty`; `info <unknown-id>` kończy się kodem `1` z komunikatem `Plugin not found`; `doctor` kończy się kodem `1`, gdy dowolne sprawdzenie (na przykład brakujący plik wykonywalny `dsh`) zgłasza błąd.
 
 ## Polecenia
 

@@ -129,7 +129,7 @@ una, desde el repositorio original del creador, con un commit de origen fijado y
 npx omni-dsh-plugins --help
 ```
 
-El paquete con ámbito se publica como `omni-dsh-plugins@1.0.0` y el comando anterior es
+El paquete con ámbito se publica como `omni-dsh-plugins@1.0.1` y el comando anterior es
 la invocación canónica hoy; aquí no se aloja ningún script de instalación.
 
 ### Usa la CLI hoy
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Los comandos que modifican el sistema (`add`, `update`, `remove`) nunca ejecutan código del ciclo
 de vida del plugin a menos que pases `--allow-code-execution`. En Windows nativo, esas
-mutaciones están desactivadas en la v1.0.0; usa WSL. Los comandos de solo lectura y de
+mutaciones están desactivadas en la v1.0.1; usa WSL. Los comandos de solo lectura y de
 simulación (dry-run) funcionan en todas partes.
 
 ## 🔍 Cómo entra un plugin al catálogo
@@ -312,7 +312,7 @@ si alguien catalogó tu trabajo antes que tú.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | El contrato completo de contribución: evidencia, reglas del YAML, puertas de revisión    |
 | [SECURITY.md](../../SECURITY.md)                   | Cómo reportar vulnerabilidades de plugins o del catálogo; política de secretos           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referencia campo por campo de `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referencia de comandos de la CLI para `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referencia de comandos de la CLI para `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Cómo se gobierna el catálogo: precedencia, puertas, reclamaciones y eliminaciones   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Tipos de artefacto, categorías principales de capacidad, etiquetas, ámbito del repositorio |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Crédito al creador, precedencia de PR y política de identidad de Git                 |

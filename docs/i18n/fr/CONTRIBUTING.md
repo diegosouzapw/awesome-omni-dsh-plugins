@@ -177,7 +177,7 @@ dépôt d'origine dans le YAML et la pull request. Un compte de mainteneur ou d'
 
 ## Commandes de validation et disponibilité
 
-Le CLI npm est publié sous le nom `omni-dsh-plugins@1.0.0`, donc les commandes
+Le CLI npm est publié sous le nom `omni-dsh-plugins@1.0.1`, donc les commandes
 ci-dessous sont disponibles via `npx` dès aujourd'hui. Utilisez-les exactement telles qu'écrites ;
 les contributeurs ne doivent pas inventer de commandes de substitution.
 

@@ -121,7 +121,7 @@
 npx omni-dsh-plugins --help
 ```
 
-اسکوپڈ پیکج `omni-dsh-plugins@1.0.0` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
+اسکوپڈ پیکج `omni-dsh-plugins@1.0.1` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
 
 ### آج CLI استعمال کریں
 
@@ -149,7 +149,7 @@ npx omni-dsh-plugins info <plugin-id> --catalog .
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-میوٹیٹنگ کمانڈز (`add`، `update`، `remove`) کبھی بھی پلگ ان lifecycle کوڈ ایگزیکیوٹ نہیں کرتیں جب تک آپ `--allow-code-execution` پاس نہ کریں۔ نیٹو Windows پر یہ میوٹیشنز v1.0.0 میں غیر فعال ہیں؛ WSL استعمال کریں۔ صرف پڑھنے کے لیے اور dry-run کمانڈز ہر جگہ کام کرتی ہیں۔
+میوٹیٹنگ کمانڈز (`add`، `update`، `remove`) کبھی بھی پلگ ان lifecycle کوڈ ایگزیکیوٹ نہیں کرتیں جب تک آپ `--allow-code-execution` پاس نہ کریں۔ نیٹو Windows پر یہ میوٹیشنز v1.0.1 میں غیر فعال ہیں؛ WSL استعمال کریں۔ صرف پڑھنے کے لیے اور dry-run کمانڈز ہر جگہ کام کرتی ہیں۔
 
 ## 🔍 پلگ ان کیٹلاگ میں کیسے داخل ہوتا ہے
 
@@ -264,7 +264,7 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 | [CONTRIBUTING.md](../../CONTRIBUTING.md) | مکمل شراکت کا معاہدہ: ثبوت، YAML قواعد، جائزہ گیٹس |
 | [SECURITY.md](../../SECURITY.md) | پلگ ان یا کیٹلاگ کی خامیوں کی رپورٹنگ؛ خفیہ معلومات کی پالیسی |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md) | `schemas/plugin.schema.yaml` کے لیے فیلڈ بہ فیلڈ ریفرنس |
-| [docs/CLI.md](../../docs/CLI.md) | `omni-dsh-plugins@1.0.0` کے لیے CLI کمانڈ ریفرنس |
+| [docs/CLI.md](../../docs/CLI.md) | `omni-dsh-plugins@1.0.1` کے لیے CLI کمانڈ ریفرنس |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | کیٹلاگ کیسے چلایا جاتا ہے: فوقیت، گیٹس، دعوے اور ہٹانا |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | آرٹیفیکٹ اقسام، بنیادی صلاحیت کے زمرے، ٹیگز، ریپوزٹری اسکوپ |
 | [docs/CREDIT.md](../../docs/CREDIT.md) | تخلیق کار کریڈٹ، PR فوقیت اور Git شناخت کی پالیسی |

@@ -75,7 +75,9 @@ export type CatalogMaterializationSelection =
   | {
       readonly kind: "snapshot-url";
       readonly url: string;
-      readonly revision: string;
+      // Optional: the default catalog has no pin to assert against, and the envelope carries
+      // the revision it actually is. Supplying one turns the fetch into an exact-commit demand.
+      readonly revision?: string;
     };
 
 export interface MaterializedDirectoryCatalog {
@@ -382,8 +384,8 @@ async function readLocalSnapshot(path: string): Promise<LocalSnapshotContents> {
   }
 }
 
-function validatePublicSnapshotUrl(rawUrl: string, revision: string): URL {
-  assertRevision(revision);
+function validatePublicSnapshotUrl(rawUrl: string, revision?: string): URL {
+  if (revision !== undefined) assertRevision(revision);
   if (rawUrl.includes("\\") || rawUrl.includes("%")) {
     throw safety("catalog snapshot URL is outside the public allowlist");
   }
@@ -395,7 +397,12 @@ function validatePublicSnapshotUrl(rawUrl: string, revision: string): URL {
     throw safety("catalog snapshot URL is invalid");
   }
 
-  const expected = `${PUBLIC_CATALOG_RAW_ORIGIN}/${revision}/catalog.snapshot.json`;
+  // Without a revision there is no pinned raw URL to construct, so the stable site URL is the
+  // only address left in the allowlist — the allowlist never widens, it only loses one member.
+  const expected =
+    revision === undefined
+      ? PUBLIC_SNAPSHOT_SITE_URL
+      : `${PUBLIC_CATALOG_RAW_ORIGIN}/${revision}/catalog.snapshot.json`;
   if (
     url.protocol !== "https:" ||
     url.username !== "" ||
@@ -459,7 +466,7 @@ async function readResponseBody(response: Response, signal: AbortSignal): Promis
 
 async function downloadSnapshot(
   rawUrl: string,
-  revision: string,
+  revision: string | undefined,
   dependencies: CatalogMaterializationDependencies,
 ): Promise<string> {
   const timeoutMs = configuredTimeout(

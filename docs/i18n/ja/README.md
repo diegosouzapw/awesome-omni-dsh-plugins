@@ -121,7 +121,7 @@
 npx omni-dsh-plugins --help
 ```
 
-このスコープ付きパッケージは `omni-dsh-plugins@1.0.0` として公開されており、上記のコマンドが現時点での正規の呼び出し方法です。インストーラースクリプトはここではホストされていません。
+このスコープ付きパッケージは `omni-dsh-plugins@1.0.1` として公開されており、上記のコマンドが現時点での正規の呼び出し方法です。インストーラースクリプトはここではホストされていません。
 
 ### 今すぐCLIを使う
 
@@ -149,7 +149,7 @@ npx omni-dsh-plugins info <plugin-id> --catalog .
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-変更を伴うコマンド（`add`、`update`、`remove`）は、`--allow-code-execution` を渡さない限り、プラグインのライフサイクルコードを実行することはありません。ネイティブWindowsでは、これらの変更操作はv1.0.0で無効化されています。WSLを使用してください。読み取り専用コマンドとドライランコマンドはどこでも動作します。
+変更を伴うコマンド（`add`、`update`、`remove`）は、`--allow-code-execution` を渡さない限り、プラグインのライフサイクルコードを実行することはありません。ネイティブWindowsでは、これらの変更操作はv1.0.1で無効化されています。WSLを使用してください。読み取り専用コマンドとドライランコマンドはどこでも動作します。
 
 ## 🔍 プラグインがカタログに登録される仕組み
 
@@ -264,7 +264,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完全な貢献契約: 証拠、YAMLルール、レビューゲート    |
 | [SECURITY.md](../../SECURITY.md)                   | プラグインまたはカタログの脆弱性の報告; 秘密情報に関するポリシー           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` のフィールドごとのリファレンス             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` のCLIコマンドリファレンス          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1` のCLIコマンドリファレンス          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | カタログがどのように統治されているか: 優先順位、ゲート、クレーム、削除   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | アーティファクトの種類、主な機能カテゴリ、タグ、リポジトリの範囲 |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | クリエイターへのクレジット、PRの優先順位、Gitアイデンティティポリシー                 |

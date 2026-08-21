@@ -130,12 +130,12 @@ tydlig attribution.
 npx omni-dsh-plugins --help
 ```
 
-Det scopade paketet publiceras som `omni-dsh-plugins@1.0.0` och kommandot ovan är
+Det scopade paketet publiceras som `omni-dsh-plugins@1.0.1` och kommandot ovan är
 den kanoniska anropsformen idag; inget installationsskript finns hostat här.
 
 ### Använd CLI:n idag
 
-Version 1.0.0 levereras med skrivskyddade upptäckts- och valideringskommandon samt
+Version 1.0.1 levereras med skrivskyddade upptäckts- och valideringskommandon samt
 installationskommandon som kräver uttryckligt samtycke. Den fullständiga kommandoreferensen,
 inklusive flaggor, avslutningskoder och samtyckesspärren för kodkörning, finns i
 [docs/CLI.md](../../docs/CLI.md).
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Muterande kommandon (`add`, `update`, `remove`) kör aldrig pluginets livscykelkod om du inte
 skickar med `--allow-code-execution`. På native Windows är dessa mutationer inaktiverade i
-v1.0.0; använd WSL. Skrivskyddade kommandon och dry-run-kommandon fungerar överallt.
+v1.0.1; använd WSL. Skrivskyddade kommandon och dry-run-kommandon fungerar överallt.
 
 ## 🔍 Hur en plugin läggs till i katalogen
 
@@ -311,7 +311,7 @@ om någon katalogiserade ditt arbete innan du gjorde det.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Det fullständiga bidragskontraktet: bevis, YAML-regler, granskningsgrindar    |
 | [SECURITY.md](../../SECURITY.md)                   | Rapportera sårbarheter i plugins eller katalogen; policy för hemligheter           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Fält-för-fält-referens för `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferens för `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferens för `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hur katalogen styrs: företräde, grindar, anspråk och borttagningar   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primära förmågekategorier, taggar, repository-omfattning |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaparkredit, PR-företräde och Git-identitetspolicy                 |
