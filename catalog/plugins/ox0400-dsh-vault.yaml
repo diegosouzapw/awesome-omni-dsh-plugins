@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ox0400-dsh-vault
+name: dsh-vault
+description:
+  en: "Encrypted credential vault for DeepSeek Harness: store and retrieve usernames, emails, phone numbers, passwords, TOTP secrets, SSH/API-key/OAuth developer credentials through model tools and a Settings UI page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - encrypted
+  - credential
+  - vault
+  - store
+  - retrieve
+  - usernames
+  - emails
+  - phone
+  - numbers
+  - passwords
+  - totp
+  - secrets
+  - oauth
+  - developer
+  - credentials
+  - through
+source:
+  repository: https://github.com/Ox0400/dsh-vault
+  repositoryNodeId: R_kgDOT39tAw
+  subpath: null
+  commit: 555fdddda0b4517e0540d66a66f772bb84dc0b82
+creator:
+  github: Ox0400
+package:
+  ecosystem: npm
+  name: dsh-vault
+  version: 1.9.2
+  integrity: sha512-FfAnCWgToFZP9GQV0sRLicdrmRyv49NkgYe3O0mFQm09S6PTDfC09ucDg404DVeMj3vdxWs/2fxmJT5UiyOiRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:17.965Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
