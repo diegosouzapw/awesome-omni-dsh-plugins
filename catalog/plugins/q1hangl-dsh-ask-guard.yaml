@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: q1hangl-dsh-ask-guard
+name: dsh-ask-guard
+description:
+  en: "Timeout guard for ask user question: a lost or unanswered question resolves as a structured ASK TIMEOUT instead of hanging the turn forever"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ask-user-question
+  - timeout
+source:
+  repository: https://github.com/Q1hangL/dsh-ask-guard
+  repositoryNodeId: R_kgDOT4oZ9Q
+  subpath: null
+  commit: a45f230320edd3b2ca20fd4f4d0ccdf9ff186114
+creator:
+  github: Q1hangL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:36.017Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
