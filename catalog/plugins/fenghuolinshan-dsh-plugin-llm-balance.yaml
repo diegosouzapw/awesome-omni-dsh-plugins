@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: fenghuolinshan-dsh-plugin-llm-balance
+name: dsh-plugin-llm-balance
+description:
+  en: "🏷️ Part of the DSH official plugin ecosystem (git tag: dsh-official-plugin ; GitHub topics: dsh-plugin · deepseek-harness ). English 中文"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - deepseek-harness
+  - moonshot
+  - kimi
+  - openai-codex
+  - codex
+  - chatgpt
+  - oauth
+  - opencode
+  - opencode-go
+  - api-balance
+  - quota
+  - billing
+source:
+  repository: https://github.com/FengHuoLinShan/dsh-plugin-llm-balance
+  repositoryNodeId: R_kgDOT4bZnQ
+  subpath: null
+  commit: 4d8368214c359a9f9628541f2983459bd2250012
+creator:
+  github: FengHuoLinShan
+package:
+  ecosystem: npm
+  name: dsh-plugin-llm-balance
+  version: 0.2.4
+  integrity: sha512-bzAtDOchL5ib6VCX5z45jpIj33RwsBkfQoWqTNfQSp8ZGVvr37w7Jjt77UIDgZVPHueYxqLVzGe5NCub94lttA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:34.631Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
