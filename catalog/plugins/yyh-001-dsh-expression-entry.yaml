@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yyh-001-dsh-expression-entry
+name: dsh-expression-entry
+description:
+  en: bash dsh plugin --profile web add dsh-meme pnpm add dsh-meme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - meme
+  - pnpm
+  - dsh
+source:
+  repository: https://github.com/yyh-001/dsh-meme
+  repositoryNodeId: R_kgDOT3eD3g
+  subpath: entry
+  commit: 5c83b91fe2942279b677ae537850e77504e26c7c
+creator:
+  github: yyh-001
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: entry/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:15.509Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
