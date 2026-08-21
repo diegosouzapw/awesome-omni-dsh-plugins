@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-budget
+name: dsh-budget
+description:
+  en: "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, session/daily/monthly budget caps with threshold alerts (desktop notification + webhook) and alert/block/degrade over-limit policies, built-in carbon footprint estimation and per-model latency benchmarks, a Settings budget "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - budget
+  - cost-tracking
+  - carbon-footprint
+  - latency-benchmark
+  - token-usage
+source:
+  repository: https://github.com/PerryLink/dsh-budget
+  repositoryNodeId: R_kgDOT6T2Vw
+  subpath: null
+  commit: 668fd1d7a446384b478caf98b950d372d76344e8
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-budget
+  version: 0.1.0
+  integrity: sha512-8GPEMpDa9SEiYgHaOqbo60Ic/zqskYst50oEqpIMz/QRz3NnaWVm/V9DccgwTWcdKUYpMEOf0U0p6cTQQjT8Mg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:53.633Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
