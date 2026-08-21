@@ -131,7 +131,7 @@ vastgepinde broncommit en expliciete attributie.
 npx omni-dsh-plugins --help
 ```
 
-Het scoped package wordt gepubliceerd als `omni-dsh-plugins@1.0.0` en het commando
+Het scoped package wordt gepubliceerd als `omni-dsh-plugins@1.0.1` en het commando
 hierboven is vandaag de canonieke aanroep; er wordt hier geen installatiescript gehost.
 
 ### Gebruik de CLI vandaag
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Muterende commando's (`add`, `update`, `remove`) voeren nooit levenscycluscode van de plugin
 uit, tenzij u `--allow-code-execution` opgeeft. Op nativief Windows zijn die mutaties
-uitgeschakeld in v1.0.0; gebruik WSL. Alleen-lezen- en dry-run-commando's werken overal.
+uitgeschakeld in v1.0.1; gebruik WSL. Alleen-lezen- en dry-run-commando's werken overal.
 
 ## 🔍 Hoe een plugin de catalogus binnenkomt
 
@@ -311,7 +311,7 @@ als iemand uw werk al heeft gecatalogiseerd voordat u dat deed.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Het volledige bijdragecontract: bewijs, YAML-regels, beoordelingscontroles    |
 | [SECURITY.md](../../SECURITY.md)                   | Kwetsbaarheden in plugins of catalogus melden; geheimenbeleid           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Veld-voor-veld-referentie voor `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-commandoreferentie voor `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-commandoreferentie voor `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hoe de catalogus wordt bestuurd: voorrang, controles, claims en verwijderingen   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefacttypen, primaire capaciteitscategorieën, tags, repositoryomvang |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Makerscredit, PR-voorrang en Git-identiteitsbeleid                 |

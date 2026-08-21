@@ -130,7 +130,7 @@ og eksplisitt attribusjon.
 npx omni-dsh-plugins --help
 ```
 
-Den avgrensede pakken publiseres som `omni-dsh-plugins@1.0.0`, og kommandoen over
+Den avgrensede pakken publiseres som `omni-dsh-plugins@1.0.1`, og kommandoen over
 er den kanoniske påkallingen i dag; det er ikke hostet noe installasjonsskript her.
 
 ### Bruk CLI-en i dag
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Muterende kommandoer (`add`, `update`, `remove`) kjører aldri livssyklus-kode for pluginen
 med mindre du sender `--allow-code-execution`. På nativ Windows er disse mutasjonene
-deaktivert i v1.0.0; bruk WSL. Skrivebeskyttede kommandoer og dry-run-kommandoer fungerer
+deaktivert i v1.0.1; bruk WSL. Skrivebeskyttede kommandoer og dry-run-kommandoer fungerer
 overalt.
 
 ## 🔍 Hvordan en plugin kommer inn i katalogen
@@ -310,7 +310,7 @@ hvis noen katalogiserte arbeidet ditt før du gjorde det.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Hele bidragsavtalen: bevis, YAML-regler, gjennomgangsporter    |
 | [SECURITY.md](../../SECURITY.md)                   | Rapportere sårbarheter i plugins eller katalog; retningslinjer for hemmeligheter           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Felt-for-felt-referanse for `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferanse for `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreferanse for `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hvordan katalogen styres: forrang, porter, krav og fjerninger   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primære kapasitetskategorier, tagger, repositorieomfang |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaperkreditering, PR-forrang og Git-identitetspolicy                 |

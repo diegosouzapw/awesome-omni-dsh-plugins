@@ -131,12 +131,12 @@ kreditering.
 npx omni-dsh-plugins --help
 ```
 
-Den scopede pakke udgives som `omni-dsh-plugins@1.0.0`, og kommandoen ovenfor er i dag
+Den scopede pakke udgives som `omni-dsh-plugins@1.0.1`, og kommandoen ovenfor er i dag
 den kanoniske måde at køre den på; der hostes ikke noget installationsscript her.
 
 ### Brug CLI'en i dag
 
-Version 1.0.0 leveres med skrivebeskyttede opdagelses- og valideringskommandoer samt
+Version 1.0.1 leveres med skrivebeskyttede opdagelses- og valideringskommandoer samt
 installationskommandoer, der kræver samtykke. Den fulde kommandoreference, inklusive flag,
 exitkoder og samtykkespærren for kodeudførelse, findes i [docs/CLI.md](../../docs/CLI.md).
 
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Kommandoer, der ændrer noget (`add`, `update`, `remove`), udfører aldrig plugin-livscykluskode,
 medmindre du angiver `--allow-code-execution`. På native Windows er disse ændringer deaktiveret
-i v1.0.0; brug WSL. Skrivebeskyttede og dry-run-kommandoer virker overalt.
+i v1.0.1; brug WSL. Skrivebeskyttede og dry-run-kommandoer virker overalt.
 
 ## 🔍 Sådan kommer et plugin ind i kataloget
 
@@ -310,7 +310,7 @@ hvis nogen har katalogiseret dit arbejde, før du selv gjorde det.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Den fulde bidragskontrakt: dokumentation, YAML-regler, gennemgangs-gates    |
 | [SECURITY.md](../../SECURITY.md)                   | Rapportering af plugin- eller katalogsårbarheder; hemmelighedspolitik           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Felt-for-felt-reference for `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreference for `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-kommandoreference for `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hvordan kataloget styres: forrang, gates, krav og fjernelser   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakttyper, primære kapacitetskategorier, tags, repository-omfang |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Skaberkreditering, PR-forrang og Git-identitetspolitik                 |

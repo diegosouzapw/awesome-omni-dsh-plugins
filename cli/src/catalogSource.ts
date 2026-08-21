@@ -3,6 +3,7 @@ import { lstat } from "node:fs/promises";
 import { canonicalPluginKey, loadCatalog } from "./catalog/index.js";
 
 import {
+  PUBLIC_SNAPSHOT_SITE_URL,
   materializeCatalog,
   type CatalogMaterializationDependencies,
   type MaterializedCatalog,
@@ -10,30 +11,38 @@ import {
 import { CliSafetyError } from "./errors.js";
 import type { CatalogSelection, CatalogSnapshot } from "./model.js";
 
-export const DEFAULT_CATALOG_REVISION = "f01d1d2d22b80222c121db6dfc0fd4035c24b390";
-
-const DEFAULT_EMPTY_SNAPSHOT: CatalogSnapshot = {
-  source: {
-    kind: "snapshot",
-    declaredRevision: DEFAULT_CATALOG_REVISION,
-    pinStatus: "declared-local",
-  },
-  entries: [],
-  diagnostics: [],
-};
+/**
+ * The revision this build was cut against. It is NOT what the default catalog resolves to —
+ * the published snapshot moves every time a plugin is merged, and a CLI that demanded one exact
+ * commit would go blind the moment the catalog grew. It is kept as a record of the tree these
+ * sources were written for, and as the value `--revision` is checked against when someone wants
+ * the strict, exact-commit fetch.
+ */
+export const DEFAULT_CATALOG_REVISION = "bcf6a89f12dadee801dee32aa22f8396756a0e95";
 
 export async function loadDefaultCatalog(
   selection?: CatalogSelection,
   dependencies: CatalogMaterializationDependencies = {},
 ): Promise<CatalogSnapshot> {
-  if (selection?.root === undefined) {
-    if (selection?.revision !== undefined && selection.revision !== DEFAULT_CATALOG_REVISION) {
-      throw new CliSafetyError("default catalog revision is invalid");
-    }
-    return DEFAULT_EMPTY_SNAPSHOT;
-  }
-
-  const materialized = await materializeSelection(selection, dependencies);
+  // With no --catalog, read the snapshot the site publishes. Until now this returned an EMPTY
+  // catalog: correct while the public catalog had zero entries, and a silent lie afterwards —
+  // `search` answered "No plugins found" against 160 published plugins, and nothing said why.
+  //
+  // The URL is the only address in the allowlist that carries no pin, it is fetched over TLS
+  // from our own origin, and the envelope is validated like any other. Passing --revision still
+  // demands that exact commit; omitting it accepts the revision the site declares, which is what
+  // lets the CLI keep working as the catalog grows instead of needing a release per merge.
+  const materialized =
+    selection?.root === undefined
+      ? await materializeCatalog(
+          {
+            kind: "snapshot-url",
+            url: PUBLIC_SNAPSHOT_SITE_URL,
+            ...(selection?.revision === undefined ? {} : { revision: selection.revision }),
+          },
+          dependencies,
+        )
+      : await materializeSelection(selection, dependencies);
   try {
     const loaded =
       materialized.kind === "snapshot"

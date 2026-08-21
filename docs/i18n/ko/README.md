@@ -121,7 +121,7 @@
 npx omni-dsh-plugins --help
 ```
 
-이 스코프 패키지는 `omni-dsh-plugins@1.0.0`으로 배포되어 있으며, 위 명령어가 현재의 표준 호출 방식입니다. 여기에는 설치 스크립트가 호스팅되어 있지 않습니다.
+이 스코프 패키지는 `omni-dsh-plugins@1.0.1`으로 배포되어 있으며, 위 명령어가 현재의 표준 호출 방식입니다. 여기에는 설치 스크립트가 호스팅되어 있지 않습니다.
 
 ### 지금 CLI 사용하기
 
@@ -149,7 +149,7 @@ npx omni-dsh-plugins info <plugin-id> --catalog .
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
-변경을 일으키는 명령어(`add`, `update`, `remove`)는 `--allow-code-execution`을 전달하지 않는 한 플러그인의 라이프사이클 코드를 절대 실행하지 않습니다. 네이티브 Windows에서는 v1.0.0에서 이러한 변경 작업이 비활성화되어 있습니다. WSL을 사용하세요. 읽기 전용 및 드라이런 명령어는 어디서나 동작합니다.
+변경을 일으키는 명령어(`add`, `update`, `remove`)는 `--allow-code-execution`을 전달하지 않는 한 플러그인의 라이프사이클 코드를 절대 실행하지 않습니다. 네이티브 Windows에서는 v1.0.1에서 이러한 변경 작업이 비활성화되어 있습니다. WSL을 사용하세요. 읽기 전용 및 드라이런 명령어는 어디서나 동작합니다.
 
 ## 🔍 플러그인이 카탈로그에 등록되는 과정
 
@@ -264,7 +264,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 전체 기여 계약: 증거, YAML 규칙, 검토 게이트    |
 | [SECURITY.md](../../SECURITY.md)                   | 플러그인 또는 카탈로그 취약점 신고; 비밀 정보 정책           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml`의 필드별 참조             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0`의 CLI 명령어 참조          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1`의 CLI 명령어 참조          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | 카탈로그가 어떻게 운영되는지: 우선순위, 게이트, 클레임과 삭제   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | 아티팩트 종류, 주요 기능 카테고리, 태그, 저장소 범위 |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | 크리에이터 크레딧, PR 우선순위, Git 신원 정책                 |

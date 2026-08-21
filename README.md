@@ -130,12 +130,12 @@ attribution.
 npx omni-dsh-plugins --help
 ```
 
-The package is published as `omni-dsh-plugins@1.0.0` and the command above is
+The package is published as `omni-dsh-plugins@1.0.1` and the command above is
 the canonical invocation today; no installer script is hosted here.
 
 ### Use the CLI today
 
-Version 1.0.0 ships read-only discovery and validation commands plus consent-gated install
+Version 1.0.1 ships read-only discovery and validation commands plus consent-gated install
 commands. The full command reference, including flags, exit codes and the code-execution
 consent gate, is in [docs/CLI.md](docs/CLI.md).
 
@@ -162,7 +162,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Mutating commands (`add`, `update`, `remove`) never execute plugin lifecycle code unless you
-pass `--allow-code-execution`. On native Windows those mutations are disabled in v1.0.0; use
+pass `--allow-code-execution`. On native Windows those mutations are disabled in v1.0.1; use
 WSL. Read-only and dry-run commands work everywhere.
 
 ## 🔍 How a plugin enters the catalog
@@ -305,7 +305,7 @@ if someone cataloged your work before you did.
 | [CONTRIBUTING.md](CONTRIBUTING.md)           | The full contribution contract: evidence, YAML rules, review gates    |
 | [SECURITY.md](SECURITY.md)                   | Reporting plugin or catalog vulnerabilities; secrets policy           |
 | [docs/SCHEMA.md](docs/SCHEMA.md)             | Field-by-field reference for `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](docs/CLI.md)                   | CLI command reference for `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](docs/CLI.md)                   | CLI command reference for `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](docs/GOVERNANCE.md)     | How the catalog is governed: precedence, gates, claims and removals   |
 | [docs/CATEGORIES.md](docs/CATEGORIES.md)     | Artifact kinds, primary capability categories, tags, repository scope |
 | [docs/CREDIT.md](docs/CREDIT.md)             | Creator credit, PR precedence and Git identity policy                 |

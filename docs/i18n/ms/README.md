@@ -131,7 +131,7 @@ yang dipasak dan atribusi yang jelas.
 npx omni-dsh-plugins --help
 ```
 
-Pakej berskop diterbitkan sebagai `omni-dsh-plugins@1.0.0` dan arahan di atas
+Pakej berskop diterbitkan sebagai `omni-dsh-plugins@1.0.1` dan arahan di atas
 ialah panggilan kanonik hari ini; tiada skrip pemasang dihoskan di sini.
 
 ### Gunakan CLI hari ini
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Arahan yang mengubah sistem (`add`, `update`, `remove`) tidak sesekali melaksanakan kod
 kitaran hayat pemalam melainkan anda memberikan `--allow-code-execution`. Pada Windows
-asli, mutasi tersebut dinyahdayakan dalam v1.0.0; gunakan WSL. Arahan baca sahaja dan
+asli, mutasi tersebut dinyahdayakan dalam v1.0.1; gunakan WSL. Arahan baca sahaja dan
 dry-run berfungsi di mana-mana sahaja.
 
 ## 🔍 Bagaimana pemalam masuk ke dalam katalog
@@ -311,7 +311,7 @@ jika seseorang telah mengkatalogkan kerja anda sebelum anda melakukannya.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Kontrak sumbangan penuh: bukti, peraturan YAML, pintu gerbang semakan    |
 | [SECURITY.md](../../SECURITY.md)                   | Melaporkan kerentanan pemalam atau katalog; dasar rahsia           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Rujukan medan demi medan untuk `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Rujukan arahan CLI untuk `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Rujukan arahan CLI untuk `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Bagaimana katalog ditadbir: keutamaan, pintu gerbang, tuntutan dan penyingkiran   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Jenis artifak, kategori keupayaan utama, tag, skop repositori |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredit pencipta, keutamaan PR dan dasar identiti Git                 |

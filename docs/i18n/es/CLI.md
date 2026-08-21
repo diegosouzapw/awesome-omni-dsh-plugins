@@ -1,4 +1,4 @@
-# Referencia del CLI — `omni-dsh-plugins@1.0.0`
+# Referencia del CLI — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · **Español**
 
@@ -15,7 +15,7 @@ publica en npm como el paquete con alcance
 npx omni-dsh-plugins --help
 ```
 
-## Principios de diseño en v1.0.0
+## Principios de diseño en v1.0.1
 
 - **Solo lectura por defecto.** `catalog`, `search`, `info`, `list` y `doctor` nunca modifican
   perfiles, escriben archivos ni disparan código de plugin.
@@ -23,7 +23,7 @@ npx omni-dsh-plugins --help
   ejecutar código de ciclo de vida de DSH/pnpm a menos que pase `--allow-code-execution`. Sin
   ella, use `--dry-run` para ver el plan verificado.
 - **Política nativa de Windows.** `add`/`update`/`remove` nativos en Windows con ejecución de
-  código están deshabilitados en v1.0.0; use WSL. El dry-run y los comandos de solo lectura
+  código están deshabilitados en v1.0.1; use WSL. El dry-run y los comandos de solo lectura
   siguen disponibles, y los marcadores de recuperación nativos de Windows requieren recuperación
   manual documentada.
 - **Entradas fijadas.** La entrada del catálogo puede ser un directorio local, un archivo de
@@ -53,7 +53,7 @@ El CLI usa códigos de salida de proceso convencionales:
 | `0`       | Éxito (incluyendo resultados "vacíos pero válidos" como un catálogo vacío)     |
 | `1`       | Fallo: error de validación, entrada no encontrada, opción requerida faltante, o una comprobación de diagnóstico que reporta un error |
 
-Ejemplos observados en v1.0.0: `catalog validate` en un catálogo vacío válido sale con `0` y
+Ejemplos observados en v1.0.1: `catalog validate` en un catálogo vacío válido sale con `0` y
 `0 entries valid; catalog is empty`; `info <unknown-id>` sale con `1` y `Plugin not found`;
 `doctor` sale con `1` cuando alguna comprobación (como un ejecutable `dsh` faltante) reporta un
 error.

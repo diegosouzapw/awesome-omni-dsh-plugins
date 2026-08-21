@@ -1,6 +1,6 @@
 {
   "name": "omni-dsh-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial catalog and safe installer for DeepSeek Harness plugins",
   "type": "module",
   "license": "MIT",

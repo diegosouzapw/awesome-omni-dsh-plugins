@@ -124,7 +124,7 @@
 npx omni-dsh-plugins --help
 ```
 
-這個具作用域的套件以 `omni-dsh-plugins@1.0.0` 發佈,上方指令是目前的標準呼叫方式;本儲存庫不代管任何安裝
+這個具作用域的套件以 `omni-dsh-plugins@1.0.1` 發佈,上方指令是目前的標準呼叫方式;本儲存庫不代管任何安裝
 指令碼。
 
 ### 立即使用 CLI
@@ -155,7 +155,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 會變更狀態的指令(`add`、`update`、`remove`)在未傳入 `--allow-code-execution` 時,絕不會執行外掛生命週期程式碼。在原生
-Windows 上,v1.0.0 中這些變更操作已被停用;請改用 WSL。唯讀與試跑模式指令在任何環境下皆可使用。
+Windows 上,v1.0.1 中這些變更操作已被停用;請改用 WSL。唯讀與試跑模式指令在任何環境下皆可使用。
 
 ## 🔍 外掛如何進入目錄
 
@@ -282,7 +282,7 @@ monorepo 中的整合仍可被發現,但使用 `stars: null`,絕不繼承母專�
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | 完整的貢獻規範:證據要求、YAML 規則、審查關卡    |
 | [SECURITY.md](../../SECURITY.md)                   | 回報外掛或目錄漏洞;機密資訊政策           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` 的逐欄位參考             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` 的 CLI 指令參考          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1` 的 CLI 指令參考          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | 目錄的治理方式:優先順序、關卡、認領與移除   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | 產物種類、主要能力分類、標籤、儲存庫範圍 |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | 創作者掛名、PR 優先順序與 Git 身分政策                 |

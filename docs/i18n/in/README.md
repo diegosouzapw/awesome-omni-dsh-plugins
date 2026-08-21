@@ -130,7 +130,7 @@ atribusi yang eksplisit.
 npx omni-dsh-plugins --help
 ```
 
-Paket dengan scope ini dipublikasikan sebagai `omni-dsh-plugins@1.0.0` dan perintah di
+Paket dengan scope ini dipublikasikan sebagai `omni-dsh-plugins@1.0.1` dan perintah di
 atas adalah pemanggilan kanonis saat ini; tidak ada skrip installer yang di-hosting di sini.
 
 ### Gunakan CLI hari ini
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Perintah yang mengubah data (`add`, `update`, `remove`) tidak pernah mengeksekusi kode siklus
 hidup plugin kecuali Anda menambahkan `--allow-code-execution`. Pada Windows native, mutasi ini
-dinonaktifkan di v1.0.0; gunakan WSL. Perintah baca-saja dan dry-run berfungsi di mana saja.
+dinonaktifkan di v1.0.1; gunakan WSL. Perintah baca-saja dan dry-run berfungsi di mana saja.
 
 ## 🔍 Bagaimana sebuah plugin masuk ke katalog
 
@@ -309,7 +309,7 @@ jika seseorang sudah mengatalogkan karya Anda lebih dulu.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Kontrak kontribusi lengkap: bukti, aturan YAML, gerbang tinjauan    |
 | [SECURITY.md](../../SECURITY.md)                   | Melaporkan kerentanan plugin atau katalog; kebijakan rahasia           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referensi bidang-demi-bidang untuk `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referensi perintah CLI untuk `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referensi perintah CLI untuk `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Bagaimana katalog diatur: prioritas, gerbang, klaim, dan penghapusan   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Jenis artefak, kategori kapabilitas utama, tag, ruang lingkup repositori |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredit kreator, prioritas PR, dan kebijakan identitas Git                 |

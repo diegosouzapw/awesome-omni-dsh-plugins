@@ -1,4 +1,4 @@
-# Referenční příručka CLI — `omni-dsh-plugins@1.0.0`
+# Referenční příručka CLI — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Čeština**
 
@@ -15,7 +15,7 @@ se scope
 npx omni-dsh-plugins --help
 ```
 
-## Návrhové principy ve v1.0.0
+## Návrhové principy ve v1.0.1
 
 - **Ve výchozím stavu pouze pro čtení.** `catalog`, `search`, `info`, `list` a `doctor` nikdy
   neupravují profily, nezapisují soubory ani nespouštějí kód pluginu.
@@ -23,7 +23,7 @@ npx omni-dsh-plugins --help
   životního cyklu DSH/pnpm, pokud nepředáte `--allow-code-execution`. Bez toho použijte
   `--dry-run` k zobrazení ověřeného plánu.
 - **Politika pro nativní Windows.** Nativní Windows `add`/`update`/`remove` se spouštěním kódu
-  jsou ve v1.0.0 zakázány; použijte WSL. Dry-run a příkazy pouze pro čtení zůstávají dostupné a
+  jsou ve v1.0.1 zakázány; použijte WSL. Dry-run a příkazy pouze pro čtení zůstávají dostupné a
   markery obnovy pro nativní Windows vyžadují dokumentovanou ruční obnovu.
 - **Fixované vstupy.** Vstup katalogu může být lokální adresář, soubor snapshotu, nebo fixovaná
   veřejná URL snapshotu, volitelně uzamčená na přesnou 40znakovou revizi.
@@ -51,7 +51,7 @@ CLI používá konvenční návratové kódy procesu:
 | `0`           | Úspěch (včetně výsledků „prázdné, ale platné“, jako je prázdný katalog)    |
 | `1`           | Selhání: chyba validace, záznam nenalezen, chybí povinná volba, nebo diagnostická kontrola hlásí chybu |
 
-Příklady pozorované u v1.0.0: `catalog validate` na platném prázdném katalogu skončí s `0` a
+Příklady pozorované u v1.0.1: `catalog validate` na platném prázdném katalogu skončí s `0` a
 hlášením `0 entries valid; catalog is empty`; `info <unknown-id>` skončí s `1` a hlášením
 `Plugin not found`; `doctor` skončí s `1`, pokud jakákoli kontrola (například chybějící
 spustitelný soubor `dsh`) hlásí chybu.

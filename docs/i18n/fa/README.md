@@ -128,7 +128,7 @@ JSON Schema منتشرشده اعتبارسنجی شده، از طریق یک pu
 npx omni-dsh-plugins --help
 ```
 
-این بستهٔ اسکوپ‌شده به‌صورت `omni-dsh-plugins@1.0.0` منتشر می‌شود و دستور بالا امروز فراخوانی استاندارد
+این بستهٔ اسکوپ‌شده به‌صورت `omni-dsh-plugins@1.0.1` منتشر می‌شود و دستور بالا امروز فراخوانی استاندارد
 است؛ هیچ اسکریپت نصب‌کننده‌ای اینجا میزبانی نمی‌شود.
 
 ### استفاده از CLI امروز
@@ -159,7 +159,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 دستورات جهش‌دهنده (`add`، `update`، `remove`) هرگز کد چرخهٔ حیات افزونه را اجرا نمی‌کنند مگر آنکه
-`--allow-code-execution` را ارسال کنید. در Windows بومی این جهش‌ها در نسخهٔ v1.0.0 غیرفعال‌اند؛ از WSL استفاده کنید.
+`--allow-code-execution` را ارسال کنید. در Windows بومی این جهش‌ها در نسخهٔ v1.0.1 غیرفعال‌اند؛ از WSL استفاده کنید.
 دستورات فقط‌خواندنی و dry-run همه‌جا کار می‌کنند.
 
 ## 🔍 چگونه یک افزونه وارد کاتالوگ می‌شود
@@ -298,7 +298,7 @@ requestهایی که توسط سازنده نوشته شده‌اند بر pull 
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | قرارداد کامل مشارکت: شواهد، قواعد YAML، دروازه‌های بازبینی    |
 | [SECURITY.md](../../SECURITY.md)                   | گزارش آسیب‌پذیری‌های افزونه یا کاتالوگ؛ سیاست اطلاعات محرمانه           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | مرجع فیلد‌به‌فیلد برای `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | مرجع دستورات CLI برای `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | مرجع دستورات CLI برای `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | کاتالوگ چگونه اداره می‌شود: اولویت، دروازه‌ها، ادعاها و حذف‌ها   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | انواع مصنوع، دسته‌های اصلی قابلیت، برچسب‌ها، دامنهٔ ریپازیتوری |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | اعتبار سازنده، اولویت PR و سیاست هویت Git                 |

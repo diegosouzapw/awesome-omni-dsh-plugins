@@ -130,7 +130,7 @@ atribuição explícita.
 npx omni-dsh-plugins --help
 ```
 
-O pacote com âmbito é publicado como `omni-dsh-plugins@1.0.0` e o comando acima é
+O pacote com âmbito é publicado como `omni-dsh-plugins@1.0.1` e o comando acima é
 a invocação canónica hoje; não é alojado aqui nenhum script de instalação.
 
 ### Utilize a CLI hoje
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Os comandos que alteram o sistema (`add`, `update`, `remove`) nunca executam código do ciclo
 de vida do plugin, a menos que passe `--allow-code-execution`. No Windows nativo, essas
-alterações estão desativadas na v1.0.0; use o WSL. Os comandos apenas de leitura e de
+alterações estão desativadas na v1.0.1; use o WSL. Os comandos apenas de leitura e de
 simulação funcionam em qualquer lado.
 
 ## 🔍 Como um plugin entra no catálogo
@@ -311,7 +311,7 @@ se alguém catalogou o seu trabalho antes de si.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | O contrato completo de contribuição: provas, regras do YAML, controlos de revisão    |
 | [SECURITY.md](../../SECURITY.md)                   | Como reportar vulnerabilidades de plugins ou do catálogo; política de segredos           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referência campo a campo de `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referência de comandos da CLI para `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Referência de comandos da CLI para `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Como o catálogo é governado: precedência, controlos, reivindicações e remoções   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Tipos de artefacto, categorias principais de capacidade, etiquetas, âmbito do repositório |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Crédito ao criador, precedência de PR e política de identidade do Git                 |

@@ -132,7 +132,7 @@ explicită.
 npx omni-dsh-plugins --help
 ```
 
-Pachetul cu scope este publicat ca `omni-dsh-plugins@1.0.0`, iar comanda de mai sus este
+Pachetul cu scope este publicat ca `omni-dsh-plugins@1.0.1`, iar comanda de mai sus este
 invocarea canonică actuală; niciun script de instalare nu este găzduit aici.
 
 ### Folosește CLI-ul astăzi
@@ -166,7 +166,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Comenzile care modifică starea (`add`, `update`, `remove`) nu execută niciodată codul de ciclu de
 viață al pluginului decât dacă adaugi `--allow-code-execution`. Pe Windows nativ, aceste mutații
-sunt dezactivate în v1.0.0; folosește WSL. Comenzile read-only și dry-run funcționează peste tot.
+sunt dezactivate în v1.0.1; folosește WSL. Comenzile read-only și dry-run funcționează peste tot.
 
 ## 🔍 Cum intră un plugin în catalog
 
@@ -315,7 +315,7 @@ dacă cineva ți-a catalogat munca înaintea ta.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)     | Contractul complet de contribuție: dovezi, reguli YAML, porți de review |
 | [SECURITY.md](../../SECURITY.md)             | Raportarea vulnerabilităților de plugin sau de catalog; politica privind secretele |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)       | Referință câmp cu câmp pentru `schemas/plugin.schema.yaml`              |
-| [docs/CLI.md](../../docs/CLI.md)             | Referința comenzilor CLI pentru `omni-dsh-plugins@1.0.0`      |
+| [docs/CLI.md](../../docs/CLI.md)             | Referința comenzilor CLI pentru `omni-dsh-plugins@1.0.1`      |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) | Cum este guvernat catalogul: prioritate, porți, revendicări și eliminări |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md) | Tipuri de artefact, categorii principale de capabilități, tag-uri, scop repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)       | Creditarea creatorilor, prioritatea PR-urilor și politica de identitate Git |

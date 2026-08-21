@@ -1,4 +1,4 @@
-# CLI 參考手冊 — `omni-dsh-plugins@1.0.0`
+# CLI 參考手冊 — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **中文（繁體）**
 
@@ -11,11 +11,11 @@
 npx omni-dsh-plugins --help
 ```
 
-## v1.0.0 中的設計原則
+## v1.0.1 中的設計原則
 
 - **預設唯讀。** `catalog`、`search`、`info`、`list` 與 `doctor` 絕不會修改設定檔(profile)、寫入檔案或啟動外掛程式碼。
 - **執行程式碼需明確同意。** 除非傳入 `--allow-code-execution`,否則 `add`、`update` 與 `remove` 會拒絕執行 DSH/pnpm 生命週期程式碼。若不傳入該參數,可使用 `--dry-run` 查看已驗證的執行計畫。
-- **原生 Windows 政策。** 在 v1.0.0 中,原生 Windows 上帶程式碼執行的 `add`/`update`/`remove` 已停用;請改用 WSL。Dry-run 與唯讀指令仍可使用,原生 Windows 的復原標記需依文件說明手動復原。
+- **原生 Windows 政策。** 在 v1.0.1 中,原生 Windows 上帶程式碼執行的 `add`/`update`/`remove` 已停用;請改用 WSL。Dry-run 與唯讀指令仍可使用,原生 Windows 的復原標記需依文件說明手動復原。
 - **固定輸入。** 目錄輸入可以是本機目錄、快照檔案,或固定的公開快照網址,並可選擇鎖定到確切的 40 字元修訂版本(revision)。
 
 ## 常用選項
@@ -39,7 +39,7 @@ npx omni-dsh-plugins --help
 | `0`       | 成功(包括「空但有效」的結果,例如空目錄)     |
 | `1`       | 失敗:驗證錯誤、找不到條目、缺少必要選項,或診斷檢查回報錯誤 |
 
-在 v1.0.0 中觀察到的範例:對一個有效的空目錄執行 `catalog validate` 會以 `0` 結束,並輸出
+在 v1.0.1 中觀察到的範例:對一個有效的空目錄執行 `catalog validate` 會以 `0` 結束,並輸出
 `0 entries valid; catalog is empty`;`info <unknown-id>` 會以 `1` 結束,並輸出 `Plugin not found`;
 當任一檢查項(例如缺少 `dsh` 執行檔)回報錯誤時,`doctor` 會以 `1` 結束。
 

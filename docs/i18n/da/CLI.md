@@ -1,11 +1,11 @@
-# CLI-reference — `omni-dsh-plugins@1.0.0`
+# CLI-reference — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Dansk**
 
 > **Uofficielt community-projekt. Ikke tilknyttet, godkendt af eller sponsoreret af DeepSeek.**
 > DeepSeeks navne og mærker tilhører deres respektive ejere.
 
-Denne side dokumenterer det udgivne CLI præcis, som det opfører sig i version `1.0.0`. Hver
+Denne side dokumenterer det udgivne CLI præcis, som det opfører sig i version `1.0.1`. Hver
 synopsis og flag nedenfor stammer fra den udgivne kommandos egen `--help`-output; intet her
 beskriver ikke-udgivet adfærd. CLI'et vedligeholdes fra privat kildekode og udgives til npm som
 den scopede pakke
@@ -15,7 +15,7 @@ den scopede pakke
 npx omni-dsh-plugins --help
 ```
 
-## Designprincipper i v1.0.0
+## Designprincipper i v1.0.1
 
 - **Skrivebeskyttet som standard.** `catalog`, `search`, `info`, `list` og `doctor` ændrer aldrig
   profiler, skriver aldrig filer og starter aldrig plugin-kode.
@@ -23,7 +23,7 @@ npx omni-dsh-plugins --help
   livscykluskode, medmindre du angiver `--allow-code-execution`. Uden den kan du bruge `--dry-run`
   for at se den verificerede plan.
 - **Native Windows-politik.** Native Windows `add`/`update`/`remove` med kodeeksekvering er
-  deaktiveret i v1.0.0; brug WSL. Dry-run og de skrivebeskyttede kommandoer forbliver
+  deaktiveret i v1.0.1; brug WSL. Dry-run og de skrivebeskyttede kommandoer forbliver
   tilgængelige, og native Windows-genopretningsmarkører kræver dokumenteret manuel genopretning.
 - **Fastlåste input.** Katalogets input kan være en lokal mappe, en snapshot-fil, eller en
   fastlåst offentlig snapshot-URL, eventuelt låst til en præcis 40-tegns revision.
@@ -51,7 +51,7 @@ CLI'et bruger konventionelle proces-exit-koder:
 | `0`       | Succes (inklusive "tomt, men gyldigt"-resultater, såsom et tomt katalog)   |
 | `1`       | Fejl: valideringsfejl, post ikke fundet, manglende påkrævet indstilling, eller en diagnostisk kontrol, der rapporterer en fejl |
 
-Eksempler observeret i v1.0.0: `catalog validate` på et gyldigt tomt katalog afsluttes med `0` og
+Eksempler observeret i v1.0.1: `catalog validate` på et gyldigt tomt katalog afsluttes med `0` og
 `0 entries valid; catalog is empty`; `info <unknown-id>` afsluttes med `1` og `Plugin not found`;
 `doctor` afsluttes med `1`, når en vilkårlig kontrol (såsom en manglende eksekverbar fil `dsh`)
 rapporterer en fejl.

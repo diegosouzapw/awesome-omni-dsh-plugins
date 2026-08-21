@@ -98,7 +98,7 @@ Pull requesty i commity autorstwa twórcy w naturalny sposób zachowują przypis
 
 ## Polecenia walidacyjne i dostępność
 
-CLI npm jest opublikowane jako `omni-dsh-plugins@1.0.0`, więc poniższe polecenia są już dziś dostępne przez `npx`. Używaj ich dokładnie tak, jak zapisano; współtwórcy nie powinni wymyślać zastępczych poleceń.
+CLI npm jest opublikowane jako `omni-dsh-plugins@1.0.1`, więc poniższe polecenia są już dziś dostępne przez `npx`. Używaj ich dokładnie tak, jak zapisano; współtwórcy nie powinni wymyślać zastępczych poleceń.
 
 Uruchom te polecenia z katalogu głównego repozytorium:
 

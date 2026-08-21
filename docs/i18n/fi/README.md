@@ -130,7 +130,7 @@ lähdekommitilla ja selkeällä tunnustuksella.
 npx omni-dsh-plugins --help
 ```
 
-Scope-paketti on julkaistu nimellä `omni-dsh-plugins@1.0.0`, ja yllä oleva komento on
+Scope-paketti on julkaistu nimellä `omni-dsh-plugins@1.0.1`, ja yllä oleva komento on
 tällä hetkellä kanoninen kutsutapa; täällä ei isännöidä asennusskriptiä.
 
 ### Käytä CLI:tä jo tänään
@@ -163,7 +163,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Muuttavat komennot (`add`, `update`, `remove`) eivät koskaan suorita laajennuksen elinkaarikoodia,
 ellet anna lippua `--allow-code-execution`. Natiivissa Windowsissa nämä muutokset on poistettu
-käytöstä versiossa v1.0.0; käytä WSL:ää. Vain luku- ja kuivaharjoituskomennot toimivat kaikkialla.
+käytöstä versiossa v1.0.1; käytä WSL:ää. Vain luku- ja kuivaharjoituskomennot toimivat kaikkialla.
 
 ## 🔍 Miten laajennus liittyy katalogiin
 
@@ -313,7 +313,7 @@ jos joku on luetteloinut työsi ennen sinua.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Täydellinen osallistumissopimus: todisteet, YAML-säännöt, tarkastusportit    |
 | [SECURITY.md](../../SECURITY.md)                   | Laajennuksen tai katalogin haavoittuvuuksien ilmoittaminen; salaisuuskäytäntö           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Kenttäkohtainen referenssi tiedostolle `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-komentoreferenssi paketille `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-komentoreferenssi paketille `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Miten katalogia hallinnoidaan: etusijajärjestys, portit, vaatimukset ja poistot   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefaktityypit, ensisijaiset ominaisuuskategoriat, tunnisteet, repositorion laajuus |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Luojan tunnustaminen, PR:ien etusijajärjestys ja Git-identiteettikäytäntö                 |
