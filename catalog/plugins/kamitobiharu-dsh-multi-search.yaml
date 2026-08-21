@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: kamitobiharu-dsh-multi-search
+name: "@kamitobi/dsh-multi-search"
+description:
+  en: Community plugin — NOT affiliated with DeepSeek AI. Extensible multi-provider web search for DSH — built-in DashScope and MiMo, easy to add more.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - dashscope
+  - mimo
+  - xiaomi
+  - aliyun
+  - openai
+  - qwen
+source:
+  repository: https://github.com/KamitobiHaru/dsh-multi-search
+  repositoryNodeId: R_kgDOT5yIMA
+  subpath: null
+  commit: 7c89d1c6a0405c6329a15dd8675c2d240977c4b4
+creator:
+  github: KamitobiHaru
+package:
+  ecosystem: npm
+  name: "@kamitobi/dsh-multi-search"
+  version: 0.2.3
+  integrity: sha512-OpUkIzFTJdmmM+gylfu0vFlmX5rC4pOsTZzglCFGbW3xJLFbWAkzYPjKIBoQa/VJiqtyZrNC028q5j1By7fbkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:38.775Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
