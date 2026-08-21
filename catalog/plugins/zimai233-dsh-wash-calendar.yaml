@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zimai233-dsh-wash-calendar
+name: dsh-wash-calendar
+description:
+  en: Recurring habit scheduling calendar for DeepSeek Harness. Turn last-wash dates and intervals into next-occurrence, schedule, check and advice tools for any recurring health/habit routine.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - habit
+  - health
+  - calendar
+  - schedule
+  - wellness
+source:
+  repository: https://github.com/zimai233/dsh-wash-calendar
+  repositoryNodeId: R_kgDOT3-9Rw
+  subpath: null
+  commit: 3622edd766f0c2c8319f64ab6891221c96865ac2
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:40.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
