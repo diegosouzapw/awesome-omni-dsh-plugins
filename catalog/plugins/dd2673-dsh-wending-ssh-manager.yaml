@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dd2673-dsh-wending-ssh-manager
+name: dsh-wending-ssh-manager
+description:
+  en: "Hardened multi-account SSH manager for DSH: profile-isolated storage, host-key pinning, Windows DPAPI secrets, pooled exec/SFTP, isolated tunnels, web terminal, cluster operations, and official agent tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - hardened
+  - multi
+  - account
+  - manager
+  - profile
+  - isolated
+  - storage
+  - host
+  - pinning
+  - windows
+  - dpapi
+  - secrets
+  - pooled
+  - exec
+  - sftp
+  - tunnels
+source:
+  repository: https://github.com/dd2673/dsh-wending-ssh-manager
+  repositoryNodeId: R_kgDOT5xaRw
+  subpath: null
+  commit: 6fa9f2a032319185591a52881f18f07ab6484ae5
+creator:
+  github: dd2673
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:06.702Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
