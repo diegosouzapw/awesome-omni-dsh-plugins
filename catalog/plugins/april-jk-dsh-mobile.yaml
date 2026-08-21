@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: april-jk-dsh-mobile
+name: "@april-jk/dsh-mobile"
+description:
+  en: Installable DSH bundle and remote companion for mobile access
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - remote-access
+  - mobile
+  - dsh
+source:
+  repository: https://github.com/april-jk/dsh-mobile-plugin
+  repositoryNodeId: R_kgDOT6IPTQ
+  subpath: null
+  commit: fafd12c4866de6d14d84e6c6386293ce8c5390ca
+creator:
+  github: april-jk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:53.337Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
