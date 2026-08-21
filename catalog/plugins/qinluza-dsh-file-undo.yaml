@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: qinluza-dsh-file-undo
+name: dsh-file-undo
+description:
+  en: "Undo file write/edit operations in DSH: snapshot the before-state of every write/edit mutation and restore it with /undo"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - undo
+  - file
+  - write
+  - edit
+  - operations
+  - snapshot
+  - before
+  - state
+  - every
+  - mutation
+  - restore
+  - dsh
+source:
+  repository: https://github.com/QinLuza/dsh-file-undo
+  repositoryNodeId: R_kgDOT5xDuA
+  subpath: null
+  commit: d9cd7cd83dde82b43ff86ce088ed143095b8051d
+creator:
+  github: QinLuza
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:18.977Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
