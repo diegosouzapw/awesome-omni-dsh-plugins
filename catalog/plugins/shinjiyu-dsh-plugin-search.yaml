@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: shinjiyu-dsh-plugin-search
+name: dsh-plugin-search
+description:
+  en: Zero-config web search for DeepSeek Harness when you are not on the official DeepSeek API.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - dsh
+source:
+  repository: https://github.com/shinjiyu/dsh-plugin-search
+  repositoryNodeId: R_kgDOT4-SrQ
+  subpath: null
+  commit: 0ceaa1985ad2e7774cd8f06890c4a9b1a7125955
+creator:
+  github: shinjiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:26.565Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
