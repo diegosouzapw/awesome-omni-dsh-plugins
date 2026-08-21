@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wly10-knowlp-dsh
+name: "@eqman00003/knowlp-dsh"
+description:
+  en: bash pip install -e ".[mcp]" → python -m knowlp search / auto feedback 可用
+  evidencePath: packages/dsh-native/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - bash
+  - install
+  - python
+  - knowlp
+  - search
+  - auto
+  - feedback
+  - dsh
+source:
+  repository: https://github.com/wly8691-jpg/knowlp-rag
+  repositoryNodeId: R_kgDOTP1rJw
+  subpath: packages/dsh-native
+  commit: a7a4cf712b49ae4a41353c9226b4854d4c8393c2
+creator:
+  github: wly10
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-native/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:32.404Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
