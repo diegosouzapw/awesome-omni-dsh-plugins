@@ -13,17 +13,6 @@ tags:
   - reasoning-effort
   - thinking
   - llm-pi-ai
-  - adds
-  - configurable
-  - reasoning
-  - effort
-  - levels
-  - hand
-  - declared
-  - models
-  - sets
-  - default
-  - subagents
 source:
   repository: https://github.com/hytime/dsh-thinking-effort
   repositoryNodeId: R_kgDOT5CUHA
@@ -45,7 +34,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:42.256Z
+  checkedAt: 2026-08-21T02:07:50.302Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
