@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: sliverp-deepseek-harness-weixin
+name: deepseek-harness-weixin
+description:
+  en: Official Weixin iLink text, image, and file bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - weixin
+  - wechat
+  - ilink
+  - chatbot
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/sliverp/DeepSeek-harness-weixin
+  repositoryNodeId: R_kgDOT3mlLA
+  subpath: null
+  commit: 361927d701f664074b1ea72096f8e61c121a602d
+creator:
+  github: sliverp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:42.151Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
