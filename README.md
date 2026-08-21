@@ -120,7 +120,7 @@ repository carries the public catalog data, schema and policies they both consum
 
 ## Catalog status
 
-**210 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
+**483 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
 a time, from the original creator repository, with a pinned source commit and explicit
 attribution.
 
