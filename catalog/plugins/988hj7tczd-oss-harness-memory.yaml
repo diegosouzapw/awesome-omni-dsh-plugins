@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-harness-memory
+name: harness-memory
+description:
+  en: 开箱即用的 AI 助手工作台 · The out-of-the-box desktop client for DeepSeek Harness. Download, install, double-click, and chat — no terminal, no environment setup.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - desktop
+  - client
+  - download
+  - install
+  - double
+  - click
+  - chat
+  - terminal
+  - environment
+  - setup
+  - dsh
+source:
+  repository: https://github.com/988hj7tczd-oss/harness-desktop
+  repositoryNodeId: R_kgDOT37nEw
+  subpath: plugins/harness-memory
+  commit: c7fdc0b53873231913132464f89959da70ad68da
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: npm
+  name: harness-memory
+  version: 0.1.0
+  integrity: sha512-qwrCxTRZ/OE+5G5nh5oC8zvbknX2jrcG/5b8DB6vxepJ6duakDsn2iOif70E8+uljKkiBvyWsiRTBE3LbitJkA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/harness-memory/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:37.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
