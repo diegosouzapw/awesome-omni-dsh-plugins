@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: akqwpeter-skill-bartender
+name: skill-bartender
+description:
+  en: Task-to-skill pairing with a laziness ladder and a safe install cellar. Never overpours, never serves untasted. DSH · Claude Code · Codex
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - task
+  - skill
+  - pairing
+  - laziness
+  - ladder
+  - safe
+  - install
+  - cellar
+  - never
+  - overpours
+  - serves
+  - untasted
+  - claude
+  - code
+  - codex
+  - dsh
+source:
+  repository: https://github.com/MJorgin/skill-bartender
+  repositoryNodeId: R_kgDOT6G6bg
+  subpath: null
+  commit: 6beb7e0770661b5d08a9ae6a792041d185701fa9
+creator:
+  github: akqwpeter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:47.814Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
