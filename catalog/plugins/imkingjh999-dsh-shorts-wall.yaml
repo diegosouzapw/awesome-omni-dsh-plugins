@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: imkingjh999-dsh-shorts-wall
+name: dsh-shorts-wall
+description:
+  en: "dsh-shorts-wall — docked-first vertical shorts wall for DSH: YouTube Shorts + Bilibili carousel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-shorts-wall
+  - shorts-wall
+  - dsh
+  - dsh-plugin
+  - dsh-plugin-web
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - youtube-shorts
+  - bilibili
+  - vertical-video
+  - floating-window
+  - docked-window
+source:
+  repository: https://github.com/imkingjh999/dsh-shorts-wall
+  repositoryNodeId: R_kgDOT5akfA
+  subpath: null
+  commit: e09ccac5f22b9c0ad41c6a2b6a8bc0789b5cfc87
+creator:
+  github: imkingjh999
+package:
+  ecosystem: npm
+  name: dsh-shorts-wall
+  version: 1.2.0
+  integrity: sha512-byUfz15fVzyNVtgTOeullUsXdgClZ2zZdK/r+kBiegCdncpAtfjAPf/ankxNWCrhJBt1UyKhWQFx79aKsx5gww==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:29.834Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
