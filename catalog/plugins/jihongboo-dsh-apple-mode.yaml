@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jihongboo-dsh-apple-mode
+name: dsh-apple-mode
+description:
+  en: "Xcode AI integration for DeepSeek Harness: 26 Xcode MCP tools (mcpbridge), Apple platform skills, Xcode Intelligence-style persona. Agent preset + global MCP bundle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - xcode
+  - integration
+  - tools
+  - mcpbridge
+  - apple
+  - platform
+  - skills
+  - intelligence
+  - style
+  - persona
+  - agent
+  - preset
+  - global
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/jihongboo/dsh-apple-mode
+  repositoryNodeId: R_kgDOT3lv_Q
+  subpath: null
+  commit: 2000ae233bfc2d193b4d276062e9f7737807c021
+creator:
+  github: jihongboo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:32.733Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
