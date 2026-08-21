@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: anyuer678-dsh-logtimeline
+name: dsh-logtimeline
+description:
+  en: Query local log files with Chinese natural-language time expressions — LogTimeline for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - query
+  - local
+  - files
+  - chinese
+  - natural
+  - language
+  - time
+  - expressions
+  - logtimeline
+  - dsh
+source:
+  repository: https://github.com/anyuer678/dsh-logtimeline
+  repositoryNodeId: R_kgDOT66PGA
+  subpath: null
+  commit: d4950af4b2301c5992774c951ab1a2f52f170fea
+creator:
+  github: anyuer678
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: GPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:06.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
