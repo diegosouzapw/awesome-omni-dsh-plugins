@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: nzl153-pet-whale
+name: pet-whale
+description:
+  en: A desktop pet plugin for the DeepSeek Harness (DSH) Web UI. A small whale floats in the bottom-right corner and reacts to your agent's state in real time.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+  - whale
+  - pet
+source:
+  repository: https://github.com/nzl153/dsh-pet-whale
+  repositoryNodeId: R_kgDOT4tsCQ
+  subpath: null
+  commit: 4f9a7fc4f44d33968c8fc15e2df9ee88e4cf5552
+creator:
+  github: nzl153
+package:
+  ecosystem: npm
+  name: pet-whale
+  version: 1.1.0
+  integrity: sha512-5aexAXFY1UUkhV8XIO0+JjPgo9hcdiRf4xAhSMQffVSTAa72KpfW7pzHpbtQGBBL+H4PW/cZystON7tT/N40sQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:25.031Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
