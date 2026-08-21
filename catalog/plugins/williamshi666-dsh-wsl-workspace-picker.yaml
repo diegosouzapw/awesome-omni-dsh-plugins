@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: williamshi666-dsh-wsl-workspace-picker
+name: dsh-wsl-workspace-picker
+description:
+  en: "Enhanced workspace directory browser for the dsh web UI: quick access to /mnt Windows drives, full breadcrumb ancestry from the filesystem root, and an always-visible path input."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - wsl
+  - workspace
+  - directory-picker
+  - web-ui
+source:
+  repository: https://github.com/WilliamShi666/dsh-wsl-workspace-picker
+  repositoryNodeId: R_kgDOT60ImA
+  subpath: null
+  commit: ff742be2e1dfc25f3ae7fa5f3758b43a1431cdf2
+creator:
+  github: WilliamShi666
+package:
+  ecosystem: npm
+  name: dsh-wsl-workspace-picker
+  version: 0.1.1
+  integrity: sha512-tbQleF9v3z6c1sQb9ybUFKtNsR+o/yWc6abiMhHTQSneUn69U0vLbgkR6GWB4tkcqhwg/WxrM68Q7pp7dYITTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:03.278Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
