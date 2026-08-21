@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fatwang2-dsh-s1
+name: dsh-s1
+description:
+  en: Native s1 tools for the DeepSeek Harness (DSH), registered as first-class tools (s1 search, ...).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - search1api
+  - search
+  - tool
+  - s1
+source:
+  repository: https://github.com/superagents-lab/dsh-s1
+  repositoryNodeId: R_kgDOT4fwNA
+  subpath: null
+  commit: ce2b0905f46364a62fbeba1d6e6e21871501fc8a
+creator:
+  github: fatwang2
+package:
+  ecosystem: npm
+  name: dsh-s1
+  version: 0.1.0
+  integrity: sha512-QWjcI3aD2FsujDd9OCYSskqA0eZchKp4J5qcpVT92GLkw5Xklb+fSQf58h4VGc2bWb/2Jo8L3WlIvAG4BuM/Eg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:29.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
