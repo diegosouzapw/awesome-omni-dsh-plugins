@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: isheng-eqi-dsh-hermes-memory
+name: dsh-hermes-memory
+description:
+  en: "Hermes-style persistent memory for DeepSeek Harness (DSH) — a faithful port of the hermes-agent MEMORY.md / USER.md mechanism: bounded dual-bank memory, one memory tool (add/replace/remove/batch), frozen-snapshot injection, nudge reminders. Zero external dependencies, zero LLM cost."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - agent-memory
+  - long-term-memory
+  - hermes-agent
+  - cordis
+source:
+  repository: https://github.com/isheng-eqi/dsh-hermes-memory
+  repositoryNodeId: R_kgDOT6vYWA
+  subpath: null
+  commit: fd1a1f4852daa6edb4bfbe4b6953645b5deebef3
+creator:
+  github: isheng-eqi
+package:
+  ecosystem: npm
+  name: dsh-hermes-memory
+  version: 1.0.0
+  integrity: sha512-3GxXK67vHaWXOKnskSL4Um147mt1i1ukUy11p5S2bQHn5OmhRs7upcMgk6E/QYaj/prGgbp95DwGdBCvThad/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:03.398Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
