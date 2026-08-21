@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: hytime-dsh-thinking-effort
+name: "@hytime/dsh-thinking-effort"
+description:
+  en: A DSH (DeepSeek Harness) plugin that adds configurable reasoning effort levels to hand-declared llm-pi-ai models and sets a default reasoning effort for subagents.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - reasoning-effort
+  - thinking
+  - llm-pi-ai
+  - adds
+  - configurable
+  - reasoning
+  - effort
+  - levels
+  - hand
+  - declared
+  - models
+  - sets
+  - default
+  - subagents
+source:
+  repository: https://github.com/hytime/dsh-thinking-effort
+  repositoryNodeId: R_kgDOT5CUHA
+  subpath: null
+  commit: 9573f728ce596117690baee725581a347646d262
+creator:
+  github: hytime
+package:
+  ecosystem: npm
+  name: "@hytime/dsh-thinking-effort"
+  version: 0.1.6
+  integrity: sha512-wmHjNrQtpp8rBIToYUFcG31DTzDuihpTRswccSxH2s9wLTi0NdQ0Vnz3lNjTHlnZD3p8j+thLCa3ijotehsXVA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:42.256Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
