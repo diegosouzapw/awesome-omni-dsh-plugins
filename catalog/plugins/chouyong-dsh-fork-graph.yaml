@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chouyong-dsh-fork-graph
+name: dsh-fork-graph
+description:
+  en: "Git-graph style conversation fork topology for DeepSeek Harness (dsh): see which session forked from which, and jump between branches."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - session
+  - fork
+  - graph
+  - visualization
+source:
+  repository: https://github.com/chouyong/dsh-fork-graph
+  repositoryNodeId: R_kgDOT5u2Cg
+  subpath: null
+  commit: bb162457a238eff0672f2bff7f180874fe90b377
+creator:
+  github: chouyong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:00.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
