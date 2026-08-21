@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 1052326311-dsh-instruction-audit
+name: dsh-instruction-audit
+description:
+  en: Privacy-minimal provenance receipts for DeepSeek Harness workspace instructions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - privacy
+  - minimal
+  - provenance
+  - receipts
+  - workspace
+  - instructions
+  - dsh
+source:
+  repository: https://github.com/1052326311/dsh-instruction-audit
+  repositoryNodeId: R_kgDOT4l5hQ
+  subpath: null
+  commit: 8548400c1932a6a05d004189d5a9cf8deab3edd2
+creator:
+  github: "1052326311"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:56.809Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
