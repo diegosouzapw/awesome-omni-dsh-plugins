@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: orxz-core
+name: "@dshthemes/core"
+description:
+  en: Theme definitions and registration helpers for deepseek-harness themes
+  evidencePath: packages/core/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - theme
+  - ui-theme
+source:
+  repository: https://github.com/orxz/deepseek-harness-themes
+  repositoryNodeId: R_kgDOT3ZFmQ
+  subpath: packages/core
+  commit: f83ad9980be8b8e47d02e1c3cf8443ab6a02bee3
+creator:
+  github: orxz
+package:
+  ecosystem: npm
+  name: "@dshthemes/core"
+  version: 0.2.0
+  integrity: sha512-EEKWXkSJbsMqseyyucODQCwVe/roCFTc2rlV1VnuhGe7umfUvgrrIu9p++Hp6cAiUBzAF0yDG3SzXbDb7eCq6A==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/core/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:50.454Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
