@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: zer0zio-stack-dsh-opencode-go-quota
+name: dsh-opencode-go-quota
+description:
+  en: "DeepSeek Harness web plugin: static 余额 badge that fetches the active provider's plan limit or prepaid balance on expand, with token usage and spend estimated from the DeepSeek pricing table."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - quota
+  - balance
+  - opencode
+source:
+  repository: https://github.com/zer0zio-stack/dsh-opencode-go-quota
+  repositoryNodeId: R_kgDOT5MQ3g
+  subpath: null
+  commit: 99b164636d0e3405d98673f11cbeff74bee938af
+creator:
+  github: zer0zio-stack
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:32.333Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
