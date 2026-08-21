@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: viger1-dsh-pilot
+name: dsh-pilot
+description:
+  en: Hands for your DeepSeek Harness agent — autonomous browser operation with a native permission model. Accessibility-ref page snapshots let a text-only model navigate, act, and test without vision or CSS-selector guessing.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - browser
+  - automation
+  - playwright
+  - accessibility
+  - agent
+source:
+  repository: https://github.com/Viger1/dsh-pilot
+  repositoryNodeId: R_kgDOT6Feyg
+  subpath: null
+  commit: 65340d67a4de840205b9e8d00debed3180e87ad8
+creator:
+  github: Viger1
+package:
+  ecosystem: npm
+  name: dsh-pilot
+  version: 0.1.1
+  integrity: sha512-hmNIxdV9Ct/VcUJgr3Z6/mlNmUDVQji9lhU/CTJdxSNJ4M27pw29BoxS6tfVHhiB2cTZNLgdgGfSPOoIpD2UcA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:54.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
