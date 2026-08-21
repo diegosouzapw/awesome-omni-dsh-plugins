@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: jiaoqsh-dsh-document
+name: "@jiaoqsh/dsh-document"
+description:
+  en: "DeepSeek Harness bundle: the read document tool reads Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files as Markdown for the model"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - document
+  - pdf
+  - docx
+  - markdown
+  - anydoc
+source:
+  repository: https://github.com/jiaoqsh/dsh-document
+  repositoryNodeId: R_kgDOT5KkyA
+  subpath: null
+  commit: 393aad9bbc454f4ac182ac8326e2749cdd761514
+creator:
+  github: jiaoqsh
+package:
+  ecosystem: npm
+  name: "@jiaoqsh/dsh-document"
+  version: 0.1.1
+  integrity: sha512-NN1nNyWA+wZdlQFlXHD2iZqTPgGKjG7jzQgo7HQ67V0IClA6bVofKu6O3/yU8jBi0ErikATML++HptSQd9Tq5w==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:48.211Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
