@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sliverp-deepseek-harness-lark
+name: deepseek-harness-lark
+description:
+  en: Feishu and Lark text, image, and file channel bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - feishu
+  - lark
+  - chatbot
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/sliverp/DeepSeek-harness-lark
+  repositoryNodeId: R_kgDOT3ocrg
+  subpath: null
+  commit: b8c6f6ed8eab67a5b99be9b430ef19bea631fd4d
+creator:
+  github: sliverp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:49.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
