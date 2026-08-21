@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: gptsapp-dsh-stylevault
+name: dsh-stylevault
+description:
+  en: StyleVault — classic open-source themes + full Style Settings + shareable config packs for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - theme
+  - stylevault
+  - catppuccin
+  - nord
+  - style-settings
+source:
+  repository: https://github.com/GptsApp/dsh-stylevault
+  repositoryNodeId: R_kgDOT5vbZQ
+  subpath: null
+  commit: b627f3a40c86cee9016d3749368479c08b5443b9
+creator:
+  github: GptsApp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:25.427Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
