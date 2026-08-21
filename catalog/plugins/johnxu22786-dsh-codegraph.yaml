@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: johnxu22786-dsh-codegraph
+name: dsh-codegraph
+description:
+  en: "CodeGraph for DeepSeek Harness (dsh): a Node bridge that exposes the codegraph Python CLI as dsh tools (callers / callees / deps / dependents / search / impact / overview / reindex) over a code index in SQLite."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - codegraph
+  - code-index
+  - call-graph
+  - mcp
+source:
+  repository: https://github.com/JohnXu22786/codegraph
+  repositoryNodeId: R_kgDOT59WJA
+  subpath: null
+  commit: c6c91179df6ff3d1804c3ae6481f58981688ca07
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-codegraph
+  version: 0.1.0
+  integrity: sha512-bayYg/dRkw/dG4urAoPG6TXuh5E95MM3G7Sq7tDjWcUBd8EZwZ+qPqpI31X/PpdjRani4QsAEnC6NVdX6Ej9XQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:53.953Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
