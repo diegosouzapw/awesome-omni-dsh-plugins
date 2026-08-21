@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: temotee2103-dsh-ci-co-pilot
+name: "@temotee2103/dsh-ci-co-pilot"
+description:
+  en: "GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Everything is a plugin."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ci
+  - pr-review
+  - release-notes
+  - issue-triage
+  - coding-agent
+  - cordis
+source:
+  repository: https://github.com/temotee2103/dsh-ci-co-pilot
+  repositoryNodeId: R_kgDOT5MwXQ
+  subpath: null
+  commit: 5eb579632b9eaf9a00bfd37c08fbb4cf6b3aceff
+creator:
+  github: temotee2103
+package:
+  ecosystem: npm
+  name: "@temotee2103/dsh-ci-co-pilot"
+  version: 0.2.0
+  integrity: sha512-frpC/KiKl8XX9XCu1/CI7/Cf6BMVgjZQJ2L/pwT91US6Bu2dHxADNZZ4/2GqsayMnszYYmGGGvNKlDNo9S03lw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:32.646Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
