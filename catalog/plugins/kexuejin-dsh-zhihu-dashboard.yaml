@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kexuejin-dsh-zhihu-dashboard
+name: dsh-zhihu-dashboard
+description:
+  en: "Zhihu (知乎) dashboard for DeepSeek Harness: hot list with trends, follow feed, post tracking, and app-idea distillation — from the UI and as native agent tools (zhihu search/hot/answer/global search/followees)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - zhihu
+  - dashboard
+  - hot-list
+  - post-tracking
+  - agent-tools
+  - dsh
+source:
+  repository: https://github.com/kexuejin/dsh-zhihu-dashboard
+  repositoryNodeId: R_kgDOT5pRaw
+  subpath: null
+  commit: b0fbe1ef4ebb33115ae9fdce571c5abaeb7b9c35
+creator:
+  github: kexuejin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:40.189Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
