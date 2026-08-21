@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lynx-gt-dsh-subagent-tools
+name: dsh-subagent-tools
+description:
+  en: "Enhanced subagent delegation tools for DeepSeek Harness: per-call model/provider/persona/toolFilter overrides, @preset: references, and provider/model composite ids — zero patches, bundle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - delegation
+source:
+  repository: https://github.com/lynx-gt/dsh-subagent-tools
+  repositoryNodeId: R_kgDOT36g4Q
+  subpath: null
+  commit: 0c3e355a95b5dad42683e42fe245045e49ffb53b
+creator:
+  github: lynx-gt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:20.235Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
