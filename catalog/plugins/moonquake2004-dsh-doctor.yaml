@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: moonquake2004-dsh-doctor
+name: "@moonquake2004/dsh-doctor"
+description:
+  en: Offline diagnostic for DeepSeek Harness — 28 built-in + 5 catalog checks across env/profile/session (Layer A checks-as-data), self-update (Layer B), and a semi-automatic LLM observer (Layer C, --observe); Doctor panel in web UI settings.
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - offline
+  - diagnostic
+  - built
+  - catalog
+  - checks
+  - across
+  - profile
+  - session
+  - layer
+  - data
+  - self
+  - update
+  - semi
+  - automatic
+  - observer
+  - observe
+source:
+  repository: https://github.com/moonquake2004/dsh-doctor
+  repositoryNodeId: R_kgDOT4p0Eg
+  subpath: plugin
+  commit: 472995256ceb26b7bd000b5d62f27b38897e7f00
+creator:
+  github: moonquake2004
+package:
+  ecosystem: npm
+  name: "@moonquake2004/dsh-doctor"
+  version: 0.4.2
+  integrity: sha512-5NbQ6Cv1Fh41HaaTRxEioaVyj0tleFznpWND9t8Ov0p2fal883hoclQJ1+6XVV2PVD0TFyOsDe0bAqb/w2rW9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:23.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
