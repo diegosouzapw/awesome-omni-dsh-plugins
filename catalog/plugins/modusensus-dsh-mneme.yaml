@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: modusensus-dsh-mneme
+name: "@modusensus/dsh-mneme"
+description:
+  en: "Cross-session memory plugin for DeepSeek Harness with autoDream consolidation: SQLite store, Markdown mirrors, 7 model tools, automatic injection, session summarization, user profile/rules, custom slash commands, vector (semantic) search, and a Web GUI panel"
+  evidencePath: dsh-mneme/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - cross
+  - session
+  - memory
+  - autodream
+  - consolidation
+  - sqlite
+  - store
+  - markdown
+  - mirrors
+  - model
+  - tools
+  - automatic
+  - injection
+  - summarization
+  - user
+  - profile
+source:
+  repository: https://github.com/modusensus/dsh-mneme
+  repositoryNodeId: R_kgDOT3faAQ
+  subpath: dsh-mneme
+  commit: 719b8f79ef97418bb3a1d9b07147fa739f6a39f2
+creator:
+  github: modusensus
+package:
+  ecosystem: npm
+  name: "@modusensus/dsh-mneme"
+  version: 0.4.7
+  integrity: sha512-GdZgvWNjgSq/+sHPKMXg6CvIDWIAjb/fg2mpbGP0ulPqnhKQOBrTlsEPSpUXsdKFT8YOaoqhq/LcYh68BypvPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-mneme/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:18.820Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
