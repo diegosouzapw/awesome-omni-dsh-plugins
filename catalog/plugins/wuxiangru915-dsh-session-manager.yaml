@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wuxiangru915-dsh-session-manager
+name: "@dshwp/dsh-session-manager"
+description:
+  en: Session manager for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session-management
+  - archived-sessions
+source:
+  repository: https://github.com/wuxiangru915/dsh-session-manager
+  repositoryNodeId: R_kgDOT5ctXQ
+  subpath: null
+  commit: 2050471867d6e6e8c6cb81b2e99e00318d31056c
+creator:
+  github: wuxiangru915
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:16.188Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
