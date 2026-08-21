@@ -10,13 +10,6 @@ primaryCategory: memory-rag
 tags:
   - dsh
   - deepseek-harness
-  - file
-  - memory
-  - cross
-  - session
-  - transparent
-  - markdown
-  - files
 source:
   repository: https://github.com/gezi-wen/sage-mem
   repositoryNodeId: R_kgDOT4IhIA
@@ -38,7 +31,7 @@ license:
   spdx: Apache-2.0
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:40.809Z
+  checkedAt: 2026-08-21T02:07:49.085Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
