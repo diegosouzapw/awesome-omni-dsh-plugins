@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yytbit-dsh-plugin-meta-memory
+name: dsh-plugin-meta-memory
+description:
+  en: Structured long-term memory system for DeepSeek Harness -- unit-based brief/full pairs with auto-injection
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - meta-memory
+  - long-term-memory
+  - dsh
+source:
+  repository: https://github.com/YYTbit/dsh-plugin-meta-memory
+  repositoryNodeId: R_kgDOT3gL3g
+  subpath: null
+  commit: b64b13816745f81d6f33a3b5e525d36d02931545
+creator:
+  github: YYTbit
+package:
+  ecosystem: npm
+  name: dsh-plugin-meta-memory
+  version: 0.1.1
+  integrity: sha512-nT4oMOyz5u4lpwqcNS3N9nkt8KctmyM1ZSkpx+4VSvipsyS86kDqb6r95ANkBcunRD1oPEohHfqwIKS96un0OQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:57.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
