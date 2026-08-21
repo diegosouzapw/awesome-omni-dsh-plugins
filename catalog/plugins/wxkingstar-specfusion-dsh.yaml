@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: wxkingstar-specfusion-dsh
+name: "@wxkingstar/specfusion-dsh"
+description:
+  en: "SpecFusion skill + native API-docs search tools for DeepSeek Harness: 65,000+ API docs across 20 Chinese open platforms"
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - specfusion
+  - api-docs
+  - open-platform
+  - wecom
+  - feishu
+  - dingtalk
+  - taobao
+  - xiaohongshu
+  - douyin
+  - wechat
+  - pinduoduo
+  - youzan
+  - alipay
+source:
+  repository: https://github.com/wxkingstar/SpecFusion
+  repositoryNodeId: R_kgDOROpfLA
+  subpath: dsh-plugin
+  commit: f1780beb5dcda37a8ff5130ecf0e11b744830e78
+creator:
+  github: wxkingstar
+package:
+  ecosystem: npm
+  name: "@wxkingstar/specfusion-dsh"
+  version: 0.1.1
+  integrity: sha512-oRwUO6xUWIRXH5mV4Q9elo6j+Atcrq60fzeKR217hL2l7wMKAV1qEh0i5AhNIUd2gGVBP25SDHqgW/ZF/kW+Ug==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:19.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
