@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: gxx182-dsh-vision-bridge
+name: dsh-vision-bridge
+description:
+  en: DeepSeek Harness plugin that bridges images to external vision APIs and returns text-only analysis
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - cordis
+  - gemini
+  - vision
+  - dsh
+source:
+  repository: https://github.com/GXX182/dsh-vision-bridge
+  repositoryNodeId: R_kgDOT4P2lA
+  subpath: null
+  commit: 339efab1b87d65cf86ce573329317de06b95b2e7
+creator:
+  github: GXX182
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:21.083Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
