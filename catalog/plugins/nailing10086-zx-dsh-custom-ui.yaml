@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: nailing10086-zx-dsh-custom-ui
+name: dsh-custom-ui
+description:
+  en: "Custom UI for DeepSeek Harness Web: balance meter in the composer stats line, right-side file tree sidebar, and workspace file open."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - custom
+  - balance
+  - meter
+  - composer
+  - stats
+  - line
+  - right
+  - side
+  - file
+  - tree
+  - sidebar
+  - workspace
+  - open
+  - dsh
+source:
+  repository: https://github.com/nailing10086-zx/dsh-custom-ui
+  repositoryNodeId: R_kgDOT58OQg
+  subpath: null
+  commit: f9376e50dffbd23494d5044bcf0ced21dc9aaf13
+creator:
+  github: nailing10086-zx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:27.334Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
