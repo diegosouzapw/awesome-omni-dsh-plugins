@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-session-sync
+name: dsh-session-sync
+description:
+  en: "Cross-device sync for DeepSeek Harness sessions: a dedicated git mirror of the session store, append-only three-way merge with keep-both + fork conflict resolution, /sync command, sync pull/sync push/sync status tools, and configurable auto push/pull"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - session-sync
+  - session
+  - git
+  - sync
+  - cross-device
+source:
+  repository: https://github.com/PerryLink/dsh-session-sync
+  repositoryNodeId: R_kgDOT6PLTg
+  subpath: null
+  commit: bccc67e9e9d172f2c68162496dd55c8f892bf5a2
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-session-sync
+  version: 0.1.1
+  integrity: sha512-l3F+X3DljrrAoUI75p7cgfqpn4K1ttyl/Ae54mEDNateGpDkE5aRD7XN/i+g5Xjk47u2t6PJz/EJs8Uvx54/HQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:55.222Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
