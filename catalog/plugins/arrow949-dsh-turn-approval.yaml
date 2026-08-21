@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: arrow949-dsh-turn-approval
+name: dsh-turn-approval
+description:
+  en: 'Codex-style "Allow for this task": turn-scoped, in-memory danger-full-access grants for DeepSeek Harness approvals. Ephemeral by design — nothing is persisted; grants die at turn/end, session/agent dispose, or restart. Client half shadows the official approval card via the conversation.composer slot — zero official-bun'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - codex
+  - style
+  - allow
+  - task
+  - turn
+  - scoped
+  - memory
+  - danger
+  - full
+  - access
+  - grants
+  - approvals
+  - ephemeral
+  - design
+  - nothing
+  - persisted
+source:
+  repository: https://github.com/arrow949/dsh-turn-approval
+  repositoryNodeId: R_kgDOT3-JPw
+  subpath: null
+  commit: 5b4cbfd425885ed3f3ed93c796d5113847cc93b8
+creator:
+  github: arrow949
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:50.215Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
