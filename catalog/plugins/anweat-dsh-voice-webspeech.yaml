@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: anweat-dsh-voice-webspeech
+name: dsh-voice-webspeech
+description:
+  en: sh pnpm dsh plugin --profile web add github:anweat/dsh-voice-webspeech
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - speech-to-text
+  - webspeech
+  - client-plugin
+source:
+  repository: https://github.com/anweat/dsh-voice-webspeech
+  repositoryNodeId: R_kgDOT331-A
+  subpath: null
+  commit: eb6a51ff9428c051304d978cc238a54aff782e19
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: dsh-voice-webspeech
+  version: 0.1.0
+  integrity: sha512-w59LNVHvikM0Wf5SKxtedJNywDu/bzyAQIy50kNFbcXVS9TExQ1ZLKXd+mGEe5FcrcIbFvouf8YPx3sD0QEa1Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:04.748Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
