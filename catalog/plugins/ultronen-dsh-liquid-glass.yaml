@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ultronen-dsh-liquid-glass
+name: dsh-liquid-glass
+description:
+  en: Liquid glass for DeepSeek Harness — one toggle, and the whole interface turns to glass.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - wallpaper
+  - web-ui
+source:
+  repository: https://github.com/Ultronen/dsh-liquid-glass
+  repositoryNodeId: R_kgDOT5p4Aw
+  subpath: null
+  commit: f710ce2fbb1e91c82f72df49ee513e109d0f3ba3
+creator:
+  github: Ultronen
+package:
+  ecosystem: npm
+  name: dsh-liquid-glass
+  version: 0.1.0
+  integrity: sha512-rb1fPbi7Zt7Gf0UqwF4shew3+bjt8E74s8R0IXhmYgeJCkVLzAgWxbv7FrO96H0V/LgjP28OqnHT2dEuoazOqA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:46.698Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
