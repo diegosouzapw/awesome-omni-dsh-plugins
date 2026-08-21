@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wenhongpan-dsh-projects
+name: dsh-projects
+description:
+  en: Project and session management, searchable sessions, native folder picking, and sidebar organization for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - projects
+  - sessions
+  - sidebar
+  - native-picker
+  - workspace
+source:
+  repository: https://github.com/WenhongPan/dsh-projects
+  repositoryNodeId: R_kgDOT6XZ-w
+  subpath: null
+  commit: 01033952e2ba30ff141371a133c368a8a80fe16d
+creator:
+  github: WenhongPan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:15.437Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
