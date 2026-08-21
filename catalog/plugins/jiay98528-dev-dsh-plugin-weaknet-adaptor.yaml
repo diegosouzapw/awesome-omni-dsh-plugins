@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: jiay98528-dev-dsh-plugin-weaknet-adaptor
+name: dsh-plugin-weaknet-adaptor
+description:
+  en: Weak-network adaptor for the DeepSeek Harness — 弱网适配插件
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - weak-network
+  - resilience
+  - retry
+  - heartbeat
+  - reconnect
+  - cache
+  - token-economy
+source:
+  repository: https://github.com/jiay98528-dev/dsh-plugin-weaknet-adaptor
+  repositoryNodeId: R_kgDOT6B9_g
+  subpath: null
+  commit: 046b63c3074db4edb7b4e4eae5ee1d105e856e06
+creator:
+  github: jiay98528-dev
+package:
+  ecosystem: npm
+  name: dsh-plugin-weaknet-adaptor
+  version: 1.0.5
+  integrity: sha512-bsGLziFve3EJrKE5/RwzP+MBE3fcCCkl7hDupehizaMV45K/U1L7zWygMmP2odThp2/ZcM5QetnML8qnujQ6Qg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:49.597Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
