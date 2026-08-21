@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: jiuyuechuwuhao-dsh-canvas-preview
+name: dsh-canvas-preview
+description:
+  en: Canvas preview panel for DeepSeek Harness — live-preview HTML artifacts, auto-sync, save-as, PNG/JPG/SVG export. DSH 画板预览插件：实时预览、另存为、PNG/JPG/SVG 导出。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - canvas
+  - artifact
+  - preview
+  - diagram
+source:
+  repository: https://github.com/jiuyuechuwuhao/dsh-canvas-preview
+  repositoryNodeId: R_kgDOT6BQQg
+  subpath: null
+  commit: 46de48d147b0bbdb0013d32764d7db75344fc3c4
+creator:
+  github: jiuyuechuwuhao
+package:
+  ecosystem: npm
+  name: dsh-canvas-preview
+  version: 0.4.9
+  integrity: sha512-ke5xRxglrWjFB3qy0qFODwrsmU1jy8Bu2HRHTHIeN1Z4XtW/ylJ2f9+vn5vhgnq1BBZknlyeqM26l1s4s7bEnQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:35.661Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
