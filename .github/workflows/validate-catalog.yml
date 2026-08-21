@@ -37,3 +37,9 @@ jobs:
 
       - name: Validate catalog
         run: node cli/dist/bin.js catalog validate --catalog .
+
+      # The docs gate exists in the CLI but ran nowhere: every batch merge desynchronized the
+      # README's "**N plugins merged.**" counter (and the schema/category parity it checks) with
+      # no red anywhere. The CLI is already built two steps above, so this costs nothing extra.
+      - name: Check catalog documentation
+        run: node cli/dist/bin.js catalog docs-check .
