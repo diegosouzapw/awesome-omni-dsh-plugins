@@ -87,7 +87,9 @@ describe("catalog validate", () => {
     expect(snapshot).toMatchObject({
       source: { kind: "snapshot", declaredRevision: revision, pinStatus: "declared-local" },
       entries: [],
-      diagnostics: [],
+      // An entry-less snapshot is now itself a validation failure: the published catalog is
+      // never empty, so a materialized snapshot with zero entries is broken or truncated.
+      diagnostics: [expect.objectContaining({ code: "degenerate-snapshot" })],
     });
   });
 
@@ -127,7 +129,9 @@ describe("catalog validate", () => {
         pinStatus: "declared-local",
       },
       entries: [],
-      diagnostics: [],
+      // An entry-less snapshot is now itself a validation failure: the published catalog is
+      // never empty, so a materialized snapshot with zero entries is broken or truncated.
+      diagnostics: [expect.objectContaining({ code: "degenerate-snapshot" })],
     });
   });
 
