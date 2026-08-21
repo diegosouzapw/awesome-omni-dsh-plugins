@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: adithya-hmt-fullstack-expert
+name: "@deepseek-ai/fullstack-expert"
+description:
+  en: Cordis-native, evidence-driven full-stack engineering discipline for DeepSeek Harness agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - coding-agent
+  - full-stack
+  - verification
+  - supabase
+  - dsh
+source:
+  repository: https://github.com/adithya-hmt/fullstack-expert
+  repositoryNodeId: R_kgDOT6JyUg
+  subpath: null
+  commit: 1419bb6f77e5f08fca41b6bdc75cc2dcdc49b6a5
+creator:
+  github: adithya-hmt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:40.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
