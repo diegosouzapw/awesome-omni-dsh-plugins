@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: isilsolme-dsh-splash-launcher
+name: dsh-splash-launcher
+description:
+  en: "DSH Windows one-click launcher with a stroke-by-stroke startup animation: ships a self-contained DSH-GUI.exe and registers the desktop launch agent tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - windows
+  - click
+  - launcher
+  - stroke
+  - startup
+  - animation
+  - ships
+  - self
+  - contained
+  - registers
+  - desktop
+  - launch
+  - agent
+  - tool
+  - dsh
+source:
+  repository: https://github.com/Isilsolme/dsh-splash-launcher
+  repositoryNodeId: R_kgDOT5UB8g
+  subpath: null
+  commit: 1f71f423a5b8449f47492de67fa17b3905c3fc2f
+creator:
+  github: Isilsolme
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:05.035Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
