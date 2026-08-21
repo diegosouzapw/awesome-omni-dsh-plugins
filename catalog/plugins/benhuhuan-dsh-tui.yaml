@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: benhuhuan-dsh-tui
+name: "@deepseek-ai/dsh-tui"
+description:
+  en: Interactive pi-tui terminal front door for DeepSeek Harness agents
+  evidencePath: packages/ui/tui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - interactive
+  - terminal
+  - front
+  - door
+  - agents
+  - dsh
+source:
+  repository: https://github.com/BenHuHuan/dhs-tuicode
+  repositoryNodeId: R_kgDOT4KNkw
+  subpath: packages/ui/tui
+  commit: 06900f6932bde3d593bda420809196b75fc6e30b
+creator:
+  github: BenHuHuan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/ui/tui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:01.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
