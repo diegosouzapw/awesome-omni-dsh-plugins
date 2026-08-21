@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: alphagodzilla-dsh-web-notify
+name: "@ag-dsh/dsh-web-notify"
+description:
+  en: "DSH web notification plugin: when a conversation turn completes, the assistant asks you a question, an approval is required, or a turn errors, it alerts you through the browser's native system notifications (Web Notifications API) — even when the tab is in the background, the window is minimized or unfocused, the notif"
+  evidencePath: packages/web-notify/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - notification
+  - conversation
+  - turn
+  - completes
+  - assistant
+  - asks
+  - question
+  - approval
+  - required
+  - errors
+  - alerts
+  - through
+  - browser
+  - native
+  - system
+  - notifications
+source:
+  repository: https://github.com/AlphaGodzilla/ag-dsh-coding-plugins
+  repositoryNodeId: R_kgDOT4OPcQ
+  subpath: packages/web-notify
+  commit: 5c9a78f999f32cd9cb49bd95d2ca4ad167999b54
+creator:
+  github: AlphaGodzilla
+package:
+  ecosystem: npm
+  name: "@ag-dsh/dsh-web-notify"
+  version: 0.2.0
+  integrity: sha512-rymacEVvRAje+Kws/JYkidkeErEUQo5F6h8ZJyKo8WdCOOsS+iA71mv//EQHasl6mcU1v8uJJEKfSTNiJFFGWg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/web-notify/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:42.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
