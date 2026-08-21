@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-browser-use
+name: dsh-browser-use
+description:
+  en: "Browser Use bridge for DeepSeek Harness: let your dsh agent run real web tasks (open pages, click, type, fill forms, extract data) through the Browser Use Cloud API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - browser-use
+  - browser
+  - agent
+  - web-automation
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-browser-use
+  repositoryNodeId: R_kgDOT68zaQ
+  subpath: null
+  commit: b66f995150692ca674036255a2206f2214bb4e90
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-browser-use
+  version: 0.1.0
+  integrity: sha512-Puw9Cmc0KWumrL635G85B62m/RiJtoom+JRgxq811Ez0Eubb/mRNXlc9s2j2V7sES6Grw+D1kR2J53jB6u55AA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:46.214Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
