@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: luciobaiocchi-dsh-towel
+name: dsh-towel
+description:
+  en: DeepSeek Harness adapter for Towel agent capabilities
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - adapter
+  - towel
+  - agent
+  - capabilities
+  - dsh
+source:
+  repository: https://github.com/luciobaiocchi/twl
+  repositoryNodeId: R_kgDOTibDyw
+  subpath: integrations/deepseek-harness
+  commit: e057070bdf0ee28c7238ee91271aabb74abbe778
+creator:
+  github: luciobaiocchi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:14.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
