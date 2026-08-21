@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: lee259-dsh-workbench
+name: dsh-workbench
+description:
+  en: A right-side file workspace for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - workbench
+  - file-preview
+  - file-tree
+  - diff
+  - right
+  - side
+  - file
+  - workspace
+source:
+  repository: https://github.com/lee259/dsh-workbench
+  repositoryNodeId: R_kgDOT4JjFA
+  subpath: null
+  commit: 5c4f6a66c600de3908e452be2355e27f1f9cb813
+creator:
+  github: lee259
+package:
+  ecosystem: npm
+  name: dsh-workbench
+  version: 0.8.0
+  integrity: sha512-1AzG/8xZPMRS1BgX2BRSoxc0XWct9TV0iNxww/Jah/wueaHkOs5188y9M9yGEFXnKXo+p5jGQ4fysYXr2j2PvA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:45.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
