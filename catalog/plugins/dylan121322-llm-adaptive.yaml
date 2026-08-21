@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dylan121322-llm-adaptive
+name: llm-adaptive
+description:
+  en: "Adaptive model routing for DeepSeek Harness: per-request complexity classification with automatic provider routing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - llm
+  - model-routing
+  - adaptive
+source:
+  repository: https://github.com/dylan121322/llm-adaptive
+  repositoryNodeId: R_kgDOT4JC0Q
+  subpath: null
+  commit: 305be1c75d094c2bfcee014b768906e2b5558b9f
+creator:
+  github: dylan121322
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:54.457Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
