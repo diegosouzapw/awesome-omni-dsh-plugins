@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: qiuner-dsh-plugin-desktop
+name: dsh-plugin-desktop
+description:
+  en: "DSH Desktop: an Electron shell composed as a DeepSeek Harness Cordis plugin"
+  evidencePath: dsh-plugin-desktop/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - desktop
+  - electron
+  - shell
+  - composed
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/anywhere-labs/deepseek-harness-desktop
+  repositoryNodeId: R_kgDOT3jedQ
+  subpath: dsh-plugin-desktop
+  commit: 744615278c518a6699a17ff3fb98ab0ee1cbd756
+creator:
+  github: Qiuner
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: dsh-plugin-desktop/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:51.727Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
