@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: angeloszou-dsh-python-tempfile-shim
+name: dsh-python-tempfile-shim
+description:
+  en: "DeepSeek Harness plugin (temporary, pre-upstream-fix): automatically injects a CPython tempfile shim (PYTHONPATH - sitecustomize) into every confined shell command on the Windows sandbox, so python/pytest tempfile use works with zero extra tools, zero model-context overhead, and zero escalation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - python
+  - tempfile
+  - pytest
+  - sandbox
+  - windows
+source:
+  repository: https://github.com/AngelosZou/dsh-python-tempfile-shim
+  repositoryNodeId: R_kgDOT50RVg
+  subpath: null
+  commit: 20b84cdc91516fbf51a782214ba8d88a3f083d34
+creator:
+  github: AngelosZou
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:03.157Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
