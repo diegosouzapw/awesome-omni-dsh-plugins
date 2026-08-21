@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: ankesu-dsh-live2d-pet
+name: dsh-live2d-pet
+description:
+  en: "Live2D companion for DeepSeek Harness: render a Cubism model (e.g. the official Haru sample) in the web UI with state-driven expressions and mouse tracking. · DSH 桌宠的 Live2D 渲染插件"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - live2d
+  - cubism
+  - pet
+  - companion
+  - vtub
+  - pixi
+source:
+  repository: https://github.com/ankesu/dsh-live2d-pet
+  repositoryNodeId: R_kgDOT6QRAw
+  subpath: null
+  commit: d6957edc6383c8c51d133f53ae24172e197c3e07
+creator:
+  github: ankesu
+package:
+  ecosystem: npm
+  name: dsh-live2d-pet
+  version: 0.1.1
+  integrity: sha512-2IBiC1D6oz0haUh5HnFIPJBS4Uk7cCwl93e263Ka5M1fwU/5vooe1BKEhrufUs/LNDLPNtNACNJhpAwif81B3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:47.157Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
