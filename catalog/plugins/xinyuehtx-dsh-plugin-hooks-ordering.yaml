@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xinyuehtx-dsh-plugin-hooks-ordering
+name: "@tengxiaohtx/dsh-plugin-hooks-ordering"
+description:
+  en: Deterministic before/after ordering for Cordis waterfall hooks, contributed across independent plugins
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - cordis
+  - hooks
+  - ordering
+  - waterfall
+  - deepseek-harness
+  - dsh
+  - topological-sort
+source:
+  repository: https://github.com/xinyuehtx/dsh-plugin-hooks-ordering
+  repositoryNodeId: R_kgDOT6xUFQ
+  subpath: null
+  commit: a56532dbf7662d8d93b7f1c5f0bf6e407fab4b8b
+creator:
+  github: xinyuehtx
+package:
+  ecosystem: npm
+  name: "@tengxiaohtx/dsh-plugin-hooks-ordering"
+  version: 0.2.0
+  integrity: sha512-PvKPL7NsA7m995PcLPQTWkO4pKj1FQUjDD5WyG40BavIW299RUBGG4rSYyDarKxjmNeY4imCCYLbuoAoP9ioGg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:17.142Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
