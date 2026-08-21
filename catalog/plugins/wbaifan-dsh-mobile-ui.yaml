@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: wbaifan-dsh-mobile-ui
+name: dsh-mobile-ui
+description:
+  en: "Mobile UI for the DeepSeek Harness Web GUI: responsive layout, overlay session drawer, 44px touch targets, safe-area support, reading enhancements (≤768px, zero desktop impact)"
+  evidencePath: packages/dsh-mobile-ui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - mobile
+  - responsive
+  - layout
+  - overlay
+  - session
+  - drawer
+  - 44px
+  - touch
+  - targets
+  - safe
+  - area
+  - reading
+  - enhancements
+  - 768px
+  - zero
+  - desktop
+source:
+  repository: https://github.com/TZHR-invest/dsh-plugins
+  repositoryNodeId: R_kgDOT3_JbQ
+  subpath: packages/dsh-mobile-ui
+  commit: 0fb47a496149d3d248108dc74897ad8f44d87410
+creator:
+  github: wbaifan
+package:
+  ecosystem: npm
+  name: dsh-mobile-ui
+  version: 0.1.1
+  integrity: sha512-Gk+IxwCHAlNpxPaEToISDEqah/lpgz4UIZbNiqSihjGoRNaMI7oJZ0TSSFxRteWrCykWye9MTv/jh3kifDtaZg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/dsh-mobile-ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:44.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
