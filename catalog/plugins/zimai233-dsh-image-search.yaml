@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zimai233-dsh-image-search
+name: dsh-image-search
+description:
+  en: Multi-engine reverse image search aggregator for DeepSeek Harness. Turn one public image URL into Google Lens / Baidu / Yandex / TinEye / SauceNAO / IQDB / Ascii2d search links.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - image-search
+  - reverse-image
+  - vision
+  - search
+  - aggregator
+source:
+  repository: https://github.com/zimai233/dsh-image-search
+  repositoryNodeId: R_kgDOT3-9zw
+  subpath: null
+  commit: 95ac2b739f7464386cb28c2b758cbc9382befe5a
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:38.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
