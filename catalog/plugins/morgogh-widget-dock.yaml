@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: morgogh-widget-dock
+name: widget-dock
+description:
+  en: "DSH plugin: a draggable workbench of mini-cards (API balance, token usage, session stats, goal, cost estimate) beside the conversation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - widget
+  - workbench
+  - ui
+source:
+  repository: https://github.com/MorGogh/widget-dock
+  repositoryNodeId: R_kgDOT3kH6A
+  subpath: null
+  commit: 65ed17e76c3d05fc3cdffa8e9a4f1856ba928ad8
+creator:
+  github: MorGogh
+package:
+  ecosystem: npm
+  name: widget-dock
+  version: 1.0.2
+  integrity: sha512-INl98iWAh1ra0aYYUiyWt1C7ehkcUy762xedjR0dQLMre0KRZxw0Zvfgm7j85crzbO9UcCoxyqQft1Ca996YVw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:22.505Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
