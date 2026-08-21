@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: fmlin0429712024-dsh-linkhealth-gui-plugin
+name: dsh-linkhealth-gui-plugin
+description:
+  en: "LinkHealth Agents front door for the DeepSeek Harness web surface: brand theme, branded welcome, a config-driven capability launcher (Triage, CDI Audit), and a capability showcase. Presentation only — adds no business logic and imports no business plugin."
+  evidencePath: plugins/dsh-linkhealth-gui-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - client
+  - brand
+  - launcher
+  - linkhealth
+  - front-door
+source:
+  repository: https://github.com/fmlin0429712024/linkhealth-dsh-platform
+  repositoryNodeId: R_kgDOT6mwFA
+  subpath: plugins/dsh-linkhealth-gui-plugin
+  commit: ac726ea9dcef9e8e6f90a8dcf512d09b4572a7d1
+creator:
+  github: fmlin0429712024
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-linkhealth-gui-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:12.570Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
