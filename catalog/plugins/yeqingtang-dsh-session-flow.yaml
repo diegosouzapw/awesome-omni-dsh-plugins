@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yeqingtang-dsh-session-flow
+name: dsh-session-flow
+description:
+  en: "Restructures DSH session message streams into a foldable information flow with session-level summaries : every session becomes an archive card for cross-workspace review, search, and export. The built-in session views (Trajectory / Chat) excel at the microscopic inspection of what is happening right now; this plugin fi"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - agent-harness
+  - web
+  - ui
+  - session
+  - trajectory
+source:
+  repository: https://github.com/YeqingTang/dsh-session-flow
+  repositoryNodeId: R_kgDOT5f1Rg
+  subpath: null
+  commit: 2875731877cb614cfdbbf9b42f1e1a391c96b00a
+creator:
+  github: YeqingTang
+package:
+  ecosystem: npm
+  name: dsh-session-flow
+  version: 1.1.0
+  integrity: sha512-t2mECTipZ/yEjSbt0XZMF88wDw20kZvVZQQyoIFdvWHI1o7lPmPCe9zoJSnfl0dMwk0kMJ4Bwn9xofCOKcJ+ZQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:49.557Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
