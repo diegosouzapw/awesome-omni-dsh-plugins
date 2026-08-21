@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: chenproton-dsh-history
+name: dsh-history
+description:
+  en: Quickly view, search, and jump to all the messages you sent in a long conversation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - quickly
+  - view
+  - search
+  - jump
+  - messages
+  - sent
+  - long
+  - conversation
+  - dsh
+source:
+  repository: https://github.com/chenproton/dsh-history
+  repositoryNodeId: R_kgDOT6yJ4g
+  subpath: null
+  commit: 0dd37138713aeb61cc2dc9ced6ef6932df2917ec
+creator:
+  github: chenproton
+package:
+  ecosystem: npm
+  name: dsh-history
+  version: 0.1.24
+  integrity: sha512-DBQ5Q9NGmiGS/3qbmHDb5bA5DVtcQbYmemzNXUUd9MdxcTSQOIh7hLP7XSC/JycOm7J1yDFvQGV2a6w/7qIf+A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:52.979Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
