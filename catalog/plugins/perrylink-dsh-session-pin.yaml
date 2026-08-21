@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: perrylink-dsh-session-pin
+name: dsh-session-pin
+description:
+  en: Pin sessions and workspaces to the top of the DeepSeek Harness sidebar with per-pin row colors — a dual-face (host + client) dsh plugin with row [pin][swatch] controls, a header toggle, and a pinned panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session-pin
+  - pin
+  - workspace
+source:
+  repository: https://github.com/PerryLink/dsh-session-pin
+  repositoryNodeId: R_kgDOT3sEkg
+  subpath: null
+  commit: e73a258655c5c8da11c91eefb8d37241d6a9f685
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-session-pin
+  version: 0.4.1
+  integrity: sha512-b08VciRTMucw4fo8KWO2ZKUsclJmcih7PTe27KXUx9V3bdmSgS5sWH1cf4RGzNHwWoN0uHv/02C545Ql/N02BQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:29.504Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
