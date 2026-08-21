@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: scorp1o117-dsh-tool-vision
+name: dsh-tool-vision
+description:
+  en: Part of the DeepSeek Harness Enhancement Suite — Vision · Soul/Persona · Long-term Memory · Plugin Marketplace.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - multimodal
+  - image
+  - openai-compatible
+  - qwen-vl
+  - glm-4v
+  - ollama
+source:
+  repository: https://github.com/Scorp1o117/dsh-tool-vision
+  repositoryNodeId: R_kgDOT3e4Eg
+  subpath: null
+  commit: d161ddb920a52b735d1aca8bfa66b834d1630dfc
+creator:
+  github: Scorp1o117
+package:
+  ecosystem: npm
+  name: dsh-tool-vision
+  version: 0.5.0
+  integrity: sha512-UO3aQ04N09+KmOtGcmoiMFZ4C5CJfcDIebxfrUuxSkqrcwYpqcxos9d4z+n/PBz7JeO1eTBnHbLFwLfeqagCPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:16.304Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
