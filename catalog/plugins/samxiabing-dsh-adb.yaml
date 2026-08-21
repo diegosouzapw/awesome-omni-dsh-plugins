@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: samxiabing-dsh-adb
+name: dsh-adb
+description:
+  en: "ADB device & bench operations for DeepSeek Harness: device discovery, structured logcat, apk install, file pull/push, performance snapshots, perf baselines, crash reports, web device panel (autocomplete, live logcat, profiler)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - adb
+  - android
+  - automotive
+  - bench
+source:
+  repository: https://github.com/SamXiaBing/dsh-adb
+  repositoryNodeId: R_kgDOT4JJyw
+  subpath: null
+  commit: 8234ec4ada901193607fc2751ccd9ac8b291341c
+creator:
+  github: SamXiaBing
+package:
+  ecosystem: npm
+  name: dsh-adb
+  version: 1.1.0
+  integrity: sha512-tpmQwiai5mtWwwfY+7MVasf0IK1AqGldnj8RP37FJDUNEjWs8rDsZLlQl9bcBdz1byPw1djf/bzgK6ue6mBt7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:40.409Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
