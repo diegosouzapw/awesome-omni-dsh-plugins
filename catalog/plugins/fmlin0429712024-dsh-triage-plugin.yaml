@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fmlin0429712024-dsh-triage-plugin
+name: dsh-triage-plugin
+description:
+  en: "DeepSeek Harness (DSH) plugin packaging of the LinkHealth intake-triage system: a hub skill that classifies/scores/routes inbound healthcare-sector business enquiries, three spoke role prompts that draft scoping notes, and a deterministic guardrail backstop that blocks any triage-log write violating phi involved = requ"
+  evidencePath: plugins/dsh-triage-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - bundle
+  - intake
+  - triage
+  - routing
+  - healthcare
+  - hub-and-spoke
+source:
+  repository: https://github.com/fmlin0429712024/linkhealth-dsh-platform
+  repositoryNodeId: R_kgDOT6mwFA
+  subpath: plugins/dsh-triage-plugin
+  commit: ac726ea9dcef9e8e6f90a8dcf512d09b4572a7d1
+creator:
+  github: fmlin0429712024
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: plugins/dsh-triage-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:12.570Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
