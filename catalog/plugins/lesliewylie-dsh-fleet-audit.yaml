@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lesliewylie-dsh-fleet-audit
+name: dsh-fleet-audit
+description:
+  en: "DSH agent-fleet hygiene audit: credential-file permissions, embedded credentials in git remotes (masked), provider token-prefix literals. Read-only, zero-dependency, deterministic."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - agent
+  - fleet
+  - hygiene
+  - audit
+  - credential
+  - file
+  - permissions
+  - embedded
+  - credentials
+  - remotes
+  - masked
+  - provider
+  - token
+  - prefix
+  - literals
+  - read
+source:
+  repository: https://github.com/LeslieWylie/dsh-fleet-audit
+  repositoryNodeId: R_kgDOT4TfUQ
+  subpath: null
+  commit: ea36c49c33798a460478f07d11654149e59a7b1c
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:44.745Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
