@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: orxz-ui
+name: "@dshthemes/ui"
+description:
+  en: "Theme picker plugin for deepseek-harness themes: registers all themes, adds a settings row, and persists third-party selection"
+  evidencePath: packages/ui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - theme
+  - ui-theme
+source:
+  repository: https://github.com/orxz/deepseek-harness-themes
+  repositoryNodeId: R_kgDOT3ZFmQ
+  subpath: packages/ui
+  commit: f83ad9980be8b8e47d02e1c3cf8443ab6a02bee3
+creator:
+  github: orxz
+package:
+  ecosystem: npm
+  name: "@dshthemes/ui"
+  version: 0.2.0
+  integrity: sha512-KGWA69xUP8DID9/hVHqsQe/joOA290CkK/hoqMCRRJ+/RDYC3d/Cns0XvgKFquB0W0nvNhFVxGlX3AAqOwRjdg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:50.454Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
