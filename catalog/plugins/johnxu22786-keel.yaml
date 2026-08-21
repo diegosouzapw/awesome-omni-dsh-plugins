@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: johnxu22786-keel
+name: keel
+description:
+  en: Write the spec first, then the code. Turn "don't ship it broken" from a slogan into skills, tooling, and gates.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - spec-driven
+  - spec-first
+  - skill-pack
+  - keel
+  - dsh
+source:
+  repository: https://github.com/JohnXu22786/spec-driven
+  repositoryNodeId: R_kgDOT59QUg
+  subpath: null
+  commit: 378e0cdba34dfca5ce421dcf74a17d681364a36f
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:37.149Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
