@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-plughub
+name: "@omdsh-plugins/omdsh-plughub"
+description:
+  en: "The omdsh plugin hub: a Settings tab that installs, disables and configures omdsh plugins from a configurable upstream, from the settings schema each already registers"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - omdsh
+  - settings
+  - installs
+  - disables
+  - configures
+  - configurable
+  - upstream
+  - schema
+  - each
+  - already
+  - registers
+  - dsh
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-plughub
+  repositoryNodeId: R_kgDOT5uoEA
+  subpath: null
+  commit: 0cbed4f9e98ee3c3b62186612d3f717ba5d56e06
+creator:
+  github: wanghao9610
+package:
+  ecosystem: npm
+  name: "@omdsh-plugins/omdsh-plughub"
+  version: 0.2.4
+  integrity: sha512-HHwjG2YptdHIX3ZBfE2Osj8YmMgw3EUMTcQcwE6zVp9aKm3Y1VW6joxD6GMqJxqsxgTYBSiiGCzmycSS7+TTvw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:39.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
