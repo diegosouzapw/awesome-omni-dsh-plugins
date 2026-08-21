@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: sanqipanax-dsh-sticker-board
+name: dsh-sticker-board
+description:
+  en: Fridge-magnet sticker board for DeepSeek Harness (DSH) Web.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - sticker
+  - quick-task
+  - composer
+  - web-ui
+source:
+  repository: https://github.com/sanqiPanax/dsh-sticker-board
+  repositoryNodeId: R_kgDOT6MEjg
+  subpath: null
+  commit: 080e3e075c636b518d451dd01a41cc5a624b530c
+creator:
+  github: sanqiPanax
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:02.579Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
