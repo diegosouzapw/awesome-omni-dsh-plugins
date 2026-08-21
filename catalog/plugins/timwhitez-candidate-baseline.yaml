@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: timwhitez-candidate-baseline
+name: "@dsh-self-evolving/candidate-baseline"
+description:
+  en: Stable baseline parent candidate. Namespace-form DSH bundle; loaded through the real Cordis Loader in Gate 0. Not a profile, not a generated candidate.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - stable
+  - baseline
+  - parent
+  - candidate
+  - namespace
+  - form
+  - bundle
+  - loaded
+  - through
+  - real
+  - cordis
+  - loader
+  - gate
+  - profile
+  - generated
+  - dsh
+source:
+  repository: https://github.com/timwhitez/dsh-self-evolving
+  repositoryNodeId: R_kgDOT5BH8A
+  subpath: packages/candidate-baseline
+  commit: 4eb3bb4058dce4330ecbfc2b96e9c2bdabb71677
+creator:
+  github: timwhitez
+package:
+  ecosystem: npm
+  name: "@dsh-self-evolving/candidate-baseline"
+  version: 0.2.0
+  integrity: sha512-o51swT/PuIJXRVU86nbxvDHUxCJIDREIGsZ59CTc5hmkSG1JJA+vn44eJe0jTMlRiv3PRzb7u/HTB4jmkIDJEw==
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/candidate-baseline/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:34.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
