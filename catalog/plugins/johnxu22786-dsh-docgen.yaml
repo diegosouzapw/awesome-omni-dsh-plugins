@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: johnxu22786-dsh-docgen
+name: dsh-docgen
+description:
+  en: "docgen — document workshop skill pack: pure-prompt Agent Skills for README generation, PR descriptions, changelogs and code review, installable into dsh (DeepSeek Harness)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - agent-skills
+  - documentation
+  - changelog
+  - code-review
+source:
+  repository: https://github.com/JohnXu22786/docgen
+  repositoryNodeId: R_kgDOT59RoA
+  subpath: null
+  commit: c0b804b289f8363af9b28f1a3fb7304a49e56421
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-docgen
+  version: 1.0.0
+  integrity: sha512-RxzRA3Lqu3NypT6B5V+3KKU12xDGTN8e9Y+0uPicr0g/JOvQriian7JfVQ9zg3fLiUKG84aOKEf5IzDGuc/7EQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:55.391Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
