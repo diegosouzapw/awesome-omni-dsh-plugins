@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: alwaysgaurav1-dsh-session-export
+name: dsh-session-export
+description:
+  en: Export DeepSeek Harness sessions to Markdown, JSON, or self-contained HTML — slash commands /export-md, /export-json, /export-html
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - session-export
+  - markdown
+  - html
+  - json
+  - dsh
+source:
+  repository: https://github.com/Alwaysgaurav1/dsh-session-export
+  repositoryNodeId: R_kgDOT59r0g
+  subpath: null
+  commit: e1098096f87c9e8687c803ecd26e88a2b921141e
+creator:
+  github: Alwaysgaurav1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:47.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
