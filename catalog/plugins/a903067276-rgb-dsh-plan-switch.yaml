@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-plan-switch
+name: dsh-plan-switch
+description:
+  en: One-click enter/exit Plan mode for the DSH web input bar (a quick-click shortcut for /plan)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - plan
+  - web-ui
+source:
+  repository: https://github.com/a903067276-rgb/dsh-plan-switch
+  repositoryNodeId: R_kgDOT6kokg
+  subpath: null
+  commit: dc22a7885b66d2e5ffc283b15ec9f70a75817e69
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:26.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
