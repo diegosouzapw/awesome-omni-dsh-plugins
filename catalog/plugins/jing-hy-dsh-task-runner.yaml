@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jing-hy-dsh-task-runner
+name: dsh-task-runner
+description:
+  en: "DSH plugin: project/task dual-mode workspaces. Tasks skip the workspace picker — every task conversation gets a fresh scratch directory under D:\\dsh working\\<name -<timestamp (Codex-style), while projects keep the existing workspace flow. Ships an idempotent host patch (script) for the official 'dsh-client-ui-workspace"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - workspace
+  - task
+  - scratch
+source:
+  repository: https://github.com/jing-hy/dsh-task-runner
+  repositoryNodeId: R_kgDOT6K0Xw
+  subpath: null
+  commit: 61bcfea2b82cc9726215b4855ab7a355b41b341b
+creator:
+  github: jing-hy
+package:
+  ecosystem: npm
+  name: dsh-task-runner
+  version: 1.1.0
+  integrity: sha512-fJe2rQ+NiSLfFLKhPXne/saTKQP9pM2c40xWSE1Bq6t82NceMiiwcK5VLsVUle8rq65UZ3wKzBH5BoV6cCN8kA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:52.526Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
