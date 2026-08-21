@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: tomowang-dsh-tui
+name: "@tomowang/dsh-tui"
+description:
+  en: "Terminal front door for DeepSeek Harness (dsh): an out-of-tree TUI mode bundle over dsh-base"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - tui
+  - agent
+  - terminal
+  - front
+  - door
+  - tree
+  - mode
+  - bundle
+  - over
+  - base
+  - dsh
+source:
+  repository: https://github.com/tomowang/dsh-tui
+  repositoryNodeId: R_kgDOT4XSDw
+  subpath: null
+  commit: 689bb8496cd35e7019360c5c8faf82407ab2758c
+creator:
+  github: tomowang
+package:
+  ecosystem: npm
+  name: "@tomowang/dsh-tui"
+  version: 0.4.0
+  integrity: sha512-VG8VhKWEydZmLMsvwzy0J7DoCyJsmMlBy3HewHrxw/mcrWd6YyDoKgoosg0M1D/mXR9l+ku4tlTTJyFmOhVYuQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:37.457Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
