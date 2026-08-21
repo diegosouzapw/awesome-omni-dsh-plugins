@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jannchie-dsh-bill
+name: dsh-bill
+description:
+  en: Cost tracking for DSH (DeepSeek Harness). A line under each turn tells you what that turn cost; the Cost tab tells you what the money went on.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - cost
+  - usage
+  - token
+  - pricing
+  - dashboard
+source:
+  repository: https://github.com/Jannchie/dsh-bill
+  repositoryNodeId: R_kgDOT559Lw
+  subpath: null
+  commit: a95b79dbe068060dc2723d4fd43d70bdceaf4728
+creator:
+  github: Jannchie
+package:
+  ecosystem: npm
+  name: dsh-bill
+  version: 0.13.1
+  integrity: sha512-3hVNV5e1aWDDcFx0xRp79VpgQZ5zKLEfchztkomnkvSKgWcM3gEiRNgeV0pXsk1curg76yH4g4ldGe21gK3uEw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:09.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
