@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: klrsl-dsh-biomemory
+name: dsh-biomemory
+description:
+  en: "A cross-session memory plugin for DeepSeek Harness (DSH), designed like a human brain: layered memory, graded approval, memory metabolism, fully transparent and editable."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - biomimetic
+  - markdown
+  - recall
+source:
+  repository: https://github.com/KLRSL/dsh-biomemory
+  repositoryNodeId: R_kgDOT5gnrw
+  subpath: null
+  commit: b6350d0c69ef6cd2bf8a64fc9206c084f8eb5162
+creator:
+  github: KLRSL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:15.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
