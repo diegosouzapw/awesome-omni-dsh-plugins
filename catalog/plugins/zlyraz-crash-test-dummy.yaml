@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: zlyraz-crash-test-dummy
+name: crash-test-dummy
+description:
+  en: dsh plugin add github:Zlyraz/crash-test-dummy
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - zlyraz
+  - crash
+  - test
+  - dummy
+  - dsh
+source:
+  repository: https://github.com/Zlyraz/crash-test-dummy
+  repositoryNodeId: R_kgDOT538oQ
+  subpath: null
+  commit: 8a9db95693c6e828cac28edce1ae91be8f4237c3
+creator:
+  github: Zlyraz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:41.633Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
