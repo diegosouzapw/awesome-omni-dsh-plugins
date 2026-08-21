@@ -14,16 +14,6 @@ tags:
   - memory
   - agent-memory
   - project-memory
-  - cross
-  - session
-  - seven
-  - layer
-  - sqlite
-  - first
-  - turn
-  - snapshot
-  - injection
-  - message
 source:
   repository: https://github.com/Phant0Meow/dsh-meow-memory
   repositoryNodeId: R_kgDOT4MGmA

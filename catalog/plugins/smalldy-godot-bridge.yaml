@@ -17,13 +17,6 @@ tags:
   - mcp
   - game-development
   - ai-agent
-  - launch
-  - drive
-  - running
-  - game
-  - through
-  - interaction
-  - server
 source:
   repository: https://github.com/Smalldy/godot-bridge
   repositoryNodeId: R_kgDOT4fcwA

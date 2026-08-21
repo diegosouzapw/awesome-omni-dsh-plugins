@@ -8,11 +8,12 @@ unofficial: true
 kind: plugin
 primaryCategory: entertainment-customization
 tags:
+- dsh
+- dsh-plugin
 - bilibili
 - video
-- floating-window
-- web-ui
-- entertainment
+- floating-widget
+- deepseek-harness
 source:
   repository: https://github.com/pyf2818/dsh-bili-widget
   repositoryNodeId: R_kgDOT5Nvmg

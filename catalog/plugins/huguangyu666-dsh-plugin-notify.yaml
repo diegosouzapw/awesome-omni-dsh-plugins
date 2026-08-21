@@ -15,8 +15,6 @@ tags:
   - tts
   - voice
   - alert
-  - agent
-  - windows
 source:
   repository: https://github.com/huguangyu666/dsh-plugin-notify
   repositoryNodeId: R_kgDOT4Y5Lg

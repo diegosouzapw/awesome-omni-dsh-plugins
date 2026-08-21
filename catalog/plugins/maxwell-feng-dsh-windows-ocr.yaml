@@ -14,16 +14,6 @@ tags:
   - ocr
   - windows
   - privacy
-  - recognize
-  - attached
-  - images
-  - built
-  - engine
-  - media
-  - send
-  - only
-  - recognized
-  - text
 source:
   repository: https://github.com/maxwell-feng/dsh-windows-ocr
   repositoryNodeId: R_kgDOT5FbXQ

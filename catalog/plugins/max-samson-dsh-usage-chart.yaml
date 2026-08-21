@@ -18,11 +18,6 @@ tags:
   - dashboard
   - charts
   - visualization
-  - token
-  - adapter
-  - pricing
-  - json
-  - user
 source:
   repository: https://github.com/Max-Samson/dsh-usage-chart
   repositoryNodeId: R_kgDOT3rZaQ

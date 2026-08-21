@@ -16,13 +16,6 @@ tags:
   - ilink
   - conversation-node
   - chat
-  - monitor
-  - approve
-  - agents
-  - gateway
-  - conversation
-  - node
-  - bundle
 source:
   repository: https://github.com/Jesse-njx/dsh-chatnode-wechat
   repositoryNodeId: R_kgDOT3khgw

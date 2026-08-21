@@ -8,9 +8,22 @@ unofficial: true
 kind: plugin
 primaryCategory: models-providers-routing
 tags:
+  - third
+  - party
+  - subscription
+  - models
+  - inside
+  - sign
+  - account
+  - become
+  - available
+  - model
+  - menu
+  - image
+  - understanding
+  - conversation
   - openai
   - chatgpt
-  - dsh
 source:
   repository: https://github.com/kinoward/dsh-plugin-subhub
   repositoryNodeId: R_kgDOT42Y4g

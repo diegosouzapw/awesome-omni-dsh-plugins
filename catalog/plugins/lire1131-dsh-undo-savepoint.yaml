@@ -19,11 +19,6 @@ tags:
   - safe-mode
   - windows
   - powershell
-  - system
-  - config
-  - files
-  - change
-  - last
 source:
   repository: https://github.com/lire1131/dsh-undo-savepoint
   repositoryNodeId: R_kgDOT4Bt6g

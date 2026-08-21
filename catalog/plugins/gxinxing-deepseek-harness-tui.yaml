@@ -8,10 +8,17 @@ unofficial: true
 kind: client-interface
 primaryCategory: user-interface-dashboards
 tags:
-- tui
+- interactive
 - terminal
-- chat-client
-- headless
+- chat
+- full
+- screen
+- curses
+- style
+- client
+- driving
+- sessions
+- dsh
 source:
   repository: https://github.com/gxinxing/deepseek-harness-tui
   repositoryNodeId: R_kgDOT3iQng

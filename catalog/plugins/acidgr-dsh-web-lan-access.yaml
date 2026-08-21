@@ -14,15 +14,6 @@ tags:
   - lan
   - remote-access
   - polyfill
-  - remote
-  - access
-  - self
-  - contained
-  - binding
-  - crypto
-  - randomuuid
-  - plain
-  - origins
 source:
   repository: https://github.com/AcidGr/dsh-web-lan-access
   repositoryNodeId: R_kgDOT4ceuA

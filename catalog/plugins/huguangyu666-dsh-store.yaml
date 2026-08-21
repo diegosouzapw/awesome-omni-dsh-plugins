@@ -14,8 +14,6 @@ tags:
   - store
   - marketplace
   - plugin-manager
-  - awesome
-  - remove
 source:
   repository: https://github.com/huguangyu666/dsh-store
   repositoryNodeId: R_kgDOT4fvkg

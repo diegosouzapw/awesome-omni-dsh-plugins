@@ -21,9 +21,6 @@ tags:
   - oauth
   - web-search
   - image-generation
-  - codex
-  - subscriptions
-  - login
 source:
   repository: https://github.com/WSL043/dsh-codex-subscription
   repositoryNodeId: R_kgDOT3wJGQ

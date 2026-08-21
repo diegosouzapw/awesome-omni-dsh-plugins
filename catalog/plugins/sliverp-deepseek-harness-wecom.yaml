@@ -12,11 +12,6 @@ tags:
   - wecom
   - wework
   - cordis
-  - text
-  - image
-  - file
-  - channel
-  - bridge
   - dsh
 source:
   repository: https://github.com/sliverp/DeepSeek-harness-wecom

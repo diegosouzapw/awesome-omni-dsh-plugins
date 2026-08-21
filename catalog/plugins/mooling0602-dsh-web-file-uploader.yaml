@@ -14,16 +14,6 @@ tags:
   - web
   - upload
   - attachment
-  - style
-  - paperclip
-  - attach
-  - button
-  - composer
-  - uploads
-  - files
-  - host
-  - model
-  - aware
 source:
   repository: https://github.com/Mooling0602/dsh-web-file-uploader
   repositoryNodeId: R_kgDOT6UzDg

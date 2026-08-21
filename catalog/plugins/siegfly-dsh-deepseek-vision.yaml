@@ -17,13 +17,6 @@ tags:
   - provider
   - llm-gateway
   - coding-agent
-  - tree
-  - gateway
-  - route
-  - claims
-  - image
-  - input
-  - transparently
 source:
   repository: https://github.com/siegfly/dsh-deepseek-vision
   repositoryNodeId: R_kgDOT491Vw

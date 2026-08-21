@@ -15,15 +15,7 @@ tags:
   - x402
   - llm-router
   - code-review
-  - second
-  - brain
-  - agent
-  - strong
-  - model
-  - review
-  - before
-  - risky
-  - tool
+  - dsh
 source:
   repository: https://github.com/BlockRunAI/dsh-clawrouter
   repositoryNodeId: R_kgDOT34UjA

@@ -21,9 +21,6 @@ tags:
   - message-bus
   - task-board
   - collaboration
-  - interactive
-  - long
-  - session
 source:
   repository: https://github.com/PerryLink/dsh-background-agents
   repositoryNodeId: R_kgDOT38lTw

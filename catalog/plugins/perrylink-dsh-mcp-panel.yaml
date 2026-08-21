@@ -18,12 +18,6 @@ tags:
   - management
   - observability
   - panel
-  - console
-  - official
-  - client
-  - command
-  - health
-  - diagnostics
 source:
   repository: https://github.com/PerryLink/dsh-mcp-panel
   repositoryNodeId: R_kgDOT3-v7A

@@ -16,8 +16,6 @@ tags:
   - codex
   - reasonix
   - zcode
-  - claude
-  - code
 source:
   repository: https://github.com/huguangyu666/dsh-plugin-session-import
   repositoryNodeId: R_kgDOT3zPiA

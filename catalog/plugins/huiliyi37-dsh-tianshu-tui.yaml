@@ -13,17 +13,6 @@ tags:
   - terminal
   - tui
   - cli
-  - tianshu
-  - interactive
-  - official
-  - streaming
-  - markdown
-  - tool
-  - cards
-  - themes
-  - slash
-  - commands
-  - session
 source:
   repository: https://github.com/huiliyi37/dsh-tianshu-tui
   repositoryNodeId: R_kgDOT29GJw
