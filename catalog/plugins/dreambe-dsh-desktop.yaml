@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: dreambe-dsh-desktop
+name: "@deepseek-ai/dsh-desktop"
+description:
+  en: "dsh desktop application: the web client composition in an Electron shell, carried by a protocol handler instead of a server"
+  evidencePath: apps/desktop/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - desktop
+  - application
+  - client
+  - composition
+  - electron
+  - shell
+  - carried
+  - protocol
+  - handler
+  - instead
+  - server
+  - dsh
+source:
+  repository: https://github.com/dreambe/deepseek-harness-desktop
+  repositoryNodeId: R_kgDOT65Q5g
+  subpath: apps/desktop
+  commit: 6e3924ac011291ee74d739bf5b8b92fde0906cc5
+creator:
+  github: dreambe
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/desktop/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:08.241Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
