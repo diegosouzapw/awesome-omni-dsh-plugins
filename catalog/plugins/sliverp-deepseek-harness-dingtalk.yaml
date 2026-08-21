@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sliverp-deepseek-harness-dingtalk
+name: deepseek-harness-dingtalk
+description:
+  en: DingTalk Stream text, image, and file channel bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dingtalk
+  - chatbot
+  - stream
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/sliverp/DeepSeek-harness-dingtalk
+  repositoryNodeId: R_kgDOT3ocqg
+  subpath: null
+  commit: 1cc1e0eaf15de62c373c7616b8fb588d6264cc97
+creator:
+  github: sliverp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:48.371Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
