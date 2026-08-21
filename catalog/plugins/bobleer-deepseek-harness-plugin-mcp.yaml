@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bobleer-deepseek-harness-plugin-mcp
+name: deepseek-harness-plugin-mcp
+description:
+  en: MCP server that lets any agent discover, install, and run DeepSeek Harness plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - mcp
+  - model-context-protocol
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+source:
+  repository: https://github.com/bobleer/deepseek-harness-plugin-mcp
+  repositoryNodeId: R_kgDOT3eryQ
+  subpath: null
+  commit: 8b292eb2e423efcbc8ed173015cfd0daafc482ca
+creator:
+  github: bobleer
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:29.867Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
