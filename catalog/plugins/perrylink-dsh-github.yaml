@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-github
+name: "@perrylink/dsh-github"
+description:
+  en: "Official-grade GitHub CI for DeepSeek Harness: composite action (review PRs / fix CI / report), polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue/repo/file tools"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - github-actions
+  - pull-request
+  - code-review
+  - ci
+  - issue-tracker
+source:
+  repository: https://github.com/PerryLink/dsh-github
+  repositoryNodeId: R_kgDOT3r0Rw
+  subpath: null
+  commit: f369e50b0c5b84595beee7468b52d6a2b808d560
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "@perrylink/dsh-github"
+  version: 0.6.2
+  integrity: sha512-b8zbJLvRilCYnG7wxtv63iGHjP+JmIgUuq/jMfgkXpXcnHb27bE6EIoGsmFuwEcsWtFlo/p+lOXctBhe5MnHNA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:45.417Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
