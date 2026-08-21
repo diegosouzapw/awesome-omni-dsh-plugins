@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: reshuibuduo-tmcra-deepseek-harness-local-memory
+name: tmcra-deepseek-harness-local-memory
+description:
+  en: Owner-local TMCRA recall and role-separated writeback for DeepSeek Harness
+  evidencePath: integrations/deepseek-harness-local/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-memory
+  - local-first
+  - tmcra
+  - dsh
+source:
+  repository: https://github.com/reshuibuduo/tmcra-memory
+  repositoryNodeId: R_kgDOSnb4Vw
+  subpath: integrations/deepseek-harness-local
+  commit: 49c5a3648d18af3a6af3b13540ca5469c2842b7e
+creator:
+  github: reshuibuduo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness-local/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:21.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
