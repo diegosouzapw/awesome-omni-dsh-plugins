@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 2nd1st-dsh-plugin-open-app
+name: "@2nd1st/dsh-plugin-open-app"
+description:
+  en: "Brings open-mcp-apps into DeepSeek Harness (dsh): an Apps section in the sidebar, one container per app with its own workspace and conversation, an agent-presence strip under the app, and inline app rendering for MCP tool calls."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - mcp-apps
+  - model-context-protocol
+  - open-mcp-apps
+  - cordis
+source:
+  repository: https://github.com/2nd1st/dsh-plugin-open-app
+  repositoryNodeId: R_kgDOT5MEFQ
+  subpath: null
+  commit: 01706d45221a1c98ac33be9c900a9dc3eec4f9af
+creator:
+  github: 2nd1st
+package:
+  ecosystem: npm
+  name: "@2nd1st/dsh-plugin-open-app"
+  version: 0.1.2
+  integrity: sha512-ObdVOyFDoCkvP8+57/gaUsTZVosl+i/MT7Zwzcw1FXAC/WzksP6+VflEV7fPPtrc8U48c29xmVI6GVnG0xKkHg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:24.094Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
