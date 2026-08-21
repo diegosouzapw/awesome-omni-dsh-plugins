@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: como44-dsh-zh-more
+name: dsh-zh-more
+description:
+  en: "Translates the English that the official DSH Chinese UI can't reach: slash-command names and the Settings → Plugins inventory cards — with three display modes."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chinese
+  - zh
+  - i18n
+  - localization
+  - translate
+source:
+  repository: https://github.com/Como44/dsh-zh-more
+  repositoryNodeId: R_kgDOT6-h6Q
+  subpath: null
+  commit: c8f37b7c99315b70b307b6d3f3416ed8d2d290c7
+creator:
+  github: Como44
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:02.445Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
