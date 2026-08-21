@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wsxwj123-dsh-composer-tools
+name: dsh-composer-tools
+description:
+  en: "DSH web plugin: arrow-key input history (session-scoped, draft-preserving) + instructions viewer/editor (global & project AGENTS.md/CLAUDE.md) + prompt library (Cherry Studio agents-zh, AGPL-3.0, append-to-input)."
+  evidencePath: packages/dsh-composer-tools/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - arrow
+  - input
+  - history
+  - session
+  - scoped
+  - draft
+  - preserving
+  - instructions
+  - viewer
+  - editor
+  - global
+  - agents
+  - claude
+  - prompt
+  - library
+  - cherry
+source:
+  repository: https://github.com/wsxwj123/dsh-plugins
+  repositoryNodeId: R_kgDOT3-OnA
+  subpath: packages/dsh-composer-tools
+  commit: 269acbc87df039a2aba9cc405dea488fbfceb414
+creator:
+  github: wsxwj123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-composer-tools/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:06.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
