@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: gy-bai-dsh-anchored-subagent
+name: dsh-anchored-subagent
+description:
+  en: "Say the secret handshake: DSH subagents start on the Minimal two-tool condition to unlock DeepSeek's full RL-trained strength, then get the whole toolbox."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - agent-preset
+  - subagent
+  - minimal
+  - anchored
+  - trajectory
+source:
+  repository: https://github.com/GY-Bai/dsh-anchored-subagent
+  repositoryNodeId: R_kgDOT5zzdw
+  subpath: null
+  commit: 31fdd22a4265aef3107d9fca05854bea78a9af10
+creator:
+  github: GY-Bai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:26.994Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
