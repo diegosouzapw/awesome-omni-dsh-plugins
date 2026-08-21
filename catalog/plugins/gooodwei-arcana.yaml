@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: gooodwei-arcana
+name: arcana
+description:
+  en: "Arcana — a draggable, collapsible, usage-sorted floating deck of every slash command in DeepSeek Harness: hover for details, click to run"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - slash-command
+  - command
+  - palette
+  - deck
+  - hud
+source:
+  repository: https://github.com/GooodWei/arcana
+  repositoryNodeId: R_kgDOT4Zr1Q
+  subpath: null
+  commit: 82f910c0b5e645c65c2a34be0b0e47035d0489a7
+creator:
+  github: GooodWei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:58.679Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
