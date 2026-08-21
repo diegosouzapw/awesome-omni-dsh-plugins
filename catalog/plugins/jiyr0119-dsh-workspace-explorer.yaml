@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jiyr0119-dsh-workspace-explorer
+name: "@jiyr0119/dsh-workspace-explorer"
+description:
+  en: "A workspace file explorer for the DeepSeek Harness Web UI: a “Workspace Files” capsule button in the session header (feature name + folder icon, beside the Session log button) opens an animated popup showing the current workspace's directory tree — click or drag a file to send its reference to the model."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - cordis
+  - workspace
+  - explorer
+  - file-tree
+  - ai-tools
+  - file
+  - files
+  - capsule
+  - button
+  - session
+  - header
+  - feature
+  - name
+  - folder
+  - icon
+source:
+  repository: https://github.com/Jiyr0119/dsh-workspace-explorer
+  repositoryNodeId: R_kgDOT4N3SQ
+  subpath: null
+  commit: f03b9547e9499377a0f9b5003d76d0a9e4507ce4
+creator:
+  github: Jiyr0119
+package:
+  ecosystem: npm
+  name: "@jiyr0119/dsh-workspace-explorer"
+  version: 0.5.2
+  integrity: sha512-pgWNi2TxVvyb2gAnrqMWU6Y71ycyP++O441138C1vDF7SR6f7s2N2zAccdparMsLTAdD3qQjvu+ByJVq0FldGA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:43.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
