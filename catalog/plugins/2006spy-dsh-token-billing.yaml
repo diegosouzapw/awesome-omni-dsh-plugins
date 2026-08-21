@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 2006spy-dsh-token-billing
+name: dsh-token-billing
+description:
+  en: DeepSeek Harness (dsh) 实时 token 计费插件 · Real-time token billing for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - token
+  - real
+  - time
+  - billing
+  - dsh
+source:
+  repository: https://github.com/2006spy/dsh-token-billing
+  repositoryNodeId: R_kgDOT5SeFA
+  subpath: null
+  commit: c520e744477f8e67d567594c359c662ee2892bd9
+creator:
+  github: 2006spy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:45.657Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
