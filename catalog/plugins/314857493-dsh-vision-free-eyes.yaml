@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 314857493-dsh-vision-free-eyes
+name: dsh-vision-free-eyes
+description:
+  en: "DeepSeek Harness plugin: a model-facing vision tool that describes and OCRs image files by calling the free Zhipu GLM vision API directly (no external CLI required)."
+  evidencePath: packages/vision-tool/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - image
+  - glm
+  - zhipu
+  - ocr
+source:
+  repository: https://github.com/314857493/dsh-vision
+  repositoryNodeId: R_kgDOT5ONXQ
+  subpath: packages/vision-tool
+  commit: 524d9a9c44c482a185d57b21d9d5cbc2c7da8227
+creator:
+  github: "314857493"
+package:
+  ecosystem: npm
+  name: dsh-vision-free-eyes
+  version: 0.1.0
+  integrity: sha512-7jQeN8MxRJvpgw6PVXvFSSpzEJk17qesloYR0uD7XjruFalqDSpjfMgzjNHVETSwCYQOmpqJU1A48Z/GtNGuTw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/vision-tool/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:34.101Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
