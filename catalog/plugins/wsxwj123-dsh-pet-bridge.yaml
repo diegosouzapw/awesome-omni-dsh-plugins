@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wsxwj123-dsh-pet-bridge
+name: dsh-pet-bridge
+description:
+  en: "DSH server plugin: push dsh session status to the cc-pet desktop pet bubble in real time."
+  evidencePath: packages/dsh-pet-bridge/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - server
+  - push
+  - session
+  - status
+  - desktop
+  - bubble
+  - real
+  - time
+  - dsh
+source:
+  repository: https://github.com/wsxwj123/dsh-plugins
+  repositoryNodeId: R_kgDOT3-OnA
+  subpath: packages/dsh-pet-bridge
+  commit: 269acbc87df039a2aba9cc405dea488fbfceb414
+creator:
+  github: wsxwj123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-pet-bridge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:06.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
