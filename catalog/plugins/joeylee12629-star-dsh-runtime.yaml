@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: joeylee12629-star-dsh-runtime
+name: "@open-design/dsh-runtime"
+description:
+  en: DeepSeek Harness profile runtime for OpenDesign
+  evidencePath: packages/dsh-runtime/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - profile
+  - runtime
+  - opendesign
+  - dsh
+source:
+  repository: https://github.com/nexu-io/open-design
+  repositoryNodeId: R_kgDOSOgY8g
+  subpath: packages/dsh-runtime
+  commit: 713caf01106f2d3595823d5f1b81db8a8b3fb930
+creator:
+  github: joeylee12629-star
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-runtime/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:29.109Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
