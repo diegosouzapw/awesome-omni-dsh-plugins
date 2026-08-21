@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: peterbon-dsh-hooks
+name: dsh-hooks
+description:
+  en: "Config-driven lifecycle hooks plugin for DeepSeek Harness: declare event - command hooks in cordis.patch.yml, no plugin code required. Includes a Hooks section in the Web GUI settings (history timeline + manual tester + Feishu connect)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - hooks
+  - automation
+  - lifecycle
+  - notification
+  - dsh
+source:
+  repository: https://github.com/PeterBon/dsh-hooks
+  repositoryNodeId: R_kgDOT48WeQ
+  subpath: null
+  commit: d526d67baac363a37dcd445d6b6c788a10f6498f
+creator:
+  github: PeterBon
+package:
+  ecosystem: npm
+  name: dsh-hooks
+  version: 0.5.0
+  integrity: sha512-RCANH7N6XYIvN5CWpdBQsb5aRFh/pMEbVpWcVyPX6wOAsGsxbHeYfWpDx8RyxxTLtvsui9McjqCnO26Zjt5y+A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:31.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
