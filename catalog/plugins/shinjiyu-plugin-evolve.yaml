@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: shinjiyu-plugin-evolve
+name: plugin-evolve
+description:
+  en: Host-agnostic controller for staging, validating, scoring, and solidifying evolved tool plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - agent
+  - evolution
+  - controller
+  - dsh
+source:
+  repository: https://github.com/shinjiyu/deepseek-harness-evolver
+  repositoryNodeId: R_kgDOT4Efmg
+  subpath: null
+  commit: 64e293a68f96d23378936028d50fe18320e4bcd5
+creator:
+  github: shinjiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:04.005Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
