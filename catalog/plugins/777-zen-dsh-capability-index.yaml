@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 777-zen-dsh-capability-index
+name: dsh-capability-index
+description:
+  en: "Pre-flight plugin-library check for DSH agents: per-step trigger-table hints injected into the runtime-context snapshot, so suitable plugins get used predictably instead of opportunistically"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - flight
+  - library
+  - check
+  - agents
+  - step
+  - trigger
+  - table
+  - hints
+  - injected
+  - runtime
+  - context
+  - snapshot
+  - suitable
+  - used
+  - predictably
+  - instead
+source:
+  repository: https://github.com/777-Zen/dsh-capability-index
+  repositoryNodeId: R_kgDOT5uPHQ
+  subpath: null
+  commit: e023dd110748741f06767c1d6cefd2261305b48c
+creator:
+  github: 777-Zen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:58.185Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
