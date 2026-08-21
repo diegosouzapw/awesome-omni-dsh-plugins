@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: julescules-dsh-windows-workspace-guard
+name: dsh-windows-workspace-guard
+description:
+  en: Windows workspace, system-mutation, Git-risk, approval, settings, and audit guard for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - powershell
+  - windows
+  - workspace-safety
+  - audit-log
+  - git-safety
+  - approval-policy
+  - settings-card
+  - windows-security
+  - dsh
+source:
+  repository: https://github.com/julescules/dsh-windows-workspace-guard
+  repositoryNodeId: R_kgDOT6DOHw
+  subpath: null
+  commit: 217173c7fe48e6c8e96a4602a7a3a059c89711c9
+creator:
+  github: julescules
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:59.685Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
