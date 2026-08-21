@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-defend
+name: dsh-defend
+description:
+  en: "Prompt-injection, jailbreak, and secret-leak detection with allow/ask/block interception for DeepSeek Harness: an Aho-Corasick pattern engine and heuristics ported from the Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect assets, gating user messages on agent/pre-step, tool arguments on tools"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - security
+  - prompt-injection
+  - jailbreak
+  - secret-scanning
+  - llm-security
+source:
+  repository: https://github.com/PerryLink/dsh-defend
+  repositoryNodeId: R_kgDOT6SVeQ
+  subpath: null
+  commit: cbab091ab8e62c806d5dad30f7ca2df91d64c83a
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-defend
+  version: 0.1.0
+  integrity: sha512-bo6OkXI5fExVu5Clbe4Za9DMuyCNiKnocuCq4QaMJe4KMUf4Fnd8uSytPHrwSTg5hyxE3TERK86+irbnQQuaOQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:58.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
