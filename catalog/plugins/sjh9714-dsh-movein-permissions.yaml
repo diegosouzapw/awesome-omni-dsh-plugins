@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: sjh9714-dsh-movein-permissions
+name: dsh-movein-permissions
+description:
+  en: Fine grained per tool permission rules for DeepSeek Harness (DSH). deny/ask lists in Claude Code rule syntax, enforced at the tools/pre-execute gate. Works standalone.
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - permissions
+  - claude-code
+  - allowlist
+  - security
+  - permission-gate
+source:
+  repository: https://github.com/sjh9714/dsh-movein
+  repositoryNodeId: R_kgDOT469Vg
+  subpath: plugin
+  commit: d305b89a08b8ed0901aac398bb1abfdc374055c3
+creator:
+  github: sjh9714
+package:
+  ecosystem: npm
+  name: dsh-movein-permissions
+  version: 0.2.3
+  integrity: sha512-cA8LGp+swLMaU3tjpYN6trEqehx1okky9MIzCjonGlMjvKW6dr3MyXK43Y7ML/sIhLis5FNOAaUqrozPQ1Ao9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:13.585Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
