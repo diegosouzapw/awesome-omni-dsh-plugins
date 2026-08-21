@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: linglambda-dsh-undo
+name: dsh-undo
+description:
+  en: Durable multi-level context undo/redo for DeepSeek Harness, with per-user-message WebUI actions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - undo
+  - redo
+  - context
+  - durable
+  - multi
+  - level
+  - user
+  - message
+  - webui
+  - actions
+source:
+  repository: https://github.com/LingLambda/dsh-undo
+  repositoryNodeId: R_kgDOT3bAJg
+  subpath: null
+  commit: 6948396fc0e71171fa26d9979c81bc7591571288
+creator:
+  github: LingLambda
+package:
+  ecosystem: npm
+  name: dsh-undo
+  version: 0.3.0-preview.1
+  integrity: sha512-mHBkCfrx0m5Tp/rWGB/xtMedLgqrRhRaPeoxg3i+bynALSNpKODibilmtBOZVXZ/Qrfd3QronrguZNTARPfFXA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:47.095Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
