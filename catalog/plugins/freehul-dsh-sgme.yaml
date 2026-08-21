@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: freehul-dsh-sgme
+name: dsh-sgme
+description:
+  en: SGME memory engine bridge for DeepSeek Harness — multi-agent shared long-term memory via HTTP.
+  evidencePath: adapters/dsh/sgme-bridge/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - sgme
+  - agent-memory
+  - persistent-memory
+  - multi-agent
+  - llm-memory
+  - cordis
+source:
+  repository: https://github.com/freehul/sgme
+  repositoryNodeId: R_kgDOT098uA
+  subpath: adapters/dsh/sgme-bridge
+  commit: d5d98a62b55a89d30c1f0206e3b59e82108633d0
+creator:
+  github: freehul
+package:
+  ecosystem: npm
+  name: dsh-sgme
+  version: 0.2.0
+  integrity: sha512-XNlXE4deejzgGI/YGno16PWvDB5rD1aLo9pwIkXQ91s022myhj7Go993FzY7MBWmENNFYFkrsjwOlOHnFqxr+A==
+dsh:
+  profiles:
+    - default
+  evidencePath: adapters/dsh/sgme-bridge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:20.736Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
