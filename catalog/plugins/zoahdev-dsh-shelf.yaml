@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zoahdev-dsh-shelf
+name: dsh-shelf
+description:
+  en: "Session lifecycle for DeepSeek Harness: export, archive, restore, trash, search, and stats for your dsh session library. Zero dependencies, read-only by default."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - session
+  - archive
+  - export
+  - lifecycle
+source:
+  repository: https://github.com/zoahdev/dsh-shelf
+  repositoryNodeId: R_kgDOT5U9Ig
+  subpath: null
+  commit: 3787414102b160950a0859b77e9c0d59e7da0e6e
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:49.161Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
