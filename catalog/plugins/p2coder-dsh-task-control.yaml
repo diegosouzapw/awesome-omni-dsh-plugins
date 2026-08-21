@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: p2coder-dsh-task-control
+name: dsh-task-control
+description:
+  en: "Task control for DSH Web: pause / resume / cancel the in-flight conversation task from the composer area."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - task
+  - control
+  - pause
+  - resume
+  - cancel
+  - flight
+  - conversation
+  - composer
+  - area
+  - dsh
+source:
+  repository: https://github.com/p2coder/dsh-task-control
+  repositoryNodeId: R_kgDOT5B58Q
+  subpath: null
+  commit: 7369ba718550299cc98834664318c830de81db80
+creator:
+  github: p2coder
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:19.676Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
