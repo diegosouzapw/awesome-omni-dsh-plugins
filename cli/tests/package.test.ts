@@ -35,9 +35,9 @@ describe("published CLI package metadata", () => {
 
   it("publishes only built code and public package documents", () => {
     expect(pkg.files).toEqual(["dist", "README.md", "LICENSE"]);
-    // Owner decision (2026-08-18, REV-14): provenance stays OFF until trusted
-    // publishing lands (REL-01); with it present every local npm publish would
-    // fail unless --provenance=false were passed manually.
+    // Owner decision (2026-08-18): provenance stays OFF until trusted publishing
+    // lands; with it present every local npm publish would fail unless
+    // --provenance=false were passed manually.
     expect(pkg.publishConfig).toEqual({ access: "public" });
     expect(pkg.scripts.build).toContain("esbuild");
     expect(pkg.scripts.build).not.toContain("sourcemap");

@@ -301,7 +301,7 @@ describe("catalog snapshot materialization", () => {
   });
 
   it("fetches the site-hosted snapshot when its declared revision matches the requested pin", async () => {
-    // REV-44: a snapshot committed to the catalog repository can never declare its own commit,
+    // A snapshot committed to the catalog repository can never declare its own commit,
     // so the site-hosted stable URL is the operational remote source. The caller's revision
     // remains the out-of-band anchor.
     const calls: string[] = [];

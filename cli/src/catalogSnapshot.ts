@@ -24,7 +24,7 @@ export const CATALOG_SNAPSHOT_FORMAT_V1 = "omni-dsh-catalog-snapshot-v1" as cons
 export const PUBLIC_CATALOG_RAW_ORIGIN =
   "https://raw.githubusercontent.com/diegosouzapw/awesome-omni-dsh-plugins";
 // A snapshot committed to the catalog repository can never declare its own commit, so the
-// raw.githubusercontent form is unreachable in practice (REV-44). The site publishes the
+// raw.githubusercontent form is unreachable in practice. The site publishes the
 // generated snapshot at this stable URL instead; the user-supplied --revision stays the trust
 // anchor because parseSnapshot rejects any envelope whose declared revision differs from it.
 export const PUBLIC_SNAPSHOT_SITE_URL =
