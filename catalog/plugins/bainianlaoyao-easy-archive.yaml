@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bainianlaoyao-easy-archive
+name: easy-archive
+description:
+  en: "A DSH (DeepSeek Harness) web plugin that moves session archiving out of the kebab (⋮) menu and onto the workspace sidebar row itself, as a two-step inline button:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - archive
+  - sidebar
+  - workspace
+source:
+  repository: https://github.com/bainianlaoyao/easy-archive
+  repositoryNodeId: R_kgDOT6QrVw
+  subpath: null
+  commit: 9c9f6eb6e67a47dca7d351cf45efd82d4ce823be
+creator:
+  github: bainianlaoyao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:56.176Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
