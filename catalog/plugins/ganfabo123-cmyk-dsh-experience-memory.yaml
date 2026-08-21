@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ganfabo123-cmyk-dsh-experience-memory
+name: dsh-experience-memory
+description:
+  en: Keyword-based reusable success and failure memory for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-memory
+  - llm-memory
+  - ai-agent
+  - dsh
+source:
+  repository: https://github.com/ganfabo123-cmyk/dsh-experience-memory
+  repositoryNodeId: R_kgDOT5voUQ
+  subpath: null
+  commit: abfb1ac62c790cb636602ba74bdd3e40d9482d26
+creator:
+  github: ganfabo123-cmyk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:18.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
