@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: mu-scorpio-dsh-token-usage-counter
+name: dsh-token-usage-counter
+description:
+  en: Persistent provider-reported token usage statistics for DeepSeek Harness, with per-session, per-model, and daily activity data.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - token-usage
+  - usage-statistics
+  - token-analytics
+  - prompt-cache
+  - llm-observability
+  - typescript
+  - cordis
+source:
+  repository: https://github.com/Mu-scorpio/token-usage-counter
+  repositoryNodeId: R_kgDOT5xWbA
+  subpath: null
+  commit: d9353a9dfb031f5d868e3c1b866f57147d428374
+creator:
+  github: Mu-scorpio
+package:
+  ecosystem: npm
+  name: dsh-token-usage-counter
+  version: 0.1.1
+  integrity: sha512-X8DvsygyfxyDcrJTcLWekv0RO8xRoRUed03zhIfV5noP7XZ05TQ95aavTpWhhgZ1fFS+66FpfVoN5Ir33EYwwQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:49.222Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
