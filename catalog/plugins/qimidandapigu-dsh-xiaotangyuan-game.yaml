@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: qimidandapigu-dsh-xiaotangyuan-game
+name: "@qimidandapigu/dsh-xiaotangyuan-game"
+description:
+  en: XiaoTangYuan game AI runtime for DeepSeek Harness.
+  evidencePath: apps/harness-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - xiaotangyuan
+  - game-ai
+  - game-agent
+  - dsh
+source:
+  repository: https://github.com/qimidandapigu/dsh-xiaotangyuan-game
+  repositoryNodeId: R_kgDOT4qPIA
+  subpath: apps/harness-plugin
+  commit: 6ab710b16d48522b48593513fc350817a5e9367a
+creator:
+  github: qimidandapigu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/harness-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:15.643Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
