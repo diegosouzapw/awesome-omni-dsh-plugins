@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: qing3a-verify-auditor
+name: "@qing3a/verify-auditor"
+description:
+  en: system-prompt/assemble → agent/pre-step → agent/request → llm/stream → tools/pre-execute → tools/execute → tools/post-execute → tools/result
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - system
+  - prompt
+  - assemble
+  - agent
+  - step
+  - request
+  - stream
+  - tools
+  - execute
+  - post
+  - result
+  - dsh
+source:
+  repository: https://github.com/qing3a/dsh-plugin-verify
+  repositoryNodeId: R_kgDOT3vipw
+  subpath: auditor
+  commit: 7a027fcca26652fc4a2f3491f847d47a390457fa
+creator:
+  github: qing3a
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: auditor/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:17.580Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
