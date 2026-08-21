@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: claude-dsh-github-rest
+name: dsh-github-rest
+description:
+  en: GitHub REST v3 provider for the dsh-github capability seam — plain fetch (no octokit), per-operation credential-ref resolution, Link-header pagination, rate-limit and HTTP error mapping to GitHubError, idempotent pull request creation, and GHES baseURL support
+  evidencePath: packages/github/github-rest/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - rest
+  - provider
+  - capability
+  - seam
+  - plain
+  - fetch
+  - octokit
+  - operation
+  - credential
+  - resolution
+  - link
+  - header
+  - pagination
+  - rate
+  - limit
+  - error
+source:
+  repository: https://github.com/kaziii/dsh-github-connector
+  repositoryNodeId: R_kgDOT3ijLg
+  subpath: packages/github/github-rest
+  commit: 34117bfad325e47a30c5146d4b7c2421d07594b5
+creator:
+  github: claude
+package:
+  ecosystem: npm
+  name: dsh-github-rest
+  version: 0.1.0
+  integrity: sha512-rUqF4v8lZGsZt3ViSUEPokyVfG6pdyhJOPSrmiBUm6WEJ7vkdgjIOdci6MyfTnctWGsfgdEAldexeri/jI6MHQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/github/github-rest/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:02.937Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
