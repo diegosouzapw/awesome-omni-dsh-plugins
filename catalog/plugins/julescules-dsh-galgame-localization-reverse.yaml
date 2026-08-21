@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: julescules-dsh-galgame-localization-reverse
+name: dsh-galgame-localization-reverse
+description:
+  en: Packaged Galgame localization and reverse-engineering skill provider for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - galgame
+  - visual-novel
+  - localization
+  - reverse-engineering
+  - windows
+  - rollback
+  - dsh
+source:
+  repository: https://github.com/julescules/dsh-galgame-localization-reverse
+  repositoryNodeId: R_kgDOT6EYmA
+  subpath: null
+  commit: 081cb721b79a8dabb4d9c4ba36b9a79ac7baaf17
+creator:
+  github: julescules
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:58.238Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
