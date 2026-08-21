@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: cikeseven-dsh-tui
+name: "@deepseek-harness-tui/dsh-tui"
+description:
+  en: Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - claude
+  - code
+  - style
+  - interactive
+  - front
+  - door
+  - agents
+  - built
+  - ported
+  - core
+  - dsh
+source:
+  repository: https://github.com/ccch1mneyyy/dsh-TUI
+  repositoryNodeId: R_kgDOT3WsVQ
+  subpath: null
+  commit: 01f06531ea499f21d23bbef4c1104dfb090b0282
+creator:
+  github: CikeSeven
+package:
+  ecosystem: npm
+  name: "@deepseek-harness-tui/dsh-tui"
+  version: 0.8.3
+  integrity: sha512-QYhUKMy+5nra0qb6EK4PcWGqF6UQ+FrhSavhMlhoq95eSe/3rbisPZoEbRmPu0NDp+SlLrSA5cHnfFk1vbGHWA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:33.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2188
+provenance:
+  discussion: null
+  comment: null
