@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: h97y-dsh-devflow
+name: dsh-devflow
+description:
+  en: "Automated development pipeline for DeepSeek Harness: requirement pool, LLM-driven refine/design/plan/review stages, per-stage waiting queues, workspace-routed implementation pump, and a browser control panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - automated
+  - development
+  - pipeline
+  - requirement
+  - pool
+  - driven
+  - refine
+  - design
+  - plan
+  - review
+  - stages
+  - stage
+  - waiting
+  - queues
+  - workspace
+  - routed
+source:
+  repository: https://github.com/H97y/dsh-devflow
+  repositoryNodeId: R_kgDOT6iHog
+  subpath: packages/devflow
+  commit: 69d0a2254a385b6762a00a87961c54b296875378
+creator:
+  github: H97y
+package:
+  ecosystem: npm
+  name: dsh-devflow
+  version: 0.4.0
+  integrity: sha512-3+2ETzd7GIRwUqddOvxAvl8p1HXuCGV8pcFp0HKbSw1YnZenYy0DC8vWoOmJ0Q8CnyRXSo+Z8jivK5r6YxZhlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/devflow/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:28.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
