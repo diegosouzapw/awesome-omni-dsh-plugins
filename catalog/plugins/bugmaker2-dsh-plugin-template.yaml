@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: bugmaker2-dsh-plugin-template
+name: dsh-plugin-template
+description:
+  en: Minimal Hello World plugin template for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/bugmaker2/dsh-plugin-template
+  repositoryNodeId: R_kgDOT3mwrg
+  subpath: null
+  commit: 114f75999d8d477951cbd91ee4d1e0f5360d6627
+creator:
+  github: bugmaker2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:17.781Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
