@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: piyotahu-dsh-voice
+name: "@muxiva/dsh-voice"
+description:
+  en: Local-first, full-duplex voice for DeepSeek Harness, orchestrated by Muxiva
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - muxiva
+  - voice-agent
+  - speech-to-text
+  - text-to-speech
+  - vad
+  - apple-silicon
+  - local-first
+  - dsh
+source:
+  repository: https://github.com/PiyotaHu/muxiva-dsh-voice
+  repositoryNodeId: R_kgDOT5R6sA
+  subpath: null
+  commit: 10e5c79ceb849a8b2561a9f1831bcaa72f9f00d0
+creator:
+  github: PiyotaHu
+package:
+  ecosystem: npm
+  name: "@muxiva/dsh-voice"
+  version: 0.1.0-alpha.2
+  integrity: sha512-cebkOvpRBZdf62djEb4H47FWQbyR5EfoYaqfCB29AH7M3deH91HyThDFe9vYoQ5XxPLuKT23f4A4YK5vFKkC+A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:34.580Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
