@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ultronen-dsh-archived-chats
+name: dsh-archived-chats
+description:
+  en: ⚡ Deletion takes effect immediately — no restart. Even sessions still resident in the background are torn down safely along the official lifecycle and wiped from disk the moment you click delete, instead of being "parked until the next restart".
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - archive
+  - sessions
+  - web-ui
+source:
+  repository: https://github.com/Ultronen/dsh-archived-chats
+  repositoryNodeId: R_kgDOT5pXsw
+  subpath: null
+  commit: 2fbbdefdf0fda0d5e414d9c0278a87c7cfdb9e8c
+creator:
+  github: Ultronen
+package:
+  ecosystem: npm
+  name: dsh-archived-chats
+  version: 0.7.0
+  integrity: sha512-2XSIJYRdOET9tsQ/0R6541iXPjYJfXgdF316Ot61G26uocB1V48WlUxsLR/8/XY/qhwLko/5arVggbwCg27Lkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:51.667Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
