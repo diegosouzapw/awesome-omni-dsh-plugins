@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: gitruozhi-dsh-github-mcp
+name: dsh-github-mcp
+description:
+  en: "GitHub official MCP server bridge for DeepSeek Harness: registers mcp github native tools via @deepseek-ai/dsh-mcp-client, plus a github file read tool that reads file contents over REST (fills the gap where the MCP bridge discards resource content)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - github-mcp-server
+source:
+  repository: https://github.com/GitRuozhi/dsh-github-mcp
+  repositoryNodeId: R_kgDOT5P2fQ
+  subpath: null
+  commit: fb03257c4c0dcfe4fa97c1c693d4eacd9184127c
+creator:
+  github: GitRuozhi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:20.343Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
