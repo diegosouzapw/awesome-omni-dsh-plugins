@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: perrylink-dsh-skill-pack-security-provider
+name: "@perrylink/dsh-skill-pack-security-provider"
+description:
+  en: "Provider plugin for dsh-skill-pack-security: registers the pack's skills/ (zh) or skills-en/ (en) edition on ctx.skills AND the plugin vet supply-chain gate tool on ctx.tools (license/SBOM/commit-lock/malware scans + five-dimension risk card). Ships both skill editions embedded in pack/."
+  evidencePath: provider/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skill-pack
+  - skills
+  - security
+  - security-audit
+  - supply-chain
+source:
+  repository: https://github.com/PerryLink/dsh-skill-pack-security
+  repositoryNodeId: R_kgDOT3sihg
+  subpath: provider
+  commit: 6c1af73c4bea1258f151038dc0e0f1318c887ff5
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "@perrylink/dsh-skill-pack-security-provider"
+  version: 2.1.1
+  integrity: sha512-kfPVo86sfByh2s+QMtwPEoZmoF7g+HaY2mwu3sQnaZGXQzpYJIgmR0No/51DYFxWOQfIuyuIWkkCmxsZ2w2tHw==
+dsh:
+  profiles:
+    - default
+  evidencePath: provider/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:03.533Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
