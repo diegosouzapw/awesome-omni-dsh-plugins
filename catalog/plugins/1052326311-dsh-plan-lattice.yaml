@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 1052326311-dsh-plan-lattice
+name: dsh-plan-lattice
+description:
+  en: A stale-mutation firewall for long-running DeepSeek Harness agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent
+  - long-horizon
+  - planning
+  - context-engineering
+  - evidence
+  - dsh
+source:
+  repository: https://github.com/1052326311/dsh-plan-lattice
+  repositoryNodeId: R_kgDOT4rsJw
+  subpath: null
+  commit: ed22e2fba03f5da67d329034d5831f251a132799
+creator:
+  github: "1052326311"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:37.351Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
