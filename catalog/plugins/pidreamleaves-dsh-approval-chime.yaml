@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: pidreamleaves-dsh-approval-chime
+name: dsh-approval-chime
+description:
+  en: "DSH approval/completion chime: distinct sounds, an input-row badge, and system notifications (only while the page is hidden) for human-approval, question, and task-completion events."
+  evidencePath: packages/approval-chime/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - approval
+  - completion
+  - chime
+  - distinct
+  - sounds
+  - input
+  - badge
+  - system
+  - notifications
+  - only
+  - while
+  - page
+  - hidden
+  - human
+  - question
+  - task
+source:
+  repository: https://github.com/Pidreamleaves/dsh-pi-kit
+  repositoryNodeId: R_kgDOT5WMbQ
+  subpath: packages/approval-chime
+  commit: 1092e47a9e6e701b93f566286bb72f6873ba89e7
+creator:
+  github: Pidreamleaves
+package:
+  ecosystem: npm
+  name: dsh-approval-chime
+  version: 0.1.1
+  integrity: sha512-4Fb/rhRIWDoPeVxSRHYHAUxM0fa9Hmjh9rejpUj1wZlunw+R5A24cbx7DU5H0Kn715oK6I7PUH/ocnk2Qsc3fg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/approval-chime/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:56.664Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
