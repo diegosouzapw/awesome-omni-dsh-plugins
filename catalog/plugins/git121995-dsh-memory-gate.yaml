@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: git121995-dsh-memory-gate
+name: dsh-memory-gate
+description:
+  en: "Retrieved ≠ injected: CBDC-gated memory for DeepSeek Harness — decides how memory is USED (use/verify/ignore decisions, feedback learning, full audit); local SQLite + FTS5, bounded, no extra model call"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - memory
+  - memory-gate
+  - gate
+  - cbdc
+  - sqlite
+source:
+  repository: https://github.com/GIT121995/dsh-memory-gate
+  repositoryNodeId: R_kgDOT4NUYA
+  subpath: null
+  commit: 3dae08beec2595a6429a4c6a8fc82adffab13ee6
+creator:
+  github: GIT121995
+package:
+  ecosystem: npm
+  name: dsh-memory-gate
+  version: 0.11.1
+  integrity: sha512-sNvjjr2yy7VZPGNgZFw601IjId9t0aBBCUpRrwWt8FMo7TpfqL3w19PzhQYZZ7V1YyskxEnL20ck7edRBXJaZg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:36.162Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
