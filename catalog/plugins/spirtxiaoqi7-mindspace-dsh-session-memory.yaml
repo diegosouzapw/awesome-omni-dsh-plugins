@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: spirtxiaoqi7-mindspace-dsh-session-memory
+name: mindspace-dsh-session-memory
+description:
+  en: Editable, session-isolated personalization memory for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - memory
+  - agent-memory
+  - session-memory
+  - personalization
+  - roleplay
+  - dsh
+source:
+  repository: https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory
+  repositoryNodeId: R_kgDOT3vOPw
+  subpath: null
+  commit: c871303243b85f6d8dcd59232f07bbdd8dc9e526
+creator:
+  github: Spirtxiaoqi7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:25.387Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
