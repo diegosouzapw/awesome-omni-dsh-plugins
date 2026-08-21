@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jtdaugh-plugin
+name: "@dsh-cowork/plugin"
+description:
+  en: DSH Cowork — doc read / doc write tools for office documents and notebooks (xlsx, pdf, docx, pptx, ipynb) in DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - doc-read
+  - doc-write
+  - office-documents
+  - notebook
+source:
+  repository: https://github.com/Jesse-njx/dsh-cowork
+  repositoryNodeId: R_kgDOT3iSxQ
+  subpath: packages/dsh
+  commit: 2ae5cf755c4294a1e988eebf3b12dd062425d84c
+creator:
+  github: jtdaugh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:44.553Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
