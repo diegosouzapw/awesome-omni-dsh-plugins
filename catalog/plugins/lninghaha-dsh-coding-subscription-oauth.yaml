@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: lninghaha-dsh-coding-subscription-oauth
+name: dsh-coding-subscription-oauth
+description:
+  en: "DeepSeek Harness coding-subscription OAuth: SuperGrok/Grok Build, ChatGPT Plus Codex, Kimi Code, Claude Code. Fixes AUTH API key is invalid, INVALID REPLAY STATE, grok-4.6 xhigh, Kimi Bearer vs x-api-key."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - oauth
+  - grok-build
+  - super-grok
+  - grok-4-6
+  - cli-chat-proxy
+  - openai-codex
+  - chatgpt-plus
+  - kimi-code
+  - claude-code
+  - google-antigravity
+  - xhigh
+  - device-code
+  - dsh
+source:
+  repository: https://github.com/lninghaha/dsh-coding-subscription-oauth
+  repositoryNodeId: R_kgDOT527iA
+  subpath: null
+  commit: 2561be435732d82465d45bca9bbc721170831053
+creator:
+  github: lninghaha
+package:
+  ecosystem: npm
+  name: dsh-coding-subscription-oauth
+  version: 0.5.4
+  integrity: sha512-R05iuveaT4bq3R9JDwoLitDeKOPuxrVODewJtbU9ZwS+e+brOnovK3kk1W9IdCEFeIIGoMyL/natohy/f45YRA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:18.813Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
