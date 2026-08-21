@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: y2zyyr-debug-dsh-token-usage-sidebar
+name: "@y2zyyr/dsh-token-usage-sidebar"
+description:
+  en: Persistent Token Usage insights for DeepSeek Harness, backed by a scalable durable SQLite ledger.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - token-usage
+source:
+  repository: https://github.com/y2zyyr/dsh-token-usage-sidebar
+  repositoryNodeId: R_kgDOT53ZAA
+  subpath: null
+  commit: bcebd95cc494a0fa6aa59a71ed6bc6f621557c82
+creator:
+  github: y2zyyr-debug
+package:
+  ecosystem: npm
+  name: "@y2zyyr/dsh-token-usage-sidebar"
+  version: 1.1.2
+  integrity: sha512-w5C2pslbmmdqyKP9x7EVYY72aqtzyp+NHj+w4AkOysFuQWSqFrrf2UvGogMHVQTDpXJIXw6BIQUzB4BBHkN4BA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:20.251Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
