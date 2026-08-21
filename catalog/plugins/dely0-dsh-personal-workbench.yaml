@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: dely0-dsh-personal-workbench
+name: "@dely0/dsh-personal-workbench"
+description:
+  en: A personal workbench plugin for DeepSeek Harness (DSH) Web. Turn your DSH into a calendar + task list + AI assistant workbench .
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - workbench
+  - task-management
+  - calendar
+  - ai-agent
+source:
+  repository: https://github.com/Dely0/dsh-personal-workbench
+  repositoryNodeId: R_kgDOT5c12A
+  subpath: null
+  commit: 3cda91f6a1d6c235574b2e6994eb412d1abd5c2a
+creator:
+  github: Dely0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:15.636Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
