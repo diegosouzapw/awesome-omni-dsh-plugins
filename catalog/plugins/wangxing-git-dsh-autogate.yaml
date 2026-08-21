@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wangxing-git-dsh-autogate
+name: dsh-autogate
+description:
+  en: "Languages: 简体中文 · English (this page)"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - auto
+  - approval
+  - permission
+  - security
+source:
+  repository: https://github.com/wangxing-git/dsh-autogate
+  repositoryNodeId: R_kgDOT5aMgQ
+  subpath: null
+  commit: 22c2914d7b787e2a257072d9573855f09ef30250
+creator:
+  github: wangxing-git
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:11.986Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
