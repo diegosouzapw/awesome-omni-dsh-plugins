@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: alphagodzilla-dsh-gen-commit-msg-zh
+name: "@ag-dsh/dsh-gen-commit-msg-zh"
+description:
+  en: "DeepSeek Harness (DSH) plugin: generate a Chinese git commit message and commit interactively (slash command + skill)"
+  evidencePath: packages/gen-commit-msg-zh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - agent
+  - git
+  - commit-message
+  - commit
+source:
+  repository: https://github.com/AlphaGodzilla/ag-dsh-coding-plugins
+  repositoryNodeId: R_kgDOT4OPcQ
+  subpath: packages/gen-commit-msg-zh
+  commit: 5c9a78f999f32cd9cb49bd95d2ca4ad167999b54
+creator:
+  github: AlphaGodzilla
+package:
+  ecosystem: npm
+  name: "@ag-dsh/dsh-gen-commit-msg-zh"
+  version: 1.1.1
+  integrity: sha512-QY6snqVUD1fP7ILii8dWItbla8x06GLAffaxwWo5EkgfsjpeGBudv/ZttUzgX7NskFpbCsdKEhmVdKTGX4/zCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/gen-commit-msg-zh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:42.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
