@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: haoku123-dsh-voice
+name: "@haoku123/dsh-voice"
+description:
+  en: "Full-duplex voice mode for DeepSeek Harness: streamed ASR - LLM - TTS with barge-in"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - full
+  - duplex
+  - voice
+  - mode
+  - streamed
+  - barge
+  - dsh
+source:
+  repository: https://github.com/haoku123/dsh-voice
+  repositoryNodeId: R_kgDOT5NOyw
+  subpath: null
+  commit: edccb0133766c3cde26ef5ee9b91c2388e8507e8
+creator:
+  github: haoku123
+package:
+  ecosystem: npm
+  name: "@haoku123/dsh-voice"
+  version: 0.7.0
+  integrity: sha512-MXTgcKEUwW0aeN+aKHj5+nWNwp7Grh6zATchVpJBTOzVL5+mPxqDJeNve2ia4pnMNU+6JjeWAGuPieMEVHLH3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:29.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
