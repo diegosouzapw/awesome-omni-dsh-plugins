@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yangzhe1003-dsh-web-search-firecrawl
+name: "@elves-ai/dsh-web-search-firecrawl"
+description:
+  en: Firecrawl-backed search provider for the DeepSeek Harness web capability seam (ctx.web)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - ai-agents
+  - cordis
+  - dsh-plugin
+  - firecrawl
+source:
+  repository: https://github.com/elves-ai/dsh-web-search-firecrawl
+  repositoryNodeId: R_kgDOT6ouTw
+  subpath: null
+  commit: 0a86de7809e8275239786b793d6ff417c0a61d44
+creator:
+  github: yangzhe1003
+package:
+  ecosystem: npm
+  name: "@elves-ai/dsh-web-search-firecrawl"
+  version: 1.0.0
+  integrity: sha512-4DHxdHWxXjzZ0ExErTjpOTT6m17GQSm0FIzD0GJBATTG+YOf0FBA8FVmkCONaH4RyKkymUEAmcd4SPvY7Gv1EQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:17.188Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
