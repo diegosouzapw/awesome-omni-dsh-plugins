@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 82c86b8z86-stack-dsh-engineering-workflow
+name: dsh-engineering-workflow
+description:
+  en: "Engineering workflow layer for DeepSeek Harness (dsh): a disciplined-engineer agent preset with five gated phases — requirements clarification, plan approval, TDD implementation, parallel subagent execution, and verified finishing. Skills adapted from the obra/superpowers workflow methodology."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - deepseek-harness
+  - agent-preset
+  - skills
+  - workflow
+  - tdd
+  - subagents
+  - engineering
+source:
+  repository: https://github.com/82c86b8z86-stack/dsh-engineering-workflow
+  repositoryNodeId: R_kgDOT6GRfQ
+  subpath: null
+  commit: 3e251eb78002625bcc238a42d9926d87c3a38bfe
+creator:
+  github: 82c86b8z86-stack
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:00.178Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
