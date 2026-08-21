@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-remctrl
+name: "@omdsh-plugins/omdsh-remctrl"
+description:
+  en: "Remote control for the DeepSeek Harness: puts its own interface on a public address behind a passcode, over a cloudflared tunnel by default, so the window you reach from a phone is the window you left open"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - remote
+  - control
+  - puts
+  - interface
+  - public
+  - address
+  - behind
+  - passcode
+  - over
+  - cloudflared
+  - tunnel
+  - default
+  - window
+  - reach
+  - phone
+  - left
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-remctrl
+  repositoryNodeId: R_kgDOT5uqYA
+  subpath: null
+  commit: 2db97e0cb228b0ee84c7601074e48ebbc168096b
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:40.939Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
