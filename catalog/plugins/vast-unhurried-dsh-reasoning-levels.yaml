@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: vast-unhurried-dsh-reasoning-levels
+name: dsh-reasoning-levels
+description:
+  en: "A collection of purely incremental native plugins for DeepSeek Harness: sticky notes , API balance & per-turn cost , reasoning levels , and session deletion ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - collection
+  - purely
+  - incremental
+  - native
+  - sticky
+  - notes
+  - balance
+  - turn
+  - cost
+  - reasoning
+  - levels
+  - session
+  - deletion
+  - dsh
+source:
+  repository: https://github.com/Vast-Unhurried/dsh-toolkit
+  repositoryNodeId: R_kgDOT5-XIg
+  subpath: packages/dsh-reasoning-levels
+  commit: 3ad39c183fbe3d615c727c086e5cd016f6ac54ba
+creator:
+  github: Vast-Unhurried
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-reasoning-levels/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:51.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
