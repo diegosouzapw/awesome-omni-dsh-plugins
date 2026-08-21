@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-click
+name: dsh-click
+description:
+  en: "Cross-platform native desktop control tools for DeepSeek Harness (Windows first): screen shot, screen read (accessibility tree + pixel description for text-only models), click/type/scroll/key, and app list/app launch — every mutating action gated by approval, never stealing foreground focus, with stale-observation reje"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - computer-use
+  - windows-automation
+  - uiautomation
+  - desktop-control
+  - screen-reader
+source:
+  repository: https://github.com/PerryLink/dsh-click
+  repositoryNodeId: R_kgDOT6KXFg
+  subpath: null
+  commit: 81f7e2d7d60e26b7b451c6ebb9b07a5b873393b1
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-click
+  version: 0.1.1
+  integrity: sha512-feMWw1v9RBW82P/bceyLs0WusEbiQx6n0oPrDb+IWHXNT3605tbyDWJIrsSMSHtowihhZQToUo8s34Dk4u2Hhg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:57.419Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
