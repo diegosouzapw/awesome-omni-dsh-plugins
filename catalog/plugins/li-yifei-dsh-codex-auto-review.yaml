@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: li-yifei-dsh-codex-auto-review
+name: "@li-yifei/dsh-codex-auto-review"
+description:
+  en: Per-session Auto Review for DSH using a user-provided Codex subscription bridge
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - session
+  - auto
+  - review
+  - user
+  - provided
+  - codex
+  - subscription
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/li-yifei/dsh-codex-auto-review
+  repositoryNodeId: R_kgDOT4d6jQ
+  subpath: null
+  commit: 4ae639bb94ac8c2645c204c80d3ca8f124b271ba
+creator:
+  github: li-yifei
+package:
+  ecosystem: npm
+  name: "@li-yifei/dsh-codex-auto-review"
+  version: 0.1.0-rc.10
+  integrity: sha512-UPaI3EU1aThPh+0Y+N+kBZq9n8ylhNHV+q8XrZTDmGLtuOB3b43Ond5ggRMk0bRmlJAYU+M4hC0OyBq/Ja9kwg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:46.345Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
