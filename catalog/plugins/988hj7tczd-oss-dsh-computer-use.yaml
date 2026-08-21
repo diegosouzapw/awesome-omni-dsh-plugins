@@ -13,9 +13,6 @@ tags:
   - cua-driver
   - harness-desktop
   - autopilot
-  - bash
-  - install
-  - uninstall
 source:
   repository: https://github.com/988hj7tczd-oss/dsh-computer-use
   repositoryNodeId: R_kgDOT5YX8A
@@ -38,7 +35,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:35.868Z
+  checkedAt: 2026-08-21T02:07:44.958Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
