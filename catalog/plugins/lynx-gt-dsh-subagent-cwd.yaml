@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lynx-gt-dsh-subagent-cwd
+name: dsh-subagent-cwd
+description:
+  en: "Enhanced subagent delegation tools for DeepSeek Harness with per-call cwd control: everything in dsh-subagent-tools plus a cwd parameter, shipped with the two in-process provider patches it requires."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - delegation
+  - cwd
+source:
+  repository: https://github.com/lynx-gt/dsh-subagent-cwd
+  repositoryNodeId: R_kgDOT36g9g
+  subpath: null
+  commit: 2b2552e0b762aef8a2e5490a18d118018dc1e469
+creator:
+  github: lynx-gt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:13.504Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
