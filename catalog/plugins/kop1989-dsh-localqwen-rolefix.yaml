@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: kop1989-dsh-localqwen-rolefix
+name: dsh-localqwen-rolefix
+description:
+  en: 'DSH (DeepSeek Harness) profile plugin: keep pi-ai from sending role "developer" to local SGLang/vLLM Qwen servers (400 Unexpected message role).'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - keep
+  - sending
+  - role
+  - developer
+  - local
+  - sglang
+  - vllm
+  - qwen
+  - servers
+  - unexpected
+  - message
+  - dsh
+source:
+  repository: https://github.com/kop1989/dsh-localqwen-rolefix
+  repositoryNodeId: R_kgDOT6-jIA
+  subpath: null
+  commit: 40eecea6e9f7321cfe3e06234ef8700926b71b5d
+creator:
+  github: kop1989
+package:
+  ecosystem: npm
+  name: dsh-localqwen-rolefix
+  version: 1.0.2
+  integrity: sha512-HDNc+YinzGrmy5Ie3Gst5eSOxzUR0qE+z6XtjOiwz59IgtDQTDdMabKaXJ3kAAfmrltLk4cR3w9tE6xq3Ae4Ig==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:44.001Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
