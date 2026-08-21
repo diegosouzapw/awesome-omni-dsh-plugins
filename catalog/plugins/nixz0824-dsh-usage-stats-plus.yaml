@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: nixz0824-dsh-usage-stats-plus
+name: dsh-usage-stats-plus
+description:
+  en: Fork of Ychris12138/dsh-usage-stats (MIT), based on v0.2.0.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - token-usage
+  - balance
+  - usage-stats
+  - cost
+source:
+  repository: https://github.com/Nixz0824/dsh-usage-stats-plus
+  repositoryNodeId: R_kgDOT69gIQ
+  subpath: null
+  commit: 5c6c8129365e4a3bb4feaac98adddc6cce073f51
+creator:
+  github: Nixz0824
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:32.800Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
