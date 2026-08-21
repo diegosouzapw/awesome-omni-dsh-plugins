@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yuhui-sama-dsh-agentsoul
+name: "@agentsoul/dsh-agentsoul"
+description:
+  en: AgentSoul for DeepSeek Harness — a local personality, identity, state and long-term memory layer. Auto-loads as a bundle plugin on every dsh startup.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - agentsoul
+  - local
+  - personality
+  - identity
+  - state
+  - long
+  - term
+  - memory
+  - layer
+  - auto
+  - loads
+  - bundle
+  - every
+  - startup
+  - dsh
+source:
+  repository: https://github.com/yuhui-sama/dsh-agentsoul
+  repositoryNodeId: R_kgDOT4gFBg
+  subpath: null
+  commit: 9cea3cfabeb9bfe2d9595c72020deadf8d77cfea
+creator:
+  github: yuhui-sama
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:55.985Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
