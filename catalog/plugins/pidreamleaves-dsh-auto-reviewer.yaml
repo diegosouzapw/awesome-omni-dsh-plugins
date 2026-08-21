@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: pidreamleaves-dsh-auto-reviewer
+name: dsh-auto-reviewer
+description:
+  en: "DSH sandbox-permission auto-review gate: three-layer funnel, lightweight reviewer model, retry with human fallback."
+  evidencePath: packages/auto-review/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - sandbox
+  - permission
+  - auto
+  - review
+  - gate
+  - three
+  - layer
+  - funnel
+  - lightweight
+  - reviewer
+  - model
+  - retry
+  - human
+  - fallback
+  - dsh
+source:
+  repository: https://github.com/Pidreamleaves/dsh-pi-kit
+  repositoryNodeId: R_kgDOT5WMbQ
+  subpath: packages/auto-review
+  commit: 1092e47a9e6e701b93f566286bb72f6873ba89e7
+creator:
+  github: Pidreamleaves
+package:
+  ecosystem: npm
+  name: dsh-auto-reviewer
+  version: 0.1.0
+  integrity: sha512-PSP2D6ze5HYhRqSecUZIAnjoYeZcNyzkYKYHb7HTnLdOCSvfXuzBVPq2jEfWBhW0/4LLfqdrFcqQG+0VmLAhKw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/auto-review/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:56.664Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
