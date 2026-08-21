@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: why-daydream-dsh-tool-transaction
+name: "@why-daydream/dsh-tool-transaction"
+description:
+  en: "Saga-style compensating transactions for DeepSeek Harness: transactional tool/step execution with reverse-order compensation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - saga
+  - style
+  - compensating
+  - transactions
+  - transactional
+  - tool
+  - step
+  - execution
+  - reverse
+  - order
+  - compensation
+  - dsh
+source:
+  repository: https://github.com/WHY-Daydream/dsh-tool-transaction
+  repositoryNodeId: R_kgDOT6ANcw
+  subpath: null
+  commit: 3cb93915ad077bb144d176ca210e13033dda77b2
+creator:
+  github: WHY-Daydream
+package:
+  ecosystem: npm
+  name: "@why-daydream/dsh-tool-transaction"
+  version: 0.1.0
+  integrity: sha512-nQpn6giWzs3zIypPhYHcWxGk3uZ0PSjswPBJcjZMsnhP+dvU7CXUlH+P7VRGrwFyhgGoAggU3ASKxKh4F4R8bA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:01.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
