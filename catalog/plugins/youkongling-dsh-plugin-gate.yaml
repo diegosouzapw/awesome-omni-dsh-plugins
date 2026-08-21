@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: youkongling-dsh-plugin-gate
+name: dsh-plugin-gate
+description:
+  en: DSH plugin installation gate ported from Codex safe materialization and Claude Code marketplace validation/policy scanning
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - security
+  - supply-chain
+  - gate
+source:
+  repository: https://github.com/youkongling/dsh-plugin-gate
+  repositoryNodeId: R_kgDOT6Ehog
+  subpath: null
+  commit: ce061bb6466d8ed84fc8ac525475411c21ac9647
+creator:
+  github: youkongling
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:29.511Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
