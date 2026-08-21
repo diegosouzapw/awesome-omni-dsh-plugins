@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: waynejin0918-dsh-wm
+name: dsh-wm
+description:
+  en: "Playable world-model toolkit for DeepSeek Harness: look at frames, compare pred vs GT, watch the action track, name the 3D / pixel / latent route, and RSI the research loop."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - world-model
+  - knowledge
+  - rsi
+  - research
+  - ssim
+  - rollout
+  - pixel
+  - latent
+  - 3d
+  - video-generation
+source:
+  repository: https://github.com/WayneJin0918/dsh-wm
+  repositoryNodeId: R_kgDOT6n8nA
+  subpath: null
+  commit: cd06866a638b1dcc80defa6d674ff3470ff0ad31
+creator:
+  github: WayneJin0918
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:30.898Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
