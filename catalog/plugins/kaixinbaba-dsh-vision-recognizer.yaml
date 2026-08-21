@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: kaixinbaba-dsh-vision-recognizer
+name: dsh-vision-recognizer
+description:
+  en: "DeepSeek Harness image recognition plugin: keep DeepSeek as the conversation brain while a configurable vision model (15+ providers, OpenAI-compatible + Anthropic) transcribes attached images. Configurable from Settings → Plugins."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - multimodal
+  - image
+  - image-understanding
+  - ocr
+  - vlm
+  - qwen
+  - dashscope
+  - openai
+  - anthropic
+  - gemini
+  - zhipu
+  - ollama
+source:
+  repository: https://github.com/kaixinbaba/dsh-vision-recognizer
+  repositoryNodeId: R_kgDOT43BKQ
+  subpath: null
+  commit: e25e5b7b685605178f86910b98c49cbb0b88ef1a
+creator:
+  github: kaixinbaba
+package:
+  ecosystem: npm
+  name: dsh-vision-recognizer
+  version: 0.1.2
+  integrity: sha512-G7LpbAU4G8Lx7tFVCi5WebPGF61ZE5XOeDnUvKC7VFP/wJIt4tR8QcDDDpWuFN38dldEz2JZfi95ef43hUJwOA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:01.402Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
