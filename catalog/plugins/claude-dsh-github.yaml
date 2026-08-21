@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: claude-dsh-github
+name: dsh-github
+description:
+  en: Abstract GitHub capability seam (ctx.github) for the DeepSeek Harness — provider registry, execution-time resolution, normalized read/write vocabulary, seam-enforced diff budgets, and the GitHubError taxonomy
+  evidencePath: packages/github/github/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - abstract
+  - capability
+  - seam
+  - provider
+  - registry
+  - execution
+  - time
+  - resolution
+  - normalized
+  - read
+  - write
+  - vocabulary
+  - enforced
+  - diff
+  - budgets
+  - githuberror
+source:
+  repository: https://github.com/kaziii/dsh-github-connector
+  repositoryNodeId: R_kgDOT3ijLg
+  subpath: packages/github/github
+  commit: 34117bfad325e47a30c5146d4b7c2421d07594b5
+creator:
+  github: claude
+package:
+  ecosystem: npm
+  name: dsh-github
+  version: 0.1.0
+  integrity: sha512-HVEFaRGRIBxvExyuE8nh2/ndUpw+8Zg+kL00BVsd8DIuly4Pa4gTRJ+SudtC+rGnYzVqKgL63wp3Jnzkh7Ym+g==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/github/github/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:02.937Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
