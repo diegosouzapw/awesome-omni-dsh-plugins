@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tingyang266-dsh-logistics-tracker
+name: dsh-logistics-tracker
+description:
+  en: 把密钥写进 $DSH HOME/.credentials.yaml （Windows 默认 C:\Users\<你 \.dsh\.credentials.yaml ）：
+  evidencePath: dsh-logistics-tracker/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - logistics
+  - express
+  - tracking
+  - kuaidi
+  - kuaidi100
+  - kdniao
+source:
+  repository: https://github.com/tingyang266/dsh-logistics-tracker
+  repositoryNodeId: R_kgDOT5IxNA
+  subpath: dsh-logistics-tracker
+  commit: 1d9157831ed63ebf5a10fac28c682484b128dd26
+creator:
+  github: tingyang266
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-logistics-tracker/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:39.260Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
