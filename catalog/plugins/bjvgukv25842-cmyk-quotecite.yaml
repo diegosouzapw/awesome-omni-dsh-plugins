@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: bjvgukv25842-cmyk-quotecite
+name: quotecite
+description:
+  en: https://github.com/user-attachments/assets/89fb0a27-1f38-48f6-8341-317b6d1f42bc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - quotable
+  - quotecite
+  - quote
+  - citation
+  - context-engineering
+  - user
+  - attachments
+  - assets
+  - 89fb0a27
+  - 1f38
+  - 48f6
+  - "8341"
+  - 317b6d1f42bc
+source:
+  repository: https://github.com/bjvgukv25842-cmyk/Quotable-DeepSeek-Harness
+  repositoryNodeId: R_kgDOT5s5SA
+  subpath: null
+  commit: 613bcf8ff08accd1bd2e1ab8f6febc3667180572
+creator:
+  github: bjvgukv25842-cmyk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:39.172Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
