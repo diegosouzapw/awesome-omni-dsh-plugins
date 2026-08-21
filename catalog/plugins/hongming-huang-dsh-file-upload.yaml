@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: hongming-huang-dsh-file-upload
+name: dsh-file-upload
+description:
+  en: "DeepSeek Harness dual-face plugin: Codex-style file references (@path), fully bundled document→Markdown (MarkItDown engine, 20+ formats), mature image handling (read image for multimodal routes, automatic vision descriptions for text-only models), read document tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - cordis
+  - upload
+  - drag-and-drop
+  - attachment
+  - markdown
+  - markitdown
+  - pdf
+  - docx
+  - xlsx
+source:
+  repository: https://github.com/HongMing-Huang/dsh-file-upload
+  repositoryNodeId: R_kgDOT5FImQ
+  subpath: null
+  commit: 0c86706305f40fd05e2c8dbf7853ac0bdcf7bcde
+creator:
+  github: HongMing-Huang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:11.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
