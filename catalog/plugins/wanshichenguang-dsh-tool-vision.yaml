@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wanshichenguang-dsh-tool-vision
+name: dsh-tool-vision
+description:
+  en: "DeepSeek Harness plugin: model-facing image describe (识图) tool over the DashScope OpenAI-compatible API (qwen3.7-flash), plus a paste bridge that turns pasted images into file paths on text-only sessions and renders them back in the transcript. Bring your own DASHSCOPE API KEY."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - qwen
+  - dashscope
+  - image
+  - paste
+source:
+  repository: https://github.com/wanshichenguang/dsh-tool-vision
+  repositoryNodeId: R_kgDOT6B01Q
+  subpath: null
+  commit: bb8f60f67285a6293615d3c75c413ed797620e5e
+creator:
+  github: wanshichenguang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:13.717Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
