@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: physicolor-harness-widgets
+name: harness-widgets
+description:
+  en: "Right-hand widget rail for DeepSeek Harness Web UI: live session stats (turns, LLM/tool time, TTFT, speed, cache hit, tokens) plus OpenCode Go quota (rolling/weekly/monthly) proxied by a same-origin host route; an extensible widget registry as the base for more platform usage widgets, visuals, utility actions and exter"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - right
+  - hand
+  - widget
+  - rail
+  - live
+  - session
+  - stats
+  - turns
+  - tool
+  - time
+  - ttft
+  - speed
+  - cache
+  - tokens
+  - plus
+  - opencode
+source:
+  repository: https://github.com/Physicolor/harness-widgets
+  repositoryNodeId: R_kgDOT5Kptg
+  subpath: null
+  commit: 4a2a591b7be1ed804c002996d090d233ded934c0
+creator:
+  github: Physicolor
+package:
+  ecosystem: npm
+  name: harness-widgets
+  version: 0.2.3
+  integrity: sha512-qT2mtb3RxAt5p6HliK9M4VTWZyFTyT+rixPLAzmXVLHKiKQYaiApKqkNkaKmzdgJTJKcJOjvK05gZ8uFCB9Dsw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:32.985Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
