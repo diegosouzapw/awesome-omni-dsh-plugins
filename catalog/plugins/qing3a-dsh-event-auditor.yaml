@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: qing3a-dsh-event-auditor
+name: "@qing3a/dsh-event-auditor"
+description:
+  en: bash dsh plugin --profile <profile add @qing3a/dsh-event-auditor dsh --profile <profile
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - audit
+  - events
+source:
+  repository: https://github.com/qing3a/dsh-event-auditor
+  repositoryNodeId: R_kgDOT3l83Q
+  subpath: null
+  commit: 4c533668186a6dadb804b839a0e1b90b69fdabb2
+creator:
+  github: qing3a
+package:
+  ecosystem: npm
+  name: "@qing3a/dsh-event-auditor"
+  version: 0.1.0
+  integrity: sha512-ZfKc2Ej0PWqMmXYFvZsk+fnkvd/w9v5ZcgQFFavxPO6u/nS0MyJzGUFHB4xQUbaz+FwAcnCCihHoi+e8noKIUQ==
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:59.710Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
