@@ -79,7 +79,10 @@ Never submit credentials, cookies, private email addresses, unpublished source o
 ## YAML and schema rules
 
 Create `catalog/plugins/<plugin-id>.yaml` and validate it against
-[`schemas/plugin.schema.yaml`](schemas/plugin.schema.yaml). The schema is the source of truth for
+[`schemas/plugin.schema.yaml`](schemas/plugin.schema.yaml). The `id` must equal the file's
+basename and must start with your namespace: your `creator.github` handle lowercased (any run
+of characters outside `[a-z0-9]` becomes a single `-`) followed by `-`, for example
+`some-creator-my-plugin` for the handle `Some-Creator`. Catalog validation enforces both. The schema is the source of truth for
 field names and allowed values; [docs/CATEGORIES.md](docs/CATEGORIES.md) defines how to choose the
 single artifact kind, primary category, tags and repository scope.
 
