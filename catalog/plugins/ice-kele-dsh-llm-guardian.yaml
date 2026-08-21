@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ice-kele-dsh-llm-guardian
+name: dsh-llm-guardian
+description:
+  en: Provider health, quota, account usage, and local model usage statistics for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - llm
+  - provider-health
+  - token-usage
+  - dsh
+source:
+  repository: https://github.com/ice-kele/dsh-llm-guardian
+  repositoryNodeId: R_kgDOT6TAHw
+  subpath: null
+  commit: 32db0da4d418a469f625b84582bcf9d93f64fd4f
+creator:
+  github: ice-kele
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:37.305Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
