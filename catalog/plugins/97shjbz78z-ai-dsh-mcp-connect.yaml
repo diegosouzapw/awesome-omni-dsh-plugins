@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 97shjbz78z-ai-dsh-mcp-connect
+name: dsh-mcp-connect
+description:
+  en: "Zero-dependency MCP client bridge for DeepSeek Harness: connects stdio/HTTP MCP servers and auto-registers their tools for the agent."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - mcp
+  - model-context-protocol
+  - cordis
+  - agent
+  - tools
+source:
+  repository: https://github.com/Chhlafiu4312/dsh-mcp-bridge
+  repositoryNodeId: R_kgDOT54SOA
+  subpath: null
+  commit: 0e04cd340031f3c46c3bd889e5eac90aa2afd013
+creator:
+  github: 97shjbz78z-ai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:12.666Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
