@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wwumit-dsh-compliancehub
+name: "@wwumit/dsh-compliancehub"
+description:
+  en: "Compliance skill hub provider for DeepSeek Harness: install cross-border compliance skills (CCPA/GDPR/COPPA/HIPAA x check/guard/compliance, 9 skills) from a line-level JSON catalog via ctx.skills (list/get), with DISCLOSURE v0.2 open-data-layer disclosure."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - skills
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/wwumit/dsh-compliancehub
+  repositoryNodeId: R_kgDOT526Eg
+  subpath: null
+  commit: 8dee3ea589021f3cbd80277a081b73c5255c8505
+creator:
+  github: wwumit
+package:
+  ecosystem: npm
+  name: "@wwumit/dsh-compliancehub"
+  version: 1.1.1
+  integrity: sha512-+TFdaEmPmHyb7KaxPVhAp+AGIyPVpUAMGEY7CtnDpDfyYiu09+jle7LNq/tDxwoKWNbRfOUHzPJykI71BOhoXg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:17.607Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
