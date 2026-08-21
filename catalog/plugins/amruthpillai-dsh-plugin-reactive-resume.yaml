@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: amruthpillai-dsh-plugin-reactive-resume
+name: dsh-plugin-reactive-resume
+description:
+  en: "DeepSeek Harness plugin for Reactive Resume: bridges your resumes and job applications into a Harness session over MCP."
+  evidencePath: packages/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - reactive-resume
+  - resume
+  - dsh
+source:
+  repository: https://github.com/amruthpillai/reactive-resume
+  repositoryNodeId: MDEwOlJlcG9zaXRvcnkyNDk5OTU3NTA=
+  subpath: packages/dsh-plugin
+  commit: dbbab6fd7610cf1472d0e0377fc0e966faf7acda
+creator:
+  github: amruthpillai
+package:
+  ecosystem: npm
+  name: dsh-plugin-reactive-resume
+  version: 0.1.0
+  integrity: sha512-nhScwrk4MnQHXy1bCE63oT/gmeIAvuvrAI+Opf8EKVZNl13LApQOs9GsrJv8ZD4DV8lpTUE5rMwpSkG+o3dV5w==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:50.127Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
