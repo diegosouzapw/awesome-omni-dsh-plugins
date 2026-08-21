@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-firecrawl
+name: dsh-firecrawl
+description:
+  en: "Firecrawl bridge for DeepSeek Harness: scrape URLs to LLM-ready Markdown and search the web via the Firecrawl Cloud API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - firecrawl
+  - scrape
+  - web-search
+  - agent
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-firecrawl
+  repositoryNodeId: R_kgDOT69DZg
+  subpath: null
+  commit: e3b2cee2f54da826982a423b627345c96131cf43
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-firecrawl
+  version: 0.1.0
+  integrity: sha512-3ZwNjXKXxTySromCVx/56bAANt8j9Oer77PbfHQEhlGiDWGLnRaLLxEC2l5NF97tgGXN8CH54+0dpRqY68ZvjQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:47.737Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
