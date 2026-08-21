@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: anil-matcha-dsh-plugin-muapi
+name: "@dsh-plugin/dsh-plugin-muapi"
+description:
+  en: DeepSeek Harness plugin that exposes MuApi's 100+ image, video, and audio generation models as an agent tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - muapi
+  - image-generation
+  - video-generation
+  - text-to-image
+  - text-to-video
+source:
+  repository: https://github.com/SamurAIGPT/dsh-plugin-muapi
+  repositoryNodeId: R_kgDOT60k_w
+  subpath: null
+  commit: 31c5a7a278634c5d3f6c5a5e4ab4f859ebd75b1d
+creator:
+  github: Anil-matcha
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:38.969Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
