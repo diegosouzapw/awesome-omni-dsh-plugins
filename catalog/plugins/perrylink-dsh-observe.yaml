@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: perrylink-dsh-observe
+name: dsh-observe
+description:
+  en: "OpenTelemetry and Langfuse observability exporter for DeepSeek Harness: turn/step/tool/LLM spans, token and cost metrics, and sanitized LLM prompt/completion capture from the session/event stream, with async batching, bounded offline buffering, and retry with backoff."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - opentelemetry
+  - otel
+  - otlp
+  - langfuse
+  - observability
+  - tracing
+  - metrics
+  - llm-observability
+source:
+  repository: https://github.com/PerryLink/dsh-observe
+  repositoryNodeId: R_kgDOT6P-4w
+  subpath: null
+  commit: 7abd040eab058e5aae12dd74354b66333150ba4e
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-observe
+  version: 0.1.1
+  integrity: sha512-+eoFIpQvv664AVZmeFwkTbt4rvFsaXqwIVOchOziMcUfEbcKpK5d4HrTDxNdL7ahjMqD2f9CTMJbhYRQxu5l9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:02.027Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
