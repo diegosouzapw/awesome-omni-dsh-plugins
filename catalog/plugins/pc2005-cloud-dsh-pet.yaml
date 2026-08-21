@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: pc2005-cloud-dsh-pet
+name: dsh-pet
+description:
+  en: "A floating desktop pet for the DeepSeek Harness Web UI: idle breathing, occasional direction turns, random actions, and screen wandering."
+  evidencePath: dsh-pet/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+  - pet
+  - floating-widget
+  - web-ui
+  - cordis
+  - react
+source:
+  repository: https://github.com/PC2005-cloud/dsh-pet
+  repositoryNodeId: R_kgDOT33qtw
+  subpath: dsh-pet
+  commit: 815c0f556911fbc95b96d347c71d714e4debd922
+creator:
+  github: PC2005-cloud
+package:
+  ecosystem: npm
+  name: dsh-pet
+  version: 0.1.4
+  integrity: sha512-22a8u67kya/Zf/Qu6QYZnPj+Jx6BBoL+U7i0YJeEawUVBkxBzwv+aC+BnDc6THEPH0fQUVKX74DzFwZeGBDp+g==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-pet/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:55.930Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
