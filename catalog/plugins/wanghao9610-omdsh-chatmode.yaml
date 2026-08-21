@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-chatmode
+name: "@omdsh-plugins/omdsh-chatmode"
+description:
+  en: "Chat mode for the DeepSeek Harness web GUI: a Chat/Work switch above the conversation, and the managed Chat workspace its conversations are kept in, so a question that is not about a project does not need one"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - chat
+  - mode
+  - work
+  - switch
+  - above
+  - conversation
+  - managed
+  - workspace
+  - conversations
+  - kept
+  - question
+  - about
+  - does
+  - need
+  - dsh
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-chatmode
+  repositoryNodeId: R_kgDOT5upfA
+  subpath: null
+  commit: 378d7f64b9f90080bcef761c09c9ff8d103d9439
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:52.229Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
