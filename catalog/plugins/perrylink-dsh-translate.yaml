@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-translate
+name: dsh-translate
+description:
+  en: "Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: the /translate command maps temperature/top p/max tokens/stop/system across 11 vendors, and the tools/post-execute repair layer (plus the fix json tool) fixes broken JSON tool output with escape repair, trailing-comma removal, truncation c"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - json-repair
+  - schema-validation
+  - parameter-mapping
+  - llm-api
+  - tooling
+source:
+  repository: https://github.com/PerryLink/dsh-translate
+  repositoryNodeId: R_kgDOT6P5-g
+  subpath: null
+  commit: 88c3b3ec200373cc65173d76cde280852d0bdab0
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-translate
+  version: 0.1.0
+  integrity: sha512-+EZFOSGouHGGD2t+5N4Q+D5bspuA3C4Cz7QaPRKWHeAjsBUsYHqGzySOou1EigeYgPPeEKBzKTx4CJHhDq/mew==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:07.135Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
