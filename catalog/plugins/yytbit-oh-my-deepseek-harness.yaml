@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yytbit-oh-my-deepseek-harness
+name: oh-my-deepseek-harness
+description:
+  en: Multi-agent orchestration for DeepSeek Harness -- specialized agents, task orchestration, workflow skills
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - multi-agent
+  - orchestration
+  - autopilot
+  - oh-my
+  - dsh
+source:
+  repository: https://github.com/YYTbit/oh-my-deepseek-harness
+  repositoryNodeId: R_kgDOT4fwWA
+  subpath: null
+  commit: 1b2da9a3c3dd02475721e8fcdd5b44712e730201
+creator:
+  github: YYTbit
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:35.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
