@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: why-daydream-dsh-chaos
+name: "@why-daydream/dsh-chaos"
+description:
+  en: "Fault injection and chaos engineering plugin for DeepSeek Harness: inject latency, timeouts, HTTP errors, malformed/dropped tool results, and LLM provider failures"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - fault
+  - injection
+  - chaos
+  - engineering
+  - inject
+  - latency
+  - timeouts
+  - errors
+  - malformed
+  - dropped
+  - tool
+  - results
+  - provider
+  - failures
+  - dsh
+source:
+  repository: https://github.com/WHY-Daydream/dsh-chaos
+  repositoryNodeId: R_kgDOT59RUQ
+  subpath: null
+  commit: c627991d6000fa70f66cc78917921c4d4af7b9fd
+creator:
+  github: WHY-Daydream
+package:
+  ecosystem: npm
+  name: "@why-daydream/dsh-chaos"
+  version: 0.1.0
+  integrity: sha512-uL5yBD/e2qxRDd3pZJlTwus1nR8ziafl9r6L378VYf9LukrEa4v9ydzAH6LDYAHtfWJfDZpoFOqUDXU0TpGULA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:00.213Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
