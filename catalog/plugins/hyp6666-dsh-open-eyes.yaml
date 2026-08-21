@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: hyp6666-dsh-open-eyes
+name: dsh-open-eyes
+description:
+  en: A lightweight DeepSeek Harness vision delegation tool for text-only routes, with native OpenAI Responses, Chat Completions, and Anthropic Messages adapters.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - multimodal
+  - tool-plugin
+  - openai-responses
+  - openai
+  - anthropic
+  - typescript
+  - dsh
+source:
+  repository: https://github.com/hyper-dsh-plugins/dsh-open-eyes
+  repositoryNodeId: R_kgDOT5COcA
+  subpath: null
+  commit: 390e2305798dd6fcec9897fdc8414ed3753f01a3
+creator:
+  github: Hyp6666
+package:
+  ecosystem: npm
+  name: dsh-open-eyes
+  version: 0.1.0
+  integrity: sha512-9istiQVu6fAsu8XcjZ3dqzTHt6PKqafDwwjrb3Lj1Qm6Ul9YzfLBlETjSFPBgzt0ao6tNLyGmyAxadVM1igWAg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:01.838Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
