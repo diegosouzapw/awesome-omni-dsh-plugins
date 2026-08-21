@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yflmq001-dsh-cost-tracker
+name: dsh-cost-tracker
+description:
+  en: Token cost tracking with per-model configurable pricing and peak/off-peak rates for the DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - token
+  - cost
+  - tracking
+  - model
+  - configurable
+  - pricing
+  - peak
+  - rates
+  - dsh
+source:
+  repository: https://github.com/yflmq001/dsh-cost-tracker
+  repositoryNodeId: R_kgDOT4D0qw
+  subpath: null
+  commit: dd8c57ce76d914eb72dd44544e7492f12d3ef105
+creator:
+  github: yflmq001
+package:
+  ecosystem: npm
+  name: dsh-cost-tracker
+  version: 1.0.0
+  integrity: sha512-R5NwiTHUwEfvGC9tCZCEZLf7tMIlPYnBIKGsniI3HD/kWOOVhmEABOT5xGAXD6flIS4y/cD7z76/m5Px75TF5A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:54.582Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
