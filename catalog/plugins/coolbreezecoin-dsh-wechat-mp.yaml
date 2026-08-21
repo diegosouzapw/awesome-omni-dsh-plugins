@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: coolbreezecoin-dsh-wechat-mp
+name: dsh-wechat-mp
+description:
+  en: "DeepSeek Harness plugin: turn markdown into a typeset WeChat Official Account draft."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - wechat
+  - markdown
+  - dsh
+source:
+  repository: https://github.com/coolbreezecoin/dsh-wechat-mp
+  repositoryNodeId: R_kgDOT5OvJw
+  subpath: null
+  commit: 1f29cc14791e71fe8b32ac1e6eadf02abad4f0b3
+creator:
+  github: coolbreezecoin
+package:
+  ecosystem: npm
+  name: dsh-wechat-mp
+  version: 0.3.0
+  integrity: sha512-FbBN3D8YeP4suFzR2VQeDW1P3q7bgz8IW1wBKtB9GPzwd3mcnpm+MW6gWcVXDgEcfPYA4n+m6FAfqk4YUbPl8Q==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:03.830Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
