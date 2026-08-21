@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zoahdev-dsh-poison-guard
+name: dsh-poison-guard
+description:
+  en: "Pre-install supply-chain poison scanner for DeepSeek Harness plugins: AST analysis (NodeSecure JS-X-Ray) + deobfuscation decoder + regex heuristics to catch credential exfiltration, dynamic code execution, obfuscated imports, and install-time scripts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - security
+  - supply-chain
+  - audit
+  - malware
+  - sast
+  - ast
+  - obfuscation
+  - js-x-ray
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-poison-guard
+  repositoryNodeId: R_kgDOT51pIg
+  subpath: null
+  commit: 9d98a4a8e4679769b6ea82e783611b2d09a37ba8
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-poison-guard
+  version: 0.2.0
+  integrity: sha512-rJrSZj4cHycjv1PM9jK2SaZmWpB1sCG7NQ23d1DQvQUs2t/m1EtBF0nQt0jgMxWBTQno2Q5F/7xK98pzTYbXTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:26.205Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
