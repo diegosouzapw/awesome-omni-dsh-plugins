@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: weike-zhang-dsh-svg-motion
+name: dsh-svg-motion
+description:
+  en: "Animate any SVG into a professional assembly video (transparent PNG sequence + MP4). dsh plugin: registers an animate svg tool the model can call."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - animate
+  - professional
+  - assembly
+  - video
+  - transparent
+  - sequence
+  - registers
+  - tool
+  - model
+  - call
+  - dsh
+source:
+  repository: https://github.com/weike-zhang/dsh-svg-motion
+  repositoryNodeId: R_kgDOT51-fw
+  subpath: null
+  commit: 6c5d2a662ae0971dc50b81022b13a1ea4dc44097
+creator:
+  github: weike-zhang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:58.687Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
