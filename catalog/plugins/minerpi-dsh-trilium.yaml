@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: minerpi-dsh-trilium
+name: dsh-trilium
+description:
+  en: "A DeepSeek Harness (DSH) Web GUI plugin that connects your Trilium notes to the agent through the ETAPI: durable memory, note management, full-text search, a weekly report workflow, attachments, calendar notes, backups, and a settings card."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - trilium
+  - etapi
+  - memory
+  - notes
+  - knowledge-base
+  - weekly-report
+source:
+  repository: https://github.com/MineRPi/dsh-trilium
+  repositoryNodeId: R_kgDOT569Qg
+  subpath: null
+  commit: 186c8a90ec519e28caf758c2b4689d9a0749109b
+creator:
+  github: MineRPi
+package:
+  ecosystem: npm
+  name: dsh-trilium
+  version: 0.1.2
+  integrity: sha512-g8PjkCi7WeLBWNBu5EhxswPB4ULHtA5wt1NVfzfKJxeLc0pvFa/c54dyA2EuBYrQwbhVi0yDzptE6B6dXwBRFQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:17.072Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
