@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: nirvana-jie-dsh-session-tree
+name: "@nirvana-jie/dsh-session-tree"
+description:
+  en: Live session lineage and branching inside DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - live
+  - session
+  - lineage
+  - branching
+  - inside
+  - dsh
+source:
+  repository: https://github.com/Nirvana-Jie/dsh-session-tree
+  repositoryNodeId: R_kgDOT3_4UQ
+  subpath: null
+  commit: f7e202f89d5e236337724f4edd8eb8e9a956c153
+creator:
+  github: Nirvana-Jie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:50.743Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
