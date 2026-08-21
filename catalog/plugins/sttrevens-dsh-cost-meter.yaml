@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sttrevens-dsh-cost-meter
+name: "@steven-wu/dsh-cost-meter"
+description:
+  en: "dsh plugin: live USD cost badge (whole-session + per-turn) from provider token usage and a configurable pricing table."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cost
+  - token
+  - usage
+  - pricing
+source:
+  repository: https://github.com/Sttrevens/dsh-cost-meter
+  repositoryNodeId: R_kgDOT37Yzw
+  subpath: null
+  commit: 9f8a924f2496856f671a508aca44bff7d3377770
+creator:
+  github: Sttrevens
+package:
+  ecosystem: npm
+  name: "@steven-wu/dsh-cost-meter"
+  version: 0.1.0-rc.3
+  integrity: sha512-ZLvTNe2YoeKkK5BVXutIoJUqMxuRvrczgCj6aDYLsM5zG4+av4vkAcdIlSyT8gJLWhowHx3VL7WJFJ1TRRTJ1g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:05.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
