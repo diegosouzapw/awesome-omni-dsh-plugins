@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: akslcw-dsh-negative-ledger
+name: "@akslcw/dsh-negative-ledger"
+description:
+  en: "Agent negative-knowledge ledger for DeepSeek Harness: records failed paths with evidence hashes and retry conditions, auto-invalidates on evidence change."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - negative-knowledge
+  - agent-ledger
+  - coding-agent
+  - dsh
+source:
+  repository: https://github.com/akslcw/dsh-negative-ledger
+  repositoryNodeId: R_kgDOT4DxMQ
+  subpath: null
+  commit: f0ecad5ec8e2769c22c8f28cee0f9b9e5e754489
+creator:
+  github: akslcw
+package:
+  ecosystem: npm
+  name: "@akslcw/dsh-negative-ledger"
+  version: 0.1.1
+  integrity: sha512-vDsVQ8tADGziuZKO+FZr6ni//t04E2B6MHFkjbZBOEgbgZiwIiUmxTDOKclgPip6LHmZAQlQqFljDQemSyqDTw==
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:28.440Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
