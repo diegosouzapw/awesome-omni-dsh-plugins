@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: nixz0824-dsh-sound-cue
+name: "@dsh-external/dsh-sound-cue"
+description:
+  en: Click to hear the two default (style A) cues — the same notes the plugin synthesizes. If the browser blocks autoplay, click once more on the preview page.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - sound
+  - notification
+  - web-audio
+source:
+  repository: https://github.com/Nixz0824/dsh-sound-cue
+  repositoryNodeId: R_kgDOT6-72g
+  subpath: null
+  commit: 02c80d2c4836585e893c044530255fdb7de8f3ba
+creator:
+  github: Nixz0824
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:31.218Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
