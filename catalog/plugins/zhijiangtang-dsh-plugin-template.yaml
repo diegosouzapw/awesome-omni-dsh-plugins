@@ -1,0 +1,39 @@
+schemaVersion: 1
+id: zhijiangtang-dsh-plugin-template
+name: dsh-plugin-template
+description:
+  en: "DSH bundle-plugin template: scaffold a new tool plugin (the template itself is not published)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin-template
+  - dsh
+source:
+  repository: https://github.com/ZhijiangTang/dsh-plugin-template
+  repositoryNodeId: R_kgDOT5Bjhg
+  subpath: null
+  commit: 775b526963b9e08e3524331d7e7021a56636e582
+creator:
+  github: ZhijiangTang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:37.407Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
