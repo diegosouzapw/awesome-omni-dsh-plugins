@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-stt-input
+name: dsh-stt-input
+description:
+  en: Speech-to-text voice input for the DeepSeek Harness (DSH) web GUI.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - stt
+  - speech-to-text
+  - voice-input
+  - whisper
+  - groq
+  - openai
+  - web-speech-api
+  - web-ui
+source:
+  repository: https://github.com/baisama-cloud/dsh-stt-input
+  repositoryNodeId: R_kgDOT6FqbQ
+  subpath: null
+  commit: d2cc4790becb5a40521e17e1eaf3d24a1fb314ad
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:11.182Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
