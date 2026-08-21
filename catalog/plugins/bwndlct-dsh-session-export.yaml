@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bwndlct-dsh-session-export
+name: dsh-session-export
+description:
+  en: Export DeepSeek Harness sessions to portable, human-readable Markdown and JSON.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - session
+  - export
+  - markdown
+  - transcript
+source:
+  repository: https://github.com/bwndlct/dsh-session-export
+  repositoryNodeId: R_kgDOT4Ptog
+  subpath: null
+  commit: eb18389192e36934718877fd7c6eb397f5cf1cd4
+creator:
+  github: bwndlct
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:06.555Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
