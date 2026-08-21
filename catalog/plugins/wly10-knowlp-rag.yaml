@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wly10-knowlp-rag
+name: "@eqman00003/knowlp-rag"
+description:
+  en: "KnowLP-RAG: dual knowledge-graph retrieval for Markdown notes — DeepSeek Harness (dsh) bundle: MCP server + native Cordis plugin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - knowlp
+  - dual
+  - knowledge
+  - graph
+  - retrieval
+  - markdown
+  - notes
+  - bundle
+  - server
+  - native
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/wly8691-jpg/knowlp-rag
+  repositoryNodeId: R_kgDOTP1rJw
+  subpath: null
+  commit: a7a4cf712b49ae4a41353c9226b4854d4c8393c2
+creator:
+  github: wly10
+package:
+  ecosystem: npm
+  name: "@eqman00003/knowlp-rag"
+  version: 3.0.7-rc.0
+  integrity: sha512-bnXjZ9TjhRoBi3ZMcJ3GhvVjiEl94aRUP9OKoQXnTpRhDtIlH+/lnDIjkDt4l76S7y9RB3DwJKkO/lHBz0utYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:32.404Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
