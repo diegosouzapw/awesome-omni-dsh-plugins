@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ruby1304-dsh-vision-subagent
+name: dsh-vision-subagent
+description:
+  en: "Vision for text-only DeepSeek Harness agents: delegate image reading to a one-shot subagent on a configurable vision route (MiniMax / Kimi / any OpenAI-compatible provider), keeping image bytes and the vision model's context out of the main session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - multimodal
+  - subagent
+  - minimax
+  - kimi
+  - moonshot
+  - cordis
+source:
+  repository: https://github.com/ruby1304/dsh-vision-subagent
+  repositoryNodeId: R_kgDOT5SHWw
+  subpath: null
+  commit: 0e55e84bde9d3cb9b64c2e8bc7b5bfaa3123c437
+creator:
+  github: ruby1304
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:25.104Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
