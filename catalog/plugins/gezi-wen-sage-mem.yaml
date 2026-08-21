@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: gezi-wen-sage-mem
+name: sage-mem
+description:
+  en: File-based memory plugin for DeepSeek Harness (DSH) — cross-session memory in transparent markdown files
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - file
+  - memory
+  - cross
+  - session
+  - transparent
+  - markdown
+  - files
+source:
+  repository: https://github.com/gezi-wen/sage-mem
+  repositoryNodeId: R_kgDOT4IhIA
+  subpath: null
+  commit: a1916ea63bcd292fad2dc0309363ffeb31d37cbe
+creator:
+  github: gezi-wen
+package:
+  ecosystem: npm
+  name: sage-mem
+  version: 0.4.0
+  integrity: sha512-Dgu64BXVIW1t50IrriTsG10ksLVUibOVbqtemneQpdmSrQpv3j4Ej2ZWDAMy0rKLSpGApBWpSf3s/mipNUXO5w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:40.809Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
