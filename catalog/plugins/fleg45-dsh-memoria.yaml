@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fleg45-dsh-memoria
+name: dsh-memoria
+description:
+  en: "Memoria long-term memory for DeepSeek Harness: one owned Python subprocess + native store/recall tools + auto recall injection"
+  evidencePath: memoria-dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - memoria
+  - long-term-memory
+  - agent
+  - dsh
+source:
+  repository: https://github.com/fleg45/memoria-framework
+  repositoryNodeId: R_kgDOT5oQ8Q
+  subpath: memoria-dsh-plugin
+  commit: 284dd5fa6cd32d23e36f1729fac6a2bc1c5d4d73
+creator:
+  github: fleg45
+package:
+  ecosystem: npm
+  name: dsh-memoria
+  version: 0.1.0
+  integrity: sha512-wspAiP9mki/IfWcpTtS6zmS2oqUUbaaDQFkzpYhrR6Z8iSXX/SyrhiuXphdxv7KL88PrTg67nGbiGz6tSAbJbA==
+dsh:
+  profiles:
+    - default
+  evidencePath: memoria-dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:11.201Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
