@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lesliewylie-dsh-md-html-render
+name: dsh-md-html-render
+description:
+  en: Render Markdown to standalone, self-contained HTML in the DeepSeek Harness — a model-facing md html render tool that works headless, plus a browse/preview/export drawer in the web GUI. One renderer behind both. Zero runtime dependencies.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - markdown
+  - markdown-to-html
+  - html-export
+  - preview
+  - cordis
+  - web-gui
+  - zero-dependency
+source:
+  repository: https://github.com/LeslieWylie/dsh-md-preview
+  repositoryNodeId: R_kgDOT4Uu2Q
+  subpath: null
+  commit: 94d1ba9ec39f46289852af242506ffdd8a80aa9d
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:17.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
