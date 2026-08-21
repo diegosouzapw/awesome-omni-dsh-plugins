@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: mrmoradzekri-hub-dsh-web-search-ollama
+name: dsh-web-search-ollama
+description:
+  en: Ollama-backed web search + web fetch for DeepSeek Harness (local signed-in Ollama, no DeepSeek key)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - ollama
+  - backed
+  - search
+  - fetch
+  - local
+  - signed
+  - dsh
+source:
+  repository: https://github.com/mrmoradzekri-hub/dsh-web-search-ollama
+  repositoryNodeId: R_kgDOT6FgqA
+  subpath: null
+  commit: 68630315ec1cfaf20c7d86f9386d4e34d4db74f4
+creator:
+  github: mrmoradzekri-hub
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:25.824Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
