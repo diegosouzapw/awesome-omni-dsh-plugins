@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jinkailiu-dsh-autonomy
+name: dsh-autonomy
+description:
+  en: Switch between Chat and Agent without leaving your DeepSeek Harness session.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - chat-mode
+  - autonomy
+source:
+  repository: https://github.com/JinkaiLiu/dsh-autonomy
+  repositoryNodeId: R_kgDOT5uINA
+  subpath: null
+  commit: 14003cf289e1b5e8b9926ba7f7db0061b465b0d5
+creator:
+  github: JinkaiLiu
+package:
+  ecosystem: npm
+  name: dsh-autonomy
+  version: 0.1.0
+  integrity: sha512-rIqUheleGBnhV7Gg4UIY7fi7EemDioZy4tGkEs4BGRGCO1X8xoUnvWKhubNhrKE+EDvnOxCEBquhjQ0Hrvl4wA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:34.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
