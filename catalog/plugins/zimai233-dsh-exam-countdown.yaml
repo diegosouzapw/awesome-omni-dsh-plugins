@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zimai233-dsh-exam-countdown
+name: dsh-exam-countdown
+description:
+  en: Chinese exam countdown for DeepSeek Harness. Query 64 built-in exams (gaokao, kaoyan, civil service, CET-4/6, CPA, bar exam...) and get days-until dates computed by pure date math with rolling yearly recurrence.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - exam
+  - countdown
+  - education
+source:
+  repository: https://github.com/zimai233/dsh-exam-countdown
+  repositoryNodeId: R_kgDOT3-9EQ
+  subpath: null
+  commit: 54492515553fcf38a48f372e381bbf3252abcc38
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:51.069Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
