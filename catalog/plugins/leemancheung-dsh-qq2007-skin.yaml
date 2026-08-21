@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: leemancheung-dsh-qq2007-skin
+name: dsh-qq2007-skin
+description:
+  en: QQ 2007-inspired retro messenger skin for the DeepSeek Harness Web GUI, with Codex-generated original artwork, compact desktop chrome, an account card, optional original send chime, and reversible settings.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - retro-ui
+  - qq2007
+  - web-ui
+source:
+  repository: https://github.com/LeemanCheung/dsh-qq2007-skin
+  repositoryNodeId: R_kgDOT5DeZQ
+  subpath: null
+  commit: e7c61af021dab1d387566a07d3528dc563e4f070
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:11.876Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
