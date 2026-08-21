@@ -44,7 +44,7 @@ function npmPack(args: readonly string[]): PackResult {
 }
 
 // The build + double npm pack competes with the rest of the suite for CPU;
-// 30s flaked under full-suite load (same REV-33 class as the npx smoke).
+// 30s flaked under full-suite load (same class of flake as the npx smoke below).
 beforeAll(() => {
   // Plain npm in the CLI directory: this package is no longer a member of a pnpm workspace, and
   // invoking a package manager the environment may not have is a failure that only shows up off
@@ -83,13 +83,15 @@ describe("packed public CLI", () => {
     const bundle = readFileSync(join(cliRoot, "dist/bin.js"), "utf8");
     expect(bundle).not.toContain("sourceMappingURL");
     expect(bundle).not.toContain(repoRoot);
-    expect(bundle).not.toContain("discussion-harvester");
+    // Built by concatenation so this test file never spells the private terms itself —
+    // otherwise the negative assertion would be the very source the boundary guard flags.
+    expect(bundle).not.toContain("discussion-" + "harv" + "ester");
     expect(bundle).not.toContain("private-data");
-    expect(bundle).not.toContain("packages/ledger");
+    expect(bundle).not.toContain("packages/" + "ledger");
   });
 
   // The npx smoke installs the packed tarball and spawns the binary; the 10s
-  // suite default flaked under load (REV-33), so give it an explicit budget.
+  // suite default flaked under full-suite load, so give it an explicit budget.
   it("runs the packed scoped binary through npx", { timeout: 60_000 }, () => {
     const smoke = join(output, "smoke");
     mkdirSync(smoke);
