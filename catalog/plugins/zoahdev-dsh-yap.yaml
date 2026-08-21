@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zoahdev-dsh-yap
+name: dsh-yap
+description:
+  en: sh dsh plugin --profile web add github:zoahdev/dsh-yap
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - meme
+  - yap
+  - fun
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-yap
+  repositoryNodeId: R_kgDOT51XYw
+  subpath: null
+  commit: bdc7476587bf040c89b10b6d0f7e5896d32b0b59
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:50.685Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
