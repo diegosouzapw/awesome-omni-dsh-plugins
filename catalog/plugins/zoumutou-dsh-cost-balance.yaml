@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoumutou-dsh-cost-balance
+name: dsh-cost-balance
+description:
+  en: sh dsh plugin --profile web add dsh-cost-balance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - cost
+  - balance
+  - usage
+  - stats
+  - ui
+source:
+  repository: https://github.com/zoumutou/dsh-cost-balance
+  repositoryNodeId: R_kgDOT4iotA
+  subpath: null
+  commit: 3903cb1e1d122e9e02e09b1d0c4f6e1c174a643c
+creator:
+  github: zoumutou
+package:
+  ecosystem: npm
+  name: dsh-cost-balance
+  version: 0.1.0
+  integrity: sha512-ZW30BeyaV8YwSAI3KPg0T+1/D+rYiyN1Q4i9CXoD2kKnF1KKrM68m7h9Ab2cJjfASh7H12La1bDB/nBUzKxqhQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:00.319Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
