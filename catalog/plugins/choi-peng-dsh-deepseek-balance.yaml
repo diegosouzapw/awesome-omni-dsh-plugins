@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: choi-peng-dsh-deepseek-balance
+name: "@choi-p/dsh-deepseek-balance"
+description:
+  en: DeepSeek account balance in the dsh web sidebar footer, with live config hot reload and an editable Settings → Plugins card.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - balance
+source:
+  repository: https://github.com/Choi-Peng/dsh-deepseek-balance
+  repositoryNodeId: R_kgDOT4Nq7w
+  subpath: null
+  commit: 4920d1cf5cc9ab3d4b4b86b60bacfa34d89aba49
+creator:
+  github: Choi-Peng
+package:
+  ecosystem: npm
+  name: "@choi-p/dsh-deepseek-balance"
+  version: 0.4.0
+  integrity: sha512-ar4zBHKXqbMj0c1RMlrTVPuftXFgaSB9j+u7kxTI3o+93CwXINe7Nu/z+zDOHOuEIgSaekM6o7wuanu2bMNa9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:14.082Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
