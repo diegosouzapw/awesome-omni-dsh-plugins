@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: apodemakeles-dsh-token-dashboard
+name: "@apodemakeles/dsh-token-dashboard"
+description:
+  en: "DSH web GUI token-consumption heatmap: a daily/weekly total-token usage panel fed by session-log usage events"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - token-usage
+  - token-dashboard
+  - dashboard
+  - heatmap
+source:
+  repository: https://github.com/apodemakeles/dsh-token-dashboard
+  repositoryNodeId: R_kgDOT4apyQ
+  subpath: null
+  commit: dbd1c97ce8b316fa51172f52f78384c821d70a57
+creator:
+  github: apodemakeles
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:48.770Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
