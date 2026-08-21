@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: angeloszou-dsh-python-env
+name: dsh-python-env
+description:
+  en: "DeepSeek Harness plugin: workspace-scoped Python virtual environment management for agents (pyenv discover / pyenv create / pyenv install / pyenv uninstall / pyenv remove). Runs the standard library python -m venv / pip through the host subprocess channel instead of the sandboxed shell, so venv creation, pip bootstrapp"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - python
+  - venv
+  - virtualenv
+  - pip
+  - workspace
+  - cross-platform
+source:
+  repository: https://github.com/AngelosZou/dsh-python-env
+  repositoryNodeId: R_kgDOT59a1Q
+  subpath: null
+  commit: da290e2a9d95e8389b199c9c2fd4f3454ea91ae0
+creator:
+  github: AngelosZou
+package:
+  ecosystem: npm
+  name: dsh-python-env
+  version: 0.1.1
+  integrity: sha512-L3o7wbMvR4HO99lvaCqvloRwDBhzrRI6A9CUyltfzKL4s6CwPSPD7JRDFdpd3kLMJzquOci487UZNJDmTl7iJQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:01.659Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
