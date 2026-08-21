@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yan-zero-adapter-dsh
+name: "@dsh-std/adapter-dsh"
+description:
+  en: The DeepSeek Harness product adapter described by the adapter proposal. Cordis, Typert, Agent, and DSH command-registry types stop at this package.
+  evidencePath: packages/adapter-dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - product
+  - adapter
+  - described
+  - proposal
+  - cordis
+  - typert
+  - agent
+  - command
+  - registry
+  - types
+  - stop
+  - package
+  - dsh
+source:
+  repository: https://github.com/Yan-Zero/dsh-std
+  repositoryNodeId: R_kgDOT6L8Fw
+  subpath: packages/adapter-dsh
+  commit: 3ef11dac51e82625a345b51051b2bab90649d804
+creator:
+  github: Yan-Zero
+package:
+  ecosystem: npm
+  name: "@dsh-std/adapter-dsh"
+  version: 0.1.0-rc3
+  integrity: sha512-FF7h4yXx7hdA5kPegfbTBtpYaQsshzVtMHRXLLKPkgbxqWb8jC9JXVGPsg76TGwIssHydAdZg2Yw3iIWdTHVcQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/adapter-dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:25.316Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
