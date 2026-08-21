@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: jiangxingfan1-coder-dsh-id
+name: dsh-id
+description:
+  en: Login, cross-device capability sync, and session handoff for DeepSeek Harness — zero-server, your own private git repo as the account. 零服务端的 dsh 登录/同步/会话接力。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - login
+  - cross
+  - device
+  - capability
+  - sync
+  - session
+  - handoff
+  - zero
+  - server
+  - private
+  - repo
+  - account
+  - dsh
+source:
+  repository: https://github.com/jiangxingfan1-coder/dsh-id
+  repositoryNodeId: R_kgDOT58tQg
+  subpath: null
+  commit: 41941775cee27f7dc3ea7ce0e2f7a8c65e2fee29
+creator:
+  github: jiangxingfan1-coder
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:46.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
