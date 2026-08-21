@@ -13,16 +13,6 @@ tags:
   - macos
   - accessibility
   - desktop-automation
-  - first
-  - computer
-  - capability
-  - stale
-  - observation
-  - protection
-  - leases
-  - confirmations
-  - screenshots
-  - diagnostics
   - dsh
 source:
   repository: https://github.com/Anionex/dsh-computer-use

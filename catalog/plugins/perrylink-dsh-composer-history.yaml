@@ -21,9 +21,6 @@ tags:
   - context-window
   - typescript
   - ui
-  - style
-  - input
-  - history
 source:
   repository: https://github.com/PerryLink/dsh-composer-history
   repositoryNodeId: R_kgDOT3r_7g

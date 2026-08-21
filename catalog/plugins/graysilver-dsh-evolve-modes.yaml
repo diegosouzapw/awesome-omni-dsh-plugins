@@ -16,14 +16,6 @@ tags:
   - agent-review
   - plan-mode
   - acceptance-review
-  - composable
-  - working
-  - reasoning
-  - quality
-  - human
-  - reviewed
-  - self
-  - evolution
 source:
   repository: https://github.com/GraySilver/dsh-evolve-modes
   repositoryNodeId: R_kgDOT5_geA

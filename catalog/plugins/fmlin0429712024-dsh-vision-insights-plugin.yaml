@@ -17,13 +17,6 @@ tags:
   - edge
   - queue-management
   - linkhealth
-  - side
-  - access
-  - point
-  - openvino
-  - visual
-  - intelligent
-  - queue
 source:
   repository: https://github.com/fmlin0429712024/linkhealth-dsh-platform
   repositoryNodeId: R_kgDOT6mwFA

@@ -13,13 +13,6 @@ tags:
   - vision
   - multimodal
   - image-understanding
-  - near
-  - native
-  - image
-  - understanding
-  - text
-  - only
-  - models
   - dsh
 source:
   repository: https://github.com/oil-oil/dsh-vision

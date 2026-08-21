@@ -8,11 +8,22 @@ unofficial: true
 kind: plugin
 primaryCategory: user-interface-dashboards
 tags:
+- inline
 - visualization
-- inline-cards
-- sandboxed-html
-- web-ui
+- visualize
+- tool
+- plus
+- bundled
 - skill
+- model
+- render
+- interactive
+- html
+- fragments
+- sandboxed
+- cards
+- directly
+- conversation
 source:
   repository: https://github.com/Nagi-ovo/dsh-visualize
   repositoryNodeId: R_kgDOT3X7_w

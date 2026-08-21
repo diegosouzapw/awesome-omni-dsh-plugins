@@ -15,15 +15,6 @@ tags:
   - lark
   - bridge
   - agent
-  - shell
-  - spawns
-  - supervises
-  - channel
-  - python
-  - process
-  - managed
-  - child
-  - host
 source:
   repository: https://github.com/wz-heng/dsh-feishu-bridge
   repositoryNodeId: R_kgDOT4Q3_A

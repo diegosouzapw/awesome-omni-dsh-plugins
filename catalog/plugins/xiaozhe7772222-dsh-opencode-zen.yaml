@@ -15,14 +15,6 @@ tags:
   - free
   - llm
   - provider
-  - tier
-  - models
-  - zero
-  - config
-  - public
-  - quota
-  - aware
-  - pacing
 source:
   repository: https://github.com/xiaozhe7772222/dsh-opencode-zen
   repositoryNodeId: R_kgDOT6cL2A

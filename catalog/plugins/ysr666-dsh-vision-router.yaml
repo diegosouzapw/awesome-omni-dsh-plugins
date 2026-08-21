@@ -17,13 +17,6 @@ tags:
   - image
   - ocr
   - screenshot
-  - eyes
-  - text
-  - only
-  - agents
-  - built
-  - free
-  - chain
 source:
   repository: https://github.com/ysr666/dsh-vision-router
   repositoryNodeId: R_kgDOT3rG5g

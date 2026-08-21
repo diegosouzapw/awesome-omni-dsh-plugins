@@ -8,11 +8,13 @@ unofficial: true
 kind: plugin
 primaryCategory: entertainment-customization
 tags:
+- dsh
+- dsh-plugin
+- deepseek-harness
 - mascot
-- companion
-- web-ui
-- animation
-- fun
+- desktop-pet
+- whale-girl
+- cute
 source:
   repository: https://github.com/Sutera-Diffusus/dsh-whale-musume
   repositoryNodeId: R_kgDOT5YdoQ

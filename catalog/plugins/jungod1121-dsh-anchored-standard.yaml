@@ -14,16 +14,6 @@ tags:
   - preset
   - anchored-standard
   - deepseek-v4-pro
-  - task
-  - aware
-  - phase
-  - spec
-  - react
-  - weak
-  - first
-  - request
-  - anchors
-  - bash
 source:
   repository: https://github.com/Jungod1121/dsh-anchored-standard
   repositoryNodeId: R_kgDOT5AkXw

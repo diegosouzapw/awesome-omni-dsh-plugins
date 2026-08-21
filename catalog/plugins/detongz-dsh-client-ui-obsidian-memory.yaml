@@ -14,10 +14,6 @@ tags:
   - memory
   - codex
   - dsh-plugin
-  - persistent
-  - local
-  - markdown
-  - vault
 source:
   repository: https://github.com/detongz/dsh-client-ui-obsidian-memory
   repositoryNodeId: R_kgDOT58AYg

@@ -17,13 +17,6 @@ tags:
   - wechat
   - weixin
   - cordis
-  - multi
-  - channel
-  - gateway
-  - ilink
-  - scan
-  - binding
-  - streaming
 source:
   repository: https://github.com/lijian-ui/dsh-im-gateway
   repositoryNodeId: R_kgDOT5qajw

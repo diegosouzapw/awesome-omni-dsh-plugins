@@ -16,14 +16,6 @@ tags:
   - adapter
   - provider
   - bundle
-  - unofficial
-  - command
-  - code
-  - ported
-  - registers
-  - route
-  - models
-  - page
 source:
   repository: https://github.com/Mars-Sea/dsh-commandcode-provider
   repositoryNodeId: R_kgDOT4UInw

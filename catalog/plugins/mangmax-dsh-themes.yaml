@@ -8,11 +8,18 @@ unofficial: true
 kind: skin-theme
 primaryCategory: entertainment-customization
 tags:
-- themes
 - appearance
-- dark-mode
-- vscode-themes
-- web-ui
+- themes
+- built
+- palettes
+- light
+- dark
+- system
+- mode
+- code
+- theme
+- import
+- dsh
 source:
   repository: https://github.com/MangMax/dsh-themes
   repositoryNodeId: R_kgDOT35ZdQ

@@ -8,11 +8,17 @@ unofficial: true
 kind: skin-theme
 primaryCategory: entertainment-customization
 tags:
-- skin
+- unofficial
+- commercial
 - arknights
-- web-ui
-- non-commercial
-- fan-art
+- astral
+- garden
+- skin
+- featuring
+- pramanix
+- eyjafjalla
+- artwork
+- dsh
 source:
   repository: https://github.com/DocJlm/dsh-arknights
   repositoryNodeId: R_kgDOT5vOyA

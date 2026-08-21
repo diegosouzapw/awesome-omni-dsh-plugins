@@ -14,7 +14,6 @@ tags:
   - catalog
   - pricing
   - llm
-  - openai
 source:
   repository: https://github.com/JohnXu22786/model-catalog
   repositoryNodeId: R_kgDOT59RnQ

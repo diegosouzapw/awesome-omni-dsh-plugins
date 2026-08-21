@@ -19,11 +19,6 @@ tags:
   - vlm
   - qwen
   - dashscope
-  - brain
-  - automatic
-  - transcription
-  - provider
-  - route
 source:
   repository: https://github.com/Flyvhidbwo/dsh-vision-proxy
   repositoryNodeId: R_kgDOT3bpkw

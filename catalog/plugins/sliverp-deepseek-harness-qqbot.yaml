@@ -11,8 +11,6 @@ tags:
   - deepseek-harness
   - qqbot
   - cordis
-  - channel
-  - bridge
   - dsh
 source:
   repository: https://github.com/sliverp/DeepSeek-harness-qqbot

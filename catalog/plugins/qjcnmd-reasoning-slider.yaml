@@ -13,12 +13,6 @@ tags:
   - deepseek-harness
   - reasoning
   - slider
-  - codex
-  - style
-  - effort
-  - embedded
-  - model
-  - selector
 source:
   repository: https://github.com/qjcnmd/dsh-reasoning-slider
   repositoryNodeId: R_kgDOT4WR2A

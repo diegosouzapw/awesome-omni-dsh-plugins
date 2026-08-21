@@ -14,16 +14,6 @@ tags:
   - mobile
   - web-ui
   - css
-  - layout
-  - fixes
-  - settings
-  - panel
-  - popups
-  - sidebar
-  - session
-  - header
-  - narrow
-  - 700px
 source:
   repository: https://github.com/AcidGr/dsh-web-mobile-fix
   repositoryNodeId: R_kgDOT4cekg

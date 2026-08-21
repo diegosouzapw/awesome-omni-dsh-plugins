@@ -17,8 +17,6 @@ tags:
   - rag
   - vector-search
   - persona
-  - agent
-  - tdai
 source:
   repository: https://github.com/Scorp1o117/dsh-tdai-memory
   repositoryNodeId: R_kgDOT3e4Sg

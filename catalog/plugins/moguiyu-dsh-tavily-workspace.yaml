@@ -9,10 +9,17 @@ kind: plugin
 primaryCategory: search-research
 tags:
 - tavily
-- web-search
-- search-tool
-- api-keys
+- search
+- integration
+- advanced
+- tool
+- multi
+- management
+- usage
+- gauge
 - settings
+- card
+- dsh
 source:
   repository: https://github.com/moguiyu/dsh-tavily
   repositoryNodeId: R_kgDOT5QALQ

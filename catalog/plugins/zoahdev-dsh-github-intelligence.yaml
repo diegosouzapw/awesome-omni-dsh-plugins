@@ -15,15 +15,7 @@ tags:
   - issues
   - pull-requests
   - agent
-  - most
-  - comprehensive
-  - developer
-  - intelligence
-  - read
-  - only
-  - tools
-  - across
-  - gitlab
+  - dsh
 source:
   repository: https://github.com/zoahdev/dsh-github-intelligence
   repositoryNodeId: R_kgDOT46Gwg

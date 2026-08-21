@@ -19,11 +19,6 @@ tags:
   - remote-access
   - gateway
   - login
-  - remote
-  - access
-  - gate
-  - signed
-  - session
 source:
   repository: https://github.com/xgone/dsh-remote
   repositoryNodeId: R_kgDOT53uWg

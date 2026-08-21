@@ -13,17 +13,6 @@ tags:
   - dsh-plugin
   - queue
   - prompt-queue
-  - calm
-  - unified
-  - prompt
-  - smart
-  - expansion
-  - persistent
-  - confirmations
-  - editing
-  - steering
-  - accessible
-  - reordering
 source:
   repository: https://github.com/starslittle/dsh-queue-plus
   repositoryNodeId: R_kgDOT4rBjw

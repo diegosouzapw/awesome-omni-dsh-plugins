@@ -15,12 +15,6 @@ tags:
   - skills
   - migration
   - bridge
-  - claude
-  - code
-  - configuration
-  - zero
-  - full
-  - compatibility
   - dsh
 source:
   repository: https://github.com/YYTbit/dsh-plugin-claude-bridge

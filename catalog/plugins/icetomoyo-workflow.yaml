@@ -14,9 +14,6 @@ tags:
   - dshtopic
   - multi-agent
   - agent-orchestration
-  - kodax
-  - parity
-  - dynamic
 source:
   repository: https://github.com/omdsh-dev/dsh_workflow
   repositoryNodeId: R_kgDOT2hsPA

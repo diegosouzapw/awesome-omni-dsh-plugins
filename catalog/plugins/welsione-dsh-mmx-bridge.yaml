@@ -14,16 +14,6 @@ tags:
   - mmx-cli
   - multimodal
   - ai-agent
-  - bridge
-  - tool
-  - covers
-  - describe
-  - image
-  - video
-  - speech
-  - music
-  - cover
-  - search
 source:
   repository: https://github.com/welsione/dsh-mmx-bridge
   repositoryNodeId: R_kgDOT4L_7w
