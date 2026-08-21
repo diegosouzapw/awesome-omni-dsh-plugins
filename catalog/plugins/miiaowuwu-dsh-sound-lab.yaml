@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: miiaowuwu-dsh-sound-lab
+name: dsh-sound-lab
+description:
+  en: "A DSH Web GUI Sound Lab : pick a sound for each of the four triggers (session end / options popup / permission request / stop), generate AI character voice lines , and upload & manage your own sound library — all set with a few clicks, no code needed; draggable floating ball, 3 appearances, dual-persisted config."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - web-ui
+  - audio
+  - sound
+  - voice-line
+  - angelina
+  - arknights
+source:
+  repository: https://github.com/miiaowuwu/dsh-sound-lab
+  repositoryNodeId: R_kgDOT6uWfA
+  subpath: null
+  commit: 9ec77335ed1650ca2d27004f23855c125595b92c
+creator:
+  github: miiaowuwu
+package:
+  ecosystem: npm
+  name: dsh-sound-lab
+  version: 1.2.1
+  integrity: sha512-qo4jR+S2KCDBKlFwB4Osjn++pPNM8XlPzJlckOqRvhC2C4PbrObIQbV6cXnGLjVSmXnAzK0yHPDr+8KU6h9NFw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:15.540Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
