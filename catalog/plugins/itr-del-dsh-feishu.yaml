@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: itr-del-dsh-feishu
+name: dsh-feishu
+description:
+  en: Feishu (Lark) IM bridge for DeepSeek Harness (dsh)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - feishu
+  - lark
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/itr-del/dsh-feishu
+  repositoryNodeId: R_kgDOT4RdAA
+  subpath: null
+  commit: 33478f52215074f0f08eb9034a164574a1ad0ff9
+creator:
+  github: itr-del
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:06.559Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
