@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dd2673-dsh-wending-git-workbench
+name: dsh-wending-git-workbench
+description:
+  en: "Codex-style Git workbench for DSH: workspace-scoped changes, diff, stage, commit, guarded branch operations, graph history, fetch, fast-forward pull, and upstream push through official plugin APIs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - codex
+  - style
+  - workbench
+  - workspace
+  - scoped
+  - changes
+  - diff
+  - stage
+  - commit
+  - guarded
+  - branch
+  - operations
+  - graph
+  - history
+  - fetch
+  - fast
+source:
+  repository: https://github.com/dd2673/dsh-wending-git-workbench
+  repositoryNodeId: R_kgDOT5xaaQ
+  subpath: null
+  commit: d9cbb9cf1b1666b0f18149f7f0c77049bbc8e5c9
+creator:
+  github: dd2673
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:05.296Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
