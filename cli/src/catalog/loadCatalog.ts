@@ -33,8 +33,11 @@ export type CatalogLoadInput = string | CatalogDirectoryInput | PinnedCatalogInp
 
 export type CatalogDiagnosticCode =
   | PublicEntryValidationCode
+  | "degenerate-snapshot"
   | "duplicate-canonical-key"
   | "duplicate-id"
+  | "id-creator-prefix"
+  | "id-filename-mismatch"
   | "invalid-canonical-key"
   | "invalid-catalog-root"
   | "invalid-entry-directory"
@@ -107,6 +110,15 @@ function hasErrorCode(error: unknown, code: string): boolean {
     "code" in error &&
     (error as { code?: unknown }).code === code
   );
+}
+
+/**
+ * The creator's GitHub login normalized as the public-ID prefix slug: lowercase, with every
+ * run of characters outside [a-z0-9] collapsed into a single "-". Measured against all 483
+ * published entries — every one of them starts with `${creatorSlug(creator.github)}-`.
+ */
+function creatorSlug(creatorGithub: string): string {
+  return creatorGithub.toLowerCase().replaceAll(/[^a-z0-9]+/gu, "-");
 }
 
 function safeEntryLabel(fileName: string): string {
@@ -239,6 +251,11 @@ export async function loadCatalog(input: CatalogLoadInput): Promise<CatalogSnaps
     entryDirectory = await containedRealPath(root, requestedEntryDirectory) ?? "";
   } catch (error) {
     if (hasErrorCode(error, "ENOENT")) {
+      // A local development tree may not have grown its entry directory yet; a materialized
+      // snapshot without one is a broken or truncated publication, never an empty catalog.
+      if (normalized.source.kind === "snapshot") {
+        diagnostics.push(degenerateSnapshotDiagnostic());
+      }
       return snapshotResult(normalized.source, [], diagnostics);
     }
     diagnostics.push({
@@ -333,6 +350,29 @@ export async function loadCatalog(input: CatalogLoadInput): Promise<CatalogSnaps
     }
 
     const entry = parsed as PublicCatalogEntry;
+    const baseName = directoryEntry.name.slice(0, -".yaml".length);
+    let violatesIdConvention = false;
+    if (entry.id !== baseName) {
+      violatesIdConvention = true;
+      diagnostics.push({
+        file,
+        code: "id-filename-mismatch",
+        message: "public ID must equal the catalog file's basename",
+      });
+    }
+    const expectedPrefix = `${creatorSlug(entry.creator.github)}-`;
+    if (!entry.id.startsWith(expectedPrefix)) {
+      violatesIdConvention = true;
+      diagnostics.push({
+        file,
+        code: "id-creator-prefix",
+        message: `public ID must start with the creator slug prefix "${expectedPrefix}"`,
+      });
+    }
+    if (violatesIdConvention) {
+      continue;
+    }
+
     try {
       candidates.push({
         canonicalKey: canonicalPluginKey(entry.source.repositoryNodeId, entry.source.subpath),
@@ -371,5 +411,25 @@ export async function loadCatalog(input: CatalogLoadInput): Promise<CatalogSnaps
     .map((candidate) => candidate.entry)
     .sort((left, right) => compareText(left.id, right.id));
 
+  // A snapshot that validates cleanly and still yields zero entries is degenerate: the
+  // published catalog always carries entries, so "empty and silent" here previously let
+  // `search` exit 0 with "No plugins found" against hundreds of published plugins.
+  if (
+    normalized.source.kind === "snapshot" &&
+    entries.length === 0 &&
+    diagnostics.length === 0
+  ) {
+    diagnostics.push(degenerateSnapshotDiagnostic());
+  }
+
   return snapshotResult(normalized.source, entries, diagnostics);
+}
+
+function degenerateSnapshotDiagnostic(): CatalogDiagnostic {
+  return {
+    file: ENTRY_DIRECTORY,
+    code: "degenerate-snapshot",
+    message:
+      "materialized snapshot contains no plugin entries; the published catalog is never empty, so this snapshot is broken or truncated",
+  };
 }

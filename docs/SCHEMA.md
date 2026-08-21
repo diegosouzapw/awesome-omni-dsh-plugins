@@ -49,7 +49,10 @@ Constant `1`. Identifies public schema version 1; any other value is invalid.
 
 String matching `^[a-z0-9]+(?:-[a-z0-9]+)*$` — lowercase kebab-case, no leading/trailing or
 double hyphens. Per [CONTRIBUTING.md](../CONTRIBUTING.md), the entry file must be named
-`catalog/plugins/<id>.yaml` with the identical value.
+`catalog/plugins/<id>.yaml` with the identical value; the validator rejects a mismatch
+(`id-filename-mismatch`). The ID must also start with the creator's namespace: the
+`creator.github` handle lowercased, with every run of characters outside `[a-z0-9]` collapsed
+into a single `-`, followed by `-` (`id-creator-prefix`).
 
 ### `name`
 
