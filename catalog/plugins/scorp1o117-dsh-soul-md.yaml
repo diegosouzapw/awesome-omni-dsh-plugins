@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: scorp1o117-dsh-soul-md
+name: dsh-soul-md
+description:
+  en: Part of the DeepSeek Harness Enhancement Suite — Vision · Soul/Persona · Long-term Memory · Plugin Marketplace.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - persona
+  - soul
+  - memory
+  - roleplay
+  - system-prompt
+source:
+  repository: https://github.com/Scorp1o117/dsh-soul-md
+  repositoryNodeId: R_kgDOT3e34w
+  subpath: null
+  commit: 976283737d47c2dffda511652de307b342a07a45
+creator:
+  github: Scorp1o117
+package:
+  ecosystem: npm
+  name: dsh-soul-md
+  version: 0.5.5
+  integrity: sha512-5X5WIlBL9OofXPtkai6ipI0NuRNNEtgxNkqXAa4AYaYDW7uaT/CN3JQ9UOnpEWAmwIGFL9D8tKQLHsQ0mc289g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:20.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
