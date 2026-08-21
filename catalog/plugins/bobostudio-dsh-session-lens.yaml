@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: bobostudio-dsh-session-lens
+name: dsh-session-lens
+description:
+  en: Session insights and one-click shareable HTML replay for DeepSeek Harness (DSH) · DeepSeek Harness 会话洞察与一键分享插件
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session
+  - analytics
+source:
+  repository: https://github.com/bobostudio/dsh-session-lens
+  repositoryNodeId: R_kgDOT5qKiw
+  subpath: null
+  commit: 05a526377b95f985735b327d9ba0fcd120696722
+creator:
+  github: bobostudio
+package:
+  ecosystem: npm
+  name: dsh-session-lens
+  version: 0.1.0
+  integrity: sha512-CKTyq597tF9BEBYN2DqdWW2oIIS3JhqdQMIkXJ/0pJR+DnM2zjzbiZQ6IYYugW/680hvUNpAqv39kRs1g4KI0A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:51.639Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
