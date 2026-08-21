@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: tsonglew-dsh-workspace-search
+name: dsh-workspace-search
+description:
+  en: VS Code-style workspace keyword search tab for the dsh web GUI, registered into dsh-better-sidebar
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - search
+  - workspace
+  - better-sidebar
+  - code
+  - style
+  - keyword
+  - registered
+  - better
+  - sidebar
+source:
+  repository: https://github.com/tsonglew/dsh-workspace-search
+  repositoryNodeId: R_kgDOT4WWHQ
+  subpath: null
+  commit: fc2ebaa9f998c592ecc725ca96519ea3b131408a
+creator:
+  github: tsonglew
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:48.716Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
