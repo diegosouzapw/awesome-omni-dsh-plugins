@@ -16,10 +16,6 @@ tags:
   - file-preview
   - file-tree
   - diff
-  - right
-  - side
-  - file
-  - workspace
 source:
   repository: https://github.com/lee259/dsh-workbench
   repositoryNodeId: R_kgDOT4JjFA
@@ -41,7 +37,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:45.479Z
+  checkedAt: 2026-08-21T02:07:53.324Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
