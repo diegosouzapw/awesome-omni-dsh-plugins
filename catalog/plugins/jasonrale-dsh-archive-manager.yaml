@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jasonrale-dsh-archive-manager
+name: dsh-archive-manager
+description:
+  en: "Archived-session manager for DSH Web: sidebar footer entry, grouped archive panel, restore/delete with full agent teardown"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - archive
+source:
+  repository: https://github.com/jasonrale/dsh-archive-manager
+  repositoryNodeId: R_kgDOT5ZJWg
+  subpath: null
+  commit: a57fa2733a2481efb640a99b208c77f2583c9772
+creator:
+  github: jasonrale
+package:
+  ecosystem: npm
+  name: dsh-archive-manager
+  version: 1.1.1
+  integrity: sha512-jox5HYMvQW5yMpXqD3r9CdpXlKPbqRgLryr13SJ9pi/c2HX7fzYI7e/4Dr+K/dZRJlKOXhDcSdQFawl+dgpstQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:42.610Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
