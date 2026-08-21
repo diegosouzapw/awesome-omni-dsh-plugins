@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: biociao-dsh-model-tier
+name: dsh-model-tier
+description:
+  en: "Tiered model router for DeepSeek Harness: routes auxiliary calls (session title, compaction) and subtasks to light models, escalates hard tasks to strong ones — automatically, per request, across providers."
+  evidencePath: packages/dsh-model-tier/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - model-router
+  - tiered-routing
+  - llm
+  - routing
+  - cost-optimization
+source:
+  repository: https://github.com/biociao/dsh-science
+  repositoryNodeId: R_kgDOT382Zw
+  subpath: packages/dsh-model-tier
+  commit: 23767ab2f8d7bcf84a0820daa4c6ae79549da000
+creator:
+  github: biociao
+package:
+  ecosystem: npm
+  name: dsh-model-tier
+  version: 0.1.0
+  integrity: sha512-xLfvANHei1KT5GL32EazIx6rbs4vVy+zCdaAQokIM9IX5gQWRAtnKH0BAR56zTr8wKACwjwyroo4GEanvd7IDg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/dsh-model-tier/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:07.425Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
