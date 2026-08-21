@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-sidechat
+name: "@omdsh-plugins/omdsh-sidechat"
+description:
+  en: "Summon a conversation of its own anywhere in the DeepSeek Harness web GUI: a side panel anchored to whatever you were looking at, asking in its own session so the conversation you are running is untouched"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - summon
+  - conversation
+  - anywhere
+  - side
+  - panel
+  - anchored
+  - whatever
+  - were
+  - looking
+  - asking
+  - session
+  - running
+  - untouched
+  - dsh
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-sidechat
+  repositoryNodeId: R_kgDOT5uptQ
+  subpath: null
+  commit: 5906b5c123a278c3523ac9c1453c9c06908d21fc
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:45.750Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
