@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zoumutou-dsh-web-preview-panel
+name: dsh-web-preview-panel
+description:
+  en: 要求 DSH（DeepSeek Harness）Web 版。在 profile 目录（如 ~/.dsh/profiles/web ）：
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - web-preview
+  - iframe
+source:
+  repository: https://github.com/zoumutou/dsh-web-preview
+  repositoryNodeId: R_kgDOT4iiHg
+  subpath: null
+  commit: 6bba3e8e061a45af4cee6d73d4432721c6306617
+creator:
+  github: zoumutou
+package:
+  ecosystem: npm
+  name: dsh-web-preview-panel
+  version: 0.2.4
+  integrity: sha512-PX59Pyon4UkgivxPP/0v+HlIF00ewXnaLLAG2PZnCwSAJZr7K5t/MceYiLnVKiHj7hjJ9yG9/JwBBwMKqOfWjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:55.352Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
