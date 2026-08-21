@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zhengjunyao000-dsh-flomo-report
+name: dsh-flomo-report
+description:
+  en: "Daily session report generator for DeepSeek Harness with one-click flomo sync: generates AI-narrated daily/weekly/monthly digests over any date range from the session corpus and pushes them straight into flomo (浮墨笔记) using a configurable tag (default write/dsh) with automatic ' ' stripping from the report body."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - report
+  - daily-report
+  - flomo
+  - memo
+  - sync
+  - digest
+source:
+  repository: https://github.com/zhengjy01/dsh-flomo-report
+  repositoryNodeId: R_kgDOT6I7iA
+  subpath: null
+  commit: 387dae38b92cf413b2c9d62480db3ab3ef04f183
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: dsh-flomo-report
+  version: 0.1.1
+  integrity: sha512-iTopvIOlna5xg1MkXMcpNypv2p2B30LeBcJTfXJBd10AnMnS+zK/Z6Cs4l6haW0k9PWiz3m4j+Cf7FG4IqlG3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:35.836Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
