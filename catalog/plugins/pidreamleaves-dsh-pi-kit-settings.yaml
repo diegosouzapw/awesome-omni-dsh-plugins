@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: pidreamleaves-dsh-pi-kit-settings
+name: dsh-pi-kit-settings
+description:
+  en: "dsh-pi-kit aggregated settings card: one 'dsh-pi-kit' card in the plugin configuration section that hosts each member plugin's settings rows."
+  evidencePath: packages/pi-kit-settings/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - aggregated
+  - settings
+  - card
+  - configuration
+  - section
+  - hosts
+  - each
+  - member
+  - rows
+  - dsh
+source:
+  repository: https://github.com/Pidreamleaves/dsh-pi-kit
+  repositoryNodeId: R_kgDOT5WMbQ
+  subpath: packages/pi-kit-settings
+  commit: 1092e47a9e6e701b93f566286bb72f6873ba89e7
+creator:
+  github: Pidreamleaves
+package:
+  ecosystem: npm
+  name: dsh-pi-kit-settings
+  version: 0.1.0
+  integrity: sha512-qf9wdz7YD24Xx6I/Sld7H/BCuaBjsVjEP1WDF19ehzPrN9OSJhJ1I4oGfmw1AxRlOb+uS4tTqAoP7IghqFg6oQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/pi-kit-settings/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:56.664Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
