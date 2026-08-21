@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: stoneface10-dsh-codex-connect-plus
+name: dsh-codex-connect-plus
+description:
+  en: Use your ChatGPT subscription in DeepSeek Harness to access Codex models and generate or edit images with gpt-image-2—no OpenAI Platform API key required.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - openai-codex
+  - chatgpt-oauth
+  - oauth
+  - codex
+  - gpt-image-2
+  - image-generation
+  - dsh
+source:
+  repository: https://github.com/stoneface10/dsh-codex-connect-plus
+  repositoryNodeId: R_kgDOT53sOA
+  subpath: null
+  commit: 44f1c686bf4ddd715c395992a3cd8bcb9f83c7aa
+creator:
+  github: stoneface10
+package:
+  ecosystem: npm
+  name: dsh-codex-connect-plus
+  version: 0.1.0-beta.4
+  integrity: sha512-/KzikkADIk8N0Ch+RUvE5qCEL8e9oheu5+vz3wRu0XWPhAB8zMzweQfofNIeldsAMFQhMPrErjFFOSu46/xRNw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:43.745Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
