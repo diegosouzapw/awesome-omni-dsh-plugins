@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: rafolie-dsh-desktop-plugin
+name: dsh-desktop-plugin
+description:
+  en: "Install and launch the dsh-desktop-windowos desktop shell: auto-downloads and auto-updates the exe from GitHub Releases, creates desktop shortcuts (app + web UI), and exposes a desktop launch tool. First run of the unsigned exe shows Windows SmartScreen - click More info Run anyway."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - install
+  - launch
+  - desktop
+  - windowos
+  - shell
+  - auto
+  - downloads
+  - updates
+  - releases
+  - creates
+  - shortcuts
+  - exposes
+  - tool
+  - first
+  - unsigned
+  - shows
+source:
+  repository: https://github.com/RAFOLIE/dsh-desktop-windowos
+  repositoryNodeId: R_kgDOT4DwEg
+  subpath: plugin
+  commit: 799753d2ebfde6d587841cc4e4c7f1c9f9048e55
+creator:
+  github: RAFOLIE
+package:
+  ecosystem: npm
+  name: dsh-desktop-plugin
+  version: 1.5.10
+  integrity: sha512-oFSoV1vJTdJrqeHmSVsrZbTl/5Lv5FeE8FAvObBFCgW648p6liYDZJsLFFjthEyATAQ9mke4TLmYPLYt1V+Qzg==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:20.561Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
