@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jamesyasr-dsh-email-push-master
+name: dsh-email-push-master
+description:
+  en: "Email reminders from your DSH agent when you're away — a hardened fork of dsh-notify-skill: stable SMTP (no 535 retry loop), connect/idle timeouts, --check self-test, and full message headers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - notify
+  - email
+  - smtp
+source:
+  repository: https://github.com/JamesYasR/dsh-email-push-master
+  repositoryNodeId: R_kgDOT56doQ
+  subpath: null
+  commit: a49c277fdca9fd4912e8bd5b2398f5ac20c9db59
+creator:
+  github: JamesYasR
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:43.162Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
