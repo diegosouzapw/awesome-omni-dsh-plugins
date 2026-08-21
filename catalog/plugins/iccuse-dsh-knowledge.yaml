@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: iccuse-dsh-knowledge
+name: dsh-knowledge
+description:
+  en: "Bridge the agent into the user's global Markdown knowledge base (D:\\knowledge, shared with the Codex kb.cmd CLI): kb add/kb search/kb show/kb timeline tools with byte-compatible frontmatter"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - knowledge-base
+  - memory
+source:
+  repository: https://github.com/ICCuse/dsh-knowledge
+  repositoryNodeId: R_kgDOT4ES3w
+  subpath: null
+  commit: 34bec0c1ec33d32c8546f87d373740333adaddae
+creator:
+  github: ICCuse
+package:
+  ecosystem: npm
+  name: dsh-knowledge
+  version: 0.1.0
+  integrity: sha512-oOfPLv0uyadcmMRPRTaTm3G1zmuUZh1+fzasPWo54J2uYTWYvBzKJadDglhW/pAVKHGa1Y3HZdF540zh+cbGNA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:23.323Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
