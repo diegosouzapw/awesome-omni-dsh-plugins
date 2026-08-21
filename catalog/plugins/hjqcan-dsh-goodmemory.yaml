@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: hjqcan-dsh-goodmemory
+name: dsh-goodmemory
+description:
+  en: Automatic cross-session GoodMemory recall and writeback for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - goodmemory
+  - memory
+  - agent
+  - dsh
+source:
+  repository: https://github.com/hjqcan/dsh-goodmemory
+  repositoryNodeId: R_kgDOT5QDyA
+  subpath: null
+  commit: 5b80ddd077eddc1bb164c563fdd2bfe2f94341d9
+creator:
+  github: hjqcan
+package:
+  ecosystem: npm
+  name: dsh-goodmemory
+  version: 0.1.0
+  integrity: sha512-qj/PmJD8Qmr9o27I9bCIQH0kZEZ2LHlqJA8pqSUzWuTspcCLOSs5jt7yXhTMhKC6UY479U3WYe+xudjDhplWGQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:21.898Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
