@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tongailinc-dsh-mobile-access
+name: dsh-mobile-access
+description:
+  en: Mobile access plugin for DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - mobile
+  - lan
+  - vpn
+  - tailscale
+  - zerotier
+  - gateway
+  - approval-gate
+source:
+  repository: https://github.com/TongaiLinC/dsh-mobile-access
+  repositoryNodeId: R_kgDOT5yGaw
+  subpath: null
+  commit: b2c8b3050443d401d97647f0f5d7bd5bc3bf771d
+creator:
+  github: TongaiLinC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:41.148Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
