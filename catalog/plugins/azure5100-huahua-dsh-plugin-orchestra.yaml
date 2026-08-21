@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: azure5100-huahua-dsh-plugin-orchestra
+name: huahua-dsh-plugin-orchestra
+description:
+  en: bash dsh plugin --profile web add huahua-dsh-plugin-orchestra
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - plugin-management
+  - deepseek-harness
+  - plugin-orchestra
+source:
+  repository: https://github.com/azure5100/huahua-dsh-plugin-orchestra
+  repositoryNodeId: R_kgDOT6BCAg
+  subpath: null
+  commit: a128b7858c02fd4621593411b386d66f9f1400b0
+creator:
+  github: azure5100
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:54.763Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
