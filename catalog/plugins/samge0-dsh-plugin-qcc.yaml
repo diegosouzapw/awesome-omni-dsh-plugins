@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: samge0-dsh-plugin-qcc
+name: dsh-plugin-qcc
+description:
+  en: Qichacha (企查查) company-data plugin for DeepSeek Harness — 5 agent tools + settings-page account management. Unofficial, for personal study and research.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - qichacha
+  - company-data
+  - dsh
+source:
+  repository: https://github.com/Samge0/dsh-plugin-qcc
+  repositoryNodeId: R_kgDOT5bjoQ
+  subpath: null
+  commit: cac41802ae32a09d7cca76897959436cc9b432c4
+creator:
+  github: Samge0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:01.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
