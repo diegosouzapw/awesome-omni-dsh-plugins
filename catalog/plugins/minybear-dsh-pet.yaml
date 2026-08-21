@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: minybear-dsh-pet
+name: "@minybear/dsh-pet"
+description:
+  en: "Codex-style desktop pet for the DSH web GUI: a floating animated sprite driven by the agent's running state"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - pet
+  - codex
+  - desktop-pet
+  - tamagotchi
+source:
+  repository: https://github.com/minybear/DeepSeek-Harness-Pet
+  repositoryNodeId: R_kgDOT4Axwg
+  subpath: null
+  commit: ed48a0bf74bef5ed9b575d4c796495f5aaf6777b
+creator:
+  github: minybear
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:14.715Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
