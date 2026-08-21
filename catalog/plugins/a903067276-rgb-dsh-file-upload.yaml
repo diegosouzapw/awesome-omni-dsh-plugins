@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-file-upload
+name: dsh-file-upload
+description:
+  en: Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - file-upload
+  - drag-drop
+  - vision
+  - web-ui
+source:
+  repository: https://github.com/a903067276-rgb/dsh-file-upload
+  repositoryNodeId: R_kgDOT6l0cA
+  subpath: null
+  commit: 9aad269a5cf19539ec081c79f561edf4c47bd099
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:13.173Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
