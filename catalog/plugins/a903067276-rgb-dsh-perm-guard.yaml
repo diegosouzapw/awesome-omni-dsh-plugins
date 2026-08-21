@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-perm-guard
+name: dsh-perm-guard
+description:
+  en: 'Auto-approval permission guard for DeepSeek Harness ( dsh ) web — the "middle tier" between workspace-write (asks too often) and danger-full-access (too open). Common operations like cross-directory edits, git commit / merge and builds run without approval prompts ; destructive operations (deletes, disk ops, privilege '
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - permission
+  - guard
+  - auto-approve
+  - dsh
+source:
+  repository: https://github.com/a903067276-rgb/dsh-perm-guard
+  repositoryNodeId: R_kgDOT6rvPQ
+  subpath: null
+  commit: 4139ff2393eca7112dba4b646b1a0a68692afd99
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:39.306Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
