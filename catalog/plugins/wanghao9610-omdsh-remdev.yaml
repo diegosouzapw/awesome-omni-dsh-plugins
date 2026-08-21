@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-remdev
+name: "@omdsh-plugins/omdsh-remdev"
+description:
+  en: "Remote development for the DeepSeek Harness web GUI: connect a workspace to an SSH server, provision a .dsh-server there, run its files, terminals, conversations and agents on that machine — Work mode included, as the harness running there shown here"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - remote
+  - development
+  - connect
+  - workspace
+  - server
+  - provision
+  - files
+  - terminals
+  - conversations
+  - agents
+  - machine
+  - work
+  - mode
+  - included
+  - running
+  - shown
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-remdev
+  repositoryNodeId: R_kgDOT5uqGQ
+  subpath: null
+  commit: 6f8d0f3777689c008f06f92f30b6b3e2dca32f46
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:42.658Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
