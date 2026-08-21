@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: timwhitez-core
+name: "@dsh-self-evolving/core"
+description:
+  en: "Trusted durable RSI controller: content-addressed object store, hash-chain journal, pure state reducer + snapshot, action saga, budget double-entry ledger. Crash-safe by construction; the filesystem is the source of truth (spec 06)."
+  evidencePath: packages/dsh-self-evolving/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - bundle
+  - self-evolving
+  - rsi
+  - controller
+  - journal
+source:
+  repository: https://github.com/timwhitez/dsh-self-evolving
+  repositoryNodeId: R_kgDOT5BH8A
+  subpath: packages/dsh-self-evolving
+  commit: 4eb3bb4058dce4330ecbfc2b96e9c2bdabb71677
+creator:
+  github: timwhitez
+package:
+  ecosystem: npm
+  name: "@dsh-self-evolving/core"
+  version: 0.2.3
+  integrity: sha512-FoOt/YVhpEZXCsQU/wfBk60IiBnwfn/TfKuHz9neKhFlmIbxQW2iJ7cPRa3hHkyZhkrJ+iQkp5VEYPRGIR/HOg==
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/dsh-self-evolving/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:34.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
