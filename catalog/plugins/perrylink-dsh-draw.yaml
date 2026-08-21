@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-draw
+name: dsh-draw
+description:
+  en: "Unified static-image generation router for DeepSeek Harness: one image generate tool with standard parameters, config-driven OpenAI-compatible engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint) with health-aware fallback, durable workspace attachment results, per-session quota accounting, an in-"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - image-generation
+  - openai-images
+  - cogview
+  - zhipu
+  - text-to-image
+source:
+  repository: https://github.com/PerryLink/dsh-draw
+  repositoryNodeId: R_kgDOT6UeHQ
+  subpath: null
+  commit: 961bd3593191926e05f300902647f0a7e84627f6
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-draw
+  version: 0.1.0
+  integrity: sha512-NXZHDDB/zQX7RwMSOnXNBWqjsPML1MYvT3AWokaNS8mxSCd8x1fnBGWVhV2T3H+hH0wN5b1q49iAq6ADumR0DQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:00.498Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
