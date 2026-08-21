@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: izwarm195-dsh-net-tools
+name: dsh-net-tools
+description:
+  en: "Give DSH your magic : plug sandboxed agents into your local HTTP proxy and fetch blocked sites, docs and APIs in one shot."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - give
+  - magic
+  - plug
+  - sandboxed
+  - agents
+  - local
+  - proxy
+  - fetch
+  - blocked
+  - sites
+  - docs
+  - apis
+  - shot
+  - dsh
+source:
+  repository: https://github.com/izwarm195/dsh-net-tools
+  repositoryNodeId: R_kgDOT6LoYg
+  subpath: null
+  commit: 7392ec55ca6db884821311d739859ddea72211de
+creator:
+  github: izwarm195
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:08.110Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
