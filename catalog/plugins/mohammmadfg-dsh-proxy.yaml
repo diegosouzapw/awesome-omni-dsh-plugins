@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: mohammmadfg-dsh-proxy
+name: "@smanx/dsh-proxy"
+description:
+  en: "LAN reverse proxy for the DeepSeek Harness web app: forwards the local DSH port to a second, authenticated port (HTTP + WebSocket) with a web-based login page and a Basic Auth fallback."
+  evidencePath: dsh-proxy/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - reverse
+  - proxy
+  - forwards
+  - local
+  - port
+  - second
+  - authenticated
+  - websocket
+  - login
+  - page
+  - basic
+  - auth
+  - fallback
+  - dsh
+source:
+  repository: https://github.com/smanx/dsh-proxy
+  repositoryNodeId: R_kgDOT5CxOQ
+  subpath: dsh-proxy
+  commit: 49bf77a6f72201afd729ad7bc1630f26bbc0be4e
+creator:
+  github: mohammmadfg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-proxy/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:29.689Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
