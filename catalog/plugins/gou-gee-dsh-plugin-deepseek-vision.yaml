@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: gou-gee-dsh-plugin-deepseek-vision
+name: dsh-plugin-deepseek-vision
+description:
+  en: bash export VISION API KEY='你的智谱APIKey' npx -y @deepseek-ai/dsh@0.1.0-rc.6 plugin --profile web add dsh-plugin-deepseek-vision@0.4.1 npx -y @deepseek-ai/dsh@0.1.0-rc.6 web
+  evidencePath: plugins/dsh-plugin-deepseek-vision/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - mcp
+  - vision
+  - image-analysis
+  - ocr
+  - glm-4-6v-flash
+source:
+  repository: https://github.com/GOU-GEE/deepseek-vision
+  repositoryNodeId: R_kgDOT4XZoA
+  subpath: plugins/dsh-plugin-deepseek-vision
+  commit: b524d6aedf7ba66e838dba1258f11463b8b7c987
+creator:
+  github: GOU-GEE
+package:
+  ecosystem: npm
+  name: dsh-plugin-deepseek-vision
+  version: 0.4.1
+  integrity: sha512-KiUixhMeIikwhTHiaxBGSWTiPFG9+0uI+o0Zgm9+Eex8/a8Y7OCli5yFlChLp1KwxtYHK6bditGAT/HnZsrrww==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-plugin-deepseek-vision/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:23.984Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
