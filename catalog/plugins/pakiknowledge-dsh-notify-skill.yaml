@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: pakiknowledge-dsh-notify-skill
+name: dsh-notify-skill
+description:
+  en: Email reminders from your DSH agent when you're away — fires at goal completion, blockage, before asking the user a decision, and at long-task milestones.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - notify
+  - email
+  - smtp
+  - reminder
+source:
+  repository: https://github.com/PAKIKNOWLEDGE/dsh-notify-skill
+  repositoryNodeId: R_kgDOT4HkxQ
+  subpath: null
+  commit: 8b2f157e75f44e1012d863594d8a67cbb0e26d77
+creator:
+  github: PAKIKNOWLEDGE
+package:
+  ecosystem: npm
+  name: dsh-notify-skill
+  version: 0.1.0
+  integrity: sha512-YLjY0VuVOxYvUHgoJM1njCVcXvkMYh0ax/KCQyX8G6zu/JCd8QQV8fWFWvjQqRBplBIpxx75q7StiVL0fIf3jw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:54.512Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
