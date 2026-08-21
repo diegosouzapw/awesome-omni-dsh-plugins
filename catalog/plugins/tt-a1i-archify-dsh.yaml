@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: tt-a1i-archify-dsh
+name: "@tt-a1i/archify-dsh"
+description:
+  en: Opt-in DeepSeek Harness Skill-only bundle for the Archify architecture-diagram skill.
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skill
+  - architecture-diagram
+  - dsh
+source:
+  repository: https://github.com/tt-a1i/archify
+  repositoryNodeId: R_kgDOSDCHbQ
+  subpath: integrations/deepseek-harness
+  commit: 82e63c9ec3cc169b87d2829faae061f3dac8dba1
+creator:
+  github: tt-a1i
+package:
+  ecosystem: npm
+  name: "@tt-a1i/archify-dsh"
+  version: 0.1.0
+  integrity: sha512-D8fDqV6DV/vo80Gj/3rgidd+hwBbhTVncaVoD5Uhh+DbgYlEoQQOmBVbhU5HW33wE5OqJP/2HkTRPJ0hf7W0tA==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:42.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
