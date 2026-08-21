@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: moguiyu-dsh-tool-tavily-search
+name: "@moguiyu/dsh-tool-tavily-search"
+description:
+  en: Opt-in advanced tavily search model tool for DeepSeek Harness, with key rotation/failover. Install @moguiyu/dsh-tavily for the Tavily Search settings card.
+  evidencePath: packages/dsh-tool-tavily-search/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - tavily
+  - web-search
+  - tool
+source:
+  repository: https://github.com/moguiyu/dsh-tavily
+  repositoryNodeId: R_kgDOT5QALQ
+  subpath: packages/dsh-tool-tavily-search
+  commit: bc0d8a651256b5c1768a954002cc7f44e1985274
+creator:
+  github: moguiyu
+package:
+  ecosystem: npm
+  name: "@moguiyu/dsh-tool-tavily-search"
+  version: 0.1.11
+  integrity: sha512-Qq3abpoY0siFVVsxIpIUFXHERzoKQa6C2DzhtCDr86+O1V+/1HU4zCp+U1f7Y+zAx8Is6XUatobLVeSGjbb91Q==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-tool-tavily-search/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:20.585Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
