@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: happy2git-dsh-compass
+name: dsh-compass
+description:
+  en: "DSH web plugin: right-side context-and-files panel (directory browser, injected-context documents, read-only git commit graph) plus the session-log download action"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - right
+  - side
+  - context
+  - files
+  - panel
+  - directory
+  - browser
+  - injected
+  - documents
+  - read
+  - only
+  - commit
+  - graph
+  - plus
+  - session
+  - download
+source:
+  repository: https://github.com/Happy2Git/dsh-compass
+  repositoryNodeId: R_kgDOT5TKNQ
+  subpath: null
+  commit: 2676d15afb2b9d5a4a62715ea4c83fa7619081e0
+creator:
+  github: Happy2Git
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:39.669Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
