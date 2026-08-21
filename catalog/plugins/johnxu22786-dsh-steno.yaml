@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: johnxu22786-dsh-steno
+name: dsh-steno
+description:
+  en: Steno — inline shorthand expansion plugin for dsh. Type tag in a message and it is replaced with the configured text before sending.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - shorthand
+  - macro
+  - snippet
+  - prompt-engineering
+source:
+  repository: https://github.com/JohnXu22786/snippet-expander
+  repositoryNodeId: R_kgDOT59U9A
+  subpath: null
+  commit: 00bc54fdb17fc78dfc2e9170dfd107909c11b6a9
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:56.844Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
