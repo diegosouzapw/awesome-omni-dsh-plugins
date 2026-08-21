@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-session-mover
+name: dsh-session-mover
+description:
+  en: bash npm pack 生成 dsh-session-mover-0.1.0.tgz
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - workspace
+  - session
+  - drag-drop
+  - move
+  - web-ui
+source:
+  repository: https://github.com/baisama-cloud/dsh-session-mover
+  repositoryNodeId: R_kgDOT6BR9A
+  subpath: null
+  commit: bd6e0dbf71a07ea0fe979c121467b846e9b27acf
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:09.544Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
