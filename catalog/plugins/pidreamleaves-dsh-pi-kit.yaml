@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: pidreamleaves-dsh-pi-kit
+name: dsh-pi-kit
+description:
+  en: DSH lightweight optimization plugin collection, maintained in one workspace and installed as one bundle.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - lightweight
+  - optimization
+  - collection
+  - maintained
+  - workspace
+  - installed
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/Pidreamleaves/dsh-pi-kit
+  repositoryNodeId: R_kgDOT5WMbQ
+  subpath: null
+  commit: 1092e47a9e6e701b93f566286bb72f6873ba89e7
+creator:
+  github: Pidreamleaves
+package:
+  ecosystem: npm
+  name: dsh-pi-kit
+  version: 0.1.0
+  integrity: sha512-t1GoInq7ckH0RT53ApUarrlPdphNw50Q4hc1Bdp3CMLi7HlLv1NfA93Ey/9X7Pl+cwp86Jrc4R1FmJK7K5rMcQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:56.664Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
