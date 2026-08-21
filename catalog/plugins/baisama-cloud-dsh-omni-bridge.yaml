@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-omni-bridge
+name: dsh-omni-bridge
+description:
+  en: "Multi-channel message bridge for DeepSeek Harness (DSH): route WeChat (ClawBot/iLink), QQ, and Feishu (Lark) chat messages to a DSH agent and relay its replies back. 多通道桥接：微信 ClawBot / QQ / 飞书消息接入 DSH agent 并回传回复。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - bridge
+  - wechat
+  - clawbot
+  - qq
+  - feishu
+  - lark
+  - chat-bot
+source:
+  repository: https://github.com/baisama-cloud/dsh-omni-bridge
+  repositoryNodeId: R_kgDOT54YxQ
+  subpath: null
+  commit: cdb51787173ba9b46e0e8ee4ebfc38b9ae0f2dcd
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:07.890Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
