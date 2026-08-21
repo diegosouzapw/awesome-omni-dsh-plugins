@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: foliotemp-dsh-claude-antidote
+name: dsh-claude-antidote
+description:
+  en: "Compatibility antidote for dsh-claude-ux: keep its risk-control UI visibly enabled while neutralizing the actual debuffs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - compatibility
+  - claude
+  - antidote
+source:
+  repository: https://github.com/FolioTemp/dsh-claude-antidote
+  repositoryNodeId: R_kgDOT5ynXg
+  subpath: null
+  commit: 44fa421609277870a62a2e34e4a6de75785e25e0
+creator:
+  github: FolioTemp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:19.277Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
