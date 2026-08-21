@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: isanti2016-dsh-quicksight
+name: dsh-quicksight
+description:
+  en: "Two-tier image reading for text-only models in DeepSeek Harness: fast local OCR (RapidOCR, offline) first, then a vision model via modlens as fallback."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - ocr
+  - rapidocr
+  - vision
+  - image
+  - quicksight
+source:
+  repository: https://github.com/Isanti2016/dsh-quicksight
+  repositoryNodeId: R_kgDOT500FQ
+  subpath: null
+  commit: 648123d4a605e53bf74c0e6189462004ba4bc9b7
+creator:
+  github: Isanti2016
+package:
+  ecosystem: npm
+  name: dsh-quicksight
+  version: 0.1.1
+  integrity: sha512-Yv8ehofUvDCz0fbCQaXhVJeDWOZeTgH8Hp25DFX/XXFxwGluWWwxktmIvCIkJdw+n4vRA2dgnZm08uhkynVxvA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:41.678Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
