@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: ximengxiaolan-dsh-vision-bridge
+name: dsh-vision-bridge
+description:
+  en: Composer-attached images are auto-described by an OpenAI-compatible vision model and handed to text-only models (DeepSeek) as text.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - composer
+  - attached
+  - images
+  - auto
+  - described
+  - openai
+  - compatible
+  - vision
+  - model
+  - handed
+  - text
+  - only
+  - models
+  - dsh
+source:
+  repository: https://github.com/ximengxiaolan/dsh-vision-bridge
+  repositoryNodeId: R_kgDOT4K4aA
+  subpath: null
+  commit: 55bbd9bfc5889b8dc8a01bdbb18dc814cf983357
+creator:
+  github: ximengxiaolan
+package:
+  ecosystem: npm
+  name: dsh-vision-bridge
+  version: 0.1.0
+  integrity: sha512-J1mcV5UN0fJiGUQwt/KG/MiuDh3+wwfIBmlfKsTTZDIypvEt9RpPn+g9qN3S+Ei9rjKSsdl+CEJB69Xmw/n1Fw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:34.363Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
