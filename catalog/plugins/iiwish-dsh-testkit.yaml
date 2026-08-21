@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: iiwish-dsh-testkit
+name: dsh-testkit
+description:
+  en: Real-host lifecycle testing for DeepSeek Harness plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-testing
+  - lifecycle-testing
+source:
+  repository: https://github.com/iiwish/dsh-testkit
+  repositoryNodeId: R_kgDOT5F4rw
+  subpath: null
+  commit: 27607d18f9d05ce262be197aa9f74cffbbf59cbd
+creator:
+  github: iiwish
+package:
+  ecosystem: npm
+  name: dsh-testkit
+  version: 0.3.2
+  integrity: sha512-TSR1TSpktUXOZBWwrik6sY9eDJbhaoquo4oWcOW/QXAxdr/iEXuanck2Y0zCvkBAnQbaJ6xiSVVYfJQFhmGR2Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:24.900Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
