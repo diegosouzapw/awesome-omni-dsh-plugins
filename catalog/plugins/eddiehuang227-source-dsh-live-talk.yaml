@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: eddiehuang227-source-dsh-live-talk
+name: dsh-live-talk
+description:
+  en: Animate any photo into a responsive virtual girl. She talks, turns, smiles, and moves naturally in sync with your conversation. Low-lag, high-detail.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - live-talk
+  - virtual-girl
+  - conversational-ai
+  - digital-human
+  - tts
+  - asr
+  - dsh
+source:
+  repository: https://github.com/eddiehuang227-source/live-talk
+  repositoryNodeId: R_kgDOT6DE4w
+  subpath: null
+  commit: 86e342409ca620441fdea2b6cb9800d84c539d9e
+creator:
+  github: eddiehuang227-source
+package:
+  ecosystem: npm
+  name: dsh-live-talk
+  version: 0.6.0
+  integrity: sha512-KGcjYgj/mCXhaQQcBX2CEHbwBGFnQLDzDXpIBM4h2Q+KTrmQe/i1L+S9TDOCBe3dCp6XxgTg+wlWROXQcPTDRA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:09.738Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
