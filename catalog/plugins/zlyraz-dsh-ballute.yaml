@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: zlyraz-dsh-ballute
+name: dsh-ballute
+description:
+  en: "dsh-ballute is a crash-protection plugin for DeepSeek Harness (DSH). DSH silently removes crashing slot entries — you get a blank panel and the tab quietly disappears, errors only land in the console. Ballute turns that into something you can see, attribute and recover from:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/Zlyraz/dsh-ballute
+  repositoryNodeId: R_kgDOT51uQA
+  subpath: null
+  commit: 68e4b07bb108bdad7cdb782d0b2ce15755356526
+creator:
+  github: Zlyraz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:43.078Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
