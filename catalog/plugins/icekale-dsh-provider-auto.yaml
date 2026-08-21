@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: icekale-dsh-provider-auto
+name: dsh-provider-auto
+description:
+  en: Automatically add reasoning-level controls to compatible DSH provider models.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - llm
+  - reasoning-effort
+  - openai-compatible
+  - dsh
+source:
+  repository: https://github.com/icekale/dsh-provider-auto
+  repositoryNodeId: R_kgDOT530bg
+  subpath: null
+  commit: ddc840c19932697ad398bfdd20c367b8d58bb6da
+creator:
+  github: icekale
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:38.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
