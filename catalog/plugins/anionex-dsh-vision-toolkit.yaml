@@ -20,10 +20,7 @@ tags:
   - ui-restoration
   - screenshot-testing
   - gui-automation
-  - native
-  - integration
-  - agent
-  - vision
+  - dsh
 source:
   repository: https://github.com/Anionex/dsh-vision-toolkit
   repositoryNodeId: R_kgDOT3V-Jw

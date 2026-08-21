@@ -15,15 +15,6 @@ tags:
   - migration
   - mcp
   - skills
-  - migrate
-  - whole
-  - claude
-  - code
-  - codex
-  - setup
-  - command
-  - import
-  - slash
 source:
   repository: https://github.com/sjh9714/dsh-movein
   repositoryNodeId: R_kgDOT469Vg

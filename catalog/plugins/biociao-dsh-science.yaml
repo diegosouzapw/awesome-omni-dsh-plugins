@@ -23,7 +23,6 @@ tags:
   - ssh
   - hpc
   - slurm
-  - claude
 source:
   repository: https://github.com/biociao/dsh-science
   repositoryNodeId: R_kgDOT382Zw

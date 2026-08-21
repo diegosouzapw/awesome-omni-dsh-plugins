@@ -12,8 +12,6 @@ tags:
   - dsh-plugin
   - diff
   - review
-  - write
-  - edit
 source:
   repository: https://github.com/cirelir/dsh-change-review
   repositoryNodeId: R_kgDOT5QGIA

@@ -8,9 +8,22 @@ unofficial: true
 kind: plugin
 primaryCategory: user-interface-dashboards
 tags:
+  - conversation
+  - navigation
+  - rail
+  - node
   - user
-  - client
-  - dsh
+  - message
+  - along
+  - right
+  - edge
+  - chat
+  - hover
+  - preview
+  - cards
+  - click
+  - scroll
+  - wheel
 source:
   repository: https://github.com/vlln/dsh-navbar
   repositoryNodeId: R_kgDOT0bTDw

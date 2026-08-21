@@ -13,17 +13,7 @@ tags:
   - pi-package
   - migration
   - compatibility
-  - bridge
-  - ecosystems
-  - general
-  - host
-  - runs
-  - unmodified
-  - extensions
-  - native
-  - plus
-  - package
-  - conversion
+  - dsh
 source:
   repository: https://github.com/weijiafu14/pi2dsh
   repositoryNodeId: R_kgDOT3reRg

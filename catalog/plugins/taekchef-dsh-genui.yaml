@@ -12,18 +12,6 @@ tags:
   - deepseek-harness
   - generative-ui
   - ui
-  - genui
-  - interactive
-  - components
-  - rendered
-  - inline
-  - assistant
-  - replies
-  - fence
-  - layout
-  - charts
-  - plots
-  - forms
 source:
   repository: https://github.com/omdsh-dev/dsh-genui
   repositoryNodeId: R_kgDOT3XuFg

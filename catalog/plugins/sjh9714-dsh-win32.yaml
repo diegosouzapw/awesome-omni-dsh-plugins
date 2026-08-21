@@ -17,13 +17,6 @@ tags:
   - git-bash
   - persistent-shell
   - minimal-mode
-  - shell
-  - working
-  - persistent
-  - minimal
-  - mode
-  - sandbox
-  - included
 source:
   repository: https://github.com/sjh9714/dsh-win32
   repositoryNodeId: R_kgDOT5Ca-w

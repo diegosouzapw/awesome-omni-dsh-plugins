@@ -8,7 +8,22 @@ unofficial: true
 kind: plugin
 primaryCategory: user-interface-dashboards
 tags:
-  - dsh
+  - three
+  - column
+  - workbench
+  - chat
+  - left
+  - codemirror
+  - editor
+  - local
+  - terminal
+  - center
+  - right
+  - dock
+  - file
+  - tree
+  - including
+  - streamed
 source:
   repository: https://github.com/loadingvx/deepseek-harness-workbench-plugin
   repositoryNodeId: R_kgDOT5Ea5w

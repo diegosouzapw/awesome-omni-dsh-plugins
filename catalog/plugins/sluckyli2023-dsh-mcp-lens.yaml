@@ -19,11 +19,6 @@ tags:
   - cost-optimization
   - tool-discovery
   - tool-routing
-  - context
-  - cost
-  - model
-  - facing
-  - tools
 source:
   repository: https://github.com/labmimors/dsh-mcp-lens
   repositoryNodeId: R_kgDOT4aglQ

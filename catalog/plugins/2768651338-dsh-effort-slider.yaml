@@ -10,11 +10,20 @@ primaryCategory: models-providers-routing
 tags:
   - claude
   - code
-  - webgl
+  - style
+  - reasoning
+  - effort
+  - slider
+  - click
+  - model
+  - menu
+  - panel
+  - scale
+  - stepless
+  - dragging
+  - snaps
+  - release
   - medium
-  - high
-  - ultracode
-  - dsh
 source:
   repository: https://github.com/2768651338/dsh-effort-slider
   repositoryNodeId: R_kgDOT54uWA

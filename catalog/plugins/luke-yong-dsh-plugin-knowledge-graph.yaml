@@ -13,16 +13,6 @@ tags:
   - knowledge-graph
   - code-graph
   - read-graph
-  - read
-  - graph
-  - tool
-  - backed
-  - codebase
-  - knowledge
-  - contains
-  - exports
-  - imports
-  - symbol
   - dsh
 source:
   repository: https://github.com/Luke-Yong/dsh-plugin-knowledge-graph

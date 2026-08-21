@@ -11,10 +11,6 @@ tags:
   - deepseek-harness
   - dsh
   - archived-sessions
-  - view
-  - restore
-  - archived
-  - sessions
 source:
   repository: https://github.com/smackgg/dsh-archived-sessions
   repositoryNodeId: R_kgDOT4O1rA

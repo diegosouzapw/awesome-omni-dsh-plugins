@@ -8,11 +8,22 @@ unofficial: true
 kind: plugin
 primaryCategory: entertainment-customization
 tags:
-- desktop-pet
+- pluggable
+- desktop
+- transparent
+- floating
+- remielle
 - companion
-- web-ui
-- animation
-- fun
+- zenless
+- zone
+- zero
+- switches
+- animated
+- moods
+- while
+- agent
+- works
+- dsh
 source:
   repository: https://github.com/Gin-7/dsh-pet-remielle
   repositoryNodeId: R_kgDOT5B6oA

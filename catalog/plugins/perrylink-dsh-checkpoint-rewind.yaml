@@ -20,10 +20,6 @@ tags:
   - workspace-safety
   - undo
   - cordis-plugin
-  - unified
-  - checkpoints
-  - session
-  - workspace
 source:
   repository: https://github.com/PerryLink/dsh-checkpoint-rewind
   repositoryNodeId: R_kgDOT3vfIw

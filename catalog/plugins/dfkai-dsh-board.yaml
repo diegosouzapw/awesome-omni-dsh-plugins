@@ -19,11 +19,6 @@ tags:
   - tokens
   - sidebar
   - ui
-  - client
-  - bundle
-  - token
-  - stats
-  - peak
 source:
   repository: https://github.com/dfkai/dsh-board
   repositoryNodeId: R_kgDOT485gg

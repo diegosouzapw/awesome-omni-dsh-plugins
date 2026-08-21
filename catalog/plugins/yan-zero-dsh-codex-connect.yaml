@@ -14,8 +14,6 @@ tags:
   - chatgpt-oauth
   - oauth
   - codex
-  - chatgpt
-  - models
   - dsh
 source:
   repository: https://github.com/franksong2702/dsh-codex-connect

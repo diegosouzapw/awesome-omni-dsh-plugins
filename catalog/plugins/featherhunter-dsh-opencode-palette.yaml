@@ -8,10 +8,22 @@ unofficial: true
 kind: skin-theme
 primaryCategory: entertainment-customization
 tags:
+  - brings
   - opencode
+  - colour
+  - schemes
+  - themes
+  - built
+  - plus
   - system
-  - json
-  - dsh
+  - delivered
+  - through
+  - official
+  - bundle
+  - mechanism
+  - package
+  - ships
+  - cordis
 source:
   repository: https://github.com/FeatherHunter/dsh-opencode-palette
   repositoryNodeId: R_kgDOT5Qmlw

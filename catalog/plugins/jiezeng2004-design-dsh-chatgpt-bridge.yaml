@@ -12,18 +12,6 @@ tags:
   - dsh
   - mcp
   - chatgpt
-  - bridge
-  - lets
-  - create
-  - view
-  - continue
-  - control
-  - agent
-  - sessions
-  - through
-  - official
-  - protocol
-  - only
 source:
   repository: https://github.com/jiezeng2004-design/dsh-chatgpt-bridge
   repositoryNodeId: R_kgDOT4T3lA

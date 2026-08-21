@@ -14,14 +14,6 @@ tags:
   - genui
   - mcp
   - react
-  - task
-  - specific
-  - apps
-  - state
-  - carried
-  - next
-  - agent
-  - turn
   - dsh
 source:
   repository: https://github.com/pengyue-polaron/deepseek-harness-genui

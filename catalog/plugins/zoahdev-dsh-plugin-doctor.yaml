@@ -15,15 +15,6 @@ tags:
   - cli
   - security
   - supply-chain
-  - health
-  - checks
-  - manifest
-  - patch
-  - entry
-  - build
-  - pack
-  - install
-  - verification
 source:
   repository: https://github.com/zoahdev/dsh-plugin-doctor
   repositoryNodeId: R_kgDOT48tCw

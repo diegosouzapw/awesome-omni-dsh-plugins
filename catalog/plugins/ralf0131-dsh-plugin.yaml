@@ -17,7 +17,6 @@ tags:
   - genai
   - observability
   - loongsuite
-  - standalone
 source:
   repository: https://github.com/loongsuite/dsh-plugin
   repositoryNodeId: R_kgDOT49nog

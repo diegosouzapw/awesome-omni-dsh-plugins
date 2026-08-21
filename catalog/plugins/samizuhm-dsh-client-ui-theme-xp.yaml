@@ -14,16 +14,6 @@ tags:
   - windows-xp
   - luna
   - ui
-  - windows
-  - desktop
-  - floating
-  - window
-  - manager
-  - taskbar
-  - icons
-  - explorer
-  - style
-  - workspace
 source:
   repository: https://github.com/SamizuHM/dsh-client-ui-theme-xp
   repositoryNodeId: R_kgDOT4UM1A

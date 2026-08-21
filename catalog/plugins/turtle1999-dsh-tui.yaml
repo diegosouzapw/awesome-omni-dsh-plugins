@@ -8,10 +8,20 @@ unofficial: true
 kind: client-interface
 primaryCategory: user-interface-dashboards
 tags:
-- tui
+- interactive
 - terminal
-- chat-client
-- pi-tui
+- front
+- door
+- agents
+- session
+- picker
+- streaming
+- chat
+- view
+- keyboard
+- first
+- controls
+- dsh
 source:
   repository: https://github.com/turtle1999/turtle-ui
   repositoryNodeId: R_kgDOT1JF8Q

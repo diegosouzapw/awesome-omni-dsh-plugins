@@ -17,13 +17,6 @@ tags:
   - skill
   - quality-gate
   - delivery-gate
-  - delivery
-  - quality
-  - gate
-  - grill
-  - test
-  - implementation
-  - prove
 source:
   repository: https://github.com/PerryLink/dsh-doublecheck
   repositoryNodeId: R_kgDOT397Fg

@@ -12,16 +12,6 @@ tags:
   - dsh-plugin
   - llm-provider
   - claude-code
-  - locally
-  - installed
-  - claude
-  - code
-  - provider
-  - native
-  - tool
-  - calls
-  - through
-  - bridge
   - dsh
 source:
   repository: https://github.com/katsos/dsh-claude-cli
