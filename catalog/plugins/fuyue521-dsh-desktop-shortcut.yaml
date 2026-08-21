@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: fuyue521-dsh-desktop-shortcut
+name: dsh-desktop-shortcut
+description:
+  en: "DeepSeek Harness plugin: creates a Windows desktop shortcut that launches dsh web"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - desktop
+  - shortcut
+  - windows
+source:
+  repository: https://github.com/fuyue521/dsh-desktop-shortcut
+  repositoryNodeId: R_kgDOT5CApA
+  subpath: null
+  commit: 6bd601ca32a6faba617fc57b34c77892138a5279
+creator:
+  github: fuyue521
+package:
+  ecosystem: npm
+  name: dsh-desktop-shortcut
+  version: 0.2.6
+  integrity: sha512-ESzt8+jKdGFuCVooY3A41QL8hSjRT+Hgxcx/95cN9nx/wqtJGvBsdxnoOIIaQabbFxw0d3cHVnoMrQRHMxACfg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:57.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
