@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: perrylink-dsh-talk
+name: dsh-talk
+description:
+  en: "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - voice
+  - speech
+  - tts
+  - stt
+  - speech-to-text
+  - text-to-speech
+  - microphone
+source:
+  repository: https://github.com/PerryLink/dsh-talk
+  repositoryNodeId: R_kgDOT6VAKA
+  subpath: null
+  commit: c475fda51294bf0f1f33b045b434b78261d93479
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-talk
+  version: 0.1.0
+  integrity: sha512-kV5qT3HkL08dPKB2cWh6sOMaf/22uYP0w5P0epcByxPKf5IoK0UALEZk5tzwlvLhxtJ8z7uSkdDxlJ/OR7771Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:05.713Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
