@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zimai233-dsh-figma-to-lottie
+name: dsh-figma-to-lottie
+description:
+  en: Figma/SVG to Lottie animation compiler for DeepSeek Harness. Turn SVG paths and keyframe data into self-contained .lottie.json files.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - lottie
+  - animation
+  - figma
+  - svg
+  - design
+source:
+  repository: https://github.com/zimai233/dsh-figma-to-lottie
+  repositoryNodeId: R_kgDOT3-83g
+  subpath: null
+  commit: 8e21469374ebe4241b515f95552b1d8db8b79bb8
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:23.196Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
