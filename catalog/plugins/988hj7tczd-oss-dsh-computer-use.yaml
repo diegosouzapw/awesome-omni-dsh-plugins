@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-dsh-computer-use
+name: dsh-computer-use
+description:
+  en: "bash ./install.sh 预演: ./install.sh --dry-run ./uninstall.sh"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - computer-use
+  - cua-driver
+  - harness-desktop
+  - autopilot
+  - bash
+  - install
+  - uninstall
+source:
+  repository: https://github.com/988hj7tczd-oss/dsh-computer-use
+  repositoryNodeId: R_kgDOT5YX8A
+  subpath: null
+  commit: 5f94e234de98bde382b0a6df5e29c70023b38832
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: npm
+  name: dsh-computer-use
+  version: 0.1.0
+  integrity: sha512-9NvuOfXtpMPECMgzTl1HmpZ50mhcAMZbNgG2eD3Now4me4rFMkDIZ+qXn+gJkbWDqACHdXbojhghC234qN+L5w==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T01:51:35.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
