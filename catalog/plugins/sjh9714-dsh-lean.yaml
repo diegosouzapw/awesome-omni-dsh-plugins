@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: sjh9714-dsh-lean
+name: dsh-lean
+description:
+  en: DeepSeek bills peak hours at 2x, and peak is 09-12 and 14-18 Beijing time. npx dsh-lean audit shows what your session paid and what it costs off-peak. DeepSeek 峰时按 2 倍计费，峰时正好是上班时间。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - agent-preset
+  - cost-optimization
+  - deepseek-harness
+  - deepseek-pricing
+  - dsh
+  - dsh-plugin
+  - dsh-plugins
+  - llm
+  - off-peak
+  - peak-pricing
+  - prompt-cache
+  - token-cost
+source:
+  repository: https://github.com/sjh9714/dsh-lean
+  repositoryNodeId: R_kgDOT6Cu2A
+  subpath: null
+  commit: 2b2e412cb80d1d585d208cdfe4958bf418c26473
+creator:
+  github: sjh9714
+package:
+  ecosystem: npm
+  name: dsh-lean
+  version: 0.8.0
+  integrity: sha512-n5b5I+pBxaTQSSnYDqC+voOCmm/rBAy+lm4LoVdZTLW9pyJRF+hhZKrBWYsPIYrXKwBo1eA81ggY14qfYoChOw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:28.100Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
