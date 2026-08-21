@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zljr-dsh-share
+name: "@zljr/dsh-share"
+description:
+  en: "Session share plugin for DeepSeek Harness: generate a read-only LAN share link (frozen transcript snapshot) for the current session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - share
+  - lan
+source:
+  repository: https://github.com/zljr/dsh-share
+  repositoryNodeId: R_kgDOT5B2bw
+  subpath: null
+  commit: c3f21ece2f6c511c20d469a0252717f8e9cc2cfb
+creator:
+  github: zljr
+package:
+  ecosystem: npm
+  name: "@zljr/dsh-share"
+  version: 0.1.1
+  integrity: sha512-sL02Lr82bicuCaNgPJGWOk5DBB+FQ8EeKwKvMAM/yTBQCOXt3NzmSXJOWZHEXMxkzQ9OKqO8ZShyeHjnAH3cfA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:52.478Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
