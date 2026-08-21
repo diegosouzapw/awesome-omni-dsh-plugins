@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hrhrng-deepseek-harness-tui
+name: "@openma/deepseek-harness-tui"
+description:
+  en: Terminal-native ACP client UI; Cordis client tree, any ACP agent
+  evidencePath: npm/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - tui
+  - agent
+  - acp
+  - agent-client-protocol
+  - dsh
+source:
+  repository: https://github.com/openma-ai/Martty
+  repositoryNodeId: R_kgDOT3mJhA
+  subpath: npm
+  commit: ad3251f43083b12a6febe35108c2efb0a8599b7c
+creator:
+  github: hrhrng
+package:
+  ecosystem: npm
+  name: "@openma/deepseek-harness-tui"
+  version: 0.2.8
+  integrity: sha512-uRRII+T6o1xbpAJIgBGldfioTdswPIBs7Y+Zsr1tBd2xbjxgYyDeGIqvmlzj0svUE4GWn714LE1sI7j/K2T2FA==
+dsh:
+  profiles:
+    - default
+  evidencePath: npm/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:49:11.791Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
