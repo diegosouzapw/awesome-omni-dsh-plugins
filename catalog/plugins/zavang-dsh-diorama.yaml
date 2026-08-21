@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zavang-dsh-diorama
+name: dsh-diorama
+description:
+  en: "DSH Diorama — character skins with an editable decoration board for DeepSeek Harness: 雪乃·暖阳日常 (Yukino warm daily) and 隐秘年代志 (occult editorial), each with dual character sprites + sticker sheets. Dropdown skin switcher, drag/resize/rotate coordinate editor, custom asset upload, and shareable diorama packs (assets + layo"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - skin
+  - theme
+  - character
+  - anime
+  - yukinoshita
+  - diorama
+  - editor
+  - drag
+  - stickers
+  - wallpaper
+source:
+  repository: https://github.com/ZaVang/dsh-diorama
+  repositoryNodeId: R_kgDOT66cLA
+  subpath: null
+  commit: 9bd7cd7f6fc63da60082eb9fda2703e1e7c820f2
+creator:
+  github: ZaVang
+package:
+  ecosystem: npm
+  name: dsh-diorama
+  version: 0.1.0
+  integrity: sha512-GnlSXId9e5PeT283OUeeDBi7/bYYp38MW/Wn/pQlGHojex7vKirmnj7uqzrkqh4xrQAWlrHgFKP3/YvKuROa8A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:30.988Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
