@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: breezles-dsh-kb-rag
+name: dsh-kb-rag
+description:
+  en: "Local literature knowledge-base RAG tools for DSH: hybrid retrieval + rerank + cited answers over a SQLite index (bundled Python engine)."
+  evidencePath: npm-package/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - rag
+  - knowledge-base
+  - literature
+  - zotero
+  - sqlite
+  - embedding
+  - rerank
+source:
+  repository: https://github.com/Breeze136/dsh-kb-rag
+  repositoryNodeId: R_kgDOT57wiQ
+  subpath: npm-package
+  commit: ba12968e7e378c32e5e760fa415e7d2ea8c1119a
+creator:
+  github: Breezles
+package:
+  ecosystem: npm
+  name: dsh-kb-rag
+  version: 1.1.0
+  integrity: sha512-DRRs+4+yl3fECVBMYEG22AsoSRDoslTmlR/ZmwkNQNnJmpkgpFnnqYYL7ibUXwl2nvTzhFAuS1sYzdrNWXaWuw==
+dsh:
+  profiles:
+    - web
+  evidencePath: npm-package/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:59.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
