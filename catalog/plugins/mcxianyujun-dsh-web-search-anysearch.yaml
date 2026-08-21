@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: mcxianyujun-dsh-web-search-anysearch
+name: dsh-web-search-anysearch
+description:
+  en: "AnySearch Web Search Provider for DeepSeek Harness: native AnySearch /v1/search, dedicated Web settings section, DSH credentials integration, Web and Headless profile support."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - anysearch
+  - deepseek-harness
+  - dsh-plugin
+  - web-search
+  - websearchprovider
+  - search-provider
+  - dsh
+source:
+  repository: https://github.com/mcxianyujun/dsh-web-search-anysearch
+  repositoryNodeId: R_kgDOT6rb4g
+  subpath: null
+  commit: 2431cdd8d3294be594340deec09b6b03dd81f65a
+creator:
+  github: mcxianyujun
+package:
+  ecosystem: npm
+  name: dsh-web-search-anysearch
+  version: 0.1.1
+  integrity: sha512-+xa6ZP48vIqh+eYi7PdbiO2JpXf+9UhoPpMWt0l5TyZRlcWqfpEnBUJMHOASgGyngWXDRgGwP8qo5J84ulTLMg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:15.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
