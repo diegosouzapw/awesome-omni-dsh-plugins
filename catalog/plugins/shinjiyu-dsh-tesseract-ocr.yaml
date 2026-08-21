@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shinjiyu-dsh-tesseract-ocr
+name: "@maxwell-feng/dsh-tesseract-ocr"
+description:
+  en: "dsh plugin: recognize attached images locally with Tesseract OCR and send only the recognized text to the model. Text models never receive image bytes; vision passthrough is opt-in."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ocr
+  - tesseract
+  - privacy
+source:
+  repository: https://github.com/maxwell-feng/dsh-tesseract-ocr
+  repositoryNodeId: R_kgDOT5Ikcw
+  subpath: null
+  commit: 757e9cc726fbcd285dd4fa33694fb77bd22a260d
+creator:
+  github: shinjiyu
+package:
+  ecosystem: npm
+  name: "@maxwell-feng/dsh-tesseract-ocr"
+  version: 0.2.3
+  integrity: sha512-jFtjeG3rRzRh54SkYDr+3aDpiwzhrdISddEtA/IPBBvoOItfyXNuIYdzc4pJj17awFT542YPUt+uqqfB7ZDf7Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:21.795Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
