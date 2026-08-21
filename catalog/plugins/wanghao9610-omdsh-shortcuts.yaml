@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-shortcuts
+name: "@omdsh-plugins/omdsh-shortcuts"
+description:
+  en: "Bind a chord to anything the harness can do: a menu the desktop shell renders natively, a switchboard the runtime dispatches through, and an in-page listener for the web — one document, two surfaces"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - bind
+  - chord
+  - anything
+  - menu
+  - desktop
+  - shell
+  - renders
+  - natively
+  - switchboard
+  - runtime
+  - dispatches
+  - through
+  - page
+  - listener
+  - document
+  - surfaces
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-shortcuts
+  repositoryNodeId: R_kgDOT5uoNg
+  subpath: null
+  commit: e59753c0d960f0ca7032399dd49ee644e00476ae
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:44.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
