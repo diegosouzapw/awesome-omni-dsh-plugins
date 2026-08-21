@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 263311487-ux-dsh-verify
+name: dsh-verify
+description:
+  en: "Witness — the quality gate for agent-built web apps. Independent browser acceptance testing: CLI, MCP, AI-drafted checklists, visual regression, multi-browser. Agents self-test and pass; real browsers tell the truth."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - agent
+  - ai-agent
+  - llm
+  - mcp
+  - mcp-server
+  - acceptance-testing
+  - e2e
+  - browser-automation
+  - playwright
+  - visual-regression
+  - verification
+  - dsh
+source:
+  repository: https://github.com/263311487-ux/dsh-verify
+  repositoryNodeId: R_kgDOT59bpg
+  subpath: null
+  commit: 25712f5e94cc8299ad8f210564047e8b70362325
+creator:
+  github: 263311487-ux
+package:
+  ecosystem: npm
+  name: dsh-verify
+  version: 0.9.0
+  integrity: sha512-cUlsjVn9xWAMU1SLue4VHMkWMjU85wOAQEGGF0/y+0dEI6/1QZcooqkFR3A1gPl+iLIM51p0WFuFTWtZWZ9rpQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:32.625Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
