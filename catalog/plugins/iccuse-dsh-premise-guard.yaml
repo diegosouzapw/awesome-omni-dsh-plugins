@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: iccuse-dsh-premise-guard
+name: dsh-premise-guard
+description:
+  en: "Post-compaction premise-drift guard plugin for DeepSeek Harness: after a compaction summary drops a critical literal anchor (path, value, error code) it injects a one-shot notice telling the model what it may have lost and how to recover it from the log"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+source:
+  repository: https://github.com/ICCuse/dsh-premise-guard
+  repositoryNodeId: R_kgDOT4DKSw
+  subpath: null
+  commit: 2161842c336d4d580ffcf928fad44cf307082084
+creator:
+  github: ICCuse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:35.944Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
