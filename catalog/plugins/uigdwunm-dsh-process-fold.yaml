@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uigdwunm-dsh-process-fold
+name: dsh-process-fold
+description:
+  en: Fold DSH Web execution steps into compact expandable process boxes while keeping dialogue and final answers outside.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - conversation-ui
+  - process-fold
+source:
+  repository: https://github.com/uigdwunm/dsh-process-fold
+  repositoryNodeId: R_kgDOT64m6g
+  subpath: null
+  commit: 786e786f110bf93d772f6252d88177c4e3624ab2
+creator:
+  github: uigdwunm
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:49.455Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
