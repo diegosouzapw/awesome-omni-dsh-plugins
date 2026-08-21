@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zimai233-dsh-video-downloader
+name: dsh-video-downloader
+description:
+  en: Media downloader for DeepSeek Harness. Detect and download video/audio from Bilibili, YouTube, Douyin, Xiaohongshu.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - video
+  - downloader
+  - media
+  - bilibili
+  - youtube
+  - douyin
+  - xiaohongshu
+source:
+  repository: https://github.com/zimai233/dsh-video-downloader
+  repositoryNodeId: R_kgDOT3--Dw
+  subpath: null
+  commit: 48107ee57bc115af0165c20b464ef7adcfa6fc59
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:24.653Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
