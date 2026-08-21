@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: jinhuoooo-dsh-prompt-polish
+name: dsh-prompt-polish
+description:
+  en: "One-click AI text polish for DSH — WorkBuddy humanizer-style sparkle button. v2.3: Built-in GLM-4.5-Flash engine (zero-config), in-app settings page for model API config, hardened worker rate-limit. Supports WorkBuddy Open Platform API, 智谱 GLM-4-Flash (free), SiliconFlow (free), Tencent Hunyuan, and any OpenAI-compatib"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - click
+  - text
+  - polish
+  - workbuddy
+  - humanizer
+  - style
+  - sparkle
+  - button
+  - built
+  - flash
+  - engine
+  - zero
+  - config
+  - settings
+  - page
+  - model
+source:
+  repository: https://github.com/jinhuoooo/dsh-prompt-polish
+  repositoryNodeId: R_kgDOT52-7Q
+  subpath: null
+  commit: 287e74e0ff06ff6e822e8428a9635b6dffd07ffd
+creator:
+  github: jinhuoooo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:11.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
