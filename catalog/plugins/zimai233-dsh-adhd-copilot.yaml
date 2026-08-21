@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zimai233-dsh-adhd-copilot
+name: dsh-adhd-copilot
+description:
+  en: ADHD behavioral coaching skill for DeepSeek Harness. Guides readers through task execution - breaks tasks into micro-steps, manages overwhelm, provides launch rituals, calibrates time estimates, and recovers from self-blame.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - adhd
+  - coaching
+  - behavioral
+  - skill
+  - wellness
+  - mental-health
+source:
+  repository: https://github.com/zimai233/dsh-adhd-copilot
+  repositoryNodeId: R_kgDOT3-9iA
+  subpath: null
+  commit: 6527cb64b11b7265ba576e195bd008a5aa066be5
+creator:
+  github: zimai233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:58.840Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
