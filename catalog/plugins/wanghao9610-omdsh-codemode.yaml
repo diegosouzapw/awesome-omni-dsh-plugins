@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-codemode
+name: "@omdsh-plugins/omdsh-codemode"
+description:
+  en: "Code mode for the DeepSeek Harness web GUI: a third segment beside Chat and Work whose column is the harness's own terminal, running in the conversation's workspace"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - code
+  - mode
+  - third
+  - segment
+  - beside
+  - chat
+  - work
+  - whose
+  - column
+  - terminal
+  - running
+  - conversation
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-codemode
+  repositoryNodeId: R_kgDOT5upQQ
+  subpath: null
+  commit: 85f462cd472bae47a6836bd99085016368d44abf
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:36.377Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
