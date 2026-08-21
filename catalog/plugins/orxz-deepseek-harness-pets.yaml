@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: orxz-deepseek-harness-pets
+name: deepseek-harness-pets
+description:
+  en: A desktop pet for DeepSeek Harness (dsh) — a whale that swims in the corner of your Web UI and reacts to your agent's turns.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - pet
+  - pixel-art
+  - petdex
+  - dsh
+source:
+  repository: https://github.com/orxz/deepseek-harness-pets
+  repositoryNodeId: R_kgDOT4iEHA
+  subpath: null
+  commit: 62b3e498cdb0bb7acbe3043a9e84eaba905f1e09
+creator:
+  github: orxz
+package:
+  ecosystem: npm
+  name: deepseek-harness-pets
+  version: 0.2.3
+  integrity: sha512-ZrnqUP1011SJ57cNRX2k3qJaWvpsNwG6TJDKFVGc/4EJ7oTGeriBg+6Hzc6RiiAERr+/FHDSrBBm1qaGxPVpTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:26.524Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
