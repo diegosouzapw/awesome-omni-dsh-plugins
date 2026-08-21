@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fallen0543-dsh-sidebar-files
+name: dsh-sidebar-files
+description:
+  en: "Sidebar file tree for DeepSeek Harness: a files panel with a lazy, per-extension-icon tree, copy-path and send-to-agent actions"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - sidebar
+  - file-tree
+  - files
+source:
+  repository: https://github.com/Fallen0543/dsh-sidebar-files
+  repositoryNodeId: R_kgDOT5K79Q
+  subpath: null
+  commit: 00758526bd596aa208f162743391f99ec7744f63
+creator:
+  github: Fallen0543
+package:
+  ecosystem: npm
+  name: dsh-sidebar-files
+  version: 0.1.0
+  integrity: sha512-jd/ke00oZwH6snwTuylDfnRWp0ixfHL+lKmKEdIxIedNpMLlTozO6V32JaRcZPDd3SXFcoFsPKOQVj2i2oY6jg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:55.833Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
