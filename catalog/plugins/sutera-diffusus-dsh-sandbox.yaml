@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sutera-diffusus-dsh-sandbox
+name: dsh-sandbox
+description:
+  en: powershell git clone https://github.com/Sutera-Diffusus/dsh-sandbox-tester.git cd dsh-sandbox-tester
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - powershell
+  - clone
+  - sutera
+  - diffusus
+  - sandbox
+  - tester
+  - dsh
+source:
+  repository: https://github.com/Sutera-Diffusus/dsh-sandbox-tester
+  repositoryNodeId: R_kgDOT6O37Q
+  subpath: null
+  commit: 8fd746dc1fd0946c5491b0e2967ab0d22e4fba4e
+creator:
+  github: Sutera-Diffusus
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:45.314Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
