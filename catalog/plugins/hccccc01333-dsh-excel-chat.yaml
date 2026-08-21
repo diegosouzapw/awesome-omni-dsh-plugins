@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: hccccc01333-dsh-excel-chat
+name: dsh-excel-chat
+description:
+  en: "Talk to Excel in DeepSeek Harness: create/edit spreadsheets, formulas, styles, filters, and tables by conversation; auto-verifies formulas after every edit, repairs silent errors, and validates charts."
+  evidencePath: bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - excel
+  - spreadsheet
+  - formula
+  - verification
+  - silent-errors
+  - xlsx
+  - chart
+  - benchmark
+  - agent
+source:
+  repository: https://github.com/hccccc01333/dsh-excel-chat
+  repositoryNodeId: R_kgDOT35KDw
+  subpath: bundle
+  commit: 0f458926267d3b3559da7b05f8e63aedbf5d5e11
+creator:
+  github: hccccc01333
+package:
+  ecosystem: npm
+  name: dsh-excel-chat
+  version: 0.34.1
+  integrity: sha512-3cea9IGhgk55kd33G/naZ2N7RgwKdgzjfwAJeZZkqtc94QohKvX+ZbC71Xkr7cPVbEpfKVRw6WSpPGcmOkob6Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:32.951Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
