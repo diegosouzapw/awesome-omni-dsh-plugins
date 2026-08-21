@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: huajuan404-dsh-diagram
+name: dsh-diagram
+description:
+  en: Turn articles in DeepSeek Harness into editable Excalidraw canvases
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - canvas
+  - diagram
+  - diagram-editor
+  - excalidraw
+  - flowchart
+  - visualization
+  - web-ui
+source:
+  repository: https://github.com/hanzhangzzz/dsh-diagram
+  repositoryNodeId: R_kgDOT4_eiQ
+  subpath: null
+  commit: 04ed56051cf577a72f8599865eb1810fdd647fe1
+creator:
+  github: huajuan404
+package:
+  ecosystem: npm
+  name: dsh-diagram
+  version: 0.2.1
+  integrity: sha512-a4biumcp4FjkdNtpGPzK826gmraVrhskDIazfWWCgri+a8RWuE5Jl03tCJOhI/inYM8gUapgYvJIpOuG6kNwcw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:37.706Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
