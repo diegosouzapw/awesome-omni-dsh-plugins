@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zoahdev-dsh-plugin-template
+name: dsh-plugin-template
+description:
+  en: "Minimal, verified template for DeepSeek Harness plugins: bundle manifest, one tool, tests, and CI smoke load."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - template
+  - cordis
+  - agent
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-plugin-template
+  repositoryNodeId: R_kgDOT44Ilg
+  subpath: null
+  commit: 7df29cfa4eb729b99b5e968829d82d512f6889d0
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:53.867Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
