@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: sutera-diffusus-dsh-windows-notify
+name: dsh-windows-notify
+description:
+  en: "Windows-grade notifications for DeepSeek Harness: system toasts, custom sounds, and a taskbar tray badge for task completion and decision prompts — a native DSH profile plugin (bundle + client + settings namespace), zero patching of built-in packages."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - notifications
+  - windows
+  - toast
+  - tray
+source:
+  repository: https://github.com/Sutera-Diffusus/dsh-windows-notify
+  repositoryNodeId: R_kgDOT5Tv8w
+  subpath: null
+  commit: 42c3ae80e1beac7516e8678b3dd449c2f0f55e25
+creator:
+  github: Sutera-Diffusus
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:06.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
