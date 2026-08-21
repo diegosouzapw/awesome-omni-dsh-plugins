@@ -51,7 +51,7 @@ function sourceEntry(): PublicCatalogEntry {
 }
 
 describe("source Git reap boundary", () => {
-  it("returns a bounded typed error and preserves the work area when the process tree never closes", async () => {
+  it("returns a bounded typed error and preserves the work area when the process tree never closes", { timeout: 15_000 }, async () => {
     const home = mkdtempSync(join(tmpdir(), "dsh-staging-unreaped-"));
     roots.push(home);
     const events = new EventEmitter();
@@ -78,7 +78,12 @@ describe("source Git reap boundary", () => {
         childSupervisor: { spawn, signalProcessGroup },
       }),
       new Promise<never>((_resolve, reject) => {
-        setTimeout(() => reject(new Error("source Git reap boundary stayed pending")), 250);
+        // Liveness detector only: the assertions that matter are the unreaped error, the
+        // TERM→KILL sequence on the process group and the preserved work area — none change
+        // with this bound. 250ms promised wall-clock over real setTimeout chains, which a
+        // loaded vitest worker pool cannot keep (observed 146ms on a green run, 1.7x from the
+        // cliff); 5s stays a liveness proof without racing the scheduler. (issue #50)
+        setTimeout(() => reject(new Error("source Git reap boundary stayed pending")), 5_000);
       }),
     ]);
 
