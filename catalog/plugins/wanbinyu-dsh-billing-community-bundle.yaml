@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wanbinyu-dsh-billing-community-bundle
+name: dsh-billing-community-bundle
+description:
+  en: Installable DeepSeek Harness bundle for the dsh-billing host projection and client UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - installable
+  - bundle
+  - billing
+  - host
+  - projection
+  - client
+  - dsh
+source:
+  repository: https://github.com/Wanbinyu/dsh-billing
+  repositoryNodeId: R_kgDOT37M3g
+  subpath: null
+  commit: 07419e3141fae1def451f3ac7f2a13b27b617459
+creator:
+  github: Wanbinyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:48.115Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
