@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: shiwenyuan-dsh-jiey-browser
+name: dsh-jiey-browser
+description:
+  en: Drive Jiey Browser from DeepSeek Harness — real Chromium agent tools over MCP
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - jiey
+  - browser
+  - agent
+  - mcp
+  - cordis
+  - browser-automation
+source:
+  repository: https://github.com/jiewaigongxing/dsh-jiey-browser
+  repositoryNodeId: R_kgDOT6zd6A
+  subpath: null
+  commit: 65be607daf07f644e21368e37ac9763a31814950
+creator:
+  github: shiwenyuan
+package:
+  ecosystem: npm
+  name: dsh-jiey-browser
+  version: 0.1.4
+  integrity: sha512-1da17ywWGAAB7jtmVUG1BSQYOg2h4VAqc10vwQS/jqLNjXNGi+HYREd7z3GgVu+D+gpgdVzesfG5v1GS8T6/Bg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:51.068Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
