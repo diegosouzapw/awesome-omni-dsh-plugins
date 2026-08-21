@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 314857493-dsh-vision-proxy-route
+name: dsh-vision-proxy-route
+description:
+  en: "DeepSeek Harness plugin: a deepseek-vision route that declares image input and transcribes pasted images via the free Zhipu GLM vision models before delegating to the DeepSeek adapter."
+  evidencePath: packages/vision-route/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - image
+  - glm
+  - zhipu
+  - transcribe
+source:
+  repository: https://github.com/314857493/dsh-vision
+  repositoryNodeId: R_kgDOT5ONXQ
+  subpath: packages/vision-route
+  commit: 524d9a9c44c482a185d57b21d9d5cbc2c7da8227
+creator:
+  github: "314857493"
+package:
+  ecosystem: npm
+  name: dsh-vision-proxy-route
+  version: 0.1.1
+  integrity: sha512-MAmPDYeVw1fBmNH6KB6ENLUL00u5TxfSysYCpfuP2rSpuMxgScv72KaAD0hLVIgGDigPWpDxNSmGaQuRrHTcMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/vision-route/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:34.101Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
