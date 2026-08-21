@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: viger1-dsh-preview
+name: dsh-preview
+description:
+  en: Eyes for your DeepSeek Harness agent — it opens, sees, and fixes what it builds. Headless-browser preview & self-verification tools (screenshot, console, DOM read, interact) as a dsh plugin.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - browser
+  - screenshot
+  - playwright
+  - verification
+  - preview
+source:
+  repository: https://github.com/Viger1/dsh-preview
+  repositoryNodeId: R_kgDOT6FdEA
+  subpath: null
+  commit: ac08fa218b9088b61316008c9621b878aaa358a0
+creator:
+  github: Viger1
+package:
+  ecosystem: npm
+  name: dsh-preview
+  version: 0.1.1
+  integrity: sha512-bt+F2WDNT50Cxv/NrLJCUULkyAfBuUDyBtE8aR80GcdWfUXieJhZFbDaoBjLqqtr+AnHT77Lf3u1ACqFPqrGLg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:55.696Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
