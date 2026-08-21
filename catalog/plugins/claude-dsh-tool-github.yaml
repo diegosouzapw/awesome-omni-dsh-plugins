@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: claude-dsh-tool-github
+name: dsh-tool-github
+description:
+  en: Model-facing github tools over the dsh-github seam — search, issue/PR reads with tool-owned diff budgets, and approval-gated writes. This package owns schemas, validation, prompt guidance, and presentation, never providers or transport
+  evidencePath: packages/github/tool-github/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model
+  - facing
+  - tools
+  - over
+  - seam
+  - search
+  - issue
+  - reads
+  - tool
+  - owned
+  - diff
+  - budgets
+  - approval
+  - gated
+  - writes
+  - package
+source:
+  repository: https://github.com/kaziii/dsh-github-connector
+  repositoryNodeId: R_kgDOT3ijLg
+  subpath: packages/github/tool-github
+  commit: 34117bfad325e47a30c5146d4b7c2421d07594b5
+creator:
+  github: claude
+package:
+  ecosystem: npm
+  name: dsh-tool-github
+  version: 0.1.0
+  integrity: sha512-o61sLealo0xSYIuSGs01FRAXvXpup9h9xqyzbg9j/sbqB+/NE1nO+4FW++aINT4z/IdZ1JaqWOedGYtmgP1/jg==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/github/tool-github/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:02.937Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
