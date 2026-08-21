@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xu964262001-sudo-dsh-tool-diagnose
+name: dsh-tool-diagnose
+description:
+  en: A DeepSeek Harness bundle plugin exposing a diagnose tool over an extensible ctx.diagnostics check registry.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bundle
+  - exposing
+  - diagnose
+  - tool
+  - over
+  - extensible
+  - diagnostics
+  - check
+  - registry
+  - dsh
+source:
+  repository: https://github.com/xu-kai-quan/dsh-tool-diagnose
+  repositoryNodeId: R_kgDOT5uu3g
+  subpath: null
+  commit: 112df5167cb9c857e5f17d8f7f1ed232b279814f
+creator:
+  github: xu964262001-sudo
+package:
+  ecosystem: npm
+  name: dsh-tool-diagnose
+  version: 0.1.0
+  integrity: sha512-wT1x+FL/n9+OlwHPE1VUe45I76VB3LNT+RtGGZm4mlYZzFkWg11lkURo1dFx4rBCZnoSsf4bvihrb5elTzM50g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:18.862Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
