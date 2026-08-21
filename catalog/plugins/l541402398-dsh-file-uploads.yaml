@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: l541402398-dsh-file-uploads
+name: dsh-file-uploads
+description:
+  en: Upload arbitrary local files from the DeepSeek Harness Web composer, attach them to prompts, and manage stored uploads in Settings.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - file-upload
+  - web-ui
+source:
+  repository: https://github.com/l541402398/dsh-file-uploads
+  repositoryNodeId: R_kgDOT4CYnA
+  subpath: null
+  commit: 3ea46e1583eac426cc34e191ea811e71b0c8347e
+creator:
+  github: l541402398
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:43.297Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
