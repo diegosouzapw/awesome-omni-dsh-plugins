@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: bujue600-arch-dsh-testgen
+name: dsh-testgen
+description:
+  en: "Automated unit-test generation for DeepSeek Harness: a /testgen command and generate tests tool that scaffold, run, and fix tests until they pass."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - testing
+  - unit-test
+  - test-generation
+  - vitest
+  - jest
+  - node-test
+  - coding-agent
+  - ai
+source:
+  repository: https://github.com/bujue600-arch/dsh-testgen
+  repositoryNodeId: R_kgDOT4QDHQ
+  subpath: null
+  commit: 1730f3927342dbbe75e981d81a0d64ae76a1f245
+creator:
+  github: bujue600-arch
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:31.334Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
