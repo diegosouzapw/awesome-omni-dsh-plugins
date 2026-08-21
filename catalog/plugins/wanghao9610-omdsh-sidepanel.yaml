@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wanghao9610-omdsh-sidepanel
+name: "@omdsh-plugins/omdsh-sidepanel"
+description:
+  en: "Work-mode side panels for the DeepSeek Harness web GUI: a right file explorer with previews and a bottom terminal, both absent in Chat mode"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - work
+  - mode
+  - side
+  - panels
+  - right
+  - file
+  - explorer
+  - previews
+  - bottom
+  - terminal
+  - both
+  - absent
+  - chat
+  - dsh
+source:
+  repository: https://github.com/omdsh-plugins/omdsh-sidepanel
+  repositoryNodeId: R_kgDOT5up4Q
+  subpath: null
+  commit: e549812ea8d23ba8849b675a08e25b3012d0f365
+creator:
+  github: wanghao9610
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:26:47.412Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
