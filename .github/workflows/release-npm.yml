@@ -1,13 +1,21 @@
-# npm release via trusted publishing. Owner-dispatched only; fails closed until the trusted
-# publisher is configured on npmjs.com for this repository and this workflow. No npm token
-# exists anywhere in this repository — authentication is the OIDC exchange itself.
+# npm release via trusted publishing, driven by the release TAG — not a branch tip. The release
+# flow is: tag `cli-v<version>` a commit that is already on main → push the tag → this workflow
+# builds and publishes exactly that tagged commit. A workflow_dispatch fallback exists for
+# re-runs, but it fails closed unless the tag `cli-v<version>` already exists and points at
+# EXACTLY the commit being built — so the immutable npm artifact can never contain commits that
+# were not the reviewed, tagged release. Fails closed until the trusted publisher is configured
+# on npmjs.com for this repository and this workflow. No npm token exists anywhere in this
+# repository — authentication is the OIDC exchange itself.
 name: release-npm
 
 on:
+  push:
+    tags:
+      - "cli-v*"
   workflow_dispatch:
     inputs:
       version:
-        description: "Version being released (must equal cli/package.json)"
+        description: "Version being released (must equal cli/package.json AND have an existing cli-v<version> tag pointing at the checked-out commit)"
         required: true
 
 permissions:
@@ -26,17 +34,80 @@ jobs:
       run:
         working-directory: cli
     steps:
-      # Owner dispatch can target any ref; a release may only ever come from main so a hostile
-      # or stale branch cannot reach the OIDC publish step.
-      - name: Enforce the release ref
+      - uses: actions/checkout@v4
+        with:
+          # Full history + all tags: the guards below need origin/main for the ancestry check
+          # and the cli-v* tags for the dispatch-fallback tag/SHA equality check.
+          fetch-depth: 0
+
+      # The version is AUTHORITATIVE from cli/package.json of the checked-out commit; the tag
+      # (or the dispatch input) must agree with it, never the other way around. Fail-closed:
+      # - tag push:  GITHUB_REF must be exactly refs/tags/cli-v<package.json version>;
+      # - dispatch:  the input must equal package.json, AND the tag cli-v<version> must already
+      #   exist AND point at exactly the commit this run checked out — a dispatch can re-run a
+      #   tagged release, never mint an untagged one;
+      # - any other ref (a branch push cannot trigger this workflow, but belt-and-braces): fail.
+      # This replaces the previous "Enforce the release ref" (which pinned refs/heads/main and
+      # therefore built whatever main's TIP happened to be) and absorbs the version half of the
+      # previous "Guard the requested version" step.
+      - name: Resolve the release version and enforce the tag contract
+        working-directory: .
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          set -eu
+          PACKAGE_VERSION="$(node -p "require('./cli/package.json').version")"
+          EXPECTED_TAG="cli-v${PACKAGE_VERSION}"
+          case "$GITHUB_REF" in
+            refs/tags/cli-v*)
+              if [ "$GITHUB_REF" != "refs/tags/${EXPECTED_TAG}" ]; then
+                echo "Tag ref $GITHUB_REF does not match cli/package.json version ${PACKAGE_VERSION} (expected refs/tags/${EXPECTED_TAG})" >&2
+                exit 1
+              fi
+              ;;
+            *)
+              # workflow_dispatch fallback (or any unexpected ref): only a commit that already
+              # carries the release tag may be built.
+              if [ -z "${REQUESTED_VERSION:-}" ]; then
+                echo "release-npm was not triggered by a cli-v* tag and no version input was provided (ref: $GITHUB_REF)" >&2
+                exit 1
+              fi
+              if [ "$REQUESTED_VERSION" != "$PACKAGE_VERSION" ]; then
+                echo "Requested $REQUESTED_VERSION but cli/package.json says $PACKAGE_VERSION" >&2
+                exit 1
+              fi
+              TAG_SHA="$(git rev-parse --verify --quiet "refs/tags/${EXPECTED_TAG}^{commit}" || true)"
+              if [ -z "$TAG_SHA" ]; then
+                echo "Tag ${EXPECTED_TAG} does not exist. Push the release tag first; dispatch is only a re-run fallback for an existing tag." >&2
+                exit 1
+              fi
+              HEAD_SHA="$(git rev-parse HEAD)"
+              if [ "$TAG_SHA" != "$HEAD_SHA" ]; then
+                echo "Tag ${EXPECTED_TAG} points at $TAG_SHA but this run checked out $HEAD_SHA. The npm artifact must be built from the tagged commit, never a branch tip." >&2
+                exit 1
+              fi
+              ;;
+          esac
+          if [ "$PACKAGE_VERSION" = "0.1.0" ]; then
+            echo "0.1.0 is the immutable bootstrap release and must never be republished" >&2
+            exit 1
+          fi
+          echo "RELEASE_VERSION=${PACKAGE_VERSION}" >> "$GITHUB_ENV"
+          echo "Releasing ${PACKAGE_VERSION} from $(git rev-parse HEAD) (${GITHUB_REF})"
+
+      # The tagged commit must already be ON main: a tag is just a name for a SHA and anyone who
+      # can push tags could otherwise point cli-v* at an unreviewed side commit and have it
+      # published with provenance. Ancestry of origin/main is what "was reviewed as part of the
+      # repository history" means here.
+      - name: Enforce that the released commit is on main
         working-directory: .
         run: |
-          case "$GITHUB_REF" in
-            refs/heads/main) : ;;
-            *) echo "release-npm may only run from main (got $GITHUB_REF)" >&2; exit 1 ;;
-          esac
-
-      - uses: actions/checkout@v4
+          set -eu
+          git fetch origin main
+          if ! git merge-base --is-ancestor HEAD origin/main; then
+            echo "Commit $(git rev-parse HEAD) is not an ancestor of origin/main; release tags must point at a commit already merged to main" >&2
+            exit 1
+          fi
 
       - uses: actions/setup-node@v4
         with:
@@ -44,21 +115,6 @@ jobs:
           registry-url: https://registry.npmjs.org
           cache: npm
           cache-dependency-path: cli/package-lock.json
-
-      - name: Guard the requested version
-        env:
-          REQUESTED_VERSION: ${{ inputs.version }}
-        run: |
-          set -eu
-          PACKAGE_VERSION="$(node -p "require('./package.json').version")"
-          if [ "$REQUESTED_VERSION" != "$PACKAGE_VERSION" ]; then
-            echo "Requested $REQUESTED_VERSION but cli/package.json says $PACKAGE_VERSION" >&2
-            exit 1
-          fi
-          if [ "$PACKAGE_VERSION" = "0.1.0" ]; then
-            echo "0.1.0 is the immutable bootstrap release and must never be republished" >&2
-            exit 1
-          fi
 
       - run: npm ci
 
@@ -90,17 +146,17 @@ jobs:
       # with the version being released. Running --version without reading it is what once let a
       # build reach the release gate still calling itself by the previous version; npm versions
       # are immutable, so this must fail here or never.
+      # RELEASE_VERSION comes from the tag-contract guard above (package.json of the tagged
+      # commit), so this check holds on tag pushes too, where no dispatch input exists.
       - name: Smoke the packed tarball
-        env:
-          REQUESTED_VERSION: ${{ inputs.version }}
         run: |
           set -eu
           TARBALL="$(cat /tmp/tarball-name)"
           SCRATCH="$(mktemp -d)"
           npm install --prefix "$SCRATCH" --no-save --ignore-scripts "./$TARBALL"
           REPORTED="$("$SCRATCH/node_modules/.bin/dsh-plugins" --version)"
-          if [ "$REPORTED" != "$REQUESTED_VERSION" ]; then
-            echo "Packed binary reports $REPORTED but this release is $REQUESTED_VERSION" >&2
+          if [ "$REPORTED" != "$RELEASE_VERSION" ]; then
+            echo "Packed binary reports $REPORTED but this release is $RELEASE_VERSION" >&2
             exit 1
           fi
           "$SCRATCH/node_modules/.bin/dsh-plugins" --help > /dev/null

@@ -147,3 +147,18 @@ npx omni-dsh-plugins search tui \
   --catalog https://dsh-plugins.omniroute.online/catalog.snapshot.json \
   --revision <published-catalog-revision>
 ```
+
+## Releasing (maintainers)
+
+Releases are tag-driven and fail closed. The npm artifact is built from the tagged commit —
+never from a branch tip:
+
+1. Land the release commit (with the final `cli/package.json` version) on `main` through a
+   reviewed pull request.
+2. Tag that commit `cli-v<version>` (the version must equal `cli/package.json` of the tagged
+   commit) and push the tag. The push triggers `.github/workflows/release-npm.yml`, which
+   verifies the tag/version match, verifies the commit is an ancestor of `main`, runs tests,
+   checks the exact tarball manifest, smoke-runs the packed binary, and publishes with npm
+   provenance.
+3. `workflow_dispatch` exists only as a re-run fallback: it refuses to publish unless the
+   `cli-v<version>` tag already exists and points at exactly the commit checked out by the run.
