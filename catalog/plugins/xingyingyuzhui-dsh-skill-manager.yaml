@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-skill-manager
+name: dsh-skill-manager
+description:
+  en: English UI follows the DSH locale.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skill
+  - settings
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-skill-manager
+  repositoryNodeId: R_kgDOT65JKg
+  subpath: null
+  commit: 358e7b9382c6c50ffeb24d7f18d13b10067e1fe3
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:23.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
