@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: vladimir-human-humanizer-ru-dsh
+name: humanizer-ru-dsh
+description:
+  en: "An agent skill that finds and removes traces of machine generation from Russian-language text. It rewrites AI-sounding prose into human prose without distorting the meaning, and it leaves live human writing alone: a false positive costs more than a miss."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - finds
+  - removes
+  - traces
+  - machine
+  - generation
+  - russian
+  - language
+  - text
+  - rewrites
+  - sounding
+  - prose
+  - human
+  - without
+  - distorting
+source:
+  repository: https://github.com/Vladimir-Human/humanizer-ru
+  repositoryNodeId: R_kgDOQ-W4Ug
+  subpath: dsh
+  commit: e5f4eba5d0c5e5e1bdc59c5aec23fa69d1b401ea
+creator:
+  github: Vladimir-Human
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:57.231Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
