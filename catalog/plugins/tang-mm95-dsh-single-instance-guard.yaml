@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: tang-mm95-dsh-single-instance-guard
+name: dsh-single-instance-guard
+description:
+  en: "DSH HOME single-instance lock plugin: aborts startup loudly when another dsh server already uses the same data directory, preventing concurrent session-log writes (the 'seq gap in committed region' corruption class)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - single-instance
+  - lock
+source:
+  repository: https://github.com/Tang-mm95/dsh-single-instance-guard
+  repositoryNodeId: R_kgDOT6hdRQ
+  subpath: null
+  commit: 666bad9ddedeb21d496ba96368bdbeb9d1752704
+creator:
+  github: Tang-mm95
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:27:31.205Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
