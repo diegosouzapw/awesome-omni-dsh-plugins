@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: qt-chen-dsh-mic-input
+name: dsh-mic-input
+description:
+  en: Microphone voice input for the DeepSeek Harness (DSH) Web UI — in the browser, no server, no keys.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - voice-input
+  - speech-to-text
+  - microphone
+  - webspeech
+  - client-plugin
+source:
+  repository: https://github.com/QT-Chen/dsh-mic-input
+  repositoryNodeId: R_kgDOT4QS4g
+  subpath: null
+  commit: 92d6dec9ad8226cc2fd38a91c628bdf47e71a95f
+creator:
+  github: QT-Chen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:46.854Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
