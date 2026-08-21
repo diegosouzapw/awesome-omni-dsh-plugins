@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yinren112-dsh-plugin-connection-banner
+name: dsh-plugin-connection-banner
+description:
+  en: Visible reconnecting banner for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - connection
+  - web-ui
+  - dsh
+source:
+  repository: https://github.com/yinren112/dsh-plugin-connection-banner
+  repositoryNodeId: R_kgDOT4DTuQ
+  subpath: null
+  commit: 9be1394fa21ede8abe6e4f629bbf546bc6987a2d
+creator:
+  github: yinren112
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:26.954Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
