@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 534119219-chicheng-gate
+name: chicheng-gate
+description:
+  en: dsh plugin --profile web add github:534119219/chicheng-gate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - chicheng-gate
+  - lan
+  - frp
+  - frpc
+  - tunnel
+  - remote-access
+  - mobile
+source:
+  repository: https://github.com/534119219/chicheng-gate
+  repositoryNodeId: R_kgDOT5Bhlg
+  subpath: null
+  commit: 6a98288eb6faa91e8beefcc1be06d30451a3962a
+creator:
+  github: "534119219"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:25.604Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
