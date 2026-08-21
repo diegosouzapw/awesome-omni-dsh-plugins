@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: struggleyang-dsh-project-kanban
+name: dsh-project-kanban
+description:
+  en: "A kanban board inside DeepSeek Harness, integrated with the conversation: the agent writes planning cards via kanban tools while you talk, boards are isolated per workspace (project), and data is persisted to disk."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - kanban
+source:
+  repository: https://github.com/StruggleYang/dsh-project-kanban
+  repositoryNodeId: R_kgDOT5BSIg
+  subpath: null
+  commit: 2d485eb697fa2914d7d98e7c5dadc4210bbc6aef
+creator:
+  github: StruggleYang
+package:
+  ecosystem: npm
+  name: dsh-project-kanban
+  version: 0.8.3
+  integrity: sha512-8M2DYjE3fgSSZk/G/9A5S0YyYoTahLgPhF7erw3dHXbM5fouI0iGT97L/QY3lrMNacKuIPSRdrpPcCikif3oXA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:27.532Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
