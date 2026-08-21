@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: perrylink-dsh-library
+name: dsh-library
+description:
+  en: "Local document knowledge base for DeepSeek Harness: library add/remove/list, hybrid semantic+keyword library search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library cite check and library diagnose 鈥?SQLite-backed index via the storage domain, local embed"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - rag
+  - knowledge-base
+  - retrieval
+  - embedding
+  - vector-search
+  - citation-validation
+  - document-library
+source:
+  repository: https://github.com/PerryLink/dsh-library
+  repositoryNodeId: R_kgDOT6UKYg
+  subpath: null
+  commit: 2507285852160903d2c452e5a06f100cb0a68cd6
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-library
+  version: 0.1.1
+  integrity: sha512-hO/Uok/Km/FbHriPGzRSW9/taXo5yhS2NIO3rzBCaBYWV93meeeDgScZ6Gmq3sS3KUJbKCWH7AqhfOgDkL/aPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:27.965Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
