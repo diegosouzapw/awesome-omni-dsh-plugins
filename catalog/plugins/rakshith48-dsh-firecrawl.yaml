@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: rakshith48-dsh-firecrawl
+name: "@firecrawl/dsh-firecrawl"
+description:
+  en: Firecrawl-backed search and fetch providers for the DeepSeek Harness web capability seam (ctx.web)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - firecrawl
+  - web-search
+  - web-fetch
+  - scraping
+  - dsh
+source:
+  repository: https://github.com/firecrawl/dsh-firecrawl
+  repositoryNodeId: R_kgDOT6qzrA
+  subpath: null
+  commit: 2204a7ec9cbcf814601182de64204a6ce525b5ff
+creator:
+  github: rakshith48
+package:
+  ecosystem: npm
+  name: "@firecrawl/dsh-firecrawl"
+  version: 0.1.0
+  integrity: sha512-fV97A9KG1Dts5JBH0q/6cc1mDR7DMbQxFsd3g0/jiO1E8/S8JCswqDkL4yudYm8Gyem+eXvfGwKrOSYUy3fB/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:19.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
