@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: trungtaottn-dsh-file-pane
+name: dsh-file-pane
+description:
+  en: "Remote file viewer for DeepSeek Harness web: read agent-produced/edited files in a Codex/Warp-style pane, without downloading. Works when DSH is hosted on a homelab/server and you connect from another device."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - file-viewer
+  - remote
+  - web-ui
+  - pane
+source:
+  repository: https://github.com/trungtaottn/dsh-file-pane
+  repositoryNodeId: R_kgDOT5-Dgg
+  subpath: null
+  commit: f6e211f71e8ddad8cfe8ddf3a738b8831d6310cb
+creator:
+  github: trungtaottn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:08.770Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
