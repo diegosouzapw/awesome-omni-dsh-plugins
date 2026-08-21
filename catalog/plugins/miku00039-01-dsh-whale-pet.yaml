@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: miku00039-01-dsh-whale-pet
+name: dsh-whale-pet
+description:
+  en: A Windows desktop pet that bundles DeepSeek Harness service management — start, stop, monitor — and GUI launching into a single zero-dependency .exe .
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - windows
+  - desktop
+  - bundles
+  - service
+  - management
+  - start
+  - stop
+  - monitor
+  - launching
+  - single
+  - zero
+  - dependency
+  - dsh
+source:
+  repository: https://github.com/miku00039-01/dsh-whale-pet
+  repositoryNodeId: R_kgDOT6KOGQ
+  subpath: null
+  commit: 8268907a9fc1448ae7e8d6b5969f29112a1d560d
+creator:
+  github: miku00039-01
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:23.574Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
