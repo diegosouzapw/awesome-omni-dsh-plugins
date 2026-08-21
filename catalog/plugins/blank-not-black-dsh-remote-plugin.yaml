@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: blank-not-black-dsh-remote-plugin
+name: dsh-remote-plugin
+description:
+  en: "The DSH bundle plugin for DSH Remote: registers a native entry in DSH's left sidebar and opens an admin drawer from the right. The plugin bundles the gateway and auto-starts/stops it with DSH (standalone systemd unit); the drawer shows the token, host IP and device monitor. Works with the dsh-Remote Android app for rem"
+  evidencePath: packages/plugin/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - bundle
+  - remote-control
+  - mobile
+source:
+  repository: https://github.com/Blank-not-black/dsh-Remote
+  repositoryNodeId: R_kgDOT5D-Og
+  subpath: packages/plugin
+  commit: 9f4c7155106d42a558609a1250c42144fae12078
+creator:
+  github: Blank-not-black
+package:
+  ecosystem: npm
+  name: dsh-remote-plugin
+  version: 0.6.4
+  integrity: sha512-fzn8YTDZCxw+mWbiyWgRsVWR4FvwHa/uIrmoIQN1R3b5kFhdkXxH/dh5Uuf3FJj5679Enk/kOL2NEZ5pnUMQAA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:57.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
