@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: shinjiyu-dsh-plugin-multimodal
+name: dsh-plugin-multimodal
+description:
+  en: "Vision sidecar for DeepSeek Harness: accept image attachments on text-only models, describe them, then send text to the main model."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - multimodal
+  - dsh
+source:
+  repository: https://github.com/shinjiyu/dsh-plugin-multimodal
+  repositoryNodeId: R_kgDOT49x2A
+  subpath: null
+  commit: b9b82a61859de52d1a1573b0119e91e5aced37e1
+creator:
+  github: shinjiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:22.371Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
