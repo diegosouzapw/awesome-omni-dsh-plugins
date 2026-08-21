@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zhaoolee-dsh-notes
+name: "@zhaoolee/dsh-notes"
+description:
+  en: sh dsh plugin --profile web add @zhaoolee/dsh-notes
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - smartisan
+  - notes
+  - markdown
+  - ai-agent
+source:
+  repository: https://github.com/zhaoolee/notes
+  repositoryNodeId: R_kgDORnX0QA
+  subpath: dsh-plugin
+  commit: 58dc452f12052a70b794d2c88b9e236620a7604a
+creator:
+  github: zhaoolee
+package:
+  ecosystem: npm
+  name: "@zhaoolee/dsh-notes"
+  version: 0.1.2
+  integrity: sha512-Ynl7mlVee8NzOUFcUSzttDoJlNQyH6h2RKo3q77X+/AXMsdGZuZv76vcJiQe5idO1biw6QabBlNGqQKjjUPG6w==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:33.751Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
