@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: imkingjh999-dsh-tool-accurate-vision
+name: dsh-tool-accurate-vision
+description:
+  en: "Model-facing accurate vision tool: precise image spatial reasoning via a vision model"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - image-analysis
+  - bounding-box
+source:
+  repository: https://github.com/imkingjh999/dsh-tool-accurate-vision
+  repositoryNodeId: R_kgDOT7Ag0Q
+  subpath: null
+  commit: 042e5c092a78f183bf2ddfcc76b16ecd42cdca11
+creator:
+  github: imkingjh999
+package:
+  ecosystem: npm
+  name: dsh-tool-accurate-vision
+  version: 0.1.0
+  integrity: sha512-+MEkTwIs42Cb2lbTjKalXbF7MLFUZUeiLxqe7T2VjBw45ezSAlaV3sRhfhAuCrpZ5IuLaFKEilKfe/U8GjmpUA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:40.290Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
