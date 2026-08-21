@@ -14,12 +14,6 @@ tags:
   - search
   - workspace
   - better-sidebar
-  - code
-  - style
-  - keyword
-  - registered
-  - better
-  - sidebar
 source:
   repository: https://github.com/tsonglew/dsh-workspace-search
   repositoryNodeId: R_kgDOT4WWHQ
@@ -38,7 +32,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:48.716Z
+  checkedAt: 2026-08-21T02:07:55.734Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
