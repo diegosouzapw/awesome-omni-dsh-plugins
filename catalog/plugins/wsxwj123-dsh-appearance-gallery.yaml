@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wsxwj123-dsh-appearance-gallery
+name: dsh-appearance-gallery
+description:
+  en: "One DSH appearance plugin: 15 curated theme families + 9 complete skins + controlled custom import, behind a single settings entry."
+  evidencePath: packages/dsh-appearance-gallery/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - theme
+  - skin
+  - appearance
+  - web-ui
+source:
+  repository: https://github.com/wsxwj123/dsh-plugins
+  repositoryNodeId: R_kgDOT3-OnA
+  subpath: packages/dsh-appearance-gallery
+  commit: 269acbc87df039a2aba9cc405dea488fbfceb414
+creator:
+  github: wsxwj123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-appearance-gallery/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:28:06.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
