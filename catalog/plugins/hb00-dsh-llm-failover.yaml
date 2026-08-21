@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: hb00-dsh-llm-failover
+name: dsh-llm-failover
+description:
+  en: "Provider failover for DeepSeek Harness: on rate-limit (429) or quota exhaustion, automatically switch between providers with configurable per-provider models, fall back to the last one (e.g. DeepSeek official), and show a visible notice in the UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - llm
+  - failover
+  - rate-limit
+  - "429"
+source:
+  repository: https://github.com/HB00/dsh-llm-failover
+  repositoryNodeId: R_kgDOT5WxHw
+  subpath: null
+  commit: 919272faf9f9eb0d379b70f45c5612c1d5aa47a5
+creator:
+  github: HB00
+package:
+  ecosystem: npm
+  name: dsh-llm-failover
+  version: 0.3.0
+  integrity: sha512-IACb4p37THOOzHd+jSOUw8d2ybefARWtU3+oQUdyImvQf16qmfgxUSlEgDTrvYK9N1n9YhF1FtMfy0TaVmNqYw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:31.384Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
