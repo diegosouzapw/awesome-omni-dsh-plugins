@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 111111aaa111111-dsh-premise-guard-cn
+name: dsh-premise-guard-cn
+description:
+  en: bash dsh plugin --profile web add "github:111111AAA111111/dsh-premise-guard-cn" dsh plugin --profile web add "file:/path/to/dsh-premise-guard-cn"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - premise-guard
+  - memory
+  - chinese
+source:
+  repository: https://github.com/111111AAA111111/dsh-premise-guard-cn
+  repositoryNodeId: R_kgDOT49t6w
+  subpath: null
+  commit: 6c8ed6ea445d7a32ebd16c40ad4cdd0ca78f2660
+creator:
+  github: 111111AAA111111
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:24:29.331Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
