@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jitengfei-dsh-whale-arcade
+name: dsh-whale-arcade
+description:
+  en: Community-maintained floating whale arcade for DeepSeek Harness with four browser-local games
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - whale
+  - arcade
+  - browser-game
+  - gomoku
+  - dsh
+source:
+  repository: https://github.com/jitengfei/dsh-whale-arcade
+  repositoryNodeId: R_kgDOT4h9KQ
+  subpath: null
+  commit: 16bd3b05869d5c609724df29c345a117e91776a0
+creator:
+  github: jitengfei
+package:
+  ecosystem: npm
+  name: dsh-whale-arcade
+  version: 0.1.0
+  integrity: sha512-wjZ7cASPjM6vVQsYVQO0ecpwsXngNgrIk8Ta7+G3arffhm98qa+O4Y9gEAQTgvwn04PSZZyUB+5nIa7NC6BTjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:12.690Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
