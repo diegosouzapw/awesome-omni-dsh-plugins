@@ -14,16 +14,7 @@ tags:
   - explorer
   - file-tree
   - ai-tools
-  - file
-  - files
-  - capsule
-  - button
-  - session
-  - header
-  - feature
-  - name
-  - folder
-  - icon
+  - dsh
 source:
   repository: https://github.com/Jiyr0119/dsh-workspace-explorer
   repositoryNodeId: R_kgDOT4N3SQ
@@ -45,7 +36,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T01:51:43.865Z
+  checkedAt: 2026-08-21T02:07:51.771Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
