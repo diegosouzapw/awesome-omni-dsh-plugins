@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: keyiadiannao-dsh-power-button
+name: dsh-power-button
+description:
+  en: "Self-contained power control for DSH: sidebar power button with an upward 重启/关机 menu plus a Windows-shutdown-style overlay. Own restart & shutdown engine (no dependency on other plugins), MIT licensed."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - restart
+  - shutdown
+  - power
+  - client-plugin
+  - dsh-plugin
+source:
+  repository: https://github.com/keyiadiannao/dsh-power-button
+  repositoryNodeId: R_kgDOT5CoBw
+  subpath: null
+  commit: e878b9cee784486ad6a1e0d666aa207a985a8c9c
+creator:
+  github: keyiadiannao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:23:41.670Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
