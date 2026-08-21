@@ -130,7 +130,7 @@ explicite.
 npx omni-dsh-plugins --help
 ```
 
-Le paquet scopé est publié sous `omni-dsh-plugins@1.0.0` et la commande ci-dessus est
+Le paquet scopé est publié sous `omni-dsh-plugins@1.0.1` et la commande ci-dessus est
 l'invocation canonique aujourd'hui ; aucun script d'installation n'est hébergé ici.
 
 ### Utiliser le CLI aujourd'hui
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Les commandes qui modifient l'état (`add`, `update`, `remove`) n'exécutent jamais de code de
 cycle de vie du plugin, sauf si vous passez `--allow-code-execution`. Sur Windows natif, ces
-modifications sont désactivées en v1.0.0 ; utilisez WSL. Les commandes en lecture seule et de
+modifications sont désactivées en v1.0.1 ; utilisez WSL. Les commandes en lecture seule et de
 simulation fonctionnent partout.
 
 ## 🔍 Comment un plugin entre dans le catalogue
@@ -316,7 +316,7 @@ si quelqu'un a déjà catalogué votre travail avant vous.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Le contrat de contribution complet : preuves, règles YAML, contrôles de revue    |
 | [SECURITY.md](../../SECURITY.md)                   | Signaler des vulnérabilités du plugin ou du catalogue ; politique des secrets           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Référence champ par champ pour `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Référence des commandes CLI pour `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Référence des commandes CLI pour `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Comment le catalogue est gouverné : priorité, contrôles, revendications et suppressions   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Types d'artefacts, catégories de capacité principales, étiquettes, portée du dépôt |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Crédit du créateur, priorité des PR et politique d'identité Git                 |

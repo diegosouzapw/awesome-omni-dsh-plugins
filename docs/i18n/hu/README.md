@@ -131,7 +131,7 @@ jóváírással.
 npx omni-dsh-plugins --help
 ```
 
-A scope-olt csomag `omni-dsh-plugins@1.0.0` néven van publikálva, és a fenti parancs a
+A scope-olt csomag `omni-dsh-plugins@1.0.1` néven van publikálva, és a fenti parancs a
 ma érvényes kanonikus meghívási mód; itt nincs telepítő szkript hosztolva.
 
 ### Használd a CLI-t már ma
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Az állapotot módosító parancsok (`add`, `update`, `remove`) soha nem futtatják le a bővítmény
 életciklus-kódját, hacsak nem adod meg a `--allow-code-execution` kapcsolót. Natív Windows alatt
-ezek a módosítások a v1.0.0-ban le vannak tiltva; használj WSL-t. A csak olvasható és a dry-run
+ezek a módosítások a v1.0.1-ban le vannak tiltva; használj WSL-t. A csak olvasható és a dry-run
 parancsok mindenhol működnek.
 
 ## 🔍 Hogyan kerül be egy bővítmény a katalógusba
@@ -315,7 +315,7 @@ ha valaki már katalogizálta a munkádat, mielőtt te tetted volna.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | A teljes hozzájárulási szerződés: bizonyítékok, YAML-szabályok, átvizsgálási kapuk    |
 | [SECURITY.md](../../SECURITY.md)                   | Bővítmény- vagy katalógus-sérülékenységek bejelentése; titokkezelési szabályzat           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Mezőnkénti referencia a `schemas/plugin.schema.yaml`-hoz             |
-| [docs/CLI.md](../../docs/CLI.md)                   | CLI-parancsreferencia a `omni-dsh-plugins@1.0.0`-hoz          |
+| [docs/CLI.md](../../docs/CLI.md)                   | CLI-parancsreferencia a `omni-dsh-plugins@1.0.1`-hoz          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Hogyan irányítják a katalógust: elsőbbség, kapuk, igénylések és eltávolítások   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefaktumtípusok, elsődleges képességkategóriák, címkék, repository-hatókör |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Alkotói jóváírás, PR-elsőbbség és Git-identitási szabályzat                 |

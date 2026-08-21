@@ -130,7 +130,7 @@
 npx omni-dsh-plugins --help
 ```
 
-સ્કોપ્ડ પેકેજ `omni-dsh-plugins@1.0.0` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
+સ્કોપ્ડ પેકેજ `omni-dsh-plugins@1.0.1` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
 કેનોનિકલ ઇન્વોકેશન છે; અહીં કોઈ ઇન્સ્ટોલર સ્ક્રિપ્ટ હોસ્ટ કરવામાં આવી નથી.
 
 ### આજે CLI નો ઉપયોગ કરો
@@ -162,7 +162,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 મ્યુટેટિંગ કમાન્ડ્સ (`add`, `update`, `remove`) ક્યારેય પ્લગિન લાઇફસાયકલ કોડ એક્ઝિક્યુટ કરતા નથી જ્યાં સુધી તમે
-`--allow-code-execution` પાસ ન કરો. નેટિવ Windows પર આ મ્યુટેશન્સ v1.0.0 માં ડિસેબલ છે; વાપરો
+`--allow-code-execution` પાસ ન કરો. નેટિવ Windows પર આ મ્યુટેશન્સ v1.0.1 માં ડિસેબલ છે; વાપરો
 WSL. રીડ-ઓન્લી અને ડ્રાય-રન કમાન્ડ્સ દરેક જગ્યાએ કામ કરે છે.
 
 ## 🔍 એક પ્લગિન કેટલોગમાં કેવી રીતે દાખલ થાય છે
@@ -305,7 +305,7 @@ provenance:
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | સંપૂર્ણ યોગદાન કરાર: પુરાવો, YAML નિયમો, રિવ્યૂ ગેટ્સ    |
 | [SECURITY.md](../../SECURITY.md)                   | પ્લગિન કે કેટલોગની નબળાઈઓની જાણ કરવી; ગુપ્ત માહિતી પોલિસી           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` માટે ફિલ્ડ-બાય-ફિલ્ડ સંદર્ભ             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` માટે CLI કમાન્ડ સંદર્ભ          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1` માટે CLI કમાન્ડ સંદર્ભ          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | કેટલોગનું સંચાલન કેવી રીતે થાય છે: અગ્રતા, ગેટ્સ, દાવાઓ અને દૂર કરવું   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | આર્ટિફેક્ટ પ્રકારો, પ્રાથમિક ક્ષમતા શ્રેણીઓ, ટૅગ્સ, રિપોઝીટરી સ્કોપ |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | ક્રિએટર ક્રેડિટ, PR અગ્રતા અને Git ઓળખ પોલિસી                 |

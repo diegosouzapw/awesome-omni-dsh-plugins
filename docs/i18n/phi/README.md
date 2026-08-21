@@ -132,7 +132,7 @@ source commit at malinaw na attribution.
 npx omni-dsh-plugins --help
 ```
 
-Ang scoped package ay inilathala bilang `omni-dsh-plugins@1.0.0` at ang command sa
+Ang scoped package ay inilathala bilang `omni-dsh-plugins@1.0.1` at ang command sa
 itaas ang canonical na paraan ng pagtawag ngayon; walang install script na naka-host dito.
 
 ### Gamitin ang CLI ngayon
@@ -166,7 +166,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Ang mga command na nagmumutate (`add`, `update`, `remove`) ay hindi kailanman nagpapatakbo
 ng lifecycle code ng plugin maliban kung ipapasa ninyo ang `--allow-code-execution`. Sa
-native na Windows, naka-disable ang mga mutation na ito sa v1.0.0; gamitin ang WSL. Ang mga
+native na Windows, naka-disable ang mga mutation na ito sa v1.0.1; gamitin ang WSL. Ang mga
 read-only at dry-run na command ay gumagana kahit saan.
 
 ## 🔍 Paano pumapasok ang isang plugin sa katalogo
@@ -318,7 +318,7 @@ kung mayroon nang nagkatalogo ng inyong trabaho bago ninyo ito ginawa.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Ang kumpletong kontrata ng pag-aambag: ebidensya, tuntunin ng YAML, gate ng review    |
 | [SECURITY.md](../../SECURITY.md)                   | Pag-uulat ng mga kahinaan ng plugin o katalogo; patakaran sa sekreto           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Sanggunian nang field-by-field para sa `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Sanggunian ng CLI command para sa `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Sanggunian ng CLI command para sa `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Kung paano pinapamahalaan ang katalogo: prayoridad, gate, claim, at pag-alis   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Mga uri ng artifact, pangunahing kategorya ng kakayahan, tag, saklaw ng repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Kredito sa lumikha, prayoridad ng PR, at patakaran sa pagkakakilanlan sa Git                 |

@@ -172,7 +172,7 @@ siyasət üçün [docs/CREDIT.md](../../docs/CREDIT.md) sənədinə baxın.
 
 ## Validasiya əmrləri və əlçatanlıq
 
-npm CLI-si `omni-dsh-plugins@1.0.0` kimi nəşr olunub, ona görə də aşağıdakı əmrlər bu
+npm CLI-si `omni-dsh-plugins@1.0.1` kimi nəşr olunub, ona görə də aşağıdakı əmrlər bu
 gün `npx` vasitəsilə əlçatandır. Onları tam olaraq yazıldığı kimi istifadə edin; töhfəçilər
 əvəzedici əmrlər uydurmamalıdır.
 

@@ -178,7 +178,7 @@ co-autore verificato, ma non deve sostituire l'autoria del creatore. Vedi
 
 ## Comandi di validazione e disponibilità
 
-La CLI npm è pubblicata come `omni-dsh-plugins@1.0.0`, quindi i comandi qui sotto sono
+La CLI npm è pubblicata come `omni-dsh-plugins@1.0.1`, quindi i comandi qui sotto sono
 disponibili oggi tramite `npx`. Usali esattamente come scritti; i contributori non dovrebbero
 inventare comandi sostitutivi.
 

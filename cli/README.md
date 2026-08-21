@@ -21,9 +21,10 @@ never ships here.
 
 - Node.js 20 or newer.
 - The official `dsh` executable on `PATH` for add, update and remove operations.
-- A public catalog snapshot for discovery. Version `1.0.0` defaults to catalog revision
-  `f01d1d2d22b80222c121db6dfc0fd4035c24b390` (160 entries); `--revision` overrides it and stays
-  the trust anchor, because a fetched snapshot whose declared revision differs is rejected.
+- Network access for discovery. With no `--catalog`, the CLI reads the snapshot published at
+  <https://dsh-plugins.omniroute.online/catalog.snapshot.json> and accepts the revision that
+  snapshot declares, so a plugin merged today is findable today. Passing `--revision` turns the
+  fetch into an exact-commit demand and rejects any snapshot declaring a different one.
 
 ## Discover and validate
 
@@ -72,7 +73,7 @@ npx omni-dsh-plugins remove example-plugin \
   --allow-code-execution
 ```
 
-Native Windows policy for v1.0.0: code-executing `add`, `update`, and `remove` are disabled
+Native Windows policy for v1.0.1: code-executing `add`, `update`, and `remove` are disabled
 before any profile, state, cache, or subprocess access because complete descendant containment
 cannot be proven. Use WSL for mutations. `--dry-run` and the read-only catalog, `search`, `info`,
 `list`, and `doctor` commands remain available. A native Windows recovery marker is never

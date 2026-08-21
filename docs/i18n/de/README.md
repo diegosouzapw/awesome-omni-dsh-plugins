@@ -129,12 +129,12 @@ fixierten Quell-Commit und expliziter Zuschreibung.
 npx omni-dsh-plugins --help
 ```
 
-Das gescopte Paket wird als `omni-dsh-plugins@1.0.0` veröffentlicht, und der obige Befehl
+Das gescopte Paket wird als `omni-dsh-plugins@1.0.1` veröffentlicht, und der obige Befehl
 ist heute der kanonische Aufruf; hier wird kein Installationsskript gehostet.
 
 ### Die CLI heute nutzen
 
-Version 1.0.0 liefert schreibgeschützte Discovery- und Validierungsbefehle sowie durch Zustimmung
+Version 1.0.1 liefert schreibgeschützte Discovery- und Validierungsbefehle sowie durch Zustimmung
 abgesicherte Installationsbefehle. Die vollständige Befehlsreferenz, einschließlich Flags,
 Exit-Codes und dem Zustimmungs-Gate für die Codeausführung, befindet sich in
 [docs/CLI.md](../../docs/CLI.md).
@@ -162,7 +162,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Verändernde Befehle (`add`, `update`, `remove`) führen niemals Plugin-Lifecycle-Code aus, es sei
-denn, Sie übergeben `--allow-code-execution`. Unter nativem Windows sind diese Änderungen in v1.0.0
+denn, Sie übergeben `--allow-code-execution`. Unter nativem Windows sind diese Änderungen in v1.0.1
 deaktiviert; verwenden Sie WSL. Schreibgeschützte Befehle und Dry-Run-Befehle funktionieren überall.
 
 ## 🔍 Wie ein Plugin in den Katalog gelangt
@@ -313,7 +313,7 @@ falls jemand Ihre Arbeit vor Ihnen katalogisiert hat.
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Der vollständige Beitragsvertrag: Nachweise, YAML-Regeln, Prüf-Gates    |
 | [SECURITY.md](../../SECURITY.md)           | Melden von Plugin- oder Katalog-Schwachstellen; Geheimnis-Richtlinie    |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)           | Feld-für-Feld-Referenz für `schemas/plugin.schema.yaml`    |
-| [docs/CLI.md](../../docs/CLI.md)           | CLI-Befehlsreferenz für `omni-dsh-plugins@1.0.0`    |
+| [docs/CLI.md](../../docs/CLI.md)           | CLI-Befehlsreferenz für `omni-dsh-plugins@1.0.1`    |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)           | Wie der Katalog verwaltet wird: Vorrang, Gates, Ansprüche und Entfernungen    |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)           | Artefakttypen, primäre Fähigkeitskategorien, Tags, Repository-Umfang    |
 | [docs/CREDIT.md](../../docs/CREDIT.md)           | Ersteller-Zuschreibung, PR-Vorrang und Git-Identitätsrichtlinie    |

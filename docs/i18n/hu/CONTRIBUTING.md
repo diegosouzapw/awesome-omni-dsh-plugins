@@ -174,7 +174,7 @@ szabályzatért.
 
 ## Validációs parancsok és elérhetőség
 
-Az npm CLI `omni-dsh-plugins@1.0.0` néven van publikálva, így az alábbi parancsok ma is
+Az npm CLI `omni-dsh-plugins@1.0.1` néven van publikálva, így az alábbi parancsok ma is
 elérhetők `npx`-en keresztül. Használd őket pontosan úgy, ahogy le vannak írva; a
 hozzájárulóknak nem szabad helyettesítő parancsokat kitalálniuk.
 

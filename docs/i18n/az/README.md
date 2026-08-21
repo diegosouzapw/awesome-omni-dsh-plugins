@@ -128,7 +128,7 @@ olur.
 npx omni-dsh-plugins --help
 ```
 
-Əhatə dairəli paket `omni-dsh-plugins@1.0.0` kimi dərc edilir və yuxarıdakı əmr bu gün
+Əhatə dairəli paket `omni-dsh-plugins@1.0.1` kimi dərc edilir və yuxarıdakı əmr bu gün
 üçün kanonik çağırışdır; burada heç bir quraşdırma skripti yerləşdirilmir.
 
 ### CLI-ni bu gün istifadə edin
@@ -161,7 +161,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Dəyişiklik edən əmrlər (`add`, `update`, `remove`) `--allow-code-execution` bayrağını
 ötürmədiyiniz müddətcə heç vaxt əlavə həyat dövrü kodunu icra etmir. Yerli Windows-da bu
-dəyişikliklər v1.0.0-da deaktiv edilib; WSL istifadə edin. Yalnız-oxu və sınaq işə salma əmrləri
+dəyişikliklər v1.0.1-da deaktiv edilib; WSL istifadə edin. Yalnız-oxu və sınaq işə salma əmrləri
 hər yerdə işləyir.
 
 ## 🔍 Bir əlavə kataloqa necə daxil olur
@@ -307,7 +307,7 @@ kataloqlaşdırıbsa, [mövcud qeydi tələb edin](https://github.com/diegosouza
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Tam töhfə müqaviləsi: sübut, YAML qaydaları, baxış qapıları    |
 | [SECURITY.md](../../SECURITY.md)                   | Əlavə və ya kataloq zəifliklərini bildirmək; sirlər siyasəti           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` üçün sahə-sahə istinad             |
-| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.0` üçün CLI əmr istinadı          |
+| [docs/CLI.md](../../docs/CLI.md)                   | `omni-dsh-plugins@1.0.1` üçün CLI əmr istinadı          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Kataloqun necə idarə edildiyi: üstünlük, qapılar, iddialar və silinmələr   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Artefakt növləri, əsas imkan kateqoriyaları, teqlər, repozitoriya əhatəsi |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Yaradıcı atribusiyası, PR üstünlüyü və Git kimlik siyasəti                 |

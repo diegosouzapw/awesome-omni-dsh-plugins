@@ -128,7 +128,7 @@ repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố đ
 npx omni-dsh-plugins --help
 ```
 
-Gói scoped này được phát hành với tên `omni-dsh-plugins@1.0.0`, và lệnh trên đây là cách gọi chính thức hiện
+Gói scoped này được phát hành với tên `omni-dsh-plugins@1.0.1`, và lệnh trên đây là cách gọi chính thức hiện
 tại; không có script cài đặt nào được lưu trữ tại đây.
 
 ### Dùng CLI ngay hôm nay
@@ -159,7 +159,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
 Các lệnh làm thay đổi trạng thái (`add`, `update`, `remove`) không bao giờ thực thi mã vòng đời của plugin trừ khi bạn
-truyền `--allow-code-execution`. Trên Windows gốc, các thao tác thay đổi này đã bị vô hiệu hóa trong v1.0.0; hãy dùng
+truyền `--allow-code-execution`. Trên Windows gốc, các thao tác thay đổi này đã bị vô hiệu hóa trong v1.0.1; hãy dùng
 WSL. Các lệnh chỉ đọc và chạy thử hoạt động ở mọi nơi.
 
 ## 🔍 Một plugin gia nhập danh mục như thế nào
@@ -300,7 +300,7 @@ nếu ai đó đã đưa tác phẩm của bạn vào danh mục trước khi b�
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | Quy ước đóng góp đầy đủ: bằng chứng, quy tắc YAML, cổng xét duyệt    |
 | [SECURITY.md](../../SECURITY.md)                   | Báo cáo lỗ hổng của plugin hoặc danh mục; chính sách về bí mật           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Tài liệu tham khảo theo từng trường cho `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Tài liệu tham khảo lệnh CLI cho `omni-dsh-plugins@1.0.0`          |
+| [docs/CLI.md](../../docs/CLI.md)                   | Tài liệu tham khảo lệnh CLI cho `omni-dsh-plugins@1.0.1`          |
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Cách danh mục được quản trị: thứ tự ưu tiên, cổng kiểm soát, nhận quyền sở hữu và gỡ bỏ   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Loại sản phẩm, danh mục năng lực chính, thẻ, phạm vi repository |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | Ghi công nhà phát triển, thứ tự ưu tiên PR và chính sách danh tính Git                 |

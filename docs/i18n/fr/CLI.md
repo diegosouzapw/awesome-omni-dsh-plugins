@@ -1,11 +1,11 @@
-# Référence CLI — `omni-dsh-plugins@1.0.0`
+# Référence CLI — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · **Français**
 
 > **Projet communautaire non officiel. Non affilié à, ni approuvé ni sponsorisé par DeepSeek.**
 > Les noms et marques DeepSeek appartiennent à leurs propriétaires respectifs.
 
-Cette page documente le CLI publié exactement tel qu'il se comporte dans la version `1.0.0`.
+Cette page documente le CLI publié exactement tel qu'il se comporte dans la version `1.0.1`.
 Chaque synopsis et chaque flag ci-dessous provient de la sortie `--help` de la commande publiée
 elle-même ; rien ici ne décrit un comportement non publié. Le CLI est maintenu depuis une source
 privée et publié sur npm sous le paquet scoped
@@ -15,7 +15,7 @@ privée et publié sur npm sous le paquet scoped
 npx omni-dsh-plugins --help
 ```
 
-## Principes de conception dans la v1.0.0
+## Principes de conception dans la v1.0.1
 
 - **Lecture seule par défaut.** `catalog`, `search`, `info`, `list` et `doctor` ne modifient
   jamais les profils, n'écrivent pas de fichiers et ne déclenchent pas de code de plugin.
@@ -23,7 +23,7 @@ npx omni-dsh-plugins --help
   d'exécuter le code de cycle de vie DSH/pnpm à moins que vous ne passiez
   `--allow-code-execution`. Sans cela, utilisez `--dry-run` pour voir le plan vérifié.
 - **Politique native Windows.** `add`/`update`/`remove` natifs sous Windows avec exécution de
-  code sont désactivés dans la v1.0.0 ; utilisez WSL. Le dry-run et les commandes en lecture seule
+  code sont désactivés dans la v1.0.1 ; utilisez WSL. Le dry-run et les commandes en lecture seule
   restent disponibles, et les marqueurs de récupération natifs Windows exigent une récupération
   manuelle documentée.
 - **Entrées fixées.** L'entrée du catalogue peut être un répertoire local, un fichier de
@@ -53,7 +53,7 @@ Le CLI utilise des codes de sortie de processus conventionnels :
 | `0`       | Succès (y compris les résultats « vides mais valides » comme un catalogue vide)     |
 | `1`       | Échec : erreur de validation, entrée introuvable, option obligatoire manquante, ou un contrôle de diagnostic signalant une erreur |
 
-Exemples observés avec la v1.0.0 : `catalog validate` sur un catalogue vide valide se termine avec
+Exemples observés avec la v1.0.1 : `catalog validate` sur un catalogue vide valide se termine avec
 `0` et `0 entries valid; catalog is empty` ; `info <unknown-id>` se termine avec `1` et
 `Plugin not found` ; `doctor` se termine avec `1` lorsqu'un contrôle (comme un exécutable `dsh`
 manquant) signale une erreur.

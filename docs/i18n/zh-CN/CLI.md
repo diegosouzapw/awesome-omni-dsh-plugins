@@ -1,4 +1,4 @@
-# CLI 参考手册 — `omni-dsh-plugins@1.0.0`
+# CLI 参考手册 — `omni-dsh-plugins@1.0.1`
 
 > 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · **中文（简体）**
 
@@ -11,11 +11,11 @@
 npx omni-dsh-plugins --help
 ```
 
-## v1.0.0 中的设计原则
+## v1.0.1 中的设计原则
 
 - **默认只读。** `catalog`、`search`、`info`、`list` 和 `doctor` 绝不会修改配置文件(profile)、写入文件或启动插件代码。
 - **代码执行需明确同意。** 除非传入 `--allow-code-execution`,否则 `add`、`update` 和 `remove` 会拒绝运行 DSH/pnpm 生命周期代码。若不传入该参数,可使用 `--dry-run` 查看已验证的执行计划。
-- **原生 Windows 政策。** 在 v1.0.0 中,原生 Windows 上带代码执行的 `add`/`update`/`remove` 已被禁用;请使用 WSL。Dry-run 和只读命令仍然可用,原生 Windows 的恢复标记需要按文档说明进行手动恢复。
+- **原生 Windows 政策。** 在 v1.0.1 中,原生 Windows 上带代码执行的 `add`/`update`/`remove` 已被禁用;请使用 WSL。Dry-run 和只读命令仍然可用,原生 Windows 的恢复标记需要按文档说明进行手动恢复。
 - **固定输入。** 目录输入可以是本地目录、快照文件,或固定的公开快照 URL,并可选地锁定到确切的 40 个字符的修订版本(revision)。
 
 ## 通用选项
@@ -39,7 +39,7 @@ npx omni-dsh-plugins --help
 | `0`       | 成功(包括“为空但有效”的结果,例如空目录)     |
 | `1`       | 失败:校验错误、条目未找到、缺少必需选项,或诊断检查报告了错误 |
 
-在 v1.0.0 中观察到的示例:对一个有效的空目录运行 `catalog validate` 会以 `0` 退出,并输出
+在 v1.0.1 中观察到的示例:对一个有效的空目录运行 `catalog validate` 会以 `0` 退出,并输出
 `0 entries valid; catalog is empty`;`info <unknown-id>` 会以 `1` 退出,并输出 `Plugin not found`;
 当任何检查项(例如缺少 `dsh` 可执行文件)报告错误时,`doctor` 会以 `1` 退出。
 

@@ -167,7 +167,7 @@ medforfatter, men må ikke erstatte skaberens forfatterskab. Se
 
 ## Valideringskommandoer og tilgængelighed
 
-npm-CLI'et udgives som `omni-dsh-plugins@1.0.0`, så kommandoerne nedenfor er
+npm-CLI'et udgives som `omni-dsh-plugins@1.0.1`, så kommandoerne nedenfor er
 tilgængelige via `npx` allerede i dag. Brug dem præcis som skrevet; bidragydere bør ikke opfinde
 erstatningskommandoer.
 

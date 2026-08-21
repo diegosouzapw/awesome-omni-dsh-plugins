@@ -173,7 +173,7 @@ verificado, pero no debe reemplazar la autoría del creador. Consulte
 
 ## Comandos de validación y disponibilidad
 
-El CLI de npm se publica como `omni-dsh-plugins@1.0.0`, así que los comandos que siguen
+El CLI de npm se publica como `omni-dsh-plugins@1.0.1`, así que los comandos que siguen
 están disponibles hoy a través de `npx`. Úselos exactamente como están escritos; los
 contribuidores no deben inventar comandos alternativos.
 
