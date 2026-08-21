@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: r05en1cu-dsh-neoforge
+name: dsh-neoforge
+description:
+  en: "NeoForge-style standard API layer for DeepSeek Harness plugins: runtime mixins with snapshot/restore + a Cordis-native event bus"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - neoforge
+  - cordis
+  - mixin
+source:
+  repository: https://github.com/r05En1cU/dsh-neoforge
+  repositoryNodeId: R_kgDOT5nVOw
+  subpath: null
+  commit: 7bbee4096ecf563aab5cfff29c4b65f5d36790aa
+creator:
+  github: r05En1cU
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:22:37.550Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
