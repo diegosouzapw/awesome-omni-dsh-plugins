@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: han-1413141-dsh-sticky-disclosure
+name: dsh-sticky-disclosure
+description:
+  en: "DSH Web client plugin: collapse every expanded collapsible section in the conversation (Think / tool cards / command cards...) in one click, with a customizable hotkey."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - ui
+  - sticky
+  - disclosure
+  - collapsible
+source:
+  repository: https://github.com/Han-1413141/dsh-sticky-disclosure
+  repositoryNodeId: R_kgDOT3eUBw
+  subpath: null
+  commit: 873bc91035e51dc598e5e60ad0c06df3a1a552d6
+creator:
+  github: Han-1413141
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:21:10.270Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
