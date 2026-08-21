@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: han-1413141-dsh-cost-meter
+name: dsh-cost-meter
+description:
+  en: Session cost tracking plugin for the DeepSeek Harness web GUI (bilingual UI)
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - cost
+  - usage
+  - billing
+  - budget
+  - i18n
+  - bilingual
+  - zh
+  - en
+  - language
+source:
+  repository: https://github.com/Han-1413141/dsh-cost-meter
+  repositoryNodeId: R_kgDOT3eQng
+  subpath: null
+  commit: a40b2432dd5a351c3893088197beb0e2e99ece1a
+creator:
+  github: Han-1413141
+package:
+  ecosystem: npm
+  name: dsh-cost-meter
+  version: 1.5.19
+  integrity: sha512-h7eOjC2xHRSZ9cftCA+omgOhDQl+rxwaUFI9/7vU96GfH59/lNUq/dfuooivvqj/5+R3OtfISftoWDlI44sr+g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T04:48:04.948Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 137
+provenance:
+  discussion: null
+  comment: null
