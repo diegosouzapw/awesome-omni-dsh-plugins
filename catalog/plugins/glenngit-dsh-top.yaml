@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: glenngit-dsh-top
+name: dsh-top
+description:
+  en: "System monitoring tool for the dsh web GUI: live CPU, RAM, disk, network, and top processes in a floating, collapsible panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - system-monitor
+  - web
+source:
+  repository: https://github.com/glenngit/dsh-top
+  repositoryNodeId: R_kgDOT61d7w
+  subpath: null
+  commit: 1843feb52c2321ac1f26b12be912b522b0800978
+creator:
+  github: glenngit
+package:
+  ecosystem: npm
+  name: dsh-top
+  version: 0.1.0
+  integrity: sha512-Fz4t7yOvzLo88fhWtICcVEE+DELNDSXuEEarHSb6ld76Jl07GZaVSuCdebj0WTt/yD6zECQNnW2yAj+AAEdipA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-21T05:25:22.395Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
