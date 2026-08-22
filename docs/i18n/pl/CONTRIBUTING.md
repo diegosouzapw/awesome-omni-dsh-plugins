@@ -50,7 +50,7 @@ Nigdy nie zgłaszaj poświadczeń, ciasteczek, prywatnych adresów e-mail, niepu
 
 ## Zasady YAML i schematu
 
-Utwórz `catalog/plugins/<plugin-id>.yaml` i zwaliduj go względem [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Schemat jest źródłem prawdy dla nazw pól i dozwolonych wartości; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definiuje, jak wybrać pojedynczy `kind` artefaktu, kategorię główną, tagi i zakres repozytorium.
+Utwórz `catalog/plugins/<plugin-id>.yaml` i zwaliduj go względem [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). `id` musi być równe nazwie bazowej pliku i musi zaczynać się od twojej przestrzeni nazw: twojego uchwytu `creator.github` zapisanego małymi literami (każda seria znaków spoza `[a-z0-9]` staje się pojedynczym `-`), po którym następuje `-`, na przykład `some-creator-my-plugin` dla uchwytu `Some-Creator`. Walidacja katalogu wymusza jedno i drugie. Schemat jest źródłem prawdy dla nazw pól i dozwolonych wartości; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definiuje, jak wybrać pojedynczy `kind` artefaktu, kategorię główną, tagi i zakres repozytorium.
 
 Deskryptor npm musi zawierać prawidłową nazwę pakietu i dokładną wersję. Publiczny schemat odrzuca wartości przypominające opcje oraz nieograniczone, ale nie reimplementuje SemVer ani SRI: walidacja katalogu musi parsować wersję, wymagać dokładnego SemVer i parsować dowolną wartość integrity jako prawidłowe SHA-512 SRI. Deskryptor źródłowy jest związany z `source.repository`, `source.commit` i `source.subpath` bez duplikowania zmiennych wartości źródłowych.
 
@@ -142,4 +142,4 @@ Tylko maintainer scala wtyczkę po przejściu wszystkich bramek. Każda zaakcept
 
 Dokumentacja startowa i opisy w katalogu są wyłącznie w języku angielskim. Wdrożenie obejmujące 43 lokalizacje pozostaje elementem zaległości po MVP; nie dodawaj pustych dokumentów lokalizacyjnych ani automatycznych masowych tłumaczeń.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

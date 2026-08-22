@@ -85,10 +85,13 @@ kodu və ya digər sirləri təqdim etməyin.
 ## YAML və schema qaydaları
 
 `catalog/plugins/<plugin-id>.yaml` yaradın və onu
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) ilə yoxlayın. Sahə adları və
-icazə verilən dəyərlər üçün mənbə həqiqət schema-dır; [docs/CATEGORIES.md](../../docs/CATEGORIES.md)
-tək artefakt kind-ının, əsas kateqoriyanın, teqlərin və repozitoriya əhatəsinin (scope) necə
-seçiləcəyini müəyyən edir.
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) ilə yoxlayın. `id` fayl adının
+əsas adı (basename) ilə eyni olmalı və ad sahənizlə (namespace) başlamalıdır: kiçik hərflərə
+çevrilmiş `creator.github` handle-ınız (`[a-z0-9]` xaricindəki istənilən simvol ardıcıllığı tək
+`-` olur), ardınca `-`; məsələn `Some-Creator` handle-ı üçün `some-creator-my-plugin`. Kataloq
+doğrulaması hər ikisini tətbiq edir. Sahə adları və icazə verilən dəyərlər üçün mənbə həqiqət
+schema-dır; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) tək artefakt kind-ının, əsas
+kateqoriyanın, teqlərin və repozitoriya əhatəsinin (scope) necə seçiləcəyini müəyyən edir.
 
 npm deskriptoru etibarlı paket adı və dəqiq versiya ehtiva etməlidir. Açıq schema opsiya-bənzər və
 hüdudsuz dəyərləri rədd edir, lakin SemVer və ya SRI-ı yenidən tətbiq etmir: kataloq validasiyası
@@ -237,4 +240,4 @@ Buraxılış sənədləşməsi və kataloq təsvirləri yalnız ingilis dilində
 post-MVP backlog elementi olaraq qalır; boş lokal sənədlər və ya avtomatik kütləvi tərcümələr
 əlavə etməyin.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

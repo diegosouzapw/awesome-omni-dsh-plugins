@@ -1,11 +1,11 @@
 # Dokumentacja CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../CLI.md) · **Polski**
+> 🌐 [English](../../docs/CLI.md) · **Polski**
 
 > **Nieoficjalny projekt społecznościowy. Niepowiązany z DeepSeek, nieautoryzowany ani niesponsorowany przez DeepSeek.**
 > Nazwy i znaki DeepSeek należą do ich odpowiedniego właściciela.
 
-Ta strona dokumentuje opublikowane CLI dokładnie tak, jak zachowuje się ono w wersji `1.0.0`. Każdy zarys składni i flaga poniżej pochodzą z własnego wyjścia `--help` opublikowanego polecenia; nic tutaj nie opisuje niewydanego zachowania. CLI jest utrzymywane z prywatnego źródła i wydawane do npm jako zakresowany pakiet [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+Ta strona dokumentuje opublikowane CLI dokładnie tak, jak zachowuje się ono w wersji `1.0.1`. Każdy zarys składni i flaga poniżej pochodzą z własnego wyjścia `--help` opublikowanego polecenia; nic tutaj nie opisuje niewydanego zachowania. CLI jest rozwijane w tym repozytorium pod [`cli/`](../../cli) i wydawane do npm jako [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), z atestacją pochodzenia (provenance) wiążącą każdą kompilację z commitem i uruchomieniem workflow, które ją wyprodukowały.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -81,7 +81,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Niedostępne w opublikowanej wersji `1.0.0`.** `discover` pojawia się w `1.0.0`; każde inne polecenie na tej stronie działa z wersją aktualnie dostępną na npm. Uruchomienie go w wersji `@1.0.0` kończy się błędem nieznanego polecenia.
+> `discover` jest dostępne od wersji `1.0.0`, pierwszego wydania pod tą nazwą pakietu.
 
 Przeszukuje najpierw wykuratorowany katalog, a następnie — jeśli nie podano `--offline` — żywy temat GitHub `dsh-plugin`, dzięki czemu wtyczka, która nie została jeszcze zgłoszona, jest nadal możliwa do znalezienia. Wyniki z katalogu zawierają dowody, które posiada katalog (przypięty commit, twórca, licencja); wyniki społecznościowe nie zawierają żadnych z nich i są odpowiednio oznaczone, ponieważ nic w nich nie zostało zrecenzowane.
 
@@ -177,4 +177,4 @@ catalog [ok]: catalog is valid and empty
 
 Zakończone sukcesem uruchomienie `catalog validate` potwierdza wyłącznie strukturę i lokalną semantykę. Nie dowodzi tożsamości zdalnego repozytorium, własności twórcy ani dowodów w przypiętym commicie — maintainerzy stosują te osobne bramki weryfikacji pochodzenia przed każdym scaleniem, jak opisano w [CONTRIBUTING.md](../../CONTRIBUTING.md) i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

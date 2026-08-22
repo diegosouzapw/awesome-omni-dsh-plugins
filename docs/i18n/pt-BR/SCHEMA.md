@@ -49,8 +49,11 @@ Constante `1`. Identifica a versão 1 do schema público; qualquer outro valor �
 ### `id`
 
 String correspondendo a `^[a-z0-9]+(?:-[a-z0-9]+)*$` — kebab-case minúsculo, sem hífens no
-início/fim ou duplos. Conforme [CONTRIBUTING.md](CONTRIBUTING.md), o arquivo da entrada deve se
-chamar `catalog/plugins/<id>.yaml` com o valor idêntico.
+início/fim ou duplos. Conforme [CONTRIBUTING.md](../../CONTRIBUTING.md), o arquivo da entrada deve
+se chamar `catalog/plugins/<id>.yaml` com o valor idêntico; o validador rejeita uma divergência
+(`id-filename-mismatch`). O ID também deve começar com o namespace do criador: o handle
+`creator.github` em minúsculas, com cada sequência de caracteres fora de `[a-z0-9]` colapsada em
+um único `-`, seguido de `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -228,5 +231,7 @@ Links públicos de proveniência, cada um uma URI ou `null`:
 O schema é intencionalmente local e estrutural. Ele **não** verifica se o repositório existe, se
 o ID do nó corresponde à URL, se os caminhos de evidência existem no commit fixado, se a contagem
 de estrelas é precisa, ou se o criador é dono da fonte. Essas checagens pertencem aos gates de
-revisão dos mantenedores descritos em [CONTRIBUTING.md](CONTRIBUTING.md) e
+revisão dos mantenedores descritos em [CONTRIBUTING.md](../../CONTRIBUTING.md) e
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

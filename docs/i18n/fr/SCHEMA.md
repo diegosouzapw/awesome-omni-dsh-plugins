@@ -50,7 +50,10 @@ Constante `1`. Identifie la version 1 du schéma public ; toute autre valeur est
 
 Chaîne correspondant à `^[a-z0-9]+(?:-[a-z0-9]+)*$` — kebab-case minuscule, sans trait d'union au
 début/à la fin ni doublé. Selon [CONTRIBUTING.md](../../CONTRIBUTING.md), le fichier d'entrée doit
-être nommé `catalog/plugins/<id>.yaml` avec la valeur identique.
+être nommé `catalog/plugins/<id>.yaml` avec la valeur identique ; le validateur rejette toute
+divergence (`id-filename-mismatch`). L'ID doit aussi commencer par l'espace de noms du créateur :
+le handle `creator.github` en minuscules, avec chaque suite de caractères hors `[a-z0-9]`
+regroupée en un seul `-`, suivi de `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -233,4 +236,4 @@ que le nombre d'étoiles est exact, ou que le créateur possède la source. Ces 
 des contrôles de révision des mainteneurs décrits dans [CONTRIBUTING.md](../../CONTRIBUTING.md) et
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

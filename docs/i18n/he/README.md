@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">עיינו, חפשו והתקינו כל תוסף באתר →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@
 
 | #   | תוסף | יוצר | ★ | קטגוריה | מה הוא עושה |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | ראייה שניתן לחבר עבור מודלי שפה מבוססי-טקסט בלבד, מופעלת על ידי ה-CLI החינמי Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | תוסף אינטרנט ל-DSH: סרגל צד ימני בסגנון VSCode (סייר קבצים / עורך / טרמינל / git / דפדפן), מבודד לכל… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | עיניים לסוכני DeepSeek Harness מבוססי-טקסט בלבד: שרשרת ראייה חינמית מובנית (ללא מפתח) + כלי ראייה ברמת פיקסל… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | אינטגרציה ילידית ל-DeepSeek Harness עבור agent-vision-toolkit: שאלות ותשובות על תמונות, OCR, עיגון (grounding), שחזור ממשק משתמש,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | תוסף הצפת פרסומות ל-DSH: פרסומות פורטל סיניות מותאמות מקומית וחיקוי פרסומת הונאה באנגלית, עם חלונות קופצים מזויפים,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI עבור DeepSeek Harness: רכיבי ממשק משתמש אינטראקטיביים המרונדרים בתוך תשובות העוזר דרך dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: תוסף ממשק טרמינל אינטראקטיבי עבור ה-DeepSeek Harness הרשמי — סטרימינג… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | ויזואליזציה מוטמעת עבור DeepSeek Harness: כלי visualize יחד עם מיומנות (skill) מובנית מאפשרים למודל לרנדר… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | תוסף חיפוש אנימה עבור DeepSeek Harness: כלי anime_find_search מאגד את Mikan, AniBT ו-… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | מערכת ביטול/שחזור (undo/rollback) ל-DSH: תפיסת מצב (snapshot) של קובצי תצורה בעת שינוי, ביטול/חזרה על הפעולה האחרונה מה-WebUI או… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -119,7 +119,7 @@
 
 ## מצב הקטלוג
 
-**160 תוספים מוזגו.** כל תוסף נכנס דרך בקשת משיכה אחת שנבדקה בנפרד, אחד בכל פעם, ממאגר היוצר
+**483 תוספים מוזגו.** כל תוסף נכנס דרך בקשת משיכה אחת שנבדקה בנפרד, אחד בכל פעם, ממאגר היוצר
 המקורי, עם קומיט מקור מוצמד וקרדיט מפורש.
 
 ## 🚀 התקנת ה-CLI
@@ -128,12 +128,12 @@
 npx omni-dsh-plugins --help
 ```
 
-החבילה בעלת ההיקף המוגבל מפורסמת בתור `omni-dsh-plugins@1.0.1`, והפקודה שלמעלה היא
+החבילה מפורסמת בתור `omni-dsh-plugins@1.0.1`, והפקודה שלמעלה היא
 הקריאה הקנונית כיום; אין כאן סקריפט התקנה מתארח.
 
 ### שימוש ב-CLI כיום
 
-גרסה 1.0.0 כוללת פקודות גילוי ואימות לקריאה בלבד, בנוסף לפקודות התקנה המותנות בהסכמה. הפניה
+גרסה 1.0.1 כוללת פקודות גילוי ואימות לקריאה בלבד, בנוסף לפקודות התקנה המותנות בהסכמה. הפניה
 המלאה לפקודות, כולל דגלים, קודי יציאה ושער ההסכמה להרצת קוד, נמצאת ב-[docs/CLI.md](../../docs/CLI.md).
 
 | פקודה                        | מה היא עושה                                                        | האם היא נוגעת במערכת שלכם?                    |
@@ -327,4 +327,4 @@ README זה זמין ב-43 שפות תחת [`docs/i18n/`](../../docs/i18n) — �
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

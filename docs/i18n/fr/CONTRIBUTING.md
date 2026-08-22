@@ -247,4 +247,4 @@ La documentation de lancement et les descriptions du catalogue sont exclusivemen
 déploiement en 43 langues reste un élément de backlog post-MVP ; n'ajoutez pas de documents de
 locale vides ni de traductions automatiques en masse.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

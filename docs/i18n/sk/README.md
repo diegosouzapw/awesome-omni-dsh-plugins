@@ -16,7 +16,7 @@ Objavovanie s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy *
   <a href="https://dsh-plugins.omniroute.online">Prehliadajte, vyhľadávajte a inštalujte všetky pluginy na webe →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Každý názov odkazuje na repozitár tvorcu, pripnutý na presný commit, ktor�
 
 | #   | Plugin | Tvorca | ★ | Kategória | Čo robí |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Doplnkové videnie pre textové LLM, poháňané bezplatným CLI nástrojom Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH webový plugin: pravý bočný panel v štýle VSCode (prieskumník / editor / terminál / git / prehliadač), izolovaný pre… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Oči pre textových agentov DeepSeek Harness: vstavaný bezplatný reťazec videnia (bez kľúča) + nástroje na pixelovej úrovni… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Natívna integrácia pre DeepSeek Harness s agent-vision-toolkit: otázky a odpovede k obrázkom, OCR, ukotvenie (grounding), obnova UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH plugin so „zamorením" reklamami: lokalizované reklamy v štýle čínskych portálov a paródia anglických podvodných reklám, s falošnými vyskakovacími oknami,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI pre DeepSeek Harness: interaktívne UI komponenty vykresľované priamo v odpovediach asistenta cez dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: interaktívny plugin s terminálovým rozhraním pre oficiálny DeepSeek Harness — streamovanie… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Vizualizácia priamo v rozhraní pre DeepSeek Harness: nástroj visualize spolu s pribalenou zručnosťou umožňujú modelu vykresliť… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Plugin na vyhľadávanie anime pre DeepSeek Harness: nástroj anime_find_search agreguje Mikan, AniBT a… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Systém DSH na vrátenie/zrušenie zmien: pri zmene vytvára snímky konfiguračných súborov, umožňuje vrátiť/opakovať poslednú akciu cez WebUI alebo… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -115,12 +115,13 @@ individuálne posúdeného pull requestu a vždy pripísaný pôvodnému tvorcov
 Nič v katalógu nie je generované z iného katalógu alebo zoznamu: každý záznam je zrekonštruovaný
 z repozitára pôvodného tvorcu na pripnutom commite.
 
-Webová stránka a CLI sú udržiavané zo súkromného zdrojového kódu; tento repozitár obsahuje verejné
-dáta katalógu, schému a politiky, ktoré využívajú.
+Web je udržiavaný zo súkromného zdrojového kódu. CLI sa nachádza tu, v tomto repozitári, v priečinku
+[`cli/`](../../cli) a tento repozitár obsahuje verejné dáta katalógu, schému a politiky, ktoré obe
+využívajú.
 
 ## Stav katalógu
 
-**160 zlúčených pluginov.** Každý plugin vstupuje prostredníctvom individuálne posúdeného pull
+**483 zlúčených pluginov.** Každý plugin vstupuje prostredníctvom individuálne posúdeného pull
 requestu, jeden po druhom, z repozitára pôvodného tvorcu, s pripnutým zdrojovým commitom a
 explicitným pripísaním autorstva.
 
@@ -130,12 +131,12 @@ explicitným pripísaním autorstva.
 npx omni-dsh-plugins --help
 ```
 
-Balík v rozsahu (scoped package) je publikovaný ako `omni-dsh-plugins@1.0.1` a príkaz
-vyššie je dnes kanonickým spôsobom spustenia; žiadny inštalačný skript tu nie je hosťovaný.
+Balík je publikovaný ako `omni-dsh-plugins@1.0.1` a príkaz vyššie je dnes kanonickým
+spôsobom spustenia; žiadny inštalačný skript tu nie je hosťovaný.
 
 ### Používanie CLI už dnes
 
-Verzia 1.0.0 obsahuje príkazy len na čítanie pre objavovanie a validáciu, ako aj inštalačné
+Verzia 1.0.1 obsahuje príkazy len na čítanie pre objavovanie a validáciu, ako aj inštalačné
 príkazy podmienené súhlasom. Úplný referenčný prehľad príkazov vrátane príznakov, návratových
 kódov a brány súhlasu na spustenie kódu nájdete v [docs/CLI.md](../../docs/CLI.md).
 
@@ -339,4 +340,4 @@ vlastníkmi a licenciami. Pozri [docs/CREDIT.md](../../docs/CREDIT.md) a
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

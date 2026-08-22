@@ -5,11 +5,12 @@
 > **비공식 커뮤니티 프로젝트입니다. DeepSeek와 제휴, 승인, 후원 관계가 없습니다.**
 > DeepSeek의 이름과 상표는 각 소유자에게 귀속됩니다.
 
-이 페이지는 배포된 CLI가 버전 `1.0.0`에서 정확히 어떻게 동작하는지를 문서화합니다. 아래의
+이 페이지는 배포된 CLI가 버전 `1.0.1`에서 정확히 어떻게 동작하는지를 문서화합니다. 아래의
 모든 시놉시스와 플래그는 배포된 명령어 자체의 `--help` 출력에서 가져온 것입니다; 여기에는
-아직 출시되지 않은 동작이 설명되어 있지 않습니다. CLI는 비공개 소스로부터 유지 관리되며,
-스코프 패키지 [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins)로
-npm에 배포됩니다.
+아직 출시되지 않은 동작이 설명되어 있지 않습니다. CLI는 이 저장소의 [`cli/`](../../cli)
+아래에서 개발되며, [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins)로
+npm에 배포됩니다. 각 빌드는 이를 생성한 커밋과 워크플로 실행에 결부시키는 프로버넌스
+증명서(provenance attestation)를 함께 가집니다.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -219,4 +220,4 @@ catalog [ok]: catalog is valid and empty
 [CONTRIBUTING.md](../../CONTRIBUTING.md)와 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)에
 설명된 대로, 병합 전에 이러한 별도의 프로버넌스 게이트를 적용합니다.
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

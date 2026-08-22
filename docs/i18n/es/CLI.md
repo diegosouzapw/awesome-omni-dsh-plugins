@@ -5,11 +5,12 @@
 > **Proyecto comunitario no oficial. No afiliado, respaldado ni patrocinado por DeepSeek.**
 > Los nombres y marcas de DeepSeek pertenecen a sus respectivos propietarios.
 
-Esta página documenta el CLI publicado exactamente como se comporta en la versión `1.0.0`. Cada
+Esta página documenta el CLI publicado exactamente como se comporta en la versión `1.0.1`. Cada
 sinopsis y flag a continuación proviene de la propia salida `--help` del comando publicado; nada
-aquí describe comportamiento no lanzado. El CLI se mantiene desde código fuente privado y se
-publica en npm como el paquete con alcance
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+aquí describe comportamiento no lanzado. El CLI se desarrolla en este repositorio bajo
+[`cli/`](../../cli) y se publica en npm como
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), con una atestación de
+procedencia que vincula cada build al commit y a la ejecución del workflow que lo produjo.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -106,9 +107,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **No está en la `1.0.0` publicada.** `discover` se publica en `1.0.0`; el resto de los comandos
-> de esta página funcionan con la versión actualmente en npm. Ejecutarlo contra `@1.0.0` falla
-> con un comando desconocido.
+> `discover` se publica en `1.0.0`, la primera versión bajo este nombre de paquete.
 
 Busca primero en el catálogo curado, luego — a menos que se dé `--offline` — en el tema
 `dsh-plugin` en vivo de GitHub, de modo que un plugin que aún no se ha enviado siga siendo
@@ -224,4 +223,4 @@ fijado — los mantenedores aplican esos gates de procedencia separados antes de
 tal como se describe en [CONTRIBUTING.md](../../CONTRIBUTING.md) y
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

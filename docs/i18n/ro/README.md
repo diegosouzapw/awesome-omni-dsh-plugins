@@ -17,7 +17,7 @@ Descoperire centrată pe creatori și instalare cu o singură comandă pentru pl
   <a href="https://dsh-plugins.omniroute.online">Răsfoiește, caută și instalează orice plugin pe site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -42,7 +42,7 @@ Descoperire centrată pe creatori și instalare cu o singură comandă pentru pl
 <a href="../../docs/i18n/pl/README.md"><img src="../../docs/assets/flags/pl.svg" width="30" alt="Polski (pl)" title="Polski (pl)"></a>
 <a href="../../docs/i18n/cs/README.md"><img src="../../docs/assets/flags/cz.svg" width="30" alt="Čeština (cs)" title="Čeština (cs)"></a>
 <a href="../../docs/i18n/sk/README.md"><img src="../../docs/assets/flags/sk.svg" width="30" alt="Slovenčina (sk)" title="Slovenčina (sk)"></a>
-<a href="../../docs/i18n/ro/README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
+<a href="README.md"><img src="../../docs/assets/flags/ro.svg" width="30" alt="Română (ro)" title="Română (ro)"></a>
 <a href="../../docs/i18n/hu/README.md"><img src="../../docs/assets/flags/hu.svg" width="30" alt="Magyar (hu)" title="Magyar (hu)"></a>
 <a href="../../docs/i18n/bg/README.md"><img src="../../docs/assets/flags/bg.svg" width="30" alt="Български (bg)" title="Български (bg)"></a>
 <a href="../../docs/i18n/da/README.md"><img src="../../docs/assets/flags/dk.svg" width="30" alt="Dansk (da)" title="Dansk (da)"></a>
@@ -84,16 +84,16 @@ la commit-ul exact validat de catalog.
 
 | #   | Plugin | Creator | ★ | Categorie | Ce face |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Vedere plug-in pentru LLM-uri doar-text, susținută de CLI-ul gratuit Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web DSH: o bară laterală dreapta în stil VSCode (explorer / editor / terminal / git / browser), izolată per… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ochi pentru agenții DeepSeek Harness doar-text: lanț de vedere gratuit integrat (fără cheie) + unelte de vedere la nivel de pixel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integrare nativă DeepSeek Harness pentru agent-vision-toolkit: întrebări-răspuns pe imagini, OCR, grounding, restaurare UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin de infestare cu reclame DSH: reclame de portal chinezești localizate și parodie de reclame-escrocherie în engleză, cu pop-up-uri false, o… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI pentru DeepSeek Harness: componente UI interactive redate inline în răspunsurile asistentului prin dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: un plugin de interfață terminal interactivă pentru DeepSeek Harness oficial — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Vizualizare inline pentru DeepSeek Harness: o unealtă visualize plus o skill inclusă permit modelului să redea… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Un plugin de căutare anime pentru DeepSeek Harness: unealta anime_find_search agregă Mikan, AniBT și… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistem undo/rollback DSH: instantaneu al fișierelor de configurare la modificare, undo/redo pentru ultima acțiune din WebUI sau prin… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -117,12 +117,13 @@ revizuit individual și mereu creditat creatorului original al pluginului. Nimic
 este generat dintr-un alt catalog sau listă: fiecare intrare este reconstruită din repository-ul
 creatorului original, la un commit fixat.
 
-Site-ul și CLI-ul sunt întreținute dintr-o sursă privată; acest repository conține datele publice
-ale catalogului, schema și politicile pe care acestea le consumă.
+Site-ul este întreținut dintr-o sursă privată. CLI-ul se află aici, sub [`cli/`](../../cli), iar
+acest repository poartă datele publice ale catalogului, schema și politicile pe care ambele le
+consumă.
 
 ## Starea catalogului
 
-**160 de pluginuri integrate.** Fiecare plugin intră printr-un pull request revizuit individual,
+**483 de pluginuri integrate.** Fiecare plugin intră printr-un pull request revizuit individual,
 unul câte unul, din repository-ul creatorului original, cu un commit sursă fixat și atribuire
 explicită.
 
@@ -132,12 +133,12 @@ explicită.
 npx omni-dsh-plugins --help
 ```
 
-Pachetul cu scope este publicat ca `omni-dsh-plugins@1.0.1`, iar comanda de mai sus este
+Pachetul este publicat ca `omni-dsh-plugins@1.0.1`, iar comanda de mai sus este
 invocarea canonică actuală; niciun script de instalare nu este găzduit aici.
 
 ### Folosește CLI-ul astăzi
 
-Versiunea 1.0.0 oferă comenzi de descoperire și validare read-only, plus comenzi de instalare
+Versiunea 1.0.1 oferă comenzi de descoperire și validare read-only, plus comenzi de instalare
 condiționate de consimțământ. Referința completă de comenzi, inclusiv flagurile, codurile de
 ieșire și poarta de consimțământ pentru execuția de cod, se află în
 [docs/CLI.md](../../docs/CLI.md).
@@ -153,14 +154,14 @@ ieșire și poarta de consimțământ pentru execuția de cod, se află în
 | `add <id> --profile <name> --allow-code-execution` | Instalează prin delegarea oficială DSH               | Da — doar cu flagul explicit de consimțământ |
 
 ```bash
-# Validează catalogul din acest repository (ce rulează CI):
+# Validate the catalog in this repository (what CI runs):
 npx omni-dsh-plugins catalog validate --catalog .
 
-# Caută și inspectează local, fără să instalezi nimic:
+# Search and inspect locally, without installing anything:
 npx omni-dsh-plugins search memory --catalog .
 npx omni-dsh-plugins info <plugin-id> --catalog .
 
-# Previzualizează un plan de instalare; nu se scrie nimic și nu rulează niciun subproces:
+# Preview an install plan; nothing is written and no subprocess runs:
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
@@ -324,7 +325,7 @@ dacă cineva ți-a catalogat munca înaintea ta.
 
 ## 🌐 Traduceri
 
-Acest README este disponibil în 43 de limbi sub [`docs/i18n/`](../../docs/i18n) — folosește
+Acest README este disponibil în 43 de limbi sub [`docs/i18n/`](..) — folosește
 selectorul de steaguri de sus. Engleza este sursa de adevăr; când o traducere și textul englez nu
 sunt de acord, textul englez prevalează. Corecturile la orice traducere sunt binevenite prin
 pull request-uri obișnuite.
@@ -345,4 +346,4 @@ rămân sub proprietarii și licențele lor originale. Vezi [docs/CREDIT.md](../
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

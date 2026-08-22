@@ -51,7 +51,11 @@ Konstante `1`. Identifiziert die öffentliche Schema-Version 1; jeder andere Wer
 
 String, der `^[a-z0-9]+(?:-[a-z0-9]+)*$` entspricht — kleingeschriebenes Kebab-Case, ohne
 führende/nachgestellte oder doppelte Bindestriche. Gemäß [CONTRIBUTING.md](../../CONTRIBUTING.md)
-muss die Eintragsdatei `catalog/plugins/<id>.yaml` mit dem identischen Wert heißen.
+muss die Eintragsdatei `catalog/plugins/<id>.yaml` mit dem identischen Wert heißen; der Validator
+lehnt eine Abweichung ab (`id-filename-mismatch`). Die ID muss außerdem mit dem Namespace des
+Erstellers beginnen: dem `creator.github`-Handle in Kleinbuchstaben, wobei jede Folge von
+Zeichen außerhalb von `[a-z0-9]` zu einem einzelnen `-` zusammengefasst wird, gefolgt von `-`
+(`id-creator-prefix`).
 
 ### `name`
 
@@ -235,4 +239,4 @@ existieren, ob die Sternezahl korrekt ist, oder ob der Ersteller die Quelle besi
 Prüfungen gehören zu den Maintainer-Review-Gates, beschrieben in
 [CONTRIBUTING.md](../../CONTRIBUTING.md) und [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

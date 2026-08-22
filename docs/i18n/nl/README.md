@@ -16,7 +16,7 @@ Ontdekking met voorrang voor makers en installatie met één commando voor **Dee
   <a href="https://dsh-plugins.omniroute.online">Blader, zoek en installeer elke plugin op de website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -84,14 +84,14 @@ Elke naam linkt naar het repository van de maker, vastgepind op de exacte commit
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Insteekbaar zicht voor alleen-tekst-LLM's, aangedreven door de gratis Antigravity CLI |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-webplugin: een rechterzijbalk in VSCode-stijl (verkenner / editor / terminal / git / browser), geïsoleerd per… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ogen voor alleen-tekst DeepSeek Harness-agents: ingebouwde gratis visieketen (geen sleutel nodig) + visietools op pixelniveau… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integratie voor agent-vision-toolkit: beeld-Q&A, OCR, grounding, UI-herstel,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-advertentie-infestatieplugin: gelokaliseerde Chinese portaladvertenties en Engelse nepoplichting-advertentieparodie, met nep-pop-ups,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI voor DeepSeek Harness: interactieve UI-componenten die inline in antwoorden van de assistent worden weergegeven via de dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: een interactieve terminal-UI-plugin voor de officiële DeepSeek Harness — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualisatie voor DeepSeek Harness: een visualize-tool plus meegeleverde skill laten het model tekenen… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Een anime-zoekplugin voor DeepSeek Harness: een anime_find_search-tool bundelt Mikan, AniBT en… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH ongedaan-maken/terugdraaisysteem: maakt een momentopname van configuratiebestanden bij wijziging, maakt de laatste actie ongedaan of opnieuw vanuit de WebUI of via… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Interactieve TUI-voordeur in Claude Code-stijl voor DeepSeek Harness-agents, gebouwd op de geporteerde Ink-core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ogen voor alleen-tekst DeepSeek Harness-agents: ingebouwde gratis visieketen (geen sleutel nodig) + visietools op pixelniveau… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integratie voor agent-vision-toolkit: beeld-Q&A, OCR, grounding, UI-herstel,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-advertentie-infestatieplugin: gelokaliseerde Chinese portaladvertenties en Engelse nepoplichting-advertentieparodie, met nep-pop-ups,… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI voor DeepSeek Harness: interactieve UI-componenten die inline in antwoorden van de assistent worden weergegeven via de dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: een interactieve terminal-UI-plugin voor de officiële DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualisatie voor DeepSeek Harness: een visualize-tool plus meegeleverde skill laten het model tekenen… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Een anime-zoekplugin voor DeepSeek Harness: een anime_find_search-tool bundelt Mikan, AniBT en… |
 
 <div align="center">
 
@@ -116,12 +116,12 @@ oorspronkelijke maker van de plugin. Niets in de catalogus wordt gegenereerd uit
 catalogus of lijst: elke invoer wordt gereconstrueerd vanuit het oorspronkelijke repository
 van de maker, op een vastgepinde commit.
 
-De website en de CLI worden onderhouden vanuit privébroncode; deze repository bevat de
-publieke catalogusdata, het schema en het beleid dat ze gebruiken.
+De website wordt onderhouden vanuit privébroncode. De CLI leeft hier, onder [`cli/`](../../cli),
+en deze repository bevat de publieke catalogusdata, het schema en het beleid dat beide gebruiken.
 
 ## Catalogusstatus
 
-**160 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
+**483 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
 request, één tegelijk, vanuit het oorspronkelijke repository van de maker, met een
 vastgepinde broncommit en expliciete attributie.
 
@@ -131,12 +131,12 @@ vastgepinde broncommit en expliciete attributie.
 npx omni-dsh-plugins --help
 ```
 
-Het scoped package wordt gepubliceerd als `omni-dsh-plugins@1.0.1` en het commando
-hierboven is vandaag de canonieke aanroep; er wordt hier geen installatiescript gehost.
+Het package wordt gepubliceerd als `omni-dsh-plugins@1.0.1` en het commando hierboven is
+vandaag de canonieke aanroep; er wordt hier geen installatiescript gehost.
 
 ### Gebruik de CLI vandaag
 
-Versie 1.0.0 levert alleen-lezen ontdekkings- en validatiecommando's plus installatie-
+Versie 1.0.1 levert alleen-lezen ontdekkings- en validatiecommando's plus installatie-
 commando's die aan toestemming gebonden zijn. De volledige commandoreferentie, inclusief
 vlaggen, afsluitcodes en de toestemmingscontrole voor codeuitvoering, staat in [docs/CLI.md](../../docs/CLI.md).
 
@@ -340,4 +340,4 @@ licenties. Zie [docs/CREDIT.md](../../docs/CREDIT.md) en [docs/UNOFFICIAL.md](..
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

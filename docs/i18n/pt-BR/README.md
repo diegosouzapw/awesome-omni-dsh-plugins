@@ -16,7 +16,7 @@ Descoberta com prioridade ao criador e instalação em um comando para plugins d
   <a href="https://dsh-plugins.omniroute.online">Explore, pesquise e instale qualquer plugin no site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Todo nome tem link para o repositório do criador, fixado no commit exato valida
 
 | #   | Plugin | Criador | ★ | Categoria | O que faz |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Visão plugável para LLMs somente-texto, com tecnologia do CLI gratuito Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web do DSH: uma barra lateral direita no estilo VSCode (explorador / editor / terminal / git / navegador), isolada por… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Olhos para agentes DeepSeek Harness somente-texto: cadeia de visão gratuita embutida (sem chave) + ferramentas de visão em nível de pixel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integração nativa do DeepSeek Harness para agent-vision-toolkit: perguntas e respostas sobre imagens, OCR, grounding, restauração de UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin de infestação de anúncios do DSH: anúncios de portal chinês localizados e paródia de anúncios de golpe em inglês, com pop-ups falsos,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI para DeepSeek Harness: componentes de UI interativos renderizados inline nas respostas do assistente via dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: um plugin de UI de terminal interativo para o DeepSeek Harness oficial — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualização inline para DeepSeek Harness: uma ferramenta visualize mais uma skill empacotada deixam o modelo renderizar… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Um plugin de busca de anime para DeepSeek Harness: uma ferramenta anime_find_search agrega Mikan, AniBT e… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema de desfazer/reverter do DSH: tira um snapshot dos arquivos de configuração a cada mudança, desfaz/refaz a última ação pela WebUI ou por… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -115,12 +115,12 @@ pull request revisado individualmente, e sempre creditada ao criador original do
 Nada no catálogo é gerado a partir de outro catálogo ou lista: cada entrada é reconstruída
 a partir do repositório original do criador, em um commit fixado.
 
-O site e a CLI são mantidos a partir de código-fonte privado; este repositório carrega os dados
-públicos do catálogo, o esquema e as políticas que eles consomem.
+O website é mantido a partir de código-fonte privado. O CLI mora aqui, em [`cli/`](../../cli), e
+este repositório carrega os dados públicos do catálogo, o esquema e as políticas que ambos consomem.
 
 ## Status do catálogo
 
-**160 plugins integrados.** Cada plugin entra por meio de um pull request revisado individualmente,
+**483 plugins mesclados.** Cada plugin entra por meio de um pull request revisado individualmente,
 um de cada vez, a partir do repositório original do criador, com um commit de origem fixado e
 atribuição explícita.
 
@@ -130,12 +130,12 @@ atribuição explícita.
 npx omni-dsh-plugins --help
 ```
 
-O pacote com escopo é publicado como `omni-dsh-plugins@1.0.1` e o comando acima é
+O pacote é publicado como `omni-dsh-plugins@1.0.1` e o comando acima é
 a invocação canônica hoje; nenhum script de instalação é hospedado aqui.
 
 ### Use a CLI hoje
 
-A versão 1.0.0 traz comandos de descoberta e validação somente leitura, além de comandos de
+A versão 1.0.1 traz comandos de descoberta e validação somente leitura, além de comandos de
 instalação protegidos por consentimento. A referência completa de comandos, incluindo flags,
 códigos de saída e o portão de consentimento para execução de código, está em [docs/CLI.md](../../docs/CLI.md).
 
@@ -339,4 +339,4 @@ licenças originais. Veja [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFIC
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

@@ -1,6 +1,6 @@
 # Contribuire
 
-> 🌐 [English](../../CONTRIBUTING.md) · **Italiano**
+> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Italiano**
 
 > **Progetto comunitario non ufficiale. Non affiliato, approvato o sponsorizzato da DeepSeek.**
 > I nomi e i marchi DeepSeek appartengono ai rispettivi proprietari.
@@ -249,4 +249,4 @@ La documentazione di lancio e le descrizioni del catalogo sono solo in inglese. 
 locali resta un elemento di backlog post-MVP; non aggiungere documenti di locale vuoti né
 traduzioni automatiche in blocco.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

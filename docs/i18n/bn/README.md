@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ওয়েবসাইটে সব প্লাগইন ব্রাউজ, সার্চ এবং ইনস্টল করুন →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@
 
 | #   | Plugin | নির্মাতা | ★ | Category | এটি কী করে |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | টেক্সট-শুধুমাত্র LLM-এর জন্য প্লাগ-ইন ভিশন, বিনামূল্যের Antigravity CLI দ্বারা চালিত |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH ওয়েব প্লাগইন: VSCode-এর মতো একটি ডান সাইডবার (এক্সপ্লোরার / এডিটর / টার্মিনাল / git / ব্রাউজার), প্রতি… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | টেক্সট-শুধুমাত্র DeepSeek Harness এজেন্টের জন্য চোখ: বিল্ট-ইন ফ্রি ভিশন চেইন (কোনো কী নেই) + পিক্সেল-স্তরের ভিশন টুল… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit-এর জন্য DeepSeek Harness-নেটিভ ইন্টিগ্রেশন: ছবি প্রশ্নোত্তর, OCR, গ্রাউন্ডিং, UI পুনরুদ্ধার,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH বিজ্ঞাপন-উপদ্রব প্লাগইন: স্থানীয়করণকৃত চীনা পোর্টাল বিজ্ঞাপন এবং ইংরেজি স্ক্যাম-বিজ্ঞাপন প্যারোডি, ভুয়া পপ-আপসহ, এ… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness-এর জন্য GenUI: dsh-ui-এর মাধ্যমে অ্যাসিস্ট্যান্টের উত্তরে ইনলাইনভাবে রেন্ডার হওয়া ইন্টারঅ্যাক্টিভ UI কম্পোনেন্ট… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: অফিসিয়াল DeepSeek Harness-এর জন্য একটি ইন্টারঅ্যাক্টিভ টার্মিনাল UI প্লাগইন — স্ট্রিমিং… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness-এর জন্য ইনলাইন ভিজ্যুয়ালাইজেশন: একটি visualize টুল এবং বান্ডল করা স্কিল মডেলকে রেন্ডার করতে দেয়… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness-এর জন্য একটি অ্যানিমে সার্চ প্লাগইন: একটি anime_find_search টুল Mikan, AniBT এবং… একত্র করে |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH আনডু/রোলব্যাক সিস্টেম: পরিবর্তনের সময় কনফিগ ফাইলের স্ন্যাপশট নেয়, WebUI থেকে বা… দ্বারা সর্বশেষ অ্যাকশন আনডু/রিডু করুন |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -119,7 +119,7 @@
 
 ## ক্যাটালগের অবস্থা
 
-**১৬০টি প্লাগইন মার্জ হয়েছে।** প্রতিটি প্লাগইন একটি করে, মূল নির্মাতার রিপোজিটরি থেকে, একটি পৃথকভাবে পর্যালোচিত পুল
+**৪৮৩টি প্লাগইন মার্জ হয়েছে।** প্রতিটি প্লাগইন একটি করে, মূল নির্মাতার রিপোজিটরি থেকে, একটি পৃথকভাবে পর্যালোচিত পুল
 রিকোয়েস্টের মাধ্যমে, একটি পিন করা সোর্স কমিট এবং স্পষ্ট কৃতিত্ব-সহ প্রবেশ করে।
 
 ## 🚀 CLI ইনস্টল করুন
@@ -133,7 +133,7 @@ npx omni-dsh-plugins --help
 
 ### আজই CLI ব্যবহার করুন
 
-সংস্করণ 1.0.0-এ রিড-অনলি ডিসকভারি ও ভ্যালিডেশন কমান্ড এবং সম্মতি-নিয়ন্ত্রিত ইনস্টল কমান্ড অন্তর্ভুক্ত। ফ্ল্যাগ,
+সংস্করণ 1.0.1-এ রিড-অনলি ডিসকভারি ও ভ্যালিডেশন কমান্ড এবং সম্মতি-নিয়ন্ত্রিত ইনস্টল কমান্ড অন্তর্ভুক্ত। ফ্ল্যাগ,
 এক্সিট কোড এবং কোড-এক্সিকিউশন সম্মতি গেটসহ সম্পূর্ণ কমান্ড রেফারেন্স [docs/CLI.md](../../docs/CLI.md)-এ পাওয়া যাবে।
 
 | Command                        | এটি কী করে                                                        | এটি কি আপনার সিস্টেম স্পর্শ করে?                    |
@@ -324,4 +324,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

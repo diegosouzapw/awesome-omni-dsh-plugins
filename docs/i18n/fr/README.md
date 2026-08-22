@@ -16,7 +16,7 @@ Découverte axée sur le créateur et installation en une seule commande pour le
   <a href="https://dsh-plugins.omniroute.online">Parcourez, recherchez et installez tous les plugins sur le site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -71,7 +71,6 @@ Découverte axée sur le créateur et installation en une seule commande pour le
 <a href="../../docs/i18n/sw/README.md"><img src="../../docs/assets/flags/tz.svg" width="30" alt="Kiswahili (sw)" title="Kiswahili (sw)"></a>
 
 </div>
-
 ---
 
 ## ⭐ Top 10 des plugins
@@ -82,16 +81,16 @@ nom renvoie vers le dépôt du créateur, épinglé au commit exact validé par 
 
 | #   | Plugin | Créateur | ★ | Category | Ce qu'il fait |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Vision enfichable pour les LLM texte seul, propulsée par le CLI Antigravity gratuit |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web DSH : une barre latérale droite façon VSCode (explorateur / éditeur / terminal / git / navigateur), isolée par… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Des yeux pour les agents DeepSeek Harness texte seul : chaîne de vision gratuite intégrée (sans clé) + outils de vision au pixel près… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Intégration native DeepSeek Harness pour agent-vision-toolkit : questions-réponses sur image, OCR, ancrage, restauration d'UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin d'invasion publicitaire DSH : portail publicitaire chinois localisé et parodie de publicité arnaque en anglais, avec faux pop-ups, un… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI pour DeepSeek Harness : composants d'UI interactifs rendus en ligne dans les réponses de l'assistant via le dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui : un plugin d'interface terminal interactive pour le DeepSeek Harness officiel — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualisation en ligne pour DeepSeek Harness : un outil visualize plus une compétence groupée permettent au modèle de rendre… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Un plugin de recherche d'anime pour DeepSeek Harness : un outil anime_find_search agrège Mikan, AniBT et… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Système d'annulation/retour en arrière DSH : instantané des fichiers de configuration à chaque changement, annuler/refaire la dernière action depuis la WebUI ou par… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -115,12 +114,13 @@ revue individuellement, et toujours crédité au créateur original du plugin.
 Rien dans le catalogue n'est généré à partir d'un autre catalogue ou d'une autre liste : chaque
 entrée est reconstruite à partir du dépôt du créateur original, à un commit épinglé.
 
-Le site web et le CLI sont maintenus depuis une source privée ; ce dépôt porte les données de
-catalogue publiques, le schéma et les politiques qu'ils consomment.
+Le site web est maintenu depuis une source privée. Le CLI se trouve ici, sous [`cli/`](../../cli),
+et ce dépôt porte les données de catalogue publiques, le schéma et les politiques que les deux
+consomment.
 
 ## Statut du catalogue
 
-**160 plugins fusionnés.** Chaque plugin entre via une pull request revue individuellement, une à
+**483 plugins fusionnés.** Chaque plugin entre via une pull request revue individuellement, une à
 la fois, depuis le dépôt du créateur original, avec un commit source épinglé et une attribution
 explicite.
 
@@ -130,12 +130,12 @@ explicite.
 npx omni-dsh-plugins --help
 ```
 
-Le paquet scopé est publié sous `omni-dsh-plugins@1.0.1` et la commande ci-dessus est
+Le paquet est publié sous `omni-dsh-plugins@1.0.1` et la commande ci-dessus est
 l'invocation canonique aujourd'hui ; aucun script d'installation n'est hébergé ici.
 
 ### Utiliser le CLI aujourd'hui
 
-La version 1.0.0 embarque des commandes de découverte et de validation en lecture seule, ainsi
+La version 1.0.1 embarque des commandes de découverte et de validation en lecture seule, ainsi
 que des commandes d'installation soumises au consentement. La référence complète des commandes,
 avec les options, les codes de sortie et le contrôle de consentement pour l'exécution de code,
 se trouve dans [docs/CLI.md](../../docs/CLI.md).
@@ -346,4 +346,4 @@ Voir [docs/CREDIT.md](../../docs/CREDIT.md) et [docs/UNOFFICIAL.md](../../docs/U
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->
