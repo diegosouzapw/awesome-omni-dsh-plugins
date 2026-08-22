@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">همهٔ افزونه‌ها را در وب‌سایت مرور، جستجو و نصب کنید →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@
 
 | #   | Plugin | سازنده | ★ | دسته | چه کاری انجام می‌دهد |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | بینایی افزودنی برای LLMهای فقط‌متنی، مبتنی بر Antigravity CLI رایگان |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | افزونهٔ وب DSH: نوار کناری راستِ شبیه VSCode (کاوشگر / ویرایشگر / ترمینال / گیت / مرورگر)، ایزوله‌شده بر اساس… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | چشم برای عامل‌های فقط‌متنیِ DeepSeek Harness: زنجیرهٔ بینایی رایگانِ داخلی (بدون کلید) + ابزارهای بینایی در سطح پیکسل… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | یکپارچه‌سازی بومیِ DeepSeek Harness برای agent-vision-toolkit: پرسش‌وپاسخ تصویری، OCR، گراندینگ، بازسازی رابط کاربری،… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | افزونهٔ آگهی‌های مزاحم DSH: تبلیغات پورتال چینی بومی‌سازی‌شده و پارودی تبلیغات کلاهبرداری انگلیسی، با پاپ‌آپ‌های جعلی، یک… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI برای DeepSeek Harness: مؤلفه‌های رابط کاربریِ تعاملی که به‌صورت درون‌خطی در پاسخ‌های دستیار از طریق dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: افزونهٔ رابط کاربری ترمینالیِ تعاملی برای DeepSeek Harness رسمی — جریان‌سازی… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | نمایش درون‌خطی برای DeepSeek Harness: ابزار visualize به‌همراه مهارت همراه، به مدل امکان رندر می‌دهد… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | افزونهٔ جستجوی انیمه برای DeepSeek Harness: ابزار anime_find_search، Mikan، AniBT و… را تجمیع می‌کند |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | سامانهٔ واگرد/بازگشتِ DSH: هنگام تغییر از فایل‌های پیکربندی نماگرفت (snapshot) می‌گیرد، آخرین عمل را از WebUI یا با… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -114,12 +114,12 @@ JSON Schema منتشرشده اعتبارسنجی شده، از طریق یک pu
 افزونه اعتبار داده می‌شود. هیچ‌چیز در کاتالوگ از کاتالوگ یا فهرست دیگری تولید نمی‌شود: هر ورودی از ریپازیتوری سازندهٔ
 اصلی در یک کامیت پین‌شده بازسازی می‌شود.
 
-وب‌سایت و CLI از منبع خصوصی نگهداری می‌شوند؛ این ریپازیتوری داده‌های عمومی کاتالوگ، اسکیما و سیاست‌هایی را که آن‌ها
-مصرف می‌کنند در بر دارد.
+وب‌سایت از منبع خصوصی نگهداری می‌شود. CLI اینجا، زیر [`cli/`](../../cli) قرار دارد، و این ریپازیتوری داده‌های عمومی
+کاتالوگ، اسکیما و سیاست‌هایی را که هر دو مصرف می‌کنند در بر دارد.
 
 ## وضعیت کاتالوگ
 
-**۱۶۰ افزونه ادغام شده است.** هر افزونه از طریق یک pull request بازبینی‌شدهٔ جداگانه، یکی‌یکی، از ریپازیتوری سازندهٔ
+**۴۸۳ افزونه ادغام شده است.** هر افزونه از طریق یک pull request بازبینی‌شدهٔ جداگانه، یکی‌یکی، از ریپازیتوری سازندهٔ
 اصلی، با یک کامیت منبع پین‌شده و اعتباردهی صریح وارد می‌شود.
 
 ## 🚀 نصب CLI
@@ -133,7 +133,7 @@ npx omni-dsh-plugins --help
 
 ### استفاده از CLI امروز
 
-نسخهٔ 1.0.0 دستورات فقط‌خواندنیِ کشف و اعتبارسنجی به‌همراه دستورات نصبِ مشروط به رضایت را ارائه می‌دهد. مرجع کامل
+نسخهٔ 1.0.1 دستورات فقط‌خواندنیِ کشف و اعتبارسنجی به‌همراه دستورات نصبِ مشروط به رضایت را ارائه می‌دهد. مرجع کامل
 دستورات، شامل پرچم‌ها، کدهای خروج و دروازهٔ رضایتِ اجرای کد، در [docs/CLI.md](../../docs/CLI.md) است.
 
 | Command                        | چه کاری انجام می‌دهد                                                        | به سیستم شما دست می‌زند؟                    |
@@ -326,4 +326,4 @@ YAML تحت [CC0-1.0](../../LICENSE-CATALOG) وقف شده‌اند. کد، نا
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

@@ -16,7 +16,7 @@ Khám phá và cài đặt plugin **DeepSeek Harness (DSH)** chỉ bằng một 
   <a href="https://dsh-plugins.omniroute.online">Duyệt, tìm kiếm và cài đặt mọi plugin trên website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ của nhà phát triển, được ghim tại đúng commit mà danh mục đã 
 
 | #   | Plugin | Creator | ★ | Category | Chức năng |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Khả năng thị giác dạng cắm thêm cho các LLM chỉ xử lý văn bản, chạy trên Antigravity CLI miễn phí |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web của DSH: thanh bên phải kiểu VSCode (trình khám phá tệp / trình soạn thảo / terminal / git / trình duyệt), cô lập riêng cho từng… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Đôi mắt cho các agent DeepSeek Harness chỉ xử lý văn bản: chuỗi thị giác miễn phí tích hợp sẵn (không cần khóa) + công cụ thị giác cấp pixel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Tích hợp gốc DeepSeek Harness cho agent-vision-toolkit: hỏi đáp hình ảnh, OCR, xác định vị trí, khôi phục UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin mô phỏng "ngập tràn quảng cáo" cho DSH: quảng cáo cổng thông tin Trung Quốc bản địa hóa và quảng cáo lừa đảo tiếng Anh dạng châm biếm, kèm popup giả,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI cho DeepSeek Harness: các thành phần giao diện tương tác được kết xuất nội tuyến trong câu trả lời của trợ lý thông qua dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: plugin giao diện terminal tương tác cho DeepSeek Harness chính thức — truyền phát… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Trực quan hóa nội tuyến cho DeepSeek Harness: công cụ visualize cùng kỹ năng đi kèm cho phép mô hình kết xuất… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Plugin tìm kiếm anime cho DeepSeek Harness: công cụ anime_find_search tổng hợp dữ liệu từ Mikan, AniBT và… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Hệ thống undo/rollback cho DSH: chụp nhanh các tệp cấu hình khi có thay đổi, undo/redo hành động cuối cùng từ WebUI hoặc bằng… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -114,12 +114,12 @@ Repository này là nguồn dữ liệu chân lý công khai của danh mục. M
 riêng, và luôn ghi công nhà phát triển gốc của plugin đó. Không có gì trong danh mục được tạo ra từ một danh mục hay
 danh sách khác: mỗi mục đều được tái dựng từ repository gốc của nhà phát triển tại một commit đã ghim cố định.
 
-Website và CLI được duy trì từ mã nguồn riêng tư; repository này chứa dữ liệu danh mục công khai, schema và các chính
-sách mà chúng sử dụng.
+Website được duy trì từ mã nguồn riêng tư. CLI nằm ngay tại đây, dưới [`cli/`](../../cli), còn repository này chứa
+dữ liệu danh mục công khai, schema và các chính sách mà cả hai đều sử dụng.
 
 ## Trạng thái danh mục
 
-**Đã hợp nhất 160 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
+**Đã hợp nhất 483 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
 repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố định và ghi công rõ ràng.
 
 ## 🚀 Cài đặt CLI
@@ -128,12 +128,12 @@ repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố đ
 npx omni-dsh-plugins --help
 ```
 
-Gói scoped này được phát hành với tên `omni-dsh-plugins@1.0.1`, và lệnh trên đây là cách gọi chính thức hiện
+Gói này được phát hành với tên `omni-dsh-plugins@1.0.1`, và lệnh trên đây là cách gọi chính thức hiện
 tại; không có script cài đặt nào được lưu trữ tại đây.
 
 ### Dùng CLI ngay hôm nay
 
-Phiên bản 1.0.0 cung cấp các lệnh khám phá và xác thực chỉ đọc, cùng các lệnh cài đặt yêu cầu sự đồng ý. Tài liệu tham
+Phiên bản 1.0.1 cung cấp các lệnh khám phá và xác thực chỉ đọc, cùng các lệnh cài đặt yêu cầu sự đồng ý. Tài liệu tham
 khảo lệnh đầy đủ, bao gồm cờ, mã thoát và cơ chế đồng ý trước khi thực thi mã, có tại [docs/CLI.md](../../docs/CLI.md).
 
 | Lệnh                        | Chức năng                                                        | Có tác động đến hệ thống của bạn không?                    |
@@ -328,4 +328,4 @@ chụp màn hình ở nguồn gốc vẫn thuộc về chủ sở hữu và gi�
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

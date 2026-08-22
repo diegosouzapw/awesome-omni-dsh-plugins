@@ -1,6 +1,6 @@
 # Dokumentacja schematu wpisu katalogu
 
-> 🌐 [English](../../SCHEMA.md) · **Polski**
+> 🌐 [English](../../docs/SCHEMA.md) · **Polski**
 
 > **Nieoficjalny projekt społecznościowy. Niepowiązany z DeepSeek, nieautoryzowany ani niesponsorowany przez DeepSeek.**
 > Nazwy i znaki DeepSeek należą do ich odpowiedniego właściciela.
@@ -39,7 +39,7 @@ Stała `1`. Identyfikuje publiczną wersję schematu 1; każda inna wartość je
 
 ### `id`
 
-Ciąg znaków pasujący do `^[a-z0-9]+(?:-[a-z0-9]+)*$` — lowercase kebab-case, bez wiodących/końcowych ani podwójnych myślników. Zgodnie z [CONTRIBUTING.md](../../CONTRIBUTING.md), plik wpisu musi nosić nazwę `catalog/plugins/<id>.yaml` z identyczną wartością.
+Ciąg znaków pasujący do `^[a-z0-9]+(?:-[a-z0-9]+)*$` — lowercase kebab-case, bez wiodących/końcowych ani podwójnych myślników. Zgodnie z [CONTRIBUTING.md](../../CONTRIBUTING.md), plik wpisu musi nosić nazwę `catalog/plugins/<id>.yaml` z identyczną wartością; walidator odrzuca niezgodność (`id-filename-mismatch`). Identyfikator musi też zaczynać się od przestrzeni nazw twórcy: uchwytu `creator.github` zapisanego małymi literami, w którym każda seria znaków spoza `[a-z0-9]` jest zwijana do pojedynczego `-`, po którym następuje `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -197,4 +197,4 @@ Publiczne linki pochodzenia, każdy jako URI lub `null`:
 
 Schemat jest celowo lokalny i strukturalny. **Nie** weryfikuje, czy repozytorium istnieje, czy node ID pasuje do URL, czy ścieżki dowodowe istnieją w przypiętym commicie, czy liczba gwiazdek jest dokładna, ani czy twórca jest właścicielem źródła. Te sprawdzenia należą do bramek recenzji maintainerów opisanych w [CONTRIBUTING.md](../../CONTRIBUTING.md) i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">在網站上瀏覽、搜尋並安裝所有外掛 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,14 +82,14 @@
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | 為純文字 LLM 提供的外掛式視覺能力,由免費的 Antigravity CLI 驅動 |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH 網頁外掛:類似 VSCode 的右側邊欄(檔案總管 / 編輯器 / 終端機 / git / 瀏覽器),每個對話階段皆獨立隔離… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | 為純文字 DeepSeek Harness 代理提供的視覺能力:內建免費視覺鏈(無需金鑰)+ 像素級視覺工具… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | 面向 agent-vision-toolkit 的 DeepSeek Harness 原生整合:圖像問答、OCR、目標定位、介面還原,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH 廣告轟炸模擬外掛:在地化的中文入口網站廣告與英文詐騙廣告仿作,附帶假彈出視窗,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | 面向 DeepSeek Harness 的 GenUI:透過 dsh-ui 在助理回覆中內嵌呈現互動式 UI 元件… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui:面向官方 DeepSeek Harness 的互動式終端機 UI 外掛——串流… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 面向 DeepSeek Harness 的內嵌視覺化:搭配的 visualize 工具與內建技能讓模型繪製… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | 面向 DeepSeek Harness 的動漫搜尋外掛:anime_find_search 工具彙整來自 Mikan、AniBT 及… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH 復原/回溯系統:在設定檔變更時建立快照,可從 WebUI 或透過… 復原/重做最近一次操作 |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code 風格的互動式 TUI 前端,為 DeepSeek Harness 代理打造,建構於移植版的 Ink 核心之上。 |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | 為純文字 DeepSeek Harness 代理提供的視覺能力:內建免費視覺鏈(無需金鑰)+ 像素級視覺工具… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | 面向 agent-vision-toolkit 的 DeepSeek Harness 原生整合:圖像問答、OCR、目標定位、介面還原,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH 廣告轟炸模擬外掛:在地化的中文入口網站廣告與英文詐騙廣告仿作,附帶假彈出視窗,… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | 面向 DeepSeek Harness 的 GenUI:透過 dsh-ui 在助理回覆中內嵌呈現互動式 UI 元件… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui:面向官方 DeepSeek Harness 的互動式終端機 UI 外掛——串流… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | 面向 DeepSeek Harness 的內嵌視覺化:搭配的 visualize 工具與內建技能讓模型繪製… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | 面向 DeepSeek Harness 的動漫搜尋外掛:anime_find_search 工具彙整來自 Mikan、AniBT 及… |
 
 <div align="center">
 
@@ -115,7 +115,7 @@
 
 ## 目錄狀態
 
-**已合併 160 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
+**已合併 483 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
 掛名。
 
 ## 🚀 安裝 CLI
@@ -129,7 +129,7 @@ npx omni-dsh-plugins --help
 
 ### 立即使用 CLI
 
-1.0.0 版本提供唯讀的探索與驗證指令,以及需經同意方可執行的安裝指令。完整的指令參考(包含旗標、結束代碼與程式碼執行同意
+1.0.1 版本提供唯讀的探索與驗證指令,以及需經同意方可執行的安裝指令。完整的指令參考(包含旗標、結束代碼與程式碼執行同意
 機制)請見 [docs/CLI.md](../../docs/CLI.md)。
 
 | 指令                        | 功能說明                                                        | 是否會變更你的系統?                    |
@@ -308,4 +308,4 @@ monorepo 中的整合仍可被發現,但使用 `stars: null`,絕不繼承母專�
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

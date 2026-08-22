@@ -49,7 +49,10 @@ Konstanta `1`. Identifikuje veřejné schéma verze 1; jakákoli jiná hodnota j
 
 Řetězec odpovídající `^[a-z0-9]+(?:-[a-z0-9]+)*$` — malá písmena kebab-case, bez úvodních/
 koncových nebo dvojitých pomlček. Podle [CONTRIBUTING.md](../../CONTRIBUTING.md) musí být
-soubor záznamu pojmenován `catalog/plugins/<id>.yaml` se stejnou hodnotou.
+soubor záznamu pojmenován `catalog/plugins/<id>.yaml` se stejnou hodnotou; validátor nesoulad
+odmítá (`id-filename-mismatch`). ID musí také začínat jmenným prostorem (namespace) tvůrce:
+handle `creator.github` malými písmeny, kde každá posloupnost znaků mimo `[a-z0-9]` je stažena
+do jedné `-`, následovaná `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -229,4 +232,4 @@ přesný, ani zda tvůrce vlastní zdroj. Tyto kontroly patří k bránám posou
 popsaným v [CONTRIBUTING.md](../../CONTRIBUTING.md) a
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

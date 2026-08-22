@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ویب سائٹ پر تمام پلگ انز کو براؤز، تلاش اور انسٹال کریں →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,14 +82,14 @@
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | صرف متن پر مبنی LLMs کے لیے پلگ اِن وژن، مفت Antigravity CLI سے چلتا ہے |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH ویب پلگ ان: VSCode جیسی دائیں سائیڈبار (ایکسپلورر / ایڈیٹر / ٹرمینل / git / براؤزر)، ہر ایک کے لیے علیحدہ… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | صرف متن پر مبنی DeepSeek Harness ایجنٹس کے لیے آنکھیں: بلٹ اِن مفت وژن چین (بغیر کسی کی کے) + پکسل سطح کے وژن ٹولز… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit کے لیے DeepSeek Harness نیٹو انٹیگریشن: امیج سوال و جواب، OCR، گراؤنڈنگ، UI بحالی،… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH اشتہار-انفیکشن پلگ ان: مقامی بنائے گئے چینی پورٹل اشتہارات اور انگریزی اسکیم-اشتہار پیروڈی، جعلی پاپ اپس کے ساتھ،… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness کے لیے GenUI: dsh-ui کے ذریعے اسسٹنٹ کے جوابات میں ان لائن رینڈر ہونے والے انٹرایکٹو UI کمپوننٹس… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: سرکاری DeepSeek Harness کے لیے ایک انٹرایکٹو ٹرمینل UI پلگ ان — سٹریمنگ… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness کے لیے ان لائن ویژولائزیشن: ایک visualize ٹول کے ساتھ ساتھ بنڈل کردہ سکل ماڈل کو رینڈر کرنے دیتی ہے… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness کے لیے ایک اینیمی سرچ پلگ ان: ایک anime_find_search ٹول Mikan، AniBT اور… کو یکجا کرتا ہے |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH undo/rollback نظام: تبدیلی پر کنفیگ فائلوں کا سنیپ شاٹ لیتا ہے، WebUI سے یا… کے ذریعے آخری عمل کو undo/redo کریں |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | DeepSeek Harness ایجنٹس کے لیے Claude Code طرز کا انٹرایکٹو TUI فرنٹ ڈور، پورٹ شدہ Ink کور پر تعمیر شدہ۔ |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | صرف متن پر مبنی DeepSeek Harness ایجنٹس کے لیے آنکھیں: بلٹ اِن مفت وژن چین (بغیر کسی کی کے) + پکسل سطح کے وژن ٹولز… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit کے لیے DeepSeek Harness نیٹو انٹیگریشن: امیج سوال و جواب، OCR، گراؤنڈنگ، UI بحالی،… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH اشتہار-انفیکشن پلگ ان: مقامی بنائے گئے چینی پورٹل اشتہارات اور انگریزی اسکیم-اشتہار پیروڈی، جعلی پاپ اپس کے ساتھ،… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness کے لیے GenUI: dsh-ui کے ذریعے اسسٹنٹ کے جوابات میں ان لائن رینڈر ہونے والے انٹرایکٹو UI کمپوننٹس… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: سرکاری DeepSeek Harness کے لیے ایک انٹرایکٹو ٹرمینل UI پلگ ان — سٹریمنگ… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness کے لیے ان لائن ویژولائزیشن: ایک visualize ٹول کے ساتھ ساتھ بنڈل کردہ سکل ماڈل کو رینڈر کرنے دیتی ہے… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness کے لیے ایک اینیمی سرچ پلگ ان: ایک anime_find_search ٹول Mikan، AniBT اور… کو یکجا کرتا ہے |
 
 <div align="center">
 
@@ -109,11 +109,11 @@
 
 یہ ریپوزٹری کیٹلاگ کے لیے عوامی سچائی کا ذریعہ ہے۔ ہر اندراج `catalog/plugins/` کے تحت ایک YAML فائل ہے، جو ایک شائع شدہ JSON Schema کے خلاف توثیق شدہ ہے، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے شامل کی گئی ہے، اور ہمیشہ پلگ ان کے اصل تخلیق کار کو کریڈٹ دیا جاتا ہے۔ کیٹلاگ میں کچھ بھی کسی دوسرے کیٹلاگ یا فہرست سے تیار نہیں کیا جاتا: ہر اندراج اصل تخلیق کار کی ریپوزٹری سے ایک پن شدہ کمٹ پر دوبارہ تعمیر کی جاتی ہے۔
 
-ویب سائٹ اور CLI نجی ماخذ سے برقرار رکھے جاتے ہیں؛ یہ ریپوزٹری عوامی کیٹلاگ ڈیٹا، اسکیما اور پالیسیاں فراہم کرتی ہے جو وہ استعمال کرتے ہیں۔
+ویب سائٹ نجی ماخذ سے برقرار رکھی جاتی ہے۔ CLI یہیں [`cli/`](../../cli) کے تحت رہتا ہے، اور یہ ریپوزٹری عوامی کیٹلاگ ڈیٹا، اسکیما اور وہ پالیسیاں فراہم کرتی ہے جو یہ دونوں استعمال کرتے ہیں۔
 
 ## کیٹلاگ کی صورتحال
 
-**160 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
+**483 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
 
 ## 🚀 CLI انسٹال کریں
 
@@ -121,11 +121,11 @@
 npx omni-dsh-plugins --help
 ```
 
-اسکوپڈ پیکج `omni-dsh-plugins@1.0.1` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
+پیکج `omni-dsh-plugins@1.0.1` کے طور پر شائع کیا جاتا ہے اور اوپر دی گئی کمانڈ آج کی معیاری انوکیشن ہے؛ یہاں کوئی انسٹالر اسکرپٹ ہوسٹ نہیں کی گئی۔
 
 ### آج CLI استعمال کریں
 
-ورژن 1.0.0 صرف پڑھنے کے لیے ڈسکوری اور توثیق کمانڈز کے ساتھ ساتھ رضامندی سے مشروط انسٹال کمانڈز فراہم کرتا ہے۔ فلیگز، exit codes اور کوڈ ایگزیکیوشن رضامندی گیٹ سمیت مکمل کمانڈ ریفرنس [docs/CLI.md](../../docs/CLI.md) میں ہے۔
+ورژن 1.0.1 صرف پڑھنے کے لیے ڈسکوری اور توثیق کمانڈز کے ساتھ ساتھ رضامندی سے مشروط انسٹال کمانڈز فراہم کرتا ہے۔ فلیگز، exit codes اور کوڈ ایگزیکیوشن رضامندی گیٹ سمیت مکمل کمانڈ ریفرنس [docs/CLI.md](../../docs/CLI.md) میں ہے۔
 
 | کمانڈ | یہ کیا کرتا ہے | کیا یہ آپ کے سسٹم کو چھوتا ہے؟ |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -287,4 +287,4 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

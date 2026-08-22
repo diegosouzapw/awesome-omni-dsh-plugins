@@ -5,11 +5,12 @@
 > **Projeto comunitário não oficial. Não afiliado, endossado ou patrocinado pela DeepSeek.**
 > Nomes e marcas da DeepSeek pertencem aos respectivos proprietários.
 
-Esta página documenta o CLI publicado exatamente como ele se comporta na versão `1.0.0`. Toda
+Esta página documenta o CLI publicado exatamente como ele se comporta na versão `1.0.1`. Toda
 sinopse e flag abaixo vem da própria saída de `--help` do comando publicado; nada aqui descreve
-comportamento não lançado. O CLI é mantido a partir de código-fonte privado e lançado no npm como
-o pacote com escopo
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+comportamento não lançado. O CLI é desenvolvido neste repositório em [`cli/`](../../cli) e
+lançado no npm como
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), com uma atestação de
+proveniência que vincula cada build ao commit e à execução de workflow que o produziu.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -97,6 +98,28 @@ entradas correspondentes, ou `No plugins found.` (saída `0`) quando nada corres
 ```bash
 npx omni-dsh-plugins search memory --catalog .
 npx omni-dsh-plugins search notes markdown --catalog . --json
+```
+
+### `discover` — encontra plugins além do catálogo
+
+```text
+dsh-plugins discover [options] <query...>
+```
+
+> `discover` estreou na `1.0.0`, o primeiro lançamento sob este nome de pacote.
+
+Pesquisa primeiro o catálogo curado e, depois — a menos que `--offline` seja passado —, o tópico
+`dsh-plugin` do GitHub ao vivo, de modo que um plugin ainda não submetido continua encontrável.
+Os resultados do catálogo carregam a evidência que o catálogo possui (commit fixado, criador,
+licença); os resultados da comunidade não carregam nenhuma dessas evidências e são rotulados como
+tal, porque nada sobre eles foi revisado.
+
+`--limit <n>` limita os resultados por camada (padrão `8`). `--json` emite o formato de máquina
+estável, que nunca é localizado.
+
+```bash
+npx omni-dsh-plugins discover memory --catalog .
+npx omni-dsh-plugins discover vision --offline --catalog . --json
 ```
 
 ### `info` — mostra uma entrada pública do catálogo
@@ -195,5 +218,7 @@ catalog [ok]: catalog is valid and empty
 Uma execução verde de `catalog validate` confirma apenas estrutura e semântica local. Ela não
 prova identidade remota do repositório, propriedade do criador, ou evidência no commit fixado —
 os mantenedores aplicam esses gates de proveniência separados antes de qualquer merge, conforme
-descrito em [CONTRIBUTING.md](CONTRIBUTING.md) e
+descrito em [CONTRIBUTING.md](../../CONTRIBUTING.md) e
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

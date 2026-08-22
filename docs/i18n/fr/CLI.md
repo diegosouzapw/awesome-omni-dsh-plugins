@@ -7,9 +7,10 @@
 
 Cette page documente le CLI publié exactement tel qu'il se comporte dans la version `1.0.1`.
 Chaque synopsis et chaque flag ci-dessous provient de la sortie `--help` de la commande publiée
-elle-même ; rien ici ne décrit un comportement non publié. Le CLI est maintenu depuis une source
-privée et publié sur npm sous le paquet scoped
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+elle-même ; rien ici ne décrit un comportement non publié. Le CLI est développé dans ce dépôt sous
+[`cli/`](../../cli) et publié sur npm sous
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), avec une attestation de
+provenance liant chaque build au commit et à l'exécution du workflow qui l'a produit.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -106,9 +107,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Absent de la version publiée `1.0.0`.** `discover` est livré dans la `1.0.0` ; toutes les
-> autres commandes de cette page fonctionnent avec la version actuellement sur npm. L'exécuter
-> contre `@1.0.0` échoue avec une commande inconnue.
+> `discover` est livré dans la `1.0.0`, la première version publiée sous ce nom de paquet.
 
 Recherche d'abord dans le catalogue curé, puis — sauf si `--offline` est fourni — dans le topic
 GitHub `dsh-plugin` en direct, afin qu'un plugin qui n'a pas encore été soumis reste trouvable.
@@ -224,4 +223,4 @@ commit fixé — les mainteneurs appliquent ces contrôles de provenance sépar�
 comme décrit dans [CONTRIBUTING.md](../../CONTRIBUTING.md) et
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

@@ -1,0 +1,35 @@
+# Kebijakan Keamanan
+
+## Cakupan katalog
+
+Repositori ini memuat metadata katalog, dokumentasi, dan konfigurasi kontribusi generik.
+Sebuah entri bukanlah sertifikasi keamanan, dan proyek ini tidak mendukung atau menjamin plugin
+apa pun. Periksa repositori asli, commit sumber yang dipatok, lisensi, dan perilaku instalasi
+sebelum menginstal sebuah entri.
+
+## Melaporkan kerentanan plugin
+
+Laporkan kerentanan pada plugin yang terdaftar secara privat kepada maintainer asli plugin
+tersebut. Jangan memublikasikan detail eksploitasi di issue katalog ini. Setelah berkoordinasi
+dengan maintainer, mintalah koreksi katalog atau status karantina tanpa menyertakan materi
+reproduksi yang sensitif.
+
+## Melaporkan kerentanan katalog
+
+Ketika repositori publik tersedia, gunakan saluran GitHub Security Advisory privatnya untuk
+kerentanan pada validasi katalog atau penanganan kontribusi. Jangan menggunakan issue publik
+untuk kerentanan yang belum ditambal.
+
+## Rahasia dan data pribadi
+
+Jangan pernah mengirimkan token akses, API key, cookie, alamat email pribadi, kredensial, atau
+konten repositori privat dalam entri, pull request, atau formulir issue. Bukti publik harus
+berasal dari repositori sumber publik asli dan commit yang dipatok.
+
+## Status tidak resmi
+
+Ini adalah proyek komunitas tidak resmi. Proyek ini tidak berafiliasi dengan, tidak didukung
+oleh, dan tidak disponsori oleh DeepSeek. Nama dan merek DeepSeek adalah milik pemiliknya
+masing-masing.
+
+<!-- i18n-source-hash: 7eade86b77ef15788356facbffeb63a2a28b8d02c692912d0f5c8229f2c1162b -->

@@ -5,12 +5,13 @@
 > **Inoffizielles Community-Projekt. Nicht mit DeepSeek verbunden, nicht von DeepSeek unterstützt oder gesponsert.**
 > DeepSeek-Namen und -Marken gehören ihren jeweiligen Eigentümern.
 
-Diese Seite dokumentiert die veröffentlichte CLI genau so, wie sie sich in Version `1.0.0`
+Diese Seite dokumentiert die veröffentlichte CLI genau so, wie sie sich in Version `1.0.1`
 verhält. Jede Synopse und jedes Flag unten stammt aus der eigenen `--help`-Ausgabe des
-veröffentlichten Befehls; nichts hier beschreibt unveröffentlichtes Verhalten. Die CLI wird aus
-privatem Quellcode gepflegt und als das scope-gebundene Paket
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) auf npm
-veröffentlicht.
+veröffentlichten Befehls; nichts hier beschreibt unveröffentlichtes Verhalten. Die CLI wird in
+diesem Repository unter [`cli/`](../../cli) entwickelt und als
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) auf npm veröffentlicht,
+mit einer Provenance-Attestierung, die jeden Build an den Commit und den Workflow-Lauf bindet,
+der ihn erzeugt hat.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -107,9 +108,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Nicht in der veröffentlichten `1.0.0` enthalten.** `discover` erscheint in `1.0.0`; jeder
-> andere Befehl auf dieser Seite funktioniert mit der aktuell auf npm veröffentlichten Version.
-> Das Ausführen gegen `@1.0.0` schlägt mit einem unbekannten Befehl fehl.
+> `discover` erscheint in `1.0.0`, dem ersten Release unter diesem Paketnamen.
 
 Durchsucht zunächst den kuratierten Katalog, dann — sofern nicht `--offline` übergeben wird —
 das Live-GitHub-Topic `dsh-plugin`, sodass ein Plugin, das noch nicht eingereicht wurde,
@@ -227,4 +226,4 @@ Commit — Maintainer wenden diese separaten Provenienz-Gates vor jedem Merge an
 beschrieben in [CONTRIBUTING.md](../../CONTRIBUTING.md) und
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

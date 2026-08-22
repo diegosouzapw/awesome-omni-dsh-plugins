@@ -50,7 +50,7 @@
 
 ## YAML 與結構描述(schema)規則
 
-建立 `catalog/plugins/<plugin-id>.yaml` 檔案,並對照 [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) 進行驗證。該結構描述檔案是欄位名稱與允許值的唯一真實來源;[docs/CATEGORIES.md](../../docs/CATEGORIES.md) 定義了如何選擇唯一的 artifact 種類、主要分類、標籤與儲存庫範圍。
+建立 `catalog/plugins/<plugin-id>.yaml` 檔案,並對照 [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) 進行驗證。`id` 必須等於檔案的基本檔名,且必須以你的命名空間開頭:將你的 `creator.github` 帳號轉為小寫(任何不屬於 `[a-z0-9]` 的連續字元都會合併為單一 `-`)後接上 `-`,例如帳號 `Some-Creator` 對應的 ID 前綴會是 `some-creator-`。目錄驗證會同時強制檢查這兩項規則。該結構描述檔案是欄位名稱與允許值的唯一真實來源;[docs/CATEGORIES.md](../../docs/CATEGORIES.md) 定義了如何選擇唯一的 artifact 種類、主要分類、標籤與儲存庫範圍。
 
 npm 描述子必須包含有效的套件名稱與確切版本。公開結構描述會拒絕形似選項參數的值與無邊界的值,但不會重新實作 SemVer 或 SRI 的驗證邏輯:目錄驗證必須解析版本、要求確切的 SemVer,並將任何完整性(integrity)值解析為有效的 SHA-512 SRI。來源描述子綁定於 `source.repository`、`source.commit` 與 `source.subpath`,不會重複儲存可變的來源值。
 
@@ -142,4 +142,4 @@ npx omni-dsh-plugins catalog github-forms-check .
 
 發布文件與目錄描述僅提供英文版本。涵蓋 43 種語言的推廣計畫仍是 MVP 之後的待辦事項;請勿新增空的語言文件或自動大量翻譯。
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

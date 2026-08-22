@@ -7,9 +7,9 @@
 
 Denne side dokumenterer det udgivne CLI præcis, som det opfører sig i version `1.0.1`. Hver
 synopsis og flag nedenfor stammer fra den udgivne kommandos egen `--help`-output; intet her
-beskriver ikke-udgivet adfærd. CLI'et vedligeholdes fra privat kildekode og udgives til npm som
-den scopede pakke
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+beskriver ikke-udgivet adfærd. CLI'et udvikles i dette repository under [`cli/`](../../cli) og
+udgives til npm som [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) med en
+proveniensattest, der binder hvert build til det commit og det workflow-run, der producerede det.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -104,9 +104,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Ikke i den udgivne `1.0.0`.** `discover` udgives i `1.0.0`; alle andre kommandoer på denne
-> side virker med den version, der aktuelt er på npm. Kører du den mod `@1.0.0`, fejler den med
-> en ukendt kommando.
+> `discover` følger med i `1.0.0`, den første udgivelse under dette pakkenavn.
 
 Søger først i det kuraterede katalog, og derefter — medmindre `--offline` angives — i det aktive
 GitHub-emne `dsh-plugin`, så en plugin, der endnu ikke er blevet indsendt, stadig kan findes.
@@ -220,4 +218,4 @@ identiteten af et fjernrepository, skaberens ejerskab, eller beviser ved den fas
 vedligeholdere anvender disse separate proveniens-gates før enhver merge, som beskrevet i
 [CONTRIBUTING.md](../../CONTRIBUTING.md) og [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

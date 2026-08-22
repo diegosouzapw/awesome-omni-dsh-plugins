@@ -216,4 +216,4 @@ npx omni-dsh-plugins catalog github-forms-check .
 출시 문서와 카탈로그 설명은 영어 전용입니다. 43개 로케일 전개는 MVP 이후 백로그 항목으로
 남아 있습니다; 빈 로케일 문서나 자동 대량 번역을 추가하지 마세요.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

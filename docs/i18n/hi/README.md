@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">वेबसाइट पर हर प्लगइन ब्राउज़, खोज और इंस्टॉल करें →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -84,14 +84,14 @@
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | टेक्स्ट-ओनली LLM के लिए प्लग-इन विज़न, मुफ़्त Antigravity CLI द्वारा संचालित |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH वेब प्लगइन: एक VSCode-जैसी दाईं साइडबार (एक्सप्लोरर / एडिटर / टर्मिनल / git / ब्राउज़र), प्रति… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | टेक्स्ट-ओनली DeepSeek Harness एजेंटों के लिए आंखें: बिल्ट-इन मुफ़्त विज़न चेन (बिना key के) + पिक्सेल-स्तरीय विज़न टूल… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit के लिए DeepSeek Harness-नेटिव इंटीग्रेशन: इमेज Q&A, OCR, ग्राउंडिंग, UI रिस्टोरेशन,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation प्लगइन: स्थानीयकृत चीनी पोर्टल विज्ञापन और अंग्रेज़ी स्कैम-ऐड पैरोडी, नकली पॉप-अप के साथ, ए… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness के लिए GenUI: dsh-ui के ज़रिए असिस्टेंट के जवाबों में इनलाइन रेंडर होने वाले इंटरैक्टिव UI कॉम्पोनेंट… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: आधिकारिक DeepSeek Harness के लिए एक इंटरैक्टिव टर्मिनल UI प्लगइन — स्ट्रीमिंग… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness के लिए इनलाइन विज़ुअलाइज़ेशन: एक visualize टूल और बंडल की गई स्किल मॉडल को रेंडर करने देती है… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness के लिए एक एनीमे खोज प्लगइन: anime_find_search टूल Mikan, AniBT और… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH अंडू/रोलबैक सिस्टम: बदलाव पर कॉन्फ़िग फ़ाइलों का स्नैपशॉट लेता है, WebUI से या… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | पोर्ट किए गए Ink कोर पर बना, DeepSeek Harness एजेंटों के लिए Claude Code जैसा इंटरैक्टिव TUI फ्रंट डोर। |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | टेक्स्ट-ओनली DeepSeek Harness एजेंटों के लिए आंखें: बिल्ट-इन मुफ़्त विज़न चेन (बिना key के) + पिक्सेल-स्तरीय विज़न टूल… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit के लिए DeepSeek Harness-नेटिव इंटीग्रेशन: इमेज Q&A, OCR, ग्राउंडिंग, UI रिस्टोरेशन,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation प्लगइन: स्थानीयकृत चीनी पोर्टल विज्ञापन और अंग्रेज़ी स्कैम-ऐड पैरोडी, नकली पॉप-अप के साथ, ए… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness के लिए GenUI: dsh-ui के ज़रिए असिस्टेंट के जवाबों में इनलाइन रेंडर होने वाले इंटरैक्टिव UI कॉम्पोनेंट… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: आधिकारिक DeepSeek Harness के लिए एक इंटरैक्टिव टर्मिनल UI प्लगइन — स्ट्रीमिंग… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness के लिए इनलाइन विज़ुअलाइज़ेशन: एक visualize टूल और बंडल की गई स्किल मॉडल को रेंडर करने देती है… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness के लिए एक एनीमे खोज प्लगइन: anime_find_search टूल Mikan, AniBT और… |
 
 <div align="center">
 
@@ -119,7 +119,7 @@
 
 ## कैटलॉग स्थिति
 
-**160 प्लगइन मर्ज किए गए।** हर प्लगइन एक-एक करके, मूल निर्माता की रिपॉज़िटरी से, एक पिन किए गए सोर्स कमिट और स्पष्ट श्रेय
+**483 प्लगइन मर्ज किए गए।** हर प्लगइन एक-एक करके, मूल निर्माता की रिपॉज़िटरी से, एक पिन किए गए सोर्स कमिट और स्पष्ट श्रेय
 के साथ, एक अलग से समीक्षा किए गए पुल रिक्वेस्ट के माध्यम से आता है।
 
 ## 🚀 CLI इंस्टॉल करें
@@ -128,12 +128,12 @@
 npx omni-dsh-plugins --help
 ```
 
-स्कोप्ड पैकेज `omni-dsh-plugins@1.0.1` के रूप में प्रकाशित किया गया है और ऊपर दिया गया कमांड आज का कैनोनिकल
+पैकेज `omni-dsh-plugins@1.0.1` के रूप में प्रकाशित किया गया है और ऊपर दिया गया कमांड आज का कैनोनिकल
 इनवोकेशन है; यहां कोई इंस्टॉलर स्क्रिप्ट होस्ट नहीं की गई है।
 
 ### आज ही CLI का उपयोग करें
 
-संस्करण 1.0.0 रीड-ओनली डिस्कवरी और वैलिडेशन कमांड के साथ-साथ सहमति-गेटेड इंस्टॉल कमांड भी प्रदान करता है। फ्लैग्स,
+संस्करण 1.0.1 रीड-ओनली डिस्कवरी और वैलिडेशन कमांड के साथ-साथ सहमति-गेटेड इंस्टॉल कमांड भी प्रदान करता है। फ्लैग्स,
 एग्ज़िट कोड और कोड-एग्ज़ीक्यूशन सहमति गेट सहित पूरा कमांड संदर्भ [docs/CLI.md](../../docs/CLI.md) में है।
 
 | कमांड                        | यह क्या करता है                                                        | क्या यह आपके सिस्टम को छूता है?                    |
@@ -325,4 +325,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

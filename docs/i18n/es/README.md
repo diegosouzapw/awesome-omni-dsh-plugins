@@ -16,7 +16,7 @@ Descubrimiento centrado en el creador e instalación con un solo comando para pl
   <a href="https://dsh-plugins.omniroute.online">Explora, busca e instala cualquier plugin en el sitio web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Cada nombre enlaza al repositorio del creador, fijado en el commit exacto que va
 
 | #   | Plugin | Creador | ★ | Categoría | Qué hace |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Visión conectable para LLM de solo texto, impulsada por la CLI gratuita de Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web de DSH: una barra lateral derecha al estilo VSCode (explorador / editor / terminal / git / navegador), aislada por… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ojos para agentes de DeepSeek Harness de solo texto: cadena de visión gratuita integrada (sin clave) + herramientas de visión a nivel de píxel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integración nativa de DeepSeek Harness para agent-vision-toolkit: preguntas y respuestas sobre imágenes, OCR, grounding, restauración de UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin de infestación publicitaria para DSH: anuncios de portales chinos localizados y parodia de anuncios estafa en inglés, con ventanas emergentes falsas, un… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI para DeepSeek Harness: componentes de UI interactivos renderizados en línea en las respuestas del asistente vía el dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: un plugin interactivo de interfaz de terminal para el DeepSeek Harness oficial — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualización en línea para DeepSeek Harness: una herramienta visualize más una skill incluida permiten que el modelo renderice… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Un plugin de búsqueda de anime para DeepSeek Harness: una herramienta anime_find_search agrega Mikan, AniBT y… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema de deshacer/revertir para DSH: toma instantáneas de los archivos de configuración al cambiar, deshace/rehace la última acción desde la WebUI o mediante… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -120,7 +120,7 @@ datos públicos del catálogo, el esquema y las políticas que consumen.
 
 ## Estado del catálogo
 
-**160 plugins integrados.** Cada plugin entra mediante una pull request revisada individualmente, de una en
+**483 plugins integrados.** Cada plugin entra mediante una pull request revisada individualmente, de una en
 una, desde el repositorio original del creador, con un commit de origen fijado y atribución explícita.
 
 ## 🚀 Instala la CLI
@@ -134,20 +134,20 @@ la invocación canónica hoy; aquí no se aloja ningún script de instalación.
 
 ### Usa la CLI hoy
 
-La versión 1.0.0 incluye comandos de descubrimiento y validación de solo lectura, además de
+La versión 1.0.1 incluye comandos de descubrimiento y validación de solo lectura, además de
 comandos de instalación protegidos por consentimiento. La referencia completa de comandos,
 incluidos los flags, los códigos de salida y la puerta de consentimiento para la ejecución de
 código, está en [docs/CLI.md](../../docs/CLI.md).
 
-| Command                        | Qué hace                                                        | ¿Afecta tu sistema?                    |
+| Comando                        | Qué hace                                                        | ¿Afecta tu sistema?                    |
 | ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
-| `catalog validate --catalog .` | Validate catalog YAML, schema and local semantics                   | No — read-only                          |
-| `search <query...>`            | Search public catalog fields locally                                | No — read-only                          |
-| `info <id>`                    | Show one public catalog entry                                       | No — read-only                          |
-| `list`                         | List catalog-managed installs without modifying profiles            | No — read-only                          |
-| `doctor`                       | Read-only Node, DSH, native Windows policy and catalog diagnostics  | No — read-only                          |
-| `add <id> --profile <name> --dry-run` | Show the verified install plan without files or subprocesses | No — dry-run                            |
-| `add <id> --profile <name> --allow-code-execution` | Install through official DSH delegation        | Yes — only with explicit consent flag   |
+| `catalog validate --catalog .` | Valida el YAML del catálogo, el schema y la semántica local          | No — solo lectura                       |
+| `search <query...>`            | Busca campos públicos del catálogo localmente                        | No — solo lectura                       |
+| `info <id>`                    | Muestra una entrada pública del catálogo                             | No — solo lectura                       |
+| `list`                         | Lista las instalaciones gestionadas por el catálogo sin modificar perfiles | No — solo lectura                  |
+| `doctor`                       | Diagnósticos de solo lectura de Node, DSH, política nativa de Windows y catálogo | No — solo lectura           |
+| `add <id> --profile <name> --dry-run` | Muestra el plan de instalación verificado sin archivos ni subprocesos | No — dry-run                     |
+| `add <id> --profile <name> --allow-code-execution` | Instala mediante delegación oficial a DSH          | Sí — solo con el flag de consentimiento explícito |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -342,4 +342,4 @@ Consulta [docs/CREDIT.md](../../docs/CREDIT.md) y [docs/UNOFFICIAL.md](../../doc
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

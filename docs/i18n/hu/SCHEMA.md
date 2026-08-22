@@ -50,7 +50,11 @@ Konstans `1`. A nyilvános séma 1-es verzióját azonosítja; bármely más ér
 
 String, amely megfelel a `^[a-z0-9]+(?:-[a-z0-9]+)*$` mintának — kisbetűs kebab-case, kezdő/záró
 vagy dupla kötőjelek nélkül. A [CONTRIBUTING.md](../../CONTRIBUTING.md) szerint a bejegyzés
-fájljának `catalog/plugins/<id>.yaml` néven kell szerepelnie, az azonos értékkel.
+fájljának `catalog/plugins/<id>.yaml` néven kell szerepelnie, az azonos értékkel; a validáló
+elutasítja az eltérést (`id-filename-mismatch`). Az ID-nak az alkotó névterével is kell
+kezdődnie: a `creator.github` handle kisbetűsített formájával, ahol az `[a-z0-9]`-on kívüli
+karakterek minden sorozata egyetlen `-`-ba vonódik össze, majd egy `-`-lel folytatva
+(`id-creator-prefix`).
 
 ### `name`
 
@@ -112,7 +116,7 @@ Objektum pontosan négy kötelező tulajdonsággal:
 | `commit`           | string           | Teljes, 40 karakteres hexadecimális commit-OID                          |
 
 A katalógus-validációnak fel kell oldania a `repositoryNodeId`-t, és el kell utasítania a
-repository-URL-eltérést — ez a feloldás mantenedor-oldali kapu, nem része a helyi strukturális
+repository-URL-eltérést — ez a feloldás karbantartói oldali kapu, nem része a helyi strukturális
 ellenőrzésnek.
 
 ### `creator`
@@ -232,6 +236,6 @@ A séma szándékosan helyi és strukturális. **Nem** ellenőrzi, hogy a reposi
 node-ID megfelel-e az URL-nek, hogy a bizonyíték-útvonalak léteznek-e a rögzített commiton, hogy
 a csillagszám pontos-e, vagy hogy az alkotó a forrás tulajdonosa-e. Ezek az ellenőrzések a
 [CONTRIBUTING.md](../../CONTRIBUTING.md) és a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)
-fájlban leírt mantenedor-átvizsgálási kapukhoz tartoznak.
+fájlban leírt karbantartói átvizsgálási kapukhoz tartoznak.
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

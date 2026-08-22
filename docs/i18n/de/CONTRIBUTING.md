@@ -91,8 +91,12 @@ oder andere Geheimnisse ein.
 ## YAML- und Schema-Regeln
 
 Erstelle `catalog/plugins/<plugin-id>.yaml` und validiere sie gegen
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Das Schema ist die
-maßgebliche Quelle für Feldnamen und erlaubte Werte; [docs/CATEGORIES.md](../../docs/CATEGORIES.md)
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Die `id` muss dem
+Basisnamen der Datei entsprechen und mit deinem Namespace beginnen: deinem
+`creator.github`-Handle in Kleinbuchstaben (jede Folge von Zeichen außerhalb von `[a-z0-9]`
+wird zu einem einzelnen `-`), gefolgt von `-` — zum Beispiel `some-creator-my-plugin` für das
+Handle `Some-Creator`. Die Katalogvalidierung erzwingt beides. Das Schema ist die maßgebliche
+Quelle für Feldnamen und erlaubte Werte; [docs/CATEGORIES.md](../../docs/CATEGORIES.md)
 definiert, wie der einzelne Artefakt-`kind`, die primäre Kategorie, die Tags und der
 Repository-Scope gewählt werden.
 
@@ -253,4 +257,4 @@ Launch-Dokumentation und Katalogbeschreibungen sind ausschließlich auf Englisch
 für 43 Locales bleibt ein Post-MVP-Backlog-Punkt; füge keine leeren Locale-Dokumente oder
 automatischen Massenübersetzungen hinzu.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

@@ -1,6 +1,6 @@
 # Osallistuminen
 
-> 🌐 [English](../../CONTRIBUTING.md) · **Suomi**
+> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei ole DeepSeekin tytäryhtiö, hyväksymä tai sponsoroima.**
 > DeepSeekin nimet ja tavaramerkit kuuluvat niiden omistajille.
@@ -87,8 +87,12 @@ lähdekoodia tai muita salaisuuksia.
 ## YAML- ja schema-säännöt
 
 Luo `catalog/plugins/<plugin-id>.yaml` ja validoi se schemaa
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) vasten. Schema on totuuden lähde
-kenttänimille ja sallituille arvoille; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) määrittää,
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) vasten. `id`:n on oltava sama kuin
+tiedoston perusnimi, ja sen on alettava nimiavaruudellasi: pienaakkosin kirjoitettu
+`creator.github`-tunnuksesi (mikä tahansa merkkijakso `[a-z0-9]`-joukon ulkopuolelta muuttuu
+yksittäiseksi `-`-merkiksi), jota seuraa `-`, esimerkiksi `some-creator-my-plugin` tunnukselle
+`Some-Creator`. Luettelon validointi valvoo molempia. Schema on totuuden lähde kenttänimille ja
+sallituille arvoille; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) määrittää,
 miten valitaan ainoa artefaktin kind, ensisijainen kategoria, tagit ja repositorion laajuus.
 
 npm-kuvauksen on sisällettävä kelvollinen paketin nimi ja tarkka versio. Julkinen schema hylkää
@@ -104,7 +108,7 @@ tukee sitä. Lähetyksen validointi ei saa kutsua asenninta tai liitännäisen e
 <!-- catalog-validation:local-structure-and-semantics-only -->
 
 `catalog validate` on paikallinen, vain luku -tyyppinen rakenteellinen ja semanttinen tarkistus.
-Se jäsentää turvallista YAML:ia, validoi julkisen schemat, jäsentää SPDX-lausekkeet, vaatii tarkan
+Se jäsentää turvallista YAML:ia, validoi julkisen skeeman, jäsentää SPDX-lausekkeet, vaatii tarkan
 SemVerin ja kelvollisen SHA-512 SRI:n, ja hylkää päällekkäiset ID:t sekä kanoniset
 repositorion-solmu-plus-alipolku-avaimet. Se ei ota yhteyttä GitHubiin, ei selvitä repositorion
 identiteettiä eikä tarkista todistepolkuja kiinnitetyssä commitissa.
@@ -241,4 +245,4 @@ Julkaisudokumentaatio ja luettelon kuvaukset ovat vain englanniksi. 43 kielialue
 edelleen MVP:n jälkeinen backlog-kohta; älä lisää tyhjiä kielialuedokumentteja äläkä automaattisia
 massakäännöksiä.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

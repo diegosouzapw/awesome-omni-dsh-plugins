@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">웹사이트에서 모든 플러그인을 둘러보고, 검색하고, 설치하세요 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,16 +80,16 @@
 
 | #   | 플러그인 | 크리에이터 | ★ | 카테고리 | 하는 일 |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | 무료 Antigravity CLI로 구동되는, 텍스트 전용 LLM을 위한 플러그인형 비전 |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH 웹 플러그인: VSCode 스타일의 오른쪽 사이드바(탐색기 / 에디터 / 터미널 / git / 브라우저)를 제공하며, …별로 격리… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | 텍스트 전용 DeepSeek Harness 에이전트를 위한 눈: 내장된 무료 비전 체인(키 불필요) + 픽셀 단위 비전 도구… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit을 위한 DeepSeek Harness 네이티브 통합: 이미지 Q&A, OCR, 그라운딩, UI 복원,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH 광고 침입 플러그인: 현지화된 중국 포털 광고와 영어 사기 광고 패러디, 가짜 팝업, 그리고… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness를 위한 GenUI: dsh-ui… 를 통해 어시스턴트 답변 안에 인라인으로 렌더링되는 인터랙티브 UI 컴포넌트 |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: 공식 DeepSeek Harness를 위한 인터랙티브 터미널 UI 플러그인 — 스트리밍… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness를 위한 인라인 시각화: visualize 도구와 함께 번들된 skill이 모델로 하여금 …을 렌더링할 수 있게 함 |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness를 위한 애니메이션 검색 플러그인: anime_find_search 도구가 Mikan, AniBT, 그리고… 를 집계 |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH undo/rollback 시스템: 변경 시 설정 파일을 스냅샷하고, WebUI에서 또는 …을 통해 마지막 작업을 undo/redo |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -113,7 +113,7 @@
 
 ## 카탈로그 현황
 
-**160개 플러그인 병합 완료.** 모든 플러그인은 고정된 소스 커밋과 명시적인 크레딧과 함께, 원 크리에이터의 저장소로부터 한 번에 하나씩 개별적으로 검토된 풀 리퀘스트를 통해 등록됩니다.
+**483개 플러그인 병합 완료.** 모든 플러그인은 원 크리에이터의 저장소로부터, 고정된 소스 커밋과 명시적인 출처 표시와 함께, 한 번에 하나씩 개별적으로 검토된 풀 리퀘스트를 통해 등록됩니다.
 
 ## 🚀 CLI 설치
 
@@ -125,7 +125,7 @@ npx omni-dsh-plugins --help
 
 ### 지금 CLI 사용하기
 
-버전 1.0.0은 읽기 전용 발견 및 검증 명령어와 함께, 동의가 필요한 설치 명령어를 제공합니다. 플래그, 종료 코드, 코드 실행 동의 게이트를 포함한 전체 명령어 참조는 [docs/CLI.md](../../docs/CLI.md)에 있습니다.
+버전 1.0.1은 읽기 전용 발견 및 검증 명령어와 함께, 동의가 필요한 설치 명령어를 제공합니다. 플래그, 종료 코드, 코드 실행 동의 게이트를 포함한 전체 명령어 참조는 [docs/CLI.md](../../docs/CLI.md)에 있습니다.
 
 | 명령어                        | 하는 일                                                        | 시스템에 영향을 주나요?                    |
 | ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
@@ -287,4 +287,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

@@ -46,7 +46,10 @@
 ### `id`
 
 匹配 `^[a-z0-9]+(?:-[a-z0-9]+)*$` 的字符串 — 小写短横线命名,不能有前导/尾随连字符或双连字符。根据
-[CONTRIBUTING.md](../../CONTRIBUTING.md),条目文件必须以相同的值命名为 `catalog/plugins/<id>.yaml`。
+[CONTRIBUTING.md](../../CONTRIBUTING.md),条目文件必须以相同的值命名为 `catalog/plugins/<id>.yaml`;
+校验器会拒绝不一致的情况(`id-filename-mismatch`)。该 ID 还必须以创作者的命名空间开头:即将
+`creator.github` 用户名转为小写(任何一串不在 `[a-z0-9]` 范围内的字符会被合并为一个 `-`)后再加上
+`-`(`id-creator-prefix`)。
 
 ### `name`
 
@@ -217,5 +220,4 @@ source 描述符刻意不存储其他任何内容:仓库、提交和子路径均
 [CONTRIBUTING.md](../../CONTRIBUTING.md) 和 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) 中所述的
 维护者审查门禁。
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
-
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
