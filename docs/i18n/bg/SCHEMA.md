@@ -51,7 +51,10 @@
 
 Низ, съвпадащ с `^[a-z0-9]+(?:-[a-z0-9]+)*$` — малки букви и kebab-case, без водещи/завършващи
 или двойни тирета. Съгласно [CONTRIBUTING.md](../../CONTRIBUTING.md) файлът на записа трябва да
-се казва `catalog/plugins/<id>.yaml` с идентичната стойност.
+се казва `catalog/plugins/<id>.yaml` с идентичната стойност; валидаторът отхвърля несъответствие
+(`id-filename-mismatch`). ID-то трябва също да започва с пространството от имена (namespace) на
+създателя: `creator.github` handle-ът с малки букви, като всяка поредица от символи извън
+`[a-z0-9]` се свива до едно `-`, последвано от `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -233,4 +236,4 @@ commit, дали броят на звездите е точен, или дали
 принадлежат на gate-овете за рецензия на поддръжниците, описани в
 [CONTRIBUTING.md](../../CONTRIBUTING.md) и [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

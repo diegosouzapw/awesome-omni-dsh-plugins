@@ -50,7 +50,10 @@ Constante `1`. Identifica la versión 1 del schema público; cualquier otro valo
 
 Cadena que coincide con `^[a-z0-9]+(?:-[a-z0-9]+)*$` — kebab-case minúsculo, sin guiones al
 inicio/final ni dobles. Según [CONTRIBUTING.md](../../CONTRIBUTING.md), el archivo de la entrada
-debe llamarse `catalog/plugins/<id>.yaml` con el valor idéntico.
+debe llamarse `catalog/plugins/<id>.yaml` con el valor idéntico; el validador rechaza una
+discrepancia (`id-filename-mismatch`). El ID también debe comenzar con el namespace del creador:
+el handle `creator.github` en minúsculas, con cada secuencia de caracteres fuera de `[a-z0-9]`
+colapsada en un único `-`, seguido de `-` (`id-creator-prefix`).
 
 ### `name`
 
@@ -232,4 +235,4 @@ conteo de estrellas sea preciso, ni que el creador sea dueño de la fuente. Esas
 pertenecen a los gates de revisión de los mantenedores descritos en
 [CONTRIBUTING.md](../../CONTRIBUTING.md) y [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

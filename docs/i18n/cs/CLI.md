@@ -5,11 +5,11 @@
 > **Neoficiální komunitní projekt. Není přidružen k DeepSeek, DeepSeek jej neschvaluje ani nesponzoruje.**
 > Názvy a značky DeepSeek náleží jejich příslušným vlastníkům.
 
-Tato stránka dokumentuje publikované CLI přesně tak, jak se chová ve verzi `1.0.0`. Každá
+Tato stránka dokumentuje publikované CLI přesně tak, jak se chová ve verzi `1.0.1`. Každá
 synopse a přepínač níže pochází přímo z výstupu `--help` publikovaného příkazu; nic zde nepopisuje
-nevydané chování. CLI je udržováno ze soukromého zdrojového kódu a vydáváno do npm jako balíček
-se scope
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+nevydané chování. CLI je vyvíjeno v tomto repozitáři pod [`cli/`](../../cli) a vydáváno do npm
+jako [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), s attestací původu
+(provenance), která každé sestavení váže na commit a běh workflow, které jej vytvořily.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -103,9 +103,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Není součástí publikované verze `1.0.0`.** `discover` je vydáno ve verzi `1.0.0`; každý
-> další příkaz na této stránce funguje s verzí aktuálně dostupnou na npm. Spuštění proti
-> `@1.0.0` selže s hlášením o neznámém příkazu.
+> `discover` je dodáváno od verze `1.0.0`, prvního vydání pod tímto názvem balíčku.
 
 Nejprve prohledá kurátorovaný katalog, poté — pokud není zadáno `--offline` — živé téma
 (topic) `dsh-plugin` na GitHubu, takže plugin, který ještě nebyl podán, je stále dohledatelný.
@@ -220,4 +218,4 @@ identitu vzdáleného repozitáře, vlastnictví tvůrce ani důkaz ve fixované
 uplatňují tyto samostatné brány pro provenance před jakýmkoli sloučením, jak je popsáno v
 [CONTRIBUTING.md](../../CONTRIBUTING.md) a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

@@ -5,7 +5,7 @@
 > **非官方社区项目,与 DeepSeek 无关联、未经其认可,也未获其赞助。**
 > DeepSeek 的名称与标识归其各自所有者所有。
 
-本页记录已发布 CLI 在 `1.0.0` 版本中的确切行为。下文的每一条命令概要和参数都来自已发布命令自身的 `--help` 输出;此处不描述任何尚未发布的行为。该 CLI 从私有源代码维护,并作为带作用域的软件包 [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) 发布到 npm。
+本页记录已发布 CLI 在 `1.0.1` 版本中的确切行为。下文的每一条命令概要和参数都来自已发布命令自身的 `--help` 输出;此处不描述任何尚未发布的行为。该 CLI 在本仓库的 [`cli/`](../../cli) 目录下开发,并作为 [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) 发布到 npm,并附带溯源证明(provenance attestation),将每次构建绑定到产生它的提交和工作流运行。
 
 ```bash
 npx omni-dsh-plugins --help
@@ -88,8 +88,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **未包含在已发布的 `1.0.0` 中。** `discover` 随 `1.0.0` 发布;本页其他所有命令都适用于当前发布到
-> npm 上的版本。对 `@1.0.0` 运行该命令会因未知命令而失败。
+> `discover` 随 `1.0.0` 发布,这是使用该软件包名称的首个版本。
 
 它会先搜索经过策展的目录,然后——除非传入 `--offline`——再搜索实时的 GitHub `dsh-plugin` 主题
 (topic),因此即使某个插件尚未提交,也仍然可以被找到。目录结果携带目录持有的证据(固定提交、创作
@@ -198,4 +197,4 @@ catalog [ok]: catalog is valid and empty
 固定提交处的证据——维护者会在任何合并之前应用那些单独的溯源门禁,详见
 [CONTRIBUTING.md](../../CONTRIBUTING.md) 和 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)。
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

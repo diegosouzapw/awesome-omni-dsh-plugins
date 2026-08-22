@@ -5,11 +5,12 @@
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.
 
-Ez az oldal a publikált CLI-t dokumentálja pontosan úgy, ahogyan a `1.0.0` verzióban viselkedik.
+Ez az oldal a publikált CLI-t dokumentálja pontosan úgy, ahogyan az `1.0.1` verzióban viselkedik.
 Minden alábbi szinopszis és flag a publikált parancs saját `--help` kimenetéből származik; semmi
-itt nem ír le meg nem jelent viselkedést. A CLI privát forrásból van karbantartva, és az npm-re
-`omni-dsh-plugins` scope-olt csomagként kerül kiadásra
-([`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins)).
+itt nem ír le meg nem jelent viselkedést. A CLI fejlesztése ebben a repository-ban történik, a
+[`cli/`](../../cli) alatt, és az npm-re kerül kiadásra
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) néven, provenance-igazolással,
+amely minden buildet ahhoz a commithoz és workflow-futtatáshoz köt, amely létrehozta.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -109,9 +110,7 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Nincs benne a publikált `1.0.0`-ban.** A `discover` az `1.0.0`-ban jelenik meg; az oldal
-> minden más parancsa az npm-en jelenleg elérhető verzióval működik. Ha a `@1.0.0` ellen
-> futtatod, ismeretlen paranccsal hibázik.
+> A `discover` az `1.0.0`-ban jelenik meg, amely az első kiadás ezen a csomagnéven.
 
 Először a kurált katalógusban keres, majd — hacsak nem adod meg a `--offline` kapcsolót — az
 élő GitHub `dsh-plugin` topicon, így egy még be nem nyújtott bővítmény is megtalálható. A
@@ -223,8 +222,8 @@ catalog [ok]: catalog is valid and empty
 
 Egy zöld `catalog validate` futás csak a struktúrát és a helyi szemantikát erősíti meg. Nem
 bizonyítja a távoli repository-identitást, az alkotói tulajdonjogot, vagy a bizonyítékot a
-rögzített commiton — a mantenedorok ezeket a külön proveniencia-kapukat alkalmazzák bármely
+rögzített commiton — a karbantartók ezeket a külön proveniencia-kapukat alkalmazzák bármely
 egyesítés előtt, ahogyan az a [CONTRIBUTING.md](../../CONTRIBUTING.md) és a
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) fájlban le van írva.
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->

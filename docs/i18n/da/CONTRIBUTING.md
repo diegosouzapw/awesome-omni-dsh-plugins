@@ -84,8 +84,11 @@ eller andre hemmeligheder.
 ## Regler for YAML og schema
 
 Opret `catalog/plugins/<plugin-id>.yaml`, og valider den mod
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Schemaet er den endegyldige
-kilde for feltnavne og tilladte værdier; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definerer,
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). `id` skal være identisk med
+filens basisnavn og skal starte med dit namespace: dit `creator.github`-handle med små bogstaver
+(enhver følge af tegn uden for `[a-z0-9]` bliver til en enkelt `-`) efterfulgt af `-`, for
+eksempel `some-creator-my-plugin` for handlet `Some-Creator`. Katalogvalideringen håndhæver begge
+dele. Schemaet er den endegyldige kilde for feltnavne og tilladte værdier; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definerer,
 hvordan man vælger den ene artefakt-kind, primære kategori, tags og repository-scope.
 
 En npm-deskriptor skal indeholde et gyldigt pakkenavn og en præcis version. Det offentlige schema
@@ -234,4 +237,4 @@ Lanceringsdokumentation og katalogbeskrivelser er udelukkende på engelsk. Udrul
 43 lokaliteter forbliver et backlog-emne efter MVP; tilføj ikke tomme lokalitetsdokumenter eller
 automatiske masseoversættelser.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

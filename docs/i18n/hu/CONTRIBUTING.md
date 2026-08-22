@@ -87,10 +87,13 @@ forráskódot vagy más titkokat.
 ## YAML- és sémaszabályok
 
 Hozd létre a `catalog/plugins/<plugin-id>.yaml` fájlt, és validáld a
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) séma ellen. A séma a
-mezőnevek és a megengedett értékek hiteles forrása; a
-[docs/CATEGORIES.md](../../docs/CATEGORIES.md) határozza meg, hogyan válaszd ki az egyetlen
-artefaktum-`kind`-ot, az elsődleges kategóriát, a címkéket és a repository-hatókört.
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) séma ellen. Az `id`-nak meg kell
+egyeznie a fájl alapnevével, és a saját névtereddel kell kezdődnie: a `creator.github` handle-ed
+kisbetűsített formájával (az `[a-z0-9]`-on kívüli karakterek bármely sorozata egyetlen `-`-lesz),
+majd egy `-`-lel folytatva; például `some-creator-my-plugin` a `Some-Creator` handle esetén. A
+katalógusvalidáció mindkettőt kikényszeríti. A séma a mezőnevek és a megengedett értékek hiteles
+forrása; a [docs/CATEGORIES.md](../../docs/CATEGORIES.md) határozza meg, hogyan válaszd ki az
+egyetlen artefaktum-`kind`-ot, az elsődleges kategóriát, a címkéket és a repository-hatókört.
 
 Egy npm-deszkriptornak érvényes csomagnevet és pontos verziót kell tartalmaznia. A nyilvános séma
 elutasítja az opció-szerű és nem korlátozott értékeket, de nem valósítja meg újra a SemVert vagy
@@ -245,4 +248,4 @@ Az indítási dokumentáció és a katalógusleírások kizárólag angol nyelv�
 MVP utáni backlog-elem marad; ne adj hozzá üres locale-dokumentumokat vagy automatikus,
 tömeges fordításokat.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

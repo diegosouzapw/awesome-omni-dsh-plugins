@@ -16,7 +16,7 @@ Ugunduzi unaotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi
   <a href="https://dsh-plugins.omniroute.online">Vinjari, tafuta na sakinisha kila programu-jalizi kwenye tovuti →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ na hazina ya muumba, iliyobandikwa kwenye commit halisi ambayo katalogi ilithibi
 
 | #   | Programu-jalizi | Muumba | ★ | Jamii | Inafanya nini |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Uwezo wa kuona kwa programu-jalizi kwa LLM za maandishi pekee, ukiendeshwa na Antigravity CLI ya bure |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Programu-jalizi ya wavuti ya DSH: upau wa pembeni wa kulia unaofanana na VSCode (explorer / editor / terminal / git / kivinjari), uliotengwa kwa kila… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Macho kwa mawakala wa DeepSeek Harness wa maandishi pekee: mnyororo wa kuona wa bure uliojengwa ndani (bila ufunguo) + zana za kuona za kiwango cha pikseli… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Muunganisho asilia wa DeepSeek Harness kwa agent-vision-toolkit: maswali na majibu ya picha, OCR, ugunduzi wa vitu, urejeshaji wa UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Programu-jalizi ya DSH ya kujaa matangazo: matangazo ya lango la Kichina yaliyorekebishwa kienyeji na mzaha wa matangazo ya udanganyifu kwa Kiingereza, yenye madirisha bandia ibukizi, na… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI kwa DeepSeek Harness: vipengele shirikishi vya UI vinavyoonyeshwa moja kwa moja ndani ya majibu ya msaidizi kupitia dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: programu-jalizi shirikishi ya UI ya terminal kwa DeepSeek Harness rasmi — mtiririko… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Uonyeshaji wa picha wa moja kwa moja kwa DeepSeek Harness: zana ya visualize pamoja na ujuzi uliojumuishwa huruhusu modeli kuonyesha… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Programu-jalizi ya kutafuta anime kwa DeepSeek Harness: zana ya anime_find_search inakusanya Mikan, AniBT na… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Mfumo wa kutendua/kurudisha wa DSH: hupiga picha ya faili za usanidi zinapobadilika, tendua/rudia kitendo cha mwisho kutoka WebUI au kwa… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -115,12 +115,12 @@ pull request moja iliyokaguliwa kibinafsi, na daima kinamtambua muumba wa asili 
 Hakuna kitu katika katalogi kinachozalishwa kutoka katalogi nyingine au orodha nyingine: kila kiingilio
 kimejengwa upya kutoka hazina ya muumba wa asili kwenye commit iliyobandikwa.
 
-Tovuti na CLI zinatunzwa kutoka kwa chanzo binafsi; hazina hii inabeba data ya katalogi ya umma,
-schema na sera ambazo zinatumia.
+Tovuti inatunzwa kutoka kwa chanzo binafsi. CLI inaishi hapa, katika hazina hii, chini ya [`cli/`](../../cli),
+na hazina hii inabeba data ya katalogi ya umma, schema na sera ambazo zote mbili zinatumia.
 
 ## Hali ya Katalogi
 
-**Programu-jalizi 160 zimeunganishwa.** Kila programu-jalizi inaingia kupitia pull request iliyokaguliwa
+**Programu-jalizi 483 zimeunganishwa.** Kila programu-jalizi inaingia kupitia pull request iliyokaguliwa
 kibinafsi, moja kwa wakati, kutoka hazina ya muumba wa asili, ikiwa na commit ya chanzo iliyobandikwa na
 utambuzi wa wazi.
 
@@ -130,12 +130,12 @@ utambuzi wa wazi.
 npx omni-dsh-plugins --help
 ```
 
-Kifurushi hiki chenye upeo kinachapishwa kama `omni-dsh-plugins@1.0.1` na amri iliyo hapo juu ndiyo
+Kifurushi hiki kinachapishwa kama `omni-dsh-plugins@1.0.1` na amri iliyo hapo juu ndiyo
 njia rasmi ya kuita leo; hakuna hati ya usakinishaji inayohifadhiwa hapa.
 
 ### Tumia CLI Leo
 
-Toleo la 1.0.0 linakuja na amri za ugunduzi na uthibitishaji za kusoma tu, pamoja na amri za usakinishaji
+Toleo la 1.0.1 linakuja na amri za ugunduzi na uthibitishaji za kusoma tu, pamoja na amri za usakinishaji
 zinazohitaji idhini. Marejeo kamili ya amri, ikiwa ni pamoja na bendera, misimbo ya kutoka na lango la
 idhini ya utekelezaji wa msimbo, yamo katika [docs/CLI.md](../../docs/CLI.md).
 
@@ -282,7 +282,7 @@ vitambulisho, maelezo ya mawasiliano binafsi au siri nyingine.
 
 ## 👩‍🎨 Waumba wa Programu-jalizi
 
-Katalogi hii ipo kwa sababu waumba hawa waliidhinisha programu-jalizi. Kila kiingilio kinamtambua muumba
+Katalogi hii ipo kwa sababu waumba hawa walizindua programu-jalizi. Kila kiingilio kinamtambua muumba
 wake na kinaunganisha nyuma kwenye hazina yao — daima.
 
 <a href="https://github.com/Nagi-ovo" title="@Nagi-ovo — dsh-visualize"><img src="https://github.com/Nagi-ovo.png?size=64" width="64" height="64" alt="@Nagi-ovo"/></a>
@@ -336,4 +336,4 @@ Angalia [docs/CREDIT.md](../../docs/CREDIT.md) na [docs/UNOFFICIAL.md](../../doc
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

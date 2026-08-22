@@ -226,4 +226,4 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 [CONTRIBUTING.md](../../CONTRIBUTING.md)와 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)에
 설명된 메인테이너 검토 게이트에 속합니다.
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

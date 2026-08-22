@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">เรียกดู ค้นหา และติดตั้งปลั๊กอินทั้งหมดได้ที่เว็บไซต์ →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -83,14 +83,14 @@
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | การมองเห็นแบบเสียบปลั๊กสำหรับ LLM ที่รองรับข้อความอย่างเดียว ขับเคลื่อนด้วย Antigravity CLI ฟรี |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | ปลั๊กอินเว็บของ DSH: แถบด้านข้างขวาสไตล์ VSCode (เอ็กซ์พลอเรอร์ / เอดิเตอร์ / เทอร์มินัล / git / เบราว์เซอร์) แยกอิสระต่อ… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | ดวงตาสำหรับเอเจนต์ DeepSeek Harness ที่รองรับข้อความอย่างเดียว: ห่วงโซ่การมองเห็นฟรีในตัว (ไม่ต้องใช้คีย์) + เครื่องมือมองเห็นระดับพิกเซล… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | การผสานรวมแบบเนทีฟกับ DeepSeek Harness สำหรับ agent-vision-toolkit: ถาม-ตอบภาพ, OCR, การระบุตำแหน่งวัตถุ, การกู้คืน UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | ปลั๊กอินจำลองโฆษณารบกวนสำหรับ DSH: โฆษณาพอร์ทัลจีนที่แปลเป็นภาษาท้องถิ่นและโฆษณาหลอกลวงภาษาอังกฤษแบบล้อเลียน พร้อมป๊อปอัปปลอม… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI สำหรับ DeepSeek Harness: คอมโพเนนต์ UI แบบโต้ตอบที่เรนเดอร์แบบอินไลน์ในคำตอบของผู้ช่วยผ่าน dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ปลั๊กอิน UI เทอร์มินัลแบบโต้ตอบสำหรับ DeepSeek Harness อย่างเป็นทางการ — สตรีมมิง… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | การแสดงผลแบบอินไลน์สำหรับ DeepSeek Harness: เครื่องมือ visualize พร้อมสกิลที่มาพร้อมให้โมเดลเรนเดอร์… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | ปลั๊กอินค้นหาอนิเมะสำหรับ DeepSeek Harness: เครื่องมือ anime_find_search รวบรวมข้อมูลจาก Mikan, AniBT และ… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | ระบบ undo/rollback ของ DSH: สแนปช็อตไฟล์คอนฟิกเมื่อมีการเปลี่ยนแปลง ทำ undo/redo การกระทำล่าสุดจาก WebUI หรือโดย… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | หน้าตา TUI แบบโต้ตอบสไตล์ Claude Code สำหรับเอเจนต์ DeepSeek Harness สร้างขึ้นบนแกน Ink ที่พอร์ตมา |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | ดวงตาสำหรับเอเจนต์ DeepSeek Harness ที่รองรับข้อความอย่างเดียว: ห่วงโซ่การมองเห็นฟรีในตัว (ไม่ต้องใช้คีย์) + เครื่องมือมองเห็นระดับพิกเซล… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | การผสานรวมแบบเนทีฟกับ DeepSeek Harness สำหรับ agent-vision-toolkit: ถาม-ตอบภาพ, OCR, การระบุตำแหน่งวัตถุ, การกู้คืน UI,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | ปลั๊กอินจำลองโฆษณารบกวนสำหรับ DSH: โฆษณาพอร์ทัลจีนที่แปลเป็นภาษาท้องถิ่นและโฆษณาหลอกลวงภาษาอังกฤษแบบล้อเลียน พร้อมป๊อปอัปปลอม… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI สำหรับ DeepSeek Harness: คอมโพเนนต์ UI แบบโต้ตอบที่เรนเดอร์แบบอินไลน์ในคำตอบของผู้ช่วยผ่าน dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ปลั๊กอิน UI เทอร์มินัลแบบโต้ตอบสำหรับ DeepSeek Harness อย่างเป็นทางการ — สตรีมมิง… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | การแสดงผลแบบอินไลน์สำหรับ DeepSeek Harness: เครื่องมือ visualize พร้อมสกิลที่มาพร้อมให้โมเดลเรนเดอร์… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | ปลั๊กอินค้นหาอนิเมะสำหรับ DeepSeek Harness: เครื่องมือ anime_find_search รวบรวมข้อมูลจาก Mikan, AniBT และ… |
 
 <div align="center">
 
@@ -117,7 +117,7 @@
 
 ## สถานะแคตตาล็อก
 
-**รวมปลั๊กอินแล้ว 160 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
+**รวมปลั๊กอินแล้ว 483 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
 พร้อมคอมมิตต้นทางที่ตรึงไว้และการให้เครดิตอย่างชัดเจน
 
 ## 🚀 ติดตั้ง CLI
@@ -126,12 +126,12 @@
 npx omni-dsh-plugins --help
 ```
 
-แพ็กเกจแบบ scoped นี้เผยแพร่ในชื่อ `omni-dsh-plugins@1.0.1` และคำสั่งด้านบนคือวิธีเรียกใช้มาตรฐานในปัจจุบัน
+แพ็กเกจนี้เผยแพร่ในชื่อ `omni-dsh-plugins@1.0.1` และคำสั่งด้านบนคือวิธีเรียกใช้มาตรฐานในปัจจุบัน
 ไม่มีสคริปต์ตัวติดตั้งใด ๆ ที่โฮสต์ไว้ที่นี่
 
 ### ใช้งาน CLI วันนี้
 
-เวอร์ชัน 1.0.0 มาพร้อมคำสั่งค้นพบและตรวจสอบแบบอ่านอย่างเดียว รวมถึงคำสั่งติดตั้งที่ต้องได้รับความยินยอมก่อน
+เวอร์ชัน 1.0.1 มาพร้อมคำสั่งค้นพบและตรวจสอบแบบอ่านอย่างเดียว รวมถึงคำสั่งติดตั้งที่ต้องได้รับความยินยอมก่อน
 คู่มืออ้างอิงคำสั่งฉบับเต็ม รวมทั้งแฟล็ก รหัสออก และขั้นตอนขอความยินยอมก่อนรันโค้ด อยู่ที่ [docs/CLI.md](../../docs/CLI.md)
 
 | คำสั่ง                        | สิ่งที่ทำได้                                                        | มีผลต่อระบบของคุณหรือไม่?                    |
@@ -323,4 +323,4 @@ README ฉบับนี้มีให้บริการ 43 ภาษาภ
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

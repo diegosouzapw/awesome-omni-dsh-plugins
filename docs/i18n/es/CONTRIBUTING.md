@@ -242,4 +242,4 @@ La documentación de lanzamiento y las descripciones del catálogo son exclusiva
 despliegue de 43 locales sigue siendo un elemento de backlog posterior al MVP; no agregue
 documentos de locale vacíos ni traducciones automáticas masivas.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

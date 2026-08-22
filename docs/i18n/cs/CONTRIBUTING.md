@@ -86,9 +86,13 @@ kód ani jiná tajemství.
 ## Pravidla YAML a schématu
 
 Vytvořte `catalog/plugins/<plugin-id>.yaml` a ověřte jej proti
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Schéma je zdrojem pravdy pro
-názvy polí a povolené hodnoty; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) definuje, jak
-zvolit jediný druh artefaktu (kind), primární kategorii, tagy a rozsah repozitáře.
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). Pole `id` se musí rovnat
+základnímu názvu (basename) souboru a musí začínat vaším jmenným prostorem (namespace): váš
+handle `creator.github` malými písmeny (libovolná posloupnost znaků mimo `[a-z0-9]` se stane
+jednou `-`) následovaným `-`, například `some-creator-my-plugin` pro handle `Some-Creator`.
+Validace katalogu vynucuje obojí. Schéma je zdrojem pravdy pro názvy polí a povolené hodnoty;
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md) definuje, jak zvolit jediný druh artefaktu
+(kind), primární kategorii, tagy a rozsah repozitáře.
 
 Deskriptor npm musí obsahovat platný název balíčku a přesnou verzi. Veřejné schéma odmítá
 hodnoty připomínající volby a neomezené hodnoty, ale neimplementuje znovu SemVer ani SRI:
@@ -235,4 +239,4 @@ Dokumentace k uvedení a popisy v katalogu jsou pouze v angličtině. Nasazení 
 zůstává položkou backlogu po MVP; nepřidávejte prázdné dokumenty pro locale ani automatické
 hromadné překlady.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

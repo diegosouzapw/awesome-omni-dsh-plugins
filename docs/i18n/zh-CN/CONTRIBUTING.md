@@ -50,7 +50,7 @@
 
 ## YAML 与模式(schema)规则
 
-创建 `catalog/plugins/<plugin-id>.yaml` 文件,并对照 [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) 进行校验。该模式文件是字段名称和允许取值的唯一真实来源;[docs/CATEGORIES.md](../../docs/CATEGORIES.md) 定义了如何选择唯一的制品种类、主分类、标签和仓库范围。
+创建 `catalog/plugins/<plugin-id>.yaml` 文件,并对照 [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) 进行校验。`id` 必须与文件的基础名(basename)相同,并且必须以你的命名空间开头:即你的 `creator.github` 用户名转为小写(任何一串不在 `[a-z0-9]` 范围内的字符会被合并为一个 `-`)后再加上 `-`,例如用户名 `Some-Creator` 对应的示例是 `some-creator-my-plugin`。目录校验会同时强制检查这两点。该模式文件是字段名称和允许取值的唯一真实来源;[docs/CATEGORIES.md](../../docs/CATEGORIES.md) 定义了如何选择唯一的制品种类、主分类、标签和仓库范围。
 
 npm 描述符必须包含有效的软件包名称和确切版本号。公开模式会拒绝形如选项参数的值和无边界的值,但不会重新实现 SemVer 或 SRI 的校验逻辑:目录校验必须解析版本号、要求确切的 SemVer,并将任何完整性(integrity)值解析为有效的 SHA-512 SRI。源描述符绑定到 `source.repository`、`source.commit` 和 `source.subpath`,不会重复存储可变的源信息。
 
@@ -142,5 +142,4 @@ npx omni-dsh-plugins catalog github-forms-check .
 
 发布文档和目录描述仅提供英文版本。覆盖 43 种语言的推广计划仍是 MVP 之后的待办事项;请勿添加空的语言文档或自动批量翻译。
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
-
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">વેબસાઇટ પર દરેક પ્લગિન બ્રાઉઝ, સર્ચ અને ઇન્સ્ટોલ કરો →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,18 +80,18 @@
 પેરેન્ટ પ્રોજેક્ટના નહીં ([રેન્કિંગ પ્રિડિકેટ](../../docs/RANKING.md)). દરેક નામ ક્રિએટરની
 રિપોઝીટરી સાથે લિંક થયેલ છે, જે કેટલોગે વેલિડેટ કરેલા ચોક્કસ કમિટ પર પિન થયેલ છે.
 
-| #   | Plugin | Creator | ★ | Category | તે શું કરે છે |
+| #   | Plugin | Creator | ★ | Category | What it does |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | ફ્રી Antigravity CLI દ્વારા સંચાલિત, ટેક્સ્ટ-ઓન્લી LLMs માટે પ્લગ-ઇન વિઝન |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH વેબ પ્લગિન: VSCode જેવી જમણી સાઇડબાર (એક્સપ્લોરર / એડિટર / ટર્મિનલ / git / બ્રાઉઝર), દરેક માટે અલગ… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | ટેક્સ્ટ-ઓન્લી DeepSeek Harness એજન્ટ્સ માટે આંખો: બિલ્ટ-ઇન ફ્રી વિઝન ચેઇન (કી વગર) + પિક્સેલ-લેવલ વિઝન ટૂલ્સ… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit માટે DeepSeek Harness-નેટિવ ઇન્ટિગ્રેશન: ઇમેજ Q&A, OCR, ગ્રાઉન્ડિંગ, UI રિસ્ટોરેશન,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH એડ-ઇન્ફેસ્ટેશન પ્લગિન: લોકલાઇઝ્ડ ચાઇનીઝ પોર્ટલ એડ્સ અને અંગ્રેજી સ્કેમ-એડ પેરોડી, નકલી પોપ-અપ્સ સાથે, એક… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness માટે GenUI: dsh-ui દ્વારા આસિસ્ટન્ટના જવાબોમાં ઇનલાઇન રેન્ડર થતા ઇન્ટરેક્ટિવ UI કમ્પોનન્ટ્સ… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: ઓફિશિયલ DeepSeek Harness માટે ઇન્ટરેક્ટિવ ટર્મિનલ UI પ્લગિન — સ્ટ્રીમિંગ… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness માટે ઇનલાઇન વિઝ્યુલાઇઝેશન: visualize ટૂલ અને બન્ડલ્ડ સ્કિલ મોડેલને રેન્ડર કરવા દે છે… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness માટે એનિમે સર્ચ પ્લગિન: anime_find_search ટૂલ Mikan, AniBT અને… ને એકત્રિત કરે છે |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH અન્ડુ/રોલબેક સિસ્ટમ: ફેરફાર પર કન્ફિગ ફાઇલોનો સ્નેપશોટ લે છે, WebUI અથવા બીજી રીતે છેલ્લી ક્રિયાને અન્ડુ/રીડુ કરો… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -101,7 +101,7 @@
 
 ## ઝલક
 
-| Surface     | તે શું છે                                                       | ક્યાં                                                                    |
+| સરફેસ     | તે શું છે                                                       | ક્યાં                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | **વેબસાઇટ** | સર્ચ અને રેન્કિંગ સાથે રેન્ડર થયેલ કેટલોગ બ્રાઉઝર                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
 | **કેટલોગ** | દરેક પ્લગિન માટે એક YAML ફાઇલ, એકમાત્ર સોર્સ ઓફ ટ્રુથ             | [`catalog/plugins/`](../../catalog/plugins)                                    |
@@ -115,12 +115,12 @@
 કેટલોગમાં કંઈ પણ બીજા કેટલોગ કે લિસ્ટમાંથી જનરેટ થયેલું નથી: દરેક એન્ટ્રી પિન કરેલા કમિટ પર
 મૂળ ક્રિએટર રિપોઝીટરીમાંથી ફરીથી બનાવવામાં આવે છે.
 
-વેબસાઇટ અને CLI ખાનગી સોર્સમાંથી જાળવવામાં આવે છે; આ રિપોઝીટરી પબ્લિક
-કેટલોગ ડેટા, સ્કીમા અને પોલિસીઓ ધરાવે છે જેનો તેઓ ઉપયોગ કરે છે.
+વેબસાઇટ ખાનગી સોર્સમાંથી જાળવવામાં આવે છે. CLI અહીં, [`cli/`](../../cli) હેઠળ છે, અને આ
+રિપોઝીટરી પબ્લિક કેટલોગ ડેટા, સ્કીમા અને પોલિસીઓ ધરાવે છે જેનો બંને ઉપયોગ કરે છે.
 
 ## કેટલોગ સ્ટેટસ
 
-**160 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
+**483 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
 મૂળ ક્રિએટર રિપોઝીટરીમાંથી, પિન કરેલા સોર્સ કમિટ અને સ્પષ્ટ
 એટ્રિબ્યુશન સાથે દાખલ થાય છે.
 
@@ -130,17 +130,17 @@
 npx omni-dsh-plugins --help
 ```
 
-સ્કોપ્ડ પેકેજ `omni-dsh-plugins@1.0.1` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
+પેકેજ `omni-dsh-plugins@1.0.1` તરીકે પ્રકાશિત થાય છે અને ઉપરનો કમાન્ડ આજે
 કેનોનિકલ ઇન્વોકેશન છે; અહીં કોઈ ઇન્સ્ટોલર સ્ક્રિપ્ટ હોસ્ટ કરવામાં આવી નથી.
 
 ### આજે CLI નો ઉપયોગ કરો
 
-વર્ઝન 1.0.0 રીડ-ઓન્લી ડિસ્કવરી અને વેલિડેશન કમાન્ડ્સ ઉપરાંત કન્સેન્ટ-ગેટેડ ઇન્સ્ટોલ
+વર્ઝન 1.0.1 રીડ-ઓન્લી ડિસ્કવરી અને વેલિડેશન કમાન્ડ્સ ઉપરાંત કન્સેન્ટ-ગેટેડ ઇન્સ્ટોલ
 કમાન્ડ્સ પ્રદાન કરે છે. ફ્લેગ્સ, એક્ઝિટ કોડ્સ અને કોડ-એક્ઝિક્યુશન
 કન્સેન્ટ ગેટ સહિતનો સંપૂર્ણ કમાન્ડ સંદર્ભ [docs/CLI.md](../../docs/CLI.md) માં છે.
 
-| Command                        | તે શું કરે છે                                                        | શું તે તમારી સિસ્ટમને સ્પર્શે છે?                    |
-| ------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
+| કમાન્ડ                        | તે શું કરે છે                                                        | શું તે તમારી સિસ્ટમને સ્પર્શે છે?                    |
+| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
 | `catalog validate --catalog .` | કેટલોગ YAML, સ્કીમા અને લોકલ સિમેન્ટિક્સ વેલિડેટ કરો                   | ના — રીડ-ઓન્લી                          |
 | `search <query...>`            | પબ્લિક કેટલોગ ફિલ્ડ્સ લોકલી સર્ચ કરો                                | ના — રીડ-ઓન્લી                          |
 | `info <id>`                    | એક પબ્લિક કેટલોગ એન્ટ્રી બતાવો                                       | ના — રીડ-ઓન્લી                          |
@@ -300,8 +300,8 @@ provenance:
 
 ## 📚 દસ્તાવેજીકરણ
 
-| Document                                     | તે શું આવરી લે છે                                                       |
-| --------------------------------------------- | ---------------------------------------------------------------------- |
+| દસ્તાવેજ                                     | તે શું આવરી લે છે                                                       |
+| -------------------------------------------- | -------------------------------------------------------------------- |
 | [CONTRIBUTING.md](../../CONTRIBUTING.md)           | સંપૂર્ણ યોગદાન કરાર: પુરાવો, YAML નિયમો, રિવ્યૂ ગેટ્સ    |
 | [SECURITY.md](../../SECURITY.md)                   | પ્લગિન કે કેટલોગની નબળાઈઓની જાણ કરવી; ગુપ્ત માહિતી પોલિસી           |
 | [docs/SCHEMA.md](../../docs/SCHEMA.md)             | `schemas/plugin.schema.yaml` માટે ફિલ્ડ-બાય-ફિલ્ડ સંદર્ભ             |
@@ -309,7 +309,7 @@ provenance:
 | [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | કેટલોગનું સંચાલન કેવી રીતે થાય છે: અગ્રતા, ગેટ્સ, દાવાઓ અને દૂર કરવું   |
 | [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | આર્ટિફેક્ટ પ્રકારો, પ્રાથમિક ક્ષમતા શ્રેણીઓ, ટૅગ્સ, રિપોઝીટરી સ્કોપ |
 | [docs/CREDIT.md](../../docs/CREDIT.md)             | ક્રિએટર ક્રેડિટ, PR અગ્રતા અને Git ઓળખ પોલિસી                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | પબ્લિક રેન્કિંગ પ્રિડિકેટ અને વેરિફિકેશન સ્ટેટ્સ                               |
+| [docs/RANKING.md](../../docs/RANKING.md)           | પબ્લિક રેન્કિંગ પ્રિડિકેટ અને વેરિફિકેશન સ્ટેટ્સ                  |
 | [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | બિનસત્તાવાર સ્ટેટસ અને ટ્રેડમાર્ક વલણ                               |
 
 ## 🌐 અનુવાદો
@@ -334,4 +334,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

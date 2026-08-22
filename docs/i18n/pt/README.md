@@ -16,7 +16,7 @@ Descoberta centrada no criador e instalação num único comando para plugins do
   <a href="https://dsh-plugins.omniroute.online">Navegue, pesquise e instale qualquer plugin no site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -76,22 +76,22 @@ Descoberta centrada no criador e instalação num único comando para plugins do
 
 ## ⭐ Top 10 plugins
 
-Ordenado pelas estrelas do repositório exato — só contam as estrelas obtidas pelo próprio
+Ordenados pelas estrelas do repositório exato — só contam as estrelas obtidas pelo próprio
 repositório do plugin, nunca as de um projeto-pai ([predicado de classificação](../../docs/RANKING.md)).
 Cada nome tem ligação para o repositório do criador, fixado no commit exato validado pelo catálogo.
 
 | #   | Plugin | Criador | ★ | Categoria | O que faz |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Visão plug-in para LLMs apenas de texto, com o CLI gratuito Antigravity |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Plugin web do DSH: uma barra lateral direita ao estilo do VSCode (explorador / editor / terminal / git / navegador), isolada por… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Olhos para agentes DeepSeek Harness apenas de texto: cadeia de visão gratuita incorporada (sem chave) + ferramentas de visão ao nível do pixel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integração nativa do DeepSeek Harness para o agent-vision-toolkit: perguntas e respostas sobre imagens, OCR, grounding, restauro de UI,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin de infestação de anúncios do DSH: anúncios de portal chinês localizados e paródia de anúncios fraudulentos em inglês, com pop-ups falsos,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI para o DeepSeek Harness: componentes de UI interativos apresentados em linha nas respostas do assistente através do dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: um plugin de interface de terminal interativa para o DeepSeek Harness oficial — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualização em linha para o DeepSeek Harness: uma ferramenta visualize mais uma skill incluída permitem ao modelo desenhar… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Um plugin de pesquisa de anime para o DeepSeek Harness: uma ferramenta anime_find_search agrega Mikan, AniBT e… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema de anular/reverter do DSH: guarda um snapshot dos ficheiros de configuração a cada alteração, anula/repete a última ação a partir da WebUI ou por… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -101,13 +101,13 @@ Cada nome tem ligação para o repositório do criador, fixado no commit exato v
 
 ## Numa vista de olhos
 
-| Superfície     | O que é                                                       | Onde                                                                    |
-| ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Site** | Navegador do catálogo, com pesquisa e classificação                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
-| **Catálogo** | Um ficheiro YAML por plugin, a única fonte da verdade             | [`catalog/plugins/`](../../catalog/plugins)                                    |
-| **Esquema**  | JSON Schema público (draft 2020-12) contra o qual toda a entrada é validada | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
-| **CLI**     | Pesquisa, inspeciona, valida e instala a partir do catálogo           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Feeds para máquinas** | `catalog.json` + `catalog.snapshot.json` para ferramentas           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| Superfície        | O que é                                                           | Onde                                                                                                                                                      |
+| ------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Site**           | Navegador do catálogo, com pesquisa e classificação                | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)                                                                                     |
+| **Catálogo**       | Um ficheiro YAML por plugin, a única fonte da verdade               | [`catalog/plugins/`](../../catalog/plugins)                                                                                                               |
+| **Esquema**        | JSON Schema público (draft 2020-12) contra o qual cada entrada é validada | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)                                                                                          |
+| **CLI**            | Pesquisa, inspeciona, valida e instala a partir do catálogo         | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins)                                                                                      |
+| **Feeds para máquinas** | `catalog.json` + `catalog.snapshot.json` para ferramentas       | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
 
 Este repositório é a fonte pública da verdade do catálogo. Cada listagem é um ficheiro YAML
 em `catalog/plugins/`, validado contra um JSON Schema publicado, adicionado através de um
@@ -115,12 +115,13 @@ pull request revisto individualmente, e sempre creditado ao criador original do 
 Nada no catálogo é gerado a partir de outro catálogo ou lista: cada entrada é reconstruída
 a partir do repositório original do criador, num commit fixado.
 
-O site e a CLI são mantidos a partir de código-fonte privado; este repositório contém os dados
-públicos do catálogo, o esquema e as políticas que consomem.
+O site é mantido a partir de código-fonte privado. A CLI vive aqui, em [`cli/`](../../cli), e
+este repositório contém os dados públicos do catálogo, o esquema e as políticas que ambos
+consomem.
 
 ## Estado do catálogo
 
-**160 plugins integrados.** Cada plugin entra através de um pull request revisto individualmente,
+**483 plugins integrados.** Cada plugin entra através de um pull request revisto individualmente,
 um de cada vez, a partir do repositório original do criador, com um commit de origem fixado e
 atribuição explícita.
 
@@ -130,24 +131,25 @@ atribuição explícita.
 npx omni-dsh-plugins --help
 ```
 
-O pacote com âmbito é publicado como `omni-dsh-plugins@1.0.1` e o comando acima é
+O pacote é publicado como `omni-dsh-plugins@1.0.1` e o comando acima é
 a invocação canónica hoje; não é alojado aqui nenhum script de instalação.
 
 ### Utilize a CLI hoje
 
-A versão 1.0.0 traz comandos de descoberta e validação apenas de leitura, além de comandos de
+A versão 1.0.1 traz comandos de descoberta e validação apenas de leitura, além de comandos de
 instalação sujeitos a consentimento. A referência completa de comandos, incluindo flags,
-códigos de saída e o controlo de consentimento para execução de código, está em [docs/CLI.md](../../docs/CLI.md).
+códigos de saída e o controlo de consentimento para execução de código, está em
+[docs/CLI.md](../../docs/CLI.md).
 
-| Comando                        | O que faz                                                        | Toca no seu sistema?                    |
-| ------------------------------ | ------------------------------------------------------------------- | --------------------------------------- |
-| `catalog validate --catalog .` | Valida o YAML do catálogo, o esquema e a semântica local                   | Não — apenas leitura                          |
-| `search <query...>`            | Pesquisa campos públicos do catálogo localmente                                | Não — apenas leitura                          |
-| `info <id>`                    | Mostra uma entrada pública do catálogo                                       | Não — apenas leitura                          |
-| `list`                         | Lista instalações geridas pelo catálogo sem alterar perfis            | Não — apenas leitura                          |
-| `doctor`                       | Diagnóstico apenas de leitura do Node, do DSH, da política nativa do Windows e do catálogo  | Não — apenas leitura                          |
-| `add <id> --profile <name> --dry-run` | Mostra o plano de instalação verificado, sem ficheiros nem subprocessos | Não — simulação (dry-run)                            |
-| `add <id> --profile <name> --allow-code-execution` | Instala através da delegação oficial do DSH        | Sim — só com a flag explícita de consentimento   |
+| Comando                                            | O que faz                                                            | Toca no seu sistema?                  |
+| --------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------- |
+| `catalog validate --catalog .`                       | Valida o YAML do catálogo, o esquema e a semântica local              | Não — apenas leitura                   |
+| `search <query...>`                                  | Pesquisa campos públicos do catálogo localmente                       | Não — apenas leitura                   |
+| `info <id>`                                          | Mostra uma entrada pública do catálogo                                | Não — apenas leitura                   |
+| `list`                                               | Lista instalações geridas pelo catálogo sem alterar perfis            | Não — apenas leitura                   |
+| `doctor`                                             | Diagnóstico apenas de leitura do Node, do DSH, da política nativa do Windows e do catálogo | Não — apenas leitura |
+| `add <id> --profile <name> --dry-run`                | Mostra o plano de instalação verificado, sem ficheiros nem subprocessos | Não — simulação (dry-run)            |
+| `add <id> --profile <name> --allow-code-execution`   | Instala através da delegação oficial do DSH                           | Sim — só com a flag explícita de consentimento |
 
 ```bash
 # Validate the catalog in this repository (what CI runs):
@@ -186,8 +188,8 @@ simulação funcionam em qualquer lado.
    bem-sucedida é necessária, mas nunca suficiente.
 
 O contrato completo — provas exigidas, regras do YAML, política de estrelas, tratamento de
-colisões e os controlos de revisão — está em [CONTRIBUTING.md](../../CONTRIBUTING.md). Como as decisões
-são tomadas e por quem está em [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
+colisões e os controlos de revisão — está em [CONTRIBUTING.md](../../CONTRIBUTING.md). Como as
+decisões são tomadas e por quem está em [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
 ## 📄 Anatomia de uma entrada
 
@@ -267,8 +269,8 @@ endosso da DeepSeek.
 Só repositórios de plugins dedicados, nativos, elegíveis ou verificados, com estrelas
 pertencentes exatamente a esse repositório, podem entrar numa classificação por estrelas.
 As integrações guardadas dentro de monorepos mais amplos continuam descobríveis, mas usam
-`stars: null` e nunca herdam as estrelas do projeto-pai. Veja [docs/RANKING.md](../../docs/RANKING.md)
-para o predicado completo.
+`stars: null` e nunca herdam as estrelas do projeto-pai. Veja
+[docs/RANKING.md](../../docs/RANKING.md) para o predicado completo.
 
 Os estados públicos de verificação distinguem a elegibilidade estrutural de um teste de fumo
 de instalação. Nenhum estado representa segurança absoluta. Reveja o repositório do plugin,
@@ -306,17 +308,17 @@ se alguém catalogou o seu trabalho antes de si.
 
 ## 📚 Documentação
 
-| Documento                                     | O que aborda                                                       |
-| -------------------------------------------- | -------------------------------------------------------------------- |
-| [CONTRIBUTING.md](../../CONTRIBUTING.md)           | O contrato completo de contribuição: provas, regras do YAML, controlos de revisão    |
-| [SECURITY.md](../../SECURITY.md)                   | Como reportar vulnerabilidades de plugins ou do catálogo; política de segredos           |
-| [docs/SCHEMA.md](../../docs/SCHEMA.md)             | Referência campo a campo de `schemas/plugin.schema.yaml`             |
-| [docs/CLI.md](../../docs/CLI.md)                   | Referência de comandos da CLI para `omni-dsh-plugins@1.0.1`          |
-| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)     | Como o catálogo é governado: precedência, controlos, reivindicações e remoções   |
-| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)     | Tipos de artefacto, categorias principais de capacidade, etiquetas, âmbito do repositório |
-| [docs/CREDIT.md](../../docs/CREDIT.md)             | Crédito ao criador, precedência de PR e política de identidade do Git                 |
-| [docs/RANKING.md](../../docs/RANKING.md)           | O predicado público de classificação e os estados de verificação                  |
-| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)     | Estatuto de não oficial e postura sobre marcas registadas                               |
+| Documento                                          | O que aborda                                                          |
+| --------------------------------------------------- | ------------------------------------------------------------------------ |
+| [CONTRIBUTING.md](../../CONTRIBUTING.md)            | O contrato completo de contribuição: provas, regras do YAML, controlos de revisão |
+| [SECURITY.md](../../SECURITY.md)                    | Como reportar vulnerabilidades de plugins ou do catálogo; política de segredos |
+| [docs/SCHEMA.md](../../docs/SCHEMA.md)              | Referência campo a campo de `schemas/plugin.schema.yaml`                 |
+| [docs/CLI.md](../../docs/CLI.md)                    | Referência de comandos da CLI para `omni-dsh-plugins@1.0.1`              |
+| [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)      | Como o catálogo é governado: precedência, controlos, reivindicações e remoções |
+| [docs/CATEGORIES.md](../../docs/CATEGORIES.md)      | Tipos de artefacto, categorias principais de capacidade, etiquetas, âmbito do repositório |
+| [docs/CREDIT.md](../../docs/CREDIT.md)              | Crédito ao criador, precedência de PR e política de identidade do Git    |
+| [docs/RANKING.md](../../docs/RANKING.md)            | O predicado público de classificação e os estados de verificação         |
+| [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md)      | Estatuto de não oficial e postura sobre marcas registadas                |
 
 ## 🌐 Traduções
 
@@ -327,10 +329,11 @@ de pull requests normais.
 
 ## 📜 Licença e atribuição
 
-A documentação e os modelos de repositório estão licenciados sob a [Licença MIT](../../LICENSE). Os
-factos originais do catálogo e os metadados editoriais em YAML são disponibilizados sob [CC0-1.0](../../LICENSE-CATALOG).
-O código, os nomes, os logótipos e as capturas de ecrã a montante mantêm-se sob os seus
-proprietários e licenças originais. Veja [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
+A documentação e os modelos de repositório estão licenciados sob a [Licença MIT](../../LICENSE).
+Os factos originais do catálogo e os metadados editoriais em YAML são disponibilizados sob
+[CC0-1.0](../../LICENSE-CATALOG). O código, os nomes, os logótipos e as capturas de ecrã a
+montante mantêm-se sob os seus proprietários e licenças originais. Veja
+[docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 <div align="center">
 
@@ -340,4 +343,4 @@ proprietários e licenças originais. Veja [docs/CREDIT.md](../../docs/CREDIT.md
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

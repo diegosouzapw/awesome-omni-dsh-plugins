@@ -85,10 +85,13 @@ outros segredos.
 ## Regras de YAML e schema
 
 Crie `catalog/plugins/<plugin-id>.yaml` e valide-o contra
-[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). O schema é a fonte da verdade
-para nomes de campos e valores permitidos; [docs/CATEGORIES.md](../../docs/CATEGORIES.md) define
-como escolher o único `kind` de artefato, a categoria primária, as tags e o escopo do
-repositório.
+[`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml). O `id` deve ser igual ao nome
+base do arquivo e deve começar com o seu namespace: o seu handle `creator.github` em minúsculas
+(qualquer sequência de caracteres fora de `[a-z0-9]` vira um único `-`) seguido de `-`, por
+exemplo `some-creator-my-plugin` para o handle `Some-Creator`. A validação do catálogo aplica
+ambas as regras. O schema é a fonte da verdade para nomes de campos e valores permitidos;
+[docs/CATEGORIES.md](../../docs/CATEGORIES.md) define como escolher o único `kind` de artefato,
+a categoria primária, as tags e o escopo do repositório.
 
 Um descritor npm deve conter um nome de pacote válido e uma versão exata. O schema público
 rejeita valores parecidos com opções e não limitados, mas não reimplementa SemVer ou SRI: a
@@ -239,3 +242,5 @@ lote.
 A documentação de lançamento e as descrições do catálogo são exclusivamente em inglês. O
 lançamento com 43 locais permanece um item de backlog pós-MVP; não adicione documentos de locale
 vazios nem traduções automáticas em massa.
+
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

@@ -142,4 +142,4 @@ npx omni-dsh-plugins catalog github-forms-check .
 
 توثيق الإطلاق ووصف الكتالوج بالإنجليزية فقط. طرح 43 لغة (locale) يبقى بندًا في قائمة الانتظار لما بعد الإصدار الأولي (MVP)؛ لا تُضِف مستندات لغة فارغة ولا ترجمات آلية جماعية.
 
-<!-- i18n-source-hash: 54fa0daef6ededc936a6f681d0cbe7463ec4080757d199e691824dfdc8b388f4 -->
+<!-- i18n-source-hash: 45f53cd9ab5bca68a26c7ebd3948b4e8d2e4ab8221fb8cfae8fa31f76a14db91 -->

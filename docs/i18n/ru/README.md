@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Просматривайте, ищите и устанавливайте любой плагин на сайте →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -85,14 +85,14 @@
 | --- | ------ | ------- | --- | -------- | ------------ |
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Подключаемое зрение для текстовых LLM на базе бесплатного Antigravity CLI |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Веб-плагин DSH: правая боковая панель в стиле VSCode (проводник / редактор / терминал / git / браузер), изолированная для каждого… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Зрение для текстовых агентов DeepSeek Harness: встроенная бесплатная цепочка зрения (без ключа) + инструменты зрения на уровне пикселей… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Нативная для DeepSeek Harness интеграция agent-vision-toolkit: вопросы и ответы по изображениям, OCR, привязка к объектам, восстановление интерфейса,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Плагин рекламного нашествия для DSH: локализованная реклама китайских порталов и пародия на англоязычную мошенническую рекламу, с фальшивыми всплывающими окнами,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI для DeepSeek Harness: интерактивные компоненты интерфейса, отрисованные прямо в ответах ассистента через dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: интерактивный плагин терминального интерфейса для официального DeepSeek Harness — потоковая… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Встроенная визуализация для DeepSeek Harness: инструмент visualize вместе с прилагаемым навыком позволяют модели отрисовывать… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Плагин поиска аниме для DeepSeek Harness: инструмент anime_find_search агрегирует Mikan, AniBT и… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Система отмены/отката для DSH: снимки файлов конфигурации при изменении, отмена/повтор последнего действия из WebUI или через… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Интерактивный TUI-интерфейс в стиле Claude Code для агентов DeepSeek Harness, построенный на портированном ядре Ink. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Зрение для текстовых агентов DeepSeek Harness: встроенная бесплатная цепочка зрения (без ключа) + инструменты зрения на уровне пикселей… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Нативная для DeepSeek Harness интеграция agent-vision-toolkit: вопросы и ответы по изображениям, OCR, привязка к объектам, восстановление интерфейса,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Плагин рекламного нашествия для DSH: локализованная реклама китайских порталов и пародия на англоязычную мошенническую рекламу, с фальшивыми всплывающими окнами,… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI для DeepSeek Harness: интерактивные компоненты интерфейса, отрисованные прямо в ответах ассистента через dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: интерактивный плагин терминального интерфейса для официального DeepSeek Harness — потоковая… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Встроенная визуализация для DeepSeek Harness: инструмент visualize вместе с прилагаемым навыком позволяют модели отрисовывать… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Плагин поиска аниме для DeepSeek Harness: инструмент anime_find_search агрегирует Mikan, AniBT и… |
 
 <div align="center">
 
@@ -121,7 +121,7 @@ YAML-файл в `catalog/plugins/`, проверенный по опублик�
 
 ## Состояние каталога
 
-**160 плагинов принято.** Каждый плагин попадает сюда через индивидуально отрецензированный pull
+**483 плагина принято.** Каждый плагин попадает сюда через индивидуально отрецензированный pull
 request, по одному за раз, из оригинального репозитория создателя, с закреплённым исходным
 коммитом и явным указанием авторства.
 
@@ -136,7 +136,7 @@ npx omni-dsh-plugins --help
 
 ### Как пользоваться CLI сегодня
 
-Версия 1.0.0 предоставляет команды поиска и валидации только для чтения, а также команды установки
+Версия 1.0.1 предоставляет команды поиска и валидации только для чтения, а также команды установки
 с обязательным подтверждением согласия. Полный справочник команд, включая флаги, коды возврата и
 барьер согласия на выполнение кода, находится в [docs/CLI.md](../../docs/CLI.md).
 
@@ -164,7 +164,7 @@ npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 
 Изменяющие команды (`add`, `update`, `remove`) никогда не выполняют код жизненного цикла плагина,
 если вы не передали `--allow-code-execution`. В нативной Windows эти изменения отключены в
-версии 1.0.0 — используйте WSL. Команды только для чтения и пробные прогоны работают везде.
+версии 1.0.1 — используйте WSL. Команды только для чтения и пробные прогоны работают везде.
 
 ## 🔍 Как плагин попадает в каталог
 
@@ -341,4 +341,4 @@ request'ы.
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

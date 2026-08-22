@@ -47,7 +47,9 @@ SemVer,完整性(integrity)值要求 SHA-512 SRI,授權要求 SPDX 表達式剖�
 
 需符合 `^[a-z0-9]+(?:-[a-z0-9]+)*$` 的字串 — 小寫連字號命名,不能有前導/尾隨或連續兩個連字
 號。依 [CONTRIBUTING.md](../../CONTRIBUTING.md),條目檔案必須以相同的值命名為
-`catalog/plugins/<id>.yaml`。
+`catalog/plugins/<id>.yaml`;驗證器會拒絕不一致的情況(`id-filename-mismatch`)。此 ID 也必
+須以創作者的命名空間開頭:將 `creator.github` 帳號轉為小寫,並把每一段不屬於 `[a-z0-9]` 的
+字元合併為單一連字號,再接上一個 `-`(`id-creator-prefix`)。
 
 ### `name`
 
@@ -220,4 +222,4 @@ source 描述子刻意不儲存其他任何內容:儲存庫、提交與子路徑
 屬於 [CONTRIBUTING.md](../../CONTRIBUTING.md) 與 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)
 中所述的維護者審查關卡。
 
-<!-- i18n-source-hash: 8803e392a6a1668bc8cfe3451ec41e804fb2943046a0a7e6b0301caf42aae034 -->
+<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->

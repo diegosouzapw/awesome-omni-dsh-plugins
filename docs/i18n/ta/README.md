@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">இணையதளத்தில் ஒவ்வொரு செருகுநிரலையும் உலாவவும், தேடவும், நிறுவவும் →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -83,16 +83,16 @@
 
 | #   | செருகுநிரல் | படைப்பாளர் | ★ | வகை | இது என்ன செய்கிறது |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | இலவச Antigravity CLI-ஆல் இயக்கப்படும், உரை-மட்டும் LLM-களுக்கான செருகு-மற்றும்-இயக்கு பார்வை |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH வலை செருகுநிரல்: VSCode போன்ற வலது பக்கப்பட்டை (எக்ஸ்ப்ளோரர் / எடிட்டர் / டெர்மினல் / git / பிரவுசர்), ஒவ்வொன்றும் தனித்தனியாக… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | உரை-மட்டும் DeepSeek Harness முகவர்களுக்கான கண்கள்: உள்ளமைந்த இலவச பார்வைச் சங்கிலி (திறவுகோல் தேவையில்லை) + பிக்சல்-நிலை பார்வைக் கருவிகள்… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit-க்கான DeepSeek Harness-சொந்த ஒருங்கிணைப்பு: பட வினா-விடை, OCR, க்ரவுண்டிங், UI மறுசீரமைப்பு,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH விளம்பர-தொற்று செருகுநிரல்: உள்ளூர்மயமாக்கப்பட்ட சீன போர்டல் விளம்பரங்களும் ஆங்கில மோசடி-விளம்பர கேலிச்சித்திரமும், போலி பாப்-அப்களுடன், ஒரு… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness-க்கான GenUI: dsh-ui-வழியாக உதவியாளர் பதில்களில் நேரடியாக வழங்கப்படும் ஊடாடும் UI கூறுகள்… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: அதிகாரப்பூர்வ DeepSeek Harness-க்கான ஊடாடும் டெர்மினல் UI செருகுநிரல் — ஸ்ட்ரீமிங்… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness-க்கான நேரடி காட்சிப்படுத்தல்: ஒரு visualize கருவியும் இணைக்கப்பட்ட திறனும் மாதிரி வழங்க அனுமதிக்கின்றன… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness-க்கான அனிமே தேடல் செருகுநிரல்: anime_find_search கருவி Mikan, AniBT மற்றும்… ஒருங்கிணைக்கிறது |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | DSH செயல்தவிர்/திரும்பப்பெறு அமைப்பு: மாற்றத்தில் கட்டமைப்புக் கோப்புகளை ஸ்னாப்ஷாட் செய்கிறது, WebUI-லிருந்தோ கடைசி செயலை செயல்தவிர்/மீண்டும் செய்கிறது… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -117,12 +117,11 @@ YAML கோப்பாகும், வெளியிடப்பட்ட JSO
 ஒவ்வொரு பதிவும் பின்னிணைக்கப்பட்ட commit-இல் அசல் படைப்பாளர் களஞ்சியத்திலிருந்து மீண்டும்
 கட்டமைக்கப்படுகிறது.
 
-இணையதளமும் CLI-யும் தனியார் மூலத்திலிருந்து பராமரிக்கப்படுகின்றன; இந்தக் களஞ்சியம் அவை பயன்படுத்தும்
-பொது பட்டியல் தரவு, திட்டவரைவு மற்றும் கொள்கைகளை மட்டுமே கொண்டுள்ளது.
+இணையதளம் தனியார் மூலத்திலிருந்து பராமரிக்கப்படுகிறது. செல்லி இங்கே, [`cli/`](../../cli) கீழ் உள்ளது, மேலும் இந்தக் களஞ்சியம் அவை இரண்டும் பயன்படுத்தும் பொது பட்டியல் தரவு, திட்டவரைவு மற்றும் கொள்கைகளைக் கொண்டுள்ளது.
 
 ## பட்டியல் நிலை
 
-**160 செருகுநிரல்கள் இணைக்கப்பட்டுள்ளன.** ஒவ்வொரு செருகுநிரலும் அசல் படைப்பாளர் களஞ்சியத்திலிருந்து,
+**483 செருகுநிரல்கள் இணைக்கப்பட்டுள்ளன.** ஒவ்வொரு செருகுநிரலும் அசல் படைப்பாளர் களஞ்சியத்திலிருந்து,
 பின்னிணைக்கப்பட்ட மூல commit-உடன், தெளிவான வரவு வழங்கலுடன், ஒரு நேரத்தில் ஒன்றாக தனித்தனியாக
 மதிப்பாய்வு செய்யப்பட்ட pull request மூலம் நுழைகிறது.
 
@@ -137,7 +136,7 @@ npx omni-dsh-plugins --help
 
 ### இன்று CLI-யைப் பயன்படுத்துங்கள்
 
-பதிப்பு 1.0.0 படிக்க-மட்டும் கண்டறிதல் மற்றும் சரிபார்ப்புக் கட்டளைகளையும், சம்மதம்-கேட்டு-நிறுத்தும்
+பதிப்பு 1.0.1 படிக்க-மட்டும் கண்டறிதல் மற்றும் சரிபார்ப்புக் கட்டளைகளையும், சம்மதம்-கேட்டு-நிறுத்தும்
 நிறுவல் கட்டளைகளையும் வழங்குகிறது. கொடிகள், வெளியேறும் குறியீடுகள் மற்றும் குறியீடு-செயல்படுத்தல்
 சம்மத நுழைவாயில் உட்பட முழு கட்டளைக் குறிப்பு [docs/CLI.md](../../docs/CLI.md)-இல் உள்ளது.
 
@@ -152,14 +151,14 @@ npx omni-dsh-plugins --help
 | `add <id> --profile <name> --allow-code-execution` | அதிகாரப்பூர்வ DSH பிரதிநிதித்துவம் மூலம் நிறுவுகிறது        | ஆம் — வெளிப்படையான சம்மதக் கொடியுடன் மட்டும்   |
 
 ```bash
-# இந்தக் களஞ்சியத்தில் உள்ள பட்டியலைச் சரிபார்க்கவும் (CI இயக்குவது இதுவே):
+# Validate the catalog in this repository (what CI runs):
 npx omni-dsh-plugins catalog validate --catalog .
 
-# எதையும் நிறுவாமல் உள்ளூரில் தேடி ஆய்வு செய்யவும்:
+# Search and inspect locally, without installing anything:
 npx omni-dsh-plugins search memory --catalog .
 npx omni-dsh-plugins info <plugin-id> --catalog .
 
-# ஒரு நிறுவல் திட்டத்தை முன்னோட்டமிடவும்; எதுவும் எழுதப்படாது, துணை-செயல்முறையும் இயங்காது:
+# Preview an install plan; nothing is written and no subprocess runs:
 npx omni-dsh-plugins add <plugin-id> --profile default --dry-run
 ```
 
@@ -251,7 +250,7 @@ provenance:
 - நிறுவல் விவரிப்பான் ஒன்று சரியான-பதிப்பு npm தொகுப்பு அல்லது பின்னிணைக்கப்பட்ட மூலமே; இது தரவு
   மட்டுமே, ஒருபோதும் shell கட்டளை அல்ல.
 - `verified` நிலைக்கு மதிப்பாய்வு செய்யக்கூடிய smoke-test ஆதாரம் தேவை; இல்லையெனில் பதிவு
-  `smokeTest: null`-உடன் `eligible` ஆகும்.
+  `eligible`-உடன் `smokeTest: null` ஆகும்.
 
 ## 🗂 இங்கே என்ன சேர்க்கப்படுகிறது
 
@@ -343,4 +342,4 @@ pull request திறப்பதற்கு முன் [CONTRIBUTING.md](..
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

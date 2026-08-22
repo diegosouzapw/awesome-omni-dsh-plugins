@@ -16,7 +16,7 @@ Pagtuklas na unang inuuna ang mga lumikha at pag-install na isang-command para s
   <a href="https://dsh-plugins.omniroute.online">Mag-browse, maghanap, at mag-install ng bawat plugin sa website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-160_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -81,18 +81,18 @@ ninyong repository ng plugin ang binibilang, hindi kailanman ang sa isang parent
 ([predicate ng ranggo](../../docs/RANKING.md)). Bawat pangalan ay naka-link sa repository ng
 lumikha, nakapirmi sa eksaktong commit na na-validate ng katalogo.
 
-| #   | Plugin | Lumikha | ★ | Kategorya | Ano ang ginagawa nito |
+| #   | Plugin | Creator | ★ | Category | What it does |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in na paningin para sa mga text-only na LLM, pinapagana ng libreng Antigravity CLI |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Web plugin ng DSH: isang right sidebar na estilo-VSCode (explorer / editor / terminal / git / browser), hiwalay bawat… |
-| 3 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Mga mata para sa text-only na DeepSeek Harness agents: built-in na libreng vision chain (walang key) + mga vision tool sa antas ng pixel… |
-| 4 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Native na integrasyon ng DeepSeek Harness para sa agent-vision-toolkit: Q&A ng larawan, OCR, grounding, UI restoration,… |
-| 5 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Plugin ng DSH na "ad-infestation": naka-localize na mga Chinese portal ad at parody ng English scam-ad, may mga pekeng pop-up,… |
-| 6 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI para sa DeepSeek Harness: mga interactive UI component na ipinapakita nang inline sa mga sagot ng assistant sa pamamagitan ng dsh-ui… |
-| 7 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: isang interactive na terminal UI plugin para sa opisyal na DeepSeek Harness — streaming… |
-| 8 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline na visualization para sa DeepSeek Harness: isang visualize tool at kasamang skill ang nagpapahintulot sa modelo na gumuhit… |
-| 9 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Isang anime search plugin para sa DeepSeek Harness: isang anime_find_search tool ang nag-iipon ng Mikan, AniBT at… |
-| 10 | [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) | [@lire1131](https://github.com/lire1131) | 96 | Sessions & productivity | Sistema ng undo/rollback ng DSH: kumukuha ng snapshot ng mga configuration file kapag nagbago ito, nag-a-undo/redo ng huling aksyon mula sa WebUI o sa pamamagitan ng… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui… |
+| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: an interactive terminal UI plugin for the official DeepSeek Harness — streaming… |
+| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualization for DeepSeek Harness: a visualize tool plus bundled skill let the model render… |
+| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | An anime search plugin for DeepSeek Harness: an anime_find_search tool aggregates Mikan, AniBT and… |
 
 <div align="center">
 
@@ -117,12 +117,13 @@ at palaging kinikredito sa orihinal na lumikha ng plugin. Wala sa katalogo ang n
 ibang katalogo o listahan: bawat entry ay muling itinayo mula sa orihinal na repository ng
 lumikha, sa isang nakapirming commit.
 
-Ang website at ang CLI ay pinapanatili mula sa pribadong source; taglay ng repository na ito
-ang pampublikong data ng katalogo, ang schema, at ang mga patakarang ginagamit nila.
+Ang website ay pinapanatili mula sa pribadong source. Ang CLI ay nandito, sa ilalim ng
+[`cli/`](../../cli), at ang repository na ito ang naglalaman ng pampublikong data ng katalogo,
+schema, at mga patakarang ginagamit ng dalawa.
 
 ## Katayuan ng katalogo
 
-**160 na plugin ang na-merge.** Bawat plugin ay pumapasok sa pamamagitan ng isang isa-isang
+**483 na plugin ang na-merge.** Bawat plugin ay pumapasok sa pamamagitan ng isang isa-isang
 sinuring pull request, isa-isa, mula sa orihinal na repository ng lumikha, may nakapirming
 source commit at malinaw na attribution.
 
@@ -132,12 +133,12 @@ source commit at malinaw na attribution.
 npx omni-dsh-plugins --help
 ```
 
-Ang scoped package ay inilathala bilang `omni-dsh-plugins@1.0.1` at ang command sa
-itaas ang canonical na paraan ng pagtawag ngayon; walang install script na naka-host dito.
+Ang package ay inilathala bilang `omni-dsh-plugins@1.0.1` at ang command sa itaas ang
+canonical na paraan ng pagtawag ngayon; walang install script na naka-host dito.
 
 ### Gamitin ang CLI ngayon
 
-Nagdadala ang bersyon 1.0.0 ng mga read-only na command para sa pagtuklas at pag-validate,
+Nagdadala ang bersyon 1.0.1 ng mga read-only na command para sa pagtuklas at pag-validate,
 kasama ang mga install command na may consent gate. Ang kumpletong sanggunian ng command,
 kasama ang mga flag, exit code, at ang consent gate para sa pagpapatakbo ng code, ay
 matatagpuan sa [docs/CLI.md](../../docs/CLI.md).
@@ -349,4 +350,4 @@ ay nananatili sa ilalim ng kanilang orihinal na may-ari at lisensya. Tingnan ang
 
 </div>
 
-<!-- i18n-source-hash: 3fb305c67517793611daf12d7e6f49183b895a296bc29771b47c97463db2acb9 -->
+<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->

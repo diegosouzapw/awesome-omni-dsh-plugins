@@ -1,15 +1,16 @@
 # Riferimento CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · **Italiano**
+> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Italiano**
 
 > **Progetto comunitario non ufficiale. Non affiliato, approvato o sponsorizzato da DeepSeek.**
 > I nomi e i marchi DeepSeek appartengono ai rispettivi proprietari.
 
-Questa pagina documenta la CLI pubblicata esattamente come si comporta nella versione `1.0.0`.
+Questa pagina documenta la CLI pubblicata esattamente come si comporta nella versione `1.0.1`.
 Ogni sinossi e flag qui sotto proviene dall'output `--help` proprio del comando pubblicato; nulla
-qui descrive un comportamento non rilasciato. La CLI è mantenuta a partire da codice sorgente
-privato e rilasciata su npm come il pacchetto con scope
-[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins).
+qui descrive un comportamento non rilasciato. La CLI è sviluppata in questo repository sotto
+[`cli/`](../../cli) e rilasciata su npm come
+[`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins), con un'attestazione di
+provenienza che lega ogni build al commit e all'esecuzione del workflow che l'ha prodotta.
 
 ```bash
 npx omni-dsh-plugins --help
@@ -105,9 +106,8 @@ npx omni-dsh-plugins search notes markdown --catalog . --json
 dsh-plugins discover [options] <query...>
 ```
 
-> **Non presente nella `1.0.0` pubblicata.** `discover` viene rilasciato nella `1.0.0`; ogni
-> altro comando in questa pagina funziona con la versione attualmente su npm. Eseguirlo contro
-> `@1.0.0` fallisce con un comando sconosciuto.
+> `discover` è disponibile a partire dalla `1.0.0`, la prima release pubblicata sotto questo nome
+> di pacchetto.
 
 Cerca prima nel catalogo curato, poi — a meno che non venga fornito `--offline` — nel topic
 GitHub `dsh-plugin` live, così un plugin che non è ancora stato inviato resta comunque
@@ -223,4 +223,4 @@ fissato — i maintainer applicano quei gate di provenienza separati prima di qu
 come descritto in [CONTRIBUTING.md](../../CONTRIBUTING.md) e
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 4f83ebb097bcbee07d61c5660c045f69c7b8d76a1d81184746f91f2b674cb298 -->
+<!-- i18n-source-hash: df7d45f7db05885b95d155865cb2b37c65c150743bb071809b1d2d7f5335105c -->
