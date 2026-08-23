@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yelebai-dsh-plugin-marketplace
+name: dsh-plugin-marketplace
+description:
+  en: Verified DSH plugin marketplace with guided-install Agents, direct self-update, discovery and install management
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - verified
+  - marketplace
+  - guided
+  - install
+  - agents
+  - direct
+  - self
+  - update
+  - discovery
+  - management
+  - dsh
+source:
+  repository: https://github.com/YELEBAI/dsh-plugin-marketplace
+  repositoryNodeId: R_kgDOT3zrGQ
+  subpath: null
+  commit: 01fdf83400449008ef54984a59d345e37be4b2f9
+creator:
+  github: YELEBAI
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:00.007Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null
