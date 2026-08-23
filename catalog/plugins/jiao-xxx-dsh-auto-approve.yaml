@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: jiao-xxx-dsh-auto-approve
+name: dsh-auto-approve
+description:
+  en: <p align="center" <strong 比 Workspace Write 更省心，比 Full access 更安全 / More convenient than Workspace Write, safer than Full access</strong </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - permissions
+  - permission-preset
+  - approval
+  - auto-approve
+  - sandbox
+  - escalation
+  - security
+source:
+  repository: https://github.com/Jiao-XXX/dsh-auto-approve
+  repositoryNodeId: R_kgDOT4QeuQ
+  subpath: null
+  commit: a8c2d7e6ccacaa15c18c4d1d56b0ba4d75cb6a39
+creator:
+  github: Jiao-XXX
+package:
+  ecosystem: npm
+  name: dsh-auto-approve
+  version: 0.5.1
+  integrity: sha512-cQcL96C0Ix9/3cr6isA0WiVvaduIlEEfdQQ7G2yVB4+w1ekY86vZbTsoB7X2gEch5kzI3W+LireSXIfDh/w8kQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:22.832Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
