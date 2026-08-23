@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zh667-dsh-tokenledger
+name: dsh-tokenledger
+description:
+  en: Token usage accounting for DeepSeek Harness, attributed to the relay site that served each request — no configuration, no credentials
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - token-usage
+  - billing
+  - dsh-bundle
+  - cordis-plugin
+  - relay-attribution
+  - dsh
+source:
+  repository: https://github.com/zh667/TokenLedger
+  repositoryNodeId: R_kgDOT4LAlw
+  subpath: null
+  commit: 63091bbf2ab093ae8f137d2f5310c5ba2c331f37
+creator:
+  github: zh667
+package:
+  ecosystem: npm
+  name: dsh-tokenledger
+  version: 0.1.0
+  integrity: sha512-UX8dEINaNqJO0qGOfo5MSt5F7HKNWxLaQUK/JMLTMb2UPybhI56OLHyYGdA33RB15NhW/YUpkvcpwB/Dv9mG0g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:09.451Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 134
+provenance:
+  discussion: null
+  comment: null
