@@ -337,6 +337,41 @@ describe("public repository checks", () => {
     expect(test.output().stderr).toContain(file);
   });
 
+  it("tolerates a stale README counter with --skip-count, but still enforces it by default", async () => {
+    // The PR gate runs on the merge commit: a one-entry batch PR reads 484 entries against a
+    // README that says 483, and no single-PR branch can ever carry the exact next count when
+    // siblings merge first. PR mode therefore skips the exact-count assertion (the workflow
+    // replaces it with a no-regression check against the base), while main keeps enforcing it.
+    const root = publicRoot();
+    const entry = {
+      schemaVersion: 1,
+      id: "fixture-plugin",
+      name: "Fixture Plugin",
+      description: { en: "A sufficiently detailed fixture plugin description.", evidencePath: "README.md" },
+      unofficial: true,
+      kind: "plugin",
+      primaryCategory: "coding-developer-tools",
+      tags: ["coding"],
+      source: { repository: "https://github.com/creator/fixture-plugin", repositoryNodeId: "R_fixture", subpath: null, commit: "a".repeat(40) },
+      creator: { github: "creator" },
+      package: null,
+      dsh: { profiles: ["default"], evidencePath: "package.json" },
+      repositoryScope: "dedicated",
+      popularity: { starsPolicy: "exact-repository", stars: 1 },
+      license: { spdx: "MIT" },
+      verification: { status: "eligible", checkedAt: "2026-08-23T00:00:00.000Z", repositoryIdentity: "resolved", smokeTest: null },
+    } as never;
+    const snapshot = { source: { kind: "directory" }, entries: [entry], diagnostics: [] };
+
+    const strict = harness(snapshot);
+    expect(await runCli(["catalog", "docs-check", root], strict.dependencies)).toBe(1);
+    expect(strict.output().stderr).toContain("catalog count must report 1 plugins merged");
+
+    const lenient = harness(snapshot);
+    expect(await runCli(["catalog", "docs-check", root, "--skip-count"], lenient.dependencies)).toBe(0);
+    expect(lenient.output().stdout).toBe("Catalog documentation checks passed for 1 entries.\n");
+  });
+
   it("detects unbalanced Markdown fences and schema/category drift", async () => {
     const fenceRoot = publicRoot();
     writeFileSync(join(fenceRoot, "docs/CREDIT.md"), "```text\nunclosed\n");

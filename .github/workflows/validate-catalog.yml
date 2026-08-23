@@ -7,6 +7,8 @@ name: validate-catalog
 # advisory one — a catalog pull request could merge red until now.
 on:
   pull_request:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -41,5 +43,27 @@ jobs:
       # The docs gate exists in the CLI but ran nowhere: every batch merge desynchronized the
       # README's "**N plugins merged.**" counter (and the schema/category parity it checks) with
       # no red anywhere. The CLI is already built two steps above, so this costs nothing extra.
-      - name: Check catalog documentation
+      # Two modes, one per trigger: on main the count must be EXACT (a red main means a catalog
+      # merge is waiting for its counter re-alignment); on a pull request the merge commit can
+      # never carry the exact next count in a one-plugin-per-PR batch, so the CLI skips the
+      # count assertion and the step after it guards the counter from regressing vs the base.
+      - name: Check catalog documentation (exact count)
+        if: github.event_name != 'pull_request'
         run: node cli/dist/bin.js catalog docs-check .
+
+      - name: Check catalog documentation (pull-request mode)
+        if: github.event_name == 'pull_request'
+        run: node cli/dist/bin.js catalog docs-check . --skip-count
+
+      - name: README counter must not regress against the base
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --depth=1 origin "${{ github.base_ref }}"
+          base=$(git show "origin/${{ github.base_ref }}:README.md" | grep -oE '\*\*[0-9]+ plugins merged\.\*\*' | grep -oE '[0-9]+' | head -1)
+          branch=$(grep -oE '\*\*[0-9]+ plugins merged\.\*\*' README.md | grep -oE '[0-9]+' | head -1)
+          if [ -z "$branch" ]; then echo "README.md: no '**N plugins merged.**' statement found"; exit 1; fi
+          if [ -n "$base" ] && [ "$branch" -lt "$base" ]; then
+            echo "README.md: counter regressed ($branch < $base on the base branch)"
+            exit 1
+          fi
+          echo "README counter $branch does not regress the base (${base:-none})"

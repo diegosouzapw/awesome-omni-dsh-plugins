@@ -155,6 +155,7 @@ function sameValues(left: readonly string[], right: readonly string[]): boolean 
 export async function docsCheckCommand(
   context: CatalogCommandContext,
   rootInput: string,
+  options: { skipCount?: boolean } = {},
 ): Promise<number> {
   let root: string;
   try {
@@ -237,8 +238,15 @@ export async function docsCheckCommand(
   }
   const snapshot = await context.loadCatalog({ root: rootInput });
   diagnostics.push(...snapshot.diagnostics);
+  // Exact-count enforcement is a main-branch concern: a one-plugin-per-PR batch can never
+  // carry the next count in its merge commit, so the pull-request gate passes --skip-count
+  // and replaces this with a no-regression comparison against the base branch instead.
   const readme = contents.get("README.md");
-  if (readme !== undefined && !readme.includes(`**${snapshot.entries.length} plugins merged.**`)) {
+  if (
+    options.skipCount !== true &&
+    readme !== undefined &&
+    !readme.includes(`**${snapshot.entries.length} plugins merged.**`)
+  ) {
     diagnostics.push({
       file: "README.md",
       code: "docs",
