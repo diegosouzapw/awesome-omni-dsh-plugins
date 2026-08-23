@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yuezengwu-dsh-explain
+name: dsh-explain
+description:
+  en: DSH learning-mode plugin with a global local-first learning thread.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - learning
+  - mode
+  - global
+  - local
+  - first
+  - thread
+  - dsh
+source:
+  repository: https://github.com/yuezengwu/dsh-explain
+  repositoryNodeId: R_kgDOT2IieA
+  subpath: null
+  commit: 99239d4aab7cec2073293514c8b910eb47c981c4
+creator:
+  github: yuezengwu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:03.601Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
