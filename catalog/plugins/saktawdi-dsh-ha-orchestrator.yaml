@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: saktawdi-dsh-ha-orchestrator
+name: dsh-ha-orchestrator
+description:
+  en: Model high-availability failover + subagent orchestration (fanout/pipeline/supervisor) for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - high-availability
+  - failover
+  - orchestration
+  - subagents
+source:
+  repository: https://github.com/Saktawdi/dsh-ha-orchestrator
+  repositoryNodeId: R_kgDOT4Q43w
+  subpath: null
+  commit: 7a0601d6988a1c297c217c42dcd663cba41e7467
+creator:
+  github: Saktawdi
+package:
+  ecosystem: npm
+  name: dsh-ha-orchestrator
+  version: 0.12.2
+  integrity: sha512-W4LQeE9+dTiaZDo0Rnt/B27Gv6cn3Ld49v8f9fDhtrZK9I6Ekokm1FlvQ+XJXHKpqxCwlK0cQsaNHNJhEaiT0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:27.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
