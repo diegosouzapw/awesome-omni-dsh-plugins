@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: fly233338-dsh-overleaf
+name: dsh-overleaf
+description:
+  en: DSH bundle that exposes multiple Overleaf projects through OverleafMCP
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - overleaf
+  - mcp
+  - latex
+source:
+  repository: https://github.com/fly233338/dsh-overleaf
+  repositoryNodeId: R_kgDOT4Mxzw
+  subpath: null
+  commit: abebb782b69a02c913fdc686985026387ceeb829
+creator:
+  github: fly233338
+package:
+  ecosystem: npm
+  name: dsh-overleaf
+  version: 0.1.1
+  integrity: sha512-QPpEOBci7+gpCX25Kpa2dS/EN4C8sJBeEtq/+yGfsQ9ndxvh6FJDs8hzhjf340Vd3LcfLazLSNj6y+mIpywl0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:29.320Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
