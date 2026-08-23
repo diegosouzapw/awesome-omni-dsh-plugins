@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tpmoonchefryan-dsh-joi-channel-theme
+name: dsh-joi-channel-theme
+description:
+  en: 轴伊 Joi 双衣装主题（Joi-Flowers / Joi-Library）for DeepSeek Harness — unofficial, non-commercial fan theme plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - vtuber
+  - joi
+  - virtuareal
+source:
+  repository: https://github.com/tpmoonchefryan/dsh-joi-channel-theme
+  repositoryNodeId: R_kgDOT5y2Cw
+  subpath: null
+  commit: 3c12a2706759104a94b51013d19bb3e9c3f2bef1
+creator:
+  github: tpmoonchefryan
+package:
+  ecosystem: npm
+  name: dsh-joi-channel-theme
+  version: 0.1.10
+  integrity: sha512-SWZgWmidbzk+DDGfL5if4oTy6jOobRRdNuqlF7OHEzSLb8aiVId68X2WubX0QrBbZeyULeU68QZdwUH5bXPl6Q==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:59.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
