@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: zhuiyueya-dsh-im-gateway
+name: dsh-im-gateway
+description:
+  en: <h3 align="center" Connect DeepSeek Harness to every chat app you use</h3 <p align="center" Aggregated IM gateway for <b DeepSeek Harness (dsh)</b — drive your coding agents from <b WeChat, Feishu, Telegram, Discord, QQ</b and 25+ chat platforms, with unified sessions, remote approvals, interactive questions and one-co
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - align
+  - center
+  - connect
+  - every
+  - chat
+  - aggregated
+  - gateway
+  - drive
+  - coding
+  - agents
+  - wechat
+  - feishu
+  - telegram
+  - discord
+  - platforms
+  - unified
+source:
+  repository: https://github.com/zhuiyueya/dsh-im-gateway
+  repositoryNodeId: R_kgDOT3_0vQ
+  subpath: null
+  commit: c907dd55876230f1cb69687844cbc2e5d3ff4b2f
+creator:
+  github: zhuiyueya
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:17.629Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 32
+provenance:
+  discussion: null
+  comment: null
