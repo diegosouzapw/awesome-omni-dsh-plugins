@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 0xsline-dsh-spotlight
+name: "@0xsline/dsh-spotlight"
+description:
+  en: Keyboard-first command palette for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - keyboard
+  - first
+  - command
+  - palette
+  - dsh
+source:
+  repository: https://github.com/0xsline/dsh-spotlight
+  repositoryNodeId: R_kgDOT3YMUg
+  subpath: null
+  commit: dd7ef5ed160aa1a624559de16eafd4ea9406d7ed
+creator:
+  github: 0xsline
+package:
+  ecosystem: npm
+  name: "@0xsline/dsh-spotlight"
+  version: 0.0.2
+  integrity: sha512-xqJyEjLjFShNgliG1TCHJf0umTZzW12byg4YKAJ8r+SeZsJ+D733+lPmzHkX7mKu6rjF35d5e1iypesiEkaqTQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:18.218Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
