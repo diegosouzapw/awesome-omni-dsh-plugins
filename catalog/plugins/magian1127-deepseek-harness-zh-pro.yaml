@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: magian1127-deepseek-harness-zh-pro
+name: deepseek-harness-zh_pro
+description:
+  en: A comprehensive enhancement plugin for DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chinese
+  - zh
+  - enhancement
+source:
+  repository: https://github.com/magian1127/deepseek-harness-zh_pro
+  repositoryNodeId: R_kgDOT5B4eQ
+  subpath: null
+  commit: 820977146097983c5a7f130454d4d9e452d49535
+creator:
+  github: magian1127
+package:
+  ecosystem: npm
+  name: deepseek-harness-zh_pro
+  version: 0.7.0
+  integrity: sha512-m8A0VT1teV/8VpGd6TExdpFXsrYC8H9bfwhgi51heHkgADopZawFZM/kbprquTZPtr0WCe0lJRMHBn8TOb8Drg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:22.728Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 17
+provenance:
+  discussion: null
+  comment: null
