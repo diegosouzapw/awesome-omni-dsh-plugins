@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: sluminositys-dsh-nested-followups
+name: dsh-nested-followups
+description:
+  en: Message-level nested follow-up branches for DeepSeek Harness conversations.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - conversation
+  - follow-up
+  - branching
+  - tree-view
+source:
+  repository: https://github.com/sluminositys/dsh-nested-followups
+  repositoryNodeId: R_kgDOT9EZWQ
+  subpath: null
+  commit: 8d1ceea56253b2fbd146014a7423a8676fbeb3e8
+creator:
+  github: sluminositys
+package:
+  ecosystem: npm
+  name: dsh-nested-followups
+  version: 0.2.1
+  integrity: sha512-g2IU//k0mxcD1C/G4uo3lGk7AlwHcAUu/tFUrcZ8uTCQeGDeFqk8p3sL0HogLmOFtdhSFn022b9lwOb+fgaqEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:30.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
