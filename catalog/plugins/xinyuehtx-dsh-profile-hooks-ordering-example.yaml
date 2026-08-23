@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xinyuehtx-dsh-profile-hooks-ordering-example
+name: dsh-profile-hooks-ordering-example
+description:
+  en: Example dsh profile that pulls in @tengxiaohtx/dsh-plugin-hooks-ordering
+  evidencePath: examples/dsh-profile/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - example
+  - profile
+  - pulls
+  - tengxiaohtx
+  - hooks
+  - ordering
+  - dsh
+source:
+  repository: https://github.com/xinyuehtx/dsh-plugin-hooks-ordering
+  repositoryNodeId: R_kgDOT6xUFQ
+  subpath: examples/dsh-profile
+  commit: a56532dbf7662d8d93b7f1c5f0bf6e407fab4b8b
+creator:
+  github: xinyuehtx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: examples/dsh-profile/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:21.533Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
