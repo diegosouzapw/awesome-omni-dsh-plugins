@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: finiking-dsh-openpencil
+name: "@zseven-w/dsh-openpencil"
+description:
+  en: Preview, inspect, and edit real .op OpenPencil design documents inside DSH conversations — headless rendering, a read-only canvas, and a managed editor.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - openpencil
+  - design
+source:
+  repository: https://github.com/ZSeven-W/dsh-openpencil
+  repositoryNodeId: R_kgDOT2fy8g
+  subpath: null
+  commit: 0475b8d130357a973ac34e6da2c0000afff1f217
+creator:
+  github: finiking
+package:
+  ecosystem: npm
+  name: "@zseven-w/dsh-openpencil"
+  version: 0.1.0-rc.1
+  integrity: sha512-0equagOeBdSpaEfgH2UnxykoDDAA1UxRHCzscMVNktha6xWQPT7+NhA7aBaH4HhGPP0MAqXznMrF5g2v4kxQIg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:07.982Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 147
+provenance:
+  discussion: null
+  comment: null
