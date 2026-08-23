@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: linhut-gongwen-skill
+name: gongwen-skill
+description:
+  en: bash git clone https://github.com/linhut/gongwen-skill.git cd gongwen-skill pip install -r requirements.txt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - chinese
+  - document
+  - government
+  - format
+  - gb-t-9704
+  - docx
+  - official-document
+  - dsh
+  - deepseek-harness
+  - skill
+  - cordis
+  - config-panel
+source:
+  repository: https://github.com/linhut/gongwen-skill
+  repositoryNodeId: R_kgDOTeG1GQ
+  subpath: null
+  commit: a4d744768493aa242ccc1c16ececbdc4e722c37e
+creator:
+  github: linhut
+package:
+  ecosystem: npm
+  name: gongwen-skill
+  version: 2.1.0
+  integrity: sha512-dQRkeWuAmbDaTaqSbT9BML488qGqTaef1a4jH8uCiRh0ryoa9sHFQeib+yFoHUWhi+WnUWdmVmdk4xkeG5NB0g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:24.437Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
