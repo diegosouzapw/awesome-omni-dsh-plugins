@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: amlyczz-dsh-lark-link
+name: dsh-lark-link
+description:
+  en: High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session logs, reusable DSH Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - feishu
+  - lark
+  - bridge
+  - bot
+source:
+  repository: https://github.com/amlyczz/dsh-lark-link
+  repositoryNodeId: R_kgDOT3sk0Q
+  subpath: null
+  commit: 36c3295af81f13a641538e97c0e3e79c07423cdd
+creator:
+  github: amlyczz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:41.640Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 27
+provenance:
+  discussion: null
+  comment: null
