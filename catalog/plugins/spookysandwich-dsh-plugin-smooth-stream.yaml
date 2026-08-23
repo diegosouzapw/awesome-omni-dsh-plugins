@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: spookysandwich-dsh-plugin-smooth-stream
+name: dsh-plugin-smooth-stream
+description:
+  en: "DeepSeek Harness plugin: paragraph-batched streaming reveals with 8 designed animations, smooth scroll-follow and a settings panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis-plugin
+source:
+  repository: https://github.com/SpookySandwich/dsh-plugin-smooth-stream
+  repositoryNodeId: R_kgDOT4rJgw
+  subpath: null
+  commit: 93b1e816c0336310b7c362bfc67d7b53da7a6861
+creator:
+  github: SpookySandwich
+package:
+  ecosystem: npm
+  name: dsh-plugin-smooth-stream
+  version: 1.1.1
+  integrity: sha512-MNd2P2YrV0qF2FP9FL56N9NikXBAt9/kTZnS9ONWbiinTazgtl7VuwmSdjNlEJR94VfDS09xWohrZ6FyRDBYFw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:29.184Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
