@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: w2112515-dsh-plugin-marketplace
+name: "@w2112515/dsh-plugin-marketplace"
+description:
+  en: Out-of-tree installable plugin marketplace bundle for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - tree
+  - installable
+  - marketplace
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/w2112515/dsh-plugin-marketplace
+  repositoryNodeId: R_kgDOT48pbw
+  subpath: null
+  commit: 142311b6cc8a75a1a507efe122f057d11d559fa2
+creator:
+  github: w2112515
+package:
+  ecosystem: npm
+  name: "@w2112515/dsh-plugin-marketplace"
+  version: 0.2.4
+  integrity: sha512-sai2yNOWG5kDTUx3W5eflRV/Cr4X+3isaAthAKHBzSThYp9Gyo4Ko3PUGblZObnfP/X4vmIQTzZE7RMs+3OwIw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:42.638Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
