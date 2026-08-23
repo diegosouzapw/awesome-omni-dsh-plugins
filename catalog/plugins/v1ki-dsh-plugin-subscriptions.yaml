@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: v1ki-dsh-plugin-subscriptions
+name: dsh-plugin-subscriptions
+description:
+  en: Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers, with OAuth login from the web Settings page
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - llm
+  - oauth
+  - chatgpt
+  - codex
+  - claude
+  - grok
+  - dsh
+source:
+  repository: https://github.com/V1ki/dsh-plugin-subscriptions
+  repositoryNodeId: R_kgDOT4KutA
+  subpath: null
+  commit: 30c08a8a2b13683403e760a93dbe1d6f861e6a41
+creator:
+  github: V1ki
+package:
+  ecosystem: npm
+  name: dsh-plugin-subscriptions
+  version: 0.5.0
+  integrity: sha512-oTZqPjlS5LTETWrKE7TD32QL21kzhp1dzbmK9M5vvd4cBOQX6uo/jTviZlqFnCqR8uH1hb7sKNWbe393u59cyA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:59.883Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 243
+provenance:
+  discussion: null
+  comment: null
