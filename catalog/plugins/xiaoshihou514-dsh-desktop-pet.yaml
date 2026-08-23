@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xiaoshihou514-dsh-desktop-pet
+name: dsh-desktop-pet
+description:
+  en: Linux and Windows desktop companion for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - linux
+  - windows
+  - desktop
+  - companion
+  - dsh
+source:
+  repository: https://github.com/xiaoshihou514/dsh-desktop-pet
+  repositoryNodeId: R_kgDOT39HpA
+  subpath: null
+  commit: 5f0060620d3b25c37c1d725af877f78708672ef5
+creator:
+  github: xiaoshihou514
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:08.360Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
