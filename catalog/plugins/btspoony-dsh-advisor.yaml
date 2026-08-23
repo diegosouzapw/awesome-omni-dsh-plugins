@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: btspoony-dsh-advisor
+name: dsh-advisor
+description:
+  en: "dsh plugin bundle porting the omp advisor subsystem: a per-session reviewer model that observes the primary transcript and injects severity-ranked advice (nit/concern/blocker)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+source:
+  repository: https://github.com/omdsh-dev/dsh-advisor
+  repositoryNodeId: R_kgDOTxd6Kg
+  subpath: null
+  commit: afe8bdbf17a83826cd6fdfc3b21e9850ecc43395
+creator:
+  github: btspoony
+package:
+  ecosystem: npm
+  name: dsh-advisor
+  version: 0.2.4
+  integrity: sha512-42xAc7vBDKaEdHnl7PiT6Xfs4SkKTXS3/iC1sNbb1N9oYr+YFJAI5HHhgBbUtYCxiXW+zdEXeqV42tXUdRgjpA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:21.151Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null
