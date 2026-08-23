@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kunjinkao-os-dsh-mobile-gui-agent
+name: dsh-mobile-gui-agent
+description:
+  en: Android Mobile GUI Agent plugin for DeepSeek Harness with ADB control, verified iterative actions, approval, and a Web mobile view
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - android
+  - adb
+  - gui-agent
+  - mobile-automation
+source:
+  repository: https://github.com/kunjinkao-os/dsh-mobile-gui-agent
+  repositoryNodeId: R_kgDOT4JgFw
+  subpath: null
+  commit: 8083e27f877a4b6290bb34a65586200750151ce1
+creator:
+  github: kunjinkao-os
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:48.541Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
