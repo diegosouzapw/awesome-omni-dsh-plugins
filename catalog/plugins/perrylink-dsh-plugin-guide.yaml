@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: perrylink-dsh-plugin-guide
+name: dsh-plugin-guide
+description:
+  en: "The dsh-plugin-guide knowledge base as an installable DeepSeek Harness plugin: official docs, Cordis primer, community deep-dives, and battle-tested pitfalls registered as an on-demand agent skill."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - agent-skill
+  - plugin-development
+  - knowledge-base
+source:
+  repository: https://github.com/PerryLink/dsh-plugin-guide
+  repositoryNodeId: R_kgDOT3lVQw
+  subpath: null
+  commit: 6f9b50d72cbf101995063654d2c64a39ebc73720
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-plugin-guide
+  version: 0.1.1
+  integrity: sha512-RZ4BByoUzyS7xsvl05NLQyOnrFebQBKsS4uOV7Pwqn+GlMsgQsbIu3cFNae6+Ips4jXSHpjVqRwNdtEY4V7gTw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:23.363Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 28
+provenance:
+  discussion: null
+  comment: null
