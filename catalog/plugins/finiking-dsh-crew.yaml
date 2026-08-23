@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: finiking-dsh-crew
+name: "@zseven-w/dsh-crew"
+description:
+  en: "DeepSeek Harness plugin: dispatch work to DSH agents from Claude Code / Codex, as native subagents with live progress"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - claude-code
+  - codex
+  - subagent
+  - worker
+  - multimodal
+  - agent
+source:
+  repository: https://github.com/ZSeven-W/dsh-crew
+  repositoryNodeId: R_kgDOT6LH3Q
+  subpath: null
+  commit: 6eace6f69525da7c984427dd7b97d629a904ae3e
+creator:
+  github: finiking
+package:
+  ecosystem: npm
+  name: "@zseven-w/dsh-crew"
+  version: 0.1.0-rc.3
+  integrity: sha512-B3c/j+3hts6dz8zEyptZw32uIVMm1vLI+sdtN0I49dJXGL51dSeqB9tz1yGtozTf0j2xUndy0lKZ11Q3jeWkXA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:32.472Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 101
+provenance:
+  discussion: null
+  comment: null
