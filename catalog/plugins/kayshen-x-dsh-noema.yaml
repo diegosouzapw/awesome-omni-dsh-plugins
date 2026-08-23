@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kayshen-x-dsh-noema
+name: "@zseven-w/dsh-noema"
+description:
+  en: "Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools and a settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - noema
+  - memory
+  - agent
+source:
+  repository: https://github.com/ZSeven-W/dsh-noema
+  repositoryNodeId: R_kgDOT4XHhg
+  subpath: null
+  commit: 77f3a0c426440499d96b2cf9b7fa0c9ca3b5f4a6
+creator:
+  github: Kayshen-X
+package:
+  ecosystem: npm
+  name: "@zseven-w/dsh-noema"
+  version: 0.1.0-rc.2
+  integrity: sha512-c6leET/aLddICgknf+//nZ8b1Kl9X378ZHNgSFOGL/rerkRfQ7njcAwqmRhShVG+S+R6UB4DSnsTvw798Ywgdw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:11.201Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 121
+provenance:
+  discussion: null
+  comment: null
