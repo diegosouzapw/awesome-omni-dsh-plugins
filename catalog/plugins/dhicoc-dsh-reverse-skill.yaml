@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dhicoc-dsh-reverse-skill
+name: "@dhicoc/dsh-reverse-skill"
+description:
+  en: Complete reverse-skill (85 skills) as a DeepSeek Harness Cordis plugin — reverse engineering, authorized pentesting and security research skill router pack.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - cordis
+  - skill
+  - reverse-engineering
+  - pentest
+  - security-research
+  - ctf
+source:
+  repository: https://github.com/dhicoc/dsh-reverse-skill
+  repositoryNodeId: R_kgDOT4Z_zQ
+  subpath: null
+  commit: 514122407a423c07326c47b67ab1550c3e59d29c
+creator:
+  github: dhicoc
+package:
+  ecosystem: npm
+  name: "@dhicoc/dsh-reverse-skill"
+  version: 1.0.3
+  integrity: sha512-dwOjgIlEvkp8S0NyC4jhChGFj12l8A0ejt1H8S15auIiAAyN7TLhXbh/hp5Dl6wbOkCbtrt8IQxuEQgCxiMLMA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:46.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 66
+provenance:
+  discussion: null
+  comment: null
