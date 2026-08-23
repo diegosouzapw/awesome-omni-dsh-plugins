@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: urzeye-dsh-outline
+name: dsh-outline
+description:
+  en: "DSH web plugin: a realtime conversation outline panel (user questions + markdown headings) for the DeepSeek Harness Web GUI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - realtime
+  - conversation
+  - outline
+  - panel
+  - user
+  - questions
+  - markdown
+  - headings
+  - dsh
+source:
+  repository: https://github.com/urzeye/dsh-outline
+  repositoryNodeId: R_kgDOT4P1Ow
+  subpath: null
+  commit: 2978994bca5fa8b86fcaac245da1f9e6135ac66f
+creator:
+  github: urzeye
+package:
+  ecosystem: npm
+  name: dsh-outline
+  version: 0.1.5
+  integrity: sha512-0UF3mbJg45Rca0Lx4g7PRj1TmLH0H1maePJCw8v54/WKhkHsqlxJyM/eMMWXO49O4Ir431QGLQ8gAA/s+/kemQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:25.674Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
