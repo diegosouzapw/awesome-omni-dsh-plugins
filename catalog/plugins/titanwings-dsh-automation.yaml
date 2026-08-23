@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: titanwings-dsh-automation
+name: "@dsh-external/dsh-automation"
+description:
+  en: Run coding tasks on schedule in fresh Agent sessions, and manage automations from DeepSeek Harness Web or an Agent
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - automation
+  - scheduled-task
+  - coding-agent
+  - cordis
+source:
+  repository: https://github.com/titanwings/dsh-automation
+  repositoryNodeId: R_kgDOT3ZClQ
+  subpath: null
+  commit: f8f43b2873a3f9dd57d86d61eb401770b2bc9ca5
+creator:
+  github: titanwings
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:41.080Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 72
+provenance:
+  discussion: null
+  comment: null
