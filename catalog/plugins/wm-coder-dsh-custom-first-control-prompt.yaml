@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: wm-coder-dsh-custom-first-control-prompt
+name: "@wm-coders/dsh-custom-first-control-prompt"
+description:
+  en: "Deployment-configured prompt prefix for DeepSeek Harness: ordered system-prompt sections ahead of the persona and reference user/assistant exchanges injected into every ordinary conversation request as real alternating messages (request-path interception, zero session-log writes)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deployment
+  - configured
+  - prompt
+  - prefix
+  - ordered
+  - system
+  - sections
+  - ahead
+  - persona
+  - reference
+  - user
+  - assistant
+  - exchanges
+  - injected
+  - every
+  - ordinary
+source:
+  repository: https://github.com/WM-CODER/custom-first-control-prompt
+  repositoryNodeId: R_kgDOT5YdJg
+  subpath: null
+  commit: d2c9a0535c452a9eb1928b76e6b21da5337f9eb2
+creator:
+  github: WM-CODER
+package:
+  ecosystem: npm
+  name: "@wm-coders/dsh-custom-first-control-prompt"
+  version: 0.2.3
+  integrity: sha512-KMqQkAc9TicsjYHH6Ho2djP/HWYwZBOSGKZOz4tavS2fBf4Ee7Jiep/IF/eK6qdav0XRZjWhYg687PiGvS3Ujg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:16.654Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null
