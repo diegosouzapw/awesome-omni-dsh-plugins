@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yzend-dsh-plugin-marketplace
+name: "@springbrand/dsh-plugin-marketplace"
+description:
+  en: A visual plugin marketplace for DeepSeek Harness profiles.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - marketplace
+source:
+  repository: https://github.com/springbrand-lab/dsh-plugin-market
+  repositoryNodeId: R_kgDOT5aw8g
+  subpath: null
+  commit: 183527a7c700ed2fb2f2698197756fec9227a6d4
+creator:
+  github: yzend
+package:
+  ecosystem: npm
+  name: "@springbrand/dsh-plugin-marketplace"
+  version: 1.0.8
+  integrity: sha512-ILtmUFJh7T5ihVGmdyZDOOZYhVEbZKVAJm9AKBqHN6ZBPtdEbrK1Mh/FFgLEK/u685GpfsY1e0Ah68cw/3PD6Q==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:08.473Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
