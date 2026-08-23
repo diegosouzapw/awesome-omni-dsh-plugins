@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: vlln-whale-girl
+name: whale-girl
+description:
+  en: '<p align="center" <strong A desktop pet in the DSH Web GUI (QQ-pet style)</strong <br/ A persistent companion floating bottom-right: draggable, feedable, playable — completed tasks, sessions, and companionship time accrue into seniority levels, titles, and memories. </p'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - align
+  - center
+  - strong
+  - desktop
+  - style
+  - persistent
+  - companion
+  - floating
+  - bottom
+  - right
+  - draggable
+  - feedable
+  - playable
+  - completed
+  - tasks
+  - sessions
+source:
+  repository: https://github.com/vlln/whale-girl
+  repositoryNodeId: R_kgDOT0VkJw
+  subpath: null
+  commit: e22e1fd918746e610f7bfb1713cef1e57a56f37c
+creator:
+  github: vlln
+package:
+  ecosystem: npm
+  name: whale-girl
+  version: 0.1.0
+  integrity: sha512-+VmT+lCLJEzq5hpCEWQgom5sE5wzzCxhuEhE2/YXHeSq+w/M2GSU0dKkWGRjegSWu4ePa66pgnaoRfWPSP9z1A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:55.806Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 267
+provenance:
+  discussion: null
+  comment: null
