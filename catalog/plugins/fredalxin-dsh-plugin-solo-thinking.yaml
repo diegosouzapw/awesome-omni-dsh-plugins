@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: fredalxin-dsh-plugin-solo-thinking
+name: dsh-plugin-solo-thinking
+description:
+  en: Solo-style isolated brainstorm branches and Handoffs for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - brainstorm
+  - solo-thinking
+  - handoff
+  - multi-agent
+source:
+  repository: https://github.com/fredalxin/dsh-solo-thinking
+  repositoryNodeId: R_kgDOT4fWlg
+  subpath: null
+  commit: a77f3bb45ae8557df8a849e03ca0ed0b2d1a9e5d
+creator:
+  github: fredalxin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:01.573Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null
