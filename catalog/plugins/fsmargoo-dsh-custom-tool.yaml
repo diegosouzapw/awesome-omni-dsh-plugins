@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fsmargoo-dsh-custom-tool
+name: dsh-custom-tool
+description:
+  en: "DSH custom tools: manage user-defined JavaScript tools in the settings UI with a Monaco editor; the model creates its own tools through custom tool create"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - custom
+  - tools
+  - manage
+  - user
+  - defined
+  - javascript
+  - settings
+  - monaco
+  - editor
+  - model
+  - creates
+  - through
+  - tool
+  - create
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-custom-tool
+  repositoryNodeId: R_kgDOT3UCWw
+  subpath: null
+  commit: 7cb95649dca9b380c9a30af96bdbef87a76a2259
+creator:
+  github: FSMargoo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:34.342Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
