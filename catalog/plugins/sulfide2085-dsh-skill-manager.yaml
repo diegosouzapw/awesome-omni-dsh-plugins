@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sulfide2085-dsh-skill-manager
+name: dsh-skill-manager
+description:
+  en: One panel to manage every skill across DSH, Codex and Claude — hot-toggle, discover & install from GitHub skill marketplaces, or import from a local ZIP, all live without restart.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - panel
+  - manage
+  - every
+  - skill
+  - across
+  - codex
+  - claude
+  - toggle
+  - discover
+  - install
+  - marketplaces
+  - import
+  - local
+  - live
+  - without
+  - restart
+source:
+  repository: https://github.com/sulfide2085/dsh-skill-manager
+  repositoryNodeId: R_kgDOT4YmmQ
+  subpath: null
+  commit: 5f19e7f9afac64afe8a118d9b1771145d421fbaf
+creator:
+  github: sulfide2085
+package:
+  ecosystem: npm
+  name: dsh-skill-manager
+  version: 0.1.0
+  integrity: sha512-zKN8dqckvT0E6F4cPFnk2+3Hv60aQa2Bi//UMT7oax/edFenGndX6kINua8axOk2LbGZM1lgrMhMLgDeqUQySQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:30.621Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
