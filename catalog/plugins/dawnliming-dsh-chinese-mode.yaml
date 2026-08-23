@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: dawnliming-dsh-chinese-mode
+name: dsh-chinese-mode
+description:
+  en: "A global Simplified-Chinese mode plugin for DeepSeek Harness Web: a compact Chinese Mode pill beside the permission selector in the input box, which injects language requirements into the system prompt of any preset when enabled."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - chinese
+  - zh
+source:
+  repository: https://github.com/dawnliming/dsh-chinese-mode
+  repositoryNodeId: R_kgDOT5vY1w
+  subpath: null
+  commit: 830f1fce7f199c0683311c3c5afe251a5d869af0
+creator:
+  github: dawnliming
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:27.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
