@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: xiehuan123-dsh-deepread
+name: dsh-deepread
+description:
+  en: "AI deep-reading assistant for DeepSeek Harness and dsh-TUI: extract traceable claims, evidence, confidence levels, knowledge maps, and review questions from articles, books, PDFs, files, URLs, or pasted text."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - deep-read
+  - deep-reading
+  - reading
+  - reading-companion
+  - article
+  - book
+  - summarization
+  - analysis
+  - knowledge-map
+  - mindmap
+  - feynman
+  - study
+  - pdf
+  - markdown
+source:
+  repository: https://github.com/xiehuan123/dsh-deepread
+  repositoryNodeId: R_kgDOT5FWUA
+  subpath: null
+  commit: 70222c0ffcb79e6e231609bc89ad589505c136ef
+creator:
+  github: xiehuan123
+package:
+  ecosystem: npm
+  name: dsh-deepread
+  version: 1.0.0
+  integrity: sha512-C4y6JABHhMV7eyQajiGREx97i9Hr4fTInIK37GClsim14B9ad70M58b1Iilj+ZO2y0Dgq7EfDZdnId9gHBLQgg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:28.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 37
+provenance:
+  discussion: null
+  comment: null
