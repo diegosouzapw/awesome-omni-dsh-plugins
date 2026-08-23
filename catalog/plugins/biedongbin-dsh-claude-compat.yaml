@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: biedongbin-dsh-claude-compat
+name: dsh-claude-compat
+description:
+  en: "DeepSeek Harness plugin: bridge Claude Code's .claude/ directories (project and ~/.claude: skills, commands, rules) into DSH native skill registry and message-stream rules injection."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - claude-code
+  - claude
+  - skills
+  - slash-commands
+  - rules
+source:
+  repository: https://github.com/biedongbin/dsh-claude-compat
+  repositoryNodeId: R_kgDOT4GRQw
+  subpath: null
+  commit: 8bf769fe70c299ee359787364cd0a9fbe90b01f1
+creator:
+  github: biedongbin
+package:
+  ecosystem: npm
+  name: dsh-claude-compat
+  version: 0.7.0
+  integrity: sha512-fleQHf7VIbLX0SU/JxyqTJQwsQAfceo9ETH0SddxZS3juYIxJcWtOuTuRzBu3a9ezme6IOH5/T1tNIIcrb44UQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:21.284Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
