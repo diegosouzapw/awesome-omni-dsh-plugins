@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: grivn-dsh-mnemon
+name: dsh-mnemon
+description:
+  en: "Three-tier memory control plane for DeepSeek Harness: persistent runtime context, searchable project documents, pluggable long-term memory, smart routing, supervised agent workflows, WebUI, and headless tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh-plugin
+  - agent-memory
+  - llm-memory
+  - persistent-memory
+  - long-term-memory
+  - runtime-memory
+  - working-memory
+  - cross-session-memory
+  - multi-agent-memory
+  - shared-agent-memory
+  - memory-orchestration
+  - memory-provider
+  - pluggable-memory
+  - context-management
+source:
+  repository: https://github.com/omdsh-dev/dsh-mnemon
+  repositoryNodeId: R_kgDOTz1oiA
+  subpath: null
+  commit: 97019cb91cdbda78b26b92d89ec59dd2b2138ca8
+creator:
+  github: Grivn
+package:
+  ecosystem: npm
+  name: dsh-mnemon
+  version: 0.2.14
+  integrity: sha512-cleCeAHxuQGETanJtg+CUkMC0Xp763+vus3mu1vcgvUJvTwCGIM8Sem7mGbB8KvZhi9c6VGZJyr3L0ThFj83Jw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:04.463Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 178
+provenance:
+  discussion: null
+  comment: null
