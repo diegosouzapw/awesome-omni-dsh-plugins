@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: meredith2328-dsh-sticky-note
+name: dsh-sticky-note
+description:
+  en: sh dsh plugin --profile web add dsh-sticky-note
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - profile
+  - sticky
+  - note
+  - dsh
+source:
+  repository: https://github.com/Meredith2328/dsh-sticky-note
+  repositoryNodeId: R_kgDOT3s9_g
+  subpath: null
+  commit: fcad3d03e049eeb727c90517d567b828c06cbb13
+creator:
+  github: Meredith2328
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:53.090Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
