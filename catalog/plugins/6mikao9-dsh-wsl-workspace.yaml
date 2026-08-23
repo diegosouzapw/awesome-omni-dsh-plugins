@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 6mikao9-dsh-wsl-workspace
+name: dsh-wsl-workspace
+description:
+  en: "WSL workspace support for DeepSeek Harness: add a WSL workspace from the web GUI and run the whole agent session (bash + file tools) inside the WSL distribution, VS Code Remote-WSL style. No toolchain install inside WSL required."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - wsl
+  - workspace
+  - windows
+source:
+  repository: https://github.com/6Mikao9/dsh-wsl-workspace
+  repositoryNodeId: R_kgDOT4ZaUw
+  subpath: null
+  commit: 3861bd984c3877cfca71fb51f81e688e0ef7f238
+creator:
+  github: 6Mikao9
+package:
+  ecosystem: npm
+  name: dsh-wsl-workspace
+  version: 0.2.3
+  integrity: sha512-3L8zcNFLi8WU3OM0nVrm2wLG/6gtKKRzKMPznRIxJ1iAmzALLzkaO/HmVDKJWC0uzdRjZ+f3aKuGk/dVJfwY8g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:19.144Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 35
+provenance:
+  discussion: null
+  comment: null
