@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dddmuc-dsh-free-search
+name: dsh-free-search
+description:
+  en: "Free web search for DeepSeek Harness: 10 engines (Bing/DuckDuckGo/AnySearch/SearXNG/Exa/Tavily/Keenable keyless) + time filtering + platform search + web fetch, with web settings UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web-search
+  - duckduckgo
+  - bing
+  - tavily
+  - exa
+  - keenable
+  - perplexity
+  - search
+  - free
+source:
+  repository: https://github.com/DDDMUC/dsh-free-search
+  repositoryNodeId: R_kgDOT4kVug
+  subpath: null
+  commit: dc88da137813fb55b22918f77c94561b6f1acefa
+creator:
+  github: DDDMUC
+package:
+  ecosystem: npm
+  name: dsh-free-search
+  version: 0.4.11
+  integrity: sha512-4hHSPbSu9MdTtiUGsUjliLUEIiOgvovT2rbB7bLTVVcg8zKrnkyx7GoIj6r7M34XMlgOMRwP5WLkHHWCcqi53A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:09.768Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 48
+provenance:
+  discussion: null
+  comment: null
