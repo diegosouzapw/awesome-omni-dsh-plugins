@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: saya-ch-dsh-mobile
+name: dsh-mobile
+description:
+  en: <p align="center" Secure, live LAN access to DeepSeek Harness from a phone.</p
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - android
+  - lan
+  - mobile
+source:
+  repository: https://github.com/saya-ch/dsh-mobile
+  repositoryNodeId: R_kgDOT4-yyw
+  subpath: null
+  commit: 218cd8b470cdbd43fc44db2219fd950ab3d743b9
+creator:
+  github: saya-ch
+package:
+  ecosystem: npm
+  name: dsh-mobile
+  version: 0.1.0-alpha.36
+  integrity: sha512-lLz9Ok0s/hl8+rvceuomfKAr5mrggsSeZESJjCxltuLCKhNutLEalqOleN58JQaPWAo/xCGP8UwFKGOCc5bVbg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:36.008Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 121
+provenance:
+  discussion: null
+  comment: null
