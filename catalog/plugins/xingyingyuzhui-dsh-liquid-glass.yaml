@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-liquid-glass
+name: dsh-liquid-glass
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-liquid-glass
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - skin
+  - liquid-glass
+  - glassmorphism
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-liquid-glass
+  repositoryNodeId: R_kgDOT5AMbA
+  subpath: null
+  commit: 573a81d66ddff86216a61ebee4c755ed49ae31de
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:02.123Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
