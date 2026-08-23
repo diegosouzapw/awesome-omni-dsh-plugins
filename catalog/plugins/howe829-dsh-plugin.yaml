@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: howe829-dsh-plugin
+name: "@awiki/dsh-plugin"
+description:
+  en: AWiki identity and messaging plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - awiki
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-messaging
+source:
+  repository: https://github.com/AgentConnect/dsh-awiki
+  repositoryNodeId: R_kgDOT4nC7Q
+  subpath: null
+  commit: c8313493399676d5ae33184a20b381833a820b24
+creator:
+  github: Howe829
+package:
+  ecosystem: npm
+  name: "@awiki/dsh-plugin"
+  version: 0.3.0
+  integrity: sha512-ZLgI3LivVKXn/i+7aT3yFLhHKB/bL+7Qaaa5Rrdp8Lnv/guVaML4p6gu3Opl7jG+ut1Ij6o78B8wwFZVieXgfQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:19.943Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
