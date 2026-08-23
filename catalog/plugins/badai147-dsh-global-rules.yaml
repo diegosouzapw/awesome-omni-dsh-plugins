@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: badai147-dsh-global-rules
+name: dsh-global-rules
+description:
+  en: Edit ~/.dsh/AGENTS.md (global rules) from the web settings panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agents
+  - instructions
+source:
+  repository: https://github.com/badai147/dsh-global-rules
+  repositoryNodeId: R_kgDOT45EHg
+  subpath: null
+  commit: 2ed39cc22c636d09ed7b65c30805a523fc713f04
+creator:
+  github: badai147
+package:
+  ecosystem: npm
+  name: dsh-global-rules
+  version: 0.1.0
+  integrity: sha512-UU8aYgUobmtayT5lZCn+Ojjvd5e97qsF6/45Kxk0VAGXmGVxTMW3LVMOIh4DF+NXCJ8c+Ig2rR/A2FT3rR+HpA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:06.048Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
