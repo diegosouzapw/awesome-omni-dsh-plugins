@@ -361,7 +361,7 @@ describe("public repository checks", () => {
       license: { spdx: "MIT" },
       verification: { status: "eligible", checkedAt: "2026-08-23T00:00:00.000Z", repositoryIdentity: "resolved", smokeTest: null },
     } as never;
-    const snapshot = { source: { kind: "directory" }, entries: [entry], diagnostics: [] };
+    const snapshot = { source: { kind: "directory" as const }, entries: [entry], diagnostics: [] };
 
     const strict = harness(snapshot);
     expect(await runCli(["catalog", "docs-check", root], strict.dependencies)).toBe(1);
