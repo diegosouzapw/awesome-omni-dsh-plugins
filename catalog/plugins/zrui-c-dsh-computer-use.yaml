@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zrui-c-dsh-computer-use
+name: dsh-computer-use
+description:
+  en: Text-first browser and background macOS computer use for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - computer-use
+  - macos
+  - browser-automation
+  - accessibility
+  - desktop-automation
+  - agent-tools
+source:
+  repository: https://github.com/ZRui-C/dsh-computer-use
+  repositoryNodeId: R_kgDOT4SWEQ
+  subpath: null
+  commit: 0b0a0844018b56a6a8e95aefea6529004b8341c4
+creator:
+  github: ZRui-C
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:54.051Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null
