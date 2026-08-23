@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 940842546-dsh-usage-billing
+name: dsh-usage-billing
+description:
+  en: "A build-free dual-face plugin for DeepSeek Harness: tracks every DeepSeek model call across all sessions, bills them by official pricing, and provides charted usage panels on the main UI and the settings page."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - usage
+  - cost
+  - billing
+  - stats
+source:
+  repository: https://github.com/940842546/dsh-usage-billing
+  repositoryNodeId: R_kgDOT4KIGg
+  subpath: null
+  commit: 5c6ef5b0d3d10653429bbba67dcf98877125bb92
+creator:
+  github: "940842546"
+package:
+  ecosystem: npm
+  name: dsh-usage-billing
+  version: 0.4.0
+  integrity: sha512-isEZgWGje0lyYFZJe5V76VVFGC7FKjP5oVtLmPgnf1x7LEEgox+7WMo68DWJWCAD4DjhG8W6M1XriebcxmV5zA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:35.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
