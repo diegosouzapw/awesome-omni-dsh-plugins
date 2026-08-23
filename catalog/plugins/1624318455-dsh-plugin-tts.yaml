@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: 1624318455-dsh-plugin-tts
+name: "@dsh-external/dsh-plugin-tts"
+description:
+  en: "- 中文 README （简体中文） - RVC Custom Voice Guide — custom voices · chunked progressive playback · compact index · voice packs · portable runtime - User Guide (执行手册) — step-by-step, for first-time users - Adaptive chunked playback design — how gapless long reads work"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - custom
+  - voice
+  - guide
+  - voices
+  - chunked
+  - progressive
+  - playback
+  - compact
+  - index
+  - packs
+  - portable
+  - runtime
+  - user
+  - step
+  - first
+  - time
+source:
+  repository: https://github.com/1624318455/dsh-plugin-tts
+  repositoryNodeId: R_kgDOT48FpA
+  subpath: null
+  commit: 136ed935bcaa741e623164dd7f9328f1bfce5481
+creator:
+  github: "1624318455"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:33.555Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
