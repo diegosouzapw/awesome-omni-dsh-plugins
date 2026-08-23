@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-security-audit
+name: "@deepseek-ai/dsh-security-audit"
+description:
+  en: "DSH local security audit tool: read-only scans of config, credential metadata, plugin provenance, session structure and network exposure; redacted, reproducible, locatable risk reports"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - local
+  - security
+  - audit
+  - tool
+  - read
+  - only
+  - scans
+  - config
+  - credential
+  - metadata
+  - provenance
+  - session
+  - structure
+  - network
+  - exposure
+  - redacted
+source:
+  repository: https://github.com/omdsh-dev/dsh-security-audit
+  repositoryNodeId: R_kgDOTz73PA
+  subpath: null
+  commit: bcf475cf753893bd06f3bfae4cf18f3e136a321b
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:28.652Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
