@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 1na-ko-dsh-hdc-bridge
+name: dsh-hdc-bridge
+description:
+  en: "DSH-native HarmonyOS dev-assistant plugin: hdc device bridge with a live device panel, official-first versioned API docs (SDK .d.ts + offline bundled Tier-1 knowledge), and an optional DevEco CLI backend for build/sign/lint."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - harmonyos
+  - openharmony
+  - arkts
+  - hdc
+  - agent
+source:
+  repository: https://github.com/1na-ko/dsh-hdc-bridge
+  repositoryNodeId: R_kgDOT3fowA
+  subpath: null
+  commit: 41b9cf65c2c6571aad27d140d922448082fa965b
+creator:
+  github: 1na-ko
+package:
+  ecosystem: npm
+  name: dsh-hdc-bridge
+  version: 0.7.2
+  integrity: sha512-k0uXupSnCpOxQKAc9/oUSBzF6M9f1K5TXIQd4pQKXiMkT98xt44R0HmJeT2gtFtQx+uEGBwHrIXG+WTNP5M7lw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:45.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
