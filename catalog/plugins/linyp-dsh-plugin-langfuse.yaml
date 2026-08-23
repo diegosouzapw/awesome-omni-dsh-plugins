@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: linyp-dsh-plugin-langfuse
+name: dsh-plugin-langfuse
+description:
+  en: "Langfuse observability for DeepSeek Harness: OpenTelemetry traces, compaction, feedback Scores, and fork lineage"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - langfuse
+  - opentelemetry
+  - observability
+  - llm-tracing
+  - dsh
+source:
+  repository: https://github.com/linyp/dsh-plugin-langfuse
+  repositoryNodeId: R_kgDOT4AArA
+  subpath: null
+  commit: 42f3e20a1e8a2a90b9dde96b70c6c5ac70f8609e
+creator:
+  github: linyp
+package:
+  ecosystem: npm
+  name: dsh-plugin-langfuse
+  version: 0.5.1
+  integrity: sha512-xBDu5FPAncdos8TVnXTKjV/FzaXaqe5nTLzPpgf0KF6oE9SPmQbhCAGhDxrA5OeDR1EytqqipWqV4yxfiGA4KA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:09.112Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
