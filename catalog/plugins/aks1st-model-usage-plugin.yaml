@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-model-usage-plugin
+name: model-usage-plugin
+description:
+  en: Per-model token usage, cost estimation and DeepSeek account balance for the DeepSeek Harness Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - tokens
+  - usage
+  - cost
+  - balance
+source:
+  repository: https://github.com/AKS1st/model-usage-plugin
+  repositoryNodeId: R_kgDOT4vqLg
+  subpath: null
+  commit: 62b5c88f574f68623c8096ccdb0e2159452c1565
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:22.166Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
