@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zhijun-dai-dsh-catppuccin
+name: dsh-catppuccin
+description:
+  en: "🐱 Soothing pastel theme for DeepSeek Harness: the four Catppuccin flavors (Latte, Frappé, Macchiato, Mocha) registered into the built-in theme runtime"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - catppuccin
+  - skin
+  - web-ui
+source:
+  repository: https://github.com/zhijun-dai/Catppuccin-dsh-theme
+  repositoryNodeId: R_kgDOT4cdqg
+  subpath: null
+  commit: 9885d3e7ee93ad4c972e92be4b6f301105e73eb4
+creator:
+  github: zhijun-dai
+package:
+  ecosystem: npm
+  name: dsh-catppuccin
+  version: 0.2.1
+  integrity: sha512-jHIB4oeHD07iIIl4kpbZ0n+5FzhGTzWd/jkbY9aWH5PILAostlFyt0NE4G+KDJsxG3kC/oiAUE8qM6j+Sx6LEQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:04.706Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
