@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: liceses-dsh-gitbash-preset
+name: "@icelily/dsh-gitbash-preset"
+description:
+  en: "DeepSeek Harness plugin: installs the 'minimal-gitbash' agent preset — the Windows variant of the shipped minimal preset that routes the bash tool through Git for Windows bash (MSYS), with automatic shell discovery and sandbox-aware gating."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - agent-preset
+  - minimal
+  - git-bash
+  - msys
+  - windows
+source:
+  repository: https://github.com/liceses/dsh-gitbash-preset
+  repositoryNodeId: R_kgDOT43K9A
+  subpath: null
+  commit: db21575b52e249f6a2eeeef0eb9ff92dc72943c8
+creator:
+  github: liceses
+package:
+  ecosystem: npm
+  name: "@icelily/dsh-gitbash-preset"
+  version: 0.1.2
+  integrity: sha512-GOlfDPOM4Vz8PJZqpl+ayD1Wd3h3fpxY4ycwjLLD7ICVYhJRX2H38LwzXkfdz6J6FKEBUCbiooBDL5g4yNN+1Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:06.385Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 134
+provenance:
+  discussion: null
+  comment: null
