@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: pgzxb-dsh-feishu
+name: "@dsh-feishu/dsh-feishu"
+description:
+  en: "The Feishu UI for DeepSeek Harness (dsh) — a dsh-native plugin: live streaming cards, in-card questions & approvals, one-QR setup."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - agent
+  - feishu
+  - lark
+  - surface
+  - bundle
+  - cards
+source:
+  repository: https://github.com/PGZXB/dsh-feishu
+  repositoryNodeId: R_kgDOT4E-GQ
+  subpath: null
+  commit: c58683b6acb39f332a0f9708f2ca2aba4a971572
+creator:
+  github: PGZXB
+package:
+  ecosystem: npm
+  name: "@dsh-feishu/dsh-feishu"
+  version: 0.2.0
+  integrity: sha512-/pdg1ZSpDJxr0ARDJ5JX5KtDSf/AdzBZu3mEM9+tlPX550TZdjokvPPVij9tlODm0NSjzWGIBqjb7mYGLOxKhw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:44.717Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
