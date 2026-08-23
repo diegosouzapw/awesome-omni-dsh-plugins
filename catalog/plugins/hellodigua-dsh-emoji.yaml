@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hellodigua-dsh-emoji
+name: dsh-emoji
+description:
+  en: Tiny semantic inline emoji for DSH Agent responses
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - emoji
+  - inline-emoji
+source:
+  repository: https://github.com/hellodigua/dsh-emoji
+  repositoryNodeId: R_kgDOT2gbBQ
+  subpath: null
+  commit: 96b653a473c978a474dd7d42e86e5b2c79e6dc7c
+creator:
+  github: hellodigua
+package:
+  ecosystem: npm
+  name: dsh-emoji
+  version: 0.3.1
+  integrity: sha512-SbxbvDv2Yf6H9ySHYuRPZw/18oD7v5Ykw6aIez/S8Y61h50IG5GL4JSWKd5jZ761/qSA0TeKaE5PC24TopTYFg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:13.097Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 39
+provenance:
+  discussion: null
+  comment: null
