@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ccq1-dsh-side-panel
+name: "@dsh-external/dsh-side-panel"
+description:
+  en: Git review, terminal, and file workspace panel for DSH Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - review
+  - terminal
+  - file
+  - workspace
+  - panel
+  - dsh
+source:
+  repository: https://github.com/ccq1/dsh-side-panel
+  repositoryNodeId: R_kgDOTxs3Sg
+  subpath: null
+  commit: baca7806714ac577ac529647f105d58a2a10b228
+creator:
+  github: ccq1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:18.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
