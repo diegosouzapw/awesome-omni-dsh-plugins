@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dream12347-dsh-session-manager
+name: dsh-session-manager
+description:
+  en: "Full session management for the DSH web UI: delete (with trash/restore/purge), restore archived sessions, activity stats, continue/pause, fork to a new chat, unread markers, and open log folders. Plus a global context compaction threshold. No harness changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - full
+  - session
+  - management
+  - delete
+  - trash
+  - restore
+  - purge
+  - archived
+  - sessions
+  - activity
+  - stats
+  - continue
+  - pause
+  - fork
+  - chat
+  - unread
+source:
+  repository: https://github.com/dream12347/dsh-session-manager
+  repositoryNodeId: R_kgDOT4dLug
+  subpath: null
+  commit: 751059bb0425ab03f43b8f46f6bfecec5e699a6b
+creator:
+  github: dream12347
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:01.530Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 47
+provenance:
+  discussion: null
+  comment: null
