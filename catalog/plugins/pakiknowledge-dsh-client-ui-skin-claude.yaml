@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: pakiknowledge-dsh-client-ui-skin-claude
+name: "@pakiknowledge/dsh-client-ui-skin-claude"
+description:
+  en: Claude-style skin for the dsh web GUI — warm-black canvas, clay accent, Anthropic Sans UI / Serif body font modes, follows the native light/dark theme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - claude
+  - style
+  - skin
+  - warm
+  - black
+  - canvas
+  - clay
+  - accent
+  - anthropic
+  - sans
+  - serif
+  - body
+  - font
+  - modes
+  - follows
+  - native
+source:
+  repository: https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude
+  repositoryNodeId: R_kgDOT4dHGg
+  subpath: null
+  commit: 4d8fe6cfbff245b44bb8e0effc296ad2b513c9c5
+creator:
+  github: PAKIKNOWLEDGE
+package:
+  ecosystem: npm
+  name: "@pakiknowledge/dsh-client-ui-skin-claude"
+  version: 0.2.0
+  integrity: sha512-bqjyiIVGOpaEgo/tYSELSNLKNIq1QZ9KoIMdXRw5qfihSKAXzoLqs7iRU/wTc0kjMQuIdElOIbyvohBSG1OAIw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:26.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
