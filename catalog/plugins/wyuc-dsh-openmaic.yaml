@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: wyuc-dsh-openmaic
+name: "@openmaic/dsh-openmaic"
+description:
+  en: "OpenMAIC for DeepSeek Harness: generate classrooms and render slides, interactive widgets, teaching cards, plus a Socratic teaching skill"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - openmaic
+  - generate
+  - classrooms
+  - render
+  - slides
+  - interactive
+  - widgets
+  - teaching
+  - cards
+  - plus
+  - socratic
+  - skill
+  - dsh
+source:
+  repository: https://github.com/THU-MAIC/dsh-openmaic
+  repositoryNodeId: R_kgDOT3Y2Ug
+  subpath: null
+  commit: 09c1693cfe83224db89fdd4abd245ac9174d3a05
+creator:
+  github: wyuc
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:58.657Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null
