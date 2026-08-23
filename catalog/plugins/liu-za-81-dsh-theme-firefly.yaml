@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: liu-za-81-dsh-theme-firefly
+name: dsh-theme-firefly
+description:
+  en: 🎬 演示视频（B 站）： https://www.bilibili.com/video/BV1nF8B6QEEj/?spm id from=333.1387.homepage.video card.click&vd source=573abae8b62b8edf27edc7cb8933e1b6
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - theme
+  - firefly
+  - honkai-star-rail
+source:
+  repository: https://github.com/Liu-ZA-81/dsh-theme-firefly
+  repositoryNodeId: R_kgDOT6XhOA
+  subpath: null
+  commit: 0b80edeb88a9aab056de42aace617a40e8f52927
+creator:
+  github: Liu-ZA-81
+package:
+  ecosystem: npm
+  name: dsh-theme-firefly
+  version: 0.1.1
+  integrity: sha512-1XvYmk25XfB5z1bT7Wll1l6W5vP3SLr/Sv7g+49XZprKx+Y4VmyaSi+ujP67y1m1YthwN1yKg8zse3KVdWM7rA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:49.974Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
