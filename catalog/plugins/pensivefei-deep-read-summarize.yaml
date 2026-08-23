@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pensivefei-deep-read-summarize
+name: deep-read-summarize
+description:
+  en: "Deep reading & summarization for DSH: books/papers/videos/web → structured Obsidian notes. Plugin parsers, MapReduce deep-read, JSON Schema output, idempotent cache."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - workflow
+  - summarization
+  - deep-read
+  - obsidian
+  - llm
+  - subagent
+  - mapreduce
+  - parsers
+source:
+  repository: https://github.com/PensiveFei/deep-read-summarize
+  repositoryNodeId: R_kgDOT8o-ig
+  subpath: null
+  commit: 491a7cb0f5ec9e43d4134b7824081b6e172d882c
+creator:
+  github: PensiveFei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:56.605Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null
