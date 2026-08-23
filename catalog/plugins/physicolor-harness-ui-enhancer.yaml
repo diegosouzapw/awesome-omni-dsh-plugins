@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: physicolor-harness-ui-enhancer
+name: harness-ui-enhancer
+description:
+  en: "Web UI polish layer for DeepSeek Harness: normalizes unfinished or self-contradictory official UI, reconciles style conflicts between installed plugins, and unifies the visual language — with live-customizable chat width, markdown font size, workspace scale, UI font stack and a rounded center-column card from Settings "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - polish
+  - layer
+  - normalizes
+  - unfinished
+  - self
+  - contradictory
+  - official
+  - reconciles
+  - style
+  - conflicts
+  - between
+  - installed
+  - unifies
+  - visual
+  - language
+  - live
+source:
+  repository: https://github.com/Physicolor/dsh-ui-harmonizer
+  repositoryNodeId: R_kgDOT5KpSA
+  subpath: null
+  commit: 50d9936fc650eb7ed7da9d5cd8e71caea6655ec6
+creator:
+  github: Physicolor
+package:
+  ecosystem: npm
+  name: harness-ui-enhancer
+  version: 0.6.1
+  integrity: sha512-wxFEZkT0OjssTfmgf/xBU8ST+6omQJfB37z7QEJwKqglQrZJLJBy/QxgAGPMqBugBcQbwmC4m3yl3TEJ4Pp+Pw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:53.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
