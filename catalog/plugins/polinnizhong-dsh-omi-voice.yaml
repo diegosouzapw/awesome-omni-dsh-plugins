@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: polinnizhong-dsh-omi-voice
+name: dsh-omi-voice
+description:
+  en: bash dsh plugin --profile web add "github:PolinniZhong/dsh-omi-voice v0.1.2&path:/"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - bash
+  - profile
+  - polinnizhong
+  - voice
+  - path
+  - dsh
+source:
+  repository: https://github.com/PolinniZhong/dsh-omi-voice
+  repositoryNodeId: R_kgDOT7_WKg
+  subpath: null
+  commit: 92bf49d9bc17fa33eb48485c424d798b6eb5c97d
+creator:
+  github: PolinniZhong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:14.530Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 37
+provenance:
+  discussion: null
+  comment: null
