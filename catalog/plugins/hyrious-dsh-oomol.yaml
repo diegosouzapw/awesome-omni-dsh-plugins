@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: hyrious-dsh-oomol
+name: dsh-oomol
+description:
+  en: "OOMOL Connector integration for DeepSeek Harness: connect apps and call Actions through progressive MCP discovery."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - oomol
+  - connector
+  - agent-tools
+source:
+  repository: https://github.com/oomol-lab/dsh-oomol
+  repositoryNodeId: R_kgDOT5339w
+  subpath: null
+  commit: d84c461cb22068c90fedfc578fa3e38ce58d6ead
+creator:
+  github: hyrious
+package:
+  ecosystem: npm
+  name: dsh-oomol
+  version: 0.1.4
+  integrity: sha512-ZfrqQDpsW+UrdWEuFBchxayHwkG8ltWVLhg3+z/F61pZc8F/YNVCcFmD7qP4YF5xjmPjHzQ3waLfK5HPotunLg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:54.644Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
