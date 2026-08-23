@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: fancyhe1-dsh-science-workbench
+name: dsh-science-workbench
+description:
+  en: "A reproducible science workbench plugin for the DeepSeek Harness: agent-driven cells, inline figures with feedback/rerun, manifest provenance, and environment snapshots."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - bioinformatics
+  - reproducible-research
+  - workbench
+  - jupyter
+  - agent
+source:
+  repository: https://github.com/poplarity/dsh-science-workbench
+  repositoryNodeId: R_kgDOT4Xibw
+  subpath: null
+  commit: a012793b8b9e5961bfa62663e90432d59520c3c2
+creator:
+  github: Fancyhe1
+package:
+  ecosystem: npm
+  name: dsh-science-workbench
+  version: 0.2.0
+  integrity: sha512-JtoWSb5gaT2vyObTPRdJn3MTfB5tgJKnbflPc/JhZNL72/ZJ6z1Hql6wiTWaCVWW+QqN398IJqUFKkTFS3RF4Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:35.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
