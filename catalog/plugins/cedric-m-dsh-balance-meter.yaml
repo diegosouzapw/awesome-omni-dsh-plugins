@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: cedric-m-dsh-balance-meter
+name: dsh-balance-meter
+description:
+  en: Official, proxy-compatible, or locally accounted balance and session-cost readout for the DSH web GUI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - official
+  - proxy
+  - compatible
+  - locally
+  - accounted
+  - balance
+  - session
+  - cost
+  - readout
+  - dsh
+source:
+  repository: https://github.com/Ghost011118/dsh-balance-meter
+  repositoryNodeId: R_kgDOT3q9Aw
+  subpath: null
+  commit: 1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11
+creator:
+  github: Cedric-M
+package:
+  ecosystem: npm
+  name: dsh-balance-meter
+  version: 0.1.0
+  integrity: sha512-skTw/Njkqbm0pDLsBYPXhobf9VZayEa/wiahy0WYPLJBaj4LBGxNSY8wkENmMoHVu7qZC8hZcZlr75WpHrtgOQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:03.257Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
