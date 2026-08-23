@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: william-jin-cmu-dsh-stickers
+name: "@dsh-external/dsh-stickers"
+description:
+  en: bash pnpm install pnpm run typecheck pnpm test pnpm run build
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bash
+  - pnpm
+  - install
+  - typecheck
+  - test
+  - build
+  - dsh
+source:
+  repository: https://github.com/william-jin-cmu/dsh-stickers
+  repositoryNodeId: R_kgDOTyPJHQ
+  subpath: null
+  commit: 1703f09915db1058b6031b31e52fd404560e0a78
+creator:
+  github: william-jin-cmu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:52.837Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null
