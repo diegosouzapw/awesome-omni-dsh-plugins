@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: michengai-dsh-codex-ui
+name: "@michengai/dsh-codex-ui"
+description:
+  en: Rebuild the DeepSeek Harness Web sidebar, workspace tree, search, and turn navigation in a Codex-style layout
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - rebuild
+  - sidebar
+  - workspace
+  - tree
+  - search
+  - turn
+  - navigation
+  - codex
+  - style
+  - layout
+  - dsh
+source:
+  repository: https://github.com/MichengAI/dsh-codex-ui
+  repositoryNodeId: R_kgDOT4iDRA
+  subpath: null
+  commit: 5321915cdc8d1579ab808e409c765eae173cfd46
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-codex-ui"
+  version: 0.2.64
+  integrity: sha512-OOegQFm2X52lsDebE1dYbZ4lKPKnmljchr3CgOFsezXOdc4RSYJBigAB1+AoGq/XFzcuxQc03ziSHwLT5T+S9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:06.071Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null
