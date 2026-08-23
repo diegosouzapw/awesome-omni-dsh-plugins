@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: michengai-dsh-agency-agents
+name: "@michengai/dsh-agency-agents"
+description:
+  en: Agency Experts — a summonable domain-expert roster for DSH (expert mode)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - agency
+  - experts
+  - summonable
+  - domain
+  - expert
+  - roster
+  - mode
+  - dsh
+source:
+  repository: https://github.com/MichengAI/dsh-agency-agents
+  repositoryNodeId: R_kgDOT5GPeg
+  subpath: null
+  commit: d419213ebdce301c39ce170752d26078b075c7ca
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-agency-agents"
+  version: 0.1.20
+  integrity: sha512-AS7r2iIRLOaKjipUqrP0cUkXcSRcaNw6oKIt6K0DY/BGjFxazc9wEk4o7nQkmjquMTeWXx481URBS5I7MDiP9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:36.478Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
