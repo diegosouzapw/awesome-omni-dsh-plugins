@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: unclecode-toolshrink
+name: toolshrink
+description:
+  en: Reduce large agent tool output by what it means, not by where it was cut.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - llm
+  - context
+  - tool-output
+  - truncation
+  - deepseek-harness
+  - claude-code
+  - codex
+  - context-engineering
+  - dsh
+source:
+  repository: https://github.com/unclecode/toolshrink
+  repositoryNodeId: R_kgDOT7K6Eg
+  subpath: null
+  commit: 3d654ab491146dd685f0b47fef94e78a14590860
+creator:
+  github: unclecode
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:15.219Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
