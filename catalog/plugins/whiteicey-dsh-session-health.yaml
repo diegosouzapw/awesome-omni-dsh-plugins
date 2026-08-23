@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-session-health
+name: "@deepseek-ai/dsh-session-health"
+description:
+  en: "DSH session health checker: frame-level diagnostics over multi-frame zstd session logs (torn/corrupt/empty detection), zero-dependency read-only scanner"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - session
+  - health
+  - checker
+  - frame
+  - level
+  - diagnostics
+  - over
+  - multi
+  - zstd
+  - logs
+  - torn
+  - corrupt
+  - empty
+  - detection
+  - zero
+  - dependency
+source:
+  repository: https://github.com/omdsh-dev/dsh-session-health
+  repositoryNodeId: R_kgDOTySM_A
+  subpath: null
+  commit: f4142ba5023721238c0b176b49eaadb245242af2
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:51.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
