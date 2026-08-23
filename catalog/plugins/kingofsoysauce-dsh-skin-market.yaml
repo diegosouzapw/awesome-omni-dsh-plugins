@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kingofsoysauce-dsh-skin-market
+name: dsh-skin-market
+description:
+  en: Native skin marketplace and lifecycle manager for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - native
+  - skin
+  - marketplace
+  - lifecycle
+  - manager
+  - dsh
+source:
+  repository: https://github.com/kingOfSoySauce/dsh-skin-market
+  repositoryNodeId: R_kgDOT6BqBg
+  subpath: null
+  commit: d0b477836f808d576e8c380107dd99337681ac77
+creator:
+  github: kingOfSoySauce
+package:
+  ecosystem: npm
+  name: dsh-skin-market
+  version: 0.1.32
+  integrity: sha512-jn6BAOn3P+Wrpp1Nx+Dzor3ciA88z2Jxazlxr3Tc7CcAzFHlUIfjrxKwWkP5VBlZyZ1dl26YVb8pq3lLtjJgUg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:42.598Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 76
+provenance:
+  discussion: null
+  comment: null
