@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: caoyiwei850-dsh-client-ui-skins
+name: dsh-client-ui-skins
+description:
+  en: "DSH skin plugin: built-in skins + custom image skins, pure client plugin (no source patch)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - skin
+  - built
+  - skins
+  - custom
+  - image
+  - pure
+  - client
+  - source
+  - patch
+  - dsh
+source:
+  repository: https://github.com/caoyiwei850/dsh-client-ui-skins
+  repositoryNodeId: R_kgDOT45Hlg
+  subpath: null
+  commit: cc5b092f1ecc8f9810d83aa2aabb6f70007570bb
+creator:
+  github: caoyiwei850
+package:
+  ecosystem: npm
+  name: dsh-client-ui-skins
+  version: 0.1.11
+  integrity: sha512-iO/PIn8LY1680EqKt8IVExE/4EgcOh5J1BdrZ62RcUqKtY6rdCMbFDzIALHzdQhprnBrlBxy0CfYjNmpHvaODg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:26.343Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
