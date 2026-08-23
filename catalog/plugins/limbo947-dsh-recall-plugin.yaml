@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: limbo947-dsh-recall-plugin
+name: dsh-recall-plugin
+description:
+  en: Recall a message, and your project files go back with it.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - recall
+  - message
+  - files
+  - back
+  - dsh
+source:
+  repository: https://github.com/limbo947/dsh-recall-plugin
+  repositoryNodeId: R_kgDOT4ncMg
+  subpath: null
+  commit: 198f57982ce4d6ebc402b7ccd1180592b27e778b
+creator:
+  github: limbo947
+package:
+  ecosystem: npm
+  name: dsh-recall-plugin
+  version: 1.5.1
+  integrity: sha512-9e1xHAoIZjWQxdOAWscEFkxkNjsj7M8lqia94Vol+FIKU0I9Y4FmbK7ilvUe8zGWGgsb2X4gUhbEgPcsm2Zl5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:32.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null
