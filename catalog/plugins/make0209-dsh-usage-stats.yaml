@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: make0209-dsh-usage-stats
+name: dsh-usage-stats
+description:
+  en: bash dsh plugin --profile web add dsh-usage-stats
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - usage
+  - stats
+  - heatmap
+  - tokens
+  - balance
+source:
+  repository: https://github.com/Make0209/dsh-usage-stats
+  repositoryNodeId: R_kgDOT4cFoQ
+  subpath: null
+  commit: 8992d306cdca8857b4362868d591fde3689765b0
+creator:
+  github: Make0209
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:43.242Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 26
+provenance:
+  discussion: null
+  comment: null
