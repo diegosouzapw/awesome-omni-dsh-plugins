@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: bobleer-dsh-acp-for-bitfun
+name: dsh-acp-for-bitfun
+description:
+  en: "BitFun 与 DSH ACP 交互对接 插件: expose the BitFun agent (https://github.com/GCWing/BitFun) as a subagent provider inside DeepSeek Harness over the Agent Client Protocol"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - bitfun
+  - acp
+  - deepseek-harness
+  - agent-client-protocol
+  - dsh
+source:
+  repository: https://github.com/bobleer/dsh-acp-for-bitfun
+  repositoryNodeId: R_kgDOT3Wc7Q
+  subpath: null
+  commit: 8dedce1ee1a463cfb21e2ac0d8518a8d3c67c5aa
+creator:
+  github: bobleer
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:07.442Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
