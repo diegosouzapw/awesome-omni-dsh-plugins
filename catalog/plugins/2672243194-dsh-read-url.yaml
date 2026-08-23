@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 2672243194-dsh-read-url
+name: dsh-read-url
+description:
+  en: "DeepSeek Harness URL reader: fetch any webpage (HTML/JSON/RSS/Atom), auto-detect encoding (UTF-16 BOM/GBK/Big5/Shift-JIS), extract clean main content with auto-pagination, output compact text/Markdown to save tokens. Zero runtime dependencies, no API key, drop-in."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - readability
+  - web
+  - markdown
+  - reader
+  - url-reader
+source:
+  repository: https://github.com/2672243194/dsh-read-url
+  repositoryNodeId: R_kgDOT5M0nA
+  subpath: null
+  commit: a3e40b2f9ebc5d68a2f46288feee839cb9223565
+creator:
+  github: "2672243194"
+package:
+  ecosystem: npm
+  name: dsh-read-url
+  version: 1.0.0
+  integrity: sha512-yv0Z6wRgY3LE1UNavk2GEmXvY1CGJBd0Fizj5AvzEUYwi5JUOKS3Q1KzxuJKsSmC9mFQEluBh5j8YpDgUy5pMg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:34.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
