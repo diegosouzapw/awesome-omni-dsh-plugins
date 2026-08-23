@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stardustlc666-dsh-codex-port
+name: dsh-codex-port
+description:
+  en: "Move the whole official Codex plugin family into DSH: scan ~/.codex unpacked plugins and plugin caches, then batch-port their skills into DSH skills (automatic frontmatter conversion, codex-only files stripped, name sanitization, idempotent skips)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - codex
+  - skills
+  - migration
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-codex-port
+  repositoryNodeId: R_kgDOT4tVPg
+  subpath: null
+  commit: ee733c77fa9b14a8d97cb2d343144bd34966bea6
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-codex-port
+  version: 0.1.1
+  integrity: sha512-bExur1r2TWX4HyqRonpQmN677MXVfg1SNdu2DI9TIpgiSJpCBu4gUa0N+EsXvhQmIVWG+Lg2owZX4JndSk1MWw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:09.858Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
