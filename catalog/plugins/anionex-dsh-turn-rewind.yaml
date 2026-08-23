@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: anionex-dsh-turn-rewind
+name: "@anionex/dsh-turn-rewind"
+description:
+  en: Turn-level conversation and workspace rewind for DeepSeek Harness, powered by a persistent Change Ledger
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - restore-point
+  - workspace
+  - change-ledger
+  - turn-rewind
+source:
+  repository: https://github.com/Anionex/dsh-turn-rewind
+  repositoryNodeId: R_kgDOT3V_Zg
+  subpath: null
+  commit: b1b85f18aaaaf71d76c84613429ce04d71f69620
+creator:
+  github: Anionex
+package:
+  ecosystem: npm
+  name: "@anionex/dsh-turn-rewind"
+  version: 0.1.1
+  integrity: sha512-pgFXZmvQDynLDDbpSltCTxWEgPOFuvZojuPgWDZ3Em/OlFicoRoHQQbhHRuitvXgVF/t4tvCApaDtAhs0+ZvOg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:30.941Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 96
+provenance:
+  discussion: null
+  comment: null
