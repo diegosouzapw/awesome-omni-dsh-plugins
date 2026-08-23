@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: nanmicoder-dsh-agent-teams
+name: "@nanmicoder/dsh-agent-teams"
+description:
+  en: "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-teams
+  - multi-agent
+  - subagent
+  - ai-agent
+  - llm
+source:
+  repository: https://github.com/NanmiCoder/dsh-agent-teams
+  repositoryNodeId: R_kgDOT2XStg
+  subpath: null
+  commit: 83ef213dd2bdad995afee2461639b08459be704e
+creator:
+  github: NanmiCoder
+package:
+  ecosystem: npm
+  name: "@nanmicoder/dsh-agent-teams"
+  version: 0.1.10
+  integrity: sha512-7G1zvoiyf/++Vo9jzSjsTVsI/WP682vT6BQ6fGvkXuYiYiC0YL1tymlP9s2pqbSiTugF1SC7z9xTCCoKiAZArQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:45.978Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 836
+provenance:
+  discussion: null
+  comment: null
