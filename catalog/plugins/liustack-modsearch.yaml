@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: liustack-modsearch
+name: "@liustack/modsearch"
+description:
+  en: "Plug-in web search, X search, and page fetch for models without native web access. Free out of the box: no signup, no API key (Firecrawl keyless, 1,000 free credits/month)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - search
+  - web-fetch
+  - cli
+  - llm
+  - agent
+  - agent-skill
+  - antigravity
+  - modsearch
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/liustack/modsearch
+  repositoryNodeId: R_kgDORV5PHg
+  subpath: null
+  commit: 05ee10dbc9c99508914e42616ba16790fd642031
+creator:
+  github: liustack
+package:
+  ecosystem: npm
+  name: "@liustack/modsearch"
+  version: 5.8.0
+  integrity: sha512-Y91FUFUxamWl860q6c1Nj3x/1RJWj46LnbRJjp/7grGcBR3m1f6uWS+1IWHf5cJGxIu6mfubroQu6lo8Ef1OHw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:02.866Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 226
+provenance:
+  discussion: null
+  comment: null
