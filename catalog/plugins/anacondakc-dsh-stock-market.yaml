@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: anacondakc-dsh-stock-market
+name: dsh-stock-market
+description:
+  en: DSH Shanghai and Shenzhen A-share market plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - shanghai
+  - shenzhen
+  - share
+  - market
+  - dsh
+source:
+  repository: https://github.com/AnacondaKC/dsh-stock-market
+  repositoryNodeId: R_kgDOT2Jb2A
+  subpath: null
+  commit: 02278af12330102c534c843a668d1c8407dbde1b
+creator:
+  github: AnacondaKC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:16.607Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
