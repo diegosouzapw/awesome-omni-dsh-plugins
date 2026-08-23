@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: rindbeans-dsh-miraculous-standard
+name: dsh-miraculous-standard
+description:
+  en: Miraculous Standard — unified anchored agent preset for DeepSeek V4 Pro/Flash (official API & opencode-go). Minimal-exact two-tool first-request bootstrap, model-aware Pro/Flash paths, unified context gate, epoch-aware catalog management, rc7-ready shell handling.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - agent-preset
+  - preset
+  - miraculous-standard
+  - deepseek-v4-pro
+  - deepseek-v4-flash
+  - opencode-go
+source:
+  repository: https://github.com/rinDBeans/dsh-miraculous-standard
+  repositoryNodeId: R_kgDOT5zagg
+  subpath: null
+  commit: 9b54d1768143709f0718db944e2b01d010874581
+creator:
+  github: rinDBeans
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:13.722Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
