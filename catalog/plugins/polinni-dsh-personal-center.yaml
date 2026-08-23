@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: polinni-dsh-personal-center
+name: dsh-personal-center
+description:
+  en: sh dsh plugin --profile web add github:PolinniZhong/dsh-personal-center
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - polinnizhong
+  - personal
+  - center
+  - dsh
+source:
+  repository: https://github.com/PolinniZhong/dsh-personal-center
+  repositoryNodeId: R_kgDOT9xnkg
+  subpath: null
+  commit: 8362fcce9d4fe5a85948b98641b58f0ca45eff2b
+creator:
+  github: PolinNi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:51.146Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null
