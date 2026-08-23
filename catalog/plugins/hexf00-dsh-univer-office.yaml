@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: hexf00-dsh-univer-office
+name: dsh-univer-office
+description:
+  en: "DSH × Univer integration with a bundled collaboration Gateway and Viewer: inline previews, live floating Worktree windows, and session-end review actions in DeepSeek Harness."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - univer
+  - spreadsheet
+  - preview
+  - worktree
+source:
+  repository: https://github.com/dream-num/dsh-univer-office
+  repositoryNodeId: R_kgDOT5YrFA
+  subpath: null
+  commit: 85113d6fe76a0a0965ca4afd8b5da764eb34a31d
+creator:
+  github: hexf00
+package:
+  ecosystem: npm
+  name: dsh-univer-office
+  version: 0.2.6
+  integrity: sha512-YU3DkyZYsabr0R0hO6nw4AhC3RCdioaArKJ3JCWxrfjSBM/lMEChFdil0QjGmIOYUJAmwDkhXBXulG6+dz7arQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:44.202Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 77
+provenance:
+  discussion: null
+  comment: null
