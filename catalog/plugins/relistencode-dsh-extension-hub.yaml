@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: relistencode-dsh-extension-hub
+name: dsh-extension-hub
+description:
+  en: "Extension Hub for DeepSeek Harness (DSH): manage skills, MCP servers and plugins from the DSH Web settings page — list / create / edit / delete / enable-disable, import from Claude and Codex, manage official & third-party plugins, a Plugin Market with a curated store (npm one-click install) and GitHub discovery, and ke"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - skill
+  - mcp
+  - extension
+  - cordis
+source:
+  repository: https://github.com/Relistencode/dsh-extension-hub
+  repositoryNodeId: R_kgDOT4tCvw
+  subpath: null
+  commit: 514a63215a98ec247f3b2c4b72e1cf05eb3f329d
+creator:
+  github: Relistencode
+package:
+  ecosystem: npm
+  name: dsh-extension-hub
+  version: 0.2.18
+  integrity: sha512-fBmLEuL82JrxmSAoCBt0yf0NtAFeu1g5mfpOnPxR1C8d/gGVf6LbElorMEp2wuXq2lF2dWjJ1A8a1D8lboX2iw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:54.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
