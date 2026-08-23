@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: huanlinoto-dsh-plugin-d399
+name: "@huanlin/dsh-plugin-d399"
+description:
+  en: "src/ ├── index.ts host half: 空 apply ├── invariant.ts 包不变量伴生（空 installer） └── client/ ├── index.tsx apply: provide d399Games 服务 + 注册内置游戏 + 挂载 overlay ├── registry.ts D399GamesService 实现 + Game 类型 ├── useSessionRunning.ts useSyncExternalStore 订阅 current session 的 running ├── D399Overlay.tsx 主组件: teaser / menu / game mod"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/HuanLinOTO/dsh-plugin-d399
+  repositoryNodeId: R_kgDOT0AjRA
+  subpath: null
+  commit: fe5e1179daef7ee68df993654aa687a196bc6a0d
+creator:
+  github: HuanLinOTO
+package:
+  ecosystem: npm
+  name: "@huanlin/dsh-plugin-d399"
+  version: 0.1.1
+  integrity: sha512-VeyxXJ1futke3V5g1ILuI/0tg2525O48rmSA7GfKza/vRzeMbFCYAGQdwxTuYV1q2g0Rq8tkRWtNmqhig79fKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: AGPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:47.025Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
