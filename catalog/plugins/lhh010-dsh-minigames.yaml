@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: lhh010-dsh-minigames
+name: "@dsh-external/dsh-minigames"
+description:
+  en: "Floating mini-games window in the DSH Web UI: a slacking-off companion for killing time while waiting for model replies or fixing bugs."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - floating
+  - mini
+  - games
+  - window
+  - slacking
+  - companion
+  - killing
+  - time
+  - while
+  - waiting
+  - model
+  - replies
+  - fixing
+  - bugs
+  - dsh
+source:
+  repository: https://github.com/lhh010/dsh-minigames
+  repositoryNodeId: R_kgDOT3X1ew
+  subpath: null
+  commit: 4d79c012c60f1be508c388c8319dbff9d1389a65
+creator:
+  github: lhh010
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:26.068Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 26
+provenance:
+  discussion: null
+  comment: null
