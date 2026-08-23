@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: loudmore-dsh-drop-to-path
+name: "@dsh-external/dsh-drop-to-path"
+description:
+  en: Drop or paste images, PDFs, office docs, zips, videos and audio into the DSH composer as workspace file paths instead of model attachments — lets a text-only model agent read them via vision tools.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - drop
+  - paste
+  - images
+  - pdfs
+  - office
+  - docs
+  - zips
+  - videos
+  - audio
+  - composer
+  - workspace
+  - file
+  - paths
+  - instead
+  - model
+  - attachments
+source:
+  repository: https://github.com/loudMore/dsh-drop-to-path
+  repositoryNodeId: R_kgDOT3sspg
+  subpath: null
+  commit: a00a5a2e18fd89e829b1c96f2f2e85af67366e10
+creator:
+  github: loudMore
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:51.993Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
