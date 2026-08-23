@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tiantianflow-dsh-tailscale-gateway
+name: dsh-tailscale-gateway
+description:
+  en: "Private Tailscale access for DeepSeek Harness Web: exact user allowlists, loopback-only gateway, and guarded Serve setup"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - tailscale
+  - serve
+  - reverse-proxy
+  - gateway
+  - websocket
+  - remote-access
+  - security
+source:
+  repository: https://github.com/TiantianFlow/dsh-one-gateway
+  repositoryNodeId: R_kgDOT6PdtQ
+  subpath: null
+  commit: 1a578019dfa2374223e469519e4a1e269d2e8e38
+creator:
+  github: TiantianFlow
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:57.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
