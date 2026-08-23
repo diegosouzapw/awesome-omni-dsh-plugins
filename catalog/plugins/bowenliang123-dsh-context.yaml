@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bowenliang123-dsh-context
+name: dsh-context
+description:
+  en: A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - context
+  - token
+  - ui
+source:
+  repository: https://github.com/bowenliang123/dsh-context
+  repositoryNodeId: R_kgDOT4KirQ
+  subpath: null
+  commit: 52fbb1bfa77511e2fa1583dca10e916fbaae3e41
+creator:
+  github: bowenliang123
+package:
+  ecosystem: npm
+  name: dsh-context
+  version: 0.20.0
+  integrity: sha512-7I+LBvN4ZOMaC71dQs/dkF3qVqiTFm3GcWXKSz81P0uNGrQ37WK5HAUA57wq7pHDJOJTyf1WR7pkcu/5Xf0OMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:48.402Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 825
+provenance:
+  discussion: null
+  comment: null
