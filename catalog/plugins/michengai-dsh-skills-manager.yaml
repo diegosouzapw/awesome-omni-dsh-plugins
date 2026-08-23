@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: michengai-dsh-skills-manager
+name: "@michengai/dsh-skills-manager"
+description:
+  en: NPM-installable DSH Web plugin for managing local skills and viewing shared Agent skills safely.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - skills
+  - cordis
+source:
+  repository: https://github.com/MichengAI/dsh-skills-manager
+  repositoryNodeId: R_kgDOT4_luQ
+  subpath: null
+  commit: a9eccf93adf92a31b35477a0eeb2226f1fdd7992
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-skills-manager"
+  version: 0.1.23
+  integrity: sha512-XLKS9y/p/cFgtAXhrdetgT+Yrv8dBhvN+tMJAtY0jo6vxPYtY43bk7bJVBugIZH55hxQfcdEsZKcmCnImHvlmg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:19.492Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
