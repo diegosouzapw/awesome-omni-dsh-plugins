@@ -123,8 +123,9 @@ export async function runCli(
   catalog.command("docs-check")
     .description("check required public catalog documentation")
     .argument("[root]", "public repository root", ".")
-    .action(async (root: string) => {
-      result = await docsCheckCommand(dependencies, root);
+    .option("--skip-count", "skip the exact README entry-count assertion (pull-request mode)")
+    .action(async (root: string, options: { skipCount?: boolean }) => {
+      result = await docsCheckCommand(dependencies, root, options);
     });
   catalog.command("github-forms-check")
     .description("check structured public GitHub issue forms")
