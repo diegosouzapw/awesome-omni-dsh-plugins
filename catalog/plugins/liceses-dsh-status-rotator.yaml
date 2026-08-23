@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: liceses-dsh-status-rotator
+name: dsh-status-rotator
+description:
+  en: Rotates the DSH chat turn-status label ("Deep diving...") through user-defined phrases every few seconds, editable from DSH's settings panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - ui
+  - status
+  - rotator
+source:
+  repository: https://github.com/01Virex/dsh-status-rotator
+  repositoryNodeId: R_kgDOT3j7xw
+  subpath: null
+  commit: cab8715d471b0d83814f247c3adbe64e520fa6ea
+creator:
+  github: liceses
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:59.777Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 47
+provenance:
+  discussion: null
+  comment: null
