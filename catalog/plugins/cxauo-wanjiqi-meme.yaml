@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: cxauo-wanjiqi-meme
+name: wanjiqi-meme
+description:
+  en: bash dsh plugin --profile web add "github:Chu-Xin-r/wanjiqi-meme"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - skill
+  - agentskills
+  - csgo
+  - cs2
+  - meme
+  - wanjiqi
+  - claude-code
+  - dsh
+source:
+  repository: https://github.com/Chu-Xin-r/wanjiqi-meme
+  repositoryNodeId: R_kgDOT4m_Pg
+  subpath: null
+  commit: de4eac5ba5275ba08012fa71619298b19e9dcae6
+creator:
+  github: CXAUO
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:36.546Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
