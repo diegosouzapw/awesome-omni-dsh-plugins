@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wnjxyk-dsh-codex-oauth
+name: "@wnjxyk/dsh-codex-oauth"
+description:
+  en: "Unified OpenAI Codex subscription plugin for DeepSeek Harness: GPT models, OAuth, quota, image generation, and web search."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - openai
+  - codex
+  - oauth
+  - subscription
+  - dsh
+source:
+  repository: https://github.com/WNJXYK/dsh-codex-oauth
+  repositoryNodeId: R_kgDOT5Lwqg
+  subpath: null
+  commit: 06bc69cea6e92f86c59c50d41d785303d38bf51d
+creator:
+  github: WNJXYK
+package:
+  ecosystem: npm
+  name: "@wnjxyk/dsh-codex-oauth"
+  version: 0.4.2
+  integrity: sha512-du+58OpIu9VZGC8r37lCqEMMIjHzCM5CimyksOWQrpWIGnuhuAsgD15+kSwLGfXU9qDsMstEac9FL4EKiY4yoQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:31.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
