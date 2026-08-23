@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fsmargoo-dsh-notification
+name: dsh-notification
+description:
+  en: "Browser desktop notifications when the DeepSeek Harness finishes a turn: configurable per-outcome toggles and include/exclude keyword rules, shown through the browser Notification API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - browser
+  - desktop
+  - notifications
+  - finishes
+  - turn
+  - configurable
+  - outcome
+  - toggles
+  - include
+  - exclude
+  - keyword
+  - rules
+  - shown
+  - through
+  - notification
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-notification
+  repositoryNodeId: R_kgDOT3UB3g
+  subpath: null
+  commit: ddec603395a223deb46c75b74274c41849c6a131
+creator:
+  github: FSMargoo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:39.413Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 71
+provenance:
+  discussion: null
+  comment: null
