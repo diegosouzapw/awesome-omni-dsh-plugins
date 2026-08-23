@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jjxjjjjiik-bot-dsh-chat-timeline
+name: dsh-chat-timeline
+description:
+  en: ⭐️ If you find this plugin helpful, please consider giving it a free Star! Your support is the greatest motivation for continuous maintenance~
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - conversation
+  - navigation
+  - timeline
+source:
+  repository: https://github.com/jjxjjjjiik-bot/dsh-chat-timeline
+  repositoryNodeId: R_kgDOT4kI3Q
+  subpath: null
+  commit: 881628765ce558255637433bbcc742f2aef2f026
+creator:
+  github: jjxjjjjiik-bot
+package:
+  ecosystem: npm
+  name: dsh-chat-timeline
+  version: 0.1.3
+  integrity: sha512-SEBzHXQI6tlAunje4F8TNH9RuNV4Bx/1OiGrn+4zJhqiFCwcsbOfFwSPnitJcJR4lw7Yn+mwS0nUdcUX8u7m/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:55.218Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 23
+provenance:
+  discussion: null
+  comment: null
