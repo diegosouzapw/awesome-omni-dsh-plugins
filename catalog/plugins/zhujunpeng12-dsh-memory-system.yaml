@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zhujunpeng12-dsh-memory-system
+name: "@zhujunpeng12/dsh-memory-system"
+description:
+  en: "Local-first persistent memory infrastructure for DeepSeek Harness: bounded hot-memory bootstrap, explainable cold recall (exact + Chinese BM25), lease-lock transactional writes, read-only governance, and trajectory review. DSH plugin host; Python stdlib + Markdown core. Zero database / vector service / external service"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+  - memory-system
+  - agent-memory
+  - local-first
+  - obsidian
+source:
+  repository: https://github.com/zhujunpeng12/dsh-memory-system
+  repositoryNodeId: R_kgDOT4-qXQ
+  subpath: null
+  commit: 71d48bd105a91d0196e6c7489839dabd049182d4
+creator:
+  github: zhujunpeng12
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:14.438Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
