@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-toolkit
+name: "@deepseek-ai/dsh-toolkit"
+description:
+  en: "DSH zero-dependency toolkit collection: time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema in one entry point"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - zero
+  - dependency
+  - toolkit
+  - collection
+  - time
+  - encoding
+  - json
+  - calculator
+  - regex
+  - markdown
+  - diff
+  - stat
+  - schema
+  - entry
+  - point
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-toolkit
+  repositoryNodeId: R_kgDOTySMpA
+  subpath: null
+  commit: 1fda0fb9f6762c01affac50ca15c8eabfd6cd8f7
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:35.791Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null
