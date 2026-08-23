@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yejiming-dsh-data-agent
+name: "@yejiming/dsh-data-agent"
+description:
+  en: "Data Agent for DSH Web and TUI: shared database connections, a masked TUI form, secure credential references, SQL tools, and the data-agent preset"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - data
+  - agent
+  - shared
+  - database
+  - connections
+  - masked
+  - form
+  - secure
+  - credential
+  - references
+  - tools
+  - preset
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-data-agent
+  repositoryNodeId: R_kgDOT1colw
+  subpath: null
+  commit: 7caa266c1036d7e3b42d4bc710350c1406b56957
+creator:
+  github: yejiming
+package:
+  ecosystem: npm
+  name: "@yejiming/dsh-data-agent"
+  version: 0.0.13
+  integrity: sha512-J4DHMlw5Z/XwXdreR6nMIXQ4pbzcu+gUAgBJnuDP0KMOKFGOOTin1/mrQHnoyozBAH1H4zX8KEtBkXvc6NlyAQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:29.062Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 152
+provenance:
+  discussion: null
+  comment: null
