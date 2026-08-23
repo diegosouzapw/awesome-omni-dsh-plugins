@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: qinling-melon-farmers-dsh-memoir
+name: dsh-memoir
+description:
+  en: "Cache-aware local project memory for DeepSeek Harness (DSH): agents distill session work, lessons and next actions into a local JSON store (~/.dsh/dsh-memoir.json, source of truth) with a per-project PROJECT MEMORY.md projection; bounded hot-memory (ranked, session-frozen) is auto-injected into the system prompt while "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - memory
+  - lessons
+  - session
+  - agent
+source:
+  repository: https://github.com/Qinling-Melon-Farmers/dsh-memoir
+  repositoryNodeId: R_kgDOT4i1ZA
+  subpath: null
+  commit: 2702a8d52625a8740b0019c8791a979b4477d5e1
+creator:
+  github: Qinling-Melon-Farmers
+package:
+  ecosystem: npm
+  name: dsh-memoir
+  version: 0.5.1
+  integrity: sha512-teRDF/GcmtR/o95xhqG87fDri8o8TM14hZaPetIjTlhQdTo8Il5Rk2uNb4x7vLYfjohE1UdAzLZUfKTM8o0ohw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:13.988Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null
