@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: alingalingling-dsh-ui-status-label
+name: dsh-ui-status-label
+description:
+  en: "Configurable running-turn status text for dsh Web: General Settings row plus the conversationStatus provider for the chat view"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - configurable
+  - running
+  - turn
+  - status
+  - text
+  - general
+  - settings
+  - plus
+  - conversationstatus
+  - provider
+  - chat
+  - view
+  - dsh
+source:
+  repository: https://github.com/alingalingling/ui-status-label
+  repositoryNodeId: R_kgDOT1oAfQ
+  subpath: null
+  commit: a1621413a4700cb489655ad3ebf7fa8484c3645f
+creator:
+  github: alingalingling
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:04.806Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 40
+provenance:
+  discussion: null
+  comment: null
