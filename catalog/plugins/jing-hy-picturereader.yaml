@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: jing-hy-picturereader
+name: picturereader
+description:
+  en: Unified image understanding plugin for DeepSeek Harness (DSH). Visual twin adapter for native thumbnails + auto-analysis on any text-only model (incl. pi-ai providers); privacy/smart/strict routing; local tools (scan/OCR×3 engines/crop/palette/compare/batch); document-to-image (pdf/word/excel/ppt); optional external VL
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - image
+  - vision
+  - pixels
+  - ascii
+  - ocr
+  - paddleocr
+  - rapidocr
+  - hue
+  - multimodal
+  - vlm
+  - vision-analyze
+  - llm-vision
+  - document-to-image
+source:
+  repository: https://github.com/jing-hy/picturereader
+  repositoryNodeId: R_kgDOT5yO9Q
+  subpath: null
+  commit: 8aba6fcf804a9b2d1c06470d24f170d4069d1582
+creator:
+  github: jing-hy
+package:
+  ecosystem: npm
+  name: picturereader
+  version: 3.0.6
+  integrity: sha512-hboJHHU2E5hKtpUXNe9317AUiscquGy/7ZO814ZNTs4+0VOAuE4pLqm6O2ZFeprP3CoepvgVeKtz/JZUXGRbbw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:20.505Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 33
+provenance:
+  discussion: null
+  comment: null
