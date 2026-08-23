@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: laplace-bit-dsh-smooth-stream
+name: dsh-smooth-stream
+description:
+  en: Fluid streaming rendering and silky scrolling for DeepSeek Harness replies, including Markdown, code blocks, tables, and tool results.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - streaming
+  - smooth-streaming
+  - fluid-streaming
+  - streaming-renderer
+  - markdown-streaming
+  - smooth-scrolling
+  - smooth-scroll
+  - smooth-stream
+  - typewriter
+  - typewriter-effect
+  - markdown
+  - chat-ui
+source:
+  repository: https://github.com/Laplace-bit/dsh-smooth-stream
+  repositoryNodeId: R_kgDOT4-heQ
+  subpath: null
+  commit: 97866e7143b844995bc7490f3a5a40f968fe9441
+creator:
+  github: Laplace-bit
+package:
+  ecosystem: npm
+  name: dsh-smooth-stream
+  version: 0.3.4
+  integrity: sha512-YiwYI6Lwu28G5wHvpLFonmuQ+d44EJrp/lzyAp8d5c0B/0Er1p9CfkQvqMadCvMgTA7+pNgT9TBIB93CmaSU0g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:57.472Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 48
+provenance:
+  discussion: null
+  comment: null
