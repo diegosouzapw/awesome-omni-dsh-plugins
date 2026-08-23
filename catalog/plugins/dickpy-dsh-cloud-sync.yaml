@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: dickpy-dsh-cloud-sync
+name: "@dickpy/dsh-cloud-sync"
+description:
+  en: Portable DeepSeek Harness profile and local-plugin source synchronization.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - portable
+  - profile
+  - local
+  - source
+  - synchronization
+  - dsh
+source:
+  repository: https://github.com/dickpy/dsh-cloud-sync
+  repositoryNodeId: R_kgDOT5UfzQ
+  subpath: null
+  commit: 85e2f20d6da5dfc9ee466ba54e3e28b14eb0e85f
+creator:
+  github: dickpy
+package:
+  ecosystem: npm
+  name: "@dickpy/dsh-cloud-sync"
+  version: 0.20.6
+  integrity: sha512-NOKm2KA+uXwsmTDas1ESxHCn8TFsjIx8Loup/G01uY6teWO45jxHnk9DpjbAmt9WJxvPBJZReaOi4nWXK/Y9BQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:48.524Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
