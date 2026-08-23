@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ویب سائٹ پر تمام پلگ انز کو براؤز، تلاش اور انسٹال کریں →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-652_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -80,16 +80,16 @@
 
 | # | پلگ ان | تخلیق کار | ★ | زمرہ | یہ کیا کرتا ہے |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | صرف متن پر مبنی LLMs کے لیے پلگ اِن وژن، مفت Antigravity CLI سے چلتا ہے |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH ویب پلگ ان: VSCode جیسی دائیں سائیڈبار (ایکسپلورر / ایڈیٹر / ٹرمینل / git / براؤزر)، ہر ایک کے لیے علیحدہ… |
-| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | DeepSeek Harness ایجنٹس کے لیے Claude Code طرز کا انٹرایکٹو TUI فرنٹ ڈور، پورٹ شدہ Ink کور پر تعمیر شدہ۔ |
-| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | صرف متن پر مبنی DeepSeek Harness ایجنٹس کے لیے آنکھیں: بلٹ اِن مفت وژن چین (بغیر کسی کی کے) + پکسل سطح کے وژن ٹولز… |
-| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | agent-vision-toolkit کے لیے DeepSeek Harness نیٹو انٹیگریشن: امیج سوال و جواب، OCR، گراؤنڈنگ، UI بحالی،… |
-| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH اشتہار-انفیکشن پلگ ان: مقامی بنائے گئے چینی پورٹل اشتہارات اور انگریزی اسکیم-اشتہار پیروڈی، جعلی پاپ اپس کے ساتھ،… |
-| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | DeepSeek Harness کے لیے GenUI: dsh-ui کے ذریعے اسسٹنٹ کے جوابات میں ان لائن رینڈر ہونے والے انٹرایکٹو UI کمپوننٹس… |
-| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: سرکاری DeepSeek Harness کے لیے ایک انٹرایکٹو ٹرمینل UI پلگ ان — سٹریمنگ… |
-| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | DeepSeek Harness کے لیے ان لائن ویژولائزیشن: ایک visualize ٹول کے ساتھ ساتھ بنڈل کردہ سکل ماڈل کو رینڈر کرنے دیتی ہے… |
-| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | DeepSeek Harness کے لیے ایک اینیمی سرچ پلگ ان: ایک anime_find_search ٹول Mikan، AniBT اور… کو یکجا کرتا ہے |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | [@NanmiCoder](https://github.com/NanmiCoder) | 836 | Sessions & productivity | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies,… |
+| 6 | [dsh-context](https://github.com/bowenliang123/dsh-context) | [@bowenliang123](https://github.com/bowenliang123) | 825 | UI & dashboards | A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for… |
+| 7 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 8 | [graph-memory](https://github.com/adoresever/graph-memory) | [@adoresever](https://github.com/adoresever) | 565 | Memory & RAG | Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and… |
+| 9 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 10 | [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | [@shaobeichen](https://github.com/shaobeichen) | 458 | Coding & dev tools | Put DeepSeek Harness in your pocket : one package, one settings tab — scan a QR code and your phone shows… |
 
 <div align="center">
 
@@ -113,7 +113,7 @@
 
 ## کیٹلاگ کی صورتحال
 
-**483 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
+**652 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
 
 ## 🚀 CLI انسٹال کریں
 
@@ -287,4 +287,4 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 
 </div>
 
-<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->
+<!-- i18n-source-hash: e0a5a4ba800934969b62e5116ce21de4c0395a238684280a1e569b48aa7ad733 -->

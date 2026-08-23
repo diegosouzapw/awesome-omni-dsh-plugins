@@ -16,7 +16,7 @@ Penemuan mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **DeepSe
   <a href="https://dsh-plugins.omniroute.online">Layari, cari dan pasang setiap pemalam di laman web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-652_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Setiap nama dipautkan ke repositori pencipta, dipasak pada komit tepat yang disa
 
 | #   | Pemalam | Pencipta | ★ | Kategori | Apa yang dilakukannya |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Penglihatan boleh pasang untuk LLM teks sahaja, dikuasakan oleh CLI Antigravity percuma |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | Pemalam web DSH: bar sisi kanan gaya VSCode (peninjau / editor / terminal / git / pelayar), diasingkan bagi setiap… |
-| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Pintu depan TUI interaktif gaya Claude Code untuk ejen DeepSeek Harness, dibina di atas teras Ink yang diport. |
-| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Mata untuk ejen DeepSeek Harness teks sahaja: rantaian penglihatan percuma terbina dalam (tanpa kunci) + alat penglihatan peringkat piksel… |
-| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | Integrasi asli DeepSeek Harness untuk agent-vision-toolkit: soal jawab imej, OCR, grounding, pemulihan UI,… |
-| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | Pemalam "serangan iklan" DSH: iklan portal Cina yang dilokalkan dan parodi iklan penipuan bahasa Inggeris, dengan tetingkap timbul palsu,… |
-| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI untuk DeepSeek Harness: komponen UI interaktif dipaparkan sebaris dalam balasan pembantu melalui dsh-ui… |
-| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: pemalam UI terminal interaktif untuk DeepSeek Harness rasmi — penstriman… |
-| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Visualisasi sebaris untuk DeepSeek Harness: alat visualize berserta skill terbina dalam membolehkan model melukis… |
-| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Pemalam carian anime untuk DeepSeek Harness: alat anime_find_search menghimpunkan Mikan, AniBT dan… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | [@NanmiCoder](https://github.com/NanmiCoder) | 836 | Sessions & productivity | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies,… |
+| 6 | [dsh-context](https://github.com/bowenliang123/dsh-context) | [@bowenliang123](https://github.com/bowenliang123) | 825 | UI & dashboards | A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for… |
+| 7 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 8 | [graph-memory](https://github.com/adoresever/graph-memory) | [@adoresever](https://github.com/adoresever) | 565 | Memory & RAG | Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and… |
+| 9 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 10 | [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | [@shaobeichen](https://github.com/shaobeichen) | 458 | Coding & dev tools | Put DeepSeek Harness in your pocket : one package, one settings tab — scan a QR code and your phone shows… |
 
 <div align="center">
 
@@ -122,7 +122,7 @@ digunakan oleh kedua-duanya.
 
 ## Status katalog
 
-**483 pemalam digabungkan.** Setiap pemalam masuk melalui satu pull request yang disemak
+**652 pemalam digabungkan.** Setiap pemalam masuk melalui satu pull request yang disemak
 secara individu, satu demi satu, daripada repositori asal pencipta, dengan komit sumber
 yang dipasak dan atribusi yang jelas.
 
@@ -341,4 +341,4 @@ Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs
 
 </div>
 
-<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->
+<!-- i18n-source-hash: e0a5a4ba800934969b62e5116ce21de4c0395a238684280a1e569b48aa7ad733 -->
