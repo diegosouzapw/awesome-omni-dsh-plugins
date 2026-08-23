@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shaoshi20-dshscan
+name: "@shaoshi/dshscan"
+description:
+  en: "Security scanner for DSH plugins: static and semantic passes over plugin source, DSH-specific attack-surface rules, npm audit, batch scanning, and an HTML report with per-finding severity and evidence."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - security
+  - scanner
+  - skillspectator
+  - supply-chain
+  - ai-security
+source:
+  repository: https://github.com/shaoshi20/dshscan
+  repositoryNodeId: R_kgDOT8KcWw
+  subpath: null
+  commit: e08871356e2cd60f72e1b1880dacbf19f41b8056
+creator:
+  github: shaoshi20
+package:
+  ecosystem: npm
+  name: "@shaoshi/dshscan"
+  version: 0.5.0
+  integrity: sha512-KAfu3M37DCqiUsaUhWh13bHRvPPQ2co5IFkgfM33WEZmWNV1xNcMhcsg86wmEE+m0PZW0d2ghZXPu6UeqvvJGA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:57.957Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
