@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: pypcfx-glitch-dsh-plugin-risk-rule-design
+name: dsh-plugin-risk-rule-design
+description:
+  en: bash dsh plugin --profile web install dsh-plugin-risk-rule-design
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - risk-control
+  - rule-mining
+source:
+  repository: https://github.com/pypcfx-glitch/risk-rule-design
+  repositoryNodeId: R_kgDOT9Fw8w
+  subpath: null
+  commit: 89dff5161873917548ae28c1b1cb5f36f2f817fd
+creator:
+  github: pypcfx-glitch
+package:
+  ecosystem: npm
+  name: dsh-plugin-risk-rule-design
+  version: 1.0.2
+  integrity: sha512-/taQTF6DoZczfzts2s0fq0/U5K56qu/T5c2BAJHKIsW2DgVfjKdsXFkpCM975WbbEv6rXNE4g/tHUbNXySwRvw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:56.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
