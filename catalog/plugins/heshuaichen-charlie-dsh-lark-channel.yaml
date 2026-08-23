@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: heshuaichen-charlie-dsh-lark-channel
+name: dsh-lark-channel
+description:
+  en: "Lark/Feishu IM bot channel for DeepSeek Harness: chats drive agents, replies and approvals return as messages and cards"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - lark
+  - feishu
+  - larksuite
+  - channel
+  - chatbot
+  - im-bot
+  - cordis
+  - ai-agent
+source:
+  repository: https://github.com/omdsh-dev/dsh-lark
+  repositoryNodeId: R_kgDOT36l8w
+  subpath: null
+  commit: 632807d9abafbb866a5e208a0298eff21c7856d1
+creator:
+  github: heshuaichen-charlie
+package:
+  ecosystem: npm
+  name: dsh-lark-channel
+  version: 0.0.7
+  integrity: sha512-jLuzsoVxlyNMjk3wCrYrDMWNvLOpGlmcffGLWcebFS86Z9bPnMGuWhczII1cUxztHlK3MFAVtzd7lJARBuU16w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:03.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 40
+provenance:
+  discussion: null
+  comment: null
