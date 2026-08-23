@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hg1048596-pixel-dsh-recall-unread
+name: dsh-recall-unread
+description:
+  en: "DeepSeek Harness plugin: recall sent-but-unread text messages before the model reads them."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - recall
+source:
+  repository: https://github.com/hg1048596-pixel/dsh-recall-unread
+  repositoryNodeId: R_kgDOT66B8Q
+  subpath: null
+  commit: e9a22bad1f246584ac153a250436732c754b7e72
+creator:
+  github: hg1048596-pixel
+package:
+  ecosystem: npm
+  name: dsh-recall-unread
+  version: 1.1.0
+  integrity: sha512-fVqFuXHjXitInuYlLlMcFMsoKDvEP7d2hItu7ZDj6jwt2SVISecKUjbjxuWMNhxXFVo+CsyreZ+cDgT/7wVPxQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:31.341Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 33
+provenance:
+  discussion: null
+  comment: null
