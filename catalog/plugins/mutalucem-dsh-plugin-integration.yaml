@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: mutalucem-dsh-plugin-integration
+name: dsh-plugin-integration
+description:
+  en: bash dsh plugin --profile web add github:MutaLucem/dsh-plugin-integration
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-manager
+  - plugin-integration
+  - compatibility
+  - toggle
+source:
+  repository: https://github.com/MutaLucem/dsh-plugin-integration
+  repositoryNodeId: R_kgDOT56RTg
+  subpath: null
+  commit: 0f720b7e53c0633b77e48c04c8bb8e06d16b7a37
+creator:
+  github: MutaLucem
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:10.669Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
