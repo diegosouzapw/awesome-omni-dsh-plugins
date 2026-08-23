@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: vlln-dsh-task-status
+name: "@vlln/dsh-task-status"
+description:
+  en: '<p align="center" Background task status bar: task-progress UI above the chat input area — running count + expandable details + live output tail</p'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - align
+  - center
+  - background
+  - task
+  - status
+  - progress
+  - above
+  - chat
+  - input
+  - area
+  - running
+  - count
+  - expandable
+  - details
+  - live
+  - output
+source:
+  repository: https://github.com/vlln/dsh-task-status
+  repositoryNodeId: R_kgDOT0bTZQ
+  subpath: null
+  commit: 3127246ce2d93ccf841767fa43ee5d2a571f4a8f
+creator:
+  github: vlln
+package:
+  ecosystem: npm
+  name: "@vlln/dsh-task-status"
+  version: 0.3.1
+  integrity: sha512-rNIzEOFRYeCzvxCDWQED8KxWtFXescGvsDDDT4GPM2r9rvoicQIHDnzm6SDCzKE2q/MZx4Sw3M6JBUByFVcYlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:31.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
