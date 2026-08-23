@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lzszq-research-plugin
+name: "@dsh-scholar/research-plugin"
+description:
+  en: "DSH Research OS — a fully automated scientific research plugin for DSH (DeepSeek Harness): survey, idea, experiment contract, durable runner jobs, claim-evidence ledger, manuscript and release bundle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - research
+  - fully
+  - automated
+  - scientific
+  - survey
+  - idea
+  - experiment
+  - contract
+  - durable
+  - runner
+  - jobs
+  - claim
+  - evidence
+  - ledger
+  - manuscript
+  - release
+source:
+  repository: https://github.com/lzszq/dsh-scholar
+  repositoryNodeId: R_kgDOTwDjAA
+  subpath: null
+  commit: 76bfe960e9107a992dae506c3ebc298a99f57760
+creator:
+  github: lzszq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:27.269Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 26
+provenance:
+  discussion: null
+  comment: null
