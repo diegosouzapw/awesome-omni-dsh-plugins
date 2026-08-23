@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-plugin-check
+name: "@deepseek-ai/dsh-plugin-check"
+description:
+  en: "DSH plugin health checker: scan plugin repos for manifest protocol / patch format / build pitfalls / hub registration, zero-dependency read-only diagnostics"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - health
+  - checker
+  - scan
+  - repos
+  - manifest
+  - protocol
+  - patch
+  - format
+  - build
+  - pitfalls
+  - registration
+  - zero
+  - dependency
+  - read
+  - only
+  - diagnostics
+source:
+  repository: https://github.com/omdsh-dev/dsh-plugin-check
+  repositoryNodeId: R_kgDOTyZztw
+  subpath: null
+  commit: 7ba4373c0baf635f03a5f7a92931d6ba4a0ecd3d
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:24.931Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 27
+provenance:
+  discussion: null
+  comment: null
