@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: ok-wx-dsh-ocgo-lite
+name: dsh-ocgo-lite
+description:
+  en: sh dsh plugin --profile web add github:OK-wx/dsh-ocgo-lite
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - ocgo
+  - lite
+  - dsh
+source:
+  repository: https://github.com/OK-wx/dsh-ocgo-lite
+  repositoryNodeId: R_kgDOT5gIuw
+  subpath: null
+  commit: 96314bcd7966c88b6907fe5797719793a9b014e9
+creator:
+  github: OK-wx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:12.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
