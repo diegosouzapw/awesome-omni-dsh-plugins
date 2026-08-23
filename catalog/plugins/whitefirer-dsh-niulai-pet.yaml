@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: whitefirer-dsh-niulai-pet
+name: dsh-niulai-pet
+description:
+  en: 'dsh web desktop pet: a Niulai calf that lives in the corner, hops around, and moos "mama" when an agent task completes (client-only plugin)'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - desktop
+  - niulai
+  - calf
+  - lives
+  - corner
+  - hops
+  - around
+  - moos
+  - mama
+  - agent
+  - task
+  - completes
+  - client
+  - only
+  - dsh
+source:
+  repository: https://github.com/whitefirer/dsh-niulai-pet
+  repositoryNodeId: R_kgDOT8yzjg
+  subpath: null
+  commit: df8108a4e5851ed929175d69d971b2f187f63e8c
+creator:
+  github: whitefirer
+package:
+  ecosystem: npm
+  name: dsh-niulai-pet
+  version: 0.3.0
+  integrity: sha512-01rsApDv+5QiEeT3M7wOnsJ1oHfPMW3eWZrAhB+BfbucqkzCWLuHounvhyOxt7TQK1TaaV7+1D0kol3j8+FB/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:11.499Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
