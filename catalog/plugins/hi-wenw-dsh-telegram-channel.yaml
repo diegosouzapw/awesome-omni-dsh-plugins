@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: hi-wenw-dsh-telegram-channel
+name: dsh-telegram-channel
+description:
+  en: "DeepSeek Harness Telegram mobile remote: workspace→session, /last context, /model — dsh-plugin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - telegram
+  - bot
+  - mobile
+  - remote
+  - channel
+  - sessions
+  - workspace
+  - model
+  - bind
+  - unbind
+  - remove
+  - clear
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/hi-wenw/dsh-telegram-channel
+  repositoryNodeId: R_kgDOT4L0JQ
+  subpath: null
+  commit: 93f3bec975044ab2b44cc319f2b61d6bd3959c9b
+creator:
+  github: hi-wenw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:42.707Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
