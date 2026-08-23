@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jason12196-weshop-dsh-plugin
+name: weshop-dsh-plugin
+description:
+  en: Native Cordis WeShop canvas, tools, skills, and Web UI for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - native
+  - cordis
+  - weshop
+  - canvas
+  - tools
+  - skills
+  - dsh
+source:
+  repository: https://github.com/weshopai/weshop-dsh-plugin
+  repositoryNodeId: R_kgDOT4B7aA
+  subpath: null
+  commit: c90f80ec7c23a291425de08a11adf802826b422a
+creator:
+  github: Jason12196
+package:
+  ecosystem: npm
+  name: weshop-dsh-plugin
+  version: 1.0.2
+  integrity: sha512-xq4jAxjhXl/54FSiZg5cVdcDgvzWHOfJ/B32aSJnpyO+ZRX4uvsISeQnMsElYDt/MYxzGJfclGv5HH8MflrBpg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:44.234Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
