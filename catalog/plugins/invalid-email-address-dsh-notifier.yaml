@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: invalid-email-address-dsh-notifier
+name: dsh-notifier
+description:
+  en: Unified notification push plugin for DeepSeek Harness (DSH) — one minimal notify() API in front, 27 channels behind.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - notify
+  - notification
+  - dingtalk
+  - feishu
+  - wxpusher
+  - pushplus
+  - serverchan
+  - bark
+  - telegram
+  - webhook
+  - qq-bot
+  - weixin
+  - ilink
+  - qr-login
+source:
+  repository: https://github.com/THEWOLFWALKER/dsh-notifier
+  repositoryNodeId: R_kgDOT41BcA
+  subpath: null
+  commit: cc4781e9939210b2d91b63f5448ccef40708a7c2
+creator:
+  github: invalid-email-address
+package:
+  ecosystem: npm
+  name: dsh-notifier
+  version: 0.8.4
+  integrity: sha512-UTE4bpUelvGDrDOixVCCk7JbInYaKn656WI09PaUI8XYnTlNfS7W11vBOpS2FKb3HiBeJ0B3w4zsihv9uOl1/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:50.123Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 58
+provenance:
+  discussion: null
+  comment: null
