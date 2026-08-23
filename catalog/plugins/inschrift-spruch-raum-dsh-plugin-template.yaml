@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: inschrift-spruch-raum-dsh-plugin-template
+name: "@your-scope/dsh-plugin-template"
+description:
+  en: Standalone Cordis plugin template for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - standalone
+  - cordis
+  - template
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/plugin-template
+  repositoryNodeId: R_kgDOT1GF5w
+  subpath: null
+  commit: 2803a03858e914101be93a2f51558717af37303d
+creator:
+  github: inschrift-spruch-raum
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:38.040Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
