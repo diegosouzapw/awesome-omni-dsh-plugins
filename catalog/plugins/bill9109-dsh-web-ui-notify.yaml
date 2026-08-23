@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: bill9109-dsh-web-ui-notify
+name: "@bill9109/dsh-web-ui-notify"
+description:
+  en: Desktop notifications for DeepSeek Harness approvals, questions, and turn completion — so neither DSH nor you end up waiting while you browse another tab.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - web-ui
+  - desktop-notification
+  - approval
+  - notify
+  - dsh
+source:
+  repository: https://github.com/bill9109/dsh-web-ui-notify
+  repositoryNodeId: R_kgDOTuSGFA
+  subpath: null
+  commit: 865d2f6fc93f2e0d051d53df772646cb831a43ed
+creator:
+  github: bill9109
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:49.677Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null
