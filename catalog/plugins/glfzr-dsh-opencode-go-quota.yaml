@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: glfzr-dsh-opencode-go-quota
+name: dsh-opencode-go-quota
+description:
+  en: "OpenCode Go quota ring for DSH Web: shows 5-hour / weekly / monthly usage as a click-to-cycle progress ring left of the model selector, with tiered in-prompt quota warnings (Codex-CLI style)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - opencode
+  - quota
+  - ring
+  - shows
+  - hour
+  - weekly
+  - monthly
+  - usage
+  - click
+  - cycle
+  - progress
+  - left
+  - model
+  - selector
+  - tiered
+  - prompt
+source:
+  repository: https://github.com/GLFzr/dsh-opencode-go-quota
+  repositoryNodeId: R_kgDOT4li1g
+  subpath: null
+  commit: 38ddb2a81166a6a08287896f601a3fa9915b1f6a
+creator:
+  github: GLFzr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:32.255Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
