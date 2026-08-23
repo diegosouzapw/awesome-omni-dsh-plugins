@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: sherunlocked-4869-dsh-plugin-msg-nav
+name: dsh-plugin-msg-nav
+description:
+  en: "DSH conversation node navigation rail: one dash per user message on the right edge, reading-position tracking, hover preview card, click-to-jump with highlight line, sliding window, auto-hide; host session projection delivers the complete message list instantly (no eager page pulls), with an on-demand loadOlder jump pa"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - navigation
+  - conversation
+source:
+  repository: https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav
+  repositoryNodeId: R_kgDOT4gk_w
+  subpath: null
+  commit: 31521625896bcd3f18e38ea1a092ee7700385385
+creator:
+  github: SherUnlocked-4869
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:07.015Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
