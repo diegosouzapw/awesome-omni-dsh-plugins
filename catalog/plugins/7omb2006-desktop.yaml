@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 7omb2006-desktop
+name: "@oh-dsh/desktop"
+description:
+  en: "Oh-DSH: installable Desktop, Web, and TUI surfaces over DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - installable
+  - desktop
+  - surfaces
+  - over
+  - dsh
+source:
+  repository: https://github.com/hust-open-atom-club/oh-dsh
+  repositoryNodeId: R_kgDOT05OeQ
+  subpath: null
+  commit: 007506581042c978db5d3283e28df5bf10f84619
+creator:
+  github: 7oMB2006
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:57.742Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 257
+provenance:
+  discussion: null
+  comment: null
