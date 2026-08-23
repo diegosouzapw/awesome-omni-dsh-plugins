@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: liqichen-dsh-plugin-manager
+name: dsh-plugin-manager
+description:
+  en: "GUI in the DSH settings panel: toggle/delete MCP servers, browse and trash skills, list built-in plugin packages — hot-applied without restart."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - settings
+  - panel
+  - toggle
+  - delete
+  - servers
+  - browse
+  - trash
+  - skills
+  - list
+  - built
+  - packages
+  - applied
+  - without
+  - restart
+  - dsh
+source:
+  repository: https://github.com/liqichen/dsh-plugin-manager
+  repositoryNodeId: R_kgDOT4lXtA
+  subpath: null
+  commit: 36a73f0174f0714243ba01afcc9a5ffaa36b0b04
+creator:
+  github: liqichen
+package:
+  ecosystem: npm
+  name: dsh-plugin-manager
+  version: 0.1.0
+  integrity: sha512-QNXeNIgD45BLW765Bh9J9mntjbh8rj3hrRD2CxCKk5fy5zOZnXmdzRVktT1tzaVaDFevZtq/oHqN0BUrvc3vNQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:50.446Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
