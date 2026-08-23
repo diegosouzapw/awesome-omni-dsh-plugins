@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: beizi6-dsh-opencodego-usage
+name: dsh-opencodego-usage
+description:
+  en: "OpenCodeGo quota monitor for the DeepSeek Harness (DSH) Web GUI: a breathing indicator at the bottom-right of the input box shows your remaining quota at a glance; click it to open a liquid-glass panel with per-window progress bars and reset times."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - opencodego
+  - usage
+  - quota
+  - web-gui
+source:
+  repository: https://github.com/BeiZi6/dsh-opencodego-usage
+  repositoryNodeId: R_kgDOT4iZkQ
+  subpath: null
+  commit: 0990d71ccb0965c758b86a048a8a2614d082a14f
+creator:
+  github: BeiZi6
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:23.480Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
