@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: gdwhisper-dsh-web-startup-auth
+name: dsh-web-startup-auth
+description:
+  en: "DSH remote-aware web-startup replacement + username/password auth plugin: allows --host 0.0.0.0 when paired with the auth plugin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - remote
+  - aware
+  - startup
+  - replacement
+  - username
+  - password
+  - auth
+  - host
+  - paired
+  - dsh
+source:
+  repository: https://github.com/GDWhisper/dsh-web-startup-auth
+  repositoryNodeId: R_kgDOT8XfJQ
+  subpath: null
+  commit: 795cbb02e6e2f752c0f37d7bb2ea4cefb16eb5b5
+creator:
+  github: GDWhisper
+package:
+  ecosystem: npm
+  name: dsh-web-startup-auth
+  version: 0.1.1
+  integrity: sha512-bVQEehxuwxWIh+shlA7qpGa0rti8rVMuww6imLSJb9nH9nHNo1SjR0fwqe8Cg7mWAiQ+4DlM4KoGkqKdfhEgcA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:30.816Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
