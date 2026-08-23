@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bugmaker2-dsh-github
+name: dsh-github
+description:
+  en: Source Control and GitHub panel for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - git
+  - source-control
+  - dsh
+source:
+  repository: https://github.com/PivotStackIntelligence/dsh-github
+  repositoryNodeId: R_kgDOT3mybQ
+  subpath: null
+  commit: 781722d799c5570ca9dfbb47d8044d29784ff0fc
+creator:
+  github: bugmaker2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:39.358Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
