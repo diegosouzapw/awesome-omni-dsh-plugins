@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: kewen-dev-dsh-codex-provider
+name: dsh-codex-provider
+description:
+  en: OpenAI Codex provider for DeepSeek Harness with device-code OAuth, Codex CLI import, token refresh, and a web settings panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - codex
+  - openai
+  - chatgpt
+  - oauth
+  - device-code
+  - provider
+  - llm
+source:
+  repository: https://github.com/Hu9956/dsh-codex-provider
+  repositoryNodeId: R_kgDOT3tcyg
+  subpath: null
+  commit: 15d8c9ecadbf1faba5fe3ed14f920cb74975b20b
+creator:
+  github: kewen-dev
+package:
+  ecosystem: npm
+  name: dsh-codex-provider
+  version: 0.1.0
+  integrity: sha512-PPGBqTcDn6rGc1guXkn0SC/49KspKpVV0Ld91X//gf7JyWoL1MFnaeu0obk3g+2dZ0B8urBAIrRFLLHrYjYK8w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:45.630Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
