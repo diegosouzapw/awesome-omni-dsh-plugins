@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: shaobeichen-dsh-pocket
+name: dsh-pocket
+description:
+  en: "Put DeepSeek Harness in your pocket : one package, one settings tab — scan a QR code and your phone shows exactly what's on your computer screen, live, from anywhere."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mobile
+  - remote
+  - qr
+  - tunnel
+source:
+  repository: https://github.com/shaobeichen/dsh-pocket
+  repositoryNodeId: R_kgDOT5HoWg
+  subpath: null
+  commit: 4cdd3ec04ab8943c0264c344ad4779c4727402ef
+creator:
+  github: shaobeichen
+package:
+  ecosystem: npm
+  name: dsh-pocket
+  version: 1.9.2
+  integrity: sha512-MZQjJPJ4xCyJEOj/FP3CiAnvw6kJsLbUZAzhnkBje8MkC+b16adz87PbcUy5c+P7PVemFVnhoIsNhxFue161Hg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: GPL-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:54.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 458
+provenance:
+  discussion: null
+  comment: null
