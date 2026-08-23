@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-dsh-mermaid
+name: dsh-mermaid
+description:
+  en: Render mermaid fences in DSH Web conversation messages as interactive-free SVG diagrams (lazy-loaded, strict security).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - mermaid
+  - diagram
+  - svg
+source:
+  repository: https://github.com/AKS1st/dsh-mermaid
+  repositoryNodeId: R_kgDOT4vqGg
+  subpath: null
+  commit: 2708cdf2e2eb1c0cd15448c3d3d680b8fba58d48
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:19.630Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
