@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: fufankeji-dsh-plugin-llm-wiki
+name: "@fufan/dsh-plugin-llm-wiki"
+description:
+  en: Launch the complete FF - LLM Wiki application from DeepSeek Harness
+  evidencePath: packages/examples/ff-llm-wiki-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - knowledge-base
+  - rag
+  - wiki
+  - dsh
+source:
+  repository: https://github.com/fufankeji/deepseek-harness-studio
+  repositoryNodeId: R_kgDOT46iSw
+  subpath: packages/examples/ff-llm-wiki-plugin
+  commit: 3a07208d3f3a6349a476fda0b527e01fc43766a1
+creator:
+  github: fufankeji
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/examples/ff-llm-wiki-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:16.575Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
