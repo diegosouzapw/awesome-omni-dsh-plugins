@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: halosb-dsh-bg-beautify
+name: dsh-bg-beautify
+description:
+  en: powershell dsh plugin --profile web add github:halosb/dsh-bg-beautify
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - theme
+  - background
+  - ui
+  - cordis
+source:
+  repository: https://github.com/halosb/dsh-bg-beautify
+  repositoryNodeId: R_kgDOT4qhqQ
+  subpath: null
+  commit: 9c1510dc23e35897efa08f519f5ef66262b06df5
+creator:
+  github: halosb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:33.844Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
