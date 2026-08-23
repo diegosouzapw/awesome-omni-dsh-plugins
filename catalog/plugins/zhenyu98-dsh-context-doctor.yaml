@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: zhenyu98-dsh-context-doctor
+name: dsh-context-doctor
+description:
+  en: <p align="center" <sub Context Doctor renders in English with a restrained mono interface; the surrounding DSH shell follows its selected light, dark, or system theme.</sub </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - align
+  - center
+  - context
+  - doctor
+  - renders
+  - english
+  - restrained
+  - mono
+  - interface
+  - surrounding
+  - shell
+  - follows
+  - selected
+  - light
+  - dark
+  - system
+source:
+  repository: https://github.com/Zhenyu98/dsh-context-doctor
+  repositoryNodeId: R_kgDOT2fs-g
+  subpath: null
+  commit: 957d5de09402f882a18e556cae37076ee420b868
+creator:
+  github: Zhenyu98
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:15.446Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
