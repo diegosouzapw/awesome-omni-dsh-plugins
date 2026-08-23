@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: whiteguo233-dsh-plugin
+name: "@openbiliclaw/dsh-plugin"
+description:
+  en: "OpenBiliClaw DeepSeek Harness plugin: the user-consumption side (recommendations, delight, saved, Socratic chat, profile, probes, activity) as a web-GUI sidebar, plus agent-bridge tools and the openbiliclaw-adapter skill for closed-loop use inside DSH."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - openbiliclaw
+  - user
+  - consumption
+  - side
+  - recommendations
+  - delight
+  - saved
+  - socratic
+  - chat
+  - profile
+  - probes
+  - activity
+  - sidebar
+  - plus
+  - agent
+  - bridge
+source:
+  repository: https://github.com/whiteguo233/dsh-openbiliclaw
+  repositoryNodeId: R_kgDOT2rCBQ
+  subpath: null
+  commit: ac13101186e4e35780a1f1e4a68029ae903bf39b
+creator:
+  github: whiteguo233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:54.733Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 50
+provenance:
+  discussion: null
+  comment: null
