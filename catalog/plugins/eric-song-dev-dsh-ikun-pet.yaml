@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: eric-song-dev-dsh-ikun-pet
+name: dsh-ikun-pet
+description:
+  en: 'A DeepSeek Harness (DSH) plugin that fills the full row under the "Deep diving..." status line with an ikun pet during every reply : a 0% → 100% progress bar, a new animation and text every 20% , and a jump celebration with a system-level "你干嘛~哎哟" voice cue at completion 🏀'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - deep-dive
+  - progress
+  - desktop-pet
+  - kun
+source:
+  repository: https://github.com/eric-song-dev/dsh-ikun-pet
+  repositoryNodeId: R_kgDOT5MpSg
+  subpath: null
+  commit: ada74e3755730bbff1e619ca0f8ff7926d03ba98
+creator:
+  github: eric-song-dev
+package:
+  ecosystem: npm
+  name: dsh-ikun-pet
+  version: 2.2.0
+  integrity: sha512-FEI5lVskxvf3GDmpVgO+7YjIh087oUFFHwosIzR5Djj0w46KvkTkcLc6UHrt6Ru2xEjHui1YcV+epaKYzvSAeQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:37.989Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
