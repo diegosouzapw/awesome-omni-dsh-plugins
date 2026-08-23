@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: senmuuuuw-dsh-whale-report
+name: dsh-whale-report
+description:
+  en: <p align="center" <b Your Agent, in numbers.</b </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - report
+  - analytics
+  - agent
+  - cost
+  - token
+  - whale
+source:
+  repository: https://github.com/SenmuuuuW/dsh-whale-report
+  repositoryNodeId: R_kgDOT4RZrQ
+  subpath: null
+  commit: 5fccde44b1e06f927c651ed6418ffd28ea638132
+creator:
+  github: SenmuuuuW
+package:
+  ecosystem: npm
+  name: dsh-whale-report
+  version: 0.4.0
+  integrity: sha512-auYDK1gsio3AuQB31GWmkJuDbIaps9KuctOG6ZwkT6dvw5onFnm2T10UqGnJDDdl4UpVGBj9JJcexd1hRVpJvg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:39.955Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 28
+provenance:
+  discussion: null
+  comment: null
