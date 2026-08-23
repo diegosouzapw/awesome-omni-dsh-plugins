@@ -16,7 +16,7 @@ Ontdekking met voorrang voor makers en installatie met één commando voor **Dee
   <a href="https://dsh-plugins.omniroute.online">Blader, zoek en installeer elke plugin op de website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-483_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-652_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -82,16 +82,16 @@ Elke naam linkt naar het repository van de maker, vastgepind op de exacte commit
 
 | #   | Plugin | Maker | ★ | Categorie | Wat het doet |
 | --- | ------ | ------- | --- | -------- | ------------ |
-| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Insteekbaar zicht voor alleen-tekst-LLM's, aangedreven door de gratis Antigravity CLI |
-| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH-webplugin: een rechterzijbalk in VSCode-stijl (verkenner / editor / terminal / git / browser), geïsoleerd per… |
-| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Interactieve TUI-voordeur in Claude Code-stijl voor DeepSeek Harness-agents, gebouwd op de geporteerde Ink-core. |
-| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Ogen voor alleen-tekst DeepSeek Harness-agents: ingebouwde gratis visieketen (geen sleutel nodig) + visietools op pixelniveau… |
-| 5 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integratie voor agent-vision-toolkit: beeld-Q&A, OCR, grounding, UI-herstel,… |
-| 6 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH-advertentie-infestatieplugin: gelokaliseerde Chinese portaladvertenties en Engelse nepoplichting-advertentieparodie, met nep-pop-ups,… |
-| 7 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | [@taekchef](https://github.com/taekchef) | 249 | UI & dashboards | GenUI voor DeepSeek Harness: interactieve UI-componenten die inline in antwoorden van de assistent worden weergegeven via de dsh-ui… |
-| 8 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | [@huiliyi37](https://github.com/huiliyi37) | 220 | UI & dashboards | dsh-tianshu-tui: een interactieve terminal-UI-plugin voor de officiële DeepSeek Harness — streaming… |
-| 9 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 180 | UI & dashboards | Inline visualisatie voor DeepSeek Harness: een visualize-tool plus meegeleverde skill laten het model tekenen… |
-| 10 | [anime-find](https://github.com/cocofhu/anime-find) | [@cocofhu00](https://github.com/cocofhu00) | 152 | Search & research | Een anime-zoekplugin voor DeepSeek Harness: een anime_find_search-tool bundelt Mikan, AniBT en… |
+| 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
+| 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
+| 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
+| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 5 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | [@NanmiCoder](https://github.com/NanmiCoder) | 836 | Sessions & productivity | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies,… |
+| 6 | [dsh-context](https://github.com/bowenliang123/dsh-context) | [@bowenliang123](https://github.com/bowenliang123) | 825 | UI & dashboards | A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for… |
+| 7 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 8 | [graph-memory](https://github.com/adoresever/graph-memory) | [@adoresever](https://github.com/adoresever) | 565 | Memory & RAG | Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and… |
+| 9 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
+| 10 | [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | [@shaobeichen](https://github.com/shaobeichen) | 458 | Coding & dev tools | Put DeepSeek Harness in your pocket : one package, one settings tab — scan a QR code and your phone shows… |
 
 <div align="center">
 
@@ -121,7 +121,7 @@ en deze repository bevat de publieke catalogusdata, het schema en het beleid dat
 
 ## Catalogusstatus
 
-**483 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
+**652 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
 request, één tegelijk, vanuit het oorspronkelijke repository van de maker, met een
 vastgepinde broncommit en expliciete attributie.
 
@@ -340,4 +340,4 @@ licenties. Zie [docs/CREDIT.md](../../docs/CREDIT.md) en [docs/UNOFFICIAL.md](..
 
 </div>
 
-<!-- i18n-source-hash: 709876c9445d26490a8da22c064ac7abd8273c890192260a46acce6c4069a596 -->
+<!-- i18n-source-hash: e0a5a4ba800934969b62e5116ce21de4c0395a238684280a1e569b48aa7ad733 -->
