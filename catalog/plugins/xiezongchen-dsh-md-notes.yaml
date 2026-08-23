@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xiezongchen-dsh-md-notes
+name: dsh-md-notes
+description:
+  en: '<p align="center" DSH third-party plugin (bundle): <b MD Notes Manager</b <br / <a href="docs/usage.md" User Guide</a · <a href="docs/features.md" Features</a · <a href="docs/architecture.md" Architecture</a · <a href="docs/context.md" Context</a · <a href="docs/TODO.md" Roadmap</a · <a href="CHANGELOG.md" Changelog</a'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - align
+  - center
+  - third
+  - party
+  - bundle
+  - notes
+  - manager
+  - href
+  - docs
+  - usage
+  - user
+  - guide
+  - features
+  - architecture
+  - context
+  - todo
+source:
+  repository: https://github.com/XieZongChen/dsh-md-notes
+  repositoryNodeId: R_kgDOT5caOg
+  subpath: null
+  commit: f5d744c3bf84d7d33bbb074aae030b49c9abc18d
+creator:
+  github: XieZongChen
+package:
+  ecosystem: npm
+  name: dsh-md-notes
+  version: 0.6.0
+  integrity: sha512-QvHDntQfF1GDpjk44Gj9Sjp6f1ICXWL6MSo9aIIF54jkzWNaFvWojIN4lE31+u624vQrT3jQEyeA3sFizBt/tA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:33.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
