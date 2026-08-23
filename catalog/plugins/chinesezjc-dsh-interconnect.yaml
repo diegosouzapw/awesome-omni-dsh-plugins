@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: chinesezjc-dsh-interconnect
+name: dsh-interconnect
+description:
+  en: "Cross-instance message/event handoff plugins for DeepSeek Harness (DSH): interconnect service + model-facing tools"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - cross
+  - instance
+  - message
+  - event
+  - handoff
+  - interconnect
+  - service
+  - model
+  - facing
+  - tools
+  - dsh
+source:
+  repository: https://github.com/Chinesezjc/dsh-interconnect
+  repositoryNodeId: R_kgDOT3VC4w
+  subpath: null
+  commit: 32ca0ec0441983f7eded7c6d2bfbecfda02087b0
+creator:
+  github: Chinesezjc
+package:
+  ecosystem: npm
+  name: dsh-interconnect
+  version: 0.9.0
+  integrity: sha512-CASqTZoWCV8vbjm4L+m1d+NeWIK4e5g+tFfz/ySkQYPJSq7if4F6nf2/+Yt7E8Lr593P8Pm2Rc8Xxb6JSXiDxg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:11.617Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 34
+provenance:
+  discussion: null
+  comment: null
