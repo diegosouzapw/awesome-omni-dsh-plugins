@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yxxbc-dsh-balance-plugin
+name: dsh-balance-plugin
+description:
+  en: A DeepSeek Harness (DSH) plugin — balance monitoring · official top-up link · Miyu-style usage statistics · third-party plugin manager
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - balance
+  - usage
+  - quota
+source:
+  repository: https://github.com/yxxbc/dsh-balance-plugin
+  repositoryNodeId: R_kgDOT42JHw
+  subpath: null
+  commit: 321737d33f5a839424804cd1c171d6d1ce9fe852
+creator:
+  github: yxxbc
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:48:52.927Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 54
+provenance:
+  discussion: null
+  comment: null
