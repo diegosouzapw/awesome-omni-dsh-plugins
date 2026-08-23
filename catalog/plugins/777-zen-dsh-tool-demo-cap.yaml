@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: 777-zen-dsh-tool-demo-cap
+name: dsh-tool-demo-cap
+description:
+  en: "Demo dsh profile bundle with a capabilities declaration: same echo tool as dsh-tool-demo, plus ctx.provide('capabilityIndex.declarations', ...) for the dsh-capability-index plugin"
+  evidencePath: examples/dsh-tool-demo-cap/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - demo
+  - profile
+  - bundle
+  - capabilities
+  - declaration
+  - same
+  - echo
+  - tool
+  - plus
+  - provide
+  - capabilityindex
+  - declarations
+  - capability
+  - index
+  - dsh
+source:
+  repository: https://github.com/777-Zen/dsh-capability-index
+  repositoryNodeId: R_kgDOT5uPHQ
+  subpath: examples/dsh-tool-demo-cap
+  commit: e023dd110748741f06767c1d6cefd2261305b48c
+creator:
+  github: 777-Zen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: examples/dsh-tool-demo-cap/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:14.293Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
