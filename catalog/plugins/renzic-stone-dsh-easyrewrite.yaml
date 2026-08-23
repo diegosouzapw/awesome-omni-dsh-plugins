@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: renzic-stone-dsh-easyrewrite
+name: dsh-easyrewrite
+description:
+  en: dsh deepseek-harness recall rewrite bubble-edit version-pager i18n multilingual
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - client-plugin
+  - ui
+  - edit
+  - rewrite
+  - bubble-edit
+  - recall
+  - undo
+  - rollback
+  - version-pager
+  - i18n
+  - internationalization
+  - multilingual
+  - localization
+  - zh
+source:
+  repository: https://github.com/Renzic-Stone/DSH-EasyRewrite
+  repositoryNodeId: R_kgDOT8dWBg
+  subpath: null
+  commit: c1b1e990c4f7195548df38d819684f5329cf948e
+creator:
+  github: Renzic-Stone
+package:
+  ecosystem: npm
+  name: dsh-easyrewrite
+  version: 1.3.6
+  integrity: sha512-S3D7nHSlvbYsSyrIPUqrNQG/7vzxsu4yOaoi9rqYnpauoK0qEcjygS2+H22zrIKTX9fKDW/s6qndVdzVtWF6Nw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:46.768Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 43
+provenance:
+  discussion: null
+  comment: null
