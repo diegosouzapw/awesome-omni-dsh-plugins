@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hellodigua-dsh-share
+name: dsh-share
+description:
+  en: Share DSH Q&As or selected conversation groups as PNG or Markdown.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - share-image
+  - screenshot
+source:
+  repository: https://github.com/hellodigua/dsh-share
+  repositoryNodeId: R_kgDOT2V8jQ
+  subpath: null
+  commit: c109330b755c793cbc701a4e6a972d620a6667da
+creator:
+  github: hellodigua
+package:
+  ecosystem: npm
+  name: dsh-share
+  version: 0.3.1
+  integrity: sha512-QSkMqSbdT9yfyKO3tMfKHTJw61sZbiq1Okp24wLi6qv9lbfz8epDzrSGst4Zrha4wUre4rsoUSZa5SjDSvCZlQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:21.949Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 32
+provenance:
+  discussion: null
+  comment: null
