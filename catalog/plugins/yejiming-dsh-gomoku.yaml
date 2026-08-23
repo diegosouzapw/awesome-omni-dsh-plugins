@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: yejiming-dsh-gomoku
+name: "@yejiming/dsh-gomoku"
+description:
+  en: "Gomoku (five-in-a-row) for the dsh web GUI: AI move routes, model catalog, and default prompt (node half) plus the conversation-view tab with the board (browser half)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - gomoku
+  - five
+  - move
+  - routes
+  - model
+  - catalog
+  - default
+  - prompt
+  - node
+  - half
+  - plus
+  - conversation
+  - view
+  - board
+  - browser
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-gomoku
+  repositoryNodeId: R_kgDOTyepUw
+  subpath: null
+  commit: 5b27af9808f5bd8f2d753dfdf6157d86a54a4947
+creator:
+  github: yejiming
+package:
+  ecosystem: npm
+  name: "@yejiming/dsh-gomoku"
+  version: 0.0.1
+  integrity: sha512-XRk2o8MNM8uWhTEUI+Na/gZFq4NiPP2KGTDDs/syVkn0mv/iCywQmeMVW1IA3ZLICZdpwUjlszYMwrdda36q1Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:24.204Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
