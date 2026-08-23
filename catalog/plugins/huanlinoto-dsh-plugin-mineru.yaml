@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: huanlinoto-dsh-plugin-mineru
+name: "@huanlin/dsh-plugin-mineru"
+description:
+  en: DSH plugin exposing MinerU document parsing tools to the model, with a web UI settings page for the API base URL.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/HuanLinOTO/dsh-plugin-mineru
+  repositoryNodeId: R_kgDOTzDZlw
+  subpath: null
+  commit: 79809aa57bd19be0ca548be52b76161514d02e11
+creator:
+  github: HuanLinOTO
+package:
+  ecosystem: npm
+  name: "@huanlin/dsh-plugin-mineru"
+  version: 0.2.2
+  integrity: sha512-6fEP4NYh1QcZvaixax0ohJQ/oYiSFvHqRb1egEKaAXvrW52jj7fBTTHQscc3dWEvgTsAlx3ZPHm02RT1geS+wQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: AGPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:06.290Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 41
+provenance:
+  discussion: null
+  comment: null
