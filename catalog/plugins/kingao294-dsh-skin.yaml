@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: kingao294-dsh-skin
+name: dsh-skin
+description:
+  en: "Skin switcher + custom wallpaper for DeepSeek Harness: curated --dsw-alias- palettes, translucent wallpaper with opacity/blur controls, and durable per-user persistence (like Codex themes)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - wallpaper
+  - web-ui
+  - pet
+  - desktop-pet
+  - sticker
+  - nailong
+source:
+  repository: https://github.com/KinGao294/dsh-skin
+  repositoryNodeId: R_kgDOT31qHA
+  subpath: null
+  commit: 0a571a27adcc5f780b7b72386c9c294243eec5b3
+creator:
+  github: KinGao294
+package:
+  ecosystem: npm
+  name: dsh-skin
+  version: 0.4.0
+  integrity: sha512-6otf+jt7spFgBFz3rW75YKI+otxWgvQlYNy2dU2SPPv7nJw5G70JW6PC887Wlz5Lg6H1p//WfvMyZKefVYT6Iw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:04.648Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
