@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xmanrui-dsh-feishu
+name: "@xmanrui/dsh-feishu"
+description:
+  en: DeepSeek Harness plugin for multi-bot Feishu setup and streaming chat
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - multi
+  - feishu
+  - setup
+  - streaming
+  - chat
+  - dsh
+source:
+  repository: https://github.com/xmanrui/dsh-feishu
+  repositoryNodeId: R_kgDOT4SQeg
+  subpath: null
+  commit: 9510b7758af5f393ca5cb0fabacc780a6b7b1d0b
+creator:
+  github: xmanrui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:12.960Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
