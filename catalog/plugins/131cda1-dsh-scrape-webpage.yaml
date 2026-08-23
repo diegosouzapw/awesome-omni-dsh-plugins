@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 131cda1-dsh-scrape-webpage
+name: dsh-scrape-webpage
+description:
+  en: powershell dsh plugin --profile web add dsh-scrape-webpage
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - scrape
+  - web
+  - web-scraper
+source:
+  repository: https://github.com/131CDA1/dsh-scrape-webpage
+  repositoryNodeId: R_kgDOT4dW9g
+  subpath: null
+  commit: 7485af10c063579323058583c7f13e69c4c8bd21
+creator:
+  github: 131CDA1
+package:
+  ecosystem: npm
+  name: dsh-scrape-webpage
+  version: 1.0.0
+  integrity: sha512-80IRvkm4WCZH8jpEmtAPLLYCkxrHgcMMUAoc7UGn8mZUY09KA6BpjhuHeLs81gquCym7vrU1tlBjVYNlJhdMOQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:16.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
