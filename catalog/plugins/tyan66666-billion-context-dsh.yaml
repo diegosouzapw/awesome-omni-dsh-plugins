@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tyan66666-billion-context-dsh
+name: billion-context-dsh
+description:
+  en: Active Context Pruning (ACP) for the DeepSeek Harness — model-driven context management as a CompactionEngine backend.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - acp
+  - context-management
+  - context-compression
+  - llm
+  - agent
+  - compaction
+source:
+  repository: https://github.com/Tyan66666/billion-context-dsh
+  repositoryNodeId: R_kgDOT3jkfQ
+  subpath: null
+  commit: f2a284737067b3ee6ea1bfc6c2c12edb0fb984f2
+creator:
+  github: Tyan66666
+package:
+  ecosystem: npm
+  name: billion-context-dsh
+  version: 0.2.8
+  integrity: sha512-rIkK8hHMNrlWWkN4nKinqZ5kHjNCSBS1tyh9yR5/2x8blpDDHAOnN/o2FUJxqANok6rdMung27v0AiVS3rLrpA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:16.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 35
+provenance:
+  discussion: null
+  comment: null
