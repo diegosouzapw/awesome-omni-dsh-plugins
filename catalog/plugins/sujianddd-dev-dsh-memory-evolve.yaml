@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: sujianddd-dev-dsh-memory-evolve
+name: dsh-memory-evolve
+description:
+  en: "In one sentence : Give the AI inside DSH long-term cross-session memory, help you manage todos and skills, and let you orchestrate a team of AI sessions and external AI agents working together — the more you use it, the more it understands you, and switching sessions never loses context . This guide is organized around"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - sentence
+  - give
+  - inside
+  - long
+  - term
+  - cross
+  - session
+  - memory
+  - help
+  - manage
+  - todos
+  - skills
+  - orchestrate
+  - team
+  - sessions
+  - external
+source:
+  repository: https://github.com/csyangwen/dsh-memory-evolve
+  repositoryNodeId: R_kgDOTuaIUg
+  subpath: null
+  commit: a08fff7f5c0228bf7a9dbf21d917579ccc08a5a8
+creator:
+  github: sujianddd-dev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:01.383Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 224
+provenance:
+  discussion: null
+  comment: null
