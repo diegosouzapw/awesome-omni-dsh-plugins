@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wqty123-dsh-builtin-browser
+name: dsh-builtin-browser
+description:
+  en: "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (browser auth), CAPTCHA detection, batch form fill (browser fill), authenticated downl"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - browser
+  - cdp
+  - dsh
+source:
+  repository: https://github.com/wqty123/dsh-browser
+  repositoryNodeId: R_kgDOT4lV-A
+  subpath: null
+  commit: 9ffe5d6c0d782f3c489d342943fee56d22d6d283
+creator:
+  github: wqty123
+package:
+  ecosystem: npm
+  name: dsh-builtin-browser
+  version: 0.1.15
+  integrity: sha512-ipUxgaMU1YaMgwRG12gpXvdz2/Q/k/TH5xcVWzGj5kxzwxqGWjyCA6p15K/OxdlodkTJpsBbahVNlI+3zff4MQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:00.761Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
