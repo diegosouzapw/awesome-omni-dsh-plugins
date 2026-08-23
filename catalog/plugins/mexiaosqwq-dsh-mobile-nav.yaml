@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: mexiaosqwq-dsh-mobile-nav
+name: "@dsh-external/dsh-mobile-nav"
+description:
+  en: sh dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - profile
+  - mexiaosqwq
+  - mobile
+  - dsh
+source:
+  repository: https://github.com/mexiaosqwq/dsh-web-mobile
+  repositoryNodeId: R_kgDOT42FlA
+  subpath: null
+  commit: aa2c396e3d30949445161ace79f05b42f8cccc33
+creator:
+  github: mexiaosqwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:07.924Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 45
+provenance:
+  discussion: null
+  comment: null
