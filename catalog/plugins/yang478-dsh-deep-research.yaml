@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yang478-dsh-deep-research
+name: "@dsh-external/dsh-deep-research"
+description:
+  en: "Deep Research orchestrator extension for DeepSeek Harness: an adaptive cybernetics/information-theory deep research tool on the official workflow engine, reusing built-in web search/web fetch."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deep
+  - research
+  - orchestrator
+  - extension
+  - adaptive
+  - cybernetics
+  - information
+  - theory
+  - tool
+  - official
+  - workflow
+  - engine
+  - reusing
+  - built
+  - search
+  - fetch
+source:
+  repository: https://github.com/omdsh-dev/dsh-deep-research
+  repositoryNodeId: R_kgDOTvZrZw
+  subpath: null
+  commit: c0b329e02cd0195f810a7c3608cb58701a7fe0f1
+creator:
+  github: yang478
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:09.704Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
