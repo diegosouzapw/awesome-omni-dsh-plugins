@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 54xkeee-dsh-vision-web
+name: dsh-vision-web
+description:
+  en: "Eyes for text-only DeepSeek on DeepSeek Harness: image understanding via Doubao Web by default (zero cost, no API key), Antigravity IDE quota (flash/pro), Gemini API, or Cockpit proxy — model-invokable vision tool, wrapper adapters, evidence memory, and a bilingual client panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - image
+  - image-understanding
+  - image-recognition
+  - multimodal
+  - ocr
+  - vlm
+  - doubao
+  - gemini
+  - antigravity
+source:
+  repository: https://github.com/54xkeee/dsh-vision
+  repositoryNodeId: R_kgDOT5yeCQ
+  subpath: null
+  commit: f8b26198aff85bc72c3bb12a2e843ebec68c04d1
+creator:
+  github: 54xkeee
+package:
+  ecosystem: npm
+  name: dsh-vision-web
+  version: 0.1.0
+  integrity: sha512-twfM5JSd09CgEEE1GqaYvCxud6/R9jQy+qDJXV/lR0pN9vinKrM4shRHzkYk7PahUbHzlE95H2T3sIWPwdaYLA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:18.250Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
