@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: shanliuling-dsh-image-gen
+name: dsh-image-gen
+description:
+  en: Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream & more.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ai-agent
+  - image-generation
+  - ai-image-generation
+  - multimodal
+  - gemini
+  - openai
+  - openai-compatible
+  - seedream
+  - volcengine
+  - byok
+  - cordis
+source:
+  repository: https://github.com/shanliuling/dsh-image-gen
+  repositoryNodeId: R_kgDOT7D7kQ
+  subpath: null
+  commit: 57b0fdc4bf05ecaef9edc8e6d40bf286d074ca57
+creator:
+  github: shanliuling
+package:
+  ecosystem: npm
+  name: dsh-image-gen
+  version: 0.1.4
+  integrity: sha512-vk2RCbDTO91bVpmaL3XIRoQAIONkAo9WP3Idm5FY2i1/vdB1BZhpM5ZStlRoDhom29d5XrvS+nzvEEYVY4ZgxA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:30:12.851Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 135
+provenance:
+  discussion: null
+  comment: null
