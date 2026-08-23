@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: cloader-dsh-taskboard
+name: dsh-taskboard
+description:
+  en: "Agent-first task board for the DSH web GUI: host-authoritative task ledger with taskboard agent tools, project (= workspace) claim boundaries, per-task model execution in fresh sessions, optional per-task git-worktree isolation (dedicated task branches, commit evidence, one-click merge), host-side cron scheduling, and "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - taskboard
+  - kanban
+  - agent
+source:
+  repository: https://github.com/cloader/dsh-taskboard
+  repositoryNodeId: R_kgDOT5BykQ
+  subpath: null
+  commit: cfea989d51a7df565305b4f24a1e7b50b5dcde72
+creator:
+  github: cloader
+package:
+  ecosystem: npm
+  name: dsh-taskboard
+  version: 0.4.2
+  integrity: sha512-1s+JhzviITXWPKVVx1AKDgPx85cGEphJGVyoCY1ARVV95xNRdhlWMuAet0gQpvCxY676mExpN8cpXseL2i/jCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:27.192Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null
