@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: glfzr-dsh-file-upload
+name: dsh-file-upload
+description:
+  en: "Codex-style drag-drop for DSH web GUI: drag any file, it lands in ~/.dsh-dropbox, and the path lands in the composer as a whole blue chip (the mandatory .b64 suffix is display-hidden; the real path serializes on submit). Hot-pluggable: install with dsh plugin --profile web add ./plugins/file-upload , no dsh source chan"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - codex
+  - style
+  - drag
+  - drop
+  - file
+  - lands
+  - dropbox
+  - path
+  - composer
+  - whole
+  - blue
+  - chip
+  - mandatory
+  - suffix
+  - display
+  - hidden
+source:
+  repository: https://github.com/GLFzr/dsh-file-upload
+  repositoryNodeId: R_kgDOT4ZkpQ
+  subpath: null
+  commit: baa569938c03404b4eac6c6740c27afb49b60ba8
+creator:
+  github: GLFzr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:51:39.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
