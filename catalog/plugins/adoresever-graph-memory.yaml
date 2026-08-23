@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: adoresever-graph-memory
+name: graph-memory
+description:
+  en: Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and vector search
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - cordis
+  - openclaw
+  - agent-memory
+  - knowledge-graph
+  - sqlite
+  - dsh
+source:
+  repository: https://github.com/adoresever/graph-memory
+  repositoryNodeId: R_kgDORjueyw
+  subpath: null
+  commit: 83ffb2771022a8d323feefc280ae4f198d8b85e5
+creator:
+  github: adoresever
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T02:29:50.349Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 565
+provenance:
+  discussion: null
+  comment: null
