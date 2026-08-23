@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: aks1st-cyber-particle
+name: cyber-particle
+description:
+  en: Particle-network background overlay for the DeepSeek Harness Web shell (browser-rendered, localStorage persistence).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - background
+  - particles
+source:
+  repository: https://github.com/AKS1st/dsh-cyber-particle
+  repositoryNodeId: R_kgDOT4do6Q
+  subpath: null
+  commit: e08111d59df009454d9de6b8384907f697e038f6
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:47.197Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
