@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: bramblexu-dsh-annotate
+name: dsh-annotate
+description:
+  en: Browser element annotation bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - annotation
+  - browser
+  - visual-debugging
+  - dsh
+source:
+  repository: https://github.com/BrambleXu/dsh-annotate
+  repositoryNodeId: R_kgDOT33P0A
+  subpath: null
+  commit: 43f39543f720d6f8851924f1387c797f04debd21
+creator:
+  github: BrambleXu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:52:24.915Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
