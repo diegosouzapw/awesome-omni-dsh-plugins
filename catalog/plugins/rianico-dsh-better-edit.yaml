@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: rianico-dsh-better-edit
+name: dsh-better-edit
+description:
+  en: Hash-anchored read/edit/batch edit/undo last edit tools for DeepSeek Harness (dsh). Every line gets a unique 3-char hash (A-Za-z0-9) that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restarts.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - coding-agent
+  - oh-my-pi
+  - hashline
+  - hash-anchored
+  - hash
+  - anchors
+  - read
+  - edit
+  - batch-edit
+  - undo
+  - file-editing
+  - stable
+source:
+  repository: https://github.com/Rianico/dsh-better-edit
+  repositoryNodeId: R_kgDOT4fhrQ
+  subpath: null
+  commit: d66754b803f2469ca904e00224cdfd6d7b97bdf0
+creator:
+  github: Rianico
+package:
+  ecosystem: npm
+  name: dsh-better-edit
+  version: 0.3.0
+  integrity: sha512-MeZbB/3BCYw22MRLp/mZeqQHk6d6RgLr4emv9ZZbqYkYpMh5TRcH3JnGE75whKNAsB5gsbuVsqSlQLbGbEGsrQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:50:41.055Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
