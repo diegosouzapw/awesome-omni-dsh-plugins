@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: a735624258-dsh-skill-picker
+name: dsh-skill-picker
+description:
+  en: "DSH Web GUI skill picker: a button beside the composer opens a searchable list of installed skills; picking one inserts the official /skill-name gesture into the input box, so the skill loads with your message (WorkBuddy-style skill invocation for DeepSeek Harness)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - skill
+  - picker
+  - button
+  - beside
+  - composer
+  - opens
+  - searchable
+  - list
+  - installed
+  - skills
+  - picking
+  - inserts
+  - official
+  - name
+  - gesture
+  - input
+source:
+  repository: https://github.com/a735624258/dsh-skill-picker
+  repositoryNodeId: R_kgDOT5vmsw
+  subpath: null
+  commit: aff4f33ea69f59588dec7fc5847c734452a27b2d
+creator:
+  github: a735624258
+package:
+  ecosystem: npm
+  name: dsh-skill-picker
+  version: 0.2.0
+  integrity: sha512-qSnpKKafj2Zt3rGTn+plrTlxEOmrgaZ550s3zK3kQ/tPMZlNqHGMXsVyzNnIYK0lCYFyCZICe0SUykjhXgCU4g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-23T04:49:48.305Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null
