@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: ankye-dsh-tool-use-browser
+name: "@deepseek-ai/dsh-tool-use-browser"
+description:
+  en: "Codex-style local browser automation: open / interact / screenshot / extract / eval via Playwright (headless or CDP to your Chrome)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - codex
+  - style
+  - local
+  - browser
+  - automation
+  - open
+  - interact
+  - screenshot
+  - extract
+  - eval
+  - playwright
+  - headless
+  - chrome
+  - dsh
+source:
+  repository: https://github.com/ankye/dsh_use_browser
+  repositoryNodeId: R_kgDOT9GPSw
+  subpath: packages/use-browser
+  commit: 975a746522205f72ca407b65dca8532dfa11f46d
+creator:
+  github: ankye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/use-browser/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:38.495Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
