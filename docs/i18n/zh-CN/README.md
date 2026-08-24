@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">在网站上浏览、搜索并安装所有插件 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-652_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-663_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@
 
 ## 目录状态
 
-**已合并 652 个插件。** 每个插件都通过一次单独评审的拉取请求逐个纳入,来自原始创作者仓库,附带固定的源代码提交和明确署名。
+**已合并 663 个插件。** 每个插件都通过一次单独评审的拉取请求逐个纳入,来自原始创作者仓库,附带固定的源代码提交和明确署名。
 
 ## 🚀 安装 CLI
 
@@ -301,4 +301,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: e0a5a4ba800934969b62e5116ce21de4c0395a238684280a1e569b48aa7ad733 -->
+<!-- i18n-source-hash: 81b9e0e0118fd89f9ce94a33d5168d0649e8ada88108be8031846335db45ee40 -->
