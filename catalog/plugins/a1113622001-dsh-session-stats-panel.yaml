@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: a1113622001-dsh-session-stats-panel
+name: dsh-session-stats-panel
+description:
+  en: "DeepSeek Harness (cordis) client plugin: a right-side session stats panel showing average cache-hit rate, session cost, runtime, request count and cumulative tokens (DeepSeek pricing)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - web
+  - ui
+  - session
+  - stats
+  - token-usage
+source:
+  repository: https://github.com/a1113622001/dsh-session-stats-panel
+  repositoryNodeId: R_kgDOT9vnNg
+  subpath: null
+  commit: 69bdeb0f45413f55a192f449ded8a7b7408a2789
+creator:
+  github: a1113622001
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:08.716Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
