@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: 173787247-dsh-wsl-env
+name: dsh-wsl-env
+description:
+  en: Inject WSL/Windows path and shell facts into the DeepSeek Harness system prompt.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - wsl
+  - dsh
+source:
+  repository: https://github.com/173787247/dsh-wsl-env
+  repositoryNodeId: R_kgDOT8hasg
+  subpath: null
+  commit: 0b901211fe2f7608023472d182a7c90894de76cd
+creator:
+  github: "173787247"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:24.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
