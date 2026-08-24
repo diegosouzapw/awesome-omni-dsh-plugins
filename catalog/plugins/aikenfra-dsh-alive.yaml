@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: aikenfra-dsh-alive
+name: dsh-alive
+description:
+  en: An always-visible ● Online / ● Offline indicator in the conversation header, auto-refreshed every 15 seconds. It costs zero tokens — the browser simply polls a process-local HTTP endpoint.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - status
+  - online
+  - health
+  - indicator
+  - heartbeat
+source:
+  repository: https://github.com/AikenFra/dsh-alive
+  repositoryNodeId: R_kgDOT5yVkg
+  subpath: null
+  commit: b89e53b51e5380900d0b298cbe1e768b5b940a84
+creator:
+  github: AikenFra
+package:
+  ecosystem: npm
+  name: dsh-alive
+  version: 0.1.1
+  integrity: sha512-j5Z7ZLc8DOJI9vyU4MZWr6RsWiYbXnY0XicU6/rCb5yQpE1oHgoOwrPtvcTJAHdhv4erzceb108Vfpkk+1EIXg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:53.365Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
