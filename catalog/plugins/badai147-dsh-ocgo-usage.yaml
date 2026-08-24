@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: badai147-dsh-ocgo-usage
+name: "@badai147/dsh-ocgo-usage"
+description:
+  en: "OpenCode Go usage stats for the DeepSeek Harness Web GUI: compact bottom-left sidebar button with a hover detail card"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - opencode-go
+  - usage
+  - stats
+source:
+  repository: https://github.com/badai147/dsh-ocgo-usage
+  repositoryNodeId: R_kgDOT8Q3CA
+  subpath: null
+  commit: a0608f9215d1ced00c578869f510afec67b7fb8e
+creator:
+  github: badai147
+package:
+  ecosystem: npm
+  name: "@badai147/dsh-ocgo-usage"
+  version: 0.2.0
+  integrity: sha512-VEccYhEzduPGqXedDG7Y+xBLCstg6gvVsL2mNLSmFyzExiR23CF9HknPG5rgnzG0Vpb5+4/e5k/DEzptFQIBFQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:46.571Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
