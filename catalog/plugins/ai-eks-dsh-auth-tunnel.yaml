@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ai-eks-dsh-auth-tunnel
+name: dsh-auth-tunnel
+description:
+  en: "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - password
+  - gated
+  - public
+  - access
+  - cloudflare
+  - tunnel
+  - loopback
+  - gate
+  - login
+  - page
+  - hmac
+  - cookie
+  - front
+  - webserver
+  - published
+  - spawning
+source:
+  repository: https://github.com/ai-eks/dsh-auth-tunnel
+  repositoryNodeId: R_kgDOT4VFyQ
+  subpath: null
+  commit: b791495ace54ef82d2793e6f88f86465ed6433af
+creator:
+  github: ai-eks
+package:
+  ecosystem: npm
+  name: dsh-auth-tunnel
+  version: 0.1.0-rc.8
+  integrity: sha512-TRYPhJf9TecsLo00tj+/WmigEq9pXHtPWiZ9PLazC0dkXLRh9Bay0GQ1WVYL25DllmXnr21Mhpa5L9hfsqI1cw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:02.536Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
