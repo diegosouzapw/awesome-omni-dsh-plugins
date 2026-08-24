@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 863683348-dsh-feed
+name: dsh-feed
+description:
+  en: "Cross-ecosystem aggregation base ('聚合的聚合'): syncs the GitHub dsh-plugin topic + npm registry into one open JSON index, queried by model tools, a CLI (dsh-feed), and a minimal stdio MCP server"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - feed
+  - index
+  - aggregation
+  - mcp
+source:
+  repository: https://github.com/863683348/dsh-feed
+  repositoryNodeId: R_kgDOT6qtMg
+  subpath: null
+  commit: d9f59743c53d8a349f1deb2f18f70117a4014ef7
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-feed
+  version: 0.1.0
+  integrity: sha512-6Fezvq9ghroGwJ048ebPKUfAkFfrAQJNEDa4sata7HS88WhbDbhrTKcvyKdrpIuv7vCSXWFmaMbZADk2BQLksg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:35.490Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
