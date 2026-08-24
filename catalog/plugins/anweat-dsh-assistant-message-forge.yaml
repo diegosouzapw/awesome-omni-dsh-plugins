@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: anweat-dsh-assistant-message-forge
+name: dsh-assistant-message-forge
+description:
+  en: 浏览器客户端 DSH host (Node) ForgeView（conversation.view 页签） ├─ ContextPanel：解析记录卡片流 + 动态编辑 ├─ 草稿区：添加/修改/删除/注入按钮 ├─ sessionlog 文件选择 + 识别/修复预览 └── connection.rpc.call(AMF RPC CHANNEL) ──▶ /dsh-assistant-message-forge ├─ DraftStore（drafts.json） ├─ ContextRecordStore（context- .json + overrides） ├─ parseContext / surface replace
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - assistant-message
+  - session-log
+  - testing
+  - client-plugin
+source:
+  repository: https://github.com/anweat/dsh-assistant-message-forge
+  repositoryNodeId: R_kgDOT465Vg
+  subpath: null
+  commit: 0f05362ef4cd62733a48efbe39907c11dc5122b1
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: dsh-assistant-message-forge
+  version: 0.1.0
+  integrity: sha512-9za04kzg8m9tJQX33lN75G4E8M4Eav6wbRjVjwuLuTBWNFnIDyLIFWwWfEDS744QOLjNWxPpb557kGZjubCcmw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:49.734Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
