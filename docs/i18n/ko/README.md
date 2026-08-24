@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">웹사이트에서 모든 플러그인을 둘러보고, 검색하고, 설치하세요 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-696_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-779_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@
 
 ## 카탈로그 현황
 
-**696개 플러그인 병합 완료.** 모든 플러그인은 원 크리에이터의 저장소로부터, 고정된 소스 커밋과 명시적인 출처 표시와 함께, 한 번에 하나씩 개별적으로 검토된 풀 리퀘스트를 통해 등록됩니다.
+**779개 플러그인 병합 완료.** 모든 플러그인은 원 크리에이터의 저장소로부터, 고정된 소스 커밋과 명시적인 출처 표시와 함께, 한 번에 하나씩 개별적으로 검토된 풀 리퀘스트를 통해 등록됩니다.
 
 ## 🚀 CLI 설치
 
@@ -287,4 +287,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 26cb7bf68c7f9b4883a9c3814f6bed242c02bd2259e6e1ba004ab2e1e3e814fe -->
+<!-- i18n-source-hash: 3cc65d072a23c9ec7a757feb157491d784c11fd3ab32a959bb06dfa1637d9f12 -->

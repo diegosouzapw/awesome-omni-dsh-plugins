@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">在網站上瀏覽、搜尋並安裝所有外掛 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-696_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-779_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -115,7 +115,7 @@
 
 ## 目錄狀態
 
-**已合併 696 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
+**已合併 779 個外掛。** 每個外掛皆透過一次單獨審查的提取請求逐一納入,來自原始創作者儲存庫,並附帶固定的來源提交與明確
 掛名。
 
 ## 🚀 安裝 CLI
@@ -308,4 +308,4 @@ monorepo 中的整合仍可被發現,但使用 `stars: null`,絕不繼承母專�
 
 </div>
 
-<!-- i18n-source-hash: 26cb7bf68c7f9b4883a9c3814f6bed242c02bd2259e6e1ba004ab2e1e3e814fe -->
+<!-- i18n-source-hash: 3cc65d072a23c9ec7a757feb157491d784c11fd3ab32a959bb06dfa1637d9f12 -->
