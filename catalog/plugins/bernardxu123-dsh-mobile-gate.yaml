@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: bernardxu123-dsh-mobile-gate
+name: dsh-mobile-gate
+description:
+  en: "Let phones and tablets on your LAN safely access your local DeepSeek Harness (DSH) Web UI, with mobile-friendly layout injected automatically. 中文文档: README.md · LLM index: llms.txt · Agent guide: AGENTS.md"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-plugin-add
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - lan
+  - mobile
+  - phone
+  - mobile-ui
+  - remote-access
+  - reverse-proxy
+  - gateway
+  - approval
+  - rate-limit
+  - ai-agent
+source:
+  repository: https://github.com/Bernardxu123/dsh-mobile-gate
+  repositoryNodeId: R_kgDOT4i54Q
+  subpath: null
+  commit: 06e0ea87101d1330c573cb01acecd67e36764413
+creator:
+  github: Bernardxu123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:46.354Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
