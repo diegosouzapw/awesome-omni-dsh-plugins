@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: zhu168-dsh-save-money
+name: dsh-save-money
+description:
+  en: DSH save-money plugin — time-window auto pause/resume for peak/off-peak API pricing (TypeScript sources, i18n zh/en).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - save
+  - money
+  - time
+  - window
+  - auto
+  - pause
+  - resume
+  - peak
+  - pricing
+  - typescript
+  - sources
+  - i18n
+  - dsh
+source:
+  repository: https://github.com/zhu168/dsh-save-money
+  repositoryNodeId: R_kgDOT5O9jQ
+  subpath: null
+  commit: 81061ef3706fb5c7793e1c0e4652b43cf3c17727
+creator:
+  github: zhu168
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:55:51.992Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 33
+provenance:
+  discussion: null
+  comment: null
