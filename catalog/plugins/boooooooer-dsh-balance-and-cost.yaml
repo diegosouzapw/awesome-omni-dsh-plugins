@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: boooooooer-dsh-balance-and-cost
+name: dsh-balance-and-cost
+description:
+  en: sh dsh plugin --profile web add github:boooooooer/dsh-balance-and-cost
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - balance
+  - cost
+  - usage
+  - tokens
+source:
+  repository: https://github.com/boooooooer/dsh-balance-and-cost
+  repositoryNodeId: R_kgDOT7RtIg
+  subpath: null
+  commit: 22846b82fc5431eaf3fd53817782c06de1b30023
+creator:
+  github: boooooooer
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:04.302Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
