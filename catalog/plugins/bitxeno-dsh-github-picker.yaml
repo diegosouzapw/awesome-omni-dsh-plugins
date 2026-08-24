@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: bitxeno-dsh-github-picker
+name: dsh-github-picker
+description:
+  en: "GitHub issue and pull request references for the DeepSeek Harness web GUI: click the GitHub icon at the bottom-right of the input box to search the workspace repository and insert issue/PR references. Data comes from the gh CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - issue
+  - pull
+  - request
+  - references
+  - click
+  - icon
+  - bottom
+  - right
+  - input
+  - search
+  - workspace
+  - repository
+  - insert
+  - data
+  - comes
+  - dsh
+source:
+  repository: https://github.com/bitxeno/dsh-github-picker
+  repositoryNodeId: R_kgDOT69f7A
+  subpath: null
+  commit: ce94497ee7178ce54e0d69825c089d13a197d5c7
+creator:
+  github: bitxeno
+package:
+  ecosystem: npm
+  name: dsh-github-picker
+  version: 0.4.1
+  integrity: sha512-ROXBwMa5ThXUZ6vOd119S7H3gMfwfSOF6eX8zWkOCMDjjkxY3YkImSx8jF9w8KJ4Q5vprcgKqvYv85g3iKS1Vg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:59.850Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
