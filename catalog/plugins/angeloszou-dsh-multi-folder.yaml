@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: angeloszou-dsh-multi-folder
+name: dsh-multi-folder
+description:
+  en: "DeepSeek Harness plugin: secondary working directories for a project. The agent keeps the primary workspace as cwd, gains equal write/exec permissions on configured secondary directories under workspace-write mode, and is notified of configuration changes at the next message boundary. Configurable from the session head"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - multi-folder
+  - secondary-workspace
+  - workspace
+source:
+  repository: https://github.com/AngelosZou/dsh-multi-folder
+  repositoryNodeId: R_kgDOT4UNzQ
+  subpath: null
+  commit: 420416bb1e295d7c99dae301ca12cfb01049e37f
+creator:
+  github: AngelosZou
+package:
+  ecosystem: npm
+  name: dsh-multi-folder
+  version: 0.1.5
+  integrity: sha512-4Pm3dF9uZkTf9KQPmai+5k5K/E5eg6eo1uxMNGxbnSVLe3CzW/qI+Qs8VhM81kXYmypHOFHp/l08fCGK6/k88A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:48.151Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
