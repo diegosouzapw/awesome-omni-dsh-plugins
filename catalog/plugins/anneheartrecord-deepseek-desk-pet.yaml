@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: anneheartrecord-deepseek-desk-pet
+name: deepseek-desk-pet
+description:
+  en: "Always-on-top DeepSeek Harness desk pet with a native menu and DIY skins. Shows what your agent is doing: working, waiting, finished, failed. Five skins, or make your own from one image. No dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+source:
+  repository: https://github.com/anneheartrecord/dsh-desk-pet
+  repositoryNodeId: R_kgDOT4VQxg
+  subpath: null
+  commit: 18bfb38316e5e4fe64f3c1fa50c5dd520776cfae
+creator:
+  github: anneheartrecord
+package:
+  ecosystem: npm
+  name: deepseek-desk-pet
+  version: 0.3.0
+  integrity: sha512-/HahtWen78Zdp9WVfbSY52cJivt1kOFW3MHNjUP4LhmjfsEheLPPEtloMMjHLopyS5kufk2uwuCJ6xABIVY7VQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:50.382Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
