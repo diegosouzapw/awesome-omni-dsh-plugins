@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: beachanger-dsh-openclaw-acp
+name: dsh-openclaw-acp
+description:
+  en: DeepSeek Harness bundle that exposes a profile as an OpenClaw-compatible ACP agent.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - openclaw
+  - wechat
+  - agent-client-protocol
+  - acp
+  - dsh
+source:
+  repository: https://github.com/BeAChanger/dsh-openclaw-acp
+  repositoryNodeId: R_kgDOT3jSPQ
+  subpath: null
+  commit: ac475fa1c81e350eda53edce9fdf1a3126c5b7b5
+creator:
+  github: BeAChanger
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:53.371Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
