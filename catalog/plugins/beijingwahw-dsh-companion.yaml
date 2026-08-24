@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: beijingwahw-dsh-companion
+name: dsh-companion
+description:
+  en: "- DeepSeek Harness = 0.1.0 - Node.js ^22.19 =24 - pnpm（ npm install -g pnpm ）"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - node
+  - pnpm
+  - install
+  - dsh
+source:
+  repository: https://github.com/beijingwahw/dsh-companion
+  repositoryNodeId: R_kgDOT41bAQ
+  subpath: null
+  commit: 3c36cfaf0d13f35789b5904c7adada618c48ab8e
+creator:
+  github: beijingwahw
+package:
+  ecosystem: npm
+  name: dsh-companion
+  version: 0.1.0
+  integrity: sha512-RfLsKaoC9Z2itlpLSMDxelH+E59vR+79fvgm6v03wgTj06QOaUdmIK+sRBQ9IlG5czFv403YHaMGfI/w+ZX+DA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:55.205Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
