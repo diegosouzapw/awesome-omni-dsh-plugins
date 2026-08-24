@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: azure5100-dsh-record-replay
+name: dsh-record-replay
+description:
+  en: "Record & Replay for the dsh web GUI: (1) replay every automatically recorded session as a readable timeline, export/import shareable replay packs, re-run a recorded conversation; (2) Codex-style screen recording - skill generation - record a computer-use session in the browser (getDisplayMedia - webm + sampled frames),"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - record
+  - replay
+  - every
+  - automatically
+  - recorded
+  - session
+  - readable
+  - timeline
+  - export
+  - import
+  - shareable
+  - packs
+  - conversation
+  - codex
+  - style
+  - screen
+source:
+  repository: https://github.com/azure5100/huahua-dsh-record-replay
+  repositoryNodeId: R_kgDOT6uxig
+  subpath: null
+  commit: e10c3b470e4c21335f2345d578b2bf6a97bfc4e2
+creator:
+  github: azure5100
+package:
+  ecosystem: npm
+  name: dsh-record-replay
+  version: 0.2.0
+  integrity: sha512-AX/JXhzcNondSqE/oS65IR9jSYNw8Mm++f6T6wBSLV3OKagTpuWeuaY5YXrg6KxtSqsvnrgEG+PhXbqsnqPjjQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:44.476Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
