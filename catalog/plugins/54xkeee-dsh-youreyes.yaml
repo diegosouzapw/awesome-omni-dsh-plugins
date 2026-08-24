@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 54xkeee-dsh-youreyes
+name: dsh-youreyes
+description:
+  en: "Eyes for text-only DeepSeek on DeepSeek Harness: image understanding via Antigravity IDE quota (default, flash/pro), OpenAI-compatible VLM endpoints, Gemini API, or local Ollama — model-invokable vision tool, wrapper adapters for deepseek/opencode-go, evidence memory, and a polished client panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - image
+  - image-understanding
+  - image-recognition
+  - multimodal
+  - ocr
+  - vlm
+  - gemini
+  - ollama
+  - antigravity
+source:
+  repository: https://github.com/54xkeee/dsh-youreyes
+  repositoryNodeId: R_kgDOT5MtqQ
+  subpath: null
+  commit: 86f02fa124cd158438e4d9290625d2f8dd610967
+creator:
+  github: 54xkeee
+package:
+  ecosystem: npm
+  name: dsh-youreyes
+  version: 0.1.0
+  integrity: sha512-Q+gr3iN1a3Bp4fK+eOsVleujLpbCjyBtQ+IRX+Gx4ZOOG09pPrBp9NDASdGfVvVGNjdWPwbntk6pe7B2W34I9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:14.098Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
