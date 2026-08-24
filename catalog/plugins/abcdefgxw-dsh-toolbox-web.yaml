@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: abcdefgxw-dsh-toolbox-web
+name: dsh-toolbox-web
+description:
+  en: "A toolbox plugin for dsh (DeepSeek Harness): session management / trash bin / subdirectory management / full-text search / preset editing / config editing / archive management."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - toolbox
+  - session
+  - search
+  - heartbeat
+  - chat
+source:
+  repository: https://github.com/AbcdefgXW/dsh-toolbox-web
+  repositoryNodeId: R_kgDOT5Y3Pw
+  subpath: null
+  commit: 101f49d392d56a490c06573444d0870167a82dae
+creator:
+  github: AbcdefgXW
+package:
+  ecosystem: npm
+  name: dsh-toolbox-web
+  version: 0.1.12
+  integrity: sha512-eRHb24QBURPBsmbCwZgjwpCZSfVAlJSVnDOX3BYK0oZjVJlNt9k9IGsJay8bkBh30125eGSTN5bZR8cloRaBgw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:19.330Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
