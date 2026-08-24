@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: br1nosense-dsh-vision-solution
+name: "@dsh-user/dsh-vision-solution"
+description:
+  en: "image reasoning: race(agnes-2.5-flash, agnes-2.0-flash, glm, glm-thinking) - custom-1 - custom-2 - custom-3 - local ocr: baidu-ocr - windows-ocr - vision reasoning document: mineru flash - mineru extract"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - ocr
+  - skill
+  - dsh
+source:
+  repository: https://github.com/br1nosense/dsh-vision-solution
+  repositoryNodeId: R_kgDOT4qMng
+  subpath: null
+  commit: 6a2056ab24862a1144ab6b551c9887195079972d
+creator:
+  github: br1nosense
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:23.487Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
