@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: a1073097082-dsh-model-search
+name: dsh-model-search
+description:
+  en: Add searchable filtering to the DeepSeek Harness model selector.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - model
+  - search
+source:
+  repository: https://github.com/a1073097082/dsh-model-search
+  repositoryNodeId: R_kgDOT5MJ5Q
+  subpath: null
+  commit: 8a6293a62a19142538830ac898ab62fcfa27f4a8
+creator:
+  github: a1073097082
+package:
+  ecosystem: npm
+  name: dsh-model-search
+  version: 0.1.0
+  integrity: sha512-ca+zjs2y2SC6VwWbKis68KPJxt3ivHQpT5cn01EoYQl1HunJbM7uk8d9OkvjSrMeVDVN5SpzcFhVsSuSGK39tg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:15.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
