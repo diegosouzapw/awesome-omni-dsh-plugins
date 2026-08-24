@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: bigclawd-dsh-security-guard
+name: dsh-security-guard
+description:
+  en: "Static and runtime security guard for the DeepSeek Harness: scans plugins and workspaces for malicious code, context injection and token waste (block/warn/clean), intercepts dangerous runtime tool calls and prompt steps, and exposes /scan, plugin scan, the scan web panel and a user-managed allowlist. Fully static analy"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - static
+  - runtime
+  - security
+  - guard
+  - scans
+  - workspaces
+  - malicious
+  - code
+  - context
+  - injection
+  - token
+  - waste
+  - block
+  - warn
+  - clean
+  - intercepts
+source:
+  repository: https://github.com/bigclawd/dsh-security-guard
+  repositoryNodeId: R_kgDOT5sV5Q
+  subpath: null
+  commit: c8c541f4b5fcaddc6c5c01a55710cf8a3be13a1e
+creator:
+  github: bigclawd
+package:
+  ecosystem: npm
+  name: dsh-security-guard
+  version: 0.1.0-rc.7
+  integrity: sha512-MOL0DamMKjDpkNpAdP7tORLdwhM+RqfwcHGr7OU2SWP9iNNbvq8BSy1+cXMXkYPa/NGGLOxHRU9RE7l54B0qcA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:55.342Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
