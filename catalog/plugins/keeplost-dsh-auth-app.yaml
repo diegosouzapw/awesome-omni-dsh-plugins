@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: keeplost-dsh-auth-app
+name: "@deepseek-ai/dsh-auth-app"
+description:
+  en: One-shot local device and API-client Grant management profile for the DeepSeek Harness
+  evidencePath: packages/bundle/auth-app/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - shot
+  - local
+  - device
+  - client
+  - grant
+  - management
+  - profile
+  - dsh
+source:
+  repository: https://github.com/KeepLost/harniverse
+  repositoryNodeId: R_kgDOT4fM6A
+  subpath: packages/bundle/auth-app
+  commit: f39ec547c29f309d8c0b8883cbec9076d69bce0c
+creator:
+  github: KeepLost
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/bundle/auth-app/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:15.133Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
