@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-conflict-guardian
+name: dsh-conflict-guardian
+description:
+  en: Detects DSH plugin conflicts (duplicate mounts, failed/pending plugins, duplicate config row ids) at startup, auto-stops or restores the affected plugins, and shows a conflict report popup in the web UI. DSH 启动时检测插件冲突，自动停用/恢复冲突插件，并在 Web 界面弹出冲突报告。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - conflict
+  - conflict-detection
+  - stability
+  - loader
+  - guard
+  - web-ui
+source:
+  repository: https://github.com/baisama-cloud/dsh-conflict-guardian
+  repositoryNodeId: R_kgDOT8gPzA
+  subpath: null
+  commit: a40d98904be6b16034ec43b3b159a94f8449b806
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:51.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
