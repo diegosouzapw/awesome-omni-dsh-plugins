@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: bainianlaoyao-windows-bash
+name: windows-bash
+description:
+  en: "Make Git Bash the only terminal tool for DeepSeek Harness on Windows: enables the bash executor and tool on win32, disables PowerShell (pwsh) everywhere, ships standard-bash/code-bash/cordis-bash agent presets, and sets the sandbox/approval defaults Git Bash's cygwin runtime needs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - git-bash
+  - windows
+  - terminal
+  - pwsh
+  - bash
+source:
+  repository: https://github.com/bainianlaoyao/bash-on-windows
+  repositoryNodeId: R_kgDOT5teDw
+  subpath: null
+  commit: c6d1ce19cae7ae5aff15aea640228f6a3c952a0d
+creator:
+  github: bainianlaoyao
+package:
+  ecosystem: npm
+  name: windows-bash
+  version: 0.1.0
+  integrity: sha512-Q9SAepD2jol1TKWhyax+vG0a69B1ed1nI4qTlgtroiWxMHQ55fWjnccjHu9EUrUEvrzZvKgmpe9vd61xnaHp2w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:49.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
