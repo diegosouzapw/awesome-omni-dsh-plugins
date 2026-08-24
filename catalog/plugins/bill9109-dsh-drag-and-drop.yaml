@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: bill9109-dsh-drag-and-drop
+name: "@omdsh-dev/dsh-drag-and-drop"
+description:
+  en: Drag local files into the DSH Web UI and insert their original filesystem paths without uploading or copying them
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - web-ui
+  - drag-and-drop
+  - file-path
+  - filesystem
+  - dsh
+source:
+  repository: https://github.com/bill9109/dsh-drag-and-drop
+  repositoryNodeId: R_kgDOTvWbPQ
+  subpath: null
+  commit: 09088d6890866eda57adee6864cd2fbf8281f679
+creator:
+  github: bill9109
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:55:57.916Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 21
+provenance:
+  discussion: null
+  comment: null
