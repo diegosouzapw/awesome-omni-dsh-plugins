@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: bpc-oss-chrome-faithful
+name: chrome-faithful
+description:
+  en: "Faithful control of your real, logged-in Chrome profiles: MCP server + MV3 extension + authenticated localhost bridge. No copied profiles, no debug profile, no remote-debugging port, no Edge."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - chrome
+  - cdp
+  - mcp
+  - chrome-debugger
+  - browser-automation
+  - mv3
+  - codex
+  - claude
+  - multi-profile
+  - dsh
+source:
+  repository: https://github.com/bpc-oss/chrome-faithful
+  repositoryNodeId: R_kgDOT4KPiQ
+  subpath: null
+  commit: c827885fbab4763e12f926d311c59a931f0892f2
+creator:
+  github: bpc-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:29.395Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
