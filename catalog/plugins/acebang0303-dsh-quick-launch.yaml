@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: acebang0303-dsh-quick-launch
+name: dsh-quick-launch
+description:
+  en: sh git clone https://github.com/acebang0303/dsh-quick-launch cd <harness dsh plugin --profile web add ../dsh-quick-launch
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clone
+  - acebang0303
+  - quick
+  - launch
+  - profile
+  - dsh
+source:
+  repository: https://github.com/acebang0303/dsh-quick-launch
+  repositoryNodeId: R_kgDOT8HblQ
+  subpath: null
+  commit: 205327a2b17ee9ca7836db7554358bb540be8389
+creator:
+  github: acebang0303
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: (MIT AND CC-BY-NC-SA-4.0)
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:43.840Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
