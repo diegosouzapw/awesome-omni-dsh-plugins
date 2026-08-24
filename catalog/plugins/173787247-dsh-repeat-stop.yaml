@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: 173787247-dsh-repeat-stop
+name: dsh-repeat-stop
+description:
+  en: Hard-stop consecutive identical DeepSeek Harness tool calls after a configurable streak.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - loop
+  - dsh
+source:
+  repository: https://github.com/173787247/dsh-repeat-stop
+  repositoryNodeId: R_kgDOT9OEfA
+  subpath: null
+  commit: a06b3eae453e347fdcdbc776de145caa89034b5c
+creator:
+  github: "173787247"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:15:39.324Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
