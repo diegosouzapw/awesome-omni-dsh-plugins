@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 863683348-dsh-need-finder
+name: dsh-need-finder
+description:
+  en: "Requirement-driven dsh plugin discovery and environment recipes ('点菜, not 逛超市' / 插件界的 dotfiles): plugin guide matches natural-language needs to a curated directory; recipe installs whole environments from bundled community bundles with ordered plans"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - plugin-finder
+  - semantic-search
+  - guide
+  - need-finder
+source:
+  repository: https://github.com/863683348/dsh-need-finder
+  repositoryNodeId: R_kgDOT6p36g
+  subpath: null
+  commit: e046c8979f14ca59fa17ddd3aa8523740a8efcab
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-need-finder
+  version: 0.2.0
+  integrity: sha512-WztA79QkpD6LYwh/ZyxCEw4rpZ0fSny3mJF1qSGvtkgg6Fy0CWgavQ3j9/mK7zU8Kp6Q8/Men4seoeW5zQFPSQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:41.158Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
