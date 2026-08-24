@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ayahunter-dsh-plugin-clinic
+name: dsh-plugin-clinic
+description:
+  en: "Plugin Clinic: read-only health checks for the installed DeepSeek Harness plugin set — loader health, dependency integrity, version compatibility, install-script risk, duplicates, and patch integrity, delivered as a model tool, a Web dashboard, and JSON reports."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-clinic
+  - health-check
+  - diagnostics
+source:
+  repository: https://github.com/ayahunter/dsh-plugin-clinic
+  repositoryNodeId: R_kgDOT5YZLw
+  subpath: null
+  commit: c62b8136a4f71eeb6e2084e907d9e5010ab4d011
+creator:
+  github: ayahunter
+package:
+  ecosystem: npm
+  name: dsh-plugin-clinic
+  version: 0.1.2
+  integrity: sha512-B0H9FPs5Sv8XxnDxuGmWyp9ai1Fj8RoE9Ew8buM10xTqsmXubnIVJlpeTPuRXNel1OCnetOL8STVLsxUNhw98g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:43.026Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
