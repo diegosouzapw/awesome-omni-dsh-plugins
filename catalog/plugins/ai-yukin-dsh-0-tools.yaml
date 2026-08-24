@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: ai-yukin-dsh-0-tools
+name: dsh-0-tools
+description:
+  en: '--- AIGC: Label: "1" ContentProducer: 001191440300708461136T1XGW3 ProduceID: d8ac214b9331b89602718b880fbbc556 985f344c9c7f11f19046525400287e28 ReservedCode1: NyHe7HeP7veKE9JC0KF+OdwdtQ++tL1OxYA5iRIWL3LZ7ny0dv6givDAgnmYv9B1oBYqQPh90zShYrQM0jdWjRXNc3/fWTvaxG9CFKM2m1S19oddaSw80VQ2pP/GXdiAgCAgLJvWAeoyyCJBLVOqDBfKqF/MEK8rda'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - aigc
+  - label
+  - contentproducer
+  - 001191440300708461136t1xgw3
+  - produceid
+  - d8ac214b9331b89602718b880fbbc556
+  - 985f344c9c7f11f19046525400287e28
+  - reservedcode1
+  - nyhe7hep7veke9jc0kf
+  - odwdtq
+  - tl1oxya5iriwl3lz7ny0dv6givdagnmyv9b1obyqqph90zshyrqm0jdwjrxnc3
+  - fwtvaxg9cfkm2m1s19oddasw80vq2pp
+  - gxdiagcagljvwaeoyycjblvoqdbfkqf
+  - mek8rda
+  - dsh
+source:
+  repository: https://github.com/ai-yukin/dsh-0-tools
+  repositoryNodeId: R_kgDOT-nrqA
+  subpath: null
+  commit: 75def436969f8205066596113b790185233a4954
+creator:
+  github: ai-yukin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:14.781Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
