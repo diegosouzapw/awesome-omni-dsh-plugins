@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-dock-markdown
+name: dock-markdown
+description:
+  en: "Markdown viewer for the dock file explorer: renders .md/.markdown/.mdx files with a one-click switch to the text editor."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - markdown
+  - viewer
+  - dock
+source:
+  repository: https://github.com/AKS1st/dock-markdown
+  repositoryNodeId: R_kgDOT-ZKiA
+  subpath: null
+  commit: 236aa0897c670faab545c0e40b13a4fec466bf15
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:23.803Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
