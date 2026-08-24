@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">เรียกดู ค้นหา และติดตั้งปลั๊กอินทั้งหมดได้ที่เว็บไซต์ →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-681_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-696_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -117,7 +117,7 @@
 
 ## สถานะแคตตาล็อก
 
-**รวมปลั๊กอินแล้ว 681 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
+**รวมปลั๊กอินแล้ว 696 รายการ** ทุกปลั๊กอินเข้าสู่แคตตาล็อกผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ จากรีโพซิทอรีของผู้สร้างดั้งเดิม
 พร้อมคอมมิตต้นทางที่ตรึงไว้และการให้เครดิตอย่างชัดเจน
 
 ## 🚀 ติดตั้ง CLI
@@ -323,4 +323,4 @@ README ฉบับนี้มีให้บริการ 43 ภาษาภ
 
 </div>
 
-<!-- i18n-source-hash: b5857af0bad97aff2de31e96474df846b9c581f591048865344588b75c062980 -->
+<!-- i18n-source-hash: 26cb7bf68c7f9b4883a9c3814f6bed242c02bd2259e6e1ba004ab2e1e3e814fe -->
