@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: alloyplane-dsh-eye-upload
+name: dsh-eye-upload
+description:
+  en: powershell git clone https://github.com/AlloyPlane/dsh-eye-upload.git D:/xd/dsh-eye-upload
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - image
+  - image-understanding
+  - image-upload
+  - multimodal
+  - eyes
+  - ocr
+  - screenshot
+  - mcp
+source:
+  repository: https://github.com/AlloyPlane/dsh-eye-upload
+  repositoryNodeId: R_kgDOT7g3gw
+  subpath: null
+  commit: 6ff952b1e1233748054a572c0c1ab1fce96bf43b
+creator:
+  github: AlloyPlane
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:57.103Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
