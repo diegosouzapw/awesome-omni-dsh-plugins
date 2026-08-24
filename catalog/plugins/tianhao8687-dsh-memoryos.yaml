@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: tianhao8687-dsh-memoryos
+name: dsh-memoryos
+description:
+  en: Evidence-first long-term project memory for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-memory
+  - long-term-memory
+  - memoryos
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/tianhao8687/dsh-memoryos
+  repositoryNodeId: R_kgDOT6kA-g
+  subpath: null
+  commit: 5b55969a5b14dcfaeeec51a37db97ac2edca7144
+creator:
+  github: tianhao8687
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:22.159Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
