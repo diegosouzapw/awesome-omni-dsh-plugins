@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-recommend
+name: dsh-plugin-recommend
+description:
+  en: "Plugin recommender for DeepSeek Harness: search and rank DSH plugins from an embedded marketplace catalog by need description, category and tags, with match reasons, plus a live catalog refresh from the awesome-dsh-plugin README"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - recommend
+  - marketplace
+  - catalog
+  - search
+  - rank
+  - discovery
+source:
+  repository: https://github.com/863683348/dsh-plugin-recommend
+  repositoryNodeId: R_kgDOT6wuQg
+  subpath: null
+  commit: a7ee2881d353f6c792beb2d4717693576ed1aa5e
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-recommend
+  version: 1.0.0
+  integrity: sha512-jHSkkqAc1kT7zdiYon55ongHpwsDmQ6rhcSw4RfmShgCkHCWeZ8+K+BkE34SkCT+7JYqeIu/a+Kfz/rAAIKBsw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:51.712Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
