@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: angeloszou-dsh-graphlint
+name: dsh-graphlint
+description:
+  en: "DeepSeek Harness plugin bundle: graphlint dead-code detection tools for agents (graphlint query / graphlint build / graphlint config + graphlint skill)."
+  evidencePath: integrations/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - graphlint
+  - dead-code
+  - static-analysis
+  - dependency-graph
+  - lint
+source:
+  repository: https://github.com/AngelosZou/graphlint
+  repositoryNodeId: R_kgDOTKQh1w
+  subpath: integrations/dsh
+  commit: 312e89e00f4a7506400e5696e6ec198f997c7da9
+creator:
+  github: AngelosZou
+package:
+  ecosystem: npm
+  name: dsh-graphlint
+  version: 0.3.0
+  integrity: sha512-NPgLNQDL/yy0LGCmbgudqfKynoSpbOmh8jxeLojVoOcd8CsrwNxN+S+lR33RdmWkNO3v7h6DA3l5EstWvf7TVg==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:36.632Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
