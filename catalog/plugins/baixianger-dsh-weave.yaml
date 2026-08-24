@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baixianger-dsh-weave
+name: dsh-weave
+description:
+  en: A private, peer-to-peer weave protocol for connecting DeepSeek Harness nodes across machines.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - agent
+  - mesh
+  - iroh
+  - p2p
+  - quic
+source:
+  repository: https://github.com/baixianger/dsh-weave
+  repositoryNodeId: R_kgDOT7iuIw
+  subpath: null
+  commit: 50dd7ba90aa2011533c3c26dbd954a59484b8a30
+creator:
+  github: baixianger
+package:
+  ecosystem: npm
+  name: dsh-weave
+  version: 0.1.0-rc.12
+  integrity: sha512-54oFqdgy534BYulEj+dTBH9j6y2EEyvxibt1ByxvjIbh49865zWCNkU8pHd+HmrEQht6PKL6fWObADje2l4Svw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:50.641Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
