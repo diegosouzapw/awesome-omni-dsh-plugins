@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zuozewei-dsh-skill-7d-code-reviewer
+name: "@7dgroup/dsh-skill-7d-code-reviewer"
+description:
+  en: Installable composition bundle contributing the 7DGroup template-driven code review skill to DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - installable
+  - composition
+  - bundle
+  - contributing
+  - 7dgroup
+  - template
+  - driven
+  - code
+  - review
+  - skill
+  - dsh
+source:
+  repository: https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer
+  repositoryNodeId: R_kgDOT6ITAQ
+  subpath: null
+  commit: 21597116a3a0bcdf27b59c9f3c07739a459e5a91
+creator:
+  github: zuozewei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:35.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
