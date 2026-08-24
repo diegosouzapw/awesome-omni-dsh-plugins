@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: alvinunreal-dsh
+name: "@open-pets/dsh"
+description:
+  en: <p align="center" <strong A desktop companion platform with pets, plugins, and optional local agent integrations.</strong </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - cordis
+  - openpets
+  - coding-agent
+source:
+  repository: https://github.com/alvinunreal/openpets
+  repositoryNodeId: R_kgDOSUOfoQ
+  subpath: packages/dsh
+  commit: 042844d8e3cd43d8984a2742865d100c3a7be4a4
+creator:
+  github: alvinunreal
+package:
+  ecosystem: npm
+  name: "@open-pets/dsh"
+  version: 3.3.0
+  integrity: sha512-9uaZjHcdc1a53nYFiTsuOu3/0j9f4zCwuVbpKEHZh2t8PFgWvLlIZkcfoJHzE6iOOOauSPWpBwUIH8dm2CozoA==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:34.754Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
