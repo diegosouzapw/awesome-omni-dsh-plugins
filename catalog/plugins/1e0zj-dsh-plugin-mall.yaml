@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 1e0zj-dsh-plugin-mall
+name: "@1e0zj/dsh-plugin-mall"
+description:
+  en: "An open plugin marketplace for DeepSeek Harness (dsh): search every GitHub repo tagged topic:dsh-plugin , automatically verify which ones are real dsh plugins, install and update with one click."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - plugin-marketplace
+  - marketplace
+source:
+  repository: https://github.com/1e0zj/dsh-plugin-mall
+  repositoryNodeId: R_kgDOT5P8aw
+  subpath: null
+  commit: f292c92813f9b5c2b81ce9b590954f58fdeedd8c
+creator:
+  github: 1e0zj
+package:
+  ecosystem: npm
+  name: "@1e0zj/dsh-plugin-mall"
+  version: 0.3.5
+  integrity: sha512-ZfPwzf283KzEdjpsDpT/6tBGovNdOri9vzJ8hFWRuu/uvEqRZkVyC3aiZGCJ/1OYySUIFjvy4wnRs5Y1iAuS8w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:10.350Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
