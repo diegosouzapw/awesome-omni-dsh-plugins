@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 1helloman1-dsh-vision-fallback
+name: dsh-vision-fallback
+description:
+  en: 'Silent vision enhancement for DeepSeek Harness (dsh): keep your real text-only main model (e.g. deepseek-v4-flash ), and let chat images "just work" — every image you drop, paste, or reference in the chat box is automatically sent to a fixed vision model, converted into a factual text observation, and handed to your ma'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - image
+  - fallback
+source:
+  repository: https://github.com/1HelloMan1/dsh-vision-fallback
+  repositoryNodeId: R_kgDOT4MhDw
+  subpath: null
+  commit: a610afcc9fe876436b388d72f50b8577c1322228
+creator:
+  github: 1HelloMan1
+package:
+  ecosystem: npm
+  name: dsh-vision-fallback
+  version: 0.9.1
+  integrity: sha512-w/2hk9YFeGj0dgDHKHLcSY01ylZyU2ZJbyJSawBdzZtN2wiMDMas/pmikWt11+yyG/a7mFDUIpo8wBT3qBC5vg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:29.171Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
