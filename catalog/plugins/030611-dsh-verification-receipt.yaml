@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 030611-dsh-verification-receipt
+name: dsh-verification-receipt
+description:
+  en: Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - verification
+  - observability
+  - privacy
+  - dsh
+source:
+  repository: https://github.com/030611/dsh-verification-receipt
+  repositoryNodeId: R_kgDOT3mdsA
+  subpath: null
+  commit: 92f63a9022e1840b147152ae340276ad5ff5d98b
+creator:
+  github: "030611"
+package:
+  ecosystem: npm
+  name: dsh-verification-receipt
+  version: 0.1.0
+  integrity: sha512-V/gAvMeSMvaE52WK3BnJlEmfXiKkZH+/YJB0gKTzTsQY+AeWSEUkwc5iCaHBXjxyCk/agnVs9wxrOvkMk9iKmA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:53.507Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
