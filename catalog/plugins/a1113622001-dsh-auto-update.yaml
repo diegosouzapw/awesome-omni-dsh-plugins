@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: a1113622001-dsh-auto-update
+name: dsh-auto-update
+description:
+  en: "DeepSeek Harness (cordis) plugin: self-update for the harness launcher — checks npm for a newer @deepseek-ai/dsh, stages it, and applies it on harness exit (or update-and-restart from the web panel)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - self-update
+  - update
+  - web
+source:
+  repository: https://github.com/a1113622001/dsh-auto-update
+  repositoryNodeId: R_kgDOT9vhxQ
+  subpath: null
+  commit: 1aacb3b51fdc016668cc0375ea31ce40db02e455
+creator:
+  github: a1113622001
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:06.686Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
