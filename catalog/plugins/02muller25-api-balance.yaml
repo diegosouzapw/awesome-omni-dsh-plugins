@@ -1,0 +1,39 @@
+schemaVersion: 1
+id: 02muller25-api-balance
+name: api-balance
+description:
+  en: Real-time DeepSeek API account balance readout for the DeepSeek Harness web GUI (dsh web).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - balance
+source:
+  repository: https://github.com/02Muller25/dsh-api-balance
+  repositoryNodeId: R_kgDOT5D0eg
+  subpath: null
+  commit: c27c8b61acf97714ab08d99f97b7be3a9007e52e
+creator:
+  github: 02Muller25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:44.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
