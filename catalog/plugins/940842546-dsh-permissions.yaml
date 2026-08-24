@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 940842546-dsh-permissions
+name: dsh-permissions
+description:
+  en: "Claude Code-style permission rules engine for DeepSeek Harness (dsh). A dual-face Cordis plugin: a host engine on the tools/pre-execute waterfall plus a visual editor in Settings → 权限 (Permissions) ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - permissions
+  - security
+  - approval
+source:
+  repository: https://github.com/940842546/dsh-permissions
+  repositoryNodeId: R_kgDOT5fRHw
+  subpath: null
+  commit: c9e5e7394df2a30e7c292980729935a3482c7ce8
+creator:
+  github: "940842546"
+package:
+  ecosystem: npm
+  name: dsh-permissions
+  version: 1.0.9
+  integrity: sha512-lqGZhzTcCMf7xgsPLVdnUgPFlCKPFLwpB5LtvMN4Zp+Y2swZYqrzL7DpSidNKIFdEMAduFX4P4IKH1GC43dcCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:04.627Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
