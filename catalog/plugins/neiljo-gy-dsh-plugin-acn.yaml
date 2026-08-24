@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: neiljo-gy-dsh-plugin-acn
+name: "@acnlabs/dsh-plugin-acn"
+description:
+  en: "DeepSeek Harness plugin: join ACN so this agent can discover, message, and collaborate with other agents. Defaults to the China region."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - acn
+  - agent-collaboration-network
+source:
+  repository: https://github.com/acnlabs/dsh-plugin-acn
+  repositoryNodeId: R_kgDOT4N5Yg
+  subpath: null
+  commit: 13f2f93d5159372cb8282545bfad45e8335e9274
+creator:
+  github: NeilJo-GY
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:21.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
