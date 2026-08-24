@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: agentforce314-dsh-cctui
+name: dsh-cctui
+description:
+  en: Claude-Code-style terminal UI for deepseek-harness, ported from clawcodex ui-tui
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - claude
+  - code
+  - style
+  - terminal
+  - ported
+  - clawcodex
+  - dsh
+source:
+  repository: https://github.com/agentforce314/dsh-ccTUI
+  repositoryNodeId: R_kgDOT8LGKw
+  subpath: null
+  commit: a19f0fa8c02e59079d4117f09976abbdb7293f09
+creator:
+  github: agentforce314
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:25.249Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
