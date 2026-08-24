@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: alfredchaos-dsh-usage-panel
+name: dsh-usage-panel
+description:
+  en: Token usage statistics for DeepSeek Harness, shown as a page under Settings → Usage in the web GUI. The plugin aggregates persisted session logs (incrementally, via the session-projection mechanism) and never writes anything back.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - token-usage
+  - agent-analytics
+  - typescript
+  - usage-statistics
+source:
+  repository: https://github.com/AlfredChaos/dsh-usage-panel
+  repositoryNodeId: R_kgDOT5NANw
+  subpath: null
+  commit: 12ac109bc6213bdbca539e3199e7338fcac020ed
+creator:
+  github: AlfredChaos
+package:
+  ecosystem: npm
+  name: dsh-usage-panel
+  version: 0.2.0
+  integrity: sha512-f/e8x9Z4uUkiYsdUH4Mo0TuLAmm9H0PGh5DiYmQr7DipeBVyoOUU0R0NsX9rtWFGekUqj94t55WCo9H7klkQBA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:06.727Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
