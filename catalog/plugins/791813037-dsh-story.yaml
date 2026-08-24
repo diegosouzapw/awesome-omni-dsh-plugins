@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 791813037-dsh-story
+name: dsh-story
+description:
+  en: Installable DeepSeek Harness bundle for execution-path observability and deterministic diagnostics
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - installable
+  - bundle
+  - execution
+  - path
+  - observability
+  - deterministic
+  - diagnostics
+  - dsh
+source:
+  repository: https://github.com/791813037/dsh-story
+  repositoryNodeId: R_kgDOT6ErEQ
+  subpath: packages/bundle
+  commit: 9cb7df15c8fc669f544e08aeb6a6a2c8d33f63a0
+creator:
+  github: "791813037"
+package:
+  ecosystem: npm
+  name: dsh-story
+  version: 0.1.0
+  integrity: sha512-ZeMp5gzyr7aB9Vgh7obMnR3VKUSrjGMmThMvUnT/PABRvYE5wlSiSszuua1ONsUxmzxxVbNOVA+/qFMlgGvewg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:09.312Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
