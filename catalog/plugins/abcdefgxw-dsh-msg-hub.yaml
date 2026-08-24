@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: abcdefgxw-dsh-msg-hub
+name: dsh-msg-hub
+description:
+  en: "dsh IM hub: WeChat(ilinkai) / QQ / Feishu bridge with proactive push & remote monitoring"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - im
+  - wechat
+  - qq
+  - feishu
+  - bridge
+  - push
+source:
+  repository: https://github.com/AbcdefgXW/dsh-msg-hub
+  repositoryNodeId: R_kgDOT5hlhA
+  subpath: null
+  commit: 1e0b8e5276679500cd09513c285b4c269c05e7a1
+creator:
+  github: AbcdefgXW
+package:
+  ecosystem: npm
+  name: dsh-msg-hub
+  version: 0.1.8
+  integrity: sha512-vBkp1MzAr36OusQG6OEiISHO37Md42Ub21nUCGA6k+FuFQ2O59E3r7+oNgi2aGAZ/Jyu99mrIcjC9xL/I0bnSg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:17.695Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
