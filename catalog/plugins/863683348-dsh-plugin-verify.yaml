@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-verify
+name: dsh-plugin-verify
+description:
+  en: "Verification toolkit for DeepSeek Harness agents: evidence-based claim checking against workspace files with line citations, config file validation (JSON/YAML), HTTP URL status checks, npm package checks and GitHub repo submission-readiness checks — complementary to dsh-plugin-gate"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - verify
+  - validation
+  - claim
+  - check
+  - audit
+  - npm
+source:
+  repository: https://github.com/863683348/dsh-plugin-verify
+  repositoryNodeId: R_kgDOT6wuFg
+  subpath: null
+  commit: 58337381fb08874e88553b84a5aafa96acaf0c02
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-verify
+  version: 1.0.0
+  integrity: sha512-Eu+8dUfEQXAkWnF2OuuY3b5mu1IYCoIaUsDoS9ncTOC4Kd/kcCWZTQ9ESBtm4JgnFSLUu/URv/VFbWgW6uLNXA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:53.587Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
