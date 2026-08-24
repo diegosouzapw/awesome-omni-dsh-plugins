@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-finance-data
+name: dsh-plugin-finance-data
+description:
+  en: "Finance data toolkit for DeepSeek Harness agents: number/currency formatting (incl. Chinese wan/yi units), return & CAGR math, valuation and profitability ratios, PV/FV, DCA/compound projections, portfolio weights & rebalancing, risk metrics (volatility, drawdown, VaR, Sharpe), and a data-quality checklist"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - finance
+  - data
+  - ratio
+  - risk
+  - dca
+  - compound
+  - portfolio
+  - rebalance
+source:
+  repository: https://github.com/863683348/dsh-plugin-finance-data
+  repositoryNodeId: R_kgDOT6vd0A
+  subpath: null
+  commit: 2a5a962392c708df3f8dc8b728e06d73c4662fda
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-finance-data
+  version: 0.2.0
+  integrity: sha512-qdjqatoewuG3utI0Q12UZlxBA7yRz+XZ/7dEVBROTQ+Sc/tduVu7j8jEnNAKFEUWn06uRj68PkMrLlR11lI1bw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:00.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
