@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jesse-dsh-skillport-bundle
+name: "@dsh-skillport/bundle"
+description:
+  en: "dsh-skillport — every skill you already have (Claude Code, Codex, Cursor, Gemini CLI) works in DSH: Agent Skills SKILL.md discovery across .claude/.agents/.dsh/.gemini + extraPaths, Tier-2 conversions (cursor rules, claude commands, context files), find skill search, and a skills doctor"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - agent-skills
+  - skill-md
+  - claude-code
+  - cursor
+  - gemini-cli
+  - codex
+source:
+  repository: https://github.com/Jesse-njx/dsh-skillport
+  repositoryNodeId: R_kgDOT3lQ7g
+  subpath: null
+  commit: 77c1d4ecc202366e853a39ae7f7f7cf2da6713b7
+creator:
+  github: jesse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:05.532Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
