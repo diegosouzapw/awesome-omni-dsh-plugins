@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: birat-chapagain-dsh-codex-oauth
+name: dsh-codex-oauth
+description:
+  en: "DeepSeek Harness plugin: use your OpenAI Codex (ChatGPT Plus/Pro) subscription through OAuth."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - codex
+  - openai
+  - oauth
+  - chatgpt
+  - dsh
+source:
+  repository: https://github.com/birat-chapagain/dsh-codex-oauth
+  repositoryNodeId: R_kgDOT9niMg
+  subpath: null
+  commit: 2d6ce52407db73cc2642e50d41fdc982a6f676b0
+creator:
+  github: birat-chapagain
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:57.665Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
