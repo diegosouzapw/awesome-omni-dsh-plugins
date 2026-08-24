@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: asakumizy-graph-monitor
+name: graph-monitor
+description:
+  en: "Graph Monitor plugin for DeepSeek Harness: define and customize GRAPH workflows, then visualize each node live as it executes — Waku-agent style topology chart with animated node/edge status, clickable node details, and a desktop trajectory-like monitor view."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - graph
+  - monitor
+  - define
+  - customize
+  - workflows
+  - visualize
+  - each
+  - node
+  - live
+  - executes
+  - waku
+  - agent
+  - style
+  - topology
+  - chart
+  - animated
+source:
+  repository: https://github.com/asakumizy/dsh-graph-monitor
+  repositoryNodeId: R_kgDOT8LOpw
+  subpath: null
+  commit: 163bf5440a1837d9030fa0cfd7912ee7259c7abe
+creator:
+  github: asakumizy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:12.727Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
