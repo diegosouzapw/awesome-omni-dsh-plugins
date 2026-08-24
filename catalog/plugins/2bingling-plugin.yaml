@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 2bingling-plugin
+name: "@dsh-market/plugin"
+description:
+  en: "The DSH ecosystem is growing fast, and plugins & skills are scattered across GitHub — it's hard to know which ones are good, how to install them, and how to combine them into a working environment . DSH Market gathers them all in one place and offers two ways to consume them:"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - market
+  - cordis
+source:
+  repository: https://github.com/2BingLing/dsh-market
+  repositoryNodeId: R_kgDOT3jQyw
+  subpath: plugin/ui
+  commit: 36f962e123b4030a00641f62503ffe0402f91eeb
+creator:
+  github: 2BingLing
+package:
+  ecosystem: npm
+  name: "@dsh-market/plugin"
+  version: 0.2.1
+  integrity: sha512-1zryg7i5H+/9MD0XFkRRu6y7XpYbIAVZNAhSsje6gh2N7GYId/8MgQNv7SYKkLRUqoD9EmXfeWuhsccceMWgew==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:31.825Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
