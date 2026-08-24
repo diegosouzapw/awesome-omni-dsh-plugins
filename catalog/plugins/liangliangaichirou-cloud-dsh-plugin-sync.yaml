@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: liangliangaichirou-cloud-dsh-plugin-sync
+name: dsh-plugin-sync
+description:
+  en: bash dsh plugin --profile web add dsh-plugin-sync
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - gist
+  - sync
+  - plugin-manager
+source:
+  repository: https://github.com/AngLi1997/dsh-plugin-sync
+  repositoryNodeId: R_kgDOT5VkxA
+  subpath: null
+  commit: 72bc86c77057193556d1099c088593bf9be0a2fd
+creator:
+  github: liangliangaichirou-cloud
+package:
+  ecosystem: npm
+  name: dsh-plugin-sync
+  version: 1.0.0
+  integrity: sha512-p/jij/i/XnLaVINzgvGx5NnClGQJCGCglf43EEFlQqK1rEUlso518e71k46TL7v05rZMcJY2+8KihdR/n+Bk3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:27.003Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
