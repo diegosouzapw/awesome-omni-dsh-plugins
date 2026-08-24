@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 23swccp-dsh-undo-plugin
+name: dsh-undo-plugin
+description:
+  en: "dsh plugin: conversation undo/rollback and archive tasks for DeepSeek Harness"
+  evidencePath: packages/bundle-rollback/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - undo
+  - rollback
+  - session
+source:
+  repository: https://github.com/23swccp/dsh-undo
+  repositoryNodeId: R_kgDOT8hJ4g
+  subpath: packages/bundle-rollback
+  commit: 3bbe34dbe30fc17ffd1fa4a9928282116123f131
+creator:
+  github: 23swccp
+package:
+  ecosystem: npm
+  name: dsh-undo-plugin
+  version: 0.1.0-rc.6
+  integrity: sha512-UpFl+hn21AJbyqNd3rlrVJnR8Tbh3kt8lA33OiFTyU6G9gogo3nCoGWGqPZEfOdS4t/Bp4WdAl7XYCivjD9+Mw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle-rollback/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:29.920Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
