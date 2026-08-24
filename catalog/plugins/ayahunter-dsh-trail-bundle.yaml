@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: ayahunter-dsh-trail-bundle
+name: dsh-trail-bundle
+description:
+  en: Patch bundle that mounts dsh-trail and disables the shipped trajectory view.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - patch
+  - bundle
+  - mounts
+  - trail
+  - disables
+  - shipped
+  - trajectory
+  - view
+  - dsh
+source:
+  repository: https://github.com/ayahunter/dsh-trail
+  repositoryNodeId: R_kgDOT5lbTA
+  subpath: packages/bundle
+  commit: 65a662f283d0138396b8a44c9293d3f4f29dac7f
+creator:
+  github: ayahunter
+package:
+  ecosystem: npm
+  name: dsh-trail-bundle
+  version: 0.1.1
+  integrity: sha512-DYuotctu6HvOIaYQfEvGlun8RWfO/JAEKNBUanB5ib5UtsXaOW4PRUByiaNtW9zsFtHGRFFf1v/r9i+eaLZGNA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:12.692Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
