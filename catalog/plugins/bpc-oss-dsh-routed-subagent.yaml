@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: bpc-oss-dsh-routed-subagent
+name: dsh-routed-subagent
+description:
+  en: "Global DeepSeek Harness plugin: subagent routed — run a one-shot subagent fully mounted on ANY agent preset, from ANY session, with per-call model/provider override, a model-availability pre-check, and external CLI engines (codex / claude / codebuddy)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - agent-preset
+  - subagent
+  - delegation
+  - multi-agent
+source:
+  repository: https://github.com/bpc-oss/dsh-routed-subagent
+  repositoryNodeId: R_kgDOT8nbDQ
+  subpath: null
+  commit: f0e2c9361dab2b7c386f207d8d2cbc07239dfa3f
+creator:
+  github: bpc-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:08.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
