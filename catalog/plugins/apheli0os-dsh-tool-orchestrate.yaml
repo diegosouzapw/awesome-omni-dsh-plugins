@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: apheli0os-dsh-tool-orchestrate
+name: dsh-tool-orchestrate
+description:
+  en: Declarative task-DAG orchestration plugin for DeepSeek Harness workflows
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - orchestration
+  - workflow
+  - dag
+  - subagent
+source:
+  repository: https://github.com/apheli0os/deepseek-harness-orchestrate
+  repositoryNodeId: R_kgDOT5LmVA
+  subpath: null
+  commit: 6a1863dfabafa565bf7af160ce60e2749f4bad17
+creator:
+  github: apheli0os
+package:
+  ecosystem: npm
+  name: dsh-tool-orchestrate
+  version: 0.1.0
+  integrity: sha512-UVDAxYUHOZrdcQHnmrLBB1pg5+SgjdgGaO5Se3L57aWCiq/YmuMoSu6YqLVSAdo78dR1Zq4+I1pJfpiParyZQQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:51.516Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
