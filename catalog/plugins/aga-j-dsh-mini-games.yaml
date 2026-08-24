@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: aga-j-dsh-mini-games
+name: dsh-mini-games
+description:
+  en: "Pure-frontend mini-game collection for the DeepSeek Harness web details panel: guess-the-number, 2048, minesweeper. No host half, no backend."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-client-plugin
+  - mini-games
+  - "2048"
+  - minesweeper
+  - guess-number
+source:
+  repository: https://github.com/aga-j/dsh-mini-games
+  repositoryNodeId: R_kgDOT9BqWg
+  subpath: null
+  commit: f7910a8784aa863b152f7e93f21af8c33fc495e4
+creator:
+  github: aga-j
+package:
+  ecosystem: npm
+  name: dsh-mini-games
+  version: 0.1.2
+  integrity: sha512-iIiL/C5dRLh1xogddrLlJ8beDDkdNzSsjPColUdjgqgNpTG3OAy5ge1jK1bJOdkXBLpPgT227kwwo2ajSJRk/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:12.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
