@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: ayingqaq-dsh-web-launcher
+name: dsh-web-launcher
+description:
+  en: 由 DSH 管理的 Windows 一键启动器｜Desktop launcher bundle for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - launcher
+  - windows
+source:
+  repository: https://github.com/ayingQAQ/dsh-web-launcher
+  repositoryNodeId: R_kgDOT4qYSw
+  subpath: null
+  commit: d1065186df86208647b36a9e1b66fcf315748a7e
+creator:
+  github: ayingQAQ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:44.828Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
