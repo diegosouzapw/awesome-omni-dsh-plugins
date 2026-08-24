@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bpc-oss-dsh-verification
+name: "@bpc-oss/dsh-verification"
+description:
+  en: "Verification engine for DeepSeek Harness: claim - evidence - verdict - completion gate (ported from Bobby's conscience layer)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - verification
+  - agent
+  - acceptance-criteria
+  - evidence
+  - completion-gate
+  - bobby
+source:
+  repository: https://github.com/bpc-oss/dsh-verification
+  repositoryNodeId: R_kgDOT7BQig
+  subpath: packages/dsh-verification
+  commit: 1afaf79aceaf02f9d83804a12f4d31e936152377
+creator:
+  github: bpc-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-verification/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:10.859Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
