@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: bpshil-litkit-dsh
+name: "@bpshil/litkit-dsh"
+description:
+  en: DeepSeek Harness (dsh) plugin adapter for litkit — academic literature search, citation audit, and download tools in any dsh profile.
+  evidencePath: adapters/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - litkit
+  - literature
+  - academic
+  - search
+source:
+  repository: https://github.com/bpc-oss/litkit-search
+  repositoryNodeId: R_kgDOT5Zo_A
+  subpath: adapters/dsh
+  commit: 6f59d560fafed22519c109a41cce88d69eb4e3da
+creator:
+  github: bpshil
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: adapters/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:18.184Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
