@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 173787247-dsh-wsl-net
+name: dsh-wsl-net
+description:
+  en: "DeepSeek Harness tool: diagnose WSL/Windows proxy, Node 24 fetch, and DeepSeek/npm reachability."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - wsl
+  - proxy
+  - dsh
+source:
+  repository: https://github.com/173787247/dsh-wsl-net
+  repositoryNodeId: R_kgDOT87-WQ
+  subpath: null
+  commit: 66f7122a0d2d5de648edc6467e68ab51708b0518
+creator:
+  github: "173787247"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:26.155Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
