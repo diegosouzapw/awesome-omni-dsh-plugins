@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: altairpaca-dsh-computer-use-windows
+name: dsh-computer-use-windows
+description:
+  en: "Windows Computer Use for DeepSeek Harness: window-bound screenshots, robust OCR, verified clicks, pure-OCR mode, pluggable vision models."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - computer-use
+  - windows
+  - ocr
+  - automation
+source:
+  repository: https://github.com/Altairpaca/dsh-computer-use-windows
+  repositoryNodeId: R_kgDOT4pBHg
+  subpath: null
+  commit: 65eeb2bd3aa5c631d7134fd5ab94d82992aedb30
+creator:
+  github: Altairpaca
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:03.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
