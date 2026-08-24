@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: blue-a11y-dsh-client-shortcuts
+name: "@blue-a11y/dsh-client-shortcuts"
+description:
+  en: "Global keyboard shortcuts plugin for the DeepSeek Harness web GUI: ctx.shortcuts registry service, rebindable settings page, and default mod+l/mod+k/mod+shift+c bindings"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - global
+  - keyboard
+  - shortcuts
+  - registry
+  - service
+  - rebindable
+  - settings
+  - page
+  - default
+  - shift
+  - bindings
+  - dsh
+source:
+  repository: https://github.com/blue-a11y/dsh-client-shortcuts
+  repositoryNodeId: R_kgDOT3hlmQ
+  subpath: null
+  commit: 1720db39a0db41a1a8bc92705792b051c03b1273
+creator:
+  github: blue-a11y
+package:
+  ecosystem: npm
+  name: "@blue-a11y/dsh-client-shortcuts"
+  version: 0.1.0
+  integrity: sha512-/yiuUZnxpFbOKEpoZUt1fjSjer2lg187RFFqTgsJaR/yUFP70+gE+m63yphQ6fHiRh/u0s7FwNRiOxYALLVXWw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:27.511Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
