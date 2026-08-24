@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: aks1st-dock
+name: dock
+description:
+  en: "DSH Web workbench base: a VSCode-style layout shell (activity bar, side bar, editor area, panel, status bar) with a registry service (ctx.workbench) that feature plugins use to mount panels, editor views, activity items, status items and commands."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - workbench
+  - dock
+  - layout
+source:
+  repository: https://github.com/AKS1st/dock
+  repositoryNodeId: R_kgDOT-ZJmA
+  subpath: null
+  commit: 3b381abef94df14dd13f733f545b503b27552156
+creator:
+  github: AKS1st
+package:
+  ecosystem: npm
+  name: dock
+  version: 0.1.0
+  integrity: sha512-+wClRNj+M9iWSw1aX1PL9Kkr/xf0NadTmr5rDhjdTQ/cCrDpf60pScrGkW+Zv+pX2PTxNw3BoT5fZV2biVwgLg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:54.838Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
