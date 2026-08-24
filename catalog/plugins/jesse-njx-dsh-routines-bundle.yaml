@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jesse-njx-dsh-routines-bundle
+name: "@dsh-routines/bundle"
+description:
+  en: "dsh-routines — scheduled agents for DSH: run a prompt on a cron, get the digest where you already are (file digests, chatnode delivery, unattended-safe)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - scheduler
+  - cron
+  - automation
+  - headless
+source:
+  repository: https://github.com/Jesse-njx/dsh-routines
+  repositoryNodeId: R_kgDOT3kvPw
+  subpath: null
+  commit: f59b4f03e7b36648b804fd07e57a53e276da5d81
+creator:
+  github: Jesse-njx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:10.235Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
