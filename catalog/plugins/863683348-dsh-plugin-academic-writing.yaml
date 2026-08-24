@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-academic-writing
+name: dsh-plugin-academic-writing
+description:
+  en: "Academic writing toolkit for DeepSeek Harness agents: paper outlines, title and abstract skeletons, GB/T 7714 / APA / MLA citations (single and reference lists), phrasing QA, LaTeX snippets, and a pre-submission checklist"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - academic
+  - writing
+  - paper
+  - citation
+  - latex
+  - references
+  - bibliography
+source:
+  repository: https://github.com/863683348/dsh-plugin-academic-writing
+  repositoryNodeId: R_kgDOT6vdoA
+  subpath: null
+  commit: b3a619c1737b36ef44e494c98f914743a2f751d2
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-academic-writing
+  version: 0.2.0
+  integrity: sha512-OQEZdcJPWHUlVxxFKi4rS2T1WCbOdGkfiujra7MI7kjJiQxvmxu+g/K0kqeVMMAgPqrhI9sQb0sHG+d1b+NkIQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:43.113Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
