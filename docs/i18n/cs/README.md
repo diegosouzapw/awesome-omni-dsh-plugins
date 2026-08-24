@@ -16,7 +16,7 @@ Objevování s prioritou pro tvůrce a instalace jedním příkazem pro pluginy 
   <a href="https://dsh-plugins.omniroute.online">Procházejte, vyhledávejte a instalujte všechny pluginy na webu →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-696_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-779_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@ Web je udržován ze soukromého zdroje. CLI se nachází zde, pod [`cli/`](../.
 
 ## Stav katalogu
 
-**696 sloučených pluginů.** Každý plugin vstupuje prostřednictvím jednotlivě zkontrolovaného pull requestu, jeden po druhém, z repozitáře původního tvůrce, s fixovaným zdrojovým commitem a explicitním atributem.
+**779 sloučených pluginů.** Každý plugin vstupuje prostřednictvím jednotlivě zkontrolovaného pull requestu, jeden po druhém, z repozitáře původního tvůrce, s fixovaným zdrojovým commitem a explicitním atributem.
 
 ## 🚀 Instalace CLI
 
@@ -287,4 +287,4 @@ Dokumentace a šablony repozitáře jsou licencovány pod [MIT License](../../LI
 
 </div>
 
-<!-- i18n-source-hash: 26cb7bf68c7f9b4883a9c3814f6bed242c02bd2259e6e1ba004ab2e1e3e814fe -->
+<!-- i18n-source-hash: 3cc65d072a23c9ec7a757feb157491d784c11fd3ab32a959bb06dfa1637d9f12 -->
