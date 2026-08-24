@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: atropinoltt-dsh-guide-dog-autoload
+name: dsh-guide-dog-autoload
+description:
+  en: "DSH host plugin: auto-deploy the Guide Dog dynamic Cordis plugin (gdog- ) from disk sources whenever an agent session is created. Recovers the plugin after every DSH restart (dynamic plugin definitions are process-local)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - host
+  - auto
+  - deploy
+  - guide
+  - dynamic
+  - cordis
+  - gdog
+  - disk
+  - sources
+  - whenever
+  - agent
+  - session
+  - created
+  - recovers
+  - after
+  - every
+source:
+  repository: https://github.com/AtropinolTT/dsh-guide-dog
+  repositoryNodeId: R_kgDOT4Z74g
+  subpath: autoload
+  commit: fbd3a0584609722052710978214f8edceeb458a2
+creator:
+  github: AtropinolTT
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: autoload/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:38.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
