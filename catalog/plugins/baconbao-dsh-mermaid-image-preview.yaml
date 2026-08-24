@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: baconbao-dsh-mermaid-image-preview
+name: "@baconbao/dsh-mermaid-image-preview"
+description:
+  en: A DeepSeek Harness Plugin for Previewing Mermaid Diagram by Images in Chat Sessions. View on GitHub (https://github.com/baconbao/dsh-mermaid-image-preview).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - previewing
+  - mermaid
+  - diagram
+  - images
+  - chat
+  - sessions
+  - view
+  - baconbao
+  - image
+  - preview
+  - dsh
+source:
+  repository: https://github.com/baconbao/dsh-mermaid-image-preview
+  repositoryNodeId: R_kgDOT5BLdA
+  subpath: null
+  commit: 56f804e6af6cc6d3bdbb479918bf9c6eff94e52c
+creator:
+  github: baconbao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:24.083Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
