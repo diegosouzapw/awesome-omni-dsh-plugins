@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: alpacachen-dsh-kanban
+name: "@alpacachen/dsh-kanban"
+description:
+  en: "A kanban board plugin for DeepSeek Harness: a 'Board' tab in conversations plus 14 kanban AI tools, per-workspace isolation and disk persistence. Built with React, TypeScript, dnd-kit, shadcn/ui and Tailwind CSS."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - kanban
+source:
+  repository: https://github.com/alpacachen/dsh-kanban
+  repositoryNodeId: R_kgDOT-NGcA
+  subpath: null
+  commit: 11125dd4459231cc640dfe2ed39e86f22dba7456
+creator:
+  github: alpacachen
+package:
+  ecosystem: npm
+  name: "@alpacachen/dsh-kanban"
+  version: 1.3.2
+  integrity: sha512-ZB6O8SOuecHfgXirfa0HuZ98SaPkM+f21kx9GMygymgiWaCW0SCSJwhEEmwL5hwlDJieZooxqWN1kQIX1Z+WSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:01.722Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
