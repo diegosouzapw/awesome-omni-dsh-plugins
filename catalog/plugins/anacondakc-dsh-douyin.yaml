@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: anacondakc-dsh-douyin
+name: dsh-douyin
+description:
+  en: sh dsh plugin --profile web add /path/to/DSH-douyin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - profile
+  - path
+  - douyin
+  - dsh
+source:
+  repository: https://github.com/AnacondaKC/dsh-douyin
+  repositoryNodeId: R_kgDOT26DJA
+  subpath: null
+  commit: 2f28338b29503f20d159b1f0123a985530134b6a
+creator:
+  github: AnacondaKC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:39.155Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
