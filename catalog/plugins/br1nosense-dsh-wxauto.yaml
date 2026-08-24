@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: br1nosense-dsh-wxauto
+name: "@dsh-user/dsh-wxauto"
+description:
+  en: A DSH skill plugin built on wxauto4 (free tier, supports WeChat 4.1.x).
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - wechat
+  - wxauto
+  - notify
+  - skill
+  - dsh
+source:
+  repository: https://github.com/br1nosense/dsh-wxauto-plugin
+  repositoryNodeId: R_kgDOT5RaQg
+  subpath: null
+  commit: 52e1b6e319b372289edcd3c79be66b7937b33481
+creator:
+  github: br1nosense
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:31.983Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
