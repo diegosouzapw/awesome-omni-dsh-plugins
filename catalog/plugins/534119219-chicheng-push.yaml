@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 534119219-chicheng-push
+name: chicheng-push
+description:
+  en: sh dsh plugin --profile web add chicheng-push
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - push
+  - notify
+  - notification
+  - serverchan
+  - pushplus
+  - bark
+  - dingtalk
+  - wecom
+  - telegram
+  - feishu
+  - lark
+  - webhook
+source:
+  repository: https://github.com/534119219/chicheng-push
+  repositoryNodeId: R_kgDOT5hQdQ
+  subpath: null
+  commit: 2aa2b8273183bc91f4cf6d12b1f7121bbee751da
+creator:
+  github: "534119219"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:58.687Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
