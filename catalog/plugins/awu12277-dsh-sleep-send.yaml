@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: awu12277-dsh-sleep-send
+name: dsh-sleep-send
+description:
+  en: bash dsh plugin --profile web add dsh-sleep-send
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - dsh-plugin
+  - scheduled-send
+  - timer
+  - chat
+source:
+  repository: https://github.com/Awu12277/dsh-sleep-send
+  repositoryNodeId: R_kgDOT60C_A
+  subpath: null
+  commit: 44022a70f7b6090b939b41fad67a1f0e9f39fa23
+creator:
+  github: Awu12277
+package:
+  ecosystem: npm
+  name: dsh-sleep-send
+  version: 1.2.3
+  integrity: sha512-KOEEhdeAvWDnL/UF9OUo5idKIUx6bvqpgS/8gU6wH5qgIku4Dnn54olkts+/UidhYgu2YX+SrJNPSa3MMqgBbA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:03.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
