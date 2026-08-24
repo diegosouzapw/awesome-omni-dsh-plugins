@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: alnita-m-dsh-almost-full-access
+name: dsh-almost-full-access
+description:
+  en: bash npx --yes github:Alnita-M/dsh-Almost Full Access
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - permission
+  - approval
+  - security
+  - almost-full-access
+source:
+  repository: https://github.com/Alnita-M/dsh-Almost_Full_Access
+  repositoryNodeId: R_kgDOT6I3zg
+  subpath: null
+  commit: 851ccc6d25547c82b646993bf59225d1b6b7b43b
+creator:
+  github: Alnita-M
+package:
+  ecosystem: npm
+  name: dsh-almost-full-access
+  version: 1.1.0
+  integrity: sha512-nye4wtotV3rIll5la9c8nKEOZTbeC/7wBEgc8QV2zEi2FuPWme/WWVyy7TCUL6zEi5/19hAeSopuiF1uV/Fo5g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:30.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
