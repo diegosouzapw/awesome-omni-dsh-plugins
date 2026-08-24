@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: billychen123-qdd
+name: qdd
+description:
+  en: Question-Driven Discovery CLI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - question
+  - driven
+  - discovery
+  - dsh
+source:
+  repository: https://github.com/BillyChen123/qdd
+  repositoryNodeId: R_kgDOSpREuw
+  subpath: null
+  commit: f5d2c93c6c5067c0c71a3ce135234d594e64edbe
+creator:
+  github: BillyChen123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:50.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
