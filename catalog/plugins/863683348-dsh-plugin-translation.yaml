@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-translation
+name: dsh-plugin-translation
+description:
+  en: "Translation toolkit for DeepSeek Harness agents: sentence segmentation, term/glossary extraction, a durable workspace glossary (add/get/remove), cross-segment terminology consistency checks, source-target QA, tone guides, and a durable translation memory"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - translation
+  - glossary
+  - memo
+  - qa
+  - terminology
+  - consistency
+source:
+  repository: https://github.com/863683348/dsh-plugin-translation
+  repositoryNodeId: R_kgDOT6veCg
+  subpath: null
+  commit: 8a606715fb14b15e764d477bbba4f8d74106c54e
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-translation
+  version: 0.2.0
+  integrity: sha512-iAF69ih1uOlvhtywqnM8XyP4zqnn0FaCIdVK63W78jt/b7tbiEI4l91Jxu8C9mry0oi+Xy9Y6e8B+JL4ccUxJg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:37.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
