@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: aberter0x3f-dsh-custom-enter-key
+name: "@dsh-external/dsh-custom-enter-key"
+description:
+  en: Standalone composer plugin that configures Enter, Ctrl/Cmd+Enter, and Shift+Enter independently (newline, queue send, or interject send) and replaces the built-in busy-Enter preference
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - standalone
+  - composer
+  - configures
+  - enter
+  - ctrl
+  - shift
+  - independently
+  - newline
+  - queue
+  - send
+  - interject
+  - replaces
+  - built
+  - busy
+  - preference
+  - dsh
+source:
+  repository: https://github.com/aberter0x3f/dsh-custom-enter-key
+  repositoryNodeId: R_kgDOT4GOsA
+  subpath: null
+  commit: c6554d64c586c5f79d86076afd84bdb2b60532f6
+creator:
+  github: aberter0x3f
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:42.498Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
