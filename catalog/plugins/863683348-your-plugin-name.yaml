@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 863683348-your-plugin-name
+name: your-plugin-name
+description:
+  en: One line about what your dsh plugin does
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - line
+  - about
+  - what
+  - does
+  - dsh
+source:
+  repository: https://github.com/863683348/dsh-plugin-focus
+  repositoryNodeId: R_kgDOT6MG4w
+  subpath: skills/dsh-factory/templates/plugin-skeleton
+  commit: c6cf27b2f7ca01e6d3a0bf462846f0ddd61b8acd
+creator:
+  github: "863683348"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: skills/dsh-factory/templates/plugin-skeleton/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:35.067Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
