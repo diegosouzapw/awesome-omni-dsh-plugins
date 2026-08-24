@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: asdf17128-dshp
+name: dshp
+description:
+  en: Manage DeepSeek Harness profiles — list, create, clone, and share a whole dsh setup as one portable file.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - profile
+  - cli
+source:
+  repository: https://github.com/asdf17128/dshp
+  repositoryNodeId: R_kgDOT3qgsg
+  subpath: null
+  commit: 7bf87ccd4ffd457977d079fa4ecf6defd9c57a1d
+creator:
+  github: asdf17128
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:14.457Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
