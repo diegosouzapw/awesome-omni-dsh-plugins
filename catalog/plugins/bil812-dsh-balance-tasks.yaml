@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: bil812-dsh-balance-tasks
+name: dsh-balance-tasks
+description:
+  en: sh dsh plugin --profile web add <本目录
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - quota
+  - cost
+  - estimate
+source:
+  repository: https://github.com/Bil812/dsh-balance-tasks
+  repositoryNodeId: R_kgDOT8knwQ
+  subpath: null
+  commit: e5f3c832fcf2afdfaf50990939c8d378cdce7457
+creator:
+  github: Bil812
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:54.692Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
