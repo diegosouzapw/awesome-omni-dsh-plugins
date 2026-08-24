@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: aerince-dsh-models-dev-reasoning
+name: dsh-models-dev-reasoning
+description:
+  en: Add models.dev reasoning levels to unconfigured third-party DeepSeek Harness models.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - models-dev
+  - reasoning
+source:
+  repository: https://github.com/aerince/dsh-models-dev-reasoning
+  repositoryNodeId: R_kgDOT5OuJg
+  subpath: null
+  commit: c781d555bbe7f4343cb7750dd6e1f9e1b4876069
+creator:
+  github: aerince
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:23.251Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
