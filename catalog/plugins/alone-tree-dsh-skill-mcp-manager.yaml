@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: alone-tree-dsh-skill-mcp-manager
+name: dsh-skill-mcp-manager
+description:
+  en: "能力库 (Capability) — one-stop visual management of DSH Skills & MCP: on-demand MCP loading, in-session hot reload, and SKILL/MCP descriptions viewable in the plugin."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - capability
+  - ability-library
+  - mcp
+  - skill
+  - catalog
+  - cordis
+source:
+  repository: https://github.com/alone-tree/dsh-skill-mcp-manager
+  repositoryNodeId: R_kgDOT9UuUw
+  subpath: null
+  commit: 4d07d3d75c00e332b3fae1fc1e65a4fbcd4e1a61
+creator:
+  github: alone-tree
+package:
+  ecosystem: npm
+  name: dsh-skill-mcp-manager
+  version: 1.0.0
+  integrity: sha512-DLWzAs4O7b2GEae8pu3Eim1Rm074+l175+DukOb/IE0zIvSKFc+siCAw88JC9OxlvuJ+isGuoXgEsfj+gKUSiQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:32.707Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
