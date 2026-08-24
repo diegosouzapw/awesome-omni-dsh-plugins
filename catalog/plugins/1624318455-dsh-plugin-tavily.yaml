@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 1624318455-dsh-plugin-tavily
+name: "@dsh-external/dsh-plugin-tavily"
+description:
+  en: Professional Tavily-backed web search provider for DeepSeek Harness — full request parameters in a WebUI settings card, yaml-first priority, and API connectivity test
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - professional
+  - tavily
+  - backed
+  - search
+  - provider
+  - full
+  - request
+  - parameters
+  - webui
+  - settings
+  - card
+  - yaml
+  - first
+  - priority
+  - connectivity
+  - test
+source:
+  repository: https://github.com/1624318455/dsh-plugin-tavily
+  repositoryNodeId: R_kgDOT401Iw
+  subpath: null
+  commit: 04e096d0b465e86c971bc276155f52fb2e501abc
+creator:
+  github: "1624318455"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:42.193Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
