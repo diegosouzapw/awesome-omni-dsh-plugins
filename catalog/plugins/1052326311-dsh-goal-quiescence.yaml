@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 1052326311-dsh-goal-quiescence
+name: dsh-goal-quiescence
+description:
+  en: Completion evidence gate for DeepSeek Harness goal-mode subagents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent
+  - subagent
+  - goal
+  - evidence
+  - dsh
+source:
+  repository: https://github.com/1052326311/dsh-goal-quiescence
+  repositoryNodeId: R_kgDOT4tktA
+  subpath: null
+  commit: 660fff29a7ebc19dedd52e2dbaf14e9fa696730b
+creator:
+  github: "1052326311"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:06.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
