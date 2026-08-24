@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: atropinoltt-dsh-guide-dog
+name: dsh-guide-dog
+description:
+  en: "Guide Dog for DSH, powered by MiniMax — static web-profile bundle (no dynamic plugin, no per-session instances): visual inspection/generation/TTS/voice input."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - guide
+  - powered
+  - minimax
+  - static
+  - profile
+  - bundle
+  - dynamic
+  - session
+  - instances
+  - visual
+  - inspection
+  - generation
+  - voice
+  - input
+  - dsh
+source:
+  repository: https://github.com/AtropinolTT/dsh-guide-dog
+  repositoryNodeId: R_kgDOT4Z74g
+  subpath: bundle
+  commit: fbd3a0584609722052710978214f8edceeb458a2
+creator:
+  github: AtropinolTT
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:38.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
