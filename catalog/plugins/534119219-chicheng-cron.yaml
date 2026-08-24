@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 534119219-chicheng-cron
+name: chicheng-cron
+description:
+  en: sh dsh plugin --profile web add github:534119219/chicheng-cron
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - cron
+  - scheduler
+  - scheduled-tasks
+source:
+  repository: https://github.com/534119219/chicheng-cron
+  repositoryNodeId: R_kgDOT57N-g
+  subpath: null
+  commit: 31a8627ebf9af56d30c2e385f0f72ee22cc78a08
+creator:
+  github: "534119219"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:12.194Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
