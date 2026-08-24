@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: 1helloman1-dsh-usage-dashboard-plus
+name: dsh-usage-dashboard-plus
+description:
+  en: "DeepSeek Harness (dsh) web plugin: API balance + today's spend sidebar widget, /api/dsh-usage route, external vision-call accounting (JSONL usage log), plus a full per-session usage dashboard (call log, per-model stats, cache rate, CSV export) via the usageDashboard session projection — merged from dsh-stats-dashboard."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - usage
+  - cost
+  - web
+  - vision
+  - dashboard
+  - call-log
+  - stats
+  - projection
+source:
+  repository: https://github.com/1HelloMan1/dsh-usage-dashboard-plus
+  repositoryNodeId: R_kgDOT4OUiQ
+  subpath: null
+  commit: b198d5da62a17cb0ee2bb27e7b04aa71f4cd47d3
+creator:
+  github: 1HelloMan1
+package:
+  ecosystem: npm
+  name: dsh-usage-dashboard-plus
+  version: 0.2.4
+  integrity: sha512-N/0bFvjvqrQhq6ovwGpAdbVOh/ONFDca1h721CS2JkLapVKPgC0ly/XUc416H925vk4Xfne+f+F8yJlTgjZSDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:56.685Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
