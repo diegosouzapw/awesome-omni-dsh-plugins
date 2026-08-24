@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: bill9109-dsh-101
+name: "@bill9109/dsh-101"
+description:
+  en: "A document-first reader profile bundle for DeepSeek Harness: curated, ordered, searchable, translatable reading of DSH's own documentation over dsh-base + dsh-web-app."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - dsh-profile
+  - reader
+  - documentation
+  - dsh
+source:
+  repository: https://github.com/bill9109/dsh-101
+  repositoryNodeId: R_kgDOTyglwA
+  subpath: null
+  commit: ae6b4addadfda63e6751b1bf929665733ba60b6c
+creator:
+  github: bill9109
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:48.007Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
