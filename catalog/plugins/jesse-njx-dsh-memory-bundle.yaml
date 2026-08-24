@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jesse-njx-dsh-memory-bundle
+name: "@dsh-memory/bundle"
+description:
+  en: "dsh-memory — cited memory over DSH's lossless session log: post-session distillation into human-auditable markdown files, a compact recall index, memory read/memory expand tools, and a dsh-memory CLI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - agent-memory
+  - session-log
+source:
+  repository: https://github.com/Jesse-njx/dsh-memory
+  repositoryNodeId: R_kgDOT3jnJQ
+  subpath: null
+  commit: 2eed97da7f95f24e03e7a2f0a64606d55f61ffff
+creator:
+  github: Jesse-njx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:02.998Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
