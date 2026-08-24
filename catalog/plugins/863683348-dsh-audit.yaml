@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 863683348-dsh-audit
+name: dsh-audit
+description:
+  en: "Ecosystem-wide plugin health audit for DeepSeek Harness: syncs the GitHub dsh-plugin topic into a local catalog, probes npm, static-scans plugin files for security (v0.2), and scores every plugin (maintenance / docs / npm / ecosystem + security veto) with a web leaderboard and agent tools. DSH 插件生态体检：同步目录、探测 npm、静态安全扫描"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - audit
+  - health
+  - quality
+  - marketplace
+  - vetting
+source:
+  repository: https://github.com/863683348/dsh-plugin-audit
+  repositoryNodeId: R_kgDOT6Ultg
+  subpath: null
+  commit: 625fcbd8f866b1c6f7382a848dfe62240ef81f22
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-audit
+  version: 0.4.0
+  integrity: sha512-RyQ3gK4uPUUMmCpbI8VyJaBwEzfL372ERHMqhCPTu8TxOwlgQS9mLrmvM/Sw8Gtd/a6nK9xQkV70MlTQLL4nPw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:33.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
