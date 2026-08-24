@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ai-scarlett-dsh-build-plugin
+name: dsh-build-plugin
+description:
+  en: DSH Skill adapter for the build-dsh-plugin development workflow
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - skill
+  - adapter
+  - build
+  - development
+  - workflow
+  - dsh
+source:
+  repository: https://github.com/AI-Scarlett/build-dsh-plugin
+  repositoryNodeId: R_kgDOT75Rjg
+  subpath: null
+  commit: 4ab970f35e7e0a95bcb42c851e8efceaf1977df9
+creator:
+  github: AI-Scarlett
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:50.243Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
