@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: andyyang12345-dsh-butler-memory
+name: dsh-butler-memory
+description:
+  en: "DSH bundle: wire the Butler Memory MCP server (agent tools) and add a Web memory panel (view/search/candidates)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bundle
+  - wire
+  - butler
+  - memory
+  - server
+  - agent
+  - tools
+  - panel
+  - view
+  - search
+  - candidates
+  - dsh
+source:
+  repository: https://github.com/AndyYang12345/dsh-butler-memory
+  repositoryNodeId: R_kgDOT6CoUA
+  subpath: null
+  commit: e42413cfe0b52699641098f524081cf84785498c
+creator:
+  github: AndyYang12345
+package:
+  ecosystem: npm
+  name: dsh-butler-memory
+  version: 0.1.5
+  integrity: sha512-i5gWjct76N5Rh9tryZaZdfH+z+xXcTDdNyE4oNuXkKo9j2U324EnfZCSYmUi9QVwGo5BP0TFVVq2N2Gw6EQ1xQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:07.494Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
