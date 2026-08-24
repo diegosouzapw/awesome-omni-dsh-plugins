@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: asianfleet-dsh-message-copy-enhance
+name: dsh-message-copy-enhance
+description:
+  en: Copy dsh assistant output as Markdown, preserving links, LaTeX sources and code fences.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - client-plugin
+  - markdown
+  - copy
+  - clipboard
+  - latex
+source:
+  repository: https://github.com/Asianfleet/dsh-message-copy-enhance
+  repositoryNodeId: R_kgDOT7_tlQ
+  subpath: null
+  commit: 9d8595501224621db5942fadddcbdb0efceba686
+creator:
+  github: Asianfleet
+package:
+  ecosystem: npm
+  name: dsh-message-copy-enhance
+  version: 0.2.1
+  integrity: sha512-qhPX55oH1dvI2i6VddLnCSeQ5X9P4ZIkEMOOA2GNJ66lpGRE4VQ1qbB5rNA4oybtZ9KYVUnqIhB3skf5fqeWVw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:57.238Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
