@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 863683348-dsh-gov
+name: dsh-gov
+description:
+  en: "Agent governance suite for DeepSeek Harness (enterprise companion): policy-based tool gating (allow/deny/ask), structured JSONL audit trail, and per-agent token quotas against the host token meter — state under $DSH HOME/gov"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - governance
+  - compliance
+  - audit
+  - security
+  - quota
+  - cost
+  - enterprise
+source:
+  repository: https://github.com/863683348/dsh-gov
+  repositoryNodeId: R_kgDOT6ug-w
+  subpath: null
+  commit: af5f32b43bd694c1c654028828bf425d417fdb19
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-gov
+  version: 0.1.0
+  integrity: sha512-9fYgeJlPrOsOe47bexTRsetmJwk9w7Ss2Gm+3dOvp0WXj5vWM+X79DlzFRRQ6as9OIeOHkUK8YeOvlVs1clrXA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:37.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
