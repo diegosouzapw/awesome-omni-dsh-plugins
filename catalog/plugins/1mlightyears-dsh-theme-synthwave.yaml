@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 1mlightyears-dsh-theme-synthwave
+name: "@1mlightyears/dsh-theme-synthwave"
+description:
+  en: "DSH Synthwave theme plugin: neon glow hover/focus, translucent panels over image/video background, configurable blur, fontScale root font-size."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - synthwave
+  - background
+  - video
+source:
+  repository: https://github.com/1MLightyears/dsh-theme-synthwave
+  repositoryNodeId: R_kgDOT5_gxg
+  subpath: null
+  commit: f418fcb15674638defd4a4793e5f530346a8c25e
+creator:
+  github: 1MLightyears
+package:
+  ecosystem: npm
+  name: "@1mlightyears/dsh-theme-synthwave"
+  version: 0.1.0
+  integrity: sha512-cnQnP10RTlM0ByIIqTioUooDT1FSoFyCMsVDUhHxx4EeHuKkmO0ojTIY0Xki8LShYlKayOMHcAyRXJGfl6AGsw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:28.093Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
