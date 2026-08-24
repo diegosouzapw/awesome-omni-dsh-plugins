@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ankye-dsh-client-ui-vision
+name: "@deepseek-ai/dsh-client-ui-vision"
+description:
+  en: Vision image-recognition settings card for the configurable-plugins tab
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - vision
+  - image
+  - recognition
+  - settings
+  - card
+  - configurable
+  - dsh
+source:
+  repository: https://github.com/ankye/dsh-client-vision
+  repositoryNodeId: R_kgDOT8_cYA
+  subpath: packages/ui-vision
+  commit: 25be426f1468c8e217a6538d4f49d9e72e1aff9b
+creator:
+  github: ankye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/ui-vision/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:40.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
