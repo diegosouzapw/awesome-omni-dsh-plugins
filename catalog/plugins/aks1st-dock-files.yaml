@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-dock-files
+name: dock-files
+description:
+  en: "File explorer for the DSH dock: browse the active conversation's working directory and open files in the registered file viewers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - files
+  - explorer
+  - dock
+source:
+  repository: https://github.com/AKS1st/dock-files
+  repositoryNodeId: R_kgDOT-ZJtg
+  subpath: null
+  commit: 1a947ef638fd6e758271e9613c3d67ba957da5e9
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:18.595Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
