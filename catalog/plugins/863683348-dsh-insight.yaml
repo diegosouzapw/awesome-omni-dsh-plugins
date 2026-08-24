@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 863683348-dsh-insight
+name: dsh-insight
+description:
+  en: "Plugin insight center — one answer to '哪些值得装': requirement matching (plugin guide), environment recipes (recipe), health scoring (plugin rank), static security scanning (plugin audit), and a single install verdict (plugin verdict)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - insight
+  - audit
+  - scoring
+  - security
+  - verdict
+  - guide
+  - recipe
+source:
+  repository: https://github.com/863683348/dsh-insight
+  repositoryNodeId: R_kgDOT6unSQ
+  subpath: null
+  commit: b246fb4d351547936f5159064c5991a6539073a8
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-insight
+  version: 0.1.0
+  integrity: sha512-53tV4fnl85bcK176cz9Pq0YNf1dyHu1iFQN7VTBuzBOaxv2DaH4Xfh88CKEddLLhKcCkJEKvz23i3MpC3b+OiA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:39.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
