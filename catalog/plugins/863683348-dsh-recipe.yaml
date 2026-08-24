@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 863683348-dsh-recipe
+name: dsh-recipe
+description:
+  en: "Scenario bundles of dsh plugins ('插件界的 dotfiles'): a recipe tool that lists, searches, applies and composes ready-made plugin environments with ordered install sequences"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - recipe
+  - bundle
+  - environment
+source:
+  repository: https://github.com/863683348/dsh-recipe
+  repositoryNodeId: R_kgDOT6qmFA
+  subpath: null
+  commit: 2fc268f5ee28f293c560b22999d3dec228897fa8
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-recipe
+  version: 0.1.0
+  integrity: sha512-nLi/hc6dJ90s0YXLwmyAgtnqVB5kNeaeAvPolVk+kyPTjY8qeDFip9JV6zvbroUsTKa7P04dN3p6jL5Ynjl94w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:56.240Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
