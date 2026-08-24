@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: alexyin-tongji-dsh-plugin-console
+name: dsh-plugin-console
+description:
+  en: "DSH Plugin Console: a verified community catalog, profile manager, and Harness updater for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-manager
+  - plugin-console
+  - plugin-store
+  - cordis
+source:
+  repository: https://github.com/AlexYin-Tongji/dsh-plugin-console
+  repositoryNodeId: R_kgDOT6y94A
+  subpath: null
+  commit: d1645d1f20a2300d94f5d80318f30ae25d60d36b
+creator:
+  github: AlexYin-Tongji
+package:
+  ecosystem: npm
+  name: dsh-plugin-console
+  version: 0.3.0
+  integrity: sha512-ycBIyAMVA1uAIDCgrycD77247y0nlHYN5v1jmkbVyEzViPonjQpteYSQg3qNS4CDXkkdEstE6aAAxzGyVvbDhg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:28.349Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
