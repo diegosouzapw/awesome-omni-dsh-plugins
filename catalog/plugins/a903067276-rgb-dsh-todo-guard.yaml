@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-todo-guard
+name: dsh-todo-guard
+description:
+  en: "Reliable todo panel for DSH: survives restarts, verifies completion evidence"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - todo
+  - verification
+source:
+  repository: https://github.com/a903067276-rgb/dsh-todo-guard
+  repositoryNodeId: R_kgDOT9ELOQ
+  subpath: null
+  commit: 495e0d388ddbcbba72edbf80f707fe7bf4c39f4d
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:40.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
