@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: huahai0202-dsh-better-archive
+name: dsh-better-archive
+description:
+  en: Sidebar Archived entry + archived-session panel with unarchive and delete, for the DeepSeek Harness web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - ui
+  - archive
+  - unarchive
+  - session
+source:
+  repository: https://github.com/huahai0202/dsh-better-archive
+  repositoryNodeId: R_kgDOT4LTXQ
+  subpath: null
+  commit: fa31fc486d35b1e270828fd068a240f1775fb992
+creator:
+  github: huahai0202
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:37.997Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
