@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: bpc-oss-dsh-plugin-chrome-faithful
+name: "@bpc-oss/dsh-plugin-chrome-faithful"
+description:
+  en: First-party DeepSeek Harness bundle for exact-profile Chrome control through Chrome Faithful.
+  evidencePath: packages/dsh-plugin-chrome-faithful/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - first
+  - party
+  - bundle
+  - exact
+  - profile
+  - chrome
+  - control
+  - through
+  - faithful
+  - dsh
+source:
+  repository: https://github.com/bpc-oss/chrome-faithful
+  repositoryNodeId: R_kgDOT4KPiQ
+  subpath: packages/dsh-plugin-chrome-faithful
+  commit: c827885fbab4763e12f926d311c59a931f0892f2
+creator:
+  github: bpc-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-chrome-faithful/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:29.395Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
