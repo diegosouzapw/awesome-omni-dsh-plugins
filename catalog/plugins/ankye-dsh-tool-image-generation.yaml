@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ankye-dsh-tool-image-generation
+name: "@deepseek-ai/dsh-tool-image-generation"
+description:
+  en: Model-facing image-generation tool with a settings-selected channel and normalized parameters
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - model
+  - facing
+  - image
+  - generation
+  - tool
+  - settings
+  - selected
+  - channel
+  - normalized
+  - parameters
+  - dsh
+source:
+  repository: https://github.com/ankye/dsh-image-generation
+  repositoryNodeId: R_kgDOT9CedQ
+  subpath: packages/tool-image-generation
+  commit: afb003964eccbf866b9b452dee41cc584d5209cc
+creator:
+  github: ankye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/tool-image-generation/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:45.036Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
