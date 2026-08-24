@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-focus
+name: dsh-plugin-focus
+description:
+  en: "Focus board for DeepSeek Harness agents: durable, model-maintained notes in the session workspace that pin the objective, constraints, and decisions across compaction and sessions — with automatic context injection, an archive on clear, and an optional read-only web panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - focus
+  - memory
+  - context
+source:
+  repository: https://github.com/863683348/dsh-plugin-focus
+  repositoryNodeId: R_kgDOT6MG4w
+  subpath: null
+  commit: c6cf27b2f7ca01e6d3a0bf462846f0ddd61b8acd
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-focus
+  version: 1.0.1
+  integrity: sha512-c/12ZLLGaGfvh3xJCXOZ5ie1R0TTKAblq5bYIsCPNBJUbLylHPnPKL7mRCzWqXsQAGFmG9t3jpTTMfaKPrxFQA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:35.067Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
