@@ -1,5 +1,7 @@
 # 보안 정책
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **한국어**
+
 ## 카탈로그 범위
 
 이 저장소는 카탈로그 메타데이터, 문서, 일반적인 기여 설정을 포함합니다. 등록되어 있다는 것은

@@ -1,5 +1,7 @@
 # Mga Kategorya ng Katalogo
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Filipino**
+
 Ang bawat entry ng katalogo ay may isang uri ng artifact, isang pangunahing kategorya ng
 kakayahan, at zero o higit pang tag. Ang pangunahing kategorya ang nagtatakda kung saan
 lalabas ang entry; ang mga tag ay nagbibigay ng paghahanap sa iba't ibang kategorya nang

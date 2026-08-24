@@ -1,6 +1,6 @@
 # 非官方專案聲明
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **中文（繁體）**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **中文（繁體）**
 
 > **非官方社群專案,與 DeepSeek 無關聯、未經其認可,也未獲其贊助。**
 > DeepSeek 的名稱與標識歸其各自所有者所有。

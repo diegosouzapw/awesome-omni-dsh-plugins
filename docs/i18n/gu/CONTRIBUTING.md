@@ -1,6 +1,6 @@
 # યોગદાન
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **ગુજરાતી**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **ગુજરાતી**
 
 > **બિનસત્તાવાર સામુદાયિક પ્રોજેક્ટ. DeepSeek સાથે સંલગ્ન, સમર્થિત કે પ્રાયોજિત નથી.**
 > DeepSeek નામો અને ચિહ્નો તેમના સંબંધિત માલિકોના છે.

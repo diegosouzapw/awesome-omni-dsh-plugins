@@ -1,6 +1,6 @@
 # سیکیورٹی پالیسی
 
-> 🌐 [English](../../SECURITY.md) · **اردو**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **اردو**
 
 ## کیٹلاگ کا دائرہ کار
 

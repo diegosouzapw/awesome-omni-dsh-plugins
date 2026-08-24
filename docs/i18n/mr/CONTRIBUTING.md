@@ -1,6 +1,6 @@
 # योगदान
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **मराठी**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **मराठी**
 
 > **हा एक अनधिकृत समुदाय प्रकल्प आहे. DeepSeek शी संलग्न, त्यांच्याकडून मान्यताप्राप्त किंवा प्रायोजित नाही.**
 > DeepSeek ची नावे आणि चिन्हे त्यांच्या संबंधित मालकांची आहेत.

@@ -1,6 +1,6 @@
 # Metodologia de Ranqueamento
 
-> 🌐 [English](../../docs/RANKING.md) · **Português (Brasil)**
+> 🌐 [English](../../RANKING.md) · **Português (Brasil)** · [中文（简体）](../zh-CN/RANKING.md)
 
 Os rankings são visões transparentes sobre as entradas de catálogo público mescladas. Eles nunca
 usam uma pontuação combinada oculta e nunca tratam estrelas de um projeto pai amplo como

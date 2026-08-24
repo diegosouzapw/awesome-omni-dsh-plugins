@@ -1,5 +1,7 @@
 # Qeyri-rəsmi layihə bildirişi
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Azərbaycan dili**
+
 > **Qeyri-rəsmi icma layihəsi. DeepSeek ilə əlaqəli deyil, DeepSeek tərəfindən dəstəklənmir və ya sponsorluq edilmir.**
 > DeepSeek adları və nişanları müvafiq sahiblərinə məxsusdur.
 

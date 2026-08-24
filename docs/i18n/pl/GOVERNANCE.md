@@ -1,6 +1,6 @@
 # Zarządzanie katalogiem
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **Polski**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Polski**
 
 > **Nieoficjalny projekt społecznościowy. Niepowiązany z DeepSeek, nieautoryzowany ani niesponsorowany przez DeepSeek.**
 > Nazwy i znaki DeepSeek należą do ich właściwego właściciela.

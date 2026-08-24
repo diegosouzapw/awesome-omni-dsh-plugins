@@ -1,6 +1,6 @@
 # Kebijakan Keamanan
 
-> 🌐 [English](../../SECURITY.md) · **Bahasa Indonesia (id)**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Bahasa Indonesia**
 
 > **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
 > Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.

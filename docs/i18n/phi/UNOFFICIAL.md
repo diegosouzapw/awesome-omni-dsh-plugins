@@ -1,5 +1,7 @@
 # Abiso ng Hindi Opisyal na Proyekto
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Filipino**
+
 > **Hindi opisyal na proyekto ng komunidad. Walang kaugnayan sa, hindi inendorso, at hindi itinataguyod ng DeepSeek.**
 > Ang mga pangalan at marka ng DeepSeek ay pag-aari ng kani-kanilang may-ari.
 

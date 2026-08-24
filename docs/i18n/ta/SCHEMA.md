@@ -1,6 +1,6 @@
 # பட்டியல் பதிவு திட்டவரைவு குறிப்பு
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **தமிழ்**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **தமிழ்**
 
 > **அதிகாரப்பூர்வமற்ற சமூகத் திட்டம். DeepSeek உடன் இணைப்போ, ஏற்புடையதோ, ஆதரவு பெற்றதோ அல்ல.**
 > DeepSeek பெயர்களும் குறியீடுகளும் அவற்றின் உரிமையாளருக்கே சொந்தமானவை.

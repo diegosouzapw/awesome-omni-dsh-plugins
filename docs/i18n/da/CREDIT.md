@@ -1,6 +1,6 @@
 # Skaberkreditering og pull request-forrang
 
-> 🌐 [English](../../docs/CREDIT.md) · **Dansk**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Dansk**
 
 > **Uofficielt community-projekt. Ikke tilknyttet, godkendt af eller sponsoreret af DeepSeek.**
 > DeepSeek-navne og -mærker tilhører deres respektive ejer.

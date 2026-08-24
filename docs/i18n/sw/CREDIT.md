@@ -1,5 +1,7 @@
 # Sifa za Muumba na Kipaumbele cha Pull Request
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Kiswahili**
+
 Katalogi ipo ili kuifanya kazi huru ya DSH igundulike bila kuchukua umiliki kutoka kwa waumbaji wake.
 Viingilio vya umma vinataja hazina asili na commit ya chanzo isiyobadilika.
 

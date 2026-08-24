@@ -1,5 +1,7 @@
 # Katalog Kategorileri
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Türkçe**
+
 Her katalog kaydının bir yapı `kind`'ı, bir birincil yetenek kategorisi ve sıfır veya daha fazla
 etiketi vardır. Birincil kategori, kaydın nerede görüneceğini belirler; etiketler ise kaydı
 tekrarlamadan kategoriler arası arama sağlar.

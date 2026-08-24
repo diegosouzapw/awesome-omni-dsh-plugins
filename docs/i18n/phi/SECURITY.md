@@ -1,5 +1,7 @@
 # Patakaran sa Seguridad
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Filipino**
+
 ## Saklaw ng katalogo
 
 Ang repository na ito ay naglalaman ng catalog metadata, dokumentasyon, at generic na

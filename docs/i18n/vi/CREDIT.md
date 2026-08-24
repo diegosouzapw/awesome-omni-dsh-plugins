@@ -1,5 +1,7 @@
 # Ghi công nhà phát triển và thứ tự ưu tiên pull request
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Tiếng Việt**
+
 Danh mục tồn tại để giúp công việc DSH độc lập được khám phá mà không tước đi quyền sở hữu của nhà phát triển đối
 với công sức đó. Các mục công khai trích dẫn repository gốc và một commit nguồn bất biến.
 

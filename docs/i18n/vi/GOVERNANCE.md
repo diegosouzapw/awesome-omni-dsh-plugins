@@ -1,5 +1,7 @@
 # Quản trị danh mục
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Tiếng Việt**
+
 > **Đây là dự án cộng đồng không chính thức. Không liên kết, không được chứng thực, và không được DeepSeek tài trợ.**
 > Tên gọi và nhãn hiệu của DeepSeek thuộc về chủ sở hữu tương ứng.
 

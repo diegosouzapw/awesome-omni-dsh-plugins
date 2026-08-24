@@ -1,6 +1,6 @@
 # নিরাপত্তা নীতি
 
-> 🌐 [English](../../SECURITY.md) · **বাংলা**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **বাংলা**
 
 ## ক্যাটালগের পরিসীমা
 

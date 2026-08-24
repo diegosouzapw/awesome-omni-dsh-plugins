@@ -1,6 +1,6 @@
 # कॅटलॉग एंट्री स्कीमा संदर्भ
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **मराठी**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **मराठी**
 
 > **अनधिकृत समुदाय प्रकल्प. DeepSeek शी संलग्न नाही, त्यांच्याकडून मान्यताप्राप्त किंवा प्रायोजित नाही.**
 > DeepSeek ची नावे आणि चिन्हे त्यांच्या संबंधित मालकांची आहेत.

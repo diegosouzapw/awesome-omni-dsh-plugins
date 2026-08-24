@@ -1,6 +1,6 @@
 # Rangschikkingsmethodologie
 
-> 🌐 [English](../../docs/RANKING.md) · **Nederlands**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Nederlands**
 
 Rangschikkingen zijn transparante weergaven over gemergede publieke catalogusinvoeren. Ze
 gebruiken nooit een verborgen gecombineerde score en behandelen sterren van een breder

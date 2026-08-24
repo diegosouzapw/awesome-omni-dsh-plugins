@@ -1,6 +1,6 @@
 # הפניית CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **עברית**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **עברית**
 
 > **פרויקט קהילתי בלתי רשמי. אינו קשור, מאושר או ממומן על ידי DeepSeek.**
 > השמות והסימנים של DeepSeek שייכים לבעליהם המתאימים.

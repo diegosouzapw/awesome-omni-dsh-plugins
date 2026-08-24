@@ -1,6 +1,6 @@
 # Metodologi Peringkat
 
-> 🌐 [English](../../docs/RANKING.md) · **Bahasa Indonesia (id)**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Bahasa Indonesia**
 
 > **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
 > Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.

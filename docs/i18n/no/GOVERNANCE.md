@@ -1,5 +1,7 @@
 # Katalogstyring
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Norsk**
+
 > **Uoffisielt community-prosjekt. Ikke tilknyttet, godkjent av eller sponset av DeepSeek.**
 > DeepSeek-navn og -merker tilhører sine respektive eiere.
 

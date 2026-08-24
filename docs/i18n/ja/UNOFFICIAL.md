@@ -1,5 +1,7 @@
 # 非公式プロジェクトの告知
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **日本語**
+
 > **これは非公式のコミュニティプロジェクトです。DeepSeek とは提携・承認・スポンサー関係はありません。**
 > DeepSeek の名称および商標は、それぞれの権利者に帰属します。
 

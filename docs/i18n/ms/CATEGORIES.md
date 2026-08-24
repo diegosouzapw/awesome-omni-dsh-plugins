@@ -1,6 +1,6 @@
 # Kategori Katalog
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Bahasa Melayu (ms)**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Bahasa Melayu**
 
 > **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
 > Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.

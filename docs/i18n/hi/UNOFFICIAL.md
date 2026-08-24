@@ -1,6 +1,6 @@
 # गैर-आधिकारिक परियोजना सूचना
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **हिन्दी**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **हिन्दी**
 
 > **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
 > DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।

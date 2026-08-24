@@ -1,6 +1,6 @@
 # Töhfə vermə
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Azərbaycan dili**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Azərbaycan dili**
 
 > **Qeyri-rəsmi icma layihəsi. DeepSeek ilə əlaqəli deyil, onun tərəfindən dəstəklənmir və ya maliyyələşdirilmir.**
 > DeepSeek adları və nişanları müvafiq sahiblərinə məxsusdur.

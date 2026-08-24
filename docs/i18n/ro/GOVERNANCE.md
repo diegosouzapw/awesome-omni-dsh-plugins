@@ -1,6 +1,6 @@
 # Guvernanța catalogului
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **Română**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Română**
 
 > **Proiect comunitar neoficial. Nu este afiliat, susținut sau sponsorizat de DeepSeek.**
 > Numele și mărcile DeepSeek aparțin proprietarului lor de drept.

@@ -1,6 +1,6 @@
 # إشعار مشروع غير رسمي
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **العربية**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **العربية**
 
 > **مشروع مجتمعي غير رسمي. لا علاقة له بشركة DeepSeek ولا يحظى بتأييدها أو رعايتها.**
 > أسماء وعلامات DeepSeek ملك لأصحابها.

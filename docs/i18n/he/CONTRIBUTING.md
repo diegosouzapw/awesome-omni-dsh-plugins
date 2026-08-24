@@ -1,6 +1,6 @@
 # תרומה לפרויקט
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **עברית**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **עברית**
 
 > **פרויקט קהילתי בלתי רשמי. אינו קשור, מאושר או ממומן על ידי DeepSeek.**
 > השמות והסימנים של DeepSeek שייכים לבעליהם המתאימים.

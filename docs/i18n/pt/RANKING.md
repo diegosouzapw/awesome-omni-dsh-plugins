@@ -1,5 +1,7 @@
 # Metodologia de Classificação
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Português**
+
 As classificações são vistas transparentes sobre entradas públicas integradas no catálogo.
 Nunca usam uma pontuação combinada oculta e nunca tratam as estrelas de um projeto-pai amplo
 como popularidade do plugin.

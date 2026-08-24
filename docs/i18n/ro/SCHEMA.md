@@ -1,6 +1,6 @@
 # Referința schemei de intrare în catalog
 
-> 🌐 [English](../../docs/SCHEMA.md) · **Română**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Română**
 
 > **Proiect comunitar neoficial. Nu este afiliat, susținut sau sponsorizat de DeepSeek.**
 > Numele și mărcile DeepSeek aparțin proprietarului lor de drept.

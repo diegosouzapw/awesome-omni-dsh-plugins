@@ -1,5 +1,7 @@
 # Rangeringsmetodologi
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Norsk**
+
 Rangeringer er transparente visninger over sammenslåtte offentlige katalogoppføringer. De
 bruker aldri en skjult kombinert poengsum og behandler aldri stjerner fra et bredt overordnet
 prosjekt som pluginpopularitet.

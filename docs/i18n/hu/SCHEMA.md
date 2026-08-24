@@ -1,6 +1,6 @@
 # Katalógusbejegyzés-séma referencia
 
-> 🌐 [English](../../docs/SCHEMA.md) · **Magyar**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.

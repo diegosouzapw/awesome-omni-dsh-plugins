@@ -1,6 +1,6 @@
 # حاکمیت کاتالوگ
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **فارسی**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **فارسی**
 
 > **پروژه غیررسمی جامعه. وابسته به، تأییدشده توسط یا اسپانسرشده توسط DeepSeek نیست.**
 > نام‌ها و علائم DeepSeek متعلق به مالک مربوطه‌شان است.

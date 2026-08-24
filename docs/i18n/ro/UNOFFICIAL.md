@@ -1,6 +1,6 @@
 # Notificare de proiect neoficial
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Română**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Română**
 
 > **Proiect comunitar neoficial. Nu este afiliat, susținut sau sponsorizat de DeepSeek.**
 > Numele și mărcile DeepSeek aparțin proprietarului lor de drept.

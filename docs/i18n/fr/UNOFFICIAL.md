@@ -1,6 +1,6 @@
 # Avis de projet non officiel
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Français**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Français**
 
 > **Projet communautaire non officiel. Non affilié à, ni approuvé ni sponsorisé par DeepSeek.**
 > Les noms et marques DeepSeek appartiennent à leurs propriétaires respectifs.

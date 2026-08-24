@@ -1,6 +1,6 @@
 # 創作者掛名與提取請求優先順序
 
-> 🌐 [English](../../docs/CREDIT.md) · **中文（繁體）**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **中文（繁體）**
 
 本目錄的存在,是為了讓獨立完成的 DSH 作品能被更多人發現,而不是把作品的所有權從創作者手中
 奪走。公開條目會引用原始儲存庫及一個不可變更的來源提交(commit)。

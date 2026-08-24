@@ -1,6 +1,6 @@
 # Tietoturvakäytäntö
 
-> 🌐 [English](../../SECURITY.md) · **Suomi**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei liity DeepSeekiin eikä DeepSeek ole hyväksynyt tai sponsoroinut sitä.**
 > DeepSeekin nimet ja tunnukset kuuluvat niiden omistajalle.

@@ -1,5 +1,7 @@
 # Yaradıcı atribusiyası və pull request üstünlüyü
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Azərbaycan dili**
+
 Kataloq müstəqil DSH işlərini kəşf edilə bilən etmək üçün mövcuddur, sahibliyi yaradıcılarından
 almadan. İctimai qeydlər orijinal repozitoriyanı və dəyişməz mənbə commit-ini sitat gətirir.
 

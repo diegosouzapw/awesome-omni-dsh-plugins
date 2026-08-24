@@ -1,6 +1,6 @@
 # Rankningsmetodik
 
-> 🌐 [English](../../docs/RANKING.md) · **Svenska**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Svenska**
 
 > **Inofficiellt community-projekt. Inte anknutet till, godkänt av eller sponsrat av DeepSeek.**
 > DeepSeek-namn och -märken tillhör respektive ägare.

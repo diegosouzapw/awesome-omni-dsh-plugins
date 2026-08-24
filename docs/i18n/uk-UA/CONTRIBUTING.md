@@ -1,6 +1,6 @@
 # Як зробити внесок
 
-> 🌐 [English](../../CONTRIBUTING.md) · **Українська**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Українська**
 
 > **Неофіційний проєкт спільноти. Не пов'язаний із DeepSeek, не схвалений і не спонсорований компанією DeepSeek.**
 > Назви та товарні знаки DeepSeek належать їхньому власнику.

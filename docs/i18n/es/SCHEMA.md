@@ -1,6 +1,6 @@
 # Referencia del Schema de Entrada del Catálogo
 
-> 🌐 [English](../../docs/SCHEMA.md) · **Español**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Español**
 
 > **Proyecto comunitario no oficial. No afiliado, respaldado ni patrocinado por DeepSeek.**
 > Los nombres y marcas de DeepSeek pertenecen a sus respectivos propietarios.

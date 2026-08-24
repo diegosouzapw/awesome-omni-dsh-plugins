@@ -1,6 +1,6 @@
 # کیٹلاگ اندراج اسکیما ریفرنس
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **اردو**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **اردو**
 
 > **غیر سرکاری کمیونٹی پروجیکٹ۔ DeepSeek سے وابستہ، اس کی توثیق یافتہ یا اس کے زیرِ سرپرستی نہیں ہے۔**
 > DeepSeek کے نام اور نشانات ان کے متعلقہ مالک کی ملکیت ہیں۔

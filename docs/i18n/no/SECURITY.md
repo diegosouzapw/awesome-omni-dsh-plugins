@@ -1,5 +1,7 @@
 # Sikkerhetspolicy
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Norsk**
+
 ## Katalogens omfang
 
 Dette repositoriet inneholder katalogmetadata, dokumentasjon og generisk bidragskonfigurasjon.

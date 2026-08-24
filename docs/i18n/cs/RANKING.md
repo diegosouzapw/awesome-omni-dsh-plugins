@@ -1,5 +1,7 @@
 # Metodika řazení
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Čeština**
+
 Žebříčky jsou transparentní pohledy na sloučené veřejné záznamy katalogu. Nikdy nepoužívají
 skryté kombinované skóre a nikdy nepovažují hvězdičky širokého nadřazeného projektu za
 popularitu pluginu.

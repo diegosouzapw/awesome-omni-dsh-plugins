@@ -1,6 +1,6 @@
 # Sprievodca prispievaním
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文](../zh-CN/CONTRIBUTING.md) · **Slovenčina**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Slovenčina**
 
 > **Neoficiálny komunitný projekt. Nie je prepojený s DeepSeek, nie je ním podporovaný ani sponzorovaný.**
 > Názvy a značky DeepSeek patria ich príslušnému vlastníkovi.

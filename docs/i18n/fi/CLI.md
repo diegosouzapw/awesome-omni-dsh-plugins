@@ -1,6 +1,6 @@
 # CLI-referenssi — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Suomi**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei liity DeepSeekiin eikä DeepSeek ole hyväksynyt tai sponsoroinut sitä.**
 > DeepSeekin nimet ja tunnukset kuuluvat niiden omistajalle.

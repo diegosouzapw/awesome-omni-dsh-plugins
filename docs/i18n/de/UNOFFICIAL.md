@@ -1,6 +1,6 @@
 # Hinweis: Inoffizielles Projekt
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Deutsch**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Deutsch**
 
 > **Inoffizielles Community-Projekt. Nicht mit DeepSeek verbunden, nicht von DeepSeek unterstützt oder gesponsert.**
 > DeepSeek-Namen und -Marken gehören ihren jeweiligen Eigentümern.

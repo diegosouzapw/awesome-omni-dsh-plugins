@@ -1,5 +1,7 @@
 # Kredit Kreator dan Prioritas Pull Request
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Bahasa Indonesia**
+
 Katalog ada untuk membuat karya DSH independen dapat ditemukan tanpa mengambil kepemilikan dari
 para kreatornya. Entri publik mengutip repositori asli dan commit sumber yang tidak dapat
 berubah.

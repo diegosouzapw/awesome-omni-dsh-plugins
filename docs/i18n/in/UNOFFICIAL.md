@@ -1,5 +1,7 @@
 # Pemberitahuan Proyek Tidak Resmi
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Bahasa Indonesia**
+
 > **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
 > Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.
 

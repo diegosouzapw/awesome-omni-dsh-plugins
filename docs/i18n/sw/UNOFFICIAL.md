@@ -1,5 +1,7 @@
 # Taarifa ya Mradi Usio Rasmi
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Kiswahili**
+
 > **Mradi usio rasmi wa jamii. Hauhusiani na, haujaidhinishwa na, wala haujafadhiliwa na DeepSeek.**
 > Majina na alama za DeepSeek ni mali ya wamiliki wao husika.
 

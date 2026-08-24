@@ -1,6 +1,6 @@
 # Méthodologie de classement
 
-> 🌐 [English](../../docs/RANKING.md) · **Français**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Français**
 
 > **Projet communautaire non officiel. Non affilié à, ni approuvé ni sponsorisé par DeepSeek.**
 > Les noms et marques DeepSeek appartiennent à leurs propriétaires respectifs.

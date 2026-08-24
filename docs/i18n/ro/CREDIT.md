@@ -1,6 +1,6 @@
 # Creditarea creatorilor și prioritatea pull request-urilor
 
-> 🌐 [English](../../docs/CREDIT.md) · **Română**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Română**
 
 Catalogul există pentru a face munca independentă pe DSH descoperibilă, fără a lua creatorilor
 proprietatea asupra ei. Intrările publice citează repository-ul original și un commit sursă

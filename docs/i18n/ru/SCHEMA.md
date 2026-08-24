@@ -1,6 +1,6 @@
 # Справочник схемы записи каталога
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Русский**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Русский**
 
 > **Неофициальный проект сообщества. Не аффилирован, не одобрен и не спонсируется DeepSeek.**
 > Имена и товарные знаки DeepSeek принадлежат их соответствующим владельцам.

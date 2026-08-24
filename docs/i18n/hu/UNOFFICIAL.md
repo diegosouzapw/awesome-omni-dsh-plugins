@@ -1,6 +1,6 @@
 # Nem hivatalos projekt nyilatkozat
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Magyar**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.

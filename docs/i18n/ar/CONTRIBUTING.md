@@ -1,6 +1,6 @@
 # المساهمة
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **العربية**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **العربية**
 
 > **مشروع مجتمعي غير رسمي. غير منتسب لشركة DeepSeek ولا معتمد أو ممول منها.**
 > أسماء DeepSeek وعلاماتها التجارية ملك لأصحابها المعنيين.

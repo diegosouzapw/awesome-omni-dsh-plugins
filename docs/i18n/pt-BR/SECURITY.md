@@ -1,6 +1,6 @@
 # Política de Segurança
 
-> 🌐 [English](../../SECURITY.md) · **Português (Brasil)**
+> 🌐 [English](../../../SECURITY.md) · **Português (Brasil)** · [中文（简体）](../zh-CN/SECURITY.md)
 
 > **Projeto comunitário não oficial. Não afiliado, endossado ou patrocinado pela DeepSeek.**
 > Nomes e marcas da DeepSeek pertencem aos respectivos proprietários.

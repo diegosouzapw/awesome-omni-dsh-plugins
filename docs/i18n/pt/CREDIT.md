@@ -1,5 +1,7 @@
 # Crédito ao Criador e Precedência de Pull Requests
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Português**
+
 O catálogo existe para tornar descobrível o trabalho independente com o DSH, sem retirar
 propriedade aos seus criadores. As entradas públicas citam o repositório original e um commit
 de origem imutável.

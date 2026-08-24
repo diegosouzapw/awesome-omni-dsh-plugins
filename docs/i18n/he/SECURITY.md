@@ -1,6 +1,6 @@
 # מדיניות אבטחה
 
-> 🌐 [English](../../SECURITY.md) · **עברית**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **עברית**
 
 ## היקף הקטלוג
 

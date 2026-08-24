@@ -1,6 +1,6 @@
 # Kennisgeving onofficieel project
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Nederlands**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Nederlands**
 
 > **Onofficieel communityproject. Niet verbonden aan, goedgekeurd door of gesponsord door DeepSeek.**
 > DeepSeek-namen en -merken zijn eigendom van hun respectieve eigenaar.

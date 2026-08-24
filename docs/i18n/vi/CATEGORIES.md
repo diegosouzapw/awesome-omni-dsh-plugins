@@ -1,5 +1,7 @@
 # Danh mục phân loại
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Tiếng Việt**
+
 Mỗi mục trong danh mục có một loại sản phẩm, một danh mục năng lực chính và không hoặc nhiều thẻ. Danh mục chính
 quyết định nơi mục đó xuất hiện; các thẻ hỗ trợ tìm kiếm xuyên danh mục mà không cần nhân bản mục đó.
 

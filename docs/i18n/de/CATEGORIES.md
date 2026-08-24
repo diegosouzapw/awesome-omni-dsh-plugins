@@ -1,6 +1,6 @@
 # Katalog-Kategorien
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Deutsch**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Deutsch**
 
 > **Inoffizielles Community-Projekt. Nicht mit DeepSeek verbunden, nicht von DeepSeek unterstützt oder gesponsert.**
 > DeepSeek-Namen und -Marken gehören ihren jeweiligen Eigentümern.

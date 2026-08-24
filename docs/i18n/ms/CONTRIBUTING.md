@@ -1,6 +1,6 @@
 # Menyumbang
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · **Bahasa Melayu (ms)**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Bahasa Melayu**
 
 > **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
 > Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.

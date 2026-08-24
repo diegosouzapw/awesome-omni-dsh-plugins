@@ -1,5 +1,7 @@
 # Tata Kelola Katalog
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Bahasa Indonesia**
+
 > **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
 > Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.
 

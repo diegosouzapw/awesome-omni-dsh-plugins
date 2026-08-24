@@ -1,6 +1,6 @@
 # Metodologia di classifica
 
-> 🌐 [English](../../docs/RANKING.md) · **Italiano**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Italiano**
 
 Le classifiche sono viste trasparenti sulle voci pubbliche del catalogo unite. Non usano mai un
 punteggio combinato nascosto e non trattano mai le stelle di un ampio progetto padre come

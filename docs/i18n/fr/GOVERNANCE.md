@@ -1,6 +1,6 @@
 # Gouvernance du catalogue
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **Français**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Français**
 
 > **Projet communautaire non officiel. Non affilié à, ni approuvé ni sponsorisé par DeepSeek.**
 > Les noms et marques DeepSeek appartiennent à leurs propriétaires respectifs.

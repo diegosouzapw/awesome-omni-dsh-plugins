@@ -1,6 +1,6 @@
 # مشارکت
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **فارسی**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **فارسی**
 
 > **پروژه غیررسمی جامعه. وابسته به، تأییدشده توسط یا اسپانسرشده توسط DeepSeek نیست.**
 > نام‌ها و علائم DeepSeek متعلق به مالک مربوطه‌شان است.

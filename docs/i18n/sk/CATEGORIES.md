@@ -1,5 +1,7 @@
 # Kategórie katalógu
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Slovenčina**
+
 Každý záznam katalógu má jeden druh artefaktu, jednu primárnu kategóriu schopností a nula alebo
 viac značiek. Primárna kategória určuje, kde sa záznam objaví; značky umožňujú vyhľadávanie naprieč
 kategóriami bez duplikácie záznamu.
