@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: aik358-dsh-anchored-monitor
+name: "@a9i5k4/dsh-anchored-monitor"
+description:
+  en: Real-time chain-of-thought anchoring monitor & intervention for DeepSeek Harness. Watch the we / let's / let me fingerprint of every reasoning block, stay in the spec band, and pull the model back automatically when the trajectory drifts.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - anchored
+  - monitor
+  - reasoning
+  - chain-of-thought
+  - spec-band
+source:
+  repository: https://github.com/Aik358/dsh-anchored-monitor
+  repositoryNodeId: R_kgDOT7girg
+  subpath: null
+  commit: 8cb863fa50c3d17dec2683a247b93f90deeb5a16
+creator:
+  github: Aik358
+package:
+  ecosystem: npm
+  name: "@a9i5k4/dsh-anchored-monitor"
+  version: 0.3.0
+  integrity: sha512-YxwjBXGlDLIySpvgb0RtK17Via8H9lWsSjjc/fvilC5uFznQ9Fx4GQz385U55BoQBWWOouuNTPVeaLAXkxTwZw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:54.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
