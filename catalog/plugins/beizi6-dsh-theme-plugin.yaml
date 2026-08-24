@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: beizi6-dsh-theme-plugin
+name: dsh-theme-plugin
+description:
+  en: "DSH Web GUI theme studio with presets and per-mode customization: accent, background, foreground, fonts, translucent sidebar, and contrast. Overrides CSS tokens in every served index.html via the official webServer.tapIndex seam."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - theme
+  - web-gui
+  - css-tokens
+source:
+  repository: https://github.com/BeiZi6/dsh-theme-plugin
+  repositoryNodeId: R_kgDOT4iY7g
+  subpath: null
+  commit: b3e7e143532c4b6df71da753d2336bb018949d2a
+creator:
+  github: BeiZi6
+package:
+  ecosystem: npm
+  name: dsh-theme-plugin
+  version: 0.1.0
+  integrity: sha512-vgUGV/L8PLDCuxO00EtydMSmN/lPLfrGkBSkt/wIfcFe+0KAm+RnETIMxBJN+7d16veL6+cWqz46prkS0QGe8w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:06.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
