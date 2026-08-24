@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: bill9109-dsh-webbridge
+name: "@bill9109/dsh-webbridge"
+description:
+  en: "Kimi WebBridge host plugin for DeepSeek Harness: model tools that drive the user's REAL browser (navigate, snapshot, click, fill, evaluate, screenshot, network inspection, tab management) through the local kimi-webbridge daemon"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - kimi
+  - webbridge
+  - browser
+  - browser-automation
+  - model-tools
+  - dsh
+source:
+  repository: https://github.com/bill9109/dsh-webbridge
+  repositoryNodeId: R_kgDOTzPN2A
+  subpath: null
+  commit: fb6fa96fed4b78f68ab0464c360dc4036105d0d8
+creator:
+  github: bill9109
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:09.756Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
