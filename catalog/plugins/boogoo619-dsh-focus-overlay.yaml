@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: boogoo619-dsh-focus-overlay
+name: dsh-focus-overlay
+description:
+  en: "Focus Mode for the dsh web GUI: a full-screen reading overlay that hides chrome and folds the AI tool-call flow into summaries, reusing the official Markdown / image primitives."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - focus-mode
+  - bundle
+source:
+  repository: https://github.com/boogoo619/dsh-focus-overlay
+  repositoryNodeId: R_kgDOT6aHDA
+  subpath: null
+  commit: d297b35851ff95a107bf365d013f62f3d6e4d40b
+creator:
+  github: boogoo619
+package:
+  ecosystem: npm
+  name: dsh-focus-overlay
+  version: 0.3.0
+  integrity: sha512-URIat2Vm36axlTeEfOxA9/BRJxiiK7hBvXRUASJn4LcrffGu6B7vr5B6xCbv90wV86NlPJo4NSm6e4bZKOayYw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:01.878Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
