@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: apageoflove-dsh-changeproof
+name: dsh-changeproof
+description:
+  en: ChangeProof - change-relevance + evidence-freshness quality plugin for DeepSeek Harness (DSH)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - changeproof
+  - test-coverage
+  - changed-line-coverage
+  - code-verification
+  - test-impact-analysis
+  - quality-gate
+  - verification
+  - agent-tools
+  - llm-agent
+  - typescript
+  - nodejs
+  - javascript
+source:
+  repository: https://github.com/Apageoflove/DSH-changeproof
+  repositoryNodeId: R_kgDOT5C8Kw
+  subpath: null
+  commit: c377901280feeec3b8c2673a55354fa7d65eb196
+creator:
+  github: Apageoflove
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:52.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
