@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 0imzero-dsh-workspace-menu
+name: "@dsh-external/dsh-workspace-menu"
+description:
+  en: A workspace and chat management menu for the DSH home page. Double-click or right-click a workspace or chat to pin, rename, open in the file manager, archive, fork, copy, or open in a new window. Every feature can be toggled from the DSH General settings.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - workspace
+  - chat
+  - management
+  - menu
+  - home
+  - page
+  - double
+  - click
+  - right
+  - rename
+  - open
+  - file
+  - manager
+  - archive
+  - fork
+  - copy
+source:
+  repository: https://github.com/0imzero/dsh-workspace-menu
+  repositoryNodeId: R_kgDOT9vG5Q
+  subpath: null
+  commit: a412ea55f31ef9c170a137d90db6d3fa7bcb34e3
+creator:
+  github: 0imzero
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:15:36.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
