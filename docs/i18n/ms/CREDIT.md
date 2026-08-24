@@ -1,6 +1,6 @@
 # Kredit Pencipta dan Keutamaan Pull Request
 
-> 🌐 [English](../../docs/CREDIT.md) · **Bahasa Melayu (ms)**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Bahasa Melayu**
 
 > **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
 > Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.

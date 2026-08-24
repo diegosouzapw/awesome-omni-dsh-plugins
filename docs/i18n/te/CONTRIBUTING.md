@@ -1,6 +1,6 @@
 # సహకార మార్గదర్శి
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文](../zh-CN/CONTRIBUTING.md) · **తెలుగు**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **తెలుగు**
 
 > **అనధికారిక కమ్యూనిటీ ప్రాజెక్ట్. DeepSeekతో అనుబంధం లేదు, ఆమోదం పొందలేదు లేదా స్పాన్సర్ చేయబడలేదు.**
 > DeepSeek పేర్లు మరియు గుర్తులు వాటి సంబంధిత యజమానికి చెందినవి.

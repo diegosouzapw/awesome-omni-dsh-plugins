@@ -1,6 +1,6 @@
 # حوكمة الكتالوج
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **العربية**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **العربية**
 
 > **مشروع مجتمعي غير رسمي. لا علاقة له بشركة DeepSeek ولا يحظى بتأييدها أو رعايتها.**
 > أسماء وعلامات DeepSeek ملك لأصحابها.

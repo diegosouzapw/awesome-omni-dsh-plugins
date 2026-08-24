@@ -1,6 +1,6 @@
 # Metodologia rankingu
 
-> 🌐 [English](../../docs/RANKING.md) · **Polski**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Polski**
 
 Rankingi to przejrzyste widoki nad scalonymi publicznymi wpisami katalogu. Nigdy nie używają
 ukrytego wyniku łączonego i nigdy nie traktują gwiazdek szerszego projektu nadrzędnego jako

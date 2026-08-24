@@ -1,5 +1,7 @@
 # Katalogkategorier
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Norsk**
+
 Hver katalogoppføring har én artefakttype, én primær kapasitetskategori og null eller flere
 tagger. Primærkategorien bestemmer hvor oppføringen vises; tagger gir søk på tvers av
 kategorier uten å duplisere oppføringen.

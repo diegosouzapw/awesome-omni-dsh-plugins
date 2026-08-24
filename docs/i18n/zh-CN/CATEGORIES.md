@@ -1,5 +1,7 @@
 # 目录分类
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · **中文（简体）**
+
 每个目录条目都有一个制品类型(artifact kind)、一个主要能力分类,以及零个或多个标签。主分类决定
 条目出现在哪里;标签则提供跨分类的搜索能力,而不会重复该条目。
 

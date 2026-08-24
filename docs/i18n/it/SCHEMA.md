@@ -1,6 +1,6 @@
 # Riferimento dello schema delle voci del catalogo
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Italiano**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Italiano**
 
 > **Progetto comunitario non ufficiale. Non affiliato, approvato o sponsorizzato da DeepSeek.**
 > I nomi e i marchi DeepSeek appartengono ai rispettivi proprietari.

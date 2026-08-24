@@ -1,6 +1,6 @@
 # Referenční příručka CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Čeština**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Čeština**
 
 > **Neoficiální komunitní projekt. Není přidružen k DeepSeek, DeepSeek jej neschvaluje ani nesponzoruje.**
 > Názvy a značky DeepSeek náleží jejich příslušným vlastníkům.

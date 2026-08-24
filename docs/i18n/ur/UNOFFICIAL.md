@@ -1,6 +1,6 @@
 # غیر سرکاری پروجیکٹ کا نوٹس
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **اردو**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **اردو**
 
 > **غیر سرکاری کمیونٹی پروجیکٹ۔ DeepSeek سے وابستہ، اس کی توثیق یافتہ یا اس کے زیرِ سرپرستی نہیں ہے۔**
 > DeepSeek کے نام اور نشانات ان کے متعلقہ مالک کی ملکیت ہیں۔

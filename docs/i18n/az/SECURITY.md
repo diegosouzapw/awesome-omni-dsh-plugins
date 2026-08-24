@@ -1,5 +1,7 @@
 # Təhlükəsizlik siyasəti
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Azərbaycan dili**
+
 ## Kataloq əhatəsi
 
 Bu repozitoriya kataloq metaməlumatlarını, sənədləşməni və ümumi töhfə konfiqurasiyasını ehtiva

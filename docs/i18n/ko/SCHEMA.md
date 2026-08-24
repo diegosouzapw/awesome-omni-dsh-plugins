@@ -1,6 +1,6 @@
 # 카탈로그 항목 스키마 참조
 
-> 🌐 [English](../../docs/SCHEMA.md) · **한국어**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **한국어**
 
 > **비공식 커뮤니티 프로젝트입니다. DeepSeek와 제휴, 승인, 후원 관계가 없습니다.**
 > DeepSeek의 이름과 상표는 각 소유자에게 귀속됩니다.

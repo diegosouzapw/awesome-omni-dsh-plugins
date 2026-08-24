@@ -1,5 +1,7 @@
 # Metodolohiya ng Ranggo
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Filipino**
+
 Ang mga ranggo ay mga transparenteng tanawin sa mga na-merge nang pampublikong entry ng
 katalogo. Hindi sila kailanman gumagamit ng nakatagong pinagsamang iskor at hindi kailanman
 itinuturing ang mga bituin mula sa isang malawak na parent project bilang popularidad ng

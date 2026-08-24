@@ -1,6 +1,6 @@
 # Metodologia de clasament
 
-> 🌐 [English](../../docs/RANKING.md) · **Română**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Română**
 
 Clasamentele sunt vederi transparente peste intrările integrate în catalogul public. Ele nu
 folosesc niciodată un scor combinat ascuns și nu tratează niciodată stelele unui proiect-părinte

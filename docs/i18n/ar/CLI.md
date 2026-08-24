@@ -1,6 +1,6 @@
 # مرجع الأوامر (CLI) — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **العربية**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **العربية**
 
 > **مشروع مجتمعي غير رسمي. غير منتسب لشركة DeepSeek ولا معتمد أو ممول منها.**
 > أسماء DeepSeek وعلاماتها التجارية ملك لأصحابها المعنيين.

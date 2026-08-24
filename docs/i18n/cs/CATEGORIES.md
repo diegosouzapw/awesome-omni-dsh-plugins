@@ -1,5 +1,7 @@
 # Kategorie katalogu
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Čeština**
+
 Každý záznam katalogu má jeden druh artefaktu (kind), jednu primární kategorii schopnosti a
 žádné nebo více tagů. Primární kategorie určuje, kde se záznam objeví; tagy poskytují
 vyhledávání napříč kategoriemi bez duplikace záznamu.

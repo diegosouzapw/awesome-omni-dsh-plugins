@@ -1,5 +1,7 @@
 # 카탈로그 거버넌스
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **한국어**
+
 > **비공식 커뮤니티 프로젝트입니다. DeepSeek와 제휴, 승인, 후원 관계가 없습니다.**
 > DeepSeek의 이름과 상표는 각 소유자에게 귀속됩니다.
 

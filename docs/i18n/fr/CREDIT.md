@@ -1,6 +1,6 @@
 # Crédit du créateur et priorité des pull requests
 
-> 🌐 [English](../../docs/CREDIT.md) · **Français**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Français**
 
 > **Projet communautaire non officiel. Non affilié à, ni approuvé ni sponsorisé par DeepSeek.**
 > Les noms et marques DeepSeek appartiennent à leurs propriétaires respectifs.

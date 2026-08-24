@@ -1,5 +1,7 @@
 # Categorias do Catálogo
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Português**
+
 Cada entrada do catálogo tem um tipo de artefacto, uma categoria principal de capacidade e zero
 ou mais etiquetas. A categoria principal determina onde a entrada aparece; as etiquetas
 permitem a pesquisa entre categorias, sem duplicar a entrada.

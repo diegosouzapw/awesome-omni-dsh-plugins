@@ -1,6 +1,6 @@
 # Luojan tunnustaminen ja pull requestien etusijajärjestys
 
-> 🌐 [English](../../docs/CREDIT.md) · **Suomi**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei liity DeepSeekiin eikä DeepSeek ole hyväksynyt tai sponsoroinut sitä.**
 > DeepSeekin nimet ja tunnukset kuuluvat niiden omistajalle.

@@ -1,6 +1,6 @@
 # કેટલોગ એન્ટ્રી સ્કીમા સંદર્ભ
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **ગુજરાતી**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **ગુજરાતી**
 
 > **બિનસત્તાવાર સામુદાયિક પ્રોજેક્ટ. DeepSeek સાથે સંલગ્ન નથી, તેના દ્વારા સમર્થિત નથી કે પ્રાયોજિત નથી.**
 > DeepSeek નામો અને ચિહ્નો તેમના સંબંધિત માલિકના છે.

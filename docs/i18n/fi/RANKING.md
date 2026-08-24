@@ -1,6 +1,6 @@
 # Järjestysmetodologia
 
-> 🌐 [English](../../docs/RANKING.md) · **Suomi**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei liity DeepSeekiin eikä DeepSeek ole hyväksynyt tai sponsoroinut sitä.**
 > DeepSeekin nimet ja tunnukset kuuluvat niiden omistajalle.

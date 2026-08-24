@@ -1,6 +1,6 @@
 # Categoriile catalogului
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Română**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Română**
 
 Fiecare intrare de catalog are un `kind` de artefact, o categorie de capabilitate primară și zero
 sau mai multe tag-uri. Categoria primară determină unde apare intrarea; tag-urile oferă căutare

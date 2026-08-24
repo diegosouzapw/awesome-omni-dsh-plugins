@@ -1,5 +1,7 @@
 # 目录治理
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · **中文（简体）**
+
 > **非官方社区项目,与 DeepSeek 无关联、未经其认可,也未获其赞助。**
 > DeepSeek 的名称与标识归其各自所有者所有。
 

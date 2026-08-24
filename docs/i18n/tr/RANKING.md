@@ -1,5 +1,7 @@
 # Sıralama Metodolojisi
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Türkçe**
+
 Sıralamalar, birleştirilmiş genel katalog kayıtları üzerindeki şeffaf görünümlerdir. Asla gizli
 bir birleşik puan kullanmazlar ve geniş bir üst projenin yıldızlarını asla eklenti popülerliği
 olarak ele almazlar.

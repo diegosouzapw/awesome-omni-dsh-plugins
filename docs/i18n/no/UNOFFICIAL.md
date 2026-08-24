@@ -1,5 +1,7 @@
 # Uoffisiell prosjektmerknad
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Norsk**
+
 > **Uoffisielt community-prosjekt. Ikke tilknyttet, godkjent av eller sponset av DeepSeek.**
 > DeepSeek-navn og -merker tilhører sine respektive eiere.
 

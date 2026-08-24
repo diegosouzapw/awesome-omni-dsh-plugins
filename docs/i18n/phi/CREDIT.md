@@ -1,5 +1,7 @@
 # Kredito ng Lumikha at Prayoridad ng Pull Request
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Filipino**
+
 Umiiral ang katalogo upang madiskubre ang independiyenteng DSH na trabaho nang hindi
 kinaagawan ang mga lumikha ng pagmamay-ari. Ang mga pampublikong entry ay bumabanggit sa
 orihinal na repository at sa isang hindi nagbabagong source commit.

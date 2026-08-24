@@ -1,6 +1,6 @@
 # Hozzájárulás
 
-> 🌐 [English](../../CONTRIBUTING.md) · **Magyar**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.

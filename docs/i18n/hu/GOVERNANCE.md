@@ -1,6 +1,6 @@
 # Katalógus-irányítás
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **Magyar**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.

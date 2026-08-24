@@ -1,6 +1,6 @@
 # 貢献する
 
-> 🌐 [English](../../CONTRIBUTING.md) · **日本語**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **日本語**
 
 > **これは非公式のコミュニティプロジェクトです。DeepSeek とは提携・承認・スポンサー関係はありません。**
 > DeepSeek の名称および商標は、それぞれの権利者に帰属します。

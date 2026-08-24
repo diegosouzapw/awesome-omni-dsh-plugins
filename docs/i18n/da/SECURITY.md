@@ -1,6 +1,6 @@
 # Sikkerhedspolitik
 
-> 🌐 [English](../../SECURITY.md) · **Dansk**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Dansk**
 
 > **Uofficielt community-projekt. Ikke tilknyttet, godkendt af eller sponsoreret af DeepSeek.**
 > DeepSeek-navne og -mærker tilhører deres respektive ejer.

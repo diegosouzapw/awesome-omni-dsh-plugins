@@ -1,5 +1,7 @@
 # Kredit tvůrců a přednost pull requestů
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Čeština**
+
 Katalog existuje proto, aby byla nezávislá práce na DSH dohledatelná, aniž by se tvůrcům bralo
 vlastnictví. Veřejné záznamy citují původní repozitář a neměnný zdrojový commit.
 

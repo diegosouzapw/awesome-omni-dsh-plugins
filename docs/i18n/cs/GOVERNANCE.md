@@ -1,5 +1,7 @@
 # Správa katalogu
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Čeština**
+
 > **Neoficiální komunitní projekt. Není přidružen k DeepSeek, DeepSeek jej neschvaluje ani nesponzoruje.**
 > Názvy a značky DeepSeek náleží jejich příslušným vlastníkům.
 

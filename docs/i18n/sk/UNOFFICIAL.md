@@ -1,5 +1,7 @@
 # Oznámenie o neoficiálnom projekte
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Slovenčina**
+
 > **Neoficiálny komunitný projekt. Nie je prepojený s DeepSeek, nie je ním podporovaný ani sponzorovaný.**
 > Názvy a značky DeepSeek patria ich príslušnému vlastníkovi.
 

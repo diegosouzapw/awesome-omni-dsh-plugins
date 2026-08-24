@@ -1,5 +1,7 @@
 # Sıralama metodologiyası
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Azərbaycan dili**
+
 Sıralamalar birləşdirilmiş ictimai kataloq qeydləri üzərində şəffaf baxışlardır. Onlar heç vaxt
 gizli birləşdirilmiş xaldan istifadə etmir və geniş ana layihənin ulduzlarını əlavə
 populyarlığı kimi qiymətləndirmir.

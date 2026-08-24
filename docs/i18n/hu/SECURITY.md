@@ -1,6 +1,6 @@
 # Biztonsági szabályzat
 
-> 🌐 [English](../../SECURITY.md) · **Magyar**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Magyar**
 
 > **Nem hivatalos közösségi projekt. Nem áll kapcsolatban a DeepSeekkel, és nem az ő jóváhagyásával vagy támogatásával készült.**
 > A DeepSeek nevek és védjegyek a megfelelő tulajdonosaik tulajdonát képezik.

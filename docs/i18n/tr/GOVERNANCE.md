@@ -1,5 +1,7 @@
 # Katalog Yönetişimi
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Türkçe**
+
 > **Resmi olmayan bir topluluk projesidir. DeepSeek ile bağlantılı, DeepSeek tarafından onaylanmış veya desteklenmiş değildir.**
 > DeepSeek adları ve markaları kendi sahiplerine aittir.
 

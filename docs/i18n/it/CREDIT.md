@@ -1,6 +1,6 @@
 # Credito al creatore e precedenza delle pull request
 
-> 🌐 [English](../../docs/CREDIT.md) · **Italiano**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Italiano**
 
 Il catalogo esiste per rendere scopribile il lavoro DSH indipendente senza sottrarre la
 proprietà ai suoi creatori. Le voci pubbliche citano il repository originale e un commit

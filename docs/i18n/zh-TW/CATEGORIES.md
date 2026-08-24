@@ -1,6 +1,6 @@
 # 目錄分類
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **中文（繁體）**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **中文（繁體）**
 
 每一個目錄條目都恰好有一個作品類型(artifact kind)、一個主要能力分類,以及零個或多個標籤
 (tags)。主要分類決定條目出現在哪裡;標籤則提供跨分類搜尋的能力,而不需要重複建立條目。

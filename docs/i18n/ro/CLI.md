@@ -1,6 +1,6 @@
 # Referință CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · **Română**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Română**
 
 > **Proiect comunitar neoficial. Nu este afiliat, susținut sau sponsorizat de DeepSeek.**
 > Numele și mărcile DeepSeek aparțin proprietarului lor de drept.

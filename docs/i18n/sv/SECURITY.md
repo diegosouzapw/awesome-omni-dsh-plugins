@@ -1,6 +1,6 @@
 # Säkerhetspolicy
 
-> 🌐 [English](../../SECURITY.md) · **Svenska**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Svenska**
 
 > **Inofficiellt community-projekt. Inte anknutet till, godkänt av eller sponsrat av DeepSeek.**
 > DeepSeek-namn och -märken tillhör respektive ägare.

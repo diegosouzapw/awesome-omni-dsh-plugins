@@ -1,6 +1,6 @@
 # Politica de securitate
 
-> 🌐 [English](../../SECURITY.md) · **Română**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Română**
 
 > **Proiect comunitar neoficial. Nu este afiliat, susținut sau sponsorizat de DeepSeek.**
 > Numele și mărcile DeepSeek aparțin proprietarului lor de drept.

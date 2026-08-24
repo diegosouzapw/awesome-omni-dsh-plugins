@@ -1,6 +1,6 @@
 # Uznanie twórcy i pierwszeństwo pull requestów
 
-> 🌐 [English](../../docs/CREDIT.md) · **Polski**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Polski**
 
 Katalog istnieje po to, by niezależna praca DSH była odkrywalna, bez odbierania własności jej
 twórcom. Publiczne wpisy cytują oryginalne repozytorium i niezmienny commit źródłowy.

@@ -1,6 +1,6 @@
 # CLI સંદર્ભ — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **ગુજરાતી**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **ગુજરાતી**
 
 > **બિનસત્તાવાર સામુદાયિક પ્રોજેક્ટ. DeepSeek સાથે સંલગ્ન નથી, તેના દ્વારા સમર્થિત નથી કે પ્રાયોજિત નથી.**
 > DeepSeek નામો અને ચિહ્નો તેમના સંબંધિત માલિકના છે.

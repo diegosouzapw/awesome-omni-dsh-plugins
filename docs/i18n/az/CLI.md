@@ -1,6 +1,6 @@
 # CLI istinadı — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Azərbaycan dili**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Azərbaycan dili**
 
 > **Qeyri-rəsmi icma layihəsi. DeepSeek ilə əlaqəli deyil, DeepSeek tərəfindən dəstəklənmir və ya sponsorluq edilmir.**
 > DeepSeek adları və nişanları müvafiq sahiblərinə məxsusdur.

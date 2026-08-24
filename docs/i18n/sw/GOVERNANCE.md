@@ -1,5 +1,7 @@
 # Utawala wa Katalogi
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Kiswahili**
+
 > **Mradi usio rasmi wa jamii. Hauhusiani na, haujaidhinishwa na, wala haujafadhiliwa na DeepSeek.**
 > Majina na alama za DeepSeek ni mali ya wamiliki wao husika.
 

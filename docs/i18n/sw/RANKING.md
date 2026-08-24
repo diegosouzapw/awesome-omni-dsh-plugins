@@ -1,5 +1,7 @@
 # Mbinu ya Upangaji
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Kiswahili**
+
 Upangaji ni mandhari za uwazi juu ya viingilio vya katalogi ya umma vilivyounganishwa. Kamwe
 hautumii alama mchanganyiko iliyofichwa na kamwe huchukuli nyota kutoka mradi mzazi pana kama
 umaarufu wa programu-jalizi.

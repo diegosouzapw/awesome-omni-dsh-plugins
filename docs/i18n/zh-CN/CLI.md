@@ -1,6 +1,6 @@
 # CLI 参考手册 — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · **中文（简体）**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · **中文（简体）**
 
 > **非官方社区项目,与 DeepSeek 无关联、未经其认可,也未获其赞助。**
 > DeepSeek 的名称与标识归其各自所有者所有。

@@ -1,6 +1,6 @@
 # Osallistuminen
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Suomi**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei ole DeepSeekin tytäryhtiö, hyväksymä tai sponsoroima.**
 > DeepSeekin nimet ja tavaramerkit kuuluvat niiden omistajille.

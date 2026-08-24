@@ -1,6 +1,6 @@
 # הודעת פרויקט בלתי רשמי
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **עברית**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **עברית**
 
 > **פרויקט קהילתי בלתי רשמי. אינו קשור, מאושר או ממומן על ידי DeepSeek.**
 > השמות והסימנים של DeepSeek שייכים לבעליהם המתאימים.

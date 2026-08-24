@@ -1,6 +1,6 @@
 # Contribuire
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Italiano**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **Italiano**
 
 > **Progetto comunitario non ufficiale. Non affiliato, approvato o sponsorizzato da DeepSeek.**
 > I nomi e i marchi DeepSeek appartengono ai rispettivi proprietari.

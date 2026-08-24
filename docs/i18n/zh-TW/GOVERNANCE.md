@@ -1,6 +1,6 @@
 # 目錄治理
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **中文（繁體）**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **中文（繁體）**
 
 > **非官方社群專案,與 DeepSeek 無關聯、未經其認可,也未獲其贊助。**
 > DeepSeek 的名稱與標識歸其各自所有者所有。

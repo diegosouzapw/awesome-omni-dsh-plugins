@@ -1,5 +1,7 @@
 # Skaperkreditering og pull request-forrang
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Norsk**
+
 Katalogen finnes for å gjøre uavhengig DSH-arbeid oppdagbart uten å ta eierskapet fra
 skaperne. Offentlige oppføringer siterer det opprinnelige repositoriet og en uforanderlig
 kildekommit.

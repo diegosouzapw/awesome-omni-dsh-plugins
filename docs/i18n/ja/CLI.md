@@ -1,6 +1,6 @@
 # CLIリファレンス — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · **日本語**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **日本語**
 
 > **これは非公式のコミュニティプロジェクトです。DeepSeek とは提携・承認・スポンサー関係はありません。**
 > DeepSeek の名称および商標は、それぞれの権利者に帰属します。

@@ -1,6 +1,6 @@
 # योगदान करें
 
-> 🌐 [English](../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · [中文（繁體）](../zh-TW/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Magyar](../hu/CONTRIBUTING.md) · [Български](../bg/CONTRIBUTING.md) · [Dansk](../da/CONTRIBUTING.md) · [Suomi](../fi/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [ગુજરાતી](../gu/CONTRIBUTING.md) · [मराठी](../mr/CONTRIBUTING.md) · [বাংলা](../bn/CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Azərbaycan dili](../az/CONTRIBUTING.md) · **हिन्दी**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **हिन्दी**
 
 > **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
 > DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।

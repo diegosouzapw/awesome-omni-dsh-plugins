@@ -1,5 +1,7 @@
 # Üretici Ataması ve Pull Request Önceliği
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Türkçe**
+
 Katalog, üreticilerinden sahipliği almadan bağımsız DSH çalışmalarını keşfedilebilir kılmak için
 var. Genel kayıtlar özgün depoya ve değişmez bir kaynak commit'ine atıfta bulunur.
 

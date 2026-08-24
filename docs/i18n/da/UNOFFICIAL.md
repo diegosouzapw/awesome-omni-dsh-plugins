@@ -1,6 +1,6 @@
 # Uofficiel projektmeddelelse
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **Dansk**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Dansk**
 
 > **Uofficielt community-projekt. Ikke tilknyttet, godkendt af eller sponsoreret af DeepSeek.**
 > DeepSeek-navne og -mærker tilhører deres respektive ejer.

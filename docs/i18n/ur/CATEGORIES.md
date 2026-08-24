@@ -1,6 +1,6 @@
 # کیٹلاگ زمرے
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **اردو**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **اردو**
 
 ہر کیٹلاگ اندراج کا ایک artifact kind، ایک بنیادی صلاحیت زمرہ اور صفر یا زیادہ ٹیگز ہوتے ہیں۔ بنیادی زمرہ طے کرتا ہے کہ اندراج کہاں ظاہر ہوتا ہے؛ ٹیگز اندراج کو دہرائے بغیر cross-category تلاش فراہم کرتے ہیں۔
 
