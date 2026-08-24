@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: soolaugust-dsh-cli
+name: "@deepseek-ai/dsh-cli"
+description:
+  en: "The dsh interactive terminal bundle: a REPL driver over dsh-base with session resume and a terminal UI"
+  evidencePath: packages/bundle/cli/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - interactive
+  - terminal
+  - bundle
+  - repl
+  - driver
+  - over
+  - base
+  - session
+  - resume
+  - dsh
+source:
+  repository: https://github.com/soolaugust/deepseek-harness-cli
+  repositoryNodeId: R_kgDOT359UQ
+  subpath: packages/bundle/cli
+  commit: 16acd8438b8494e45d010fe2d1a3950d854c8762
+creator:
+  github: soolaugust
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/cli/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:59.454Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
