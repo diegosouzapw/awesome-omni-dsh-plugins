@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sjh9714-dsh-clippy
+name: dsh-clippy
+description:
+  en: Office assistant pet for the dsh web GUI. Clippy reacts to real agent state, interrupts risky messages with classic options, and opens the illegal operation dialog on failed turns.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - office
+  - assistant
+  - clippy
+  - reacts
+  - real
+  - agent
+  - state
+  - interrupts
+  - risky
+  - messages
+  - classic
+  - options
+  - opens
+  - illegal
+  - operation
+  - dialog
+source:
+  repository: https://github.com/sjh9714/clippy-harness
+  repositoryNodeId: R_kgDOT41tRg
+  subpath: plugin
+  commit: 21a77d8d1daa3429636305b56cfb2d0258286c2c
+creator:
+  github: sjh9714
+package:
+  ecosystem: npm
+  name: dsh-clippy
+  version: 0.2.1
+  integrity: sha512-GAa0vO2+RwsNpT/Fstyu9NFl4JJS75FHNOV5dqnMQP1PkeUCFKmWtJJq8e/QYiAlYnPR6ho+qYLJxl1YRRPYTw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:16.034Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
