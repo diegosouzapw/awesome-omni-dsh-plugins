@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-dock-editor
+name: dock-editor
+description:
+  en: "Text file viewer and editor for the dock file explorer: undo/redo, Ctrl+S save, and unsaved-change confirmation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - editor
+  - text
+  - dock
+source:
+  repository: https://github.com/AKS1st/dock-editor
+  repositoryNodeId: R_kgDOT-ZKLw
+  subpath: null
+  commit: e3d1bf7b5b6260d7b56c5085761b9912226650f2
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:16.840Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
