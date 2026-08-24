@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 13071301808-dsh-composer-expand
+name: dsh-composer-expand
+description:
+  en: "Composer expand toggle for DeepSeek Harness: a ⬆/⬇ button in the composer tool row toggles the input between the default capped height and a tall 70vh writing view, so long drafts stay readable."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - composer
+  - expand
+  - textarea
+  - resize
+  - dsh
+source:
+  repository: https://github.com/13071301808/dsh-composer-expand
+  repositoryNodeId: R_kgDOT5A1Vw
+  subpath: null
+  commit: cb6162753f6f48923b19275008c9d7a87718068a
+creator:
+  github: "13071301808"
+package:
+  ecosystem: npm
+  name: dsh-composer-expand
+  version: 0.1.2
+  integrity: sha512-C23hyGoG1mzHKlS/nvnV7d2A/vdXgXMakkSGUGFlrs2o7+7VUl2KJuCSKdI81zJX+6v7dVGKmOhSfq0L5HwnUw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:50.471Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
