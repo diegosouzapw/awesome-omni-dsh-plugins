@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zuozewei-dsh-skill-7d-git-commit
+name: "@7dgroup/dsh-skill-7d-git-commit"
+description:
+  en: Installable composition bundle contributing the 7DGroup git commit message skill to DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - installable
+  - composition
+  - bundle
+  - contributing
+  - 7dgroup
+  - commit
+  - message
+  - skill
+  - dsh
+source:
+  repository: https://github.com/7dgroup-ai/dsh-skill-7d-git-commit
+  repositoryNodeId: R_kgDOT68Eiw
+  subpath: null
+  commit: 557e05f51f85fb4d4b9f6ed8cedfce02350e7bd6
+creator:
+  github: zuozewei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:31.297Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
