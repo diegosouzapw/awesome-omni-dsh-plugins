@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 3274375092-dsh-voice
+name: "@nn12138/dsh-voice"
+description:
+  en: "Voice input plugin for DeepSeek Harness: microphone → local/browser speech recognition → text submitted as a normal chat message (input-only, preset-agnostic)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - voice
+  - speech
+  - asr
+  - mic
+source:
+  repository: https://github.com/3274375092/dsh-voice
+  repositoryNodeId: R_kgDOT4uweQ
+  subpath: null
+  commit: 706361394eea3ae1f16262d8d00e1347c6afd3c6
+creator:
+  github: "3274375092"
+package:
+  ecosystem: npm
+  name: "@nn12138/dsh-voice"
+  version: 0.2.5
+  integrity: sha512-EU4TXJT6XGnzwBQkBK6SwlcJMu0JE6xRl13mUnb/XOCk+eDI9aJIB9oxlP7G09UtD+ZSpZY9X8FWnFfI0gMnSA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:32.574Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
