@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: knqiufan-powercontext-dsh
+name: powercontext-dsh
+description:
+  en: DeepSeek Harness plugin that connects to a PowerContext Server over HTTP for recall, memory, handoff, experience, and skills.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - connects
+  - powercontext
+  - server
+  - over
+  - recall
+  - memory
+  - handoff
+  - experience
+  - skills
+  - dsh
+source:
+  repository: https://github.com/knqiufan/powercontext-dsh
+  repositoryNodeId: R_kgDOT3nYHw
+  subpath: null
+  commit: 9c9f6386de898a5c3a7f0793f692e4968775b7a8
+creator:
+  github: knqiufan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:00.362Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
