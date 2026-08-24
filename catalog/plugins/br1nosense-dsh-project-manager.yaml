@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: br1nosense-dsh-project-manager
+name: "@dsh-user/dsh-project-manager"
+description:
+  en: A DSH plugin that manages development projects from the DSH web UI in a draggable floating window — add/remove projects, one-click start/stop/restart, hot-reload auto-restart on file changes, and real-time persistent logs.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - project-manager
+  - dev
+  - hot-reload
+  - dsh
+source:
+  repository: https://github.com/br1nosense/dsh-project-manager
+  repositoryNodeId: R_kgDOT5hu3g
+  subpath: null
+  commit: 48b0c57acf42470efb6304bbbbc1e0c10d48b484
+creator:
+  github: br1nosense
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:20.835Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
