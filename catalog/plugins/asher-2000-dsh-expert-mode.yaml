@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: asher-2000-dsh-expert-mode
+name: dsh-expert-mode
+description:
+  en: "DSH agent preset: chief coordinator + 11 domain-expert subagents with automatic task delegation (专家模式)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - agent-preset
+  - expert-mode
+  - multi-agent
+  - subagent
+  - dsh-plugin
+source:
+  repository: https://github.com/Asher-2000/dsh-expert-mode
+  repositoryNodeId: R_kgDOT4-ZqA
+  subpath: null
+  commit: af2ff6be540a59e2fabdbd4dd8330db166b3b2a2
+creator:
+  github: Asher-2000
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:41.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
