@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: haakam21-dsh-agentmail
+name: dsh-agentmail
+description:
+  en: Give a DeepSeek Harness agent its own email inbox, with inbound mail bound to per-thread sessions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - agentmail
+  - email
+  - agent
+  - inbox
+  - ai-agent
+source:
+  repository: https://github.com/agentmail-to/dsh-agentmail
+  repositoryNodeId: R_kgDOT6vL6w
+  subpath: null
+  commit: ea3b03dac5d71d836aa1f9c267b1563bbfb75bff
+creator:
+  github: Haakam21
+package:
+  ecosystem: npm
+  name: dsh-agentmail
+  version: 0.1.0
+  integrity: sha512-iMSdLui025J564GbCc7cBqrWlvsmXMXTAbk3cYJvqNl/dn7YlSAm2uyL5j2lX+Vtf7VhEcGW5IOstR2rrMwCRw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:47.939Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
