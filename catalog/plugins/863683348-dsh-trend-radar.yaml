@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 863683348-dsh-trend-radar
+name: dsh-trend-radar
+description:
+  en: "Ecosystem trend dashboard ('行情面板') for dsh plugins: snapshot the dsh-plugin topic and awesome list into local history, then report weekly trends — new plugins, star gainers, category heat, awesome coverage — plus keyword radar for new plugins and star surges, and an experimental web panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - trend
+  - dashboard
+  - radar
+  - analytics
+  - web
+source:
+  repository: https://github.com/863683348/dsh-trend-radar
+  repositoryNodeId: R_kgDOT6qhbQ
+  subpath: null
+  commit: 7cba0126bb17ccc3d69e0cf0eb7196dc17648dbe
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-trend-radar
+  version: 0.2.1
+  integrity: sha512-u1r5r9vaeWoZ/pkPhE90FhtNhSi4mkFwbCQUOXu8tOESq7znqDkSrsSwcrtpWt3w7+UA8VI4l/395MDcx3BQTg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:02.628Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
