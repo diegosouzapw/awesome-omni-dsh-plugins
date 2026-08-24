@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 121103qwq-dsh-vision-sidecar
+name: dsh-vision-sidecar
+description:
+  en: Add no-key hosted or OpenAI-compatible vision to DeepSeek Harness while keeping the configured reasoning model
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - glm
+  - openai-compatible
+  - vlm
+  - dsh
+source:
+  repository: https://github.com/121103qwq/dsh-vision-sidecar
+  repositoryNodeId: R_kgDOT3o81Q
+  subpath: null
+  commit: bf020d8acfb9bea251f9ab9f5a8978d395d41805
+creator:
+  github: 121103qwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:46.754Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
