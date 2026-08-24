@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">વેબસાઇટ પર દરેક પ્લગિન બ્રાઉઝ, સર્ચ અને ઇન્સ્ટોલ કરો →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-681_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-696_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@
 
 ## કેટલોગ સ્ટેટસ
 
-**681 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
+**696 પ્લગિન્સ મર્જ થયા.** દરેક પ્લગિન એક વ્યક્તિગત રીતે રિવ્યૂ થયેલ પુલ રિક્વેસ્ટ દ્વારા, એક સમયે એક,
 મૂળ ક્રિએટર રિપોઝીટરીમાંથી, પિન કરેલા સોર્સ કમિટ અને સ્પષ્ટ
 એટ્રિબ્યુશન સાથે દાખલ થાય છે.
 
@@ -334,4 +334,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: b5857af0bad97aff2de31e96474df846b9c581f591048865344588b75c062980 -->
+<!-- i18n-source-hash: 26cb7bf68c7f9b4883a9c3814f6bed242c02bd2259e6e1ba004ab2e1e3e814fe -->
