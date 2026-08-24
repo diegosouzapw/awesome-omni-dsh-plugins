@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: aerince-dsh-active-context-pruning
+name: dsh-active-context-pruning
+description:
+  en: Model-authored context pruning for DeepSeek Harness through the official compaction API.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - compaction
+  - context
+source:
+  repository: https://github.com/aerince/dsh-active-context-pruning
+  repositoryNodeId: R_kgDOT5QPLw
+  subpath: null
+  commit: d52b5f2acb44be9ee71e2a68e0178dd227a2f2ef
+creator:
+  github: aerince
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:45.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
