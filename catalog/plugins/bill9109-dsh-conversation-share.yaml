@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bill9109-dsh-conversation-share
+name: "@bill9109/dsh-conversation-share"
+description:
+  en: Select a range of a DeepSeek Harness conversation and share it as a branded PNG long image, with draggable magnetically snapping range markers.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - web-ui
+  - conversation
+  - share
+  - screenshot
+  - png
+  - dsh
+source:
+  repository: https://github.com/bill9109/dsh-conversation-share
+  repositoryNodeId: R_kgDOT2mhRQ
+  subpath: null
+  commit: f582d8ec88e5bbc2519da48554c659874b8e1ac9
+creator:
+  github: bill9109
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:08.325Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
