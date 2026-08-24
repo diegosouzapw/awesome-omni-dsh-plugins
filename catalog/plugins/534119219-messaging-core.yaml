@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: 534119219-messaging-core
+name: messaging-core
+description:
+  en: "DSH messaging gateway core: platform adapter registry, chat-to-session mapping, outbound session/event routing, authorization, and messaging tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - messaging
+  - gateway
+  - core
+  - platform
+  - adapter
+  - registry
+  - chat
+  - session
+  - mapping
+  - outbound
+  - event
+  - routing
+  - authorization
+  - tools
+  - dsh
+source:
+  repository: https://github.com/534119219/dsh-messaging
+  repositoryNodeId: R_kgDOT56pYQ
+  subpath: packages/messaging-core
+  commit: f1c3399ef40e3f419161d153e997d6f30576a627
+creator:
+  github: "534119219"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/messaging-core/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:33.715Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
