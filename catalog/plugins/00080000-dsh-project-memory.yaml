@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 00080000-dsh-project-memory
+name: dsh-project-memory
+description:
+  en: "Persistent project memory for dsh agents: index docs (PDF/Markdown/text) and code symbols into a searchable per-workspace store, recall them with cited sources, and keep experience entries (problems - solutions) searchable on demand."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - project-memory
+  - rag
+  - codebase
+  - cordis
+source:
+  repository: https://github.com/00080000/dsh-project-memory
+  repositoryNodeId: R_kgDOT9RapQ
+  subpath: null
+  commit: 338b96e73786967c6486a6507940bd393b0a7203
+creator:
+  github: "00080000"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:14:03.099Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
