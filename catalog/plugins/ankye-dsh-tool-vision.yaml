@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ankye-dsh-tool-vision
+name: "@deepseek-ai/dsh-tool-vision"
+description:
+  en: Model-facing screen capture and external image-recognition tools with a pluggable channel
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - model
+  - facing
+  - screen
+  - capture
+  - external
+  - image
+  - recognition
+  - tools
+  - pluggable
+  - channel
+  - dsh
+source:
+  repository: https://github.com/ankye/dsh-client-vision
+  repositoryNodeId: R_kgDOT8_cYA
+  subpath: packages/tool-vision
+  commit: 25be426f1468c8e217a6538d4f49d9e72e1aff9b
+creator:
+  github: ankye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/tool-vision/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:40.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
