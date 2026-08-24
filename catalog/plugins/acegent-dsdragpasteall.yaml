@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: acegent-dsdragpasteall
+name: dsdragpasteall
+description:
+  en: bash pnpm add "file:/Users/acegent/Documents/ds 插件/dsDragPasteALL"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - bash
+  - pnpm
+  - file
+  - users
+  - acegent
+  - documents
+  - dsdragpasteall
+  - dsh
+source:
+  repository: https://github.com/balue8246-maker/dsDragPasteALL
+  repositoryNodeId: R_kgDOT9u0cw
+  subpath: null
+  commit: 5f41459a5a6366f956f4ee2d0a98a0a342a8e61e
+creator:
+  github: Acegent
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:52.900Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
