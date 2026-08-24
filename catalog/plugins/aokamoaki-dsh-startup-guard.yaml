@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: aokamoaki-dsh-startup-guard
+name: dsh-startup-guard
+description:
+  en: "Boot-time guard for DeepSeek Harness: repairs corrupt session logs, snapshots manifests + linked sources, preflights bundle resolution and composition, vm-checks client artifacts, smokes host apply() in a child process and quarantines crash-causing bundles - so a broken plugin or corrupt log can never brick startup."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - startup
+  - guard
+  - preflight
+  - boot
+  - self-heal
+source:
+  repository: https://github.com/aokamoaki/dsh-startup-guard
+  repositoryNodeId: R_kgDOT51niQ
+  subpath: null
+  commit: 82cead84e795f04d33b3ff803b65d2de9dafa706
+creator:
+  github: aokamoaki
+package:
+  ecosystem: npm
+  name: dsh-startup-guard
+  version: 1.0.0
+  integrity: sha512-kOgSDr5r9wVxiqg/wnUOEv9xJYoX+d/13jHw9CpRn+gAPAQftE5jlFpslqXbWj6bnYTqfhV0916WYtZIfqJgKw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:10.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
