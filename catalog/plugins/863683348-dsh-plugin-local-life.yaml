@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-local-life
+name: dsh-plugin-local-life
+description:
+  en: "Local-life toolkit for DeepSeek Harness agents: budget planning, bill splitting, unit-price and discount math, common unit conversions (incl. jin/li/chi, C/F), expense-ledger summaries, loan amortization (equal-payment / equal-principal), and trip checklists"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - local
+  - life
+  - budget
+  - split
+  - convert
+  - ledger
+  - amortization
+  - loan
+source:
+  repository: https://github.com/863683348/dsh-plugin-local-life
+  repositoryNodeId: R_kgDOT6veZA
+  subpath: null
+  commit: c8ac78a15e5638ddf90bb275f93fe94a44c29936
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-local-life
+  version: 0.2.0
+  integrity: sha512-GmpnSAJiEm6QhEb0DeuEN5r4bs0FmG7qnSK6vssCFygO3utSmW/UA76jqNUsaPyMczmYmjNDRkMwZpgXldGDnA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:49.900Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
