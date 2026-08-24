@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-custom-brand
+name: dsh-custom-brand
+description:
+  en: "Customizable brand area for the DeepSeek Harness web GUI: replace the whale logo and the DeepSeek wordmark with local images, and edit the HARNESS badge text — double-click to change, right-click to reset. 自定义 DSH 左上角品牌区：logo 与 DeepSeek 文字可换本地图片，HARNESS 徽章文字可双击编辑。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - brand
+  - logo
+  - customization
+  - web-ui
+source:
+  repository: https://github.com/baisama-cloud/dsh-custom-brand
+  repositoryNodeId: R_kgDOT5Revg
+  subpath: null
+  commit: 5914e93ed19e258c706f8ee2a90936460006658c
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:04.755Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
