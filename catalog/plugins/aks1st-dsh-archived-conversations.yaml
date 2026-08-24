@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: aks1st-dsh-archived-conversations
+name: dsh-archived-conversations
+description:
+  en: Show archived conversations in the DSH Web settings page with read-only message previews.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - archived
+  - conversations
+source:
+  repository: https://github.com/AKS1st/dsh-archived-conversations
+  repositoryNodeId: R_kgDOT5Nmkw
+  subpath: null
+  commit: 1b39228285ae767a34d4d80d490971499ba7eb19
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:25.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
