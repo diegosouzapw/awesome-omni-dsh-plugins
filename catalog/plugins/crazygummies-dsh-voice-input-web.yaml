@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: crazygummies-dsh-voice-input-web
+name: dsh-voice-input-web
+description:
+  en: "Voice input for DeepSeek Harness Web UI: a mic button in the composer tool row that uses the browser's Web Speech API (Chrome/Edge) to transcribe speech directly into the message draft. Zero dependencies, no API keys."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - client-plugin
+  - voice
+  - voice-input
+  - speech-to-text
+  - stt
+  - mic
+  - web-speech-api
+source:
+  repository: https://github.com/0nt-one/dsh-voice-input
+  repositoryNodeId: R_kgDOT5sDPQ
+  subpath: null
+  commit: c2fceee6a865a8466f3909d3896172f0f2fad2fa
+creator:
+  github: CrazyGummies
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:55.927Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
