@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: furongjun-1999-dsh-memory
+name: "@furongjun1999/dsh-memory"
+description:
+  en: bash pip install aeis-0.3.0-py3-none-any.whl 或 git+ 在线安装
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - memory
+  - agent
+  - aeis
+  - lingshu
+  - multi-agent
+  - spatiotemporal
+  - knowledge-graph
+source:
+  repository: https://github.com/FuRongJun-1999/dsh-memory
+  repositoryNodeId: R_kgDOT4ZyWg
+  subpath: null
+  commit: 17598658fbf4bda986d9cedb4666143df17529d7
+creator:
+  github: FuRongJun-1999
+package:
+  ecosystem: npm
+  name: "@furongjun1999/dsh-memory"
+  version: 0.2.8
+  integrity: sha512-k0p6U4coadUWe6ZAee2U51cTh4EWSPs1fZr575Qkk+PcOvxtYldkXwaT7SCIB0eH35QM5+cjj7Mz5U2E+o/99w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:55:55.948Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 32
+provenance:
+  discussion: null
+  comment: null
