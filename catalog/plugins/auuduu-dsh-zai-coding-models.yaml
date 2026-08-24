@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: auuduu-dsh-zai-coding-models
+name: dsh-zai-coding-models
+description:
+  en: "DeepSeek Harness bridge plugin: exposes the newest Zhipu/Z.AI coding-plan models (e.g. glm-5.3) on the zai-coding-cn route before the bundled pi-ai catalog catches up."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - zai
+  - zhipu
+  - glm
+  - glm-5-3
+  - coding-plan
+source:
+  repository: https://github.com/auuduu/dsh-zai-coding-models
+  repositoryNodeId: R_kgDOT-Mfvw
+  subpath: null
+  commit: f09d69a7eaa4016b6db9c24069ebd7fa989d0823
+creator:
+  github: auuduu
+package:
+  ecosystem: npm
+  name: dsh-zai-coding-models
+  version: 0.1.0
+  integrity: sha512-4Jd8ynwbkblwcinMu0/ZsEvefk9PY6tWybXv2wIAenktrxLFJEXe9SE/rBtitXB/qA4a3eaGjlgZvArYAGn6Ww==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:41.480Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
