@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ankye-dsh-client-ui-image-generation
+name: "@deepseek-ai/dsh-client-ui-image-generation"
+description:
+  en: Image-generation settings card for the configurable-plugins tab
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - image
+  - generation
+  - settings
+  - card
+  - configurable
+  - dsh
+source:
+  repository: https://github.com/ankye/dsh-image-generation
+  repositoryNodeId: R_kgDOT9CedQ
+  subpath: packages/ui-image-generation
+  commit: afb003964eccbf866b9b452dee41cc584d5209cc
+creator:
+  github: ankye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/ui-image-generation/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:45.036Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
