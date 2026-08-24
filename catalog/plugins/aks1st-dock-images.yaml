@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aks1st-dock-images
+name: dock-images
+description:
+  en: "Image viewer for the dock file explorer: renders PNG, JPEG, GIF, WebP, BMP, SVG, ICO and AVIF files."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - image
+  - viewer
+  - dock
+source:
+  repository: https://github.com/AKS1st/dock-images
+  repositoryNodeId: R_kgDOT-ZKWg
+  subpath: null
+  commit: 1dcd4da32db751784da04229b074ab3f419e8f03
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:22.146Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
