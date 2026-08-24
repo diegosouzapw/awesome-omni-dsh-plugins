@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-education
+name: dsh-plugin-education
+description:
+  en: "Education toolkit for DeepSeek Harness agents: lesson-plan skeletons by grade band, quiz validation, analytic rubrics, grading sheets, study plans, flashcards, and text readability levels"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - education
+  - lesson
+  - quiz
+  - flashcard
+  - rubric
+  - grading
+  - study-plan
+source:
+  repository: https://github.com/863683348/dsh-plugin-education
+  repositoryNodeId: R_kgDOT6veOw
+  subpath: null
+  commit: 438c832ff920df461523d58cbc6b6aa606e1db03
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-education
+  version: 0.2.0
+  integrity: sha512-xil/ylk7NfkGHjG4bJWHS7jPRSJ+U97jLnmBRTipW85T/e3nGDbbKffu+P5LaWfYnlNLviFF5DJ1NUS7IM34YA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:44.955Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
