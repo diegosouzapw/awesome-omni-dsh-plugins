@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: andiii208-dsh-ultramath
+name: dsh-ultramath
+description:
+  en: bash dsh plugin --profile web add github:Andiii208/dsh-ultramath
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - math-modeling
+  - cumcm
+  - mcm
+  - ultramath
+source:
+  repository: https://github.com/Andiii208/dsh-ultramath
+  repositoryNodeId: R_kgDOT7hxow
+  subpath: null
+  commit: dc0e4d60fd674e4f24ae9b5dfc137e98cf540580
+creator:
+  github: Andiii208
+package:
+  ecosystem: npm
+  name: dsh-ultramath
+  version: 0.3.0
+  integrity: sha512-y2vOZSGh1t43eecPpeNLsay4xQW31KpLqEVqfTRrtd1/3nANkXUh6sVPUnEqJl2ad/pEJg0AsgPY4qsg2Wc+ag==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:05.925Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
