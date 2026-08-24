@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: bop11-dsh-plugin-video-player
+name: dsh-plugin-video-player
+description:
+  en: <p align="center" <a href=" english" English</a &nbsp;&nbsp; &nbsp;&nbsp; <a href=" %E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87" 简体中文</a </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - video
+  - player
+  - streaming
+  - smb
+  - nas
+source:
+  repository: https://github.com/anitman/dsh-plugin-video-player
+  repositoryNodeId: R_kgDOT6lNNw
+  subpath: null
+  commit: d7436a80cdfcdc8eb28f864a63e14348e99ce816
+creator:
+  github: bop11
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:47:09.365Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
