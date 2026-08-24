@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: aks1st-dsh-sysmon
+name: dsh-sysmon
+description:
+  en: sh dsh plugin --profile web add github:AKS1st/dsh-sysmon dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - system-monitor
+  - cpu
+  - memory
+  - disk
+source:
+  repository: https://github.com/AKS1st/dsh-sysmon
+  repositoryNodeId: R_kgDOT4nZ3w
+  subpath: null
+  commit: 59d08c303d4575a28e9d35f701cbd3e4f9483724
+creator:
+  github: AKS1st
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:04.953Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
