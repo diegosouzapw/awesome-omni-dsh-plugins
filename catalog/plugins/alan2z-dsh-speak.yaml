@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: alan2z-dsh-speak
+name: dsh-speak
+description:
+  en: Make your AI harness speak — verified voice announcements for DSH and other AI coding harnesses (Windows SAPI5 + macOS system voices)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - tts
+  - text-to-speech
+  - voice
+  - speech
+  - voice-announcement
+  - sapi5
+  - windows
+  - powershell
+  - macos
+  - darwin
+  - say
+source:
+  repository: https://github.com/Alan2Z/dsh-speak
+  repositoryNodeId: R_kgDOT4rCJg
+  subpath: null
+  commit: 24393a8e37b2539a9cdc79cefe9126569bdd5dfb
+creator:
+  github: Alan2Z
+package:
+  ecosystem: npm
+  name: dsh-speak
+  version: 1.5.0
+  integrity: sha512-USOr7YqEpNuGzmIV5ssd+NuKwuRJ0Mt2MV3Ycip09m7iD0NA3BTiOqIwPB1NYaXezM95lWmVtQ2KxU6Hmq+bbQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:45:44.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
