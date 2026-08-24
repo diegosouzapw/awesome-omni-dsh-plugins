@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-simple-memory
+name: dsh-simple-memory
+description:
+  en: "Simple memory keeper for DSH: semi-automatic markdown accumulation, layered loading (global/project), cross-project search"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - markdown
+source:
+  repository: https://github.com/a903067276-rgb/dsh-simple-memory
+  repositoryNodeId: R_kgDOT72Geg
+  subpath: null
+  commit: d04ec2efcaf589d1d1f37ee0d4e8adfce5ffde6c
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:10.934Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
