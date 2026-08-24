@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: baisama-cloud-dsh-galgame-generator
+name: dsh-galgame-generator
+description:
+  en: "Galgame generator for DeepSeek Harness (DSH): give it a script document plus character/background/BGM/animation assets in the workspace (img human/, img bg/, audio/, img cg/) and it builds a playable visual-novel web page with configurable save slots, speaker-following multi-pose sprites, [表情]/[位置]/[退场] stage control, "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - galgame
+  - visual-novel
+  - web-ui
+  - novel
+source:
+  repository: https://github.com/baisama-cloud/dsh-galgame-generator
+  repositoryNodeId: R_kgDOT7NVtA
+  subpath: null
+  commit: b5568ca55e72725e54eef30a5299f195f05f5810
+creator:
+  github: baisama-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:25.773Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
