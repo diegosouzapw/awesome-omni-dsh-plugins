@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 030611-dsh-telemetry-redactor
+name: dsh-telemetry-redactor
+description:
+  en: Export-copy redaction for DeepSeek Harness session telemetry
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - telemetry
+  - redaction
+  - privacy
+  - security
+source:
+  repository: https://github.com/030611/dsh-telemetry-redactor
+  repositoryNodeId: R_kgDOT3mW9g
+  subpath: null
+  commit: 811b0b1abf424e57045ab5a5eaa203660ca43908
+creator:
+  github: "030611"
+package:
+  ecosystem: npm
+  name: dsh-telemetry-redactor
+  version: 0.1.0
+  integrity: sha512-e/C2uA4UKCFAKprwwOk9inaoWb+YLbZMQik3j6nKTyuE1yv0slq5Hm9ql6qY0rt5gKCSWsiosdIUDkwhYsR/VA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:13:57.946Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
