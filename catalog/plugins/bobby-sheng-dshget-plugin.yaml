@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bobby-sheng-dshget-plugin
+name: dshget-plugin
+description:
+  en: Search, inspect, update, and install DeepSeek Harness plugins from the DSH Get catalog.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-directory
+  - plugin-manager
+source:
+  repository: https://github.com/bobby-sheng/dshget-plugin
+  repositoryNodeId: R_kgDOT89Jhg
+  subpath: null
+  commit: 971b7a5700f323ec92e56aa29d39b4a25e36befa
+creator:
+  github: bobby-sheng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:02.234Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
