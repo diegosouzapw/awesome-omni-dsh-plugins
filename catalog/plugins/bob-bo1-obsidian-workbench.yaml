@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bob-bo1-obsidian-workbench
+name: obsidian-workbench
+description:
+  en: powershell git clone https://github.com/Bob-Bo1/obsidian-workbench.git D:\Tools\obsidian-workbench dsh plugin --profile web add link:D:\Tools\obsidian-workbench
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - obsidian
+  - markdown
+  - vault
+source:
+  repository: https://github.com/Bob-Bo1/obsidian-workbench
+  repositoryNodeId: R_kgDOT698Iw
+  subpath: null
+  commit: b2ec41a0ad51ea9ea6fad85101619959b4b9c2f9
+creator:
+  github: Bob-Bo1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:59.269Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
