@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: asd13006-dsh-multi-lang-ui
+name: dsh-multi-lang-ui
+description:
+  en: A DSH plugin that adds multiple languages to the DeepSeek Harness Web UI language options — 繁體中文, 日本語, 한국어, Français, Deutsch, Español . Known UI strings use hand-polished translations (each language translated from the English baseline); any new / updated / third-party strings fall back to English (or, for 繁體中文, a run
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - locale
+  - i18n
+  - localization
+  - multilingual
+  - traditional-chinese
+  - zh-tw
+  - japanese
+  - korean
+  - french
+  - german
+  - spanish
+source:
+  repository: https://github.com/asd13006/dsh-multi-lang-ui
+  repositoryNodeId: R_kgDOT51MDg
+  subpath: null
+  commit: 6d8de399f8f2a4121282d34c93cbfc5de1391428
+creator:
+  github: asd13006
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:55.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
