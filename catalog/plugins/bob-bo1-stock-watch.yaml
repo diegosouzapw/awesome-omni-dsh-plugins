@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bob-bo1-stock-watch
+name: stock-watch
+description:
+  en: powershell dsh plugin --profile web add github:Bob-Bo1/dsh-stock-watch
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - a-share
+  - stock
+source:
+  repository: https://github.com/Bob-Bo1/dsh-stock-watch
+  repositoryNodeId: R_kgDOT6988w
+  subpath: null
+  commit: 8b74366224b59cc8eed547d431e4f1da2029bc74
+creator:
+  github: Bob-Bo1
+package:
+  ecosystem: npm
+  name: stock-watch
+  version: 0.2.0
+  integrity: sha512-Nn7VmE4k5K/y7JL3i/7vKqT8PICp6YrCf+nP0XGUcCPms5UMNyhRATFc83Nw39b5gg02yuu+cPsjnpDOQHa2VA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:11.433Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
