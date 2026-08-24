@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: alloyplane-dsh-f12-inspector
+name: dsh-f12-inspector
+description:
+  en: 'An element inspection plugin for the DSH (DeepSeek Harness) web UI: it brings a browser-style "F12 inspect element" workflow into the right details column , with a built-in workspace file tree and an HTML editor.'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - f12
+  - devtools
+  - inspector
+  - element
+  - selector
+  - xpath
+  - filetree
+  - editor
+source:
+  repository: https://github.com/AlloyPlane/dsh-f12-inspector
+  repositoryNodeId: R_kgDOT9pcRQ
+  subpath: null
+  commit: 1297142e5100c0c1ba463e9fa162600b33055553
+creator:
+  github: AlloyPlane
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:59.912Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
