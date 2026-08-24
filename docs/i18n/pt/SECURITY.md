@@ -1,5 +1,7 @@
 # Política de Segurança
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Português**
+
 ## Âmbito do catálogo
 
 Este repositório contém metadados de catálogo, documentação e configuração genérica de

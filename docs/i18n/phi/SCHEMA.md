@@ -1,6 +1,6 @@
 # Sanggunian ng Schema ng Entry ng Katalogo
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Filipino**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Filipino**
 
 > **Hindi opisyal na proyekto ng komunidad. Walang kaugnayan sa, hindi inendorso, at hindi itinataguyod ng DeepSeek.**
 > Ang mga pangalan at marka ng DeepSeek ay pag-aari ng kani-kanilang may-ari.

@@ -1,5 +1,7 @@
 # Metodológia rebríčka
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Slovenčina**
+
 Rebríčky sú transparentné pohľady nad zlúčenými verejnými záznamami katalógu. Nikdy
 nepoužívajú skryté kombinované skóre a nikdy nepovažujú hviezdičky širšieho nadradeného
 projektu za popularitu pluginu.

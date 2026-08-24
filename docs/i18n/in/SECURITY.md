@@ -1,5 +1,7 @@
 # Kebijakan Keamanan
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Bahasa Indonesia**
+
 ## Cakupan katalog
 
 Repositori ini memuat metadata katalog, dokumentasi, dan konfigurasi kontribusi generik.

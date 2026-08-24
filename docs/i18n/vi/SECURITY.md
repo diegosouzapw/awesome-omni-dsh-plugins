@@ -1,5 +1,7 @@
 # Chính sách bảo mật
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Tiếng Việt**
+
 ## Phạm vi của danh mục
 
 Repository này chứa siêu dữ liệu danh mục, tài liệu và cấu hình đóng góp chung. Việc được niêm yết không phải là một

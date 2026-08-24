@@ -1,5 +1,7 @@
 # Phương pháp xếp hạng
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Tiếng Việt**
+
 Các bảng xếp hạng là góc nhìn minh bạch trên các mục danh mục công khai đã hợp nhất. Chúng không bao giờ dùng một
 điểm số tổng hợp ẩn và không bao giờ coi số sao từ một dự án gốc rộng hơn là độ phổ biến của plugin.
 

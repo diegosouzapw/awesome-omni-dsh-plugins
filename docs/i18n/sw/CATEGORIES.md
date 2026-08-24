@@ -1,5 +1,7 @@
 # Jamii za Katalogi
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Kiswahili**
+
 Kila kiingilio cha katalogi kina aina moja ya zao, jamii moja kuu ya uwezo na lebo sifuri au zaidi.
 Jamii kuu huamua kiingilio kinaonekana wapi; lebo hutoa utafutaji wa kuvuka jamii bila kurudia
 kiingilio.

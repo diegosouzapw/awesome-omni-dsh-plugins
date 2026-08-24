@@ -1,5 +1,7 @@
 # Kataloq idarəetməsi
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Azərbaycan dili**
+
 > **Qeyri-rəsmi icma layihəsi. DeepSeek ilə əlaqəli deyil, DeepSeek tərəfindən dəstəklənmir və ya sponsorluq edilmir.**
 > DeepSeek adları və nişanları müvafiq sahiblərinə məxsusdur.
 

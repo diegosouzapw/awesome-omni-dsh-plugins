@@ -1,6 +1,6 @@
 # Metodologi Kedudukan
 
-> 🌐 [English](../../docs/RANKING.md) · **Bahasa Melayu (ms)**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Bahasa Melayu**
 
 > **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
 > Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.

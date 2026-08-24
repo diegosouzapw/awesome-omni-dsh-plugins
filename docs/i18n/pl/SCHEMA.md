@@ -1,6 +1,6 @@
 # Dokumentacja schematu wpisu katalogu
 
-> 🌐 [English](../../docs/SCHEMA.md) · **Polski**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Polski**
 
 > **Nieoficjalny projekt społecznościowy. Niepowiązany z DeepSeek, nieautoryzowany ani niesponsorowany przez DeepSeek.**
 > Nazwy i znaki DeepSeek należą do ich odpowiedniego właściciela.

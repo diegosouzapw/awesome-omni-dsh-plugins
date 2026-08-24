@@ -1,6 +1,6 @@
 # Rujukan CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · [한국어](../ko/CLI.md) · **Bahasa Melayu (ms)**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Bahasa Melayu**
 
 > **Projek komuniti tidak rasmi. Tiada gabungan, kelulusan atau tajaan daripada DeepSeek.**
 > Nama dan tanda DeepSeek adalah kepunyaan pemilik masing-masing.

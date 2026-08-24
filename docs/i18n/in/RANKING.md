@@ -1,5 +1,7 @@
 # Metodologi Peringkat
 
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Bahasa Indonesia**
+
 Peringkat adalah tampilan transparan atas entri katalog publik yang telah tergabung. Mereka
 tidak pernah menggunakan skor gabungan tersembunyi dan tidak pernah memperlakukan bintang dari
 proyek induk yang luas sebagai popularitas plugin.

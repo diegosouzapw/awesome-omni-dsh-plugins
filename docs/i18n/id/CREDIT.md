@@ -1,6 +1,6 @@
 # Kredit Kreator dan Prioritas Pull Request
 
-> 🌐 [English](../../docs/CREDIT.md) · **Bahasa Indonesia (id)**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Bahasa Indonesia**
 
 > **Proyek komunitas tidak resmi. Tidak berafiliasi dengan, tidak didukung oleh, dan tidak disponsori oleh DeepSeek.**
 > Nama dan merek DeepSeek adalah milik pemiliknya masing-masing.

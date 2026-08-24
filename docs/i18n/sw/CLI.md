@@ -1,6 +1,6 @@
 # Marejeo ya CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文](../zh-CN/CLI.md) · **Kiswahili**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Kiswahili**
 
 > **Mradi usio rasmi wa jamii. Hauhusiani na, haujaidhinishwa na, wala haujafadhiliwa na DeepSeek.**
 > Majina na alama za DeepSeek ni mali ya wamiliki wao husika.

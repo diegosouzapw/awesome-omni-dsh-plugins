@@ -1,6 +1,6 @@
 # Credit voor de maker en voorrang van pull requests
 
-> 🌐 [English](../../docs/CREDIT.md) · **Nederlands**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Nederlands**
 
 De catalogus bestaat om onafhankelijk DSH-werk vindbaar te maken zonder het eigendom ervan bij
 de makers weg te nemen. Publieke invoeren citeren het oorspronkelijke repository en een

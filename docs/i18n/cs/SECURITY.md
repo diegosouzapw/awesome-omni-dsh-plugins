@@ -1,5 +1,7 @@
 # Bezpečnostní zásady
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Čeština**
+
 ## Rozsah katalogu
 
 Tento repozitář obsahuje katalogová metadata, dokumentaci a obecnou konfiguraci pro přispívání.

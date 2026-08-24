@@ -1,6 +1,6 @@
 # Categorie del catalogo
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Italiano**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Italiano**
 
 Ogni voce del catalogo ha un tipo di artefatto, una categoria di capacità primaria e zero o più
 tag. La categoria primaria determina dove appare la voce; i tag offrono una ricerca

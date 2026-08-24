@@ -1,5 +1,7 @@
 # Zásluhy tvorcov a prednosť pull requestov
 
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Slovenčina**
+
 Katalóg existuje, aby bola nezávislá práca na DSH objaviteľná bez toho, aby sa tvorcom odoberalo
 vlastníctvo. Verejné záznamy citujú pôvodný repozitár a nemenný zdrojový commit.
 

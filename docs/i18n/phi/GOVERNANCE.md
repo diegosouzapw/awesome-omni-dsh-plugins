@@ -1,5 +1,7 @@
 # Pamamahala ng Katalogo
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Filipino**
+
 > **Hindi opisyal na proyekto ng komunidad. Walang kaugnayan sa, hindi inendorso, at hindi itinataguyod ng DeepSeek.**
 > Ang mga pangalan at marka ng DeepSeek ay pag-aari ng kani-kanilang may-ari.
 

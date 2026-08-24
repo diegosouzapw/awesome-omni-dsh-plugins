@@ -1,6 +1,6 @@
 # Kategorie katalogu
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Polski**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Polski**
 
 Każdy wpis katalogu ma jeden rodzaj artefaktu, jedną główną kategorię możliwości i zero lub
 więcej tagów. Kategoria główna decyduje o tym, gdzie wpis się pojawia; tagi umożliwiają

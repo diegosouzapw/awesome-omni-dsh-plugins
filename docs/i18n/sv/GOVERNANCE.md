@@ -1,6 +1,6 @@
 # Katalogstyrning
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **Svenska**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Svenska**
 
 > **Inofficiellt community-projekt. Inte anknutet till, godkänt av eller sponsrat av DeepSeek.**
 > DeepSeek-namn och -märken tillhör respektive ägare.

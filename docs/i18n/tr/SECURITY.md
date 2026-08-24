@@ -1,5 +1,7 @@
 # Güvenlik Politikası
 
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **Türkçe**
+
 ## Katalog kapsamı
 
 Bu depo, katalog meta verilerini, belgeleri ve genel katkı yapılandırmasını içerir. Bir kayıt bir

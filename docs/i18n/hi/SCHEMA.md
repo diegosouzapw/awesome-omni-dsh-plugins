@@ -1,6 +1,6 @@
 # कैटलॉग एंट्री स्कीमा संदर्भ
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · [中文（繁體）](../zh-TW/SCHEMA.md) · [Español](../es/SCHEMA.md) · [Français](../fr/SCHEMA.md) · [Deutsch](../de/SCHEMA.md) · [Русский](../ru/SCHEMA.md) · [Polski](../pl/SCHEMA.md) · [Čeština](../cs/SCHEMA.md) · [Magyar](../hu/SCHEMA.md) · [Български](../bg/SCHEMA.md) · [한국어](../ko/SCHEMA.md) · [العربية](../ar/SCHEMA.md) · **हिन्दी**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **हिन्दी**
 
 > **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
 > DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।

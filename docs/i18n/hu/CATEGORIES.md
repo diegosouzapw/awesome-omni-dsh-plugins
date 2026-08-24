@@ -1,6 +1,6 @@
 # Katalóguskategóriák
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Magyar**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Magyar**
 
 Minden katalógusbejegyzésnek egy artefaktum-`kind`-ja, egy elsődleges képességkategóriája és nulla
 vagy több címkéje van. Az elsődleges kategória határozza meg, hogy a bejegyzés hol jelenik meg; a

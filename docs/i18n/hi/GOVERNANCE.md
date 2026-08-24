@@ -1,6 +1,6 @@
 # कैटलॉग गवर्नेंस
 
-> 🌐 [English](../../docs/GOVERNANCE.md) · **हिन्दी**
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **हिन्दी**
 
 > **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
 > DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।

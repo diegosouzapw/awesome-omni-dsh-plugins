@@ -1,6 +1,6 @@
 # కేటలాగ్ ఎంట్రీ స్కీమా రిఫరెన్స్
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文](../zh-CN/SCHEMA.md) · **తెలుగు**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **తెలుగు**
 
 > **అనధికారిక కమ్యూనిటీ ప్రాజెక్ట్. DeepSeekతో అనుబంధం లేదు, ఆమోదం పొందలేదు లేదా స్పాన్సర్ చేయబడలేదు.**
 > DeepSeek పేర్లు మరియు గుర్తులు వాటి సంబంధిత యజమానికి చెందినవి.

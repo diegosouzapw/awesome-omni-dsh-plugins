@@ -1,6 +1,6 @@
 # Rangsorolási módszertan
 
-> 🌐 [English](../../docs/RANKING.md) · **Magyar**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **Magyar**
 
 A rangsorok átlátható nézetek az egyesített nyilvános katalógusbejegyzések fölött. Soha nem
 használnak rejtett kombinált pontszámot, és soha nem kezelik egy széles szülőprojekt csillagait

@@ -1,6 +1,6 @@
 # Referencia schémy záznamu katalógu
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文](../zh-CN/SCHEMA.md) · **Slovenčina**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Slovenčina**
 
 > **Neoficiálny komunitný projekt. Nie je prepojený s DeepSeek, nie je ním podporovaný ani sponzorovaný.**
 > Názvy a značky DeepSeek patria ich príslušnému vlastníkovi.

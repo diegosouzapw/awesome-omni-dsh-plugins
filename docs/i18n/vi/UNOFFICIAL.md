@@ -1,5 +1,7 @@
 # Thông báo về dự án không chính thức
 
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **Tiếng Việt**
+
 > **Đây là dự án cộng đồng không chính thức. Không liên kết, không được chứng thực, và không được DeepSeek tài trợ.**
 > Tên gọi và nhãn hiệu của DeepSeek thuộc về chủ sở hữu tương ứng.
 

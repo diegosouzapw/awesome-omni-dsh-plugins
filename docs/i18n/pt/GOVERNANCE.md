@@ -1,5 +1,7 @@
 # Governação do Catálogo
 
+> 🌐 [English](../../GOVERNANCE.md) · [Português (Brasil)](../pt-BR/GOVERNANCE.md) · [中文（简体）](../zh-CN/GOVERNANCE.md) · **Português**
+
 > **Projeto comunitário não oficial. Sem afiliação, sem endosso e sem patrocínio da DeepSeek.**
 > Os nomes e marcas DeepSeek pertencem aos respetivos proprietários.
 

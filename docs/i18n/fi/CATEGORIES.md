@@ -1,6 +1,6 @@
 # Katalogikategoriat
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Suomi**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Suomi**
 
 > **Epävirallinen yhteisöprojekti. Ei liity DeepSeekiin eikä DeepSeek ole hyväksynyt tai sponsoroinut sitä.**
 > DeepSeekin nimet ja tunnukset kuuluvat niiden omistajalle.

@@ -1,6 +1,6 @@
 # Categorias do Catálogo
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Português (Brasil)**
+> 🌐 [English](../../CATEGORIES.md) · **Português (Brasil)** · [中文（简体）](../zh-CN/CATEGORIES.md)
 
 Cada entrada de catálogo tem um `kind` de artefato, uma categoria de capacidade primária e zero
 ou mais tags. A categoria primária determina onde a entrada aparece; as tags fornecem busca

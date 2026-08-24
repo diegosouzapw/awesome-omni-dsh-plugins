@@ -1,6 +1,6 @@
 # CLI संदर्भ — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · [中文（繁體）](../zh-TW/CLI.md) · [Español](../es/CLI.md) · [Français](../fr/CLI.md) · [Italiano](../it/CLI.md) · [Deutsch](../de/CLI.md) · [Русский](../ru/CLI.md) · [Polski](../pl/CLI.md) · [Čeština](../cs/CLI.md) · [Magyar](../hu/CLI.md) · [Български](../bg/CLI.md) · [Dansk](../da/CLI.md) · [한국어](../ko/CLI.md) · [العربية](../ar/CLI.md) · **हिन्दी**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **हिन्दी**
 
 > **गैर-आधिकारिक सामुदायिक परियोजना। DeepSeek से संबद्ध, अनुमोदित या प्रायोजित नहीं है।**
 > DeepSeek नाम और चिह्न अपने संबंधित स्वामी के हैं।

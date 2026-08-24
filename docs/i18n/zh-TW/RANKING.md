@@ -1,6 +1,6 @@
 # 排名方法論
 
-> 🌐 [English](../../docs/RANKING.md) · **中文（繁體）**
+> 🌐 [English](../../RANKING.md) · [Português (Brasil)](../pt-BR/RANKING.md) · [中文（简体）](../zh-CN/RANKING.md) · **中文（繁體）**
 
 排名是對已合併的公開目錄條目所做的透明檢視。排名絕不使用隱藏的綜合分數,也絕不會把廣義母
 專案的星標數當作外掛本身的熱門度。

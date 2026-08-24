@@ -1,6 +1,6 @@
 # Справочник CLI — `omni-dsh-plugins@1.0.1`
 
-> 🌐 [English](../../docs/CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Русский**
+> 🌐 [English](../../CLI.md) · [Português (Brasil)](../pt-BR/CLI.md) · [中文（简体）](../zh-CN/CLI.md) · **Русский**
 
 > **Неофициальный проект сообщества. Не аффилирован, не одобрен и не спонсируется DeepSeek.**
 > Имена и товарные знаки DeepSeek принадлежат их соответствующим владельцам.

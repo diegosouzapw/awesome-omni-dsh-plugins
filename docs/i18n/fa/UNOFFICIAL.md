@@ -1,6 +1,6 @@
 # اعلامیهٔ پروژهٔ غیررسمی
 
-> 🌐 [English](../../docs/UNOFFICIAL.md) · **فارسی**
+> 🌐 [English](../../UNOFFICIAL.md) · [Português (Brasil)](../pt-BR/UNOFFICIAL.md) · [中文（简体）](../zh-CN/UNOFFICIAL.md) · **فارسی**
 
 > **پروژه غیررسمی جامعه. وابسته به، تأییدشده توسط یا اسپانسرشده توسط DeepSeek نیست.**
 > نام‌ها و علائم DeepSeek متعلق به مالک مربوطه‌شان است.

@@ -1,6 +1,6 @@
 # הפניית סכימת רשומת הקטלוג
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **עברית**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **עברית**
 
 > **פרויקט קהילתי בלתי רשמי. אינו קשור, מאושר או ממומן על ידי DeepSeek.**
 > השמות והסימנים של DeepSeek שייכים לבעליהם המתאימים.

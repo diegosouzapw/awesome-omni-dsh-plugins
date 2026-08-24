@@ -1,6 +1,6 @@
 # 安全政策
 
-> 🌐 [English](../../SECURITY.md) · **中文（繁體）**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **中文（繁體）**
 
 ## 目錄的範圍
 

@@ -1,5 +1,7 @@
 # Kategori Katalog
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Bahasa Indonesia**
+
 Setiap entri katalog memiliki satu jenis artefak, satu kategori kapabilitas utama, dan nol atau
 lebih tag. Kategori utama menentukan di mana entri muncul; tag menyediakan pencarian lintas
 kategori tanpa menduplikasi entri.

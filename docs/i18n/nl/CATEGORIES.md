@@ -1,6 +1,6 @@
 # Catalogus­categorieën
 
-> 🌐 [English](../../docs/CATEGORIES.md) · **Nederlands**
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Nederlands**
 
 Elke catalogusinvoer heeft één artefacttype, één primaire capaciteitscategorie en nul of meer
 tags. De primaire categorie bepaalt waar de invoer verschijnt; tags bieden zoeken over

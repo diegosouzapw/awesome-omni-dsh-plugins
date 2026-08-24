@@ -1,5 +1,7 @@
 # Kataloq kateqoriyaları
 
+> 🌐 [English](../../CATEGORIES.md) · [Português (Brasil)](../pt-BR/CATEGORIES.md) · [中文（简体）](../zh-CN/CATEGORIES.md) · **Azərbaycan dili**
+
 Hər kataloq qeydinin bir artefakt növü (kind), bir əsas imkan kateqoriyası və sıfır və ya daha
 çox teqi var. Əsas kateqoriya qeydin harada göründüyünü müəyyən edir; teqlər qeydi
 dublikatlaşdırmadan kateqoriyalararası axtarış təmin edir.

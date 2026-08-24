@@ -1,6 +1,6 @@
 # การมีส่วนร่วม
 
-> 🌐 [English](../../CONTRIBUTING.md) · **ไทย (th)**
+> 🌐 [English](../../../CONTRIBUTING.md) · [Português (Brasil)](../pt-BR/CONTRIBUTING.md) · [中文（简体）](../zh-CN/CONTRIBUTING.md) · **ไทย**
 
 > **โปรเจกต์ชุมชนที่ไม่เป็นทางการ ไม่มีส่วนเกี่ยวข้อง ไม่ได้รับการรับรอง และไม่ได้รับการสนับสนุนจาก DeepSeek**
 > ชื่อและเครื่องหมายการค้าของ DeepSeek เป็นของเจ้าของแต่ละราย

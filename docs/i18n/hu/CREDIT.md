@@ -1,6 +1,6 @@
 # Alkotói jóváírás és pull request-elsőbbség
 
-> 🌐 [English](../../docs/CREDIT.md) · **Magyar**
+> 🌐 [English](../../CREDIT.md) · [Português (Brasil)](../pt-BR/CREDIT.md) · [中文（简体）](../zh-CN/CREDIT.md) · **Magyar**
 
 A katalógus azért létezik, hogy a független DSH-munkák felfedezhetők legyenek anélkül, hogy az
 alkotóktól elvennék a tulajdonjogot. A nyilvános bejegyzések az eredeti repository-t és egy

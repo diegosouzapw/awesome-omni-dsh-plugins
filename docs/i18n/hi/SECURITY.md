@@ -1,6 +1,6 @@
 # सुरक्षा नीति
 
-> 🌐 [English](../../SECURITY.md) · **हिन्दी**
+> 🌐 [English](../../../SECURITY.md) · [Português (Brasil)](../pt-BR/SECURITY.md) · [中文（简体）](../zh-CN/SECURITY.md) · **हिन्दी**
 
 ## कैटलॉग का दायरा
 

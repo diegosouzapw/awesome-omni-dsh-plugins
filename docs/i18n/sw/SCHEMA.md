@@ -1,6 +1,6 @@
 # Marejeo ya Schema ya Kiingilio cha Katalogi
 
-> 🌐 [English](../../docs/SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文](../zh-CN/SCHEMA.md) · **Kiswahili**
+> 🌐 [English](../../SCHEMA.md) · [Português (Brasil)](../pt-BR/SCHEMA.md) · [中文（简体）](../zh-CN/SCHEMA.md) · **Kiswahili**
 
 > **Mradi usio rasmi wa jamii. Hauhusiani na, haujaidhinishwa na, wala haujafadhiliwa na DeepSeek.**
 > Majina na alama za DeepSeek ni mali ya wamiliki wao husika.
