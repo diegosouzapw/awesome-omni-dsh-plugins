@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jesse-dsh-docker-bundle
+name: "@dsh-docker/bundle"
+description:
+  en: "dsh-docker — typed, guarded container control for DSH: structured docker/compose tools, project-aware targeting, an approval gate for destructive ops, service-health context, and a replayable status-table renderer"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - docker
+  - docker-compose
+  - containers
+  - devops
+  - infrastructure
+source:
+  repository: https://github.com/Jesse-njx/dsh-docker
+  repositoryNodeId: R_kgDOT3oJlQ
+  subpath: null
+  commit: 8fe414f419f8403384f9907cdad739481fda8600
+creator:
+  github: jesse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:08.122Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
