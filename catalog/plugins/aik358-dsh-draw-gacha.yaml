@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: aik358-dsh-draw-gacha
+name: "@a9i5k4/dsh-draw-gacha"
+description:
+  en: bash dsh plugin --profile web add @a9i5k4/dsh-draw-gacha
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - gacha
+  - just-for-fun
+  - web-ui
+source:
+  repository: https://github.com/Aik358/dsh-draw-gacha
+  repositoryNodeId: R_kgDOT56NwA
+  subpath: null
+  commit: 154b43f54d4d03d9178d6a470685dc886bc4579a
+creator:
+  github: Aik358
+package:
+  ecosystem: npm
+  name: "@a9i5k4/dsh-draw-gacha"
+  version: 0.1.6
+  integrity: sha512-QXkAAi61FinARO+dlZAKp7l3lS/mXqGTyoFMXfyzaIgNTiRidFZJp1kWTHuPNLWQO0q7C2VC9cUQ80MnrZMgCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:51.633Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
