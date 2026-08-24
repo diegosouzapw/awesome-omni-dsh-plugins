@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: bob-bo1-deepseek-balance
+name: deepseek-balance
+description:
+  en: powershell npx @deepseek-ai/dsh plugin --profile web add github:Bob-Bo1/dsh-deepseek-balance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - powershell
+  - profile
+  - balance
+  - dsh
+source:
+  repository: https://github.com/Bob-Bo1/dsh-deepseek-balance
+  repositoryNodeId: R_kgDOT67wiA
+  subpath: null
+  commit: 88940a6bf159218b5828c79e6ab3b94fd116324f
+creator:
+  github: Bob-Bo1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:57.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
