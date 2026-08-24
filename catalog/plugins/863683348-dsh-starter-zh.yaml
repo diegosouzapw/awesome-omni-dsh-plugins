@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 863683348-dsh-starter-zh
+name: dsh-starter-zh
+description:
+  en: "dsh-starter-zh is a beginner starter pack for DeepSeek Harness: install it and your agent instantly gains a welcome flow, a 0→1 learning path, scenario-based plugin recommendations, and a self-check checklist — paired with the dsh-handbook-zh Chinese tutorial repo."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bundle
+  - starter
+  - onboarding
+  - beginner
+  - tutorial
+source:
+  repository: https://github.com/863683348/dsh-starter-zh
+  repositoryNodeId: R_kgDOT6vLbg
+  subpath: null
+  commit: 77255cf2b842b662df390894bae884f85a7da9a5
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-starter-zh
+  version: 0.1.0
+  integrity: sha512-1trJ0ZzyXOfko4Me3ZDybH+WAxbVm4Mx/bTMZ8Q5s0clojZ1sbuj8fyBKtjHMvyTZV2lCvbiegnSZOx22Ob1RQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:00.593Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
