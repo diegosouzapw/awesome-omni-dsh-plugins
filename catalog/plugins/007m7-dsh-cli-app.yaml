@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 007m7-dsh-cli-app
+name: "@deepseek-ai/dsh-cli-app"
+description:
+  en: The DeepSeek Harness local interactive terminal UI with commands, sessions, authentication, and Agent tools
+  evidencePath: packages/bundle/cli-app/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - local
+  - interactive
+  - terminal
+  - commands
+  - sessions
+  - authentication
+  - agent
+  - tools
+  - dsh
+source:
+  repository: https://github.com/007M7/DeepCode
+  repositoryNodeId: R_kgDOT3cLfQ
+  subpath: packages/bundle/cli-app
+  commit: a0edf49d2e41adfa573bf3c5656f0cafee3caf45
+creator:
+  github: 007M7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/cli-app/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:15:21.038Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
