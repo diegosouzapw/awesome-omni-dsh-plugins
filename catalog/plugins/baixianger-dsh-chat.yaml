@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: baixianger-dsh-chat
+name: dsh-chat
+description:
+  en: Web group chat for local and woven DeepSeek Harness sessions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - chat
+  - agent
+  - conversation
+  - mesh
+source:
+  repository: https://github.com/baixianger/dsh-chat
+  repositoryNodeId: R_kgDOT7j34w
+  subpath: null
+  commit: 77d93dc9ccf6778a02d4a55b5d8df97d35c83f84
+creator:
+  github: baixianger
+package:
+  ecosystem: npm
+  name: dsh-chat
+  version: 0.1.0-rc.29
+  integrity: sha512-jNGWt87U58aQOJQvulgFZtv/sPsGWBOsUp/O3r4vVb+oJFyH2m6yuH+zUK+2vBlrH0VAp5Dni8AymcoZxhYkUg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:48.517Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
