@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: alooshxl-dsh-session-pins
+name: "@dsh-external/dsh-session-pins"
+description:
+  en: Persistent pinned-session menu for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - persistent
+  - pinned
+  - session
+  - menu
+  - dsh
+source:
+  repository: https://github.com/alooshxl/dsh-session-pins
+  repositoryNodeId: R_kgDOT3waIQ
+  subpath: null
+  commit: eb8c25c1cc8728e54cf5940b6bc696f38b2d10bd
+creator:
+  github: alooshxl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:46:08.451Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
