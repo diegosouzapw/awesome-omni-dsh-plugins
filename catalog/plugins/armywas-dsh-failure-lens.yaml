@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: armywas-dsh-failure-lens
+name: dsh-failure-lens
+description:
+  en: Deterministic DeepSeek Harness Web client plugin that explains the Windows-sandbox spawn EPERM failure as a distinct Conversation Node.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-client
+  - sandbox
+  - windows
+  - eperm
+source:
+  repository: https://github.com/ArmyWas/dsh-failure-lens
+  repositoryNodeId: R_kgDOT8oCWw
+  subpath: null
+  commit: 81af34adefc918ec52e71f3974b4ef076d6af48b
+creator:
+  github: ArmyWas
+package:
+  ecosystem: npm
+  name: dsh-failure-lens
+  version: 0.2.2
+  integrity: sha512-XAYz6opem7MO8EomuTd1FVISTmJKMXxAlf9lX8wEdumoF9UrclSQS+j/mrfKn7QnDBvD2Ut0LaCB18QzJcTRxA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T17:48:53.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
