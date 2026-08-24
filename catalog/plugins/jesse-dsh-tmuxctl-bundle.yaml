@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jesse-dsh-tmuxctl-bundle
+name: "@dsh-tmuxctl/bundle"
+description:
+  en: "dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run, and watch the panes you already have open, with safety by default"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - tmux
+  - terminal
+  - pane-control
+  - tmux-watch
+  - conversation-node
+source:
+  repository: https://github.com/Jesse-njx/dsh-tmuxctl
+  repositoryNodeId: R_kgDOT3o6WQ
+  subpath: null
+  commit: 1804d3956cef2f823edf792c711e6cbc4c4ec20b
+creator:
+  github: jesse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T06:56:13.243Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
