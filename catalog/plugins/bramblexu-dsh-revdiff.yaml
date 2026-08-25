@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bramblexu-dsh-revdiff
+name: dsh-revdiff
+description:
+  en: Native interactive diff review for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - code-review
+  - diff
+  - dsh
+source:
+  repository: https://github.com/BrambleXu/dsh-revdiff
+  repositoryNodeId: R_kgDOT33zCQ
+  subpath: null
+  commit: 90e7f41040ede308314395b06c51c218e18e4d47
+creator:
+  github: BrambleXu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:34.144Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
