@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ch4acko3-dsh-syntax-highlight
+name: "@ch4acko3/dsh-syntax-highlight"
+description:
+  en: Structured syntax highlighting service for DeepSeek Harness Web plugins
+  evidencePath: packages/syntax-highlight/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - syntax-highlighting
+  - code-tokens
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/syntax-highlight
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-syntax-highlight"
+  version: 0.1.0
+  integrity: sha512-IGFOEPMLT1FFKYVK/LBbwDXDflPyGQ7Z8UjPTRLEdRFNRHzKPowVT91YN8hpIWbS4vDj4eO9pxdN51dO7gcsKQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/syntax-highlight/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
