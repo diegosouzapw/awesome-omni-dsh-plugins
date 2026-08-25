@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: chenyinrusi-dsh-llm-cost
+name: dsh-llm-cost
+description:
+  en: "Per-turn, per-step LLM cost metering for DeepSeek Harness: a costUsage session projection, a cost line under each message, and an LLM+web price auto-maintenance tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cost
+  - pricing
+  - llm
+source:
+  repository: https://github.com/chenyinrusi/dsh-llm-cost
+  repositoryNodeId: R_kgDOT6Z_pg
+  subpath: null
+  commit: 2e325b61ac8be5d12284b1b38eb5624fc662c41f
+creator:
+  github: chenyinrusi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:19.896Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
