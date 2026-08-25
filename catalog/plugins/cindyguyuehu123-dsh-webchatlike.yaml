@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: cindyguyuehu123-dsh-webchatlike
+name: dsh-webchatlike
+description:
+  en: "Web-chat-like message actions for DeepSeek Harness: edit-and-resend your prompt and regenerate answers in place, with a deepseek.com-style <i/N version pager on every versioned message."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chat
+  - webchat
+  - regenerate
+  - edit
+  - version
+  - web-ui
+source:
+  repository: https://github.com/cindyguyuehu123/dsh-webchatlike
+  repositoryNodeId: R_kgDOT4i9XA
+  subpath: null
+  commit: 365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268
+creator:
+  github: cindyguyuehu123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:43.794Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
