@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: jadon7-dsh-codex-taskboard
+name: dsh-codex-taskboard
+description:
+  en: This directory is an installable DeepSeek Harness bundle. It adds a Taskboard entry to the Harness sidebar and opens the active installed Codex Taskboard runtime.
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - directory
+  - installable
+  - bundle
+  - adds
+  - taskboard
+  - entry
+  - sidebar
+  - opens
+  - active
+  - installed
+  - codex
+  - runtime
+  - dsh
+source:
+  repository: https://github.com/chuspeeism/dashi-taskboard
+  repositoryNodeId: R_kgDOTiXtVw
+  subpath: integrations/deepseek-harness
+  commit: a423e05dd574844a7bcac1da729abd2ec87ecc35
+creator:
+  github: jadon7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:42.960Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
