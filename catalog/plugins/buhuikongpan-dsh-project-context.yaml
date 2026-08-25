@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: buhuikongpan-dsh-project-context
+name: dsh-project-context
+description:
+  en: "<project context Working directory \"<cwd \" is now a project: all files belong here. Build a mental model first, don't read everything: inspect structure/size, then entry/README, follow the call chain. Code is ground truth; docs are reference. Empty directory → new project, files live here. Report understanding and plan"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - project-context
+  - workspace
+source:
+  repository: https://github.com/buhuikongpan/dsh-project-context
+  repositoryNodeId: R_kgDOT79FIg
+  subpath: null
+  commit: 89e2b9d575a9defe8131c6cb992b9e7b1787c395
+creator:
+  github: buhuikongpan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:11.325Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
