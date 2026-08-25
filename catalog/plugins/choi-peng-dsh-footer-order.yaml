@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: choi-peng-dsh-footer-order
+name: "@choi-p/dsh-footer-order"
+description:
+  en: "DSH web sidebar footer action ordering: force the sidebar.footer.action slot into a vertical stack (display: contents → flex column) and let users configure the top-to-bottom order of the entries."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - sidebar
+  - footer
+  - order
+  - layout
+source:
+  repository: https://github.com/Choi-Peng/dsh-footer-order
+  repositoryNodeId: R_kgDOT74q6A
+  subpath: null
+  commit: ccd67ace488a6b53bc5a70a213c093b1d5669573
+creator:
+  github: Choi-Peng
+package:
+  ecosystem: npm
+  name: "@choi-p/dsh-footer-order"
+  version: 0.2.0
+  integrity: sha512-0bReRzYMNcfNwZPZK5yOnU4bgB8nBMEUVkNOfpQYHzho8pkdnjgbXgObSR+jxRQJvi66IXXwrBIG98zhDvDqAg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:23.740Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
