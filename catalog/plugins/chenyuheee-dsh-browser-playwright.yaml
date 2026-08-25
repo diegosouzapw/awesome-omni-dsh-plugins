@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: chenyuheee-dsh-browser-playwright
+name: dsh-browser-playwright
+description:
+  en: "Playwright-powered browser capability for DeepSeek Harness: accessibility-snapshot interaction with stable element refs, session-scoped browser sessions, screenshots as attachments."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - browser
+  - playwright
+  - web-automation
+  - agent
+source:
+  repository: https://github.com/ChenyuHeee/dsh-browser-playwright
+  repositoryNodeId: R_kgDOT4MEug
+  subpath: null
+  commit: 57ebe45fb906b6977312a0c7562d407faee4b449
+creator:
+  github: ChenyuHeee
+package:
+  ecosystem: npm
+  name: dsh-browser-playwright
+  version: 0.1.1
+  integrity: sha512-CRMlGzLs2QipIX5kraPWpmyOUGnkHZ1mf+7ySALrxH/ZrbZsTAgHKN1dBFlDudC/drmxQDj9a9N7HdzBaPbQ7w==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:20.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
