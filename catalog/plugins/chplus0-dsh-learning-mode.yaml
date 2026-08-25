@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: chplus0-dsh-learning-mode
+name: dsh-learning-mode
+description:
+  en: "DeepSeek Harness (DSH) bundle that self-installs the 学习模式 (Learning Mode) agent preset — a coding agent that teaches while coding: concrete scenario-grounded explanations, Socratic guidance, and TODO(你) practice blanks, modeled on Claude Code's Learning output style."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - learning-mode
+  - deepseek-harness
+  - claude-code
+  - tutor
+source:
+  repository: https://github.com/CHplus0/dsh-learning-mode
+  repositoryNodeId: R_kgDOT47gUw
+  subpath: plugin
+  commit: 716e88a35dff25c5dead1460c0d1fa954262874f
+creator:
+  github: CHplus0
+package:
+  ecosystem: npm
+  name: dsh-learning-mode
+  version: 0.1.1
+  integrity: sha512-bSI3AeKb/WKJu3uCcY13R6RLtMMQBBj+y298vI3Mn4YLlyg5UmecZsOiz1G92F/YM0QqhcNtqhzMKJr2vnjjxA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:39.329Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
