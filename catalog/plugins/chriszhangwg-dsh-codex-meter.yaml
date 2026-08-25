@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: chriszhangwg-dsh-codex-meter
+name: dsh-codex-meter
+description:
+  en: "Native DSH Settings → Usage page for DeepSeek API: balance, official token and cost analysis, trends, context warnings, and live API activity."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - codex
+  - meter
+  - balance
+  - tokens
+  - cost
+  - web
+source:
+  repository: https://github.com/ChrisZhangWG/dsh-codex-meter
+  repositoryNodeId: R_kgDOT586OQ
+  subpath: null
+  commit: 5f28607bbcebd9a77838386df9e0760c2d2be292
+creator:
+  github: ChrisZhangWG
+package:
+  ecosystem: npm
+  name: dsh-codex-meter
+  version: 1.2.2
+  integrity: sha512-d46GdCGRzTG5GZlhYY/2jaYK7EpSgqxlkbAQ7puHIpAlXnBEe7kYnr+1X9MFK2WFJr0v4XAqu+33s7uMtd2MvA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:39.417Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
