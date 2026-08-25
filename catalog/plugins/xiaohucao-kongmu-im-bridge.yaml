@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xiaohucao-kongmu-im-bridge
+name: kongmu-im-bridge
+description:
+  en: sh dsh plugin --profile web add kongmu-im kongmu-im-feishu -w
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - im-bridge
+  - feishu
+  - lark
+  - ai-agent
+  - remote-approval
+  - kongmu
+source:
+  repository: https://github.com/caoxiaohu7745-bot/kongmu-im-bridge
+  repositoryNodeId: R_kgDOT5TN2A
+  subpath: null
+  commit: 85b692e57e66defbde19109bd83ebac88113a751
+creator:
+  github: xiaohucao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:27.006Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
