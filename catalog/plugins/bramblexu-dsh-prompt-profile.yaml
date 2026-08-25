@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bramblexu-dsh-prompt-profile
+name: dsh-prompt-profile
+description:
+  en: Reusable prompt profiles with per-turn model selection for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - prompt-template
+  - model-profile
+  - dsh
+source:
+  repository: https://github.com/BrambleXu/dsh-prompt-profile
+  repositoryNodeId: R_kgDOT33qDA
+  subpath: null
+  commit: c205d44e88e64b5126fa2615a7122e684e3af7f5
+creator:
+  github: BrambleXu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:06.503Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
