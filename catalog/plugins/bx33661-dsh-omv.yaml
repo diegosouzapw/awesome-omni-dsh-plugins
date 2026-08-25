@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: bx33661-dsh-omv
+name: dsh-omv
+description:
+  en: "OMV Audit Desk: an evidence-first vulnerability audit workbench for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - security-audit
+  - vulnerability-research
+  - oh-my-vul
+  - dsh
+source:
+  repository: https://github.com/bx33661/dsh-omv
+  repositoryNodeId: R_kgDOT6CtpA
+  subpath: null
+  commit: e8d3e488ec8ba0223f48d0d65dc61e8f1fc203e3
+creator:
+  github: bx33661
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:13.199Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
