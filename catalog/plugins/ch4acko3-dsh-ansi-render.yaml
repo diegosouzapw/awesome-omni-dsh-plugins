@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ch4acko3-dsh-ansi-render
+name: "@ch4acko3/dsh-ansi-render"
+description:
+  en: Safe ANSI terminal output rendering service for DeepSeek Harness Web plugins
+  evidencePath: packages/ansi-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ansi
+  - terminal
+  - log-rendering
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/ansi-render
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-ansi-render"
+  version: 0.1.1
+  integrity: sha512-zCr0hUDKpzUZls5gP5IEFFRI3ykGXXE/cyZyAIsFU6ofVn+0F8fiOV7215mypuOJTIfMw6pJ6rZQVPAZDfKMiQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/ansi-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
