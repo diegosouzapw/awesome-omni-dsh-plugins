@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: bubbleptr-dsh-holdem
+name: dsh-holdem
+description:
+  en: "Six-max No-Limit Hold'em for DeepSeek Harness: one human and five LLM agents."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - texas-holdem
+  - poker
+source:
+  repository: https://github.com/BubblePtr/dsh-holdem
+  repositoryNodeId: R_kgDOT-aHoQ
+  subpath: null
+  commit: 7b7e8d90a748c236f3c27220b182c6c50d26a7c4
+creator:
+  github: BubblePtr
+package:
+  ecosystem: npm
+  name: dsh-holdem
+  version: 0.2.0
+  integrity: sha512-4DeS0qYppm8Ra69EVkRT+Ma6JRT+SGIQF0nbfitIekYnLl1EyAZgAmDDuKR53H2YnFA8j/S7H2hRHzo7fcf5Mw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:09.255Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
