@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: changingwang-dsh-stage-gate
+name: dsh-stage-gate
+description:
+  en: "Stage-gate governance tools for DeepSeek Harness: model-callable gate open / gate check / gate list / gate close for in-memory, per-session acceptance checks."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - stage-gate
+  - governance
+  - acceptance
+source:
+  repository: https://github.com/changingwang/dsh-stage-gate
+  repositoryNodeId: R_kgDOT58MFA
+  subpath: null
+  commit: e5f46123542c78d28823340651549f9b8f7a33b4
+creator:
+  github: changingwang
+package:
+  ecosystem: npm
+  name: dsh-stage-gate
+  version: 0.1.1
+  integrity: sha512-nSWfJNOP+gOiZCRR7ThUmF9aq+KSZqX4jDqO+sDWwGAt8Skpe5zwLPRaK2niDUvLF7QOjHN8VKl+xYrzOmi/IA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:15.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
