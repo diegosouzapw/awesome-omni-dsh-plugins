@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ch4acko3-dsh-shiki
+name: "@ch4acko3/dsh-shiki"
+description:
+  en: Shared Shiki engine service for DeepSeek Harness Web plugins
+  evidencePath: packages/shiki/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - shiki
+  - syntax-highlighting
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/shiki
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-shiki"
+  version: 0.1.1
+  integrity: sha512-yWj4N7VnvwWdgwGa08T3cIR70DS2rugkB5MzkoIrmOgZ1OiUfjtgT0iFTqRDbPdepkWwZHT1FzhySnV/Nc069Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/shiki/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
