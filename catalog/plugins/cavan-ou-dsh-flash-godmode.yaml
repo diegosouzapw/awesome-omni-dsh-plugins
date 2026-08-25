@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: cavan-ou-dsh-flash-godmode
+name: dsh-flash-godmode
+description:
+  en: "V4 Flash \"god mode\" for DeepSeek Harness: w7 persona anchoring + first-turn tool anchoring + complexity-dispatched guidance — turn Flash's unstable thinking into reproducible capability."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - flash
+  - godmode
+  - opencode-go
+  - dsh-plugin
+source:
+  repository: https://github.com/Cavan-Ou/dsh-flash-godmode
+  repositoryNodeId: R_kgDOT8ajwQ
+  subpath: null
+  commit: 394aaad0669f913eb5559c2cedf963b7f38aeda0
+creator:
+  github: Cavan-Ou
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:32.307Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
