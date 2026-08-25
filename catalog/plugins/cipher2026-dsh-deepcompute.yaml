@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: cipher2026-dsh-deepcompute
+name: dsh-deepcompute
+description:
+  en: help / shop / stats / era / save / export / import / reset [confirm]
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - help
+  - shop
+  - stats
+  - save
+  - export
+  - import
+  - reset
+  - confirm
+  - dsh
+source:
+  repository: https://github.com/cipher2026/dsh-idle-deepcompute
+  repositoryNodeId: R_kgDOT6zpwQ
+  subpath: null
+  commit: 09274a1f0feb4e258e3383268e0b0a1f6f4ca7dc
+creator:
+  github: cipher2026
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:44.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
