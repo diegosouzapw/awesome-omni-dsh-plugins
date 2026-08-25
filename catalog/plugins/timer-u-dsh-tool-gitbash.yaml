@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: timer-u-dsh-tool-gitbash
+name: dsh-tool-gitbash
+description:
+  en: 用于替代原生pwsh的gitbash Model-facing Git Bash tool for Windows (replaces pwsh/WSL-bash)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - pwsh
+  - gitbash
+  - model
+  - facing
+  - bash
+  - tool
+  - windows
+  - replaces
+  - dsh
+source:
+  repository: https://github.com/buhuikongpan/dsh-win-gitbash
+  repositoryNodeId: R_kgDOT4-tBg
+  subpath: null
+  commit: 113539ca62e904567756a3e227dc4010e8902d77
+creator:
+  github: Timer-u
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:56.756Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
