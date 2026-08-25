@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ck-epsilon-aura-vision
+name: aura-vision
+description:
+  en: "Aura Vision — free vision OCR plugin for DeepSeek Harness web profile: Zhipu GLM-4V-Flash (free tier), adaptive tile recognition for long documents, history with favorites and Markdown/Excel/Word/PNG export."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - ocr
+  - glm-4v
+source:
+  repository: https://github.com/Ck-epsilon/aura-vision
+  repositoryNodeId: R_kgDOT-CSrQ
+  subpath: null
+  commit: 88a274aeda65a89a31662db3680bab7144abb26c
+creator:
+  github: Ck-epsilon
+package:
+  ecosystem: npm
+  name: aura-vision
+  version: 1.0.2
+  integrity: sha512-PU8nV8J8jl4wMkYrRaju6bSbpZ4dcSTNuDE2V9S2la+dlcFtMEpZtxwMUINF09VAX8dwGQ/6bv5EF0M6dbukCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:45.867Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
