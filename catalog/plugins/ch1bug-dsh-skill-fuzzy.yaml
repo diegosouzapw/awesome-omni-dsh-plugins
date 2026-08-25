@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ch1bug-dsh-skill-fuzzy
+name: dsh-skill-fuzzy
+description:
+  en: "Codex-style fuzzy skill search for the DeepSeek Harness Web GUI: /bug, /diag, /regression all find diagnosing-bugs in the / skill menu."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - fuzzy
+  - skill
+  - search
+  - dsh
+source:
+  repository: https://github.com/ch1bug/dsh-skill-fuzzy
+  repositoryNodeId: R_kgDOT5Ji2A
+  subpath: null
+  commit: 1ece049595d140855d63e18d7e21ac237b127d7c
+creator:
+  github: ch1bug
+package:
+  ecosystem: npm
+  name: dsh-skill-fuzzy
+  version: 0.1.0
+  integrity: sha512-TRzGJvT3WK3I4uLw/cOMajoygCcFh5VdU2nEytKlVmM4rnoHfmBBgojyaGFEa47EWEFJrcSmVEuE/dFuWFtHgg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:47.024Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
