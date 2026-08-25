@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: caoyiwei850-dsh-ssh-ops
+name: dsh-ssh-ops
+description:
+  en: "SSH ops and database tools for DSH Web UI: connect to remote servers via SSH terminal/SFTP/tunnels, and connect to MySQL/PostgreSQL/Redis/MongoDB databases. Host half manages sessions with ssh2; client half renders the terminal and database panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - ssh
+  - terminal
+  - xterm
+  - ops
+  - sftp
+  - database
+  - mysql
+  - redis
+  - mongodb
+source:
+  repository: https://github.com/caoyiwei850/dsh-ssh-ops
+  repositoryNodeId: R_kgDOT5TyDw
+  subpath: null
+  commit: 262127b8e28f64267dbb3c85c4a8cb3e3a80c6f6
+creator:
+  github: caoyiwei850
+package:
+  ecosystem: npm
+  name: dsh-ssh-ops
+  version: 0.2.12
+  integrity: sha512-f3fZKgiyIkqSu8fz/4Kl0n4WKcus39ysHupCVKc03IeEyZRr95Bs8j3c+ULXJpbdT5t5fx/mfzDIxA7V6UOsjg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:53.266Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
