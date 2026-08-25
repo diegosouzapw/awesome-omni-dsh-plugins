@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: caoqinnan-web-organize-workspace-sessions
+name: organize-workspace-sessions
+description:
+  en: "DSH Skill for organizing DeepSeek Harness workspace sessions: rename them as 类别｜主题 and report archive/rename/judgment suggestions. ChatGPT supported; Claude not supported."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - agent-skills
+  - session-management
+  - workspace
+  - conversation-management
+source:
+  repository: https://github.com/caoqinnan-web/organize-workspace-sessions
+  repositoryNodeId: R_kgDOT4bb-w
+  subpath: null
+  commit: b99ccf2b74293ba20c1c9215e74710673fa815de
+creator:
+  github: caoqinnan-web
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:35.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
