@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: chengzhi43-dsh-file
+name: dsh-file
+description:
+  en: <p align="center" <a href="https://github.com/chengzhi43/dsh-file" GitHub</a · <a href=" installation" Installation</a · <a href=" themes" Theme import/export</a · <a href=" faq" FAQ</a · <a href="https://github.com/chengzhi43/dsh-file/issues" Issues</a · <a href="https://github.com/chengzhi43/dsh-file/releases" Releas
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - align
+  - center
+  - href
+  - chengzhi43
+  - file
+  - installation
+  - themes
+  - theme
+  - import
+  - export
+  - issues
+  - releases
+  - releas
+  - dsh
+source:
+  repository: https://github.com/chengzhi43/dsh-file
+  repositoryNodeId: R_kgDOT52cOQ
+  subpath: null
+  commit: 3ff26d055ad3453bbe04c779b2d9b21ae785ca0a
+creator:
+  github: chengzhi43
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:18.631Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
