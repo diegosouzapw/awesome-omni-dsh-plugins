@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ceilcelia-dsh-eli-mode
+name: dsh-eli-mode
+description:
+  en: Eli Mode is an agent preset for DeepSeek Harness (DSH) built around wiki-driven long-term memory and skills , on an extremely minimal Harness setup.
+  evidencePath: packages/eli-mode/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - agent
+  - preset
+  - knowledge-base
+  - wiki
+source:
+  repository: https://github.com/CeilCelia/dsh-eli-mode
+  repositoryNodeId: R_kgDOT5KsEQ
+  subpath: packages/eli-mode
+  commit: ce91cf781400daf33c4f9675e526cf41a27ad27c
+creator:
+  github: CeilCelia
+package:
+  ecosystem: npm
+  name: dsh-eli-mode
+  version: 0.1.10
+  integrity: sha512-CwRtQsXK2PoP/mGNbbTqLTYnhpV0PY/OeNXXoaODpyJlhLHzqS3/YUDZw21U9p44Rq1lnVVn4l7iLpdfZRI0eg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/eli-mode/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:42.475Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
