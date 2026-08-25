@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: causebefore-dsh-pomodoro
+name: dsh-pomodoro
+description:
+  en: A DeepSeek Harness Web Pomodoro plugin with configurable focus and break intervals, sidebar access, and a draggable floating panel
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - pomodoro
+  - productivity
+  - timer
+source:
+  repository: https://github.com/causebefore/dsh-pomodoro
+  repositoryNodeId: R_kgDOT3vThA
+  subpath: null
+  commit: 67b151943f3af1c23d19783a8b0b08a378e460cc
+creator:
+  github: causebefore
+package:
+  ecosystem: npm
+  name: dsh-pomodoro
+  version: 0.4.2
+  integrity: sha512-9HQSt2j5tzc3c1ZN0ochNwiW/+pTaP4CfTZMQqGmNA0vpyg5i8hxT8eSwFtOfycoXhe+W59S/f80Pf+5TWnIHw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:13.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
