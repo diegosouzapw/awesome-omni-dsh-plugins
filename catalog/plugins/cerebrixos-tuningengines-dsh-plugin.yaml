@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: cerebrixos-tuningengines-dsh-plugin
+name: tuningengines-dsh-plugin
+description:
+  en: Tuning Engines governance, trace export, and runtime intelligence for DeepSeek Harness.
+  evidencePath: packages/tuningengines-dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent-observability
+  - agent-governance
+  - tuning-engines
+  - dsh
+source:
+  repository: https://github.com/cerebrixos-org/tuning-engines-cli
+  repositoryNodeId: R_kgDORnVBVQ
+  subpath: packages/tuningengines-dsh-plugin
+  commit: 7cdfc8944c34fe23e2ddb882c82f805cbc0d6ece
+creator:
+  github: cerebrixos
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/tuningengines-dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:45.253Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
