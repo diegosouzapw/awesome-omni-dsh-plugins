@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: niejingchuan-dsh-bailinghub
+name: dsh-bailinghub
+description:
+  en: Use DeepSeek Harness to submit and follow governed business tasks through BailingHub.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - bailinghub
+  - mcp
+  - ai-agent-governance
+  - business-system-automation
+  - human-in-the-loop
+  - audit-trail
+  - self-hosted
+source:
+  repository: https://github.com/bailinghub/bailinghub-dsh-plugin
+  repositoryNodeId: R_kgDOT8FmCg
+  subpath: null
+  commit: e0b7ac83e0812be592206c183370106a52511405
+creator:
+  github: niejingchuan
+package:
+  ecosystem: npm
+  name: dsh-bailinghub
+  version: 0.1.1
+  integrity: sha512-e97xIZaxCkDNvfgYNEvYiYHy2IK/QelB+1SqTYSZPNHvPcZNIb88nTXSBuhJHGWI0BURfpH6mgE2g6tOJaTcjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:46.366Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
