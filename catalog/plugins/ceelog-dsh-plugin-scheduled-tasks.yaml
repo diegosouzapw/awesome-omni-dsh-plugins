@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: ceelog-dsh-plugin-scheduled-tasks
+name: "@opendsh/dsh-plugin-scheduled-tasks"
+description:
+  en: "DSH web plugin: per-project scheduled tasks with prompts, executed as headless agent sessions in the project directory, with durable run history"
+  evidencePath: src/plugins/dsh-plugin-scheduled-tasks/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - scheduled
+  - tasks
+  - prompts
+  - executed
+  - headless
+  - agent
+  - sessions
+  - directory
+  - durable
+  - history
+  - dsh
+source:
+  repository: https://github.com/Ceelog/dsh-plugins
+  repositoryNodeId: R_kgDOT4PyVw
+  subpath: src/plugins/dsh-plugin-scheduled-tasks
+  commit: 0fb761bed6b5068e3a997d26f1d4e9bad352c4be
+creator:
+  github: Ceelog
+package:
+  ecosystem: npm
+  name: "@opendsh/dsh-plugin-scheduled-tasks"
+  version: 0.2.2
+  integrity: sha512-C5JV3J/yBmhObv9Vn2O/JybQugM4+vrml/Y84xwOiIm3Vmv+R6O1x2uFkEwUcFYehRk4dX1vlyO5eISn3I/GYg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: src/plugins/dsh-plugin-scheduled-tasks/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:35.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
