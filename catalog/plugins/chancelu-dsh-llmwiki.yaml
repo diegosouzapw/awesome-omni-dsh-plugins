@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: chancelu-dsh-llmwiki
+name: dsh-llmwiki
+description:
+  en: Local Markdown wiki as long-term memory for DeepSeek Harness — ported from llmwiki
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - wiki
+  - obsidian
+  - rag
+  - agent
+  - dsh
+source:
+  repository: https://github.com/chancelu/dsh-llmwiki
+  repositoryNodeId: R_kgDOT3nzJA
+  subpath: null
+  commit: 9fe9479f976212fd8c8ae4673058a53376c4de2e
+creator:
+  github: chancelu
+package:
+  ecosystem: npm
+  name: dsh-llmwiki
+  version: 0.1.1
+  integrity: sha512-ZCOmK5JGomgvh18oOf7UgX5dI6z67V+vi/nXpQAerWSkaHn8nSE16ogM5Vs9OuYl7mlZJFvJuXzXdGpb4cfQhA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:37.600Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
