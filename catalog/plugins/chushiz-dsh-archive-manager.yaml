@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: chushiz-dsh-archive-manager
+name: "@chushiz/dsh-archive-manager"
+description:
+  en: "DSH profile-bundle plugin: browse archived sessions, restore (un-archive) one to continue the conversation, or hard-delete its on-disk JSONL log directory. Integrates into the Settings panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - profile
+  - bundle
+  - browse
+  - archived
+  - sessions
+  - restore
+  - archive
+  - continue
+  - conversation
+  - hard
+  - delete
+  - disk
+  - jsonl
+  - directory
+  - integrates
+  - settings
+source:
+  repository: https://github.com/ChuShiZ/dsh-archive-manager
+  repositoryNodeId: R_kgDOT-gQDQ
+  subpath: null
+  commit: 7fea39aadb9df7985699d606b5353b8e0a2c8364
+creator:
+  github: ChuShiZ
+package:
+  ecosystem: npm
+  name: "@chushiz/dsh-archive-manager"
+  version: 0.4.0
+  integrity: sha512-mPJe1UXKC1XvnAsZ83cUhAf4p0EBe+sQL/EC9FuJGhPzOYfGHkPHJ21o/BApXfq37jkg20ha026l+XFe/3w8gQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:26.068Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
