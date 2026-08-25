@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: chael-chael-dsh-reference-anything
+name: dsh-reference-anything
+description:
+  en: Reference locally mirrored ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi conversations from DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - reference
+  - locally
+  - mirrored
+  - chatgpt
+  - claude
+  - gemini
+  - grok
+  - kimi
+  - conversations
+  - dsh
+source:
+  repository: https://github.com/Chael-Chael/dsh-reference-anything
+  repositoryNodeId: R_kgDOT6D6CQ
+  subpath: null
+  commit: bfd7cc82303a068446e34dcb6cf7d1205064ab75
+creator:
+  github: Chael-Chael
+package:
+  ecosystem: npm
+  name: dsh-reference-anything
+  version: 0.3.1
+  integrity: sha512-X2Dn8mcndtCHpMoIJdWz5OlznNM0novl/xImpCrfXUo1Z61Nt6Y2t0usCVDfcTiM7mZ91GyhZznRzhusqieETg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:45:59.340Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
