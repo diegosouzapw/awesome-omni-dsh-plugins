@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: chuantianml-dsh-prompt-for-me
+name: dsh-prompt-for-me
+description:
+  en: Context-aware next-message suggestions for the DeepSeek Harness composer, always reviewed by the user before sending.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - prompt
+  - composer
+  - copilot
+source:
+  repository: https://github.com/ChuanTianML/prompt-for-me
+  repositoryNodeId: R_kgDOT50BWQ
+  subpath: null
+  commit: fed9aa42bf9a80aad1d239ffa632e1de9d8f93a9
+creator:
+  github: ChuanTianML
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:21.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
