@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: claude-dsh-plugin-mission-control
+name: dsh-plugin-mission-control
+description:
+  en: DeepSeek-Harness (dsh) plugin that streams sessions, turns, and tool activity to a JARVIS Mission Control board
+  evidencePath: integrations/deepseek-harness/dsh-plugin-mission-control/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - mission-control
+  - jarvis
+source:
+  repository: https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek
+  repositoryNodeId: R_kgDOT7znPw
+  subpath: integrations/deepseek-harness/dsh-plugin-mission-control
+  commit: e1098371bee137a5676ddd8e7b82b9b222a55bb8
+creator:
+  github: claude
+package:
+  ecosystem: npm
+  name: dsh-plugin-mission-control
+  version: 0.2.1
+  integrity: sha512-bjw79GBSvZQG/sQ41u0KgHQ3irdrA8KguLKVfNm6YUVwwI4/y8Viy/eTU+9Nx3IeUoLbjKuETxttxm+o1XFC4A==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: integrations/deepseek-harness/dsh-plugin-mission-control/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:36.427Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
