@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: cc19990113-dsh-plugin-codegraph
+name: dsh-plugin-codegraph
+description:
+  en: Structural code intelligence for DeepSeek Harness — gives the agent codegraph and codegraph index tools to find where a symbol is declared, what calls it, what a change reaches, and how one symbol reaches another, from a tree-sitter index it builds itself
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - cordis-plugin
+  - codegraph
+  - code-graph
+  - call-graph
+  - tree-sitter
+  - code-intelligence
+  - static-analysis
+  - ai-agent
+  - llm-tools
+  - agent-tools
+source:
+  repository: https://github.com/CC19990113/dsh-plugin-codegraph
+  repositoryNodeId: R_kgDOT6100w
+  subpath: packages/bundle
+  commit: ea1b9f70c640b063875d730524df45714d6b96bc
+creator:
+  github: CC19990113
+package:
+  ecosystem: npm
+  name: dsh-plugin-codegraph
+  version: 0.1.6
+  integrity: sha512-3oG0TmWuI0V16SA2vs2RCpxf3mJFeFrKrxxqa8wIpqgf3jtwMKvd7SgbwfKtX6YvkW0pUgTOIvn5wS9/1Rxlmw==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:34.203Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
