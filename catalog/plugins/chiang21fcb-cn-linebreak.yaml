@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: chiang21fcb-cn-linebreak
+name: cn-linebreak
+description:
+  en: "cn-linebreak is a static HTML auditor for Chinese line-breaking. It checks explicit- <br orphan lines, word-break: keep-all CSS coverage, CJK line-start/line-end punctuation rules (CLReq / GB-T 15834), protected-phrase splits, and long copy with no break points. In --fix mode it inserts <wbr at natural punctuation boun"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - chinese
+  - line-break
+  - typography
+  - html
+  - wbr
+  - cjk
+  - dsh
+  - dsh-plugin
+  - chinese-typography
+  - html-linter
+source:
+  repository: https://github.com/chiang21fcb/cn-linebreak
+  repositoryNodeId: R_kgDOT7FiuQ
+  subpath: null
+  commit: 983fc99a96fab6dd94104ea485b4e1cd354c3e2a
+creator:
+  github: chiang21fcb
+package:
+  ecosystem: npm
+  name: cn-linebreak
+  version: 0.2.0
+  integrity: sha512-2foU3BBEh3GXMTsw4epkIqUBLpDU8V3ScbnlWV8f/yFEoquOl5qVel4ya8oI7fPW7AiB9UefEbFvDopG2V21uA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:36.236Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
