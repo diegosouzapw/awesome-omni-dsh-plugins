@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chuantianml-dsh-local-share
+name: dsh-local-share
+description:
+  en: Local, privacy-first Markdown and self-contained HTML sharing for DeepSeek Harness sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - local-first
+  - session-export
+  - session-sharing
+  - markdown
+  - privacy
+  - dsh
+source:
+  repository: https://github.com/ChuanTianML/dsh-local-share
+  repositoryNodeId: R_kgDOT36gew
+  subpath: null
+  commit: 54ea15c7a76bb387f05a6811a5461852f2ea7ad6
+creator:
+  github: ChuanTianML
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:41.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
