@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: ceelog-dsh-plugin-setting-mcp
+name: "@opendsh/dsh-plugin-setting-mcp"
+description:
+  en: "DSH web plugin: manage MCP servers from the settings panel (view, edit, remove, enable/disable) with hot reload on save"
+  evidencePath: src/plugins/dsh-plugin-setting-mcp/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - manage
+  - servers
+  - settings
+  - panel
+  - view
+  - edit
+  - remove
+  - enable
+  - disable
+  - reload
+  - save
+  - dsh
+source:
+  repository: https://github.com/Ceelog/dsh-plugins
+  repositoryNodeId: R_kgDOT4PyVw
+  subpath: src/plugins/dsh-plugin-setting-mcp
+  commit: 0fb761bed6b5068e3a997d26f1d4e9bad352c4be
+creator:
+  github: Ceelog
+package:
+  ecosystem: npm
+  name: "@opendsh/dsh-plugin-setting-mcp"
+  version: 0.1.0
+  integrity: sha512-md69FzqHFva/HsJFXPVgB2AFl97xQoAwfhXJmdlPzhecHqUWeaKbggnt82SaKilOOQ4qjTxizqVF79759XFtaw==
+dsh:
+  profiles:
+    - web
+  evidencePath: src/plugins/dsh-plugin-setting-mcp/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:35.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
