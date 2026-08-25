@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: chplus0-dsh-shell-command
+name: dsh-shell-command
+description:
+  en: "DeepSeek Harness (DSH) plugin: a /! command trigger (run one command, analyze output, inspired by Claude Code's ! gesture) and a /terminal command (interactive PTY popup with on-demand history reference)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - shell
+  - command
+  - slash-command
+  - terminal
+  - claude-code
+source:
+  repository: https://github.com/CHplus0/dsh-shell-command
+  repositoryNodeId: R_kgDOT6OTFA
+  subpath: null
+  commit: 741bba45e5bf5f03e8c78b7fc907a4666ff8bc98
+creator:
+  github: CHplus0
+package:
+  ecosystem: npm
+  name: dsh-shell-command
+  version: 0.1.0
+  integrity: sha512-KaA6muSlpByrveTBDxfzHikdQfjn39bsDuAyD6kRDdUeIyK/KnAYHoKhPVjEPQxRNGr4K7+717hRJG0+umysrA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:01.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
