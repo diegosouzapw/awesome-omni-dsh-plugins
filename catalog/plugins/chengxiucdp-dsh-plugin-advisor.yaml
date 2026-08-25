@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: chengxiucdp-dsh-plugin-advisor
+name: dsh-plugin-advisor
+description:
+  en: sh dsh plugin --profile web add -w github:ChengxiuCDP/dsh-plugin-advisor
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - plugin-discovery
+  - recommendation
+source:
+  repository: https://github.com/ChengxiuCDP/dsh-plugin-advisor
+  repositoryNodeId: R_kgDOT6ApVQ
+  subpath: null
+  commit: 9ae58851ee1c18f4abb72f92f6bf7fcc093fe1e5
+creator:
+  github: ChengxiuCDP
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:16.994Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
