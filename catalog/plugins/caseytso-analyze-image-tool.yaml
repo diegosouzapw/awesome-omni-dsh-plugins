@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: caseytso-analyze-image-tool
+name: analyze-image-tool
+description:
+  en: "A vision bridge for text-only DeepSeek Harness models: registers an analyze image tool that answers questions about images via ANY OpenAI-compatible vision/multimodal endpoint (SiliconFlow, DashScope, Zhipu, OpenRouter, Ollama, ...)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - vlm
+  - image
+  - multimodal
+  - openai-compatible
+  - ocr
+source:
+  repository: https://github.com/CaseyTso/dsh-analyze-image-tool
+  repositoryNodeId: R_kgDOT4I4SA
+  subpath: null
+  commit: 8e2f431616e4a5adbf8bb54c54d016df883d4c70
+creator:
+  github: CaseyTso
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:30.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
