@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: cheng-cheng9669-dsh-cache-precision
+name: dsh-cache-precision
+description:
+  en: In-place three-decimal cache-hit percentage plus a widened composer stats line for DSH Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cache-hit
+  - token-usage
+source:
+  repository: https://github.com/Cheng-cheng9669/dsh-cache-precision
+  repositoryNodeId: R_kgDOT5Vs6g
+  subpath: null
+  commit: 70ef04a27b50b4b48764e792a6e21ca58afc8bda
+creator:
+  github: Cheng-cheng9669
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:46:15.239Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
