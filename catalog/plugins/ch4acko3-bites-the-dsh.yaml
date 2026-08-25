@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ch4acko3-bites-the-dsh
+name: "@ch4acko3/bites-the-dsh"
+description:
+  en: Read-only, scriptable session playback for the DeepSeek Harness WebUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session-replay
+  - time-travel
+source:
+  repository: https://github.com/CH4ACKO3/bites-the-dsh
+  repositoryNodeId: R_kgDOT90QLg
+  subpath: null
+  commit: 60ad536d2423e8dfd9a1501e30d6aac17c44eca4
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/bites-the-dsh"
+  version: 0.2.1
+  integrity: sha512-g+xDo2yBTRHEngHvdHGJikwcDkDXqVZvm6Non1WukKTTdMVdWWYADXJuBe/8XtZi1RjikOFHAjRKGjhk2XcDdQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:49.454Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
