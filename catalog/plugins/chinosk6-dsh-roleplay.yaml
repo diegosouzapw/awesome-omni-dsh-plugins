@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: chinosk6-dsh-roleplay
+name: dsh-roleplay
+description:
+  en: Role-play conversations, character-card authoring and image generation for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - roleplay
+  - character-card
+source:
+  repository: https://github.com/chinosk6/dsh-roleplay
+  repositoryNodeId: R_kgDOT4_i7Q
+  subpath: null
+  commit: 035a2bbc602a0c60ca38508cdffb9cb07dd6fb26
+creator:
+  github: chinosk6
+package:
+  ecosystem: npm
+  name: dsh-roleplay
+  version: 0.2.6
+  integrity: sha512-JTGwNAS5txT9pqQbzFsLnAu87BTqlAVLp/KqrWLPQtGWOAGjCwlujaMjYAvYjBXbqwaiI33vYhPLZoCcW0jt9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:47:21.682Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
