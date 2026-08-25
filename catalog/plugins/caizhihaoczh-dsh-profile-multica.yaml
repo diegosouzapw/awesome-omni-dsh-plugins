@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: caizhihaoczh-dsh-profile-multica
+name: dsh-profile-multica
+description:
+  en: Installable Multica JSONL bridge profile for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - multica
+  - agent
+  - dsh
+source:
+  repository: https://github.com/caizhihaoczh/dsh-profile-multica
+  repositoryNodeId: R_kgDOT8hhCg
+  subpath: null
+  commit: fd7bc2fcf0d52c52b6d12fc42790e34562d8b5af
+creator:
+  github: caizhihaoczh
+package:
+  ecosystem: npm
+  name: dsh-profile-multica
+  version: 0.1.0
+  integrity: sha512-Xe0dSjJ/A/bMw7Djg0ctdYr7W7MC+vr2ikAchRxOLJFbqtR/CnPSV/vclR/luLaGIGix9r1iXcPIyux2fZGEhg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:25.141Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
