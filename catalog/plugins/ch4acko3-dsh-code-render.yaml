@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ch4acko3-dsh-code-render
+name: "@ch4acko3/dsh-code-render"
+description:
+  en: Safe HTML code rendering service for DeepSeek Harness Web plugins
+  evidencePath: packages/code-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - code-rendering
+  - syntax-highlighting
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/code-render
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-code-render"
+  version: 0.1.1
+  integrity: sha512-p8TOIeQbZxEyOFYEawFJyMdiUbCN2pIPq4Dv/lh5kD5b3h6xhvTmcN2UQtt/qYOvRAvQ03hb5VLeXy870LMZYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/code-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
