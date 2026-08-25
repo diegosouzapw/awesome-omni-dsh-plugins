@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: chouyong-dsh-fork-diff
+name: dsh-fork-diff
+description:
+  en: Read-only side-by-side comparison for related DeepSeek Harness conversation forks.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - conversation
+  - fork
+  - diff
+source:
+  repository: https://github.com/chouyong/dsh-fork-diff
+  repositoryNodeId: R_kgDOT55kLQ
+  subpath: null
+  commit: 573b980623fe74a42b61dd85a49c12c84faabe2a
+creator:
+  github: chouyong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:49:37.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
