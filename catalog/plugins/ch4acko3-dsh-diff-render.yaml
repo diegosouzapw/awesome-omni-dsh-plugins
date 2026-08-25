@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ch4acko3-dsh-diff-render
+name: "@ch4acko3/dsh-diff-render"
+description:
+  en: Syntax-highlighted HTML diff rendering service for DeepSeek Harness Web plugins
+  evidencePath: packages/diff-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - diff
+  - diff-rendering
+  - syntax-highlighting
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/diff-render
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-diff-render"
+  version: 0.1.2
+  integrity: sha512-GIakvjiBdce1qmI6Juh2SXsHk6p6nSecvoVR6GGoW6i7kwsAuBYFgs+KO/vtDQ3HP7BjQqe4+m6TXHDS68JVpw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/diff-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
