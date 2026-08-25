@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ch4acko3-dsh-render-engine-integration
+name: "@ch4acko3/dsh-render-engine-integration"
+description:
+  en: Browser integration probe for the DSH Render Engine monorepo
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - browser
+  - integration
+  - probe
+  - render
+  - engine
+  - monorepo
+  - dsh
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: integration/consumer
+  commit: 8401d60319cc256b73167e14460c12cec647db4f
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: integration/consumer/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-24T23:48:51.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
