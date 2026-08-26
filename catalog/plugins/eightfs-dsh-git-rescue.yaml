@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: eightfs-dsh-git-rescue
+name: dsh-git-rescue
+description:
+  en: Agent 工具 ： git rescue status / git rescue init / git rescue backup / git rescue log / git rescue rollback / git rescue push / git rescue restart / git rescue repair / git rescue rescue env / git rescue boot autostart / git rescue link recovery
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - rescue
+  - status
+  - init
+  - backup
+  - rollback
+  - push
+  - restart
+  - repair
+  - boot
+  - autostart
+  - link
+  - recovery
+  - dsh
+source:
+  repository: https://github.com/EIGHTfs/dsh-git-rescue
+  repositoryNodeId: R_kgDOT_fhKQ
+  subpath: null
+  commit: 151618459d4144b8739c5eabead0954e57069579
+creator:
+  github: EIGHTfs
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:01.589Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
