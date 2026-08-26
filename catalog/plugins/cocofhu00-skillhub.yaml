@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: cocofhu00-skillhub
+name: "@cocofhu/skillhub"
+description:
+  en: sh dsh plugin --profile web add @cocofhu/skillhub
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skillhub
+  - skills
+source:
+  repository: https://github.com/cocofhu/skillhub
+  repositoryNodeId: R_kgDOT5giJg
+  subpath: null
+  commit: d9ea8c39fadc2737d04f178fce8420c4c6407f47
+creator:
+  github: cocofhu00
+package:
+  ecosystem: npm
+  name: "@cocofhu/skillhub"
+  version: 0.2.13
+  integrity: sha512-/1G/Sn6uoP3S5SPLHyt675XAouFIAXvu2JEL8vV6tUmDvL1IB1RH33Nbcc2taa/AIrJxXfUxUAlo8+slCMdBqw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:23.791Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
