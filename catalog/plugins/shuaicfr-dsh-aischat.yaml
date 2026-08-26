@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: shuaicfr-dsh-aischat
+name: dsh-aischat
+description:
+  en: bash pnpm install 或复用已有 node modules（frontend 下） node scripts/build.mjs 产出 lib/index.js + lib/client.js
+  evidencePath: dsh-aischat/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - aischat
+  - chat
+source:
+  repository: https://github.com/Coprexist/AIsChat
+  repositoryNodeId: R_kgDOS6BGrQ
+  subpath: dsh-aischat
+  commit: 8bd90c9a36e9bc196fadc25deaac21fd230119e8
+creator:
+  github: ShuAICFR
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-aischat/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:16.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
