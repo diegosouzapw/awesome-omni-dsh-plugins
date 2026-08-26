@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: cyphernaught-0x-dsh-subagent-model-router
+name: dsh-subagent-model-router
+description:
+  en: Model-selectable subagents and guided model routing setup for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - subagent
+  - model-routing
+source:
+  repository: https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router
+  repositoryNodeId: R_kgDOT7waCw
+  subpath: null
+  commit: d2c04c2634ad4047e7b9b419cdf43eab8f4a9172
+creator:
+  github: CypherNaught-0x
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:24.715Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
