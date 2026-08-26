@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dominic789654-dsh-research-loop
+name: dsh-research-loop
+description:
+  en: "Auto-research loop for DeepSeek Harness: a durable research log tool (append-only JSONL per topic) plus a skill that drives a plan → search → read → synthesize loop with explicit stop conditions."
+  evidencePath: plugins/dsh-research-loop/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - auto
+  - research
+  - loop
+  - durable
+  - tool
+  - append
+  - only
+  - jsonl
+  - topic
+  - plus
+  - skill
+  - drives
+  - plan
+  - search
+  - read
+  - synthesize
+source:
+  repository: https://github.com/Dominic789654/awesome-deepseek-harness
+  repositoryNodeId: R_kgDOT3adrQ
+  subpath: plugins/dsh-research-loop
+  commit: 43a625cb31e8197354ddfcc93a9e65eb37e55f2c
+creator:
+  github: Dominic789654
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-research-loop/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:23.247Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
