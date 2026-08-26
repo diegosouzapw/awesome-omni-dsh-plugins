@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: eighthundreds-dsh-plannotator
+name: dsh-plannotator
+description:
+  en: Opens the official Plannotator app to review the agent's plan — annotate, approve, or send it back.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - plannotator
+  - plan-review
+  - cordis
+source:
+  repository: https://github.com/eightHundreds/dsh-plannotator
+  repositoryNodeId: R_kgDOT7LsUA
+  subpath: null
+  commit: 372c19fd39a9cb427170ecf944c1278a6751f144
+creator:
+  github: eightHundreds
+package:
+  ecosystem: npm
+  name: dsh-plannotator
+  version: 0.2.0
+  integrity: sha512-oTE2ij7xQ6t7rCfqzPx+x0SISTg7iiGlvD/HR+PlqRPjjV8mKyvOw7jrDoS3sMxdtBG5bGPaxxZzDRjLqnRbiA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT OR Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:03.843Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
