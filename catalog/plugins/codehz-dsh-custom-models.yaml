@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: codehz-dsh-custom-models
+name: dsh-custom-models
+description:
+  en: DSH custom model providers with per-model reasoning defaults and settings UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - custom
+  - model
+  - providers
+  - reasoning
+  - defaults
+  - settings
+  - dsh
+source:
+  repository: https://github.com/codehz/dsh-custom-models
+  repositoryNodeId: R_kgDOT4Yfeg
+  subpath: null
+  commit: e83ac606dcc1d12394e272b061a0cdc44011502f
+creator:
+  github: codehz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:11.659Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
