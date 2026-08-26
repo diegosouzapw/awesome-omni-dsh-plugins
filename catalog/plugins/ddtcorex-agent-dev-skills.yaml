@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ddtcorex-agent-dev-skills
+name: "@ddtcorex/agent-dev-skills"
+description:
+  en: Magento 2 development skills (8) with Govard/Laravel environment tooling (3), packaged as a Cordis plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - magento
+  - development
+  - skills
+  - govard
+  - laravel
+  - environment
+  - tooling
+  - packaged
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/ddtcorex/maestro-skills
+  repositoryNodeId: R_kgDOSnK4Jw
+  subpath: null
+  commit: aedbc8f0267fa3b56cafea68a68a27e873b46796
+creator:
+  github: ddtcorex
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:53.745Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
