@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: dominic789654-dsh-slides
+name: dsh-slides
+description:
+  en: "Slide-deck generation for DeepSeek Harness: slides generate turns a markdown outline into a self-contained reveal.js HTML deck in the active workspace."
+  evidencePath: plugins/dsh-slides/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - slide
+  - deck
+  - generation
+  - slides
+  - generate
+  - turns
+  - markdown
+  - outline
+  - self
+  - contained
+  - reveal
+  - html
+  - active
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/Dominic789654/awesome-deepseek-harness
+  repositoryNodeId: R_kgDOT3adrQ
+  subpath: plugins/dsh-slides
+  commit: 43a625cb31e8197354ddfcc93a9e65eb37e55f2c
+creator:
+  github: Dominic789654
+package:
+  ecosystem: npm
+  name: dsh-slides
+  version: 0.1.0
+  integrity: sha512-Jz3ukMIBGRrnG9qj71dbLyGbWpJSQZkH+OV1RM5wyu1K0PUJAVoxMhD2IDFFq5o9GAtAmQHTkLsAtRy5cixQ8A==
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-slides/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:23.247Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
