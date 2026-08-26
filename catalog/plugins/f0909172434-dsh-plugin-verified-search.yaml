@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: f0909172434-dsh-plugin-verified-search
+name: dsh-plugin-verified-search
+description:
+  en: Verified current-source search workflow for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - web-search
+  - freshness
+  - dsh
+source:
+  repository: https://github.com/f0909172434/dsh-plugin-verified-search
+  repositoryNodeId: R_kgDOT3sYig
+  subpath: null
+  commit: 928012033c9da4eb01b4b8f8f701786980d3e75e
+creator:
+  github: f0909172434
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:48.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
