@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ウェブサイトですべてのプラグインを閲覧・検索・インストール →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-779_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-877_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@
 
 ## カタログの状況
 
-**779件のプラグインがマージ済み。** すべてのプラグインは、固定されたソースコミットと明示的なクレジットとともに、元のクリエイターのリポジトリから、1件ずつ個別にレビューされたプルリクエストを通じて登録されます。
+**877件のプラグインがマージ済み。** すべてのプラグインは、固定されたソースコミットと明示的なクレジットとともに、元のクリエイターのリポジトリから、1件ずつ個別にレビューされたプルリクエストを通じて登録されます。
 
 ## 🚀 CLIをインストール
 
@@ -287,4 +287,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 3cc65d072a23c9ec7a757feb157491d784c11fd3ab32a959bb06dfa1637d9f12 -->
+<!-- i18n-source-hash: b40d0d0c84b2bf9e2c7726942f36527572333d0b7a5cb86d91e31e8a18c67284 -->
