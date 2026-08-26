@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: damonkoy-dsh-memories
+name: dsh-memories
+description:
+  en: Project-scoped memory system for DeepSeek Harness. Inspired by Codex 0.145/0.146 memories (persisted names, project-scoped memories, efficient resume).
+  evidencePath: packages/dsh-memories/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - memory
+  - persistence
+source:
+  repository: https://github.com/DamonKoy/dsh-plugins
+  repositoryNodeId: R_kgDOT5YuGg
+  subpath: packages/dsh-memories
+  commit: 48110ca2779b59d36edec46c8aff97b6a50322aa
+creator:
+  github: DamonKoy
+package:
+  ecosystem: npm
+  name: dsh-memories
+  version: 0.1.0
+  integrity: sha512-sXNXtTZkQVMBTJhaXfdSfdjldL3EjFi39S8eI7cDxk1mN+ChH43LIY6hJ7NHy3RhUjyFA/iHMN4RSVyQ8p7uKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-memories/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:27.198Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
