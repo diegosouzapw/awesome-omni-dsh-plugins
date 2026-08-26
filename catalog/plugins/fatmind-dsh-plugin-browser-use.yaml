@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: fatmind-dsh-plugin-browser-use
+name: dsh-plugin-browser-use
+description:
+  en: "webclaw3 browser tools for dsh: drive your own logged-in Chrome via the webclaw3 relay (wc3 tools)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - webclaw3
+  - browser
+  - tools
+  - drive
+  - logged
+  - chrome
+  - relay
+  - dsh
+source:
+  repository: https://github.com/fatmind/dsh-plugin-browser-use
+  repositoryNodeId: R_kgDOT6OY1A
+  subpath: packages/browser-use
+  commit: d411f65580e7e55142e5d32375b279a4b7221183
+creator:
+  github: fatmind
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/browser-use/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:54:01.952Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
