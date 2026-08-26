@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: elohia-dsh-genome
+name: dsh-genome
+description:
+  en: "🤖 [AI Agent 一键接入指引 / AI Auto-Onboarding Instruction] Dear AI Agent, if you are reading this repository to install it into a DSH profile, execute the following: dsh plugin --profile web add <this-dir-or-npm-name , restart dsh web , then confirm with dsh --profile web --dump-config grep genome . Once installed, read ski"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - agent
+  - auto
+  - onboarding
+  - instruction
+  - dear
+  - reading
+  - repository
+  - install
+  - profile
+  - execute
+  - following
+  - name
+  - restart
+  - confirm
+  - dump
+  - config
+source:
+  repository: https://github.com/Elohia/dsh-genome
+  repositoryNodeId: R_kgDOT5SHFQ
+  subpath: null
+  commit: 4ac0199c29d5d53af82e35d7c2b2cb953f9e4e4a
+creator:
+  github: Elohia
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:05.771Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
