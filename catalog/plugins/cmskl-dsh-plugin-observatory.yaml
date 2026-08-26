@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: cmskl-dsh-plugin-observatory
+name: dsh-plugin-observatory
+description:
+  en: Independent DSH plugin compatibility audit and bounded Loader lifecycle observation
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - independent
+  - compatibility
+  - audit
+  - bounded
+  - loader
+  - lifecycle
+  - observation
+  - dsh
+source:
+  repository: https://github.com/CMSKL/dsh-plugin-observatory
+  repositoryNodeId: R_kgDOT6qUZQ
+  subpath: null
+  commit: 3fc8f9aeda53e292774a7826338d39504bec97ba
+creator:
+  github: CMSKL
+package:
+  ecosystem: npm
+  name: dsh-plugin-observatory
+  version: 0.1.0
+  integrity: sha512-1LncuNot4JLoL67U36637Y34C21PzfeTQ/pLMBWfIw7ecCZQaCLECvput7P7FdpnWDO15QfACH2QUCyWeqbmdg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:14.289Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
