@@ -16,7 +16,7 @@ Penemuan mengutamakan pencipta dan pemasangan satu-arahan untuk pemalam **DeepSe
   <a href="https://dsh-plugins.omniroute.online">Layari, cari dan pasang setiap pemalam di laman web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-877_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-974_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -122,7 +122,7 @@ digunakan oleh kedua-duanya.
 
 ## Status katalog
 
-**877 pemalam digabungkan.** Setiap pemalam masuk melalui satu pull request yang disemak
+**974 pemalam digabungkan.** Setiap pemalam masuk melalui satu pull request yang disemak
 secara individu, satu demi satu, daripada repositori asal pencipta, dengan komit sumber
 yang dipasak dan atribusi yang jelas.
 
@@ -341,4 +341,4 @@ Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs
 
 </div>
 
-<!-- i18n-source-hash: b40d0d0c84b2bf9e2c7726942f36527572333d0b7a5cb86d91e31e8a18c67284 -->
+<!-- i18n-source-hash: 700f8a84d15b2a127f49b4eecfb0458b69f18ee4635aada00da6a451e4100da8 -->
