@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: d-ouyang-dsh-plugin-ascension
+name: dsh-plugin-ascension
+description:
+  en: A Wang Lin cultivation companion floating in the dsh web UI. It watches the LLM session state in real time and drives animations (thinking = hand seals, tool = casting, replying = calligraphy, done = breakthrough leap, failed = injured), and levels up as you work (Qi Refining → Foundation → Core → Nascent Soul → Spirit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - pet
+  - cultivation
+  - xianxia
+  - wang-lin
+  - ascension
+  - session-monitor
+source:
+  repository: https://github.com/d-ouyang/dsh-plugin-ascension
+  repositoryNodeId: R_kgDOT7oA4g
+  subpath: null
+  commit: 3e9e72bf7bdf59b45d8a616a198210993c40010e
+creator:
+  github: d-ouyang
+package:
+  ecosystem: npm
+  name: dsh-plugin-ascension
+  version: 0.2.0
+  integrity: sha512-04UM92U+qdPCeacBevCD8Lc2+jKZSpODF3ZSddAKuuyvOkDT3temQxBDGGJenst7J86RT+mvG43eGCYkrcKgUA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:23.146Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
