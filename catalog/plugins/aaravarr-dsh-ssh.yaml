@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: aaravarr-dsh-ssh
+name: "@dsh-ssh/dsh-ssh"
+description:
+  en: "SSH remote workspace for DeepSeek Harness: ssh2 connection pool, host settings, and routed bash/fs/search tools"
+  evidencePath: packages/dsh-ssh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - remote
+  - workspace
+  - ssh2
+  - connection
+  - pool
+  - host
+  - settings
+  - routed
+  - bash
+  - search
+  - tools
+  - dsh
+source:
+  repository: https://github.com/dsh-ssh/dsh-ssh
+  repositoryNodeId: R_kgDOT5grag
+  subpath: packages/dsh-ssh
+  commit: 77fa7de1827120645047c1844a0d0f934fd1e63a
+creator:
+  github: aaravarr
+package:
+  ecosystem: npm
+  name: "@dsh-ssh/dsh-ssh"
+  version: 0.1.2
+  integrity: sha512-kTNNTZA2Z8HD5i2kk3qeCrf6u7cKCogySZRAghdDb0P5jZaHb4QwA1MhmqyqhiwzHept+WvKMxAQboeODIPJYw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-ssh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:50.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
