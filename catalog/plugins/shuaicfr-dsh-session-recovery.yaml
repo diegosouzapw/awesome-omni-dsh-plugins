@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: shuaicfr-dsh-session-recovery
+name: dsh-session-recovery
+description:
+  en: Recover deleted/corrupted dsh sessions (session.jsonl.zstd) and memory (memory.db) straight from the raw disk. Battle-tested recovery manual + scripts + a /session-repair command plugin for the dsh web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session-recovery
+  - data-recovery
+  - zstd
+  - sqlite
+  - forensics
+source:
+  repository: https://github.com/Coprexist/dsh-session-recovery
+  repositoryNodeId: R_kgDOT6LxvQ
+  subpath: null
+  commit: 4f8b877fdc23e982c4e0d452e447b44bdd78b36e
+creator:
+  github: ShuAICFR
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:18.786Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
