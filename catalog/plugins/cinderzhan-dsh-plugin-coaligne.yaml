@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: cinderzhan-dsh-plugin-coaligne
+name: dsh-plugin-coaligne
+description:
+  en: CoAligne workflow skill installer for DeepSeek Harness; requires CoAligne Desktop (signed in) to provide the MCP connection the skill depends on
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - mcp
+  - skill
+  - collaboration
+  - coaligne
+source:
+  repository: https://github.com/dataelement/dsh-plugin-coaligne
+  repositoryNodeId: R_kgDOT8I5cA
+  subpath: null
+  commit: d438ba324eb1efde553926a1c47f62053992b646
+creator:
+  github: cinderzhan
+package:
+  ecosystem: npm
+  name: dsh-plugin-coaligne
+  version: 0.1.2
+  integrity: sha512-LL9aMJbVfSh3YPopwUk9Vvd9s+YMW67W7F7UFfXNQvf2WdalcooijM8D1Q5QFSlQwLD0nQU9gRah3fE64uFVZQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:12.357Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
