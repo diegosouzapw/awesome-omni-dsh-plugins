@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: elohia-dsh-plugin-image-input
+name: dsh-plugin-image-input
+description:
+  en: sh dsh plugin --profile web add D:\path\to\dsh-plugin-image-input
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - profile
+  - path
+  - image
+  - input
+  - dsh
+source:
+  repository: https://github.com/Elohia/dsh-plugin-image-input
+  repositoryNodeId: R_kgDOT48LRA
+  subpath: null
+  commit: a96667f6b1445322892ae52d9c9e6c210300b0ec
+creator:
+  github: Elohia
+package:
+  ecosystem: npm
+  name: dsh-plugin-image-input
+  version: 0.1.1
+  integrity: sha512-pUXVpaVU3lr4N/WLsMtdLe3WUG6AZbmSUx9vY9zhqY8JbNW40roUS/iQP+y8omheQnDGPqACDalUl5li9QiYEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:05.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
