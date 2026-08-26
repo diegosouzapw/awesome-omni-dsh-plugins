@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: dhicoc-dsh-theme-mineradio
+name: dsh-theme-mineradio
+description:
+  en: "Mineradio: a cinematic private-visual-radio glass theme for the Web surface — champagne glow, fluid or wallpaper backdrop, unified corners, and motion"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - mineradio
+  - cinematic
+  - private
+  - visual
+  - radio
+  - glass
+  - theme
+  - surface
+  - champagne
+  - glow
+  - fluid
+  - wallpaper
+  - backdrop
+  - unified
+  - corners
+  - motion
+source:
+  repository: https://github.com/dhicoc/dsh-theme-mineradio
+  repositoryNodeId: R_kgDOT7EPfg
+  subpath: null
+  commit: cb6bf301cf756c0b59f2acb325a539c2eac85027
+creator:
+  github: dhicoc
+package:
+  ecosystem: npm
+  name: dsh-theme-mineradio
+  version: 2.0.1
+  integrity: sha512-CVBVH32PgGsSljckurp0V4XfFpIYa9OP63WifAH3NBLAPFqvFXV7motjVrjtuuuI/jYQKkcI5Tacqus9KdYtwg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:36.443Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
