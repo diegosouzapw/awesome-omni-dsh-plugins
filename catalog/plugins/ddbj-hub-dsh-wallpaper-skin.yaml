@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ddbj-hub-dsh-wallpaper-skin
+name: dsh-wallpaper-skin
+description:
+  en: "Persistent wallpaper skin for the dsh web profile: static image or muted looping video as the app background, with translucent panels. The path is editable live from Settings → Plugins."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wallpaper
+  - skin
+  - theme
+source:
+  repository: https://github.com/ddbj-hub/dsh-wallpaper-skin
+  repositoryNodeId: R_kgDOT4KHDw
+  subpath: null
+  commit: 75bd37fe0846a676b05d0cf0d816cf7f9b04c3c7
+creator:
+  github: ddbj-hub
+package:
+  ecosystem: npm
+  name: dsh-wallpaper-skin
+  version: 1.4.1
+  integrity: sha512-poQt1pnObgmPHubQSM9PaKj2p+blyQRhrsAB26p9qnkaKpRHUz1Or11m+7Idr+b4x+UhoKXpYQCd5ic6dEGdPg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:51.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
