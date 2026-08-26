@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: gu-zt-dsh-thought-buddy
+name: "@dsh-plugin/dsh-thought-buddy"
+description:
+  en: A DeepSeek Harness Web plugin that puts a dynamic little buddy — a GrokBot-style animated avatar with a synchronized typewriter status line — right in front of the "Deep diving..." indicator.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deep-diving
+  - grokbot
+  - avatar
+  - emoji
+source:
+  repository: https://github.com/dsh-plugins/dsh-thought-buddy
+  repositoryNodeId: R_kgDOT4-99g
+  subpath: null
+  commit: 3fcc172a38e1567a190ff644c581ff5ba4c8472a
+creator:
+  github: Gu-ZT
+package:
+  ecosystem: npm
+  name: "@dsh-plugin/dsh-thought-buddy"
+  version: 0.2.0
+  integrity: sha512-revaKFPIowUWgQkdJdA/k61AWj62N18tp8spb1kupiu5g9q5rmklB+JhJQEruU/LREkaIJ8g98ASm31szd9dtg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:58.239Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
