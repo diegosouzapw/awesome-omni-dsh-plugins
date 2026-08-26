@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: wha1echai-dsh-gateway-pack
+name: "@dshapps/dsh-gateway-pack"
+description:
+  en: One-install DSH Bundle for dsh-gateway
+  evidencePath: packages/pack/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - install
+  - bundle
+  - gateway
+  - dsh
+source:
+  repository: https://github.com/dshapps/dsh-gateway
+  repositoryNodeId: R_kgDOT4MBPQ
+  subpath: packages/pack
+  commit: 362ab9d4e944c2d488b8bfe89535531278370abf
+creator:
+  github: Wha1eChai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/pack/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:52.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
