@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: eligahyu-deepseek-harness-sentinel
+name: deepseek-harness-sentinel
+description:
+  en: Read-only security, supply-chain, and health scanner for DeepSeek Harness plugins
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - security
+  - scanner
+  - audit
+  - supply-chain
+  - static-analysis
+  - cordis
+source:
+  repository: https://github.com/Eligahyu/dsh-sentinel-scanner
+  repositoryNodeId: R_kgDOT7ZuCg
+  subpath: null
+  commit: 3211c3e991f2105fc2ccf49a459604af2835d7db
+creator:
+  github: Eligahyu
+package:
+  ecosystem: npm
+  name: deepseek-harness-sentinel
+  version: 0.4.3
+  integrity: sha512-DgQAW1+lQqFPvAv40BYizdV7vibeMXaqAUwZkJyjk0kQL1+jOoEiz0+Lpt6P2hJo6xRV9T/Go6PPNIN2DsBo1A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:05.796Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
