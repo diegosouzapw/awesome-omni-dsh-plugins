@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: fantasality-dsh-origin-plugin
+name: dsh-origin-plugin
+description:
+  en: "Drive Origin scientific plotting from DeepSeek Harness AI chat via MCP - 28 tools, styled multi-series plots, inline image preview, statistics batch (t/ANOVA/PCA/survival), stable error codes. Market-safe bundle: self-locating server path, fail-open startup, mcp-client dependency, sync stdio transport (no anyio/event-l"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+  - origin
+  - originpro
+  - scientific-plotting
+  - data-visualization
+  - cordis
+source:
+  repository: https://github.com/Fantasality/dsh-origin-plugin
+  repositoryNodeId: R_kgDOT5WWng
+  subpath: null
+  commit: 398268b42f72d6b46e9dbc77cb86b26ef14a4541
+creator:
+  github: Fantasality
+package:
+  ecosystem: npm
+  name: dsh-origin-plugin
+  version: 2.0.6
+  integrity: sha512-eFjVrS4efPUMPB+xVdOxQo6MWwnVplWSTDEwtTbN1yVhb/gtWnalZOdTRhfpaOODR1Kk8E1eyL9kM4/ovTKM7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:07.869Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
