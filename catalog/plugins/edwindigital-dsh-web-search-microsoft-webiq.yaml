@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: edwindigital-dsh-web-search-microsoft-webiq
+name: "@edwindigital/dsh-web-search-microsoft-webiq"
+description:
+  en: Microsoft Web IQ search provider and configuration card for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - microsoft-web-iq
+  - dsh
+source:
+  repository: https://github.com/EdwinDigital/dsh-web-search-microsoft-webiq
+  repositoryNodeId: R_kgDOT8b7QA
+  subpath: null
+  commit: 40d8cc7703a72844cd7b1644105b45e722c4e47b
+creator:
+  github: EdwinDigital
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:59.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
