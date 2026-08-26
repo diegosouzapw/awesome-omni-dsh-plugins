@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: damonkoy-dsh-usage-cost
+name: dsh-usage-cost
+description:
+  en: "Usage and cost tracking plugin for DeepSeek Harness, inspired by Codex 0.144's \"usage limit\" credits reminder: watch every model call and keep a running token/cost tally, with warnings before the budget runs out."
+  evidencePath: packages/dsh-usage-cost/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - usage
+  - cost
+  - tokens
+  - budget
+  - billing
+source:
+  repository: https://github.com/DamonKoy/dsh-plugins
+  repositoryNodeId: R_kgDOT5YuGg
+  subpath: packages/dsh-usage-cost
+  commit: 48110ca2779b59d36edec46c8aff97b6a50322aa
+creator:
+  github: DamonKoy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-usage-cost/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:27.198Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
