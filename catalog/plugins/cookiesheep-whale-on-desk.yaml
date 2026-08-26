@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: cookiesheep-whale-on-desk
+name: whale-on-desk
+description:
+  en: A pixel-art whale desktop companion for DeepSeek Harness — it swims while your agents work and taps the glass when an approval is waiting.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+  - web-ui
+  - cordis
+source:
+  repository: https://github.com/cookiesheep/whale-on-desk
+  repositoryNodeId: R_kgDOT6A-KA
+  subpath: null
+  commit: d50a2e45eddcb6cd1483820f9c4c1e8991913581
+creator:
+  github: cookiesheep
+package:
+  ecosystem: npm
+  name: whale-on-desk
+  version: 3.0.0
+  integrity: sha512-g5KIb8OS7Pc8tn/er0lmba8BVpEeTgwY3qIrnAuyHdFBSfYoxcd8sTHnXgkYy+RaWQrYLRBccoo9K8KB9SEBUA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:44.473Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
