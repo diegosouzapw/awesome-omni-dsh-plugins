@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: doncelee229-cmyk-dsh-plugin-approval-alert
+name: dsh-plugin-approval-alert
+description:
+  en: DeepSeek Harness 审批提醒插件 · Approval Alert for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - approval
+  - notification
+  - alert
+  - web-notifications
+  - workspace
+source:
+  repository: https://github.com/doncelee229-cmyk/dsh-plugin-approval-alert
+  repositoryNodeId: R_kgDOT4XLKA
+  subpath: null
+  commit: 8c25a602ef9aabc61f886714b443ba9ce7831c77
+creator:
+  github: doncelee229-cmyk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:38.562Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
