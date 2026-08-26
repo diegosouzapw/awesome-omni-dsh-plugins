@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: duyanta123-dsh-data-insight
+name: dsh-data-insight
+description:
+  en: "DSH (DeepSeek Harness) data-insight skill plugin: turn raw data (CSV / pasted table / SQL results / DuckDB) into a structured Markdown report with business conclusions, metrics and charts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - data-analysis
+  - data-insight
+  - analytics
+  - report
+  - csv
+  - duckdb
+  - skills
+source:
+  repository: https://github.com/duyanta123/dsh-data-insight
+  repositoryNodeId: R_kgDOT59UoA
+  subpath: null
+  commit: 7f0195f832b5eb64e56d6208f3ec4d3cf973dcce
+creator:
+  github: duyanta123
+package:
+  ecosystem: npm
+  name: dsh-data-insight
+  version: 0.1.1
+  integrity: sha512-/6Hann3xa0gESWHJSDcjezvaoswvS9fvecRhDK8H285fw1RiesX2EF858q3H0dBVoggBB/WGApgJO9tYfBHmfA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:02.868Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
