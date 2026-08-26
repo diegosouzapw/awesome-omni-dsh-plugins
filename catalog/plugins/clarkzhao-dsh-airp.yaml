@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: clarkzhao-dsh-airp
+name: dsh-airp
+description:
+  en: "AIRP engine for DeepSeek Harness: WorldKernel + DSH host adapter"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - airp
+source:
+  repository: https://github.com/clarkzhao/dsh-airp
+  repositoryNodeId: R_kgDOT8BNfQ
+  subpath: null
+  commit: a5936ebf3cc72ca7d42c5692c926d09c438cb2f9
+creator:
+  github: clarkzhao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:12.376Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
