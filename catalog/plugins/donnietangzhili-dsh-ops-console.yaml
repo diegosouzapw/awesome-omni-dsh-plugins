@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: donnietangzhili-dsh-ops-console
+name: dsh-ops-console
+description:
+  en: bash dsh plugin --profile web add github:DonnieTangzhili/dsh-ops-console
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - donnietangzhili
+  - console
+  - dsh
+source:
+  repository: https://github.com/DonnieTangzhili/dsh-ops-console
+  repositoryNodeId: R_kgDOT-b0_g
+  subpath: null
+  commit: 02427ca3db5b370169c993bedd5374c007800ff6
+creator:
+  github: DonnieTangzhili
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:32.135Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
