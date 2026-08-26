@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: clarknu-dsh-gateway
+name: dsh-gateway
+description:
+  en: "HTTPS + login gateway for the DeepSeek Harness web surface: securely access your DSH Web UI from another machine on your LAN, or from the internet via port forwarding. Fail-closed defaults (loopback-only listener, no accounts until configured); setup and security notes in the README."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - gateway
+  - tls
+  - auth
+  - remote
+  - reverse-proxy
+  - websocket
+source:
+  repository: https://github.com/clarknu/dsh-gateway
+  repositoryNodeId: R_kgDOT76DCw
+  subpath: null
+  commit: 4b85b15e5816bf70bf3994234ddd5098aa5945f7
+creator:
+  github: clarknu
+package:
+  ecosystem: npm
+  name: dsh-gateway
+  version: 1.6.0
+  integrity: sha512-K5pYjzzYbti2+IxebdEvy6PNTJy9Hn6oBGeYp61rfbqxl/yseueFbX4r0BwNFLBqWGaoR7m7pO+uYT5dbR+gHQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:04.794Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
