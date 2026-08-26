@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: don738110198-dsh-session-integrity
+name: dsh-session-integrity
+description:
+  en: Diagnose DeepSeek Harness session integrity failures and continue from safe recovery boundaries
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent
+  - session-integrity
+  - dsh
+source:
+  repository: https://github.com/DON738110198/dsh-session-integrity
+  repositoryNodeId: R_kgDOT-SuVw
+  subpath: null
+  commit: 3d8cad4802f753b1f76e7b9c16873e2c9c302333
+creator:
+  github: DON738110198
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:45.383Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
