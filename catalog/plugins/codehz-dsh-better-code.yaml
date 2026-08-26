@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: codehz-dsh-better-code
+name: "@codehz/dsh-better-code"
+description:
+  en: Optional run code env binding and env-aware browser rendering for DeepSeek Harness Code Mode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - optional
+  - code
+  - binding
+  - aware
+  - browser
+  - rendering
+  - mode
+  - dsh
+source:
+  repository: https://github.com/codehz/dsh-better-code
+  repositoryNodeId: R_kgDOT8GD5g
+  subpath: null
+  commit: 040ea2b9f2dfc7a16104a488e31ff4401dd0f793
+creator:
+  github: codehz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:09.679Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
