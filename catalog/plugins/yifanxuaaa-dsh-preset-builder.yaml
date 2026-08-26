@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yifanxuaaa-dsh-preset-builder
+name: dsh-preset-builder
+description:
+  en: A clearer agent-preset inspector for DeepSeek Harness
+  evidencePath: preset-builder/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clearer
+  - agent
+  - preset
+  - inspector
+  - dsh
+source:
+  repository: https://github.com/Ephemeral-AI-Lab/dsh-plugins
+  repositoryNodeId: R_kgDOT5uUvw
+  subpath: preset-builder
+  commit: 0ff144aed9d9d9d6de3c45ba7f18cde2abe4d4a1
+creator:
+  github: yifanxuaaa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: preset-builder/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:08.747Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
