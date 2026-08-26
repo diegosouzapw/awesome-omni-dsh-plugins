@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: ethanz11-creat-dsh-billing-tui
+name: dsh-billing-tui
+description:
+  en: "[dsh]: https://github.com/deepseek-ai/dsh"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - billing
+  - tui
+  - cli
+  - terminal
+  - cordis
+  - token-usage
+  - peak-pricing
+  - ascii-art
+source:
+  repository: https://github.com/Ethanz11-creat/dsh-billing-tui
+  repositoryNodeId: R_kgDOT9F0Qw
+  subpath: null
+  commit: f853ddfff4e1bf9dbea9f8d59342043471cc9dcd
+creator:
+  github: Ethanz11-creat
+package:
+  ecosystem: npm
+  name: dsh-billing-tui
+  version: 0.1.0
+  integrity: sha512-T10boCXBguDtlnFQ+ZANmLpapuvvcsTeLiw0XSzStVbtaC0GGbrylLEqv+CPwRNdM7ZxSqsThdKffJqkHbk99Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:54.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
