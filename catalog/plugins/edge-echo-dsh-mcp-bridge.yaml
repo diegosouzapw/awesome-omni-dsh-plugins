@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: edge-echo-dsh-mcp-bridge
+name: dsh-mcp-bridge
+description:
+  en: "Curated, verified MCP server bundle for DeepSeek Harness (dsh): one install brings demo, memory, filesystem, GitHub, Playwright and remote HTTP MCP servers, with a connectivity verifier and CI checks."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+  - cordis
+source:
+  repository: https://github.com/Edge-Echo/dsh-mcp-bridge
+  repositoryNodeId: R_kgDOT4pRrw
+  subpath: null
+  commit: 77cc8eae48495055f5392046b9f2317cc72fdc5c
+creator:
+  github: Edge-Echo
+package:
+  ecosystem: npm
+  name: dsh-mcp-bridge
+  version: 0.1.3
+  integrity: sha512-iyhhAp8q5cf0nv9HmOtroIS3xGDQURiXCOEIYCuVP6YPI14w5p8vWisem18MgVSbHsDICHMOsdL2MlwOtNWUDQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:13.846Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
