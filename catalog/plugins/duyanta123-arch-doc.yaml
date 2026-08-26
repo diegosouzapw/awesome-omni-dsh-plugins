@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: duyanta123-arch-doc
+name: arch-doc
+description:
+  en: "DSH arch-doc skill plugin: analyze a codebase and generate architecture documentation (module responsibilities, dependencies, entry points and run methods)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - architecture
+  - documentation
+  - code-analysis
+  - dependency-graph
+  - skills
+source:
+  repository: https://github.com/duyanta123/arch-doc
+  repositoryNodeId: R_kgDOT6EW-g
+  subpath: null
+  commit: db89d3b1466e667626914fca538f52be7180ae4b
+creator:
+  github: duyanta123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:56.404Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
