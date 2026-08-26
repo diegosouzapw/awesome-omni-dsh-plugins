@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: damonkoy-dsh-projection-guard
+name: dsh-projection-guard
+description:
+  en: "Guards the persisted session-projection cache: per-row JSON degradation so one misbehaving projection unit (e.g. a third-party plugin storing a Map) can never stall session titles or the whole cache again, plus a startup self-heal that backfills missing titles. · 会话投影缓存守卫：逐行 JSON 降级 + 启动自愈补全标题，单个违规投影单元不再拖垮标题缓存。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - session
+  - projection
+  - cache
+  - title
+source:
+  repository: https://github.com/DamonKoy/dsh-projection-guard
+  repositoryNodeId: R_kgDOT5Xsgw
+  subpath: null
+  commit: 284edd275bc5ab3f0415340e2f52c4a46c75c0f6
+creator:
+  github: DamonKoy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:25.073Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
