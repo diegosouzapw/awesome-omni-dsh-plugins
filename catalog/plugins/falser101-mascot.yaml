@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: falser101-mascot
+name: "@falser101/mascot"
+description:
+  en: Draggable animated floating companion for the DeepSeek Harness web GUI, with cat and dog breed skins that react to the current session
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mascot
+source:
+  repository: https://github.com/falser101/dsh-mascot
+  repositoryNodeId: R_kgDOT6KnsA
+  subpath: null
+  commit: f10d055f140ae789bb6f56fdcb9874b5039c74b5
+creator:
+  github: falser101
+package:
+  ecosystem: npm
+  name: "@falser101/mascot"
+  version: 0.1.0
+  integrity: sha512-EBiU1IttuAsR3F/kuuyR0VVp1qdQtuTrRNYM7qjWojyXchoD2VjSBKOKV2jWhOFSQ0IBeICgqvyF4r0715odbw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:50.222Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
