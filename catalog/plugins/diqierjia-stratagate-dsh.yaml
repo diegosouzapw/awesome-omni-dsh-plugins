@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: diqierjia-stratagate-dsh
+name: stratagate-dsh
+description:
+  en: Automatic local-first cross-session memory for DeepSeek Harness with source-traceable recall
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent-memory
+  - cross-session-memory
+  - persistent-memory
+  - project-memory
+  - conversation-memory
+  - long-term-memory
+  - local-first
+  - source-tracing
+  - evidence-gate
+  - dsh
+source:
+  repository: https://github.com/diqierjia/StrataGate-AgentMemory
+  repositoryNodeId: R_kgDOT0XE8Q
+  subpath: integrations/deepseek-harness
+  commit: 2f542bfe72b1cb3d887d7690ed6795446db09c5a
+creator:
+  github: diqierjia
+package:
+  ecosystem: npm
+  name: stratagate-dsh
+  version: 0.2.1
+  integrity: sha512-gFjG+sPJd37gBWxbRkKaShMiV9+SwPVbAeMgVz/lu4WY/GYWy6nRt+Nu0PoGRabq80dctqtmfgtDVkmPYZUK3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:17.507Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
