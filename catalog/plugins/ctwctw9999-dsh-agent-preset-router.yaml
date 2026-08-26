@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ctwctw9999-dsh-agent-preset-router
+name: dsh-agent-preset-router
+description:
+  en: "自动模式 Auto Mode: an AI pre-judgment layer for DeepSeek Harness — a flash-model router that picks the best agent preset (standard/code/minimal/cordis) for each new session and lets the user confirm before execution."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-preset
+  - auto-mode
+  - router
+  - classifier
+source:
+  repository: https://github.com/CTWCTW9999/dsh-agent-preset-router
+  repositoryNodeId: R_kgDOT7-Qrg
+  subpath: null
+  commit: 59fe55da4c8eb5659493c132c9f3d9ce2343ab7a
+creator:
+  github: CTWCTW9999
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:20.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
