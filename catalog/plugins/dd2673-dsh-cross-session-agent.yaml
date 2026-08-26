@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: dd2673-dsh-cross-session-agent
+name: dsh-cross-session-agent
+description:
+  en: Unofficial bounded peer discovery, messaging, receipts, and safe context projection for DeepSeek Harness agents.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - agent
+  - multi-agent
+  - cross-session
+  - context
+  - dsh
+source:
+  repository: https://github.com/dd2673/dsh-cross-session-agent
+  repositoryNodeId: R_kgDOT5Wqlw
+  subpath: null
+  commit: f0f7c3d6ab66c66f19472ae33220bad4613724d4
+creator:
+  github: dd2673
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:14.572Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
