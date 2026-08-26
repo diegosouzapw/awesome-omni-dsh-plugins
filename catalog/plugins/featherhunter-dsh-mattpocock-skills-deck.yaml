@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: featherhunter-dsh-mattpocock-skills-deck
+name: dsh-mattpocock-skills-deck
+description:
+  en: bash npm install -g @deepseek-ai/dsh
+  evidencePath: package/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - mattpocock
+  - skills
+  - wayfinder
+  - triage
+  - grilling
+  - handoff
+  - issue-tracker
+  - deck
+source:
+  repository: https://github.com/FeatherHunter/dsh-mattpocock-skills-deck
+  repositoryNodeId: R_kgDOT6kz3Q
+  subpath: package
+  commit: 2d52b951c6de66a4ae95d34016b0ceddc4acdeec
+creator:
+  github: FeatherHunter
+package:
+  ecosystem: npm
+  name: dsh-mattpocock-skills-deck
+  version: 1.6.19
+  integrity: sha512-hFX2JQ+Kj9iEu0z1DhKa7PbVNEekkqdwJH//RF0/Edgqh0AasKgUD5ZbhC6zVt61LxK1ZOLJPsyWey4QQnxqWA==
+dsh:
+  profiles:
+    - web
+  evidencePath: package/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:54:08.500Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
