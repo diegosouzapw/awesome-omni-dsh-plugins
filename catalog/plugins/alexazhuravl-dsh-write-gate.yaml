@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: alexazhuravl-dsh-write-gate
+name: dsh-write-gate
+description:
+  en: "Commitment write-gate for AI coding agents: two-tier (deterministic + LLM judge) pre-execution policy. Engine-agnostic core with a DeepSeek Harness (dsh) adapter."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - guardrails
+  - ai-agents
+  - agent-safety
+  - policy
+  - dsh
+source:
+  repository: https://github.com/couldbeme/dsh-write-gate
+  repositoryNodeId: R_kgDOT7fI1A
+  subpath: null
+  commit: de8c58100574a23df8e729e884661bc5fa60b8ec
+creator:
+  github: alexazhuravl
+package:
+  ecosystem: npm
+  name: dsh-write-gate
+  version: 0.1.1
+  integrity: sha512-djO6QWSOYJdI7pmbbftgQctFtUX4U8OOQVQ98yh9GkwgjfUx8Q65V6x11v+P+mP4aG+v9Y1dMVgceidX65dsYQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:20.871Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
