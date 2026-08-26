@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: czx2244-dsh-bilibili
+name: dsh-bilibili
+description:
+  en: "DeepSeek Harness tool plugin: analyze Bilibili videos — transcript first, subtitle-driven keyframes, model summaries"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - bilibili
+  - video
+  - tool
+  - cordis
+source:
+  repository: https://github.com/CZX2244/dsh-bilibili
+  repositoryNodeId: R_kgDOT4HLgA
+  subpath: null
+  commit: b4a02753469d0e4368fe827a49fa76c5e8735737
+creator:
+  github: CZX2244
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:11.231Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
