@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fakechris-dsh-track
+name: "@fakechris/dsh-track"
+description:
+  en: "Track Bridge: embedded task-management engine for DeepSeek Harness — decision-point protocol, capture wall, and Linear-shaped issue store over session events + storage KV"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - task-management
+  - track-bridge
+  - agent
+source:
+  repository: https://github.com/fakechris/dsh-track
+  repositoryNodeId: R_kgDOTzYWTw
+  subpath: null
+  commit: fd000f69da4ab79973a1ffe6e168da74fca6355e
+creator:
+  github: fakechris
+package:
+  ecosystem: npm
+  name: "@fakechris/dsh-track"
+  version: 0.6.0
+  integrity: sha512-tCQznlh25VSyWWMNdYQb8f8cL1O2cVdT9kZd4Z1nqRMUR2/flzmeuzpKAanHAOMMncaWOWhFv31nNi03EdHQ1A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:00.224Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
