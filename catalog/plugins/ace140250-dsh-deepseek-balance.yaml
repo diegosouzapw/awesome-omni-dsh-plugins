@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: ace140250-dsh-deepseek-balance
+name: dsh-deepseek-balance
+description:
+  en: Real-time DeepSeek account balance display in the DSH web UI, via the official /user/balance API. API key is resolved from the DEEPSEEK API KEY credential.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - balance
+source:
+  repository: https://github.com/CN-Leo/dsh-deepseek-balance
+  repositoryNodeId: R_kgDOT6rDhg
+  subpath: null
+  commit: 0f15218466ee61cbfab831b6eda0bfcf6f5514a1
+creator:
+  github: ace140250
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:40.626Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
