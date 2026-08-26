@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: drscrewdriver-dsh-input-traffic
+name: dsh-input-traffic
+description:
+  en: "Busy-time input queue for the DeepSeek Harness web GUI: three-tier (now/next/later) planning, queue editing with drag-to-reorder and concurrency protection, interject (steer) and interrupt, batch clear with confirm, session freeze - a cordis client plugin, no dsh source changes, no PR required"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - busy
+  - time
+  - input
+  - queue
+  - three
+  - tier
+  - next
+  - later
+  - planning
+  - editing
+  - drag
+  - reorder
+  - concurrency
+  - protection
+  - interject
+  - steer
+source:
+  repository: https://github.com/drscrewdriver/dsh-input-traffic
+  repositoryNodeId: R_kgDOT7E4VA
+  subpath: null
+  commit: 74beb2360920ee519315aee6e07ca00bb0449db5
+creator:
+  github: drscrewdriver
+package:
+  ecosystem: npm
+  name: dsh-input-traffic
+  version: 0.2.6
+  integrity: sha512-j2t/0vfA8e3xOLzTlkWIu+Fj2kugy41A/LHuIcv//6DzMI3mRj+W56kAU7Jtut+HjjPWALKvZIRw80qitTF99A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:56.101Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
