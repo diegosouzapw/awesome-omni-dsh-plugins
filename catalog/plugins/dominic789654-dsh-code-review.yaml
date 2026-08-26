@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: dominic789654-dsh-code-review
+name: dsh-code-review
+description:
+  en: "Code review assistant for DeepSeek Harness: code review context collects deterministic git diff context; a bundled skill drives the review checklist."
+  evidencePath: plugins/dsh-code-review/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - code
+  - review
+  - assistant
+  - context
+  - collects
+  - deterministic
+  - diff
+  - bundled
+  - skill
+  - drives
+  - checklist
+  - dsh
+source:
+  repository: https://github.com/Dominic789654/awesome-deepseek-harness
+  repositoryNodeId: R_kgDOT3adrQ
+  subpath: plugins/dsh-code-review
+  commit: 43a625cb31e8197354ddfcc93a9e65eb37e55f2c
+creator:
+  github: Dominic789654
+package:
+  ecosystem: npm
+  name: dsh-code-review
+  version: 0.1.0
+  integrity: sha512-S0JhwWLEoFnM/JCVb0XBfXcj9+8NGzEoz64F70uFL3spmouNUngWIA+GHL/Nf9PwWyP7FvRhr+mRM2fe04vK4w==
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-code-review/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:23.247Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
