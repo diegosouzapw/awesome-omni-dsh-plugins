@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: eternalnight996-dsh-ui-three-body
+name: dsh-ui-three-body
+description:
+  en: bash npx @deepseek-ai/dsh plugin --profile web add dsh-ui-three-body
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-training
+  - prompt-engineering
+  - first-principles
+  - beast-tamer
+  - system-prompt
+source:
+  repository: https://github.com/EternalNight996/dsh-ui-three-body
+  repositoryNodeId: R_kgDOT8AJ7A
+  subpath: null
+  commit: c495a64c77597b3cdeb3a4d286fa1127dd79ab45
+creator:
+  github: EternalNight996
+package:
+  ecosystem: npm
+  name: dsh-ui-three-body
+  version: 0.2.0
+  integrity: sha512-iXKn6OnhhysORpbbTBOHzwtb/MQbONygHuxflscfp8VFm2G4NdYeV4LEV4Yg07qxx22OjQwW4oJiIcbcSI/lLA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:52.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
