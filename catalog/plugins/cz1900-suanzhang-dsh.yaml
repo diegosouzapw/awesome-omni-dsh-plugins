@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: cz1900-suanzhang-dsh
+name: suanzhang-dsh
+description:
+  en: "A little \"bookkeeper\" for DeepSeek Harness (dsh): your balance, today's spending, and how much each model step costs — all crystal clear, no more guessing."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - billing
+  - cost
+  - suanzhang
+source:
+  repository: https://github.com/CZ1900/suanzhang-dsh
+  repositoryNodeId: R_kgDOT9L--A
+  subpath: null
+  commit: 79cd9cd793326b3069679cbfc2dc5558af35c842
+creator:
+  github: CZ1900
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:26.486Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
