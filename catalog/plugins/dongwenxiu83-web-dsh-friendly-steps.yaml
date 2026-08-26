@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dongwenxiu83-web-dsh-friendly-steps
+name: dsh-friendly-steps
+description:
+  en: Friendly process collapse for the DeepSeek Harness Web GUI — hides technical Think / tool-call rows behind a small summary pill, for non-technical readers. 100% presentation-only CSS + a createRoot pill on document.body ; zero interference with React rendering.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - web-ui
+source:
+  repository: https://github.com/dongwenxiu83-web/dsh-friendly-steps
+  repositoryNodeId: R_kgDOT8ay6Q
+  subpath: null
+  commit: b370e3f2891660875632f9ba43682cb4baaa452d
+creator:
+  github: dongwenxiu83-web
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:40.144Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
