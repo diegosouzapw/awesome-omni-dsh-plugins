@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lams001-dsh-zagens-office
+name: dsh-zagens-office
+description:
+  en: "DeepSeek Harness plugin: office schema / office write / office edit / office read via the local zagens-office CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - office
+  - schema
+  - write
+  - edit
+  - read
+  - local
+  - zagens
+  - dsh
+source:
+  repository: https://github.com/didclawapp-ai/DSH-Office
+  repositoryNodeId: R_kgDOT5JB-Q
+  subpath: null
+  commit: d4569418d5123bec63bf6e843ae7c7de7b749ea7
+creator:
+  github: lams001
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:29.412Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
