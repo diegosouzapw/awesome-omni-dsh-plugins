@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: faukwaa-dsh-gap-feed
+name: dsh-gap-feed
+description:
+  en: "dsh plugin: during long agent thinking, posts a hot-news or reminder message directly into the conversation stream."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - gap-feed
+  - thinking
+  - news
+source:
+  repository: https://github.com/faukwaa/dsh-gap-feed
+  repositoryNodeId: R_kgDOT8-2Xw
+  subpath: null
+  commit: 754cb1d3bfa6282ecd40d308e9bdc7ef21dbbdf0
+creator:
+  github: faukwaa
+package:
+  ecosystem: npm
+  name: dsh-gap-feed
+  version: 0.1.9
+  integrity: sha512-lOa6ssUKrcKiydaLjH17Pj8Hi/0QUR02lRLSpUggqEZkwFp/932KpZAR8hslU7pmz9WfiXqZrtr1fvix13HQsQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:54:05.572Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
