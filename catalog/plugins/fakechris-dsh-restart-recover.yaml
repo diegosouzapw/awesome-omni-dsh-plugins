@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: fakechris-dsh-restart-recover
+name: "@fakechris/dsh-restart-recover"
+description:
+  en: "Restart recovery for dsh web: after a crash/restart, an interrupted agent turn continues automatically (host-side agent/created listener — no browser timing races). Pairs with the dsh-web-guard skill (which auto-relaunches the web process); together they make restart self-healing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - restart
+  - self-heal
+  - recovery
+source:
+  repository: https://github.com/fakechris/dsh-harness-ops
+  repositoryNodeId: R_kgDOT0x85g
+  subpath: plugins/dsh-restart-recover
+  commit: e3701e5346a763e163da31fb4eac096f0588dd20
+creator:
+  github: fakechris
+package:
+  ecosystem: npm
+  name: "@fakechris/dsh-restart-recover"
+  version: 0.2.1
+  integrity: sha512-u/Pe+DvuewZcaPx4oCgIHinCsz4q4AssU3z+oWxThlZQkaCcJIJWU9cjc5GRIBLInFtvGJJ+JsvqjTU4J15YeQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: plugins/dsh-restart-recover/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:59.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
