@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: damonkoy-dsh-approve-for-me
+name: dsh-approve-for-me
+description:
+  en: Automated approval review for DeepSeek Harness. Inspired by Codex 0.147's --approve-for-me (Guardian auto-review).
+  evidencePath: packages/dsh-approve-for-me/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - approval
+  - guardian
+  - security
+source:
+  repository: https://github.com/DamonKoy/dsh-plugins
+  repositoryNodeId: R_kgDOT5YuGg
+  subpath: packages/dsh-approve-for-me
+  commit: 48110ca2779b59d36edec46c8aff97b6a50322aa
+creator:
+  github: DamonKoy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-approve-for-me/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:27.198Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
