@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: literaf-dsh-research
+name: dsh-research
+description:
+  en: "The research plugin market inside DeepSeek Harness: browse a curated index of literature, reference, writing and workbench plugins in Settings and install them with one click — 科研插件市场，在设置里浏览并一键安装。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - market
+  - research
+  - academic
+source:
+  repository: https://github.com/dsh-research/dsh-research
+  repositoryNodeId: R_kgDOT6RJ4w
+  subpath: null
+  commit: 60210c4700266494e7c40d67042234e10abe2c20
+creator:
+  github: literaf
+package:
+  ecosystem: npm
+  name: dsh-research
+  version: 0.4.2
+  integrity: sha512-oJBLlIwLdUlbaDbmOeTjPnSsEuDT7o48C8R1ieEAbP9K6r3jqCFvTaGMzK6++cIaz+FfK3wx6knl/e1VUmqa/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:00.304Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
