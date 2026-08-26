@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: math-modeling-gatecraft
+name: gatecraft
+description:
+  en: A gated math-modeling skill suite (8 skills + a DSH preset) for DeepSeek Harness. No mindless end-to-end automation — the agent solves and verifies; you think and decide at every stage gate, producing modeling results with your own taste.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - math-modeling
+  - cumcm
+  - huashubei
+  - skills
+  - agent
+  - workflow
+  - dsh
+source:
+  repository: https://github.com/Crayonnan/dsh-math-modeling-skills-Gatecraft-
+  repositoryNodeId: R_kgDOT5xUrA
+  subpath: null
+  commit: db3f32fed4005e776a7fd6bacfddcce18f1d7d84
+creator:
+  github: Math-Modeling
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:18.618Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
