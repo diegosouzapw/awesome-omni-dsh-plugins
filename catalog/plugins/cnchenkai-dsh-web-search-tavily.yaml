@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: cnchenkai-dsh-web-search-tavily
+name: dsh-web-search-tavily
+description:
+  en: Tavily-backed WebSearchProvider for the DeepSeek Harness web seam (ctx.web) - keyless mode supported, no API key required
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - web-search
+  - tavily
+  - search
+  - agent
+source:
+  repository: https://github.com/cnChenKai/dsh-web-search-tavily
+  repositoryNodeId: R_kgDOT4ajnA
+  subpath: null
+  commit: 0645debb3b27157b1645bbd3b6645d99affed8d1
+creator:
+  github: cnChenKai
+package:
+  ecosystem: npm
+  name: dsh-web-search-tavily
+  version: 0.2.2
+  integrity: sha512-8tBela5e85mEJA9TGzJ9QFZNYLGuLoZzot7pXTfFOEP+0bgE0CdmMb6uZbqbtlvgRPfyeuD4Ux8CUsiKPjObzg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:18.331Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
