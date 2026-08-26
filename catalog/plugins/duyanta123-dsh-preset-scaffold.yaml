@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: duyanta123-dsh-preset-scaffold
+name: dsh-preset-scaffold
+description:
+  en: "DSH (DeepSeek Harness) scaffold plugin & preset: strict 5-phase init runbook, engineering standards, and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo). 项目初始化脚手架预设：严格流程 + 工程规范 + 六套模板。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - scaffolding
+  - skills
+  - templates
+  - project-init
+  - agent
+source:
+  repository: https://github.com/duyanta123/dsh-preset-scaffold
+  repositoryNodeId: R_kgDOT5APUw
+  subpath: null
+  commit: 303d8b3e07efdbcc1b07365acaab870e6766bf08
+creator:
+  github: duyanta123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:58.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
