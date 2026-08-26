@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: damonkoy-dsh-system-proxy
+name: dsh-system-proxy
+description:
+  en: "System proxy support for DeepSeek Harness: detects the macOS scutil proxy or HTTP PROXY/HTTPS PROXY env proxy, exposes system proxy status and proxy export model tools plus a status RPC. · DSH 系统代理插件：检测 macOS scutil 或环境变量代理，提供 system proxy status / proxy export 工具与状态 RPC。"
+  evidencePath: packages/dsh-system-proxy/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - proxy
+  - system-proxy
+  - pac
+  - network
+source:
+  repository: https://github.com/DamonKoy/dsh-plugins
+  repositoryNodeId: R_kgDOT5YuGg
+  subpath: packages/dsh-system-proxy
+  commit: 48110ca2779b59d36edec46c8aff97b6a50322aa
+creator:
+  github: DamonKoy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-system-proxy/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:27.198Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
