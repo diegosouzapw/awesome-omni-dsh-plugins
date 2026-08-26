@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: einskyle-dsh-llm-vision-bridge
+name: dsh-llm-vision-bridge
+description:
+  en: "DeepSeek vision bridge for the dsh web GUI: route image attachments to a vision model (pi-ai / llama.cpp Qwen3-VL) and continue the conversation with the text description on a text-only LLM (DeepSeek)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - agent-harness
+  - llm
+  - vision
+  - vision-bridge
+  - image
+  - qwen3-vl
+  - multimodal
+source:
+  repository: https://github.com/Einskyle/dsh-llm-vision-bridge
+  repositoryNodeId: R_kgDOT4aXZQ
+  subpath: null
+  commit: 5a8e31788f4b2b11c4d2122ed5f138235d9ae55e
+creator:
+  github: Einskyle
+package:
+  ecosystem: npm
+  name: dsh-llm-vision-bridge
+  version: 0.1.2
+  integrity: sha512-3iVNDOtdv6TIGtnOjL6AxUaMgE44zrZ/e7Zi7VgKh4R9CUnO/qVNbdVNe/sC6PMDClSOvLn27NOvHNA0Q/tbpQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:16.089Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
