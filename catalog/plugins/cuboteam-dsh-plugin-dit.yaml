@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: cuboteam-dsh-plugin-dit
+name: dsh-plugin-dit
+description:
+  en: Dual-protocol DIT.ai provider and first-run onboarding for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dit
+  - ai-gateway
+  - openai-compatible
+  - anthropic-messages
+  - dsh
+source:
+  repository: https://github.com/cuboteam/dsh-plugin-dit
+  repositoryNodeId: R_kgDOT77NeQ
+  subpath: null
+  commit: efe42f034237e3ad79d55995b3f0830d7ff83a4f
+creator:
+  github: cuboteam
+package:
+  ecosystem: npm
+  name: dsh-plugin-dit
+  version: 0.2.1
+  integrity: sha512-JOQ37z7GOKOIxgzTm/0CwZRY0uvbtrenykp5NFsdLzlt5xWokLawOIfvIZl/TzbZ6bUrCF+pi9YfEBzXwEDFQQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:22.992Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
