@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: damonkoy-dsh-mcp-client-v2
+name: dsh-mcp-client-v2
+description:
+  en: "Enhanced MCP client for DeepSeek Harness: paginated tool discovery, non-blocking startup, and a mcp tool search model tool, with hand-rolled stdio / streamable-http transports and bounded exponential reconnect. · DSH MCP 客户端 v2：分页工具发现、非阻塞启动、工具搜索模型工具，自带 stdio / streamable-http 传输与指数退避重连。"
+  evidencePath: packages/dsh-mcp-client-v2/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - mcp
+  - model-context-protocol
+  - tools
+  - client
+source:
+  repository: https://github.com/DamonKoy/dsh-plugins
+  repositoryNodeId: R_kgDOT5YuGg
+  subpath: packages/dsh-mcp-client-v2
+  commit: 48110ca2779b59d36edec46c8aff97b6a50322aa
+creator:
+  github: DamonKoy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-mcp-client-v2/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:27.198Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
