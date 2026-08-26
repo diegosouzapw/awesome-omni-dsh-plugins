@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: codehz-dsh-restart-request
+name: dsh-restart-request
+description:
+  en: Ask the user to restart the DeepSeek Harness backend without killing the active agent from a shell tool
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - user
+  - restart
+  - backend
+  - without
+  - killing
+  - active
+  - agent
+  - shell
+  - tool
+  - dsh
+source:
+  repository: https://github.com/codehz/dsh-restart-request
+  repositoryNodeId: R_kgDOT6U_Tw
+  subpath: null
+  commit: 9b5ec4ea203c55da13a8d8f5040cf226230cf42d
+creator:
+  github: codehz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:51:13.843Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
