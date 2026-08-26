@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: deveuper-dsh-vision-ds
+name: dsh-vision-ds
+description:
+  en: "visionDS: DeepSeek Harness 视觉技能包。vision-ds（默认入口，API 超时自动回退本地）/ vision-ds-local（离线 OCR）/ vision-ds-api（API 识别）/ vision-setting（配置中枢）。Vision skills for DeepSeek Harness: vision-ds default entry with offline fallback, vision-ds-local offline OCR, vision-ds-api API recognition, vision-setting configuration."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - skill
+  - vision
+  - ocr
+  - vlm
+source:
+  repository: https://github.com/deveuper/visionDS
+  repositoryNodeId: R_kgDOT3knAg
+  subpath: null
+  commit: af8030c398f57a6c8a94dc165a0ab4d6c0ba99b5
+creator:
+  github: deveuper
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:31.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
