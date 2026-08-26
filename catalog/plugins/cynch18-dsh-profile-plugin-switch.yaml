@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: cynch18-dsh-profile-plugin-switch
+name: dsh-profile-plugin-switch
+description:
+  en: "DeepSeek Harness (DSH) web plugin: toggle any plugin on/off from the GUI, live, without restarting the server."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - toggle
+  - live
+  - without
+  - restarting
+  - server
+  - dsh
+source:
+  repository: https://github.com/cynch18/plugin-switch
+  repositoryNodeId: R_kgDOT4l72Q
+  subpath: null
+  commit: 8a0df71f0eacd410f70d3dc7166450b84998b2e8
+creator:
+  github: cynch18
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:26.234Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
