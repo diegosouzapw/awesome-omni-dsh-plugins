@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dk33333333-dsh-deepseek-quota-left
+name: dsh-deepseek-quota-left
+description:
+  en: DeepSeek API quota widget for the dsh web GUI — left-edge collapsed handle, click to expand; official balance, today's consumption and conversation cost. Fork of dsh-deepseek-quota.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - quota
+  - balance
+  - web
+source:
+  repository: https://github.com/dk33333333/dsh-deepseek-quota-left
+  repositoryNodeId: R_kgDOT5uYOg
+  subpath: null
+  commit: a486b75b6ff025b4d1738d6f866071893775fc18
+creator:
+  github: dk33333333
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:21.032Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
