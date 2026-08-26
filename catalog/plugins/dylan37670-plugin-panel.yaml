@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dylan37670-plugin-panel
+name: "@dsh-community/plugin-panel"
+description:
+  en: "Plugin Panel v6.11 閳?panel self-update: version check, update button and restart reminder."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-marketplace
+  - typescript
+source:
+  repository: https://github.com/Dylan37670/dsh-plugin-panel
+  repositoryNodeId: R_kgDOT5S0gQ
+  subpath: null
+  commit: 501eba40555d43b9aea47ff1cfc7a29db2f6d23b
+creator:
+  github: Dylan37670
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:37.224Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
