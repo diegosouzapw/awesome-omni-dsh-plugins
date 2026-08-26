@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: duoasa-dsh-plugin-preview
+name: "@deepviewer/dsh-plugin-preview"
+description:
+  en: Workspace-scoped code and static web preview for DeepViewer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - workspace
+  - scoped
+  - code
+  - static
+  - preview
+  - deepviewer
+  - dsh
+source:
+  repository: https://github.com/Duoasa/DeepViewer
+  repositoryNodeId: R_kgDOT5RwvA
+  subpath: apps/deepviewer-desktop/dsh-plugins/preview
+  commit: a9e89a0b9313e58010076c345f53101b3267f31c
+creator:
+  github: Duoasa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/deepviewer-desktop/dsh-plugins/preview/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:54.348Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
