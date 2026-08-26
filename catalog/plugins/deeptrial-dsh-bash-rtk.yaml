@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: deeptrial-dsh-bash-rtk
+name: "@deeptrial/dsh-bash-rtk"
+description:
+  en: "DeepSeek Harness bash executor plugin that routes eligible commands through rtk (Rust Token Killer) to compress tool output and save tokens. Optional overlay: install, then enable via --patch."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - rtk
+  - token-compression
+  - bash
+  - shell
+  - cordis
+source:
+  repository: https://github.com/DeepTrial/dsh-bash-rtk
+  repositoryNodeId: R_kgDOT4O-Vg
+  subpath: null
+  commit: ddf95382252c96bcaba983e8a1c71ff66b79fc6b
+creator:
+  github: DeepTrial
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:48:57.042Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
