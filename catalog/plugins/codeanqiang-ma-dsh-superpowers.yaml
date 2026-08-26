@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: codeanqiang-ma-dsh-superpowers
+name: dsh-superpowers
+description:
+  en: "Superpowers (obra/superpowers) for DeepSeek Harness: the software-development methodology skills plus their session bootstrap, as a dsh plugin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - superpowers
+  - skills
+  - tdd
+  - agent
+  - dsh
+source:
+  repository: https://github.com/codeAnqiang-ma/dsh-superpowers
+  repositoryNodeId: R_kgDOT3fRfQ
+  subpath: null
+  commit: 9511c7b961faafb35f31e6b0e297524bf377aeaf
+creator:
+  github: codeAnqiang-ma
+package:
+  ecosystem: npm
+  name: dsh-superpowers
+  version: 0.1.0
+  integrity: sha512-/BT4/Kb93rav1sgcw67Kz40BHyA6oL9t91JyL6Eubs3oSBYIN0BQpRXwmz1cMBY2HidTmee8XfPHEmRsd9xHjQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:20.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
