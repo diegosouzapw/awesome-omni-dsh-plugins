@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: dariandai-dsh-starter-pack
+name: dsh-starter-pack
+description:
+  en: One-click curated plugin starter pack for DeepSeek Harness ( dsh ). Install this one plugin, and it installs and configures a batch of the most useful community plugins for you.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - starter
+  - essentials
+  - plugin-pack
+  - onboarding
+source:
+  repository: https://github.com/Dariandai/dsh-starter-pack
+  repositoryNodeId: R_kgDOTi5WOw
+  subpath: null
+  commit: 95de3d8b2dcea9b766b2ce60a20440442a240ceb
+creator:
+  github: Dariandai
+package:
+  ecosystem: npm
+  name: dsh-starter-pack
+  version: 0.1.1
+  integrity: sha512-klcWGj0ARqTh+DIlUe1FyJ9GCVCi+JgwHDOsU415y/5yF4nlXcqqAOktAXKbSY705mOtgEtASsapPo1MkVfXvg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:28.230Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
