@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: evilirving-dsh-proof
+name: dsh-proof
+description:
+  en: "Independent read-only acceptance layer for DeepSeek Harness: spawns a read-only verifier before each top-level turn closes and steers gaps back into the agent."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - independent
+  - read
+  - only
+  - acceptance
+  - layer
+  - spawns
+  - verifier
+  - before
+  - each
+  - level
+  - turn
+  - closes
+  - steers
+  - gaps
+  - back
+  - agent
+source:
+  repository: https://github.com/EvilIrving/dsh-proof
+  repositoryNodeId: R_kgDOT39bJw
+  subpath: null
+  commit: 7e5fb648ac9361e6705b4e139dda9da8fdb5eaac
+creator:
+  github: EvilIrving
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:44.024Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
