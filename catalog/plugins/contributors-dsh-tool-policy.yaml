@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: contributors-dsh-tool-policy
+name: dsh-tool-policy
+description:
+  en: Allow, ask, or deny DeepSeek Harness tool calls before execution
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - agent-security
+  - tool-governance
+  - guardrails
+  - dsh
+source:
+  repository: https://github.com/Drifter-yh/dsh-tool-policy
+  repositoryNodeId: R_kgDOT3b2_w
+  subpath: null
+  commit: e6f43c255345a6f6bbab66ee8c053a2e5457e3c7
+creator:
+  github: contributors
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:34.075Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
