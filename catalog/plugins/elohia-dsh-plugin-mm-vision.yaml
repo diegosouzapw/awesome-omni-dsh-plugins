@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: elohia-dsh-plugin-mm-vision
+name: dsh-plugin-mm-vision
+description:
+  en: mm-vision (通感编码器) for DeepSeek Harness — give any text-only LLM the ability to see images via structured spatial text encoding. Registers the mm vision tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - vision
+  - multimodal
+  - synesthesia
+  - kline
+  - chart
+  - mcp
+source:
+  repository: https://github.com/Elohia/dsh-plugin-mm-vision
+  repositoryNodeId: R_kgDOT3_URg
+  subpath: null
+  commit: b69fa6ec8018e10b017645d5232f480f0f8354f3
+creator:
+  github: Elohia
+package:
+  ecosystem: npm
+  name: dsh-plugin-mm-vision
+  version: 0.1.1
+  integrity: sha512-Cio9cgTvnRIR3j7NQ7XSsdUokzn+LXKLNDUwZBe8TYoBUzaZREStckq3eDD+s8rbHN9L+uGgOPeyJPYHjSXU6Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:42.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
