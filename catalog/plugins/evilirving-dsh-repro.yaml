@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: evilirving-dsh-repro
+name: dsh-repro
+description:
+  en: Export a minimal, secret-scrubbed, replayable problem bundle for DeepSeek Harness via the /repro command.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - export
+  - minimal
+  - secret
+  - scrubbed
+  - replayable
+  - problem
+  - bundle
+  - repro
+  - command
+  - dsh
+source:
+  repository: https://github.com/EvilIrving/dsh-repro
+  repositoryNodeId: R_kgDOT39b3g
+  subpath: null
+  commit: e51736ba583830462e0cca4d808ec3e0b7001bcd
+creator:
+  github: EvilIrving
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:46.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
