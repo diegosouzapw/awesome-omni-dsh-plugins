@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: demacia1314-dsh-universal-attachments
+name: dsh-universal-attachments
+description:
+  en: ⭐ Drag-and-drop uploads&ensp;·&ensp;⭐ Remote-friendly&ensp;·&ensp;⭐ Any file type
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - attachments
+  - file-upload
+  - folder-upload
+  - drag-and-drop
+  - remote-upload
+  - dsh
+source:
+  repository: https://github.com/demacia1314/dsh-airdrop
+  repositoryNodeId: R_kgDOT7sPnw
+  subpath: null
+  commit: 05e6b924764f8ab6561467dbecff12978fd4940c
+creator:
+  github: demacia1314
+package:
+  ecosystem: npm
+  name: dsh-universal-attachments
+  version: 0.1.1
+  integrity: sha512-176ZZRoEo5WnQURO3fTiWfjXJ/7XPB1QZM6uiUeqRb+AB7qF3HL+8GIzpoBJ49Hk3V+3n/xtn2Z+NsuaC/6X0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:29.954Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
