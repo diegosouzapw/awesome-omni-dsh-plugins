@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dhicoc-dsh-codex-web-search-mcp
+name: "@dhicoc/dsh-codex-web-search-mcp"
+description:
+  en: "dsh plugin: register codex-web-search-mcp (model-independent OpenAI Codex / Grok web search & deep research MCP server) as a native dsh MCP tool set (mcp codex-web-search )."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - mcp
+  - codex
+  - grok
+  - web-search
+  - deep-research
+  - search
+source:
+  repository: https://github.com/dhicoc/dsh-codex-web-search-mcp
+  repositoryNodeId: R_kgDOT6DMZQ
+  subpath: null
+  commit: 926c6d15a9a656dbdcb0c399b3007c8e1f303d56
+creator:
+  github: dhicoc
+package:
+  ecosystem: npm
+  name: "@dhicoc/dsh-codex-web-search-mcp"
+  version: 1.0.2
+  integrity: sha512-sLDmuw3CaZW9AIFlQflJ/1bTM1Ux8eBubmYKBkMwqxSOJ1Ig2/A9y7KeLlymXTfEJHH+G9rIVkhXS5Ny9uNd/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:50:34.229Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
