@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jnrobin139-dsh-dingo
+name: dsh-dingo
+description:
+  en: Ding + Go — sound reminders + one-click jump for DeepSeek Harness (DSH).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - notification
+  - alert
+  - tone
+  - reminder
+  - interjection
+  - session
+source:
+  repository: https://github.com/february2015/dsh-dingo
+  repositoryNodeId: R_kgDOT5UVcw
+  subpath: null
+  commit: 9f2274ce29c342c36584ff2ef52b30d399c14cfd
+creator:
+  github: jnrobin139
+package:
+  ecosystem: npm
+  name: dsh-dingo
+  version: 1.0.0
+  integrity: sha512-58CL3/jOnPd7RbFeRTsLJ5wnAoONOhA2a2JgzFx6HKMNnhC0YNfzt/qyWo9eadckbwwb8ZOftcTHyZR9ZuxtdA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:54:10.531Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
