@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: dami9527-dsh-image-pathify
+name: dsh-image-pathify
+description:
+  en: "DeepSeek Harness plugin: let text-only models receive pasted images, and analyze them with a built-in OpenAI-compatible vision tool"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - image
+source:
+  repository: https://github.com/dami9527/dsh-image-pathify
+  repositoryNodeId: R_kgDOT5KEpg
+  subpath: null
+  commit: 5abd3d47a7df80f6dd498168e307765821e92d2e
+creator:
+  github: dami9527
+package:
+  ecosystem: npm
+  name: dsh-image-pathify
+  version: 0.1.5
+  integrity: sha512-9XkD3BjCgD6OtKF/kWO25yhMSyCFCeacez2InB5Df3kdKd8/FnclCq95AyvSJz13C00gTqwc9t9Z399F2uIStw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:49:48.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
