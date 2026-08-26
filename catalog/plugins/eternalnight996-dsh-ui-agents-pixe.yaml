@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: eternalnight996-dsh-ui-agents-pixe
+name: dsh-ui-agents-pixe
+description:
+  en: sh npx @deepseek-ai/dsh plugin --profile web add dsh-ui-agents-pixe
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agents-pixe
+  - pixel-office
+  - roles
+  - agency-agents
+source:
+  repository: https://github.com/EternalNight996/dsh-ui-agents-pixe
+  repositoryNodeId: R_kgDOT7T9uQ
+  subpath: null
+  commit: db57eaeee8783e6ea3fb19aac7fe69062f469183
+creator:
+  github: EternalNight996
+package:
+  ecosystem: npm
+  name: dsh-ui-agents-pixe
+  version: 1.0.3
+  integrity: sha512-fgkUKwza01lYZAh/rKWmZRNnrdCPUBoGaFere0QWSavz8XyHFijUdbjiEVryrz6vMNOIWHRTempZssarE+cpAQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:53:50.996Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
