@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: oneeme-plugin-directory
+name: "@dsh-pub/plugin-directory"
+description:
+  en: Browse the bilingual dsh.pub plugin registry inside DeepSeek Harness.
+  evidencePath: apps/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - browse
+  - bilingual
+  - registry
+  - inside
+  - dsh
+source:
+  repository: https://github.com/dsh-pub/dsh-pub
+  repositoryNodeId: R_kgDOT3f3kg
+  subpath: apps/dsh-plugin
+  commit: 2ec7f87a15226cbf31e313bb6b5b1c534571927c
+creator:
+  github: OneeMe
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:47.556Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
