@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dominic789654-dsh-viz
+name: dsh-viz
+description:
+  en: "Visualization tool for DeepSeek Harness: chart render turns structured data into a self-contained ECharts HTML artifact inside the active workspace."
+  evidencePath: plugins/dsh-viz/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - visualization
+  - tool
+  - chart
+  - render
+  - turns
+  - structured
+  - data
+  - self
+  - contained
+  - echarts
+  - html
+  - artifact
+  - inside
+  - active
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/Dominic789654/awesome-deepseek-harness
+  repositoryNodeId: R_kgDOT3adrQ
+  subpath: plugins/dsh-viz
+  commit: 43a625cb31e8197354ddfcc93a9e65eb37e55f2c
+creator:
+  github: Dominic789654
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-viz/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-26T19:52:23.247Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
