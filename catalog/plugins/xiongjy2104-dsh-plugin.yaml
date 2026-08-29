@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xiongjy2104-dsh-plugin
+name: "@geml/dsh-plugin"
+description:
+  en: Agent-Native document handling for DSH — addressable blocks let an agent read and edit one section instead of the whole file. Ships the geml MCP server and the authoring and code-graph skills.
+  evidencePath: integrations/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - geml
+  - mcp
+  - documents
+  - codemap
+source:
+  repository: https://github.com/geml-spec/geml
+  repositoryNodeId: R_kgDOS9UFhA
+  subpath: integrations/dsh-plugin
+  commit: 16d28aa9f9521e6762abc8af03fcdab965ab8c9a
+creator:
+  github: xiongjy2104
+package:
+  ecosystem: npm
+  name: "@geml/dsh-plugin"
+  version: 1.0.1
+  integrity: sha512-aii1OGAcBt/E7xr6KWIti+nfR2DDRUV2uPaV/tTFHkv8UBnhv9A5S12ZumaxiRJ/HMcjQDnYHILB6n1EpHCwoA==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:00:07.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
