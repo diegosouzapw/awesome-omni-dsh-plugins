@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sort-unique
+name: dsh-sort-unique
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sort-unique
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sort-unique
+source:
+  repository: https://github.com/uckkk/dsh-sort-unique
+  repositoryNodeId: R_kgDOT9uauQ
+  subpath: null
+  commit: f481a177655e92f3d966f0554b2c958b802aabd4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:06.970Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
