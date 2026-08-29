@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-weekday-name
+name: dsh-weekday-name
+description:
+  en: bash dsh plugin add github:uckkk/dsh-weekday-name
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-weekday-name
+source:
+  repository: https://github.com/uckkk/dsh-weekday-name
+  repositoryNodeId: R_kgDOT9uSkg
+  subpath: null
+  commit: c42f77630a5788ee7052d5df5d7570e8f2286326
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:11.550Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
