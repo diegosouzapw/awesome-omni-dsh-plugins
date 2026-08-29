@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: qkycir-123-dsh-run2skill
+name: dsh-run2skill
+description:
+  en: Turn explicit DSH session experience into reviewable native Skills
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-skills
+  - local-first
+  - human-in-the-loop
+source:
+  repository: https://github.com/qkycir-123/dsh-run2skill
+  repositoryNodeId: R_kgDOT9RbjA
+  subpath: null
+  commit: 18c37f3783454b16e20697591c0f2ecee597c735
+creator:
+  github: qkycir-123
+package:
+  ecosystem: npm
+  name: dsh-run2skill
+  version: 0.3.0
+  integrity: sha512-I1GDKgiwmcUVB/btJI/EhJFKWUdXZJuU+3Ytop/V7V+yVnl3o+zcntRdaQBGFy0UA1InCl92620sVGAyW3vn/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.292Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
