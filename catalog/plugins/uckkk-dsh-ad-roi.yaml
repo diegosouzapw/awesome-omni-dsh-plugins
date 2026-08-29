@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ad-roi
+name: dsh-ad-roi
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ad-roi
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ad-roi
+source:
+  repository: https://github.com/uckkk/dsh-ad-roi
+  repositoryNodeId: R_kgDOT-DtFQ
+  subpath: null
+  commit: d6598f00f6b108f3fa1ac74752cf72d05eb0a37f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:21.721Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
