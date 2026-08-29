@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: kendu76-dsh-music-player
+name: dsh-music-player
+description:
+  en: sh dsh plugin --profile <profile add dsh-music-player
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - music
+  - player
+  - audio
+  - tts
+  - novel
+  - book
+source:
+  repository: https://github.com/kendu76/dsh-music-player
+  repositoryNodeId: R_kgDOT7QPvQ
+  subpath: null
+  commit: 90a302aa967ce159a1d44a90e70d60b4a46812eb
+creator:
+  github: kendu76
+package:
+  ecosystem: npm
+  name: dsh-music-player
+  version: 0.6.6
+  integrity: sha512-n9auPt9Ebdtvj+7wh00yaJ4FtLHJ0f2ecsGsaMMGHnjybEuwoJbAb3ZQsjjgr/OQiah0G9/67RCNAG7Gcso5QQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:31.655Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
