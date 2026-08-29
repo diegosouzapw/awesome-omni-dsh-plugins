@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: iwtown-dsh-llm-wiki
+name: dsh-llm-wiki
+description:
+  en: 组件 文件 部署位置 --- --- --- 生命周期插件 plugin/dsh-llm-wiki.mjs ~/.dsh/profiles/web/（cordis.patch.yml 挂载） 检索技能 skills/wiki-search/SKILL.md ~/.agents/skills/wiki-search/ 写入技能 skills/wiki-write/SKILL.md ~/.agents/skills/wiki-write/ 管线 scripts/llm-wiki-pipeline.mjs ~/bin/ 向量代理 scripts/embed-proxy.mjs ~/bin/ + systemd 服务 定时 systemd/
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - llm-wiki
+  - obsidian
+  - knowledge-management
+  - karpathy
+  - dsh
+source:
+  repository: https://github.com/iwtown/dsh-llm-wiki
+  repositoryNodeId: R_kgDOUEkmCg
+  subpath: null
+  commit: 90030d862e247f24678c5429374169ab7dffde99
+creator:
+  github: iwtown
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:37.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
