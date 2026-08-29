@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: loyalchiiina-dsh-chat-image-lightbox
+name: "@loyalchiiina/dsh-chat-image-lightbox"
+description:
+  en: "DSH plugin: display images inline in chat with lightbox zoom, download (save-as), and prev/next navigation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - image
+  - lightbox
+  - gallery
+  - download
+  - dsh
+source:
+  repository: https://github.com/loyalchiiina/dsh-chat-image-lightbox
+  repositoryNodeId: R_kgDOUBDmsw
+  subpath: null
+  commit: 81d4d95a12e7b9d43ce61978aec8e36d5f5389c3
+creator:
+  github: loyalchiiina
+package:
+  ecosystem: npm
+  name: "@loyalchiiina/dsh-chat-image-lightbox"
+  version: 1.1.0
+  integrity: sha512-wsgbVXMH7YE/D1/ULHjnnYqLxzdxqcN5ENvj0aBnI7cqGLdjhaIVGs/CXzoWMq7wPH7Zl4zHHvf6iMM8GZUhmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:46.328Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
