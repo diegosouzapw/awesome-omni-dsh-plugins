@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-dsh-math-olympiad
+name: dsh-math-olympiad
+description:
+  en: 'DSH skill bundle: competition math (IMO/Putnam/USAMO/AIME) solved with a pure-reasoning pass, an adversarial verifier in a fresh subagent context attacking concrete failure modes, and calibrated confidence output (high / medium / honest "no confident solution"); optional LaTeX→PDF rendering.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - skill
+  - math
+  - olympiad
+  - imo
+  - putnam
+  - proof-verification
+source:
+  repository: https://github.com/988hj7tczd-oss/dsh-math-olympiad
+  repositoryNodeId: R_kgDOUCa41A
+  subpath: null
+  commit: b04fadfeaf88f8f98ba09ab57e9379eb36f05ea0
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: npm
+  name: dsh-math-olympiad
+  version: 0.1.0
+  integrity: sha512-Awcn6vUvr5UJlXes2aHlwoQxqevTOfPTWKddyJbjkZa7ynaqWVbUlDm7V81cryO418/+YHWtX/peqIMDqHsbTw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:38.164Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
