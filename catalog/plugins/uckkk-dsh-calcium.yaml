@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-calcium
+name: dsh-calcium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-calcium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-calcium
+source:
+  repository: https://github.com/uckkk/dsh-calcium
+  repositoryNodeId: R_kgDOT-7fNw
+  subpath: null
+  commit: ce6b5fa4376e254486d303dd27cd9bd47228836e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:46.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
