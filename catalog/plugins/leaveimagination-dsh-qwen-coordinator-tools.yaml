@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: leaveimagination-dsh-qwen-coordinator-tools
+name: dsh-qwen-coordinator-tools
+description:
+  en: Registers Qwen's five project Session tools directly in DSH while enforcing a single human-approved Coordinator Session ID. Calls are forwarded only to the authenticated loopback Qwen Gateway endpoint and become ordinary Qwen Task Manager work, preserving completion notifications and cancellation.
+  evidencePath: tools/dsh-qwen-coordinator-tools/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - registers
+  - qwen
+  - five
+  - session
+  - tools
+  - directly
+  - while
+  - enforcing
+  - single
+  - human
+  - approved
+  - coordinator
+  - calls
+  - forwarded
+  - only
+  - authenticated
+source:
+  repository: https://github.com/leaveimagination/dsh-qwen-voice
+  repositoryNodeId: R_kgDOT4GTsQ
+  subpath: tools/dsh-qwen-coordinator-tools
+  commit: 9522d924691456ea09ad3edaf2454ea63b6c04fa
+creator:
+  github: leaveimagination
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: tools/dsh-qwen-coordinator-tools/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:28.219Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
