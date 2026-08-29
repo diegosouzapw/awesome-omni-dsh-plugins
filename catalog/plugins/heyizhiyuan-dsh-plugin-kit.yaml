@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: heyizhiyuan-dsh-plugin-kit
+name: "@hyzyn/dsh-plugin-kit"
+description:
+  en: '<p align="center" <img src="https://img.shields.io/github/v/release/hyzyn/dsh-plugin-kit?style=flat-square" alt="Version" &nbsp; <img src="https://img.shields.io/github/stars/hyzyn/dsh-plugin-kit?style=flat-square" alt="Stars" &nbsp; <img src="https://img.shields.io/github/forks/hyzyn/dsh-plugin-kit?style=flat-square" '
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - align
+  - center
+  - shields
+  - release
+  - hyzyn
+  - style
+  - flat
+  - square
+  - version
+  - nbsp
+  - stars
+  - forks
+  - dsh
+source:
+  repository: https://github.com/hyzyn/dsh-plugin-kit
+  repositoryNodeId: R_kgDOT5MwSA
+  subpath: null
+  commit: 0316a0e180090774d76d73ee2782737a99e9ff2f
+creator:
+  github: heyizhiyuan
+package:
+  ecosystem: npm
+  name: "@hyzyn/dsh-plugin-kit"
+  version: 0.1.3
+  integrity: sha512-g2sYKmE6V9PlBVnBUmPFh2L0uXohrwsadAXR14LL5HQgtcPA8tRncETrDUVo6VG0/p96oBhWVvpVK3RGKBn74g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:56.366Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
