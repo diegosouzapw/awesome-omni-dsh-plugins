@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: suiyideali-dsh-selection-toolbar
+name: dsh-selection-toolbar
+description:
+  en: "Select text in a conversation to get a floating toolbar: copy, quote-reply, ask/explain/translate/summarize, and a custom-prompt input. All AI actions reuse the current session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - selection
+  - toolbar
+  - quote
+  - translate
+  - summarize
+source:
+  repository: https://github.com/suiyideali/dsh-selection-toolbar
+  repositoryNodeId: R_kgDOT8HEsQ
+  subpath: null
+  commit: 7adedb12537aa4bf1e25be660a5d384bee4f79a4
+creator:
+  github: suiyideali
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:20.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
