@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-clamp
+name: dsh-clamp
+description:
+  en: bash dsh plugin add github:uckkk/dsh-clamp
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-clamp
+source:
+  repository: https://github.com/uckkk/dsh-clamp
+  repositoryNodeId: R_kgDOT9uDVg
+  subpath: null
+  commit: d33a548fff5b70ec071c177b64332aa19fccbcaa
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:25.779Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
