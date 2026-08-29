@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: skymecode-dsh-bgm
+name: dsh-bgm
+description:
+  en: dsh-bgm turns system audio into rhythm-game feedback for the official DSH Web UI. It captures the default output device independently of the music player, maps bass/onset to Deep Diving, maps mid/treble changes to the latest reasoning or tool row, and keeps final-answer text readable and still.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - system-audio
+  - music-visualizer
+  - rhythm-game
+source:
+  repository: https://github.com/skymecode/dsh-bgm
+  repositoryNodeId: R_kgDOT8aiOg
+  subpath: null
+  commit: 1f177296c5f75b4fae3582f8d682cf93fb1f6d32
+creator:
+  github: skymecode
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:41.356Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
