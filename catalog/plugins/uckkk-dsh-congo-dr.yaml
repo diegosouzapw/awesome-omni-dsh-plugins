@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-congo-dr
+name: dsh-congo-dr
+description:
+  en: bash dsh plugin add github:uckkk/dsh-congo-dr
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-congo-dr
+source:
+  repository: https://github.com/uckkk/dsh-congo-dr
+  repositoryNodeId: R_kgDOT_DdLw
+  subpath: null
+  commit: e5e03324dd6617dbd13068d10d66d4293beaba64
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:12.748Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
