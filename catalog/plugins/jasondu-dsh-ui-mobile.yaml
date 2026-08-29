@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jasondu-dsh-ui-mobile
+name: dsh-ui-mobile
+description:
+  en: "Mobile plugin for the DeepSeek Harness Web shell: off-canvas sidebar/details drawers, bottom nav bar, and touch-first responsive sheet"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - mobile
+  - shell
+  - canvas
+  - sidebar
+  - details
+  - drawers
+  - bottom
+  - touch
+  - first
+  - responsive
+  - sheet
+  - dsh
+source:
+  repository: https://github.com/jasondu/dsh-ui-mobile
+  repositoryNodeId: R_kgDOT6myIw
+  subpath: null
+  commit: 3ba0c08c8a1cb542861768f499f558d5a1df6b72
+creator:
+  github: jasondu
+package:
+  ecosystem: npm
+  name: dsh-ui-mobile
+  version: 0.1.7
+  integrity: sha512-UdWvDEE+GRjzTr6a0PYr4La39+LeJJwWGsnhCx14IWjNEDuAowqdkCocdo+bYcFRFZS0G3+c/nPYhHr4s8ij2w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:01.070Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
