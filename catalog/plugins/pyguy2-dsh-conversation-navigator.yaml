@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: pyguy2-dsh-conversation-navigator
+name: dsh-conversation-navigator
+description:
+  en: 'A DeepSeek Harness (DSH) Web conversation navigator panel : a turn-folded outline floating on the right side of the conversation page. Click any node to smooth-jump, watch the current reading position highlight as you scroll, with step badges colored to match the built-in "Trajectory" view.'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - cordis-plugin
+  - conversation
+  - navigator
+  - outline
+  - session
+source:
+  repository: https://github.com/gjj-star/dsh-conversation-navigator
+  repositoryNodeId: R_kgDOT66AIQ
+  subpath: null
+  commit: b7804a9fa4a39993a8a21bd0d4259521e274b534
+creator:
+  github: PyGuy2
+package:
+  ecosystem: npm
+  name: dsh-conversation-navigator
+  version: 0.1.25
+  integrity: sha512-xPFcNnpj+QzAAD+ZKyD1AFInUFw3xK1xfmG6zEy5R4R347q8OF9Pnd/J+h+k+bIZo+vQDcEkqqrLU9jo5+NaxA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:35.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
