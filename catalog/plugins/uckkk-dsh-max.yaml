@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-max
+name: dsh-max
+description:
+  en: bash dsh plugin add github:uckkk/dsh-max
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-max
+source:
+  repository: https://github.com/uckkk/dsh-max
+  repositoryNodeId: R_kgDOT9uGIQ
+  subpath: null
+  commit: ba18a8bec0861e495a55378ce76c703be22d2bb6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:28.633Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
