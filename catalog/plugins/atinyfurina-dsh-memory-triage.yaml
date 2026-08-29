@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: atinyfurina-dsh-memory-triage
+name: dsh-memory-triage
+description:
+  en: 插件文件放到 ~/.dsh/profiles/web/plugins/dsh-memory-triage ，在 ~/.dsh/profiles/web/cordis.patch.yml 挂载：
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - triage
+source:
+  repository: https://github.com/AtinyFurina/dsh-memory-triage
+  repositoryNodeId: R_kgDOUCbykA
+  subpath: null
+  commit: 05b5f9cabcc93c0e27dece7930cec8fd376682c3
+creator:
+  github: AtinyFurina
+package:
+  ecosystem: npm
+  name: dsh-memory-triage
+  version: 0.1.0
+  integrity: sha512-CXTz02tMX7m9OjMPopLshD2961qjoFHqVQ5OsiErh0UNRO7YPmBqFjqvTg50g02Twbvv0Y+w9OcQZflhCkBkqQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: GPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:07.581Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
