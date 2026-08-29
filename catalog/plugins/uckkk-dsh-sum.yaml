@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sum
+name: dsh-sum
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sum
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sum
+source:
+  repository: https://github.com/uckkk/dsh-sum
+  repositoryNodeId: R_kgDOT9uGfg
+  subpath: null
+  commit: 2485b0fee372bd3429a4c40411ddeab8797e21e0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:14.090Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
