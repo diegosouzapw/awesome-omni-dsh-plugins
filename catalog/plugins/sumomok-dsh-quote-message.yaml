@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: sumomok-dsh-quote-message
+name: "@sumomok/dsh-quote-message"
+description:
+  en: "Quote earlier content of the current session into the composer: select any passage in the chat and a native reference chip carries the text into the prompt, rendered back as a quote card above your message"
+  evidencePath: packages/quote-message/README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis-plugin
+source:
+  repository: https://github.com/sumomok/dsh-plugins
+  repositoryNodeId: R_kgDOUBhqvQ
+  subpath: packages/quote-message
+  commit: 698f2cfb2ac72b38be5871cef5a5e18b247f1808
+creator:
+  github: sumomok
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/quote-message/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:46.052Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
