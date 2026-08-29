@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: mafeis-dsh-net-proxy
+name: dsh-net-proxy
+description:
+  en: "DeepSeek Harness network-proxy plugin: route the agent's own network requests (web search / web fetch / external APIs) through a configured HTTP/HTTPS-CONNECT/SOCKS5 proxy, persisted and auto-applied at startup, with a settings UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - proxy
+  - socks5
+  - network
+source:
+  repository: https://github.com/mafeis/dsh-net-proxy
+  repositoryNodeId: R_kgDOT4Poew
+  subpath: null
+  commit: 61dd838ce92b3f84b787c5b15690328c08467d2a
+creator:
+  github: mafeis
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.278Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
