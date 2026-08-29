@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chenzheshushi-commits-dsh-evolve
+name: dsh-evolve
+description:
+  en: Self-evolving memory + skill lifecycle for DeepSeek Harness. Cross-session memory with zero-token deterministic recall (bigram-Jaccard fused with FTS5 BM25 via RRF), a tiered approval gate, and reinforcement that strengthens what you repeat. Procedural knowledge crystallizes into SKILL.md files that refine in place and
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - memory
+  - skills
+  - self-evolving
+  - long-term-memory
+  - agent
+source:
+  repository: https://github.com/chenzheshushi-commits/dsh-evolve
+  repositoryNodeId: R_kgDOUBCiwQ
+  subpath: null
+  commit: 79200b9873f5158fc421cf33c663368e0a80c41e
+creator:
+  github: chenzheshushi-commits
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:08.455Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
