@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: plutokeating-dsh-lark-bot
+name: dsh-lark-bot
+description:
+  en: <p align="center" 🌏 <a href="README EN.md" English</a · 🌐 官网wiki <a href="https://dsh-lark-bot.arr2018.dpdns.org" dsh-lark-bot.arr2018.dpdns.org</a </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - feishu
+  - lark
+  - bridge
+  - bot
+  - scan-to-connect
+  - typescript
+  - chatbot
+  - dsh-plugin
+  - feishu-plugin
+  - lark-integration
+  - remote-coding
+  - dsh-web-settings
+source:
+  repository: https://github.com/PlutoKeating/dsh-lark-bot
+  repositoryNodeId: R_kgDOT3uJ-Q
+  subpath: null
+  commit: 6e722e0272f370fa0071715703294490e2f89bf8
+creator:
+  github: PlutoKeating
+package:
+  ecosystem: npm
+  name: dsh-lark-bot
+  version: 0.19.16
+  integrity: sha512-NS9VkNYGY193VUtHHesDu4bDugXmH5bOffJAxWQAtPhbp84GuSw4WYGy1ulOfy3DfvCYgG8++tbGFCNiYrUJeQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: AGPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:42.132Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 37
+provenance:
+  discussion: null
+  comment: null
