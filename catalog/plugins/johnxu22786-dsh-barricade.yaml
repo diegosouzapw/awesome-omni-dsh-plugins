@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: johnxu22786-dsh-barricade
+name: dsh-barricade
+description:
+  en: "A destructive-command interception gate for coding agents: it parses command semantics and judges risk before rm -rf , git reset --hard , git push --force and similar commands actually land, then requires human confirmation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - safety
+  - guard
+source:
+  repository: https://github.com/JohnXu22786/safety-net
+  repositoryNodeId: R_kgDOT59NiQ
+  subpath: null
+  commit: 789ff47c8a1b8f397380e42280d621ef6b85da5f
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:13.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
