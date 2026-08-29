@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-phone
+name: dsh-phone
+description:
+  en: bash dsh plugin add dsh-phone 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-phone" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - phone
+source:
+  repository: https://github.com/uckkk/dsh-phone
+  repositoryNodeId: R_kgDOT6NsXQ
+  subpath: null
+  commit: 649953c0f2f6279b1023cb9d77f55f372bc02528
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:48.490Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
