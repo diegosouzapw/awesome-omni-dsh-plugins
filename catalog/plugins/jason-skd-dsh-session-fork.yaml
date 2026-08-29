@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jason-skd-dsh-session-fork
+name: dsh-session-fork
+description:
+  en: "dsh plugin: git-like conversation forking (branch refs on sessions)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - conversation
+  - forking
+  - branch
+  - refs
+  - sessions
+  - dsh
+source:
+  repository: https://github.com/Jason-skd/dsh-session-fork
+  repositoryNodeId: R_kgDOT-tM3g
+  subpath: null
+  commit: 929d585689a8bff2809336b4f60e820dad87638c
+creator:
+  github: Jason-skd
+package:
+  ecosystem: npm
+  name: dsh-session-fork
+  version: 0.2.0
+  integrity: sha512-4hAiubTWZGCzUrgSAmw/Y5joHvHK0B4tBNkwHVz2cY+2mEYXZUc/CDE1Z/SjUeTub4Q7rHn4RWJpvC26WoX7Fg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:20.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
