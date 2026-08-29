@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lanyun077-dsh-project
+name: dsh-project
+description:
+  en: "1. 让 dsh-project 可被 profile 解析（如 file:../dsh-project 依赖或 node modules 软链）。 2. 在 profile 的 cordis.patch.yml 加： yaml - insert: - id: project name: 'dsh-project' 3. 重启 DSH web（ dsh web ）。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - workspace
+  - memory
+source:
+  repository: https://github.com/lanyun077/dsh-project
+  repositoryNodeId: R_kgDOT5277w
+  subpath: null
+  commit: 4b75a8934986cf720da4baf903b45905d4bc01ed
+creator:
+  github: lanyun077
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:47.593Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
