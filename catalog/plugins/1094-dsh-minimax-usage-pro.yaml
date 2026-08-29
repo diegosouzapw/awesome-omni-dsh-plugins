@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 1094-dsh-minimax-usage-pro
+name: dsh-minimax-usage-pro
+description:
+  en: DSH Settings integration for MiniMax Token Plan usage, using Host webServer routes compatible with trusted bundle plugins and both MiniMax subscription key names.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - minimax
+  - minimax-usage
+  - token-plan
+  - bundle-plugin
+source:
+  repository: https://github.com/andyfan1094/dsh-minimax-usage-pro
+  repositoryNodeId: R_kgDOT_RTAw
+  subpath: null
+  commit: 3f68cdaa60d73d482bcd3d02890f728320f2d83e
+creator:
+  github: "1094"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:14.892Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
