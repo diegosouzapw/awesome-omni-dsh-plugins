@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: stardustlc666-dsh-voice
+name: dsh-voice
+description:
+  en: "DSH (DeepSeek Harness) voice plugin pair: let the agent speak and listen ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - tts
+  - stt
+  - whisper
+  - voice
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-voice
+  repositoryNodeId: R_kgDOT4uQQQ
+  subpath: null
+  commit: e8a90d4917cd28897727df6bea33cc0568a95f38
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-voice
+  version: 0.3.0
+  integrity: sha512-5a42P6/RI0e8o1jwcOwVA5LtyJhrpMggQZgAYS8zAUbMlm2VDcAWuFLnmA8LWPjUz2wsKdz+iBzLJMJOoi6U6A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:44.118Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
