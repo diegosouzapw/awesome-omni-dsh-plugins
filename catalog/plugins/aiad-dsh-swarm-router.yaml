@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: aiad-dsh-swarm-router
+name: dsh-swarm-router
+description:
+  en: "DSH plugin platform: sub-agent matrix swarm + model aggregation registry (PR flow) + plugin extension point (ctx.swarmRouter) + real-task feedback/ranking + token-consumption stats (cfgpu highlighted). Routes heterogeneous tasks to the most suitable model (OpenRouter-like + cfgpu.com/llm/square), dispatches via in-proc"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - subagent
+  - swarm
+  - model-router
+  - cfgpu
+  - openrouter
+  - llm-routing
+source:
+  repository: https://github.com/r600a-code/dsh-swarm-router
+  repositoryNodeId: R_kgDOT5dnAQ
+  subpath: null
+  commit: fc051ea2ad05fc27ad7271630b7e0bd7ebb24bb9
+creator:
+  github: Aiad
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:51.542Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
