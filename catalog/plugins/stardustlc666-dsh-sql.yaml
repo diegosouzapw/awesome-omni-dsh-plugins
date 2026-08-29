@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: stardustlc666-dsh-sql
+name: dsh-sql
+description:
+  en: "Your agent can query databases now : SQLite / MySQL / PostgreSQL engines, read-only whitelist + write approval gate."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - sql
+  - sqlite
+  - mysql
+  - postgresql
+  - database
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-sql
+  repositoryNodeId: R_kgDOT4wbtw
+  subpath: null
+  commit: ab058bc3cc97c42140b95a269032f8e6d516404e
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-sql
+  version: 0.4.0
+  integrity: sha512-832YO5zH1uRyxc+FL1dvJxaAsvM1uz2LHXokqR/XC/BHo3sKHgcxvQkLZ8piFfe7X6nATLPD4l68OKFFdCz4qg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
