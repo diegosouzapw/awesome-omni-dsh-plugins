@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: qswwltn-dsh-ue-uasset-operator
+name: "@deepseek-dsh-desktop/dsh-ue-uasset-operator"
+description:
+  en: Native DSH tools for Unreal Engine uasset inspection and the Blueprint node edits exposed by built-in UE Python
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - unreal-engine
+  - blueprint
+  - uasset
+  - dsh-plugin
+source:
+  repository: https://github.com/QSWWLTN/dsh-UEAssetsOperator
+  repositoryNodeId: R_kgDOT4FfFg
+  subpath: null
+  commit: 2dbb6833c9b7e556131dbbe05b070a7e0f535576
+creator:
+  github: QSWWLTN
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:48.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
