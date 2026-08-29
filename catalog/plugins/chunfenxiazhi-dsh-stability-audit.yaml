@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: chunfenxiazhi-dsh-stability-audit
+name: dsh-stability-audit
+description:
+  en: Scan installed DeepSeek Harness (dsh) plugins and get a stability risk grade + fix suggestion before they break your harness — static analysis, optional isolated install verification, and machine-readable output for any agent to surface problems and remedies fast.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - stability
+  - audit
+  - plugin-health
+source:
+  repository: https://github.com/chunfenxiazhi-collab/dsh-stability-audit
+  repositoryNodeId: R_kgDOUDDpUw
+  subpath: null
+  commit: a16e1cff7893e7d065ab77bb1c39916f969f7f70
+creator:
+  github: chunfenxiazhi
+package:
+  ecosystem: npm
+  name: dsh-stability-audit
+  version: 0.13.0
+  integrity: sha512-RweHd8msDyOkRR2244fuHiNXm0tDbVvqpHttuEKRPyRaPBBmLCYKVxHR/bgWEuSrUgCOe3TDssiIv7nhmuMtBw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:44.501Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
