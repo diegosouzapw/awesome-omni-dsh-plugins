@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-json-diff
+name: dsh-json-diff
+description:
+  en: bash dsh plugin add dsh-json-diff 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-diff" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - diff
+source:
+  repository: https://github.com/uckkk/dsh-json-diff
+  repositoryNodeId: R_kgDOT6KD0w
+  subpath: null
+  commit: d44fd1833c7cd44482e1d17a7b159f089c3510ec
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:13.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
