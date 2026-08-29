@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-bcrypt
+name: dsh-bcrypt
+description:
+  en: bash dsh plugin add dsh-bcrypt 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-bcrypt" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - bcrypt
+  - password
+  - hash
+  - security
+source:
+  repository: https://github.com/uckkk/dsh-bcrypt
+  repositoryNodeId: R_kgDOT9sAFw
+  subpath: null
+  commit: f20d3eab213bea65a79340e6363998e28b63facb
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:39.680Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
