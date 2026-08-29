@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ev-range
+name: dsh-ev-range
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ev-range
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ev-range
+source:
+  repository: https://github.com/uckkk/dsh-ev-range
+  repositoryNodeId: R_kgDOT-DUeA
+  subpath: null
+  commit: 57229e468573dd44f192ad9a5132c646c3fe15e3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:36.663Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
