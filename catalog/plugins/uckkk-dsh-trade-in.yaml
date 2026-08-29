@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-trade-in
+name: dsh-trade-in
+description:
+  en: bash dsh plugin add github:uckkk/dsh-trade-in
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-trade-in
+source:
+  repository: https://github.com/uckkk/dsh-trade-in
+  repositoryNodeId: R_kgDOT-wpmg
+  subpath: null
+  commit: 4dc7a9c968118c57e01eda0ec34dbbbb8f40a505
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:55.235Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
