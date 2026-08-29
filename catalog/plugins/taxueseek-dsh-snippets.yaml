@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: taxueseek-dsh-snippets
+name: dsh-snippets
+description:
+  en: "极简常用片段/命令工具箱 for DeepSeek Harness: JSONL-backed, five tools, no UI, no deps beyond the harness SDK. Save frequently used commands, code, URLs and prompts, then search them back in any session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - cordis
+  - snippets
+  - commands
+source:
+  repository: https://github.com/taxueseek/dsh-snippets
+  repositoryNodeId: R_kgDOT5VP0Q
+  subpath: null
+  commit: 92c9aaa803f2c7476543aff7d098df737e1e152d
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.158Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
