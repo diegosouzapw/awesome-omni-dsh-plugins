@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: jinhongxun-dsh-mcphub
+name: dsh-mcphub
+description:
+  en: "MCP management panel for DeepSeek Harness: connection status (green dot), pip/npx local-server upgrade detection & one-click upgrade, add-server form writing cordis.patch.yml, connectivity probe, and usage help."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+source:
+  repository: https://github.com/jinhongxun/dsh-mcphub
+  repositoryNodeId: R_kgDOT78qQQ
+  subpath: null
+  commit: e2c1ed1e83422a21a35e020b512d9b3cedd96124
+creator:
+  github: jinhongxun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:12.079Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
