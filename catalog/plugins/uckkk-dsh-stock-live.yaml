@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-stock-live
+name: dsh-stock-live
+description:
+  en: bash dsh plugin add github:uckkk/dsh-stock-live
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-stock-live
+source:
+  repository: https://github.com/uckkk/dsh-stock-live
+  repositoryNodeId: R_kgDOT-sxMg
+  subpath: null
+  commit: 87c1a20266da6d06ae9b4c8503d4fe18581a17d4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:12.074Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
