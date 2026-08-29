@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dong3434-dsh-auto-maintenance
+name: dsh-auto-maintenance
+description:
+  en: DSH Auto Maintenance System — startup diagnosis, auto-fix, scheduled backups, smart-start, config monitoring, and automatic plugin-change self-check with rollback, in one Cordis plugin.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - maintenance
+  - auto-fix
+  - diagnosis
+  - backup
+  - monitor
+  - self-check
+  - rollback
+  - rescue
+  - auto-repair
+source:
+  repository: https://github.com/dong3434/dsh-auto-maintenance
+  repositoryNodeId: R_kgDOUCOKdA
+  subpath: null
+  commit: ee55afb14ac81aa190b15d7eb9caca829650f572
+creator:
+  github: dong3434
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:21.739Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
