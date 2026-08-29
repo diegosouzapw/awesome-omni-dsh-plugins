@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: leaveimagination-dsh-qwen-voice
+name: dsh-qwen-voice
+description:
+  en: powershell git clone https://github.com/leaveimagination/dsh-qwen-voice.git cd dsh-qwen-voice .\scripts\install.cmd
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - powershell
+  - clone
+  - leaveimagination
+  - qwen
+  - voice
+  - scripts
+  - install
+  - dsh
+source:
+  repository: https://github.com/leaveimagination/dsh-qwen-voice
+  repositoryNodeId: R_kgDOT4GTsQ
+  subpath: null
+  commit: 9522d924691456ea09ad3edaf2454ea63b6c04fa
+creator:
+  github: leaveimagination
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:28.219Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
