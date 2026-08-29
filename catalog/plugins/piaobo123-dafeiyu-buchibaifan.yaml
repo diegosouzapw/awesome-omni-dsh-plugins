@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: piaobo123-dafeiyu-buchibaifan
+name: "@piaobo_gz/dafeiyu-buchibaifan"
+description:
+  en: dsh plugin --profile web add "C:\path\piaobo gz-dafeiyu-buchibaifan-1.0.2.tgz"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - desktop-pet
+  - agent-companion
+  - dafeiyu
+  - bigfish
+  - dsh
+source:
+  repository: https://github.com/piaobo123/dafeiyu-buchibaifan
+  repositoryNodeId: R_kgDOUBL0Yg
+  subpath: null
+  commit: ea96b8fd7a5d01006a1869afa3e3ec078496f9f6
+creator:
+  github: piaobo123
+package:
+  ecosystem: npm
+  name: "@piaobo_gz/dafeiyu-buchibaifan"
+  version: 1.0.2
+  integrity: sha512-JdfVK6bWe8/xy/HWhZc8v61yfo4Pk6iplx3Q75GlT0esjSHGui3a9OISgY/PIG1wSk2EMu09BmQNDdlU7GTN1w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:20.711Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
