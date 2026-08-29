@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-cron
+name: dsh-cron
+description:
+  en: bash dsh plugin add dsh-cron 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-cron" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cron
+  - schedule
+source:
+  repository: https://github.com/uckkk/dsh-cron
+  repositoryNodeId: R_kgDOT6GgIw
+  subpath: null
+  commit: e137c23924275248e68a94077343651e19beb85c
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-cron
+  version: 0.1.0
+  integrity: sha512-frQiFEnJio5XpHwyEuz8q8tPidD+6HQrrvn7rlYPH3Y0xlVbJcl09N/47hMucOOVqecBQ+Mhq2Yn13c3l6XmBw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:33.569Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
