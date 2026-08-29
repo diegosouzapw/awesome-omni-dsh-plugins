@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: chenyiming-aaa-dsh-ui-ux-pro-max
+name: dsh-ui-ux-pro-max
+description:
+  en: UI/UX design intelligence plugin for DeepSeek Harness (DSH) , adapted and optimized from the open-source project nextlevelbuilder/ui-ux-pro-max-skill (MIT License). Bundles 84 design styles, 192 color palettes, 74 font pairings, 99 UX guidelines, 25 chart types across 22 technology stacks plus 1900+ Google Fonts record
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - ui-ux-pro-max
+  - design-system
+  - ui-ux
+  - design-tokens
+  - ux-review
+  - color-palette
+  - typography
+  - accessibility
+  - charts
+  - offline
+  - dsh
+source:
+  repository: https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max
+  repositoryNodeId: R_kgDOT9bXkg
+  subpath: null
+  commit: dc899d6e53fbab876d545d4f28198447ec2020e3
+creator:
+  github: ChenYiming-aaa
+package:
+  ecosystem: npm
+  name: dsh-ui-ux-pro-max
+  version: 1.0.0
+  integrity: sha512-lre8Y1GHbB+YOR87q5Tjzorwtyc6bAWI8MbEAgqWbWHG8OaTCPUV6++Z4accm8yrO5y0jLj6qVzRKw1uRZgikQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:41.393Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
