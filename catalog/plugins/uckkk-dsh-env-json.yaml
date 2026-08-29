@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-env-json
+name: dsh-env-json
+description:
+  en: bash dsh plugin add dsh-env-json 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-env-json" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - env
+  - json
+source:
+  repository: https://github.com/uckkk/dsh-env-json
+  repositoryNodeId: R_kgDOT6NiYA
+  subpath: null
+  commit: 590d80f0ea2fe6ae4b108ee063f53b4c4e69ac8a
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-env-json
+  version: 0.1.0
+  integrity: sha512-s4XzTzw/2dEI70Ycm5k26EnTuUpWf9blLf5AvbPjOU2IC6HlqKryTF75cDuoDU9O39gOmZjZO6kFartR5FBhUw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:36.381Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
