@@ -87,12 +87,12 @@ Merkitykset ja järjestysvaikutukset määritellään tiedostossa
 
 ### `primaryCategory`
 
-Yksi kolmestatoista ominaisuuskategoriasta:
+Yksi neljästätoista ominaisuuskategoriasta:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Näyttönimet ja valintaohjeet ovat tiedostossa [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
@@ -234,4 +234,4 @@ commitissa, että tähtimäärä on oikea tai että luoja omistaa lähteen. Näm
 ylläpitäjien tarkastusporteille, jotka kuvataan tiedostoissa
 [CONTRIBUTING.md](../../CONTRIBUTING.md) ja [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

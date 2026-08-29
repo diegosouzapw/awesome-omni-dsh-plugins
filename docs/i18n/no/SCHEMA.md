@@ -86,12 +86,12 @@ Betydninger og rangeringskonsekvenser er definert i [docs/CATEGORIES.md](../../d
 
 ### `primaryCategory`
 
-Én av de tretten kapasitetskategoriene:
+Én av de fjorten kapasitetskategoriene:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Visningsetiketter og veiledning for valg finnes i [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
@@ -231,4 +231,4 @@ stjernetallet er nøyaktig, eller at skaperen eier kilden. Disse sjekkene tilhø
 vedlikeholdernes gjennomgangsporter beskrevet i [CONTRIBUTING.md](../../CONTRIBUTING.md) og
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

@@ -89,12 +89,12 @@
 
 ### `primaryCategory`
 
-பதிமூன்று திறன் வகைகளில் ஒன்று:
+பதினான்கு திறன் வகைகளில் ஒன்று:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 காட்சி பெயரிடல்களும் தேர்வு வழிகாட்டுதலும்
 [docs/CATEGORIES.md](../../docs/CATEGORIES.md)-இல் உள்ளன.
@@ -240,4 +240,4 @@ URL-உடன் பொருந்துகிறதா, ஆதாரப் ப
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)-இல் விவரிக்கப்பட்ட பராமரிப்பாளர் மதிப்பாய்வு
 நுழைவாயில்களுக்குரியவை.
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

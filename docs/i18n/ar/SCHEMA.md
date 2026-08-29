@@ -71,12 +71,12 @@
 
 ### `primaryCategory`
 
-واحدة من الفئات الثلاث عشرة للقدرة:
+واحدة من الفئات الأربع عشرة للقدرة:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 توجد تسميات العرض وإرشادات الاختيار في [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
@@ -197,4 +197,4 @@
 
 المخطط محلي وبنيوي عمدًا. وهو لا يتحقق من وجود المستودع، أو تطابق معرّف العقدة مع عنوان URL، أو وجود مسارات الأدلة عند الالتزام المثبَّت، أو دقة عدد النجوم، أو ملكية المنشئ للمصدر. تنتمي تلك الفحوصات إلى بوابات مراجعة المشرفين الموصوفة في [CONTRIBUTING.md](../../CONTRIBUTING.md) و[docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

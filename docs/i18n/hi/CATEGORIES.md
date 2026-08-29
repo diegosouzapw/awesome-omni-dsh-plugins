@@ -47,6 +47,7 @@
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | वित्त, ट्रेडिंग और बहीखाता |
 
 वह श्रेणी चुनें जो प्लगइन के प्राथमिक काम का सबसे अच्छा प्रतिनिधित्व करे, न कि वह श्रेणी जो दृश्यता बढ़ाने की
 सबसे अधिक संभावना रखे।
@@ -63,4 +64,4 @@
 उपयोग तब करें जब प्लगइन किसी व्यापक प्रोजेक्ट के अंदर एक subpath या package हो। एक monorepo एंट्री को
 `popularity.starsPolicy: undefined-parent-repository` और `popularity.stars: null` का उपयोग करना होगा।
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

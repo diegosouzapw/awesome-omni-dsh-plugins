@@ -84,12 +84,12 @@ Bộ phân biệt **duy nhất** cho loại sản phẩm (không tồn tại tr�
 
 ### `primaryCategory`
 
-Một trong mười ba danh mục năng lực:
+Một trong mười bốn danh mục năng lực:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Nhãn hiển thị và hướng dẫn lựa chọn nằm tại [docs/CATEGORIES.md](CATEGORIES.md).
 
@@ -225,4 +225,4 @@ hay không, hay nhà phát triển có thực sự sở hữu nguồn hay không
 duyệt của người bảo trì được mô tả tại [CONTRIBUTING.md](../../CONTRIBUTING.md) và
 [docs/GOVERNANCE.md](GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

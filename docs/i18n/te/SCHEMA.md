@@ -84,12 +84,12 @@
 
 ### `primaryCategory`
 
-పదమూడు సామర్థ్య వర్గాలలో ఒకటి:
+పద్నాలుగు సామర్థ్య వర్గాలలో ఒకటి:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 డిస్‌ప్లే లేబుల్స్ మరియు ఎంపిక మార్గదర్శకత్వం [docs/CATEGORIES.md](../../docs/CATEGORIES.md)లో ఉన్నాయి.
 
@@ -225,4 +225,4 @@
 లేదో, లేదా సృష్టికర్త సోర్స్‌కు యజమానో లేదో ధృవీకరించ**దు**. ఆ తనిఖీలు [CONTRIBUTING.md](../../CONTRIBUTING.md)
 మరియు [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)లో వివరించిన మెయింటైనర్ సమీక్ష గేట్‌లకు చెందుతాయి.
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

@@ -71,12 +71,12 @@ Znaczenia i konsekwencje dla rankingu są zdefiniowane w [docs/CATEGORIES.md](..
 
 ### `primaryCategory`
 
-Jedna z trzynastu kategorii możliwości:
+Jedna z czternastu kategorii możliwości:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Etykiety wyświetlane i wskazówki dotyczące wyboru znajdują się w [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
 
@@ -197,4 +197,4 @@ Publiczne linki pochodzenia, każdy jako URI lub `null`:
 
 Schemat jest celowo lokalny i strukturalny. **Nie** weryfikuje, czy repozytorium istnieje, czy node ID pasuje do URL, czy ścieżki dowodowe istnieją w przypiętym commicie, czy liczba gwiazdek jest dokładna, ani czy twórca jest właścicielem źródła. Te sprawdzenia należą do bramek recenzji maintainerów opisanych w [CONTRIBUTING.md](../../CONTRIBUTING.md) i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

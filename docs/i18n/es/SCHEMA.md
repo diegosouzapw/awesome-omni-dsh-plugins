@@ -88,12 +88,12 @@ Los significados y las consecuencias en el ranking se definen en
 
 ### `primaryCategory`
 
-Una de las trece categorías de capacidad:
+Una de las catorce categorías de capacidad:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Las etiquetas de visualización y la guía de selección están en
 [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
@@ -235,4 +235,4 @@ conteo de estrellas sea preciso, ni que el creador sea dueño de la fuente. Esas
 pertenecen a los gates de revisión de los mantenedores descritos en
 [CONTRIBUTING.md](../../CONTRIBUTING.md) y [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

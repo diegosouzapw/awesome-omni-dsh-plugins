@@ -40,6 +40,7 @@
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | مالیات، ٹریڈنگ اور بک کیپنگ |
 
 وہ زمرہ منتخب کریں جو پلگ ان کے بنیادی کام کی بہترین نمائندگی کرے، نہ کہ وہ زمرہ جس سے سب سے زیادہ نمائش بڑھنے کا امکان ہو۔
 
@@ -51,4 +52,4 @@
 
 `dedicated` صرف اس وقت استعمال کریں جب ریپوزٹری کے ستارے عین کیٹلاگ کردہ پلگ ان سے تعلق رکھتے ہوں۔ `monorepo` اس وقت استعمال کریں جب پلگ ان کسی وسیع تر پروجیکٹ کے اندر ایک subpath یا پیکج ہو۔ ایک مونوریپو اندراج کو لازمی طور پر `popularity.starsPolicy: undefined-parent-repository` اور `popularity.stars: null` استعمال کرنا چاہیے۔
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

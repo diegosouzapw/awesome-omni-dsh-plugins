@@ -75,6 +75,7 @@ properties:
       - messaging-notifications
       - data-external-services
       - entertainment-customization
+      - finance-trading
   tags:
     type: array
     uniqueItems: true

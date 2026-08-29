@@ -83,12 +83,12 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 
 ### `primaryCategory`
 
-13개의 기능 카테고리 중 하나:
+14개의 기능 카테고리 중 하나:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 표시 라벨과 선택 가이드는 [docs/CATEGORIES.md](../../docs/CATEGORIES.md)에 있습니다.
 
@@ -226,4 +226,4 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 [CONTRIBUTING.md](../../CONTRIBUTING.md)와 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)에
 설명된 메인테이너 검토 게이트에 속합니다.
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

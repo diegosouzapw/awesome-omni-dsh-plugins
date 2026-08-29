@@ -49,6 +49,7 @@ DSH-integrációval. Ez megakadályozza az ellentmondásos besorolási párokat.
 | `messaging-notifications` | Üzenetküldés és értesítések |
 | `data-external-services` | Adat és külső szolgáltatások |
 | `entertainment-customization` | Szórakozás és testreszabás |
+| `finance-trading` | Pénzügy, kereskedés és könyvelés |
 
 Válaszd azt a kategóriát, amely a legjobban képviseli a bővítmény elsődleges feladatát, nem azt,
 amely valószínűleg a legnagyobb láthatóságot adja.
@@ -67,4 +68,4 @@ csomag egy szélesebb projekten belül. Egy monorepo-bejegyzésnek a
 `popularity.starsPolicy: undefined-parent-repository` és a `popularity.stars: null` értéket kell
 használnia.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->
