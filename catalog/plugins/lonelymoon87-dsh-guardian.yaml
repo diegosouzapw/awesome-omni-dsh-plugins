@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lonelymoon87-dsh-guardian
+name: dsh-guardian
+description:
+  en: Dangerous-operation policy, canonical output redaction, and security review for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - security
+  - redaction
+  - policy
+  - dsh
+source:
+  repository: https://github.com/lonelymoon87/dsh-guardian
+  repositoryNodeId: R_kgDOT3pMfQ
+  subpath: null
+  commit: 6091479072ea236249a858467d481708868678e8
+creator:
+  github: lonelymoon87
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:31.726Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
