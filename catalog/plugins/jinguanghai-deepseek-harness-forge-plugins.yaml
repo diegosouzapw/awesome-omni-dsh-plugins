@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jinguanghai-deepseek-harness-forge-plugins
+name: deepseek-harness-forge-plugins
+description:
+  en: "Forge plugins for DeepSeek Harness: gate computing + TCM + memory (13 tools). Install via dsh plugin add github:jinguanghai/deepseek-harness-forge-plugins ."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - forge
+  - gate
+  - computing
+  - memory
+  - tools
+  - install
+  - jinguanghai
+  - dsh
+source:
+  repository: https://github.com/jinguanghai/deepseek-harness-forge-plugins
+  repositoryNodeId: R_kgDOT4V3ww
+  subpath: null
+  commit: ad4e2dd73be06dc72fc05e0e1775032270bc3a0d
+creator:
+  github: jinguanghai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:34.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
