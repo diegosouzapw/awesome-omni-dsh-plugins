@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: siweina-dsh-novel-writer
+name: dsh-novel-writer
+description:
+  en: "A novel-writing assistant plugin for DeepSeek Harness (DSH) : chapter library management, sentence-pattern analysis, emotion purification & quantification, 12-axis vibe spectrum , style portrait report , six-dimension style baseline band , writing sentinels (bridge/OOC/outline drift) , plot & settings management, local"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - novel-writing
+  - chinese-novel
+  - writing-assistant
+  - creative-writing
+  - fiction
+  - webnovel
+  - ai-writing
+  - text-analysis
+  - semantic-search
+  - style-analysis
+  - sentence-analysis
+  - emotion-analysis
+  - vibe
+source:
+  repository: https://github.com/siweina/dsh-novel-writer
+  repositoryNodeId: R_kgDOT593cA
+  subpath: null
+  commit: 62825959ccc00823b9212188d6178eae05f00ab6
+creator:
+  github: siweina
+package:
+  ecosystem: npm
+  name: dsh-novel-writer
+  version: 3.7.0
+  integrity: sha512-5U5OGo5Rd7dLFelySpgmnjw+gzw7vsmQOGv33ux6OXXxlwUoyqR8kwEUebbAx4Hon847HpR2M20QvCE2agkRVg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:29.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
