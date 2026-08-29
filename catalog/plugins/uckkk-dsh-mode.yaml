@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mode
+name: dsh-mode
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mode
+source:
+  repository: https://github.com/uckkk/dsh-mode
+  repositoryNodeId: R_kgDOT9uDAg
+  subpath: null
+  commit: 28b9fb4ff3daaad3c827fcbe74b4754681214023
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:31.919Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
