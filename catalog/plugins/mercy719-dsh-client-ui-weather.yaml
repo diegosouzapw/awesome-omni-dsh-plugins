@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mercy719-dsh-client-ui-weather
+name: "@deepseek-ai/dsh-client-ui-weather"
+description:
+  en: Weather dashboard overlay for the DeepSeek Harness Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - weather
+  - weather-dashboard
+  - open-meteo
+  - dsh
+source:
+  repository: https://github.com/mercy719/dsh-client-ui-weather
+  repositoryNodeId: R_kgDOT8SfPQ
+  subpath: null
+  commit: 064d7fe07b3164b5315e0c9d91a921c0854ad684
+creator:
+  github: mercy719
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:10.635Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
