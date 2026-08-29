@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: angeloszou-dsh-pdf-reader
+name: dsh-pdf-reader
+description:
+  en: "DeepSeek Harness plugin: content-aware PDF reading tools for vision models (pdf scan / pdf read page / pdf render region). Detects figures (vector+raster), tables, math, and two-column layout per page, then routes text pages to extraction and figure/table/math pages to high-DPI region crops rendered for read image — av"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - pdf
+  - vision
+  - pdf-reader
+  - ocr
+  - figure
+  - table
+  - pymupdf
+source:
+  repository: https://github.com/AngelosZou/dsh-pdf-reader
+  repositoryNodeId: R_kgDOUDtPFg
+  subpath: null
+  commit: ffecd361b7f2803fdccd1cf92149aad3e11a3271
+creator:
+  github: AngelosZou
+package:
+  ecosystem: npm
+  name: dsh-pdf-reader
+  version: 0.2.0
+  integrity: sha512-f8y3pp6eVobnqNHhWUwYRS13CzSxvbwifD2OSeaQNP+cCLd8wLGD4tOILlL3RLD3MPcmzyo0rxJz8+Jg8S1mQw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:02.931Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
