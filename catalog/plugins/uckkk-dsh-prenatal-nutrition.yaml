@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-prenatal-nutrition
+name: dsh-prenatal-nutrition
+description:
+  en: bash dsh plugin add github:uckkk/dsh-prenatal-nutrition
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-prenatal-nutrition
+source:
+  repository: https://github.com/uckkk/dsh-prenatal-nutrition
+  repositoryNodeId: R_kgDOT-sy7g
+  subpath: null
+  commit: 3851d572142bb6dcb07057eedc24db17da195b5a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:52.094Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
