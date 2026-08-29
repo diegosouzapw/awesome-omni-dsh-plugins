@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shuxue6662-a11y-dsh-risk-guard
+name: dsh-risk-guard
+description:
+  en: Zero-interruption audit + fuse blocking for DeepSeek Harness (dsh).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - security
+  - risk
+  - audit
+source:
+  repository: https://github.com/shuxue6662-a11y/dsh-risk-guard
+  repositoryNodeId: R_kgDOT6zGog
+  subpath: null
+  commit: 790bda59aae6ca75fac0683b3651309cf4b146d6
+creator:
+  github: shuxue6662-a11y
+package:
+  ecosystem: npm
+  name: dsh-risk-guard
+  version: 0.2.0
+  integrity: sha512-CYPbIMdd5KBYF4ZTOocGhZHmg4gU4lWvR0vNWqh+qROlgu+nLta27Z4zPW0pPQCE+G1BbgJlDtl3OP+RlfG6pQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:03.248Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
