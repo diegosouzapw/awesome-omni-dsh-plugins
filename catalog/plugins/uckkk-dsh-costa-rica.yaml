@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-costa-rica
+name: dsh-costa-rica
+description:
+  en: bash dsh plugin add github:uckkk/dsh-costa-rica
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-costa-rica
+source:
+  repository: https://github.com/uckkk/dsh-costa-rica
+  repositoryNodeId: R_kgDOT_EB8g
+  subpath: null
+  commit: a99255eb093f4e748dc21a8df27776672a186bc2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:13.626Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
