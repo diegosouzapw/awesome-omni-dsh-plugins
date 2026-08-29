@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-vatican
+name: dsh-vatican
+description:
+  en: bash dsh plugin add github:uckkk/dsh-vatican
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-vatican
+source:
+  repository: https://github.com/uckkk/dsh-vatican
+  repositoryNodeId: R_kgDOT-ClpA
+  subpath: null
+  commit: 8d28cf3e3dcd5c8e2550667d17f5da73ca5f4433
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:05.537Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
