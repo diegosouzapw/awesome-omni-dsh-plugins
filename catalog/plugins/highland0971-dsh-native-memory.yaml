@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: highland0971-dsh-native-memory
+name: dsh-native-memory
+description:
+  en: "Native, per-workspace long-term memory for DeepSeek Harness: facts and profiles on DSH's own storage-domain, cross-session recall through session-query FTS, approval-gated writes, and cited provenance — no external server, no extra runtime dependency."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+  - long-term-memory
+  - agent
+source:
+  repository: https://github.com/highland0971/dsh-native-memory
+  repositoryNodeId: R_kgDOT4_hVw
+  subpath: null
+  commit: 9acd2ca676fc58a8c8d7a17e59f2d39fcb4c9b58
+creator:
+  github: highland0971
+package:
+  ecosystem: npm
+  name: dsh-native-memory
+  version: 0.2.0
+  integrity: sha512-/GUOdYhZxlk+IiWPzVERWmwBq2zM60pV6nJAHBJIAoeRnsKiJi2a8aqKzxM9ZCaRvNEmUkiJvrpzvCuBTGQ3EQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:56.812Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
