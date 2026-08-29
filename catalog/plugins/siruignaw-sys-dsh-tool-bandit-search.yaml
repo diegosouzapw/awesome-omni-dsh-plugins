@@ -1,0 +1,39 @@
+schemaVersion: 1
+id: siruignaw-sys-dsh-tool-bandit-search
+name: dsh-tool-bandit-search
+description:
+  en: A search tool for DeepSeek Harness that learns to pick between quick and thorough search strategies using a contextual bandit (Thompson sampling).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/siruignaw-sys/dsh-tool-bandit-search
+  repositoryNodeId: R_kgDOT5sQVg
+  subpath: null
+  commit: 089dd0d3e5b2b1686e66363905b8a393caa1d387
+creator:
+  github: siruignaw-sys
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:47.091Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
