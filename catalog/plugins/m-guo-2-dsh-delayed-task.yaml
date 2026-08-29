@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: m-guo-2-dsh-delayed-task
+name: dsh-delayed-task
+description:
+  en: Durable delayed decisions that wake cold DeepSeek Harness sessions with bounded authorization
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent
+  - scheduler
+  - delayed-task
+  - dsh
+source:
+  repository: https://github.com/m-guo-2/dsh-delayed-task
+  repositoryNodeId: R_kgDOT4HruQ
+  subpath: null
+  commit: 0c5352a325836267b4dc01b374655fb5f541a44c
+creator:
+  github: m-guo-2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:51.700Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
