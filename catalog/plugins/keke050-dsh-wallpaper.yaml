@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: keke050-dsh-wallpaper
+name: dsh-wallpaper
+description:
+  en: Set a custom background wallpaper for the DeepSeek Harness desktop app — presets, image URL, upload, and an opacity slider
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wallpaper
+  - background
+  - theme
+source:
+  repository: https://github.com/keke050/dsh-wallpaper
+  repositoryNodeId: R_kgDOT5KZow
+  subpath: null
+  commit: 226ccd76c75291681d58709319b8d8da3dd6f44e
+creator:
+  github: keke050
+package:
+  ecosystem: npm
+  name: dsh-wallpaper
+  version: 0.1.0
+  integrity: sha512-pq6h4ODQFAqcT52mndw3WbYF8lZegrSLbEuN9hhQvalDCA9LPXP5XSWh4Fxna4h1VzCzMxaleuZ/BWvYnMQErw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:28.401Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
