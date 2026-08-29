@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-nitrogen
+name: dsh-nitrogen
+description:
+  en: bash dsh plugin add github:uckkk/dsh-nitrogen
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-nitrogen
+source:
+  repository: https://github.com/uckkk/dsh-nitrogen
+  repositoryNodeId: R_kgDOT9vBbQ
+  subpath: null
+  commit: 5d63f6c44ca5d8de03b0b55562e00025e83ab84f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:39.358Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
