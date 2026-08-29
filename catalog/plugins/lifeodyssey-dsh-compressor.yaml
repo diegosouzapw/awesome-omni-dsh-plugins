@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lifeodyssey-dsh-compressor
+name: dsh-compressor
+description:
+  en: In-process DeepSeek Harness context compression bundle
+  evidencePath: plugins/dsh-compressor/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - context-compression
+  - dsh
+source:
+  repository: https://github.com/lifeodyssey/dsh-compressor
+  repositoryNodeId: R_kgDOS642mg
+  subpath: plugins/dsh-compressor
+  commit: 76b39ab7ff2f5c4c847ef93f793e3d2e7bb0a3ce
+creator:
+  github: lifeodyssey
+package:
+  ecosystem: npm
+  name: dsh-compressor
+  version: 0.1.0
+  integrity: sha512-oJT3Xy8/jpofp5elHmow6+4W2hPSJi35pYPMCHzoQqtSlhMVEmx5iyxTQ1jmPxJB9OsqUA7sTZcJD/MEH9609w==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-compressor/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:08.423Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
