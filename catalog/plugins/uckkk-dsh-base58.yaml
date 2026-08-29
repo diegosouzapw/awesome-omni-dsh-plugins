@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-base58
+name: dsh-base58
+description:
+  en: bash dsh plugin add dsh-base58 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-base58" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - base58
+  - bitcoin
+  - encode
+source:
+  repository: https://github.com/uckkk/dsh-base58
+  repositoryNodeId: R_kgDOT9tBKw
+  subpath: null
+  commit: 1972e757af9f1c3a9e2212256f014a2b644d8218
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:38.932Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
