@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: shyboy-dsh-k12-lesson-builder
+name: dsh-k12-lesson-builder
+description:
+  en: DeepSeek Harness plugin for synchronized K12 English PPTX and DOCX lesson materials
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - synchronized
+  - english
+  - pptx
+  - docx
+  - lesson
+  - materials
+  - dsh
+source:
+  repository: https://github.com/shyboy/dsh-k12-lesson-builder
+  repositoryNodeId: R_kgDOT3ezOQ
+  subpath: null
+  commit: 7fd5963491f2f986385f38cfa4ebda56319c04da
+creator:
+  github: shyboy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:46.250Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
