@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bromine
+name: dsh-bromine
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bromine
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bromine
+source:
+  repository: https://github.com/uckkk/dsh-bromine
+  repositoryNodeId: R_kgDOT-5e4A
+  subpath: null
+  commit: 1b58518fec7c81f29b6bb7b68477dd228cc5c87d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:29.693Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
