@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-deep-clone
+name: dsh-deep-clone
+description:
+  en: bash dsh plugin add github:uckkk/dsh-deep-clone
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-deep-clone
+source:
+  repository: https://github.com/uckkk/dsh-deep-clone
+  repositoryNodeId: R_kgDOT9uocA
+  subpath: null
+  commit: 1f66c1e1c08dd545cc81c53131cc19aa0a292a47
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:39.277Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
