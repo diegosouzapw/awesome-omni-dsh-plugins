@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: no-prm-dsh-client-ui-explorer
+name: dsh-client-ui-explorer
+description:
+  en: "Collapsible real-time file-tree drawer for the dsh web GUI — pure plugin: floating toggle + right file-tree drawer (git decorations, media preview, drag-to-reference). Browser half; host half is dsh-explorer."
+  evidencePath: dsh-plugins/dsh-client-ui-explorer/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - collapsible
+  - real
+  - time
+  - file
+  - tree
+  - drawer
+  - pure
+  - floating
+  - toggle
+  - right
+  - decorations
+  - media
+  - preview
+  - drag
+  - reference
+  - browser
+source:
+  repository: https://github.com/No-PRM/dsh-explorer
+  repositoryNodeId: R_kgDOT5ek6Q
+  subpath: dsh-plugins/dsh-client-ui-explorer
+  commit: f0835e20914d1db9cd9f3a558b5977d678c84e47
+creator:
+  github: No-PRM
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugins/dsh-client-ui-explorer/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:18.622Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
