@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-timor-leste
+name: dsh-timor-leste
+description:
+  en: bash dsh plugin add github:uckkk/dsh-timor-leste
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-timor-leste
+source:
+  repository: https://github.com/uckkk/dsh-timor-leste
+  repositoryNodeId: R_kgDOT-CuCg
+  subpath: null
+  commit: cf7132203f51246062e58c4dc9de8094859716d0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:49.646Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
