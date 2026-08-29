@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: superboy911-dsh-model-router
+name: "@dsh-external/dsh-model-router"
+description:
+  en: dsh-model-router is a thin routing-policy plugin for DeepSeek Harness (DSH). DSH still owns providers, credentials, model catalogs, modalities, and retries. This plugin adds deterministic keyword routing, a default-off allowlisted model route tool, and an isolated image gen channel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - model-router
+  - llm-gateway
+  - deepseek-harness
+source:
+  repository: https://github.com/superboy911/dsh-model-router
+  repositoryNodeId: R_kgDOT4ZVTg
+  subpath: null
+  commit: 98ca5cec34ce1f980be99c225d49bbd6fb021682
+creator:
+  github: superboy911
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:11.294Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
