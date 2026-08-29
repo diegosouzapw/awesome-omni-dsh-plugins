@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-todo-extract
+name: dsh-todo-extract
+description:
+  en: bash dsh plugin add dsh-todo-extract 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-todo-extract" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - todo
+  - fixme
+source:
+  repository: https://github.com/uckkk/dsh-todo-extract
+  repositoryNodeId: R_kgDOT6MzpA
+  subpath: null
+  commit: 1778ef826fa192beb9f1c0849614efb87567c41b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:53.754Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
