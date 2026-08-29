@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: junqingv587-dsh-ssh-hub
+name: dsh-ssh-hub
+description:
+  en: Multi-server SSH terminal panel for DeepSeek Harness Web GUI — manage hosts and open multiple SSH terminals in a bottom panel
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - ssh
+  - terminal
+  - multi-server
+source:
+  repository: https://github.com/JUNQINGV587/dsh-ssh-hub
+  repositoryNodeId: R_kgDOT8AfiA
+  subpath: null
+  commit: eec43a1352c2bdfed68f04feb7e88e87abc7f6f6
+creator:
+  github: JUNQINGV587
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:59.952Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
