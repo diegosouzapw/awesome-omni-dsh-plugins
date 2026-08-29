@@ -50,6 +50,7 @@
 | `messaging-notifications` | संदेशन आणि सूचना |
 | `data-external-services` | डेटा आणि बाह्य सेवा |
 | `entertainment-customization` | मनोरंजन आणि सानुकूलन |
+| `finance-trading` | वित्त, ट्रेडिंग आणि हिशोबनीस |
 
 प्लगइनचे प्राथमिक काम सर्वोत्तम प्रकारे दर्शवणारी श्रेणी निवडा, दृश्यमानता वाढवण्याची
 सर्वाधिक शक्यता असलेली श्रेणी नाही.
@@ -66,4 +67,4 @@
 प्लगइन मोठ्या प्रकल्पाच्या आत सबपाथ किंवा पॅकेज असल्यास `monorepo` वापरा. मोनोरेपो एंट्रीने
 `popularity.starsPolicy: undefined-parent-repository` आणि `popularity.stars: null` वापरलेच पाहिजे.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

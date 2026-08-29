@@ -50,6 +50,7 @@
 | `messaging-notifications` | การส่งข้อความและการแจ้งเตือน |
 | `data-external-services` | ข้อมูลและบริการภายนอก |
 | `entertainment-customization` | ความบันเทิงและการปรับแต่ง |
+| `finance-trading` | การเงิน การเทรด และการทำบัญชี |
 
 เลือกหมวดหมู่ที่สื่อถึงหน้าที่หลักของปลั๊กอินได้ดีที่สุด ไม่ใช่หมวดหมู่ที่มีแนวโน้มจะเพิ่มการมองเห็นมากที่สุด
 
@@ -65,4 +66,4 @@
 เป็น subpath หรือแพ็กเกจภายในโปรเจกต์ที่ใหญ่กว่า รายการใน monorepo ต้องใช้
 `popularity.starsPolicy: undefined-parent-repository` และ `popularity.stars: null`
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

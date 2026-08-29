@@ -92,12 +92,12 @@ Ang mga kahulugan at kahihinatnan sa ranggo ay tinukoy sa
 
 ### `primaryCategory`
 
-Isa sa labintatlong kategorya ng kakayahan:
+Isa sa labing-apat na kategorya ng kakayahan:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Ang mga label na ipinapakita at patnubay sa pagpili ay nasa
 [docs/CATEGORIES.md](../../docs/CATEGORIES.md).
@@ -243,4 +243,4 @@ commit, na tama ang bilang ng bituin, o na pag-aari ng lumikha ang source. Ang m
 iyon ay nabibilang sa mga review gate ng maintainer na inilarawan sa
 [CONTRIBUTING.md](../../CONTRIBUTING.md) at [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

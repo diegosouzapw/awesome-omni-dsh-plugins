@@ -54,6 +54,7 @@ bertentangan.
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | Keuangan, trading, dan pembukuan |
 
 Pilih kategori yang paling merepresentasikan fungsi utama plugin, bukan kategori yang paling
 mungkin meningkatkan visibilitas.
@@ -71,4 +72,4 @@ Gunakan `monorepo` ketika plugin adalah subpath atau paket di dalam proyek yang 
 Entri monorepo harus menggunakan `popularity.starsPolicy: undefined-parent-repository` dan
 `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

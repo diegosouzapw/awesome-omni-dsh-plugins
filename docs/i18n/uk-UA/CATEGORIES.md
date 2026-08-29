@@ -50,6 +50,7 @@
 | `messaging-notifications` | Обмін повідомленнями та сповіщення |
 | `data-external-services` | Дані та зовнішні сервіси |
 | `entertainment-customization` | Розваги та персоналізація |
+| `finance-trading` | Фінанси, трейдинг і бухгалтерія |
 
 Обирайте категорію, яка найкраще відображає основне призначення плагіна, а не категорію, яка з
 найбільшою ймовірністю підвищить помітність.
@@ -67,4 +68,4 @@
 із монорепозиторію має використовувати `popularity.starsPolicy: undefined-parent-repository` і
 `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

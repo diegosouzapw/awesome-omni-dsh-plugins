@@ -82,12 +82,12 @@
 
 ### `primaryCategory`
 
-तेरह क्षमता श्रेणियों में से एक:
+चौदह क्षमता श्रेणियों में से एक:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 प्रदर्शन लेबल और चयन मार्गदर्शन [docs/CATEGORIES.md](../../docs/CATEGORIES.md) में हैं।
 
@@ -222,4 +222,4 @@
 [CONTRIBUTING.md](../../CONTRIBUTING.md) और [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) में वर्णित मेंटेनर समीक्षा
 गेट्स से संबंधित हैं।
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

@@ -51,6 +51,7 @@ clasificare.
 | `messaging-notifications` | Mesagerie și notificări |
 | `data-external-services` | Date și servicii externe |
 | `entertainment-customization` | Divertisment și personalizare |
+| `finance-trading` | Finanțe, tranzacționare și contabilitate |
 
 Alege categoria care reprezintă cel mai bine funcția principală a pluginului, nu categoria cu cele
 mai mari șanse de a crește vizibilitatea.
@@ -68,4 +69,4 @@ Folosește `monorepo` când pluginul este un subpath sau un pachet într-un proi
 intrare de monorepo trebuie să folosească `popularity.starsPolicy: undefined-parent-repository` și
 `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

@@ -50,6 +50,7 @@
 | `messaging-notifications` | મેસેજિંગ અને નોટિફિકેશન્સ |
 | `data-external-services` | ડેટા અને એક્સટર્નલ સર્વિસીઝ |
 | `entertainment-customization` | એન્ટરટેઇનમેન્ટ અને કસ્ટમાઇઝેશન |
+| `finance-trading` | નાણાં, ટ્રેડિંગ અને હિસાબકિતાબ |
 
 એવી શ્રેણી પસંદ કરો જે પ્લગિનના પ્રાથમિક કામને શ્રેષ્ઠ રજૂ કરે, દૃશ્યતા વધારવાની
 સૌથી વધુ શક્યતા ધરાવતી શ્રેણી નહીં.
@@ -66,4 +67,4 @@ kebab-case ક્ષમતા ટૅગ્સની મંજૂરી છે �
 `monorepo` ત્યારે વાપરો જ્યારે પ્લગિન વ્યાપક પ્રોજેક્ટની અંદર સબપાથ કે પેકેજ હોય. મોનોરેપો એન્ટ્રીએ
 `popularity.starsPolicy: undefined-parent-repository` અને `popularity.stars: null` વાપરવું જ પડે.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

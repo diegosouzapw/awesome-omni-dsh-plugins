@@ -51,6 +51,7 @@
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | நிதி, வர்த்தகம் மற்றும் கணக்கியல் |
 
 செருகுநிரலின் முதன்மைப் பணியைச் சிறப்பாகப் பிரதிநிதித்துவப்படுத்தும் வகையைத் தேர்ந்தெடுக்கவும்,
 தென்படும் தன்மையை அதிகரிக்கக்கூடிய வகையை அல்ல.
@@ -70,4 +71,4 @@
 `popularity.starsPolicy: undefined-parent-repository` மற்றும் `popularity.stars: null`
 பயன்படுத்த வேண்டும்.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

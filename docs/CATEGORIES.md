@@ -48,6 +48,7 @@ contradictory classification pairs.
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | Finance, trading and bookkeeping |
 
 Choose the category that best represents the plugin's primary job, not the category most likely
 to increase visibility.

@@ -89,12 +89,12 @@ I significati e le conseguenze sulla classifica sono definiti in
 
 ### `primaryCategory`
 
-Una delle tredici categorie di capacità:
+Una delle quattordici categorie di capacità:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` · `finance-trading`
 
 Le etichette visualizzate e le indicazioni per la scelta sono in
 [docs/CATEGORIES.md](CATEGORIES.md).
@@ -235,4 +235,4 @@ conteggio delle stelle sia accurato, o che il creatore possieda la sorgente. Que
 appartengono ai gate di revisione dei maintainer descritti in
 [CONTRIBUTING.md](../../CONTRIBUTING.md) e [docs/GOVERNANCE.md](GOVERNANCE.md).
 
-<!-- i18n-source-hash: d1232382b38d13680fc8bbadf837b3f7c51c0aae9f5b5ec10118d8dfa84b62a0 -->
+<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->

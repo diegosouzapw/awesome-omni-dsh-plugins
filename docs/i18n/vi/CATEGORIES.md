@@ -47,6 +47,7 @@ các cặp phân loại mâu thuẫn nhau.
 | `messaging-notifications` | Nhắn tin và thông báo |
 | `data-external-services` | Dữ liệu và dịch vụ bên ngoài |
 | `entertainment-customization` | Giải trí và tùy biến |
+| `finance-trading` | Tài chính, giao dịch và sổ sách kế toán |
 
 Hãy chọn danh mục đại diện tốt nhất cho công việc chính của plugin, không phải danh mục có khả năng tăng lượt xem
 nhiều nhất.
@@ -63,4 +64,4 @@ Chỉ dùng `dedicated` khi số sao repository thuộc về đúng plugin đư�
 một subpath hoặc gói bên trong một dự án lớn hơn. Một mục trong monorepo phải dùng
 `popularity.starsPolicy: undefined-parent-repository` và `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

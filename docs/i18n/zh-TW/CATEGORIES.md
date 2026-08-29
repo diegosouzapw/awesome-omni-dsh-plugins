@@ -47,6 +47,7 @@
 | `messaging-notifications` | 訊息與通知 |
 | `data-external-services` | 資料與外部服務 |
 | `entertainment-customization` | 娛樂與客製化 |
+| `finance-trading` | 金融、交易與記帳 |
 
 請選擇最能代表該外掛主要功能的分類,而不是最有可能提高曝光度的分類。
 
@@ -62,4 +63,4 @@
 中的子路徑或套件,則使用 `monorepo`。monorepo 條目必須使用
 `popularity.starsPolicy: undefined-parent-repository` 與 `popularity.stars: null`。
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

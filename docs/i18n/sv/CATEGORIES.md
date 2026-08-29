@@ -53,6 +53,7 @@ motsägelsefulla klassificeringspar.
 | `messaging-notifications` | Messaging and notifications |
 | `data-external-services` | Data and external services |
 | `entertainment-customization` | Entertainment and customization |
+| `finance-trading` | Finans, trading och bokföring |
 
 Välj den kategori som bäst representerar pluginets huvuduppgift, inte den kategori som med störst
 sannolikhet ökar synligheten.
@@ -70,4 +71,4 @@ Använd `monorepo` när pluginet är en understig eller ett paket inuti ett bred
 monorepo-post måste använda `popularity.starsPolicy: undefined-parent-repository` och
 `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

@@ -54,6 +54,7 @@ paires de classification contradictoires.
 | `messaging-notifications` | Messagerie et notifications |
 | `data-external-services` | Données et services externes |
 | `entertainment-customization` | Divertissement et personnalisation |
+| `finance-trading` | Finance, trading et comptabilité |
 
 Choisissez la catégorie qui représente le mieux la fonction principale du plugin, pas la
 catégorie la plus susceptible d'augmenter sa visibilité.
@@ -72,4 +73,4 @@ exact. Utilisez `monorepo` lorsque le plugin est un sous-chemin ou un paquet dan
 large. Une entrée de monorepo doit utiliser `popularity.starsPolicy: undefined-parent-repository`
 et `popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

@@ -48,6 +48,7 @@
 | `messaging-notifications` | הודעות והתראות |
 | `data-external-services` | נתונים ושירותים חיצוניים |
 | `entertainment-customization` | בידור והתאמה אישית |
+| `finance-trading` | פיננסים, מסחר והנהלת חשבונות |
 
 בחרו את הקטגוריה המייצגת בצורה הטובה ביותר את התפקיד הראשי של התוסף, לא את הקטגוריה
 הסבירה ביותר להגביר חשיפה.
@@ -64,4 +65,4 @@
 כאשר התוסף הוא תת-נתיב או חבילה בתוך פרויקט רחב יותר. רשומת מונו-ריפו חייבת להשתמש
 ב-`popularity.starsPolicy: undefined-parent-repository` וב-`popularity.stars: null`.
 
-<!-- i18n-source-hash: 7b8e3dc5e30c5a9227179fe0caa70415b18a29014362c6b2a6fa4f7db37f82b4 -->
+<!-- i18n-source-hash: e0cd5f70656160d1f893d746d2c6f246ee986ef69e2b50281d0864aa77fd98f7 -->

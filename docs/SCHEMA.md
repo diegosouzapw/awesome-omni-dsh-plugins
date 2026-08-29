@@ -85,12 +85,13 @@ Meanings and ranking consequences are defined in [docs/CATEGORIES.md](CATEGORIES
 
 ### `primaryCategory`
 
-One of the thirteen capability categories:
+One of the fourteen capability categories:
 
 `user-interface-dashboards` · `memory-rag` · `search-research` · `coding-developer-tools` ·
 `browser-automation` · `vision-audio-multimodal` · `sessions-productivity` ·
 `security-permissions-approvals` · `diagnostics-observability` · `models-providers-routing` ·
-`messaging-notifications` · `data-external-services` · `entertainment-customization`
+`messaging-notifications` · `data-external-services` · `entertainment-customization` ·
+`finance-trading`
 
 Display labels and selection guidance are in [docs/CATEGORIES.md](CATEGORIES.md).
 
