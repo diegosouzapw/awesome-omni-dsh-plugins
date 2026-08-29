@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cosmetics-shelf
+name: dsh-cosmetics-shelf
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cosmetics-shelf
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cosmetics-shelf
+source:
+  repository: https://github.com/uckkk/dsh-cosmetics-shelf
+  repositoryNodeId: R_kgDOT-sd4Q
+  subpath: null
+  commit: a923639429fb8c71e0f8f23cad237e660ab26f42
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:32.692Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
