@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-log-volume
+name: dsh-log-volume
+description:
+  en: bash dsh plugin add github:uckkk/dsh-log-volume
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-log-volume
+source:
+  repository: https://github.com/uckkk/dsh-log-volume
+  repositoryNodeId: R_kgDOT-v8RA
+  subpath: null
+  commit: 0baaff54846d36922693336da7638b85239af96d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:24.347Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
