@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: stephenlzc-dsh-swarm-panel
+name: dsh-swarm-panel
+description:
+  en: "dsh-swarm-panel: DSH Agent Swarm plugin with Conversation Flow observability, dynamic topology, cold resume, and layered HITL"
+  evidencePath: dsh-swarm-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - swarm
+  - panel
+  - agent
+  - conversation
+  - flow
+  - observability
+  - dynamic
+  - topology
+  - cold
+  - resume
+  - layered
+  - hitl
+  - dsh
+source:
+  repository: https://github.com/stephenlzc/dsh-swarm-panel
+  repositoryNodeId: R_kgDOUCtYZA
+  subpath: dsh-swarm-plugin
+  commit: 8d8b1a8bd0e9120099cdd2439932a7e0fe5df16b
+creator:
+  github: stephenlzc
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: dsh-swarm-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:25.113Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
