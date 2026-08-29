@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bahrain
+name: dsh-bahrain
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bahrain
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bahrain
+source:
+  repository: https://github.com/uckkk/dsh-bahrain
+  repositoryNodeId: R_kgDOT-Cp-A
+  subpath: null
+  commit: 548ad732e96841cc4924ea8bab336d87f9f8dcb3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:26.799Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
