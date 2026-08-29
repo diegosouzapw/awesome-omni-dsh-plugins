@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-unit
+name: dsh-unit
+description:
+  en: bash dsh plugin add dsh-unit 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-unit" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - unit
+  - converter
+source:
+  repository: https://github.com/uckkk/dsh-unit
+  repositoryNodeId: R_kgDOT6G10w
+  subpath: null
+  commit: 18ae5aff8212087c198d0bf0677882653387e4af
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:01.102Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
