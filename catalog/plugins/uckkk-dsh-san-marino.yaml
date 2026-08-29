@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-san-marino
+name: dsh-san-marino
+description:
+  en: bash dsh plugin add github:uckkk/dsh-san-marino
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-san-marino
+source:
+  repository: https://github.com/uckkk/dsh-san-marino
+  repositoryNodeId: R_kgDOT-CgUw
+  subpath: null
+  commit: 9772d87c38bcf156a931bd4306dd8cab75b7adfe
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:54.623Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
