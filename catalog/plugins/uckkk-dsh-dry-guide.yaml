@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dry-guide
+name: dsh-dry-guide
+description:
+  en: bash dsh plugin add github:uckkk/dsh-dry-guide
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-dry-guide
+source:
+  repository: https://github.com/uckkk/dsh-dry-guide
+  repositoryNodeId: R_kgDOT-txcQ
+  subpath: null
+  commit: 991cdf82ab88cd2c864d14f9c1f95bf01c21a25b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:34.036Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
