@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: louishaol-dsh-timer-agent
+name: dsh-timer-agent
+description:
+  en: "Timer x Agent plugin for the dsh web GUI (inspired by hermes-agent cron): a sidebar entry plus a scheduled-jobs board with per-job project/workspace + session targeting (or new session in the default workspace when both are blank), cron schedules, and real execution through dsh sessions (session.prompt). Hot-pluggable "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - timer
+  - agent
+  - inspired
+  - hermes
+  - cron
+  - sidebar
+  - entry
+  - plus
+  - scheduled
+  - jobs
+  - board
+  - workspace
+  - session
+  - targeting
+  - default
+  - both
+source:
+  repository: https://github.com/LouisHaoL/dsh-timer-agent
+  repositoryNodeId: R_kgDOT8fUSQ
+  subpath: null
+  commit: 1f8a19ed346ab91ec65b33fc43986c8c3ce565d9
+creator:
+  github: LouisHaoL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:16.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
