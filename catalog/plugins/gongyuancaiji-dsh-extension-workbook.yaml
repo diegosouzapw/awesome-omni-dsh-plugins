@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: gongyuancaiji-dsh-extension-workbook
+name: dsh-extension-workbook
+description:
+  en: bash git clone https://github.com/GongYuanCaiJi/dsh-extension-workbook.git cd dsh-extension-workbook && npm install 触发 prepare，产出 dist/ dsh plugin --profile <profile add ../dsh-extension-workbook
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - extension
+  - skill
+  - excel
+  - xlsx
+  - xlsm
+  - ooxml
+source:
+  repository: https://github.com/GongYuanCaiJi/dsh-extension-workbook
+  repositoryNodeId: R_kgDOT40OJg
+  subpath: null
+  commit: c3f434d06c98cf5e2f183321c70d61d4c723002e
+creator:
+  github: GongYuanCaiJi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:45.010Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
