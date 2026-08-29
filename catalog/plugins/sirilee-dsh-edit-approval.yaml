@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sirilee-dsh-edit-approval
+name: dsh-edit-approval
+description:
+  en: "DeepSeek Harness plugin: per-edit approval with a red/green line diff before write/edit/str replace editor — approve once or reject (Claude Code behavior)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - approval
+  - diff
+  - edit
+source:
+  repository: https://github.com/SiriLee/dsh-edit-approval
+  repositoryNodeId: R_kgDOT6wMLQ
+  subpath: null
+  commit: 0cc922818e941c5bcdc37da39208c35f8ada1412
+creator:
+  github: SiriLee
+package:
+  ecosystem: npm
+  name: dsh-edit-approval
+  version: 0.3.0
+  integrity: sha512-+MvwCT8XWY4V3ngQk18VIcc6l+q9cfZFfLZUktYD5vBMf0pul394GGFY2MJyX4lA3YsGAZ9oAjr4KZh7/+TIOg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:39.779Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
