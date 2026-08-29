@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: pionai-dsh-web-search-firecrawl
+name: "@pionai/dsh-web-search-firecrawl"
+description:
+  en: Firecrawl-backed search provider for the DeepSeek Harness web capability seam (ctx.web)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - firecrawl
+  - backed
+  - search
+  - provider
+  - capability
+  - seam
+  - dsh
+source:
+  repository: https://github.com/PionsAI/dsh-web-search-firecrawl
+  repositoryNodeId: R_kgDOT57ndg
+  subpath: null
+  commit: d6f7ae7e723acea49faf3151538607e13cc85b96
+creator:
+  github: PionAI
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:01.981Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
