@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-travel-med
+name: dsh-travel-med
+description:
+  en: bash dsh plugin add github:uckkk/dsh-travel-med
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-travel-med
+source:
+  repository: https://github.com/uckkk/dsh-travel-med
+  repositoryNodeId: R_kgDOT-tsfA
+  subpath: null
+  commit: aa72178e63159407cffaa5a92a7bab93bfa3a231
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:56.183Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
