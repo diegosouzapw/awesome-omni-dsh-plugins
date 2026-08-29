@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: leo-ayh-oday-dsh-bundle
+name: "@leooday/dsh-bundle"
+description:
+  en: Orcana runtime pack profile bundle for DeepSeek Harness (dsh.bundle.patch contract)
+  evidencePath: packages/dsh-bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - orcana
+  - runtime
+  - pack
+  - profile
+  - bundle
+  - patch
+  - contract
+  - dsh
+source:
+  repository: https://github.com/Leo-Ayh-Oday/dsh-orcana
+  repositoryNodeId: R_kgDOT4Grfg
+  subpath: packages/dsh-bundle
+  commit: 93b44a5b0251546300b2810a1cfd3089ec33c1de
+creator:
+  github: Leo-Ayh-Oday
+package:
+  ecosystem: npm
+  name: "@leooday/dsh-bundle"
+  version: 0.1.1
+  integrity: sha512-eC0PVTsoHMPoViV521+QAZfO7hKTt2LOLK/DUnuKx5o/khkwXIZvf/6c5mobwsrDOxAK8vxkuIrzd13B88HS+Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:53.355Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
