@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-angola
+name: dsh-angola
+description:
+  en: bash dsh plugin add github:uckkk/dsh-angola
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-angola
+source:
+  repository: https://github.com/uckkk/dsh-angola
+  repositoryNodeId: R_kgDOT-vowQ
+  subpath: null
+  commit: 30c03a3d3f0723a0dcf4b8f5b34862a3e669ac38
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:24.990Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
