@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yuanyi-github-redfox-community-dsh
+name: redfox-community-dsh
+description:
+  en: "RedFox community skills for DeepSeek Harness: 100+ social-media data skills (Douyin, Xiaohongshu, Kuaishou, Bilibili, WeChat, Weibo, YouTube, TikTok and more), mirrored one-way from the redfox-community hub repo."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - cordis
+  - skill
+  - redfox
+  - douyin
+  - xiaohongshu
+  - kuaishou
+  - bilibili
+  - wechat
+  - weibo
+source:
+  repository: https://github.com/redfox-data/redfox-community-dsh
+  repositoryNodeId: R_kgDOT6_H-w
+  subpath: null
+  commit: 092fdd8939447e6359cda28dfa161d2160592596
+creator:
+  github: yuanyi-github
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:41.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
