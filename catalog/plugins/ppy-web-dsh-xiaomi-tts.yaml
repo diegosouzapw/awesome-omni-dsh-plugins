@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ppy-web-dsh-xiaomi-tts
+name: dsh-xiaomi-tts
+description:
+  en: Xiaomi MiMo text-to-speech controls for DeepSeek Harness Web assistant messages
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - xiaomi
+  - mimo
+  - tts
+  - text-to-speech
+  - dsh
+source:
+  repository: https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts
+  repositoryNodeId: R_kgDOT-ZfQw
+  subpath: null
+  commit: 3a9838c8da8b6bff3fd30f2c3da95448ec3039b1
+creator:
+  github: ppy-web
+package:
+  ecosystem: npm
+  name: dsh-xiaomi-tts
+  version: 2.3.0
+  integrity: sha512-R+5Cj3Mbz4iu4zm1ujbaul3sNEy3g59fIGlwq8soo5Cxoe9tajDMoCi6thM1lI5sHgtwfnZAPovgZ1gWB6Pokg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:55.203Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
