@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: mrzhangkris-dsh-session-pruner
+name: dsh-session-pruner
+description:
+  en: "DSH session lifecycle management plugin — full-type session lifecycle management: one-shot subagents archived on completion, continuable subagents and main sessions archived when idle, a capacity cap, and projection-cache cleanup. Prevents session-library accumulation stalls at the source."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - lifecycle
+  - subagent
+  - cleanup
+  - projcache
+source:
+  repository: https://github.com/mrzhangkris/dsh-session-pruner
+  repositoryNodeId: R_kgDOT9foIA
+  subpath: null
+  commit: fdf52d9415a8b606cb91cd532e4d82df336b78f0
+creator:
+  github: mrzhangkris
+package:
+  ecosystem: npm
+  name: dsh-session-pruner
+  version: 0.1.4
+  integrity: sha512-Ar4KKOF1jREN7hLiYydcUWZ9BYqpyGtX6e1XbAPQHF/OD1Kjpg2RA6OtiX9BaJUPh0fz6/OsoKOLeM2henmf5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:52.705Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
