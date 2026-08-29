@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lucas-ward-dsh-ci-context
+name: dsh-ci-context
+description:
+  en: Privacy-focused CI execution context for DeepSeek Harness agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - ci
+  - github-actions
+  - gitlab-ci
+  - dsh
+source:
+  repository: https://github.com/lucas-ward/dsh-ci-context
+  repositoryNodeId: R_kgDOT4hYRg
+  subpath: null
+  commit: 7d814e3def47e257de0aa4b12e2d57572eb63d6a
+creator:
+  github: lucas-ward
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:47.224Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
