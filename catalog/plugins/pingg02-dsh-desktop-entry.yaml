@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: pingg02-dsh-desktop-entry
+name: dsh-desktop-entry
+description:
+  en: "DeepSeek Harness plugin: creates a Windows desktop entry (shortcut + launcher) that opens the web UI in a Chrome app-mode window. No installer, no bundled runtime."
+  evidencePath: dsh-desktop-entry/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - desktop
+source:
+  repository: https://github.com/pingg02/dsh-plugins
+  repositoryNodeId: R_kgDOT9kmfg
+  subpath: dsh-desktop-entry
+  commit: c5516ad4994d2dcfb76fae31d7cefc332ef62f90
+creator:
+  github: pingg02
+package:
+  ecosystem: npm
+  name: dsh-desktop-entry
+  version: 0.1.0
+  integrity: sha512-JFTPZ27JmzZyGx03U7DywHQrlPkjQF0K3hUmK8QfNPyJiSc1KREGBf+541m6ZBHA0kMELLf4FJmP8kW0YSGlAw==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-desktop-entry/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
