@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mortgage-equal-installment
+name: dsh-mortgage-equal-installment
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mortgage-equal-installment
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mortgage-equal-installment
+source:
+  repository: https://github.com/uckkk/dsh-mortgage-equal-installment
+  repositoryNodeId: R_kgDOT-DY-g
+  subpath: null
+  commit: eab759538bdf43b9755cd3c36a684de13dd7b954
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:33.893Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
