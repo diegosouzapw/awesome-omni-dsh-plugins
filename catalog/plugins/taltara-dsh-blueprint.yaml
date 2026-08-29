@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: taltara-dsh-blueprint
+name: dsh-blueprint
+description:
+  en: Read the config your harness actually booted, and validate an overlay before you apply it. A Blueprint tab for the DSH web client.
+  evidencePath: packages/blueprint/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - cordis
+  - gui
+source:
+  repository: https://github.com/taltara/mddl-harness
+  repositoryNodeId: R_kgDOT9syFA
+  subpath: packages/blueprint
+  commit: 93579d8e7d6cde56203d6d9a0f101d1ac6825efb
+creator:
+  github: taltara
+package:
+  ecosystem: npm
+  name: dsh-blueprint
+  version: 0.6.0
+  integrity: sha512-MPZAiiptkzUtzp3T1Yo8fFvRSKcoc2jrcRglPADZAbw1z5YEn0kL6aal6fVz4kMuPn44aSUOdBf5Hf4xV8Yheg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/blueprint/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:48.982Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
