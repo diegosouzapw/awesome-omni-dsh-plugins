@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: elkaix-dsh-mcp-context7
+name: dsh-mcp-context7
+description:
+  en: "Context7 MCP for DeepSeek Harness: up-to-date library documentation and code examples"
+  evidencePath: packages/dsh-mcp-context7/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - context7
+  - documentation
+  - dsh
+source:
+  repository: https://github.com/PyModel/dsh-research-plugins
+  repositoryNodeId: R_kgDOT84zDw
+  subpath: packages/dsh-mcp-context7
+  commit: 8c6118d2097daf31b989d4aa4b4d63988d549ca9
+creator:
+  github: elkaix
+package:
+  ecosystem: npm
+  name: dsh-mcp-context7
+  version: 0.2.1
+  integrity: sha512-iZnQuPseEDIqjPuxHL0QHxxUsOtu7LOvQD1GI2CIVnQrcjtplyvWvJfzYEAhpEbwNZkrui5f8KcafIEg9i14uQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-mcp-context7/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
