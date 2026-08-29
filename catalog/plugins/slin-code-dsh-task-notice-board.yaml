@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: slin-code-dsh-task-notice-board
+name: dsh-task-notice-board
+description:
+  en: Workspace-to-Task-to-Session collaboration control center for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - workspace
+  - task
+  - session
+  - collaboration
+  - control
+  - center
+  - dsh
+source:
+  repository: https://github.com/SLin-code/dsh-task-notice-board
+  repositoryNodeId: R_kgDOT8GJbA
+  subpath: null
+  commit: 60c98a7dfe799d9528973401694f258d6cc3d2b0
+creator:
+  github: SLin-code
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:41.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
