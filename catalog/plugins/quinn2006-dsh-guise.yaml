@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: quinn2006-dsh-guise
+name: dsh-guise
+description:
+  en: bash dsh plugin --profile web add github:Quinn2006/dsh-guise
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - bash
+  - profile
+  - quinn2006
+  - guise
+  - dsh
+source:
+  repository: https://github.com/Quinn2006/dsh-guise
+  repositoryNodeId: R_kgDOT7Eh5Q
+  subpath: null
+  commit: f4504916a4715bd83161f1923d34112b0ec190d3
+creator:
+  github: Quinn2006
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:57.449Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
