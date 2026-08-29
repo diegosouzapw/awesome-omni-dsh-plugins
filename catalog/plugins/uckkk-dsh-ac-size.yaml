@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ac-size
+name: dsh-ac-size
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ac-size
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ac-size
+source:
+  repository: https://github.com/uckkk/dsh-ac-size
+  repositoryNodeId: R_kgDOT-rzaQ
+  subpath: null
+  commit: 48fab6c9a250fac96e041c72dd603047aceaf130
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:37.401Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
