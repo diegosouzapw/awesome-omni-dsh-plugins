@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-atbash
+name: dsh-atbash
+description:
+  en: bash dsh plugin add github:uckkk/dsh-atbash
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-atbash
+source:
+  repository: https://github.com/uckkk/dsh-atbash
+  repositoryNodeId: R_kgDOT9uMIw
+  subpath: null
+  commit: c232923d2633259c3e5d1aa88327ff58bee92094
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:34.159Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
