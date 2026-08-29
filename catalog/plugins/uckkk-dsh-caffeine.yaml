@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-caffeine
+name: dsh-caffeine
+description:
+  en: bash dsh plugin add github:uckkk/dsh-caffeine
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-caffeine
+source:
+  repository: https://github.com/uckkk/dsh-caffeine
+  repositoryNodeId: R_kgDOT-tNtQ
+  subpath: null
+  commit: 74e1948f6724821937e77d6312c31bbae0c160bc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:46.693Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
