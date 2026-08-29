@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-vaccine-boost
+name: dsh-vaccine-boost
+description:
+  en: bash dsh plugin add github:uckkk/dsh-vaccine-boost
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-vaccine-boost
+source:
+  repository: https://github.com/uckkk/dsh-vaccine-boost
+  repositoryNodeId: R_kgDOT-vvFg
+  subpath: null
+  commit: 036fcad43fc96a92e815cbf5f27768512d32e7be
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:03.621Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
