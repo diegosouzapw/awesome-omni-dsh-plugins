@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: shizuku-keop-dsh-compat-guard
+name: dsh-compat-guard
+description:
+  en: "Compatibility governance for DeepSeek Harness: upgrade pre-flight gate, storage-format fingerprinting, $DSH HOME backup, session migration, per-profile lockfile with rollback, and a machine-readable plugin x DSH compatibility matrix + CI workflow."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - compatibility
+  - upgrade
+  - lockfile
+  - migration
+  - backup
+source:
+  repository: https://github.com/Shizuku-keop/dsh-compat-guard
+  repositoryNodeId: R_kgDOUDfT6g
+  subpath: null
+  commit: d418f04c0a5e6f45ca961fdec64273a46dd66ec6
+creator:
+  github: Shizuku-keop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:55.999Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
