@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: palaiologos1453-dsh-worktree-studio
+name: dsh-worktree-studio
+description:
+  en: Session-linked Git worktree task board and guarded delivery workflow for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - git-worktree
+  - task-board
+  - agent
+  - dsh
+source:
+  repository: https://github.com/Palaiologos1453/dsh-worktree-studio
+  repositoryNodeId: R_kgDOT80uAw
+  subpath: null
+  commit: 6265c9691d297a559498ca81327b07c0140d7c8f
+creator:
+  github: Palaiologos1453
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:09.741Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
