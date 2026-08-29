@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lucasli2018-totoro-pet
+name: totoro-pet
+description:
+  en: powershell dsh plugin --profile web add totoro-pet
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - pet
+  - totoro
+source:
+  repository: https://github.com/Lucasli2018/totoro-pet
+  repositoryNodeId: R_kgDOUC6T0w
+  subpath: null
+  commit: 51b7fa853e4872c5ea704b8edb92b827dc4b7091
+creator:
+  github: Lucasli2018
+package:
+  ecosystem: npm
+  name: totoro-pet
+  version: 0.1.4
+  integrity: sha512-Fi+fqaO0GUqijzOqLdT8BHyk3+sUfPXm41lZpGMhUQITyS0wMv+fqE8b9rlVzk7TcyoMgmRY3XO0v4gmrgSWEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:47.188Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
