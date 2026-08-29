@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ganfabo123-cmyk-dsh-explorer-agent
+name: dsh-explorer-agent
+description:
+  en: Reusable read-only directory exploration agent for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - repository-exploration
+  - read-only-agent
+  - dsh
+source:
+  repository: https://github.com/ganfabo123-cmyk/dsh-explorer-agent
+  repositoryNodeId: R_kgDOUEb_Cg
+  subpath: null
+  commit: 1d56b1c4c312087bb211ba2897f44d8a671e330f
+creator:
+  github: ganfabo123-cmyk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:00:04.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
