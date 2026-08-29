@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-base64url
+name: dsh-base64url
+description:
+  en: bash dsh plugin add dsh-base64url 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-base64url" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - base64
+  - url
+source:
+  repository: https://github.com/uckkk/dsh-base64url
+  repositoryNodeId: R_kgDOT6NdnA
+  subpath: null
+  commit: 8a909d1ff358799045663073c8eab94c80c65066
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-base64url
+  version: 0.1.0
+  integrity: sha512-VGilibArRe9YBeWq24SKDRFY9fkqeoMzHDdBG+Srs9apxaVwqNGAKvHw15/KkbVHW50ixkh5Z1da7gqdBhHzTA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:38.936Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
