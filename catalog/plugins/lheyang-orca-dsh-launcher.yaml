@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lheyang-orca-dsh-launcher
+name: orca-dsh-launcher
+description:
+  en: A Cordis plugin + native desktop app for DeepSeek Harness (DSH) that provides update checking, server start/stop, a system tray icon, a graphical console, and one-click installation.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - orca
+  - launcher
+  - tray
+  - update
+  - checker
+  - csharp
+  - dotnet
+  - wpf
+source:
+  repository: https://github.com/Lheyang/orca-dsh-launcher
+  repositoryNodeId: R_kgDOT6H9cA
+  subpath: null
+  commit: 518087f593f3eb7bf70af7a215e3e97bced9f05d
+creator:
+  github: Lheyang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:45.215Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
