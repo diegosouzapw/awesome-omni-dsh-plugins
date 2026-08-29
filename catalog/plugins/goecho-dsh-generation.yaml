@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: goecho-dsh-generation
+name: dsh-generation
+description:
+  en: Fork agent presets and run tasks on the next generation. Make, not a compiler.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - generation
+  - preset
+source:
+  repository: https://github.com/goecho/dsh-generation
+  repositoryNodeId: R_kgDOT8-wyg
+  subpath: null
+  commit: 9ed70cd3151c7e27b18d38a1a22efd10113ee604
+creator:
+  github: goecho
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:13.848Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
