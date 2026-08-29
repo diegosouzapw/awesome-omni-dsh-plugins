@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lsq64737-dsh-windows-notifications
+name: "@lsq64737/dsh-windows-notifications"
+description:
+  en: Windows desktop notifications, sounds, and DSH-styled in-app notification cards for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - windows
+  - desktop
+  - notifications
+  - sounds
+  - styled
+  - notification
+  - cards
+  - dsh
+source:
+  repository: https://github.com/lsq-dsh-plugins/dsh-windows-notifications
+  repositoryNodeId: R_kgDOUBEe1w
+  subpath: null
+  commit: 9769f3fa1b4e4dd922ef449510eb3b258d9183ef
+creator:
+  github: lsq64737
+package:
+  ecosystem: npm
+  name: "@lsq64737/dsh-windows-notifications"
+  version: 0.1.1
+  integrity: sha512-AtnHzWqq8UmXwL0SZ511+87F8LIY3X15S8RXtUVwORNWPf74meQVgmm9VUwcUZ3gaG0OAnhhlxAS6ndD2eJsXA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:32.679Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
