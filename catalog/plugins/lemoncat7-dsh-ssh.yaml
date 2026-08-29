@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lemoncat7-dsh-ssh
+name: "@lemoncat7/dsh-ssh"
+description:
+  en: Secure SSH profiles, browser terminals, proxies, port forwarding, and session-scoped AI access for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ssh
+  - terminal
+  - port-forwarding
+  - socks5
+  - proxy
+source:
+  repository: https://github.com/lemoncat7/dsh-ssh
+  repositoryNodeId: R_kgDOUB4NGQ
+  subpath: null
+  commit: df7b4f365151559d6925fdcc61d7d33986d69e52
+creator:
+  github: lemoncat7
+package:
+  ecosystem: npm
+  name: "@lemoncat7/dsh-ssh"
+  version: 1.1.8
+  integrity: sha512-4G1CMayb5ibEeNx9bQJLMxtz4Y0JqctVIOPm2donzt8hAybcN7xZ5duvDmdHYF0GgjEx8qW2PI0WlS36Y/O1Hw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:45.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
