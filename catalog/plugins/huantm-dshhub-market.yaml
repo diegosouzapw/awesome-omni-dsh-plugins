@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: huantm-dshhub-market
+name: dshhub-market
+description:
+  en: The good stuff has a code. Enter it, get it.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - marketplace
+  - market
+  - plugin-manager
+source:
+  repository: https://github.com/dshhub-co/dshhub-market
+  repositoryNodeId: R_kgDOT_lQjw
+  subpath: null
+  commit: 92a41ed259a70610af574e99e785b903d24cabf7
+creator:
+  github: huantm
+package:
+  ecosystem: npm
+  name: dshhub-market
+  version: 0.8.32
+  integrity: sha512-sxRxwbxEjI06ZNCYCwgRnRbhVQgwDU70LluWPrP5YU5WROXmJJqO35e+9a9tIZfyBlfzJ+yzCBnsUdUOeY3rww==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:52.747Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
