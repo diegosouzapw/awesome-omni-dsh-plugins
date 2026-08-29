@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: eugenevl-dsh-session-folders
+name: dsh-session-folders
+description:
+  en: "Session folders for the DSH web sidebar: one-level named folders per workspace to group sessions, drag-and-drop or context menu to move them, server-side persistence. Status badges mirror the built-in session browser."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - folders
+  - sessions
+  - sidebar
+source:
+  repository: https://github.com/EugeneVl/dsh_session_folders
+  repositoryNodeId: R_kgDOT9Qvxw
+  subpath: null
+  commit: cea208f9830915812844770052e2224850fa43ba
+creator:
+  github: EugeneVl
+package:
+  ecosystem: npm
+  name: dsh-session-folders
+  version: 0.4.3
+  integrity: sha512-yICdrrodHmE0+oMRrOqaevzEv0KQkWQAHy6TGM3E6Z9c3yU7fbBjXnVhMaRm2IqquLJtK0qm+2JAQ9rSyjE+7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:45.210Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
