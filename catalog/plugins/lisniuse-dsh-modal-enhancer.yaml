@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lisniuse-dsh-modal-enhancer
+name: dsh-modal-enhancer
+description:
+  en: Add drag, eight-way resize, pin, maximize, backdrop controls, and persistent state to DeepSeek Harness web modals.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - modal
+  - dialog
+  - draggable
+  - resizable
+  - client
+source:
+  repository: https://github.com/lisniuse/dsh-modal-enhancer
+  repositoryNodeId: R_kgDOT5H4pA
+  subpath: null
+  commit: 360a63dcde137f1ad970323c21dad7bd4a10e262
+creator:
+  github: lisniuse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:25.765Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
