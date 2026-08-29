@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kongdsse-dsh-desktop-app
+name: dsh-desktop-app
+description:
+  en: bash cd desktop pnpm install pnpm tauri build macOS 出 .app/.dmg；Windows 出 .msi/.exe
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - desktop
+  - tauri
+  - skill
+  - china-mirror
+  - windows
+source:
+  repository: https://github.com/happpsee/dsh-desktop-app
+  repositoryNodeId: R_kgDOT5UE0A
+  subpath: null
+  commit: d6877b9f12c50c897b902f7276c3ea110a0d0228
+creator:
+  github: KongDsse
+package:
+  ecosystem: npm
+  name: dsh-desktop-app
+  version: 0.4.0
+  integrity: sha512-OKVQYn3APUkBh/qbyxB1JqGPAspPmgLGW4oxG88AmuGArgrCN6vsErlwcIoz7NIlvNUv8ZboYszttsOv4ybWYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:09.467Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
