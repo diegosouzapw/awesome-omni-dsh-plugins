@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lion-1209-dsh-plugin-wiki-tools
+name: dsh-plugin-wiki-tools
+description:
+  en: "Native DeepSeek Harness tools for an Obsidian wiki vault: wiki query, wiki write, and wiki lint implement the mechanical core (path routing, delta tracking, index/log bookkeeping, health checks) of the wiki skill suite."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - obsidian
+  - knowledge-base
+  - wiki
+  - dsh
+source:
+  repository: https://github.com/Lion-1209/dsh-plugin-wiki-tools
+  repositoryNodeId: R_kgDOT8Erxw
+  subpath: null
+  commit: 85de359ccd9af268fe2bd7aa3069d0aaef00259f
+creator:
+  github: Lion-1209
+package:
+  ecosystem: npm
+  name: dsh-plugin-wiki-tools
+  version: 0.14.0
+  integrity: sha512-dGAYn7iWK2JXM1TRdvSR7JJrUeFmnCZd2wv0mOwKkIu9KJz1W6J2Y2IHfHJzzr1GHvFgPedA66QvszRcavfUIQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:07.294Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
