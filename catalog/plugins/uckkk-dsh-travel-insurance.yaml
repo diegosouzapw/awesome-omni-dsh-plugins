@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-travel-insurance
+name: dsh-travel-insurance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-travel-insurance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-travel-insurance
+source:
+  repository: https://github.com/uckkk/dsh-travel-insurance
+  repositoryNodeId: R_kgDOT-teCw
+  subpath: null
+  commit: 515f624078cd1fa054ab63c7550f8859ac9fbde9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:56.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
