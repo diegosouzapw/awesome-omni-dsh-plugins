@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moonlitdropofblood-dsh-token-stats
+name: "@duke-dsh-plugins/dsh-token-stats"
+description:
+  en: "Token usage statistics for DeepSeek Harness: last-7/30-day per-model daily and total consumption (bar chart + donut), plus a GitHub-style contributions heatmap over the last year."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - token
+  - stats
+source:
+  repository: https://github.com/MoonlitDropOfBlood/dsh-token-stats
+  repositoryNodeId: R_kgDOT8bkDA
+  subpath: null
+  commit: 194ffa8819e7f91a6eb0e5d861605788c7e1d269
+creator:
+  github: MoonlitDropOfBlood
+package:
+  ecosystem: npm
+  name: "@duke-dsh-plugins/dsh-token-stats"
+  version: 1.3.4
+  integrity: sha512-h8L5n8QLrFnVlkjYKgMBewdwsu2AFCIiUMM5rKPHwJLsdD/bLUEN7etddmh4kSjmtBVM4rCj/rVAZcmgM7UJKg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:50.196Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
