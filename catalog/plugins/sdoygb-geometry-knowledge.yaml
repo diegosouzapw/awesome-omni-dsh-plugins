@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sdoygb-geometry-knowledge
+name: geometry-knowledge
+description:
+  en: sh npm i geometry-knowledge
+  evidencePath: dsh-geometry-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - cordis
+  - geometry
+  - knowledge-base
+  - bm25
+  - dsh
+source:
+  repository: https://github.com/sdoygb/conjugate-spectral-geometry
+  repositoryNodeId: R_kgDOTp9PUQ
+  subpath: dsh-geometry-plugin
+  commit: b3267eadeaad98ca20fe14a74efd8b14e9df6938
+creator:
+  github: sdoygb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-geometry-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:12.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
