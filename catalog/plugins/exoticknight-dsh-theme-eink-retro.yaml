@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: exoticknight-dsh-theme-eink-retro
+name: dsh-theme-eink-retro
+description:
+  en: A paper-and-ink client-side theme for DeepSeek Harness with Balanced and Immersive modes.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - e-ink
+  - monochrome
+  - macintosh
+  - retro-modern
+source:
+  repository: https://github.com/exoticknight/dsh-theme-eink-retro
+  repositoryNodeId: R_kgDOUEuY7A
+  subpath: null
+  commit: 9f57273c82765ff3eabe8b1e360d139dd963401c
+creator:
+  github: exoticknight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:45.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
