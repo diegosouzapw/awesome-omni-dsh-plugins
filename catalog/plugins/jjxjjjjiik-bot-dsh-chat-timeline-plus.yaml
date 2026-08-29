@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: jjxjjjjiik-bot-dsh-chat-timeline-plus
+name: dsh-chat-timeline-plus
+description:
+  en: "A message timeline for DeepSeek Harness (DSH): persistent right rail + hover panel, hover to preview the Q&A, pin to keep it open ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - conversation
+  - navigation
+  - timeline
+  - bookmarks
+  - rewind
+  - hover-preview
+  - pin
+  - plus
+source:
+  repository: https://github.com/NIU-001-LIU/dsh-chat-timeline-plus
+  repositoryNodeId: R_kgDOUDVpfQ
+  subpath: null
+  commit: 7a7f2ea88484b35611a696096aa5980bbb00a975
+creator:
+  github: jjxjjjjiik-bot
+package:
+  ecosystem: npm
+  name: dsh-chat-timeline-plus
+  version: 0.3.2
+  integrity: sha512-QwodphxVcBJ5rjFLEAXSPr1le+HYWuhlSHB8Ka5vrzgJQA6YxgtzIAwCJ8856jS0qoGqB7j9pglc++SMPDTeaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:06.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
