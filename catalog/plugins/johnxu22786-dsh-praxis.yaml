@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: johnxu22786-dsh-praxis
+name: dsh-praxis
+description:
+  en: Praxis — a bundled engineering-methodology skill library for DeepSeek Harness (dsh). Ships as a self-contained Cordis plugin that registers a skill provider on ctx.skills.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - agent-skills
+  - methodology
+  - tdd
+  - debugging
+  - planning
+  - code-review
+source:
+  repository: https://github.com/JohnXu22786/skill-framework
+  repositoryNodeId: R_kgDOT59MRQ
+  subpath: null
+  commit: 4b50d404566acf81e4cd0a6cfd818abd2e466f5f
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:15.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
