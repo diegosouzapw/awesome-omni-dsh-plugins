@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ascii
+name: dsh-ascii
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ascii
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ascii
+source:
+  repository: https://github.com/uckkk/dsh-ascii
+  repositoryNodeId: R_kgDOT9uIVQ
+  subpath: null
+  commit: 7ffcea8a4b8d971234dd9dd5d10951c4bea788e6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:34.012Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
