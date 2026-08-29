@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: marshfolx-dsh-subagent-setting
+name: dsh-subagent-setting
+description:
+  en: Configure the default provider / model / reasoning effort for subagents from the DeepSeek Harness Web settings page. Newly created subagents pick the values up immediately; an optional switch also lets later settings changes reach subagents that were created earlier.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - model
+  - reasoning
+  - reasoning-effort
+  - settings
+  - llm
+source:
+  repository: https://github.com/marshfolx/dsh-subagent-setting
+  repositoryNodeId: R_kgDOT-mGjg
+  subpath: null
+  commit: 18fffce7ed59ed41f22eefb95513654c29b66c39
+creator:
+  github: marshfolx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:54.653Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
