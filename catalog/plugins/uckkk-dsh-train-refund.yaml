@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-train-refund
+name: dsh-train-refund
+description:
+  en: bash dsh plugin add github:uckkk/dsh-train-refund
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-train-refund
+source:
+  repository: https://github.com/uckkk/dsh-train-refund
+  repositoryNodeId: R_kgDOT-Dd6g
+  subpath: null
+  commit: e29d51ea94d42b094248e1215ac7e1001585dc4a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:54.751Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
