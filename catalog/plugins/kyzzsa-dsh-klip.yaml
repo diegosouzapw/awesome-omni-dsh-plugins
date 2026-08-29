@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kyzzsa-dsh-klip
+name: dsh-klip
+description:
+  en: "DeepSeek Harness plugin: KInterval interval language and the /klip command that splits a conversation into new sessions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - kinterval
+  - interval
+  - language
+  - klip
+  - command
+  - splits
+  - conversation
+  - sessions
+  - dsh
+source:
+  repository: https://github.com/Kyzzsa/dsh-klip
+  repositoryNodeId: R_kgDOT-uVEw
+  subpath: null
+  commit: d146f8688193fe085360dd61e72f1e29aad2a9c9
+creator:
+  github: Kyzzsa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:42.248Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
