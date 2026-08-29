@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-annual-leave
+name: dsh-annual-leave
+description:
+  en: bash dsh plugin add github:uckkk/dsh-annual-leave
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-annual-leave
+source:
+  repository: https://github.com/uckkk/dsh-annual-leave
+  repositoryNodeId: R_kgDOT-Dvtg
+  subpath: null
+  commit: 780a34c736b7258e489c5fbb85a8e9549361dd93
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:25.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
