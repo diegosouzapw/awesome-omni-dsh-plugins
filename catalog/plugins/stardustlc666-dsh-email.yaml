@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: stardustlc666-dsh-email
+name: dsh-email
+description:
+  en: "IMAP/SMTP email tools for DeepSeek Harness: list, read, search and send mail, with QQ/163/126/Sina/Aliyun/Gmail/Outlook/iCloud presets."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - email
+  - imap
+  - smtp
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-email
+  repositoryNodeId: R_kgDOT3vK5Q
+  subpath: null
+  commit: 3c679a514633244d75a3660ef88f80b356febf82
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-email
+  version: 0.8.0
+  integrity: sha512-PiQSunrt8ILCVgUQKE0pSSBbxFYPD3sAoyN6n6cj+UPwFfgcyjhfvlkRL1F+F4CiZe2rF9rOEGF6Nm/wCbRAeg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:27.669Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
