@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-berkelium
+name: dsh-berkelium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-berkelium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-berkelium
+source:
+  repository: https://github.com/uckkk/dsh-berkelium
+  repositoryNodeId: R_kgDOT-2o7g
+  subpath: null
+  commit: b54a01b288639fa4427739c85711dbede810a0b6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:41.842Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
