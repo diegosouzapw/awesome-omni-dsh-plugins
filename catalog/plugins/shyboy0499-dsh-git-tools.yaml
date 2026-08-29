@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: shyboy0499-dsh-git-tools
+name: dsh-git-tools
+description:
+  en: "Local git tools for DeepSeek Harness: git status, git diff, git log, git commit"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - agent-tools
+source:
+  repository: https://github.com/Shyboy0499/dsh-git-tools
+  repositoryNodeId: R_kgDOUE5SzA
+  subpath: null
+  commit: 7b3b0c13b48ba0c613b8092e965e6160fab9459e
+creator:
+  github: Shyboy0499
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:03.541Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
