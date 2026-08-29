@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: roykf-dsh-tool-weather
+name: dsh-tool-weather
+description:
+  en: Model-facing weather tool (weather) over public Open-Meteo APIs, as a DeepSeek Harness profile bundle
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - weather
+  - open-meteo
+  - forecast
+  - ui
+source:
+  repository: https://github.com/Roykf/dsh-tool-weather
+  repositoryNodeId: R_kgDOUCagFw
+  subpath: null
+  commit: 1320aedcfba6c4835f5da2969b86c4d37d2f7ac7
+creator:
+  github: Roykf
+package:
+  ecosystem: npm
+  name: dsh-tool-weather
+  version: 0.2.3
+  integrity: sha512-7yEw/byAgB/AM2erxIJYO8CGFGbh+dl3yPDa6ABSHNUdyOuakrepAOhBWw5W1yiq4FAKZow7zxDgnrzdyH2ICQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:09.630Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
