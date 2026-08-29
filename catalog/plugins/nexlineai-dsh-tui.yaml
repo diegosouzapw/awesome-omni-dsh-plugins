@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: nexlineai-dsh-tui
+name: "@nexlineai/dsh-tui"
+description:
+  en: A full-screen interactive terminal UI for the DeepSeek Harness agent runtime — live streaming, reasoning blocks, tool cards, sessions, permissions, plan mode, and a full slash-command suite. The web UI, reimagined for the terminal.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cli
+  - tui
+  - terminal
+  - agent
+  - coding-agent
+source:
+  repository: https://github.com/nexlineai/dsh-tui
+  repositoryNodeId: R_kgDOT-3tMQ
+  subpath: null
+  commit: 52446da043e86032e14c65f4cbdde642771e57bf
+creator:
+  github: nexlineai
+package:
+  ecosystem: npm
+  name: "@nexlineai/dsh-tui"
+  version: 0.1.1
+  integrity: sha512-jT+d+riFJyOaBlob6PQpRd+d/2auVobVz3iVRBR6fJfY+g7MyIFfGdowUv6XQBGZPynjL9AJxg+uJyQGLLYu3g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:05.935Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
