@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: harvey-will-dsh-vision-analysis
+name: dsh-vision-analysis
+description:
+  en: "Model-facing analyze image tool for the DeepSeek Harness: multi-modal image understanding via any OpenAI- or Anthropic-compatible vision API, with 8 analysis modes, local path / http(s) URL / data URL input, and a Web UI hint that guides image-incapable models to the reliable local-path route."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - image-analysis
+  - ocr
+  - multimodal
+source:
+  repository: https://github.com/Harvey-Will/dsh-vision-analysis
+  repositoryNodeId: R_kgDOT_0OrA
+  subpath: null
+  commit: 2fb3e84cfbff0532b7036cb42f594c5b0eb263be
+creator:
+  github: Harvey-Will
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:17.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
