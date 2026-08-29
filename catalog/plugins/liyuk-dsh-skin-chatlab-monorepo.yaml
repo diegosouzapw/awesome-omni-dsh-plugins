@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: liyuk-dsh-skin-chatlab-monorepo
+name: dsh-skin-chatlab-monorepo
+description:
+  en: "Note : This project's primary documentation is the Chinese README. This English copy mirrors it — when editing, keep both in sync."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - note
+  - primary
+  - documentation
+  - chinese
+  - english
+  - copy
+  - mirrors
+  - editing
+  - keep
+  - both
+  - sync
+  - dsh
+source:
+  repository: https://github.com/Liyuk/dsh-skin-chatlab
+  repositoryNodeId: R_kgDOT59ITw
+  subpath: null
+  commit: 01d06cd38b940a49ecf89dc0447c81645fba2aa2
+creator:
+  github: Liyuk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:55.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
