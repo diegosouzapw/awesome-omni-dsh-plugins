@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jeremy9682-dsh-skill-pack
+name: "@jeremy9682/dsh-skill-pack"
+description:
+  en: A shareable set of 12 workflow skills for the DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skills
+  - workflow
+source:
+  repository: https://github.com/jeremy9682/dsh-skill-pack
+  repositoryNodeId: R_kgDOT40qkg
+  subpath: null
+  commit: 6e0bed1aa846ef00ee6fdd3d8bf9c63b46b014e2
+creator:
+  github: jeremy9682
+package:
+  ecosystem: npm
+  name: "@jeremy9682/dsh-skill-pack"
+  version: 0.2.0
+  integrity: sha512-/r0eaJagl092Xl/M5138B6DNeV9K7NXog5kR98DvdwvZV/h+gW3/bWACxwGxiDLJDziyC+5tZhuv4g1NSEfvdA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:07.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
