@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uckkk-dsh-json-types
+name: dsh-json-types
+description:
+  en: 工具 作用 --- --- json to ts JSON → TypeScript 接口 json to schema JSON → JSON Schema（draft-07） json to python JSON → Python Pydantic 模型
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - typescript
+  - json-schema
+  - pydantic
+source:
+  repository: https://github.com/uckkk/dsh-json-types
+  repositoryNodeId: R_kgDOT59sXQ
+  subpath: null
+  commit: 21068e66714d7df2f24b3a80eab402f6aae7f49a
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-types
+  version: 0.1.0
+  integrity: sha512-bTK63Ms5RFGMjmacaV0vItH7Cs916ufL2dw0BH8G3jLvUcRZsnN6QuepkMCcyvws94jAEny+k1Y2+gUzWVv/SQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:17.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
