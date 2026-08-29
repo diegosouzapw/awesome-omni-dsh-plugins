@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: muyuanjin-dsh-element-inspector
+name: dsh-element-inspector
+description:
+  en: Identify whether a DSH UI element belongs to the host interface or an installed plugin, then export or hide it.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - element-inspector
+  - element-screenshot
+  - plugin-inspector
+source:
+  repository: https://github.com/muyuanjin/dsh-element-inspector
+  repositoryNodeId: R_kgDOT-TgGQ
+  subpath: null
+  commit: 6b9e1e7064bb1cddb5c62e015624ceb623dfd4f2
+creator:
+  github: muyuanjin
+package:
+  ecosystem: npm
+  name: dsh-element-inspector
+  version: 0.7.0
+  integrity: sha512-oilHs+lPbXcJ/BJlskC2obamQBhybPsgXtm16m6lM3HoAuu1YvHNdCNhqb+3VFXHWNd8aHQsMj3+GSocxsHEgA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:12.514Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
