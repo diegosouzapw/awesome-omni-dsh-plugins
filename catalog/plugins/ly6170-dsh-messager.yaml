@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: ly6170-dsh-messager
+name: dsh-messager
+description:
+  en: Task-status notification plugin for DeepSeek Harness (DSH). Get notified via system notifications (OS toast), browser notifications , and Feishu / WeCom / Discord / DingTalk / Telegram whenever a session needs attention, a task completes, or a task errors — no more staring at the status dots in the session list.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - notification
+  - feishu
+  - wecom
+  - discord
+  - dingtalk
+  - telegram
+  - webhook
+source:
+  repository: https://github.com/ly6170/dsh-messager
+  repositoryNodeId: R_kgDOT4JwOA
+  subpath: null
+  commit: 8442ba78545359b2791c212a0c4b728f02a961a3
+creator:
+  github: ly6170
+package:
+  ecosystem: npm
+  name: dsh-messager
+  version: 0.2.0
+  integrity: sha512-JcBqstJklYmuyMQUrAqXgOCRyLL5kWrix/vVan/H/M/SBcXnm8eN5vVW3o0kl4UpXXPlCexTtR+3aUJhMb0gLQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:16.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
