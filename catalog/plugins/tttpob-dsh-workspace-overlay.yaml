@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: tttpob-dsh-workspace-overlay
+name: dsh-workspace-overlay
+description:
+  en: "Out-of-tree DSH plugin: canonical per-workspace Cordis scopes (workspaceCordis) with optional <workspace /.dsh/cordis.yml composition mounting and live reload on top-level config changes; rc.6-compatible MCP core (transport/tools/connection supervisor) under ./mcp."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - tree
+  - canonical
+  - workspace
+  - cordis
+  - scopes
+  - workspacecordis
+  - optional
+  - composition
+  - mounting
+  - live
+  - reload
+  - level
+  - config
+  - changes
+  - compatible
+  - core
+source:
+  repository: https://github.com/TTTPOB/dsh-workspace-overlay
+  repositoryNodeId: R_kgDOT48K0g
+  subpath: null
+  commit: 802385ee270f2dcbcc99bc831121bdb9e7925327
+creator:
+  github: TTTPOB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:35.688Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
