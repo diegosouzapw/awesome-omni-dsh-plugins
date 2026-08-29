@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: francesco502-dsh-quota
+name: "@francescoli/dsh-quota"
+description:
+  en: AI Quota and Token Usage Monitor for DeepSeek Harness (Codex, Cursor, Antigravity, OpenCode-Go)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - quota
+  - token-meter
+  - cursor
+  - codex
+  - openai
+  - antigravity
+  - opencode-go
+source:
+  repository: https://github.com/Francesco502/dsh-quota
+  repositoryNodeId: R_kgDOUEp04g
+  subpath: null
+  commit: 741329f5a2ce3658c6dc8e3ed51628041f8e1942
+creator:
+  github: Francesco502
+package:
+  ecosystem: npm
+  name: "@francescoli/dsh-quota"
+  version: 0.1.0
+  integrity: sha512-WfY5AE+bjvBFo0JgKQSfNNToJQPmqPnPxJziU8kRTHAMglmVRon0rcGOToeFd2uipBPGboY31/ouWWFEZ3W8lQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:56.047Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
