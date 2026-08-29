@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kelearns-dsh-navigation-bar
+name: "@kelearns/dsh-navigation-bar"
+description:
+  en: "Piano-key style conversation navigation bar for the DeepSeek Harness web GUI: one key per user message with hover ladder animation, message-preview tooltip and active-message highlight. Official dual-face dsh plugin (host + client), mounted via the official plugin mechanism (dsh plugin add) — no dsh source changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - navigation
+  - piano
+  - conversation
+source:
+  repository: https://github.com/KeLearns/dsh-navigation-bar
+  repositoryNodeId: R_kgDOT5EC0g
+  subpath: null
+  commit: 9592ab28c0e6f627ff497a38c18933b84d6dc37e
+creator:
+  github: KeLearns
+package:
+  ecosystem: npm
+  name: "@kelearns/dsh-navigation-bar"
+  version: 0.2.1
+  integrity: sha512-1OTRe7MXTijc1A6L66F263ceBS3MA6jlVKJOSiBL5wHxgOr8ULDcCuk+3iAwHoPMkdAPcmWlLhmli7QgcWAaNw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:35.324Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
