@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: laplace-bit-dsh-bell-notify
+name: dsh-bell-notify
+description:
+  en: Configurable, unobtrusive Agent lifecycle sound cues for DeepSeek Harness (dsh), synthesized with Web Audio.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - notification
+  - sound
+  - web-audio
+source:
+  repository: https://github.com/Laplace-bit/dsh-bell-notify
+  repositoryNodeId: R_kgDOT51-Mw
+  subpath: null
+  commit: 1ac15b288b964b2769f3ed9c8a7b80dfbcff8965
+creator:
+  github: Laplace-bit
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:04.900Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
