@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: sucriss-dsh-version-update
+name: dsh-version-update
+description:
+  en: "Version management for the dsh Web GUI settings panel: inspect the installed @deepseek-ai/dsh against every npm channel or version line, install or downgrade with one click, roll back instantly from local snapshots, automate the whole cycle with a policy engine (silent auto-update, execution windows, daily checks), and"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - settings
+  - update
+  - self-update
+  - rollback
+source:
+  repository: https://github.com/SuCriss/dsh-version-update
+  repositoryNodeId: R_kgDOT-dZbg
+  subpath: null
+  commit: 0805410a5db07836a1c85ea1c714c6430d36f95a
+creator:
+  github: SuCriss
+package:
+  ecosystem: npm
+  name: dsh-version-update
+  version: 1.0.6
+  integrity: sha512-ePmIuvKT0GItwScuRwSZ/9/uQ7yU0oTv7X9GBouADaonISGsmGlwGu9bZA64m7Kn62JgAyVJ9aj9fa3HTqijsw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:19.081Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
