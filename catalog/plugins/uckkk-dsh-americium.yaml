@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-americium
+name: dsh-americium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-americium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-americium
+source:
+  repository: https://github.com/uckkk/dsh-americium
+  repositoryNodeId: R_kgDOT-tqZQ
+  subpath: null
+  commit: 19a888737856e622ae51cc4923126af01c166a2c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:24.417Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
