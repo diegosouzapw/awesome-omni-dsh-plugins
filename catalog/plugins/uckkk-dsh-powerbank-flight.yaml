@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-powerbank-flight
+name: dsh-powerbank-flight
+description:
+  en: bash dsh plugin add github:uckkk/dsh-powerbank-flight
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-powerbank-flight
+source:
+  repository: https://github.com/uckkk/dsh-powerbank-flight
+  repositoryNodeId: R_kgDOT-tSWg
+  subpath: null
+  commit: 58fe21f3d62b8f017648e517494bbdf667a32d20
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:52.089Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
