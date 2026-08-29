@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: favktoxic-dsh-theme-liquid-glass
+name: dsh-theme-liquid-glass
+description:
+  en: "Genuine Liquid Glass theme for DSH Web UI: SVG feDisplacementMap edge refraction on input card, send button, bubbles, view tabs, queue dock and sidebar. Built-in animated demo wallpaper, customizable background blur & brightness, redesigned model selector popup, glass-styled buttons, and a unique water-drop settings ic"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - liquid-glass
+  - glass
+  - wallpaper
+  - web-ui
+source:
+  repository: https://github.com/FAVKTOXIC/dsh-theme-liquid-glass
+  repositoryNodeId: R_kgDOUBsH8g
+  subpath: null
+  commit: e4a0d861c00cc0ece40ed000b8d8a0cad66c037e
+creator:
+  github: FAVKTOXIC
+package:
+  ecosystem: npm
+  name: dsh-theme-liquid-glass
+  version: 0.3.1
+  integrity: sha512-m5lntlCm5cgm+NEdJipLchN7sJRZemOpwyU0fYG65xOwhgU9QkE3cVOCFmtay9No/Jfhjxnc0WFrWPP6ZmZ9Xw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:34.296Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
