@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-electricity-bill
+name: dsh-electricity-bill
+description:
+  en: bash dsh plugin add github:uckkk/dsh-electricity-bill
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-electricity-bill
+source:
+  repository: https://github.com/uckkk/dsh-electricity-bill
+  repositoryNodeId: R_kgDOT-sn9Q
+  subpath: null
+  commit: d61ef556764fc5c59a5783eb4dafdd9046075fb4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:34.409Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
