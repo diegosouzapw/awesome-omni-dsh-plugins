@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-interaction-design
+name: dsh-interaction-design
+description:
+  en: bash dsh plugin add dsh-interaction-design 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-interaction-design" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - interaction
+  - ux
+  - design-theory
+source:
+  repository: https://github.com/uckkk/dsh-interaction-design
+  repositoryNodeId: R_kgDOT6OYYQ
+  subpath: null
+  commit: ac159c3cdfc490c8c468877c14981262543774f8
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-interaction-design
+  version: 0.1.0
+  integrity: sha512-2sfpE/8/IB76ckzdSSFljPcvtDArRKDj6MW6fom23SGlmIOEWO5+/aCj32tHjDcaU6EhzUlMdsOY9e9elLeKww==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:10.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
