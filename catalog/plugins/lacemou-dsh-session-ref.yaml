@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lacemou-dsh-session-ref
+name: dsh-session-ref
+description:
+  en: "Cross-session reference (mention) for DeepSeek Harness: paste @label into any session — including one in another workspace — and the host resolves and injects the referenced session snapshot via the native session-reference pipeline. Includes a composer button that copies the current session's mention."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session
+  - reference
+  - cross-session
+  - mention
+  - recall
+source:
+  repository: https://github.com/lacemou/dsh-session-ref
+  repositoryNodeId: R_kgDOT7_1FQ
+  subpath: null
+  commit: ba17336df154de4e1e62e82e80391847cefdc28d
+creator:
+  github: lacemou
+package:
+  ecosystem: npm
+  name: dsh-session-ref
+  version: 0.1.3
+  integrity: sha512-Y/ecpnwsTX4KrAOc7H24xDY9ghw8lGn55lCqF7tpywwvImFuvm3lTTt+3ZntwQe5GtbZijS9H/XWp+QPfK7f0g==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:50.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
