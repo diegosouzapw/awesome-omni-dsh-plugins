@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: deepseekbluefish-dsh-screenshot-plugin
+name: dsh-screenshot-plugin
+description:
+  en: "WeChat-style in-app screenshot button for DeepSeek Harness: drag to capture a screen region, PNG saved with auto-numbering, marker [Shot N HH:mm] written into the composer."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - screenshot
+  - capture
+  - screen
+source:
+  repository: https://github.com/deepseekbluefish/dsh-screenshot-plugin
+  repositoryNodeId: R_kgDOT_VrYQ
+  subpath: null
+  commit: 48f1be36e725e7a7199961896d836128515ef971
+creator:
+  github: deepseekbluefish
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:30.118Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
