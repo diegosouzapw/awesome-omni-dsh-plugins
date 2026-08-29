@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: pc439527-dsh-side-monitor
+name: dsh-side-monitor
+description:
+  en: "A read-only system monitor for DeepSeek Harness (DSH) Web: a “System Monitor” entry in the left sidebar footer opens a right-side monitor drawer that shows live host (the machine DSH runs on) overview, process list, and Docker container status."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - read
+  - only
+  - system
+  - monitor
+  - entry
+  - left
+  - sidebar
+  - footer
+  - opens
+  - right
+  - side
+  - drawer
+  - shows
+  - live
+  - host
+  - machine
+source:
+  repository: https://github.com/pc439527/dsh-side-monitor
+  repositoryNodeId: R_kgDOT5IGWA
+  subpath: null
+  commit: 83b35268edb2329fad71289378ce5a218e83669d
+creator:
+  github: pc439527
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:59.725Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
