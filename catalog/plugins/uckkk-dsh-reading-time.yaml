@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-reading-time
+name: dsh-reading-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-reading-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-reading-time
+source:
+  repository: https://github.com/uckkk/dsh-reading-time
+  repositoryNodeId: R_kgDOT9uqsA
+  subpath: null
+  commit: b5cea36d9348d2fbaab41e90982574a1378f0998
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:59.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
