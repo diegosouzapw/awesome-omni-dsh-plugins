@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jfwaskin-dsh-git-nexus
+name: dsh-git-nexus
+description:
+  en: "DSH web plugin: unified Git + GitHub + workflow + files panel (branch, stage/unstage, diff, commit, push/pull/sync, log, files, GitHub OAuth full access, workflow board)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - git
+  - oauth
+  - workflow
+source:
+  repository: https://github.com/JFWaskin/dsh-git-nexus
+  repositoryNodeId: R_kgDOT5uqtA
+  subpath: null
+  commit: 65b63233a905c70cb4152f70153917e11fded4c6
+creator:
+  github: JFWaskin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:48.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
