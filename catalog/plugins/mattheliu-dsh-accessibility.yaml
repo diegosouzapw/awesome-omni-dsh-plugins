@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: mattheliu-dsh-accessibility
+name: "@oh-my-dsh/dsh-accessibility"
+description:
+  en: Screen-reader guidance and in-app accessibility diagnostics for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - accessibility
+  - screen-reader
+  - voiceover
+  - nvda
+  - wcag
+source:
+  repository: https://github.com/omdsh-dev/dsh-accessibility
+  repositoryNodeId: R_kgDOUEGeyw
+  subpath: null
+  commit: 356876276c361899fa11b49e2d616efd56ca2b71
+creator:
+  github: mattheliu
+package:
+  ecosystem: npm
+  name: "@oh-my-dsh/dsh-accessibility"
+  version: 0.1.0-beta.5
+  integrity: sha512-LGbIzIUIQoX73NM4v6w24od7tLOVQerUHb7vkBuI1QDRZWQA8KpAHj/NIvxHSSRFu4P4v0TTfOb0pMTSeiXAQw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:07.646Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
