@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lispking-dsh-auto-evolve
+name: dsh-auto-evolve
+description:
+  en: "Self-evolving plugin for DeepSeek Harness: observes agent behavior, proposes improvements to its own skills/policies via LLM, validates them in a sandboxed trial agent, and applies versioned mutations with rollback."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - self-improvement
+  - self-evolution
+  - llm
+source:
+  repository: https://github.com/lispking/dsh-auto-evolve
+  repositoryNodeId: R_kgDOUAeSlA
+  subpath: null
+  commit: 0e6a5e60073e96b24d9974ef7cdf2352d16e23d9
+creator:
+  github: lispking
+package:
+  ecosystem: npm
+  name: dsh-auto-evolve
+  version: 0.1.2
+  integrity: sha512-BknKhiOLRpEEMbG9qvfkTmF0pSi4ksgPFCLb12m/y0mjzt0SVLtW547Pjk6qe3s07otSkWs7HTBsxEI56hlnRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:50.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
