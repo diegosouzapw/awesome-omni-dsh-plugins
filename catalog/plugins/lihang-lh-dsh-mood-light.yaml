@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lihang-lh-dsh-mood-light
+name: dsh-mood-light
+description:
+  en: A mood-light ring around the DSH web UI edge. It reads the current session state and automatically switches the light color and rhythm. The default effect is soft glow (diffuse) — borderless, a multi-layer inward-diffusing scattered light with a subtle organic irregularity. Marquee (rotating band) and linear gradient (
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - mood
+  - light
+  - ring
+  - around
+  - edge
+  - reads
+  - current
+  - session
+  - state
+  - automatically
+  - switches
+  - color
+  - rhythm
+  - default
+  - effect
+  - soft
+source:
+  repository: https://github.com/lihang-lh/dsh-moon-light
+  repositoryNodeId: R_kgDOT8P36g
+  subpath: null
+  commit: 1fcae743b10c38a9a39506237272959ba1e175de
+creator:
+  github: lihang-lh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:11.658Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
