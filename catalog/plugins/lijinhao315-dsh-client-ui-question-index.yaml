@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lijinhao315-dsh-client-ui-question-index
+name: "@deepseek-ai/dsh-client-ui-question-index"
+description:
+  en: "Question index surface: an ordered, collapsible list of the user's asked questions floating on the right side of the conversation, with click-to-jump into the flow"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - question-index
+  - chat-history
+  - ui
+source:
+  repository: https://github.com/lijinhao315/dsh-question-index
+  repositoryNodeId: R_kgDOUBj9Qw
+  subpath: null
+  commit: d6163f9f449e6306d2efab7b87b9cb0c6cf72597
+creator:
+  github: lijinhao315
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:14.812Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
