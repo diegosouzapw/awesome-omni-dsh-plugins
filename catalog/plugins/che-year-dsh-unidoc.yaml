@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: che-year-dsh-unidoc
+name: dsh-unidoc
+description:
+  en: 'A document preview / edit / management plugin for DeepSeek Harness. It provides a VSCode-style "Document Center" workbench inside the DSH Web GUI: a file tree on the left, click-to-preview, editable code & Markdown with Ctrl/Cmd+S save; and exposes three document tools ( doc read / doc edit / doc create ) to agents, le'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - document-center
+  - preview
+  - markdown
+  - code-editor
+source:
+  repository: https://github.com/Che-Year/dsh-unidoc
+  repositoryNodeId: R_kgDOT8lFJw
+  subpath: null
+  commit: 97af5928d926065452306a419dd15a13247c0d36
+creator:
+  github: Che-Year
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:38.136Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
