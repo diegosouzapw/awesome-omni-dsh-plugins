@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-week-number
+name: dsh-week-number
+description:
+  en: bash dsh plugin add github:uckkk/dsh-week-number
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-week-number
+source:
+  repository: https://github.com/uckkk/dsh-week-number
+  repositoryNodeId: R_kgDOT9uVxw
+  subpath: null
+  commit: d54e0676ba4542e7612bd1f6001098f7e8822c0d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:10.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
