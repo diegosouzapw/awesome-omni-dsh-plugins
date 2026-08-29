@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: cxyhhhhh-dsh-qqbot
+name: "@tencent-connect/dsh-qqbot"
+description:
+  en: QQ Bot IM channel plugin for deepseek-harness (dsh)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - qqbot
+  - cordis
+source:
+  repository: https://github.com/tencent-connect/dsh-qqbot
+  repositoryNodeId: R_kgDOT4bYtA
+  subpath: null
+  commit: 7bac0a9b6dd6e693cfc7532b4e7ecfb3cfcc3b13
+creator:
+  github: cxyhhhhh
+package:
+  ecosystem: npm
+  name: "@tencent-connect/dsh-qqbot"
+  version: 0.4.0
+  integrity: sha512-rFoxUsIJ/St7Hw7Iy01Jn9cpZMe+rPahzrLoNygp1bP1Hd365ONNzaKdKnMloLkCHSdCJm1mVGDnzfLJaZ618Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.391Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 82
+provenance:
+  discussion: null
+  comment: null
