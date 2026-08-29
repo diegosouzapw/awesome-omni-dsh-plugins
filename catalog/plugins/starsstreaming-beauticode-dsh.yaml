@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: starsstreaming-beauticode-dsh
+name: beauticode-dsh
+description:
+  en: "Cordis plugin: image/video backgrounds for DeepSeek Harness web."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - background
+  - wallpaper
+source:
+  repository: https://github.com/starsstreaming/beautiCode
+  repositoryNodeId: R_kgDOTl5fWg
+  subpath: integrations/deepseek-harness
+  commit: 5d42fd8bca25420a95d21bbf8fa9bd140d4713a4
+creator:
+  github: starsstreaming
+package:
+  ecosystem: npm
+  name: beauticode-dsh
+  version: 1.0.22
+  integrity: sha512-b1AaItdxaSwBHvwV6BJwKa6T+T3/jSKRBg0/V+GMg8/CITVBYR3siqnt32JBQTV7QYqLN7/DkoOU7ik/l4gW/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:23.226Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
