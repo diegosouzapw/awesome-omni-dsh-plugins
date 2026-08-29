@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: heyizhiyuan-dsh-all
+name: "@hyzyn/dsh-all"
+description:
+  en: '<p align="center" <img src="https://img.shields.io/github/v/release/hyzyn/dsh-plugin-kit?style=flat-square" alt="Version" &nbsp; <img src="https://img.shields.io/github/stars/hyzyn/dsh-plugin-kit?style=flat-square" alt="Stars" &nbsp; <img src="https://img.shields.io/github/forks/hyzyn/dsh-plugin-kit?style=flat-square" '
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - align
+  - center
+  - shields
+  - release
+  - hyzyn
+  - style
+  - flat
+  - square
+  - version
+  - nbsp
+  - stars
+  - forks
+  - dsh
+source:
+  repository: https://github.com/hyzyn/dsh-plugin-kit
+  repositoryNodeId: R_kgDOT5MwSA
+  subpath: packages/all
+  commit: 0316a0e180090774d76d73ee2782737a99e9ff2f
+creator:
+  github: heyizhiyuan
+package:
+  ecosystem: npm
+  name: "@hyzyn/dsh-all"
+  version: 0.1.7
+  integrity: sha512-qNyTOTW8pxc/WWQSYRgVut/P+62VMp2WZwSYprlu9rTTLVLUB46cL9fHLWaKPushJRqBHQbvdTkEqcXM9MAtsg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/all/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:56.366Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
