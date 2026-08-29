@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-animation-principles
+name: dsh-animation-principles
+description:
+  en: bash dsh plugin add dsh-animation-principles 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-animation-principles" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - animation
+  - disney
+  - 12-principles
+source:
+  repository: https://github.com/uckkk/dsh-animation-principles
+  repositoryNodeId: R_kgDOT6OX3Q
+  subpath: null
+  commit: fc2136fe3fadf03fcc83af92008518cc1d4e9745
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-animation-principles
+  version: 0.1.0
+  integrity: sha512-XIEgWRvIjjSQ4jhZPW2nlCAGAU7QBwa9eNnWBW7U4W5eqhvSuRDnk0dmTFPePNHm8ew+PhAepZrz6n15p7ImjA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:24.882Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
