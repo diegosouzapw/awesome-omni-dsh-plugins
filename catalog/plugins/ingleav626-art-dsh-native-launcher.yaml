@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ingleav626-art-dsh-native-launcher
+name: dsh-native-launcher
+description:
+  en: "dsh plugin (Windows): desktop shortcut that launches dsh web silently (hidden console) and auto-opens the browser; port-aware reconnect; settings UI section; tray with native toast notifications and close-to-exit semantics."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - launcher
+  - windows
+  - desktop
+  - native
+  - zero-dependency
+source:
+  repository: https://github.com/ingleav626-art/dsh-native-launcher
+  repositoryNodeId: R_kgDOT5JM6Q
+  subpath: null
+  commit: 96d6e73a4bf551d016dcdb632e1ca9df11041da6
+creator:
+  github: ingleav626-art
+package:
+  ecosystem: npm
+  name: dsh-native-launcher
+  version: 0.3.3
+  integrity: sha512-VnB6buW2O3tKj9PX5Ew+zIq9xoNOLv5g4Ge3LXkaEj+7YUF572sVQqh5bU7VQlra0OEXjk6A1djHG5vLHa8J6A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:58.952Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
