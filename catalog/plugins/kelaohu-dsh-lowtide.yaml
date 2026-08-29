@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kelaohu-dsh-lowtide
+name: dsh-lowtide
+description:
+  en: "lowtide: human-adjudicated off-peak batch task pipeline for dsh (peak/valley pricing aware)"
+  evidencePath: packages/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - off-peak
+  - batch-tasks
+  - pricing
+  - scheduler
+  - productivity
+  - dsh
+source:
+  repository: https://github.com/KelaoHu/dsh-lowtide
+  repositoryNodeId: R_kgDOUBhZdA
+  subpath: packages/dsh
+  commit: 49caefc2d6a33148cb36b8dbca413d725161668f
+creator:
+  github: KelaoHu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:11.829Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
