@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-overtime-pay
+name: dsh-overtime-pay
+description:
+  en: bash dsh plugin add github:uckkk/dsh-overtime-pay
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-overtime-pay
+source:
+  repository: https://github.com/uckkk/dsh-overtime-pay
+  repositoryNodeId: R_kgDOT-Diag
+  subpath: null
+  commit: 3a00104615f36facc85795ec9d55d0fe72371502
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:45.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
