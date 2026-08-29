@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: cho-geer-dsh-specify-subagent-suite
+name: "@zach-tao/dsh-specify-subagent-suite"
+description:
+  en: "5 resident DSH plugins merged into one Cordis bundle: right Agent list, subagent template panel, one-shot subagent record badge, and the subagent pro / subagent pro presets / subagent pro audit tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - subagent
+  - agent-preset
+source:
+  repository: https://github.com/Cho-Geer/dsh-specify-subagent-suite
+  repositoryNodeId: R_kgDOUA043g
+  subpath: null
+  commit: f8e796f5af58c5c43d172fd2121500866aad5b4a
+creator:
+  github: Cho-Geer
+package:
+  ecosystem: npm
+  name: "@zach-tao/dsh-specify-subagent-suite"
+  version: 0.1.0
+  integrity: sha512-sMJUsyL4Q1UMdz/VIv/bwQB3b3iSlOwLzIw5/WLySbd7MSWvcGLgx8PZb4Y+SL3tIfmFKLE3iXyJsHFVGVQ0vA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:17.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
