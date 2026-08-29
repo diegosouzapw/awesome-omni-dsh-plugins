@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mittermeiergithub-dsh-darksoft-theme
+name: dsh-darksoft-theme
+description:
+  en: "Obsidian things-soft-colorful-headings port for dsh web dark theme: warm-gray dimmed text via --dsw-alias-label- token overrides plus soft colorful h1-h6 headings. Zero dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - obsidian
+  - colorful-headings
+  - dark-theme
+source:
+  repository: https://github.com/MitterMeierGithub/dsh-darksoft-theme
+  repositoryNodeId: R_kgDOUBGzAQ
+  subpath: null
+  commit: 5c8fc05e545d7e135be7afc786d00ba0b160b3c5
+creator:
+  github: MitterMeierGithub
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:59.359Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
