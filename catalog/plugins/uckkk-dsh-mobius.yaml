@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mobius
+name: dsh-mobius
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mobius
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mobius
+source:
+  repository: https://github.com/uckkk/dsh-mobius
+  repositoryNodeId: R_kgDOT9u8JA
+  subpath: null
+  commit: 9cc42226b3b471de010bd1f781a311ea84b27fe5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:31.362Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
