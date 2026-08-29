@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: franksong2702-dsh-dictate
+name: dsh-dictate
+description:
+  en: Context-aware voice input for DeepSeek Harness with Web Speech, local SenseVoice transcription, model polish, editable Composer drafts, and user-controlled sending
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - voice-input
+  - speech-to-text
+  - dictation
+  - sensevoice
+  - web-speech
+  - asr
+  - composer
+source:
+  repository: https://github.com/franksong2702/dsh-dictate
+  repositoryNodeId: R_kgDOT5wP_g
+  subpath: null
+  commit: 01bd0b6f90f07f0a659bcc7a3ece48b79b3e23ea
+creator:
+  github: franksong2702
+package:
+  ecosystem: npm
+  name: dsh-dictate
+  version: 0.4.0-alpha.5
+  integrity: sha512-EuwFTReKdxP2bC2IigSZkTPSgsaVvo5w5uVEHWfQZXgJUtQswIlcAPfsd4veLLy21DoHRooXVSpd1fHgxKWyzQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:39.197Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
