@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-caesar
+name: dsh-caesar
+description:
+  en: bash dsh plugin add dsh-caesar 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-caesar" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - caesar
+  - cipher
+  - encrypt
+source:
+  repository: https://github.com/uckkk/dsh-caesar
+  repositoryNodeId: R_kgDOT9tDnw
+  subpath: null
+  commit: 0c7b9df3a8232d9e5f0d52afd3339307ec6e384f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:46.497Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
