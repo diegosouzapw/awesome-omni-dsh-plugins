@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: underthestars-zhy-dsh-imessage
+name: dsh-imessage
+description:
+  en: Photon-hosted iMessage transport and configuration UI for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - imessage
+  - photon
+  - spectrum
+source:
+  repository: https://github.com/photon-hq/dsh-imessage
+  repositoryNodeId: R_kgDOT7tHKA
+  subpath: null
+  commit: a644183adf332bff12b2fe359b3326ca1c066846
+creator:
+  github: underthestars-zhy
+package:
+  ecosystem: npm
+  name: dsh-imessage
+  version: 0.2.0
+  integrity: sha512-RRVnDE/VkRxPWePfhreIPnw9I/j5SFqCeiEri3uj53uIv1MxQlnyhe7ahnkfERhyL8oSu76GZvOcIgMNtjjy9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:41.854Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
