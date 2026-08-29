@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: littleblacktong-dsh-plugin-memory
+name: dsh-plugin-memory
+description:
+  en: "Long-term memory plugin for DeepSeek Harness: persistent cross-session markdown memory with a soul/persona file, auto-injected at every session start, plus remember/recall/consolidate/forget workflows and portable migration tooling."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - memory
+  - long-term-memory
+  - markdown
+  - wiki
+  - migration
+source:
+  repository: https://github.com/LittleBlackTong/dsh-plugin-memory
+  repositoryNodeId: R_kgDOT8IkGg
+  subpath: null
+  commit: d9a7adb92e33720259ef6374e50285a32f7bbc01
+creator:
+  github: LittleBlackTong
+package:
+  ecosystem: npm
+  name: dsh-plugin-memory
+  version: 0.5.1
+  integrity: sha512-6h/86ShcxPz5HzHWknubvs8sRlMSwwc7DQPQNXlikkoH+2XEfYRrxWLSv7nuQGDRN7qJUFAMJNfz5eYjClmhpw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:13.917Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
