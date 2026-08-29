@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-wedding-timeline
+name: dsh-wedding-timeline
+description:
+  en: bash dsh plugin add github:uckkk/dsh-wedding-timeline
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-wedding-timeline
+source:
+  repository: https://github.com/uckkk/dsh-wedding-timeline
+  repositoryNodeId: R_kgDOT-wsEA
+  subpath: null
+  commit: 7482935afd134353e05ced56b2b9f38d5f0f6dff
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:10.347Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
