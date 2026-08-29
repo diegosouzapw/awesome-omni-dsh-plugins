@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: johnxu22786-hooks-adapter
+name: hooks-adapter
+description:
+  en: "A universal hooks compatibility layer: run hooks declared in Claude Code / Codex / opencode / native configs on the DeepSeek Harness, with shell, webhook, oracle and proxy handlers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - hooks
+source:
+  repository: https://github.com/JohnXu22786/hooks-adapter
+  repositoryNodeId: R_kgDOT59T5Q
+  subpath: null
+  commit: 32bf75a262956a23ca308e3c62fee6708ef43f4d
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:12.041Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
