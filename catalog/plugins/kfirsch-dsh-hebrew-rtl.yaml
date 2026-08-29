@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kfirsch-dsh-hebrew-rtl
+name: dsh-hebrew-rtl
+description:
+  en: "Correct Hebrew RTL rendering for the DeepSeek Harness web GUI: per-block direction by dominant script, bidi-safe input fields, and RTL-aware Cmd+Left/Right line navigation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - hebrew
+  - rtl
+  - bidi
+  - i18n
+source:
+  repository: https://github.com/kfirsch/dsh-hebrew-rtl
+  repositoryNodeId: R_kgDOUC9E6A
+  subpath: null
+  commit: 6ff8346a0db7b892197154bca723d6f6fa70bc7c
+creator:
+  github: kfirsch
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:33.825Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
