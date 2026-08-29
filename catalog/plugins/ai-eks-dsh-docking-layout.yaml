@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ai-eks-dsh-docking-layout
+name: "@ai-eks/dsh-docking-layout"
+description:
+  en: Dockable Session tabs and drag-to-split conversation groups for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dockable
+  - session
+  - tabs
+  - drag
+  - split
+  - conversation
+  - groups
+  - dsh
+source:
+  repository: https://github.com/ai-eks/dsh-docking-layout
+  repositoryNodeId: R_kgDOT_kc6Q
+  subpath: null
+  commit: ad7ff21d0f032e0534e1ea6c90a32c6b4731d06c
+creator:
+  github: ai-eks
+package:
+  ecosystem: npm
+  name: "@ai-eks/dsh-docking-layout"
+  version: 0.1.1-rc.2
+  integrity: sha512-ZPKYhf4CWv6OSvgfGuxqcjIAzNLtbdFCujtQaK56unxcZ2h/sTmRu3COnpcrs28Z9sqT2uaC9OUcnyVtOs7Gnw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:32.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
