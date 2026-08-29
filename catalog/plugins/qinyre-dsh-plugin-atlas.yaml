@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: qinyre-dsh-plugin-atlas
+name: dsh-plugin-atlas
+description:
+  en: sh dsh plugin --profile web add dsh-plugin-atlas
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - archive
+  - navigation
+source:
+  repository: https://github.com/qinyre/dsh-plugin-atlas
+  repositoryNodeId: R_kgDOT79ZJw
+  subpath: null
+  commit: b9469056d7af0278ca1c0f4a791ea85d8483de70
+creator:
+  github: qinyre
+package:
+  ecosystem: npm
+  name: dsh-plugin-atlas
+  version: 0.2.5
+  integrity: sha512-cyTVL63ttz0pPEHTTwNraHCK3WUYpQ6ICryFbrbFMeZ3HqM5OKFS3H/hOOQqtqjBiiyynd9y6Q1n6ZF3Hbl9ig==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:03.774Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
