@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: starlight-bananice-dsh-status-bar
+name: "@bananiceee/dsh-status-bar"
+description:
+  en: "The native DeepSeek Harness bottom status bar packs everything into one long line — so much that parts of it get truncated on narrow windows. dsh-status-bar brings a near-native status-bar experience : a fully configurable 17-segment bar showing exactly the content you want — status, model, context pressure, token burn"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - status-bar
+  - stats-line
+  - composer-dock
+  - cost-estimate
+  - context-usage
+  - agent-status
+source:
+  repository: https://github.com/Starlight-bananice/dsh-status-bar
+  repositoryNodeId: R_kgDOT5ge_Q
+  subpath: null
+  commit: 128a7f3d1256a003989d5bafc8422829424be662
+creator:
+  github: Starlight-bananice
+package:
+  ecosystem: npm
+  name: "@bananiceee/dsh-status-bar"
+  version: 0.1.10
+  integrity: sha512-sI1sk/HD/QyMP+0WAy8UPY5p45pgUdcZIVSXFX55bsP+gvPovMRTxIeA0srVi1wEwMZhG1uZD+nuFGJfVO4qDw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:29.184Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
