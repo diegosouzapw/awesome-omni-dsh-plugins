@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-percent-encode
+name: dsh-percent-encode
+description:
+  en: bash dsh plugin add github:uckkk/dsh-percent-encode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-percent-encode
+source:
+  repository: https://github.com/uckkk/dsh-percent-encode
+  repositoryNodeId: R_kgDOT9uJQg
+  subpath: null
+  commit: 3655f19a192b97bf963a17d0625a15c3950b58e7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:47.189Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
