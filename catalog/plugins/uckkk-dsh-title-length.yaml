@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-title-length
+name: dsh-title-length
+description:
+  en: bash dsh plugin add github:uckkk/dsh-title-length
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-title-length
+source:
+  repository: https://github.com/uckkk/dsh-title-length
+  repositoryNodeId: R_kgDOT-thHw
+  subpath: null
+  commit: 30060b064a28834fd5c65105e183407bebb2aaf0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:51.744Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
