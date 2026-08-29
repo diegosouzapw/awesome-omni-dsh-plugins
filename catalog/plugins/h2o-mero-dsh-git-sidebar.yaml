@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: h2o-mero-dsh-git-sidebar
+name: dsh-git-sidebar
+description:
+  en: "DSH plugin: VSCode-style uncommitted changes sidebar for the DeepSeek Harness web GUI — staged / unstaged / untracked files, per-file diffs and open-in-editor, docked to the right of the conversation page"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - vscode
+  - style
+  - uncommitted
+  - changes
+  - sidebar
+  - staged
+  - unstaged
+  - untracked
+  - files
+  - file
+  - diffs
+  - open
+  - editor
+  - docked
+  - right
+  - conversation
+source:
+  repository: https://github.com/H2O-MERO/dsh-git-sidebar
+  repositoryNodeId: R_kgDOT-ifzg
+  subpath: null
+  commit: 95235b7f0821c0bd76c8ddd2a8dea4b48918bb22
+creator:
+  github: H2O-MERO
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:45.502Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
