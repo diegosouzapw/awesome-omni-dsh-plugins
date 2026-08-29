@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: jimmyzwang-cloud-dsh-inkscreen-theme
+name: dsh-inkscreen-theme
+description:
+  en: "DSH web plugin: an ink-and-paper Apple-glass theme with editorial typography, conversation status tabs, a Conversation/Trace switch, and a handwritten jimmy brand."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - theme
+  - deepseek-harness
+source:
+  repository: https://github.com/Jimmyzwang-cloud/dsh-inkscreen-theme
+  repositoryNodeId: R_kgDOUAx47g
+  subpath: null
+  commit: 12f1320b1fe0d7d88d10e4b9bec195397024168f
+creator:
+  github: Jimmyzwang-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:56.702Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
