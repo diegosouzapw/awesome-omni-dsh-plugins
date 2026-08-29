@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-json-pointer
+name: dsh-json-pointer
+description:
+  en: bash dsh plugin add github:uckkk/dsh-json-pointer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-json-pointer
+source:
+  repository: https://github.com/uckkk/dsh-json-pointer
+  repositoryNodeId: R_kgDOT9un0w
+  subpath: null
+  commit: c6f795ec1b1b9d08762039794d2b580dd16a7c5a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:14.258Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
