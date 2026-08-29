@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: lastplayer82-dsh-tanqi
+name: "@lastplayer82/dsh-tanqi"
+description:
+  en: "探奇 (Tanqi) for the dsh web GUI: AI-generated curiosity items with layered deep-dives. A sidebar entry opens the panel — 「开始探奇」 generates a fresh batch of unexpected knowledge (excluding everything already seen), each item can be unfolded into two deeper layers plus similar knowledge points, and 「探奇清单」 keeps the full hi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - tanqi
+  - generated
+  - curiosity
+  - items
+  - layered
+  - deep
+  - dives
+  - sidebar
+  - entry
+  - opens
+  - panel
+  - generates
+  - fresh
+  - batch
+  - unexpected
+  - knowledge
+source:
+  repository: https://github.com/lastplayer82/dsh-tanqi
+  repositoryNodeId: R_kgDOT_ksXg
+  subpath: null
+  commit: bb03d79152ca5015229590eaeb123b0bb1adb110
+creator:
+  github: lastplayer82
+package:
+  ecosystem: npm
+  name: "@lastplayer82/dsh-tanqi"
+  version: 0.1.1
+  integrity: sha512-mBp28MGtcfsZ2le+Ikk/0qY3i/4+tDAJroS62dFfQt8XhZxAK4JFG9TTKJjw9pQWK5FUw7LLsgdQjJCo93HE0Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:32.924Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
