@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-scaffold
+name: dsh-scaffold
+description:
+  en: 工具 作用 --- --- generate license 生成 LICENSE（MIT/ISC/Unlicense） generate gitignore 生成 .gitignore（node/python/go/react/vue/java） generate editorconfig 生成 .editorconfig
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - scaffold
+  - license
+  - gitignore
+source:
+  repository: https://github.com/uckkk/dsh-scaffold
+  repositoryNodeId: R_kgDOT6KL8w
+  subpath: null
+  commit: c009d9d5213fc45fca3f326560c939096ccb6542
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:55.382Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
