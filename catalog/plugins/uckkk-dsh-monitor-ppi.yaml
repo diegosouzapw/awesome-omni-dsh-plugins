@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-monitor-ppi
+name: dsh-monitor-ppi
+description:
+  en: bash dsh plugin add github:uckkk/dsh-monitor-ppi
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-monitor-ppi
+source:
+  repository: https://github.com/uckkk/dsh-monitor-ppi
+  repositoryNodeId: R_kgDOT-s5Gg
+  subpath: null
+  commit: aaa72408c5c4b179d799a2eb3dd5d96592aa9e04
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:32.085Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
