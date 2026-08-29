@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ai-models
+name: dsh-ai-models
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ai-models
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ai-models
+source:
+  repository: https://github.com/uckkk/dsh-ai-models
+  repositoryNodeId: R_kgDOT-s3NA
+  subpath: null
+  commit: 9739e621be1abc2d692622a2876399f56cee8385
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:21.722Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
