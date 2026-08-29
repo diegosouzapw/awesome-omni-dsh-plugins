@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shuguang1994-project-blueprint
+name: project-blueprint
+description:
+  en: DSH (DeepSeek Harness) plugin packaging of the Project Blueprint skill — one-command AI coding conventions (AGENTS.md, docs skeleton, CI/CD, git rules, testing policy) with an autonomous discovery engine (7 languages, 15 frameworks, 70+ components, web fallback).
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - skills
+  - project-blueprint
+  - coding-conventions
+  - scaffolding
+  - ai-agents
+source:
+  repository: https://github.com/shuguang1994/project-blueprint
+  repositoryNodeId: R_kgDOTcJb4A
+  subpath: dsh-plugin
+  commit: f227ce5c61703e041ec56b6e27b2af550d585fb2
+creator:
+  github: shuguang1994
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:02.532Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
