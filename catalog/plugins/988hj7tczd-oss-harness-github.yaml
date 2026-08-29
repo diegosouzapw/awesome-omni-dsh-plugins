@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-harness-github
+name: harness-github
+description:
+  en: "DeepSeek Harness GitHub plugin: review PRs, triage issues, debug Actions CI, handle review feedback, and prepare code changes for review — via gh CLI or REST, no extra sign-in required."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - pull-request
+  - code-review
+  - ci
+  - issues
+  - actions
+source:
+  repository: https://github.com/988hj7tczd-oss/harness-github
+  repositoryNodeId: R_kgDOUBdGyw
+  subpath: null
+  commit: 6bb9803f787b4ee4fa66f28fa8c889369ce28d2e
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: npm
+  name: harness-github
+  version: 0.1.0
+  integrity: sha512-UKzroMAAqIgBiZG6Jdinrq7+65yQvWv1ng6vOEa7RAgOdTGgx24FQFfRWW5cfL5Knxag6AdZWzzESn0+7eonIQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:40.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
