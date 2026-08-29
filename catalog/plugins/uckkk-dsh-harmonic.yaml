@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-harmonic
+name: dsh-harmonic
+description:
+  en: bash dsh plugin add github:uckkk/dsh-harmonic
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-harmonic
+source:
+  repository: https://github.com/uckkk/dsh-harmonic
+  repositoryNodeId: R_kgDOT9u98w
+  subpath: null
+  commit: a1096d1a07011cf8bac496faf0ee8c0cd006269f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:51.247Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
