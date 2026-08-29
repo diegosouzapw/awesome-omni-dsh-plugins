@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: radres-dsh-plugin-call-me
+name: dsh-plugin-call-me
+description:
+  en: Your DeepSeek Harness agent rings your actual phone. It asks out loud, you answer out loud, and what you said steers the run.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - deepseek-ai
+  - cordis
+  - phone
+  - phone-call
+  - call
+  - voice
+  - notify
+  - notification
+  - notifications
+  - approval
+  - human-in-the-loop
+  - reachability
+  - iphone
+source:
+  repository: https://github.com/radres/dsh-plugin-call-me
+  repositoryNodeId: R_kgDOT4am0w
+  subpath: null
+  commit: e1845ce5315d4959a038fdc8f0dabd59d5c460b3
+creator:
+  github: radres
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:40.188Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
