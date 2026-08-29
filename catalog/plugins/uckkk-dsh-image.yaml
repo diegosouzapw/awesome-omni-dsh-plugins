@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-image
+name: dsh-image
+description:
+  en: bash dsh plugin add dsh-image 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-image" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - image
+  - resize
+source:
+  repository: https://github.com/uckkk/dsh-image
+  repositoryNodeId: R_kgDOT6Gq0Q
+  subpath: null
+  commit: d0ff0fe454430c7aaf7995ae0ee6aaca1460eb16
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:57.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
