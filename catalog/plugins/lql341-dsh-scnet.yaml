@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lql341-dsh-scnet
+name: dsh-scnet
+description:
+  en: "Community DeepSeek Harness bundle for SCNet HPC: profile-based SSH, CPU/DCU Slurm jobs, cluster probing, compute-node diagnostics, and Hygon DCU/DTK guidance."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - slurm
+  - hpc
+  - hygon
+  - dcu
+  - scnet
+source:
+  repository: https://github.com/lql341/dsh-scnet
+  repositoryNodeId: R_kgDOT4i4YA
+  subpath: null
+  commit: 9bb3cab2e44cd19d347948f317b055ac8888a6a5
+creator:
+  github: lql341
+package:
+  ecosystem: npm
+  name: dsh-scnet
+  version: 0.4.2
+  integrity: sha512-z5aGfrqH4wY9fDSl5VntcWd3XVuL/D/mAiyROP1V7QZrHnuIdGn7hZ9y2l7/3XYbStyfAgTwsa3KOafLthbtUA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:24.006Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
