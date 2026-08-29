@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: mouliangyu-dsh-skill-stabilizer
+name: dsh-skill-stabilizer
+description:
+  en: "Stable per-step skill catalog for DeepSeek Harness: a fixed system-prompt section with a byte budget, replacing the built-in digest-driven catalog message"
+  evidencePath: packages/skill-stabilizer/README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - stable
+  - step
+  - skill
+  - catalog
+  - fixed
+  - system
+  - prompt
+  - section
+  - byte
+  - budget
+  - replacing
+  - built
+  - digest
+  - driven
+  - message
+  - dsh
+source:
+  repository: https://github.com/mouliangyu/dsh-plugins
+  repositoryNodeId: R_kgDOT395xQ
+  subpath: packages/skill-stabilizer
+  commit: 8064bf02961de5f1f2777084d97cd2b32608e6f0
+creator:
+  github: mouliangyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/skill-stabilizer/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:12.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
