@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: potoior-dsh-bull-bear
+name: dsh-bull-bear
+description:
+  en: "Bull & bear market pet for DeepSeek Harness: the closer your portfolio climbs toward a 20% gain, the harder the bull sprints; the deeper it falls, the more theatrically the bear tumbles."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - bull
+  - bear
+  - stock
+  - a-share
+  - pet
+source:
+  repository: https://github.com/potoior/dsh-bull-bear
+  repositoryNodeId: R_kgDOT7AOeg
+  subpath: null
+  commit: 3f6e032b8bab9df4b9b23110716cd9fc399eeb39
+creator:
+  github: potoior
+package:
+  ecosystem: npm
+  name: dsh-bull-bear
+  version: 0.1.2
+  integrity: sha512-SRaErikNu+a6BDKWSbtbmMiwcUeYnIFIn3xVQWwrH0grzj8WJA+sWDA6R2E2+pJlh5BjFjbD12QTdOJtryL7SA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:11.768Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
