@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: small-tailqwq-dsh-client-ui-skin-deep-whale-manager
+name: "@dsh-external/dsh-client-ui-skin-deep-whale-manager"
+description:
+  en: Settings-integrated discovery, activation, and skin-owned customization for DSH Web skins
+  evidencePath: skin-manager/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - settings
+  - integrated
+  - discovery
+  - activation
+  - skin
+  - owned
+  - customization
+  - skins
+  - dsh
+source:
+  repository: https://github.com/Small-tailqwq/dsh-deep-whale
+  repositoryNodeId: R_kgDOT3XawA
+  subpath: skin-manager
+  commit: af20f8e8634fbb4490ec6737593da7dbd9046963
+creator:
+  github: Small-tailqwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: skin-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:21.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
