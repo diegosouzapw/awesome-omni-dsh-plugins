@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-number-format
+name: dsh-number-format
+description:
+  en: bash dsh plugin add dsh-number-format 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-number-format" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - number
+  - format
+source:
+  repository: https://github.com/uckkk/dsh-number-format
+  repositoryNodeId: R_kgDOT6LVVQ
+  subpath: null
+  commit: efc48e58616c26b9cda2b0e5bf1250bb73795695
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-number-format
+  version: 0.1.0
+  integrity: sha512-Cj36Akuq6RP6U7ItldgHCPuhVreaPIP4NNGUfJEtHoTq10nq/fxHuHeQI8eaex9PM/YfEdnaATCeBEnQUzkH3Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:41.309Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
