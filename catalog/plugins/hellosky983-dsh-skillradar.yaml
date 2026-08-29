@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: hellosky983-dsh-skillradar
+name: dsh-skillradar
+description:
+  en: "Skill Radar for DeepSeek Harness (dsh): scan the current session's visible skills, score their relevance against the recent conversation, and recommend which skill to load. Model tool + optional interactive panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - skill
+  - radar
+  - scan
+  - current
+  - session
+  - visible
+  - skills
+  - score
+  - relevance
+  - against
+  - recent
+  - conversation
+  - recommend
+  - load
+  - model
+  - tool
+source:
+  repository: https://github.com/hellosky983/dsh-skillradar
+  repositoryNodeId: R_kgDOT4AbTg
+  subpath: null
+  commit: bb96fce5457a3186322caa664e1daef7a04c4e2f
+creator:
+  github: hellosky983
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:45.137Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
