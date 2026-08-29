@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: rocker2018-droid-dsh-longtask-orchestrator
+name: dsh-longtask-orchestrator
+description:
+  en: sh dsh plugin --profile web add link:/绝对路径/dsh-longtask-orchestrator
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - codex
+  - kimi
+  - orchestration
+  - long-task
+source:
+  repository: https://github.com/rocker2018-droid/dsh-longtask-orchestrator
+  repositoryNodeId: R_kgDOT5Vn_Q
+  subpath: null
+  commit: d8eefcbbedf15f88dd7bc8f324fabd5df708b51a
+creator:
+  github: rocker2018-droid
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:46.079Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
