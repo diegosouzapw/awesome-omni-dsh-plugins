@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bohrium
+name: dsh-bohrium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bohrium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bohrium
+source:
+  repository: https://github.com/uckkk/dsh-bohrium
+  repositoryNodeId: R_kgDOT-3-Wg
+  subpath: null
+  commit: 483cf99a75db47015b3fef45e3bbc129f5dcf3e6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:28.346Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
