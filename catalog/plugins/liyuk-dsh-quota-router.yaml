@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: liyuk-dsh-quota-router
+name: "@liyuk/dsh-quota-router"
+description:
+  en: "Policy-only multi-source quota router for DeepSeek Harness: deterministic task profiles, ordered candidate chains, health-aware fallback, and observable decisions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - quota-router
+  - model-router
+  - cost-control
+source:
+  repository: https://github.com/Liyuk/dsh-quota-router
+  repositoryNodeId: R_kgDOT-Q_IA
+  subpath: null
+  commit: 683dc8755b309bdbfbeb807ad79db882e8e44d7f
+creator:
+  github: Liyuk
+package:
+  ecosystem: npm
+  name: "@liyuk/dsh-quota-router"
+  version: 1.0.0
+  integrity: sha512-nF9A5jd/UHsUTZYfHkUew9ZqsGOxDQrWmHRb9Vfdb0WX+cZHUfAfdGEL3d29aiusGzvOG5pc/hhe/xGDwMiWnw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:34.336Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
