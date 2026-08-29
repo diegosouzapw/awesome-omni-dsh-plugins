@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-rest-time
+name: dsh-rest-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-rest-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-rest-time
+source:
+  repository: https://github.com/uckkk/dsh-rest-time
+  repositoryNodeId: R_kgDOT-savA
+  subpath: null
+  commit: b92a5dab75fa34d1e0eda042da8e6a4de424f841
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:49.615Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
