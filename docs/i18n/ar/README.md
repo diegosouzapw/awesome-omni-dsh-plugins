@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">تصفَّح جميع الإضافات وابحث عنها وثبّتها من الموقع ←</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1723_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1814_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -119,7 +119,7 @@
 
 ## حالة الكتالوج
 
-**تم دمج 1723 إضافة.** تدخل كل إضافة عبر طلب سحب يُراجَع بشكل فردي، واحدًا تلو الآخر، من مستودع
+**تم دمج 1814 إضافة.** تدخل كل إضافة عبر طلب سحب يُراجَع بشكل فردي، واحدًا تلو الآخر، من مستودع
 المُنشئ الأصلي، مع التزام مصدر مثبَّت ونسب صريح.
 
 ## 🚀 تثبيت واجهة سطر الأوامر
@@ -332,4 +332,4 @@ YAML التحريرية الوصفية مُخصَّصة للملكية العا�
 
 </div>
 
-<!-- i18n-source-hash: 8801c639ce6986353e9be42b61576ce649979ee4f3046d7cef910832030f570e -->
+<!-- i18n-source-hash: 4fe497a9d08b74f021c1bb0122b55f4b00fb31412eceb0129f07e52d009728af -->
