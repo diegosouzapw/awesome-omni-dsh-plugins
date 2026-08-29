@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: thedeergod666-dsh-musage
+name: dsh-musage
+description:
+  en: "Coding-plan quota and balance readout for the DSH composer toolbar: MiniMax, DeepSeek, Kimi, OpenRouter and Zhipu windows follow the selected model; API keys are reused from DSH model settings."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis-plugin
+  - deepseek-harness
+  - usage
+  - quota
+  - coding-plan
+  - musage
+source:
+  repository: https://github.com/Thedeergod666/dsh-musage
+  repositoryNodeId: R_kgDOT7FQTw
+  subpath: null
+  commit: 12a3f14537b1e51c1135e8dc6e4d49512930ecd4
+creator:
+  github: Thedeergod666
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:22.615Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
