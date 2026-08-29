@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: op7418-dsh-ui-worktree
+name: "@deepseek-ai/dsh-ui-worktree"
+description:
+  en: Plugin-owned workspace file tree and row actions for DeepSeek Harness
+  evidencePath: packages/workspace/ui-worktree/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - owned
+  - workspace
+  - file
+  - tree
+  - actions
+  - dsh
+source:
+  repository: https://github.com/op7418/pilot-harness
+  repositoryNodeId: R_kgDOT63ahg
+  subpath: packages/workspace/ui-worktree
+  commit: d1fa9c15fc00c05ea6931aafd724554ca34d5a6d
+creator:
+  github: op7418
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/workspace/ui-worktree/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:13.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
