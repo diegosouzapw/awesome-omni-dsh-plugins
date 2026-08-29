@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-duration
+name: dsh-duration
+description:
+  en: bash dsh plugin add dsh-duration 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-duration" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - duration
+source:
+  repository: https://github.com/uckkk/dsh-duration
+  repositoryNodeId: R_kgDOT6NnNA
+  subpath: null
+  commit: 643ad704962f57d061acbbb50c084729da36d803
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-duration
+  version: 0.1.0
+  integrity: sha512-QdoV5iWWihKuxzFiVhAWXCICeJnYCRDUdha6/kurlFXYhyWS1EudJFjxtws6Uqgn+BmHuCf1UwI6lY6xthPTpQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:33.322Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
