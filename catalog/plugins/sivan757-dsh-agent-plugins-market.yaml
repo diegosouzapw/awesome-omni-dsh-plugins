@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: sivan757-dsh-agent-plugins-market
+name: dsh-agent-plugins-market
+description:
+  en: The standard way to install Claude Code / Codex / Cursor / Kimi plugin marketplace suites in DeepSeek Harness (DSH) — zero conversion, zero file copying. Skills, MCP servers, hooks and slash commands are injected into your dsh sessions at runtime.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-plugins
+  - dsh-marketplace
+  - dsh-plugin-marketplace
+  - deepseek-plugin
+  - deepseek-plugins
+  - agent-plugins
+  - agent-plugin
+  - plugin-marketplace
+  - marketplace
+  - claude-code
+  - claude-code-plugins
+  - claude-code-plugin-marketplace
+  - claude
+source:
+  repository: https://github.com/Sivan757/dsh-agent-plugins-market
+  repositoryNodeId: R_kgDOT8motA
+  subpath: null
+  commit: c7991363aac7762c836dd374bbeaa4b9d075cc4f
+creator:
+  github: Sivan757
+package:
+  ecosystem: npm
+  name: dsh-agent-plugins-market
+  version: 0.5.2
+  integrity: sha512-IkjWXfiKFsc5Orhy79neWNTlwe1aFhfFGW/j3RtgC6FMmbJP5TEgezsxnDqnZV1dKUH9FHF0e3fo6VQzYGIp4g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.905Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
