@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">వెబ్‌సైట్‌లో ప్రతి ప్లగిన్‌ను బ్రౌజ్ చేయండి, శోధించండి మరియు ఇన్‌స్టాల్ చేయండి →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1994_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-2081_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@
 
 ## కేటలాగ్ స్థితి
 
-**1994 ప్లగిన్‌లు మెర్జ్ చేయబడ్డాయి.** ప్రతి ప్లగిన్ ఒక వ్యక్తిగతంగా సమీక్షించిన పుల్ రిక్వెస్ట్ ద్వారా, ఒక్కొక్కటిగా,
+**2081 ప్లగిన్‌లు మెర్జ్ చేయబడ్డాయి.** ప్రతి ప్లగిన్ ఒక వ్యక్తిగతంగా సమీక్షించిన పుల్ రిక్వెస్ట్ ద్వారా, ఒక్కొక్కటిగా,
 అసలు సృష్టికర్త రిపాజిటరీ నుండి, పిన్ చేయబడిన సోర్స్ కమిట్ మరియు స్పష్టమైన అట్రిబ్యూషన్‌తో ప్రవేశిస్తుంది.
 
 ## 🚀 CLIని ఇన్‌స్టాల్ చేయండి
@@ -334,4 +334,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 70a101b3459af759abf1b626a86b3a317c8f7a41149f50c99779a0d2f092f28c -->
+<!-- i18n-source-hash: 6992fc8ed6ffb779734b9a5ee79a4e538280e3b803ba346cef2969808d52e0b3 -->
