@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-insurance-estimate
+name: dsh-insurance-estimate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-insurance-estimate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-insurance-estimate
+source:
+  repository: https://github.com/uckkk/dsh-insurance-estimate
+  repositoryNodeId: R_kgDOT-s_hQ
+  subpath: null
+  commit: 09f61bd9233f36f31e594b480f82901c0710a1dc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:09.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
