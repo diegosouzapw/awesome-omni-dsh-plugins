@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dkrillex-dsh-macos-pet
+name: dsh-macos-pet
+description:
+  en: "Always-on-top macOS desk pet for the DeepSeek Harness, with a native menu and DIY skins. Shows what your agent is doing: working, waiting, finished, failed. Seven skins, or make your own from one image. No dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+source:
+  repository: https://github.com/Dkrillex/dsh-macos-pet
+  repositoryNodeId: R_kgDOT_dE6w
+  subpath: null
+  commit: 9899a9531d1a58f1dc8a647233fe163768dd25de
+creator:
+  github: Dkrillex
+package:
+  ecosystem: npm
+  name: dsh-macos-pet
+  version: 0.1.0
+  integrity: sha512-DPyzCovUMVjFOEaj4c+hVa8TZSFxqBzdALDgGAPwbC+2FhjH9bE/5BL0l81LBZeS44bWjIOZbZ3pqNSSx+dmDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:51.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
