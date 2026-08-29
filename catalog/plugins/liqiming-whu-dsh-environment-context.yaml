@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: liqiming-whu-dsh-environment-context
+name: dsh-environment-context
+description:
+  en: Real-time weather, location, battery, and system-device context for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - weather
+  - geolocation
+  - context
+source:
+  repository: https://github.com/liqiming-whu/dsh-environment-context
+  repositoryNodeId: R_kgDOT8eI8w
+  subpath: null
+  commit: 90e9f835e0ce58d76d5bc3a7deefe510a8a24980
+creator:
+  github: liqiming-whu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:24.016Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
