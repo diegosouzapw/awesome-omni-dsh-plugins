@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: beep879-dsh-shareone-plugin
+name: dsh-shareone-plugin
+description:
+  en: ShareOne tools for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - shareone
+  - cordis
+  - agent-tool
+  - dsh
+source:
+  repository: https://github.com/sudoprivacy/dsh-shareone-plugin
+  repositoryNodeId: R_kgDOT77VDA
+  subpath: null
+  commit: 75218d2e85b18fc70a92a0078f73f41cceb9a4fc
+creator:
+  github: beep879
+package:
+  ecosystem: npm
+  name: dsh-shareone-plugin
+  version: 0.1.0-rc.3
+  integrity: sha512-Ps/mezBHwNomqP1qKO9KvZpvtGtO94KuOO9ww/IwG2wcGOpsklil4ulJdCpovKlcNK7Lu1qv65WOVdoNxKEYqQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:30.326Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
