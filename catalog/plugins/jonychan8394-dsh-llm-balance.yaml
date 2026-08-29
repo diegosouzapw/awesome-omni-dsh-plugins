@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jonychan8394-dsh-llm-balance
+name: dsh-llm-balance
+description:
+  en: LLM API balances below the chat input, driven by the providers configured in dsh; click a balance to open its recharge page.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - billing
+  - usage
+  - dsh
+source:
+  repository: https://github.com/JonyChan8394/dsh-llm-balance
+  repositoryNodeId: R_kgDOT6pllg
+  subpath: null
+  commit: 189050c72e758f4ca62190e13dcfde99d52bce86
+creator:
+  github: JonyChan8394
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:17.086Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
