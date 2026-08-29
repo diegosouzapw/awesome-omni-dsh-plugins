@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-monaco
+name: dsh-monaco
+description:
+  en: bash dsh plugin add github:uckkk/dsh-monaco
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-monaco
+source:
+  repository: https://github.com/uckkk/dsh-monaco
+  repositoryNodeId: R_kgDOT-CVSQ
+  subpath: null
+  commit: 20c4438c3b14b507b8eca7600b117d1b535fe7cd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:32.081Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
