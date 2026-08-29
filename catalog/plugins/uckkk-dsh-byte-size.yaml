@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-byte-size
+name: dsh-byte-size
+description:
+  en: bash dsh plugin add dsh-byte-size 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-byte-size" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - byte
+  - size
+source:
+  repository: https://github.com/uckkk/dsh-byte-size
+  repositoryNodeId: R_kgDOT6NRJQ
+  subpath: null
+  commit: fd1eb0692f58fc9044d651da59e3c8104e3f30ba
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-byte-size
+  version: 0.1.0
+  integrity: sha512-ZY1e3F6VbjSHwuxcNaH1lUzckquwoqR6CQHPtHKri0ScstiiGTs1JfK3FjcPHgdqb/N9jmolw68PtvpuoKdsjQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:45.489Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
