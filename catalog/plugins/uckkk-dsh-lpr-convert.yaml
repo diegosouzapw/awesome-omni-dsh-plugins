@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-lpr-convert
+name: dsh-lpr-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-lpr-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-lpr-convert
+source:
+  repository: https://github.com/uckkk/dsh-lpr-convert
+  repositoryNodeId: R_kgDOT-DTJw
+  subpath: null
+  commit: 108cadcb5c0466b0dd396d3cafc2063953c0f7bd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:24.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
