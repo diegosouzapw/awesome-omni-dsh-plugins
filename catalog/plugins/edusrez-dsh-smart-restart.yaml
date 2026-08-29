@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: edusrez-dsh-smart-restart
+name: dsh-smart-restart
+description:
+  en: DSH host plugin that detects when the DeepSeek Harness service has restarted and wakes the main agent at boot with a notice, so interrupted work can be resumed.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - restart
+  - boot
+  - notify
+  - agent
+  - cordis
+source:
+  repository: https://github.com/edusrez/dsh-smart-restart
+  repositoryNodeId: R_kgDOT8WElQ
+  subpath: null
+  commit: c2330f0de507e888715b5e148ecc0d013f1f4ee2
+creator:
+  github: edusrez
+package:
+  ecosystem: npm
+  name: dsh-smart-restart
+  version: 0.5.1
+  integrity: sha512-d6RcoqIQrGiPCtfJLL3zJh7aaGB7q4rc5baAYd3bAjLl+uGAbUQekRutCmhxuwL6H1hkeuUdn9PC5OK9kubftw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:37.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
