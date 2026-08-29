@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stardustlc666-dsh-docker
+name: "@stardustlc/dsh-docker"
+description:
+  en: "Your agent can manage containers now : five tools covering container listing, logs, inspection, in-container exec, and lifecycle management."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - docker
+  - container
+  - devops
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-docker
+  repositoryNodeId: R_kgDOT4wxzQ
+  subpath: null
+  commit: 6e04059dcf4fec73e8e2036aae31982128af9823
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: "@stardustlc/dsh-docker"
+  version: 0.3.0
+  integrity: sha512-PTok29zg2bNyLCWzCMAmXoFJa3J6X1V5U9utrf+slJhiVrRiKG6qCmE2Kq2zpEvw17iqVpixBRV4GtOCIllDOw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:43.720Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
