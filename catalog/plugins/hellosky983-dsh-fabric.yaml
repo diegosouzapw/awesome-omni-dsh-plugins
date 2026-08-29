@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: hellosky983-dsh-fabric
+name: dsh-fabric
+description:
+  en: Fabric — the everything-is-a-plugin primitive for DeepSeek Harness (dsh). Unifies every DSH extensibility seam (tool / skill / command / prompt section / context / variable / event listener / llm adapter / subagent provider / web route / settings namespace / projection / service) behind one declarative DSL, published a
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - fabric
+  - extensibility
+  - meta-plugin
+  - dsl
+source:
+  repository: https://github.com/hellosky983/dsh-fabric
+  repositoryNodeId: R_kgDOT5KiHg
+  subpath: null
+  commit: 683bc3a3dd750986a549c45a7ca696e96947d991
+creator:
+  github: hellosky983
+package:
+  ecosystem: npm
+  name: dsh-fabric
+  version: 0.1.0
+  integrity: sha512-SG+5BaixmTbb4D7iVFiz4hvLj5BNR92dJzgwnWO3hanOWu6h0lRrUk8s/ak1EzhcXOc5Ri5QxiiY8bAH0PWJuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:40.970Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
