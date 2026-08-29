@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: miuzel-dsh-subagent-workspace-ui
+name: dsh-subagent-workspace-ui
+description:
+  en: Searchable workspace subagent manager for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - searchable
+  - workspace
+  - subagent
+  - manager
+  - dsh
+source:
+  repository: https://github.com/miuzel/dsh-subagent-ui
+  repositoryNodeId: R_kgDOUFFqyQ
+  subpath: null
+  commit: 393cd3942d20d2fa1a1a11966a12205ce9ea0cae
+creator:
+  github: miuzel
+package:
+  ecosystem: npm
+  name: dsh-subagent-workspace-ui
+  version: 1.0.3
+  integrity: sha512-g9y882BbLipJ+VLhnVnPUAwHnL/JFdnrxprLIiCzg752MOKJn3tAUUDxjH791lHLvXJngZWHGes2WwVP/dZGkQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:10.492Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
