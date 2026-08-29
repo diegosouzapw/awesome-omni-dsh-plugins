@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: johnxu22786-dsh-semantic-search
+name: dsh-semantic-search
+description:
+  en: A DeepSeek Harness (dsh) plugin for local semantic code search. Builds a fragment-level index of a workspace (symbol-aware chunking for many languages), computes local embeddings (lightweight lexical TF-IDF feature vectors by default, or a configurable OpenAI-compatible embedding endpoint), and answers natural-language
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - semantic-search
+  - code-search
+  - embedding
+  - vector-search
+  - bm25
+  - hybrid-search
+  - rrf
+  - index
+source:
+  repository: https://github.com/JohnXu22786/semantic-search
+  repositoryNodeId: R_kgDOT-Uf0A
+  subpath: null
+  commit: 601c3f581506ee202591b2202e18ccd8abad380a
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:56.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
