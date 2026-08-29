@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: styxnether-dsh-auto-approval-plugin
+name: dsh-auto-approval-plugin
+description:
+  en: "A middle permission tier for DeepSeek Harness between workspace-write and danger-full-access: auto-approves harmless commands and operations targeting configured trusted areas, beyond the current workspace."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - approval
+  - sandbox
+  - permission
+  - trusted
+  - auto-approve
+source:
+  repository: https://github.com/StyxNether/dsh-auto-approval-plugin
+  repositoryNodeId: R_kgDOT4N_PQ
+  subpath: null
+  commit: f414c39f3994ed224fa7fd1f0e746b702a0b35dd
+creator:
+  github: StyxNether
+package:
+  ecosystem: npm
+  name: dsh-auto-approval-plugin
+  version: 2.1.0
+  integrity: sha512-XTI+x8knIjz69Ajs8sPV0xJ0bHwoJOfUdLe7KDSllAhnkTHUzdNYXJSshxRI/LnzoZPVe7+n0CTr6jmyJWvUZQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:15.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
