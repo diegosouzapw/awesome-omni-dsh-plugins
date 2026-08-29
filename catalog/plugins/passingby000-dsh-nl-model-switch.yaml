@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: passingby000-dsh-nl-model-switch
+name: dsh-nl-model-switch
+description:
+  en: Switch the current DSH session's model with a natural-language sentence, on web, TUI, or IM bridges (WeChat, Feishu, etc.).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - model-switch
+  - deepseek-harness
+  - natural-language
+source:
+  repository: https://github.com/passingby000/dsh-nl-model-switch
+  repositoryNodeId: R_kgDOT9tzrQ
+  subpath: null
+  commit: 74a646c9c1267d8c78098767dc0c26b330f596ed
+creator:
+  github: passingby000
+package:
+  ecosystem: npm
+  name: dsh-nl-model-switch
+  version: 0.1.1
+  integrity: sha512-qrQptmOjJeiKM1Jd9OttHF1pQrfSkOYCSjlH41nJMU4xLjKGWw58+7luesXahkTeu5ZV89qaeHofMrLxkprFaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:59.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
