@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: johnnycls-dsh-no-setup-mode
+name: dsh-no-setup-mode
+description:
+  en: Welcome home, Master~ One command, and your no-setup maid handles everything from there.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - no-setup
+  - no-setup-mode
+source:
+  repository: https://github.com/johnnycls/dsh-no-setup-mode
+  repositoryNodeId: R_kgDOT45X0g
+  subpath: null
+  commit: 555f2e6ed266ca5590cc693c0067142322119d4a
+creator:
+  github: johnnycls
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:16.318Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
