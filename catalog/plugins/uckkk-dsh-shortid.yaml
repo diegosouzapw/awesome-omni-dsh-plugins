@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-shortid
+name: dsh-shortid
+description:
+  en: bash dsh plugin add github:uckkk/dsh-shortid
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-shortid
+source:
+  repository: https://github.com/uckkk/dsh-shortid
+  repositoryNodeId: R_kgDOT9uknQ
+  subpath: null
+  commit: f5a79f9eef765efb226411b8981a92dbf13abe94
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:00.757Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
