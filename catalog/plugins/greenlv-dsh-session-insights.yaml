@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: greenlv-dsh-session-insights
+name: dsh-session-insights
+description:
+  en: Local-first, evidence-backed session retrospectives for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - session-insights
+  - developer-tools
+source:
+  repository: https://github.com/GreenLv/dsh-session-insights
+  repositoryNodeId: R_kgDOT_REmg
+  subpath: null
+  commit: c6f1d0b9df3ab065b10eebed33622bd19247353a
+creator:
+  github: GreenLv
+package:
+  ecosystem: npm
+  name: dsh-session-insights
+  version: 0.3.0
+  integrity: sha512-/HWBPhiYUsA06b/6jHa8Z7DFaAWlG1RPctdTRKhSi0s7hUKGNu+v5zY3kcljC2redgsskkNnnip2/5Qoy62SEQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:43.416Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
