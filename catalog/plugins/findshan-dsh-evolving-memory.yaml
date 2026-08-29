@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: findshan-dsh-evolving-memory
+name: dsh-evolving-memory
+description:
+  en: sh dsh plugin --profile web add dsh-evolving-memory dsh --profile web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - self-evolving
+  - personalization
+  - dream
+  - cordis
+source:
+  repository: https://github.com/findshan/dsh-agent-memory
+  repositoryNodeId: R_kgDOT5YiQA
+  subpath: null
+  commit: f75da396b59cd43933527d3c1fce17c29c3cd06b
+creator:
+  github: findshan
+package:
+  ecosystem: npm
+  name: dsh-evolving-memory
+  version: 0.2.1
+  integrity: sha512-UXjgkZULiCxCUc1+ZEe3c5C2/DmUZKj8NewlBEYTUcWc5np+Ykn5/P7fCilESLAc9ZC2wmitCTWkgiEA5zDKMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:24.970Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
