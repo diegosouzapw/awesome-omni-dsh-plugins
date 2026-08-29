@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: grunmin-dsh-acp-enhanced
+name: dsh-acp-enhanced
+description:
+  en: "Enhanced ACP server for DeepSeek Harness: block-level streaming, usage/stat telemetry (cache hit rate, token speed, input/output tokens, context length, turns, tool timing), model & reasoning-effort switching, and permission-preset control over the ACP wire (Zed-friendly)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - acp
+  - agent-client-protocol
+  - zed
+  - zed-editor
+  - ai-agent
+  - coding-assistant
+  - llm
+source:
+  repository: https://github.com/grunmin/dsh-acp-enhanced
+  repositoryNodeId: R_kgDOT33_uQ
+  subpath: null
+  commit: 0118f33fdc88b8c69a84a3d624bc15b5c099acfb
+creator:
+  github: grunmin
+package:
+  ecosystem: npm
+  name: dsh-acp-enhanced
+  version: 0.3.2
+  integrity: sha512-rOa+6GuDnDkqvh9U1z8hZUwkIIRJEy8O3dy+BToYV/Io6AwK85as/wM3s3Ao68i4SzWqdVcH4NvKWbL3iUO5CQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:29.744Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
