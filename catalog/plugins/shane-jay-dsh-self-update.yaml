@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: shane-jay-dsh-self-update
+name: dsh-self-update
+description:
+  en: In-app self-update for DeepSeek Harness git-source installs (check / one-click update / rollback / restart), with an optional native macOS shell.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - self-update
+  - auto-update
+  - updater
+  - cordis
+  - macos
+source:
+  repository: https://github.com/Shane-Jay/dsh-self-update
+  repositoryNodeId: R_kgDOT-2BGg
+  subpath: null
+  commit: acb32fb9a075538ca1e71ed1c2de5cf8fe54332c
+creator:
+  github: Shane-Jay
+package:
+  ecosystem: npm
+  name: dsh-self-update
+  version: 0.2.0
+  integrity: sha512-J3/J4Z63mTsGz91FCFzWIs2JTT90zynnpCvE8pfqDKWHOiDw8UQPuYIg/FCNJALrKTQiX46/Dkp7v4p3o9GOyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:54.811Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
