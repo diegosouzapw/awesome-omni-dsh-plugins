@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: op7418-dsh-ui-schedule-summary
+name: "@deepseek-ai/dsh-ui-schedule-summary"
+description:
+  en: Plugin-owned Schedule summary contribution for Workspace Session hover cards
+  evidencePath: packages/schedule/ui-schedule-summary/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - owned
+  - schedule
+  - summary
+  - contribution
+  - workspace
+  - session
+  - hover
+  - cards
+  - dsh
+source:
+  repository: https://github.com/op7418/pilot-harness
+  repositoryNodeId: R_kgDOT63ahg
+  subpath: packages/schedule/ui-schedule-summary
+  commit: d1fa9c15fc00c05ea6931aafd724554ca34d5a6d
+creator:
+  github: op7418
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/schedule/ui-schedule-summary/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:13.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
