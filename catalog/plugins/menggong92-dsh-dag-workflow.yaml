@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: menggong92-dsh-dag-workflow
+name: "@gm-hz/dsh-dag-workflow"
+description:
+  en: Installable DSH package for durable DAG workflows, Agent authoring, SQLite runs, and Canvas Studio
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dag
+  - workflow
+  - canvas
+source:
+  repository: https://github.com/GM-HZ/dsh-dag-workflow
+  repositoryNodeId: R_kgDOUBYWGw
+  subpath: null
+  commit: 065369ad9fc32f37f6ad8cb84d0e6435844484ca
+creator:
+  github: MengGong92
+package:
+  ecosystem: npm
+  name: "@gm-hz/dsh-dag-workflow"
+  version: 0.2.0
+  integrity: sha512-bpZ4rajypJ/0KJRUd20z/s+KZctk5rhsQEW/xn4/nnPWeBp4+Ppl4cHyveQNJebM2583GOzLb7g2KhWyUsRQZA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:45.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
