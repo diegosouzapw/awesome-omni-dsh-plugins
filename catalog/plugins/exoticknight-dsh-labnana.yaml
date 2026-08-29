@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: exoticknight-dsh-labnana
+name: dsh-labnana
+description:
+  en: "Labnana image generation for DeepSeek Harness: text-to-image / image-to-image / precise editing with credits estimation, subscription balance and web settings UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - labnana
+  - image-generation
+  - text-to-image
+  - image-to-image
+  - gemini
+  - nano-banana
+  - gpt-image
+  - wan2-7
+  - seedream
+source:
+  repository: https://github.com/exoticknight/dsh-labnana
+  repositoryNodeId: R_kgDOUAYMqw
+  subpath: null
+  commit: a2ca18fdebabdecf4e90894b58433f8c1bfc0156
+creator:
+  github: exoticknight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:58.976Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
