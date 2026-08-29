@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-vaccine-schedule
+name: dsh-vaccine-schedule
+description:
+  en: bash dsh plugin add github:uckkk/dsh-vaccine-schedule
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-vaccine-schedule
+source:
+  repository: https://github.com/uckkk/dsh-vaccine-schedule
+  repositoryNodeId: R_kgDOT-r_Gg
+  subpath: null
+  commit: 825d2eb1d1c9484eb915bbbcdbd7d4982280e3cb
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:04.520Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
