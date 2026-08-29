@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: ruby1304-dsh-preset-anchored-standard
+name: dsh-preset-anchored-standard
+description:
+  en: "Minimal-anchored agent preset for DeepSeek Harness: first request keeps the real Minimal tool pair, promotion unlocks the full Standard catalog with a one-shot background-jobs notice"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-preset
+source:
+  repository: https://github.com/ruby1304/dsh-preset-anchored-standard
+  repositoryNodeId: R_kgDOT6y8DQ
+  subpath: null
+  commit: db394412fe4a5503b22ad79bc19a0ef969ba33cc
+creator:
+  github: ruby1304
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:02.916Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
