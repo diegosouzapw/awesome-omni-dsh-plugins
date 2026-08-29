@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: spyqwer1-dsh-codex-tools
+name: dsh-codex-tools
+description:
+  en: Codex-backed web search, image generation, and image understanding tools for the DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - image-generation
+  - image-understanding
+  - web-search
+  - vision
+  - chatgpt
+  - codex
+  - openai
+  - gpt-image
+source:
+  repository: https://github.com/SPYQWER1/dsh-codex-tools
+  repositoryNodeId: R_kgDOT4Hh0w
+  subpath: null
+  commit: c19ae5b28fafd56f29a482c6d85db3ffff919444
+creator:
+  github: SPYQWER1
+package:
+  ecosystem: npm
+  name: dsh-codex-tools
+  version: 1.0.1
+  integrity: sha512-ObJcSaqhP4lxpIp4xPbP1c1DX91Pkze0D5xn/pBcnGDfEc2NzqZZdbO4wIIOwZP21Mc+1aLwswk9zqAqH4hOfQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.372Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
