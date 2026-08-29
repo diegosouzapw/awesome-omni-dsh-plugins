@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: qing45-dsh-feishu-chat
+name: dsh-feishu-chat
+description:
+  en: "Feishu (Lark) bot bridge for DeepSeek Harness: send a message to your Feishu bot and your DSH agent answers; the agent can also push messages back to Feishu."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - feishu
+  - lark
+  - bot
+  - chat
+  - bridge
+source:
+  repository: https://github.com/Qing45/dsh-feishu-chat
+  repositoryNodeId: R_kgDOT51Q6w
+  subpath: null
+  commit: 80e65bde3c9aa799272beafcf4ee958f08534f71
+creator:
+  github: Qing45
+package:
+  ecosystem: npm
+  name: dsh-feishu-chat
+  version: 0.1.0
+  integrity: sha512-uYuixDxkhEnnFW4+4GYejoHo6W8czRcNYXS5Qtst8AkU/P94SJ3H9T87Id1xU0mCEppa/JiOSghNzjnr6BLL7A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:11.721Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
