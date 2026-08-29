@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: johnxu22786-dsh-db-connector
+name: dsh-db-connector
+description:
+  en: "Database connector bundle for DeepSeek Harness (dsh): SQLite/PostgreSQL/MySQL connections, schema introspection, read-only safety, write approval gate, and a JSONL SQL audit trail."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - database
+  - sql
+  - sqlite
+  - postgres
+  - mysql
+  - tools
+source:
+  repository: https://github.com/JohnXu22786/db-connector
+  repositoryNodeId: R_kgDOT-Rtjg
+  subpath: null
+  commit: a74e2492704797058df459423e15aaee7bc538b2
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-db-connector
+  version: 0.1.0
+  integrity: sha512-OUwrzgqwmYauj8YSkhFRz+mt5kErJ5Ok5E05LA/NIlonG8G6ttCPUGZyfJGCDswQ/napizXmsFFWzMo7mqosww==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:06.497Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
