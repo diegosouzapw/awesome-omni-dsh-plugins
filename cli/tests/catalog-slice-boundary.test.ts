@@ -5,11 +5,12 @@
 //
 // So this suite asserts the boundary on the two artifacts that matter — the vendored sources and
 // the bundle that actually ships.
-import { execFileSync } from "node:child_process";
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { mkdtempSync, readFileSync, readdirSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { build } from "esbuild";
 import { describe, expect, it } from "vitest";
 
 const cliRoot = fileURLToPath(new URL("../", import.meta.url));
@@ -115,16 +116,30 @@ describe("every source and test file", () => {
 });
 
 describe("the shipped bundle", () => {
-  it("contains no curation identifier", () => {
+  it("contains no curation identifier", async () => {
     // Source-level purity is not enough: the binary is what people install, and esbuild decides
-    // what survives. Build it if it is not already there so the assertion is never vacuous.
-    const bundle = `${cliRoot}dist/bin.js`;
-    if (!existsSync(bundle)) {
-      execFileSync("npm", ["run", "build"], { cwd: cliRoot, stdio: "ignore" });
+    // what survives. Build into a private temp dir: `dist/bin.js` is rewritten by `npm run build`
+    // from other workers (rm -rf dist && esbuild …) and was read half-written — the "expected 0
+    // to be greater than 100000" flake on PRs #888/#1390/#1716.
+    const out = mkdtempSync(`${tmpdir()}/omni-dsh-bundle-`);
+    try {
+      await build({
+        entryPoints: [`${cliRoot}src/bin.ts`],
+        bundle: true,
+        platform: "node",
+        target: "node20",
+        format: "esm",
+        banner: {
+          js: 'import { createRequire as __dshCreateRequire } from "node:module"; const require = __dshCreateRequire(import.meta.url);',
+        },
+        outfile: `${out}/bin.js`,
+        logLevel: "silent",
+      });
+      const built = readFileSync(`${out}/bin.js`, "utf8");
+      expect(built.length).toBeGreaterThan(100_000);
+      expect(findLeaks(built)).toEqual([]);
+    } finally {
+      rmSync(out, { recursive: true, force: true });
     }
-    const built = readFileSync(bundle, "utf8");
-    expect(built.length).toBeGreaterThan(100_000);
-
-    expect(findLeaks(built)).toEqual([]);
   });
 });
