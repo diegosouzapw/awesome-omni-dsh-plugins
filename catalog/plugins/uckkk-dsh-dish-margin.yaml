@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dish-margin
+name: dsh-dish-margin
+description:
+  en: bash dsh plugin add github:uckkk/dsh-dish-margin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-dish-margin
+source:
+  repository: https://github.com/uckkk/dsh-dish-margin
+  repositoryNodeId: R_kgDOT-v9_Q
+  subpath: null
+  commit: 36cd02036485b7b855b5c2a03a574f0aabdff1e2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:43.072Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
