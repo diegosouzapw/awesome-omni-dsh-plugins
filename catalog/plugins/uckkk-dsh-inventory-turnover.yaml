@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-inventory-turnover
+name: dsh-inventory-turnover
+description:
+  en: bash dsh plugin add github:uckkk/dsh-inventory-turnover
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-inventory-turnover
+source:
+  repository: https://github.com/uckkk/dsh-inventory-turnover
+  repositoryNodeId: R_kgDOT-DySw
+  subpath: null
+  commit: 6ee01667df077a4783e2d0dc013b5f54c5580715
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:10.469Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
