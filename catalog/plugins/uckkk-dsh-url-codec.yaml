@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-url-codec
+name: dsh-url-codec
+description:
+  en: bash dsh plugin add dsh-url-codec 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-url-codec" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - url
+source:
+  repository: https://github.com/uckkk/dsh-url-codec
+  repositoryNodeId: R_kgDOT6N7cA
+  subpath: null
+  commit: ba2c982e3dcf806a12b538d1568b1a5b5ba6ba49
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:01.620Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
