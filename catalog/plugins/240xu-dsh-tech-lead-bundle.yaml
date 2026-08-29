@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 240xu-dsh-tech-lead-bundle
+name: "@240xu/dsh-tech-lead-bundle"
+description:
+  en: Opt-in dsh profile bundle exposing the read-only tech-lead tool surface
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - tech-lead
+  - opencode
+source:
+  repository: https://github.com/240xu/verdict-engine
+  repositoryNodeId: R_kgDOUC5FPQ
+  subpath: packages/dsh-tech-lead-bundle
+  commit: b656c8e3284a9b6f1805c49a92873f473a30c976
+creator:
+  github: 240xu
+package:
+  ecosystem: npm
+  name: "@240xu/dsh-tech-lead-bundle"
+  version: 0.3.1
+  integrity: sha512-fkjnMcr1XaRAFr6gMZQkQZsGEmqwGU8ay/Ooj37HdXYLp9d19m1BQyiigaCXJQv/sHeX31fbEFk3zP1Gq7QCOQ==
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/dsh-tech-lead-bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:29.897Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
