@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: liujunheng-dsh-archive-purge
+name: dsh-archive-purge
+description:
+  en: python launcher.py --install-plugin plugins\dsh-archive-purge python launcher.py --start 或手动重启服务
+  evidencePath: plugins/dsh-archive-purge/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - python
+  - launcher
+  - install
+  - archive
+  - purge
+  - start
+  - dsh
+source:
+  repository: https://github.com/LiuJunheng/DeepSeekHarnessGreen
+  repositoryNodeId: R_kgDOT4acfA
+  subpath: plugins/dsh-archive-purge
+  commit: 68e28cbe4ba72c701ac38f7c67c6ffaf33128862
+creator:
+  github: LiuJunheng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-archive-purge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:31.790Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
