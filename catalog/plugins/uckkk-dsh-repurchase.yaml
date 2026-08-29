@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-repurchase
+name: dsh-repurchase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-repurchase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-repurchase
+source:
+  repository: https://github.com/uckkk/dsh-repurchase
+  repositoryNodeId: R_kgDOT-taiQ
+  subpath: null
+  commit: fbffbaa7a612c0f4a9020cb18d786e21aa211889
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:49.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
