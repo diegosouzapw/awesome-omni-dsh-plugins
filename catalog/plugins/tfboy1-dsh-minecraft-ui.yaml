@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tfboy1-dsh-minecraft-ui
+name: dsh-minecraft-ui
+description:
+  en: A playable Minecraft-inspired voxel workspace overlay for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - minecraft
+  - voxel
+  - theme
+  - agent-ui
+source:
+  repository: https://github.com/TFboy1/dsh-minecraft-ui
+  repositoryNodeId: R_kgDOT8WESg
+  subpath: null
+  commit: ec5313b87f8688b82421f124cc2f3887c84b3a8c
+creator:
+  github: TFboy1
+package:
+  ecosystem: npm
+  name: dsh-minecraft-ui
+  version: 0.3.0
+  integrity: sha512-lIc2gsdnoCZrNn7C1bWqJ9aarP+yWnFB/+6aTiorqcoC2siqFnxVs5f/KN0WjGK4kR2TbTZ/6bevlYkfULvcww==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:10.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
