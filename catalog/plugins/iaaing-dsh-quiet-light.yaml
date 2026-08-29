@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: iaaing-dsh-quiet-light
+name: "@iaaing/dsh-quiet-light"
+description:
+  en: A VS Code Quiet Light theme for the DeepSeek Harness web GUI — registers the official quiet-light palette into the theme system and adds a Quiet Light cube to the Appearance settings.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - quiet-light
+  - theme
+  - dsh-plugin
+source:
+  repository: https://github.com/iaaiNG/quiet-light-dsh
+  repositoryNodeId: R_kgDOT6tjnQ
+  subpath: null
+  commit: f5dbc57d2770d2827580e18bde1cb778b7e64ef0
+creator:
+  github: iaaiNG
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:32.556Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
