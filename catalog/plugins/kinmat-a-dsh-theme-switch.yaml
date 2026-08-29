@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: kinmat-a-dsh-theme-switch
+name: "@dsh-external/dsh-theme-switch"
+description:
+  en: "DSH theme switch: auto-detects installed skin/theme plugins and offers one-click, official-style switching under Settings → Plugins → Skins ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - deepseek-harness
+source:
+  repository: https://github.com/kinmat-A/dsh-theme-switch
+  repositoryNodeId: R_kgDOT5fusA
+  subpath: null
+  commit: 320edb2601e4ff1d62ea8bb7bf14bb3a8d2c4d67
+creator:
+  github: kinmat-A
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:36.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
