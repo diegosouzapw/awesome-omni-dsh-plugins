@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: linkingoscar-dsh-billing-glass
+name: dsh-billing-glass
+description:
+  en: "Liquid-glass billing overlay for the DeepSeek Harness Web GUI: provider balances, session cost, daily spend and token buckets. DeepSeek-first with an extensible provider registry."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - billing
+  - balance
+  - glassmorphism
+  - liquid-glass
+  - web
+source:
+  repository: https://github.com/linkingoscar/dsh-billing-glass
+  repositoryNodeId: R_kgDOT4X66w
+  subpath: null
+  commit: d495f2ab9f6ece3fed7a9c8eaca9a75da723e3c1
+creator:
+  github: linkingoscar
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:02.699Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
