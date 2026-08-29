@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: linxichen-dsh-rigorquant
+name: dsh-rigorquant
+description:
+  en: "RigorQuant for DeepSeek Harness: session-scoped unattended, context-isolated multi-agent research for empirical/computational mathematics with a four-part pre-implementation check battery and a jacobian/Lean escalation lane."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - quant
+  - research
+source:
+  repository: https://github.com/linxichen/dsh-rigorquant
+  repositoryNodeId: R_kgDOT4lQlw
+  subpath: null
+  commit: a420c944b73368232efb67a367fac1ab014f1586
+creator:
+  github: linxichen
+package:
+  ecosystem: npm
+  name: dsh-rigorquant
+  version: 0.3.2
+  integrity: sha512-BHSXoq8SwzfjeOJtOX3tRyDB+uk3PuSuJhowSpDD2QkkYec3+cbgXjRt14hUoNorF8DX3Ywi48DuP4RN0q/lYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:34.898Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
