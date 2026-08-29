@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-nd-filter
+name: dsh-nd-filter
+description:
+  en: bash dsh plugin add github:uckkk/dsh-nd-filter
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-nd-filter
+source:
+  repository: https://github.com/uckkk/dsh-nd-filter
+  repositoryNodeId: R_kgDOT-DoLg
+  subpath: null
+  commit: 93c8d21af6607bbe25bf3deeae8dc1d3f25a9733
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:36.574Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
