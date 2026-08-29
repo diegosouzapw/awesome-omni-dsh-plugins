@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sirilee-dsh-rewind-plugin
+name: dsh-rewind-plugin
+description:
+  en: "Conversation rewind for DeepSeek Harness: rewind the conversation to any earlier user message in one click, in the same window — no new branch, no window switch, with optional workspace-file restore (full Claude Code /rewind semantics)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - rewind
+  - session
+  - ui
+source:
+  repository: https://github.com/SiriLee/dsh-rewind
+  repositoryNodeId: R_kgDOT6wSrA
+  subpath: null
+  commit: c9e5e892f362e689e1bec669ec6506d2df874f54
+creator:
+  github: SiriLee
+package:
+  ecosystem: npm
+  name: dsh-rewind-plugin
+  version: 0.4.1
+  integrity: sha512-5y3a0YhysabLnsn4C4GJF24X4L7jR63wV5sKuWeBQlUffBsxOzAEbog0ITgD7N8i56hzkgjBoC+OwiV5VVokSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:29.374Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 23
+provenance:
+  discussion: null
+  comment: null
