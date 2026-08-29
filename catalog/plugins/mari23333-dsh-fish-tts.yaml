@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mari23333-dsh-fish-tts
+name: dsh-fish-tts
+description:
+  en: Text-to-speech (TTS) plugin for DeepSeek Harness — Fish Audio API only, bring your own key. Per-message read-aloud, auto-read toggle in the composer, settings for model / voice / encrypted API key / proxy. Third-party, not affiliated with Fish Audio.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - tts
+  - fish-audio
+  - text-to-speech
+source:
+  repository: https://github.com/MaRi23333/dsh-fish-tts
+  repositoryNodeId: R_kgDOT592vw
+  subpath: null
+  commit: 46a6733c1b7a21128a6b931bcb6371128f9c834d
+creator:
+  github: MaRi23333
+package:
+  ecosystem: npm
+  name: dsh-fish-tts
+  version: 0.2.10
+  integrity: sha512-RF8u9yJmRpp7JdR4mY69oz++hMSoyoK3bMgrEdpjnX535BE/2s79hQL5aoRUhNco9JH8PwGoifQd/7BK3TF3zA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:26.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
