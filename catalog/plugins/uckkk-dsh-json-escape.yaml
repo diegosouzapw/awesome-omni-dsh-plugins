@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-json-escape
+name: dsh-json-escape
+description:
+  en: bash dsh plugin add dsh-json-escape 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-escape" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - escape
+source:
+  repository: https://github.com/uckkk/dsh-json-escape
+  repositoryNodeId: R_kgDOT6NxoQ
+  subpath: null
+  commit: 9def720f17b76b8c3a863aa5a6c1c9632cd67825
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:12.303Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
