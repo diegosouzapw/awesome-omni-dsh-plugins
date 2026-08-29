@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-baby-weight
+name: dsh-baby-weight
+description:
+  en: bash dsh plugin add github:uckkk/dsh-baby-weight
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-baby-weight
+source:
+  repository: https://github.com/uckkk/dsh-baby-weight
+  repositoryNodeId: R_kgDOT-sRuA
+  subpath: null
+  commit: 8269dc1c8e078f97716bac36ef81ce4584030572
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:36.263Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
