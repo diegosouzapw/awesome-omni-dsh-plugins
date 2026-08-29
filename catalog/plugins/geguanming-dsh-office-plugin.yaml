@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: geguanming-dsh-office-plugin
+name: dsh-office-plugin
+description:
+  en: "Live office: multi-agent activity rendered as a pixi.js office of ox/horse workers, in a Web UI tab next to the trajectory view"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - agent
+  - multi-agent
+  - pixi
+  - pixi-js
+  - webgl
+  - office
+  - visualization
+  - pixel-art
+source:
+  repository: https://github.com/geguanming/dsh-office-plugin
+  repositoryNodeId: R_kgDOT8YmXA
+  subpath: null
+  commit: befffd5afbdeba9bca29f35f7b3e4fbad4a6d470
+creator:
+  github: geguanming
+package:
+  ecosystem: npm
+  name: dsh-office-plugin
+  version: 0.2.0
+  integrity: sha512-Z4h4hBq9APPT0JPHjPFPeuU0NZ+c2Q8IUwoixTI4F2r6BwMAxlbh3MqglSBOVsm+6AVeBYBwrRUBTcbbKOEXQw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:42.222Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
