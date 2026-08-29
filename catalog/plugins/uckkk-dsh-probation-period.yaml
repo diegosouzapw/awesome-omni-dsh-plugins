@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-probation-period
+name: dsh-probation-period
+description:
+  en: bash dsh plugin add github:uckkk/dsh-probation-period
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-probation-period
+source:
+  repository: https://github.com/uckkk/dsh-probation-period
+  repositoryNodeId: R_kgDOT-DLqA
+  subpath: null
+  commit: 46b380e38382e2a8f286977900b2340f414ee9a8
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:53.712Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
