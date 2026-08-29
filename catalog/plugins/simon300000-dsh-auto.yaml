@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: simon300000-dsh-auto
+name: dsh-auto
+description:
+  en: Model-reviewed Auto Approve permission preset for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - approval
+  - webui
+  - dsh
+source:
+  repository: https://github.com/simon300000/dsh-auto
+  repositoryNodeId: R_kgDOT3li6Q
+  subpath: null
+  commit: eb409400843e195886edb45d9a75d2188120a2b6
+creator:
+  github: simon300000
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
