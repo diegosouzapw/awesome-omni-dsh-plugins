@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: johnxu22786-worktree-mgr
+name: worktree-mgr
+description:
+  en: A plugin that provides task-isolated workspaces for dsh (DeepSeek Harness, a plugin-based harness running on the Cordis plugin framework).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - git
+  - worktree
+  - isolation
+  - agent
+source:
+  repository: https://github.com/JohnXu22786/worktree-mgr
+  repositoryNodeId: R_kgDOT59Q1g
+  subpath: null
+  commit: 4b74dc8d87a8658e3744a8fffecbfcb07ad32f61
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:52.051Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
