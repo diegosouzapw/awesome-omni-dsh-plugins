@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-tsv
+name: dsh-tsv
+description:
+  en: bash dsh plugin add github:uckkk/dsh-tsv
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-tsv
+source:
+  repository: https://github.com/uckkk/dsh-tsv
+  repositoryNodeId: R_kgDOT9uWWQ
+  subpath: null
+  commit: 7d3d8745fde0f06b4dc3613e7e1067ecf9a19f62
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:58.278Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
