@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-paper-sizes
+name: dsh-paper-sizes
+description:
+  en: bash dsh plugin add dsh-paper-sizes 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-paper-sizes" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - paper
+  - print
+  - size
+source:
+  repository: https://github.com/uckkk/dsh-paper-sizes
+  repositoryNodeId: R_kgDOT6jLHw
+  subpath: null
+  commit: a70c452b547d54b2a252d2617d53800171fff39c
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-paper-sizes
+  version: 0.1.0
+  integrity: sha512-c43hK2zt34oa8WSt4wG3qJKoSBl1QhzoOrz3+/dFGkmtW+cLq+i16zJvRgVNDRkZQPFjdaX0DRFFhR+PlWjf8A==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:46.483Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
