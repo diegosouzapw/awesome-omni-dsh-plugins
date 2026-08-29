@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-key-by
+name: dsh-key-by
+description:
+  en: bash dsh plugin add github:uckkk/dsh-key-by
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-key-by
+source:
+  repository: https://github.com/uckkk/dsh-key-by
+  repositoryNodeId: R_kgDOT9upFQ
+  subpath: null
+  commit: 7b079c60a7262a226ba6f8a348cb96ea1af89a25
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:18.904Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
