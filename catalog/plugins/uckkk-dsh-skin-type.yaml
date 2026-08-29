@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-skin-type
+name: dsh-skin-type
+description:
+  en: bash dsh plugin add github:uckkk/dsh-skin-type
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-skin-type
+source:
+  repository: https://github.com/uckkk/dsh-skin-type
+  repositoryNodeId: R_kgDOT-soEA
+  subpath: null
+  commit: 3b6d061ecd61f0e6168dd689463b1959d2395de2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:44.191Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
