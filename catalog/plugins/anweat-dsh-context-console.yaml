@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: anweat-dsh-context-console
+name: dsh-context-console
+description:
+  en: DSH context console with trajectory, prompt/skill/MCP/tool inventory, message forging, and conservative session-log recovery.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - context-console
+  - session-log
+  - prompt
+  - mcp
+  - tools
+  - client-plugin
+source:
+  repository: https://github.com/anweat/dsh-context-console
+  repositoryNodeId: R_kgDOUASDtA
+  subpath: null
+  commit: 5286a168ae820fd9e642b1cc59a677df1d938441
+creator:
+  github: anweat
+package:
+  ecosystem: npm
+  name: dsh-context-console
+  version: 0.1.0
+  integrity: sha512-AnL3JNHLPN8ObVFII3dbvRDW+ngK6cRhRcWKH+e0I82Tt+lzYemP9y1aRCFTkyydji4zXXnyAGKxdj2Fya5pYQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:06.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
