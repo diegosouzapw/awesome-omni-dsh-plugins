@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-day-of-year
+name: dsh-day-of-year
+description:
+  en: bash dsh plugin add github:uckkk/dsh-day-of-year
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-day-of-year
+source:
+  repository: https://github.com/uckkk/dsh-day-of-year
+  repositoryNodeId: R_kgDOT9uTGQ
+  subpath: null
+  commit: 89997738bd14b9651ed61e065ac9fbefb47fe97a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:38.010Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
