@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: enterhalf-dsh-web-network-optimizer
+name: dsh-web-network-optimizer
+description:
+  en: "Network optimization for the DSH web UI: reduces transfer size with caching and compression to greatly speed up page loading, plus a connection-drop indicator and automatic reconnection. Ideal for users pursuing peak performance or using unstable networks."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - compression
+  - brotli
+  - cache
+  - websocket
+  - network
+source:
+  repository: https://github.com/enterhalf/dsh-web-network-optimizer
+  repositoryNodeId: R_kgDOT_6igQ
+  subpath: null
+  commit: 3a62e6de5c840f2492089c28c399ff0d5b999a39
+creator:
+  github: enterhalf
+package:
+  ecosystem: npm
+  name: dsh-web-network-optimizer
+  version: 0.3.1
+  integrity: sha512-6pfjnVvcFtXT8eWlElr7wWWm4KJzHbEDO0njawKgT56qjnw07kyuFhaV5kUJCXCkJuBKAKXiBXuN6HYSwfQsKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:24.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
