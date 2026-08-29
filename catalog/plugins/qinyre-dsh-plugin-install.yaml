@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: qinyre-dsh-plugin-install
+name: dsh-plugin-install
+description:
+  en: sh dsh plugin --profile web add dsh-plugin-install
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - plugin-manager
+  - install
+source:
+  repository: https://github.com/qinyre/dsh-plugin-install
+  repositoryNodeId: R_kgDOT6HjMw
+  subpath: null
+  commit: f629782d199e9f0394b29727dfc963984ae2f184
+creator:
+  github: qinyre
+package:
+  ecosystem: npm
+  name: dsh-plugin-install
+  version: 0.3.9
+  integrity: sha512-sLqJzC1ezkuBum0TJoddASZsKcyL7cXv3i6zXyYeqDPIly0CouKjHl7j7zintnOsv29DybuMDP945l8y/1cLBQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:04.156Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
