@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jazzulu-find-dsh-plugins
+name: find-dsh-plugins
+description:
+  en: A conversational plugin finder for DeepSeek Harness — semantic search × four-source aggregation × security audit.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - conversational
+  - finder
+  - semantic
+  - search
+  - four
+  - source
+  - aggregation
+  - security
+  - audit
+  - dsh
+source:
+  repository: https://github.com/JazzuLu/find-dsh-plugins
+  repositoryNodeId: R_kgDOT5USsg
+  subpath: null
+  commit: d31b01fcb6fd0f1af80d0106c6aeed76c59e1a90
+creator:
+  github: JazzuLu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:35.344Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
