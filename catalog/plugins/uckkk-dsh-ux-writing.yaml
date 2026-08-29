@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-ux-writing
+name: dsh-ux-writing
+description:
+  en: bash dsh plugin add dsh-ux-writing 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-ux-writing" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ux
+  - copywriting
+  - writing
+source:
+  repository: https://github.com/uckkk/dsh-ux-writing
+  repositoryNodeId: R_kgDOT6Olpg
+  subpath: null
+  commit: d87d93fa4c98f34555bf387d705b6df89f9f6773
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:03.620Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
