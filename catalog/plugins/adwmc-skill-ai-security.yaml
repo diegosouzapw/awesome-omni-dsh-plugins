@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: adwmc-skill-ai-security
+name: "@dsh-security/skill-ai-security"
+description:
+  en: Armor-piercing all-in-one security-analysis plugin for DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - armor
+  - piercing
+  - security
+  - analysis
+  - dsh
+source:
+  repository: https://github.com/ADWMC/helm-d
+  repositoryNodeId: R_kgDOT4fdYg
+  subpath: packages/skill-ai-security
+  commit: 50f2a2773ca3c092780e9424625dc8043dddf6c2
+creator:
+  github: ADWMC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/skill-ai-security/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:45.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
