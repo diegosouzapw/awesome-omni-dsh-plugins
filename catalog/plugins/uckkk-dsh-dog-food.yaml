@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dog-food
+name: dsh-dog-food
+description:
+  en: bash dsh plugin add github:uckkk/dsh-dog-food
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-dog-food
+source:
+  repository: https://github.com/uckkk/dsh-dog-food
+  repositoryNodeId: R_kgDOT_ImAw
+  subpath: null
+  commit: 062fd617fab0ca579b90637e78e1d663efe98f06
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:31.806Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
