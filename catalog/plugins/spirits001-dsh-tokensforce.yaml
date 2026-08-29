@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: spirits001-dsh-tokensforce
+name: dsh-tokensforce
+description:
+  en: "DeepSeek Harness plugin: tokensforce gateway integration — login onboarding, provider profiles, and the usage dashboard tab"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - tokensforce
+  - gateway
+  - integration
+  - login
+  - onboarding
+  - provider
+  - profiles
+  - usage
+  - dashboard
+  - dsh
+source:
+  repository: https://github.com/spirits001/dsh-tokensforce
+  repositoryNodeId: R_kgDOT445hQ
+  subpath: null
+  commit: 06fe10b5c021af17bbe08125c25dc3ac383fd488
+creator:
+  github: spirits001
+package:
+  ecosystem: npm
+  name: dsh-tokensforce
+  version: 0.5.2
+  integrity: sha512-XITGcoyYKeGwKisSRDLY4WX+MdIHNqoyU+41198jQ9MhM9faRmrDcwJiFtfv0D/fC1XcaHTSf/OxV15Qw9lpGg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:50.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
