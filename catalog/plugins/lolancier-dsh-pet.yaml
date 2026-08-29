@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: lolancier-dsh-pet
+name: "@v-manager/dsh-pet"
+description:
+  en: "A Live2D pet companion for the DeepSeek Harness web UI: the Vivi (芊芊) character with petting/feeding, a daily-treat bond economy and mood-driven expressions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - live2d
+  - companion
+  - vivi
+  - character
+  - petting
+  - feeding
+  - daily
+  - treat
+  - bond
+  - economy
+  - mood
+  - driven
+  - expressions
+  - dsh
+source:
+  repository: https://github.com/Lolancier/v-manager-dsh-pet
+  repositoryNodeId: R_kgDOUCZFpA
+  subpath: null
+  commit: 2cab8f14a7fed677826355e730b80f395f63dd76
+creator:
+  github: Lolancier
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:58.775Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
