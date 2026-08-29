@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-deed-tax
+name: dsh-deed-tax
+description:
+  en: bash dsh plugin add github:uckkk/dsh-deed-tax
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-deed-tax
+source:
+  repository: https://github.com/uckkk/dsh-deed-tax
+  repositoryNodeId: R_kgDOT-wQyw
+  subpath: null
+  commit: dadb180eb3333435c7d2452a712b5eb84e0f31be
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:39.017Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
