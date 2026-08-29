@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hotel-tax
+name: dsh-hotel-tax
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hotel-tax
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hotel-tax
+source:
+  repository: https://github.com/uckkk/dsh-hotel-tax
+  repositoryNodeId: R_kgDOT-tM-Q
+  subpath: null
+  commit: 2b68626f68b807874732f2eefe65a87b74ba9cbc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:53.896Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
