@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-tax-refund
+name: dsh-tax-refund
+description:
+  en: bash dsh plugin add github:uckkk/dsh-tax-refund
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-tax-refund
+source:
+  repository: https://github.com/uckkk/dsh-tax-refund
+  repositoryNodeId: R_kgDOT-tVjA
+  subpath: null
+  commit: f742eae1924c66f97c83d11f8dc8e9f8861fc2ce
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:17.579Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
