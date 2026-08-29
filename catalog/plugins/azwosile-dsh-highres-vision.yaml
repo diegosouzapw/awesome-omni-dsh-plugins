@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: azwosile-dsh-highres-vision
+name: dsh-highres-vision
+description:
+  en: "DeepSeek Harness vision enhancer: raises image limits to official values and provides high-resolution tiled image reading via a dedicated tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - vision
+  - enhancer
+  - raises
+  - image
+  - limits
+  - official
+  - values
+  - high
+  - resolution
+  - tiled
+  - reading
+  - dedicated
+  - tool
+  - dsh
+source:
+  repository: https://github.com/azwosile/dsh-highres-vision
+  repositoryNodeId: R_kgDOUC5kSg
+  subpath: null
+  commit: a0e1c7a7b291a1d653abae00a731527beeec7ec6
+creator:
+  github: azwosile
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:06.508Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
