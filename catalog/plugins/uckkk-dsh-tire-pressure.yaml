@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-tire-pressure
+name: dsh-tire-pressure
+description:
+  en: bash dsh plugin add github:uckkk/dsh-tire-pressure
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-tire-pressure
+source:
+  repository: https://github.com/uckkk/dsh-tire-pressure
+  repositoryNodeId: R_kgDOT-sZpA
+  subpath: null
+  commit: f6f0fc08708918cbe57eb6137232af13c388e86c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:51.429Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
