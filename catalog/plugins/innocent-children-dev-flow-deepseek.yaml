@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: innocent-children-dev-flow-deepseek
+name: dev-flow-deepseek
+description:
+  en: Explicit DeepSeek Harness adapter for the Dev Flow process graph.
+  evidencePath: packages/deepseek/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - explicit
+  - adapter
+  - flow
+  - process
+  - graph
+  - dsh
+source:
+  repository: https://github.com/Innocent-children/dev-flow
+  repositoryNodeId: R_kgDOT4KLFw
+  subpath: packages/deepseek
+  commit: e6e3c0bb483ecf6517c2013ab4c30c520de841d5
+creator:
+  github: Innocent-children
+package:
+  ecosystem: npm
+  name: dev-flow-deepseek
+  version: 0.7.2
+  integrity: sha512-oTum6IQMRz4fHrUkQyzfYUrHjNOUkwtCrTfg2IBxVRdU8mWWTzwUyF36H2xJuOG2nm1ohhz2ZrNE7mHim7gppg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/deepseek/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:18.347Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
