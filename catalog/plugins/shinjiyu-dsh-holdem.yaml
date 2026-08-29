@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: shinjiyu-dsh-holdem
+name: "@shinjiyu/dsh-holdem"
+description:
+  en: DeepSeek Harness tools for shinjiyu/holdem on kuroneko.chat
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - holdem
+  - poker
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/shinjiyu/holdem
+  repositoryNodeId: R_kgDOT8Mpow
+  subpath: dsh-plugin
+  commit: 4541b4d384ea48def41d8e9d9b16c8c1ff7fa0b8
+creator:
+  github: shinjiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:02.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
