@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-oil-change
+name: dsh-oil-change
+description:
+  en: bash dsh plugin add github:uckkk/dsh-oil-change
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-oil-change
+source:
+  repository: https://github.com/uckkk/dsh-oil-change
+  repositoryNodeId: R_kgDOT-sQgA
+  subpath: null
+  commit: 80b78106889cce7f7e226b7a4567ac0baf126aef
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:42.571Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
