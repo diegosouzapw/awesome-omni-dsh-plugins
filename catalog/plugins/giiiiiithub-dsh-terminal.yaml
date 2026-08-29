@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: giiiiiithub-dsh-terminal
+name: dsh-terminal
+description:
+  en: "Terminal panel for the DSH Web UI: a real PTY shell (cmd.exe by default on Windows) rendered in the browser with xterm.js. Host half spawns shells with node-pty; client half is a browser plugin."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - terminal
+  - pty
+  - xterm
+  - web-ui
+source:
+  repository: https://github.com/giiiiiithub/terminal
+  repositoryNodeId: R_kgDOT47ktg
+  subpath: null
+  commit: c6d0fbfc45f6fc5ccfb4a60c4a1d400ebd177e24
+creator:
+  github: giiiiiithub
+package:
+  ecosystem: npm
+  name: dsh-terminal
+  version: 0.1.1
+  integrity: sha512-by9Lif/brkyvcaWJbZTOD9YeOU/PCXToVxm/QVzNA/xc8nQ1uYYtVDft7Necc3H3SWfkZkncJYYK/kPU+K9U6Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:16.384Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
