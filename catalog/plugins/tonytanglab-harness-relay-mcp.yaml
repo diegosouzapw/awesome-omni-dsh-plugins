@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tonytanglab-harness-relay-mcp
+name: harness-relay-mcp
+description:
+  en: Delegate and monitor DeepSeek Harness work from any MCP agent.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - mcp
+  - agent
+  - delegation
+  - monitoring
+  - dsh
+source:
+  repository: https://github.com/tonytanglab/deepseek-harness-relay-mcp
+  repositoryNodeId: R_kgDOT8kPKQ
+  subpath: null
+  commit: bcc0a86bd2c6ce68e927bf4e7e6a8ba2ecf09bfc
+creator:
+  github: tonytanglab
+package:
+  ecosystem: npm
+  name: harness-relay-mcp
+  version: 0.2.4
+  integrity: sha512-fACV6pYMrXVyy4dk2dz49yzGmL0+o154FtGMDju+XjmsQDrluKJ9y5KLNkns7p6bCHSLjm7CIlluTTQIRg35IQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:25.929Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
