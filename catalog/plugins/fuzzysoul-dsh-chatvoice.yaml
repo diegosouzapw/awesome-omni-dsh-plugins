@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: fuzzysoul-dsh-chatvoice
+name: dsh-chatvoice
+description:
+  en: "English 中文 Free, zero-config, no-API-key voice for DeepSeek Harness (dsh): speak your prompts and have AI replies read aloud. Everything runs on the browser's native Web Speech API — no backend, no key, nothing to register."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - speech
+  - tts
+  - speech-recognition
+  - speech-synthesis
+  - voice-input
+  - read-aloud
+  - free
+  - zh-cn
+source:
+  repository: https://github.com/FuzzySoul/dsh-chatvoice
+  repositoryNodeId: R_kgDOT5sXPg
+  subpath: null
+  commit: 3911aba9f7a008bd086b2c306c489dfc0ffbe1c6
+creator:
+  github: FuzzySoul
+package:
+  ecosystem: npm
+  name: dsh-chatvoice
+  version: 0.1.7
+  integrity: sha512-QUR8biVjKlfJxEhW8J+WnoVq2jSzUB14DxEb9LdiXj50EiL68f4y27oGRF2CVCiBlTHlVpSTtDbjWJCXt5hpaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:09.342Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
