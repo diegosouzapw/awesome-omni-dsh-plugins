@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mario03690-dsh-netcafe
+name: dsh-netcafe
+description:
+  en: DeepSeek Harness bundle for AI NetCafé's hosted tools. One install for the full catalogue, or pick one of four focused packs (tables, dev kit, doc flow, China facts) so you only pay the context cost of what you use.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - agent-tools
+source:
+  repository: https://github.com/mario03690/dsh-netcafe
+  repositoryNodeId: R_kgDOT37pZA
+  subpath: null
+  commit: c431a433070913232ebe6c31899d761e08e3b0fe
+creator:
+  github: mario03690
+package:
+  ecosystem: npm
+  name: dsh-netcafe
+  version: 0.3.1
+  integrity: sha512-r5TRrWCYqEUYN+nlxAI3ni7AC4R0MeQlplWNVlKfwUekd41DUOWJnyn8l5EPo5oBEHJrlGWAkgi68GyyAVFACQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:53.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
