@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: kirigayakazima-dsh-usage-vendor-stats
+name: dsh-usage-vendor-stats
+description:
+  en: "DeepSeek Harness usage statistics plugin: aggregates API usage by vendor (subscription / official API) × KPI , with a GitHub-style calendar heatmap and daily / monthly dashboards."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - usage
+  - stats
+  - vendor
+  - provider
+  - tokens
+  - heatmap
+  - dashboard
+source:
+  repository: https://github.com/kirigayakazima/dsh-usage-vendor-stats
+  repositoryNodeId: R_kgDOT5NtSg
+  subpath: null
+  commit: ac22bed8af20c8059c5f4d86bf21dc88d3870888
+creator:
+  github: kirigayakazima
+package:
+  ecosystem: npm
+  name: dsh-usage-vendor-stats
+  version: 0.2.0
+  integrity: sha512-2yXW+60PsHUaxOUumXywBmsY/jHD+4thjv5LScqsyfvGn+T/x3u0jMr/uErNPpJSAY0XKEVCdr2TmsWAgxL6vQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:38.289Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
