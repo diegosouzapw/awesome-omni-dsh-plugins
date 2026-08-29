@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: hezhongtang-dsh-capability-optimizer
+name: dsh-capability-optimizer
+description:
+  en: "External-expert consultation for DeepSeek Harness: headlessly invokes Claude Code through explicit advisor / reviewer / designer / custom role contracts and returns structured reference answers for the agent to weigh. · DSH 外部专家咨询：通过明确的 advisor / reviewer / designer / 自定义角色合同 headless 调用 Claude Code，返回供 agent 权衡的结构化参考答"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - claude-code
+  - advisor
+  - reviewer
+  - designer
+  - second-opinion
+  - agent-tools
+  - cordis-plugin
+  - capability
+source:
+  repository: https://github.com/hezhongtang/dsh-capability-optimizer
+  repositoryNodeId: R_kgDOT5-OVw
+  subpath: null
+  commit: 5022f2075fa584bae79f528d0259458e648860e1
+creator:
+  github: hezhongtang
+package:
+  ecosystem: npm
+  name: dsh-capability-optimizer
+  version: 0.7.0
+  integrity: sha512-Y58zc6L3vNnc3XExLEj/NoCrmwNxZ11BUvWib6yWrzExeBGliLhiLsKzh4uYwUY4nE3TOKxXkWkFNP5IJ273Zg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:34.161Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
