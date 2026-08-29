@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: kaixxrua-dsh-aigc-radar
+name: dsh-aigc-radar
+description:
+  en: AIGC Radar for DeepSeek Harness — curated AI project search with native search cards, powered by the AIGC NEWS library
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - aigc-radar
+  - github-projects
+  - ai-search
+  - mcp
+  - agent
+  - project-discovery
+  - dsh
+source:
+  repository: https://github.com/Kaixxrua/dsh-aigc-radar
+  repositoryNodeId: R_kgDOT74g3g
+  subpath: null
+  commit: 1f65307e2efaffedf77d6591a816e594724762de
+creator:
+  github: Kaixxrua
+package:
+  ecosystem: npm
+  name: dsh-aigc-radar
+  version: 0.2.3
+  integrity: sha512-SGRS5hhKWhNo5Sbej25FulTDFNGUEVM8RQyVQrrtmsKMlPN4s9Z4Y6G3UuZw3O+VLtx9i5P/91j5aGW4h9zZBw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:44.908Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
