@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-snakecase
+name: dsh-snakecase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-snakecase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-snakecase
+source:
+  repository: https://github.com/uckkk/dsh-snakecase
+  repositoryNodeId: R_kgDOT9t-xA
+  subpath: null
+  commit: b800672749e1808b7d5f3157b70486118dfae3ec
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:05.199Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
