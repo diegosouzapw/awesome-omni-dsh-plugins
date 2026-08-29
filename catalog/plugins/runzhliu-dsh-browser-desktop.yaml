@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: runzhliu-dsh-browser-desktop
+name: "@runzhliu/dsh-browser-desktop"
+description:
+  en: Movable, resizable Chromium desktop embedded in the DeepSeek Harness Web UI through noVNC.
+  evidencePath: plugins/dsh-browser-desktop/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - browser-agent
+  - chromium
+  - novnc
+  - vnc
+  - webui
+  - dsh
+source:
+  repository: https://github.com/runzhliu/deepseek-harness-docker
+  repositoryNodeId: R_kgDOT3gx_w
+  subpath: plugins/dsh-browser-desktop
+  commit: 42c44a9c618ccb121e2f836856e05922b2633474
+creator:
+  github: runzhliu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-browser-desktop/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:10.858Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
