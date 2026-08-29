@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: niu-001-liu-dsh-win-minimal
+name: dsh-win-minimal
+description:
+  en: "Windows minimal agent preset for DeepSeek Harness: a one-line fixed persona, gitbash + str replace editor + web search, no runtime context, no compaction. Installs the preset into the user's agent-presets root."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - windows
+  - minimal
+  - agent
+  - preset
+  - line
+  - fixed
+  - persona
+  - gitbash
+  - replace
+  - editor
+  - search
+  - runtime
+  - context
+  - compaction
+  - installs
+  - user
+source:
+  repository: https://github.com/NIU-001-LIU/dsh-win-minimal
+  repositoryNodeId: R_kgDOT-SZUw
+  subpath: null
+  commit: 6ebcaaf472c9036b7eaee1dd1ed1db813adfb12d
+creator:
+  github: NIU-001-LIU
+package:
+  ecosystem: npm
+  name: dsh-win-minimal
+  version: 0.1.2
+  integrity: sha512-DlRZphkGezm4om4tWaAc7jMgEMotPAL7o+OYK0fZL/fe2zlAu9iHNrzXpKOWvIqv0oX5o7oBxTU8chqoP54MTQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:57.316Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
