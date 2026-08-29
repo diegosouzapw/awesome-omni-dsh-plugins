@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: henta111-dsh-more-models-thinking-level
+name: dsh-more-models-thinking-level
+description:
+  en: Per-model reasoning effort declarations for GPT, Gemini and OpenAI-compatible providers in DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - reasoning
+  - thinking
+  - gpt
+  - gemini
+  - openai-compatible
+  - model-settings
+  - llm
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/Henta111/dsh-more-models-thinking-level
+  repositoryNodeId: R_kgDOUCkf5w
+  subpath: null
+  commit: f4ba5fe8b5ca25f7a1af02dfeb14239159e1988d
+creator:
+  github: Henta111
+package:
+  ecosystem: npm
+  name: dsh-more-models-thinking-level
+  version: 0.1.1
+  integrity: sha512-ikgM5Fsro1S0PFZ9seVsPFa1AGiJX00HHi5CaSoLV0Yp1iFIOS8YPlLbH1hA2ABpZXgA7h4ghTxuQ4XqukN0Ow==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:15.214Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
