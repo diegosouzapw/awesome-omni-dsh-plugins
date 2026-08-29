@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: sakthiveltofficial-dsh-git-plugins
+name: dsh-git-plugins
+description:
+  en: "Git / source-control plugins for DeepSeek Harness: a local-git provider, a hosted-platform registry (GitHub/GitLab/Bitbucket/Azure DevOps/Gitea), and grouped model-facing tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - source
+  - control
+  - local
+  - provider
+  - hosted
+  - platform
+  - registry
+  - gitlab
+  - bitbucket
+  - azure
+  - devops
+  - gitea
+  - grouped
+  - model
+  - facing
+  - tools
+source:
+  repository: https://github.com/sakthiveltofficial/dsh-git-plugins
+  repositoryNodeId: R_kgDOUAcLDQ
+  subpath: null
+  commit: ec669e8794cf0e192e1e071c988bdd4e3312100e
+creator:
+  github: sakthiveltofficial
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:54.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
