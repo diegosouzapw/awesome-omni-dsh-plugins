@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-brushing-time
+name: dsh-brushing-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-brushing-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-brushing-time
+source:
+  repository: https://github.com/uckkk/dsh-brushing-time
+  repositoryNodeId: R_kgDOT-to2w
+  subpath: null
+  commit: 3ef048430280faa7d91763e14bfd2c15f70e749c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:30.046Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
