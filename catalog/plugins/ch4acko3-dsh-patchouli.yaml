@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ch4acko3-dsh-patchouli
+name: dsh-patchouli
+description:
+  en: Native knowledge context for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh
+  - dsh-plugin
+  - cordis
+  - memory
+  - knowledge
+  - knowledge-management
+  - local-first
+  - context
+source:
+  repository: https://github.com/memorax-ai/dsh-patchouli
+  repositoryNodeId: R_kgDOT3_3gQ
+  subpath: null
+  commit: f23c5989d2dabe3ccbc49ec97286bbc21060a95d
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:40.684Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
