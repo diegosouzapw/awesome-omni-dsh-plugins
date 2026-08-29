@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-baby-clothes
+name: dsh-baby-clothes
+description:
+  en: bash dsh plugin add github:uckkk/dsh-baby-clothes
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-baby-clothes
+source:
+  repository: https://github.com/uckkk/dsh-baby-clothes
+  repositoryNodeId: R_kgDOT-sk6g
+  subpath: null
+  commit: 28e6a1b4a345a725b80bb7fca15884504f3308c3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:35.771Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
