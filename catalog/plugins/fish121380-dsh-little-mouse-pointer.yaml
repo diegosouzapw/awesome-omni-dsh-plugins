@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fish121380-dsh-little-mouse-pointer
+name: dsh-little-mouse-pointer
+description:
+  en: DeepSeek Harness bundle for a Windows desktop UI context picker and MCP server for Codex, DeepSeek Harness, and AI agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - bundle
+  - windows
+  - desktop
+  - context
+  - picker
+  - server
+  - codex
+  - agents
+  - dsh
+source:
+  repository: https://github.com/Fish121380/auto-mouse
+  repositoryNodeId: R_kgDOT_VQFQ
+  subpath: null
+  commit: f6102369316ec3c15e87703c3abffe186d2e4383
+creator:
+  github: Fish121380
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:35.755Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
