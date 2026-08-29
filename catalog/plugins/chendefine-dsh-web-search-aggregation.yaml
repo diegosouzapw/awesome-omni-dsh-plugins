@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: chendefine-dsh-web-search-aggregation
+name: dsh-web-search-aggregation
+description:
+  en: "Aggregated web-search provider for DeepSeek Harness: one prioritized queue over AnySearch / TinyFish / Tavily / Brave / Exa / Firecrawl / Jina / SerpApi / Serper, multiple API keys per entry, ordered fallback per request."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - web-search
+  - search-provider
+  - aggregation
+  - fallback
+  - anysearch
+  - tinyfish
+  - tavily
+  - brave
+  - brave-search
+  - exa
+  - exa-search
+  - firecrawl
+source:
+  repository: https://github.com/chendefine/dsh-web-search-aggregation
+  repositoryNodeId: R_kgDOUBHdbQ
+  subpath: null
+  commit: 94d222960569c0c4603fec2e814d31571a832b8c
+creator:
+  github: chendefine
+package:
+  ecosystem: npm
+  name: dsh-web-search-aggregation
+  version: 0.1.10
+  integrity: sha512-z8m8nPvC6+b5vJ7a+JdaPs89uROjeAVXE90C4V8hMNhnwb43fM2yOLa5yaKO59EX/v50DDjOeMeXLgv031u0lw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:30.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
