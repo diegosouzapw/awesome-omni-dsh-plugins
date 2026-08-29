@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: itailang2333-dsh-skill-cockpit
+name: dsh-skill-cockpit
+description:
+  en: "DSH web plugin: Skill Cockpit panel in Settings. See all skills (system/project/pool) with Chinese notes, search, enable/disable/delete/import, local test-fire scoring, and per-skill usage stats to spot zombie skills."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - skill-cockpit
+  - agent-skills
+  - cordis
+source:
+  repository: https://github.com/Itailang2333/dsh-skill-cockpit
+  repositoryNodeId: R_kgDOT7Iy6A
+  subpath: null
+  commit: 0c62324912df06ba3d31dc6c18f7bb3e72c57745
+creator:
+  github: Itailang2333
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:20.680Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
