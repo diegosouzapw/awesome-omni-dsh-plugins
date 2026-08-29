@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-toddler-height
+name: dsh-toddler-height
+description:
+  en: bash dsh plugin add github:uckkk/dsh-toddler-height
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-toddler-height
+source:
+  repository: https://github.com/uckkk/dsh-toddler-height
+  repositoryNodeId: R_kgDOT-s8CQ
+  subpath: null
+  commit: 18d6c6d07affbcb54dab7da01bce83f65047821f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:53.185Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
