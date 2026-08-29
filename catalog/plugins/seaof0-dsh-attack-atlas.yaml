@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: seaof0-dsh-attack-atlas
+name: "@dsh-external/dsh-attack-atlas"
+description:
+  en: "AttackAtlas tab for the eight specialist security presets: per-mode architecture matrix (battle zones x tactics x items with per-mode terminal-state semantics), four-state coverage light-up, target anchoring, dispatch-on-double-click, attack-chain topology, custom work-methodology composer (layered run envelope, closur"
+  evidencePath: plugins/dsh-attack-atlas/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - coverage-matrix
+  - session-scoped
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-attack-atlas
+  commit: 45ba1a1cbb20043350e60ee51ec20442a7fb1fbb
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-attack-atlas/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
