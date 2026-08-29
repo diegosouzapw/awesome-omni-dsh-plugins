@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-californium
+name: dsh-californium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-californium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-californium
+source:
+  repository: https://github.com/uckkk/dsh-californium
+  repositoryNodeId: R_kgDOT-8_iQ
+  subpath: null
+  commit: 5b63b64aa94647afd47f95b525bc4145ccc0177d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:47.047Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
