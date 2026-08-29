@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: polaris-smart-dsh-devices
+name: dsh-devices
+description:
+  en: <p align="center" <strong Turn your devices into a fleet.</strong </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - fleet
+  - multi-device
+  - mdns
+  - ssh
+  - sftp
+  - file-transfer
+source:
+  repository: https://github.com/polaris-smart/dsh-devices
+  repositoryNodeId: R_kgDOT7jO1w
+  subpath: null
+  commit: cabd2deb9e43df674e7c49bffe0bc2b6030d2d41
+creator:
+  github: polaris-smart
+package:
+  ecosystem: npm
+  name: dsh-devices
+  version: 0.1.2
+  integrity: sha512-LsXOcAWCyWRhdaNkAhFAgJiWC1sU5ZH97i0zrDIaVHKTFW6M37xKHV9l1mvGI3KpAV0BuQoXlPvfaZ4PaAk6rw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:45.181Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
