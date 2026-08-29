@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: nothree-code-review-quote-sh
+name: review-quote-sh
+description:
+  en: Message review (multi-model cross review) + quote (Q&A chips) for the DSH conversation UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - message
+  - review
+  - multi
+  - model
+  - cross
+  - quote
+  - chips
+  - conversation
+  - dsh
+source:
+  repository: https://github.com/Nothree-code/review-quote-sh
+  repositoryNodeId: R_kgDOT47tug
+  subpath: null
+  commit: 546855f2a109fffdb4e6eb6f910e405884364889
+creator:
+  github: Nothree-code
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:55.528Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
