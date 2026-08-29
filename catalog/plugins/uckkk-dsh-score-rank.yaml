@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-score-rank
+name: dsh-score-rank
+description:
+  en: bash dsh plugin add github:uckkk/dsh-score-rank
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-score-rank
+source:
+  repository: https://github.com/uckkk/dsh-score-rank
+  repositoryNodeId: R_kgDOT-voJw
+  subpath: null
+  commit: 400edbe6651fa8a4e12507ca52d4aac79eb83885
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:55.397Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
