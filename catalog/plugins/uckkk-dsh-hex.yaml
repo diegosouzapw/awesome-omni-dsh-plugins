@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hex
+name: dsh-hex
+description:
+  en: bash dsh plugin add dsh-hex 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-hex" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - hex
+source:
+  repository: https://github.com/uckkk/dsh-hex
+  repositoryNodeId: R_kgDOT6N3iA
+  subpath: null
+  commit: 29661ff57a8a28e1199105a6fe43cf0fc54ee231
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:52.756Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
