@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cb-convert
+name: dsh-cb-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cb-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cb-convert
+source:
+  repository: https://github.com/uckkk/dsh-cb-convert
+  repositoryNodeId: R_kgDOT-DYBA
+  subpath: null
+  commit: f13f98cf55f34e79408b7c47bfdedec65942a0f5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:20.860Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
