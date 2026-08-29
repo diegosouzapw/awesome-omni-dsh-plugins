@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: sev7een-dsh-plugin-ds-api-usage
+name: dsh-plugin-ds-api-usage
+description:
+  en: "DeepSeek Harness plugin: real-time DeepSeek API balance and usage timeline (cost / tokens / request count), rendered in a settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - api-usage
+  - balance
+source:
+  repository: https://github.com/Sev7een/ds-api-usage
+  repositoryNodeId: R_kgDOT3fw1g
+  subpath: null
+  commit: d7644200ed0530f60794a1b081b7176cb3ac93fd
+creator:
+  github: Sev7een
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:40.209Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
