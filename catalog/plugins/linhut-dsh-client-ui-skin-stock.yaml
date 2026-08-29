@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: linhut-dsh-client-ui-skin-stock
+name: "@linxin666/dsh-client-ui-skin-stock"
+description:
+  en: sh dsh plugin --profile web add github:linhut/dsh-stock-terminal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - web-ui
+  - skin
+  - stock
+  - trading
+  - ticker
+  - watchlist
+  - positions
+source:
+  repository: https://github.com/linhut/dsh-stock-terminal
+  repositoryNodeId: R_kgDOT7TDVg
+  subpath: null
+  commit: 24d0bb96c58aba995fe755943519ff667b9a6e65
+creator:
+  github: linhut
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:01.498Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
