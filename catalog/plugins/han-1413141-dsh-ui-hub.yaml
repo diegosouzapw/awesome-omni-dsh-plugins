@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: han-1413141-dsh-ui-hub
+name: dsh-ui-hub
+description:
+  en: "A DSH web client plugin: UI Hub . It enumerates every UI contribution from every plugin — panels, buttons, icons, charts, fields — and lets you toggle each one, position each one, avoid floating collisions, and auto-arrange them into a tidy column ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - ui
+  - layout
+  - widget
+  - collision
+  - toggle
+  - position
+source:
+  repository: https://github.com/Han-1413141/dsh-ui-hub
+  repositoryNodeId: R_kgDOT5JHaQ
+  subpath: null
+  commit: d1ecaffed06a03696ebd77f40c4c61d1cb558f8f
+creator:
+  github: Han-1413141
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:00.644Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
