@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-titlecase
+name: dsh-titlecase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-titlecase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-titlecase
+source:
+  repository: https://github.com/uckkk/dsh-titlecase
+  repositoryNodeId: R_kgDOT9t97Q
+  subpath: null
+  commit: ec3bc72006945e5c56b40c770551ad370cc7cdb2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:52.916Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
