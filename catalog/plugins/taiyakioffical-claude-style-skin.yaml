@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: taiyakioffical-claude-style-skin
+name: claude-style-skin
+description:
+  en: Claude Style — Anthropic warm-editorial skin for the dsh web GUI, distilled from anthropic.com
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - web-ui
+  - skin
+  - theme
+  - claude
+  - anthropic
+  - warm
+  - editorial
+  - ivory
+  - clay
+source:
+  repository: https://github.com/TaiyakiOffical/claude-style-skin
+  repositoryNodeId: R_kgDOT_8suw
+  subpath: null
+  commit: 09cfe36237b7fa0c4e57141b364b8bf50f084d37
+creator:
+  github: TaiyakiOffical
+package:
+  ecosystem: npm
+  name: claude-style-skin
+  version: 0.1.1
+  integrity: sha512-NFpLT73ku2kerPTq2KRa43uEp6GnlIyC7evYXBGMgpIN1E0MvQTzyxtqDyyRwF4f9DVAjbCAMgcg0RFrAhRlzw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:48.054Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
