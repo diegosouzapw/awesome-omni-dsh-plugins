@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: littleblakew-dsh-msds-chain
+name: dsh-msds-chain
+description:
+  en: "Chemical safety intelligence for DeepSeek Harness: mounts the hosted MSDS Chain MCP endpoint (https://mcp.lagentbot.com/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge"
+  evidencePath: plugins/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - mcp
+  - chemistry
+  - safety
+  - msds
+  - sds
+  - ghs
+  - compliance
+  - dsh
+source:
+  repository: https://github.com/littleblakew/msds-chain-mcp
+  repositoryNodeId: R_kgDOSHrpOQ
+  subpath: plugins/dsh
+  commit: d8b91131d5e1d6ace10a2157a63178003e6e8723
+creator:
+  github: littleblakew
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:29.658Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
