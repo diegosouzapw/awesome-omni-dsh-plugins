@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-unemployment-period
+name: dsh-unemployment-period
+description:
+  en: bash dsh plugin add github:uckkk/dsh-unemployment-period
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-unemployment-period
+source:
+  repository: https://github.com/uckkk/dsh-unemployment-period
+  repositoryNodeId: R_kgDOT-Dh4Q
+  subpath: null
+  commit: b2b25de2f772127949fe86a7422b150f39e18040
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:59.500Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
