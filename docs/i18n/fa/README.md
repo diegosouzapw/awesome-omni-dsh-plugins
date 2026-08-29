@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">همهٔ افزونه‌ها را در وب‌سایت مرور، جستجو و نصب کنید →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1265_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1356_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -119,7 +119,7 @@ JSON Schema منتشرشده اعتبارسنجی شده، از طریق یک pu
 
 ## وضعیت کاتالوگ
 
-**۱۲۶۵ افزونه ادغام شده است.** هر افزونه از طریق یک pull request بازبینی‌شدهٔ جداگانه، یکی‌یکی، از ریپازیتوری سازندهٔ
+**۱۳۵۶ افزونه ادغام شده است.** هر افزونه از طریق یک pull request بازبینی‌شدهٔ جداگانه، یکی‌یکی، از ریپازیتوری سازندهٔ
 اصلی، با یک کامیت منبع پین‌شده و اعتباردهی صریح وارد می‌شود.
 
 ## 🚀 نصب CLI
@@ -326,4 +326,4 @@ YAML تحت [CC0-1.0](../../LICENSE-CATALOG) وقف شده‌اند. کد، نا
 
 </div>
 
-<!-- i18n-source-hash: 24627e43b221d59616fe5f0f7365c1bde50c1ede3c119379309adf3c144b9caf -->
+<!-- i18n-source-hash: 8b642bfa4d8167526740cf9c6e40c3831f19ce8412c223f5dbf8bd33d0b4d501 -->

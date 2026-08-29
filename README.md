@@ -16,7 +16,7 @@ Creator-first discovery and one-command installation for **DeepSeek Harness (DSH
   <a href="https://dsh-plugins.omniroute.online">Browse, search and install every plugin on the website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1265_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1356_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](LICENSE)
@@ -120,7 +120,7 @@ repository carries the public catalog data, schema and policies they both consum
 
 ## Catalog status
 
-**1265 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
+**1356 plugins merged.** Every plugin enters through an individually reviewed pull request, one at
 a time, from the original creator repository, with a pinned source commit and explicit
 attribution.
 
