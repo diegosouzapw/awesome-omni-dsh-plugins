@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dehumidify
+name: dsh-dehumidify
+description:
+  en: bash dsh plugin add github:uckkk/dsh-dehumidify
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-dehumidify
+source:
+  repository: https://github.com/uckkk/dsh-dehumidify
+  repositoryNodeId: R_kgDOT-wheQ
+  subpath: null
+  commit: a99aef54f8eca59a69ee0b1a7c77b68f4a83e824
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:40.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
