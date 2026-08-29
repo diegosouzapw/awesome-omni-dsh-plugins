@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hatsuyuki0103-dsh-at-any
+name: dsh-at-any
+description:
+  en: "Codex-style @path references for the DeepSeek Harness web GUI: search workspace paths without injecting file content"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - at-file
+  - file-mention
+  - workspace
+  - ui
+  - dsh
+source:
+  repository: https://github.com/hatsuyuki0103/dsh-at-any
+  repositoryNodeId: R_kgDOT7PzoQ
+  subpath: null
+  commit: e9185dbd0bfa40e71cd467d72455f7e07b9f129c
+creator:
+  github: hatsuyuki0103
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:17.713Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
