@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-camelcase
+name: dsh-camelcase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-camelcase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-camelcase
+source:
+  repository: https://github.com/uckkk/dsh-camelcase
+  repositoryNodeId: R_kgDOT9t-kQ
+  subpath: null
+  commit: 319ba8d59a650250085bb2c59c72174204c55973
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:48.073Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
