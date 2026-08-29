@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: spookysandwich-dsh-plugin-no-workspace
+name: dsh-plugin-no-workspace
+description:
+  en: Start and detach standalone chats without a mandatory workspace in DeepSeek Harness while preserving the native workspace UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis-plugin
+  - no-workspace
+  - workspace-free
+  - direct-chat
+  - standalone-chat
+source:
+  repository: https://github.com/SpookySandwich/dsh-plugin-no-workspace
+  repositoryNodeId: R_kgDOUA5ceQ
+  subpath: null
+  commit: 28a3daaab62058191e01d1141afb820033395842
+creator:
+  github: SpookySandwich
+package:
+  ecosystem: npm
+  name: dsh-plugin-no-workspace
+  version: 1.0.0
+  integrity: sha512-+AXQ2ASrzH6eiAhpRPLUZ6NiY2VaUM71SEBAxiKCUve/VmsUke+OjdrOFQXKlQwnXIhznp4U2WJOFULSzBFJ3Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:58.058Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
