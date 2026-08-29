@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: max-null-dsh-chat-rail
+name: "@max-null/dsh-chat-rail"
+description:
+  en: 本插件属于 @max-null/ 插件系列 ——这一系列共同构成 SSID（思灵 · Seek Soul in Darkness） 桌面体验。SSID 是整合它们的盒： dsh-capture · dsh-chat-rail · dsh-chinese-thinking · dsh-draft-polish · dsh-guardian · dsh-habit · dsh-header-unify · dsh-memory · dsh-node-appearance · dsh-plugin-center · dsh-skill-mcp-center · dsh-ssid-panels · dsh-ssid-zh-ui 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ssid
+  - conversation
+  - navigation
+  - timeline
+  - rail
+source:
+  repository: https://github.com/Max-Null/dsh-chat-rail
+  repositoryNodeId: R_kgDOT8wrkw
+  subpath: null
+  commit: 55ffcdbc1688b332015cbb22abbed6479e03d52e
+creator:
+  github: Max-Null
+package:
+  ecosystem: npm
+  name: "@max-null/dsh-chat-rail"
+  version: 0.3.1
+  integrity: sha512-IFqqfchOa4uc0Z3QoUVN6+I7ZBa6F/ObUgrTnoBkQ4g7Gy6VSACN5N+Fi7Mj/0UnqFSabYpo7mWUGd788lye7g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:39.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
