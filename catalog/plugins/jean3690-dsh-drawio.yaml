@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jean3690-dsh-drawio
+name: dsh-drawio
+description:
+  en: bash dsh plugin --profile web add https://github.com/jean3690/dsh-drawio
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - drawio
+  - diagram
+  - mxgraph
+  - diagrams-net
+source:
+  repository: https://github.com/jean3690/dsh-drawio
+  repositoryNodeId: R_kgDOT8COxg
+  subpath: null
+  commit: 1ae7543db491581f7099c7b4edbae405562c28b6
+creator:
+  github: jean3690
+package:
+  ecosystem: npm
+  name: dsh-drawio
+  version: 0.1.0
+  integrity: sha512-HnXB/Oi8luM/koraeix6b4RJyIs3e7yQF2UlLdlkE7E4B0lmrNlAj03F1L5OsLgsjTVydF6sH6AiwMVydO+XJg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:03.197Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
