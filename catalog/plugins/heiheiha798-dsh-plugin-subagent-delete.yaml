@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: heiheiha798-dsh-plugin-subagent-delete
+name: dsh-plugin-subagent-delete
+description:
+  en: "DeepSeek Harness plugin: ownership-checked delete subagent / release subagent / list subagents tools and host routes that permanently remove subagent sessions from the web UI list."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - delete-subagent
+  - cleanup
+  - session-management
+  - dsh
+source:
+  repository: https://github.com/heiheiha798/dsh-plugin-subagent-delete
+  repositoryNodeId: R_kgDOT_U-Rw
+  subpath: null
+  commit: 44b44286d646aabc850cf6af8fff69749373a22a
+creator:
+  github: heiheiha798
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:30.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
