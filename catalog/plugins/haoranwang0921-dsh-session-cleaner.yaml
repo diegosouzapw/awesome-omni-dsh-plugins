@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: haoranwang0921-dsh-session-cleaner
+name: "@haoranwang0921/dsh-session-cleaner"
+description:
+  en: "dsh web GUI plugin: manage and delete conversation records (whole sessions or individual messages, cascade delete) from the settings page. Dual-face: node half serves /api/session-cleaner routes, browser half registers the settings-page view."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - manage
+  - delete
+  - conversation
+  - records
+  - whole
+  - sessions
+  - individual
+  - messages
+  - cascade
+  - settings
+  - page
+  - dual
+  - face
+  - node
+  - half
+  - serves
+source:
+  repository: https://github.com/haoranwang0921/dsh-session-cleaner
+  repositoryNodeId: R_kgDOT4oO9g
+  subpath: null
+  commit: 7471c4375e999d9f3bd49f2f5daad3275d8517a0
+creator:
+  github: haoranwang0921
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:27.399Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
