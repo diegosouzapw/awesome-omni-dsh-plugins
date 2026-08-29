@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: luke-yong-dsh-plugin-project-management
+name: dsh-plugin-project-management
+description:
+  en: Interview users, then generate and export project timelines / Gantt charts (Word + Excel) in DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - interview
+  - users
+  - generate
+  - export
+  - timelines
+  - gantt
+  - charts
+  - word
+  - excel
+  - dsh
+source:
+  repository: https://github.com/Luke-Yong/dsh-plugin-project-management
+  repositoryNodeId: R_kgDOT6o9Mw
+  subpath: null
+  commit: b10c38fa50b4d195971f649444e1326d0900febf
+creator:
+  github: Luke-Yong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:35.153Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
