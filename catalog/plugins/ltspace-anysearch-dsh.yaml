@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ltspace-anysearch-dsh
+name: "@anysearch/anysearch-dsh"
+description:
+  en: AnySearch web search and fetch providers plus advanced tools for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - anysearch
+  - deepseek-harness
+  - dsh-plugin
+  - web-search
+  - web-fetch
+  - dsh
+source:
+  repository: https://github.com/anysearch-team/anysearch-dsh
+  repositoryNodeId: R_kgDOT3e9Mg
+  subpath: null
+  commit: 3ccdef05e2b502509415b023e206a4c9f6afb038
+creator:
+  github: ltspace
+package:
+  ecosystem: npm
+  name: "@anysearch/anysearch-dsh"
+  version: 0.1.4
+  integrity: sha512-v7jb1oTrMcfq+DxMoRvwDZQ8xVCvU/Pf4MJKnGXAKt35GUzsLFfJW8eKgSg837/kzEVZTGg64lM94UwgiNMUuQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:37:57.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 332
+provenance:
+  discussion: null
+  comment: null
