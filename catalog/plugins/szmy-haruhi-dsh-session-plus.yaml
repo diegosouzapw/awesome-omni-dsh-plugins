@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: szmy-haruhi-dsh-session-plus
+name: dsh-session-plus
+description:
+  en: "DSH session completion: sidebar archive directory, restore, delete, edit-and-resend"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - archive
+  - unarchive
+  - dsh
+source:
+  repository: https://github.com/SZMY-haruhi/dsh-session-plus
+  repositoryNodeId: R_kgDOT7axLw
+  subpath: null
+  commit: bcf3da7f0c67e1104a9a7a9f3b1d3236c3f4c8ba
+creator:
+  github: SZMY-haruhi
+package:
+  ecosystem: npm
+  name: dsh-session-plus
+  version: 0.1.1
+  integrity: sha512-ixLaqKoBxI9gmiIgKYUz3e1gRH8bILlMbGjgVRz2460TMU2rmUdPWfm7Zd3IsGwvdbh6tb2etoDakOCpMR6dmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:30.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
