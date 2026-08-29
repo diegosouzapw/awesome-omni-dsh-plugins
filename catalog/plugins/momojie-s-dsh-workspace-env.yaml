@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: momojie-s-dsh-workspace-env
+name: "@momojie-s/dsh-workspace-env"
+description:
+  en: npm 包名： @momojie-s/dsh-workspace-env
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - momojie
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/Momojie-S/dsh-workspace-env
+  repositoryNodeId: R_kgDOT4QUsA
+  subpath: null
+  commit: f60cce4fb77fffe765191cde91fc32ef400d8117
+creator:
+  github: Momojie-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:47.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
