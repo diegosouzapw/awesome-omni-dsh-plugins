@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: stardustlc666-dsh-minimal-ptc
+name: dsh-minimal-ptc
+description:
+  en: Minimal prompt x full PTC tools for DeepSeek Harness - aligned with the Project2 we/let's trajectory (Minimal 99/96).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - agent-preset
+  - code-mode
+  - dsh-plugin
+  - llm-agent
+  - minimal
+  - ptc
+  - we-lets
+  - chain-of-thought
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-minimal-ptc
+  repositoryNodeId: R_kgDOT5wtYQ
+  subpath: null
+  commit: 4ed86d1fdc640518e8e7da6f14f27ecc9e6ec94b
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-minimal-ptc
+  version: 0.4.1
+  integrity: sha512-M+JXSKCRxPdT8TUAaXybYbY1gboQeRR8BuzBJuAkMXJtFFjPPSGi2Gm4cNgqfwh9HM63StfnNhKSYGgnTzSuwQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:52.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
