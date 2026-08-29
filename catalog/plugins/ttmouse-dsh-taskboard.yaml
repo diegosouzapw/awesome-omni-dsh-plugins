@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: ttmouse-dsh-taskboard
+name: "@ttmouse/dsh-taskboard"
+description:
+  en: sh npm run build cd plugin && npm install && npm run build
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - taskboard
+  - kanban
+  - issue-tracker
+  - project-management
+  - cordis
+  - sqlite
+  - ai-agent
+source:
+  repository: https://github.com/ttmouse/dsh-taskboard
+  repositoryNodeId: R_kgDOT7xWHw
+  subpath: plugin
+  commit: 446e6286e3b3ca9fde366f11225079b0a58f1da5
+creator:
+  github: ttmouse
+package:
+  ecosystem: npm
+  name: "@ttmouse/dsh-taskboard"
+  version: 0.5.0
+  integrity: sha512-0g3HZ5QXv6N0IWQwO7EpaV6Wy32vVTIOmN32rhJZSJEXgaUn/KNNG4ovTNQFmYdhcLph0dKeUJog8jtZ/kqP/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:53.278Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
