@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sl82976818-dsh-gpt-bridge-manager
+name: dsh-gpt-bridge-manager
+description:
+  en: DSH plugin-managed lifecycle and Settings status for the standalone GPT Bridge.
+  evidencePath: dsh-gpt-bridge-manager/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - gpt-bridge
+  - custom-gpt
+  - cloudflared
+  - read-only
+source:
+  repository: https://github.com/sl82976818/dsh-gpt-bridge
+  repositoryNodeId: R_kgDOT5kucA
+  subpath: dsh-gpt-bridge-manager
+  commit: c8b390fb8195436bfc9a27bc791ba9d1d471d981
+creator:
+  github: sl82976818
+package:
+  ecosystem: npm
+  name: dsh-gpt-bridge-manager
+  version: 0.1.0
+  integrity: sha512-QVTWaHi2N/TQjCSaqs3fHWFmOTBy+qB9w4qoRyVFgmKhGT68QcyQDdpnxSoaGfp/y4Q/D+WOLgPhnk3l/FUJJw==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-gpt-bridge-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:19.459Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
