@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: vibebill-dsh-web-search-free
+name: dsh-web-search-free
+description:
+  en: Free web search plugin for dsh supporting firecrawl and tavily
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - web-search
+  - dsh
+source:
+  repository: https://github.com/MochiNek0/dsh-web-search-free
+  repositoryNodeId: R_kgDOT-dKyw
+  subpath: null
+  commit: e5004427f115b7535ecde57f00feba019d8732d0
+creator:
+  github: vibeBill
+package:
+  ecosystem: npm
+  name: dsh-web-search-free
+  version: 1.2.3
+  integrity: sha512-8Vye6yK8EXktzXmi4pvyqJTMz2JATmoNHCYtbAjcmMjC1maD1JiADrOqkyt3Db+eG1iKVsntKTGVGnxJw7jyUQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.730Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
