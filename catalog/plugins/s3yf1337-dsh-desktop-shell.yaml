@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: s3yf1337-dsh-desktop-shell
+name: dsh-desktop-shell
+description:
+  en: "The dsh desktop profile bundle: opens the native Tauri render client on the served web surface and adds the dsh-desktop settings tab to the web UI."
+  evidencePath: bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - desktop
+  - profile
+  - bundle
+  - opens
+  - native
+  - tauri
+  - render
+  - client
+  - served
+  - surface
+  - adds
+  - settings
+  - dsh
+source:
+  repository: https://github.com/s3yf1337/dsh-desktop
+  repositoryNodeId: R_kgDOT3_UVA
+  subpath: bundle
+  commit: 896237b2d10a8f8da19e04d2a1670d043b102131
+creator:
+  github: s3yf1337
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:11.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
