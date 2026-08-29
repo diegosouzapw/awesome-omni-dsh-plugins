@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-divisor-count
+name: dsh-divisor-count
+description:
+  en: bash dsh plugin add github:uckkk/dsh-divisor-count
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-divisor-count
+source:
+  repository: https://github.com/uckkk/dsh-divisor-count
+  repositoryNodeId: R_kgDOT9u8gA
+  subpath: null
+  commit: 6aded6a2d47ba66c571d5658ccbd585f758ce114
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:43.731Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
