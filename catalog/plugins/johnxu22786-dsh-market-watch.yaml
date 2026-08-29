@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: johnxu22786-dsh-market-watch
+name: dsh-market-watch
+description:
+  en: "Financial market monitor for DeepSeek Harness: real-time quotes, local watchlist, threshold alerts, periodic polling, and in-chat ASCII/mermaid charts for A-share (Shanghai/Shenzhen/Beijing) stocks, indices, and cryptocurrencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - financial
+  - market
+  - monitor
+  - real
+  - time
+  - quotes
+  - local
+  - watchlist
+  - threshold
+  - alerts
+  - periodic
+  - polling
+  - chat
+  - ascii
+  - mermaid
+  - charts
+source:
+  repository: https://github.com/JohnXu22786/market-watch
+  repositoryNodeId: R_kgDOT-Szug
+  subpath: null
+  commit: eb7d6d79b184f8f58b44c03b3f56f6c8840e20e5
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:16.449Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
