@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-question-asking
+name: dsh-question-asking
+description:
+  en: bash dsh plugin add github:uckkk/dsh-question-asking
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-question-asking
+source:
+  repository: https://github.com/uckkk/dsh-question-asking
+  repositoryNodeId: R_kgDOT-zY1g
+  subpath: null
+  commit: fb498150ef79de53080317493c00609d6c94c5cd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:57.037Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
