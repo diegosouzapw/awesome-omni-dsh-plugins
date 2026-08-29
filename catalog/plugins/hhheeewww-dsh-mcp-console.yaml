@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: hhheeewww-dsh-mcp-console
+name: dsh-mcp-console
+description:
+  en: "MCP management panel for DeepSeek Harness Web UI (Settings - MCP): view / add / edit / remove MCP servers (stdio & streamable-http), import MCP configs from GitHub, backed by the official @deepseek-ai/dsh-mcp-client bridge with hot add/remove (no restart)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - model-context-protocol
+  - mcp-manager
+source:
+  repository: https://github.com/HHHEEEWWW/dsh-mcp-console
+  repositoryNodeId: R_kgDOT4Fh8g
+  subpath: null
+  commit: 28f8f4ba0b151e2f66d6bbb79fb04267d2873c3d
+creator:
+  github: HHHEEEWWW
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:29.376Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
