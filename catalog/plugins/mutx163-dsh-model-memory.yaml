@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: mutx163-dsh-model-memory
+name: dsh-model-memory
+description:
+  en: bash dsh plugin --profile web add dsh-model-memory
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - reasoning-effort
+  - thinking-level
+  - model-memory
+  - cordis
+source:
+  repository: https://github.com/Mutx163/dsh-model-memory
+  repositoryNodeId: R_kgDOT_kvdQ
+  subpath: null
+  commit: ced0378fe35c238645f4a9bdb84bb76129d178c2
+creator:
+  github: Mutx163
+package:
+  ecosystem: npm
+  name: dsh-model-memory
+  version: 0.1.11
+  integrity: sha512-CNIH77ifzvGiL1nVF3S/s0BagvjiIGoLFdnAsj19Yl1VvZE2s3u/bdkYmxyMMT93exrarbYFmogQ46CrJO7PNA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:54.751Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
