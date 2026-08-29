@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-copernicium
+name: dsh-copernicium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-copernicium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-copernicium
+source:
+  repository: https://github.com/uckkk/dsh-copernicium
+  repositoryNodeId: R_kgDOT_DzJg
+  subpath: null
+  commit: 7ffcfd269c5793c559db7f9c03e2c6d2a145eaf0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:13.076Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
