@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: 863683348-dsh-plugin-gate
+name: dsh-plugin-gate
+description:
+  en: Installation safety gate & data-protection guard for DeepSeek Harness — 60 static signature rules (31 high / 24 medium / 5 low) scan plugin sources for malicious install scripts, credential theft, obfuscation and network callbacks before you run dsh plugin add , and 12 destructive-command patterns plus workspace-bounda
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - security
+  - scan
+  - audit
+  - malware
+  - supply-chain
+  - gate
+  - safety
+source:
+  repository: https://github.com/863683348/dsh-plugin-gate
+  repositoryNodeId: R_kgDOT6vfsg
+  subpath: null
+  commit: d46f0cdb6be8c8c7a63a401ac5e73b55be40cacc
+creator:
+  github: "863683348"
+package:
+  ecosystem: npm
+  name: dsh-plugin-gate
+  version: 1.2.0
+  integrity: sha512-VKxu29Hf9ipltlQHnNvel35Uys226Vsk8PTC7nECdRbnN1o2HTC+QTCP+Ye7XtnGSt6zckbxF7Zuk6L1g9MpUw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:55.238Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
