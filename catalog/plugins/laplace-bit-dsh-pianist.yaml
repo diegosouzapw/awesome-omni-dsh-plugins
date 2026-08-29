@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: laplace-bit-dsh-pianist
+name: dsh-pianist
+description:
+  en: "A deterministic piano performance plugin for DSH: shared musical timeline, piano audio engine, visual engine, and DSH-compatible host/browser boundary."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - piano
+  - music
+  - timeline
+  - audio
+  - webgl
+source:
+  repository: https://github.com/Laplace-bit/dsh-pianist
+  repositoryNodeId: R_kgDOT7ER8g
+  subpath: null
+  commit: 182e5aea7c4fa67b8d625ff4e9af0a4d312b01b9
+creator:
+  github: Laplace-bit
+package:
+  ecosystem: npm
+  name: dsh-pianist
+  version: 0.1.0
+  integrity: sha512-r3P+VeXClzehpsD+/ZS3WHUUksnekaUranFOhSrSZlZ9yXJ12o4krMuAym4UWfuOqvwIIt5A6aPxRoGj49tdqw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:49.691Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
