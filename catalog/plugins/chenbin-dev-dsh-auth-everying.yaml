@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chenbin-dev-dsh-auth-everying
+name: dsh-auth-everying
+description:
+  en: Import local Codex / Grok / Claude / Copilot / Gemini login state into DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - oauth
+  - codex
+  - claude
+  - grok
+  - opencode
+  - dsh
+source:
+  repository: https://github.com/chenbin-dev/dsh-auth-everying
+  repositoryNodeId: R_kgDOT58gvw
+  subpath: null
+  commit: 27da010e03f1da4e7e2be523a4f3d46fe4b0394f
+creator:
+  github: chenbin-dev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:21.468Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
