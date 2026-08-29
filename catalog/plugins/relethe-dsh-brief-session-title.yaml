@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: relethe-dsh-brief-session-title
+name: dsh-brief-session-title
+description:
+  en: A DeepSeek Harness (DSH) session-title plugin that condenses a full sentence into a single word for easier recall.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - session
+  - title
+  - condenses
+  - full
+  - sentence
+  - single
+  - word
+  - easier
+  - recall
+  - dsh
+source:
+  repository: https://github.com/Relethe/dsh-brief-session-title
+  repositoryNodeId: R_kgDOT8gjfg
+  subpath: null
+  commit: d0b4a8507739ce2f0fff24b9683e9b634894c60b
+creator:
+  github: Relethe
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:01.278Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
