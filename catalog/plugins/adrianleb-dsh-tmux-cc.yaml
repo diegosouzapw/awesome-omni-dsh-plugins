@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: adrianleb-dsh-tmux-cc
+name: dsh-tmux-cc
+description:
+  en: A persistent tmux control-mode cockpit for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - tmux
+  - control-mode
+  - terminal
+  - web-terminal
+  - xtermjs
+  - mobile
+source:
+  repository: https://github.com/adrianleb/dsh-tmux-cc
+  repositoryNodeId: R_kgDOUEFnHA
+  subpath: null
+  commit: e1c0daeca0edcc2fbe422486d61006a625140f59
+creator:
+  github: adrianleb
+package:
+  ecosystem: npm
+  name: dsh-tmux-cc
+  version: 0.5.3
+  integrity: sha512-wftpEv6efhHWsiaBR1Ft96+zTwtEVaucid+nuLZDQKBD2ehM8/T0hZ6P8hRPUIkDREsRUPvNyGC2Z7vUQSqt9w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:43.395Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
