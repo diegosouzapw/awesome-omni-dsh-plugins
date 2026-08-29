@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: github-cjx-dsh-tool-imagegen
+name: "@local/dsh-tool-imagegen"
+description:
+  en: bash cp -r dsh-tool-imagegen C:/Users/CJX/.dsh/plugins/
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - image-generation
+  - image-to-image
+  - openai-compatible
+  - dsh-plugin
+source:
+  repository: https://github.com/Github-CJX/dsh-tool-imagegen
+  repositoryNodeId: R_kgDOT6_OPQ
+  subpath: null
+  commit: 8544125fc0a69c399802b3c8c49eb10ed27976aa
+creator:
+  github: Github-CJX
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:18.304Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
