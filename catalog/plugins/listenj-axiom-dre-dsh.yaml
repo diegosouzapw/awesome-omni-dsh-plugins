@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: listenj-axiom-dre-dsh
+name: axiom-dre-dsh
+description:
+  en: "Axiom Deterministic Reasoning Engine (DRE) as a DeepSeek Harness (dsh) plugin: bridges the DRE knowledge-verification / deterministic-cognition / constraint-solving / synapse-memory tools into dsh under the dre prefix to strengthen information certainty."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - dre
+  - deterministic-reasoning
+  - mcp
+source:
+  repository: https://github.com/ListenJ/axiom-dre-dsh
+  repositoryNodeId: R_kgDOT81NQg
+  subpath: null
+  commit: 5f83f1a4a6fe6ba49ec26dcb178ba396cb8e23a7
+creator:
+  github: ListenJ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:27.395Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
