@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: geekricardo-dsh-convmap
+name: dsh-convmap
+description:
+  en: bash curl -fsSL https://raw.githubusercontent.com/GeekRicardo/dsh-convmap/main/install.sh bash
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bash
+  - curl
+  - fssl
+  - githubusercontent
+  - geekricardo
+  - convmap
+  - main
+  - install
+  - dsh
+source:
+  repository: https://github.com/GeekRicardo/dsh-convmap
+  repositoryNodeId: R_kgDOT-M-zA
+  subpath: null
+  commit: 0ed3184e521b93c23aa898467ebc24eecb73e075
+creator:
+  github: GeekRicardo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:13.495Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
