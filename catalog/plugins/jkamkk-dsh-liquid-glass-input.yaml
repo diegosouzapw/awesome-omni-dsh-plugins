@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jkamkk-dsh-liquid-glass-input
+name: dsh-liquid-glass-input
+description:
+  en: Liquid Glass input card for the dsh web GUI - kube.io Magnifying Glass SVG refraction with the original coupled-spring press animation and click highlight
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - liquid-glass
+  - ui
+source:
+  repository: https://github.com/jkamkk/dsh-liquid-glass-input
+  repositoryNodeId: R_kgDOUDo4xw
+  subpath: null
+  commit: 8ac01d16b303e9f31f51e46487a062eb90b0f149
+creator:
+  github: jkamkk
+package:
+  ecosystem: npm
+  name: dsh-liquid-glass-input
+  version: 1.32.5
+  integrity: sha512-8wv8KtIEVmGSdJcYANWmgmnxpkaoGrKvj5jE8KS7YBMDf1cdqDzOPpURjXeCkSU6wVA+99H64gk0oeFDZdW5Cw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:59.522Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
