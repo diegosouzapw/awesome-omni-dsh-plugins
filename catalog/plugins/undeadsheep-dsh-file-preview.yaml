@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: undeadsheep-dsh-file-preview
+name: "@undeadsheep/dsh-file-preview"
+description:
+  en: "Workspace file tree listing and text preview/editing backed by a Host Remote for the DeepSeek Harness (distributable bundle: host service + client UI)"
+  evidencePath: packages/dsh-file-preview/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - workspace
+  - file
+  - tree
+  - listing
+  - text
+  - preview
+  - editing
+  - backed
+  - host
+  - remote
+  - distributable
+  - bundle
+  - service
+  - client
+  - dsh
+source:
+  repository: https://github.com/UndeadSheep/dsh-file-preview
+  repositoryNodeId: R_kgDOT435_w
+  subpath: packages/dsh-file-preview
+  commit: 9b3689bf214cd54779a9da3a9effc3b4f128a2ac
+creator:
+  github: UndeadSheep
+package:
+  ecosystem: npm
+  name: "@undeadsheep/dsh-file-preview"
+  version: 0.1.2
+  integrity: sha512-ovWQvdQL0G51ifCYbmN9GRH2tr7Soa8Ce6lhaNoShh6VZTDHSxSmr15tRxscbi7+piSFn+7SwCRvinNlqYZK7A==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-file-preview/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:16.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
