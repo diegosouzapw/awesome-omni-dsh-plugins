@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: maxiaovivi-dsh-cloak-browser
+name: dsh-cloak-browser
+description:
+  en: Native CloakBrowser tools for DeepSeek Harness with per-agent browser sessions and snapshot references.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - cloakbrowser
+  - playwright
+  - browser-automation
+  - ai-agent
+source:
+  repository: https://github.com/maxiaovivi/dsh-cloak-browser
+  repositoryNodeId: R_kgDOT4m2aA
+  subpath: null
+  commit: d652020cebd601d24c1ed39fc00175558cfc166c
+creator:
+  github: maxiaovivi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:16.390Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
