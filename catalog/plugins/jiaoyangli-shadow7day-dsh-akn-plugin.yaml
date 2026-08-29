@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jiaoyangli-shadow7day-dsh-akn-plugin
+name: dsh-akn-plugin
+description:
+  en: Installable DeepSeek Harness plugin and reference implementation for the Agent Experience Network and AEXP 0.1
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - agent
+  - experience-network
+  - aexp
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/symmetryseeker/dsh-akn-plugin
+  repositoryNodeId: R_kgDOT7-iLQ
+  subpath: null
+  commit: 1fef6c849b89d9c4e499055cb4c26713c956fe76
+creator:
+  github: jiaoyangli-shadow7day
+package:
+  ecosystem: npm
+  name: dsh-akn-plugin
+  version: 0.2.0
+  integrity: sha512-37Q9xLg6jgs6BcUoeMj9urgwddrCp1H9YWYF/VxpUqrDtAgsR5nzfB4/G0vjUA6EhuAuO3anRneCQKEQ2xc+yg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:13.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
