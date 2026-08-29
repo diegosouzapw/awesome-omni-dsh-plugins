@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: microherox-dsh-exa-mcp
+name: dsh-exa-mcp
+description:
+  en: "Exa Search MCP for DeepSeek Harness: mounts the remote Exa MCP endpoint (https://mcp.exa.ai/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - exa
+  - mcp
+  - web-search
+  - web-fetch
+  - dsh
+source:
+  repository: https://github.com/MicroHEROX/dsh-exa-mcp
+  repositoryNodeId: R_kgDOT3378g
+  subpath: null
+  commit: be2fe2afddc729ff9417f947d654838f513fb8ef
+creator:
+  github: MicroHEROX
+package:
+  ecosystem: npm
+  name: dsh-exa-mcp
+  version: 0.1.0
+  integrity: sha512-f0fJll+9qMZj0dSziz7DLPEXNUHO47k78E0LmFeSgyhz9SrjWXMXdBaCYuuQcotQv4yaSl1S1YUp9wiRSbTpog==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.449Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
