@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-potting-mix
+name: dsh-potting-mix
+description:
+  en: bash dsh plugin add github:uckkk/dsh-potting-mix
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-potting-mix
+source:
+  repository: https://github.com/uckkk/dsh-potting-mix
+  repositoryNodeId: R_kgDOT-sT0Q
+  subpath: null
+  commit: fd6daa21aec0b21acdd7fbe98b23d374cb5fc8a4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:51.224Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
