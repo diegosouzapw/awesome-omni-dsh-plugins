@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: akush99-dsh-balance-chip
+name: dsh-balance-chip
+description:
+  en: DeepSeek API balance in the DSH sidebar footer – live status dot plus amount, 60s refresh, key stays local.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - usage
+  - billing
+source:
+  repository: https://github.com/AKUSH99/dsh-balance-chip
+  repositoryNodeId: R_kgDOUEutsA
+  subpath: null
+  commit: a2080e0f5024f95d35439988107183f024ba034d
+creator:
+  github: AKUSH99
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:06.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
