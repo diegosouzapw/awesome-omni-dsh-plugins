@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uckkk-dsh-db-migration
+name: dsh-db-migration
+description:
+  en: bash dsh plugin add dsh-db-migration
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - database
+  - migration
+  - ddl
+  - schema
+source:
+  repository: https://github.com/uckkk/dsh-db-migration
+  repositoryNodeId: R_kgDOT59fwA
+  subpath: null
+  commit: 9a0d56ade7852407bd42c8fa07f70f45057e7c77
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-db-migration
+  version: 0.1.0
+  integrity: sha512-lynnu6t2kqnc56hwO8n+8OOI6+SSU/nmeC+KH2ZSOk9oDsSyUV3xcjfau1Bk6f4xcreKrIBH/nLsuzpuL6BG+w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:38.372Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
