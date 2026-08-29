@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-seychelles
+name: dsh-seychelles
+description:
+  en: bash dsh plugin add github:uckkk/dsh-seychelles
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-seychelles
+source:
+  repository: https://github.com/uckkk/dsh-seychelles
+  repositoryNodeId: R_kgDOT-Cy1w
+  subpath: null
+  commit: 981d737ea0313b80116b637778a403ad9a5b8cb0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:59.332Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
