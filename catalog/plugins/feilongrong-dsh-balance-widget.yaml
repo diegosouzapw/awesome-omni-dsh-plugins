@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: feilongrong-dsh-balance-widget
+name: "@feilongrong/dsh-balance-widget"
+description:
+  en: "Sidebar balance widget for the DeepSeek Harness Web GUI (dsh web). A \"余额\" button appears in the sidebar footer; clicking it opens a panel listing each provider's account balance:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - balance
+  - sidebar
+source:
+  repository: https://github.com/FeilongRong/dsh-balance-widget
+  repositoryNodeId: R_kgDOT-7FIA
+  subpath: null
+  commit: 79cd46dd4a4106768af15c6d99ffa8d7566bd37e
+creator:
+  github: FeilongRong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:42:16.176Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
