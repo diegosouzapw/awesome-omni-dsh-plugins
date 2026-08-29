@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: luxueliu-luxueliu-usage-command
+name: luxueliu-usage-command
+description:
+  en: "Luxueliu /usage command for DeepSeek Harness: per-day API spend card (by model × hour) from the local LiteLLM gateway log. Covers 3 billable model classes — official APIs (CNY + Beijing peak pricing), relay/OpenRouter APIs (USD), and plan pools (Cline/Token Plan, token-only) — all freely extensible via cordis config (d"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - usage
+  - cost
+  - litellm
+  - token-usage
+  - luxueliu
+  - dsh
+source:
+  repository: https://github.com/luxueliu/luxueliu-usage-command
+  repositoryNodeId: R_kgDOT-dmZA
+  subpath: null
+  commit: 41fbc5e80b178697b7a1d4aa2b50cf647a665858
+creator:
+  github: luxueliu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:35.155Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
