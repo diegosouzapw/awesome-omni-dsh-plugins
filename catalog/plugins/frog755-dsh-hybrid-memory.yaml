@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: frog755-dsh-hybrid-memory
+name: "@frog755/dsh-hybrid-memory"
+description:
+  en: "Hybrid memory plugin for DeepSeek Harness: L1 frozen-snapshot memory (MEMORY.md/USER.md, prefix-cache friendly) + L2 searchable knowledge base (one-fact-per-file, FTS5) + L3 multi-tool import. Data lives on D drive, never C."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - memory
+  - knowledge-base
+  - hybrid-memory
+source:
+  repository: https://github.com/Frog755/dsh-hybrid-memory
+  repositoryNodeId: R_kgDOUCP9xg
+  subpath: null
+  commit: b13d0fc69924f13b59ebd4720fba83e580039bba
+creator:
+  github: Frog755
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:06.407Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
