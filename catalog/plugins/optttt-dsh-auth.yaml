@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: optttt-dsh-auth
+name: "@tyler9061/dsh-auth"
+description:
+  en: "Authentication plugin for DeepSeek Harness: accessing dsh web requires sign-in (username + password); idle sessions log out automatically; sessions expire after a configurable max age; single sign-on mode; the settings UI changes the username / password / expiry times; dsh web p resets the password and dsh web u change"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - auth
+  - authentication
+  - security
+source:
+  repository: https://github.com/optttt/dsh-auth
+  repositoryNodeId: R_kgDOT67n-g
+  subpath: null
+  commit: 109666e8679f099f880c7da185b45c9e6ecf8ae7
+creator:
+  github: optttt
+package:
+  ecosystem: npm
+  name: "@tyler9061/dsh-auth"
+  version: 0.1.7
+  integrity: sha512-GUASUVLER+ryGeeWJkzYCKr/60Gt6HspBBajx3clnfe2IBArKtAFPEIMs/mDoPCEfQ6qTp0muw+ljI8AIcId4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:08.565Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
