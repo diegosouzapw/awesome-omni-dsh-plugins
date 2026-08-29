@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: keepermttl-dsh-archive-viewer
+name: "@dsh-external/dsh-archive-viewer"
+description:
+  en: "Archived-session manager for the DeepSeek Harness (DSH) Web GUI : browse, read, and restore archived sessions , plus a one-click shutdown button in the header."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - archived
+  - session
+  - manager
+  - browse
+  - read
+  - restore
+  - sessions
+  - plus
+  - click
+  - shutdown
+  - button
+  - header
+  - dsh
+source:
+  repository: https://github.com/keepermttl/dsh-archive-viewer
+  repositoryNodeId: R_kgDOT3lPIA
+  subpath: null
+  commit: 715f33ad09425c0efcd4db1b405e0ca7b0e2d2de
+creator:
+  github: keepermttl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:46.851Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
