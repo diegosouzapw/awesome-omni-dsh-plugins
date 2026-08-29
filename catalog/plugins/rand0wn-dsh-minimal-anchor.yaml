@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: rand0wn-dsh-minimal-anchor
+name: dsh-minimal-anchor
+description:
+  en: "DeepSeek Harness (dsh) plugin: prune the tool schema and inject a structural preamble on a session's first turn only."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/rand0wn/dsh-minimal-anchor
+  repositoryNodeId: R_kgDOT7EuAg
+  subpath: null
+  commit: 782a731ce080138e3f1cf0498e8972f853da3ea9
+creator:
+  github: rand0wn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:59.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
