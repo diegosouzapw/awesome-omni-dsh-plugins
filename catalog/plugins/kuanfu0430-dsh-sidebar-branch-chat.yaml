@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: kuanfu0430-dsh-sidebar-branch-chat
+name: "@kuanfu0430/dsh-sidebar-branch-chat"
+description:
+  en: Adds a Branch Chat tab to dsh-better-sidebar that opens independent archived sessions with a head/middle/tail context digest and the same tools as the main agent.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - sidebar
+  - branch-chat
+  - dsh
+source:
+  repository: https://github.com/kuanfu0430/dsh-sidebar-branch-chat
+  repositoryNodeId: R_kgDOUCvq3Q
+  subpath: null
+  commit: 77ada5cda99f4fbf9b913cf7a9656e254a5be817
+creator:
+  github: kuanfu0430
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:26.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
