@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: miisaka19800-dsh-restart-fab
+name: dsh-restart-fab
+description:
+  en: A floating one-click restart button for the DeepSeek Harness web GUI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - restart
+  - web
+source:
+  repository: https://github.com/miisaka19800/dsh-restart-fab
+  repositoryNodeId: R_kgDOT5OKNw
+  subpath: null
+  commit: 99cd34aa81f4a279935afdb6e892d0900fe531dd
+creator:
+  github: miisaka19800
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
