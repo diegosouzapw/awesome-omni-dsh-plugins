@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: peefy-dsh-opencontext
+name: dsh-opencontext
+description:
+  en: DeepSeek Harness plugin that wires DSH agents to OpenContext for durable memory + retrieval-augmented context.
+  evidencePath: plugins/dsh-opencontext/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - opencontext
+  - melandlabs
+  - memory
+  - rag
+  - agent
+source:
+  repository: https://github.com/melandlabs/opencontext
+  repositoryNodeId: R_kgDOTz5TWQ
+  subpath: plugins/dsh-opencontext
+  commit: dec7351e77d7a29bc4119c0ac06e8cee9fadae26
+creator:
+  github: Peefy
+package:
+  ecosystem: npm
+  name: dsh-opencontext
+  version: 0.3.2
+  integrity: sha512-aCw2sRBAkz+eDxOdzOrPWvWU2Sslu+o8CtuvGxj3mnJx0eeyEmM9IIPGdQVMuADkAPz2oDZeDYN/uSth80JNBw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-opencontext/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:05.718Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
