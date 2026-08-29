@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-plug-type
+name: dsh-plug-type
+description:
+  en: bash dsh plugin add github:uckkk/dsh-plug-type
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-plug-type
+source:
+  repository: https://github.com/uckkk/dsh-plug-type
+  repositoryNodeId: R_kgDOT-tR0A
+  subpath: null
+  commit: 91f8185f08ad07d23fa1d514fa0cc69c612cec8e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:50.333Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
