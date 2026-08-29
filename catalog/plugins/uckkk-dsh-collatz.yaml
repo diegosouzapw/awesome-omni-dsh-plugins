@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-collatz
+name: dsh-collatz
+description:
+  en: bash dsh plugin add github:uckkk/dsh-collatz
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-collatz
+source:
+  repository: https://github.com/uckkk/dsh-collatz
+  repositoryNodeId: R_kgDOT9u9uA
+  subpath: null
+  commit: ccf66322ea7827e4f26ba489372ba553115286ef
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:12.550Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
