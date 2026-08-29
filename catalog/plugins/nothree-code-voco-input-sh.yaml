@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: nothree-code-voco-input-sh
+name: voco-input-sh
+description:
+  en: "VocoType voice input bridge for DSH Web: mic button + recording panel in the composer, auto-insert recognized text (dedupe, auto-launch/deploy, mtime-optimized polling)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - vocotype
+  - voice
+  - input
+  - bridge
+  - button
+  - recording
+  - panel
+  - composer
+  - auto
+  - insert
+  - recognized
+  - text
+  - dedupe
+  - launch
+  - deploy
+  - mtime
+source:
+  repository: https://github.com/Nothree-code/voco-input-sh
+  repositoryNodeId: R_kgDOT5AesA
+  subpath: null
+  commit: 8ffb18956266a8a167bcfa49acd73eb037d094f2
+creator:
+  github: Nothree-code
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:50.460Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
