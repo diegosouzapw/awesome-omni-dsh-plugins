@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-running-pace
+name: dsh-running-pace
+description:
+  en: bash dsh plugin add github:uckkk/dsh-running-pace
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-running-pace
+source:
+  repository: https://github.com/uckkk/dsh-running-pace
+  repositoryNodeId: R_kgDOT-DdNQ
+  subpath: null
+  commit: 3f408438a1b9251094ad5364610d9629602b602b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:53.126Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
