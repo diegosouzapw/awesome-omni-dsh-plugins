@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: noelune-dsh-agent-relay
+name: dsh-agent-relay
+description:
+  en: Multi-agent collaboration relay for DeepSeek Harness — send and receive messages between local agents (dsh, Codex, Claude, Hermes, OpenClaw, …) through a small loopback-first broker with HMAC auth. Ships the broker, the dsh plugin, a CLI client and a Python client. · DSH 多 Agent 协作中继：本地 Agent 之间经轻量 broker 安全互发消息。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - relay
+  - agent
+  - collaboration
+  - multi-agent
+source:
+  repository: https://github.com/Noelune/dsh-agent-relay
+  repositoryNodeId: R_kgDOT4jXUA
+  subpath: null
+  commit: 6d17ff49c3a59f85437cb061a4353b43198536b2
+creator:
+  github: Noelune
+package:
+  ecosystem: npm
+  name: dsh-agent-relay
+  version: 0.5.0
+  integrity: sha512-lOQHr2+KtLBJ/stgg+khi8VsdzwUjvNKvEa02X0oogYPEcVWW82kiZ2C2jUFWCcAfYlVolekdrKfeUoUvvKXJQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:43.891Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
