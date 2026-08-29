@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-color-blindness
+name: dsh-color-blindness
+description:
+  en: bash dsh plugin add dsh-color-blindness 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-color-blindness" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - color
+  - accessibility
+  - colorblind
+source:
+  repository: https://github.com/uckkk/dsh-color-blindness
+  repositoryNodeId: R_kgDOT6jKUg
+  subpath: null
+  commit: de166c13ddbbbf4d66ce899d07afe863fcc60750
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:28.173Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
