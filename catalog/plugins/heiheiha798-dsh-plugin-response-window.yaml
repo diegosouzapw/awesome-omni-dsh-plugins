@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: heiheiha798-dsh-plugin-response-window
+name: dsh-plugin-response-window
+description:
+  en: "DeepSeek Harness (DSH) web plugin: per-turn response window. Each turn's tool calls collapse into ONE always-expanded bounded slide (configurable N-line window, inner scroll, nothing hidden), and long assistant markdown gets a bounded scroll window too — Grok-build style, keeps every intermediate response visible insid"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - response-window
+  - tool-call
+  - slide
+  - web-ui
+source:
+  repository: https://github.com/heiheiha798/dsh-plugin-response-window
+  repositoryNodeId: R_kgDOUCRHzg
+  subpath: null
+  commit: 913283e245f1e534ec9a589ca6921f6d2b1ddb3e
+creator:
+  github: heiheiha798
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:12.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
