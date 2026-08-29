@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: pananfly-dsh-auth-access
+name: "@pananfly/dsh-auth-access"
+description:
+  en: "Auth + LAN proxy for dsh web: password/TOTP gate via :: proxy, internal 127.0.0.1 webServer, optional isLoopback patch"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - auth
+  - proxy
+  - cordis
+  - totp
+source:
+  repository: https://github.com/pananfly/dsh-auth-access
+  repositoryNodeId: R_kgDOUCSSkw
+  subpath: null
+  commit: 8738d8a7662ceba1930dc397dfe8bc9b5a3ef3ff
+creator:
+  github: pananfly
+package:
+  ecosystem: npm
+  name: "@pananfly/dsh-auth-access"
+  version: 0.1.0
+  integrity: sha512-7acIqdKh1vl/pXBYtWgsxSbO1RlswhP+ETuvJcdDoa0efBgUnvNiODHhfq1Mr71GUCxCa3dhJPoVY3d2HehgUQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:17.442Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
