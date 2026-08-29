@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jorinyang-dsh-doctor
+name: "@jorinyang/dsh-doctor"
+description:
+  en: "DeepSeek Harness diagnostic, repair, and rollback plugin: dsh doctor (diagnose), dsh doctor fix (journaled repair), dsh doctor rollback (LIFO undo), plus a Cordis runtime service for dynamic self-healing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - diagnostic
+  - doctor
+  - repair
+  - cli
+  - agent
+  - dsh-doctor
+source:
+  repository: https://github.com/jorinyang/dsh-doctor
+  repositoryNodeId: R_kgDOT3rLwQ
+  subpath: null
+  commit: 79418687575d499f9445b4ada7a6a01e18947e68
+creator:
+  github: jorinyang
+package:
+  ecosystem: npm
+  name: "@jorinyang/dsh-doctor"
+  version: 0.3.2
+  integrity: sha512-mJXZEHJ9trypj631Yex3B9IHbtft77FGioLqTpenBSNbPHKBp5v78eoZunFRC2VqzLT18yT7KpY/PX0tOmCu7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:18.619Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
