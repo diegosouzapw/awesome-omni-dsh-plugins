@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: littleboylittlegirl-dsh-community-hot
+name: dsh-community-hot
+description:
+  en: A floating panel for the DeepSeek Harness Web UI that surfaces what's hot in the dsh community right now — 24-hour hot topics and the top 10 hot plugins — with a draggable, always-on-top button and deep links straight to the content pages.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - community
+  - hot-topics
+source:
+  repository: https://github.com/littleboylittlegirl/dsh-community-hot
+  repositoryNodeId: R_kgDOT4-YSQ
+  subpath: null
+  commit: 412027f49c570c284d45e3a88a06e43977ac15a9
+creator:
+  github: littleboylittlegirl
+package:
+  ecosystem: npm
+  name: dsh-community-hot
+  version: 0.1.1
+  integrity: sha512-qngNyvjxBrZZJzDrS1TpJwRFM31l3lZE0NJW2nu/gNdxnp/FM+jSfVHX0PJ9kqt9KPF2jBoSezwa47QvlbuHOw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:52.478Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
