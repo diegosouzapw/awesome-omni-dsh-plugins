@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: perrylink-dsh-data-quality
+name: dsh-data-quality
+description:
+  en: "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: a ctx.dataQuality capability seam (Service Definition / local Provider / tool Consumers) with data profile, data clean, and data verify model tools, a frozen cross-plugin verifyCitations contract, durable reports in a storage domain, and dat"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - data-quality
+  - data-cleaning
+  - data-profiling
+  - data-verification
+source:
+  repository: https://github.com/PerryLink/dsh-data-quality
+  repositoryNodeId: R_kgDOT9kaIw
+  subpath: null
+  commit: cc06b3f6d9d54b81127a52493fafbad0839d1cda
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-data-quality
+  version: 0.3.0
+  integrity: sha512-ctyNrEehTn0OjvGMctaxkAqTSkL8bjJY4mp6SoLhuGZGiPJjOYb8l996sdPHKSyi9cjHEmYZjvpO7ZMQ8WYQEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:52.172Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
