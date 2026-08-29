@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bleach-safety
+name: dsh-bleach-safety
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bleach-safety
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bleach-safety
+source:
+  repository: https://github.com/uckkk/dsh-bleach-safety
+  repositoryNodeId: R_kgDOT-vn9A
+  subpath: null
+  commit: 94ca0940c09fbd9a146cd5c92105758c803ee157
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:43.598Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
