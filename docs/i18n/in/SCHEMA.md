@@ -16,8 +16,9 @@ panjang yang menolak nilai yang menyerupai opsi atau tidak terbatas). Di atasnya
 SRI untuk nilai integritas, parsing ekspresi SPDX untuk lisensi, dan penolakan kunci duplikat.
 Sebuah nilai bisa cocok dengan pola skema namun tetap ditolak secara semantik.
 
-Aturan tingkat atas: entri adalah satu objek YAML tunggal, `additionalProperties: false`
-(bidang yang tidak dikenal ditolak), dan **semua** bidang berikut diwajibkan.
+शीर्ष-स्तरीय नियम: प्रविष्टि एक ही YAML ऑब्जेक्ट है, `additionalProperties: false`
+(अज्ञात फ़ील्ड अस्वीकार किए जाते हैं), और नीचे दिए गए सभी फ़ील्ड आवश्यक हैं, सिवाय `media` के —
+एकमात्र वैकल्पिक फ़ील्ड।
 
 ## Bidang tingkat atas
 
@@ -40,6 +41,7 @@ Aturan tingkat atas: entri adalah satu objek YAML tunggal, `additionalProperties
 | `license`         | object  |   ya    | Ekspresi lisensi SPDX hulu                              |
 | `verification`    | object  |   ya    | Status verifikasi, waktu pemeriksaan, identitas, dan smoke test      |
 | `provenance`      | object  |   ya    | URL Discussion/komentar publik atau `null`                      |
+| `media`           | array   |    tidak    | अधिकतम 6 स्क्रीनशॉट/वीडियो, हर URL `source.commit` पर पिन |
 
 ### `schemaVersion`
 
@@ -224,6 +226,33 @@ Tautan provenance publik, masing-masing berupa URI atau `null`:
 | `discussion` | string atau null | URL Discussion publik jika ada            |
 | `comment`    | string atau null | URL komentar publik jika ada               |
 
+### `media`
+
+एकमात्र वैकल्पिक फ़ील्ड। अधिकतम **6** आइटम की सूची, जिनमें से हर एक प्लगइन का एक स्क्रीनशॉट या एक छोटा वीडियो बताता है:
+
+| गुण | प्रकार | नियम |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` या `video` |
+| `url`    | string | अपरिवर्तनीय GitHub URL, अधिकतम 2048 अक्षर (नीचे देखें) |
+| `alt`    | string | वैकल्पिक पाठ, 1–120 अक्षर |
+
+यहाँ का URL उतना ही अपरिवर्तनीय होना चाहिए जितना `source.commit`। ब्रांच नाम वाला
+`raw.githubusercontent.com` पथ (`.../main/docs/shot.png`) वही दिखाता है जो वह ब्रांच आज रखती है,
+इसलिए जिस दिन ब्रांच आगे बढ़ेगी उस दिन प्रविष्टि एक बिना समीक्षा वाली छवि प्रकाशित कर देगी। केवल दो
+रूप स्वीकार्य हैं:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — कमिट पर पिन किया गया raw पथ;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub का सामग्री-आधारित अपलोड URL, `video` आइटम के लिए।
+
+स्कीमा केवल सुरक्षित आकार लागू करती है (होस्ट, 40 अक्षरों का हेक्साडेसिमल संदर्भ, सीमित लंबाई)।
+बाकी `catalog validate` अर्थ के स्तर पर लागू करता है: URL को **प्रविष्टि के अपने** रिपॉज़िटरी में
+**प्रविष्टि के अपने** `source.commit` को पिन करना चाहिए, और ब्रांच URL को
+`media[n].url must pin the entry commit, not a branch` के साथ अस्वीकार किया जाता है।
+
+जब दिखाने के लिए कुछ न हो तो फ़ील्ड पूरी तरह छोड़ दें — `media: []` "कोई स्क्रीनशॉट नहीं" कहने का
+मान्य तरीका नहीं है। यह फ़ील्ड योगात्मक है: इसके अस्तित्व से पहले प्रकाशित प्रविष्टियाँ मान्य रहती
+हैं, और इसे अनदेखा करने वाला उपभोक्ता हर प्रविष्टि पहले जैसी ही पढ़ता है।
+
 ## Apa yang tidak diperiksa skema
 
 Skema sengaja bersifat lokal dan struktural. Ia **tidak** memverifikasi bahwa repositori itu
@@ -232,4 +261,4 @@ jumlah bintang akurat, atau bahwa kreator memiliki sumber tersebut. Pemeriksaan 
 milik gerbang tinjauan maintainer yang dijelaskan di [CONTRIBUTING.md](../../CONTRIBUTING.md)
 dan [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

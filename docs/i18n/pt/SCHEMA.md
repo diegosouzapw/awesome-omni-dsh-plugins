@@ -17,8 +17,9 @@ versões, SRI SHA-512 para valores de integridade, análise de expressões SPDX 
 rejeição de chaves duplicadas. Um valor pode corresponder ao padrão do esquema e ainda assim ser
 rejeitado semanticamente.
 
-Regras de topo: a entrada é um único objeto YAML, `additionalProperties: false` (campos
-desconhecidos são rejeitados), e **todos** os campos seguintes são obrigatórios.
+Regras de nível superior: a entrada é um único objeto YAML, `additionalProperties: false`
+(campos desconhecidos são rejeitados), e todos os campos abaixo são obrigatórios, exceto `media`,
+o único campo opcional.
 
 ## Campos de topo
 
@@ -41,6 +42,7 @@ desconhecidos são rejeitados), e **todos** os campos seguintes são obrigatóri
 | `license`           | object  |     sim     | Expressão SPDX da licença a montante                                |
 | `verification`      | object  |     sim     | Estado de verificação, hora de verificação, identidade e teste de fumo |
 | `provenance`         | object  |     sim     | URLs públicos de Discussion/comentário, ou `null`                   |
+| `media`           | array   |    não    | Até 6 capturas/vídeos, cada URL fixada em `source.commit` |
 
 ### `schemaVersion`
 
@@ -226,6 +228,33 @@ Ligações públicas de proveniência, cada uma um URI ou `null`:
 | `discussion`    | string ou null   | URL público de Discussion quando existir                   |
 | `comment`       | string ou null   | URL público de comentário quando existir                   |
 
+### `media`
+
+O único campo opcional. Um array com um máximo de **6** itens, cada um a descrever uma captura de ecrã ou um vídeo curto do plugin:
+
+| Propriedade | Tipo | Regras |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` ou `video` |
+| `url`    | string | URL imutável do GitHub, no máximo 2048 caracteres (ver abaixo) |
+| `alt`    | string | Texto alternativo, 1–120 caracteres |
+
+Uma URL aqui tem de ser tão imutável quanto `source.commit`. Um caminho
+`raw.githubusercontent.com` que transporta um nome de ramo (`.../main/docs/shot.png`) mostra o que
+esse ramo contém hoje, pelo que a entrada publicaria uma imagem não revista no dia em que o ramo
+se mover. São aceites dois formatos:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — o caminho raw fixado;
+- `https://github.com/<owner>/<repo>/assets/…` — o URL de carregamento endereçado por conteúdo do GitHub, para itens `video`.
+
+O schema garante o formato seguro (host, referência hexadecimal de 40 caracteres, comprimento
+limitado). O `catalog validate` garante o resto semanticamente: o URL tem de fixar o
+`source.commit` **da própria entrada** no repositório **da própria entrada**, e um URL de ramo é
+rejeitado com `media[n].url must pin the entry commit, not a branch`.
+
+Omita o campo por completo quando não houver nada a mostrar — `media: []` não é uma forma válida
+de dizer "sem capturas de ecrã". O campo é aditivo: as entradas publicadas antes de ele existir
+mantêm-se válidas, e um consumidor que o ignora lê todas as entradas exatamente como antes.
+
 ## O que o esquema não verifica
 
 O esquema é intencionalmente local e estrutural. **Não** verifica se o repositório existe, se o
@@ -234,4 +263,4 @@ estrelas é exata, nem se o criador é dono da fonte. Essas verificações perte
 revisão dos mantenedores descritos em [CONTRIBUTING.md](../../CONTRIBUTING.md) e
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

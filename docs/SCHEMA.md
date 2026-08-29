@@ -17,7 +17,7 @@ expression parsing for licenses, and duplicate-key rejection. A value can match 
 pattern and still be rejected semantically.
 
 Top-level rules: the entry is a single YAML object, `additionalProperties: false` (unknown
-fields are rejected), and **all** of the following fields are required.
+fields are rejected), and every field below is required except `media`, the one optional field.
 
 ## Top-level fields
 
@@ -40,6 +40,7 @@ fields are rejected), and **all** of the following fields are required.
 | `license`         | object  |   yes    | Upstream SPDX license expression                              |
 | `verification`    | object  |   yes    | Verification status, check time, identity and smoke test      |
 | `provenance`      | object  |   yes    | Public Discussion/comment URLs or `null`                      |
+| `media`           | array   |    no    | Up to 6 screenshots/videos, every URL pinned to `source.commit` |
 
 ### `schemaVersion`
 
@@ -220,6 +221,34 @@ Public provenance links, each a URI or `null`:
 | ------------ | ------------- | ------------------------------------------------ |
 | `discussion` | string or null | Public Discussion URL when one exists            |
 | `comment`    | string or null | Public comment URL when one exists               |
+
+### `media`
+
+The only optional field. An array of at most **6** items, each describing one screenshot or short
+video of the plugin:
+
+| Property | Type   | Rules                                                                   |
+| -------- | ------ | ----------------------------------------------------------------------- |
+| `kind`   | enum   | `screenshot` or `video`                                                 |
+| `url`    | string | Immutable GitHub URL, max 2048 chars (see below)                        |
+| `alt`    | string | Alternative text, 1–120 characters                                      |
+
+A URL here must be as immutable as `source.commit`. A `raw.githubusercontent.com` path carrying a
+branch name (`.../main/docs/shot.png`) shows whatever that branch holds today, so the entry would
+publish an unreviewed picture the day the branch moves. Two shapes are accepted:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — the pinned raw path;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub's content-addressed upload URL, for
+  `video` items.
+
+The schema enforces the safe shape (host, a 40-character hexadecimal ref, bounded length).
+`catalog validate` enforces the rest semantically: the URL must pin **this entry's own**
+`source.commit` in **this entry's own** repository, and a branch URL is rejected with
+`media[n].url must pin the entry commit, not a branch`.
+
+Omit the field entirely when there is nothing to show — `media: []` is not a valid way to say
+"no screenshots". The field is additive: entries published before it existed remain valid, and a
+consumer that ignores it reads every entry exactly as before.
 
 ## What the schema does not check
 

@@ -16,8 +16,7 @@
 パース、そして重複キーの拒否です。値がスキーマのパターンに一致していても、セマンティックには拒否される
 場合があります。
 
-トップレベルのルール: エントリは単一のYAMLオブジェクトであり、`additionalProperties: false`(未知のフ
-ィールドは拒否されます)、そして**以下のすべての**フィールドが必須です。
+トップレベルのルール: エントリは単一のYAMLオブジェクトであり、`additionalProperties: false`(未知のフィールドは拒否されます)、そして以下のフィールドは、唯一の任意フィールドである `media` を除いてすべて必須です。
 
 ## トップレベルフィールド
 
@@ -40,6 +39,7 @@
 | `license`         | object  |   yes    | upstreamのSPDXライセンス表記                                     |
 | `verification`    | object  |   yes    | 検証ステータス、チェック時刻、識別情報、スモークテスト      |
 | `provenance`      | object  |   yes    | 公開のDiscussion/コメントのURL、または `null`                      |
+| `media`           | array   |    no    | 最大6件のスクリーンショット/動画。各URLは `source.commit` に固定 |
 
 ### `schemaVersion`
 
@@ -222,6 +222,25 @@
 | `discussion` | string または null | 存在する場合は、公開Discussionのurl            |
 | `comment`    | string または null | 存在する場合は、公開コメントのurl               |
 
+### `media`
+
+唯一の任意フィールドです。最大 **6** 件の配列で、各要素はプラグインのスクリーンショット1枚または短い動画1本を表します:
+
+| プロパティ | 型 | ルール |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` または `video` |
+| `url`    | string | 不変のGitHub URL、最大2048文字(下記参照) |
+| `alt`    | string | 代替テキスト、1〜120文字 |
+
+ここのURLは `source.commit` と同じくらい不変でなければなりません。ブランチ名を含む `raw.githubusercontent.com` のパス(`.../main/docs/shot.png`)は、そのブランチが今日保持している内容を表示するため、ブランチが動いた日にエントリはレビューされていない画像を公開してしまいます。受け入れられる形式は2つです:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — コミットに固定されたrawパス;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHubのコンテンツアドレス指定のアップロードURL(`video` 要素向け)。
+
+スキーマが強制するのは安全な形状(ホスト、40文字の16進参照、長さの上限)だけです。残りは `catalog validate` がセマンティックに強制します: URLは**そのエントリ自身の**リポジトリ内で**そのエントリ自身の** `source.commit` を固定しなければならず、ブランチのURLは `media[n].url must pin the entry commit, not a branch` で拒否されます。
+
+見せるものがない場合はフィールドごと省略してください — `media: []` は「スクリーンショットなし」を表す有効な書き方ではありません。このフィールドは追加的です: 存在する前に公開されたエントリは有効なままで、無視するコンシューマーはこれまでと全く同じようにすべてのエントリを読めます。
+
 ## スキーマがチェックしないこと
 
 このスキーマは、意図的にローカルかつ構造的なものです。それは、リポジトリが存在すること、ノードIDがURL
@@ -230,4 +249,4 @@
 [CONTRIBUTING.md](../../CONTRIBUTING.md) と [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) に記載され
 ている、メンテナーのレビューゲートに属します。
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

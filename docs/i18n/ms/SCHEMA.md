@@ -18,8 +18,9 @@ versi, SHA-512 SRI untuk nilai integriti, penghuraian ungkapan SPDX untuk lesen,
 penolakan kunci pendua. Satu nilai boleh sepadan dengan corak skema tetapi masih ditolak
 secara semantik.
 
-Peraturan peringkat atas: entri adalah satu objek YAML tunggal, `additionalProperties: false`
-(medan tidak dikenali ditolak), dan **semua** medan berikut diperlukan.
+Peraturan peringkat atas: entri ialah satu objek YAML, `additionalProperties: false`
+(medan yang tidak dikenali ditolak), dan semua medan di bawah adalah wajib kecuali `media` —
+satu-satunya medan pilihan.
 
 ## Medan peringkat atas
 
@@ -42,6 +43,7 @@ Peraturan peringkat atas: entri adalah satu objek YAML tunggal, `additionalPrope
 | `license`         | objek  |   ya    | Ungkapan lesen SPDX huluan                                |
 | `verification`    | objek  |   ya    | Status pengesahan, masa semakan, identiti dan ujian asap      |
 | `provenance`      | objek  |   ya    | URL Discussion/komen awam atau `null`                      |
+| `media`           | array   |    tidak    | Sehingga 6 tangkapan skrin/video, setiap URL disematkan pada `source.commit` |
 
 ### `schemaVersion`
 
@@ -228,6 +230,33 @@ Pautan provenans awam, setiap satu URI atau `null`:
 | `discussion` | rentetan atau null | URL Discussion awam apabila ia wujud            |
 | `comment`    | rentetan atau null | URL komen awam apabila ia wujud               |
 
+### `media`
+
+Satu-satunya medan pilihan. Tatasusunan dengan paling banyak **6** item, setiap satu menerangkan satu tangkapan skrin atau video pendek pemalam:
+
+| Sifat | Jenis | Peraturan |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` atau `video` |
+| `url`    | string | URL GitHub yang tidak boleh berubah, maksimum 2048 aksara (lihat di bawah) |
+| `alt`    | string | Teks alternatif, 1–120 aksara |
+
+URL di sini mesti setegar `source.commit`. Laluan `raw.githubusercontent.com` yang membawa nama
+cabang (`.../main/docs/shot.png`) memaparkan apa yang cabang itu simpan hari ini, jadi entri akan
+menerbitkan imej yang belum disemak pada hari cabang itu bergerak. Dua bentuk diterima:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — laluan raw yang disematkan pada komit;
+- `https://github.com/<owner>/<repo>/assets/…` — URL muat naik GitHub yang dialamatkan mengikut kandungan, untuk item `video`.
+
+Skema hanya menguatkuasakan bentuk selamat (hos, rujukan heksadesimal 40 aksara, panjang
+terhad). Selebihnya dikuatkuasakan `catalog validate` secara semantik: URL mesti menyematkan
+`source.commit` **entri itu sendiri** dalam repositori **entri itu sendiri**, dan URL cabang
+ditolak dengan `media[n].url must pin the entry commit, not a branch`.
+
+Tinggalkan medan ini sepenuhnya apabila tiada apa-apa untuk ditunjukkan — `media: []` bukan cara
+yang sah untuk berkata "tiada tangkapan skrin". Medan ini bersifat tambahan: entri yang
+diterbitkan sebelum ia wujud kekal sah, dan pengguna yang mengabaikannya membaca setiap entri
+tepat seperti dahulu.
+
 ## Apa yang tidak disemak oleh skema
 
 Skema itu sengaja tempatan dan struktur. Ia **tidak** mengesahkan bahawa repositori itu
@@ -237,4 +266,4 @@ tergolong dalam pintu gerbang semakan penyelenggara yang diterangkan di
 [CONTRIBUTING.md](../../CONTRIBUTING.md) dan
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

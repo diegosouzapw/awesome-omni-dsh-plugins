@@ -17,9 +17,9 @@ SHA-512-SRI für Integritätswerte, SPDX-Ausdrucksparsing für Lizenzen und die 
 doppelter Schlüssel. Ein Wert kann dem Schema-Muster entsprechen und trotzdem semantisch
 abgelehnt werden.
 
-Regeln auf oberster Ebene: Der Eintrag ist ein einzelnes YAML-Objekt, `additionalProperties:
-false` (unbekannte Felder werden abgelehnt), und **alle** der folgenden Felder sind
-erforderlich.
+Regeln auf oberster Ebene: Der Eintrag ist ein einzelnes YAML-Objekt,
+`additionalProperties: false` (unbekannte Felder werden abgelehnt), und alle folgenden Felder sind
+pflicht — außer `media`, dem einzigen optionalen Feld.
 
 ## Felder auf oberster Ebene
 
@@ -42,6 +42,7 @@ erforderlich.
 | `license`           | object  |      ja       | Upstream-SPDX-Lizenzausdruck                                      |
 | `verification`      | object  |      ja       | Verifizierungsstatus, Prüfzeitpunkt, Identität und Smoke-Test      |
 | `provenance`         | object  |      ja       | Öffentliche Discussion-/Kommentar-URLs oder `null`                 |
+| `media`           | array   |    nein    | Bis zu 6 Screenshots/Videos, jede URL auf `source.commit` fixiert |
 
 ### `schemaVersion`
 
@@ -231,6 +232,34 @@ Status ist eine Empfehlung oder eine Sicherheitszertifizierung — siehe
 | `discussion`    | string oder null  | Öffentliche Discussion-URL, wenn vorhanden                 |
 | `comment`       | string oder null  | Öffentliche Kommentar-URL, wenn vorhanden                   |
 
+### `media`
+
+Das einzige optionale Feld. Ein Array mit höchstens **6** Einträgen, von denen jeder einen Screenshot oder ein kurzes Video des Plugins beschreibt:
+
+| Eigenschaft | Typ | Regeln |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` oder `video` |
+| `url`    | string | Unveränderliche GitHub-URL, maximal 2048 Zeichen (siehe unten) |
+| `alt`    | string | Alternativtext, 1–120 Zeichen |
+
+Eine URL hier muss so unveränderlich sein wie `source.commit`. Ein
+`raw.githubusercontent.com`-Pfad mit einem Branch-Namen (`.../main/docs/shot.png`) zeigt das, was
+dieser Branch heute enthält — der Eintrag würde also ein ungeprüftes Bild veröffentlichen, sobald
+der Branch sich bewegt. Zwei Formen werden akzeptiert:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — der fixierte Raw-Pfad;
+- `https://github.com/<owner>/<repo>/assets/…` — die inhaltsadressierte Upload-URL von GitHub, für `video`-Einträge.
+
+Das Schema erzwingt die sichere Form (Host, 40-stellige hexadezimale Referenz, begrenzte Länge).
+`catalog validate` erzwingt den Rest semantisch: Die URL muss den `source.commit` **dieses
+Eintrags** im Repository **dieses Eintrags** fixieren, und eine Branch-URL wird mit
+`media[n].url must pin the entry commit, not a branch` abgelehnt.
+
+Lassen Sie das Feld ganz weg, wenn es nichts zu zeigen gibt — `media: []` ist keine gültige Art,
+"keine Screenshots" zu sagen. Das Feld ist additiv: Einträge, die vor seiner Existenz
+veröffentlicht wurden, bleiben gültig, und ein Konsument, der es ignoriert, liest jeden Eintrag
+genau wie zuvor.
+
 ## Was das Schema nicht prüft
 
 Das Schema ist absichtlich lokal und strukturell. Es prüft **nicht**, ob das Repository
@@ -239,4 +268,4 @@ existieren, ob die Sternezahl korrekt ist, oder ob der Ersteller die Quelle besi
 Prüfungen gehören zu den Maintainer-Review-Gates, beschrieben in
 [CONTRIBUTING.md](../../CONTRIBUTING.md) und [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

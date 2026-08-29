@@ -18,7 +18,8 @@ duplicada. Un valor puede coincidir con el patrón del schema y aun así ser rec
 semánticamente.
 
 Reglas de nivel superior: la entrada es un único objeto YAML, `additionalProperties: false`
-(los campos desconocidos se rechazan), y **todos** los campos siguientes son obligatorios.
+(los campos desconocidos se rechazan), y todos los campos siguientes son obligatorios excepto
+`media`, el único campo opcional.
 
 ## Campos de nivel superior
 
@@ -41,6 +42,7 @@ Reglas de nivel superior: la entrada es un único objeto YAML, `additionalProper
 | `license`         | object  |   sí    | Expresión SPDX de licencia upstream                               |
 | `verification`    | object  |   sí    | Estado de verificación, momento de comprobación, identidad y smoke test |
 | `provenance`      | object  |   sí    | URLs públicas de Discussion/comentario o `null`                      |
+| `media`           | array   |    no    | Hasta 6 capturas/vídeos, cada URL fijada a `source.commit` |
 
 ### `schemaVersion`
 
@@ -227,6 +229,33 @@ Enlaces públicos de procedencia, cada uno una URI o `null`:
 | `discussion` | string o null | URL pública de Discussion cuando exista            |
 | `comment`    | string o null | URL pública de comentario cuando exista            |
 
+### `media`
+
+El único campo opcional. Un array de como máximo **6** elementos, cada uno describiendo una captura de pantalla o un vídeo corto del plugin:
+
+| Propiedad | Tipo | Reglas |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` o `video` |
+| `url`    | string | URL inmutable de GitHub, máximo 2048 caracteres (ver abajo) |
+| `alt`    | string | Texto alternativo, 1–120 caracteres |
+
+Una URL aquí debe ser tan inmutable como `source.commit`. Una ruta `raw.githubusercontent.com`
+que lleva un nombre de rama (`.../main/docs/shot.png`) muestra lo que esa rama contiene hoy, así
+que la entrada publicaría una imagen no revisada el día en que la rama se mueva. Se aceptan dos
+formas:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — la ruta raw fijada;
+- `https://github.com/<owner>/<repo>/assets/…` — la URL de subida direccionada por contenido de GitHub, para elementos `video`.
+
+El esquema exige la forma segura (host, referencia hexadecimal de 40 caracteres, longitud
+acotada). `catalog validate` exige el resto semánticamente: la URL debe fijar el `source.commit`
+**de la propia entrada** en el repositorio **de la propia entrada**, y una URL de rama se rechaza
+con `media[n].url must pin the entry commit, not a branch`.
+
+Omite el campo por completo cuando no haya nada que mostrar: `media: []` no es una forma válida
+de decir "sin capturas". El campo es aditivo: las entradas publicadas antes de que existiera
+siguen siendo válidas, y un consumidor que lo ignora lee todas las entradas igual que antes.
+
 ## Lo que el schema no verifica
 
 El schema es intencionalmente local y estructural. **No** verifica que el repositorio exista, que
@@ -235,4 +264,4 @@ conteo de estrellas sea preciso, ni que el creador sea dueño de la fuente. Esas
 pertenecen a los gates de revisión de los mantenedores descritos en
 [CONTRIBUTING.md](../../CONTRIBUTING.md) y [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

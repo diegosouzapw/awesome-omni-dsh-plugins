@@ -16,8 +16,9 @@ To lag med validering gjelder. Det offentlige skjemaet håndhever avgrensede *tr
 for integritetsverdier, SPDX-uttrykks-parsing for lisenser og avvisning av duplikatnøkler. En
 verdi kan samsvare med skjemamønsteret og likevel avvises semantisk.
 
-Regler på toppnivå: oppføringen er ett enkelt YAML-objekt, `additionalProperties: false`
-(ukjente felt avvises), og **alle** de følgende feltene er påkrevd.
+Regler på øverste nivå: oppføringen er ett enkelt YAML-objekt, `additionalProperties: false`
+(ukjente felt avvises), og alle feltene nedenfor er påkrevd bortsett fra `media`, det eneste
+valgfrie feltet.
 
 ## Toppnivåfelter
 
@@ -40,6 +41,7 @@ Regler på toppnivå: oppføringen er ett enkelt YAML-objekt, `additionalPropert
 | `license`         | object  |   ja    | Oppstrøms SPDX-lisensuttrykk                              |
 | `verification`    | object  |   ja    | Verifiseringsstatus, kontrolltidspunkt, identitet og smoketest      |
 | `provenance`      | object  |   ja    | Offentlige Discussion-/kommentar-URL-er eller `null`                      |
+| `media`           | array   |    nei    | Opptil 6 skjermbilder/videoer, hver URL festet til `source.commit` |
 
 ### `schemaVersion`
 
@@ -223,6 +225,33 @@ Offentlige opprinnelseslenker, hver en URI eller `null`:
 | `discussion` | string eller null | Offentlig Discussion-URL når en finnes            |
 | `comment`    | string eller null | Offentlig kommentar-URL når en finnes               |
 
+### `media`
+
+Det eneste valgfrie feltet. En liste med høyst **6** elementer, der hvert beskriver ett skjermbilde eller én kort video av programtillegget:
+
+| Egenskap | Type | Regler |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` eller `video` |
+| `url`    | string | Uforanderlig GitHub-URL, maks 2048 tegn (se nedenfor) |
+| `alt`    | string | Alternativ tekst, 1–120 tegn |
+
+En URL her må være like uforanderlig som `source.commit`. En
+`raw.githubusercontent.com`-sti med et grennavn (`.../main/docs/shot.png`) viser det grenen
+inneholder i dag, så oppføringen ville publisert et ikke-gjennomgått bilde den dagen grenen
+flytter seg. To former godtas:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — den festede raw-stien;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHubs innholdsadresserte opplastings-URL, for `video`-elementer.
+
+Skjemaet håndhever den trygge formen (vert, 40-tegns heksadesimal referanse, begrenset lengde).
+`catalog validate` håndhever resten semantisk: URL-en må feste **oppføringens egen**
+`source.commit` i **oppføringens eget** repositorium, og en gren-URL avvises med
+`media[n].url must pin the entry commit, not a branch`.
+
+Utelat feltet helt når det ikke er noe å vise — `media: []` er ikke en gyldig måte å si "ingen
+skjermbilder" på. Feltet er additivt: oppføringer publisert før det fantes er fortsatt gyldige, og
+en konsument som ignorerer det leser hver oppføring nøyaktig som før.
+
 ## Hva skjemaet ikke sjekker
 
 Skjemaet er bevisst lokalt og strukturelt. Det verifiserer **ikke** at repositoriet finnes,
@@ -231,4 +260,4 @@ stjernetallet er nøyaktig, eller at skaperen eier kilden. Disse sjekkene tilhø
 vedlikeholdernes gjennomgangsporter beskrevet i [CONTRIBUTING.md](../../CONTRIBUTING.md) og
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

@@ -17,7 +17,8 @@ integritate, parsarea expresiilor SPDX pentru licențe și respingerea cheilor d
 poate să corespundă tiparului schemei și totuși să fie respinsă semantic.
 
 Reguli de nivel superior: intrarea este un singur obiect YAML, `additionalProperties: false`
-(câmpurile necunoscute sunt respinse) și **toate** câmpurile următoare sunt obligatorii.
+(câmpurile necunoscute sunt respinse), iar toate câmpurile de mai jos sunt obligatorii, cu excepția
+lui `media`, singurul câmp opțional.
 
 ## Câmpuri de nivel superior
 
@@ -40,6 +41,7 @@ Reguli de nivel superior: intrarea este un singur obiect YAML, `additionalProper
 | `license`         | object  |   da    | Expresia de licență SPDX din amonte                              |
 | `verification`    | object  |   da    | Starea verificării, momentul verificării, identitatea și smoke-testul      |
 | `provenance`      | object  |   da    | URL-uri publice de Discussion/comentariu sau `null`                      |
+| `media`           | array   |    nu    | Cel mult 6 capturi/videoclipuri, fiecare URL fixat la `source.commit` |
 
 ### `schemaVersion`
 
@@ -224,6 +226,33 @@ Linkuri publice de proveniență, fiecare URI sau `null`:
 | `discussion` | string sau null | URL public de Discussion, când există unul            |
 | `comment`    | string sau null | URL public de comentariu, când există unul               |
 
+### `media`
+
+Singurul câmp opțional. Un array cu cel mult **6** elemente, fiecare descriind o captură de ecran sau un scurt videoclip al pluginului:
+
+| Proprietate | Tip | Reguli |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` sau `video` |
+| `url`    | string | URL GitHub imuabil, maximum 2048 de caractere (vezi mai jos) |
+| `alt`    | string | Text alternativ, 1–120 de caractere |
+
+Un URL de aici trebuie să fie la fel de imuabil ca `source.commit`. O cale
+`raw.githubusercontent.com` care poartă numele unei ramuri (`.../main/docs/shot.png`) arată ce
+conține ramura astăzi, deci intrarea ar publica o imagine nerevizuită în ziua în care ramura se
+mută. Sunt acceptate două forme:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — calea raw fixată;
+- `https://github.com/<owner>/<repo>/assets/…` — URL-ul de încărcare adresat prin conținut al GitHub, pentru elementele `video`.
+
+Schema impune forma sigură (gazdă, referință hexazecimală de 40 de caractere, lungime limitată).
+`catalog validate` impune restul semantic: URL-ul trebuie să fixeze `source.commit` **al intrării
+înseși** în depozitul **intrării înseși**, iar un URL de ramură este respins cu
+`media[n].url must pin the entry commit, not a branch`.
+
+Omite complet câmpul când nu este nimic de arătat — `media: []` nu este o modalitate validă de a
+spune "fără capturi". Câmpul este aditiv: intrările publicate înainte ca el să existe rămân
+valide, iar un consumator care îl ignoră citește fiecare intrare exact ca înainte.
+
 ## Ce nu verifică schema
 
 Schema este intenționat locală și structurală. **Nu** verifică faptul că repository-ul există, că
@@ -232,4 +261,4 @@ stele este exact sau că creatorul deține sursa. Acele verificări aparțin por
 întreținătorilor, descrise în [CONTRIBUTING.md](../../CONTRIBUTING.md) și
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

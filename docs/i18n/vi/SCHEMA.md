@@ -16,8 +16,9 @@ tích ngữ nghĩa bắt buộc: SemVer chính xác cho phiên bản, SHA-512 SR
 cho giấy phép, và từ chối khóa trùng lặp. Một giá trị có thể khớp mẫu của schema nhưng vẫn bị từ chối về mặt ngữ
 nghĩa.
 
-Quy tắc cấp cao nhất: mục là một đối tượng YAML duy nhất, `additionalProperties: false` (các trường không xác định
-đều bị từ chối), và **tất cả** các trường sau đây đều bắt buộc.
+Quy tắc cấp cao nhất: mục nhập là một đối tượng YAML duy nhất, `additionalProperties: false`
+(các trường không xác định bị từ chối), và mọi trường dưới đây đều bắt buộc trừ `media` —
+trường tùy chọn duy nhất.
 
 ## Các trường cấp cao nhất
 
@@ -40,6 +41,7 @@ Quy tắc cấp cao nhất: mục là một đối tượng YAML duy nhất, `ad
 | `license`         | đối tượng  |   có    | Biểu thức giấy phép SPDX gốc                                   |
 | `verification`    | đối tượng  |   có    | Trạng thái xác minh, thời điểm kiểm tra, danh tính và smoke test      |
 | `provenance`      | đối tượng  |   có    | URL Discussion/bình luận công khai hoặc `null`                      |
+| `media`           | array   |    không    | Tối đa 6 ảnh chụp màn hình/video, mọi URL đều ghim vào `source.commit` |
 
 ### `schemaVersion`
 
@@ -217,6 +219,32 @@ Các liên kết nguồn gốc công khai, mỗi liên kết là một URI hoặ
 | `discussion` | chuỗi hoặc null | URL Discussion công khai nếu có            |
 | `comment`    | chuỗi hoặc null | URL bình luận công khai nếu có               |
 
+### `media`
+
+Trường tùy chọn duy nhất. Một mảng có tối đa **6** mục, mỗi mục mô tả một ảnh chụp màn hình hoặc một video ngắn của plugin:
+
+| Thuộc tính | Kiểu | Quy tắc |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` hoặc `video` |
+| `url`    | string | URL GitHub bất biến, tối đa 2048 ký tự (xem bên dưới) |
+| `alt`    | string | Văn bản thay thế, 1–120 ký tự |
+
+URL ở đây phải bất biến như `source.commit`. Một đường dẫn `raw.githubusercontent.com` mang tên
+nhánh (`.../main/docs/shot.png`) hiển thị nội dung nhánh đó có hôm nay, nên mục nhập sẽ công bố
+một hình ảnh chưa được duyệt vào ngày nhánh dịch chuyển. Chỉ hai dạng được chấp nhận:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — đường dẫn raw đã ghim vào commit;
+- `https://github.com/<owner>/<repo>/assets/…` — URL tải lên định địa chỉ theo nội dung của GitHub, dành cho mục `video`.
+
+Schema chỉ bắt buộc hình dạng an toàn (máy chủ, tham chiếu thập lục phân 40 ký tự, độ dài giới
+hạn). Phần còn lại do `catalog validate` bắt buộc về mặt ngữ nghĩa: URL phải ghim `source.commit`
+**của chính mục nhập** trong kho **của chính mục nhập**, và URL nhánh bị từ chối với
+`media[n].url must pin the entry commit, not a branch`.
+
+Hãy bỏ hẳn trường này khi không có gì để hiển thị — `media: []` không phải cách hợp lệ để nói
+"không có ảnh chụp màn hình". Trường này mang tính bổ sung: các mục được công bố trước khi nó tồn
+tại vẫn hợp lệ, và một bên tiêu thụ bỏ qua nó vẫn đọc mọi mục y như trước.
+
 ## Những gì schema không kiểm tra
 
 Schema được thiết kế cố ý mang tính cục bộ và cấu trúc. Nó **không** xác minh repository có tồn tại hay không, ID
@@ -225,4 +253,4 @@ hay không, hay nhà phát triển có thực sự sở hữu nguồn hay không
 duyệt của người bảo trì được mô tả tại [CONTRIBUTING.md](../../CONTRIBUTING.md) và
 [docs/GOVERNANCE.md](GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

@@ -252,6 +252,36 @@ properties:
               result:
                 const: passed
     $comment: Verification applies to source.commit. The smoke target references package or pinned source without duplicating mutable values.
+  media:
+    description: >-
+      Optional gallery of at most six screenshots or short videos read from the pinned source.
+      Additive in schema version 1: an entry without it is complete, and a consumer that ignores
+      it reads every entry unchanged.
+    type: array
+    maxItems: 6
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - kind
+        - url
+        - alt
+      properties:
+        kind:
+          enum:
+            - screenshot
+            - video
+        url:
+          type: string
+          format: uri
+          maxLength: 2048
+          pattern: '^https://(?:raw\.githubusercontent\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+/[0-9a-fA-F]{40}/|github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+/assets/)[^\s]+$'
+          $comment: Safe shape only; catalog-core must additionally require the URL to pin source.commit in this entry's own repository.
+        alt:
+          type: string
+          minLength: 1
+          maxLength: 120
+    $comment: Every URL must be immutable — a pinned raw path at source.commit, or a content-addressed GitHub upload.
   provenance:
     type: object
     additionalProperties: false

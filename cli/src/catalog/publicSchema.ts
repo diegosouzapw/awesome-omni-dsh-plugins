@@ -7,7 +7,13 @@ import Ajv2020Module from "ajv/dist/2020.js";
 import addFormatsModule from "ajv-formats";
 import { parseDocument } from "yaml";
 
-import { parseExactSemver, parseSha512Integrity, parseSpdx } from "./publicCatalogValidator.js";
+import {
+  parseExactSemver,
+  parseSha512Integrity,
+  parseSpdx,
+  validateMediaField,
+} from "./publicCatalogValidator.js";
+import type { PublicCatalogMedia } from "./publicCatalogValidator.js";
 import type {
   ArtifactKind,
   CanonicalPluginKey,
@@ -76,13 +82,20 @@ export interface PublicCatalogEntry {
     readonly discussion: string | null;
     readonly comment: string | null;
   };
+  /**
+   * Up to six screenshots or short videos, every URL pinned to `source.commit`. Optional and
+   * additive: entries published before the field existed stay valid, and a reader that ignores
+   * it loses nothing but the pictures.
+   */
+  readonly media?: readonly PublicCatalogMedia[];
 }
 
 export type PublicEntryValidationCode =
   | "schema-validation"
   | "invalid-spdx"
   | "invalid-semver"
-  | "invalid-sri";
+  | "invalid-sri"
+  | "invalid-media";
 
 export interface PublicEntryValidationIssue {
   readonly code: PublicEntryValidationCode;
@@ -282,6 +295,10 @@ function semanticIssues(entry: PublicCatalogEntry): PublicEntryValidationIssue[]
         });
       }
     }
+  }
+
+  for (const message of validateMediaField(entry.media, entry.source)) {
+    issues.push({ code: "invalid-media", message });
   }
 
   if (entry.verification.smokeTest !== null) {
