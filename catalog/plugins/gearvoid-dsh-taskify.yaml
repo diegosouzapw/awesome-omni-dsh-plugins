@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: gearvoid-dsh-taskify
+name: dsh-taskify
+description:
+  en: "Intent Anchor plugin for DeepSeek Harness Web: extract reviewable, provenance-backed constraints without rewriting the user's draft."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - intent-anchor
+  - constraint-extraction
+  - dsh-plugin
+source:
+  repository: https://github.com/GearVoid/dsh-taskify
+  repositoryNodeId: R_kgDOT6Q3tw
+  subpath: null
+  commit: 70ed6a8d81a908da6836c25f86ae1a12b798590e
+creator:
+  github: GearVoid
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:12.117Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
