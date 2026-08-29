@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dff652-dsh-agent-mail
+name: "@dff652/dsh-agent-mail"
+description:
+  en: Configuration-only DeepSeek Harness bundle for an existing Agent Mail MCP server
+  evidencePath: packages/dsh-agent-mail/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - mcp
+  - agent-mail
+  - dsh
+source:
+  repository: https://github.com/dff652/deepseek-harness-community-plugins
+  repositoryNodeId: R_kgDOT8C-WA
+  subpath: packages/dsh-agent-mail
+  commit: a846540ba57d1ca8c67eedc7b8b15e6202a25b27
+creator:
+  github: dff652
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-agent-mail/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:33.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
