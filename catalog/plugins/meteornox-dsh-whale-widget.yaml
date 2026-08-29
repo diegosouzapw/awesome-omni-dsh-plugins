@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: meteornox-dsh-whale-widget
+name: dsh-whale-widget
+description:
+  en: powershell dsh plugin --profile web add github:MeteorNOX/DeepSeek-Balance-Whale-Widget
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - widget
+source:
+  repository: https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
+  repositoryNodeId: R_kgDOT78MdA
+  subpath: null
+  commit: 4448c61db7d180c4c307aa3fa734db7c8507658d
+creator:
+  github: MeteorNOX
+package:
+  ecosystem: npm
+  name: dsh-whale-widget
+  version: 0.2.10
+  integrity: sha512-s/9kFqQwGnSi3hLm7Gm4slHDrHL+738D8dcCjlWAxKtrvz/hu7bjoFH44ruWEKwxS0JoTS7qQLma2g0vRvFFBw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.400Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1285
+provenance:
+  discussion: null
+  comment: null
