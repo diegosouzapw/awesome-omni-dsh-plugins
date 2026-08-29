@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: j0ss077-dsh-always-require-tools-approval
+name: "@j0ss077/dsh-always-require-tools-approval"
+description:
+  en: Require a one-shot user approval before configured tools execute
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - require
+  - shot
+  - user
+  - approval
+  - before
+  - configured
+  - tools
+  - execute
+  - dsh
+source:
+  repository: https://github.com/J0ss077/dsh-always-require-tools-approval
+  repositoryNodeId: R_kgDOUCQAiw
+  subpath: null
+  commit: 7291e28b87444890bd9c82e848f6861b72b21246
+creator:
+  github: J0ss077
+package:
+  ecosystem: npm
+  name: "@j0ss077/dsh-always-require-tools-approval"
+  version: 1.1.0
+  integrity: sha512-+PGnxz4ONW5i/fOWvmpBehUXXKgro/T26h21pzDwHTe3u/waQcgXe5/e15IJXx2K4edsV+i6yMRpF5ZrGzFMqw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:59.737Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
