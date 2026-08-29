@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: liyuk-dsh-skin-feishu
+name: "@liyuk/dsh-skin-feishu"
+description:
+  en: "Note : This project's primary documentation is the Chinese README. This English copy mirrors it — when editing, keep both in sync."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - note
+  - primary
+  - documentation
+  - chinese
+  - english
+  - copy
+  - mirrors
+  - editing
+  - keep
+  - both
+  - sync
+  - dsh
+source:
+  repository: https://github.com/Liyuk/dsh-skin-chatlab
+  repositoryNodeId: R_kgDOT59ITw
+  subpath: packages/skin-feishu
+  commit: 01d06cd38b940a49ecf89dc0447c81645fba2aa2
+creator:
+  github: Liyuk
+package:
+  ecosystem: npm
+  name: "@liyuk/dsh-skin-feishu"
+  version: 1.0.3
+  integrity: sha512-MpSfsMH8St/DU9BCpfvo9m34qLHiGZjwY4e5hD6PX4e3mZlMqNm0/SGdJRmcvWRigTqxfy2lqNfgSoElrzTK4w==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/skin-feishu/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:55.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
