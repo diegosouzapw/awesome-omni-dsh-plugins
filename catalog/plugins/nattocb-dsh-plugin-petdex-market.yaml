@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: nattocb-dsh-plugin-petdex-market
+name: "@jasper/dsh-plugin-petdex-market"
+description:
+  en: "DSH bundle plugin: a petdex.dev companion-pet market in the Settings UI with a native macOS desktop pet. Browse, search, install, enable, rename, and delete pets; previews are proxied same-origin to dodge CORS."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - bundle
+  - petdex
+  - companion
+  - market
+  - settings
+  - native
+  - macos
+  - desktop
+  - browse
+  - search
+  - install
+  - enable
+  - rename
+  - delete
+  - pets
+  - previews
+source:
+  repository: https://github.com/NattoCB/dsh-plugin-petdex-market
+  repositoryNodeId: R_kgDOT5N2Sw
+  subpath: null
+  commit: 1a1f7ce1d36dd62e553ed7a851c5d0bacbe750f3
+creator:
+  github: NattoCB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:02.923Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
