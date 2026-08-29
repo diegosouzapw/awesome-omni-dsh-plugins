@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: muyuanjin-dsh-ptc-plus
+name: dsh-ptc-plus
+description:
+  en: A session-bound agent-native REPL for DeepSeek Harness PTC mode.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ptc
+  - ptc-mode
+  - repl
+source:
+  repository: https://github.com/muyuanjin/dsh-ptc-plus
+  repositoryNodeId: R_kgDOT-qU5A
+  subpath: null
+  commit: 2a6413a920b8aaa086d29981f17ced9af1793c36
+creator:
+  github: muyuanjin
+package:
+  ecosystem: npm
+  name: dsh-ptc-plus
+  version: 0.2.3
+  integrity: sha512-ShNkTUktbl5C1TD53G4hpzrls17zgTqnOp+jR1f1HR4IlJvjWz0AjayLSDfrVLePBQmYZJPipeaiuJkqqFDwkQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:02.518Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
