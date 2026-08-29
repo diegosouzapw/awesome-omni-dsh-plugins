@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: inkshadewoods-dsh-tool-visual-primitives
+name: dsh-tool-visual-primitives
+description:
+  en: powershell dsh plugin --profile web add dsh-tool-visual-primitives@latest
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - visual-primitives
+  - multimodal
+source:
+  repository: https://github.com/InkshadeWoods/dsh-tool-visual-primitives
+  repositoryNodeId: R_kgDOT5Zi0A
+  subpath: null
+  commit: e1ba75ad226059c8df374df5c3c607f874e4f3d5
+creator:
+  github: InkshadeWoods
+package:
+  ecosystem: npm
+  name: dsh-tool-visual-primitives
+  version: 1.3.0
+  integrity: sha512-eOLzWR4ekBD+HN6k2MbdnVmpXGFVrruBMy/Qhhif7+bxVdhaTyyccDCfEYw38xUH3IJ8u85bnlRwQzlR7XfpwA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:34.933Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
