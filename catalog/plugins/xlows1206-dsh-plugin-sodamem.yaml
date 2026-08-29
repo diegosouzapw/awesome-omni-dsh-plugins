@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: xlows1206-dsh-plugin-sodamem
+name: dsh-plugin-sodamem
+description:
+  en: "SodaMem memory layer for the DeepSeek Harness (Cordis): unconditional per-turn recall and per-turn-close retain."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - sodamem
+  - memory
+  - dsh
+  - cordis
+  - dsh-plugin
+source:
+  repository: https://github.com/SodaMem/dsh-plugin-sodamem
+  repositoryNodeId: R_kgDOT6gLyg
+  subpath: null
+  commit: 290fb6bf4bce47d0f3fb0c738f1fe1d8c2dd389e
+creator:
+  github: xlows1206
+package:
+  ecosystem: npm
+  name: dsh-plugin-sodamem
+  version: 0.1.1
+  integrity: sha512-NtapZSNi4fxvtzUm2HDKSMGzQngAQ9h7nqYFJ372VEkvUkp0SP0pB95Jx+OUJYAcfu3ZtvwCNdHO4I1b2KmQGA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:47.629Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
