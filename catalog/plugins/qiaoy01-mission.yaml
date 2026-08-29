@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: qiaoy01-mission
+name: "@qiaoy01/mission"
+description:
+  en: "Persistent long-horizon autonomous mission runtime for DeepSeek Harness: dependency DAG, independent verification, replan-on-failure, lease ownership."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - persistent
+  - long
+  - horizon
+  - autonomous
+  - mission
+  - runtime
+  - dependency
+  - independent
+  - verification
+  - replan
+  - failure
+  - lease
+  - ownership
+  - dsh
+source:
+  repository: https://github.com/qiaoy01/dsh-mission
+  repositoryNodeId: R_kgDOT7gv9g
+  subpath: null
+  commit: 4bd62d0313cfdd319b551bb71af79064e3b2dcf2
+creator:
+  github: qiaoy01
+package:
+  ecosystem: npm
+  name: "@qiaoy01/mission"
+  version: 0.2.0
+  integrity: sha512-RTnMY5ZJybU69bmFOXjYLSf1Sr8AbGLukUqaTaVgce+9jbI0q6O3XP+fC5WTDuP+5uYO4eTvpllfuDPNyM8jDw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:03.015Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
