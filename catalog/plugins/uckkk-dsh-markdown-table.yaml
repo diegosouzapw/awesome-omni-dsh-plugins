@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-markdown-table
+name: dsh-markdown-table
+description:
+  en: bash dsh plugin add dsh-markdown-table 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-markdown-table" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - markdown
+  - table
+source:
+  repository: https://github.com/uckkk/dsh-markdown-table
+  repositoryNodeId: R_kgDOT6H9yg
+  subpath: null
+  commit: 4ce8301fa0b28f2c81cdf2ac1e922db467bfc672
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-markdown-table
+  version: 0.1.0
+  integrity: sha512-KeSo5cpEzmnX397XC4hfs/VdHkjmeT/TjkFzq7xvazHVZqlohmw2Dpx/4uBsKuFitov74DP0ynrkREc9YBZzrA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:05.817Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
