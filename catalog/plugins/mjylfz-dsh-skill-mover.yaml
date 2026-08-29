@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mjylfz-dsh-skill-mover
+name: dsh-skill-mover
+description:
+  en: <p align="center" <a href="README.en.md" English</a &nbsp;&nbsp; &nbsp;&nbsp;<a href="README.md" 简体中文</a </p
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - align
+  - center
+  - href
+  - english
+  - nbsp
+  - dsh
+source:
+  repository: https://github.com/mjylfz/dsh-skill-mover
+  repositoryNodeId: R_kgDOT-eERw
+  subpath: null
+  commit: 9f9d087cb4e32d03f9e3357cd950829ff1bb9404
+creator:
+  github: mjylfz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:49.238Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
