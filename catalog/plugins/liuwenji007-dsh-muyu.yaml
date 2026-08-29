@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: liuwenji007-dsh-muyu
+name: dsh-muyu
+description:
+  en: "DeepSeek Harness Web overlay: knockable wooden-fish sprite and per-session merit plaque"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wooden-fish
+  - muyu
+source:
+  repository: https://github.com/liuwenji007/dsh-muyu
+  repositoryNodeId: R_kgDOT9BLnw
+  subpath: null
+  commit: cff92d35db6a308e94fabddacdd382b042c38dd0
+creator:
+  github: liuwenji007
+package:
+  ecosystem: npm
+  name: dsh-muyu
+  version: 0.1.4
+  integrity: sha512-ILeYZG5f2zSNDmh/wPV7TtTFuSvQZ7hT4ZdZ1aAlGSt2eMa1USo12et8isqppOwZrC2LTsp2a4Am4ScmYmRQhA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:17.062Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
