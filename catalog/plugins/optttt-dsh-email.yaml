@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: optttt-dsh-email
+name: "@tyler9061/dsh-email"
+description:
+  en: "Email plugin for DeepSeek Harness: multi-account receive (IMAP) and reply/send (SMTP), exposed to the agent as tools, with auto-processing tasks that trigger a headless agent."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - email
+  - imap
+  - smtp
+  - mail
+source:
+  repository: https://github.com/optttt/dsh-email
+  repositoryNodeId: R_kgDOT7O2wQ
+  subpath: null
+  commit: 306f7617997f0fae06dc48d3deda45cadb2847d1
+creator:
+  github: optttt
+package:
+  ecosystem: npm
+  name: "@tyler9061/dsh-email"
+  version: 0.1.5
+  integrity: sha512-1kej4nu7YLYuBjFCcUGfa3kdlS7i3nF92vn+X2top5inRRHzqFjCfGlUiqJZHMdP+9IYLnuJuGK14/06M9jc8A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:08.952Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
