@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: classlu-dsh-telegram-bridge
+name: dsh-telegram-bridge
+description:
+  en: "Telegram bot bridge for DeepSeek Harness (dsh): chat with your DSH agent from Telegram, with access control, skills, and workspace browsing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - telegram
+  - bot
+source:
+  repository: https://github.com/CLASSLU/dsh-telegram-bridge
+  repositoryNodeId: R_kgDOUCVvqw
+  subpath: null
+  commit: 2adaaafe173064074f835bfa0af8ab9bc08d670f
+creator:
+  github: CLASSLU
+package:
+  ecosystem: npm
+  name: dsh-telegram-bridge
+  version: 0.1.0
+  integrity: sha512-UKVgjdDctpbwsvEskJW/i1aYXGTzTtCEV3Kno6rdYx/NRe5SlVn53U3y0TeY4fkVNzEGIJnqEDCExy+GGi3E3Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:19.620Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
