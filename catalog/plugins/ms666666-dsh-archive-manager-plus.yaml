@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ms666666-dsh-archive-manager-plus
+name: dsh-archive-manager-plus
+description:
+  en: "Archive manager: list archived sessions in the Settings page and delete them for real (session log, archive marker, and projection cache removed together)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - archive
+  - session
+source:
+  repository: https://github.com/MS666666/dsh-archive-manager
+  repositoryNodeId: R_kgDOUANyMA
+  subpath: null
+  commit: b0fda900fe5a8d914d567ad68282061b194c9fd0
+creator:
+  github: MS666666
+package:
+  ecosystem: npm
+  name: dsh-archive-manager-plus
+  version: 0.1.3
+  integrity: sha512-4ibJjx29fra2BjBEsIHuEm9nL3mkgrg6HK403MGzylGH/SL1F1oVsVag3bKttRb1vrJox5rIEUIiRKldROXz7g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:02.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
