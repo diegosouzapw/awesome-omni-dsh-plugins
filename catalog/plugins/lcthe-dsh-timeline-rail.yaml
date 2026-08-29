@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lcthe-dsh-timeline-rail
+name: "@lcthe/dsh-timeline-rail"
+description:
+  en: "A message timeline rail for the DeepSeek Harness web chat: evenly spaced tick marks for every user message along the right edge of the conversation, click to jump, hover to preview."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - timeline
+  - chat
+  - navigate
+source:
+  repository: https://github.com/lcthe/dsh-timeline-rail
+  repositoryNodeId: R_kgDOT624fA
+  subpath: null
+  commit: 661d4a859f80d8c6f445d844ee0fb081c30cbc66
+creator:
+  github: lcthe
+package:
+  ecosystem: npm
+  name: "@lcthe/dsh-timeline-rail"
+  version: 0.2.11
+  integrity: sha512-l9tJu9wuhoz8PQiP9/d6OEnghxVlWvu36eOMluSpCsiOmL0D2d11+MLYZXt2/zRfQVYnX82ukaBocl/PmrCD/w==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:52.560Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
