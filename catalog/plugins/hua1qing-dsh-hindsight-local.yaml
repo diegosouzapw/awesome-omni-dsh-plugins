@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: hua1qing-dsh-hindsight-local
+name: dsh-hindsight-local
+description:
+  en: "DSH web client plugin: a sidebar toggle to start/stop the local Hindsight memory daemon (hindsight-embed) for the DeepSeek Harness desktop app."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - client
+  - sidebar
+  - toggle
+  - start
+  - stop
+  - local
+  - hindsight
+  - memory
+  - daemon
+  - embed
+  - desktop
+  - dsh
+source:
+  repository: https://github.com/Hua1Q1nG/dsh-hindsight-local-optimize
+  repositoryNodeId: R_kgDOT7cbBw
+  subpath: null
+  commit: 27c45d5fd4e214b58749707dc604ee760ac7e419
+creator:
+  github: Hua1Qing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:31.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
