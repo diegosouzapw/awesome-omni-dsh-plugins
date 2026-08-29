@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: michaelcode-wang-dsh-wecom
+name: dsh-wecom
+description:
+  en: WeCom (Enterprise WeChat) Smart Robot bridge for DeepSeek Harness — two-way chat over the aibot WebSocket gateway (bot id + secret), no public endpoint needed.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - bundle
+  - wecom
+  - wechat-work
+  - enterprise-wechat
+  - im
+  - chatbot
+  - agent
+source:
+  repository: https://github.com/michaelcode-wang/dsh-wecom
+  repositoryNodeId: R_kgDOT5z0NA
+  subpath: null
+  commit: 2ea09993e85bf52181510acb7868a30c5ec15a59
+creator:
+  github: michaelcode-wang
+package:
+  ecosystem: npm
+  name: dsh-wecom
+  version: 0.1.0
+  integrity: sha512-ObzXUeDTzRqld6y2jZ/CLZvt6oybnpIiHxUbGpSKfrmduluJkM53OQ9rpCQeTPxDy6F9X0mg7Yh2on1eB4/5Yg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:49.306Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
