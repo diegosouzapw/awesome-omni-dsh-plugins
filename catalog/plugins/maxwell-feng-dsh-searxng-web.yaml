@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: maxwell-feng-dsh-searxng-web
+name: "@maxwell-feng/dsh-searxng-web"
+description:
+  en: "dsh plugin: back the native web search / web fetch tools with your self-hosted SearXNG instance - keyless, private, no third-party search vendor."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - searxng
+  - web-search
+  - self-hosted
+  - privacy
+source:
+  repository: https://github.com/maxwell-feng/dsh-searxng-web
+  repositoryNodeId: R_kgDOUA1QGg
+  subpath: null
+  commit: deaa2a6b546513abd083252e28fa0894e3fb3938
+creator:
+  github: maxwell-feng
+package:
+  ecosystem: npm
+  name: "@maxwell-feng/dsh-searxng-web"
+  version: 0.4.0
+  integrity: sha512-WWmNolATkRc2XXK3NHtmPRAHE2MlfVKVCYz6PgAjzxV3iNKUAEw/VJtBoxTsk7hQrUDzJ6UnwYArJmD2m9tTSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:27.990Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
