@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-gambia
+name: dsh-gambia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-gambia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-gambia
+source:
+  repository: https://github.com/uckkk/dsh-gambia
+  repositoryNodeId: R_kgDOT-DEZA
+  subpath: null
+  commit: 01a8a86f9501a09339c2411b7b8495a8833e994c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:42.700Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
