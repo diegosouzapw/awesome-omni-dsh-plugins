@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ishuowang-dsh-sideband
+name: dsh-sideband
+description:
+  en: Asynchronous, LLM-summarized context handoff between DeepSeek Harness sessions and agent rooms.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - context-handoff
+  - agent-orchestration
+  - sideband
+  - multi-agent
+  - session-relay
+  - native-ui
+source:
+  repository: https://github.com/ishuowang/dsh-sideband
+  repositoryNodeId: R_kgDOT4q6-w
+  subpath: null
+  commit: 393acf603fbbfec89958f5c8735e26e7a5da477c
+creator:
+  github: ishuowang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:17.212Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
