@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moon16u-dsh-pouch
+name: "@moon16u/dsh-pouch"
+description:
+  en: A collection of small, beautiful, and practical plugins for DeepSeek Harness (DSH)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/moon16u/dsh-pouch
+  repositoryNodeId: R_kgDOT-10Xw
+  subpath: null
+  commit: 6c8963610a217509e74670b6a96cc843888cfbee
+creator:
+  github: moon16u
+package:
+  ecosystem: npm
+  name: "@moon16u/dsh-pouch"
+  version: 0.2.0
+  integrity: sha512-0WlkaROMvq1I1/hxzSVaDtyKygh688MLbRbsacjdPOqsOguiVp6Uh4A9O3TTx+7le6l9mPYuwqEBIuaWqYEJEw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:10.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
