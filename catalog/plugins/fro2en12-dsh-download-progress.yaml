@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: fro2en12-dsh-download-progress
+name: dsh-download-progress
+description:
+  en: 'English: A DeepSeek Harness (DSH) web plugin that surfaces a draggable download-progress panel in the bottom-right corner of the web GUI. It tracks panel-started URL downloads, agent shell/SSH transfers, and any "black-box" file growth inside registered workspaces — with live bytes, speed, percentage and ETA.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - download
+  - progress
+  - transfer
+source:
+  repository: https://github.com/Fro2en12/dsh-download-progress
+  repositoryNodeId: R_kgDOT4zy9g
+  subpath: null
+  commit: d5b3816e36c0806a544499b166460bce948d4faf
+creator:
+  github: Fro2en12
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:06.572Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
