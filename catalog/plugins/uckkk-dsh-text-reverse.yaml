@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-text-reverse
+name: dsh-text-reverse
+description:
+  en: bash dsh plugin add dsh-text-reverse 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-text-reverse" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - text
+  - reverse
+source:
+  repository: https://github.com/uckkk/dsh-text-reverse
+  repositoryNodeId: R_kgDOT6NyAA
+  subpath: null
+  commit: b55ff4449c341329b08fd24723c8fbd26495118f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:45.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
