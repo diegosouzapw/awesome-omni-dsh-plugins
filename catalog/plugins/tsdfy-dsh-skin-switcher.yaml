@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tsdfy-dsh-skin-switcher
+name: dsh-skin-switcher
+description:
+  en: "Skin switcher for DeepSeek Harness web UI: one-click theme switching with auto-discovery of community skins"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - switcher
+  - web-ui
+source:
+  repository: https://github.com/tsdfy/dsh-skin-switcher
+  repositoryNodeId: R_kgDOT9Av9Q
+  subpath: null
+  commit: ac55cf9b974859efc5f7d43eacf6a274a1fc6497
+creator:
+  github: tsdfy
+package:
+  ecosystem: npm
+  name: dsh-skin-switcher
+  version: 0.2.1
+  integrity: sha512-wMQCY6LKQQMP9eQnV+EhZNF1824AgFcAnopYnR7mbKrzv5M1zuP1y1yF2asggyY/GJU7y79ON+hFJ+TvUfxvng==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:25.919Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
