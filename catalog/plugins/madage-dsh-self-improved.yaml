@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: madage-dsh-self-improved
+name: dsh-self-improved
+description:
+  en: Long-term memory & self-evolving plugin for DeepSeek Harness (fully local).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - self-improvement
+  - long-term-memory
+source:
+  repository: https://github.com/madage/dsh-self-improved
+  repositoryNodeId: R_kgDOT5aYSg
+  subpath: null
+  commit: 4f134c9a93dbaccedbeee339fe8cc942d1740cca
+creator:
+  github: madage
+package:
+  ecosystem: npm
+  name: dsh-self-improved
+  version: 0.1.1
+  integrity: sha512-tsbwYzs4Zn4bbLX6schBJpcWM2ICEuMTPh8mND9GSKKiYnSd9U3icwt1e7VyAO2eqHdWbib5eFx+eog6yijN0g==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.271Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
