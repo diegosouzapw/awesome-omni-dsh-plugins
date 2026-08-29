@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-catalan
+name: dsh-catalan
+description:
+  en: bash dsh plugin add github:uckkk/dsh-catalan
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-catalan
+source:
+  repository: https://github.com/uckkk/dsh-catalan
+  repositoryNodeId: R_kgDOT9u94g
+  subpath: null
+  commit: 33045dea826b741f829ee82371f259d12925d9bd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:20.548Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
