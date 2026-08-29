@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: izz-blue-dsh-devtools
+name: dsh-devtools
+description:
+  en: "DevTools for DeepSeek Harness web: read-only Agent Runtime Trace — turn/step execution timeline, model latency (TTFT/decode), tool-call durations, retries, hook and turn end reasons. Metadata-first, durable events only, zero behavior modification."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - devtools
+  - read
+  - only
+  - agent
+  - runtime
+  - trace
+  - turn
+  - step
+  - execution
+  - timeline
+  - model
+  - latency
+  - ttft
+  - decode
+  - tool
+  - call
+source:
+  repository: https://github.com/izz-BLUE/dsh-devtools
+  repositoryNodeId: R_kgDOT5Edgg
+  subpath: null
+  commit: a5353db21bfd24a05ba5fc433722e38fe0e1cde6
+creator:
+  github: izz-BLUE
+package:
+  ecosystem: npm
+  name: dsh-devtools
+  version: 0.1.1
+  integrity: sha512-U2+DkuC72/WH22yq6R3MfjLe6zSDejyjeodV39dXjHIzcXr24yWsLI0aGq4aW6tSXEA1EnMfDPp3kdLNZNmW4w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:57.831Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
