@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ch4acko3-dsh-patchouli-native-context-service
+name: dsh-patchouli-native-context-service
+description:
+  en: Native local context indexing and retrieval for Patchouli
+  evidencePath: packages/native-context-service/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - native
+  - local
+  - context
+  - indexing
+  - retrieval
+  - patchouli
+  - dsh
+source:
+  repository: https://github.com/memorax-ai/dsh-patchouli
+  repositoryNodeId: R_kgDOT3_3gQ
+  subpath: packages/native-context-service
+  commit: f23c5989d2dabe3ccbc49ec97286bbc21060a95d
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/native-context-service/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:40.684Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
