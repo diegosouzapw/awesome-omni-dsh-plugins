@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cake-pan
+name: dsh-cake-pan
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cake-pan
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cake-pan
+source:
+  repository: https://github.com/uckkk/dsh-cake-pan
+  repositoryNodeId: R_kgDOT-sZZQ
+  subpath: null
+  commit: 1f1441da1443124e8f0af9743d7acb560ce3766e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:47.026Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
