@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bhutan
+name: dsh-bhutan
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bhutan
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bhutan
+source:
+  repository: https://github.com/uckkk/dsh-bhutan
+  repositoryNodeId: R_kgDOT-2_Iw
+  subpath: null
+  commit: 6c33f3d5d8fbb1bf173fa930eb2f8834b6933ab5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:43.611Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
