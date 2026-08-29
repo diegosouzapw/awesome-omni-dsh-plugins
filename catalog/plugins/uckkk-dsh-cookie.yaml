@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cookie
+name: dsh-cookie
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cookie
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cookie
+source:
+  repository: https://github.com/uckkk/dsh-cookie
+  repositoryNodeId: R_kgDOT9uqIg
+  subpath: null
+  commit: 818c3c8b1a662b2000485330535bfdf08cfff73d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:31.786Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
