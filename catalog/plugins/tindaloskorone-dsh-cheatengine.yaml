@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tindaloskorone-dsh-cheatengine
+name: "@tindalosko/dsh-cheatengine"
+description:
+  en: "Official hybrid DSH plugin: Cheat Engine dynamic debugging toolkit with host ce tools and a client floating status panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cheat-engine
+  - debugging
+  - reverse-engineering
+  - memory-scanner
+  - game-hacking
+source:
+  repository: https://github.com/TindalosKorone/dsh-cheatengine
+  repositoryNodeId: R_kgDOT5v53g
+  subpath: null
+  commit: c3974454e310964dbd1cc2990267e8698741c2ea
+creator:
+  github: TindalosKorone
+package:
+  ecosystem: npm
+  name: "@tindalosko/dsh-cheatengine"
+  version: 0.5.2
+  integrity: sha512-Z7n/B7xpQKGiVmx5vX4TIYvaF9FLO/61TAIe4bJo8QzvfNMKl/skT/iQsvvJVMyJolUuztBE4U46fZzEhEcaLA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:35.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
