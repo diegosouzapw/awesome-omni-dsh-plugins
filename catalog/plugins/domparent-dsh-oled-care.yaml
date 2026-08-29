@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: domparent-dsh-oled-care
+name: dsh-oled-care
+description:
+  en: "OLED burn-in care for the DeepSeek Harness Web GUI: true-black nap screensaver, pure-black surfaces, gamma-aware text dimming with an idle/focus ladder, and slow accent-hue rotation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - oled
+  - burn-in
+  - screensaver
+source:
+  repository: https://github.com/domparent/OLEDCare
+  repositoryNodeId: R_kgDOT-D_-A
+  subpath: null
+  commit: ed4bbf8dab015a6ba7961503656288a0ccadaae7
+creator:
+  github: domparent
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:20.350Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
