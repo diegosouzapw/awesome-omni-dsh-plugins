@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-car
+name: dsh-car
+description:
+  en: bash dsh plugin add github:uckkk/dsh-car
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-car
+source:
+  repository: https://github.com/uckkk/dsh-car
+  repositoryNodeId: R_kgDOT-Duuw
+  subpath: null
+  commit: 8e42ae23eea20f94d49685079870ca80111412d1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:48.922Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
