@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-business-days
+name: dsh-business-days
+description:
+  en: bash dsh plugin add github:uckkk/dsh-business-days
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-business-days
+source:
+  repository: https://github.com/uckkk/dsh-business-days
+  repositoryNodeId: R_kgDOT9uTTg
+  subpath: null
+  commit: 6c16b27eaaa1c44fabba2103e9b6e0796f5147c1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:44.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
