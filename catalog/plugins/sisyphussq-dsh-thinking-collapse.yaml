@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sisyphussq-dsh-thinking-collapse
+name: "@suqingsq/dsh-thinking-collapse"
+description:
+  en: Codex-style live reasoning and tool-call collapse for the DSH Web chat view.
+  evidencePath: packages/dsh-thinking-collapse/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - reasoning
+  - tool-calls
+  - web
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-thinking-collapse
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-thinking-collapse"
+  version: 0.2.0
+  integrity: sha512-IfmGmXFNoSzfxDVMQCmUxqK9tjqS1HTX0z3oooanlSsMhY8fW8HL+YaC3cP58lCaMZ83PWM910+SzQhSU/y6Bw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-thinking-collapse/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
