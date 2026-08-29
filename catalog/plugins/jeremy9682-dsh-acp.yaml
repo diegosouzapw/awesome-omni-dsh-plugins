@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jeremy9682-dsh-acp
+name: "@jeremy9682/dsh-acp"
+description:
+  en: "DeepSeek Harness ACP bundle for editor delegation: a one-command Agent Client Protocol stdio server profile that shares dsh credentials and session logs."
+  evidencePath: acp/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - acp
+  - agent-client-protocol
+source:
+  repository: https://github.com/jeremy9682/dsh-cursor-codex
+  repositoryNodeId: R_kgDOT4yoLw
+  subpath: acp
+  commit: 81def5abbc01bd5b461710ed11a595bb4355f5f7
+creator:
+  github: jeremy9682
+package:
+  ecosystem: npm
+  name: "@jeremy9682/dsh-acp"
+  version: 0.1.0
+  integrity: sha512-ZTEXRuW4c6gD1IkfUw5/q6HHbeaoNLLNR7OMZLpvAnlCamQCrFOWVtigSJmkcSxYrKMk13x5pHK2+GqnSuecLA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: acp/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:37.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
