@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-log-any
+name: dsh-log-any
+description:
+  en: bash dsh plugin add github:uckkk/dsh-log-any
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-log-any
+source:
+  repository: https://github.com/uckkk/dsh-log-any
+  repositoryNodeId: R_kgDOT9vBaw
+  subpath: null
+  commit: 3e862ccfa83c39fd4320a8de1900ba1dd0a5e6ec
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:23.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
