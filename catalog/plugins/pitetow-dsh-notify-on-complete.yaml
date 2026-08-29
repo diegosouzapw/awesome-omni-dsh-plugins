@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pitetow-dsh-notify-on-complete
+name: dsh-notify-on-complete
+description:
+  en: "Desktop notifications for DeepSeek Harness (dsh): run completion, model questions, and approval requests. Zero runtime dependencies — all peers provided by the dsh CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - notifications
+  - desktop-notifications
+  - notify
+  - cordis
+  - cli
+  - nodejs
+  - typescript
+source:
+  repository: https://github.com/pitetow/dsh-notify-on-complete
+  repositoryNodeId: R_kgDOT4h62A
+  subpath: null
+  commit: 21eefda31f414320b900557086f65c4a22ac13c8
+creator:
+  github: pitetow
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:46.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
