@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: rimzer-dsh-cad-plugin
+name: dsh-cad-plugin
+description:
+  en: DeepSeek Harness tools for inspecting, extracting and previewing CAD files.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - cad
+  - dwg
+  - dxf
+  - dsh
+source:
+  repository: https://github.com/roymina/dsh-cad
+  repositoryNodeId: R_kgDOT-uUBQ
+  subpath: null
+  commit: 749d7ca49479797a3a7797a128498645f6dbdadc
+creator:
+  github: rimzer
+package:
+  ecosystem: npm
+  name: dsh-cad-plugin
+  version: 0.1.0
+  integrity: sha512-EGd0pi7yIez6Ae3PGVEwIsAmlexGQO4ig5i0bP2BI/+8oCUl1wY6g9lBsqEKJYOHB9oSxSYfaNqI+7MonvH5YQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:10.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
