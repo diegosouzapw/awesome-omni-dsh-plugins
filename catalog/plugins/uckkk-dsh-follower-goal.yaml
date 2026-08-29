@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-follower-goal
+name: dsh-follower-goal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-follower-goal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-follower-goal
+source:
+  repository: https://github.com/uckkk/dsh-follower-goal
+  repositoryNodeId: R_kgDOT-tP8Q
+  subpath: null
+  commit: ec5099971e1d9a841577196104d32cbb48a5b0c4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:40.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
