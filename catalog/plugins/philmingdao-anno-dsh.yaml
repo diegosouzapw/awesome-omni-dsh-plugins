@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: philmingdao-anno-dsh
+name: "@philmingdao/anno-dsh"
+description:
+  en: Native DeepSeek Harness bundle for Anno HTML review and annotation.
+  evidencePath: adapters/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - html
+  - annotation
+source:
+  repository: https://github.com/philmingdao/anno
+  repositoryNodeId: R_kgDOT5xPCw
+  subpath: adapters/dsh
+  commit: 69db95d533c93d310f4e05ae789679f2e096e844
+creator:
+  github: philmingdao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: adapters/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:19.788Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
