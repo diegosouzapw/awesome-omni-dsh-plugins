@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: michengai-dsh-im-connect
+name: "@michengai/dsh-im-connect"
+description:
+  en: Connect Feishu, DingTalk, WeCom, WeChat, QQ, and Telegram to local DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - connect
+  - feishu
+  - dingtalk
+  - wecom
+  - wechat
+  - telegram
+  - local
+  - dsh
+source:
+  repository: https://github.com/MichengAI/dsh-im-connect
+  repositoryNodeId: R_kgDOT54PIA
+  subpath: null
+  commit: 91798e0f49f8406ba8933a2b0c5f58868c3fe5ee
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-im-connect"
+  version: 0.1.24
+  integrity: sha512-SX2acYYy+xaGtNLEt1RJozF7n2CkBjn2/5UHuN7KWJ2wlcX1pno2Yhd71Q8YYLHDHqj2ygUefHV3rCqz1zjdPw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:39.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
