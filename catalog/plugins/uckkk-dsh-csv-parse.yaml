@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-csv-parse
+name: dsh-csv-parse
+description:
+  en: bash dsh plugin add dsh-csv-parse 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-csv-parse" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - csv
+  - parse
+  - table
+source:
+  repository: https://github.com/uckkk/dsh-csv-parse
+  repositoryNodeId: R_kgDOT9tAdQ
+  subpath: null
+  commit: e2e4e7ec0d58fe0142ca326a7df5e16bb4abdf0f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:34.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
