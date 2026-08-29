@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: stardustlc666-dsh-code-security
+name: dsh-code-security
+description:
+  en: Every agent code change passes a local security scan before delivery.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - security
+  - code-review
+  - sast
+  - secrets
+  - owasp
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-code-security
+  repositoryNodeId: R_kgDOT5kX7w
+  subpath: null
+  commit: cd38e7fd6dce10b2d0635c355407a91d87c2a7b9
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-code-security
+  version: 0.3.0
+  integrity: sha512-5D0YagOjBFBcAirZOrABxj/MRLF4YhWfbZo8dmNkoL/HwcqEPhaDzmHZesnYevbV61ceW4J10c5GyCPT6FwoCQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:50.408Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
