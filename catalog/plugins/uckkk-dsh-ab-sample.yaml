@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ab-sample
+name: dsh-ab-sample
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ab-sample
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ab-sample
+source:
+  repository: https://github.com/uckkk/dsh-ab-sample
+  repositoryNodeId: R_kgDOT-tJbA
+  subpath: null
+  commit: 34b310f94b426bbc3da3dda1ec713d9c8c3f6a1a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:36.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
