@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-semver
+name: dsh-semver
+description:
+  en: bash dsh plugin add dsh-semver 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-semver" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - semver
+  - version
+source:
+  repository: https://github.com/uckkk/dsh-semver
+  repositoryNodeId: R_kgDOT6HnAA
+  subpath: null
+  commit: a9f37a94ec8256cce7609be37d9a445fd9ff9bae
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:58.319Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
