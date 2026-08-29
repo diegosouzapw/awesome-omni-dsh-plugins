@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: fjzzwxp-dsh-mnemosyne-memory
+name: dsh-mnemosyne-memory
+description:
+  en: Choice -- 🌐 免费 Gemini API G PATH Choice -- 💻 完全离线 Ollama O PATH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - mnemosyne
+  - memory
+  - dsh
+  - hindsight
+  - long-term-memory
+  - vector-search
+  - llm-reflection
+source:
+  repository: https://github.com/fjzzwxp/dsh-mnemosyne-memory
+  repositoryNodeId: R_kgDOUC-5IA
+  subpath: null
+  commit: e98a92bac39831d07ddb53deb46b7a2786fbc6f9
+creator:
+  github: fjzzwxp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:03.357Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
