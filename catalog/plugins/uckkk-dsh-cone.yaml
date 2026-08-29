@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cone
+name: dsh-cone
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cone
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cone
+source:
+  repository: https://github.com/uckkk/dsh-cone
+  repositoryNodeId: R_kgDOT9u_og
+  subpath: null
+  commit: 29416add80158466a3dac0b49b87d15e53a93fb7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:30.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
