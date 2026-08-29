@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-china
+name: dsh-china
+description:
+  en: bash dsh plugin add github:uckkk/dsh-china
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-china
+source:
+  repository: https://github.com/uckkk/dsh-china
+  repositoryNodeId: R_kgDOT_A0Ag
+  subpath: null
+  commit: 0a241078fbf4e616f75b99d7b1633e524f051514
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:23.729Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
