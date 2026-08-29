@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stardustlc666-dsh-ffmpeg
+name: dsh-ffmpeg
+description:
+  en: "DSH (DeepSeek Harness) video-processing plugin: seven tools covering probing, cutting, concatenation, transcoding, subtitles, extraction and GIF creation — all powered by ffmpeg/ffprobe."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - ffmpeg
+  - video
+  - media
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-ffmpeg
+  repositoryNodeId: R_kgDOT4se0w
+  subpath: null
+  commit: 2370802ad88d5977d77ec4b54e0f2d90ae62682a
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-ffmpeg
+  version: 0.3.0
+  integrity: sha512-Md/DXP3pvMp92pgULb5XMc8Temx4yAZVYhVW+m2sQfOmSVaNhCP9ybdKLSHbFPJoA6PEvxFW4PuXTgqwaHOM4g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:38.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
