@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-counter-height
+name: dsh-counter-height
+description:
+  en: bash dsh plugin add github:uckkk/dsh-counter-height
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-counter-height
+source:
+  repository: https://github.com/uckkk/dsh-counter-height
+  repositoryNodeId: R_kgDOT-ss2g
+  subpath: null
+  commit: 09fa3c364cf3bbdc7bcfb998827b6dd6c35ded10
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:33.127Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
