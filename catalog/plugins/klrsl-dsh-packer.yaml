@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: klrsl-dsh-packer
+name: dsh-packer
+description:
+  en: "dsh-packer is a configuration packer plugin for DeepSeek Harness (DSH) . It packs your local Agent assets into zip archives, module by module, for two purposes:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - packer
+  - configuration
+  - packs
+  - local
+  - agent
+  - assets
+  - archives
+  - module
+  - purposes
+  - dsh
+source:
+  repository: https://github.com/KLRSL/dsh-packer
+  repositoryNodeId: R_kgDOT51Ozg
+  subpath: null
+  commit: a4e0e97d5e74808b3f6e513b975ee66b5840bd1a
+creator:
+  github: KLRSL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:46.521Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
