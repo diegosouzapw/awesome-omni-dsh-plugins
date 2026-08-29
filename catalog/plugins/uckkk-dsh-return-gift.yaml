@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-return-gift
+name: dsh-return-gift
+description:
+  en: bash dsh plugin add github:uckkk/dsh-return-gift
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-return-gift
+source:
+  repository: https://github.com/uckkk/dsh-return-gift
+  repositoryNodeId: R_kgDOT-wbyw
+  subpath: null
+  commit: ad0bb3214389eb86b153bef251eb453dc2dfe481
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:49.925Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
