@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: stuarthu2-dsh-update-notifier
+name: dsh-update-notifier
+description:
+  en: Hourly checks npm for newer versions of your installed DeepSeek Harness (dsh) plugins and pops an approval bubble asking which to upgrade; approved upgrades are handed to the agent to run.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - update-notifier
+  - outdated
+  - upgrade
+  - cordis
+source:
+  repository: https://github.com/stuarthu/dsh-update-notifier
+  repositoryNodeId: R_kgDOT5wZLw
+  subpath: null
+  commit: cf32806aa995ea694f535348478f16fb87220276
+creator:
+  github: stuarthu2
+package:
+  ecosystem: npm
+  name: dsh-update-notifier
+  version: 0.2.1
+  integrity: sha512-h7gwfDeDrBB3b7POo5uxqdat2dNmuPQ9IxKJDCleTf2jY/uzL5MzAUYZAEWxPquNdcHq07rJRAOpgi4aEVmpaQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:18.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
