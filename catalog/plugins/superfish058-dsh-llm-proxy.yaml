@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: superfish058-dsh-llm-proxy
+name: "@superfish058/dsh-llm-proxy"
+description:
+  en: sh dsh plugin --profile web add @superfish058/dsh-llm-proxy
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - llm
+  - proxy
+  - clash
+  - undici
+  - rate-limit
+  - token-bucket
+  - cordis
+  - settings
+  - web-ui
+source:
+  repository: https://github.com/superfish058/dsh-llm-proxy
+  repositoryNodeId: R_kgDOT8QdmQ
+  subpath: null
+  commit: d0a68ca27bcc438c76f26980da0ccc749e6d9a48
+creator:
+  github: superfish058
+package:
+  ecosystem: npm
+  name: "@superfish058/dsh-llm-proxy"
+  version: 1.1.0
+  integrity: sha512-3778d9BQnxAj+SBYUvun7SMYmfAT37fAGM5h7hHewENVUSmsxqFI0jnSfVycIEaPWMfiqpPEBNtmXWFewWeL/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:10.755Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
