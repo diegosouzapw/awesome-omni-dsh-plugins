@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cuid
+name: dsh-cuid
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cuid
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cuid
+source:
+  repository: https://github.com/uckkk/dsh-cuid
+  repositoryNodeId: R_kgDOT9uc1w
+  subpath: null
+  commit: ac23c5afec53ccfdc6d0553f3c913d869edabe5b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:35.267Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
