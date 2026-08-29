@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: taxueseek-dsh-files
+name: dsh-files
+description:
+  en: "DeepSeek Harness dual-face plugin: a composer file-upload button (paperclip + folder + drag-drop, @ dual-source candidates) with session-isolated storage, TTL sweep and sha256 dedup; native image support that hands JPEG/PNG/WebP/GIF to any image-capable model via the core attachment pipeline; plus a read document tool "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - upload
+  - attachment
+  - pdf
+  - docx
+  - xlsx
+source:
+  repository: https://github.com/taxueseek/dsh-files
+  repositoryNodeId: R_kgDOT36jHA
+  subpath: null
+  commit: 93552711542e628ab311c74a5ea175a703792a2d
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 28
+provenance:
+  discussion: null
+  comment: null
