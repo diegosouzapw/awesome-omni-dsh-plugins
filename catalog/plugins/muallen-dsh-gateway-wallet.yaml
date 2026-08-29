@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: muallen-dsh-gateway-wallet
+name: dsh-gateway-wallet
+description:
+  en: Live remaining balance and actual spend from the provider for the current API key, not a local token estimate.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh-bundle
+  - cordis-plugin
+  - billing
+  - sub2api
+  - newapi
+  - dsh
+source:
+  repository: https://github.com/MuAllen/dsh-gateway-wallet
+  repositoryNodeId: R_kgDOUCZJqg
+  subpath: null
+  commit: bb874e805171e366f59f11b83b3bfb2254c1e2bf
+creator:
+  github: MuAllen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:12.517Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
