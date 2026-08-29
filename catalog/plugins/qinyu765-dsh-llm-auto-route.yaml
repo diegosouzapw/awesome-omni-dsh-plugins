@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: qinyu765-dsh-llm-auto-route
+name: dsh-llm-auto-route
+description:
+  en: Provider discovery, matching, health checks, and pre-output failover for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - llm
+  - provider-routing
+  - typescript
+  - dsh
+source:
+  repository: https://github.com/qinyu765/dsh-llm-auto-route
+  repositoryNodeId: R_kgDOT4Jprg
+  subpath: null
+  commit: 4f9bdfbf936cd0e18aa2704060ce44fe384d9c52
+creator:
+  github: qinyu765
+package:
+  ecosystem: npm
+  name: dsh-llm-auto-route
+  version: 0.1.0
+  integrity: sha512-ddTpbZRLJxd5v/3UjZWqaAK2lNuxSVWQAzXl6dffmjFJ5zkHb+2CFDpV0zcrkQoG2uvSdBmBWqxRdJrLNfTdsQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:12.215Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
