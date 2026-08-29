@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: stardustlc666-dsh-hyperframes
+name: dsh-hyperframes
+description:
+  en: "DSH (DeepSeek Harness) video-creation skill plugin: installing it registers the five official HyperFrames by HeyGen skills into DSH (video from HTML: compositions, GSAP animation, captions, voiceovers, audio-reactive visuals, website-to-video)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - skills
+  - video
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-hyperframes
+  repositoryNodeId: R_kgDOT4uv7g
+  subpath: null
+  commit: 646a9489015d622b1b3f10c984fb5879794a6d70
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-hyperframes
+  version: 0.2.0
+  integrity: sha512-+JJIEqxO595Z0IRD2R+9sJTc8KBKPACXhE5lyPGPddUkCG4C3oCIhgexBZck1fe6KR3wLMGTuGd1XYrt2a4faQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.363Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
