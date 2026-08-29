@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-checksum
+name: dsh-checksum
+description:
+  en: bash dsh plugin add dsh-checksum 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-checksum" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - hash
+  - checksum
+  - md5
+  - sha256
+source:
+  repository: https://github.com/uckkk/dsh-checksum
+  repositoryNodeId: R_kgDOT9pRZg
+  subpath: null
+  commit: bc21cf08af94514e4bc838ef611025161841c955
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:23.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
