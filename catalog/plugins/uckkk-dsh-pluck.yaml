@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pluck
+name: dsh-pluck
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pluck
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pluck
+source:
+  repository: https://github.com/uckkk/dsh-pluck
+  repositoryNodeId: R_kgDOT9upPQ
+  subpath: null
+  commit: 9108c59f93480bd5eefff167ea800e03ac8b3b80
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:50.585Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
