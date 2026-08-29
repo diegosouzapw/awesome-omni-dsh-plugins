@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ook826092-cloud-dsh-mobile-css
+name: dsh-mobile-css
+description:
+  en: "Mobile adaptation for the DeepSeek Harness Web UI: compact typography, drawer sidebar, two-page settings, responsive tables and stats, safe touch targets. Pure CSS injection, no source modification."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web-ui
+  - mobile
+  - responsive
+source:
+  repository: https://github.com/ook826092-cloud/dsh-mobile-css
+  repositoryNodeId: R_kgDOT47HEg
+  subpath: null
+  commit: 6f4f27aa99a9c041812c87ec9cc1d464a35ed541
+creator:
+  github: ook826092-cloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:52.002Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
