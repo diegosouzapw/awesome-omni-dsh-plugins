@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: etony-dsh-task-board
+name: "@etony668/dsh-task-board"
+description:
+  en: "A port of the CodexFF project task board for DeepSeek Harness (DSH) : a new Chat → Trajectory → Task Board tab in the conversation view, canvas-style draggable panels, agent tools and a sync skill, with local JSON storage and no external services."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - port
+  - codexff
+  - task
+  - board
+  - chat
+  - trajectory
+  - conversation
+  - view
+  - canvas
+  - style
+  - draggable
+  - panels
+  - agent
+  - tools
+  - sync
+  - skill
+source:
+  repository: https://github.com/etony668/dsh-task-board
+  repositoryNodeId: R_kgDOUBDxtQ
+  subpath: null
+  commit: 4e7f97cdbbc765d0e351e0e6d066f6a40ef14a0e
+creator:
+  github: etony
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:31.346Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
