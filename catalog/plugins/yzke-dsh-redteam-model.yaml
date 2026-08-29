@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yzke-dsh-redteam-model
+name: "@dsh-external/dsh-redteam-model"
+description:
+  en: "DSH redteam security research modes and runtime plugins, managed from one settings page: deploy the nine presets, install, update and uninstall the fifteen runtime plugins for the current profile."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - redteam
+  - security
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: null
+  commit: 45ba1a1cbb20043350e60ee51ec20442a7fb1fbb
+creator:
+  github: yzke
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 106
+provenance:
+  discussion: null
+  comment: null
