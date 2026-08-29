@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tisitan-dsh-live2d-companion
+name: dsh-live2d-companion
+description:
+  en: "Live2D companion for DeepSeek Harness: 8-state AI status lamp, web widget, and always-on-top desktop pet with expressions, motions and bubbles"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - live2d
+  - desktop-pet
+  - widget
+  - web-ui
+source:
+  repository: https://github.com/Tisitan/dsh-live2d-companion
+  repositoryNodeId: R_kgDOT5e8Vg
+  subpath: null
+  commit: 48d9b3af7cfcee1e54137fe01a64e58d912bb78a
+creator:
+  github: Tisitan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
