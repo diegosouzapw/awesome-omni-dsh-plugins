@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-test-coverage
+name: dsh-test-coverage
+description:
+  en: bash dsh plugin add dsh-test-coverage
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - coverage
+  - test
+source:
+  repository: https://github.com/uckkk/dsh-test-coverage
+  repositoryNodeId: R_kgDOT57NKg
+  subpath: null
+  commit: a4d90387696bbe25376c92237054e8da552316b1
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-test-coverage
+  version: 0.1.0
+  integrity: sha512-1aaXjw0QPlSNSmLqhEdrhKMI0LD3Nr6X30pmFtVYjx0ZqIaXftgMnxcJC8I9KRSBvtDbW/EzXBl9dTYVm/Wcwg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:40.595Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
