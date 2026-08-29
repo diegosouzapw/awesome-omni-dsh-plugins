@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-meeting-cost
+name: dsh-meeting-cost
+description:
+  en: bash dsh plugin add github:uckkk/dsh-meeting-cost
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-meeting-cost
+source:
+  repository: https://github.com/uckkk/dsh-meeting-cost
+  repositoryNodeId: R_kgDOT-s8Uw
+  subpath: null
+  commit: 7c6cfa8bae6ebabd452aa9055eaeef624df62b65
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:28.649Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
