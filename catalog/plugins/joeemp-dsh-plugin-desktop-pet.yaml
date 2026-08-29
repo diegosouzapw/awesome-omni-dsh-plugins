@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: joeemp-dsh-plugin-desktop-pet
+name: dsh-plugin-desktop-pet
+description:
+  en: bash cd ~/.dsh/profiles/web pnpm add link:{project path}/desktop-pet
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - bash
+  - profiles
+  - pnpm
+  - link
+  - path
+  - desktop
+  - dsh
+source:
+  repository: https://github.com/JoeEmp/dsh-kamen-rider-pet
+  repositoryNodeId: R_kgDOT7XTeg
+  subpath: null
+  commit: 16f2be556f4dd4f3d2fc5f59da3d06a0b228ed68
+creator:
+  github: JoeEmp
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:48:26.436Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
