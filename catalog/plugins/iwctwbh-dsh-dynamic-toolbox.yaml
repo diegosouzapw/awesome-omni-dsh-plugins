@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: iwctwbh-dsh-dynamic-toolbox
+name: dsh-dynamic-toolbox
+description:
+  en: powershell npm pack dsh plugin --profile web add <tgz dsh plugin --profile web add dsh-dynamic-toolbox dsh plugin --profile web remove dsh-dynamic-toolbox
+  evidencePath: dynamic-toolbox/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - toolbox
+  - dynamic-toolbox
+source:
+  repository: https://github.com/Iwctwbh/dsh-flowglass
+  repositoryNodeId: R_kgDOT4hFeQ
+  subpath: dynamic-toolbox
+  commit: 59e8c0f415f0874ac3b52a9f88ae7c7dcbbde708
+creator:
+  github: Iwctwbh
+package:
+  ecosystem: npm
+  name: dsh-dynamic-toolbox
+  version: 0.4.1
+  integrity: sha512-wpkus38usVDf4ploBPfIez8gVc9n0PaZupanIwZtRRjlA8qjWhu5SVU+eORXZhzcTzDJA4YpNxRc9rQWuwctZA==
+dsh:
+  profiles:
+    - web
+  evidencePath: dynamic-toolbox/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:24.137Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
