@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: moresyl-dsh-studio-integration
+name: "@moresyl/dsh-studio-integration"
+description:
+  en: A native desktop shell for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - native
+  - desktop
+  - shell
+  - dsh
+source:
+  repository: https://github.com/Moresyl/dsh-studio
+  repositoryNodeId: R_kgDOT49MhA
+  subpath: src-tauri/runtime-contract/dsh-studio-integration
+  commit: 4791b56330066a88f78ba0e8ea7daa499896f5b3
+creator:
+  github: Moresyl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: src-tauri/runtime-contract/dsh-studio-integration/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:10.896Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
