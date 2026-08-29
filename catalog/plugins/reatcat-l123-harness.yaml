@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: reatcat-l123-harness
+name: l123-harness
+description:
+  en: "L1-L2-L3 three-tier memory agent harness: gate approval, zero-judgement event log, weekly distillation, TDD execution loop. Claude Code plugin and DeepSeek Harness (dsh) bundle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - claude-code-plugin
+  - agent-memory
+  - methodology
+  - skills
+  - hooks
+  - tdd
+source:
+  repository: https://github.com/reatcat/l123-harness
+  repositoryNodeId: R_kgDOUAeSjQ
+  subpath: null
+  commit: a7ac81012f58bbc535378a684ec7482024ded742
+creator:
+  github: reatcat
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:00.918Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
