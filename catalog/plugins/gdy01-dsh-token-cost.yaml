@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: gdy01-dsh-token-cost
+name: dsh-token-cost
+description:
+  en: "DSH plugin: per-project LLM token usage and RMB cost (input / cache-hit / output) based on model standard prices."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - token
+  - cost
+  - usage
+  - billing
+source:
+  repository: https://github.com/gdy01/dsh-token-cost
+  repositoryNodeId: R_kgDOT69VEA
+  subpath: null
+  commit: 637ea42376fe29c309d7484c2edaf65420f9aa13
+creator:
+  github: gdy01
+package:
+  ecosystem: npm
+  name: dsh-token-cost
+  version: 0.1.0
+  integrity: sha512-m0xWWbl4PJ9GMhXkKcAjFQWVjguUGn3ZRQhRO5w9ymrglh/EMvmTMx7AQs+5yUl/c06xK58pOmLGiimjVBdW+w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:10.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
