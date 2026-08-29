@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: hanmiao33-bubble-explain
+name: "@dsh-external/bubble-explain"
+description:
+  en: A DeepSeek Harness profile bundle that explains any selected text inside a conversation with a streaming Markdown bubble, with recursive follow-up questions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - bundle
+  - explains
+  - selected
+  - text
+  - inside
+  - conversation
+  - streaming
+  - markdown
+  - bubble
+  - recursive
+  - follow
+  - questions
+  - dsh
+source:
+  repository: https://github.com/Hanmiao33/dsh-bubble-explain
+  repositoryNodeId: R_kgDOUBR15Q
+  subpath: null
+  commit: 117e5da071bca9355a6f25f878810256573c2893
+creator:
+  github: Hanmiao33
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:53.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
