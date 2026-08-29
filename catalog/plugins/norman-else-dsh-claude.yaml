@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: norman-else-dsh-claude
+name: "@norman-else/dsh-claude"
+description:
+  en: Run the local Claude Code CLI as a first-class main conversation inside DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - local
+  - claude
+  - code
+  - first
+  - class
+  - main
+  - conversation
+  - inside
+  - dsh
+source:
+  repository: https://github.com/Norman-else/dsh-claude
+  repositoryNodeId: R_kgDOT5G7pA
+  subpath: null
+  commit: d4f6eb6e9ff275d2d6a75c111ac6bdd47d9ba36d
+creator:
+  github: Norman-else
+package:
+  ecosystem: npm
+  name: "@norman-else/dsh-claude"
+  version: 0.1.25
+  integrity: sha512-V7T9Gnl/I/z3OW3x4SFz9MKqp/O+DzwdowuXg8UTLbq80SC59pmvrRrAfb2M1GT2OfxQWIto69NYjxfudGIa0g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:06.331Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
