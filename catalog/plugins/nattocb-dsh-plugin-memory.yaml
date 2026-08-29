@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: nattocb-dsh-plugin-memory
+name: "@deepseek-ai/dsh-plugin-memory"
+description:
+  en: Persistent 5-layer memory system for DeepSeek Harness (entry injection, relevance retrieval, agent tools, and LLM-backed auto-extraction).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+  - agent-memory
+source:
+  repository: https://github.com/NattoCB/dsh-plugin-memory
+  repositoryNodeId: R_kgDOT7OhVg
+  subpath: null
+  commit: a83fccef21f74d5242df5df0ab5c0be7ae8ddf8b
+creator:
+  github: NattoCB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:02.579Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
