@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: a903067276-rgb-dsh-backup
+name: dsh-backup
+description:
+  en: Automated backups of DSH sessions, config and custom directories — scheduled or manual, packed as tgz with rotation
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - backup
+  - automation
+source:
+  repository: https://github.com/a903067276-rgb/dsh-backup
+  repositoryNodeId: R_kgDOT-N9tQ
+  subpath: null
+  commit: 40216c55e078136a246547bd5cce6c79c78fb060
+creator:
+  github: a903067276-rgb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:58.099Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
