@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lagran-cursor-harness-bridge
+name: cursor-harness-bridge
+description:
+  en: DeepSeek Harness Web UI backed by a local Cursor SDK agent
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - backed
+  - local
+  - cursor
+  - agent
+  - dsh
+source:
+  repository: https://github.com/lagran/cursor-harness-bridge
+  repositoryNodeId: R_kgDOT6rPpQ
+  subpath: null
+  commit: 8d96f86e97a436f0b40462eba0f47643ba17f26f
+creator:
+  github: lagran
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:29.040Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
