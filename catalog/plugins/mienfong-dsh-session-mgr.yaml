@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: mienfong-dsh-session-mgr
+name: dsh-session-mgr
+description:
+  en: Session Manager for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web
+  - workspace
+  - session
+  - session-management
+  - move-session
+  - backup
+  - archived-sessions
+source:
+  repository: https://github.com/mienfong/dsh-session-mgr
+  repositoryNodeId: R_kgDOUCs1XQ
+  subpath: null
+  commit: d0773bf409a8e1143c36ef80d940573b9211b2d1
+creator:
+  github: mienfong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:07.940Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
