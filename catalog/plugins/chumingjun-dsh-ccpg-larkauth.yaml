@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: chumingjun-dsh-ccpg-larkauth
+name: dsh-ccpg-larkauth
+description:
+  en: Workflow One is a visual AI workflow orchestrator for DeepSeek Harness (dsh). Describe what you need in natural language and the AI will plan and create a DAG of real dsh agents, scripts, conditions, and HTTP nodes. Fine-tune it on the canvas when needed, then start the flow, inspect every node's input, output, and art
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - workflow
+  - visual
+  - orchestrator
+  - describe
+  - what
+  - need
+  - natural
+  - language
+  - plan
+  - create
+  - real
+  - agents
+  - scripts
+  - conditions
+  - nodes
+  - fine
+source:
+  repository: https://github.com/chumingjun/dsh-harness-one
+  repositoryNodeId: R_kgDOT-ev7w
+  subpath: dsh-plugins/dsh-ccpg-larkauth
+  commit: a067ae8d03b908c096c5424680686f78d4ddc22d
+creator:
+  github: chumingjun
+package:
+  ecosystem: npm
+  name: dsh-ccpg-larkauth
+  version: 0.3.2
+  integrity: sha512-9EPJgimdUSvEreWbss+HjSZy3+cuHdEh5dhyHQqMWUBNfe5UbYMVBk2Ko/GzPjtAUUZJjeXf5gsZ6leN9M8JcQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: dsh-plugins/dsh-ccpg-larkauth/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:32.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
