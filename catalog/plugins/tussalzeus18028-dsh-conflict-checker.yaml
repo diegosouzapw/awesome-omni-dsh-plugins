@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tussalzeus18028-dsh-conflict-checker
+name: dsh-conflict-checker
+description:
+  en: Detect DeepSeek Harness plugin conflicts and internal issues, and manage plugins (enable / disable / uninstall) from a settings page.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - conflict
+  - diagnostics
+  - plugin-manager
+source:
+  repository: https://github.com/TussalZeus18028/dsh-conflict-checker
+  repositoryNodeId: R_kgDOUE5Q4Q
+  subpath: null
+  commit: be303fca9474d9e930239a1a6ce0cbd87e929b79
+creator:
+  github: TussalZeus18028
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:54.146Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
