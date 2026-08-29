@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: lanbaolu-dsh-wechat-bridge
+name: "@lanbaolu/dsh-wechat-bridge"
+description:
+  en: 微信 App ←→ iLink Bot API ←→ bridge daemon (Node.js) │ HTTP + SSE (127.0.0.1, token 鉴权) ▼ DSH Host Plugin │ ctx.agents.create/resume + followup ▼ DSH Agent (本机 LLM + 工具)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wechat
+  - wechat-bridge
+  - ilink
+  - im-bridge
+  - chatbot
+  - notify
+  - remote
+source:
+  repository: https://github.com/lanbaolu/dsh-wechat-bridge
+  repositoryNodeId: R_kgDOT8Dl8Q
+  subpath: null
+  commit: fefec097295a55a65e430169972af507900e8627
+creator:
+  github: lanbaolu
+package:
+  ecosystem: npm
+  name: "@lanbaolu/dsh-wechat-bridge"
+  version: 0.6.0
+  integrity: sha512-v3Ft46nGp1ccjD5FR7XH9BxVDitwxA47MO+sgRVaG8xl4LfAl3TRJ2ZwFsyQO6Kr+BZM6hBAubkzfCVtg+k/+A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:03.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
