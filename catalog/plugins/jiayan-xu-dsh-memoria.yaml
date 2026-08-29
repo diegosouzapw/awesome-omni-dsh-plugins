@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jiayan-xu-dsh-memoria
+name: "@jhp830901/dsh-memoria"
+description:
+  en: "memoria memory backend for dsh: registers memoria observe / memoria remember / memoria search / memoria recall so the dsh agent can persist to and recall from a vector+graph memory layer (memoria, default http://127.0.0.1:9003). Includes auto-write: turn-end observation and positive-feedback - importance-5 remember."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - memoria
+  - memory
+  - backend
+  - registers
+  - observe
+  - remember
+  - search
+  - recall
+  - agent
+  - persist
+  - vector
+  - graph
+  - layer
+  - default
+  - "9003"
+  - includes
+source:
+  repository: https://github.com/jiayan-xu/dsh-memoria
+  repositoryNodeId: R_kgDOT37tFA
+  subpath: null
+  commit: 436a55a823f77f063cfe8bec301790326115f447
+creator:
+  github: jiayan-xu
+package:
+  ecosystem: npm
+  name: "@jhp830901/dsh-memoria"
+  version: 0.2.1
+  integrity: sha512-aCqs0V9zD0EY7oIL35+Pf7P1IQAKoH2TSZy9vCc0C+QBYC+d0mBB3lYaS8CHM/jWvCWvVbm0sNplweJ0SkIJwA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:28.038Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
