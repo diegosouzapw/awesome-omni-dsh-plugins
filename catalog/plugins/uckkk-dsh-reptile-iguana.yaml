@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-reptile-iguana
+name: dsh-reptile-iguana
+description:
+  en: bash dsh plugin add github:uckkk/dsh-reptile-iguana
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-reptile-iguana
+source:
+  repository: https://github.com/uckkk/dsh-reptile-iguana
+  repositoryNodeId: R_kgDOT-CvHA
+  subpath: null
+  commit: 28f88e7204c6da25f55571231084a6aeb0b36d75
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:49.297Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
