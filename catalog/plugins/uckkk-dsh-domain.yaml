@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-domain
+name: dsh-domain
+description:
+  en: bash dsh plugin add github:uckkk/dsh-domain
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-domain
+source:
+  repository: https://github.com/uckkk/dsh-domain
+  repositoryNodeId: R_kgDOT9uqmw
+  subpath: null
+  commit: 42381efde7bea2ece4a4c6f9318ccaf8a5e4a479
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:31.998Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
