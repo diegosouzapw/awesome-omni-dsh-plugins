@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: hb-degithub-dsh-usage-guard
+name: dsh-usage-guard
+description:
+  en: Usage statistics panel for DeepSeek Harness (DSH) Web GUI — silent background collection, per-model analytics, cost estimation and a daily-limit guard.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - usage
+  - tokens
+  - statistics
+  - cost
+  - guard
+source:
+  repository: https://github.com/hb-degithub/dsh-usage-guard
+  repositoryNodeId: R_kgDOT9cwWA
+  subpath: null
+  commit: 0ef4dc70b1a0c1e543f1e4bedc588cadc4db5665
+creator:
+  github: hb-degithub
+package:
+  ecosystem: npm
+  name: dsh-usage-guard
+  version: 0.1.0
+  integrity: sha512-BgusgqkTamU43UGwIXh08cuieYq6Bw8nOuYqx/5qVbTW63GzfgZ1giiqoJUoZkzSYb/ksRvGC42REKFCOzv+Kw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:23.595Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
