@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-prime
+name: dsh-prime
+description:
+  en: bash dsh plugin add github:uckkk/dsh-prime
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-prime
+source:
+  repository: https://github.com/uckkk/dsh-prime
+  repositoryNodeId: R_kgDOT9uBxw
+  subpath: null
+  commit: a4dc026e32e419ddc46717d77cfa9dde26ee2a27
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:52.979Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
