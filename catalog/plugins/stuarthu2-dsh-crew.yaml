@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: stuarthu2-dsh-crew
+name: dsh-crew
+description:
+  en: "DeepSeek Harness (dsh) plugin: run work as a small crew of role agents (product manager, researcher, architect, engineer, test engineer, code engineer, QA, code reviewer, security reviewer, doc reviewer) that talk through files on disk, with the PM as the only voice to the user."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - cordis
+  - ai
+  - llm
+  - ai-agent
+  - agents
+  - multi-agent
+  - agent-team
+  - subagent
+  - orchestration
+  - agent-orchestration
+  - coding-agent
+  - code-review
+source:
+  repository: https://github.com/stuarthu/dsh-crew
+  repositoryNodeId: R_kgDOT706MQ
+  subpath: null
+  commit: 09c6e037ef42153d9f5f7a0d7aa9df2b6e432e21
+creator:
+  github: stuarthu2
+package:
+  ecosystem: npm
+  name: dsh-crew
+  version: 0.10.0
+  integrity: sha512-9lG7bRaiqAV+JtDS06Y85/W5gfUrcYh5XTnvYTah8Xfe8bGd48+gVyNQ8Wjh/2arxCV747+w14hh55V3+bmK+Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.205Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
