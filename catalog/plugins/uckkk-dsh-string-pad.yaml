@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-string-pad
+name: dsh-string-pad
+description:
+  en: bash dsh plugin add dsh-string-pad 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-string-pad" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - string
+  - pad
+source:
+  repository: https://github.com/uckkk/dsh-string-pad
+  repositoryNodeId: R_kgDOT6N2_w
+  subpath: null
+  commit: 92289fbe0abaad96212349a9528acb8102c14d29
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:12.372Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
