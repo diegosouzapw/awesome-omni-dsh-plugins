@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: neomei-dsh-client-ui-roundtable
+name: "@neomei/dsh-client-ui-roundtable"
+description:
+  en: Durable roundtable Conversation Node rendering multi-round discussions for dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - durable
+  - roundtable
+  - conversation
+  - node
+  - rendering
+  - multi
+  - round
+  - discussions
+  - dsh
+source:
+  repository: https://github.com/NeoMei/dsh-roundtable
+  repositoryNodeId: R_kgDOT8Xbqg
+  subpath: packages/client/ui-roundtable
+  commit: 6c251e61e5acedda329df799013c84e1b8bd1e68
+creator:
+  github: NeoMei
+package:
+  ecosystem: npm
+  name: "@neomei/dsh-client-ui-roundtable"
+  version: 0.1.0-rc.6
+  integrity: sha512-3HGIpR8q+hDxiSvCcjtTkny0ffUj3aUWtEzO1RO4C6gog5EQu1WBcmPmnh3YAt44izKW3juEoPm+Novq21oyfg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/client/ui-roundtable/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:14.917Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
