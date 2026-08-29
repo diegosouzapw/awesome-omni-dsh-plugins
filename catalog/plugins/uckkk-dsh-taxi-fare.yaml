@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-taxi-fare
+name: dsh-taxi-fare
+description:
+  en: bash dsh plugin add github:uckkk/dsh-taxi-fare
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-taxi-fare
+source:
+  repository: https://github.com/uckkk/dsh-taxi-fare
+  repositoryNodeId: R_kgDOT-DZNA
+  subpath: null
+  commit: c81f9ba9aa1bbb9dad83d12317963372687fd9c6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:18.498Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
