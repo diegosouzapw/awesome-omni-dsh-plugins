@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: linxiushen-dsh-workflow-isolate
+name: dsh-workflow-isolate
+description:
+  en: QuickJS/WASM-isolated WorkflowEngine for running model-written DeepSeek Harness orchestration with bounded resource controls.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - workflow-engine
+  - quickjs
+  - wasm
+  - sandbox
+  - agentic
+source:
+  repository: https://github.com/Linxiushen/dsh-workflow-isolate
+  repositoryNodeId: R_kgDOT7gPog
+  subpath: null
+  commit: 0928d2b5cec465a4b69f2425d53fc63324c7e043
+creator:
+  github: Linxiushen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:45.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
