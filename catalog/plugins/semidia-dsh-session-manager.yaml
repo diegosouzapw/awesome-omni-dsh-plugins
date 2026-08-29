@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: semidia-dsh-session-manager
+name: "@dsh-external/dsh-session-manager"
+description:
+  en: "Right-click session menu + sidebar session manager for DeepSeek Harness web: pin, rename, archive, continue, export, copy cwd/id/deep-link, open in explorer or a new window."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - sidebar
+  - context-menu
+source:
+  repository: https://github.com/Semidia/dsh-session-manager
+  repositoryNodeId: R_kgDOT4uSAQ
+  subpath: null
+  commit: d4f6f857e79b042b33ee6b2882e368b996fa14a8
+creator:
+  github: Semidia
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:48.486Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
