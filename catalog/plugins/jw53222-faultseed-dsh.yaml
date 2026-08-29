@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jw53222-faultseed-dsh
+name: faultseed-dsh
+description:
+  en: "dsh (DeepSeek Harness) bundle: mounts the faultseed honesty-guardrail hooks over @deepseek-ai/dsh-hooks-claude-code, unmodified, via dispatch.py"
+  evidencePath: adapters/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - claude-code
+  - hooks
+  - guardrails
+  - honesty
+  - fault-seeding
+  - agent-safety
+source:
+  repository: https://github.com/JW53222/faultseed
+  repositoryNodeId: R_kgDOT4Yizg
+  subpath: adapters/dsh
+  commit: 263f0611765e746b36fe25d851694ef4ca156603
+creator:
+  github: JW53222
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: adapters/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:04.529Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
