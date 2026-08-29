@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: geekricardo-dsh-cordis-mcp
+name: dsh-cordis-mcp
+description:
+  en: ┌─────────────┐ MCP (Streamable HTTP, loopback) ┌───────────────────────────┐ │ Claude Code │ ────── http://127.0.0.1:8090/mcp ──▶ │ DSH host (本插件) │ │ (claude) │ ────── JSON-RPC 2.0 ───────────────▶ │ dynamicCordisRunner │ └─────────────┘ │ cordisInspect │ │ agents (会话解析) │ └───────────────────────────┘
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - streamable
+  - loopback
+  - claude
+  - code
+  - "8090"
+  - host
+  - json
+  - dynamiccordisrunner
+  - cordisinspect
+  - agents
+  - dsh
+source:
+  repository: https://github.com/GeekRicardo/dsh-cordis-mcp
+  repositoryNodeId: R_kgDOT9DW0A
+  subpath: null
+  commit: a36a23751279a398da9923b7a198a3d2a44143fb
+creator:
+  github: GeekRicardo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:14.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
