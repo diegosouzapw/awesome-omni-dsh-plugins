@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-formula-stage
+name: dsh-formula-stage
+description:
+  en: bash dsh plugin add github:uckkk/dsh-formula-stage
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-formula-stage
+source:
+  repository: https://github.com/uckkk/dsh-formula-stage
+  repositoryNodeId: R_kgDOT-wU2g
+  subpath: null
+  commit: 558d201a6b633379693a575535623af5f4ac6893
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:40.442Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
