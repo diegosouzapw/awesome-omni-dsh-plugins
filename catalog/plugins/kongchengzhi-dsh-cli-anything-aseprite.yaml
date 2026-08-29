@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kongchengzhi-dsh-cli-anything-aseprite
+name: dsh-cli-anything-aseprite
+description:
+  en: "Aseprite pixel-art studio for DeepSeek Harness: an agent-usable CLI harness (CLI-Anything methodology) + DSH plugin tools that let AI draw pixel art like a human, stroke by stroke, live-visible in the terminal."
+  evidencePath: dsh-cli-anything-aseprite/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - aseprite
+  - pixel-art
+  - cli-anything
+  - pixel-art-ai
+  - sprite
+source:
+  repository: https://github.com/KongChengZhi/dsh-pixel-studio
+  repositoryNodeId: R_kgDOT5Iggg
+  subpath: dsh-cli-anything-aseprite
+  commit: 52acee7d33ea1a787e878642f856efe05b6f4230
+creator:
+  github: KongChengZhi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: dsh-cli-anything-aseprite/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:22.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
