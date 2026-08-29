@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-paint-tint
+name: dsh-paint-tint
+description:
+  en: bash dsh plugin add github:uckkk/dsh-paint-tint
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-paint-tint
+source:
+  repository: https://github.com/uckkk/dsh-paint-tint
+  repositoryNodeId: R_kgDOT-tU5A
+  subpath: null
+  commit: 73884029e30a47d4c733c44998325ae9c454ff4c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:45.598Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
