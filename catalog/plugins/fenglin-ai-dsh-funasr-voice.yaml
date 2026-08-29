@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: fenglin-ai-dsh-funasr-voice
+name: dsh-funasr-voice
+description:
+  en: A local, offline voice input plugin for the DeepSeek Harness (DSH) Web UI. The browser captures the microphone, the host half lazily launches a local FunASR + SenseVoiceSmall recognizer, and the recognized text is written into the composer in real time. No cloud, no network, no uploads.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - voice-input
+  - speech-to-text
+  - funasr
+  - sensevoice
+  - offline-asr
+source:
+  repository: https://github.com/fenglin-ai/dsh-funasr-voice
+  repositoryNodeId: R_kgDOUA19fw
+  subpath: null
+  commit: 8128391a6796a28859383df5a56768f623c5be1a
+creator:
+  github: fenglin-ai
+package:
+  ecosystem: npm
+  name: dsh-funasr-voice
+  version: 0.3.0
+  integrity: sha512-hw9TArbqJkv/PQptfKWNmHVA45MovL/jOOgU3TL/W34euRpuSjx5goxzs9XO5UFmORSdm7osaBFq3LkQ7tTOWw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:01.908Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
