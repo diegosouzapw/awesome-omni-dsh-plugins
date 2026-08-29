@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: linjiangxian0203-dsh-remote-tunnel
+name: dsh-remote-tunnel
+description:
+  en: "Remote Host Tunnel Manager for dsh: allocate and register remote ports, run dsh web on a remote Linux server via systemd, and keep a resilient SSH tunnel from this machine to it."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - ssh
+  - tunnel
+  - remote
+source:
+  repository: https://github.com/Linjiangxian0203/dsh-remote-tunnel
+  repositoryNodeId: R_kgDOT5Q_Mw
+  subpath: null
+  commit: 00fe03163582cd8a9d1548bf5382b587419c1ca4
+creator:
+  github: Linjiangxian0203
+package:
+  ecosystem: npm
+  name: dsh-remote-tunnel
+  version: 0.1.1
+  integrity: sha512-ci0Etf2ufds602lAPd3qSCB1c/iSBXT6VETLmlY5vrFMEvCN8X2+0dUHatIt/pr8QT8B2CyqexS+0cFXrhxBpA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:24.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
