@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-brazil
+name: dsh-brazil
+description:
+  en: bash dsh plugin add github:uckkk/dsh-brazil
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-brazil
+source:
+  repository: https://github.com/uckkk/dsh-brazil
+  repositoryNodeId: R_kgDOT-5WtA
+  subpath: null
+  commit: 932dd57a168410cd6eed11be553237e3ac3a2b8a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:29.510Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
