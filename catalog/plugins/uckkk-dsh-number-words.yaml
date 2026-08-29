@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-number-words
+name: dsh-number-words
+description:
+  en: bash dsh plugin add dsh-number-words 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-number-words" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - number
+source:
+  repository: https://github.com/uckkk/dsh-number-words
+  repositoryNodeId: R_kgDOT6NLeA
+  subpath: null
+  commit: 6dcb7f55fa5981a744b0e96b7442028242118a3c
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-number-words
+  version: 0.1.0
+  integrity: sha512-OaVWCczLfLOxMSvbZIvLpaqcFswnShFGXxBaEQtVUd0g/Yvb5S6e+4+mv9pzpPsDVrpTIvynr4rwph7XPWc41w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:40.862Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
