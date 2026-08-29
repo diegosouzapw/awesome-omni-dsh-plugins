@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-countdown
+name: dsh-countdown
+description:
+  en: bash dsh plugin add github:uckkk/dsh-countdown
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-countdown
+source:
+  repository: https://github.com/uckkk/dsh-countdown
+  repositoryNodeId: R_kgDOT9uR5g
+  subpath: null
+  commit: 72da851fbaa25a385d8468c65f7ed028831db72b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:32.692Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
