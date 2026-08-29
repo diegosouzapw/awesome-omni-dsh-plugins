@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ruisenbai-dsh-annotation
+name: dsh-annotation
+description:
+  en: Selection annotations for DeepSeek Harness assistant replies, sent through the official composer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugins
+  - cordis
+  - annotation
+  - review
+source:
+  repository: https://github.com/ruisenbai/dsh-annotation
+  repositoryNodeId: R_kgDOT6520A
+  subpath: null
+  commit: 19c8a5a3b50d32cabac04bc24269c8f58f1f9698
+creator:
+  github: ruisenbai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:54.837Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
