@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-leap-year
+name: dsh-leap-year
+description:
+  en: bash dsh plugin add github:uckkk/dsh-leap-year
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-leap-year
+source:
+  repository: https://github.com/uckkk/dsh-leap-year
+  repositoryNodeId: R_kgDOT9uS3Q
+  subpath: null
+  commit: 421e4341740aef854b46be3f171c7c2b279bae00
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:21.309Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
