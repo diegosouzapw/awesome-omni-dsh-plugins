@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uckkk-dsh-dependency-audit
+name: dsh-dependency-audit
+description:
+  en: bash dsh plugin add dsh-dependency-audit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - security
+  - vulnerability
+  - osv
+  - audit
+source:
+  repository: https://github.com/uckkk/dsh-dependency-audit
+  repositoryNodeId: R_kgDOT59Uhg
+  subpath: null
+  commit: dd8d34601fb676bfba93010608196f9122151701
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-dependency-audit
+  version: 0.1.0
+  integrity: sha512-bGZ6t4dMZzVISAH9oLqSwyMraaDjxNCqV0mLKXxoxjftQn84FywCmlAovQpbM5jA51ZbHQIOi22n0Q0KL5Vbow==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:40.880Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
