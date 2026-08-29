@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: johnxu22786-review-gate
+name: review-gate
+description:
+  en: "A DeepSeek Harness (dsh) bundle that turns code review into a hard gate: deterministic severity rules, LLM-assisted findings, team approval quorum and a compliance audit trail."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - code-review
+  - gate
+  - approval
+  - compliance
+  - cordis
+source:
+  repository: https://github.com/JohnXu22786/review-gate
+  repositoryNodeId: R_kgDOT-Q4zA
+  subpath: null
+  commit: c673a3aebe667ddef152531f549a8fba445c5892
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:18.137Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
