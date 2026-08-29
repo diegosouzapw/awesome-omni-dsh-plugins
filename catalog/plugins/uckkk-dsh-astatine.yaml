@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-astatine
+name: dsh-astatine
+description:
+  en: bash dsh plugin add github:uckkk/dsh-astatine
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-astatine
+source:
+  repository: https://github.com/uckkk/dsh-astatine
+  repositoryNodeId: R_kgDOT-x3yw
+  subpath: null
+  commit: d2564c54118335dcb1134294f5fa642f6de618e1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:34.127Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
