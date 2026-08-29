@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: jiangwangyang-dsh-theme-blackhole
+name: dsh-theme-blackhole
+description:
+  en: "Black hole theme plugin for the DeepSeek Harness Web UI: WebGL Schwarzschild black hole background with deep-space glass panels, switchable from Settings General 主题-黑洞. Install into a web profile: dsh plugin --profile web add <path-to-this-package"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - black
+  - hole
+  - theme
+  - webgl
+  - schwarzschild
+  - background
+  - deep
+  - space
+  - glass
+  - panels
+  - switchable
+  - settings
+  - general
+  - install
+  - profile
+  - path
+source:
+  repository: https://github.com/jiangwangyang/dsh-theme-blackhole
+  repositoryNodeId: R_kgDOT-kGMA
+  subpath: null
+  commit: b32e855fce0f8bfd3ccfd1fcb897328a9f62bd8e
+creator:
+  github: jiangwangyang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:52.397Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
