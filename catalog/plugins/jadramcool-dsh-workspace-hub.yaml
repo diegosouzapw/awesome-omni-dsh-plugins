@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: jadramcool-dsh-workspace-hub
+name: dsh-workspace-hub
+description:
+  en: "DSH workspace folders: categorize workspaces into folders in the left sidebar (drag reorder for folders/workspaces/sessions, inline edit, one-click expand/collapse, search) plus per-workspace token usage and cost stats (inline totals, hover detail card, overview panel with per-model price cards; DeepSeek official peak/"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - workspace
+  - workspaces
+  - folder
+  - token
+  - cost
+  - usage
+  - opencode
+  - sidebar
+source:
+  repository: https://github.com/Jadramcool/dsh-workspace-hub
+  repositoryNodeId: R_kgDOT8RrUQ
+  subpath: null
+  commit: b2703c3a896b1bd8b8a97ed2354a00812e800b66
+creator:
+  github: Jadramcool
+package:
+  ecosystem: npm
+  name: dsh-workspace-hub
+  version: 0.1.1
+  integrity: sha512-NMnWq0vZxOuKtua9DSi9n9YgGeFn6qmDgEo20FPUXz7/mxBgqobAJH555bgMJF6L1CG2BrCywoByXi9PNLzy1g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:43.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
