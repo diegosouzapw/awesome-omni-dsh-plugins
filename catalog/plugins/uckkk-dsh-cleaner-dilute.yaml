@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cleaner-dilute
+name: dsh-cleaner-dilute
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cleaner-dilute
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cleaner-dilute
+source:
+  repository: https://github.com/uckkk/dsh-cleaner-dilute
+  repositoryNodeId: R_kgDOT-wIpg
+  subpath: null
+  commit: 63eb89f795b8836e14896f6eb25262145eecc17a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:26.324Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
