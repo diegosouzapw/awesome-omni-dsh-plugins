@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: meghanbao-dsh-backstory
+name: dsh-backstory
+description:
+  en: "Ask any line of code its backstory: what it does, and why it's here — grounded in git history and the agent's own session log."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - git-blame
+  - provenance
+  - code-explanation
+  - dsh
+source:
+  repository: https://github.com/MeghanBao/dsh-backstory
+  repositoryNodeId: R_kgDOT-qJJQ
+  subpath: null
+  commit: 93ca70cf5126272164a7cd5c39c6dd638ef7c83a
+creator:
+  github: MeghanBao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:55.942Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
