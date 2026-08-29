@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pocketswpu-dsh-serendipity
+name: "@pocket30/dsh-serendipity"
+description:
+  en: sh npx @deepseek-ai/dsh plugin --profile web add @pocket30/dsh-serendipity@1.0.0
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - game
+  - adventure
+  - rpg
+  - serendipity
+source:
+  repository: https://github.com/PocketSWPU/dsh-serendipity
+  repositoryNodeId: R_kgDOT7MX0A
+  subpath: null
+  commit: ecb8ef85cf527b414cf0ced2e9af76e3e1b9128d
+creator:
+  github: PocketSWPU
+package:
+  ecosystem: npm
+  name: "@pocket30/dsh-serendipity"
+  version: 1.0.0
+  integrity: sha512-EjF3W2B51ohRVE9VlwLdwgv2C0jYrlok1O+PLIgCW05bc8iw0eifgN3+oOy9rJZOiZ3jMEf+Zd85naEWbwWODg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:01.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
