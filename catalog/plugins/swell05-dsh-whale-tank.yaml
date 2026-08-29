@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: swell05-dsh-whale-tank
+name: "@swell05/dsh-whale-tank"
+description:
+  en: powershell dsh plugin --profile web add @swell05/dsh-whale-tank
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - powershell
+  - profile
+  - swell05
+  - whale
+  - tank
+  - dsh
+source:
+  repository: https://github.com/swell05/dsh-whale-tank
+  repositoryNodeId: R_kgDOT-m1IQ
+  subpath: null
+  commit: c7142649010f28f506e79018c6243655ebc97653
+creator:
+  github: swell05
+package:
+  ecosystem: npm
+  name: "@swell05/dsh-whale-tank"
+  version: 0.1.7
+  integrity: sha512-SZt60BdaSqa4gabv0vdEoEOulXwJcoyOvbALz/z8IUSGb3NIxROdDIjowA9zysK5ITy357MB893fUgoEWDZA0g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.386Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
