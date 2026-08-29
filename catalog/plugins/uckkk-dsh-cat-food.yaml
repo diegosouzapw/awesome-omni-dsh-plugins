@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cat-food
+name: dsh-cat-food
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cat-food
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cat-food
+source:
+  repository: https://github.com/uckkk/dsh-cat-food
+  repositoryNodeId: R_kgDOT-_qaw
+  subpath: null
+  commit: f3d265b1407071a2a6941be57c677c998302dd98
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:18.929Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
