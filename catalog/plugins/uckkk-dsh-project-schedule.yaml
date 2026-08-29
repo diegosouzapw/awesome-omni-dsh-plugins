@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-project-schedule
+name: dsh-project-schedule
+description:
+  en: bash dsh plugin add github:uckkk/dsh-project-schedule
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-project-schedule
+source:
+  repository: https://github.com/uckkk/dsh-project-schedule
+  repositoryNodeId: R_kgDOT-tvcA
+  subpath: null
+  commit: e95783e52e80e00f92f56128c01382e3509b1229
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:53.695Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
