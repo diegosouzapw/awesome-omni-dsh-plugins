@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ppt-pages
+name: dsh-ppt-pages
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ppt-pages
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ppt-pages
+source:
+  repository: https://github.com/uckkk/dsh-ppt-pages
+  repositoryNodeId: R_kgDOT-tWQg
+  subpath: null
+  commit: eb0181d1354c373f1b3dd419e4c419b9608b3b43
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:52.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
