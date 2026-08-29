@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: left0ver-dsh-file-review
+name: dsh-file-review
+description:
+  en: Review files produced by DeepSeek Harness turns in a line-numbered unified diff drawer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - diff
+  - code-review
+  - dsh
+source:
+  repository: https://github.com/left0ver/dsh-file-review
+  repositoryNodeId: R_kgDOT4DhKw
+  subpath: null
+  commit: 0fd0bb1ce972946906f31f66e4a05e942e642925
+creator:
+  github: left0ver
+package:
+  ecosystem: npm
+  name: dsh-file-review
+  version: 0.5.1
+  integrity: sha512-Z5DBnMmY/yv5kQa3Ksr2M+NKHOKONzYJ8BTvPjyDTQl1n/C2tpQ2wyrUcivhIWDkHFV5Jlr3P9oF+VcPs54Xug==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:48:53.224Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 30
+provenance:
+  discussion: null
+  comment: null
