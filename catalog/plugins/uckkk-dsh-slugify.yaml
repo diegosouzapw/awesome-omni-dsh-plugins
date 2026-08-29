@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-slugify
+name: dsh-slugify
+description:
+  en: bash dsh plugin add dsh-slugify 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-slugify" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - slug
+  - slugify
+  - url
+  - string
+source:
+  repository: https://github.com/uckkk/dsh-slugify
+  repositoryNodeId: R_kgDOT9sAiw
+  subpath: null
+  commit: 07b3edbc44a7770b646e9ba8f81aaa5b1a528063
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:04.492Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
