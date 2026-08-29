@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: initial-d-dsh-plugin-mlquant-benchmark
+name: dsh-plugin-mlquant-benchmark
+description:
+  en: DeepSeek Harness tools for reproducing the ml-quant-trading protocol v1 benchmark.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - quantitative-finance
+  - benchmark
+  - reproducibility
+  - pytorch
+  - mlquant
+  - dsh
+source:
+  repository: https://github.com/initial-d/dsh-plugin-mlquant-benchmark
+  repositoryNodeId: R_kgDOT-ZtCQ
+  subpath: null
+  commit: 3468ab731c561c1fad8344e4981a0d3b3addff1e
+creator:
+  github: initial-d
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:49.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
