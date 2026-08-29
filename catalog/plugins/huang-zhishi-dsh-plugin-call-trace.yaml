@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: huang-zhishi-dsh-plugin-call-trace
+name: dsh-plugin-call-trace
+description:
+  en: Persistent host-side LLM tool-call trace recorder for DeepSeek Harness. Writes every completed model tool call (name, args, status, result, duration, turn/step) to a JSONL file that survives restarts, with size rotation. Exposes a structured call trace model tool and a callTraceHistory service for a UI add-on. Optional
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - bundle
+  - trace
+  - observability
+  - tool-call
+source:
+  repository: https://github.com/Huang-zhishi/dsh-plugin-call-trace
+  repositoryNodeId: R_kgDOT43U4Q
+  subpath: null
+  commit: 66e467535cc11bf97a8112ed8d8beece8d00e83f
+creator:
+  github: Huang-zhishi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:17.828Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
