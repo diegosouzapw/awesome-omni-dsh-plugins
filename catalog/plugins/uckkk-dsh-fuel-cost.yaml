@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-fuel-cost
+name: dsh-fuel-cost
+description:
+  en: bash dsh plugin add github:uckkk/dsh-fuel-cost
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-fuel-cost
+source:
+  repository: https://github.com/uckkk/dsh-fuel-cost
+  repositoryNodeId: R_kgDOT-DPeg
+  subpath: null
+  commit: a6556fa2eb5994d87c4a44c9aa7fbcd0cc9e1782
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:41.877Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
