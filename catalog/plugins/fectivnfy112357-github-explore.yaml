@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fectivnfy112357-github-explore
+name: github-explore
+description:
+  en: Discovery + management wrappers around the gh CLI for AI coding agents. Ships as a standard agent skill, an Agent Plugins 1.0 plugin (plugin.json + skills/), and a dsh plugin (dsh.bundle.patch registers the skill at runtime).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - skill
+  - gh
+  - search
+  - discovery
+  - audit
+source:
+  repository: https://github.com/Fectivnfy112357/github-explore
+  repositoryNodeId: R_kgDOT0Rz-A
+  subpath: null
+  commit: e362c8c43b663083d496357c21ec5fb996fd5359
+creator:
+  github: Fectivnfy112357
+package:
+  ecosystem: npm
+  name: github-explore
+  version: 3.1.0
+  integrity: sha512-8wiBB0JaMedRbsrHcfBTBtI35JfWshwtaUk5vqMc3xvT2Sak++620QDrMG5gbE9snN2K5mo05KSIkdAQ7hel+g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:24.616Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
