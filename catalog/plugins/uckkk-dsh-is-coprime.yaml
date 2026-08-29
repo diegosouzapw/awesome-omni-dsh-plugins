@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-is-coprime
+name: dsh-is-coprime
+description:
+  en: bash dsh plugin add github:uckkk/dsh-is-coprime
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-is-coprime
+source:
+  repository: https://github.com/uckkk/dsh-is-coprime
+  repositoryNodeId: R_kgDOT9u9Kg
+  subpath: null
+  commit: df501ad77ebfbf6881673f10660550801c85a758
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:11.933Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
