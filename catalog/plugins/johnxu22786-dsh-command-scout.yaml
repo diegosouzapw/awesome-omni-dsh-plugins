@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: johnxu22786-dsh-command-scout
+name: dsh-command-scout
+description:
+  en: Scans the project workspace at startup and exposes its declared build commands (Makefile targets, package.json scripts, just recipes, deno tasks) as callable agent tools.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - makefile
+  - npm-scripts
+  - justfile
+  - deno
+  - build
+source:
+  repository: https://github.com/JohnXu22786/command-scout
+  repositoryNodeId: R_kgDOT59OVQ
+  subpath: null
+  commit: f529f52ac9c70ba404d5ae008ae2519c662ca68b
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-command-scout
+  version: 0.1.0
+  integrity: sha512-Y7ugjOMrNPpCD4j4oWRXs5GMoCKN0U5m50Wu0PKXmDtziK+OGN5lcex+yq/DSR5mzTs6E6wX9vs24HbJWVHz0Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:03.189Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
