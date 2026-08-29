@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: noelune-dsh-unified-agent-memory
+name: dsh-unified-agent-memory
+description:
+  en: Unified agent memory for DeepSeek Harness — one shared Obsidian vault for every agent (dsh, Codex, Claude, Hermes). Ships the dependency-free Python core (search/promote/adjudicate/forget), a vault template, and a dsh plugin with memory search / memory show / memory submit / memory status tools. · 统一 Agent 记忆系统：多 Agent
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - memory
+  - obsidian
+  - multi-agent
+  - knowledge-base
+source:
+  repository: https://github.com/Noelune/unified-agent-memory
+  repositoryNodeId: R_kgDOT4jYbA
+  subpath: null
+  commit: bba1f0838de3f82c3ee8c4a990e678dd926005c6
+creator:
+  github: Noelune
+package:
+  ecosystem: npm
+  name: dsh-unified-agent-memory
+  version: 0.2.1
+  integrity: sha512-Tbnu4st3cixtUlZLkt1GSTh3/HhDSvyQ1OSmqYv748XjGw/jI05wRUenhTOcthxz9dYdZ+tUMesHolDamqXjAQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:42.135Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
