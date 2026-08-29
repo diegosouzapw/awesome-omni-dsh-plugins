@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lavapapa-dsh-composer-layout
+name: dsh-composer-layout
+description:
+  en: Keep long answers and detailed prompts side by side with a dockable DSH Composer.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - composer
+  - web-ui
+source:
+  repository: https://github.com/lavapapa/dsh-composer-layout
+  repositoryNodeId: R_kgDOT8-L4w
+  subpath: null
+  commit: 1779dc2d0d9abecf359618eef0c838bf4c218247
+creator:
+  github: lavapapa
+package:
+  ecosystem: npm
+  name: dsh-composer-layout
+  version: 0.1.8
+  integrity: sha512-mvU8T1bNNhy3DKeTxwDx7lY+UZdNSDeW+Q7YWAvVoiJv72MoTxj2FqRDnl6g+RixJjhym4JyEIeHbz/eC9wgLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:06.612Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
