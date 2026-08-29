@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: jinguanghai-dsh-forge-market
+name: dsh-forge-market
+description:
+  en: 'The DSH philosophy is everything is a plugin — many plugins is good. But "many" without discipline is noise. This plugin is a dead marketplace : a shelf of vetted plugins and a proposal generator, nothing more. No remote fetching, no self-update, no runtime config rewrites, no sandbox bypass. Data ships with the packag'
+  evidencePath: plugins/forge-market/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - philosophy
+  - everything
+  - many
+  - good
+  - without
+  - discipline
+  - noise
+  - dead
+  - marketplace
+  - shelf
+  - vetted
+  - proposal
+  - generator
+  - nothing
+  - remote
+  - fetching
+source:
+  repository: https://github.com/jinguanghai/deepseek-harness-forge-plugins
+  repositoryNodeId: R_kgDOT4V3ww
+  subpath: plugins/forge-market
+  commit: ad4e2dd73be06dc72fc05e0e1775032270bc3a0d
+creator:
+  github: jinguanghai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/forge-market/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:34.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
