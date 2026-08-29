@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: microherox-dsh-kimi-webbridge
+name: dsh-kimi-webbridge
+description:
+  en: "Kimi WebBridge for DeepSeek Harness: drive the user's real browser (navigate, click, fill, snapshot, screenshot, evaluate, network, upload, PDF) through the local Kimi WebBridge daemon"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - kimi
+  - webbridge
+  - browser
+  - web-automation
+  - dsh
+source:
+  repository: https://github.com/MicroHEROX/dsh-Kimi-WebBridge
+  repositoryNodeId: R_kgDOT38NYQ
+  subpath: null
+  commit: 098e041fd2e3c60190a46c4dc5ca6463ab2a4956
+creator:
+  github: MicroHEROX
+package:
+  ecosystem: npm
+  name: dsh-kimi-webbridge
+  version: 0.1.0
+  integrity: sha512-ebp+V/Km0IePUqW8FcXBIWlCQkOtvei04Q+fb201DKlvZpshbJb6xPDjUwT9KSVAuZlejWlHC1MkR2v/89ZWsw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.607Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
