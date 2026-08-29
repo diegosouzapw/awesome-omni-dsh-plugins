@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mauritius
+name: dsh-mauritius
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mauritius
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mauritius
+source:
+  repository: https://github.com/uckkk/dsh-mauritius
+  repositoryNodeId: R_kgDOT-C3bw
+  subpath: null
+  commit: 6b296b80d51ff09600e8520ef2acff7347ff3d6d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:28.630Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
