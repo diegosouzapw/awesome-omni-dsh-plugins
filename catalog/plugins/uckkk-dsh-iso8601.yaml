@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-iso8601
+name: dsh-iso8601
+description:
+  en: bash dsh plugin add github:uckkk/dsh-iso8601
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-iso8601
+source:
+  repository: https://github.com/uckkk/dsh-iso8601
+  repositoryNodeId: R_kgDOT9uRMA
+  subpath: null
+  commit: 108f49ce7f0b5964c088e0778aa964bbc0f71156
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:12.093Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
