@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: b-tq-dsh-wallpaper
+name: "@b-tq/dsh-wallpaper"
+description:
+  en: bash dsh plugin --profile web add "github:B-TQ/dsh-wallpaper"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - wallpaper
+  - wallpaper-engine
+source:
+  repository: https://github.com/B-TQ/dsh-wallpaper
+  repositoryNodeId: R_kgDOT7FakA
+  subpath: null
+  commit: 3a70868a203464c4e6281816f452b4faa6730a01
+creator:
+  github: B-TQ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:09.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
