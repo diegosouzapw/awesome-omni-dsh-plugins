@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lilyblessing-dsh-mcp-skill-panel
+name: dsh-mcp-skill-panel
+description:
+  en: '<p align="center" <strong style="font-size: 2.2em" 🧩 MCP & Skill Manager</strong <br <span style="font-size: 1.1em" DeepSeek Harness (DSH) Web plugin · Real-time enable/disable for MCP servers & Skill catalog · Optional AI middle layer (on-demand calls)</span </p'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - mcp
+  - skill
+  - panel
+  - agent
+source:
+  repository: https://github.com/lilyblessing/dsh-mcp-skill-panel
+  repositoryNodeId: R_kgDOT5Z2Wg
+  subpath: null
+  commit: 9db4471d1cb25bc51a85e46d0a2652a8e1a46e91
+creator:
+  github: lilyblessing
+package:
+  ecosystem: npm
+  name: dsh-mcp-skill-panel
+  version: 0.5.2
+  integrity: sha512-g1CkPVCckQpmvO0HUmR57ZqAFbJx/vkSGyIoL5rc824V0fC1KHYYnxqe0QEMgkDfPEnj3OPfWbzC9EqpwJqY0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:14.492Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
