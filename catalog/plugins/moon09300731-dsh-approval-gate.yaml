@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: moon09300731-dsh-approval-gate
+name: dsh-approval-gate
+description:
+  en: "Auto-approval gate for DeepSeek Harness — minimal human intervention: safe operations auto-approve, risky ones go to a human (fail-safe)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - approval
+source:
+  repository: https://github.com/moon09300731/dsh-approval-gate
+  repositoryNodeId: R_kgDOT4H61Q
+  subpath: null
+  commit: 8419bc3722a237a85c033565be6ac06074f05d92
+creator:
+  github: moon09300731
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:42.064Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
