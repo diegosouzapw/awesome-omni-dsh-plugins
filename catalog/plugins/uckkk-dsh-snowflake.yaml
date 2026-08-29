@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-snowflake
+name: dsh-snowflake
+description:
+  en: bash dsh plugin add github:uckkk/dsh-snowflake
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-snowflake
+source:
+  repository: https://github.com/uckkk/dsh-snowflake
+  repositoryNodeId: R_kgDOT9udcA
+  subpath: null
+  commit: 0fb849498cc3964509c5a01b8f6c8674e14955e9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:04.504Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
