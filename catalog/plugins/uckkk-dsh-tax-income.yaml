@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-tax-income
+name: dsh-tax-income
+description:
+  en: bash dsh plugin add github:uckkk/dsh-tax-income
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-tax-income
+source:
+  repository: https://github.com/uckkk/dsh-tax-income
+  repositoryNodeId: R_kgDOT-DFYA
+  subpath: null
+  commit: 2f0f6e2fed7780bc51c010a6d2c472239db41833
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:16.977Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
