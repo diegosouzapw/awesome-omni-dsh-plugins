@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: lynsucceed-dsh-openclaw-persona
+name: "@lynsucceed/dsh-openclaw-persona"
+description:
+  en: Reuse OpenClaw persona files (SOUL/IDENTITY/USER/MEMORY/TOOLS.md) as the DSH agent persona, with a Web GUI editor — edit the .md files in the sidebar and the change takes effect on the next request.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - reuse
+  - openclaw
+  - persona
+  - files
+  - soul
+  - identity
+  - user
+  - memory
+  - tools
+  - agent
+  - editor
+  - edit
+  - sidebar
+  - change
+  - takes
+  - effect
+source:
+  repository: https://github.com/lynsucceed/dsh-openclaw-persona
+  repositoryNodeId: R_kgDOT_mdeQ
+  subpath: null
+  commit: fe858ecb28ff5d8204b57d430b0a2a66a3d177dc
+creator:
+  github: lynsucceed
+package:
+  ecosystem: npm
+  name: "@lynsucceed/dsh-openclaw-persona"
+  version: 0.1.1
+  integrity: sha512-ekRZUo+IbKDEtJu+JtZWFt4LXvx3Iicz2uCgVasGMxnLe8n6avcBrNwG2rbhVnf2kvFqbtyz0ATN4CQrVGHybw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:35.194Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
