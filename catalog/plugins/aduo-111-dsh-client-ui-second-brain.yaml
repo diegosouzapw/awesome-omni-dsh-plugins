@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: aduo-111-dsh-client-ui-second-brain
+name: dsh-client-ui-second-brain
+description:
+  en: 1. 克隆或复制仓库，例如放到 ~/deepseek harness/second-brain 2. 建立软链，让 Harness 的 profile 能解析到插件： bash mkdir -p ~/.dsh/profiles/node modules ln -s /absolute/path/to/second-brain/dsh-client-ui-second-brain ~/.dsh/profiles/node modules/dsh-client-ui-second-brain 3. 在 profile 补丁层注册插件（ ~/.dsh/profiles/web/cordis.patch.yml ）： yaml - inse
+  evidencePath: dsh-client-ui-second-brain/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - obsidian
+  - second-brain
+  - ai-notes
+  - chatgpt
+  - doubao
+  - knowledge-management
+source:
+  repository: https://github.com/aduo-111/second-brain
+  repositoryNodeId: R_kgDOUBpg5g
+  subpath: dsh-client-ui-second-brain
+  commit: 3159551e429208f1828df084d41effe7c605f776
+creator:
+  github: aduo-111
+package:
+  ecosystem: npm
+  name: dsh-client-ui-second-brain
+  version: 1.0.2
+  integrity: sha512-FUFHeFy8NXYPPL/FZaGDZQ2AHhe8+mHbNjspa6THDhvDFKQMyaV6qOz1I9idFL//Iwm6gNeiuj6DGxxpH3BI0A==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-client-ui-second-brain/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:41.838Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
