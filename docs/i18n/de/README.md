@@ -16,7 +16,7 @@ Creator-first-Entdeckung und Ein-Befehl-Installation für **DeepSeek Harness (DS
   <a href="https://dsh-plugins.omniroute.online">Alle Plugins auf der Website durchsuchen, suchen und installieren →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-2254_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-2341_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ die beide nutzen.
 
 ## Katalogstatus
 
-**2254 Plugins zusammengeführt.** Jedes Plugin gelangt über einen einzeln geprüften Pull Request,
+**2341 Plugins zusammengeführt.** Jedes Plugin gelangt über einen einzeln geprüften Pull Request,
 einen nach dem anderen, aus dem ursprünglichen Repository des Erstellers hinein, mit einem
 fixierten Quell-Commit und expliziter Zuschreibung.
 
@@ -344,4 +344,4 @@ verbleiben bei ihren ursprünglichen Eigentümern und Lizenzen. Siehe
 
 </div>
 
-<!-- i18n-source-hash: 70bf36f0e9f5227dd41937d858151800f310cf813d5022529eecfba9bef3b75e -->
+<!-- i18n-source-hash: 60dbff04f4c49cd495e5bfe24d87f2787078f2aa3ae1b91b59a3b866e4ad2fe7 -->
