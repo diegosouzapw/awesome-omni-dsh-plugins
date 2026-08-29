@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: a1594834522-coder-dsh-plugin
+name: "@memorylake/dsh-plugin"
+description:
+  en: "Memory Lake memory layer for DeepSeek Harness (dsh): persistent cross-session memory tools, prompt guidance, and setup skills"
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memorylake
+  - memory
+  - long-term-memory
+source:
+  repository: https://github.com/memorylake-ai/memorylake-harness
+  repositoryNodeId: R_kgDOTf41KQ
+  subpath: dsh-plugin
+  commit: 30e7c661dd8c3f7700126c49ac92e1a6eb1dd084
+creator:
+  github: a1594834522-coder
+package:
+  ecosystem: npm
+  name: "@memorylake/dsh-plugin"
+  version: 0.1.0
+  integrity: sha512-q9+Ylq7n3VrgTR9c84ISDuBcdjc9+XOxoXkfPMIKXgBhRuxjx+2OtAwh5w6CQSKiVj90J1xzm3DDOqzGV0cGEw==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:10.018Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
