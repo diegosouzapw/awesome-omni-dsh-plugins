@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-query-string
+name: dsh-query-string
+description:
+  en: bash dsh plugin add dsh-query-string 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-query-string" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - url
+  - query
+source:
+  repository: https://github.com/uckkk/dsh-query-string
+  repositoryNodeId: R_kgDOT6Mj8Q
+  subpath: null
+  commit: a313585f3e93c3f54a5d39ab60fc475c05c26633
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-query-string
+  version: 0.1.0
+  integrity: sha512-S7Q79AKxXb4CI3WI3oLCsUq3tZ/obC/ttckWxJcY/04RmcYB7P2fsrY8H+mAMUWiYxVZq6tH2Qwo21Xg/efp/g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:57.034Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
