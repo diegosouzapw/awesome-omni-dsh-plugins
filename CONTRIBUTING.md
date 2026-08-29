@@ -58,7 +58,9 @@ Provide all of the following in the pull request:
 - A bounded English description and its evidence path at that pinned commit.
 - The artifact `kind`, primary category and tags selected from
   [docs/CATEGORIES.md](docs/CATEGORIES.md).
-- The complete upstream SPDX license expression evidenced at the pinned commit.
+- The complete upstream SPDX license expression evidenced at the pinned commit. See
+  [docs/LICENSE-POLICY.md](docs/LICENSE-POLICY.md) for which licenses qualify and how a
+  copyleft-network (AGPL-3.0 and variants) submission is handled.
 - A canonical install descriptor pinned to an exact npm version, or to the source repository,
   full commit and subpath. The descriptor is data, never a shell command.
 - Native DSH integration evidence and its path at the pinned commit.
