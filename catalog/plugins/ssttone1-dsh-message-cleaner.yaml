@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ssttone1-dsh-message-cleaner
+name: "@stone129/dsh-message-cleaner"
+description:
+  en: "A DSH Web GUI plugin that adds a conversation-history panel above the composer: per-exchange delete, in-place restore , and a built-in node rail."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - conversation-history
+  - message-cleaner
+source:
+  repository: https://github.com/SsTtone1/dsh-message-cleaner
+  repositoryNodeId: R_kgDOUDe4IQ
+  subpath: null
+  commit: fd2077ba21ea1f542549d2aed28b64110d8bbe74
+creator:
+  github: SsTtone1
+package:
+  ecosystem: npm
+  name: "@stone129/dsh-message-cleaner"
+  version: 0.7.3
+  integrity: sha512-Gbx9n8hUI5BDcNIX1uj6EvFBKLwXgOd63CiDHt6T+x1zOhJlAKUTOa0zw8gjGBf5sA6Gyi9Fxx1seKnbVY4uMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:58.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
