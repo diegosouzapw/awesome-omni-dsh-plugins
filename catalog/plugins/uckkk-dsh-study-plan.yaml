@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-study-plan
+name: dsh-study-plan
+description:
+  en: bash dsh plugin add github:uckkk/dsh-study-plan
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-study-plan
+source:
+  repository: https://github.com/uckkk/dsh-study-plan
+  repositoryNodeId: R_kgDOT-DwtA
+  subpath: null
+  commit: f17249928870a80967ff164c7dcec2dd67e4176a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:13.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
