@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: machine-126-dsh-alert-sound
+name: "@machine-126/dsh-alert-sound"
+description:
+  en: "DSH web GUI notification alerts: distinct synthesized tones or a spoken voice (zh/en) for 'needs approval', 'needs answer', 'output complete' and 'error', with per-type sound, enable, volume, repeat, browser notifications and an i18n interface-language setting."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - notification
+  - sound
+  - chime
+  - voice
+  - web-ui
+source:
+  repository: https://github.com/Machine-126/dsh-alert-sound
+  repositoryNodeId: R_kgDOUBJwCA
+  subpath: null
+  commit: e0f20a1b81356756dbc0c05b7050e9876110c14b
+creator:
+  github: Machine-126
+package:
+  ecosystem: npm
+  name: "@machine-126/dsh-alert-sound"
+  version: 0.2.1
+  integrity: sha512-d0Tw6+FRKFajyg5D8wXFguc8MK5SVLTXH74xlPOLIPAkfKKBZd15+NnKI3WPenO+lOA2bHiYWjmw2j62BklGLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:35.176Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
