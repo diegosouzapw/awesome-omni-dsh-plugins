@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: frog755-dsh-prompt-vault
+name: "@frog755/dsh-prompt-vault"
+description:
+  en: sh npx -y --package @deepseek-ai/dsh dsh plugin --profile web add @frog755/dsh-prompt-vault
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - prompt
+  - prompt-vault
+source:
+  repository: https://github.com/Frog755/dsh-prompt-vault
+  repositoryNodeId: R_kgDOUAoACA
+  subpath: null
+  commit: 714e9939617270a0f7b3a33b5c4aadcd1a6e8ac3
+creator:
+  github: Frog755
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:07.785Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
