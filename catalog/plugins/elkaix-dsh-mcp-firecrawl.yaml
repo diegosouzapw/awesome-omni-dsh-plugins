@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: elkaix-dsh-mcp-firecrawl
+name: dsh-mcp-firecrawl
+description:
+  en: "Firecrawl MCP for DeepSeek Harness: web crawling, scraping, search, and structured data extraction"
+  evidencePath: packages/dsh-mcp-firecrawl/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - firecrawl
+  - scraping
+  - dsh
+source:
+  repository: https://github.com/PyModel/dsh-research-plugins
+  repositoryNodeId: R_kgDOT84zDw
+  subpath: packages/dsh-mcp-firecrawl
+  commit: 8c6118d2097daf31b989d4aa4b4d63988d549ca9
+creator:
+  github: elkaix
+package:
+  ecosystem: npm
+  name: dsh-mcp-firecrawl
+  version: 0.2.1
+  integrity: sha512-k4gZ/z3ABUjjw8QwRMQ0KEHoMTWmDqlNAtUfj/5lruI6+mgoqnS/N6dRFGSBk60iFXkvccdIs20PPoU3lpITVg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-mcp-firecrawl/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
