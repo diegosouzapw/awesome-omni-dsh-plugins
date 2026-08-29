@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: severin-ye-uagent-sync-dsh
+name: uagent-sync-dsh
+description:
+  en: "U同步 / Uagent Sync — cross-device workspace sync for DeepSeek Harness: backup, restore, and ecosystem update via the uagent-sync CLI."
+  evidencePath: packages/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - sync
+  - backup
+  - restore
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/severin-ye/uagent-sync
+  repositoryNodeId: R_kgDOS3y7Hw
+  subpath: packages/dsh
+  commit: 1935d295270db817a56dcd9c608aa2cddf9077cf
+creator:
+  github: severin-ye
+package:
+  ecosystem: npm
+  name: uagent-sync-dsh
+  version: 2.1.0
+  integrity: sha512-jbzIs1PFby2RFPPKnAGGAoLZ66e2St5EbcYoA7AfEsPtVSanIfsJ5WppZc/HiEUa0lFCTx0VijtbTMTJ1NCwew==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:42.286Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
