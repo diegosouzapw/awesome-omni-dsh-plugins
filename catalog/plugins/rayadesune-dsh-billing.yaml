@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: rayadesune-dsh-billing
+name: "@rayadesu/dsh-billing"
+description:
+  en: "DeepSeek Harness billing plugin: account balance and this session's billed spend with a session-header badge."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - billing
+  - account
+  - balance
+  - session
+  - billed
+  - spend
+  - header
+  - badge
+  - dsh
+source:
+  repository: https://github.com/rayadesune/DeepSeek-Harness-chat-billing
+  repositoryNodeId: R_kgDOT7aGsQ
+  subpath: null
+  commit: 66abcbb24a4b902bc7aa816fbc31dbc93aab974c
+creator:
+  github: rayadesune
+package:
+  ecosystem: npm
+  name: "@rayadesu/dsh-billing"
+  version: 0.1.0
+  integrity: sha512-s36zIIjVxGU9cKA45WSAKVLqCtDYUY46XYEJTSa0YlqS7r0BA8gSaqhMocA/5MIHh/JoSjrFH5o5oJ0hB84Usg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:00.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
