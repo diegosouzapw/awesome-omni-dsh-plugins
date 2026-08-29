@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: tianyazty-dsh-client-ui-subagent-dashboard
+name: dsh-client-ui-subagent-dashboard
+description:
+  en: "Subagent dashboard for DeepSeek Harness Web: a right-column panel listing all subagents with live status, expandable details, background jobs, and one-click open of the child session transcript."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - subagent
+  - dashboard
+  - client-plugin
+source:
+  repository: https://github.com/tianyaZTY/dsh-hot-plugin-host
+  repositoryNodeId: R_kgDOT4nnyg
+  subpath: packages/dsh-client-ui-subagent-dashboard
+  commit: 369985a7722ff16425576b31fadd667ca94c61d0
+creator:
+  github: tianyaZTY
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-client-ui-subagent-dashboard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:24.688Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
