@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pet-travel
+name: dsh-pet-travel
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pet-travel
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pet-travel
+source:
+  repository: https://github.com/uckkk/dsh-pet-travel
+  repositoryNodeId: R_kgDOT-v_rQ
+  subpath: null
+  commit: 26e6438202e696d772e18e67f91a5b2877a3a91f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:48.166Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
