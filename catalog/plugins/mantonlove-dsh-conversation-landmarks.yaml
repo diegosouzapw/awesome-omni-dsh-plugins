@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: mantonlove-dsh-conversation-landmarks
+name: dsh-conversation-landmarks
+description:
+  en: Fixed rail of conversation landmarks with hover previews and click-to-jump navigation for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - conversation-navigation
+  - chat-ui
+source:
+  repository: https://github.com/mantonlove/dsh-conversation-landmarks
+  repositoryNodeId: R_kgDOT7qjIQ
+  subpath: null
+  commit: b934f8703faaf63c73836d9e42f6fbb7652ec326
+creator:
+  github: mantonlove
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:19.284Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
