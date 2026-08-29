@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: pg527322814-dsh-bayes-predict
+name: dsh-bayes-predict
+description:
+  en: "yaml - insert: - id: bayes-predict name: 'dsh-bayes-predict'"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - stock
+  - bayes
+  - prediction
+  - finance
+  - a-share
+  - quant
+source:
+  repository: https://github.com/pg527322814/dsh-bayes-predict
+  repositoryNodeId: R_kgDOT_0Inw
+  subpath: null
+  commit: 1145b7170d5d2b92b5d382d74fc4cb25ea210d11
+creator:
+  github: pg527322814
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:00.836Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
