@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: codex-dsh-skills-marketplace
+name: dsh-skills-marketplace
+description:
+  en: A DSH-native marketplace that organizes any Codex or Claude skill repository by plugin.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - native
+  - marketplace
+  - organizes
+  - codex
+  - claude
+  - skill
+  - repository
+  - dsh
+source:
+  repository: https://github.com/cxdyun/dsh-skills-marketplace
+  repositoryNodeId: R_kgDOT-k95w
+  subpath: null
+  commit: 3e26404afdcbe993f6abc07a221c7e3deb25f34b
+creator:
+  github: codex
+package:
+  ecosystem: npm
+  name: dsh-skills-marketplace
+  version: 1.1.0
+  integrity: sha512-23PsySR5v8Lnie+AY7mqpiwA0oa6Eu8m6PGGB2gRSig5MqJwMELA7N2xaZgvU7JzYiF5kHmDZgHy5MINk2XU5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:12.384Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
