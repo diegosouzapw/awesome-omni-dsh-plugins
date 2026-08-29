@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-regex
+name: dsh-regex
+description:
+  en: bash dsh plugin add dsh-regex 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-regex" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - regex
+source:
+  repository: https://github.com/uckkk/dsh-regex
+  repositoryNodeId: R_kgDOT6LGcQ
+  subpath: null
+  commit: 6d2c0edc8312f1e618c3118367c6b6959076c1ca
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:59.456Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
