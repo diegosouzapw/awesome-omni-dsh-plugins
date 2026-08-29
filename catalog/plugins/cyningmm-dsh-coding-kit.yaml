@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: cyningmm-dsh-coding-kit
+name: dsh-coding-kit
+description:
+  en: "DSH plugin + P0 CLI: ICVO coding standards (Inform · Constrain · Verify · Orchestrate). Plugin does not auto-inject; call apply coding standards. CLI: npx dsh-coding-kit."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - coding-standards
+  - icvo
+  - sdd
+  - dsh
+source:
+  repository: https://github.com/Cyning12/dsh-coding-kit
+  repositoryNodeId: R_kgDOT505-A
+  subpath: null
+  commit: 47c6072787c51a40c6bf3ce1fe64bfe0229276fd
+creator:
+  github: CyningMM
+package:
+  ecosystem: npm
+  name: dsh-coding-kit
+  version: 1.7.0
+  integrity: sha512-+Cb0Mi9GZV8prd8tdYC44xbj6zZQOea1Z1Y1f47w4BIhDqiYgMnDoAYGIeKWk0A9HRouW1MQQI1LXU0J3ingyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:13.866Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
