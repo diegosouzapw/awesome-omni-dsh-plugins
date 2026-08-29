@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-npm-live
+name: dsh-npm-live
+description:
+  en: bash dsh plugin add github:uckkk/dsh-npm-live
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-npm-live
+source:
+  repository: https://github.com/uckkk/dsh-npm-live
+  repositoryNodeId: R_kgDOT-s6WQ
+  subpath: null
+  commit: 91fcc2269de73e0d27e7584a970b09a5d553f5b4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:39.462Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
