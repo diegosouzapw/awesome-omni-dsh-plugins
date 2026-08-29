@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: kanonouta-dsh-captain
+name: "@kanonouta/dsh-captain"
+description:
+  en: Captain GPT planner, DeepSeek worker, GPT reviewer orchestration plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - captain
+  - planner
+  - worker
+  - reviewer
+  - orchestration
+  - dsh
+source:
+  repository: https://github.com/KanoNoUta/dsh-captain
+  repositoryNodeId: R_kgDOT4np_g
+  subpath: null
+  commit: dac7c1cffa8e55494b5b87bdb603702adb7e3aba
+creator:
+  github: KanoNoUta
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:57.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
