@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sick-leave-pay
+name: dsh-sick-leave-pay
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sick-leave-pay
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sick-leave-pay
+source:
+  repository: https://github.com/uckkk/dsh-sick-leave-pay
+  repositoryNodeId: R_kgDOT-Dwqw
+  subpath: null
+  commit: 60a37b9ed48aea2506e1e1faefd15fe74c99f5ea
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:01.788Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
