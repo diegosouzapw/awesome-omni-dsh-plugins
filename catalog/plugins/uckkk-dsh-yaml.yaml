@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-yaml
+name: dsh-yaml
+description:
+  en: 工具 作用 --- --- yaml to json YAML → JSON json to yaml JSON → YAML
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - yaml
+  - json
+source:
+  repository: https://github.com/uckkk/dsh-yaml
+  repositoryNodeId: R_kgDOT6LAuw
+  subpath: null
+  commit: 8b4175d9f79f9495ba96f3e2b64f66bd680aa046
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:14.672Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
