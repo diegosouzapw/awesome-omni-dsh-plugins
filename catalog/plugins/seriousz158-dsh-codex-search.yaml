@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: seriousz158-dsh-codex-search
+name: dsh-codex-search
+description:
+  en: Explicit, opt-in Codex search provider for DeepSeek Harness
+  evidencePath: packages/dsh-codex-search/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - explicit
+  - codex
+  - search
+  - provider
+  - dsh
+source:
+  repository: https://github.com/seriousz158/dsh-codex-use
+  repositoryNodeId: R_kgDOT_dHHQ
+  subpath: packages/dsh-codex-search
+  commit: 9b81ed3d09252cd2ce3d69a64a3412f5a56bc5ce
+creator:
+  github: seriousz158
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-codex-search/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:40.080Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
