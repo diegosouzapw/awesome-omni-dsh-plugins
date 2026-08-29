@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: guidaoilps2-coder-dsvu
+name: "@svenyu/dsvu"
+description:
+  en: bash npm install @svenyu/dsvu
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - video-understand
+  - avis
+  - video-understanding
+  - low-cost
+  - bilibili
+  - dsvu
+  - deepseek-vision
+source:
+  repository: https://github.com/ilps2/dsvu-videounderstanding
+  repositoryNodeId: R_kgDOUBEARw
+  subpath: null
+  commit: b294905a648ae5862a105bd620eb8cc243b49e71
+creator:
+  github: guidaoilps2-coder
+package:
+  ecosystem: npm
+  name: "@svenyu/dsvu"
+  version: 0.6.6
+  integrity: sha512-qOt3Y/4d+zKrH5LQJWbv7yPJ4bRFgcC2j5+RscOCPPTINqRW/48AUqmaFEPVaaK2b+PnRnnqonYhd9HCM+EPgA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:15.626Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
