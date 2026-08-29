@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: seaof0-dsh-session-pulse
+name: "@dsh-external/dsh-session-pulse"
+description:
+  en: "Session status panel for the nine security presets: header progress chip (task-list projection with completion bar), subagent chip with a right-side subagent directory drawer (running/finished groups, click a name to open that subagent session), and a left-center prompt rail listing user prompts with hover preview and "
+  evidencePath: plugins/dsh-session-pulse/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - session-status
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-session-pulse
+  commit: 45ba1a1cbb20043350e60ee51ec20442a7fb1fbb
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-session-pulse/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
