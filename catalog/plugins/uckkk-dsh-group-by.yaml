@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-group-by
+name: dsh-group-by
+description:
+  en: bash dsh plugin add github:uckkk/dsh-group-by
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-group-by
+source:
+  repository: https://github.com/uckkk/dsh-group-by
+  repositoryNodeId: R_kgDOT9uo2A
+  subpath: null
+  commit: 0733e60cf2a9bf71c3871b4b5efa1b37ee664507
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:50.720Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
