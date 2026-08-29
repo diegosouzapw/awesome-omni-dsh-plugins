@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: michengai-dsh-archive-manager
+name: "@michengai/dsh-archive-manager"
+description:
+  en: NPM-installable DSH Web plugin for managing archived sessions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - archive
+  - session-management
+  - cordis
+  - typert
+  - workspace
+  - nodejs
+  - esm
+source:
+  repository: https://github.com/MichengAI/dsh-archive-manager
+  repositoryNodeId: R_kgDOT5sqnA
+  subpath: null
+  commit: 090612b8beb45e3f6be496db1b4502e1140b5a27
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-archive-manager"
+  version: 0.1.16
+  integrity: sha512-U48DeBPueizLvC0HkheJKODAUwpHn4HUSwVVhxcYuvCkZfWHUcj7yT0U0b6vkHtqNecNCnx+Urh3wW+EeyTR+w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.426Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 27
+provenance:
+  discussion: null
+  comment: null
