@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jamailar-beav-creator-dsh
+name: beav-creator-dsh
+description:
+  en: Beav Creator for Xiaohongshu (RED/RedNote), social-media AI operations, content research, copywriting, images, audio, and video in DeepSeek Harness. 小红书与社媒AI运营。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - beav
+  - creator
+  - xiaohongshu
+  - rednote
+  - xiaohongshu-ai
+  - social-media
+  - social-media-ai
+  - social-media-management
+  - social-media-marketing
+  - content-creation
+  - content-operations
+  - content-marketing
+  - creator-economy
+  - copywriting
+  - image-generation
+  - audio-generation
+source:
+  repository: https://github.com/Jamailar/beav-deepseek-harness
+  repositoryNodeId: R_kgDOT5DSvw
+  subpath: null
+  commit: 2804d549d2ba127e3d0fcc2dc15b916135242a49
+creator:
+  github: Jamailar
+package:
+  ecosystem: npm
+  name: beav-creator-dsh
+  version: 0.1.5
+  integrity: sha512-ZU/0McPzkd9KdTztfzmNqaR9Wa7hLIclM8SnZaGYyHvNV+OQxqkxgKs2GdPujcVrCT5pOKLHIBisOzHVRN9U3Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:01.713Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
