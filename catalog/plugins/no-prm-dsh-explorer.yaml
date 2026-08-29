@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: no-prm-dsh-explorer
+name: dsh-explorer
+description:
+  en: "Host half of the file-tree sidebar: read-only /filetree/list · root · read · search · gitstatus · raw (JSON + media streaming) over the dsh web server."
+  evidencePath: dsh-plugins/dsh-explorer/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - host
+  - half
+  - file
+  - tree
+  - sidebar
+  - read
+  - only
+  - filetree
+  - list
+  - root
+  - search
+  - gitstatus
+  - json
+  - media
+  - streaming
+  - over
+source:
+  repository: https://github.com/No-PRM/dsh-explorer
+  repositoryNodeId: R_kgDOT5ek6Q
+  subpath: dsh-plugins/dsh-explorer
+  commit: f0835e20914d1db9cd9f3a558b5977d678c84e47
+creator:
+  github: No-PRM
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugins/dsh-explorer/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:18.622Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
