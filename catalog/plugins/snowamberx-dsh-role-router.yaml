@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: snowamberx-dsh-role-router
+name: "@snowamberx/dsh-role-router"
+description:
+  en: "Route DeepSeek Harness agent requests by role: planner model in plan mode, default model otherwise, subagent model for subagents."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - bundle
+  - model-routing
+source:
+  repository: https://github.com/SnowAmberX/dsh-role-router
+  repositoryNodeId: R_kgDOT4FcUQ
+  subpath: null
+  commit: a4b67633e314dd9a1975c9c5272946930cfd39fd
+creator:
+  github: SnowAmberX
+package:
+  ecosystem: npm
+  name: "@snowamberx/dsh-role-router"
+  version: 0.2.2
+  integrity: sha512-lyLWEKMn5x4CMtzpLWWtml6WWK3KCMMVSQ04xxYYlaillnNcZrnTMjqNABTeFaATKZfPRNUfO81aArHShBTiOg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.861Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
