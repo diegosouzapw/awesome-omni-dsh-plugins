@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: icather-dsh-clean-desktop-shell
+name: dsh-clean-desktop-shell
+description:
+  en: Clean desktop shell for DeepSeek Harness (DSH) as a DSH plugin — wraps your web profile in a native window, tray-managed backend, offline auto-reconnect, zero visual changes. DSH 插件形态的纯净桌面壳：复用现有 web profile，托盘管理后端，零视觉改造。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - clean
+  - desktop
+  - shell
+  - wraps
+  - profile
+  - native
+  - window
+  - tray
+  - managed
+  - backend
+  - offline
+  - auto
+  - reconnect
+  - zero
+  - visual
+  - changes
+source:
+  repository: https://github.com/Icather/dsh-clean-desktop-shell
+  repositoryNodeId: R_kgDOT-CVww
+  subpath: null
+  commit: 5ea5179a3b2b8920549f301ee66ab9fbefad08a0
+creator:
+  github: Icather
+package:
+  ecosystem: npm
+  name: dsh-clean-desktop-shell
+  version: 0.1.6
+  integrity: sha512-RLRcVG25ExrcqWBdwB2NdZHiqqeGGItY+dg2eI0j0rjk4/SS+n7OsjDrynXzpYhB85+qoBEAS/zExkk0lSsiHQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:11.453Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
