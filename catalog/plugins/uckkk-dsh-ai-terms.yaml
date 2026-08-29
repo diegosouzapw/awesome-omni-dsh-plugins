@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ai-terms
+name: dsh-ai-terms
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ai-terms
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ai-terms
+source:
+  repository: https://github.com/uckkk/dsh-ai-terms
+  repositoryNodeId: R_kgDOT-tADA
+  subpath: null
+  commit: 97f46ef3d8239d42b4ee1e4cd9bac255ce5ade1d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:22.919Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
