@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: letter2025-dsh-model-failover
+name: dsh-model-failover
+description:
+  en: "Two-level model circuit breaker with failover for DeepSeek Harness: trip a model or a whole provider after repeated request failures and route the next request to a configured fallback"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - circuit-breaker
+  - failover
+  - high-availability
+  - model-routing
+source:
+  repository: https://github.com/Letter2025/dsh-model-failover
+  repositoryNodeId: R_kgDOT4NoOg
+  subpath: null
+  commit: 47588d4692a76d64382865e518d2a927eda4891b
+creator:
+  github: Letter2025
+package:
+  ecosystem: npm
+  name: dsh-model-failover
+  version: 0.1.4
+  integrity: sha512-AFXS85nhND6nOk82ZgJ20jwlLFxklNm3lKDZ6HtjzAGlCTsLnCa3pFRMNAcfU42nAOkBfldCwhwQxpSvHRtvEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:42.806Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
