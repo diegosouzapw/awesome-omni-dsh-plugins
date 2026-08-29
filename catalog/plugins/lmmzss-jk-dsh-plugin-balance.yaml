@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lmmzss-jk-dsh-plugin-balance
+name: "@lmmzss/dsh-plugin-balance"
+description:
+  en: "DeepSeek Harness web plugin: header balance button (left of the native Session log), dropdown with account balance, live per-session model + token usage and official-rate cost estimates; auto-hides on the settings page"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - balance
+  - token-usage
+source:
+  repository: https://github.com/lmmzss-jk/dsh-plugin-balance
+  repositoryNodeId: R_kgDOT4gfKA
+  subpath: null
+  commit: a53522f818c32ad23d32c7dc4968a1fa1fddc100
+creator:
+  github: lmmzss-jk
+package:
+  ecosystem: npm
+  name: "@lmmzss/dsh-plugin-balance"
+  version: 0.1.1
+  integrity: sha512-wRAE2a9IV8F6z4AVI2VKCmA+hsqiAZBa4FNN9wxyf/L3tpoMM2KtUFEK81odLO9gHLSBrYdfF1Wl8AW/jXe7KA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:04.494Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
