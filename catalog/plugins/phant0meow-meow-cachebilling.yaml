@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: phant0meow-meow-cachebilling
+name: meow-cachebilling
+description:
+  en: Am I the only one who cares about saving money? Are you all made of money or something...
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - billing
+  - cache-hit
+  - cost
+  - peak-offpeak
+source:
+  repository: https://github.com/Phant0Meow/dsh-meow-cachebilling
+  repositoryNodeId: R_kgDOUAyZLw
+  subpath: null
+  commit: 7365b38f19771d9f64ce111016941d170ebf7f1f
+creator:
+  github: Phant0Meow
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:01.557Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
