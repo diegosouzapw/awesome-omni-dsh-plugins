@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: lk251066-dsh-tui
+name: "@lk251066/dsh-tui"
+description:
+  en: Multi-session terminal workbench plugin for DeepSeek Harness
+  evidencePath: packages/dsh-tui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - ai-agent
+  - cli
+  - coding-agent
+  - deepseek-harness
+  - developer-tools
+  - dsh
+  - dsh-plugin
+  - terminal
+  - tui
+  - typescript
+source:
+  repository: https://github.com/lk251066/dsh-tui-pro
+  repositoryNodeId: R_kgDOT5L99w
+  subpath: packages/dsh-tui
+  commit: 74287021abb6681706b1b79e8d35c947a4e3631f
+creator:
+  github: lk251066
+package:
+  ecosystem: npm
+  name: "@lk251066/dsh-tui"
+  version: 1.8.3
+  integrity: sha512-XduZzzvbe5TdvVrJGzPhwYsm6HmOXPcmIoT7buY3teCw7OkVg/NYoio00xLMF3DrdmYg/Y1VfTNfwpxwocTjdQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-tui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:54:00.525Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
