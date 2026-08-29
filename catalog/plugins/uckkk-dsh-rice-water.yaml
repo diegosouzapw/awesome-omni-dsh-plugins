@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-rice-water
+name: dsh-rice-water
+description:
+  en: bash dsh plugin add github:uckkk/dsh-rice-water
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-rice-water
+source:
+  repository: https://github.com/uckkk/dsh-rice-water
+  repositoryNodeId: R_kgDOT-DvVA
+  subpath: null
+  commit: 01d0443bc2ecc5f13ac55ff54e90f0b1b8e6440e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:51.234Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
