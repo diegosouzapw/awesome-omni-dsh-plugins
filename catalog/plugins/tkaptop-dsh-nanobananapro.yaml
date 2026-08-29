@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tkaptop-dsh-nanobananapro
+name: dsh-nanobananapro
+description:
+  en: Generate images and videos in DeepSeek Harness through the NanoBananaPro API
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - nanobananapro
+  - nano-banana
+  - image-generation
+  - video-generation
+  - veo
+  - dsh
+source:
+  repository: https://github.com/synmindai/dsh-nanobananapro
+  repositoryNodeId: R_kgDOT4Ms6A
+  subpath: null
+  commit: 08b51faefc2e00fd8c23126895329440ea9520a0
+creator:
+  github: tkaptop
+package:
+  ecosystem: npm
+  name: dsh-nanobananapro
+  version: 0.1.0
+  integrity: sha512-+Pbu0EYpNpnvRCKaIna4Eh+L7MICbMP3T2a+OHrEHRj9Nr6Q2ifK25QLizxee0Xq98ax2CpkzGkbbizO6Zg8LA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:30.884Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
