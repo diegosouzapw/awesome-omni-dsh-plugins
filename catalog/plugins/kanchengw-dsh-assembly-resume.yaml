@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: kanchengw-dsh-assembly-resume
+name: dsh-assembly.resume
+description:
+  en: Import local Codex and Claude Code sessions into DSH Agent conversations
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - codex
+  - claude-code
+  - claude-desktop
+  - ai-agent
+  - session-handoff
+  - session-import
+  - conversation-migration
+source:
+  repository: https://github.com/kanchengw/dsh-assembly.resume
+  repositoryNodeId: R_kgDOUDr7Zg
+  subpath: null
+  commit: 95bc54f53487894641c9e3c8058bd901c2afdf60
+creator:
+  github: kanchengw
+package:
+  ecosystem: npm
+  name: dsh-assembly.resume
+  version: 0.1.3
+  integrity: sha512-T1YYtigXfhitqfKc4lB7+7YpjB0GFMU0hKR3kWhgCfP2NSCaT1Iu1h4//tO0Qo09GPSHAX6u61rS+IQYZD05Mw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:28.287Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
