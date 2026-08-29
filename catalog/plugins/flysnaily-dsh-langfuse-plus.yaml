@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: flysnaily-dsh-langfuse-plus
+name: dsh-langfuse-plus
+description:
+  en: "Full-stack Langfuse observability for DeepSeek Harness: one OpenTelemetry trace tree per turn, prompt bridge, eval datasets, and a sidebar entry — implemented on the official telemetry seam."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - langfuse
+  - observability
+  - llm
+  - telemetry
+  - opentelemetry
+source:
+  repository: https://github.com/FlySnailY/dsh-langfuse-plus
+  repositoryNodeId: R_kgDOT8dy1w
+  subpath: null
+  commit: b00174fb7314b6b2745f6aa28189225031b1a1c7
+creator:
+  github: FlySnailY
+package:
+  ecosystem: npm
+  name: dsh-langfuse-plus
+  version: 0.1.2
+  integrity: sha512-PucfIPF0HF8rtTvtXNyb8ePQiwIOAj2pIUvlV1Avoq7hiw5bEs6m5MUKyLb6WtEqqQjMne2F9R+owpj4atQK4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:04.929Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
