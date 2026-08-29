@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: johnxu22786-dsh-rss-digest
+name: dsh-rss-digest
+description:
+  en: RSS/Atom feed subscription, scheduled fetching, deduplication, LLM-powered summarization, and daily Markdown digests — as a dsh (DeepSeek Harness) bundle.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - rss
+  - atom
+  - digest
+  - news
+  - summary
+  - briefing
+source:
+  repository: https://github.com/JohnXu22786/rss-digest
+  repositoryNodeId: R_kgDOT-QRXQ
+  subpath: null
+  commit: 1cf3a6d547fde1584fc56bc8409a8c4e21784ec8
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-rss-digest
+  version: 0.1.0
+  integrity: sha512-FbPvC756ezDze2J9MZOQpK8qoCk98iM0F7zLJE/XKAv3dJrBRe1wbE/Ro6ZdOS2Ahf9tUBd8Aebb+SBHQOFNTA==
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:19.723Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
