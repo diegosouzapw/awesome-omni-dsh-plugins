@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: simon314620-dsh-turn-index
+name: dsh-turn-index
+description:
+  en: "A turn-index sidebar for the DeepSeek Harness web GUI: one entry per user turn, click to jump, scroll-spy keeps the current turn highlighted."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - client-plugin
+  - conversation
+  - turn-index
+  - navigation
+  - sidebar
+source:
+  repository: https://github.com/Simon314620/dsh-turn-index
+  repositoryNodeId: R_kgDOT3qeLA
+  subpath: null
+  commit: a324ecde201a219448c23c1c8bbd872bdab512b4
+creator:
+  github: Simon314620
+package:
+  ecosystem: npm
+  name: dsh-turn-index
+  version: 0.1.1
+  integrity: sha512-6WN7SojM9j81qm27XgV4lw/6R1PPBMWH9+al/kDSWUYgaKFtnIxwp3d8kzWZaWL8RiVxzUNE71mODlj8YAjz0Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:39.649Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
