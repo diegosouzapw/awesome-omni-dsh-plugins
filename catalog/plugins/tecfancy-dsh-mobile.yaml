@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tecfancy-dsh-mobile
+name: "@tecfancy/dsh-mobile"
+description:
+  en: "A mobile adapter for the DeepSeek Harness (DSH) web shell. The stock shell is desktop-first: below 1024px the sidebar only collapses to a rail, and on phones the expanded drawer squeezes the main column to ~110px, composer buttons overlap, and the settings dialog shrinks to a sliver. dsh-mobile adds the missing phone t"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - mobile
+  - responsive
+  - layout
+  - web
+source:
+  repository: https://github.com/TecFancy/dsh-mobile
+  repositoryNodeId: R_kgDOT51MEg
+  subpath: null
+  commit: aa5908a0b68689c1f6946666143b4b60f8b21601
+creator:
+  github: TecFancy
+package:
+  ecosystem: npm
+  name: "@tecfancy/dsh-mobile"
+  version: 0.1.7
+  integrity: sha512-f5yrARX9Ej/ehyAXK+jHs5u0PTGg6c56OddOWhnJs09I4jtcti2dGRetVnkJb1B8csF4mSDKuYqmK/ZEzFh9dw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.156Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
