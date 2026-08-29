@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: karloflaw-dsh-goal-mode
+name: dsh-goal-mode
+description:
+  en: "Enhanced goal surface for the DeepSeek Harness web UI: full lifecycle dock above the composer (create / multiline edit / pause / resume / complete / clear with live round progress), a composer tool-row entry with phase dot, a collapsible chip, and a General-settings switch to hide the entry."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - enhanced
+  - goal
+  - surface
+  - full
+  - lifecycle
+  - dock
+  - above
+  - composer
+  - create
+  - multiline
+  - edit
+  - pause
+  - resume
+  - complete
+  - clear
+  - live
+source:
+  repository: https://github.com/KarlOfLaw/dsh-goal-mode-enhance
+  repositoryNodeId: R_kgDOT3dzQA
+  subpath: null
+  commit: f351daf586ebfc9606e4e5bfb1b141e318e59dab
+creator:
+  github: KarlOfLaw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:26.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
