@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-email-length
+name: dsh-email-length
+description:
+  en: bash dsh plugin add github:uckkk/dsh-email-length
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-email-length
+source:
+  repository: https://github.com/uckkk/dsh-email-length
+  repositoryNodeId: R_kgDOT-tE2Q
+  subpath: null
+  commit: 17d92ab65da7e488aaee38539c88b358856cb665
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:35.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
