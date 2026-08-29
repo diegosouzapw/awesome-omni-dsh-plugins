@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 0qwq0-dsh-ui-auth
+name: dsh-ui-auth
+description:
+  en: bash dsh plugin --profile web add "link:F:/aura/pluginDev/dsh-ui-auth"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - auth
+  - authentication
+  - login
+source:
+  repository: https://github.com/0QwQ0/dsh-ui-auth
+  repositoryNodeId: R_kgDOUBL5tw
+  subpath: null
+  commit: 9a9ff8fc5d8427a61e02a41dac6f25d446ce3823
+creator:
+  github: 0QwQ0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:26.639Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
