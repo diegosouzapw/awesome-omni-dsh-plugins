@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lucasx001-dsh-skin-claude-code
+name: dsh-skin-claude-code
+description:
+  en: "A Claude Code-inspired skin for the DeepSeek Harness web GUI: warm charcoal/cream surfaces, terracotta accent, and monospace terminal typography."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - theme
+  - skin
+  - claude-code
+  - monospace
+source:
+  repository: https://github.com/lucasx001/dsh-skin-claude-code
+  repositoryNodeId: R_kgDOT4Do6A
+  subpath: null
+  commit: 0226de0f52c18e40bc246b3638df5ca8fc6d672b
+creator:
+  github: lucasx001
+package:
+  ecosystem: npm
+  name: dsh-skin-claude-code
+  version: 0.1.3
+  integrity: sha512-F47QhfVEoQ3ykvnUfT/zKu2HWYgj9vuV/dsRdzcUfBHAWBW3x1XW3j8jnnOMwDJjj0+YSx+7YPUxDjGCq09FHw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:24.594Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
