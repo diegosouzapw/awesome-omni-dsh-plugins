@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: minglu6-dsh-provider-qoder
+name: dsh-provider-qoder
+description:
+  en: "Qoder CN adapter plugin for DeepSeek Harness: COSY-signed, WAF-encoded streaming against gateway.qoder.com.cn"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - qoder
+  - llm
+  - provider
+source:
+  repository: https://github.com/minglu6/dsh-provider-qoder
+  repositoryNodeId: R_kgDOT-K0Vg
+  subpath: null
+  commit: c91610f96cc161c2b7d3b314507bf924707358ff
+creator:
+  github: minglu6
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:10.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
