@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: diag5-dsh-better-input
+name: dsh-better-input
+description:
+  en: "Better input experience for DeepSeek Harness: voice input, AI polishing, prompt optimization, and local file input / file-to-Markdown"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - speech-to-text
+  - input
+  - better-input
+source:
+  repository: https://github.com/DIAG5/dsh-better-input
+  repositoryNodeId: R_kgDOT-fuVQ
+  subpath: null
+  commit: 70eaa627e497bec0a96e2327178645df15675cf5
+creator:
+  github: DIAG5
+package:
+  ecosystem: npm
+  name: dsh-better-input
+  version: 0.1.6
+  integrity: sha512-Owon43j1U79M6MZufUNk6DyHJDM+nmvOmqxr4oufAY9wcR3B6/ouVG9TGpe/Eu4shlA5KmUbbY9yD7GOQOh5Pg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:32.780Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
