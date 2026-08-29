@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: alextangson-dsh-dispatch
+name: dsh-dispatch
+description:
+  en: "Command your DeepSeek Harness machines from your phone: approval push, remote dispatch, session board. Built on DeepSeek Harness."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - remote-control
+  - mobile
+  - dispatch
+  - approvals
+  - e2ee
+  - phone
+source:
+  repository: https://github.com/alextangson/dsh-dispatch
+  repositoryNodeId: R_kgDOUBr-LQ
+  subpath: packages/plugin
+  commit: 5f379d40ce56b17eb6fb71668112aa75d436133d
+creator:
+  github: alextangson
+package:
+  ecosystem: npm
+  name: dsh-dispatch
+  version: 0.4.0
+  integrity: sha512-fz+jB3xblhDpcltOG0hODlZKtasg17BHRrayqiWmFpUyw0Wz1de9hI+BZ+fy0IPgNQVf0mx55C2fvfRwl0xxFQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:07.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
