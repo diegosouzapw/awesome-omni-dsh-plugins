@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: fliu56-dsh-llm-net-retry
+name: "@aiwayds/dsh-llm-net-retry"
+description:
+  en: "dsh plugin: bounded retry for gateway network error failures the stock retry policy cannot classify (e.g. OpenCode Zen finish reason: network error)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - retry
+  - network-error
+  - deepseek-harness
+  - llm
+source:
+  repository: https://github.com/fan56/dsh-llm-net-retry
+  repositoryNodeId: R_kgDOUAN1tA
+  subpath: null
+  commit: 2b6c1cc07c4471d607b04f0578923fbf8313f36e
+creator:
+  github: fliu56
+package:
+  ecosystem: npm
+  name: "@aiwayds/dsh-llm-net-retry"
+  version: 0.1.1
+  integrity: sha512-3hHuhxP7FmjBYVHjnuujKM49AB/mFSRXnxBYMQN9UwfTLFABGt2SsbQlhOsu1NXJ9E7vPjMUAi1GRIUvMfMRuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:48.531Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
