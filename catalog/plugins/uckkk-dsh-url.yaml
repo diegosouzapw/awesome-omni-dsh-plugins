@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-url
+name: dsh-url
+description:
+  en: bash dsh plugin add dsh-url 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-url" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - url
+  - parse
+source:
+  repository: https://github.com/uckkk/dsh-url
+  repositoryNodeId: R_kgDOT6KaPA
+  subpath: null
+  commit: 132372a55ecf12343195bbe23d3c99a09b0cb1ad
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:01.615Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
