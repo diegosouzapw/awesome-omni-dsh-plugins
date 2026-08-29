@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lemoncat7-dsh-knowledge
+name: "@lemoncat7/dsh-knowledge"
+description:
+  en: Local and remote knowledge bases for DeepSeek Harness, with scoped recall, controlled write-back, and a Web management console
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - knowledge-base
+  - memory
+  - rag
+  - sqlite
+  - remote-knowledge
+  - web-ui
+source:
+  repository: https://github.com/lemoncat7/dsh-knowledge
+  repositoryNodeId: R_kgDOT6slGg
+  subpath: null
+  commit: b93ac41b1bb42e6d53019647419777fb47aa4ed6
+creator:
+  github: lemoncat7
+package:
+  ecosystem: npm
+  name: "@lemoncat7/dsh-knowledge"
+  version: 1.1.5
+  integrity: sha512-BfABGnRgsDgPyE60WSv/onwz1MteWYahcAW5txsp4+FuqJwTFE6Kn7X8gVbzPtZAO4SN2yCSRsutgvjoREUkDA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:22.141Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
