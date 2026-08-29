@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: stardustlc666-dsh-rss
+name: dsh-rss
+description:
+  en: "DSH (DeepSeek Harness) plugin for RSS/Atom subscriptions: manage feeds, fetch and parse RSS 0.9x / 1.0 / 2.0 and Atom, with OPML bulk import/export, exposing seven model-facing tools."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - rss
+  - atom
+  - feed
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-rss
+  repositoryNodeId: R_kgDOT4OFYg
+  subpath: null
+  commit: 9c3e0a7c4416840079e8315302e1dd73e48a7c96
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-rss
+  version: 0.3.0
+  integrity: sha512-studOVg3pprFUHTG+dilh4gBK9mgtLtazR8/lSxm/pOds1oRYs5dUshZyRlWx5rBVxojENsFgPwewDak7K3UWw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:39.091Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
