@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: siberiah2o-dsh-plugin-terminal
+name: dsh-plugin-terminal
+description:
+  en: Bottom terminal panel plugin for DeepSeek Harness Web GUI (node-pty powered, works on Windows via ConPTY)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - terminal
+  - pty
+source:
+  repository: https://github.com/siberiah2o/dsh-plugin-terminal
+  repositoryNodeId: R_kgDOT4MnkA
+  subpath: null
+  commit: e6f6bafd3898b816cb0beab73fee30fabd50169f
+creator:
+  github: siberiah2o
+package:
+  ecosystem: npm
+  name: dsh-plugin-terminal
+  version: 0.2.0
+  integrity: sha512-degRA4Azbw8ZGXcKbP/GyhIPgUOoBm+IRm+OmWjOO5LGZ1voc6YxGWLleWR7fOmCpk7cDmFcXmkH8IOQJY/65A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.910Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
