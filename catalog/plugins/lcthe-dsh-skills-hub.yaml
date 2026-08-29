@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lcthe-dsh-skills-hub
+name: "@lcthe/dsh-skills-hub"
+description:
+  en: DSH plugin for browsing, searching, inspecting, importing, uploading, and safely deleting skills across global and registered workspace directories.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - skill
+  - manager
+source:
+  repository: https://github.com/lcthe/dsh-skills-hub
+  repositoryNodeId: R_kgDOT9NkmQ
+  subpath: null
+  commit: 2ad30b02003d9d426be67d9572cecd661227d70a
+creator:
+  github: lcthe
+package:
+  ecosystem: npm
+  name: "@lcthe/dsh-skills-hub"
+  version: 0.2.5
+  integrity: sha512-EJUlXt+oVNbwQOO4+ve7LAawawWN41ofXcpu4qdT0gScrdWrW+5hghuYro4N9oqeb+d13/ad4wGvubFPVHPe2A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:50.670Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
