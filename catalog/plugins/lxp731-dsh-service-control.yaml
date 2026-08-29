@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lxp731-dsh-service-control
+name: dsh-service-control
+description:
+  en: "Wings for the dsh command: manage the service's systemd lifecycle, persisted config and runtime diagnostics through dsh --profile ctl . No separate CLI (the legacy dshctl is gone)."
+  evidencePath: dsh-service-control/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - service
+  - control
+  - systemd
+  - daemon
+  - completion
+source:
+  repository: https://github.com/lxp731/agents-plugins
+  repositoryNodeId: R_kgDOTsoS1A
+  subpath: dsh-service-control
+  commit: 1111322693088c94443d9b217a010816c31cc891
+creator:
+  github: lxp731
+package:
+  ecosystem: npm
+  name: dsh-service-control
+  version: 0.2.5
+  integrity: sha512-Xt3MfTXmLMYiVe8oGmchOKYeWfUntuZtpElPBEALZoJmqrrpUL3ezUhItTaoCSK6PDgwhWR7i18guUkSLxP2LQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-service-control/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:01.592Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
