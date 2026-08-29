@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dayi-z-memoripo
+name: memoripo
+description:
+  en: A living memory workbench for DeepSeek Harness — watch Hindsight memory grow, read and use it, in a persistent sidebar.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - hindsight
+  - knowledge
+  - ui
+  - dsh
+source:
+  repository: https://github.com/Dayi-Z/memoripo
+  repositoryNodeId: R_kgDOUFC_dg
+  subpath: null
+  commit: aface4b0c8dc62c846e2acf93c6e6ca386489fd7
+creator:
+  github: Dayi-Z
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:48.099Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
