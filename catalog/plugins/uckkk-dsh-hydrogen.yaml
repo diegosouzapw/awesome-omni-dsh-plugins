@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hydrogen
+name: dsh-hydrogen
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hydrogen
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hydrogen
+source:
+  repository: https://github.com/uckkk/dsh-hydrogen
+  repositoryNodeId: R_kgDOT9vAvQ
+  subpath: null
+  commit: 8ee70744a51e62b28ed4bde0831bd00f0d7b75b1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:56.419Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
