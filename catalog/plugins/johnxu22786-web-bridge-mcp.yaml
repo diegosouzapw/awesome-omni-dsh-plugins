@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: johnxu22786-web-bridge-mcp
+name: web-bridge-mcp
+description:
+  en: "Web Bridge is an automation MCP server that uses a real browser . It gives agents a browser's eyes and hands: open web pages, read page structure, click, fill forms, take screenshots, and execute scripts. Its core mechanism is the accessibility-tree snapshot — rendering the page into a structured text tree with numbere"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - mcp
+  - browser
+  - playwright
+  - automation
+  - dsh
+source:
+  repository: https://github.com/JohnXu22786/browser-automation
+  repositoryNodeId: R_kgDOT59N3Q
+  subpath: null
+  commit: 4fdafaec821b2010e413f656f1431819477f0ce4
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:07.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
