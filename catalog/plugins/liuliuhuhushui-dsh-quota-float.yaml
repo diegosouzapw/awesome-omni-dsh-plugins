@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: liuliuhuhushui-dsh-quota-float
+name: "@liuliuhuhushui/dsh-quota-float"
+description:
+  en: Floating usage & balance widget for DeepSeek Harness — follows each conversation's selected model (Kimi / DeepSeek / Volc Ark / DashScope)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - quota
+  - usage
+  - balance
+  - kimi
+  - widget
+source:
+  repository: https://github.com/liuliuhuhushui/dsh-quota-float
+  repositoryNodeId: R_kgDOT5L5mQ
+  subpath: null
+  commit: 9a083d7e67e1657c2f6618272fcb4d71b8ff7b6a
+creator:
+  github: liuliuhuhushui
+package:
+  ecosystem: npm
+  name: "@liuliuhuhushui/dsh-quota-float"
+  version: 0.1.0
+  integrity: sha512-DTmHNUfeJSYEyUuCHc1LBD7MJa5okNdDnAQoxGZvw2s0uFqQaR5xAQDSl7XYjVo8dXinfExXqD51xKIDIgv9kA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:29.813Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
