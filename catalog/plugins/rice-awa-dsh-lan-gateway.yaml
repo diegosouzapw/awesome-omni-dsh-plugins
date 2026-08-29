@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: rice-awa-dsh-lan-gateway
+name: "@riceawa/dsh-lan-gateway"
+description:
+  en: "LAN/internet reverse-proxy gateway for the DeepSeek Harness web GUI: binds 0.0.0.0, forwards to the loopback dsh web server with header rewrite to pass the /api trust fence. LAN sources are password-free; non-LAN sources get a login page + HMAC cookie. Optional TLS with auto-generated self-signed or user-supplied certi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - lan
+  - gateway
+  - reverse-proxy
+  - uuid
+  - secure-context
+  - shim
+source:
+  repository: https://github.com/rice-awa/dsh-lan-gateway
+  repositoryNodeId: R_kgDOT5xbaw
+  subpath: null
+  commit: 25005a5dcbdfa6c84cc3dbd448cc9582f774a78c
+creator:
+  github: rice-awa
+package:
+  ecosystem: npm
+  name: "@riceawa/dsh-lan-gateway"
+  version: 0.4.0
+  integrity: sha512-0054bLIbHi2BNN/hmVzOlpNnE1kBrgoHz+1LO3fukGa6AgG8fR/qpQP5Xl1MspoxmCjgkpQV9XUFmudv1MjQLA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:45.878Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
