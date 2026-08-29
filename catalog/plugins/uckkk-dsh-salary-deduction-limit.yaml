@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-salary-deduction-limit
+name: dsh-salary-deduction-limit
+description:
+  en: bash dsh plugin add github:uckkk/dsh-salary-deduction-limit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-salary-deduction-limit
+source:
+  repository: https://github.com/uckkk/dsh-salary-deduction-limit
+  repositoryNodeId: R_kgDOT-DdOg
+  subpath: null
+  commit: 8a1ca5f345bcebcea94d1c6e58e5450e78ba3cb4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:55.397Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
