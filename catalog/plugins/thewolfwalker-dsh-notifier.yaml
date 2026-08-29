@@ -1,5 +1,5 @@
 schemaVersion: 1
-id: invalid-email-address-dsh-notifier
+id: thewolfwalker-dsh-notifier
 name: dsh-notifier
 description:
   en: Unified notification push plugin for DeepSeek Harness (DSH) — one minimal notify() API in front, 27 channels behind.
@@ -30,7 +30,7 @@ source:
   subpath: null
   commit: cc4781e9939210b2d91b63f5448ccef40708a7c2
 creator:
-  github: invalid-email-address
+  github: THEWOLFWALKER
 package:
   ecosystem: npm
   name: dsh-notifier
