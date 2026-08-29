@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: polar-zhang-dsh-launchpad
+name: dsh-launchpad
+description:
+  en: A DeepSeek Harness plugin that hosts an elegant splash/loading page and a readiness endpoint, plus Windows desktop launcher scripts (double-click to start, close the browser to stop).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - launcher
+  - splash
+  - loading
+  - desktop
+source:
+  repository: https://github.com/Polar-Zhang/dsh-launchpad
+  repositoryNodeId: R_kgDOT9JHgw
+  subpath: null
+  commit: 63f5496a2c5c591607408b2fb12b752a5f60c692
+creator:
+  github: Polar-Zhang
+package:
+  ecosystem: npm
+  name: dsh-launchpad
+  version: 1.1.0
+  integrity: sha512-DzOeE8FV9Wufksfx6jOXUv2FIY8tu+W3BG3Qs6OgUC0+al0RhNr24LksvnO0Gkx7EkzqL184F33jGZ12xTkG1Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:11.720Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
