@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lfm097384-context-prism-dsh-plugin
+name: context-prism-dsh-plugin
+description:
+  en: DSH plugin with an in-process JavaScript port of ContextPrism (Local Context Engine)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - process
+  - javascript
+  - port
+  - contextprism
+  - local
+  - context
+  - engine
+  - dsh
+source:
+  repository: https://github.com/LFM097384/Context-Prism
+  repositoryNodeId: R_kgDOT8o6Ww
+  subpath: null
+  commit: 4ecb4d85dd511d3b864762a9fb5e926d53c70810
+creator:
+  github: LFM097384
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:01.432Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
