@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: limitinfinitude-dsh-right-sidebar
+name: dsh-right-sidebar
+description:
+  en: Codex-style right sidebar for DSH Web with automatic output collection, responsive previews, and session-aware tabs
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - codex
+  - style
+  - right
+  - sidebar
+  - automatic
+  - output
+  - collection
+  - responsive
+  - previews
+  - session
+  - aware
+  - tabs
+  - dsh
+source:
+  repository: https://github.com/Limitinfinitude/DSH-Right-Sidebar
+  repositoryNodeId: R_kgDOT5SWFw
+  subpath: null
+  commit: 80385b35f9ee6a3e0eb21ff81f708839e2fd3b81
+creator:
+  github: Limitinfinitude
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:32.383Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
