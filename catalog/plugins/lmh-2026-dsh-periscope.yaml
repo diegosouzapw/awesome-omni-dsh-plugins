@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lmh-2026-dsh-periscope
+name: dsh-periscope
+description:
+  en: "DSH plugin: keep text-only models (deepseek-v4-flash / deepseek-v4-pro) as the session default and automatically route image-bearing requests to a configured vision model; also ships the generic file-attachment feature (drag/paste any file as a durable attachment the agent reads by path) as core patches (apply via scri"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - bundle
+  - vision
+  - image
+  - multimodal
+  - auto-switch
+  - periscope
+  - attachment
+  - file
+  - upload
+source:
+  repository: https://github.com/lmh-2026/dsh-periscope
+  repositoryNodeId: R_kgDOUBDAVQ
+  subpath: null
+  commit: 5b4798ba4cc58902ca73f3909cdd59a2c0610fc9
+creator:
+  github: lmh-2026
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:54:06.690Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
