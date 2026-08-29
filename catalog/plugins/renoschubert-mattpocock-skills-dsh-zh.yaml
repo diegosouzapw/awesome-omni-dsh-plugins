@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: renoschubert-mattpocock-skills-dsh-zh
+name: mattpocock-skills-dsh-zh
+description:
+  en: "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能(grilling、writing-for-agents、wait-what、TDD、code-review 等)正文全部译为中文,适配 DSH 的 Cordis 插件架构。Chinese translation of the full promoted mattpocock/skills set (MIT, (c) Matt Pocock)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - mattpocock
+  - aihero
+  - chinese
+source:
+  repository: https://github.com/gongyijie85/mattpocock-skills-dsh-zh
+  repositoryNodeId: R_kgDOT51-Ng
+  subpath: null
+  commit: 663a1c20401406c2b75c7658aed7f8cc00bf3ee3
+creator:
+  github: renoschubert
+package:
+  ecosystem: npm
+  name: mattpocock-skills-dsh-zh
+  version: 0.1.1
+  integrity: sha512-K/RtIaY0rgvqyd5ReHtF0lFMk+w5cxJ5VYihhkClBwXZm3Cnj4gbcoTzuJJXHw4mvLS5cKnLrooB22vtWwX9Yg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:27.217Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
