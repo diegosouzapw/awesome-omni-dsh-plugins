@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-gpa-calc
+name: dsh-gpa-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-gpa-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-gpa-calc
+source:
+  repository: https://github.com/uckkk/dsh-gpa-calc
+  repositoryNodeId: R_kgDOT-Dctw
+  subpath: null
+  commit: c01f6c62fa07c377fb213512068313ee64de9abd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:47.942Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
