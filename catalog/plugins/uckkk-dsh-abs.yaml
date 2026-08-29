@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-abs
+name: dsh-abs
+description:
+  en: bash dsh plugin add github:uckkk/dsh-abs
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-abs
+source:
+  repository: https://github.com/uckkk/dsh-abs
+  repositoryNodeId: R_kgDOT9uD1g
+  subpath: null
+  commit: 4365d6e46b9c4cbe122615e28d230a731773dbdd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:36.344Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
