@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: radicalgitter-dsh-ui-translate
+name: dsh-ui-translate
+description:
+  en: Privacy-first browser-local Chinese UI and content translation for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - translation
+  - localization
+  - privacy
+  - offline
+source:
+  repository: https://github.com/RadicalGitter/dsh-ui-translate
+  repositoryNodeId: R_kgDOT-uZew
+  subpath: null
+  commit: 260083f023ec8494fbf59db7c4b9a237cf8e9648
+creator:
+  github: RadicalGitter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:59.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
