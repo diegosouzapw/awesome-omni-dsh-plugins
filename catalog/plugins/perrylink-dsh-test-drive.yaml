@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-test-drive
+name: dsh-test-drive
+description:
+  en: "Isolated install-and-smoke test drives for DeepSeek Harness plugins: installs a repo or npm package into a throwaway DSH HOME profile, verifies the bundle patch layer and boot logs, records a structured pass/fail result matrix (JSON/Markdown) for scoring pipelines, and quarantines every temp directory it owns"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - plugin-testing
+  - install-smoke
+  - compatibility-matrix
+  - ci
+source:
+  repository: https://github.com/PerryLink/dsh-test-drive
+  repositoryNodeId: R_kgDOT6mx9w
+  subpath: null
+  commit: 062a4cd89f51f0b0c814bfe0aa0f3f5926ed30c0
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-test-drive
+  version: 0.3.0
+  integrity: sha512-0aTJHbBY/l+5zbry4qmEQG8jadVfZKnXwx8egWOS8PbeZKXvV2cI6YVlG9xbLHsuMCdXTXBlfypcMXHn9VFmMw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:10.997Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
