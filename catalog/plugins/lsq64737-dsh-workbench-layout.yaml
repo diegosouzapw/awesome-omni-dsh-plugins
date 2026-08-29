@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lsq64737-dsh-workbench-layout
+name: "@lsq64737/dsh-workbench-layout"
+description:
+  en: DSH-styled three-column workspace with file editing, Markdown preview, Git controls, terminals, and native conversation
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - styled
+  - three
+  - column
+  - workspace
+  - file
+  - editing
+  - markdown
+  - preview
+  - controls
+  - terminals
+  - native
+  - conversation
+  - dsh
+source:
+  repository: https://github.com/lsq-dsh-plugins/dsh-workbench-layout
+  repositoryNodeId: R_kgDOUBEgAQ
+  subpath: null
+  commit: e74b1a281e3e0a791cb2a934c966e4c5135f6e16
+creator:
+  github: lsq64737
+package:
+  ecosystem: npm
+  name: "@lsq64737/dsh-workbench-layout"
+  version: 0.1.5
+  integrity: sha512-9e3NdpaZLUeQfpyFP43tuUW91lhoy3lX2G5vQL3nM4VxvgAfZmAcnEoJSCJYExrIi47diG3HtpkpEkkVCFLH7Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:46.852Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
