@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: trrrrrryg-workspace-plugin
+name: "@dsh-remote/workspace-plugin"
+description:
+  en: DSH SSH Forge — secure SSH-backed remote workspaces for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - forge
+  - secure
+  - backed
+  - remote
+  - workspaces
+  - dsh
+source:
+  repository: https://github.com/trrrrrryg/dsh-ssh-forge
+  repositoryNodeId: R_kgDOUCwnTg
+  subpath: null
+  commit: e49250dae3d49292b52f45d1fac03fea9c3a3608
+creator:
+  github: trrrrrryg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:35.401Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
