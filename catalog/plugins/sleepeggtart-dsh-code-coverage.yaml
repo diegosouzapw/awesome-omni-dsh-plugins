@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sleepeggtart-dsh-code-coverage
+name: dsh-code-coverage
+description:
+  en: bash npm install -g dsh-code-coverage npx dsh-code-coverage
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - code-coverage
+  - c8
+  - ai-code
+  - attribution
+  - testing
+source:
+  repository: https://github.com/SleepEggTart/dsh-code-coverage
+  repositoryNodeId: R_kgDOUFKaMg
+  subpath: null
+  commit: 77bde5d44740d0fae60bf1600a19bd09fb1d7cf6
+creator:
+  github: SleepEggTart
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:21.746Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
