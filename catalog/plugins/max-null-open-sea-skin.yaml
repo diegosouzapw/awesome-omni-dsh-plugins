@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: max-null-open-sea-skin
+name: open-sea-skin
+description:
+  en: Realtime WebGPU ocean skin for DeepSeek Harness on Chrome and Edge
+  evidencePath: plugins/open-sea-skin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - theme
+  - skin
+  - webgpu
+  - ocean
+  - dsh
+source:
+  repository: https://github.com/Max-Null/seek-soul-in-darkness
+  repositoryNodeId: R_kgDOT5byLA
+  subpath: plugins/open-sea-skin
+  commit: daf554f9ef8348181006213fc869d2234af44a27
+creator:
+  github: Max-Null
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/open-sea-skin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:05.910Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
