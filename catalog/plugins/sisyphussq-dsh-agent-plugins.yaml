@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sisyphussq-dsh-agent-plugins
+name: "@suqingsq/dsh-agent-plugins"
+description:
+  en: "Agent Plugins 1.0.0 adapter for DeepSeek Harness: discovers skills/ and mcp.json from agent-plugin stores, registers skills and MCP servers, and manages them through a CLI and the settings panel."
+  evidencePath: packages/dsh-agent-plugins/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-plugins
+  - skills
+  - mcp
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-agent-plugins
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-agent-plugins"
+  version: 0.2.0
+  integrity: sha512-1hKqtp0H3aiQv28Q8hSaAP7ijz5TwuTKFuEW0vpF/fKBZyRkY1V0lq9RMTHyC7jb0Fk2is7NVapwfd5S/L86/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-agent-plugins/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
