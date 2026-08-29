@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 240xu-dsh-themis
+name: dsh-themis
+description:
+  en: "Themis — tech-lead lifecycle governance for DeepSeek Harness: 21 governance tools plus capability discovery (classify/state/plan/evidence/gates/release/install audits, context/evidence/progress analysis, mutation preview). No writes, no subprocesses, no network."
+  evidencePath: packages/dsh-themis/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - tech-lead
+  - governance
+  - themis
+source:
+  repository: https://github.com/240xu/verdict-engine
+  repositoryNodeId: R_kgDOUC5FPQ
+  subpath: packages/dsh-themis
+  commit: b656c8e3284a9b6f1805c49a92873f473a30c976
+creator:
+  github: 240xu
+package:
+  ecosystem: npm
+  name: dsh-themis
+  version: 1.3.2
+  integrity: sha512-h55QmfvrhncgbSxnVVtUlB3F6V+peHUITre/i2WV7D06jza2KfylXZ9qgV1NEGZz/UixpuxSoMQWQ25iYojXBg==
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/dsh-themis/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:29.897Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
