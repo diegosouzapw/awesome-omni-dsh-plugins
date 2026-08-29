@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 0xrabit-dsh-crypto-portfolio
+name: dsh-crypto-portfolio
+description:
+  en: Crypto portfolio tracker (BTC/EVM/Solana/Hyperliquid/CEX) as a DSH plugin. All private keys/wallets live in user-local JSON configs, never in this package.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - crypto
+  - portfolio
+  - tracker
+  - solana
+  - hyperliquid
+  - private
+  - keys
+  - wallets
+  - live
+  - user
+  - local
+  - json
+  - configs
+  - never
+  - package
+  - dsh
+source:
+  repository: https://github.com/0xRabit/dsh-crypto-portfolio
+  repositoryNodeId: R_kgDOUAihHA
+  subpath: null
+  commit: bd81f79422b7c41e38bbc0da671f5b2d49da00ad
+creator:
+  github: 0xRabit
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:26.073Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
