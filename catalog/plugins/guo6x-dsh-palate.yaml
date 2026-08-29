@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: guo6x-dsh-palate
+name: dsh-palate
+description:
+  en: "An eye that grows: accumulated design taste for DSH agents. A taste corpus + codified principles that sharpen with every example you feed — review designs against learned judgment, not a fixed ruler."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - design
+  - taste
+  - aesthetic
+  - review
+  - critique
+source:
+  repository: https://github.com/guo6x/dsh-palate
+  repositoryNodeId: R_kgDOT8M4_A
+  subpath: null
+  commit: a155c1a1959185ba198256d9abe13cca6d0518f5
+creator:
+  github: guo6x
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:21.565Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
