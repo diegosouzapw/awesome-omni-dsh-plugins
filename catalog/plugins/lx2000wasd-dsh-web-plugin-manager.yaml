@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lx2000wasd-dsh-web-plugin-manager
+name: dsh-web-plugin-manager
+description:
+  en: "Manage DeepSeek Harness (DSH) plugins from the Web UI: list, enable/disable, install/remove, environments, and a GitHub-awesome-driven marketplace."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - plugin-manager
+  - marketplace
+source:
+  repository: https://github.com/LX2000WASD/dsh-web-plugin-manager
+  repositoryNodeId: R_kgDOT3t3Tg
+  subpath: null
+  commit: 633d9fc2abd851a5a811d2ed06921a9711606c6f
+creator:
+  github: LX2000WASD
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 67
+provenance:
+  discussion: null
+  comment: null
