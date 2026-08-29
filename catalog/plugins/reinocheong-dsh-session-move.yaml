@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: reinocheong-dsh-session-move
+name: dsh-session-move
+description:
+  en: "Manage DeepSeek Harness sessions from the Web UI: drag & drop or menu-move a session to another folder (workspace), permanently delete a session, and AI-rename a session by summarizing its conversation. Also exposes agent tools for each operation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - workspace
+  - folder
+  - rename
+  - delete
+  - move
+source:
+  repository: https://github.com/reinocheong/dsh-session-move
+  repositoryNodeId: R_kgDOT4_W6w
+  subpath: null
+  commit: 0acca8a4efcdd43487a3d38b2cbf57dd8df130fb
+creator:
+  github: reinocheong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:43.893Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
