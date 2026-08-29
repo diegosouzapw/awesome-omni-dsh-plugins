@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: fendouai-dsh-humanizer
+name: dsh-humanizer
+description:
+  en: "Writing skill for DeepSeek Harness: de-AI humanizer plus personal voice clone. Scans AI-writing patterns, builds a style fingerprint from your samples, and returns rewrite briefs so the agent writes like you."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - writing
+  - humanizer
+  - voice-clone
+  - style-transfer
+  - de-ai
+source:
+  repository: https://github.com/lynote-ai/dsh-humanizer
+  repositoryNodeId: R_kgDOT-YUeA
+  subpath: null
+  commit: 9314b95d0b1ba663331f47f0a8ea006b6dc5f509
+creator:
+  github: fendouai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:16.391Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
