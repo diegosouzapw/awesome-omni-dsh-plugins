@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-coupon-profit
+name: dsh-coupon-profit
+description:
+  en: bash dsh plugin add github:uckkk/dsh-coupon-profit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-coupon-profit
+source:
+  repository: https://github.com/uckkk/dsh-coupon-profit
+  repositoryNodeId: R_kgDOT-DYSg
+  subpath: null
+  commit: bfef95cc064b9ed5edddb75a78c3c9c497da082e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:33.737Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
