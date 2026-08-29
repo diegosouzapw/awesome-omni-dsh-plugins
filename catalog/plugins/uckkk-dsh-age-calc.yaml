@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-age-calc
+name: dsh-age-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-age-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-age-calc
+source:
+  repository: https://github.com/uckkk/dsh-age-calc
+  repositoryNodeId: R_kgDOT9uROg
+  subpath: null
+  commit: 3acc8109c80cf292f47b08a0cc10fc8a19e165a8
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:21.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
