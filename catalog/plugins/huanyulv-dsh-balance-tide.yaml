@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: huanyulv-dsh-balance-tide
+name: dsh-balance-tide
+description:
+  en: "DeepSeek Harness (DSH) Web plugin: account balance + peak/off-peak pricing tide indicator."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - pricing
+  - peak-off-peak
+  - cost
+source:
+  repository: https://github.com/huanyuLv/dsh-balance-tide
+  repositoryNodeId: R_kgDOT4SOQg
+  subpath: null
+  commit: 8805c80eeaae26d40156cea9162091a6ab01311e
+creator:
+  github: huanyuLv
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:38.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
