@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hero-product
+name: dsh-hero-product
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hero-product
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hero-product
+source:
+  repository: https://github.com/uckkk/dsh-hero-product
+  repositoryNodeId: R_kgDOT-woDQ
+  subpath: null
+  commit: abb70a26aab63988b529687d941fec003ce8db77
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:53.604Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
