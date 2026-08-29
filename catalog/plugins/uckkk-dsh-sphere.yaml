@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sphere
+name: dsh-sphere
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sphere
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sphere
+source:
+  repository: https://github.com/uckkk/dsh-sphere
+  repositoryNodeId: R_kgDOT9u_OQ
+  subpath: null
+  commit: f70c0ea20dd85ec9688c80fec560c9ab95d91752
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:07.258Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
