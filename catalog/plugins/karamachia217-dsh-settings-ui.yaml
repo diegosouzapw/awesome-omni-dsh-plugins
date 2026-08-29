@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: karamachia217-dsh-settings-ui
+name: dsh-settings-ui
+description:
+  en: "DSH web plugin: unified settings-page UI kit. Provides the ctx.settingsUi client service — official-aligned card/field primitives (pointer-reusing @deepseek-ai/dsh-client-ui-primitives icons + --dsw- tokens), a settings store, and a declarative form — so plugins register settings surfaces that match the official Plugin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - unified
+  - settings
+  - page
+  - settingsui
+  - client
+  - service
+  - official
+  - aligned
+  - card
+  - field
+  - primitives
+  - pointer
+  - reusing
+  - icons
+  - tokens
+  - store
+source:
+  repository: https://github.com/KaramachiA217/dsh-settings-ui
+  repositoryNodeId: R_kgDOT7Niag
+  subpath: null
+  commit: ad30708126983a8b4c3cd40093f1f364e3004017
+creator:
+  github: KaramachiA217
+package:
+  ecosystem: npm
+  name: dsh-settings-ui
+  version: 0.4.1
+  integrity: sha512-3Ze3C/4fXlc1FOLBuwUWhzDGyKFo6juV6nPU2yaoKYxhJ2rNr1KK/b6tMvlQyHCQDVXIEOD8/QiKoByxObKgcw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:32.153Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
