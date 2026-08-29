@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: hezhongtang-dsh-update-copilot
+name: dsh-update-copilot
+description:
+  en: "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every installed plugin across npm and git, merged package-centric over all profiles, with one-click updates — the update command is identical for every profile. · DSH 更新助手：追踪 dsh 本体、bundle 包和所有已装插件（npm 与 git 双通道，跨 profile 按包合并），一键更新——各 prof"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - update-checker
+  - plugin-manager
+  - dependency-updates
+  - version-radar
+  - semver
+  - changelog
+  - agent-tools
+  - cordis-plugin
+source:
+  repository: https://github.com/hezhongtang/dsh-update-copilot
+  repositoryNodeId: R_kgDOT43OUw
+  subpath: null
+  commit: ae749a6f64016206afa97018e4843f80f6953812
+creator:
+  github: hezhongtang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:43.915Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
