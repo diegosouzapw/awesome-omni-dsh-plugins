@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hellosky983-dsh-foundry
+name: dsh-foundry
+description:
+  en: Plugin Foundry — a self-extending, everything-is-a-plugin compiler for DeepSeek Harness. Ships a blueprint registry (scaffold → validate → deploy) as a runtime Service, three model tools, and a blueprint-gallery settings page.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - meta-plugin
+  - plugin-compiler
+  - blueprint
+  - extensibility
+source:
+  repository: https://github.com/hellosky983/dsh-foundry
+  repositoryNodeId: R_kgDOT5LveQ
+  subpath: null
+  commit: cff65b961af7c8395c614a87b9b8fd864ca33666
+creator:
+  github: hellosky983
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:43.248Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
