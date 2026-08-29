@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: somnusovis-dsh-multi-workspace
+name: dsh-multi-workspace
+description:
+  en: "Multi-workspace sandbox for DSH: automatically grant file-write access to ALL registered workspaces — add a workspace in the UI, write to it immediately, no config needed."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - multi-workspace
+  - sandbox
+source:
+  repository: https://github.com/somnusovis/dsh-multi-workspace
+  repositoryNodeId: R_kgDOT5TIow
+  subpath: null
+  commit: 3eec3cb75910ee89236ee8950b71a03911f98267
+creator:
+  github: somnusovis
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:49.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
