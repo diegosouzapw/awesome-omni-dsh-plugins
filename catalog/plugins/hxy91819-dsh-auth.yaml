@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: hxy91819-dsh-auth
+name: dsh-auth
+description:
+  en: Caddy-fronted administrator authentication bundle for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-auth
+  - dsh-security
+  - cordis
+  - caddy
+  - authentication
+  - argon2id
+  - forward-auth
+source:
+  repository: https://github.com/hxy91819/dsh-auth
+  repositoryNodeId: R_kgDOT4aSmA
+  subpath: null
+  commit: 2463a595239b8ad289f39ecf7d59dd1fb94225ff
+creator:
+  github: hxy91819
+package:
+  ecosystem: npm
+  name: dsh-auth
+  version: 0.2.3
+  integrity: sha512-1g9k+Jex/Z2Er+ZthbMcstW0Nyf3prLR8lPNxcckQczKhmn4CdkEP26T5ch3MtCh3gt5qZAIxpAf9MNQ/0GuNw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:49.023Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
