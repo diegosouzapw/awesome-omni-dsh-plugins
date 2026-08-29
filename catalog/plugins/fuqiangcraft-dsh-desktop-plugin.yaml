@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fuqiangcraft-dsh-desktop-plugin
+name: "@mixian/dsh-desktop-plugin"
+description:
+  en: "Desktop-grade DeepSeek Harness plugin: native notifications for user questions/approvals, a floating attention HUD, a screen-capture tool, and a multi-agent tiling canvas."
+  evidencePath: packages/dsh-desktop-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis-plugin
+  - desktop
+  - notifications
+  - multi-agent
+source:
+  repository: https://github.com/FuqiangCraft/dsh-desktop
+  repositoryNodeId: R_kgDOUCL4iQ
+  subpath: packages/dsh-desktop-plugin
+  commit: 8cdc8f205535ada6abcf6afd81489e09260d38a6
+creator:
+  github: FuqiangCraft
+package:
+  ecosystem: npm
+  name: "@mixian/dsh-desktop-plugin"
+  version: 0.1.1
+  integrity: sha512-G8DpbEZDG8PutGmU7HPkc9zsy0DXfDfO9hNyWF7YKqc/iSUYAdF+yuZha9p+gP7/mUQStEVPFqBa/IEd3fwj3g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-desktop-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:59.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
