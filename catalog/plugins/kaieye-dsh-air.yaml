@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kaieye-dsh-air
+name: dsh-air
+description:
+  en: Lightweight DSH plugin for history recall and BTW side conversations.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - history
+  - keyboard
+  - search
+  - btw
+  - side-conversation
+source:
+  repository: https://github.com/kaieye/dsh-AIR
+  repositoryNodeId: R_kgDOT8V-ww
+  subpath: null
+  commit: 0639ad58e7d8a0a5817569e159f5d8c26c297af3
+creator:
+  github: kaieye
+package:
+  ecosystem: npm
+  name: dsh-air
+  version: 0.1.2
+  integrity: sha512-x1aFuSok9mSuBYYrxhtpVC6bnm0J9c2GDiPisw4dg7ebA56aZMRx+k1B8r0o9be5imfxEJw0CqUcOZQrhwnODQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:20.294Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
