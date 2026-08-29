@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kakuizang-dsh-mobile-webui
+name: dsh-mobile-webui
+description:
+  en: "Mobile-viewport fixes for the dsh web GUI: overlay drawer sidebar, code-block scrolling, dvh/safe-area composer, 44px touch targets"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - mobile
+  - responsive
+  - webui
+source:
+  repository: https://github.com/Odefined/dsh-mobile-webui
+  repositoryNodeId: R_kgDOT9KavQ
+  subpath: null
+  commit: d1274d5803f5ec794db07b7a371d478bb5d1af12
+creator:
+  github: KakuiZang
+package:
+  ecosystem: npm
+  name: dsh-mobile-webui
+  version: 0.3.0
+  integrity: sha512-sHMsjIG4tZOK23O44o/tfSHfPy49a6FgBdLerdjVKvF2p2ueh4+m56KTiFTA7fNRG0a8HAsQKnOgoZk7xkr/wg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:07.632Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
