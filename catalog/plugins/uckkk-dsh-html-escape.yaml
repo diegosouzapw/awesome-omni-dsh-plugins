@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-html-escape
+name: dsh-html-escape
+description:
+  en: bash dsh plugin add dsh-html-escape 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-html-escape" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - html
+  - escape
+source:
+  repository: https://github.com/uckkk/dsh-html-escape
+  repositoryNodeId: R_kgDOT6LSOQ
+  subpath: null
+  commit: b7de1c4fad68c949d1b0a2bf6603890380d98093
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-html-escape
+  version: 0.1.0
+  integrity: sha512-sDNNsAY/2d9Ylxz8ZiAkwH0bF4/l1LmAMyeoeVMvJqtRr05VRbypL8uN45QIy4adWsdBnNICumtFWyGPCVqDtg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:54.513Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
