@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hyperion2144-dsh-desktop-tauriapp
+name: dsh-desktop-tauriapp
+description:
+  en: bash cd desktop pnpm install pnpm tauri build macOS 出 .app/.dmg；Windows 出 .msi/.exe
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - desktop
+  - tauri
+  - skill
+  - china-mirror
+  - windows
+source:
+  repository: https://github.com/hyperion2144/dsh-desktop-tauriapp
+  repositoryNodeId: R_kgDOT8Xh9g
+  subpath: null
+  commit: d9afaaab62f765691515838bab378c5826e71b2c
+creator:
+  github: hyperion2144
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:25.999Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
