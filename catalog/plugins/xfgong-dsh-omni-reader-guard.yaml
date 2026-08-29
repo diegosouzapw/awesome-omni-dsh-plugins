@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xfgong-dsh-omni-reader-guard
+name: "@cueai/dsh-omni-reader-guard"
+description:
+  en: "DSH bundle: a tools/pre-execute guard that blocks SSRF (private/loopback/link-local/metadata) and enforces an allow-list or explicit consent for the Cue Omni Reader parse tool."
+  evidencePath: dsh/cue-omni-reader-guard/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - omni-reader
+  - guard
+  - ssrf
+source:
+  repository: https://github.com/sensedeal/cue-skills
+  repositoryNodeId: R_kgDOSigUuw
+  subpath: dsh/cue-omni-reader-guard
+  commit: cfecbf74d3d46320e4a997bc5c0397d1ca52c45d
+creator:
+  github: xfgong
+package:
+  ecosystem: npm
+  name: "@cueai/dsh-omni-reader-guard"
+  version: 0.1.1
+  integrity: sha512-c76932j1eahvp2lwkS6MVRlCqXQ9ipCumt+LZNmM/noSWcJN7ShYY7R+O4WuWqQL2s4T+AqX7zm4KmvaN+A5CA==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh/cue-omni-reader-guard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:39.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
