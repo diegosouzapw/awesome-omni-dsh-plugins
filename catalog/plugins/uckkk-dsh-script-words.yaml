@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-script-words
+name: dsh-script-words
+description:
+  en: bash dsh plugin add github:uckkk/dsh-script-words
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-script-words
+source:
+  repository: https://github.com/uckkk/dsh-script-words
+  repositoryNodeId: R_kgDOT-tHiw
+  subpath: null
+  commit: d1592ebb70d157d7c277ccf45787e87f17c20ade
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:56.678Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
