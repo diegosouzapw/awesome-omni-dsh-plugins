@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: pzc2004-dsh-frostfin
+name: dsh-frostfin
+description:
+  en: Kimi Code as the agent loop of DeepSeek Harness — ACP bridge loop plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - kimi
+  - kimi-code
+  - agent-loop
+  - acp
+  - agent-client-protocol
+  - moonshot
+  - dsh
+source:
+  repository: https://github.com/pzc2004/dsh-frostfin
+  repositoryNodeId: R_kgDOT6ELdA
+  subpath: null
+  commit: 1d86efcbc218698a58225e3381bc76b5b600baed
+creator:
+  github: pzc2004
+package:
+  ecosystem: npm
+  name: dsh-frostfin
+  version: 0.2.0
+  integrity: sha512-QOYxs9VdypqJn8T7aBkIlUnt23ETm1o53LVbSG4i1QRcFOv8oqWpfpiIXw+gUQ0U6xaVUTAm30JNdwvkqwIGcw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:47.097Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
