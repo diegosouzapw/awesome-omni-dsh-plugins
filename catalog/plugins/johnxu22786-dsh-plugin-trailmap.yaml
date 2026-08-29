@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: johnxu22786-dsh-plugin-trailmap
+name: dsh-plugin-trailmap
+description:
+  en: "A disk-persisted execution-planning plugin: it stores the plan, execution state, field notes, and debrief of multi-step tasks entirely in the workspace .trail/ directory. Interrupted sessions, context compression, or restarting in a new session won't lose your bearings — just read the state and continue after resuming."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - disk
+  - persisted
+  - execution
+  - planning
+  - stores
+  - plan
+  - state
+  - field
+  - notes
+  - debrief
+  - multi
+  - step
+  - tasks
+  - entirely
+  - workspace
+  - trail
+source:
+  repository: https://github.com/JohnXu22786/file-planning
+  repositoryNodeId: R_kgDOT59Qzw
+  subpath: null
+  commit: 50cf9109eac515b79c5e5661ffcb7f146f017ed4
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:09.604Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
