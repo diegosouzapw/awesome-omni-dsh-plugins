@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: curtainsmall-dsh-electro-lab
+name: dsh-electro-lab
+description:
+  en: "DSH plugin: electrical & electronics workbench"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - electrical
+  - electronics
+  - workbench
+  - dsh
+source:
+  repository: https://github.com/curtainsmall/dsh-electro-lab
+  repositoryNodeId: R_kgDOUAlJow
+  subpath: null
+  commit: 951fcc9bf90392fca9168a6eded0050003ea5cfd
+creator:
+  github: curtainsmall
+package:
+  ecosystem: npm
+  name: dsh-electro-lab
+  version: 0.2.0
+  integrity: sha512-95BbM11yt3arAsYQRYA4RE7k7rgssunxbCHsws+ouBZapzJJhj9EykYUiOmFcWKNjzJcnuUmpYG4KPGGM6/nrQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:22.823Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
