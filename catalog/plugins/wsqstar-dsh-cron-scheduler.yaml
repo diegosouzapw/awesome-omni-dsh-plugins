@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wsqstar-dsh-cron-scheduler
+name: "@mappedinfo/dsh-cron-scheduler"
+description:
+  en: 内容 路径 --- --- 规则定义 ~/.dsh/cron-scheduler/definitions/<id .json wrapper 脚本 ~/.dsh/cron-scheduler/wrappers/<id .sh 任务文本 ~/.dsh/cron-scheduler/tasks/<id .txt 运行记录 ~/.dsh/cron-scheduler/runs/<runId .json 运行日志 ~/.dsh/cron-scheduler/logs/<id .log 并发锁 ~/.dsh/cron-scheduler/locks/<id .lock
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cron
+  - scheduler
+  - automation
+source:
+  repository: https://github.com/Mappedinfo/dsh-cron-scheduler
+  repositoryNodeId: R_kgDOT8Nsrw
+  subpath: null
+  commit: 55708dc9ae098ad624395b46367953f30e1fdef3
+creator:
+  github: wsqstar
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:52.477Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
