@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: pensivefei-dsh-secure-audit
+name: dsh-secure-audit
+description:
+  en: "Read-only security & compliance toolkit for DeepSeek Harness: prompt-injection detection (rule engine with a pluggable model classifier), Chinese-PII and structured-JSON redaction, and a local configuration security audit that emits redacted, reproducible, self-checksummed risk reports."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - security
+  - audit
+  - prompt-injection
+  - jailbreak
+  - pii
+  - redaction
+  - compliance
+source:
+  repository: https://github.com/PensiveFei/dsh-secure-audit
+  repositoryNodeId: R_kgDOT9NcVw
+  subpath: null
+  commit: 77475eb8494cf1f6896077b93c1de30926393843
+creator:
+  github: PensiveFei
+package:
+  ecosystem: npm
+  name: dsh-secure-audit
+  version: 0.2.3
+  integrity: sha512-2emmLEhPGYiiTxd+IWBR8uwWcycHBTsqsP2jpWvpehop3wk8dbCayTFN1O6F3gIBAfjcvzfB4XdxUQyiqSG3ng==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:41.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 57
+provenance:
+  discussion: null
+  comment: null
