@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: riesbri-dshline
+name: "@dshline/dshline"
+description:
+  en: Terminal-native frontend for the DeepSeek Harness plugin ecosystem
+  evidencePath: packages/dshline/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - capabilities
+  - terminal-native
+  - tui
+  - terminal
+  - dsh
+source:
+  repository: https://github.com/riesbri/dshline
+  repositoryNodeId: R_kgDOT7HaMQ
+  subpath: packages/dshline
+  commit: 6ec3c7c8c7bc0bad2c3e10a6f0ff022500483751
+creator:
+  github: riesbri
+package:
+  ecosystem: npm
+  name: "@dshline/dshline"
+  version: 0.12.0
+  integrity: sha512-nGCEDlCGPeM7EOF90OFHWruiCz7SNf2KzkdGhDmu/wS/JHXr+Tk2fT+FD89ndR4a5GDhF97i8EL+pz76hPgkgQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dshline/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:09.271Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
