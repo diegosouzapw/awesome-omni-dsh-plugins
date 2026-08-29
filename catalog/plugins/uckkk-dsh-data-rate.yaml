@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-data-rate
+name: dsh-data-rate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-data-rate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-data-rate
+source:
+  repository: https://github.com/uckkk/dsh-data-rate
+  repositoryNodeId: R_kgDOT-tbtA
+  subpath: null
+  commit: 6ab2ee8d67a5c0a74a229a79a7bb5cbc58830e34
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:37.177Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
