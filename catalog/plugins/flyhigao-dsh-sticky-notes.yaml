@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: flyhigao-dsh-sticky-notes
+name: dsh-sticky-notes
+description:
+  en: "Workspace sticky notes for DSH: save multiple Markdown notes inside the current workspace."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - notes
+  - sticky-notes
+  - workspace
+source:
+  repository: https://github.com/flyhigao/dsh-sticky-notes
+  repositoryNodeId: R_kgDOT6TYHw
+  subpath: null
+  commit: 3ba72b9d5064df76a39afb30102769dc49b7acc7
+creator:
+  github: flyhigao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:02.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
