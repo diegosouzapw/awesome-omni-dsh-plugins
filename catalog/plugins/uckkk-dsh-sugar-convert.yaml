@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sugar-convert
+name: dsh-sugar-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sugar-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sugar-convert
+source:
+  repository: https://github.com/uckkk/dsh-sugar-convert
+  repositoryNodeId: R_kgDOT-s2Ng
+  subpath: null
+  commit: f1382889b6349b8ec01f4b09c29df5057c8d7306
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:14.091Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
