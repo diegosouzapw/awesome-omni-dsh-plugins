@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: hou-dl-dsh-token-heatmap
+name: dsh-token-heatmap
+description:
+  en: A local Token usage heatmap plugin for DSH Web — GitHub-style calendar views, built into the Settings pane.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - local
+  - token
+  - usage
+  - heatmap
+  - style
+  - calendar
+  - views
+  - built
+  - settings
+  - pane
+  - dsh
+source:
+  repository: https://github.com/Hou-DL/dsh-token-pulse
+  repositoryNodeId: R_kgDOUCGDUw
+  subpath: null
+  commit: 7bd8ac690eead05c70092d74de70dc5a0c2fdb45
+creator:
+  github: Hou-DL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:13.694Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
