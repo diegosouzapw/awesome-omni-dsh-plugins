@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: moononnn-dsh-assistant-manager
+name: dsh-assistant-manager
+description:
+  en: "- hanako → MOOD （Vibe / Sparks / Reflections / Will） - butter → PULSE （Vibe / Echo / Read / Will） - ming → 沉思 （Premise / Conduct / Reflection / Act） - kong → 没有意识块，直接回答"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - hanako
+  - mood
+  - vibe
+  - sparks
+  - reflections
+  - butter
+  - pulse
+  - echo
+  - read
+  - ming
+  - premise
+  - conduct
+  - reflection
+  - kong
+  - dsh
+source:
+  repository: https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory
+  repositoryNodeId: R_kgDOT5TKIA
+  subpath: null
+  commit: d998f89f88f0666f04c9c1cae1a4792179f38990
+creator:
+  github: moononnn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:50.559Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
