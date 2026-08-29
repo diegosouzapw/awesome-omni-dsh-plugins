@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: johnxu22786-dsh-patch-apply
+name: dsh-patch-apply
+description:
+  en: "dsh-patch-apply — apply structured unified diffs (git format) to the real filesystem inside DeepSeek Harness: multi-file/multi-hunk parsing, fuzzy hunk location with line-offset correction, all-or-nothing application with precise conflict reports, automatic reverse-patch undo, dry-run, and undo journaling. Zero runtime"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - patch
+  - diff
+  - unified-diff
+  - apply
+  - undo
+source:
+  repository: https://github.com/JohnXu22786/apply-patch
+  repositoryNodeId: R_kgDOT-RaGg
+  subpath: null
+  commit: 93fad3083651648a99f2ff8ed56e34ae842331cc
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-patch-apply
+  version: 1.0.0
+  integrity: sha512-5BiWAJslYon5kHJXUu0D21WXPvvoFu+AFxYaWxdqFUpd7mZ4JwwJnb4eM6kdVysV68ztIP7GB83eMpptjA38yg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:05.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
