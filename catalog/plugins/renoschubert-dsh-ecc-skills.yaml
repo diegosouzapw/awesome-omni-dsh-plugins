@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: renoschubert-dsh-ecc-skills
+name: dsh-ecc-skills
+description:
+  en: ECC (227k-star operator system) skills for DeepSeek Harness — progressive port of 274 curated single-file skills (agentic engineering, evaluation, testing, patterns, vertical domains, docs). Adapted from affaan-m/ECC (MIT)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - ecc
+  - agent
+source:
+  repository: https://github.com/gongyijie85/dsh-ecc
+  repositoryNodeId: R_kgDOT52aYQ
+  subpath: null
+  commit: 88e3bf156e358b5970c1e13c375279363a07356c
+creator:
+  github: renoschubert
+package:
+  ecosystem: npm
+  name: dsh-ecc-skills
+  version: 0.5.0
+  integrity: sha512-QumQiD8BQOF604WjG9Fn2cIlWjWn6NuQrIO6t6/QPuHON9NrTG4SLyauNu2r6XHcM9F47MoWcGesN+d4/9yupA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:15.552Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
