@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-okr-split
+name: dsh-okr-split
+description:
+  en: bash dsh plugin add github:uckkk/dsh-okr-split
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-okr-split
+source:
+  repository: https://github.com/uckkk/dsh-okr-split
+  repositoryNodeId: R_kgDOT-te1A
+  subpath: null
+  commit: b2330f4b2614e82d8f2a0c170185940248fd130f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:43.152Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
