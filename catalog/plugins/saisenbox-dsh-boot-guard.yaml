@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: saisenbox-dsh-boot-guard
+name: dsh-boot-guard
+description:
+  en: A loader-independent rescue console for DeepSeek Harness when a broken plugin prevents the Web UI from starting.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-recovery
+  - safe-mode
+  - boot-guard
+source:
+  repository: https://github.com/SaiSenBox/dsh-boot-guard
+  repositoryNodeId: R_kgDOT4lddA
+  subpath: null
+  commit: 50aa4dc4e6e23f8c1f39c7c16963a89d4af5a774
+creator:
+  github: SaiSenBox
+package:
+  ecosystem: npm
+  name: dsh-boot-guard
+  version: 1.1.2
+  integrity: sha512-qkwSOtzmRzX0JPbV7gePixKAmVQLcJFbXRV0jV8ZKG3VVvP8U9lVqzbsxYEbhiKM4moDKnmvYIZSAs8LU1d+RQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:43.897Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
