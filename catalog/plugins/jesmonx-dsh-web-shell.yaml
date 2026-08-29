@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: jesmonx-dsh-web-shell
+name: dsh-web-shell
+description:
+  en: "Collapsible web terminal for DeepSeek Harness: a right-docked xterm.js shell (bash/zsh) over a WebSocket PTY bridge."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - collapsible
+  - terminal
+  - right
+  - docked
+  - xterm
+  - shell
+  - bash
+  - over
+  - websocket
+  - bridge
+  - dsh
+source:
+  repository: https://github.com/JesmonX/dsh-web-shell
+  repositoryNodeId: R_kgDOT5BolA
+  subpath: null
+  commit: 97f9ce4dc3c4c836bab0b8c30afed10a1160b520
+creator:
+  github: JesmonX
+package:
+  ecosystem: npm
+  name: dsh-web-shell
+  version: 0.1.1
+  integrity: sha512-X+bvhuU+mCKX9hdv+JU7Vp04QB4sFeJUGgtRwk5g1j7AypZMrx3CWqqNu4g7JmbfoRyJPF93IhxG0KtnoUje3g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:07.710Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
