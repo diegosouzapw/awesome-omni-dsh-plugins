@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-play-revenue
+name: dsh-play-revenue
+description:
+  en: bash dsh plugin add github:uckkk/dsh-play-revenue
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-play-revenue
+source:
+  repository: https://github.com/uckkk/dsh-play-revenue
+  repositoryNodeId: R_kgDOT-tYrA
+  subpath: null
+  commit: 2258f45c1559b23027ac69a497a25a54d303ee99
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:50.333Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
