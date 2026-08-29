@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: thomasvvugt-dsh-wide-stats-footer
+name: dsh-wide-stats-footer
+description:
+  en: "Wide stats footer: removes the max-width clamp on the composer stats line (turns/steps LLM time TTFT cache hit token counts) so it spans the full composer width, centered"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - web
+  - css
+  - footer
+  - stats
+source:
+  repository: https://github.com/thomasvvugt/dsh-wide-stats-footer
+  repositoryNodeId: R_kgDOUDESSw
+  subpath: null
+  commit: 9118afeb436f234a65286b828e6446c9b43859ed
+creator:
+  github: thomasvvugt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:51.270Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
