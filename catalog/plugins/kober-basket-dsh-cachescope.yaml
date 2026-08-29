@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kober-basket-dsh-cachescope
+name: "@kober-basket/dsh-cachescope"
+description:
+  en: Prompt-cache observability and logical-input diagnostics for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - prompt-cache
+  - prefill
+  - observability
+  - llm
+source:
+  repository: https://github.com/kober-basket/dsh-cachescope
+  repositoryNodeId: R_kgDOUEupCw
+  subpath: null
+  commit: 211f97b9dc5dddd5b6d0e4392b3baa2d511ca1e4
+creator:
+  github: kober-basket
+package:
+  ecosystem: npm
+  name: "@kober-basket/dsh-cachescope"
+  version: 0.1.1
+  integrity: sha512-+GmYu6W1IIBTt2tmDWqmMq4mrOhie/DWkufU3c84JSGsYCoOEWA3frtgcMMayE22XGoCY/E5tqqaXM8fn9/tRw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:24.696Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
