@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fashionmascherine-svg-dsh-polymarket-knowhow
+name: dsh-polymarket-knowhow
+description:
+  en: "DeepSeek Harness plugin: complete Polymarket API coverage — market data tools, authenticated trading tools, WebSocket stream service, and an embedded Polymarket knowhow skill"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - polymarket
+  - prediction-markets
+  - clob
+  - gamma-api
+  - trading
+  - cordis
+  - agent-tools
+  - dsh
+source:
+  repository: https://github.com/fashionmascherine-svg/dsh-polymarket-knowhow
+  repositoryNodeId: R_kgDOUAz0zg
+  subpath: null
+  commit: b7f8d8ee78c6a5a02682e4775c2c997b38b90fc4
+creator:
+  github: fashionmascherine-svg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:00.422Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
