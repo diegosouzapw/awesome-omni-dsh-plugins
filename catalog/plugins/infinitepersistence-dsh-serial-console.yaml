@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: infinitepersistence-dsh-serial-console
+name: "@infinitepersistence/dsh-serial-console"
+description:
+  en: Auditable serial console for DeepSeek Harness with shared user and AI access
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - serial
+  - uart
+  - xterm
+  - embedded
+source:
+  repository: https://github.com/InfinitePersistence/dsh-serial-console
+  repositoryNodeId: R_kgDOT7GD5A
+  subpath: null
+  commit: 17d3546b28c83b139823c808b7c0844b1f43ad0d
+creator:
+  github: InfinitePersistence
+package:
+  ecosystem: npm
+  name: "@infinitepersistence/dsh-serial-console"
+  version: 0.1.0-rc.4
+  integrity: sha512-C4Nbg65LUnzE4VRf8EL/+UFP3Gu8RcEBq/xhI2i1W9Z/0iNJKERhNP8G3hLqY7WtM90fgI3u7ad/rY+sOpP8aQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:52.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
