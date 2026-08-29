@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: luzhengyangtx-dsh-telegram-duty
+name: "@luzhengyangtx/dsh-telegram-duty"
+description:
+  en: "Telegram duty gateway for DeepSeek Harness: long-poll Telegram into a dedicated duty session, global approval forwarding while on duty, and a local/duty watch toggle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - telegram
+  - gateway
+  - bot
+  - agent
+  - approval
+source:
+  repository: https://github.com/luzhengyangtx/dsh-telegram-duty
+  repositoryNodeId: R_kgDOT4ronQ
+  subpath: null
+  commit: 30685d213a3e34b4a8000f36a7d90a3bf8318f37
+creator:
+  github: luzhengyangtx
+package:
+  ecosystem: npm
+  name: "@luzhengyangtx/dsh-telegram-duty"
+  version: 0.4.0
+  integrity: sha512-7fxHBBYKHG79RFEc8DSZfJpWfq/Oo38xfwYQ0FT0dBiXPqbYPx5z1JL/EJcaErfoFl8vjDOjfeoRSnG3hd3IiQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.274Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
