@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: r-lei2536-dsh-more-agent-presets
+name: dsh-more-agent-presets
+description:
+  en: Multiple selectable Agent Presets for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - coding-agent
+  - qwencode
+  - iflow
+source:
+  repository: https://github.com/R-LEI2536/dsh-more-agent-presets
+  repositoryNodeId: R_kgDOT76zwA
+  subpath: null
+  commit: 84b805e411d4d2d7bc21539d8b8ce437428bd53e
+creator:
+  github: R-LEI2536
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:48.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
