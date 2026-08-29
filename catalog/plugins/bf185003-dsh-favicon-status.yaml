@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: bf185003-dsh-favicon-status
+name: dsh-favicon-status
+description:
+  en: "Browser tab status indicator: paints the document favicon from the sessions list projection (green done / amber waiting / blue running, spinning while work executes) so a backgrounded dsh web tab still shows task state"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - browser
+  - status
+  - indicator
+  - paints
+  - document
+  - favicon
+  - sessions
+  - list
+  - projection
+  - green
+  - done
+  - amber
+  - waiting
+  - blue
+  - running
+  - spinning
+source:
+  repository: https://github.com/bf185003/dsh-favicon-status
+  repositoryNodeId: R_kgDOT_W52w
+  subpath: null
+  commit: ca73548d7c93bd84e1da06510200972af9c6b1b0
+creator:
+  github: bf185003
+package:
+  ecosystem: npm
+  name: dsh-favicon-status
+  version: 0.1.0-rc.5
+  integrity: sha512-oHWyCVp3hOCOfs6sz5hjH59FbK/EZdFnEVrD2uV7zpDv/AVtKUTduQstk7nJLrzjnXE0ebl4fOEmktgXB1+5eg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:24.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
