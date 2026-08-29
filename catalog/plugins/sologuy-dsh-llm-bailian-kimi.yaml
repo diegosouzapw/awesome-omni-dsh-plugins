@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: sologuy-dsh-llm-bailian-kimi
+name: dsh-llm-bailian-kimi
+description:
+  en: sh dsh plugin --profile web add github:sologuy/dsh-llm-bailian-kimi
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - sologuy
+  - bailian
+  - kimi
+  - dsh
+source:
+  repository: https://github.com/sologuy/dsh-llm-bailian-kimi
+  repositoryNodeId: R_kgDOT9O2TA
+  subpath: null
+  commit: fb8540e6afd00dbda148f7c1131a04ea28f3c3d7
+creator:
+  github: sologuy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:58.037Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
