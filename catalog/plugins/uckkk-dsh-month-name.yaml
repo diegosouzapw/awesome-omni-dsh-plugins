@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-month-name
+name: dsh-month-name
+description:
+  en: bash dsh plugin add github:uckkk/dsh-month-name
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-month-name
+source:
+  repository: https://github.com/uckkk/dsh-month-name
+  repositoryNodeId: R_kgDOT9uVCQ
+  subpath: null
+  commit: e02e30d9b29581533ed5276938d88279a6333e7b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:33.893Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
