@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: tttnny-dsh-chat-tidy
+name: "@lynn123411/dsh-chat-tidy"
+description:
+  en: Codex-aligned chat typography and tool-call title translation for the DeepSeek Harness Web UI
+  evidencePath: plugins/dsh-chat-tidy/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chat
+  - markdown
+  - typography
+  - translation
+  - i18n
+  - web-ui
+source:
+  repository: https://github.com/tttnny/my-dsh
+  repositoryNodeId: R_kgDOT91T7A
+  subpath: plugins/dsh-chat-tidy
+  commit: 933898d6021af5475fba82be2ae8bff95462cdbe
+creator:
+  github: tttnny
+package:
+  ecosystem: npm
+  name: "@lynn123411/dsh-chat-tidy"
+  version: 1.0.2
+  integrity: sha512-Tjce/MszCIhn+6IkXnFBrN+gTQyrCk0oVwibshbLN4Fds4Tf2BAMTgxrfvPww7yZtGoYc2tWNq5YsgSCK+2pbw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-chat-tidy/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:53.280Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
