@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: txlznbzsdj-collab-dsh-deepseek-pet
+name: dsh-deepseek-pet
+description:
+  en: ┌─ host 侧 (index.js) ─────────────────────────────┐ │ pet say 工具 (agent.ctx.tools.register) │ │ └→ broadcast({type:'say', text, mood}) │ │ ctx.on('session/event') turn/start end（根会话） │ │ └→ broadcast({type:'turn', phase}) │ │ webServer exact 路由 /plugins/pet-events (SSE) │ └────────────────────────┬─────────────────────
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - host
+  - index
+  - agent
+  - tools
+  - register
+  - broadcast
+  - type
+  - text
+  - mood
+  - session
+  - event
+  - turn
+  - start
+  - phase
+  - webserver
+  - exact
+source:
+  repository: https://github.com/txlznbzsdj-collab/dsh-deepseek-pet
+  repositoryNodeId: R_kgDOT5VsRw
+  subpath: null
+  commit: 62d041fc10272ed96c10ffb305074e91c9c7736a
+creator:
+  github: txlznbzsdj-collab
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:17.860Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
