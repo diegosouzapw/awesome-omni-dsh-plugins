@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: nono-neko-dsh-browser
+name: "@nono-neko/dsh-browser"
+description:
+  en: "Embedded browser for the DSH web and desktop GUI: a sidebar entry plus a center-column panel with multi-tab iframe browsing (address bar, back/forward, per-workspace persistence), a workspace file viewer, agent tools (browser open, browser read), a plugin settings card, and a system-prompt announcement. Hot-pluggable a"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - embedded
+  - browser
+  - desktop
+  - sidebar
+  - entry
+  - plus
+  - center
+  - column
+  - panel
+  - multi
+  - iframe
+  - browsing
+  - address
+  - back
+  - forward
+  - workspace
+source:
+  repository: https://github.com/Nono-neko/dsh-browser
+  repositoryNodeId: R_kgDOT_3cdQ
+  subpath: null
+  commit: ee2805c26d30769e7adc641d1c666cbfc4110a36
+creator:
+  github: Nono-neko
+package:
+  ecosystem: npm
+  name: "@nono-neko/dsh-browser"
+  version: 0.1.1
+  integrity: sha512-qvxruh4KITAXjGfSIywOdijXsnZYoYU95Rm7G3uvS/aI0Lxo7Ou9sMNxESD8DFdbKqd0YCrAz1mqR1wtnxeI6w==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:43.910Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
