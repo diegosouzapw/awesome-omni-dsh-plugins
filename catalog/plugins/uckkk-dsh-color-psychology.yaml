@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-color-psychology
+name: dsh-color-psychology
+description:
+  en: bash dsh plugin add dsh-color-psychology 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-color-psychology" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - color
+  - psychology
+  - brand
+source:
+  repository: https://github.com/uckkk/dsh-color-psychology
+  repositoryNodeId: R_kgDOT6i_iQ
+  subpath: null
+  commit: 41db45e96a8f646259a385059fa6b2890a56b4a7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:29.175Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
