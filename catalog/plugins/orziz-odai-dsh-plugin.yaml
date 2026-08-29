@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: orziz-odai-dsh-plugin
+name: odai-dsh-plugin
+description:
+  en: Profile-wide odai governance and routing bundle for DeepSeek Harness.
+  evidencePath: dsh/plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - wide
+  - odai
+  - governance
+  - routing
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/orziz/odai
+  repositoryNodeId: R_kgDORq5Qhg
+  subpath: dsh/plugin
+  commit: 4a36ebf3c0a78510517bff6c14573f6591b0148f
+creator:
+  github: orziz
+package:
+  ecosystem: npm
+  name: odai-dsh-plugin
+  version: 0.2.9
+  integrity: sha512-143gpanu1HSiterfKtkf7ozXwrMAZr/IErgZFns16VaGws+9ayHVsVBpmKFrs+6IGFuw9eCKO+mx+sDjEEg8IQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:14.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
