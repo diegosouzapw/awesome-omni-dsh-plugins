@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: haoyu-qi-dsh-zentao
+name: "@deepseek-ai/dsh-zentao"
+description:
+  en: Installable DSH Web customization and personal ZenTao floating work-center bundle
+  evidencePath: packages/bundle/zentao/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - installable
+  - customization
+  - personal
+  - zentao
+  - floating
+  - work
+  - center
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/haoyu-qi/dsh-zentao
+  repositoryNodeId: R_kgDOT49SZw
+  subpath: packages/bundle/zentao
+  commit: 4927171172a32863a986be654b23118ca76c908d
+creator:
+  github: haoyu-qi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/zentao/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:56.290Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
