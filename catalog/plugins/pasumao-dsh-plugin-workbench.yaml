@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: pasumao-dsh-plugin-workbench
+name: dsh-plugin-workbench
+description:
+  en: VS Code-style workspace file explorer + editable preview for the dsh web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - file-explorer
+  - vscode
+  - workbench
+source:
+  repository: https://github.com/Pasumao/dsh-plugin-workbench
+  repositoryNodeId: R_kgDOT4cUgA
+  subpath: null
+  commit: 8777a3b5022c06eda77c4da887ae4ad1bc09f184
+creator:
+  github: Pasumao
+package:
+  ecosystem: npm
+  name: dsh-plugin-workbench
+  version: 0.0.13
+  integrity: sha512-G0LlQOl01Wj3JDJkuYPrhHIEB9LJ6Bgo5xtYxQibnhp2IKgp9iIbx8eYJPEXNm57Y5F8DnE6lA99XDoyaOI4Og==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:49.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
