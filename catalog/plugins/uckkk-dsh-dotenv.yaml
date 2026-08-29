@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-dotenv
+name: dsh-dotenv
+description:
+  en: bash dsh plugin add dsh-dotenv 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-dotenv" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dotenv
+  - env
+  - config
+source:
+  repository: https://github.com/uckkk/dsh-dotenv
+  repositoryNodeId: R_kgDOT9s_rQ
+  subpath: null
+  commit: ebad1164c32e3f1664ce1257d6105cd8a50cdcc4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:32.489Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
