@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ruiming-cn-dsh-better-at
+name: dsh-better-at
+description:
+  en: Fast @ file/session reference caching for the DeepSeek Harness Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - at-menu
+  - file-reference
+  - session-reference
+  - performance
+source:
+  repository: https://github.com/Ruiming-cn/dsh-better-at
+  repositoryNodeId: R_kgDOT_5qXQ
+  subpath: null
+  commit: 046bc17f42e3dfbd30da21bec2af2ce01034d59b
+creator:
+  github: Ruiming-cn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:54.812Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
