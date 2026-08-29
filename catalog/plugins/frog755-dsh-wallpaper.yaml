@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: frog755-dsh-wallpaper
+name: "@frog755/dsh-wallpaper"
+description:
+  en: Persistent image and locally compressed MP4 wallpaper for DeepSeek Harness with opacity, blur, and a fixed web origin.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - wallpaper
+  - background
+  - web-ui
+source:
+  repository: https://github.com/Frog755/dsh-wallpaper
+  repositoryNodeId: R_kgDOT5MLIg
+  subpath: null
+  commit: 1044d3b74ddc2b324dfad048a469bee404f06c83
+creator:
+  github: Frog755
+package:
+  ecosystem: npm
+  name: "@frog755/dsh-wallpaper"
+  version: 0.4.0
+  integrity: sha512-2wyrt8ATiaYgn5OsiV48IPCivsb7+69TS3Vdpb5gbo+lbn4aOxmv/i2ZVPuweaSvdKurCSCp8jPXprE2ojQkow==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:57.561Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
