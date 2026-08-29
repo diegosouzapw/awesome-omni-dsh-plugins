@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: huaxiren6-dsh-email-reader
+name: dsh-email-reader
+description:
+  en: "OAuth2-capable IMAP email reader for DeepSeek Harness: list/read/search mail for accounts where password auth is disabled (Outlook post-2024), with automatic token refresh, app-password Gmail via optional proxy, and ol email tools that coexist with the market dsh-email plugin."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - email
+  - imap
+  - oauth2
+  - xoauth2
+  - outlook
+  - gmail
+  - otp
+source:
+  repository: https://github.com/huaxiren6/DSH-EmailReader
+  repositoryNodeId: R_kgDOT-8d-Q
+  subpath: null
+  commit: da5fbd1c971e7ab8308bfd93aa1aae4db3a390c7
+creator:
+  github: huaxiren6
+package:
+  ecosystem: npm
+  name: dsh-email-reader
+  version: 0.1.2
+  integrity: sha512-FhCv9W33lcAec6Hs0pxa+Cqu0ETUzXI0pN9/A+IFiUcJRAWdHsOKv3KwT/CHhnxC0G03/BLcRokPrzy8ICqOHw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:22.604Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
