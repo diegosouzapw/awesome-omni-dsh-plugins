@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-dsh-im-qq
+name: dsh-im-qq
+description:
+  en: bash export DSH QQ SECRET='你的AppSecret'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - im
+  - qq
+  - qqbot
+  - harness-desktop
+  - cua
+  - agent
+source:
+  repository: https://github.com/988hj7tczd-oss/dsh-im-qq
+  repositoryNodeId: R_kgDOT57KCA
+  subpath: null
+  commit: d1ae12486264359f9c516bb2cf0ed5e75e811d37
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: npm
+  name: dsh-im-qq
+  version: 0.1.1
+  integrity: sha512-fZMvPRzmerryjAqi+98vWRocUIc+jknkznbSbPPjt3iMINkzzA6npct2FBjJhQYrLSlAVBuSccTCyAVz0cJvPw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:30.648Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
