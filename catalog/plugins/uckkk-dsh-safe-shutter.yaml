@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-safe-shutter
+name: dsh-safe-shutter
+description:
+  en: bash dsh plugin add github:uckkk/dsh-safe-shutter
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-safe-shutter
+source:
+  repository: https://github.com/uckkk/dsh-safe-shutter
+  repositoryNodeId: R_kgDOT-Dtog
+  subpath: null
+  commit: 0a33bfa5972ebbe5edf7ecffb94f0fa684313646
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:54.207Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
