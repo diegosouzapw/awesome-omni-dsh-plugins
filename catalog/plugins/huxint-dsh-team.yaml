@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: huxint-dsh-team
+name: dsh-team
+description:
+  en: "Agent teams for DeepSeek Harness: named long-lived teammates over ctx.subagents, a shared task list, a member-to-member mailbox, virtual workspaces, and a live team room in the conversation view"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - agent
+  - teams
+  - named
+  - long
+  - lived
+  - teammates
+  - over
+  - subagents
+  - shared
+  - task
+  - list
+  - member
+  - mailbox
+  - virtual
+  - workspaces
+  - live
+source:
+  repository: https://github.com/huxint/dsh-team
+  repositoryNodeId: R_kgDOT6G57w
+  subpath: null
+  commit: 8deb66dbf2262a4360455cc49a7bc35035ebdff2
+creator:
+  github: huxint
+package:
+  ecosystem: npm
+  name: dsh-team
+  version: 0.2.7
+  integrity: sha512-WsEXCJxSU9g2lWDf512MEG6UYkOZGJpF660WIig7HaB1ZWzZSp8AZbsfvaiATE0L8YMkMSekuZAAzIl0XddfjQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:55.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
