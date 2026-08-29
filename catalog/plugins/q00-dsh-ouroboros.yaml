@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: q00-dsh-ouroboros
+name: dsh-ouroboros
+description:
+  en: Mount Ouroboros (spec-first AI dev workflow engine) into DeepSeek Harness as native tools — type "ooo interview" or "ooo auto" in chat.
+  evidencePath: integrations/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - ouroboros
+  - mcp
+  - dsh
+source:
+  repository: https://github.com/Q00/ouroboros
+  repositoryNodeId: R_kgDOQ5X3RQ
+  subpath: integrations/dsh-plugin
+  commit: c80144781ac3d87fe7a7d40ab93b14ddf15a191c
+creator:
+  github: Q00
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:26.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
