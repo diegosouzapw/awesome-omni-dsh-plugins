@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tttnny-dsh-workspace-tree
+name: "@lynn123411/dsh-workspace-tree"
+description:
+  en: bash dsh plugin --profile web add @lynn123411/dsh-workspace-tree
+  evidencePath: plugins/dsh-workspace-tree/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - workspace
+  - tree
+  - sidebar
+source:
+  repository: https://github.com/tttnny/my-dsh
+  repositoryNodeId: R_kgDOT91T7A
+  subpath: plugins/dsh-workspace-tree
+  commit: 933898d6021af5475fba82be2ae8bff95462cdbe
+creator:
+  github: tttnny
+package:
+  ecosystem: npm
+  name: "@lynn123411/dsh-workspace-tree"
+  version: 1.3.1
+  integrity: sha512-18Rtvcz6vP3XvfMwmjemAGXsOjr4BTzbGuTXTs1v7j9h0ryhfXuW8F47c2nTTTgLJ4CPG6fYz9M0pDGl1MtTDw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-workspace-tree/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:53.280Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
