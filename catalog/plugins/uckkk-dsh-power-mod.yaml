@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-power-mod
+name: dsh-power-mod
+description:
+  en: bash dsh plugin add github:uckkk/dsh-power-mod
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-power-mod
+source:
+  repository: https://github.com/uckkk/dsh-power-mod
+  repositoryNodeId: R_kgDOT9vBhA
+  subpath: null
+  commit: 43d3d564c1ddf6cf6c660eec0b3692905d8a11c0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:51.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
