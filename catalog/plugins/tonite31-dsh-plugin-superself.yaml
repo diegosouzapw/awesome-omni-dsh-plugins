@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tonite31-dsh-plugin-superself
+name: dsh-plugin-superself
+description:
+  en: "DeepSeek Harness plugin: Superself's self CLI as model-facing tools plus a /self command — cross-session, cross-project project state for agents."
+  evidencePath: apps/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - cordis
+  - superself
+  - agents
+  - project-state
+  - workflow
+source:
+  repository: https://github.com/fxylabs/superself
+  repositoryNodeId: R_kgDOThIzlg
+  subpath: apps/dsh-plugin
+  commit: b94f3615e1f409339a6b3a728754bf3bd59d52f9
+creator:
+  github: tonite31
+package:
+  ecosystem: npm
+  name: dsh-plugin-superself
+  version: 0.1.0
+  integrity: sha512-wumrLv2GVHzJs54tKk7oUfAG5d90I9guCb+438wzbHECono7dekSvHKWiXwqp7ocyFI1qWGKyXQevvmblIU2BQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: apps/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:00:01.007Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
