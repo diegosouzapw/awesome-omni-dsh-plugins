@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-minify
+name: dsh-minify
+description:
+  en: bash dsh plugin add dsh-minify 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-minify" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - minify
+  - uglify
+  - compress
+source:
+  repository: https://github.com/uckkk/dsh-minify
+  repositoryNodeId: R_kgDOT9sA9w
+  subpath: null
+  commit: 7aff6e6646be4034cf717b989bc5ed4d66c4d741
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:30.543Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
