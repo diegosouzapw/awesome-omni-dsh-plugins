@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: jarvisluk-dsh-projectless-session
+name: dsh-projectless-session
+description:
+  en: DeepSeek Harness Web plugin for date-organized projectless sessions under Documents/DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - projectless-session
+source:
+  repository: https://github.com/jarvisluk/dsh-projectless-session
+  repositoryNodeId: R_kgDOT8H6vw
+  subpath: null
+  commit: 8d1798dd213ce5aec193b76a316a2d3c08df2a73
+creator:
+  github: jarvisluk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:46.226Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
