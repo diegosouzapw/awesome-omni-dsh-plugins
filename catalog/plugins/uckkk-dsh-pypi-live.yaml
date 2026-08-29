@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pypi-live
+name: dsh-pypi-live
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pypi-live
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pypi-live
+source:
+  repository: https://github.com/uckkk/dsh-pypi-live
+  repositoryNodeId: R_kgDOT-tEVg
+  subpath: null
+  commit: 55efb6b91859d136b42fb9b62810378768ac0cf6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:55.631Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
