@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: drscrewdriver-dsh-switch-search
+name: dsh-switch-search
+description:
+  en: <p align="center" <strong Session content search for the DeepSeek Harness sidebar — one-click toggle between title and content, with user / reply / tool filters</strong </p <p align="center" <a href="README.md" 中文</a · <strong English</strong </p <p align="center" <a href="LICENSE" <img alt="MIT License" src="https://i
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - align
+  - center
+  - strong
+  - session
+  - content
+  - search
+  - sidebar
+  - click
+  - toggle
+  - between
+  - title
+  - user
+  - reply
+  - tool
+  - filters
+  - href
+source:
+  repository: https://github.com/drscrewdriver/dsh-session-search-toggle
+  repositoryNodeId: R_kgDOT-BJSA
+  subpath: null
+  commit: 5b2b2d9f00019f8bda8fbce852a2365dfb44c640
+creator:
+  github: drscrewdriver
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:23.249Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
