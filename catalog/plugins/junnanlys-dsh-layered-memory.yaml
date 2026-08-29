@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: junnanlys-dsh-layered-memory
+name: dsh-layered-memory
+description:
+  en: "A layered distillation memory plugin for DeepSeek Harness: conversations are processed in the background through L0 capture → L1 atomic memories → L2 scene consolidation → L3 persona distillation, and relevant memories are automatically injected into context before every model step — neither the user nor the model need"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - agent-memory
+  - cordis-plugin
+source:
+  repository: https://github.com/JunNanLYS/dsh-layered-memory
+  repositoryNodeId: R_kgDOT521jg
+  subpath: null
+  commit: 0b2ffc6a08f1380c6771d0cb0430b6d2c5736bac
+creator:
+  github: JunNanLYS
+package:
+  ecosystem: npm
+  name: dsh-layered-memory
+  version: 0.8.8
+  integrity: sha512-hDJh0beghYEwU+nmMGQ9cVHIFRYq+OirjhKRe00erybC3e8u0ZFFFz1Rh3THsBmnM1z1u4IUy6KVn62le9wnLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:29.149Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
