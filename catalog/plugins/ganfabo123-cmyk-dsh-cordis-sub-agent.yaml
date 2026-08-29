@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ganfabo123-cmyk-dsh-cordis-sub-agent
+name: dsh-cordis-sub-agent
+description:
+  en: Requirement-driven multi-agent plugin development and real-host acceptance for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - plugin-development
+  - subagent
+  - acceptance-testing
+  - dsh
+source:
+  repository: https://github.com/ganfabo123-cmyk/dsh-cordis-sub-agent
+  repositoryNodeId: R_kgDOUEb_sw
+  subpath: null
+  commit: c38455e46eb3c424b6c43c419949ce87f8789baf
+creator:
+  github: ganfabo123-cmyk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:00:02.697Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
