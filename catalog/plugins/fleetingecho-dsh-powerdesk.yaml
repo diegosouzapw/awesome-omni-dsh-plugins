@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fleetingecho-dsh-powerdesk
+name: dsh-powerdesk
+description:
+  en: "DSH web plugin: a GPU-accelerated terminal (restty renderer: WebGPU/WebGL2 + WASM VT) backed by a Rust PTY (napi-rs + portable-pty), plus a sandboxed browser, surfaced as tabs inside the plugin's OWN sidebar shell (the layout + wrapper copied from dsh-better-sidebar). Host half exposes a restty-native wire-protocol Web"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - accelerated
+  - terminal
+  - restty
+  - renderer
+  - webgpu
+  - webgl2
+  - wasm
+  - backed
+  - rust
+  - napi
+  - portable
+  - plus
+  - sandboxed
+  - browser
+  - surfaced
+  - tabs
+source:
+  repository: https://github.com/FleetingEcho/dsh-powerdesk
+  repositoryNodeId: R_kgDOT6y9Kg
+  subpath: null
+  commit: d109642ef84ed0e9801ec8a2b74041350fcc75aa
+creator:
+  github: FleetingEcho
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:48.718Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
