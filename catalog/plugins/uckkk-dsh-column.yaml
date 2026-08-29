@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-column
+name: dsh-column
+description:
+  en: bash dsh plugin add github:uckkk/dsh-column
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-column
+source:
+  repository: https://github.com/uckkk/dsh-column
+  repositoryNodeId: R_kgDOT9uZ3g
+  subpath: null
+  commit: ad863ee53b8c64d3ed5939c3434642ee698ed5a1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:29.844Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
