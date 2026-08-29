@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-chad
+name: dsh-chad
+description:
+  en: bash dsh plugin add github:uckkk/dsh-chad
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-chad
+source:
+  repository: https://github.com/uckkk/dsh-chad
+  repositoryNodeId: R_kgDOT-Dpxw
+  subpath: null
+  commit: 439a132f0a9184a979b3a2fddf15008a789b3cfd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:22.440Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
