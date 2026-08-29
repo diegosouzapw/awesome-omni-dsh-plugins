@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lesliewylie-dsh-ops-kit
+name: dsh-ops-kit
+description:
+  en: A reusable DeepSeek Harness bundle for evidence-driven memory, orchestration, benchmark operations, repository audits, and plugin release workflows.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - evidence-based
+  - agent-loop
+  - orchestration
+  - memory
+  - benchmark
+source:
+  repository: https://github.com/LeslieWylie/dsh-ops-kit
+  repositoryNodeId: R_kgDOT4PCrw
+  subpath: null
+  commit: d4db8b308fb507ce0c176c551b29c917d68ce751
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:37.289Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
