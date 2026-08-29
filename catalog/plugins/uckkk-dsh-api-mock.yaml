@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-api-mock
+name: dsh-api-mock
+description:
+  en: bash dsh plugin add dsh-api-mock
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - openapi
+  - mock
+  - mock-server
+source:
+  repository: https://github.com/uckkk/dsh-api-mock
+  repositoryNodeId: R_kgDOT5815Q
+  subpath: null
+  commit: 5040c93f84965d56f45ba00c8189dbb657bd4a05
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-api-mock
+  version: 0.1.0
+  integrity: sha512-YGE6vEa1MzXrecpbd2iCdQyGNZy8pmed0NszxACgO5qptRvHITUAXPC/5L74hnmP7uPvRsmc7HUw2atBBPyWzA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:26.506Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
