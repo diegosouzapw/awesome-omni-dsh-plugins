@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-round
+name: dsh-round
+description:
+  en: bash dsh plugin add github:uckkk/dsh-round
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-round
+source:
+  repository: https://github.com/uckkk/dsh-round
+  repositoryNodeId: R_kgDOT9uDXw
+  subpath: null
+  commit: 6f8d3af4ad1ad14e8d6e436ca77ecae46e4822b7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:53.127Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
