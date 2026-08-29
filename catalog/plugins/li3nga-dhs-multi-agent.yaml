@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: li3nga-dhs-multi-agent
+name: dhs-multi-agent
+description:
+  en: Native DeepSeek Harness multi-agent Cordis plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - native
+  - multi
+  - agent
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/Li3NGa/DHS-multi-agent-plugin
+  repositoryNodeId: R_kgDOT5PI8w
+  subpath: null
+  commit: 3deec06331e3ac74b59e639f8872cdf0a09190ff
+creator:
+  github: Li3NGa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:48.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
