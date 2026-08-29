@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-copper
+name: dsh-copper
+description:
+  en: bash dsh plugin add github:uckkk/dsh-copper
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-copper
+source:
+  repository: https://github.com/uckkk/dsh-copper
+  repositoryNodeId: R_kgDOT_D5Lg
+  subpath: null
+  commit: be71d46ce1c987149691fd78de10bb967017b85e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:13.056Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
