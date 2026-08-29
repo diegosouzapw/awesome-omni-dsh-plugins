@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kyo615-dsh-browser-control
+name: dsh-browser-control
+description:
+  en: "A dynamic Cordis plugin for DeepSeek Harness: let an AI control a real, visible Chrome browser via Playwright MCP, with a live view of every action inside the GUI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - playwright
+  - mcp
+  - browser
+  - chrome
+  - ai-agent
+source:
+  repository: https://github.com/kyo615/dsh-browser-control
+  repositoryNodeId: R_kgDOT5AQuQ
+  subpath: null
+  commit: 9c10f2c42999947a2c8009443994f6297d472b8c
+creator:
+  github: kyo615
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:43.025Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
