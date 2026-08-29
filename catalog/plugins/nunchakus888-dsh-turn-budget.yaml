@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: nunchakus888-dsh-turn-budget
+name: dsh-turn-budget
+description:
+  en: Fail-closed per-turn step, tool-call, and provider-token budgets for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - agent-governance
+  - resource-budget
+  - ai-agent
+  - dsh
+source:
+  repository: https://github.com/Nunchakus888/dsh-turn-budget
+  repositoryNodeId: R_kgDOT39gfw
+  subpath: null
+  commit: 9583ad34682455a0d9be3bc35ec809908e21d1d2
+creator:
+  github: Nunchakus888
+package:
+  ecosystem: npm
+  name: dsh-turn-budget
+  version: 0.1.0
+  integrity: sha512-H7X+ywcpumBJU1WcHN82zlA7MM0w3TjJTofwxb9OKKbkLrPzWEZD+F58jhKe72aJ7NO9V7QLOjY8B36nSrzfeQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:07.105Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
