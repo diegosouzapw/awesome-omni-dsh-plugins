@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: rebron1900-dsh-mnemosyne
+name: dsh-mnemosyne
+description:
+  en: "Mnemosyne memory for DeepSeek Harness: remember / recall / forget / stats / sleep tools, embedded skill, auto-setup, optional auto-sync/prefetch, a Settings panel, and a read-only memory dashboard. Data lives under ~/.dsh/mnemosyne."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mnemosyne
+  - memory
+  - ai-memory
+source:
+  repository: https://github.com/rebron1900/dsh-mnemosyne
+  repositoryNodeId: R_kgDOUAkovQ
+  subpath: null
+  commit: e755adeb6d97e2ef85a40ba512fa4b8da77a49d4
+creator:
+  github: rebron1900
+package:
+  ecosystem: npm
+  name: dsh-mnemosyne
+  version: 0.5.0
+  integrity: sha512-qX5F3jm6244/iVtPxdO2F+LsKPV2OfzC399OFGgB4t76wxkc5SLRHpkvHygXW36sBnwyHJSCGhFmp5TMMeOMxw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:51.591Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
