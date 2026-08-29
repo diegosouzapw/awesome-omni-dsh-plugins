@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: oksure-dsh-client-ui-mobile-comfort
+name: "@oksure/dsh-client-ui-mobile-comfort"
+description:
+  en: "Touch-device comfort fixes for the dsh web client: suppress tap-synthesized tooltip ghosts and remove double-tap-zoom ambiguity from controls."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - touch
+  - device
+  - comfort
+  - fixes
+  - client
+  - suppress
+  - synthesized
+  - tooltip
+  - ghosts
+  - remove
+  - double
+  - zoom
+  - ambiguity
+  - controls
+  - dsh
+source:
+  repository: https://github.com/oksure/dsh-mobile-comfort
+  repositoryNodeId: R_kgDOUDuzWQ
+  subpath: null
+  commit: e077d172b8c939099599ddd12e4f9a2ec1fd2c97
+creator:
+  github: oksure
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:13.668Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
