@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: max-null-dsh-skill-mcp-center
+name: "@max-null/dsh-skill-mcp-center"
+description:
+  en: Skill & MCP management center for DeepSeek Harness — manage skills and MCP servers in Settings, live MCP status in the sidebar
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - skill
+  - mcp
+  - cordis
+source:
+  repository: https://github.com/Max-Null/dsh-skill-mcp-center
+  repositoryNodeId: R_kgDOT7cLUQ
+  subpath: null
+  commit: 303596fcf59891f74dbd0b5431709b362aac45d0
+creator:
+  github: Max-Null
+package:
+  ecosystem: npm
+  name: "@max-null/dsh-skill-mcp-center"
+  version: 0.4.1
+  integrity: sha512-EQtWMxMZU+j2zhKj7S80FFH02YxbIqhIPjoYp84WlvolfwWfyqkAZStsxsRVui+xNAHfcBoBPLILlRxdBhnFyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:39.575Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
