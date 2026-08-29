@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: maxmilian-dsh-forge
+name: "@maxhsu/dsh-forge"
+description:
+  en: DeepSeek Harness tools for self-hosted Gitea and Forgejo instances.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - forgejo
+  - gitea
+  - git
+  - agent
+  - dsh
+source:
+  repository: https://github.com/maxmilian/dsh-forge
+  repositoryNodeId: R_kgDOUCWIzg
+  subpath: null
+  commit: dbf321896b23d5a41309519f04c27357eefb620a
+creator:
+  github: maxmilian
+package:
+  ecosystem: npm
+  name: "@maxhsu/dsh-forge"
+  version: 0.3.3
+  integrity: sha512-iwCvuAQuFxwW2SkrNusCibjy+VlvmWZ2ooPw38VspgTC0ECNTpHKfaenZI0QtYe9n8M4Q/V5UbwiACcxGgcD7A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:55.392Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
