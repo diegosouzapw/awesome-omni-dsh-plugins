@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-luggage-size
+name: dsh-luggage-size
+description:
+  en: bash dsh plugin add github:uckkk/dsh-luggage-size
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-luggage-size
+source:
+  repository: https://github.com/uckkk/dsh-luggage-size
+  repositoryNodeId: R_kgDOT-v2Hw
+  subpath: null
+  commit: 26baec7a6029b05ce26a0558b2743bbbbde00b9f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:25.165Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
