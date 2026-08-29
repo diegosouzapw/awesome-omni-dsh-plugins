@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-timezone
+name: dsh-timezone
+description:
+  en: bash dsh plugin add github:uckkk/dsh-timezone
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-timezone
+source:
+  repository: https://github.com/uckkk/dsh-timezone
+  repositoryNodeId: R_kgDOT9uQXQ
+  subpath: null
+  commit: fee2e915257e20a5c79a0146a50ff09a3ebde1c3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:48.599Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
