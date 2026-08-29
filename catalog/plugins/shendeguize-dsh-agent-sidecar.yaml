@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shendeguize-dsh-agent-sidecar
+name: "@shendeguize/dsh-agent-sidecar"
+description:
+  en: "Agent Sidecar as a native DSH plugin: cross-agent monitoring, injection and bypass analysis / 跨 agent 监控、注入与旁路分析"
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-sidecar
+  - monitoring
+source:
+  repository: https://github.com/shendeguize/AgentSideCar
+  repositoryNodeId: R_kgDOUA5mSg
+  subpath: plugin
+  commit: 8420f6334a8d6f6ed1044ce521cff86158cedf09
+creator:
+  github: shendeguize
+package:
+  ecosystem: npm
+  name: "@shendeguize/dsh-agent-sidecar"
+  version: 0.3.0
+  integrity: sha512-LYpaLgWNubMa5r9y8NRcptQ2ak6bguRgy7IiWB/kaZ+esQI4ArtdTxEP0UHN3DI/F50F8Nd1ueyvOoPh7jBYpA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:02.254Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
