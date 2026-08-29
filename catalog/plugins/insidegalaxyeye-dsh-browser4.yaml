@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: insidegalaxyeye-dsh-browser4
+name: dsh-browser4
+description:
+  en: Browser4 skills bundle for DeepSeek Harness — AI-native browser automation (browser4-cli) for autonomous agents, intelligent extraction, and large-scale web automation. Registers the Browser4 skills (browser4-cli, browser4-experience, browser4-plugin, scent-miner) into the DSH skill registry.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - bundle
+  - skill
+  - browser4
+  - browser4-cli
+  - browser-automation
+  - web-automation
+  - web-mining
+  - web-scraping
+  - web-crawling
+  - ai-agent
+source:
+  repository: https://github.com/platonai/dsh-browser4
+  repositoryNodeId: R_kgDOT5bnPw
+  subpath: null
+  commit: 23ed629c510f8c8a416dca04da4fa367a2fbd2e5
+creator:
+  github: insidegalaxyeye
+package:
+  ecosystem: npm
+  name: dsh-browser4
+  version: 0.0.1
+  integrity: sha512-8wx9yUKGSuTPyEccf5MdybA9ou+hSw2NlvW+lukZsWcupVtJw64sUYuKETjltKQooQtBqZ7lrVjrZI8lhO6pkA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:45.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
