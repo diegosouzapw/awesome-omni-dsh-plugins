@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sleeping-bag
+name: dsh-sleeping-bag
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sleeping-bag
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sleeping-bag
+source:
+  repository: https://github.com/uckkk/dsh-sleeping-bag
+  repositoryNodeId: R_kgDOT-wPcw
+  subpath: null
+  commit: 3443d9a1e4746eb2cd9d073dc24433236e4c6c1f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:03.614Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
