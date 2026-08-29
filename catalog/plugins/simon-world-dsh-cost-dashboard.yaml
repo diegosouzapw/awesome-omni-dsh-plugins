@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: simon-world-dsh-cost-dashboard
+name: dsh-cost-dashboard
+description:
+  en: bash node --test tests/cost-dashboard.test.mjs 3 个用例
+  evidencePath: packages/dsh-cost-dashboard/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - cost
+  - token
+source:
+  repository: https://github.com/SIMON-WORLD/dsh-toolkit
+  repositoryNodeId: R_kgDOT7Fumw
+  subpath: packages/dsh-cost-dashboard
+  commit: 7574d611e7568d28773d49aee7fac2cad3d13a27
+creator:
+  github: SIMON-WORLD
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-cost-dashboard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:06.947Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
