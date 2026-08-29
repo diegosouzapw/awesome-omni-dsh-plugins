@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-crop-factor
+name: dsh-crop-factor
+description:
+  en: bash dsh plugin add github:uckkk/dsh-crop-factor
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-crop-factor
+source:
+  repository: https://github.com/uckkk/dsh-crop-factor
+  repositoryNodeId: R_kgDOT-DfRg
+  subpath: null
+  commit: e41c4b9fc4ec54fc92a2ffa9e876999261f5cd6f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:34.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
