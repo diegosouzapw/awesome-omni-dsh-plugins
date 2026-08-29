@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: scd13150-dsh-cognition
+name: dsh-cognition
+description:
+  en: A project memory for your DeepSeek Harness agent — constrain / observe / remember / verify, built on DSH native primitives.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - memory
+  - agent
+  - constrain
+  - observe
+  - remember
+  - verify
+  - built
+  - native
+  - primitives
+  - dsh
+source:
+  repository: https://github.com/scd13150/dsh-cognition
+  repositoryNodeId: R_kgDOT5SOGA
+  subpath: null
+  commit: 500caf22b68023b3bd7d83bafa3f8e5bdb85e4af
+creator:
+  github: scd13150
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:04.458Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
