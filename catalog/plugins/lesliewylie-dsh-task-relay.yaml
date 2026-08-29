@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: lesliewylie-dsh-task-relay
+name: dsh-task-relay
+description:
+  en: DSH cross-session task relay plugin — a persistent shared task queue with handoff notes for cross-session and subagent coordination.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - cross
+  - session
+  - task
+  - relay
+  - persistent
+  - shared
+  - queue
+  - handoff
+  - notes
+  - subagent
+  - coordination
+  - dsh
+source:
+  repository: https://github.com/LeslieWylie/dsh-task-relay
+  repositoryNodeId: R_kgDOT4TqFA
+  subpath: null
+  commit: de69deeee9071dd8fe7eb9e24deffe8adf668b20
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:39.775Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
