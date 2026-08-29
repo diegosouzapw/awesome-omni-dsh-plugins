@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moon09300731-dsh-vision-tools
+name: dsh-vision-tools
+description:
+  en: sh dsh plugin --profile web add dsh-vision-tools
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+source:
+  repository: https://github.com/moon09300731/dsh-vision-tools
+  repositoryNodeId: R_kgDOT4H6kw
+  subpath: null
+  commit: fd4a8227c0cd0a01576be93658f856afcbd63fc9
+creator:
+  github: moon09300731
+package:
+  ecosystem: npm
+  name: dsh-vision-tools
+  version: 0.1.2
+  integrity: sha512-7eMP0xCFSbwGz0unOoJLsoMXEp/Wlz7a0bthufUIAoEbcDFL/A8Q2YthSwz8OvmohGEkmz71R+zU5gjlY9/0Pw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:43.675Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
