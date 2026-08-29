@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-percentage
+name: dsh-percentage
+description:
+  en: bash dsh plugin add dsh-percentage 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-percentage" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - percent
+source:
+  repository: https://github.com/uckkk/dsh-percentage
+  repositoryNodeId: R_kgDOT6M-0A
+  subpath: null
+  commit: f1099dc8684489b1fccf3875f0e61294bb42315f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:47.188Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
