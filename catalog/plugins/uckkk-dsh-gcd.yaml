@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-gcd
+name: dsh-gcd
+description:
+  en: bash dsh plugin add github:uckkk/dsh-gcd
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-gcd
+source:
+  repository: https://github.com/uckkk/dsh-gcd
+  repositoryNodeId: R_kgDOT9uBZA
+  subpath: null
+  commit: c5d949c942c4aa51d432372cd370ce0a4d82b22b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:43.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
