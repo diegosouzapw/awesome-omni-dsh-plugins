@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: pc439527-dsh-notify-bark
+name: dsh-notify-bark
+description:
+  en: "License: MIT · Requires: Node ^22.19 · Platform: DSH Host + Web settings page"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - license
+  - requires
+  - node
+  - platform
+  - host
+  - settings
+  - page
+  - dsh
+source:
+  repository: https://github.com/pc439527/dsh-notify-bark
+  repositoryNodeId: R_kgDOT4Kd3A
+  subpath: null
+  commit: 26e229876312b18cc46b7a7ba04daa73e0226603
+creator:
+  github: pc439527
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:59.764Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
