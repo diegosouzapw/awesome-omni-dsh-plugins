@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ovdoesw-dsh-xiangqi
+name: dsh-xiangqi
+description:
+  en: DSH Chinese chess pastime plugin — a draggable mascot that invites you to play Xiangqi while the AI thinks
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - chinese
+  - chess
+  - pastime
+  - draggable
+  - mascot
+  - invites
+  - play
+  - xiangqi
+  - while
+  - thinks
+  - dsh
+source:
+  repository: https://github.com/ovdoesw/dsh-xiangqi
+  repositoryNodeId: R_kgDOT4-RyA
+  subpath: null
+  commit: 7ef61de3571730e0faa5fad381f7572c7cdaaa1e
+creator:
+  github: ovdoesw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:09.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
