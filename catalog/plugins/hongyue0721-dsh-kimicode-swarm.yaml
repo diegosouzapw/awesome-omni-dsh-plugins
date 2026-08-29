@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: hongyue0721-dsh-kimicode-swarm
+name: dsh-kimicode-swarm
+description:
+  en: bash dsh plugin --profile web add dsh-kimicode-swarm pnpm add dsh-kimicode-swarm
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - kimicode
+  - swarm
+  - pnpm
+  - dsh
+source:
+  repository: https://github.com/hongyue0721/dsh-kimicode-swarm
+  repositoryNodeId: R_kgDOT5PYew
+  subpath: null
+  commit: 1c09744ba438d8a685722a5817044afd1b391fd4
+creator:
+  github: hongyue0721
+package:
+  ecosystem: npm
+  name: dsh-kimicode-swarm
+  version: 0.1.0
+  integrity: sha512-HDQddaxfPExpr2/Xfl89n9wmmSrv7I6k77G/XtsFjjCe3gvWCgybmUsR/UOc2P+WLgZRo521HkjaPfgzWrVGkw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:46.976Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
