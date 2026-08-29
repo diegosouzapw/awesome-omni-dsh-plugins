@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-car-seat
+name: dsh-car-seat
+description:
+  en: bash dsh plugin add github:uckkk/dsh-car-seat
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-car-seat
+source:
+  repository: https://github.com/uckkk/dsh-car-seat
+  repositoryNodeId: R_kgDOT-wEeg
+  subpath: null
+  commit: 9368e87d1e8667645b2f7b925d00a48318a1db4d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:49.563Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
