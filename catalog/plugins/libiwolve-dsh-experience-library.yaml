@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: libiwolve-dsh-experience-library
+name: "@libiwolve/dsh-experience-library"
+description:
+  en: meow-memory makes your AI remember; this plugin makes your AI remember "the right way to do things".
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - meow
+  - memory
+  - remember
+  - right
+  - things
+  - dsh
+source:
+  repository: https://github.com/libiwolve/dsh-experience-library
+  repositoryNodeId: R_kgDOUCEE2A
+  subpath: null
+  commit: 153bb640467061ab3b768749d6f555ef39cf7cb4
+creator:
+  github: libiwolve
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:21.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
