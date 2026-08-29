@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: dcrzsy-dsh-enhance-tool
+name: dsh-enhance-tool
+description:
+  en: DeepSeek Harness (dsh) web UI enhancer — polish, prompt library, suggested replies, width/font settings, MCP & automation panels.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - enhancer
+  - polish
+  - prompt
+  - library
+  - suggested
+  - replies
+  - width
+  - font
+  - settings
+  - automation
+  - panels
+  - dsh
+source:
+  repository: https://github.com/dcrzsy/dsh-enhance-tool
+  repositoryNodeId: R_kgDOUAd88w
+  subpath: null
+  commit: cd3affab9f21dfe119203f8aa8f63ad294498729
+creator:
+  github: dcrzsy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:49.445Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
