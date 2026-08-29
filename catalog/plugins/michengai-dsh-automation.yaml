@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: michengai-dsh-automation
+name: "@michengai/dsh-automation"
+description:
+  en: Run standalone coding tasks on a schedule in DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - automation
+  - scheduled-task
+  - coding-agent
+  - cordis
+source:
+  repository: https://github.com/MichengAI/dsh-automation
+  repositoryNodeId: R_kgDOT57laA
+  subpath: null
+  commit: 4e5c08165e434765ec831a6b83f7265788f2cad7
+creator:
+  github: MichengAI
+package:
+  ecosystem: npm
+  name: "@michengai/dsh-automation"
+  version: 0.1.21
+  integrity: sha512-ua4Af+CoCQlQrpUv3hNLg5e0sFzQylJAUdtM12uAlHcGguFCD+r+V0OmbutyFHPzD3VNOfm7hXh6rNzjV39h7A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
