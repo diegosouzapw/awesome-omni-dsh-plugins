@@ -16,7 +16,7 @@ Descoberta com prioridade ao criador e instalação em um comando para plugins d
   <a href="https://dsh-plugins.omniroute.online">Explore, pesquise e instale qualquer plugin no site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1814_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1904_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ este repositório carrega os dados públicos do catálogo, o esquema e as polít
 
 ## Status do catálogo
 
-**1814 plugins mesclados.** Cada plugin entra por meio de um pull request revisado individualmente,
+**1904 plugins mesclados.** Cada plugin entra por meio de um pull request revisado individualmente,
 um de cada vez, a partir do repositório original do criador, com um commit de origem fixado e
 atribuição explícita.
 
@@ -339,4 +339,4 @@ licenças originais. Veja [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFIC
 
 </div>
 
-<!-- i18n-source-hash: 4fe497a9d08b74f021c1bb0122b55f4b00fb31412eceb0129f07e52d009728af -->
+<!-- i18n-source-hash: 285373af122b2ab6f9cf5c418d272c4de4b0cd1d35f0f87925c17e2e722dafcb -->
