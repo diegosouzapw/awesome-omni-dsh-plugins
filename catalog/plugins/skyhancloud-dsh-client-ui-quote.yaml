@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: skyhancloud-dsh-client-ui-quote
+name: dsh-client-ui-quote
+description:
+  en: "Selection quoting for the dsh web GUI: a toolbar over selected assistant text that attaches the selection to the composer as a removable quote banner, prepended to the outgoing message at send"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - selection
+  - quoting
+  - toolbar
+  - over
+  - selected
+  - assistant
+  - text
+  - attaches
+  - composer
+  - removable
+  - quote
+  - banner
+  - prepended
+  - outgoing
+  - message
+  - send
+source:
+  repository: https://github.com/skyhancloud/dsh-client-ui-quote
+  repositoryNodeId: R_kgDOT564SA
+  subpath: null
+  commit: 627bc2f7739241c60295e46fd62aa9f10109cc69
+creator:
+  github: skyhancloud
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:47.653Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
