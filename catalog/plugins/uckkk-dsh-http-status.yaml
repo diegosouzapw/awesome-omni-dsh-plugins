@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-http-status
+name: dsh-http-status
+description:
+  en: bash dsh plugin add dsh-http-status 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-http-status" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - status
+source:
+  repository: https://github.com/uckkk/dsh-http-status
+  repositoryNodeId: R_kgDOT6NK6w
+  subpath: null
+  commit: 32250129e0e67a7c2b896f3669ab5184c4b18c58
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-http-status
+  version: 0.1.0
+  integrity: sha512-VeV0oQj5jSuRwfjn31E8w03UFtEg3ns2m5vTZpx9T9OjnzqXj13mvmyYlw6Xi4NGWy4CPuA9m6KVr0SfnHJrfA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:55.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
