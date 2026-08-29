@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: gitfangj-dsh-models-radar
+name: dsh-models-radar
+description:
+  en: "Model capability radar for the DeepSeek Harness web GUI: a Settings tab that charts codexradar crowd-benchmark scores per model tier — task-composition bars, 7-day IQ trend, efficiency badges"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model
+  - capability
+  - radar
+  - settings
+  - charts
+  - codexradar
+  - crowd
+  - benchmark
+  - scores
+  - tier
+  - task
+  - composition
+  - bars
+  - trend
+  - efficiency
+  - badges
+source:
+  repository: https://github.com/hi-fangj/dsh-models-radar
+  repositoryNodeId: R_kgDOUExErA
+  subpath: null
+  commit: b07335a8aee1a06d82c127ab836c62ea67b2559c
+creator:
+  github: gitfangj
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:50.513Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
