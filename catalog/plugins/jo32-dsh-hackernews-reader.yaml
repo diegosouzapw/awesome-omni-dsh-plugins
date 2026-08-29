@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jo32-dsh-hackernews-reader
+name: "@deepdeck/dsh-hackernews-reader"
+description:
+  en: A standalone Hacker News reader with app-scoped AI conversations for DeepDeck
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - deepdeck
+  - cordis-plugin
+  - hacker-news
+  - reader
+  - dsh
+source:
+  repository: https://github.com/jo32/dsh-hackernews-reader
+  repositoryNodeId: R_kgDOUBpmSQ
+  subpath: null
+  commit: 369a3331d27d0697cd31861bbaf6b426f4759012
+creator:
+  github: jo32
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:48:24.788Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
