@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-liberia
+name: dsh-liberia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-liberia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-liberia
+source:
+  repository: https://github.com/uckkk/dsh-liberia
+  repositoryNodeId: R_kgDOT-DW-w
+  subpath: null
+  commit: faf6e1801053a70a6bc1dd605cb4f91a2ae24297
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:04.613Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
