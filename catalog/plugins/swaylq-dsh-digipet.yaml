@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: swaylq-dsh-digipet
+name: dsh-digipet
+description:
+  en: Hatch a digital creature in your DeepSeek Harness. It feeds on your real work — turns, tool calls, even your errors — and evolves along branching lines shaped by how you actually work. Zero tokens, zero tools, the model never knows.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - ai-agents
+  - digital-pet
+  - tamagotchi-like
+source:
+  repository: https://github.com/swaylq/dsh-digipet
+  repositoryNodeId: R_kgDOT5GYVg
+  subpath: null
+  commit: 1558da9e58c765041c95d061f6e49397b914d086
+creator:
+  github: swaylq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:11.065Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
