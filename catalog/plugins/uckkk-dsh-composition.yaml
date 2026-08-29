@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-composition
+name: dsh-composition
+description:
+  en: bash dsh plugin add dsh-composition 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-composition" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - composition
+  - layout
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-composition
+  repositoryNodeId: R_kgDOT6Ok3A
+  subpath: null
+  commit: 091549527b65f937130edcb20d43b444ae2ee03b
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-composition
+  version: 0.1.0
+  integrity: sha512-I9ChaicjWkBElZ7D3ZAKn3or+mqd3peUdlmazy1/ymxm+Lpus0hhf6e93cepiZv8954lYOuyZWYHHHRPZjSX2g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:30.700Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
