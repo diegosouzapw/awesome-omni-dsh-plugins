@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: jack-ranbo-dsh-wsl-expose
+name: dsh-wsl-expose
+description:
+  en: Expose the DeepSeek Harness Web GUI to the public internet from WSL2 over IPv6 or IPv4 through a reverse proxy (Lucky). One /wan command sets up the socat loopback relay, Windows portproxy, firewall rule, IPv6 detection, and the trusted-host fence.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - wsl
+  - wsl2
+  - ipv6
+  - reverse-proxy
+  - lucky
+  - portproxy
+  - expose
+  - tunnel
+  - public-access
+source:
+  repository: https://github.com/jack-ranbo/dsh-wsl-expose
+  repositoryNodeId: R_kgDOT79w2g
+  subpath: null
+  commit: d9e86c4ede6c8420829f1884e430fa248a8427b5
+creator:
+  github: jack-ranbo
+package:
+  ecosystem: npm
+  name: dsh-wsl-expose
+  version: 1.7.0
+  integrity: sha512-knly3YQJ0Z2h8CfHG2GcqeIHpUlfHrAtqOlMDwfJUX9wplli9ZMT1PB+zuLUM2HtX89bI+NxYMTC9SPpiv2aww==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:29.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
