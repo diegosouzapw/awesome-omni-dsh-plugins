@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: qys0012-dsh-hotspots
+name: dsh-hotspots
+description:
+  en: bash dsh plugin --profile <profile名 add link:/path/to/dsh-hotspots
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - hotspots
+  - ai-news
+  - engineering
+  - web-ui
+  - dsh
+source:
+  repository: https://github.com/qys0012/dsh-hotspots
+  repositoryNodeId: R_kgDOUDpjOQ
+  subpath: null
+  commit: 55378b2360e13878e2a5428e87044a5aadffc5da
+creator:
+  github: qys0012
+package:
+  ecosystem: npm
+  name: dsh-hotspots
+  version: 1.1.0
+  integrity: sha512-UwIb2zl9TBF34zFikTM4mJz8YqxwogghVGITP4mjEvMwZRrBP8YOns2cQQ4oK6E2OEObVvrXmGkfmP6YJrbm3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:58.453Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
