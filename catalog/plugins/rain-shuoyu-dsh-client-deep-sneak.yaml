@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: rain-shuoyu-dsh-client-deep-sneak
+name: dsh-client-deep-sneak
+description:
+  en: <p align="center" <b Let DeepSeek work while you watch Bilibili.</b <br/ A floating mini-window Bilibili player for DeepSeek Harness — auto-pauses and reminds you when the agent needs you, resumes at the exact position when you're back. </p
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - bilibili
+  - b
+source:
+  repository: https://github.com/Rain-Shuoyu/dsh-client-deep-sneak
+  repositoryNodeId: R_kgDOT4AtfA
+  subpath: null
+  commit: 21d0646de043b5bb2e18835826394e0aa2fe7497
+creator:
+  github: Rain-Shuoyu
+package:
+  ecosystem: npm
+  name: dsh-client-deep-sneak
+  version: 0.12.0
+  integrity: sha512-MIeJKlmnYsTuRrPNebgylquMngu1Smkuc7+Fz/QUkI8NrbbhMWB/LJbrHecDlKHEz2qdx1LDbpEdXcxtOsYHZA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:51.584Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
