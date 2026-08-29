@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-iconography
+name: dsh-iconography
+description:
+  en: bash dsh plugin add dsh-iconography 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-iconography" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - icon
+  - iconography
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-iconography
+  repositoryNodeId: R_kgDOT6jAdg
+  subpath: null
+  commit: b5ec54a57cb5324786e177afd551f6494d8e1a82
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:57.167Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
