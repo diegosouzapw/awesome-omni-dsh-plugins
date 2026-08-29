@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lion-1209-dsh-plugin-lion-skills
+name: dsh-plugin-lion-skills
+description:
+  en: "Lion-Skills — a developer-focused agent skill suite (in Chinese) as a DeepSeek Harness plugin: 11 workflow skills for code review, debugging, testing, naming, spec writing, and more."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - claude-code-skills
+  - dsh
+source:
+  repository: https://github.com/Lion-1209/dsh-plugin-lion-skills
+  repositoryNodeId: R_kgDOT63aqg
+  subpath: null
+  commit: f3bba5af021c3a1fd6157878f2faf2fde5395484
+creator:
+  github: Lion-1209
+package:
+  ecosystem: npm
+  name: dsh-plugin-lion-skills
+  version: 0.1.0
+  integrity: sha512-SyuCU581sY62S4W5TYj1X3s9XfjZ4kbRg9A92cFAc2WOZDsUsvhb2UVFGWRNhmvMvAM32kEpixXdGhHSVmH1Ng==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:22.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
