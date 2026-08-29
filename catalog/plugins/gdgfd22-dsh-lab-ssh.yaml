@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: gdgfd22-dsh-lab-ssh
+name: dsh-lab-ssh
+description:
+  en: Safety-gated SSH tools for DeepSeek Harness and Codex laboratory operations
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh-plugin
+  - codex
+  - mcp
+  - ssh
+  - offline-server
+  - gpu
+  - ai-ops
+  - dsh
+source:
+  repository: https://github.com/gdgfd22/deepseek-harness-ssh
+  repositoryNodeId: R_kgDOT9K6bQ
+  subpath: null
+  commit: 08858724285effdf19a021b461f934163a165ec9
+creator:
+  github: gdgfd22
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:40.641Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
