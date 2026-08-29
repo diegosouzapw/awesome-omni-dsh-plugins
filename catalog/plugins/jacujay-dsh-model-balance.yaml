@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jacujay-dsh-model-balance
+name: dsh-model-balance
+description:
+  en: Auto-detect the current model vendor and show its balance or quota in the composer input row, with a settings page for custom endpoints.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - balance
+  - quota
+  - usage
+source:
+  repository: https://github.com/jacujay/dsh-model-balance
+  repositoryNodeId: R_kgDOT8hm1Q
+  subpath: null
+  commit: db0c331a0d6d92ee9596cc55a31527e6052a935d
+creator:
+  github: jacujay
+package:
+  ecosystem: npm
+  name: dsh-model-balance
+  version: 0.1.2
+  integrity: sha512-pyW1Pyh15Ptkv0Rsl9RRbRe6NMU7hvOyX4TBVfk14i0Eb+xZjeGIsc0FhY/aGLiZHTTZpxVDnlRwWiE2lu1sCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:41.670Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
