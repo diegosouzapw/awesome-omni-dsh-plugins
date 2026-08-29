@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tiantyu-dsh-skin-toggle
+name: dsh-skin-toggle
+description:
+  en: "Skin manager for the DeepSeek Harness (DSH) web GUI: a floating 🐋 button — left-click restores the default look, right-click lists every installed skin and switches between them (mutually exclusive). Pure client-side presentation utility."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - skin
+  - theme
+  - maid-atelier
+source:
+  repository: https://github.com/tiantyu/dsh-skin-toggle
+  repositoryNodeId: R_kgDOT5QEqg
+  subpath: null
+  commit: 781fd4605756503f9635d6083686e079b5a8944f
+creator:
+  github: tiantyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:13.884Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
