@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-xml
+name: dsh-xml
+description:
+  en: bash dsh plugin add dsh-xml 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-xml" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - xml
+  - json
+source:
+  repository: https://github.com/uckkk/dsh-xml
+  repositoryNodeId: R_kgDOT6MY-g
+  subpath: null
+  commit: 736a1c9bcb20442690e33b40a0cba7120242d8f9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:14.276Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
