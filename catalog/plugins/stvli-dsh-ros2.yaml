@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: stvli-dsh-ros2
+name: dsh-ros2
+description:
+  en: Aggregate cordis bundle for the dsh-ros2 plugin family — depends on core/profile/moveit/safety/vision/common; empty apply for backward compatibility (install this to get all 51 tools + 4 skills).
+  evidencePath: packages/dsh-ros2/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ros2
+source:
+  repository: https://github.com/StvLi/dsh-ros2
+  repositoryNodeId: R_kgDOT7EbTQ
+  subpath: packages/dsh-ros2
+  commit: a7309851ee6a5b5b11bbbffdefd88be1ebe742bc
+creator:
+  github: StvLi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-ros2/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:39.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
