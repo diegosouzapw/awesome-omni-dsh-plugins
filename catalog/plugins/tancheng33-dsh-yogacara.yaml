@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: tancheng33-dsh-yogacara
+name: dsh-yogacara
+description:
+  en: A Yogācāra (唯识) self-model plugin for DeepSeek Harness — eight consciousnesses, the 51 mental factors, a perfumed seed store, and a measurable self-grasping meter, rendered back to the agent as first-person state.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - yogacara
+  - vijnaptimatra
+  - self-model
+  - affect
+  - introspection
+  - cordis
+  - agent
+  - memory
+source:
+  repository: https://github.com/tancheng33/dsh-yogacara
+  repositoryNodeId: R_kgDOT5wwEQ
+  subpath: null
+  commit: 038cf0d780730b9ce492eb2dc0dbcb175b079769
+creator:
+  github: tancheng33
+package:
+  ecosystem: npm
+  name: dsh-yogacara
+  version: 0.2.1
+  integrity: sha512-CHw4PfSGvOEBYS9joJM34Fu3tfXSM01awWs3i9Z00JuB4/Z2twzmzg/T5X71mwDE/I/MMcOG4a3kE5yWIGaYLQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:10.744Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
