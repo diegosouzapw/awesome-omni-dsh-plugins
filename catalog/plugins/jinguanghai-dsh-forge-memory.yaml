@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jinguanghai-dsh-forge-memory
+name: dsh-forge-memory
+description:
+  en: BM25 experience recall & fold index
+  evidencePath: plugins/forge-memory/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bm25
+  - experience
+  - recall
+  - fold
+  - index
+  - dsh
+source:
+  repository: https://github.com/jinguanghai/deepseek-harness-forge-plugins
+  repositoryNodeId: R_kgDOT4V3ww
+  subpath: plugins/forge-memory
+  commit: ad4e2dd73be06dc72fc05e0e1775032270bc3a0d
+creator:
+  github: jinguanghai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/forge-memory/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:34.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
