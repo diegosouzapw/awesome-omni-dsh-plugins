@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 764475881-dsh-chat-width
+name: dsh-chat-width
+description:
+  en: bash dsh plugin --profile web add github:764475881/dsh-chat-width
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - chat-width
+  - ui
+source:
+  repository: https://github.com/764475881/dsh-chat-width
+  repositoryNodeId: R_kgDOT9SZBQ
+  subpath: null
+  commit: 9737a8d4e46064e5236d343d63ebfd62b5abd8c2
+creator:
+  github: "764475881"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:29.163Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
