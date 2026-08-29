@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: muhanxi-dsh-theme
+name: dsh-theme
+description:
+  en: 30-theme pack for the DeepSeek Harness web UI — a zero-dependency DSH client plugin plus drop-in CSS themes.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - theme
+  - cordis
+source:
+  repository: https://github.com/mux9056-bot/dsh-theme
+  repositoryNodeId: R_kgDOT62GEQ
+  subpath: null
+  commit: 643d009992b44d3e48c1767d4c7f996fe6f865cb
+creator:
+  github: muhanxi
+package:
+  ecosystem: npm
+  name: dsh-theme
+  version: 1.0.1
+  integrity: sha512-evI9uezpUkDB24ApoxtnslsToCWpFOrDncBC1/VFG0RpEMBwsFXif5aUrjMf8gEfXaJZrbRvYcp/O9PhRyIBRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:43.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
