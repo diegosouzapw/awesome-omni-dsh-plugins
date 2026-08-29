@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bosnia
+name: dsh-bosnia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bosnia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bosnia
+source:
+  repository: https://github.com/uckkk/dsh-bosnia
+  repositoryNodeId: R_kgDOT-4nRA
+  subpath: null
+  commit: 2b9b0314d4bda8ea18414c64ce43393fe1d7a534
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:28.341Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
