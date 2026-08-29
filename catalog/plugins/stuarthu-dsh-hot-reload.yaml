@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: stuarthu-dsh-hot-reload
+name: dsh-hot-reload
+description:
+  en: Live-reload upgraded DeepSeek Harness (dsh) plugins without restarting dsh — the running plugin is swapped in place, and a reload that fails rolls back to the working old version and asks for a manual restart.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - hot-reload
+  - hmr
+  - reload
+  - cordis
+source:
+  repository: https://github.com/stuarthu/dsh-hot-reload
+  repositoryNodeId: R_kgDOT5pk1A
+  subpath: null
+  commit: 006d91589e8edab031e46dea936db0cc0f301e02
+creator:
+  github: stuarthu
+package:
+  ecosystem: npm
+  name: dsh-hot-reload
+  version: 0.2.4
+  integrity: sha512-DlQMcTYvDNTngtQOMdEph7V6e86bl9QUUxCwV2JXYeRR3aCK8Em06WWr7aZPE38YB+wbkm600iBNYNydV/vimQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:18.149Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
