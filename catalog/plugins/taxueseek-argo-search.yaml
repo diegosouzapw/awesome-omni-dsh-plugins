@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: taxueseek-argo-search
+name: argo-search
+description:
+  en: <p align="center" <a href=" what-it-is" Intro</a · <a href=" why-its-stronger-than-built-in-search--ai-search--metasearch" Compare</a · <a href=" query-shaped-routing" Proof</a · <a href=" how-it-works" How it works</a · <a href=" quick-start" Quick start</a · <a href=" capabilities" Capabilities</a · <a href=" install
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - mcp
+  - mcp-server
+  - search
+  - web-search
+  - research
+  - ai-agent
+  - claude
+  - grok
+  - kimi
+  - codex
+  - argo
+  - npx
+  - dsh
+source:
+  repository: https://github.com/taxueseek/argo
+  repositoryNodeId: R_kgDOTciv2w
+  subpath: null
+  commit: dc943d43066f0cdece8ab2ddc867dbc0eef69109
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 113
+provenance:
+  discussion: null
+  comment: null
