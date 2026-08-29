@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: stardustlc666-dsh-slack
+name: dsh-slack
+description:
+  en: "DSH (DeepSeek Harness) community plugin: lets the agent communicate with Slack bidirectionally."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-slack
+  repositoryNodeId: R_kgDOT30TXg
+  subpath: null
+  commit: e58ea02aee6e8c5b6901e38725238ea7461c3319
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-slack
+  version: 0.3.0
+  integrity: sha512-9bPTAcAizIU6j3/v9Ija8uw/AhJepWz9nyOqe4w93qA+EZ4tdqLNKTn42C+KiXlnRl5WyZsApwzQVr+YtP0kMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:39.061Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
