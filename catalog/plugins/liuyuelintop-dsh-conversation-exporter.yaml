@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: liuyuelintop-dsh-conversation-exporter
+name: dsh-conversation-exporter
+description:
+  en: Local clean-Markdown full or selective-turn export for the current DeepSeek Harness Web conversation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - conversation-export
+  - conversation-exporter
+  - markdown
+source:
+  repository: https://github.com/liuyuelintop/dsh-conversation-exporter
+  repositoryNodeId: R_kgDOT6lO9g
+  subpath: null
+  commit: a7375d3ab5ce07e202b0822f44db15fe8417edf1
+creator:
+  github: liuyuelintop
+package:
+  ecosystem: npm
+  name: dsh-conversation-exporter
+  version: 0.3.0
+  integrity: sha512-6nsRwt6AOCgywZZ8KG3geMiHxXxfCzcbluWXyHgl+05U0olzbgxw+i+BtufPf4Pm3j+2hvzdNSw79dJB98htfw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:31.596Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
