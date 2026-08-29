@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: stormycry-dsh-auth-in-one
+name: dsh-auth-in-one
+description:
+  en: Self-contained DeepSeek Harness plugin for Provider login, model switching, image fallback, usage analytics, and same-port Web restart
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - openai-codex
+  - oauth
+  - device-code
+  - provider-authentication
+  - llm-provider
+  - openai-compatible
+  - custom-api
+  - model-switching
+  - token-usage
+  - cost-tracking
+  - usage-analytics
+  - vision-fallback
+  - multimodal
+  - image-understanding
+source:
+  repository: https://github.com/Stormycry-cryp/dsh-AuthInOne
+  repositoryNodeId: R_kgDOT379Sw
+  subpath: null
+  commit: 190ecc2d834ba06da008522684e689324a9c2706
+creator:
+  github: Stormycry
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:29.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 105
+provenance:
+  discussion: null
+  comment: null
