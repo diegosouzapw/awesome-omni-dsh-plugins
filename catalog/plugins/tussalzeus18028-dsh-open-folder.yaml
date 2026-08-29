@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tussalzeus18028-dsh-open-folder
+name: dsh-open-folder
+description:
+  en: Add an "Open folder" entry to the workspace session row overflow (⋯) menu; opens the session's workspace folder with the host OS.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - workspace
+  - open-folder
+  - file-explorer
+source:
+  repository: https://github.com/TussalZeus18028/dsh-open-folder
+  repositoryNodeId: R_kgDOUEgN8Q
+  subpath: null
+  commit: 4aa92f92971740bf80cbef8abaf1198753effad8
+creator:
+  github: TussalZeus18028
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:54.231Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
