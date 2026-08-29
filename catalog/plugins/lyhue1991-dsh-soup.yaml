@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lyhue1991-dsh-soup
+name: "@lyhue1991/dsh-soup"
+description:
+  en: sh dsh plugin add @lyhue1991/dsh-soup
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - file-explorer
+  - tree
+  - speed
+  - tps
+  - throughput
+  - deepseek-harness
+source:
+  repository: https://github.com/lyhue1991/dsh-soup
+  repositoryNodeId: R_kgDOT89f8A
+  subpath: null
+  commit: ae8ab512264d93417152800c6498ef63ecedd271
+creator:
+  github: lyhue1991
+package:
+  ecosystem: npm
+  name: "@lyhue1991/dsh-soup"
+  version: 0.4.1
+  integrity: sha512-KNv+Z+JUDEjBJjZluxdQyWemNeaCkFS3lAHCSs8EHn7/scWA8/N+kXeSlG2vkCRL+6sb1Y75VlHPbP8dKASodg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:49.659Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
