@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: shuind-dsh-codex-harness
+name: "@shuind/dsh-codex-harness"
+description:
+  en: A minimal Codex harness for GPT models that do not fit DSH's native interface, while remaining compatible with the DSH plugin ecosystem.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - codex
+  - agent
+  - dsh
+source:
+  repository: https://github.com/shuind/dsh-codex-harness
+  repositoryNodeId: R_kgDOT70zWQ
+  subpath: null
+  commit: ecc55e4e609a8cdf8f2800e6d9bb3807d236672d
+creator:
+  github: shuind
+package:
+  ecosystem: npm
+  name: "@shuind/dsh-codex-harness"
+  version: 0.1.15
+  integrity: sha512-Y3aAFmtRn6wl2LjATsVvLdEFSCUhtqSZ3ykZjre7BEUAUMZwEoZ0lS9978dcy11nAAvmLgFs2vI7jNMbTxu3WA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
