@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mervyn-teo-dsh-plugin-qr-connect
+name: dsh-plugin-qr-connect
+description:
+  en: "DeepSeek Harness (DSH) Web plugin: a QR-code button above Settings that lets phones connect to the web UI through an auth-gated reverse proxy."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - qr-code
+source:
+  repository: https://github.com/mervyn-teo/dsh-plugin-qr-connect
+  repositoryNodeId: R_kgDOT4SjXA
+  subpath: null
+  commit: 430ad448366fdf5303674295c793f85240ce0da5
+creator:
+  github: mervyn-teo
+package:
+  ecosystem: npm
+  name: dsh-plugin-qr-connect
+  version: 0.1.3
+  integrity: sha512-9z9FRnd/8UrE1ZmHx85CEO6s++QHF6NZeKAaIqFax+IqZAyYxdA81Z2YcGjBSTBwEOUjUewejRoXRxYlQSxLSA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.052Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
