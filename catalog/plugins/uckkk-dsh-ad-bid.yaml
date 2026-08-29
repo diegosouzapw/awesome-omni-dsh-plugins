@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ad-bid
+name: dsh-ad-bid
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ad-bid
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ad-bid
+source:
+  repository: https://github.com/uckkk/dsh-ad-bid
+  repositoryNodeId: R_kgDOT-trqQ
+  subpath: null
+  commit: f4dfe8d2d52b13e80099220f495c31665b093f9e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:21.191Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
