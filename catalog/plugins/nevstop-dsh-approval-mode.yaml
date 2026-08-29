@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: nevstop-dsh-approval-mode
+name: dsh-approval-mode
+description:
+  en: "Approval mode control for DeepSeek Harness: default approval (ask) or bypass approval (auto-approve every tool call), next to the permission selector. DSH 审批模式插件。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - approval
+  - permissions
+  - agent
+source:
+  repository: https://github.com/NEVSTOP-LAB/dsh-approval-mode
+  repositoryNodeId: R_kgDOT6B1rw
+  subpath: null
+  commit: 3ee61240cea8da4c43ef09ff77942466bbe9b482
+creator:
+  github: nevstop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:48.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
