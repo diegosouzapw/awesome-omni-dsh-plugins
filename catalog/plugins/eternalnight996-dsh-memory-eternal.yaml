@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: eternalnight996-dsh-memory-eternal
+name: dsh-memory-eternal
+description:
+  en: bash dsh plugin --profile web add dsh-memory-eternal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+  - knowledge-base
+  - vault
+  - markdown
+  - knowledge-graph
+  - rag
+  - second-brain
+source:
+  repository: https://github.com/EternalNight996/dsh-memory-eternal
+  repositoryNodeId: R_kgDOT_ooNA
+  subpath: null
+  commit: f30762c9fab1d0c91831c5dbaf4945cbea2b31c7
+creator:
+  github: EternalNight996
+package:
+  ecosystem: npm
+  name: dsh-memory-eternal
+  version: 0.4.16
+  integrity: sha512-V06MfblT/HUiniopSoM8hL+QKbJ5h6q7EKMzbjzYPmwQY7r6riuwWG8VSMmZq9T5bJGe+sfgMrt5PmCer5iFDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:58.977Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
