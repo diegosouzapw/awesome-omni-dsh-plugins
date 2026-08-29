@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: baihui-ai-a2ui-render-in-dsh
+name: a2ui-render-in-dsh
+description:
+  en: "A2UI interactive cards for the dsh web UI: the agent renders clickable interfaces (quizzes, forms, product cards) via @ant-design/x-card, and user interactions flow back to the agent as answers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - a2ui
+  - agent-ui
+  - ant-design-x
+  - interactive-cards
+  - echarts
+  - mermaid
+  - katex
+source:
+  repository: https://github.com/baihui-ai/a2ui-render-in-dsh
+  repositoryNodeId: R_kgDOUCgVWw
+  subpath: null
+  commit: f37dd142f1b68cd94e474b95dd8aaddbdd2efecf
+creator:
+  github: baihui-ai
+package:
+  ecosystem: npm
+  name: a2ui-render-in-dsh
+  version: 0.1.2
+  integrity: sha512-dyiQMKnb65FZDi766Ns2uIrF+OXVw4PCHwsj9o1bb8+MmQ9Tkh4rOav1toux0hj3HQjgXJtlVc5n25TRHbReMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:11.905Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
