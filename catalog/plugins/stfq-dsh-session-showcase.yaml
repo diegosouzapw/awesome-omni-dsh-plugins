@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: stfq-dsh-session-showcase
+name: dsh-session-showcase
+description:
+  en: Turn DeepSeek Harness sessions into redacted, README-ready animated demos — as a local CLI or DSH plugin.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-plugin-demo
+  - ai-agent
+  - agent-session
+  - session-replay
+  - demo-generator
+  - agent-demo
+  - session-to-video
+  - animated-webp
+  - animated-gif
+  - github-readme
+  - redaction
+  - offline
+  - zero-token
+source:
+  repository: https://github.com/STFQ/dsh-showcase
+  repositoryNodeId: R_kgDOT9yTaw
+  subpath: null
+  commit: b2793049cc179500f0218f027ceb2130ad89a8ba
+creator:
+  github: STFQ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:59.171Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
