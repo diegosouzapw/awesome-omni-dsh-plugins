@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sleep-debt
+name: dsh-sleep-debt
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sleep-debt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sleep-debt
+source:
+  repository: https://github.com/uckkk/dsh-sleep-debt
+  repositoryNodeId: R_kgDOT-tEUg
+  subpath: null
+  commit: 1e979a3568edfac7cb7d6c31de65f613a80ee959
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:04.217Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
