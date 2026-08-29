@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ringoage-dsh-subagent-model-picker
+name: dsh-subagent-model-picker
+description:
+  en: "DSH web plugin: the visual, manual subagent-model picker beside the main model seat — predictable per-session routing with global coverage of every in-process subagent path, complementary to auto-routing plugins."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - subagent
+  - model-picker
+  - web-plugin
+source:
+  repository: https://github.com/ringoage/dsh-subagent-model-picker
+  repositoryNodeId: R_kgDOT5xVMw
+  subpath: null
+  commit: 771082e64f3a1a8a1ab8b2f4e44d073b3d27ea2b
+creator:
+  github: ringoage
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:02.912Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
