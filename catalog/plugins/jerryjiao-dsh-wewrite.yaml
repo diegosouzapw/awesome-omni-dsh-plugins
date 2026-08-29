@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jerryjiao-dsh-wewrite
+name: dsh-wewrite
+description:
+  en: WeChat official account AI writing pipeline as a DeepSeek Harness (DSH) plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - wechat
+  - official
+  - account
+  - writing
+  - pipeline
+  - dsh
+source:
+  repository: https://github.com/jerryjiao/dsh-wewrite
+  repositoryNodeId: R_kgDOT8i7sA
+  subpath: null
+  commit: 6d55f15ea20634f3f1f904b32bdb12e6eb17b963
+creator:
+  github: jerryjiao
+package:
+  ecosystem: npm
+  name: dsh-wewrite
+  version: 0.5.3
+  integrity: sha512-Yzd2OhZH7+vCfgOrkBY8BGhkLriXrD/DTRP37POSMCix0i5irIGHzC7DklgAdiErD0Tgs/9dr5DasQCwwi0mlw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:05.994Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
