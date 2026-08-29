@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uckkk-dsh-git-commit
+name: dsh-git-commit
+description:
+  en: bash dsh plugin add dsh-git-commit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - conventional-commits
+  - changelog
+  - semver
+source:
+  repository: https://github.com/uckkk/dsh-git-commit
+  repositoryNodeId: R_kgDOT59a_A
+  subpath: null
+  commit: 1dcf62ff77406c2fe8573ef0d96811fa9a690aef
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-git-commit
+  version: 0.1.0
+  integrity: sha512-OOnC53r1Pic0U1SNA8wrbPyVzOx5lNzFCq7hxYmc4+H8Kb3p1MMTn03FElQODWXU4xex6b2jv0KPIVdzBL3wKQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:44.944Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
