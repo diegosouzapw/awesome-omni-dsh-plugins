@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: openqht-dsh-llm-as-a-verifier
+name: dsh-llm-as-a-verifier
+description:
+  en: "LLM-as-a-Verifier for DeepSeek Harness: fine-grained reward, Probabilistic Pivot Tournament best-of-N selection, and per-step progress tracking as agent tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - llm-verifier
+  - verification
+  - reward-model
+  - best-of-n
+  - cordis
+source:
+  repository: https://github.com/TaurenMountain/dsh-llm-as-a-verifier
+  repositoryNodeId: R_kgDOT-cAuQ
+  subpath: null
+  commit: 4d69526bea516583658f53b42ada25d8efa70796
+creator:
+  github: openqht
+package:
+  ecosystem: npm
+  name: dsh-llm-as-a-verifier
+  version: 0.1.1
+  integrity: sha512-Fm5V2KaoeSjDFovkMKQbXxjpwsCHD7SrJ9ywvEVr2WFLCv85IOCuBPQevQE8ghCgrs7D8cOjJiDimxHwaZ/xMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:13.501Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
