@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: iceapriler-dsh-remote-mobile
+name: dsh-remote-mobile
+description:
+  en: bash dsh plugin --profile web add dsh-remote-mobile
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - tailscale
+  - remote-access
+  - mobile
+  - cordis-plugin
+  - auth
+source:
+  repository: https://github.com/IceApriler/dsh-remote-mobile
+  repositoryNodeId: R_kgDOT_9O2Q
+  subpath: null
+  commit: d29dfa5a3a1b8ea2f0709b6b376481cea3d6e6bd
+creator:
+  github: IceApriler
+package:
+  ecosystem: npm
+  name: dsh-remote-mobile
+  version: 1.4.2
+  integrity: sha512-4JZ4DY8GPbzbsFybQcni/mrFFzjdbYrj1bpognP+DC5o75RGKX5zJfKm3GQ2BJFa91V+hbQIFH316FfaFTR5TA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:47.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
