@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: niya193-dsh-liangxiang
+name: dsh-liangxiang
+description:
+  en: bash export DSH HOME="$HOME/.dsh" npx --yes @deepseek-ai/dsh plugin --profile web add dsh-liangxiang npx --yes @deepseek-ai/dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - liangxiang
+source:
+  repository: https://github.com/liang-today/dsh-liangxiang
+  repositoryNodeId: R_kgDOT5kqKw
+  subpath: null
+  commit: 8516d5ee50a6cba27e2afe0e35b8c3fa8284fc50
+creator:
+  github: NiYa193
+package:
+  ecosystem: npm
+  name: dsh-liangxiang
+  version: 1.0.0
+  integrity: sha512-qglqjhZuMAQDM6FaPURtJcv8VUMjRF1EoDCh8VcEQM1h2p+mF29JNcf2OH1vDw41kP1YIwH/mZIXdaey1L7ZMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:08.979Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
