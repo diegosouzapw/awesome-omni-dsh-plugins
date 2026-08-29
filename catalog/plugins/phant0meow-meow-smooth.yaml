@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: phant0meow-meow-smooth
+name: meow-smooth
+description:
+  en: 前置要求：dsh（DeepSeek Harness）0.x、Node.js ≥ 22。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - fold
+  - composer
+  - sidebar
+  - mobile
+source:
+  repository: https://github.com/Phant0Meow/dsh-meow-smooth
+  repositoryNodeId: R_kgDOT9188w
+  subpath: null
+  commit: c7bbe6f0419a5a2ca9f3e9eb62003d693735cdd6
+creator:
+  github: Phant0Meow
+package:
+  ecosystem: npm
+  name: meow-smooth
+  version: 0.5.0
+  integrity: sha512-1znMsoXIykX/QqlU8s99rmesS/Z+CDGn5E+wSiE/v6SwRVDU9yCS9ZqgFNJVtd/6kaW3MfU2S8wxe7i3jYoo1A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:41.860Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 28
+provenance:
+  discussion: null
+  comment: null
