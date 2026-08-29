@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: daizihan233-dsh-my-go
+name: dsh-my-go
+description:
+  en: "DSH plugin: Sisyphus agent orchestration — star topology, single-line blocking, 7 specialist sub-agents (Hermes/Explore/Librarian/Looker/Hephaestus/Prometheus/Oracle) with per-type model binding, go work/continue/need help/forward communication tools, Web UI tree panel and settings."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - agent
+  - orchestration
+  - sisyphus
+  - subagent
+  - multi-agent
+source:
+  repository: https://github.com/daizihan233/dsh-my-go
+  repositoryNodeId: R_kgDOT-NRqA
+  subpath: null
+  commit: 471f115c36086ce21ac4c8c93974d94a5577dccf
+creator:
+  github: daizihan233
+package:
+  ecosystem: npm
+  name: dsh-my-go
+  version: 0.3.0
+  integrity: sha512-IA1w7sar8oq1GRZIaloB7gr/DNOGeclFiSBANO7E9OKV0Xz1R+sYcj/f2d7IbOBw3poQ0Iip0GMXeJ47O701kg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:46.637Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
