@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-capitalize
+name: dsh-capitalize
+description:
+  en: bash dsh plugin add github:uckkk/dsh-capitalize
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-capitalize
+source:
+  repository: https://github.com/uckkk/dsh-capitalize
+  repositoryNodeId: R_kgDOT9t95A
+  subpath: null
+  commit: 658ad5811ef7a906d6bf171c0fd5ba0f2eb637ce
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:48.573Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
