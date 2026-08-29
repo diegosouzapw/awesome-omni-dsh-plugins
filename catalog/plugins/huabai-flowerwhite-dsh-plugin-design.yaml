@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: huabai-flowerwhite-dsh-plugin-design
+name: dsh-plugin-design
+description:
+  en: text dsh-plugin-design/ ├── install.ps1 / install.sh 一键安装（node modules 链接 + cordis.patch.yml insert） ├── package.json npm 包：exports + dsh.client + dsh.bundle + scripts.test ├── dsh.plugin.yaml DH-TP-SDK manifest ├── cordis.patch.yml 挂载参考：host composition insert row ├── README.md / design.md / LICENSE / .gitignore ├── l
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - text
+  - design
+  - install
+  - node
+  - modules
+  - cordis
+  - patch
+  - insert
+  - package
+  - json
+  - exports
+  - client
+  - bundle
+  - scripts
+  - test
+  - yaml
+source:
+  repository: https://github.com/huabai-flowerwhite/dsh-plugin-design
+  repositoryNodeId: R_kgDOT_G2YA
+  subpath: null
+  commit: 8bd6ca54c1879f2074a3cb193eb419f4b18b2fc7
+creator:
+  github: huabai-flowerwhite
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:13.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
