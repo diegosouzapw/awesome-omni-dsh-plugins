@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: junkrat9527-dsh-autovision
+name: "@iroam2375/dsh-autovision"
+description:
+  en: "dsh auto-vision bridge: paste an image into a text-only model's composer and a configured multimodal model transcribes it as text, automatically."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - vision
+  - image
+  - multimodal
+  - ocr
+source:
+  repository: https://github.com/Junkrat9527/dsh-autovision
+  repositoryNodeId: R_kgDOT8PV6g
+  subpath: null
+  commit: d6e9b13d5155a920d2228c90a6d450e167616440
+creator:
+  github: Junkrat9527
+package:
+  ecosystem: npm
+  name: "@iroam2375/dsh-autovision"
+  version: 0.1.0
+  integrity: sha512-hTu8Fnb+J4CUEzgvYTz+pYlvQr4UVQjTRryrb7ce4JXy6Pmea41sueMKu6Yn8nYzGZyS7QKVHYXhIpztu7fweg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:26.638Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
