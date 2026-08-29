@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-average
+name: dsh-average
+description:
+  en: bash dsh plugin add github:uckkk/dsh-average
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-average
+source:
+  repository: https://github.com/uckkk/dsh-average
+  repositoryNodeId: R_kgDOT9uCeA
+  subpath: null
+  commit: 87a7e29bf04fdd6e53c51ecf9b86fd8142cb8dad
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:35.496Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
