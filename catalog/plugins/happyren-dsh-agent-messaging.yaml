@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: happyren-dsh-agent-messaging
+name: dsh-agent-messaging
+description:
+  en: "Cross-session agent-to-agent messaging for DeepSeek Harness: claims, verification and a decision ledger, so two agent sessions don't repeat, contradict or deadlock each other."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent
+  - agents
+  - multi-agent
+  - agent-to-agent
+  - messaging
+  - cross-session
+  - coordination
+  - a2a
+source:
+  repository: https://github.com/happyren/dsh-agent-messaging
+  repositoryNodeId: R_kgDOT3ehzQ
+  subpath: null
+  commit: cd295a5daa13b301e4e2f5a6164ff28bddd6acf2
+creator:
+  github: happyren
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:06.302Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
