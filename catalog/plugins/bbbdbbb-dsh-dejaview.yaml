@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: bbbdbbb-dsh-dejaview
+name: dsh-dejaview
+description:
+  en: A DeepSeek Harness tool that checks whether a similar dsh plugin already exists before you build one, by searching the awesome-dsh-plugin registry and the dsh-plugin GitHub topic.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dejaview
+  - novelty-check
+  - duplicate-detection
+  - dsh
+source:
+  repository: https://github.com/jiang4wqy/dsh-dejaview
+  repositoryNodeId: R_kgDOT8KAOA
+  subpath: null
+  commit: 0a64c03abcf672ec346950064a9a22b9fa3f315b
+creator:
+  github: bbbdbbb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:50.070Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
