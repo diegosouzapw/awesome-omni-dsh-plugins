@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: baixianger-dsh-network
+name: dsh-network
+description:
+  en: Secure LAN, Tailnet, and remote connectivity for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - network
+  - p2p
+  - quic
+  - iroh
+source:
+  repository: https://github.com/baixianger/dsh-network
+  repositoryNodeId: R_kgDOT7kG4Q
+  subpath: null
+  commit: 2a4868fe6f742643361dff12c1c23b059a4d1e2f
+creator:
+  github: baixianger
+package:
+  ecosystem: npm
+  name: dsh-network
+  version: 0.1.0-rc.7
+  integrity: sha512-cWNh4SfxjteBTG7TgwPRpew6CSav+5sLuwU7gXto4/MH8mxoRwmBEN8yDQ9Mrq0JeZPvvEX+27BVqH0snicaJg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:21.728Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
