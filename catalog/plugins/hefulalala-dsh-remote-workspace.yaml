@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: hefulalala-dsh-remote-workspace
+name: "@dsh-external/dsh-remote-workspace"
+description:
+  en: A plugin for DSH that brings SSH/SFTP remote workspaces into the workspace sidebar — alongside your local directories.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - brings
+  - sftp
+  - remote
+  - workspaces
+  - workspace
+  - sidebar
+  - alongside
+  - local
+  - directories
+  - dsh
+source:
+  repository: https://github.com/Hefulalala/dsh-remote-workspace
+  repositoryNodeId: R_kgDOT6r3tA
+  subpath: null
+  commit: ae07df0bea8989914ce70e997d182d3fae3be953
+creator:
+  github: Hefulalala
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:28.020Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
