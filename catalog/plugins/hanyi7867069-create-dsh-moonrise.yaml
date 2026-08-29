@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: hanyi7867069-create-dsh-moonrise
+name: dsh-moonrise
+description:
+  en: 月升 Moonrise — a warm amber-on-midnight theme for the DeepSeek Harness Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - moonrise
+  - dsh
+source:
+  repository: https://github.com/hanyi7867069-create/dsh-moonrise
+  repositoryNodeId: R_kgDOT7A3jA
+  subpath: null
+  commit: 4e8029680754eafa5fa738fea3f03ac2c605c138
+creator:
+  github: hanyi7867069-create
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:59.263Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
