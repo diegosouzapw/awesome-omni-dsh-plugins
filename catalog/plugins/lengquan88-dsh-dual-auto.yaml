@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lengquan88-dsh-dual-auto
+name: "@lengquan88/dsh-dual-auto"
+description:
+  en: Dual-model auto-routing plugin for the DeepSeek Harness (dsh).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dual
+  - model
+  - auto
+  - routing
+  - dsh
+source:
+  repository: https://github.com/lengquan88/dsh-dual-auto
+  repositoryNodeId: R_kgDOT_3eEA
+  subpath: null
+  commit: 79585271cc01621ec73d9b6c6d82e832c4b8b462
+creator:
+  github: lengquan88
+package:
+  ecosystem: npm
+  name: "@lengquan88/dsh-dual-auto"
+  version: 0.1.2
+  integrity: sha512-ENQM0DAYTBvR86njPrwq4iida7fqneoYZeYk+Y+9kowzXKGFrtF9yO3quYiw0yHXUyv2t9Bk4kwDlVsNzRNI2g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:15.721Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
