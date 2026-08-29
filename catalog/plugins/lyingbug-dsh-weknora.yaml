@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lyingbug-dsh-weknora
+name: "@wxg-prc-cpg/dsh-weknora"
+description:
+  en: "WeKnora knowledge retrieval tools for DeepSeek Harness (dsh): semantic search, document reading and RAG/agent answers over your own knowledge bases."
+  evidencePath: packages/dsh-weknora/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - weknora
+  - rag
+  - retrieval
+  - knowledge-base
+source:
+  repository: https://github.com/Tencent/WeKnora
+  repositoryNodeId: R_kgDOPQrONg
+  subpath: packages/dsh-weknora
+  commit: 8486912b48e6388eca7b20e4cca56c36bdf09563
+creator:
+  github: lyingbug
+package:
+  ecosystem: npm
+  name: "@wxg-prc-cpg/dsh-weknora"
+  version: 0.1.0
+  integrity: sha512-L6q32rNrDBU3Q8xE0SGYMlieC8sKswrp5GOslGka4UnH+f4boxLXLLMgkceE+Ub/c+C2tQ2rsaHXky9bO3pXlw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-weknora/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:49.872Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
