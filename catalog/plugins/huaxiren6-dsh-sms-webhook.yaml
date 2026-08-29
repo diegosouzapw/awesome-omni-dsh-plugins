@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: huaxiren6-dsh-sms-webhook
+name: dsh-sms-webhook
+description:
+  en: "SMS forwarding webhook for DeepSeek Harness: receives pushes from SMS Forwarder apps, stores them, and exposes sms recent / sms search tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - sms
+  - webhook
+source:
+  repository: https://github.com/huaxiren6/DSH-SmsWebhook
+  repositoryNodeId: R_kgDOT-8eFg
+  subpath: null
+  commit: fce8fad0c76c11076bc3b79af256f1fca9366172
+creator:
+  github: huaxiren6
+package:
+  ecosystem: npm
+  name: dsh-sms-webhook
+  version: 0.1.2
+  integrity: sha512-186rrvPZYW9tVMVK5z6ztzr9mv63akEkzqYNdj9o6spiTVq1KJJxcg0gnPjT+9RQjWsCdefH45TeCaE+9/40kQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:29.156Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
