@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-trip-itinerary
+name: dsh-trip-itinerary
+description:
+  en: bash dsh plugin add github:uckkk/dsh-trip-itinerary
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-trip-itinerary
+source:
+  repository: https://github.com/uckkk/dsh-trip-itinerary
+  repositoryNodeId: R_kgDOT-tesQ
+  subpath: null
+  commit: f0340cff3f0804e0606ada84ca99c491e3310bb8
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:58.251Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
