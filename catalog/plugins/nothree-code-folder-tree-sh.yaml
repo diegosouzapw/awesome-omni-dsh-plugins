@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: nothree-code-folder-tree-sh
+name: folder-tree-sh
+description:
+  en: "Persistent workspace file tree for DSH Web: explorer + preview (text/docx/image/PDF/Markdown/CSV), multi-tab, inline editing, Git changes panel, file operations (rename/delete/copy/move/create), search filter, sorting"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - persistent
+  - workspace
+  - file
+  - tree
+  - explorer
+  - preview
+  - text
+  - docx
+  - image
+  - markdown
+  - multi
+  - inline
+  - editing
+  - changes
+  - panel
+  - operations
+source:
+  repository: https://github.com/Nothree-code/folder-tree-sh
+  repositoryNodeId: R_kgDOT42Jsg
+  subpath: null
+  commit: bd26b1635ae0b55ad0471d71f0fcda8cd27d769c
+creator:
+  github: Nothree-code
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:47.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
