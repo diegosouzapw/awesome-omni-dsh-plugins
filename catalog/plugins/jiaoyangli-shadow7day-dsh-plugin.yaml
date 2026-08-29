@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jiaoyangli-shadow7day-dsh-plugin
+name: "@aen/dsh-plugin"
+description:
+  en: DeepSeek Harness Cordis plugin for low-frequency AEN live manifests
+  evidencePath: packages/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - cordis
+  - frequency
+  - live
+  - manifests
+  - dsh
+source:
+  repository: https://github.com/symmetryseeker/dsh-akn-plugin
+  repositoryNodeId: R_kgDOT7-iLQ
+  subpath: packages/dsh-plugin
+  commit: 1fef6c849b89d9c4e499055cb4c26713c956fe76
+creator:
+  github: jiaoyangli-shadow7day
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:13.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
