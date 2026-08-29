@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uknowmyface-dsh-tool-screenshot-ocr
+name: "@locallens/dsh-tool-screenshot-ocr"
+description:
+  en: "macOS Vision OCR tool plugin for DeepSeek Harness: read text from screen capture, clipboard images, or image files (zh-Hans + en-US). Unofficial community project."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - ocr
+  - macos
+  - vision
+  - dsh
+source:
+  repository: https://github.com/uknowmyface/locallens
+  repositoryNodeId: R_kgDOT4qjZg
+  subpath: null
+  commit: 22099c5ccee08c002e8c55e771e9e87632ba5222
+creator:
+  github: uknowmyface
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:36.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/uknowmyface/locallens/22099c5ccee08c002e8c55e771e9e87632ba5222/docs/demo.gif
+    alt: Screenshot a region, ask in the chat box, get the text back
