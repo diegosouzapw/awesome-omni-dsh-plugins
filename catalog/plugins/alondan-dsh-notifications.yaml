@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: alondan-dsh-notifications
+name: dsh-notifications
+description:
+  en: Sound notifications for DSH agent interactions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - sound
+  - notifications
+  - agent
+  - interactions
+  - dsh
+source:
+  repository: https://github.com/AlonDan/dsh-notifications
+  repositoryNodeId: R_kgDOUEyU9Q
+  subpath: null
+  commit: 9f59e38c15dec27b0f2ff92afee1857940d71b5d
+creator:
+  github: AlonDan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:33.575Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
