@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lak321-dsh-filetree
+name: dsh-filetree
+description:
+  en: "DSH bundle: workspace file-tree sidebar — browse/edit project files via /api/filetree (host) + client UI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bundle
+  - workspace
+  - file
+  - tree
+  - sidebar
+  - browse
+  - edit
+  - files
+  - filetree
+  - host
+  - client
+  - dsh
+source:
+  repository: https://github.com/lak321/dsh-filetree
+  repositoryNodeId: R_kgDOT5ZjfQ
+  subpath: null
+  commit: 039700268865a86c1455820831e55892f8d7775c
+creator:
+  github: lak321
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:01.552Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
