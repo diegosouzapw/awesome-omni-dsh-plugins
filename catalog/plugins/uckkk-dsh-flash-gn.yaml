@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-flash-gn
+name: dsh-flash-gn
+description:
+  en: bash dsh plugin add github:uckkk/dsh-flash-gn
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-flash-gn
+source:
+  repository: https://github.com/uckkk/dsh-flash-gn
+  repositoryNodeId: R_kgDOT-Dasw
+  subpath: null
+  commit: e5384d3cb42c90de430b0da04e2107ce60ba43c2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:27.006Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
