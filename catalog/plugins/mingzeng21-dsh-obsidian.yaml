@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mingzeng21-dsh-obsidian
+name: dsh-obsidian
+description:
+  en: "Connect DeepSeek Harness (dsh) to a local Obsidian vault: search, read, write, move, and trash notes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - obsidian
+  - deepseek-harness
+source:
+  repository: https://github.com/mingzeng21/dsh-obsidian
+  repositoryNodeId: R_kgDOT5vWvg
+  subpath: null
+  commit: 4eeec8d525330b94545acde965cfc12cd399eb79
+creator:
+  github: mingzeng21
+package:
+  ecosystem: npm
+  name: dsh-obsidian
+  version: 0.2.2
+  integrity: sha512-S+0QdIE0LzHn0RDajkRFfy77YX0NdWKXE8/o1KVDocxeadrgxVOccnCIWmr49t6JP7AeUUIIH33+sVpKPYnDOg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.367Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
