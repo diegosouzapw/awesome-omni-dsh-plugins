@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: log-li-dsh-automode
+name: "@log.li/dsh-automode"
+description:
+  en: "CC-style auto mode for DeepSeek Harness: deterministic deny/allow rules + pre-execute gate + model-agnostic two-stage classifier. Two-state (allow/reject) classifier since 0.8.0. TypeScript rewrite merging dsh-auto-mode v0.4.1 with Nuo-cl/dsh-auto-mode native integration."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - auto-mode
+  - approval
+  - classifier
+  - permissions
+  - dsh
+source:
+  repository: https://github.com/log-li/dsh-automode
+  repositoryNodeId: R_kgDOT_0XCA
+  subpath: null
+  commit: 148650e9a43d30087b5764e34a4b59699d78938e
+creator:
+  github: log-li
+package:
+  ecosystem: npm
+  name: "@log.li/dsh-automode"
+  version: 0.8.0
+  integrity: sha512-wyD8r8UxLLF5DTjuBaBsTDyJZnBFjNc3tWf93SARt/6m/3PXLhhaKFyyeEWZHEtonQ7lxMR8Y4CVJqjpNhCv6g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:31.697Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
