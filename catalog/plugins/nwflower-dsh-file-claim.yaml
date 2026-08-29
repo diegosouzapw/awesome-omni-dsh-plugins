@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: nwflower-dsh-file-claim
+name: dsh-file-claim
+description:
+  en: "Write in parallel, never overwrite — file claim / protection for concurrent DeepSeek Harness (DSH) sessions working the same workspace: claim/release, heartbeat stale takeover, and an async pending merge area (git 3-way merge)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - host-plugin
+  - file-claim
+  - file-lock
+  - file-protection
+  - concurrency
+  - parallel-sessions
+  - parallel-agents
+  - coordination
+  - session-coordination
+  - merge
+  - 3-way-merge
+  - pending-merge
+source:
+  repository: https://github.com/Nwflower/dsh-file-claim
+  repositoryNodeId: R_kgDOT39Vmw
+  subpath: null
+  commit: 50f60f3b02485af99c5425574b5fd94b370b793f
+creator:
+  github: Nwflower
+package:
+  ecosystem: npm
+  name: dsh-file-claim
+  version: 0.1.7
+  integrity: sha512-AILTRlOVgQ4ZBEi2g1aGvTYCiTrbFWNiY6sruE9TzCw9toubOgMlSnbs66XzoQV5r88hKswtKhkXRkxQVo2Q8A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:45.175Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
