@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: kiligzzz-dsh-session-archive
+name: "@kiligzzz/dsh-session-archive"
+description:
+  en: "A DeepSeek Harness Web-plugin that surfaces the registry-global archived-session set: list archived sessions in the sidebar and restore (unarchive) them."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - surfaces
+  - registry
+  - global
+  - archived
+  - session
+  - list
+  - sessions
+  - sidebar
+  - restore
+  - unarchive
+  - dsh
+source:
+  repository: https://github.com/kiligzzz/dsh-session-archive
+  repositoryNodeId: R_kgDOT9CGAQ
+  subpath: null
+  commit: 5a1cd4560c41ceff2242113f362e87ee1bd998a8
+creator:
+  github: kiligzzz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:36.894Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
