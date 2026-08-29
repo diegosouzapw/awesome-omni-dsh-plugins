@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-json-to-sql
+name: dsh-json-to-sql
+description:
+  en: bash dsh plugin add dsh-json-to-sql 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-to-sql" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - sql
+  - insert
+source:
+  repository: https://github.com/uckkk/dsh-json-to-sql
+  repositoryNodeId: R_kgDOT6NdIg
+  subpath: null
+  commit: 4024409ee727e7210de13b57ef0dc1dff81b47ab
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-to-sql
+  version: 0.1.0
+  integrity: sha512-C1SORp4VBX5hFclWiT13DrdU4xdfL6CpJxYTUDOtBXKOpGat8u77oTcDWcFcRYE9xs+NsugMPIaZh9x48CjN8A==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:16.296Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
