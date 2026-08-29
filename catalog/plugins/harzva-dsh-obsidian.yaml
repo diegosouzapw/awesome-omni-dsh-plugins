@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: harzva-dsh-obsidian
+name: "@harness-flow/dsh-obsidian"
+description:
+  en: "DSH-native Obsidian bridge: index local projects into a vault and build a wiki-link knowledge graph"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - obsidian
+  - knowledge-graph
+  - vault
+  - local-first
+source:
+  repository: https://github.com/Harzva/dsh-obsidian
+  repositoryNodeId: R_kgDOT9ebPQ
+  subpath: null
+  commit: c1ecb59f3de64c2fab60a43fc2c792fca17a83f6
+creator:
+  github: Harzva
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:04.433Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
