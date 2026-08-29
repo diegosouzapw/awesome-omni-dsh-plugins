@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sodazilla-zzz-dsh-liquid-glass-balance-card
+name: dsh-liquid-glass-balance-card
+description:
+  en: "DeepSeek Harness (DSH) web GUI plugin: a draggable liquid-glass floating card showing DeepSeek API balance, cumulative spend and token usage in the top-right corner."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - balance
+  - quota
+  - liquid-glass
+  - draggable
+source:
+  repository: https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card
+  repositoryNodeId: R_kgDOT52PUA
+  subpath: null
+  commit: 3fbca87bf6d68af66f1669c592bae1e6e6ab4463
+creator:
+  github: SoDaZilla-zzz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.896Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
