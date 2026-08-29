@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-print-dpi
+name: dsh-print-dpi
+description:
+  en: bash dsh plugin add github:uckkk/dsh-print-dpi
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-print-dpi
+source:
+  repository: https://github.com/uckkk/dsh-print-dpi
+  repositoryNodeId: R_kgDOT-Dj9Q
+  subpath: null
+  commit: 0b05d544cc92e713baa047f3789eb3f4d6b020f3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:53.708Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
