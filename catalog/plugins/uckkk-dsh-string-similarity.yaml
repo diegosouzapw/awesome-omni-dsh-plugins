@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-string-similarity
+name: dsh-string-similarity
+description:
+  en: bash dsh plugin add dsh-string-similarity 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-string-similarity" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - string
+  - similarity
+source:
+  repository: https://github.com/uckkk/dsh-string-similarity
+  repositoryNodeId: R_kgDOT6MlSg
+  subpath: null
+  commit: 10d8dc0f9d6685e0304c0fabba7cfc13c108c90c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:12.692Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
