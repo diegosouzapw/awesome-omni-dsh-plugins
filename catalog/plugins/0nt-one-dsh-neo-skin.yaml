@@ -1,5 +1,5 @@
 schemaVersion: 1
-id: crazygummies-dsh-neo-skin
+id: 0nt-one-dsh-neo-skin
 name: dsh-neo-skin
 description:
   en: Neo-brutalism skin for DeepSeek Harness Web UI — stacks hard-border / high-contrast --dsw-alias- token overrides (DS-native blue + black-white + green + orange) on top of the built-in light/dark palettes.
@@ -20,7 +20,7 @@ source:
   subpath: null
   commit: fe5ef0e671fab5ab8c8700013f3966eb9642455f
 creator:
-  github: CrazyGummies
+  github: 0nt-one
 package:
   ecosystem: source
 dsh:
