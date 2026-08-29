@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: icycreamdas-shidi-dsh-plugin
+name: shidi-dsh-plugin
+description:
+  en: "AI-for-Science research workflow skill bundle for DeepSeek Harness: multi-angle literature review with per-angle files, anchored experiment design with a caveat list, figures, paper reading; cross-verification briefs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - skills
+  - research
+  - literature-review
+  - experiment-design
+  - ai4s
+  - ai-for-science
+  - research-agent
+  - academic-research
+  - science-agent
+source:
+  repository: https://github.com/IcyCreamDAS/shidi-skill
+  repositoryNodeId: R_kgDOTsRh8g
+  subpath: null
+  commit: 003509b684b59d8be1caa325db03c4626cf39b6e
+creator:
+  github: IcyCreamDAS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:05.258Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
