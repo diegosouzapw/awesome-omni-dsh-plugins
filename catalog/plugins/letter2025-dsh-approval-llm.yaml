@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: letter2025-dsh-approval-llm
+name: dsh-approval-llm
+description:
+  en: "Model-based permission approval (approve-for-me) for DeepSeek Harness: an approval/request answerer backed by a separate reviewer model"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - approval
+  - permission
+  - approve-for-me
+source:
+  repository: https://github.com/Letter2025/dsh-approval-llm
+  repositoryNodeId: R_kgDOT4GIUg
+  subpath: null
+  commit: 0ff09867402b1090b21225df1f8c802a328a53a7
+creator:
+  github: Letter2025
+package:
+  ecosystem: npm
+  name: dsh-approval-llm
+  version: 0.1.4
+  integrity: sha512-D/L5K2c96Pb0LhIkxbojXj2gZxxZzjTdASvJh6pE0wh5zeZceBjfVj1SErGZpOJ0IlyFdK0kfTEZjnGsveLiuQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:48:59.335Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
