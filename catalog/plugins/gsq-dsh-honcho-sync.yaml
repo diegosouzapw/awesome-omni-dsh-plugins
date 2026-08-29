@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: gsq-dsh-honcho-sync
+name: "@nanpaidashi/dsh-honcho-sync"
+description:
+  en: Honcho Memory Plugin for DeepSeek Harness — persistent AI memory with auto-sync, hybrid recall, and 25 API tools
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - honcho
+  - memory
+  - persistent-memory
+  - ai-memory
+source:
+  repository: https://github.com/nanpaidashi/dsh-honcho-sync
+  repositoryNodeId: R_kgDOT5XmqQ
+  subpath: null
+  commit: 83e77920c915aea05beebb7504b3bd38c5028a27
+creator:
+  github: gsq
+package:
+  ecosystem: npm
+  name: "@nanpaidashi/dsh-honcho-sync"
+  version: 0.8.1
+  integrity: sha512-YGWrrIDakgOt4GoyRQ/1q27NFCABa455AyavUmpG/UVB2d6HGGBuB00BFyoNtaIT9mErbI/BPK84qCjdnPL+BQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:39.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
