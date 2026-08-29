@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lunw-shopline-ai-toolkit-dsh
+name: shopline-ai-toolkit-dsh
+description:
+  en: "SHOPLINE AI Toolkit for DeepSeek Harness (DSH): bridges the official SHOPLINE Developer MCP server and ships SHOPLINE agent skills, mirroring the Shopify AI Toolkit architecture. dsh-plugin."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - shopline
+  - ai-toolkit
+  - mcp
+  - model-context-protocol
+  - ecommerce
+  - openapi
+  - graphql
+  - sline
+source:
+  repository: https://github.com/lunw/shopline-ai-toolkit-dsh
+  repositoryNodeId: R_kgDOT3jK1A
+  subpath: null
+  commit: e2d47a6c9a0d75865ad8bb089118ce0dfee9b594
+creator:
+  github: lunw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:16.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
