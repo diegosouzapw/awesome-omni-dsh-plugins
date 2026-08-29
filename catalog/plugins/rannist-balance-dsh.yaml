@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: rannist-balance-dsh
+name: balance-dsh
+description:
+  en: powershell cd C:\Users\<你的用户名 \.dsh\profiles\desktop pnpm add balance-dsh
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - balance
+  - usage
+  - cost
+  - token
+  - billing
+source:
+  repository: https://github.com/Rannist/balance-dsh
+  repositoryNodeId: R_kgDOUB5dHw
+  subpath: null
+  commit: 2f83039cb4517b10cf142480684d8f633d33f232
+creator:
+  github: Rannist
+package:
+  ecosystem: npm
+  name: balance-dsh
+  version: 1.0.3
+  integrity: sha512-/RIlhhIvvNVEbx/WAf/PhGPT0HWp+0+iydCubqMMwXHkVK0NlOs7cvfIvTKGu+TTJGgn6iTM5RNU8v7+/Ve5Aw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:59.805Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
