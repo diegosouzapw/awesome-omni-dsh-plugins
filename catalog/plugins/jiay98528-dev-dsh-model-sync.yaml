@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jiay98528-dev-dsh-model-sync
+name: dsh-model-sync
+description:
+  en: Write live provider model lists into DSH settings. Composer rings show 5h/7d plan windows or metered balance since the last top-up for the current session model.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - models
+  - quota
+source:
+  repository: https://github.com/jiay98528-dev/dsh-model-sync
+  repositoryNodeId: R_kgDOT5EIXg
+  subpath: null
+  commit: 4b96dfa1e1d188379f6482e65dadb4fb265104fe
+creator:
+  github: jiay98528-dev
+package:
+  ecosystem: npm
+  name: dsh-model-sync
+  version: 0.1.6
+  integrity: sha512-ms+GW/P+WMeD2H/NDamWFQgCno0KM+4rzGPltPKELpexG2rqneWOuivLnfoVO7tS95XMehQczaQWlFrARMWDlw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:09.560Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
