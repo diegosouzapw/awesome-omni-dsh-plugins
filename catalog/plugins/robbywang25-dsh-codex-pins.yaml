@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: robbywang25-dsh-codex-pins
+name: dsh-codex-pins
+description:
+  en: Codex-style pinned sessions for DeepSeek Harness — a Pinned pane and a Recents pane, independently scrollable.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session-pin
+  - codex
+  - sidebar
+source:
+  repository: https://github.com/robbywang25/dsh-codex-pins
+  repositoryNodeId: R_kgDOUATP7g
+  subpath: null
+  commit: 881103f3aaa9cf5207476da948798083a801b70b
+creator:
+  github: robbywang25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:52.440Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
