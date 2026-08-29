@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: hyzyn-dsh-codegraph
+name: "@hyzyn/dsh-codegraph"
+description:
+  en: '<p align="center" <img src="https://img.shields.io/github/v/release/hyzyn/dsh-plugin-kit?style=flat-square" alt="Version" &nbsp; <img src="https://img.shields.io/github/stars/hyzyn/dsh-plugin-kit?style=flat-square" alt="Stars" &nbsp; <img src="https://img.shields.io/github/forks/hyzyn/dsh-plugin-kit?style=flat-square" '
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - align
+  - center
+  - shields
+  - release
+  - hyzyn
+  - style
+  - flat
+  - square
+  - version
+  - nbsp
+  - stars
+  - forks
+  - dsh
+source:
+  repository: https://github.com/hyzyn/dsh-plugin-kit
+  repositoryNodeId: R_kgDOT5MwSA
+  subpath: packages/codegraph
+  commit: 0316a0e180090774d76d73ee2782737a99e9ff2f
+creator:
+  github: hyzyn
+package:
+  ecosystem: npm
+  name: "@hyzyn/dsh-codegraph"
+  version: 0.1.4
+  integrity: sha512-l6mf1NbvcyDbOGgGOQiwz2FzJyDWgjJQ961xlpRvgeU2mtf8jzPI8H1HC2cuCQDMhyWKR7+Rfr99GstGaye1rA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/codegraph/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:56.366Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
