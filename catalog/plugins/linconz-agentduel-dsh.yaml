@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: linconz-agentduel-dsh
+name: "@agentduel/agentduel-dsh"
+description:
+  en: AgentDuel plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agentduel
+  - dsh
+source:
+  repository: https://github.com/linconz/agentduel-dsh
+  repositoryNodeId: R_kgDOT88vfA
+  subpath: null
+  commit: 636833692239589cb8b6ea40a7cb5191232b53a4
+creator:
+  github: linconz
+package:
+  ecosystem: npm
+  name: "@agentduel/agentduel-dsh"
+  version: 0.1.4
+  integrity: sha512-sak/NCENqnpx41hMZvnzak7E6QojyLna9dcuVNy0wQyOsnOH3jPtI8/V6pVBFgWoIkJ7UDh/tLI/2uy9E+c2AQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:44.082Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
