@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: groupwork888-dsh-plugin-archived-sessions
+name: dsh-plugin-archived-sessions
+description:
+  en: "Browse and read archived DeepSeek Harness sessions from a sidebar footer panel. Archiving in DSH hides a session from every grouping surface with no way back; this plugin gives those sessions a drawer and a read-only transcript reader. It is a viewer only: it cannot un-archive a session or reopen it in the main chat vi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - sessions
+  - archive
+  - sidebar
+  - dsh
+source:
+  repository: https://github.com/GroupWork888/dsh-plugin-archived-sessions
+  repositoryNodeId: R_kgDOUENAuw
+  subpath: null
+  commit: 2efffb1d0bf7b48b2a86092c65b623e9f9f641ba
+creator:
+  github: GroupWork888
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:49.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
