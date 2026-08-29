@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: nikoart-liu-dsh-open-in-x
+name: dsh-open-in-x
+description:
+  en: Open a DeepSeek Harness workspace in a file manager, terminal, or supported editor from the Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - open
+  - workspace
+  - file
+  - manager
+  - terminal
+  - supported
+  - editor
+  - dsh
+source:
+  repository: https://github.com/nikoart-liu/dsh-open-in-x
+  repositoryNodeId: R_kgDOUCb8nw
+  subpath: null
+  commit: 5f1eed57fee0d47993c25b13886e7514b080a604
+creator:
+  github: nikoart-liu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:05.933Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
