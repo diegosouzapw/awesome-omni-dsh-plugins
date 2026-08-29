@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-file-rename
+name: dsh-file-rename
+description:
+  en: bash dsh plugin add dsh-file-rename 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-file-rename" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - rename
+  - batch
+source:
+  repository: https://github.com/uckkk/dsh-file-rename
+  repositoryNodeId: R_kgDOT6GOkQ
+  subpath: null
+  commit: 1c25c881d7969632672ee8899f026c7812f2066f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-file-rename
+  version: 0.1.0
+  integrity: sha512-XHJUqMvpmVdRwbfSJiGXlxXKABqfC2SrSDKN8PSSjFpoQDXy0H5j9N4+rwXelN9/sEpS+bt4KmygDVsyPAKb3Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:38.435Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
