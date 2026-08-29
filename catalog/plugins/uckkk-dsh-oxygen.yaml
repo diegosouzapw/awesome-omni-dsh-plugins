@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-oxygen
+name: dsh-oxygen
+description:
+  en: bash dsh plugin add github:uckkk/dsh-oxygen
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-oxygen
+source:
+  repository: https://github.com/uckkk/dsh-oxygen
+  repositoryNodeId: R_kgDOT9vB6g
+  subpath: null
+  commit: 154e839fba29500774b94e804c6970813c5475e0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:45.561Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
