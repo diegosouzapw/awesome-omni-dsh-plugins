@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mask-frequency
+name: dsh-mask-frequency
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mask-frequency
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mask-frequency
+source:
+  repository: https://github.com/uckkk/dsh-mask-frequency
+  repositoryNodeId: R_kgDOT-sU7A
+  subpath: null
+  commit: 67ce31e4b85fa643cc95cff7b72fee19473b7629
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:27.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
