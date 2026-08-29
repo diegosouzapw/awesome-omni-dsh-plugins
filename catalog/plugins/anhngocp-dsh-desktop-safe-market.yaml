@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: anhngocp-dsh-desktop-safe-market
+name: dsh-desktop-safe-market
+description:
+  en: "A safety-first plugin marketplace for the DeepSeek Harness web GUI: a curated community shortlist, and an install that starts with a security review"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - marketplace
+source:
+  repository: https://github.com/bruc3van/dsh-desktop-safe-market
+  repositoryNodeId: R_kgDOT5YSsg
+  subpath: null
+  commit: 2c9fb46085dee8888b43de519affce88340994f0
+creator:
+  github: anhngocp
+package:
+  ecosystem: npm
+  name: dsh-desktop-safe-market
+  version: 0.2.16
+  integrity: sha512-lh6naC54CWCD48GqxBtsWowKofqbzSBPr1EUuS/sZtso++vmaIHrO5zOdh5nlp9JnreeL6i7FJPKg9UZYiuYcw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:03.172Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
