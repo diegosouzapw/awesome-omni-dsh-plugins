@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: flyhigao-dsh-produced-file-paths
+name: dsh-produced-file-paths
+description:
+  en: Show and copy absolute paths for files produced by DSH turns.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - file-paths
+  - clipboard
+source:
+  repository: https://github.com/flyhigao/dsh-produced-file-paths
+  repositoryNodeId: R_kgDOT-32JA
+  subpath: null
+  commit: ab469f82c0a7d8a38c6b9af178db0d4327654b1b
+creator:
+  github: flyhigao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:54.409Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
