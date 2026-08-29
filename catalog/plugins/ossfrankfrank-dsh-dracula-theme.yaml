@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ossfrankfrank-dsh-dracula-theme
+name: dsh-dracula-theme
+description:
+  en: "🧛 Dracula theme for DeepSeek Harness: the classic dark palette (plus the Soft variant) registered into the built-in theme runtime"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - dracula
+  - skin
+  - web-ui
+source:
+  repository: https://github.com/ossFrankFrank/dsh-dracula-theme
+  repositoryNodeId: R_kgDOT68WWQ
+  subpath: null
+  commit: b8c7e809043296485ebff870a4c705e9139b3d5f
+creator:
+  github: ossFrankFrank
+package:
+  ecosystem: npm
+  name: dsh-dracula-theme
+  version: 1.0.0
+  integrity: sha512-RI/LoRKTPmjko2UbmtWeq72lCy0+PEooMlWMDWOLmVyXaJXAQmVMB3dV3dnXlIQpsenHwkarnspUV3F/JgQh5w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:57.192Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
