@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: izz-blue-dsh-deepseek-usage-dashboard
+name: "@linxin666/dsh-deepseek-usage-dashboard"
+description:
+  en: Daily DeepSeek token usage dashboard and balance watch for DSH Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - daily
+  - token
+  - usage
+  - dashboard
+  - balance
+  - watch
+  - dsh
+source:
+  repository: https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard
+  repositoryNodeId: R_kgDOT4HhnA
+  subpath: null
+  commit: dd648b720dc528fb44486d518d3192509ca8a7f5
+creator:
+  github: izz-BLUE
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:19.368Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
