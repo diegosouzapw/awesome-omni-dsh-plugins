@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: tsingshitao-nuke-dsh-set-workspace
+name: dsh-set-workspace
+description:
+  en: "DSH plugin: right-click a folder in Windows File Explorer to open it as a DSH workspace (launches DSH if needed, creates the workspace, starts a session, and switches the DSH page to it)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - right
+  - click
+  - folder
+  - windows
+  - file
+  - explorer
+  - open
+  - workspace
+  - launches
+  - needed
+  - creates
+  - starts
+  - session
+  - switches
+  - page
+  - dsh
+source:
+  repository: https://github.com/tsingshitao-nuke/dsh-set-workspace
+  repositoryNodeId: R_kgDOT6J79w
+  subpath: null
+  commit: 50b40c28e75053c1bbfa8c3f7bf22770b09335f0
+creator:
+  github: tsingshitao-nuke
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:27.452Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
