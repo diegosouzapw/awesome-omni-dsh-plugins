@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ishuowang-dsh-rolehub-bridge
+name: dsh-rolehub-bridge
+description:
+  en: Native RoleHub discovery, verified role Sessions, and Agent Team Room integration for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - rolehub
+  - agent-role
+  - multi-agent
+  - agent-orchestration
+  - native-ui
+  - cordis
+source:
+  repository: https://github.com/ishuowang/dsh-rolehub-bridge
+  repositoryNodeId: R_kgDOT5K5KA
+  subpath: null
+  commit: a0444e4effc017c3683894beddbacf2058d2e47d
+creator:
+  github: ishuowang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:51.317Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
