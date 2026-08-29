@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jingzhao-l-iterate-plugin
+name: iterate-plugin
+description:
+  en: "dsh plugin that turns the iterate skill into an autonomous closed-loop harness: plan - parallel review xN - atomic fixes - validate - loop - auto-stop, plus a dry-run pure-review mode with multi-round convergence and a meta-review that audits the report and emits a final review report."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - iterate
+  - code-review
+  - autonomous
+  - dry-run
+  - cordis
+source:
+  repository: https://github.com/jingzhao-l/iterate-plugin
+  repositoryNodeId: R_kgDOT4Yn1g
+  subpath: null
+  commit: 8b2b7d05203576487f5fad53917b1d1b0fe9aa3a
+creator:
+  github: jingzhao-l
+package:
+  ecosystem: npm
+  name: iterate-plugin
+  version: 2.12.1
+  integrity: sha512-D8kGXTPiBh6nICgByGXJ0CNsThdGH75JwlfxgdJvhPxVEM6CrUsmwMMcu1v0+0GahZohTi4bVo/vwenOgoPstg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:42.835Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
