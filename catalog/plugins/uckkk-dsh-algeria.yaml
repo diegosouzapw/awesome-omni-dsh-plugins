@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-algeria
+name: dsh-algeria
+description:
+  en: bash dsh plugin add github:uckkk/dsh-algeria
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-algeria
+source:
+  repository: https://github.com/uckkk/dsh-algeria
+  repositoryNodeId: R_kgDOT-tYjQ
+  subpath: null
+  commit: 1ce0d56ac61c911c06aaf24bfd70ea0dc6c7228c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:23.520Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
