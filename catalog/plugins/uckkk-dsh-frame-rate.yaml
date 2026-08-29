@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-frame-rate
+name: dsh-frame-rate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-frame-rate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-frame-rate
+source:
+  repository: https://github.com/uckkk/dsh-frame-rate
+  repositoryNodeId: R_kgDOT-x9Jg
+  subpath: null
+  commit: 370d817c8faabece2179772e48f9387cbc2519b9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:40.373Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
