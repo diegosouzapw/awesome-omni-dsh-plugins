@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: itr-del-dsh-cue-bank
+name: dsh-cue-bank
+description:
+  en: "Cross-session memory cue bank for DeepSeek Harness: builds a persistent event-cue library (keywords, user language idiosyncrasies) and re-activates remembered event details on topic switches, mirroring human episodic recall."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - cue-bank
+  - cross-session
+  - context
+source:
+  repository: https://github.com/itr-del/dsh-cue-bank
+  repositoryNodeId: R_kgDOT5M9Cg
+  subpath: null
+  commit: 490ab615e6a486fbe8498335ed27d1210a57ab9d
+creator:
+  github: itr-del
+package:
+  ecosystem: npm
+  name: dsh-cue-bank
+  version: 0.1.0
+  integrity: sha512-/kD5InYp9bCi8IkBd6/eEPGG0lDgiqC0oOBLvcyqUee2FfqoelvRwFnq4/KG56XyGr7RJcvbnAVEwR9Px+3OSg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:56.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
