@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sisyphussq-dsh-openai-codex-oauth
+name: "@suqingsq/dsh-openai-codex-oauth"
+description:
+  en: ChatGPT subscription OAuth for DeepSeek Harness openai-codex, including silent browser login for dock and Settings.
+  evidencePath: packages/dsh-openai-codex-oauth/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - openai-codex
+  - oauth
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-openai-codex-oauth
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-openai-codex-oauth"
+  version: 0.2.0
+  integrity: sha512-SzoZg9kiCL1D5GybzCV40dTeZ9i0h7ileQEctnGpYa+yRGnhVWvY5lw0zMwo+irvGJGnmkda9rxU2ng049JfjQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-openai-codex-oauth/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
