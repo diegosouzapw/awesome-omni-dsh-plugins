@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: feng78-boop-dsh-thirteen-bg
+name: dsh-thirteen-bg
+description:
+  en: Animated and video live wallpaper for the DeepSeek Harness Web GUI — GIF, animated WebP/APNG and static PNG/JPEG images, plus MP4/WebM video backgrounds, with auto format detection, a dim slider, and UI chrome tone matching.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - wallpaper
+  - live-wallpaper
+  - animated-background
+  - video-background
+  - gif
+  - webp
+  - apng
+  - mp4
+  - webm
+  - web-ui
+source:
+  repository: https://github.com/feng78-boop/dsh-thirteen-bg
+  repositoryNodeId: R_kgDOT9DA6g
+  subpath: null
+  commit: a11e0d90eb0b81f3d880fd6bfd9d792d5101b15e
+creator:
+  github: feng78-boop
+package:
+  ecosystem: npm
+  name: dsh-thirteen-bg
+  version: 0.5.2
+  integrity: sha512-ByWnQPKVUkaN7DQPSr14FB99o7phAbAV7D0IKStbY1V0YRP9Oqd60k7saCncpbkr21jPhQ5jSC3deIobxDZnsA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:21.650Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
