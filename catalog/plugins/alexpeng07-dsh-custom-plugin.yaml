@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: alexpeng07-dsh-custom-plugin
+name: "@alexpeng/dsh-custom-plugin"
+description:
+  en: "Custom convenience suite for the dsh web GUI: background colors with weather FX, liquid glass, a per-user-message timeline rail with stars and branching, multi-level project folders, prompt library, conversation export (JSON / Markdown / PDF-with-images), Mermaid rendering, quote reply, DeepSeek balance and daily token"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - custom
+  - convenience
+  - suite
+  - background
+  - colors
+  - weather
+  - liquid
+  - glass
+  - user
+  - message
+  - timeline
+  - rail
+  - stars
+  - branching
+  - multi
+  - level
+source:
+  repository: https://github.com/AlexPeng07/dsh-custom-plugin
+  repositoryNodeId: R_kgDOUAvDdw
+  subpath: null
+  commit: 4646feff7e77f5e7f0716f836b4647e5741399d8
+creator:
+  github: AlexPeng07
+package:
+  ecosystem: npm
+  name: "@alexpeng/dsh-custom-plugin"
+  version: 0.1.5
+  integrity: sha512-tXrPxWuWHrG5ZHZuoByyyicyKRCI8X24KiqsWxH65qtMzHaxwL+/P938KgEmEUEibm/cUgRGm7IPDKGGV8Qv5A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:13.525Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
