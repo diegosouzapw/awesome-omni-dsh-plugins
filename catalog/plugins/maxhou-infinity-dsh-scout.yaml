@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: maxhou-infinity-dsh-scout
+name: dsh-scout
+description:
+  en: Evidence-driven company and job intelligence plugin for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - company-research
+  - job-intelligence
+  - hrbp
+  - dsh
+source:
+  repository: https://github.com/MaxHou-infinity/dsh-scout
+  repositoryNodeId: R_kgDOT4L5AA
+  subpath: null
+  commit: 31dd63376b18db391faa984ecd4af03221e5abda
+creator:
+  github: MaxHou-infinity
+package:
+  ecosystem: npm
+  name: dsh-scout
+  version: 0.8.1
+  integrity: sha512-tlSd2J3XQhdI8xVjTKi8sjLwmjHa/MN4IRcLbKGNWYbm5PLMsw/iWKRClUopfjSli3a3UsdOQm9zD9GVOQgfRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:55.386Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
