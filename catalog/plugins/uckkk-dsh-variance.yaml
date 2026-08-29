@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-variance
+name: dsh-variance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-variance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-variance
+source:
+  repository: https://github.com/uckkk/dsh-variance
+  repositoryNodeId: R_kgDOT9vBuw
+  subpath: null
+  commit: de2da83f83d957bdb1b7c163f75560fb1b31b253
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:05.210Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
