@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: dat-lequoc-dsh-kiro-overflow-probe
+name: dsh-kiro-overflow-probe
+description:
+  en: Kiro provider for DeepSeek Harness, with multi-method Kiro login, automatic token/profile refresh, live account model discovery, Claude/open-weight streaming, tool calls, and reasoning effort controls.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - kiro
+  - provider
+  - multi
+  - method
+  - login
+  - automatic
+  - token
+  - profile
+  - refresh
+  - live
+  - account
+  - model
+  - discovery
+  - claude
+  - open
+  - weight
+source:
+  repository: https://github.com/dat-lequoc/dsh-kiro
+  repositoryNodeId: R_kgDOUCx-3A
+  subpath: verification/overflow-probe
+  commit: f4fdcd1bd7e609ca0183b0079bd5a0a2bfcee3e9
+creator:
+  github: dat-lequoc
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: verification/overflow-probe/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:15.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
