@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: gpiox-dsh-api-balance-badge
+name: dsh-api-balance-badge
+description:
+  en: A floating badge for the DeepSeek Harness (DSH) Web GUI. Shows your LLM API account balance, drags anywhere, resizes, and switches text color to match whatever sits beneath it.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - balance
+  - api-balance
+  - badge
+source:
+  repository: https://github.com/GPIOX/dsh-api-balance
+  repositoryNodeId: R_kgDOT5JJ-A
+  subpath: null
+  commit: 38fe2bfa09f2060b501e10440a65eef11df48c9e
+creator:
+  github: GPIOX
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:17.722Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
