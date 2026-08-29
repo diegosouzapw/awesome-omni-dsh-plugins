@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: nattocb-dsh-plugin-pin-session
+name: dsh-plugin-pin-session
+description:
+  en: "Pin sessions: adds Pin/Unpin to the sidebar session-row ... menu and a collapsible Pinned Sessions group above the session list."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - sessions
+  - sidebar
+source:
+  repository: https://github.com/NattoCB/dsh-plugin-pin-session
+  repositoryNodeId: R_kgDOUBHHFw
+  subpath: null
+  commit: fad6d8f771e2706845737ef5dfdc41064a1aa73d
+creator:
+  github: NattoCB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:05.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
