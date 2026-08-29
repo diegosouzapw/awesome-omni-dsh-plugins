@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: pwnky-dsh-session-link
+name: dsh-session-link
+description:
+  en: "Codex-style session deep links for DeepSeek Harness (dsh): copy a dsh:// link from any conversation, open it in the browser, or paste it into another conversation to read that session's context."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - deep-link
+  - session
+  - context
+  - codex
+source:
+  repository: https://github.com/PwnKY/dsh-session-link
+  repositoryNodeId: R_kgDOT4kTiw
+  subpath: null
+  commit: ef09612820ea4974e1d35f114480d2f48829b850
+creator:
+  github: PwnKY
+package:
+  ecosystem: npm
+  name: dsh-session-link
+  version: 0.1.4
+  integrity: sha512-YSVKIUHdO1gH/h2wqd/PjPiUqHQEQTqlOnmkpMXBHbvRe/hNQaOCwM8e6IfLOt8Geil8HBJYZNlU9Lg7ac59lg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:47.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
