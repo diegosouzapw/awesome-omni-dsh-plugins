@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: stvli-dsh-ros2-moveit
+name: dsh-ros2-moveit
+description:
+  en: "dsh-ros2 MoveIt2 motion: discovery, status, deterministic validation and the unified five-mode moveit move (4 tools). Cordis bundle."
+  evidencePath: packages/moveit/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ros2
+source:
+  repository: https://github.com/StvLi/dsh-ros2
+  repositoryNodeId: R_kgDOT7EbTQ
+  subpath: packages/moveit
+  commit: a7309851ee6a5b5b11bbbffdefd88be1ebe742bc
+creator:
+  github: StvLi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/moveit/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:39.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
