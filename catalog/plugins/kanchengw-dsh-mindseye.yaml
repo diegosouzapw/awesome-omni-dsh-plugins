@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kanchengw-dsh-mindseye
+name: dsh-mindseye
+description:
+  en: "MindsEye: model-driven vision tools, structured evidence, and exact cache for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - multimodal
+  - agent
+  - dsh
+source:
+  repository: https://github.com/kanchengw/dsh-mindseye
+  repositoryNodeId: R_kgDOT6I4rw
+  subpath: null
+  commit: 4e19e3c5e56787b09c7763e03441bf3f4503d438
+creator:
+  github: kanchengw
+package:
+  ecosystem: npm
+  name: dsh-mindseye
+  version: 0.2.7
+  integrity: sha512-ToI6saA28dU0jlMXA3DJ1f7FzoeBpG+3lKJ3V6FDjKJLZ+vmeHKpAYovDFu0Fjt4og3xNChb7HWmPvUnt2AS0g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:23.654Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
