@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: uckkk-dsh-valley-meter
+name: dsh-valley-meter
+description:
+  en: "DeepSeek Harness peak/valley electricity meter: off-peak countdown, balance & spend"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - cost
+  - peak
+  - valley
+  - off-peak
+  - balance
+  - countdown
+source:
+  repository: https://github.com/uckkk/dsh-valley-meter
+  repositoryNodeId: R_kgDOUAqm4Q
+  subpath: null
+  commit: fc143d06984802098686f3073d998e2677b1d55f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:40.672Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/uckkk/dsh-valley-meter/fc143d06984802098686f3073d998e2677b1d55f/docs/preview.png
+    alt: 卡片示意
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/uckkk/dsh-valley-meter/fc143d06984802098686f3073d998e2677b1d55f/docs/screenshots/hover.png
+    alt: 悬停态
