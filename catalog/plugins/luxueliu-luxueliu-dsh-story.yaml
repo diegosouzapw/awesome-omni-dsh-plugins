@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: luxueliu-luxueliu-dsh-story
+name: luxueliu-dsh-story
+description:
+  en: powershell dsh plugin --profile web add luxueliu/luxueliu-dsh-story
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - continue
+  - novel
+  - writing
+  - lorebook
+  - cue
+  - prompt
+  - transcript
+  - gemini
+source:
+  repository: https://github.com/luxueliu/luxueliu-dsh-story
+  repositoryNodeId: R_kgDOUEaVRQ
+  subpath: null
+  commit: 568dce67f7af6fd05a9db9e709970e1a9b65aa0c
+creator:
+  github: luxueliu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:01.553Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
