@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: darkings-dsh-agy-provider
+name: dsh-agy-provider
+description:
+  en: Expose the locally authenticated AGY CLI as a DSH model provider.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - expose
+  - locally
+  - authenticated
+  - model
+  - provider
+  - dsh
+source:
+  repository: https://github.com/darkings/dsh-agy-provider
+  repositoryNodeId: R_kgDOT78aVg
+  subpath: null
+  commit: 44ada9fb96aee3d81045739c427460d7df4927cf
+creator:
+  github: darkings
+package:
+  ecosystem: npm
+  name: dsh-agy-provider
+  version: 0.10.0
+  integrity: sha512-8xu06oS9TnnYWoDEAd2WI40A3NKXRAHTAhduFw8jJuX3o+TCDMI09/Ys9Lh9+ax1vvoWk8hjia9dTprTskcq5Q==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:55.999Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
