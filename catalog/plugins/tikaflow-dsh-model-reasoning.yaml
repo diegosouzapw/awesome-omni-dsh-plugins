@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tikaflow-dsh-model-reasoning
+name: dsh-model-reasoning
+description:
+  en: bash dsh plugin --profile web add github:TikaFlow/dsh-model-reasoning
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - bash
+  - profile
+  - tikaflow
+  - model
+  - reasoning
+  - dsh
+source:
+  repository: https://github.com/TikaFlow/dsh-model-reasoning
+  repositoryNodeId: R_kgDOT5yHbA
+  subpath: null
+  commit: 840e5f10a25a5e4cfd93415267de7db2aa89a9e7
+creator:
+  github: TikaFlow
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
