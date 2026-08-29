@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-render-time
+name: dsh-render-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-render-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-render-time
+source:
+  repository: https://github.com/uckkk/dsh-render-time
+  repositoryNodeId: R_kgDOT-yNEg
+  subpath: null
+  commit: 9c65931a8c921418163cf7d00bf3e596221bdee9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:51:00.814Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
