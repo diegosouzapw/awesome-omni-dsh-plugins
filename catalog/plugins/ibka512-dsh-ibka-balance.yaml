@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ibka512-dsh-ibka-balance
+name: dsh-ibka-balance
+description:
+  en: "yaml - insert: - id: ibka-balance name: 'dsh-ibka-balance'"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - yaml
+  - insert
+  - ibka
+  - balance
+  - name
+  - dsh
+source:
+  repository: https://github.com/ibka512/dsh-ibka-balance
+  repositoryNodeId: R_kgDOT4qGOA
+  subpath: null
+  commit: 3975f965c83df66ee48dbe9e98578f58c85e48ab
+creator:
+  github: ibka512
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:23.791Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
