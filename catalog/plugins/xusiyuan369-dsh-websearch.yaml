@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: xusiyuan369-dsh-websearch
+name: "@240xu/dsh-websearch"
+description:
+  en: 'Unified web search provider for DeepSeek Harness (ctx.web): 11 backends — Exa + Parallel + DDG + SearXNG (keyless), DeepSeek + Anthropic + OpenAI + Brave + Tavily + Serper + Mojeek (key-gated via Settings credentials). Registers provider id "unified" for zero-config web search tool.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - web-search
+  - mcp
+  - exa
+  - parallel
+  - brave
+  - tavily
+  - serper
+  - searxng
+  - mojeek
+  - claude
+  - codex
+  - cordis
+source:
+  repository: https://github.com/240xu/dsh-websearch
+  repositoryNodeId: R_kgDOT-P5DQ
+  subpath: null
+  commit: 113cc7a8a82297210886c30b6616bdb197e6e4f1
+creator:
+  github: xusiyuan369
+package:
+  ecosystem: npm
+  name: "@240xu/dsh-websearch"
+  version: 2.4.0
+  integrity: sha512-iKeM8B/3jLEEddDW6bXN9NHlK7dilVlybjxqr+JS374yRgcvks2HUm0XUV8fMgdXyOracmQLnHQmLEeFK2T9AA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:53.434Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
