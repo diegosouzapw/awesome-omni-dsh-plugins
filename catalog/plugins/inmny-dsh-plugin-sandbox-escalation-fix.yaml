@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: inmny-dsh-plugin-sandbox-escalation-fix
+name: dsh-plugin-sandbox-escalation-fix
+description:
+  en: Normalize redundant sandbox requests and malformed justifications in DeepSeek Harness tools
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - sandbox
+  - approval
+source:
+  repository: https://github.com/inmny/dsh-sandbox-escalation-fix
+  repositoryNodeId: R_kgDOT4aNug
+  subpath: null
+  commit: a6fa9fa56302ea685d39e1e44ec1f7a15000b28c
+creator:
+  github: inmny
+package:
+  ecosystem: npm
+  name: dsh-plugin-sandbox-escalation-fix
+  version: 0.1.2
+  integrity: sha512-9lfDkz0olxhduPH4n0MCF45I3wTCc4i+dk48nIZOfSIYS+IZbnXbyvQvWAaJgoDM82C2SwYpZ9P8AkYkIYoPvA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:55.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
