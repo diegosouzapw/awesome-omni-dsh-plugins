@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: magicof2-dsh-schedule
+name: dsh-schedule
+description:
+  en: "A local long-term schedule plugin for DeepSeek Harness: sidebar entry plus a full-height drawer schedule panel (today / week / history calendar), schedule↔conversation links, inline editing with a detail view, completion checkmarks, recurring tasks, optional auto carry-over, and agent tools. Data persists in a local fi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - schedule
+  - todo
+  - calendar
+  - task
+  - dailytask
+source:
+  repository: https://github.com/magicOF2/dsh-schedule
+  repositoryNodeId: R_kgDOT6P5mg
+  subpath: null
+  commit: e16a386244b2d4de626f6feacc8f401fd875321d
+creator:
+  github: magicOF2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:52.483Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
