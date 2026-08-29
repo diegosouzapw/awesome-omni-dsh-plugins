@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: cuddly-guacamole-dsh-auto-approval-llm
+name: "@quill507/dsh-auto-approval-llm"
+description:
+  en: LLM-assisted auto approval with timeout fallback for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - assisted
+  - auto
+  - approval
+  - timeout
+  - fallback
+  - dsh
+source:
+  repository: https://github.com/cuddly-guacamole/dsh-auto-approval-llm
+  repositoryNodeId: R_kgDOT8vJuA
+  subpath: null
+  commit: 1866db21200c11ea3299dab80eb2acd3c0e37a24
+creator:
+  github: cuddly-guacamole
+package:
+  ecosystem: npm
+  name: "@quill507/dsh-auto-approval-llm"
+  version: 0.0.10
+  integrity: sha512-iEOmGKSZMefEDMqUYHYdC9enXQGVxLehtC2ETxRiIuNgamV7oUMUPN+2+Uj5QKvLuSSHqJIciQ/0R61ytzNnsg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:54.440Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
