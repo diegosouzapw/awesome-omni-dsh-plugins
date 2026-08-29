@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mingzeng21-dsh-stock-mentions
+name: dsh-stock-mentions
+description:
+  en: Turn stock mentions in DSH assistant replies into clickable quote and news buttons.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - stock
+  - a-share
+  - market-data
+source:
+  repository: https://github.com/mingzeng21/dsh-stock-mentions
+  repositoryNodeId: R_kgDOUBrP2Q
+  subpath: null
+  commit: f2c7bc00e91d40628927c4b1ceb4ac0b201c890b
+creator:
+  github: mingzeng21
+package:
+  ecosystem: npm
+  name: dsh-stock-mentions
+  version: 0.1.1
+  integrity: sha512-/t3YwZadFhqpnNh71/dli9z1dQ8l0/CYalJWU5FARyk/u2/To885v8QDfXkEyzsimcrejS9TLuiRO1LwXNsW3A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:10.502Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
