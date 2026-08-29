@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: shawnlone-dsh-theme-tuner
+name: dsh-theme-tuner
+description:
+  en: "DSH web plugin: theme customization placed under the built-in Appearance (外观) settings. It reuses the Appearance light/dark switch and lets you adjust accent / background / foreground / contrast for the active theme, applied live through DSH theme token overrides."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - theme-tuner
+  - appearance
+source:
+  repository: https://github.com/shawnlone/dsh-theme-tuner
+  repositoryNodeId: R_kgDOUDlWog
+  subpath: null
+  commit: ae67475b20f6729f0391295b6e18bc0103437bf6
+creator:
+  github: shawnlone
+package:
+  ecosystem: npm
+  name: dsh-theme-tuner
+  version: 0.1.0
+  integrity: sha512-QjankNJoAfrLeXznKwwupBVh3dRC1xZ9dFM+VhjgVDUBxVfCQf0I73+i38LsDofqgUFEkb8GWEaqEOaICgkzPw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:55.386Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
