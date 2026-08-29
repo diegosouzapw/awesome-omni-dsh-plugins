@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: kangjinghang-dsh-xueqiu
+name: dsh-xueqiu
+description:
+  en: "A Xueqiu (Snowball) market panel for DeepSeek Harness: no login required — live A-share/HK/US quotes, candlestick & minute charts, hot lists, search, 7×24 news and trending KOLs. The panel docks above the composer without covering the conversation; a draggable always-on market region shows the four major indices plus y"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - xueqiu
+  - stock
+  - a-share
+  - finance
+source:
+  repository: https://github.com/kangjinghang/dsh-xueqiu
+  repositoryNodeId: R_kgDOT3-CQg
+  subpath: null
+  commit: da57cb7f6dcc2bcb21f762fa0d3b96c5c2ea4c18
+creator:
+  github: kangjinghang
+package:
+  ecosystem: npm
+  name: dsh-xueqiu
+  version: 1.22.13
+  integrity: sha512-rqt76A1dTAe4ayehQXUnjRrhTmXwElaC5EQ6wHSTHEUAcPe+VhomkjdIfG5KGWHE64RpMYAu0WP4SG3rnJJFeA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:38.665Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
