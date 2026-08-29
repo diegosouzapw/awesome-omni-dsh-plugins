@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-json-flatten
+name: dsh-json-flatten
+description:
+  en: bash dsh plugin add dsh-json-flatten 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-flatten" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - flatten
+source:
+  repository: https://github.com/uckkk/dsh-json-flatten
+  repositoryNodeId: R_kgDOT6I-ZA
+  subpath: null
+  commit: e5ddc36f0a1ed06da63779dd0e06d1818941944f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-flatten
+  version: 0.1.0
+  integrity: sha512-hZrrdmqN1ry4VbXbyJLL5kKNvNw4O89dDghULEUnjb+clhhe8MqC9wKPQwXFYjvqfoNMiRWSs6ysuEExvZAT+g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:13.762Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
