@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 0qwq0-dsh-discord-richpresence
+name: dsh-discord-richpresence
+description:
+  en: Push vague or rich, user-configurable DSH interaction states to the local Discord client as Rich Presence.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - discord
+  - rich-presence
+  - rpc
+source:
+  repository: https://github.com/0QwQ0/dsh-discord-richpresence
+  repositoryNodeId: R_kgDOUAtDCw
+  subpath: null
+  commit: f697074a3bc5181c4b30a8e72166bd5a1ff4cf98
+creator:
+  github: 0QwQ0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:50.229Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
