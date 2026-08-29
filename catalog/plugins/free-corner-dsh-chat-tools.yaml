@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: free-corner-dsh-chat-tools
+name: dsh-chat-tools
+description:
+  en: "DSH Web client plugin: adjustable chat column width and alignment, a numbered question history with keyboard navigation and auto-load of older questions, plus markdown outline rails on both the conversation and the file preview."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - client
+  - adjustable
+  - chat
+  - column
+  - width
+  - alignment
+  - numbered
+  - question
+  - history
+  - keyboard
+  - navigation
+  - auto
+  - load
+  - older
+  - questions
+  - plus
+source:
+  repository: https://github.com/Free-corner/dsh-chat-tools
+  repositoryNodeId: R_kgDOT96N8w
+  subpath: null
+  commit: d903dbfb6f2f7b4481fe7abb35ded74994b74341
+creator:
+  github: Free-corner
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:04.982Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
