@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: akimiya-z-dsh-codex-guard
+name: dsh-codex-guard
+description:
+  en: "DeepSeek Harness tool: pre-submit hygiene checks (TODO leftovers, hardcoded secrets, commit subjects) for agent-authored pull requests."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - codex-guard
+  - code-review
+  - quality-gate
+source:
+  repository: https://github.com/Akimiya-z/codex-guard
+  repositoryNodeId: R_kgDOT-yddw
+  subpath: dsh
+  commit: 7bf02b7f5e42ed401a277a19495f1c9f0d379742
+creator:
+  github: Akimiya-z
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:04.403Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
