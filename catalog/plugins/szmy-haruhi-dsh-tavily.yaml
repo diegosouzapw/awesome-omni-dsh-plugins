@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: szmy-haruhi-dsh-tavily
+name: dsh-tavily
+description:
+  en: "Tavily web search for DSH: settings toggle back to official DeepSeek, keyless by default"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - tavily
+  - dsh
+source:
+  repository: https://github.com/SZMY-haruhi/dsh-tavily
+  repositoryNodeId: R_kgDOT4eIdA
+  subpath: null
+  commit: bc6609963814e19dd84e8c9e085fc42028dced39
+creator:
+  github: SZMY-haruhi
+package:
+  ecosystem: npm
+  name: dsh-tavily
+  version: 0.3.1
+  integrity: sha512-ffXb4DwLL7VAaLszotWmx3QoD/u3K4XIcWz4yYZu97aGrfORE/uZH/wuJOCbjWxrBx6bTj46k9HrbE+P5DiUyQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:13.187Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
