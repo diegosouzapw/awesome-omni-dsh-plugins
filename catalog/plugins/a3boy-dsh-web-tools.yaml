@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: a3boy-dsh-web-tools
+name: dsh-web-tools
+description:
+  en: Unified multi-provider web search and fetch for DeepSeek Harness — BYOK, per-provider credential pools, quota & health monitoring, deterministic fallback, native settings UI, and self-hosted search
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - unified
+  - multi
+  - provider
+  - search
+  - fetch
+  - byok
+  - credential
+  - pools
+  - quota
+  - health
+  - monitoring
+  - deterministic
+  - fallback
+  - native
+  - settings
+  - self
+source:
+  repository: https://github.com/A3Boy/dsh-web-tools
+  repositoryNodeId: R_kgDOT5XWrA
+  subpath: null
+  commit: e664521d51c4e6fa738e79126bf2e78e2cc62455
+creator:
+  github: A3Boy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:37:59.603Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 22
+provenance:
+  discussion: null
+  comment: null
