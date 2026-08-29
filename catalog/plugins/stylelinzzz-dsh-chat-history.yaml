@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stylelinzzz-dsh-chat-history
+name: dsh-chat-history
+description:
+  en: "Chat history TOC: a user-message directory as a conversation view tab with click-to-jump"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - chat-history
+  - toc
+  - history
+  - navigation
+source:
+  repository: https://github.com/Stylelinzzz/dsh-chat-history
+  repositoryNodeId: R_kgDOT7brfA
+  subpath: null
+  commit: d8d4b022ddcb97ecbf7fb316218a4fb87858541c
+creator:
+  github: Stylelinzzz
+package:
+  ecosystem: npm
+  name: dsh-chat-history
+  version: 0.1.1
+  integrity: sha512-s6mLccLDdZ5jgrNQbQnZ0/bfpyiTlQlkGLksD993PzGckPu0A3IFW+qHt+XJnFb3ObxwWI0w/Z5KhJU65VMcrw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:30.236Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
