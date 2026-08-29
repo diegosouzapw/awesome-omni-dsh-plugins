@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: storyouo-ds-balance
+name: ds-balance
+description:
+  en: DeepSeek API balance + per-call cost tracker — a dsh plugin (cordis host half + sidebar client half)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - balance
+  - cost
+  - pricing
+  - cordis
+source:
+  repository: https://github.com/storyOuO/dsh-plugin-ds-balance
+  repositoryNodeId: R_kgDOUD6kyA
+  subpath: null
+  commit: 9e5f2d956042a5f5ee96aa4496bebe8918e1d8bc
+creator:
+  github: storyOuO
+package:
+  ecosystem: npm
+  name: ds-balance
+  version: 0.2.4
+  integrity: sha512-Kg533/z32KVnpwWHyM5SdB+Of++mCLcwAdXlSki4b/WZbXD8lU5D/flNOVWdYs69cbfEUiSrCHpl0mpp6XRKWg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:25.728Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
