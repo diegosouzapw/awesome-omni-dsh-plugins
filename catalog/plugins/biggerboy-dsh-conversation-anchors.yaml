@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: biggerboy-dsh-conversation-anchors
+name: "@biggerboy123/dsh-conversation-anchors"
+description:
+  en: "Codex-style tick-rail and thinking-process fold for the DeepSeek Harness web GUI: per-turn dashes, hover preview, click-to-scroll, eager history load, and collapsed Think/tool rows."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - conversation
+  - anchors
+  - navigation
+  - outline
+  - thinking
+  - web-gui
+source:
+  repository: https://github.com/biggerboy/dsh-conversation-anchors
+  repositoryNodeId: R_kgDOT64-fg
+  subpath: null
+  commit: a595128a68a66b14f024c2749558bb9ff651ae1d
+creator:
+  github: biggerboy
+package:
+  ecosystem: npm
+  name: "@biggerboy123/dsh-conversation-anchors"
+  version: 0.1.10
+  integrity: sha512-EgXn8zmi5SvZFP/5tqHfCoFFdg/5IlkbmT6SppzCgjynyTcrAxwtzar+z8SBhZy9Dtx3+6prk2y837YJKnJ6qg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:36.587Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
