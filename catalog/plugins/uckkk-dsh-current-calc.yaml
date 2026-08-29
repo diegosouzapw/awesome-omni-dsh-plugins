@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-current-calc
+name: dsh-current-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-current-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-current-calc
+source:
+  repository: https://github.com/uckkk/dsh-current-calc
+  repositoryNodeId: R_kgDOT-r1YA
+  subpath: null
+  commit: db6c3eeff254795bf3887286e7d3fdc9fd26e2ad
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:36.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
