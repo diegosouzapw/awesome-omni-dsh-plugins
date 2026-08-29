@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-json-query
+name: dsh-json-query
+description:
+  en: bash dsh plugin add dsh-json-query 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-query" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - path
+source:
+  repository: https://github.com/uckkk/dsh-json-query
+  repositoryNodeId: R_kgDOT6M-Jw
+  subpath: null
+  commit: 7fef7cf511a3862b09e664ec13c010bec80b9365
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:14.033Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
