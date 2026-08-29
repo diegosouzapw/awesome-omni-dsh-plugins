@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: mooncoder-happy-specworkflow
+name: specworkflow
+description:
+  en: "Workflow skill pack for DeepSeek Harness: requirement grilling, specs, implementation, delivery review, repair planning, bug diagnosis, and source-backed research."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - agent-skills
+  - workflow
+  - spec
+source:
+  repository: https://github.com/MoonCoder-HAPPY/SpecWorkflow
+  repositoryNodeId: R_kgDOT4YfXQ
+  subpath: null
+  commit: af366bbc55a6066541afadf34988690414a187da
+creator:
+  github: MoonCoder-HAPPY
+package:
+  ecosystem: npm
+  name: specworkflow
+  version: 0.1.0
+  integrity: sha512-aSZ8cv78mtdRb0DRd3+CHms6CJ3rxKU8DNpNjLumwXFIi1WbSZqRfeo1FzPJQ+zDOeo/OYpevtII3D//Dadlvw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:49.216Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
