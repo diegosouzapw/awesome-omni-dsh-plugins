@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ctr-split
+name: dsh-ctr-split
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ctr-split
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ctr-split
+source:
+  repository: https://github.com/uckkk/dsh-ctr-split
+  repositoryNodeId: R_kgDOT-txkQ
+  subpath: null
+  commit: 82af6c01d7cb15b3a98e87bad0833984703afa24
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:35.170Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
