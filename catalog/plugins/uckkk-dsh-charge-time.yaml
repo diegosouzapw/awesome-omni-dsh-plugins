@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-charge-time
+name: dsh-charge-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-charge-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-charge-time
+source:
+  repository: https://github.com/uckkk/dsh-charge-time
+  repositoryNodeId: R_kgDOT-tJ6Q
+  subpath: null
+  commit: c9f27cc72820e47dd6e61b4ac788ab6be23e2935
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:22.952Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
