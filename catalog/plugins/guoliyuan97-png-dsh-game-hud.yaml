@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: guoliyuan97-png-dsh-game-hud
+name: dsh-game-hud
+description:
+  en: cordis.patch.yml 示例：
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - hud
+  - game
+  - balance
+  - context
+  - peak-valley
+  - compaction
+  - deepseek-harness
+source:
+  repository: https://github.com/guoliyuan97-png/dsh-game-hud
+  repositoryNodeId: R_kgDOT9GMyg
+  subpath: null
+  commit: d828732117e1df07cb159388eac507b50caf66cb
+creator:
+  github: guoliyuan97-png
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:23.369Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
