@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-anniversary
+name: dsh-anniversary
+description:
+  en: bash dsh plugin add github:uckkk/dsh-anniversary
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-anniversary
+source:
+  repository: https://github.com/uckkk/dsh-anniversary
+  repositoryNodeId: R_kgDOT-v0-g
+  subpath: null
+  commit: 9517cf129b9c42701564636e98ee6231cf86410a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:24.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
