@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: 1692775560-dsh-mimir
+name: dsh-mimir
+description:
+  en: Research-assistant plugin suite (literature search, research wiki, LaTeX compile, independent subagent review) for the DeepSeek Harness
+  evidencePath: packages/mimir/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - research
+  - arxiv
+  - latex
+  - zotero
+  - literature
+  - experiment-tracking
+  - dsh
+source:
+  repository: https://github.com/1692775560/dsh-Mimir-Academic-research
+  repositoryNodeId: R_kgDOT-o2-Q
+  subpath: packages/mimir
+  commit: 6d865381be69b1d352db39b4f06a7605f4e8cf56
+creator:
+  github: "1692775560"
+package:
+  ecosystem: npm
+  name: dsh-mimir
+  version: 0.14.1
+  integrity: sha512-R0V54hWG0FACo7QH1n59WQMBsCQhZXvNaFdGBpDd1UCUQBvjsa5AAPFhGK6vuUqF8R9okEzZPyVSghH5suwLLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/mimir/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:28.296Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
