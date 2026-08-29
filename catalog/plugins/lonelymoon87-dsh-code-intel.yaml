@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lonelymoon87-dsh-code-intel
+name: dsh-code-intel
+description:
+  en: Symbol-aware code outline and hybrid code search for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - code-search
+  - code-intelligence
+  - tree-sitter
+  - dsh
+source:
+  repository: https://github.com/lonelymoon87/dsh-code-intel
+  repositoryNodeId: R_kgDOT3pMxA
+  subpath: null
+  commit: cab10fd16c60dfc7c3c6e7f7b011a434f0132853
+creator:
+  github: lonelymoon87
+package:
+  ecosystem: npm
+  name: dsh-code-intel
+  version: 0.1.3
+  integrity: sha512-ccR/pp184TBRvk3Uqk3ovs1Ifk2cOIMjhgvqapT3eI39TTnCxAnBCHE/UArg//bbyDTv0pJZa6D0RDe/U0bupg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:46.333Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
