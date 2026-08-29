@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: moeblack-dsh-prompt-studio
+name: dsh-prompt-studio
+description:
+  en: "Prompt Studio plugin for DeepSeek Harness: compose runtime prompts, overrides, and request-local synthetic turns in one live editor"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - prompt
+  - studio
+  - compose
+  - runtime
+  - prompts
+  - overrides
+  - request
+  - local
+  - synthetic
+  - turns
+  - live
+  - editor
+  - dsh
+source:
+  repository: https://github.com/Moeblack/dsh-prompt-studio
+  repositoryNodeId: R_kgDOTvKJYg
+  subpath: null
+  commit: be5e97d6ea4e882067d9f3a6385f486f7f192e92
+creator:
+  github: Moeblack
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:46.939Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
