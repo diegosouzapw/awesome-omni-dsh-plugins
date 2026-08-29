@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: max-null-dsh-memory
+name: "@max-null/dsh-memory"
+description:
+  en: Cross-session plaintext memory plugin for the DeepSeek Harness — deterministic BM25 recall, human-owned, no embeddings
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - cordis
+source:
+  repository: https://github.com/Max-Null/dsh-memory
+  repositoryNodeId: R_kgDOT5BxrQ
+  subpath: null
+  commit: 92730eda00830f973d58da931648db544966cc83
+creator:
+  github: Max-Null
+package:
+  ecosystem: npm
+  name: "@max-null/dsh-memory"
+  version: 0.6.0
+  integrity: sha512-m9GR/CpL/3XcNfyL2TpxNzUW8zYSh3dF9pYcIYRS0QjNPbzuxXxpLJ7ez31w2zEG/PBSDaexh7RoQQxBSieqYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:28.105Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
