@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: tencentxiaowei-browser-skill-dsh-plugin
+name: "@wxg-prc-cpg/browser-skill-dsh-plugin"
+description:
+  en: DeepSeek Harness tool plugin that exposes BrowserSkill (bsk) browser automation to the model
+  evidencePath: packages/dsh-plugin-browserskill/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - browserskill
+  - browser-automation
+  - dsh
+source:
+  repository: https://github.com/Tencent/BrowserSkill
+  repositoryNodeId: R_kgDOTBhgGw
+  subpath: packages/dsh-plugin-browserskill
+  commit: f060a7c074cf1450e4d610aff2906141aebc6718
+creator:
+  github: TencentXiaowei
+package:
+  ecosystem: npm
+  name: "@wxg-prc-cpg/browser-skill-dsh-plugin"
+  version: 0.1.1
+  integrity: sha512-aUgC542hDJMBEVjqc/Bp7lVhUyLXHn5jDcWFw1+Zjxv7CzRYij6B0/DtoN/WRIvxUpdK1supNGbzxyLPcF1cpQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-browserskill/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:49.089Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
