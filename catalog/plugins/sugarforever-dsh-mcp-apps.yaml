@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: sugarforever-dsh-mcp-apps
+name: "@sugarforever/dsh-mcp-apps"
+description:
+  en: MCP Apps host plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - apps
+  - host
+  - dsh
+source:
+  repository: https://github.com/sugarforever/dsh-mcp-apps
+  repositoryNodeId: R_kgDOT4kHHw
+  subpath: null
+  commit: 5b444876f7bfb0b99909c73fd2cc2a863f7463fe
+creator:
+  github: sugarforever
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:16.050Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
