@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: wsqstar-dsh-tool-vision-read
+name: "@deepseek-ai/dsh-tool-vision-read"
+description:
+  en: "DSH plugin: vision read — route image reading to a dedicated vision model (e.g. Kimi K3) so text-only agents can see images"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - vision
+  - read
+  - route
+  - image
+  - reading
+  - dedicated
+  - model
+  - kimi
+  - text
+  - only
+  - agents
+  - images
+  - dsh
+source:
+  repository: https://github.com/Mappedinfo/dsh-tool-vision-read
+  repositoryNodeId: R_kgDOT5ox1Q
+  subpath: null
+  commit: 921d4af1a2333d58d1020703c20b0c2ab93833ab
+creator:
+  github: wsqstar
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:39.580Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
