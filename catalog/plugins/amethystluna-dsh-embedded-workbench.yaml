@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: amethystluna-dsh-embedded-workbench
+name: dsh-embedded-workbench
+description:
+  en: Embedded C/C++ firmware development toolbox — 4 agents, 7 skills covering FreeRTOS, ISR, NVM storage, Keil MDK, ARMCLANG, HardFault, state machines, architecture, and LVGL patterns. Ships a native DeepSeek Harness (dsh) bundle that injects the session-start gate into the first model step.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - embedded
+  - firmware
+  - c
+  - cpp
+  - freertos
+  - debugging
+  - keil
+  - armclang
+  - cortex-m
+  - hardfault
+  - state-machine
+  - lvgl
+  - architecture
+  - agentskills
+  - dsh
+source:
+  repository: https://github.com/AmethystLuna/embedded-workbench
+  repositoryNodeId: R_kgDOTBkdOw
+  subpath: null
+  commit: 74c8651b17d0fcd7661899cfc9b7252c513baf38
+creator:
+  github: AmethystLuna
+package:
+  ecosystem: npm
+  name: dsh-embedded-workbench
+  version: 0.7.1
+  integrity: sha512-jEY6MTp3HX0aiWdgjP0JYKiGxQlYokGxYe6LNVWyWww3iOok5JNGRqEpzMp/wWFfV8fHZtCgQiJvw3ITpT0QQA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:15.237Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
