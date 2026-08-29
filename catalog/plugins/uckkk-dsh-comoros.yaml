@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-comoros
+name: dsh-comoros
+description:
+  en: bash dsh plugin add github:uckkk/dsh-comoros
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-comoros
+source:
+  repository: https://github.com/uckkk/dsh-comoros
+  repositoryNodeId: R_kgDOT-C7Yw
+  subpath: null
+  commit: 0d046c5cbabc781852f87b53937a4be431e8d9a2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:30.701Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
