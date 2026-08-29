@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: daboge-beach-gallery
+name: "@dsh-skin-studio/gallery"
+description:
+  en: bash cd packages/gallery pnpm install pnpm dev http://localhost:5173
+  evidencePath: packages/gallery/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - skin
+  - gallery
+source:
+  repository: https://github.com/daboge-beach/dsh-skin-studio
+  repositoryNodeId: R_kgDOT5PBPw
+  subpath: packages/gallery
+  commit: f9f7e571c27dc20f28d806b69129bd2e81772b2e
+creator:
+  github: daboge-beach
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/gallery/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:24.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
