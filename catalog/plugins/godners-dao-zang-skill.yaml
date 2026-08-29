@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: godners-dao-zang-skill
+name: dao-zang-skill
+description:
+  en: "Installable bundle contributing the DaoZang offline retrieval & original-text extraction skill to DeepSeek Harness (v2.0: launcher + self-check + workspace setup)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - installable
+  - bundle
+  - contributing
+  - daozang
+  - offline
+  - retrieval
+  - original
+  - text
+  - extraction
+  - skill
+  - launcher
+  - self
+  - check
+  - workspace
+  - setup
+  - dsh
+source:
+  repository: https://github.com/Godners-Code/dao-zang-skill
+  repositoryNodeId: R_kgDOUCe4aw
+  subpath: null
+  commit: bc4387ba06be27e817ebb37ca5d63f4b3c9173fb
+creator:
+  github: godners
+package:
+  ecosystem: npm
+  name: dao-zang-skill
+  version: 2.0.0
+  integrity: sha512-+XQpgO2Z5IaM6oGnXE6ABeGSDHa86gjOSpiqLZIUE+xzSzrqPAFQXgAtcOwlqMeqGxJ8Cknmz2lp1oMakWeHJg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:39.245Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
