@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-detergent-dose
+name: dsh-detergent-dose
+description:
+  en: bash dsh plugin add github:uckkk/dsh-detergent-dose
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-detergent-dose
+source:
+  repository: https://github.com/uckkk/dsh-detergent-dose
+  repositoryNodeId: R_kgDOT-tgww
+  subpath: null
+  commit: d7f1f1060bd4dfc4f54cecf6a95662b377e29d12
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:41.674Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
