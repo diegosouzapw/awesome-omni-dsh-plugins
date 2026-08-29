@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ffyuuu-dsh-llm-longcat
+name: dsh-llm-longcat
+description:
+  en: LongCat (LongCat-2.0) adapter for the DeepSeek Harness LLM seam — 1M context, thinking mode, tool calling
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - longcat
+  - llm-provider
+  - dsh
+source:
+  repository: https://github.com/ffyuuu/dsh-llm-longcat
+  repositoryNodeId: R_kgDOT-IKug
+  subpath: null
+  commit: b07900eea661cd65465e8f529a8495697152879d
+creator:
+  github: ffyuuu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:23.277Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
