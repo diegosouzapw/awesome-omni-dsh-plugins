@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-salary-per-hour
+name: dsh-salary-per-hour
+description:
+  en: bash dsh plugin add github:uckkk/dsh-salary-per-hour
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-salary-per-hour
+source:
+  repository: https://github.com/uckkk/dsh-salary-per-hour
+  repositoryNodeId: R_kgDOT-vmJA
+  subpath: null
+  commit: c870e818de389b4606498bdeab17b57344a7fe49
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:54.201Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
