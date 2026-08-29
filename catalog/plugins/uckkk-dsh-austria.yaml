@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-austria
+name: dsh-austria
+description:
+  en: bash dsh plugin add github:uckkk/dsh-austria
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-austria
+source:
+  repository: https://github.com/uckkk/dsh-austria
+  repositoryNodeId: R_kgDOT-yXRg
+  subpath: null
+  commit: 899ebbcb481c6900ffb634fbf1ce47e3169c8015
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:35.495Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
