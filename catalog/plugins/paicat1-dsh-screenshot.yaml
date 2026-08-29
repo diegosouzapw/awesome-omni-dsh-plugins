@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: paicat1-dsh-screenshot
+name: "@paicat1/dsh-screenshot"
+description:
+  en: "Standalone screen capture for DeepSeek Harness (dsh): browser hotkeys plus an agent-facing capture+read tool. Forked out of @liustack/modlens 48 (upstream declined the feature)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - standalone
+  - screen
+  - capture
+  - browser
+  - hotkeys
+  - plus
+  - agent
+  - facing
+  - read
+  - tool
+  - forked
+  - liustack
+  - modlens
+  - upstream
+  - declined
+  - feature
+source:
+  repository: https://github.com/paicat1/dsh-screenshot
+  repositoryNodeId: R_kgDOT6GzPQ
+  subpath: null
+  commit: b9a9083b933b561dd64ffd8ad60da80032e1d8f6
+creator:
+  github: paicat1
+package:
+  ecosystem: npm
+  name: "@paicat1/dsh-screenshot"
+  version: 1.0.1
+  integrity: sha512-T1XwBAUV40D3NTZ/vSqjkfheSXO26Hz5TA0ELprN9TdImlYynLCRUJ0el8QkSla4mK85ekBEhAm64/9+14jp6g==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:51.970Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
