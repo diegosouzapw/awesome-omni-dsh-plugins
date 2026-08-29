@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-geometric-series
+name: dsh-geometric-series
+description:
+  en: bash dsh plugin add github:uckkk/dsh-geometric-series
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-geometric-series
+source:
+  repository: https://github.com/uckkk/dsh-geometric-series
+  repositoryNodeId: R_kgDOT9u-kA
+  subpath: null
+  commit: eec33cc3487669915800ab9f49161660a6e3ac5f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:43.699Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
