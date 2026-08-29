@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kirkchinese-plugin
+name: "@claude2dsh/plugin"
+description:
+  en: Import Claude Code sessions and skills into DeepSeek Harness, and sync DSH sessions back to Claude Code
+  evidencePath: packages/plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - claude-code
+  - migration
+  - session
+  - skills
+source:
+  repository: https://github.com/kirkchinese/claude2dsh
+  repositoryNodeId: R_kgDOT5ydsA
+  subpath: packages/plugin
+  commit: 8499f7577dfb9645e8a932d767b408163f4ee99f
+creator:
+  github: kirkchinese
+package:
+  ecosystem: npm
+  name: "@claude2dsh/plugin"
+  version: 0.2.0-rc.5
+  integrity: sha512-Tg9cD9sc/i/LpS03XSScnKQiseK90q+k8inhofNJkr4de2kQvzrHU6fM38BAz3U9v2tmdjikLrCnJXJBjuSk9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:40.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
