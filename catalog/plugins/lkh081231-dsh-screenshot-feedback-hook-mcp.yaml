@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lkh081231-dsh-screenshot-feedback-hook-mcp
+name: dsh-screenshot-feedback-hook-mcp
+description:
+  en: Screenshot feedback for DeepSeek Harness — let your coding agent SEE what it builds
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - screenshot
+  - agent
+  - feedback
+  - vision
+source:
+  repository: https://github.com/lkh081231/screenshot-feedback-hook-mcp
+  repositoryNodeId: R_kgDOS2dW-A
+  subpath: dsh-plugin
+  commit: d0899059daa8ff31235887a6d7ba0601cf38eb91
+creator:
+  github: lkh081231
+package:
+  ecosystem: npm
+  name: dsh-screenshot-feedback-hook-mcp
+  version: 0.2.0
+  integrity: sha512-l1kfh4JZlzPd/NcPotQAl0HR4Yo3cAxPnGmEq0rZI3YqN4txMPAR2q9QOb3glEi+TXOtDiXCO8tTzJBtS/Wj9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:54:03.833Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
