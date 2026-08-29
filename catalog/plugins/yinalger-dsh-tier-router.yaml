@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yinalger-dsh-tier-router
+name: dsh-tier-router
+description:
+  en: "Tiered model routing for DeepSeek Harness (+ fallback chains + task-intensity effort): a strong tier for planning/architecture/review, a cheap tier for implementation, with plan-mode-aware auto routing, per-tier model fallback chains, task-intensity reasoning effort selection, advisor/review consultations, a high-impac"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - model-routing
+  - tiered-routing
+  - advisor
+source:
+  repository: https://github.com/BruceLanLan/dsh-tier-router
+  repositoryNodeId: R_kgDOT44CRA
+  subpath: null
+  commit: 2b021218420c2156eebda837a26a3f4a120197c5
+creator:
+  github: yinalger
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:04.781Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
