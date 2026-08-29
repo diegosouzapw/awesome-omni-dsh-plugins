@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sisyphussq-dsh-worktree-workspaces
+name: "@suqingsq/dsh-worktree-workspaces"
+description:
+  en: Git worktree creation, archival, and Web slash-command picker for DeepSeek Harness
+  evidencePath: packages/dsh-worktree-workspaces/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - worktree
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-worktree-workspaces
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-worktree-workspaces"
+  version: 0.2.0
+  integrity: sha512-7I2bkGZ9O7kYNW+Tgky/WRnFscbGhXZ+Tkh+hCRRLFCGCB8CtaP2MfN1TzKCk+VYUnHXGS2A/vTsfcuS9ybnRA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/dsh-worktree-workspaces/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
