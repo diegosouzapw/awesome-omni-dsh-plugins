@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: neaz71eve-dsh-tool-github
+name: "@dsh-external/dsh-tool-github"
+description:
+  en: "GitHub REST API tools for DeepSeek Harness: repositories, search, issues, pull requests, comments, account binding, and workspace integration, with a browser-side GitHub panel in the web GUI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - rest
+  - tools
+  - repositories
+  - search
+  - issues
+  - pull
+  - requests
+  - comments
+  - account
+  - binding
+  - workspace
+  - integration
+  - browser
+  - side
+  - panel
+  - dsh
+source:
+  repository: https://github.com/NEAZ71eve/dsh-tool-github
+  repositoryNodeId: R_kgDOT5R5VQ
+  subpath: null
+  commit: c4279728dc1d6cad5359d66e00dab3302a55dd12
+creator:
+  github: NEAZ71eve
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:06.335Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
