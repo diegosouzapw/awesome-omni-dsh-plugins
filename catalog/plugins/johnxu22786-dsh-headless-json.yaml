@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: johnxu22786-dsh-headless-json
+name: dsh-headless-json
+description:
+  en: "Structured, machine-readable CI output for DeepSeek Harness (dsh): session event capture with JSON/NDJSON reports, JUnit XML, semantic exit codes, artifact collection and privacy redaction. Ships as a dsh profile bundle and a standalone CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - ci
+  - headless
+  - junit
+  - ndjson
+  - bundle
+source:
+  repository: https://github.com/JohnXu22786/headless-json
+  repositoryNodeId: R_kgDOT-SnaQ
+  subpath: null
+  commit: 592adc096957e90a035f1c975d5c9f9b990b2c9c
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:13.335Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
