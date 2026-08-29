@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-step-goal
+name: dsh-step-goal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-step-goal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-step-goal
+source:
+  repository: https://github.com/uckkk/dsh-step-goal
+  repositoryNodeId: R_kgDOT-sRcA
+  subpath: null
+  commit: 8cefdbdadcf68361b49a68180b2cf5afa9f6dc8c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:11.363Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
