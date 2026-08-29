@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: neorrrr-dsh-project-skill-paths
+name: dsh-project-skill-paths
+description:
+  en: Project-scoped custom SKILL roots for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skills
+  - project-configuration
+source:
+  repository: https://github.com/NeoRrrr/dsh-project-skill-paths
+  repositoryNodeId: R_kgDOUDSzLw
+  subpath: null
+  commit: a1afff4122ccbb7efbe2b91123f97b7da637760d
+creator:
+  github: NeoRrrr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:16.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
