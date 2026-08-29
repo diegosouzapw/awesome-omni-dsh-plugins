@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: halosb-dsh-workmate
+name: dsh-workmate
+description:
+  en: powershell dsh plugin --profile web add github:halosb/dsh-workmate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - notification
+  - knowledge-base
+  - rag
+  - cordis
+source:
+  repository: https://github.com/halosb/dsh-workmate
+  repositoryNodeId: R_kgDOT4wzIA
+  subpath: null
+  commit: c38acb8fd29bf35548ddc09d7fbf63acddd46d2c
+creator:
+  github: halosb
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:49.897Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
