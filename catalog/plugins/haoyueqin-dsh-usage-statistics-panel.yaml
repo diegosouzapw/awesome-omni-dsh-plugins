@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: haoyueqin-dsh-usage-statistics-panel
+name: dsh-usage-statistics-panel
+description:
+  en: "DSH web plugin: a usage statistics panel with per-day token trend, GitHub-style activity heatmap, cache hit-rate curve and per-model breakdown, replicating the reasonix usage stats feature."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - usage-statistics
+  - token
+  - stats
+  - heatmap
+source:
+  repository: https://github.com/HaoyueQin/dsh-usage-statistics-panel
+  repositoryNodeId: R_kgDOT90YGw
+  subpath: null
+  commit: df62adea7a161dd5963af021124963bed5950676
+creator:
+  github: HaoyueQin
+package:
+  ecosystem: npm
+  name: dsh-usage-statistics-panel
+  version: 0.1.6
+  integrity: sha512-VvskPb+M/5mlwl0lRb92OEcDl305ggbx6fubb8PwOa7aJ9wPr8Nds6Hq2Mu7eBKGZUnlggkx+5nbK1HEXxqBKA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:37.579Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
