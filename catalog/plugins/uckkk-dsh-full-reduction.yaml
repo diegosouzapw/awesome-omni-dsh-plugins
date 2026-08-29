@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-full-reduction
+name: dsh-full-reduction
+description:
+  en: bash dsh plugin add github:uckkk/dsh-full-reduction
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-full-reduction
+source:
+  repository: https://github.com/uckkk/dsh-full-reduction
+  repositoryNodeId: R_kgDOT-wWxw
+  subpath: null
+  commit: 0ccae5db8998288f7d9c8de48b7dfef1e509e486
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:41.580Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
