@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pixel-print
+name: dsh-pixel-print
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pixel-print
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pixel-print
+source:
+  repository: https://github.com/uckkk/dsh-pixel-print
+  repositoryNodeId: R_kgDOT-twZQ
+  subpath: null
+  commit: 38fb8f8106abf377595f16bc5f75b32b22921cd7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:48.852Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
