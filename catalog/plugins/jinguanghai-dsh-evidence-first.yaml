@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: jinguanghai-dsh-evidence-first
+name: dsh-evidence-first
+description:
+  en: "Evidence-first guard plugin for DeepSeek Harness: warns when the agent claims completion without tool-execution evidence. 证据铁律：声称完成必须有实际执行证据。"
+  evidencePath: plugins/evidence-first/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - evidence
+  - first
+  - guard
+  - warns
+  - agent
+  - claims
+  - completion
+  - without
+  - tool
+  - execution
+  - dsh
+source:
+  repository: https://github.com/jinguanghai/deepseek-harness-forge-plugins
+  repositoryNodeId: R_kgDOT4V3ww
+  subpath: plugins/evidence-first
+  commit: ad4e2dd73be06dc72fc05e0e1775032270bc3a0d
+creator:
+  github: jinguanghai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: plugins/evidence-first/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:34.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
