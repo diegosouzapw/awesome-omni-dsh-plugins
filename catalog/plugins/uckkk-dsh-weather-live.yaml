@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-weather-live
+name: dsh-weather-live
+description:
+  en: bash dsh plugin add github:uckkk/dsh-weather-live
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-weather-live
+source:
+  repository: https://github.com/uckkk/dsh-weather-live
+  repositoryNodeId: R_kgDOT-slOg
+  subpath: null
+  commit: 52b840ca174d8c8a0c00b73c2e2b4072bcc052bf
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:10.040Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
