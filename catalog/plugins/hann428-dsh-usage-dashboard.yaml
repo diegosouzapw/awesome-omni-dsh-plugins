@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: hann428-dsh-usage-dashboard
+name: dsh-usage-dashboard
+description:
+  en: "DeepSeek usage and billing panel for DeepSeek Harness: balance, peak/off-peak pricing, and live countdown."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - usage
+  - billing
+  - dsh
+source:
+  repository: https://github.com/Hann428/dsh-usage-dashboard
+  repositoryNodeId: R_kgDOT8e4ww
+  subpath: null
+  commit: efc6c8572ef35a8a8c1e0d19ce55c9fa3fc6d9f9
+creator:
+  github: Hann428
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:50.456Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
