@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: studyzy-dsh-suggest-prompt
+name: "@studyzy/dsh-suggest-prompt"
+description:
+  en: sh dsh plugin --profile web add git@github.com:studyzy/dsh-suggest-prompt.git
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - profile
+  - studyzy
+  - suggest
+  - prompt
+  - dsh
+source:
+  repository: https://github.com/studyzy/dsh-suggest-prompt
+  repositoryNodeId: R_kgDOT3j-8A
+  subpath: null
+  commit: 14d4f3abfb784812ce5fe63d55689f3f8ea6edb0
+creator:
+  github: studyzy
+package:
+  ecosystem: npm
+  name: "@studyzy/dsh-suggest-prompt"
+  version: 1.0.1
+  integrity: sha512-scV7/SFo5Iaon0NJyxGluxtijhi6OAcnQmqZZiL/k6QjY7mpLJuzJhAo5YyGHZ+zizRfUYrxzxNN4uC0KzrOpA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:14.852Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
