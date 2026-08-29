@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: baisbt-dsh-greater-clarity
+name: "@dsh-external/dsh-greater-clarity"
+description:
+  en: sh dsh plugin --profile web add github:Baisbt/dsh-GreaterClarity-plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - conversation
+  - export
+  - markdown
+  - avatar
+source:
+  repository: https://github.com/Baisbt/dsh-GreaterClarity-plugin
+  repositoryNodeId: R_kgDOUBUXUA
+  subpath: null
+  commit: dcb241c299d2d2b46d42d05c5b90e47a18bd9996
+creator:
+  github: Baisbt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:10.859Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
