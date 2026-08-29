@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: dsh-plugin-dev-dsh-grok-kit
+name: dsh-grok-kit
+description:
+  en: "Unofficial community plugin for DeepSeek Harness: use a SuperGrok / X Premium subscription via OAuth, with grok-4.6 chat, fused server-side web/X search, and Imagine"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - grok
+  - xai
+  - oauth
+  - search
+source:
+  repository: https://github.com/MaRi23333/dsh-grok-kit
+  repositoryNodeId: R_kgDOUCS_SA
+  subpath: null
+  commit: d9e99dc9229f58a6cb5d74bac18ca7aba75a22df
+creator:
+  github: dsh-plugin-dev
+package:
+  ecosystem: npm
+  name: dsh-grok-kit
+  version: 0.1.7
+  integrity: sha512-S0A+mQFMZUHfG7m3x+PX2Hw29yb4nSI9LQbp8+op6PpM7nmvxPWaixUs2Y8PX/xJTUIIIn3b9bknQgG6Ht5t3A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:04.548Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
