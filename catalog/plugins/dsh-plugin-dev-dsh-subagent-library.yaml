@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dsh-plugin-dev-dsh-subagent-library
+name: dsh-subagent-library
+description:
+  en: "Named subagent library for DeepSeek Harness: a settings-driven roster of role subagents (model + persona + tool filter), exposed to every session through the list subagents and delegate tools, a /subagent command, and a Settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - subagent
+  - library
+source:
+  repository: https://github.com/MaRi23333/dsh-subagent-library
+  repositoryNodeId: R_kgDOUAnAQQ
+  subpath: null
+  commit: 9c0d49b276707c7e4f27abf61b46542481eee337
+creator:
+  github: dsh-plugin-dev
+package:
+  ecosystem: npm
+  name: dsh-subagent-library
+  version: 0.2.4
+  integrity: sha512-+3ucjmqpv15JiSw3aLNWtMYTFyaMNsRKWuPWAwY+2hPRA6/vPkE3+O/MLTX5OI/p32g0RFDYL+dwOaw9Iro+Fg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:52.356Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
