@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-distance-2d
+name: dsh-distance-2d
+description:
+  en: bash dsh plugin add github:uckkk/dsh-distance-2d
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-distance-2d
+source:
+  repository: https://github.com/uckkk/dsh-distance-2d
+  repositoryNodeId: R_kgDOT9vA4w
+  subpath: null
+  commit: 9d2fe9794c7f0208df35084a70e63f4863aaed89
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:43.415Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
