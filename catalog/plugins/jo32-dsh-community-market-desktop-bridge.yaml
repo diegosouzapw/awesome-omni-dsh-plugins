@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jo32-dsh-community-market-desktop-bridge
+name: "@deepdeck/dsh-community-market-desktop-bridge"
+description:
+  en: <p align="center" A native-feeling desktop client for DeepSeek Harness. </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - align
+  - center
+  - native
+  - feeling
+  - desktop
+  - client
+  - dsh
+source:
+  repository: https://github.com/jo32/DeepDeck
+  repositoryNodeId: R_kgDOT6sjUA
+  subpath: plugins/marketplace-desktop-bridge
+  commit: d3fe239d7412ec905ee77f8979597b9a386eb1f5
+creator:
+  github: jo32
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/marketplace-desktop-bridge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:47:31.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
