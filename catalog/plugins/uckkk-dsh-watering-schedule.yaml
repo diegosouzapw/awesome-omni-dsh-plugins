@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-watering-schedule
+name: dsh-watering-schedule
+description:
+  en: bash dsh plugin add github:uckkk/dsh-watering-schedule
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-watering-schedule
+source:
+  repository: https://github.com/uckkk/dsh-watering-schedule
+  repositoryNodeId: R_kgDOT-r6_w
+  subpath: null
+  commit: c73ac1afa0829285168b127464d61c1c57712cac
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:08.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
