@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lyaxz-dsh-quick-toc
+name: dsh-quick-toc
+description:
+  en: "Quick conversation TOC for DeepSeek Harness: markdown heading outline grouped by turn, with auto-follow highlight and smooth jump navigation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - toc
+  - outline
+  - markdown
+source:
+  repository: https://github.com/LyaxZ/dsh-quick-toc
+  repositoryNodeId: R_kgDOT6r4cw
+  subpath: null
+  commit: a942891ff67f6aff40b8de38179e567866e4462a
+creator:
+  github: LyaxZ
+package:
+  ecosystem: npm
+  name: dsh-quick-toc
+  version: 0.2.2
+  integrity: sha512-VROIq75iNoOrrsQhGLIjt2URa6TwpdI++NrIgXYcNSL6LnCL+X7QTZC0Ntd71Mzmd3uXjMHn8Ol9sqlhiTlnbQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:49.675Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
