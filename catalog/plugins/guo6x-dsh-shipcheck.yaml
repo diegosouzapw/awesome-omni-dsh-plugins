@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: guo6x-dsh-shipcheck
+name: dsh-shipcheck
+description:
+  en: "Evidence-first frontend release checks for DSH: real browser inspection, user flows, visual baselines, and reproducible reports."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - frontend
+  - qa
+  - visual-regression
+  - release
+source:
+  repository: https://github.com/guo6x/dsh-shipcheck
+  repositoryNodeId: R_kgDOUD5U_Q
+  subpath: null
+  commit: 17fd57f0921d142c25e48ebace5203083fb5b550
+creator:
+  github: guo6x
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:53.127Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
