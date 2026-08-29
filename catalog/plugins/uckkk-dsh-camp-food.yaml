@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-camp-food
+name: dsh-camp-food
+description:
+  en: bash dsh plugin add github:uckkk/dsh-camp-food
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-camp-food
+source:
+  repository: https://github.com/uckkk/dsh-camp-food
+  repositoryNodeId: R_kgDOT-wvrw
+  subpath: null
+  commit: a7fb62581c56a16d3d61d7de315349f933f44ff5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:48.879Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
