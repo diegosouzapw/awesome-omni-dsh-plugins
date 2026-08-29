@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sum-of-divisors
+name: dsh-sum-of-divisors
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sum-of-divisors
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sum-of-divisors
+source:
+  repository: https://github.com/uckkk/dsh-sum-of-divisors
+  repositoryNodeId: R_kgDOT9u8FA
+  subpath: null
+  commit: 172c7236536daca94d89a1299714c87e0b4d1cd4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:14.092Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
