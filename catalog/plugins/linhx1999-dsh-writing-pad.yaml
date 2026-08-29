@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: linhx1999-dsh-writing-pad
+name: dsh-writing-pad
+description:
+  en: Session-backed writing pad for the DeepSeek Harness web GUI with Markdown preview, complete-draft XML requests, human-readable transcript projections, and focused AI writing tools.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - session
+  - backed
+  - writing
+  - markdown
+  - preview
+  - complete
+  - draft
+  - requests
+  - human
+  - readable
+  - transcript
+  - projections
+  - focused
+  - tools
+  - dsh
+source:
+  repository: https://github.com/linhx1999/dsh-writing-pad
+  repositoryNodeId: R_kgDOT4EXJw
+  subpath: null
+  commit: b70b77310d21a46878dbfd9e6e3b4dfd208c8b43
+creator:
+  github: linhx1999
+package:
+  ecosystem: npm
+  name: dsh-writing-pad
+  version: 1.1.3
+  integrity: sha512-A3jf+Lqq/nO/c36DU4istSSRPKcFte8BaX91WmTvnwCh6VScKYeViL6SYoLROxceQ9FyynEAEUyGxgSuoj1tjA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:55.090Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
