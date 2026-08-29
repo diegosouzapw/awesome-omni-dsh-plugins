@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: leeminjing-dsh-messages-sanitizer
+name: dsh-messages-sanitizer
+description:
+  en: "DeepSeek Harness plugin: auto-repairs an invalid messages array (orphaned tool calls / tool messages) to stop 400 INVALID REQUEST session lock-ups."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - messages
+  - sanitize
+  - tool-calls
+  - llm
+source:
+  repository: https://github.com/Leeminjing/dsh-messages-sanitizer
+  repositoryNodeId: R_kgDOT5XoXw
+  subpath: null
+  commit: 236b9a174621bc17d3997c5f9f5d09831037bf38
+creator:
+  github: Leeminjing
+package:
+  ecosystem: npm
+  name: dsh-messages-sanitizer
+  version: 0.1.0
+  integrity: sha512-wJ4JL3XfRnnUwnFCB9foS54jtjvF9UC2W5oR3/hTzZvrklvJw51XIXbSLtgz6LNGXtNcV4YwDWu/HLfBn6XKIQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:29.362Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
