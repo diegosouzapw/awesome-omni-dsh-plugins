@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-togo
+name: dsh-togo
+description:
+  en: bash dsh plugin add github:uckkk/dsh-togo
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-togo
+source:
+  repository: https://github.com/uckkk/dsh-togo
+  repositoryNodeId: R_kgDOT-DbzQ
+  subpath: null
+  commit: 28c5661a0e521cbe3268e05564a57f4e049437b3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:53.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
