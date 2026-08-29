@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: linxuhao-dsh-plugin-aitelier
+name: dsh-plugin-aitelier
+description:
+  en: "Use AItelier as a subagent from DeepSeek Harness: generate, edit, run, export and import SkillFlow pipelines. Client only — requires a running AItelier backend (Docker; see README)."
+  evidencePath: integrations/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - aitelier
+  - dsh-plugin
+  - dsh-skill
+  - mcp
+  - skillflow
+  - dsh
+source:
+  repository: https://github.com/linxuhao/AItelier
+  repositoryNodeId: R_kgDOR5f9ig
+  subpath: integrations/dsh
+  commit: ee083e17d7086987cff0da9a9311dcc586688e88
+creator:
+  github: linxuhao
+package:
+  ecosystem: npm
+  name: dsh-plugin-aitelier
+  version: 0.1.5
+  integrity: sha512-xiCC+bLoBnxgE+8wL/ekYaZd2ZPmGe2AdJdMJZn2TERwjoqZ00nbeMFUUa1cXpOFw4n/Hqf+sGQACykEvez1kw==
+dsh:
+  profiles:
+    - headless
+  evidencePath: integrations/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:19.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
