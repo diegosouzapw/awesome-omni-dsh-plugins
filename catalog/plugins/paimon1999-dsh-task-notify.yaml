@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: paimon1999-dsh-task-notify
+name: dsh-task-notify
+description:
+  en: Task-completion system notifications for DeepSeek Harness — macOS Notification Center, Windows Toast, and mobile push via Bark / ntfy / ServerChan / webhook
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - notification
+  - task-completion
+  - bark
+  - ntfy
+source:
+  repository: https://github.com/DeepseekHarnessPlugins/Notification
+  repositoryNodeId: R_kgDOUErG7w
+  subpath: null
+  commit: 5da12d12d31e260e22210efa2779b44d71db8891
+creator:
+  github: paimon1999
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:31.578Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
