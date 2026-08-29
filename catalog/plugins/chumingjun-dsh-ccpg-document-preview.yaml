@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: chumingjun-dsh-ccpg-document-preview
+name: dsh-ccpg-document-preview
+description:
+  en: Shared full-screen document preview for dsh and React applications
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - shared
+  - full
+  - screen
+  - document
+  - preview
+  - react
+  - applications
+  - dsh
+source:
+  repository: https://github.com/chumingjun/dsh-harness-one
+  repositoryNodeId: R_kgDOT-ev7w
+  subpath: dsh-plugins/dsh-ccpg-document-preview
+  commit: a067ae8d03b908c096c5424680686f78d4ddc22d
+creator:
+  github: chumingjun
+package:
+  ecosystem: npm
+  name: dsh-ccpg-document-preview
+  version: 0.3.2
+  integrity: sha512-Bfkmigd7YQMJuQfQTEEkxo/q6A9G+V2VyvAc5PnQBXzYgeluVQG5EKHyNUZOYYDjJVCTwLSRzaMlMjsadDHb3g==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: dsh-plugins/dsh-ccpg-document-preview/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:32.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
