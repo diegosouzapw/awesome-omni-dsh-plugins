@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: gloryxpnv-dsh-vision-local
+name: dsh-vision-local
+description:
+  en: "Local-first vision for text-only DeepSeek Harness agents: route image understanding to a local OpenAI-compatible vision model, return structured JSON evidence (summary / OCR / layout / semantics / visual / uncertainty)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - vlm
+  - ocr
+  - image-understanding
+  - local-first
+  - privacy
+source:
+  repository: https://github.com/gloryxpnv/dsh-tool-vision
+  repositoryNodeId: R_kgDOT4-YxQ
+  subpath: null
+  commit: 35789ca6d71a711d09c1b9dc914f767c42b386b4
+creator:
+  github: gloryxpnv
+package:
+  ecosystem: npm
+  name: dsh-vision-local
+  version: 0.3.0
+  integrity: sha512-ZM2sCVJ++pmaLnQJonH8dRoKms85bL13Z4oyz8k2nZLheUJSLpiTQZbrnQu1NXFDEdt/dQXALOqF1SmA28DjCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:43.629Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
