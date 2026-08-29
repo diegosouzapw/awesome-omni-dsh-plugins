@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: diluka-dsh-agent-plugin-market
+name: dsh-agent-plugin-market
+description:
+  en: bash dsh plugin --profile web add github:Diluka/dsh-agent-plugin-market
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - cordis
+  - market
+  - skills
+  - codex
+source:
+  repository: https://github.com/Diluka/dsh-agent-plugin-market
+  repositoryNodeId: R_kgDOT8CGyw
+  subpath: null
+  commit: 47ab89cf991e05574de2cd5345d61b553aa6ece7
+creator:
+  github: Diluka
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:38.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
