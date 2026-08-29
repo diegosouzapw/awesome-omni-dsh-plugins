@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hydroponics
+name: dsh-hydroponics
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hydroponics
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hydroponics
+source:
+  repository: https://github.com/uckkk/dsh-hydroponics
+  repositoryNodeId: R_kgDOT-tPVQ
+  subpath: null
+  commit: dea8f9148c844c803b934764c863e43600f46437
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:57.175Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
