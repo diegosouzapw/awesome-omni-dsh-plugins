@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-boron
+name: dsh-boron
+description:
+  en: bash dsh plugin add github:uckkk/dsh-boron
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-boron
+source:
+  repository: https://github.com/uckkk/dsh-boron
+  repositoryNodeId: R_kgDOT9vBUg
+  subpath: null
+  commit: fc17ab4c4369a4433035e516f33dc0669a9baf2a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:28.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
