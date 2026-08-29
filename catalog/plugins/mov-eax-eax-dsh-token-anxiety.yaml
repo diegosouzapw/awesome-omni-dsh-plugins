@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: mov-eax-eax-dsh-token-anxiety
+name: dsh-token-anxiety
+description:
+  en: "Token Anxiety widget for DeepSeek Harness: live per-task cost tracking over the session projection — peak/valley pricing, sortable cost table, currency manager (COP/USD/CNY + add/remove), click-to-explain, i18n"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bundle
+  - token
+  - cost
+  - pricing
+  - currency
+  - dsh
+source:
+  repository: https://github.com/mov-eax-eax/dsh-token-anxiety
+  repositoryNodeId: R_kgDOT5gCeg
+  subpath: null
+  commit: 78c60a47a26476bb3558fe65e9495fc003e80b60
+creator:
+  github: mov-eax-eax
+package:
+  ecosystem: npm
+  name: dsh-token-anxiety
+  version: 0.1.1
+  integrity: sha512-mob2W/Qt4T8LmGyvpQjH0Zx9aDjH7slkayPKxk20pM1oO3v3SrZbXAiadF7qDur4YW3csqJyUfeqLtkAg4jWtw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:02.233Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
