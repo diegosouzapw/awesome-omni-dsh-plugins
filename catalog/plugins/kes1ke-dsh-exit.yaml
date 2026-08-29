@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kes1ke-dsh-exit
+name: "@kesike/dsh-exit"
+description:
+  en: A focused exit control for the DeepSeek Harness web interface.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web
+  - exit
+source:
+  repository: https://github.com/KeS1Ke/dsh-start-and-exit
+  repositoryNodeId: R_kgDOUCfyNw
+  subpath: null
+  commit: 87b14de1e8fcf2bc845797c334a34836f312d06e
+creator:
+  github: KeS1Ke
+package:
+  ecosystem: npm
+  name: "@kesike/dsh-exit"
+  version: 0.2.5
+  integrity: sha512-PH5WWSFwmfrGOqFnKPehkkeEvbrrzKIzvGX0Czx9uxd0vXafLhP2nUKOAbFKJ5Z0v79KmRdt6H6zW/qippxRLA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:14.171Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
