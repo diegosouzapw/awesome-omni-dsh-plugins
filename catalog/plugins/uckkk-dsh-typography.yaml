@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-typography
+name: dsh-typography
+description:
+  en: bash dsh plugin add dsh-typography 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-typography" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - typography
+  - font
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-typography
+  repositoryNodeId: R_kgDOT6OkAQ
+  subpath: null
+  commit: 36ea7c74175c4151a11ef02403696db7168fed0d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:58.550Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
