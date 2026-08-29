@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-stddev
+name: dsh-stddev
+description:
+  en: bash dsh plugin add github:uckkk/dsh-stddev
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-stddev
+source:
+  repository: https://github.com/uckkk/dsh-stddev
+  repositoryNodeId: R_kgDOT9vB8w
+  subpath: null
+  commit: dc1ee3d04a6b14fd68c6ffbcedaa56c3ace48cb0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:11.073Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
