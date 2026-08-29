@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: memz-jzy-dsh-client-ui-effort-slider
+name: dsh-client-ui-effort-slider
+description:
+  en: Animated reasoning-level slider for DeepSeek Harness model selection.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - animated
+  - reasoning
+  - level
+  - slider
+  - model
+  - selection
+  - dsh
+source:
+  repository: https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider
+  repositoryNodeId: R_kgDOT5Spnw
+  subpath: null
+  commit: f1aa4b4728725076f70d3dc21c9d95ca281b30d7
+creator:
+  github: MEMZ-JZY
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:42.499Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
