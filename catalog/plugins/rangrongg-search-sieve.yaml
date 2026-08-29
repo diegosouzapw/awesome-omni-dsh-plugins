@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: rangrongg-search-sieve
+name: search-sieve
+description:
+  en: "SearchSieve — a DeepSeek Harness tool plugin: sifts web search results against the user's question — selection ratio, answer completeness (expectedPoints or auto keywords), representativeness & redundancy — with a switchable pink/blue/white web coverage card and auto-evaluation after every web search."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - tool
+  - coverage
+  - search
+  - evaluation
+  - rag
+  - web-research
+source:
+  repository: https://github.com/rangrongg/SearchSieve
+  repositoryNodeId: R_kgDOUEW5fA
+  subpath: null
+  commit: 2c26bd0d037c4ce048c9f0a7448a87d5665ec2bd
+creator:
+  github: rangrongg
+package:
+  ecosystem: npm
+  name: search-sieve
+  version: 0.3.0
+  integrity: sha512-yiqCdj24rya/UiXHbPMrBJsRamHQLW7qNTWlpV31E0346iyTe9FzOIn2vDwq2mSvUr8pZ18QjKeE6PBYW6T5TA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:08.704Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
