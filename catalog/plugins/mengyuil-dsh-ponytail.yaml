@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: mengyuil-dsh-ponytail
+name: "@mengyuly/dsh-ponytail"
+description:
+  en: "Lazy senior dev mode for DeepSeek Harness: always-on minimal-code ruleset, intensity switching, and short review/audit/debt/gain/help skills"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - lazy
+  - senior
+  - mode
+  - always
+  - minimal
+  - code
+  - ruleset
+  - intensity
+  - switching
+  - short
+  - review
+  - audit
+  - debt
+  - gain
+  - help
+  - skills
+source:
+  repository: https://github.com/MengYuil/dsh-ponytail
+  repositoryNodeId: R_kgDOUBYfjA
+  subpath: null
+  commit: c76ef3aa08d996427073fe0e5aa258eb34d678f6
+creator:
+  github: MengYuil
+package:
+  ecosystem: npm
+  name: "@mengyuly/dsh-ponytail"
+  version: 0.2.2
+  integrity: sha512-76qlZJak0TshQwnXgFlZTRqp2GaANj+ftHKMX5u5oGxkXc24LxeYgWof56H9CQYN1kMq52CJN9Dlsscq+YPhIg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:28.059Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
