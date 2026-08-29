@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: godchen520-dsh-web-search-bing
+name: dsh-web-search-bing
+description:
+  en: Free Bing-backed web search provider for DeepSeek Harness (DSH). No API key needed, uses cn.bing.com for mainland China accessibility.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - search
+  - web-search
+  - bing
+  - free
+  - cn-bing
+source:
+  repository: https://github.com/godchen520/dsh-web-search-bing
+  repositoryNodeId: R_kgDOT86mpg
+  subpath: null
+  commit: 1c57c235170d6e94f0c9e706b632a2118908426d
+creator:
+  github: godchen520
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:38.914Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
