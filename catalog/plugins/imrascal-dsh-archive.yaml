@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: imrascal-dsh-archive
+name: "@imrascal/dsh-archive"
+description:
+  en: A DeepSeek Harness (DSH) plugin that manages archived sessions and the trash from the settings panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - archive
+  - trash
+  - session
+source:
+  repository: https://github.com/imrascal/dsh-archive
+  repositoryNodeId: R_kgDOT7bdnQ
+  subpath: null
+  commit: 9ee5770a0640375519f3e7528db0e6efeedb1efc
+creator:
+  github: imrascal
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:13.452Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
