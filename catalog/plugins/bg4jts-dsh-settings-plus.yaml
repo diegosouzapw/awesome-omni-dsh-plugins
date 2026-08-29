@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: bg4jts-dsh-settings-plus
+name: "@oneinitai/dsh-settings-plus"
+description:
+  en: "Advanced settings management plugin for DeepSeek Harness: form-level and file-level configuration editing with an open plugin registration SDK"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - advanced
+  - settings
+  - management
+  - form
+  - level
+  - file
+  - configuration
+  - editing
+  - open
+  - registration
+  - dsh
+source:
+  repository: https://github.com/oneinitAI/dsh-settings-plus
+  repositoryNodeId: R_kgDOT4Rcbg
+  subpath: null
+  commit: 2aafa7a38fb32ed8718f4de7d740ab4642c1dfe4
+creator:
+  github: BG4JTS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:50.821Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
