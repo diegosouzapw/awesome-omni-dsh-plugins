@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: drscrewdriver-dsh-thinking-levels
+name: dsh-thinking-levels
+description:
+  en: "DSH host plugin: thinking-level (reasoning effort) control for dsh — auto-adjust per tool round, with optional manual lock and per-tool timing telemetry."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - host
+  - thinking
+  - level
+  - reasoning
+  - effort
+  - control
+  - auto
+  - adjust
+  - tool
+  - round
+  - optional
+  - manual
+  - lock
+  - timing
+  - telemetry
+  - dsh
+source:
+  repository: https://github.com/drscrewdriver/dsh-thinking-levels
+  repositoryNodeId: R_kgDOT8j97g
+  subpath: null
+  commit: 0ff856a77ca64e0715ffa259dd37569e283b18a1
+creator:
+  github: drscrewdriver
+package:
+  ecosystem: npm
+  name: dsh-thinking-levels
+  version: 0.4.1
+  integrity: sha512-j09BbmXq7Dd9SqMsBic0xMdBPXAhMd1WiEGG3ppNk338TmbT75yM2veRStV3oOzBcU+4IWw/7bRww5+0V1tf7A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:43.794Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
