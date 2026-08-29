@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bolivia
+name: dsh-bolivia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bolivia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bolivia
+source:
+  repository: https://github.com/uckkk/dsh-bolivia
+  repositoryNodeId: R_kgDOT-4J4A
+  subpath: null
+  commit: abdc187a389f3da4788b6e94bb9e3c1469c24a81
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:44.822Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
