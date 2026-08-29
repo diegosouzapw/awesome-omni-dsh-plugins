@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sierra-leone
+name: dsh-sierra-leone
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sierra-leone
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sierra-leone
+source:
+  repository: https://github.com/uckkk/dsh-sierra-leone
+  repositoryNodeId: R_kgDOT-DQzw
+  subpath: null
+  commit: aedfbedf0e2ed6d1e407561cd53d714a17de50fd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:01.789Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
