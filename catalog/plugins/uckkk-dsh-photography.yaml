@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-photography
+name: dsh-photography
+description:
+  en: bash dsh plugin add dsh-photography 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-photography" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - photography
+  - camera
+  - lighting
+source:
+  repository: https://github.com/uckkk/dsh-photography
+  repositoryNodeId: R_kgDOT6OoBQ
+  subpath: null
+  commit: 5121e542fa947a58395b66bc50c4cb5f67eb53cc
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-photography
+  version: 0.1.0
+  integrity: sha512-DIse0RnO9Blrufv1V0HZD/mE7v4uWB58GfZFPDIxFFc/9y8920ytXF4SGTQuBfFh+CrbWkimgo4a5ABWPTty7w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:48.442Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
