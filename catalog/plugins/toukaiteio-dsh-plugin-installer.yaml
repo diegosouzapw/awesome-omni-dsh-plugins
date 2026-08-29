@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: toukaiteio-dsh-plugin-installer
+name: dsh-plugin-installer
+description:
+  en: A Web UI marketplace and profile switcher for DeepSeek Harness plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-marketplace
+source:
+  repository: https://github.com/Toukaiteio/dsh-plugin-installer
+  repositoryNodeId: R_kgDOT3lGHw
+  subpath: null
+  commit: 5ea0ec73b461a5d2cbb1562329abf85c2b161324
+creator:
+  github: Toukaiteio
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:06.400Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
