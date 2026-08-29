@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: lzh3070-dsh-session-cost
+name: "@phynez_1103/dsh-session-cost"
+description:
+  en: "DSH web plugin: shows the current session's DeepSeek API cost as a small chip in the composer button row (conversation.input.right). Prices every assistant/message by its timestamp with the official DeepSeek pricing table, including the 2026-08-17 peak/off-peak policy."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - shows
+  - current
+  - session
+  - cost
+  - small
+  - chip
+  - composer
+  - button
+  - conversation
+  - input
+  - right
+  - prices
+  - every
+  - assistant
+  - message
+  - timestamp
+source:
+  repository: https://github.com/Lzh3070/dsh-session-cost
+  repositoryNodeId: R_kgDOT5wf1Q
+  subpath: null
+  commit: 986c34e1445ca5012d32e2d9d02768c5cb0cb12c
+creator:
+  github: Lzh3070
+package:
+  ecosystem: npm
+  name: "@phynez_1103/dsh-session-cost"
+  version: 0.1.1
+  integrity: sha512-pCtiMspD2AhDeIOBqladVpcuMiIyDO0QiWtDRqMrfu/4AWiQT4gcs8+y91XitPhUn8ot6/yBmcDIS5HGEVmMVg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:50.684Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
