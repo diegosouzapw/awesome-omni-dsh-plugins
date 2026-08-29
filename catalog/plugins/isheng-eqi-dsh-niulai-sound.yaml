@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: isheng-eqi-dsh-niulai-sound
+name: dsh-niulai-sound
+description:
+  en: sh dsh plugin --profile web add github:isheng-eqi/dsh-niulai-sound
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - niulai
+  - approval
+  - sound
+  - audio
+  - cordis
+source:
+  repository: https://github.com/isheng-eqi/dsh-niulai-sound
+  repositoryNodeId: R_kgDOT7XNOQ
+  subpath: null
+  commit: ab48ef06568561400c1a09ec265d3488562b48a3
+creator:
+  github: isheng-eqi
+package:
+  ecosystem: npm
+  name: dsh-niulai-sound
+  version: 1.0.0
+  integrity: sha512-wdhc9/BtTGLAOGcog3gVBZkEe95jQxYePsCpBs0p4LbkvjX+/1bsROJ78gYO7yR5gVE047/gwuBSazz9zK6liQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:15.182Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
