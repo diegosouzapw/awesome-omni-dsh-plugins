@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-initials
+name: dsh-initials
+description:
+  en: bash dsh plugin add github:uckkk/dsh-initials
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-initials
+source:
+  repository: https://github.com/uckkk/dsh-initials
+  repositoryNodeId: R_kgDOT9uBSQ
+  subpath: null
+  commit: 69e25c36d00cfa6eab232137bec9e361c5c01b75
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:08.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
