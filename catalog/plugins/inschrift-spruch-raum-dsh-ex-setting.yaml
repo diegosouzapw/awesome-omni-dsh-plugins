@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: inschrift-spruch-raum-dsh-ex-setting
+name: "@deepseek-ai/dsh-ex-setting"
+description:
+  en: Automatic Web settings and composition configuration bundle for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - automatic
+  - settings
+  - composition
+  - configuration
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/ex-setting
+  repositoryNodeId: R_kgDOTt2CZg
+  subpath: null
+  commit: 9bc01b547d22af6a69d3392916aaaf8ccc533d1d
+creator:
+  github: inschrift-spruch-raum
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:56.855Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
