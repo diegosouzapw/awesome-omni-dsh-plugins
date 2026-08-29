@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: pingg02-dsh-quote-selection
+name: dsh-quote-selection
+description:
+  en: "DeepSeek Harness web GUI plugin: quote ANY selected text (floating button), add your own annotation, and hold references as embedded numbered chips above the composer; insert them into the draft on demand."
+  evidencePath: dsh-quote-selection/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - quote
+source:
+  repository: https://github.com/pingg02/dsh-plugins
+  repositoryNodeId: R_kgDOT9kmfg
+  subpath: dsh-quote-selection
+  commit: c5516ad4994d2dcfb76fae31d7cefc332ef62f90
+creator:
+  github: pingg02
+package:
+  ecosystem: npm
+  name: dsh-quote-selection
+  version: 0.1.0
+  integrity: sha512-h87sbBwzSOsueGpMEnTNSTA8/FZVkn/s2lY/uZXVIg4PEJYYBhGfuZfpliQRUaYXnV2KlFTvUvCON0a1+Mc8Bw==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-quote-selection/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
