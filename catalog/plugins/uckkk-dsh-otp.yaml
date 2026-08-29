@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-otp
+name: dsh-otp
+description:
+  en: bash dsh plugin add dsh-otp 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-otp" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - otp
+  - totp
+  - 2fa
+source:
+  repository: https://github.com/uckkk/dsh-otp
+  repositoryNodeId: R_kgDOT6MqPA
+  subpath: null
+  commit: 25d931d6cd836f732100cdb07aa3562cf257712d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:44.598Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
