@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-trapezoid
+name: dsh-trapezoid
+description:
+  en: bash dsh plugin add github:uckkk/dsh-trapezoid
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-trapezoid
+source:
+  repository: https://github.com/uckkk/dsh-trapezoid
+  repositoryNodeId: R_kgDOT9u_-w
+  subpath: null
+  commit: db4d66d037877547c2a6273a0cf6c34cc47ed498
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:55.511Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
