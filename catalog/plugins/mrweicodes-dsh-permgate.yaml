@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: mrweicodes-dsh-permgate
+name: dsh-permgate
+description:
+  en: "Permission gateway for DSH (DeepSeek Harness): reviews tool calls per category (directory/command/read/edit/subagent/doom loop) with global/project config, exceptions, quick-tool defaults, custom rules, bilingual approval modal and sandbox-upgrade flow. Config persisted at $DSH HOME/dsh-permgate/config.json."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - permission
+  - gateway
+  - reviews
+  - tool
+  - calls
+  - category
+  - directory
+  - command
+  - read
+  - edit
+  - subagent
+  - doom
+  - loop
+  - global
+  - config
+  - exceptions
+source:
+  repository: https://github.com/MrWeiCodes/dsh-permgate
+  repositoryNodeId: R_kgDOT5QDzg
+  subpath: null
+  commit: acfbbeef404e6ac1e1efe7ac8935b9f5b60d5671
+creator:
+  github: MrWeiCodes
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:41.705Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
