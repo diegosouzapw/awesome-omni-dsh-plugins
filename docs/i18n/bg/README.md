@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Разгледайте, търсете и инсталирайте всеки плъгин на уебсайта →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1723_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1814_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@
 
 ## Състояние на каталога
 
-**1723 обединени плъгина.** Всеки плъгин влиза чрез отделно прегледан pull request, един по един, от хранилището на оригиналния създател, с фиксиран изходен комит и изрично приписване.
+**1814 обединени плъгина.** Всеки плъгин влиза чрез отделно прегледан pull request, един по един, от хранилището на оригиналния създател, с фиксиран изходен комит и изрично приписване.
 
 ## 🚀 Инсталирайте CLI
 
@@ -287,4 +287,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 8801c639ce6986353e9be42b61576ce649979ee4f3046d7cef910832030f570e -->
+<!-- i18n-source-hash: 4fe497a9d08b74f021c1bb0122b55f4b00fb31412eceb0129f07e52d009728af -->
