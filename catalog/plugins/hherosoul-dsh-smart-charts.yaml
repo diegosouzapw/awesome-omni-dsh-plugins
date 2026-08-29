@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: hherosoul-dsh-smart-charts
+name: dsh-smart-charts
+description:
+  en: Smart Charts skill for DeepSeek Harness — generates interactive ECharts visualizations from CSV/Excel/JSON data.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - skill
+  - echarts
+  - charts
+  - visualization
+  - dsh
+source:
+  repository: https://github.com/hherosoul/dsh-smart-charts
+  repositoryNodeId: R_kgDOT9fm0g
+  subpath: null
+  commit: 225bac88e6356aba51c3379ae960f9f9ec999c13
+creator:
+  github: hherosoul
+package:
+  ecosystem: npm
+  name: dsh-smart-charts
+  version: 6.0.1
+  integrity: sha512-hAIKag1NG20P/BXDYNLx09FXnOlznzTLTmYO2hqhT1teWqgshwJWv1se4fZUaQ77lgjBVJzTY8iDwmRoCQPRYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:38.867Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
