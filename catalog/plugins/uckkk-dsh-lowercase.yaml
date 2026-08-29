@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-lowercase
+name: dsh-lowercase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-lowercase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-lowercase
+source:
+  repository: https://github.com/uckkk/dsh-lowercase
+  repositoryNodeId: R_kgDOT9t93g
+  subpath: null
+  commit: adc16b9205128a550cbf042aa17cc9b65bdc50db
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:24.864Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
