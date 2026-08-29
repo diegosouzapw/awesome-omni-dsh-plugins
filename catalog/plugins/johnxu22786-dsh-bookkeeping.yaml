@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: johnxu22786-dsh-bookkeeping
+name: dsh-bookkeeping
+description:
+  en: "Conversational bookkeeping plugin for DeepSeek Harness: record expenses/income by chat, query the ledger, run reports, export CSV/HTML, and track monthly budgets."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - dsh
+  - bookkeeping
+  - ledger
+  - accounting
+  - expense
+  - budget
+  - deepseek-harness
+source:
+  repository: https://github.com/JohnXu22786/bookkeeping
+  repositoryNodeId: R_kgDOT7VytA
+  subpath: null
+  commit: ee9c43bc0bb455ddc016afae8bc2bb72c2227832
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-bookkeeping
+  version: 1.0.0
+  integrity: sha512-3ywr2LApVoqqpQun0WxWtcb5WXsL1jXvwduejfVxagCvNEMX8OYVEWcb6tEQ9dUr7ZGFX5Pd/TffgtpNVcJf3g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:01.366Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
