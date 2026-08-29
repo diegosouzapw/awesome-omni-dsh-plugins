@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ethanyoq-dsh-invoice-downloader
+name: "@ethanyoq/dsh-invoice-downloader"
+description:
+  en: Local IMAP invoice download, OCR, archive, and Excel summary bundle for DeepSeek Harness
+  evidencePath: plugins/dsh-invoice-downloader/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - invoice
+  - imap
+  - ocr
+  - excel
+  - dsh
+source:
+  repository: https://github.com/EthanYoQ/Invoice-Downloader
+  repositoryNodeId: R_kgDORcJ7Uw
+  subpath: plugins/dsh-invoice-downloader
+  commit: 9b60d528cb75d880cbc30c59374c254ef55955c7
+creator:
+  github: EthanYoQ
+package:
+  ecosystem: npm
+  name: "@ethanyoq/dsh-invoice-downloader"
+  version: 0.1.1
+  integrity: sha512-QsCitE8WOWUIv14/ZRfn1Ooz6opgJM3y7s/3OklucGSI9dttb3/xvbQKB+cDSeaTtlYeik5/Ojv25v7uHyzM7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-invoice-downloader/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:44.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
