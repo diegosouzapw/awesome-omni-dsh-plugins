@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fandc520-dsh-comfyui
+name: dsh-comfyui
+description:
+  en: "Drive ComfyUI from DeepSeek Harness: generate and process images and videos through agent tools, with a workflow/asset/queue panel, in-chat results and a settings page. / 让 DeepSeek Harness 的 Agent 直接驱动 ComfyUI 生成与处理图像、视频，带工作流/资产/队列面板。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - comfyui
+  - image-generation
+  - video-generation
+source:
+  repository: https://github.com/fandc520/dsh-comfyui
+  repositoryNodeId: R_kgDOT-zKcg
+  subpath: null
+  commit: 0843841c7fc526d7f995427d98c87ec757fdebb0
+creator:
+  github: fandc520
+package:
+  ecosystem: npm
+  name: dsh-comfyui
+  version: 0.3.0-beta.4
+  integrity: sha512-NB/VJ3Mmd/heoRfxJC/F285m2aK/mFx3qcPs4yqhQHw02gPlRZeI/FWMVnOg6HkdKwd4UBhSgPjU4/JITUVIog==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:31.003Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 32
+provenance:
+  discussion: null
+  comment: null
