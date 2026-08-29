@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-stair-calc
+name: dsh-stair-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-stair-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-stair-calc
+source:
+  repository: https://github.com/uckkk/dsh-stair-calc
+  repositoryNodeId: R_kgDOT-s2MQ
+  subpath: null
+  commit: 845ff32923ca7299fe86005ba45ac0aec582bad4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:10.553Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
