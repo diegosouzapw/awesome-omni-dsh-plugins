@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: niuniuaba-dsh-subagent-vision
+name: dsh-subagent-vision
+description:
+  en: "dsh bundle: subagent vision — delegate image reading to a vision-capable model from a text-only session, plus paste-to-path so pasted images reach the subagent as file paths."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - bundle
+  - vision
+  - subagent
+source:
+  repository: https://github.com/niuniuaba/dsh-subagent-vision
+  repositoryNodeId: R_kgDOT5PAkw
+  subpath: null
+  commit: 3026a48514a62ddb88684498e055ee38f8f619d4
+creator:
+  github: niuniuaba
+package:
+  ecosystem: npm
+  name: dsh-subagent-vision
+  version: 0.1.4
+  integrity: sha512-3zawJng3WQRgw5KYJDL1Lf8zvfOSixKe28TZrhJsmL+Zk07w9MphDZ5PHKnVAIKVvOTbIRGLyS6XEQBNQlupYQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:07.612Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
