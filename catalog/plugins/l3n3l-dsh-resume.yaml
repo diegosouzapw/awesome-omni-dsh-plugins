@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: l3n3l-dsh-resume
+name: dsh-resume
+description:
+  en: "Markdown campus resume workbench: the agent edits resumes and CSS templates under jobhunt/, and the user previews and exports from the sidebar."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - resume
+  - campus
+  - jobhunt
+  - markdown
+source:
+  repository: https://github.com/L3n3L/dsh-resume
+  repositoryNodeId: R_kgDOT_yOzA
+  subpath: null
+  commit: 353f5766909bd8ee3095f569113c8ade0df7e29c
+creator:
+  github: L3n3L
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:43.587Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
