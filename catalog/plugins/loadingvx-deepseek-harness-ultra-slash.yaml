@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: loadingvx-deepseek-harness-ultra-slash
+name: deepseek-harness-ultra-slash
+description:
+  en: "Ultra Slash for DeepSeek Harness: a separate / menu group for this plugin's commands."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - ultra-slash
+  - steer
+  - slash-command
+source:
+  repository: https://github.com/loadingvx/deepseeh-harness-ultra-slash
+  repositoryNodeId: R_kgDOT7RHbA
+  subpath: null
+  commit: 9cb233b1e253a86d84e12e5ddcda529df6e25537
+creator:
+  github: loadingvx
+package:
+  ecosystem: npm
+  name: deepseek-harness-ultra-slash
+  version: 0.2.2
+  integrity: sha512-51HER0C7qeZ2IvulHNkQPkWK9HWqcexqDZyvqBs3DzbmOx976t3ZfN6wxOxX+3BmGXuo5RYEENk0scGNR07aqw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:31.032Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
