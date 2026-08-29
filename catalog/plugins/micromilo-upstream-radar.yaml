@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: micromilo-upstream-radar
+name: upstream-radar
+description:
+  en: Always-on dependency and compatibility monitoring for DeepSeek Harness plugins, including exact paths, upstream changes, and isolated install/load evidence.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-security
+  - cordis
+  - dependency-security
+  - dependency-monitoring
+  - dependency-vulnerabilities
+  - vulnerability-monitoring
+  - breaking-changes
+  - supply-chain
+  - dependency-graph
+  - osv
+  - agent-security
+  - ai-agent
+  - npm
+source:
+  repository: https://github.com/MicroMilo/upstream-radar
+  repositoryNodeId: R_kgDOT4JM_A
+  subpath: null
+  commit: ca26522d923a51c97518db31e162cbf88012821c
+creator:
+  github: MicroMilo
+package:
+  ecosystem: npm
+  name: upstream-radar
+  version: 0.45.0
+  integrity: sha512-c/4LSkYO73KcZ1ZMjpt6kvBxuVLGYQs8/oDfheKVqgt1YamwnidamFQm5vAJRUcRP8LaFAPfSxCk/132I2nw2Q==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.698Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
