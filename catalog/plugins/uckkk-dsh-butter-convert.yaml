@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-butter-convert
+name: dsh-butter-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-butter-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-butter-convert
+source:
+  repository: https://github.com/uckkk/dsh-butter-convert
+  repositoryNodeId: R_kgDOT-sjdQ
+  subpath: null
+  commit: 3962df07362935d189dd3c60e18f90690ca6199a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:45.487Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
