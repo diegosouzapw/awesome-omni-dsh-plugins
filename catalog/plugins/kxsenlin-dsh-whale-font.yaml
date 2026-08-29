@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kxsenlin-dsh-whale-font
+name: dsh-whale-font
+description:
+  en: bash dsh plugin --profile web add github:kxSenlin/dsh-whale-font
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - whale
+  - font
+  - pronoun
+  - accessibility
+source:
+  repository: https://github.com/kxSenlin/dsh-whale-font
+  repositoryNodeId: R_kgDOT4pGhA
+  subpath: null
+  commit: b35bf1e7d678019e5ca7df8eb428de13be35f797
+creator:
+  github: kxSenlin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:59.645Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
