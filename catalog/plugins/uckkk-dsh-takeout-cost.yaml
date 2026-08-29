@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-takeout-cost
+name: dsh-takeout-cost
+description:
+  en: bash dsh plugin add github:uckkk/dsh-takeout-cost
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-takeout-cost
+source:
+  repository: https://github.com/uckkk/dsh-takeout-cost
+  repositoryNodeId: R_kgDOT-we1Q
+  subpath: null
+  commit: a96465af3833b68c6edff97bb30c50badc56e873
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:16.287Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
