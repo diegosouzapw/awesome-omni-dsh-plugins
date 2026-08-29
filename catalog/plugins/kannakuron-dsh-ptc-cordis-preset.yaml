@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kannakuron-dsh-ptc-cordis-preset
+name: dsh-ptc-cordis-preset
+description:
+  en: "DSH plugin: a Creation-mode preset built on top of PTC mode — every capability of PTC (Code Mode SDK tool presentation), plus the self-referential Cordis toolset, runtime inspection, dynamic-plugin experiments, and preset-authoring guidance. Materializes the 'ptc-cordis' agent preset into your user preset root at start"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - agent-preset
+  - ptc
+  - code-mode
+  - cordis
+  - dsh-plugin
+source:
+  repository: https://github.com/KannaKuron/dsh-ptc-cordis-preset
+  repositoryNodeId: R_kgDOT9XFGw
+  subpath: null
+  commit: 7554041f19fe55d1e2d19e9332afa2072fc7700b
+creator:
+  github: KannaKuron
+package:
+  ecosystem: npm
+  name: dsh-ptc-cordis-preset
+  version: 0.6.3
+  integrity: sha512-vyQ9s0pFx+alwWLI2tqRfdW3ZRKEiXQuHnBamJLIxTBN9e5cgOXvBohi5LKGKh+w48HvWMKBpbRjvM4RmIgcyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:25.181Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
