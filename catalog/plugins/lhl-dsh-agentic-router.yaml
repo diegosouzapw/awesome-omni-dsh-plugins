@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lhl-dsh-agentic-router
+name: dsh-agentic-router
+description:
+  en: "DeepSeek Harness plugin: learning agentic router — rule + UCB + LinUCB + k-NN experts under an EXP3 meta-selector, with a durable quality-reward flywheel, REAL model switching via the session request-header precedence chain, and STEP-LEVEL routing (v1.5.0)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agentic-router
+  - model-routing
+  - bandit
+  - exp3
+  - flywheel
+  - llm
+source:
+  repository: https://github.com/lhwwxy/dsh-agentic-router
+  repositoryNodeId: R_kgDOT8JiCA
+  subpath: null
+  commit: ed44d59dd41b3d1157cdb56e00c64ec765643fb4
+creator:
+  github: lhl
+package:
+  ecosystem: npm
+  name: dsh-agentic-router
+  version: 1.5.0
+  integrity: sha512-qUV7rvZsj/CNZsnA7XQAG0ba4TKyOibV2nqIVeTf6ng0NGWT/TGX60jvIXFsxbpVmXXTZ1OeQzHn2iPWCDJHqQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:19.493Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
