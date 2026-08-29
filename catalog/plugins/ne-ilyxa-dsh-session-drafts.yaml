@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ne-ilyxa-dsh-session-drafts
+name: "@ne-ilyxa/dsh-session-drafts"
+description:
+  en: "Cursor-style drafts for DeepSeek Harness: New Session reuses the empty draft or mints a fresh one; drafts live in the sidebar tree with live preview titles, a gray tint and a single × to discard"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - new-session
+  - drafts
+  - session-persistence
+  - cursor-like
+source:
+  repository: https://github.com/ne-ilyxa/dsh-session-drafts
+  repositoryNodeId: R_kgDOT_hWIw
+  subpath: null
+  commit: 2b1f8e3a9f2dbb2f8e25fa6f79b87f3b066193ed
+creator:
+  github: ne-ilyxa
+package:
+  ecosystem: npm
+  name: "@ne-ilyxa/dsh-session-drafts"
+  version: 0.6.1
+  integrity: sha512-gs2D7k7ScKBBOI1G4uLKC47wKdftzPPvXo1/scJLNPe7CMIiUn7HH4lvr6ekULYm58MInDCmNpjvLIfKN0xRHg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:55.635Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
