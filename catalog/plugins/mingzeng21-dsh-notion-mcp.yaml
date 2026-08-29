@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: mingzeng21-dsh-notion-mcp
+name: dsh-notion-mcp
+description:
+  en: Connect DeepSeek Harness (dsh) to Notion via the official Notion MCP (OAuth + PKCE)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - notion
+  - mcp
+  - deepseek-harness
+source:
+  repository: https://github.com/mingzeng21/dsh-notion
+  repositoryNodeId: R_kgDOT5TJpg
+  subpath: null
+  commit: 07122b8e89273f2bcaaf765f11609afedc5b065f
+creator:
+  github: mingzeng21
+package:
+  ecosystem: npm
+  name: dsh-notion-mcp
+  version: 0.1.0
+  integrity: sha512-s+NSAPhTNtT7yU5ojF2NBQlYsLzZ0p8KCnrm5DsXGkBLO01nUHNoIO11lbLnWYBJEyQgVvx9j6t9UFf7Bxopag==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:45.888Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
