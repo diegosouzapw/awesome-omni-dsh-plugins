@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-repo-health
+name: dsh-repo-health
+description:
+  en: bash dsh plugin add dsh-repo-health
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - health
+  - best-practices
+  - repo
+source:
+  repository: https://github.com/uckkk/dsh-repo-health
+  repositoryNodeId: R_kgDOT6EkZA
+  subpath: null
+  commit: 782434c902768aa387d543da6e2a48d1644f7d1f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-repo-health
+  version: 0.1.0
+  integrity: sha512-fLexDViGI+Tp+D21WmFSuZJYOJetjPG+uQZjVJD0l0/6e3ddzk1vI9i+fF60D/iReYcL8MPJWul9hs3VPwXLhQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:47.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
