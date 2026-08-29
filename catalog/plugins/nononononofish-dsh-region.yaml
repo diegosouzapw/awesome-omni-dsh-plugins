@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: nononononofish-dsh-region
+name: dsh-region
+description:
+  en: bash git clone https://github.com/nononononofish/dsh-region.git cd dsh-region npm install 或 npx tsc（由 src/ 构建 lib/） dsh plugin --profile web add link:C:\path\to\dsh-region
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - registry
+  - npmmirror
+source:
+  repository: https://github.com/nononononofish/dsh-region
+  repositoryNodeId: R_kgDOT-krwA
+  subpath: null
+  commit: 1195b88cd50c97f7477bca3e449bc8189e9cc0b0
+creator:
+  github: nononononofish
+package:
+  ecosystem: npm
+  name: dsh-region
+  version: 0.2.0
+  integrity: sha512-JHmnjyGqugucpriWvLdxvBtKQP6vZQErVO5O5AS2CZ6QmKXBQxrHQ+awsYoAwBGwZEXOxW/0iBMAuL90SL0jTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:07.785Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
