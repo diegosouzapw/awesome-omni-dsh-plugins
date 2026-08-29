@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: haoyueqin-dsh-better-reasoning-effort
+name: dsh-better-reasoning-effort
+description:
+  en: "Third-party provider reasoning-effort AND input-modality settings for DeepSeek Harness: thinking levels and image-input support declared per model, auto-adapted from a model knowledge base + wire-protocol inference, edited right inside the official Models page card."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - reasoning-effort
+  - reasoning
+  - thinking
+  - input-modality
+  - modalities
+  - vision
+  - llm-settings
+  - dsh
+source:
+  repository: https://github.com/HaoyueQin/dsh-better-reasoning-effort
+  repositoryNodeId: R_kgDOT90Y1w
+  subpath: null
+  commit: 0a9de8b547c94921bfb677143c8c916b223e29fe
+creator:
+  github: HaoyueQin
+package:
+  ecosystem: npm
+  name: dsh-better-reasoning-effort
+  version: 0.2.1
+  integrity: sha512-DcHoWycFu9A5kgziZxvn+EElNgGPWxIkcO+U+tXi6jB/mFCwXRGXFiX+q+A7equ91/YZZzhuEJlBq8UoF4T/KA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:03.001Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
