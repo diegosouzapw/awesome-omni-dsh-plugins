@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: dataizu-dsh-whale-aqua-theme
+name: dsh-whale-aqua-theme
+description:
+  en: sh dsh plugin --profile web add https://github.com/dataizu/dsh-whale-aqua-theme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+source:
+  repository: https://github.com/dataizu/dsh-whale-aqua-theme
+  repositoryNodeId: R_kgDOT4dKyw
+  subpath: null
+  commit: 8f4abbbde43710b26755e192e4b935cfba4fc37a
+creator:
+  github: dataizu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:17.458Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
