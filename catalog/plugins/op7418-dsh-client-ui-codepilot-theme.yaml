@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: op7418-dsh-client-ui-codepilot-theme
+name: "@deepseek-ai/dsh-client-ui-codepilot-theme"
+description:
+  en: Unloadable CodePilot visual theme plugin for DeepSeek Harness clients
+  evidencePath: packages/client/ui-codepilot-theme/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - unloadable
+  - codepilot
+  - visual
+  - theme
+  - clients
+  - dsh
+source:
+  repository: https://github.com/op7418/pilot-harness
+  repositoryNodeId: R_kgDOT63ahg
+  subpath: packages/client/ui-codepilot-theme
+  commit: d1fa9c15fc00c05ea6931aafd724554ca34d5a6d
+creator:
+  github: op7418
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/client/ui-codepilot-theme/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:13.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
