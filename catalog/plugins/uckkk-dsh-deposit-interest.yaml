@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-deposit-interest
+name: dsh-deposit-interest
+description:
+  en: bash dsh plugin add github:uckkk/dsh-deposit-interest
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-deposit-interest
+source:
+  repository: https://github.com/uckkk/dsh-deposit-interest
+  repositoryNodeId: R_kgDOT_HNAQ
+  subpath: null
+  commit: f95a0d9a816a60e82cb6794f72e93b0e3fcbb6a7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:40.720Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
