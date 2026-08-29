@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tuogusa-dsh-whale-background
+name: dsh-whale-background
+description:
+  en: bash dsh plugin --profile web add github:tuogusa/dsh-whale-background
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - tuogusa
+  - whale
+  - background
+  - dsh
+source:
+  repository: https://github.com/tuogusa/dsh-whale-background
+  repositoryNodeId: R_kgDOT4pjjA
+  subpath: null
+  commit: 701b3f5e19a15ebf6c777502edd7549c956ff618
+creator:
+  github: tuogusa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:28.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
