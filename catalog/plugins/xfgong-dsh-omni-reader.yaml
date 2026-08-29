@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: xfgong-dsh-omni-reader
+name: "@cueai/dsh-omni-reader"
+description:
+  en: "DSH bundle: registers the audited Cue Omni Reader MCP server so its tools surface as mcp omni in any DeepSeek Harness profile."
+  evidencePath: dsh/cue-omni-reader/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - omni-reader
+  - cue
+source:
+  repository: https://github.com/sensedeal/cue-skills
+  repositoryNodeId: R_kgDOSigUuw
+  subpath: dsh/cue-omni-reader
+  commit: cfecbf74d3d46320e4a997bc5c0397d1ca52c45d
+creator:
+  github: xfgong
+package:
+  ecosystem: npm
+  name: "@cueai/dsh-omni-reader"
+  version: 0.1.1
+  integrity: sha512-oc8S+bCjy38VLhfmzAdFFuYh13F849qOcmlxyFaiQwnOkKhl918/3ml5uw+rSZSR53fhohOBqXV059bFKK8SAQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh/cue-omni-reader/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:39.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
