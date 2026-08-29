@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: swaylq-dsh-wildmon
+name: dsh-wildmon
+description:
+  en: "A collect-em-all safari for DeepSeek Harness: your real work is the tall grass. Turns, tool calls and errors roll wild encounters; throw balls, fill a 28-slot dex, build a team of six. Zero tokens, zero tools, the model never knows."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - ai-agents
+  - monster-collecting
+  - pokemon-like
+source:
+  repository: https://github.com/swaylq/dsh-wildmon
+  repositoryNodeId: R_kgDOT5TPXA
+  subpath: null
+  commit: a2c7df00b27c2de9f2b0915d3bd5f1acc4d02c68
+creator:
+  github: swaylq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:21.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
