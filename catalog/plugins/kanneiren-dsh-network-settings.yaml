@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: kanneiren-dsh-network-settings
+name: dsh-network-settings
+description:
+  en: "DSH Network Settings: Windows / WSL network status, diagnostics and safe repair for DeepSeek Harness."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - network
+  - windows
+  - wsl
+  - proxy
+  - diagnostics
+source:
+  repository: https://github.com/kanneiren/dsh-network-settings
+  repositoryNodeId: R_kgDOT7V4bg
+  subpath: null
+  commit: 567ca07bccd2246d96d49ffa849a38b35c2cb016
+creator:
+  github: kanneiren
+package:
+  ecosystem: npm
+  name: dsh-network-settings
+  version: 0.3.3
+  integrity: sha512-yLb+e56yC6z/+zyGzhdTAGVT5EFQfP+omp+IXaS8P1s4jT9LYyg25FcWvgTbPlu4Brjnm+p064ksoHFRINdLCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:24.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 64
+provenance:
+  discussion: null
+  comment: null
