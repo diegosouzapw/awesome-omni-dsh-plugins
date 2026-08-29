@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: chumingjun-dsh-ccpg-one
+name: dsh-ccpg-one
+description:
+  en: Workflow One - Visual AI workflow orchestrator for DeepSeek Harness (dsh), with multi-agent DAGs, live execution, recovery, and Feishu integration
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - ai-agents
+  - agentic-workflow
+  - workflow-automation
+  - visual-workflow
+  - multi-agent
+  - dag
+  - react-flow
+  - feishu
+  - lark
+  - cordis
+source:
+  repository: https://github.com/chumingjun/dsh-harness-one
+  repositoryNodeId: R_kgDOT-ev7w
+  subpath: dsh-plugins/dsh-ccpg-one
+  commit: a067ae8d03b908c096c5424680686f78d4ddc22d
+creator:
+  github: chumingjun
+package:
+  ecosystem: npm
+  name: dsh-ccpg-one
+  version: 0.3.2
+  integrity: sha512-bAVF+FZos0xLMa0gK3GVusZkUOEUKNV41pZd2AkvtENM0xIWWmGcO+FK7iU94ZvYQvBB88vdKJBXsBpDnODRhg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: dsh-plugins/dsh-ccpg-one/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:32.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
