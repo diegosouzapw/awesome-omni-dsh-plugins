@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-battery-life
+name: dsh-battery-life
+description:
+  en: bash dsh plugin add github:uckkk/dsh-battery-life
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-battery-life
+source:
+  repository: https://github.com/uckkk/dsh-battery-life
+  repositoryNodeId: R_kgDOT-tBxw
+  subpath: null
+  commit: 567c1e24cf146eda88ef7952b59a9a627ea25897
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:40.425Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
