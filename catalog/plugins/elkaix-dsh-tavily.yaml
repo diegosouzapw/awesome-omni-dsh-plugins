@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: elkaix-dsh-tavily
+name: "@pymodel/dsh-tavily"
+description:
+  en: "Tavily web search + Tavily MCP for DSH: settings toggle to official DeepSeek, keyless search, MCP extract/crawl/map"
+  evidencePath: packages/dsh-tavily/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - tavily
+  - mcp
+  - dsh
+source:
+  repository: https://github.com/PyModel/dsh-research-plugins
+  repositoryNodeId: R_kgDOT84zDw
+  subpath: packages/dsh-tavily
+  commit: 8c6118d2097daf31b989d4aa4b4d63988d549ca9
+creator:
+  github: elkaix
+package:
+  ecosystem: npm
+  name: "@pymodel/dsh-tavily"
+  version: 0.3.0
+  integrity: sha512-JTiQRgdeEA7HKVGuAXFBI8iMiK4nz27kpv0NNCTL2EksX01TY2s9UEuNkN2Ew9w16icHbwdsQTPbCR9AqUca9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-tavily/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
