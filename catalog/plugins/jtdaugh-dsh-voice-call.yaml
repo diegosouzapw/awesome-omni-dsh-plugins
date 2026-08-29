@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: jtdaugh-dsh-voice-call
+name: dsh-voice-call
+description:
+  en: "dsh-voice-call — give the agent a voice it owns: the agent decides when to speak (offer call), the human holds the answer key (接听/拒接/稍后). Local-first TTS via CrispASR + Qwen3-TTS CustomVoice, plain audio files under ~/.dsh/voice/. Fork of dsh-voice with a call-domain, crispasr backend, and upgrade-ready contracts (voic"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - voice
+  - tts
+  - text-to-speech
+  - call
+  - qwen3-tts
+  - crispasr
+  - local-first
+  - audio
+source:
+  repository: https://github.com/PandaPolo/dsh-voice-call
+  repositoryNodeId: R_kgDOT5YLFg
+  subpath: null
+  commit: 271b0fab9dabbc219ea52ea040c29b7b96d877d8
+creator:
+  github: jtdaugh
+package:
+  ecosystem: npm
+  name: dsh-voice-call
+  version: 0.1.0
+  integrity: sha512-f1hdZVAlDNBOTrtjn4CE33g7ErbRuxUUT5PL7bJe0AjnE7Tw8M6ZLcd4UdZdGossowTnrCcsxIJSinmeA1XH7Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:52.069Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
