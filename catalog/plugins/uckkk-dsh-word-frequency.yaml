@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-word-frequency
+name: dsh-word-frequency
+description:
+  en: bash dsh plugin add dsh-word-frequency 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-word-frequency" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - word
+  - frequency
+source:
+  repository: https://github.com/uckkk/dsh-word-frequency
+  repositoryNodeId: R_kgDOT6NxIw
+  subpath: null
+  commit: 7e45e21e2126d86167d7385f8f8077cbdea437bd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:12.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
