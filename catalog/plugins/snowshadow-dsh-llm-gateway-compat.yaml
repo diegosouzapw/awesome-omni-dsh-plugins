@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: snowshadow-dsh-llm-gateway-compat
+name: dsh-llm-gateway-compat
+description:
+  en: OpenAI-compatible gateway adapter and dialect fixes for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - llm
+  - openai-compatible
+  - dsh
+source:
+  repository: https://github.com/snowshadow/dsh-llm-gateway-compat
+  repositoryNodeId: R_kgDOT_ibwg
+  subpath: null
+  commit: bd09649089209bfc7bb44bccfdec540f76f3735c
+creator:
+  github: snowshadow
+package:
+  ecosystem: npm
+  name: dsh-llm-gateway-compat
+  version: 0.3.0
+  integrity: sha512-t81gi3lFDcxmR4NGF2klqfb6MaSJKJN8/H7AE2eOa1tu/dbiJ2FJlPjD4N0iy2vIkDfeq27rECy8cgtvLCdhgg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:57.724Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
