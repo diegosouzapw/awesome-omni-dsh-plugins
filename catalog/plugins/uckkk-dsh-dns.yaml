@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dns
+name: dsh-dns
+description:
+  en: bash dsh plugin add dsh-dns 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-dns" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dns
+source:
+  repository: https://github.com/uckkk/dsh-dns
+  repositoryNodeId: R_kgDOT6NFQQ
+  subpath: null
+  commit: 3b183e41dbc3b1df64c44c0baa77c853c1269159
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:44.718Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
