@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lemcae-dsh-balance
+name: "@lemcae/dsh-balance"
+description:
+  en: DeepSeek Open Platform balance and session consumption readout (host + web client)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - open
+  - platform
+  - balance
+  - session
+  - consumption
+  - readout
+  - host
+  - client
+  - dsh
+source:
+  repository: https://github.com/LemCAE/dsh-balance
+  repositoryNodeId: R_kgDOT4gTPw
+  subpath: null
+  commit: 04686d592ad52762f235eb129518869bea7c55cc
+creator:
+  github: LemCAE
+package:
+  ecosystem: npm
+  name: "@lemcae/dsh-balance"
+  version: 0.1.7
+  integrity: sha512-Dn/npZJIDpLGvupRIokjFyy+/AqvYVQON0XhtayHrM3Vkd2Kb8uBsQZyRRFbFsf90Wy+5wITOifHMNOfcKuVyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:19.548Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
