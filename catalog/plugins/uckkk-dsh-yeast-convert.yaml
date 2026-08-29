@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-yeast-convert
+name: dsh-yeast-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-yeast-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-yeast-convert
+source:
+  repository: https://github.com/uckkk/dsh-yeast-convert
+  repositoryNodeId: R_kgDOT-ss5g
+  subpath: null
+  commit: 50eb53e37113f84b2916f250546032c8a1fa6e0f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:14.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
