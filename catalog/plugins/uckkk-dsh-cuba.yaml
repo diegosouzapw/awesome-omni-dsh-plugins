@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cuba
+name: dsh-cuba
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cuba
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cuba
+source:
+  repository: https://github.com/uckkk/dsh-cuba
+  repositoryNodeId: R_kgDOT_E-3A
+  subpath: null
+  commit: e25710f1a3d0aee936e1ce033afc770a8890c232
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:14.649Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
