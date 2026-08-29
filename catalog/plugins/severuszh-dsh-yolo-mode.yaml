@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: severuszh-dsh-yolo-mode
+name: dsh-yolo-mode
+description:
+  en: bash dsh plugin --profile web add dsh-yolo-mode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - approval
+  - sandbox
+  - permissions
+  - llm
+  - yolo
+  - self-hosted
+source:
+  repository: https://github.com/SeverusZh/dsh-yolo-mode
+  repositoryNodeId: R_kgDOT4T_GQ
+  subpath: null
+  commit: 39cba6a3f7d02b5d496f26670057e0aa288fa42a
+creator:
+  github: SeverusZh
+package:
+  ecosystem: npm
+  name: dsh-yolo-mode
+  version: 0.4.1
+  integrity: sha512-dXr3v6SsA1z/N9Yi5XjNgOQh3vrYj3qBelKrsnOUQVJYf8DZzzhJVm/Pafc16BX5R9Wgm9x4PwWjZ1yIH6oPAw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:48.555Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
