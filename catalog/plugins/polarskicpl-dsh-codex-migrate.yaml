@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: polarskicpl-dsh-codex-migrate
+name: dsh-codex-migrate
+description:
+  en: Migrate Codex CLI conversations, MCP servers, memories and project files into DeepSeek Harness sessions, workspaces and MCP registrations. 把 Codex CLI 的对话、MCP、记忆与项目文件迁移为 DSH 会话、工作区与 MCP 注册。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - codex
+  - migration
+  - dsh-plugin
+source:
+  repository: https://github.com/polarskicpl/dsh-codex-migrate
+  repositoryNodeId: R_kgDOT5NdXA
+  subpath: null
+  commit: 487c46cc6ddc2cdfce13322c858bdf0d0f6e5ea1
+creator:
+  github: polarskicpl
+package:
+  ecosystem: npm
+  name: dsh-codex-migrate
+  version: 0.1.3
+  integrity: sha512-C+SCA8MLB2w0/5qklZAamaeN3yPmwK3vc7qBCqIwnNHFqEGd0K+FRhEb0BS2TverCTqHpeN4MTRx0QzGbo0KKw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:49.540Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
