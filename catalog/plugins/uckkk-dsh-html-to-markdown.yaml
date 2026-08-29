@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-html-to-markdown
+name: dsh-html-to-markdown
+description:
+  en: bash dsh plugin add dsh-html-to-markdown 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-html-to-markdown" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - html
+  - markdown
+  - convert
+source:
+  repository: https://github.com/uckkk/dsh-html-to-markdown
+  repositoryNodeId: R_kgDOT9sXqA
+  subpath: null
+  commit: 9145da80db57cb1f2e9d8b360f229d10a9fd834b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:55.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
