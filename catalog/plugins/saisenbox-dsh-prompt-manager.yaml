@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: saisenbox-dsh-prompt-manager
+name: dsh-prompt-manager
+description:
+  en: A local, bilingual prompt library with session-level system prompt injection for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - prompt-manager
+  - prompt-library
+source:
+  repository: https://github.com/SaiSenBox/dsh-prompt-manager
+  repositoryNodeId: R_kgDOT5QXkQ
+  subpath: null
+  commit: 76059cb4950b60b189aea118adee15690bad16e9
+creator:
+  github: SaiSenBox
+package:
+  ecosystem: npm
+  name: dsh-prompt-manager
+  version: 1.5.0
+  integrity: sha512-YT9+Xu8y5TvknizReA83zIlgKjNSF00rZKLpAu/RLzQZqb69Pgcj6DfxiehcLWnsBHEN90p5iaXSCp61BFKW+Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:42.055Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
