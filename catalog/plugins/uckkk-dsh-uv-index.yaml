@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-uv-index
+name: dsh-uv-index
+description:
+  en: bash dsh plugin add github:uckkk/dsh-uv-index
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-uv-index
+source:
+  repository: https://github.com/uckkk/dsh-uv-index
+  repositoryNodeId: R_kgDOT-wn2g
+  subpath: null
+  commit: 90506487e8e37263e40d590f2fd1c28c4707144a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:03.293Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
