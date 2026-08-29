@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: kyomio-dsh-zen-remote
+name: dsh-zen-remote
+description:
+  en: sh dsh plugin add dsh-zen-remote
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-plugin-add
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - mobile
+  - mobile-ui
+  - phone
+  - pwa
+  - progressive-web-app
+  - remote-access
+  - pairing
+  - public
+  - reverse-proxy
+  - gateway
+  - service-worker
+source:
+  repository: https://github.com/KyoMio/dsh-zen-remote
+  repositoryNodeId: R_kgDOT7eP2g
+  subpath: null
+  commit: 398d14603a6d582739dac2f3521fbdf011e1acb8
+creator:
+  github: KyoMio
+package:
+  ecosystem: npm
+  name: dsh-zen-remote
+  version: 1.1.9
+  integrity: sha512-WT0wXH8nIPd5wpW0IVIR+F2pI2ONTWJXt4kpy5Av81kiy64bQrOlEqCnsvR6l1lK7HuPxe0PqDEXmCUcDiAyRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:40.846Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
