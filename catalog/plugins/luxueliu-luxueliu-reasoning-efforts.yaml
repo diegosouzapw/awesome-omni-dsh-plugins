@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: luxueliu-luxueliu-reasoning-efforts
+name: luxueliu-reasoning-efforts
+description:
+  en: "Reasoning-effort ladders for every non-ds model on a local LLM gateway route in DeepSeek Harness: declares selectable thinking levels (off/low/medium/high/xhigh/max) for hand-declared gateway models that would otherwise show no reasoning control at all, and re-applies them to the live profile settings after DSH upgrade"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - reasoning-efforts
+  - reasoning
+  - llm
+  - gateway
+  - litellm
+  - luxueliu
+  - dsh
+source:
+  repository: https://github.com/luxueliu/luxueliu-reasoning-efforts
+  repositoryNodeId: R_kgDOT_1JTw
+  subpath: null
+  commit: b0745d94718abeb1a6b24642cd606247ff65d450
+creator:
+  github: luxueliu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:49.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
