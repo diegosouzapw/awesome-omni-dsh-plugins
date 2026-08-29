@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: haoyueqin-dsh-deepseek-monitor
+name: dsh-deepseek-monitor
+description:
+  en: "DSH web plugin: DeepSeek balance & platform usage monitoring, integrated into the Models settings provider row and the composer tool row (left of the model name). Replicates the DeepSeekMonitorWindows backend."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - balance
+  - platform
+  - usage
+  - monitoring
+  - integrated
+  - models
+  - settings
+  - provider
+  - composer
+  - tool
+  - left
+  - model
+  - name
+  - replicates
+  - deepseekmonitorwindows
+  - backend
+source:
+  repository: https://github.com/HaoyueQin/dsh-deepseek-monitor
+  repositoryNodeId: R_kgDOUApXzg
+  subpath: null
+  commit: 6799ab7ce14aae098300df73035932b8f40b7bec
+creator:
+  github: HaoyueQin
+package:
+  ecosystem: npm
+  name: dsh-deepseek-monitor
+  version: 0.1.2
+  integrity: sha512-r5/Fw5ejSIMqDfE6cl+KiPRBFf8L9TWqwDV6olTgrl7KFa4cFaJ8fgvtSg6d2YwiaQTAaeUAVEnreXO6bo1n7w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:07.144Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
