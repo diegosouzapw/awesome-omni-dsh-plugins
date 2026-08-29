@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jeremy9682-dsh-llm-cursor-acp
+name: "@jeremy9682/dsh-llm-cursor-acp"
+description:
+  en: Cursor ACP native model provider for DeepSeek Harness
+  evidencePath: cursor-provider/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - cursor
+  - acp
+  - llm-provider
+  - model-provider
+  - dsh
+source:
+  repository: https://github.com/jeremy9682/dsh-cursor-codex
+  repositoryNodeId: R_kgDOT4yoLw
+  subpath: cursor-provider
+  commit: 81def5abbc01bd5b461710ed11a595bb4355f5f7
+creator:
+  github: jeremy9682
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cursor-provider/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:37.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
