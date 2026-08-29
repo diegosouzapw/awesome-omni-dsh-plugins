@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-tip-calc
+name: dsh-tip-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-tip-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-tip-calc
+source:
+  repository: https://github.com/uckkk/dsh-tip-calc
+  repositoryNodeId: R_kgDOT-tnEQ
+  subpath: null
+  commit: 442faf7e1d589b613934aae98fe03dcf19c679fb
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:51.412Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
