@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: perrylink-dsh-output-styles
+name: dsh-output-styles
+description:
+  en: Claude Code outputStyles-equivalent runtime output-style switching for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - output-style
+  - output-styles
+  - claude-code
+source:
+  repository: https://github.com/PerryLink/dsh-output-styles
+  repositoryNodeId: R_kgDOT3vguA
+  subpath: null
+  commit: 8b94c6026a557bb774713efd880fb6e57b3f9113
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-output-styles
+  version: 0.6.0
+  integrity: sha512-60U7QyfZk3weNgH4PsVOAqlUDj0H2pKrUsjriGAn6husjXxMw6MTfYv1SLySDMR5XnQAcKK0kzYibFywBBLlaQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:49.534Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
