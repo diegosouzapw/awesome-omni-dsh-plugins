@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lee-coder-00-dsh-headroom
+name: dsh-headroom
+description:
+  en: "Headroom-inspired automatic context compression plugin for DeepSeek Harness (dsh): compresses tool outputs before they reach the model and keeps every lossy compression reversible via CCR retrieval tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - context-compression
+  - headroom
+  - llm
+  - agent
+source:
+  repository: https://github.com/giter00/dsh-headroom
+  repositoryNodeId: R_kgDOT6GHYA
+  subpath: null
+  commit: ca5de630fd9a4be1b0e0f900cc3260f52052019d
+creator:
+  github: Lee-coder-00
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:49.977Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
