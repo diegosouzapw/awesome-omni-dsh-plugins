@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kkbsgg-dsh-balance
+name: "@kkbsgg/dsh-balance"
+description:
+  en: Shows the selected model provider's account balance next to the composer model seat once a model and reasoning effort are selected.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - balance
+  - deepseek-harness
+source:
+  repository: https://github.com/kkbsgg/dsh-balance
+  repositoryNodeId: R_kgDOT9LtjQ
+  subpath: null
+  commit: e65ea1b0f2900f992dd3fe58eb46f0c9dd280e9d
+creator:
+  github: kkbsgg
+package:
+  ecosystem: npm
+  name: "@kkbsgg/dsh-balance"
+  version: 0.2.0
+  integrity: sha512-X6A7Iznf6jIBQ43JN6muLBSoqSCCWpc4WmiwQS8CSxwy84T3hLLTZi4ctrsIe6ad4M5H1rsIq0PrmWEr9H/KiA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:43.288Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
