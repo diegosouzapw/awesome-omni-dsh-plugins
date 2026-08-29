@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-json-schema
+name: dsh-json-schema
+description:
+  en: bash dsh plugin add dsh-json-schema 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-schema" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - schema
+source:
+  repository: https://github.com/uckkk/dsh-json-schema
+  repositoryNodeId: R_kgDOT6NQKA
+  subpath: null
+  commit: ecf98e1d7bd35d011426a7ebda52b8b141f11744
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-schema
+  version: 0.1.0
+  integrity: sha512-tkfZlQK0dkgaqg8TILx/7UMeR3+ZA6jkO+SSuJS2w1KZ2tcuZ6VHh9dSx/teLXhe0ImJrcKS5L/XcHdD3Bt59g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:15.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
