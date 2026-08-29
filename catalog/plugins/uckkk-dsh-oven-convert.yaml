@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-oven-convert
+name: dsh-oven-convert
+description:
+  en: bash dsh plugin add github:uckkk/dsh-oven-convert
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-oven-convert
+source:
+  repository: https://github.com/uckkk/dsh-oven-convert
+  repositoryNodeId: R_kgDOT-sF1w
+  subpath: null
+  commit: 291dacb69228f43c00fd7c6db0cde8990462ebb6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:44.871Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
