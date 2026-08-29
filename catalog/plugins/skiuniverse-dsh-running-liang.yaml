@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: skiuniverse-dsh-running-liang
+name: dsh-running-liang
+description:
+  en: Developed 100% via vibe coding by DeepSeek Harness + DeepSeek-V4-Flash. For fun only.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - web-ui
+  - game
+  - mini-game
+source:
+  repository: https://github.com/skiuniverse/dsh-running-liang
+  repositoryNodeId: R_kgDOT5PLAA
+  subpath: null
+  commit: 657ff6d58bd94a39070cc0ce5265d88cd342838e
+creator:
+  github: skiuniverse
+package:
+  ecosystem: npm
+  name: dsh-running-liang
+  version: 0.1.5
+  integrity: sha512-NGl3QokJ0wqc794LglKsY2hD9c5FPfuspyv4p7kVCqSHH471DO5X85WsztuBuN+BnyI/xuwVME5KTio7KoauaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:41.147Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
