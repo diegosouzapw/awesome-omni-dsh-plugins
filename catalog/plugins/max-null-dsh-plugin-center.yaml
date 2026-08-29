@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: max-null-dsh-plugin-center
+name: "@max-null/dsh-plugin-center"
+description:
+  en: Plugin center for DeepSeek Harness 閳?installed metadata, community market, update detection, and What's New
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - market
+  - update
+  - cordis
+source:
+  repository: https://github.com/Max-Null/dsh-plugin-center
+  repositoryNodeId: R_kgDOT6ed1w
+  subpath: null
+  commit: edaaf9411e9873235414ce148967c7bc124da187
+creator:
+  github: Max-Null
+package:
+  ecosystem: npm
+  name: "@max-null/dsh-plugin-center"
+  version: 0.2.13
+  integrity: sha512-s4kRbWRDstLlss2KmMqOT11H3D7Etm56/fFtvxlZ9b+1Vz8HMZs+vEUkx+Sx19S/PNnsI2I1myRSbPil6Mlhjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:55.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
