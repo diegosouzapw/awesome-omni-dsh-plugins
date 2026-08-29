@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tttnny-dsh-oil-sticky-prompt
+name: "@lynn123411/dsh-oil-sticky-prompt"
+description:
+  en: bash dsh plugin --profile web add @lynn123411/dsh-oil-sticky-prompt
+  evidencePath: plugins/dsh-oil-sticky-prompt/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - sticky
+  - prompt
+source:
+  repository: https://github.com/tttnny/my-dsh
+  repositoryNodeId: R_kgDOT91T7A
+  subpath: plugins/dsh-oil-sticky-prompt
+  commit: 933898d6021af5475fba82be2ae8bff95462cdbe
+creator:
+  github: tttnny
+package:
+  ecosystem: npm
+  name: "@lynn123411/dsh-oil-sticky-prompt"
+  version: 0.1.1
+  integrity: sha512-qSaj7xU/x823/O7OQhRJubaj3N2irpN/0+Floo94nqm09NU8+KxtnkG8V4FBpDo37ybjHKQkwNTeT1aokORvYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-oil-sticky-prompt/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:53.280Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
