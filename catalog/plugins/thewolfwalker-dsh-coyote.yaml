@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: thewolfwalker-dsh-coyote
+name: dsh-coyote
+description:
+  en: "Agent- and GUI-controlled DG-LAB Coyote e-stim plugin for DeepSeek Harness: safety-bounded strength, programmable waveforms, and a DSH-aligned web panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dg-lab
+  - coyote
+  - e-stim
+  - waveform
+  - dsh
+source:
+  repository: https://github.com/THEWOLFWALKER/dsh-coyote
+  repositoryNodeId: R_kgDOT5S0nw
+  subpath: null
+  commit: 6e4e5ede17aef3a4f5737652a26ed8a5199b1d1f
+creator:
+  github: THEWOLFWALKER
+package:
+  ecosystem: npm
+  name: dsh-coyote
+  version: 0.2.0
+  integrity: sha512-eNHwp/aHbZtxnfJMeEF6CxQeOx00muc7WPIcv/cCdUmT1VyZyh9xz2ZliruiH2AbUQXznHqVtZ2I8aveK+AcKQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
