@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-slope
+name: dsh-slope
+description:
+  en: bash dsh plugin add github:uckkk/dsh-slope
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-slope
+source:
+  repository: https://github.com/uckkk/dsh-slope
+  repositoryNodeId: R_kgDOT9vAog
+  subpath: null
+  commit: 27f1538ed9a179c59d0126efda8fdf71a9987fd5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:04.216Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
