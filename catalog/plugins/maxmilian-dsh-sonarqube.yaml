@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: maxmilian-dsh-sonarqube
+name: dsh-sonarqube
+description:
+  en: Read-only SonarQube Community Build tools for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - sonarqube
+  - code-quality
+  - dsh
+source:
+  repository: https://github.com/maxmilian/dsh-sonarqube
+  repositoryNodeId: R_kgDOUCWUiQ
+  subpath: null
+  commit: f081eece10746f0c91f3a3fe13e605e1fafd1b14
+creator:
+  github: maxmilian
+package:
+  ecosystem: npm
+  name: dsh-sonarqube
+  version: 0.1.0
+  integrity: sha512-mng+RDTW6X33XckQq1hZIyNhM9QRrIRi0M1VHp1Qv4zdCZx0hL5KM4GoxB1KfKdXfOgDWD0XZrqfpazLxpvpog==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:40.663Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
