@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moonlitdropofblood-dsh-agent-approval
+name: "@duke-dsh-plugins/dsh-agent-approval"
+description:
+  en: "Agent-decided approvals for DeepSeek Harness: a workspace-write base permission mode where an independent approval subagent judges every sandbox escalation (risky operations are rejected), with a configurable approval model and an audit log in Settings."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - approval
+  - security
+source:
+  repository: https://github.com/MoonlitDropOfBlood/dsh-agent-approval
+  repositoryNodeId: R_kgDOT8uWdg
+  subpath: null
+  commit: a8e2cd2fd34c6ab8e853a561256989354b147d85
+creator:
+  github: MoonlitDropOfBlood
+package:
+  ecosystem: npm
+  name: "@duke-dsh-plugins/dsh-agent-approval"
+  version: 1.3.5
+  integrity: sha512-DF5NzIDc5x8Xq2njw5/yPno1g1I3l67iiTzhA3G6wEjKcQiP9mCigTM33lYmVNNea3DRaskJ+NCHLMKQRmzovw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:59.408Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
