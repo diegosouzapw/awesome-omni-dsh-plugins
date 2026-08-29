@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: isilsolme-dsh-anthropic-fonts
+name: dsh-anthropic-fonts
+description:
+  en: Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropic Serif Web Text.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - web-ui
+  - font
+  - anthropic
+source:
+  repository: https://github.com/Isilsolme/dsh-anthropic-fonts
+  repositoryNodeId: R_kgDOT5Lcrw
+  subpath: null
+  commit: 1b74cfdd4c17b155e666c1becd63da35cb44846a
+creator:
+  github: Isilsolme
+package:
+  ecosystem: npm
+  name: dsh-anthropic-fonts
+  version: 0.2.0
+  integrity: sha512-C7fQ7/ehwJiRAJft7xGx4Qsr0vAVSD/52WmoUuhvQu+7j+OhJm+Nrba0q5D/tJ0h8B/zLPj08A+Ml348ZApYRw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:53.068Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
