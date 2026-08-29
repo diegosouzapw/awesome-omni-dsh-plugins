@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-unique
+name: dsh-unique
+description:
+  en: bash dsh plugin add github:uckkk/dsh-unique
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-unique
+source:
+  repository: https://github.com/uckkk/dsh-unique
+  repositoryNodeId: R_kgDOT9uExg
+  subpath: null
+  commit: d97c8cf7eed7a07c24e1363685f12b570860f564
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:00.458Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
