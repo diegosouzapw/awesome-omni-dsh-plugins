@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: charliedreemur-dsh-agentdebugx
+name: dsh-agentdebugx
+description:
+  en: DeepSeek Harness plugin bridge for AgentDebugX diagnostics
+  evidencePath: integrations/dsh-agentdebugx/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agentdebugx
+  - agent-debugging
+  - observability
+  - dsh
+source:
+  repository: https://github.com/AgentDebugX/AgentDebugX
+  repositoryNodeId: R_kgDOTUt9cw
+  subpath: integrations/dsh-agentdebugx
+  commit: de5f2e770f7bd5bdb22288ff572bfd30d560521a
+creator:
+  github: CharlieDreemur
+package:
+  ecosystem: npm
+  name: dsh-agentdebugx
+  version: 0.1.0
+  integrity: sha512-ait0JS3IClC2usEkQL2WXanuhU0Zte919uLvyTjg1O4xuuNFPnipND9LfNw1w4XEGhbpImcmzKrGgBtYLGVXkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/dsh-agentdebugx/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:02.679Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
