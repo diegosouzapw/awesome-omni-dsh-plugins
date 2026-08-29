@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: ivanhby930-cmd-dsh-plugin-retitle
+name: dsh-plugin-retitle
+description:
+  en: bash dsh plugin --profile web add ./dsh-plugin-retitle
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bash
+  - profile
+  - retitle
+  - dsh
+source:
+  repository: https://github.com/ivanhby930-cmd/dsh-plugin-retitle
+  repositoryNodeId: R_kgDOT8Ianw
+  subpath: null
+  commit: 63959028831bf97af3cf9719b062e15870c3b7ed
+creator:
+  github: ivanhby930-cmd
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:22.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
