@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dat-lequoc-dsh-kiro
+name: dsh-kiro
+description:
+  en: Kiro provider for DeepSeek Harness with multi-method login, usage, model controls, and token/profile refresh
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - kiro
+  - kiro-cli
+  - kiro2api
+  - claude
+  - opus
+  - oauth
+  - reasoning
+source:
+  repository: https://github.com/dat-lequoc/dsh-kiro
+  repositoryNodeId: R_kgDOUCx-3A
+  subpath: null
+  commit: f4fdcd1bd7e609ca0183b0079bd5a0a2bfcee3e9
+creator:
+  github: dat-lequoc
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:15.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
