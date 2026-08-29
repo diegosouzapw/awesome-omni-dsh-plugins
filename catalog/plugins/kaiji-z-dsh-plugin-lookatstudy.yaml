@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kaiji-z-dsh-plugin-lookatstudy
+name: dsh-plugin-lookatstudy
+description:
+  en: "Turn any markdown, local folder, or GitHub learning repo into a guided course inside DeepSeek Harness: gated skill-tree progression, BKT mastery tracking, SM-2 spaced repetition."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - learning
+  - tutor
+  - spaced-repetition
+  - dsh
+source:
+  repository: https://github.com/Kaiji-Z/dsh-plugin-lookatstudy
+  repositoryNodeId: R_kgDOT5Sl2w
+  subpath: null
+  commit: cdb26dd45257e03e4c515ac683169c779d2b4f42
+creator:
+  github: Kaiji-Z
+package:
+  ecosystem: npm
+  name: dsh-plugin-lookatstudy
+  version: 0.11.1
+  integrity: sha512-8vN7WLhMyWqrb8q1ZRyKOI39/JXBfQ3D+PAOMJvW7E2RDhj58TU5AthTEbYaFxZ1/VLrt3njDrrHX6Y6ovNkFA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:22.118Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
