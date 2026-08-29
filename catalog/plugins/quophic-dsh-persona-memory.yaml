@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: quophic-dsh-persona-memory
+name: dsh-persona-memory
+description:
+  en: "Persistent long-term persona memory for DeepSeek Harness: MEMORY.md/USER.md storage, memory + memory search tools, per-request context injection, secret scanning, and a WebUI memory-management settings page. Ported in spirit from pi-hermes-memory. TypeScript sources, built with tsc + esbuild."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - persistent-memory
+  - persona
+  - long-term-memory
+source:
+  repository: https://github.com/Quophic/dsh-persona-memory
+  repositoryNodeId: R_kgDOT4T4Kg
+  subpath: null
+  commit: 22e6d4cef2fdc1dc23ab4439a047e09cc4ca8b3e
+creator:
+  github: Quophic
+package:
+  ecosystem: npm
+  name: dsh-persona-memory
+  version: 0.2.0
+  integrity: sha512-sdZZXmh/Nk81CeeceA4AlGcFv2DCeZ5Rri10v2W+zug4peWREaqW6LNj5s79l9xTbP5qSLFv9S8SfDzkObWYIQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:40.208Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
