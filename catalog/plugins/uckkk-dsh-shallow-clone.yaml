@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-shallow-clone
+name: dsh-shallow-clone
+description:
+  en: bash dsh plugin add github:uckkk/dsh-shallow-clone
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-shallow-clone
+source:
+  repository: https://github.com/uckkk/dsh-shallow-clone
+  repositoryNodeId: R_kgDOT9uofA
+  subpath: null
+  commit: c9b33bcdafabec95e3abceba862e4ac7f4310af7
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:59.333Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
