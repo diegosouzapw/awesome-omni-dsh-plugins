@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-json-validate
+name: dsh-json-validate
+description:
+  en: bash dsh plugin add dsh-json-validate 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-validate" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - validate
+source:
+  repository: https://github.com/uckkk/dsh-json-validate
+  repositoryNodeId: R_kgDOT6Kdog
+  subpath: null
+  commit: 1679eba58b2994748ec571f00bf573e2142787cb
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-validate
+  version: 0.1.0
+  integrity: sha512-Fq08BEPoUO5a4nB8l/4u2ZcEgbnOU+3qaC4kFq77QPidorClpIzf4TURotWG0j5Knpco9CivZ0HQvUQDJd4zyg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:17.541Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
