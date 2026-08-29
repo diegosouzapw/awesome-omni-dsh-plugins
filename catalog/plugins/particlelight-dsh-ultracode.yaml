@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: particlelight-dsh-ultracode
+name: dsh-ultracode
+description:
+  en: UltraCode agent preset for DeepSeek Harness 鈥?maximum-depth reasoning, plan 鈫?execute 鈫?verify, and parallel subagent orchestration, as a one-command-install mode.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - ultracode
+  - agent-preset
+  - workflow
+source:
+  repository: https://github.com/ParticleLight/dsh-ultracode
+  repositoryNodeId: R_kgDOT4OTQA
+  subpath: null
+  commit: 339970f463b74fee50f8369c9c85b84465a57d57
+creator:
+  github: ParticleLight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:09.898Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
