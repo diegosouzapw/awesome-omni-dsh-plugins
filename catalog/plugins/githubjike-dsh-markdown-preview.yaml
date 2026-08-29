@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: githubjike-dsh-markdown-preview
+name: dsh-markdown-preview
+description:
+  en: "In-chat preview for produced files in DeepSeek Harness Web: click a produced-file chip to render Markdown (server-side markdown-it + highlight.js), images, or plain text right in the conversation; system-app open and reveal-in-folder stay one click away."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - markdown
+  - markdown-preview
+  - preview
+  - web-ui
+source:
+  repository: https://github.com/GitHubJiKe/dsh-markdown-preview
+  repositoryNodeId: R_kgDOT4_6yA
+  subpath: null
+  commit: f63cdf45b814eb56b7fb33c5744686baaea1550f
+creator:
+  github: GitHubJiKe
+package:
+  ecosystem: npm
+  name: dsh-markdown-preview
+  version: 0.3.0
+  integrity: sha512-MdY8v/FwwxoHgJlMbTM2DnTTn0cH2fYnQt3QCoW+ZEk/5BcI7jFxph2CfRBIhLi/C8nPObGcjXcl+fCpyzrt5w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:10.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
