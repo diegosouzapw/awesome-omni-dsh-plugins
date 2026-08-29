@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-civil-exam
+name: dsh-civil-exam
+description:
+  en: bash dsh plugin add github:uckkk/dsh-civil-exam
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-civil-exam
+source:
+  repository: https://github.com/uckkk/dsh-civil-exam
+  repositoryNodeId: R_kgDOT-tg7w
+  subpath: null
+  commit: 72a0e4f38273e97063b3318fd2aff933465eaa17
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:25.562Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
