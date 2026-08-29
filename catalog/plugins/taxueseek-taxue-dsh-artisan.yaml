@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: taxueseek-taxue-dsh-artisan
+name: taxue-dsh-artisan
+description:
+  en: <p align="center" <strong taxue-dsh-artisan</strong · taxue 画师 </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - align
+  - center
+  - strong
+  - taxue
+  - artisan
+  - dsh
+source:
+  repository: https://github.com/taxueseek/taxue-dsh-artisan
+  repositoryNodeId: R_kgDOT9rbtQ
+  subpath: null
+  commit: 811b3a1ed6c424ac1cac85a2978e004470a5d7e9
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.156Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
