@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jimchen-g-dsh-frontier-repro
+name: dsh-frontier-repro
+description:
+  en: Evidence-first frontier AI radar and reproducibility gate for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - ai-research
+  - reproducibility
+  - arxiv
+  - dsh
+source:
+  repository: https://github.com/JimChen-g/dsh-frontier-repro
+  repositoryNodeId: R_kgDOT6PAvA
+  subpath: null
+  commit: 95ef63bef431ece1092201d6eae91ff3bf674e9d
+creator:
+  github: JimChen-g
+package:
+  ecosystem: npm
+  name: dsh-frontier-repro
+  version: 0.3.1
+  integrity: sha512-XN1mhehx36DWRGRfJVliACLOPPuyIqCFT70U020MnBjJm2BZkxi7gJVZqbLy0dgBMMhQN9rh7kwS7f/Msfk6gQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:54.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
