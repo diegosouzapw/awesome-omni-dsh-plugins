@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ilharp-dsh-tool-approval
+name: dsh-tool-approval
+description:
+  en: Manual approval for Deepseek Harness (aka "Manual Mode"/"Ask Mode")
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - manual
+  - approval
+  - mode
+  - dsh
+source:
+  repository: https://github.com/ilharp/dsh-tool-approval
+  repositoryNodeId: R_kgDOT04FDw
+  subpath: null
+  commit: c01801a7e39c36515d8445747abff6a6388c1278
+creator:
+  github: ilharp
+package:
+  ecosystem: npm
+  name: dsh-tool-approval
+  version: 0.1.0
+  integrity: sha512-kxFq+PQy1Xkrrbh0UV7iPBE5r1uQuPipa3Kd1d/794hbgLUBeUVCix8UN3UF9RFrmWbd+sUM6kB3YhkN1YPXGw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:32.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
