@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: hyrinx-dsh-plugin-open-with
+name: dsh-plugin-open-with
+description:
+  en: "Capsule split-button in the dsh web conversation header: open the workspace in VS Code, terminal, or file explorer — extensible to more launchers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vscode
+  - terminal
+  - windows-terminal
+  - explorer
+  - open-with
+  - workspace-launcher
+source:
+  repository: https://github.com/hyrinx/dsh-plugin-open-with
+  repositoryNodeId: R_kgDOUAqElQ
+  subpath: null
+  commit: 9f23dfa7fdf1f0a91a8888a5b2754410e4e15ec9
+creator:
+  github: hyrinx
+package:
+  ecosystem: npm
+  name: dsh-plugin-open-with
+  version: 1.0.0
+  integrity: sha512-V4w+6vyswJPqLu+Y47SF+/eieZoeEXiwMql19iJh08sz/6Z4rwjACAwGL0i9DNlveJb8hyy0f6wFhyB4cSC6kg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:33.828Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
