@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: paomoxml-dsh-paste-names
+name: dsh-paste-names
+description:
+  en: "Paste/drop non-image files or folders into the DSH chat composer: paste inserts native @path references, drop inserts absolute paths."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - web-ui
+  - paste
+  - file-reference
+source:
+  repository: https://github.com/PaoMoXML/dsh-paste-names
+  repositoryNodeId: R_kgDOT_K7YA
+  subpath: null
+  commit: 5e56dc77fc51d486292f6cca80688f803ec76cef
+creator:
+  github: PaoMoXML
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:59.059Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
