@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-apology
+name: dsh-apology
+description:
+  en: bash dsh plugin add github:uckkk/dsh-apology
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-apology
+source:
+  repository: https://github.com/uckkk/dsh-apology
+  repositoryNodeId: R_kgDOT-zC1g
+  subpath: null
+  commit: 9a1348a7dd33ed622fa19d1ede8917a8043f0b8a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:26.717Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
