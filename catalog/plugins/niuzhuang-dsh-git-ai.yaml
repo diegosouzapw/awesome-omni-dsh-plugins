@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: niuzhuang-dsh-git-ai
+name: dsh-git-ai
+description:
+  en: DeepSeek Harness plugin that records agent edits with git-ai (agent-v1 checkpoints)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - records
+  - agent
+  - edits
+  - checkpoints
+  - dsh
+source:
+  repository: https://github.com/NiuZhuang/dsh-git-ai
+  repositoryNodeId: R_kgDOUAJO5A
+  subpath: null
+  commit: 7a6dfa30f198f1dab8d38458049685377afef339
+creator:
+  github: NiuZhuang
+package:
+  ecosystem: npm
+  name: dsh-git-ai
+  version: 0.1.2
+  integrity: sha512-2ziBGWeLSChXJbvgfh7DQW3tH85Bgcor96z2iSz8S0AA2Tt9vBajraLrQ+vJAWCzPQu54hKc1TF6oB1HcYrAqA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:18.625Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
