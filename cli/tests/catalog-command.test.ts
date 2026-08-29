@@ -372,6 +372,35 @@ describe("public repository checks", () => {
     expect(lenient.output().stdout).toBe("Catalog documentation checks passed for 1 entries.\n");
   });
 
+  // Six locales once shipped the same section twice, and every freshness signal stayed green:
+  // the stamp hashes the ENGLISH, so it cannot see what happened to the translation. Shape is the
+  // part of a translation a machine can check, and a duplicated block always changes it.
+  it("catches a translation that lost or repeated a section, which the freshness stamp cannot", async () => {
+    const root = publicRoot();
+    const english = readFileSync(join(root, "docs/CATEGORIES.md"), "utf8");
+    mkdirSync(join(root, "docs/i18n/pt-BR"), { recursive: true });
+    writeFileSync(join(root, "docs/i18n/pt-BR/CATEGORIES.md"), english);
+    const snapshot = { source: { kind: "directory" } as const, entries: [], diagnostics: [] };
+
+    const faithful = harness(snapshot);
+    expect(
+      await runCli(["catalog", "docs-check", root, "--skip-count"], faithful.dependencies),
+    ).toBe(0);
+
+    writeFileSync(
+      join(root, "docs/i18n/pt-BR/CATEGORIES.md"),
+      `${english}| \`skill\` | Skill |\n`,
+    );
+    const duplicated = harness(snapshot);
+    expect(
+      await runCli(["catalog", "docs-check", root, "--skip-count"], duplicated.dependencies),
+    ).toBe(1);
+    expect(duplicated.output().stderr).toContain(
+      "docs/i18n/pt-BR/CATEGORIES.md: translation does not match the shape of docs/CATEGORIES.md",
+    );
+    expect(duplicated.output().stderr).toContain("rows");
+  });
+
   it("detects unbalanced Markdown fences and schema/category drift", async () => {
     const fenceRoot = publicRoot();
     writeFileSync(join(fenceRoot, "docs/CREDIT.md"), "```text\nunclosed\n");

@@ -42,7 +42,6 @@ jediného volitelného pole.
 | `verification`    | object  |   ano   | Stav verifikace, čas kontroly, identita a smoke test             |
 | `provenance`      | object  |   ano   | Veřejné URL adresy Discussion/komentáře nebo `null`               |
 | `media`           | array   |    ne    | Až 6 snímků obrazovky/videí, každá URL připnutá k `source.commit` |
-| `media`           | array   |    ne    | Až 6 snímků obrazovky/videí, každá URL připnutá k `source.commit` |
 
 ### `schemaVersion`
 
@@ -226,32 +225,6 @@ Veřejné odkazy na provenance, každý URI nebo `null`:
 | ------------- | ------------------ | ---------------------------------------------------- |
 | `discussion`   | string nebo null   | Veřejná URL Discussion, pokud existuje                |
 | `comment`      | string nebo null   | Veřejná URL komentáře, pokud existuje                 |
-
-### `media`
-
-Jediné volitelné pole. Pole s nejvýše **6** položkami, z nichž každá popisuje jeden snímek obrazovky nebo krátké video pluginu:
-
-| Vlastnost | Typ | Pravidla |
-| -------- | ------ | ----- |
-| `kind`   | enum   | `screenshot` nebo `video` |
-| `url`    | string | Neměnná URL GitHubu, nejvýše 2048 znaků (viz níže) |
-| `alt`    | string | Alternativní text, 1–120 znaků |
-
-URL zde musí být stejně neměnná jako `source.commit`. Cesta `raw.githubusercontent.com`
-s názvem větve (`.../main/docs/shot.png`) ukazuje to, co větev obsahuje dnes, takže záznam by
-zveřejnil nezkontrolovaný obrázek v den, kdy se větev posune. Přijímány jsou dvě podoby:
-
-- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — raw cesta připnutá ke commitu;
-- `https://github.com/<owner>/<repo>/assets/…` — obsahem adresovaná URL nahrání GitHubu, pro položky `video`.
-
-Schéma vynucuje jen bezpečný tvar (host, 40znakový hexadecimální odkaz, omezená délka). Zbytek
-vynucuje `catalog validate` sémanticky: URL musí připínat `source.commit` **samotného záznamu**
-v repozitáři **samotného záznamu** a URL větve je odmítnuta s
-`media[n].url must pin the entry commit, not a branch`.
-
-Pole zcela vynechte, když není co ukázat — `media: []` není platný způsob, jak říct „žádné
-snímky obrazovky“. Pole je aditivní: záznamy zveřejněné dříve, než existovalo, zůstávají platné
-a konzument, který je ignoruje, čte každý záznam přesně jako dřív.
 
 ### `media`
 

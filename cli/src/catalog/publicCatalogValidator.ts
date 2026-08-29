@@ -24,12 +24,58 @@ export const MAX_MEDIA_ITEMS = 6;
 /** Longest accepted alternative text — long enough to describe a panel, short enough to read. */
 export const MAX_MEDIA_ALT_LENGTH = 120;
 
-const RAW_HOST = "https://raw.githubusercontent.com/";
 const REPOSITORY_URL = /^https:\/\/github\.com\/([^/]+)\/([^/]+)$/u;
+
+/**
+ * A `raw.githubusercontent.com` URL: owner, repository, ref, then the path inside the tree.
+ * The path is captured raw and validated separately — GitHub serves a URL whose path climbs out
+ * of the ref with `..`, so a correctly pinned prefix proves nothing on its own.
+ */
+const RAW_URL = /^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)(\/.*)$/u;
+const ASSET_URL = /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/assets(\/.*)$/u;
+
+/**
+ * The only path shape a media URL may carry, and the reason this is stricter than "no spaces":
+ * `https://raw.githubusercontent.com/alice/x/<commit>/../../mallory/evil/main/shot.png` starts
+ * with a correctly pinned prefix and resolves, after normalization, to another repository at a
+ * branch. So every segment is checked: no empty segment (`//`), no `.` or `..`, no query or
+ * fragment (`?`, `#`), no whitespace or backslash, and no percent-encoding — which is what a
+ * `%2e%2e` traversal would hide behind. The character class is the one the public schema already
+ * uses for evidence paths: a path that can be an evidencePath can be a media path.
+ */
+const MEDIA_PATH = /^(?:\/(?!\.{1,2}(?:\/|$))[A-Za-z0-9._@+-]+)+$/u;
 
 function repositorySlug(repository: unknown): { owner: string; repo: string } | null {
   const match = REPOSITORY_URL.exec(String(repository ?? ""));
   return match === null ? null : { owner: match[1]!, repo: match[2]! };
+}
+
+type MediaUrlVerdict = "ok" | "not-pinned" | "wrong-repository" | "unusable";
+
+function classifyMediaUrl(
+  url: string,
+  kind: unknown,
+  slug: { owner: string; repo: string } | null,
+  commit: string,
+): MediaUrlVerdict {
+  const raw = RAW_URL.exec(url);
+  if (raw !== null) {
+    if (!MEDIA_PATH.test(raw[4]!)) return "unusable";
+    if (commit === "" || raw[3] !== commit) return "not-pinned";
+    return slug !== null && raw[1] === slug.owner && raw[2] === slug.repo
+      ? "ok"
+      : "wrong-repository";
+  }
+  // GitHub's upload URL is content-addressed, so it carries no commit — but it hosts uploads,
+  // not a repository tree, so only a video may use it. A screenshot there is unreviewable.
+  const asset = kind === "video" ? ASSET_URL.exec(url) : null;
+  if (asset !== null) {
+    if (!MEDIA_PATH.test(asset[3]!)) return "unusable";
+    return slug !== null && asset[1] === slug.owner && asset[2] === slug.repo
+      ? "ok"
+      : "wrong-repository";
+  }
+  return "unusable";
 }
 
 /**
@@ -48,6 +94,11 @@ export function validateMediaField(
   }
   if (!Array.isArray(media)) {
     return ["media must be an array"];
+  }
+  if (media.length === 0) {
+    // An empty gallery is not "no gallery": it promises pictures the entry does not have.
+    // Absence is written by omitting the field, which is why the schema requires minItems: 1.
+    return ["media must not be an empty list"];
   }
   const errors: string[] = [];
   if (media.length > MAX_MEDIA_ITEMS) {
@@ -72,24 +123,18 @@ export function validateMediaField(
       errors.push(`media[${index}].alt must be 1-${MAX_MEDIA_ALT_LENGTH} characters`);
     }
     const url = typeof value.url === "string" ? value.url : "";
-    const pinnedPrefix =
-      slug === null || commit === "" ? null : `${RAW_HOST}${slug.owner}/${slug.repo}/${commit}/`;
-    const assetPrefix =
-      slug === null ? null : `https://github.com/${slug.owner}/${slug.repo}/assets/`;
-    const pinned = pinnedPrefix !== null && url.startsWith(pinnedPrefix) && url.length > pinnedPrefix.length;
-    const asset =
-      value.kind === "video" &&
-      assetPrefix !== null &&
-      url.startsWith(assetPrefix) &&
-      url.length > assetPrefix.length;
-    if (pinned || asset) {
-      return;
+    switch (classifyMediaUrl(url, value.kind, slug, commit)) {
+      case "ok":
+        return;
+      case "not-pinned":
+        errors.push(`media[${index}].url must pin the entry commit, not a branch`);
+        return;
+      case "wrong-repository":
+        errors.push(`media[${index}].url must reference the entry's own repository`);
+        return;
+      default:
+        errors.push(`media[${index}].url must be a GitHub URL pinned to the entry commit`);
     }
-    if (url.startsWith(RAW_HOST) || url.startsWith("https://github.com/")) {
-      errors.push(`media[${index}].url must pin the entry commit, not a branch`);
-      return;
-    }
-    errors.push(`media[${index}].url must be a GitHub URL pinned to the entry commit`);
   });
   return errors;
 }

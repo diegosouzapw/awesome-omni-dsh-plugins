@@ -42,7 +42,6 @@ olan `media` istisna olmaqla.
 | `verification`    | object  |     bəli     | Doğrulama statusu, yoxlama vaxtı, kimlik və tüstü-sınağı       |
 | `provenance`      | object  |     bəli     | İctimai Discussion/şərh URL-ləri və ya `null`                   |
 | `media`           | array   |    xeyr    | Ən çox 6 ekran görüntüsü/video, hər URL `source.commit`ə bərkidilir |
-| `media`           | array   |    xeyr    | Ən çox 6 ekran görüntüsü/video, hər URL `source.commit`ə bərkidilir |
 
 ### `schemaVersion`
 
@@ -227,33 +226,6 @@ Heç bir status təsdiq və ya təhlükəsizlik sertifikatı deyil — bax
 | ------------ | ---------------- | ------------------------------------------------ |
 | `discussion` | string və ya null | Mövcud olduqda ictimai Discussion URL-i          |
 | `comment`    | string və ya null | Mövcud olduqda ictimai şərh URL-i                |
-
-### `media`
-
-Yeganə isteğe bağlı sahə. Ən çox **6** elementdən ibarət massiv; hər element plaginin bir ekran görüntüsünü və ya qısa videosunu təsvir edir:
-
-| Xüsusiyyət | Tip | Qaydalar |
-| -------- | ------ | ----- |
-| `kind`   | enum   | `screenshot` və ya `video` |
-| `url`    | string | Dəyişməz GitHub URL-i, ən çox 2048 simvol (aşağıya baxın) |
-| `alt`    | string | Alternativ mətn, 1–120 simvol |
-
-Buradakı URL `source.commit` qədər dəyişməz olmalıdır. Budaq adı daşıyan
-`raw.githubusercontent.com` yolu (`.../main/docs/shot.png`) həmin budağın bu gün saxladığını
-göstərir, yəni budaq tərpəndiyi gün qeyd nəzərdən keçirilməmiş şəkil dərc edərdi. İki forma qəbul
-edilir:
-
-- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — commit-ə bərkidilmiş raw yolu;
-- `https://github.com/<owner>/<repo>/assets/…` — GitHub-un məzmuna görə ünvanlanan yükləmə URL-i, `video` elementləri üçün.
-
-Sxem yalnız təhlükəsiz formanı tələb edir (host, 40 simvollu onaltılıq istinad, məhdud uzunluq).
-Qalanını `catalog validate` semantik olaraq tələb edir: URL **qeydin öz** deposunda **qeydin öz**
-`source.commit`inə bərkidilməlidir və budaq URL-i `media[n].url must pin the entry commit, not a branch`
-ilə rədd edilir.
-
-Göstəriləcək bir şey yoxdursa sahəni tamamilə buraxın — `media: []` "ekran görüntüsü yoxdur"
-demək üçün etibarlı yol deyil. Sahə əlavədir: o mövcud olmazdan əvvəl dərc edilmiş qeydlər
-etibarlı qalır və onu nəzərə almayan istehlakçı hər qeydi əvvəlki kimi oxuyur.
 
 ### `media`
 

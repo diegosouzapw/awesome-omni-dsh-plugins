@@ -41,7 +41,6 @@ valgfrie felt.
 | `verification`    | object  |   ja     | Verificeringsstatus, kontroltidspunkt, identitet og smoke-test |
 | `provenance`      | object  |   ja     | Offentlige Discussion-/kommentar-URL'er eller `null`          |
 | `media`           | array   |    nej    | Op til 6 skærmbilleder/videoer, hver URL fastgjort til `source.commit` |
-| `media`           | array   |    nej    | Op til 6 skærmbilleder/videoer, hver URL fastgjort til `source.commit` |
 
 ### `schemaVersion`
 
@@ -222,33 +221,6 @@ Offentlige proveniens-links, hver en URI eller `null`:
 | ------------ | ------------- | ------------------------------------------------ |
 | `discussion` | string eller null | Offentlig Discussion-URL, når en sådan findes |
 | `comment`    | string eller null | Offentlig kommentar-URL, når en sådan findes  |
-
-### `media`
-
-Det eneste valgfrie felt. Et array med højst **6** elementer, som hver beskriver ét skærmbillede eller én kort video af plugin'et:
-
-| Egenskab | Type | Regler |
-| -------- | ------ | ----- |
-| `kind`   | enum   | `screenshot` eller `video` |
-| `url`    | string | Uforanderlig GitHub-URL, maks. 2048 tegn (se nedenfor) |
-| `alt`    | string | Alternativ tekst, 1–120 tegn |
-
-En URL her skal være lige så uforanderlig som `source.commit`. En
-`raw.githubusercontent.com`-sti med et grennavn (`.../main/docs/shot.png`) viser det, grenen
-indeholder i dag, så posten ville udgive et ikke-gennemgået billede den dag, grenen flytter sig.
-To former accepteres:
-
-- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — den fastgjorte raw-sti;
-- `https://github.com/<owner>/<repo>/assets/…` — GitHubs indholdsadresserede upload-URL, til `video`-elementer.
-
-Skemaet håndhæver den sikre form (vært, 40-tegns heksadecimal reference, begrænset længde).
-`catalog validate` håndhæver resten semantisk: URL'en skal fastgøre **postens egen**
-`source.commit` i **postens eget** repository, og en gren-URL afvises med
-`media[n].url must pin the entry commit, not a branch`.
-
-Udelad feltet helt, når der ikke er noget at vise — `media: []` er ikke en gyldig måde at sige
-"ingen skærmbilleder" på. Feltet er additivt: poster, der blev udgivet, før det fandtes, er
-fortsat gyldige, og en forbruger, der ignorerer det, læser hver post præcis som før.
 
 ### `media`
 
