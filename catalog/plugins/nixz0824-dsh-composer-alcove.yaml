@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: nixz0824-dsh-composer-alcove
+name: dsh-composer-alcove
+description:
+  en: bash dsh plugin --profile web add https://github.com/Nixz0824/dsh-composer-alcove/releases/latest/download/dsh-composer-alcove-0.5.8.tgz
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - composer
+  - scroll
+source:
+  repository: https://github.com/Nixz0824/dsh-composer-alcove
+  repositoryNodeId: R_kgDOT9SfbA
+  subpath: null
+  commit: 3c3b16007e0f00354d43f662205cf72e39e5b57d
+creator:
+  github: Nixz0824
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:19.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
