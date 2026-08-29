@@ -9,6 +9,7 @@ import { afterEach, describe, expect, it } from "vitest";
 
 import {
   CATALOG_SNAPSHOT_FORMAT_V1,
+  CATALOG_SNAPSHOT_LIMITS,
   PUBLIC_CATALOG_RAW_ORIGIN,
   PUBLIC_SNAPSHOT_SITE_URL,
   materializeCatalog,
@@ -272,6 +273,49 @@ describe("catalog snapshot materialization", () => {
     expect(materialized.revision).toBe(REVISION_A);
     expect(materialized.root).toBe(await realpath(materialized.root));
     await materialized.cleanup();
+  });
+
+  it("accepts a snapshot at the current public file-count ceiling (2,100 entries, above the old 2,048 cap)", async () => {
+    // Regression guard for the 2026-08-29 catalog-validation outage: the public catalog
+    // crossed 2,081 entries and the old `files: 2_048` ceiling started rejecting every PR
+    // and `main` itself. 2,100 stays comfortably clear of that retired cap while staying
+    // far below the current `CATALOG_SNAPSHOT_LIMITS.files` ceiling.
+    const entryCount = 2_100;
+    expect(entryCount).toBeGreaterThan(2_048);
+    expect(entryCount).toBeLessThan(CATALOG_SNAPSHOT_LIMITS.files);
+
+    const files: Record<string, string> = {};
+    for (let index = 0; index < entryCount; index += 1) {
+      files[`catalog/plugins/plugin-${index}.yaml`] = `schemaVersion: 1\nid: plugin-${index}\n`;
+    }
+    const sourceRoot = await temporaryRoot("dsh-catalog-file-many-");
+    const sourcePath = join(sourceRoot, "catalog.snapshot.json");
+    await writeFile(sourcePath, snapshot(files));
+
+    const materialized = await materializeCatalog({ kind: "snapshot-file", path: sourcePath });
+    if (materialized.kind !== "snapshot") throw new Error("expected snapshot result");
+    expect(
+      await readFile(join(materialized.root, "catalog/plugins/plugin-0.yaml"), "utf8"),
+    ).toBe("schemaVersion: 1\nid: plugin-0\n");
+    await materialized.cleanup();
+  });
+
+  it("still rejects a snapshot one entry above the current public file-count ceiling", async () => {
+    const entryCount = CATALOG_SNAPSHOT_LIMITS.files + 1;
+    const files: Record<string, string> = {};
+    for (let index = 0; index < entryCount; index += 1) {
+      files[`catalog/plugins/plugin-${index}.yaml`] = `schemaVersion: 1\nid: plugin-${index}\n`;
+    }
+    const sourceRoot = await temporaryRoot("dsh-catalog-file-toomany-");
+    const sourcePath = join(sourceRoot, "catalog.snapshot.json");
+    await writeFile(sourcePath, snapshot(files));
+
+    await expect(
+      materializeCatalog({ kind: "snapshot-file", path: sourcePath }),
+    ).rejects.toMatchObject({
+      name: "CliSafetyError",
+      message: "catalog snapshot exceeds the public file count limit",
+    });
   });
 
   it("fetches only a pinned public raw snapshot without credentials", async () => {

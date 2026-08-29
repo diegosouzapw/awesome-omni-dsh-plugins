@@ -30,16 +30,29 @@ export const PUBLIC_CATALOG_RAW_ORIGIN =
 export const PUBLIC_SNAPSHOT_SITE_URL =
   "https://dsh-plugins.omniroute.online/catalog.snapshot.json";
 
+// Raised 2026-08-29 (see catalog-validation outage, #cli-catalog-ceilings): the public
+// catalog crossed 2,081 entries and tripped the old `files: 2_048` ceiling on every PR and
+// on `main` itself. These are still hostile-input safety limits, not soft targets — they are
+// widened with headroom for the growth curve (~100 entries/round, 10k+ target), not removed.
+// Measurements behind the new numbers:
+//   - Public `catalog/` checkout (2026-08-29): 2,082 files / 2,319,239 bytes (~1.11 KiB/entry).
+//   - Generated `catalog.snapshot.json` for 1,356 entries: 1,670,943 bytes (~1.23 KiB/entry).
+//   - Generated `catalog.json` for 1,356 entries: 2,450,402 bytes.
+//   - Linear extrapolation to 20,000 entries: ~24.1 MiB snapshot / ~21.3 MiB raw file bytes
+//     / ~2.0 MB git-tree listing (~100 B/entry). `files`/`directoryEntries` at 32,768 give
+//     >1.6x headroom over 20k entries with room to raise again before the next ceiling; the
+//     byte limits (128 MiB snapshot/file-bytes, 32 MiB git-tree) give >5x headroom over the
+//     20k-entry byte extrapolation above.
 export const CATALOG_SNAPSHOT_LIMITS = Object.freeze({
-  snapshotBytes: 10 * 1024 * 1024,
-  totalFileBytes: 8 * 1024 * 1024,
+  snapshotBytes: 128 * 1024 * 1024,
+  totalFileBytes: 128 * 1024 * 1024,
   fileBytes: 1024 * 1024,
-  files: 2_048,
-  directoryEntries: 4_096,
+  files: 32_768,
+  directoryEntries: 32_768,
   pathBytes: 512,
   redirects: 3,
   gitOutputBytes: 64 * 1024,
-  gitTreeBytes: 2 * 1024 * 1024,
+  gitTreeBytes: 32 * 1024 * 1024,
   pathDepth: 16,
 });
 
