@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: johnxu22786-repogate
+name: repogate
+description:
+  en: "repogate is a GitHub workbench for coding agents: it wraps the GitHub REST API into a set of MCP (Model Context Protocol) tools, letting agents perform repo queries, issue management, PR creation and merging, code review, search , and other common operations directly in a conversation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - mcp
+  - dsh
+  - agent
+  - tools
+  - issue
+  - pull-request
+  - code-review
+source:
+  repository: https://github.com/JohnXu22786/github-mcp
+  repositoryNodeId: R_kgDOT59N3w
+  subpath: null
+  commit: a7b121a2c1002edc86266c7e432ba6157842fdf6
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:11.685Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
