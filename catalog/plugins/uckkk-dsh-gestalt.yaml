@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-gestalt
+name: dsh-gestalt
+description:
+  en: bash dsh plugin add dsh-gestalt 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-gestalt" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - gestalt
+  - psychology
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-gestalt
+  repositoryNodeId: R_kgDOT6OkfA
+  subpath: null
+  commit: 6ab852e2c1f13d8468867536cf84b18586f48e83
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-gestalt
+  version: 0.1.0
+  integrity: sha512-HsLwNGR1ZBpUJyriotO9NjCNa7Vn6HF7LNOiyuLkUrb3yswgMHhHQTvlWUD+cDOZ3Dl1eaogWeL5kb8nhQ572w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:43.699Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
