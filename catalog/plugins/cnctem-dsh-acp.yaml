@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: cnctem-dsh-acp
+name: dsh-acp
+description:
+  en: Agent Client Protocol (ACP) JSON-RPC stdio server for DeepSeek Harness — bridges Zed and other IDEs to dsh agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - agent
+  - client
+  - protocol
+  - json
+  - stdio
+  - server
+  - bridges
+  - other
+  - ides
+  - agents
+  - dsh
+source:
+  repository: https://github.com/cnctem/dsh-acp
+  repositoryNodeId: R_kgDOT48KUQ
+  subpath: null
+  commit: 2d9bbf7b0eba08065f0d068776ca6d07d7a7e0ff
+creator:
+  github: cnctem
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:51.519Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
