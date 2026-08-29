@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jean3690-dsh-devtoolbox
+name: dsh-devtoolbox
+description:
+  en: 分类 工具 id --- --- 文本 text stats text remove blank text dedup case change case convert fullwidth cn convert regex text ops line convert escape sort lines 编码 base64 url html entity unicode escape radix timestamp data url qrcode 数据 json format json csv csv fix text diff json path json to yaml 安全 md5 sha uuid password rando
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - toolbox
+  - devtools
+  - utils
+source:
+  repository: https://github.com/jean3690/dsh-devtoolbox
+  repositoryNodeId: R_kgDOT6nKzQ
+  subpath: null
+  commit: 9cbe5077dcc1dd17761a562c745c0e7589170c54
+creator:
+  github: jean3690
+package:
+  ecosystem: npm
+  name: dsh-devtoolbox
+  version: 0.2.0
+  integrity: sha512-OWXOHQvpblf1dddakqviJNBSNIbZ6aDy8IrYkB30ixzA4Zv+111yCl1HUY4eLzcLa+vS4Bwo+r8EXp81MF33Kw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:24.320Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
