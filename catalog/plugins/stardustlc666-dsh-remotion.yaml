@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: stardustlc666-dsh-remotion
+name: dsh-remotion
+description:
+  en: "DSH (DeepSeek Harness) video-creation skill plugin: installing it registers the official Remotion skill into DSH (programmatic video with React: animation, audio, captions, 3D, charts, fonts, and 38 rule files)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - skills
+  - video
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-remotion
+  repositoryNodeId: R_kgDOT4uvmA
+  subpath: null
+  commit: 19a174ec01cf779a5aca620f258e13162357cfe5
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-remotion
+  version: 0.2.0
+  integrity: sha512-aBSs/tv6aA5ehjlgE60Jfzc0KnS7OdaAclQN2XdXNsjx6EndJIzDIk5QMEK7KtbKt1AHJQXKN4+zn/CsmeW+tw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:28.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
