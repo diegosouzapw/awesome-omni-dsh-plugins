@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-burkina-faso
+name: dsh-burkina-faso
+description:
+  en: bash dsh plugin add github:uckkk/dsh-burkina-faso
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-burkina-faso
+source:
+  repository: https://github.com/uckkk/dsh-burkina-faso
+  repositoryNodeId: R_kgDOT-Dllg
+  subpath: null
+  commit: 24911543d4e075db88ff3d23649425c6eee8e2d9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:30.122Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
