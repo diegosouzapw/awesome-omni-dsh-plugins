@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: mateuszjuszczyk-oh-my-dsh
+name: oh-my-dsh
+description:
+  en: "Oh My DSH — tiered model routing for DeepSeek Harness: think/build tiers, an automatic vision tier for images, and image generation through an ordinary chat model (e.g. gpt-5.6-luna on opencode-go), all configured from an 'oh my dsh' settings tab. Works in the Web (Desktop) surface and in the terminal (TUI)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - model-routing
+  - tiered-routing
+  - llm
+  - coding-agent
+  - vision
+  - image-generation
+  - open-source
+source:
+  repository: https://github.com/llmpolska/oh-my-dsh
+  repositoryNodeId: R_kgDOT5q09w
+  subpath: null
+  commit: 38c826b30e1598dbd74a5f52a74ab3e7e9a7accd
+creator:
+  github: MateuszJuszczyk
+package:
+  ecosystem: npm
+  name: oh-my-dsh
+  version: 0.1.0
+  integrity: sha512-9CP+NZWIlSbuIoucRMRoj0SXKVHgzmNdgkosTG0aGCmJLXVPPK55sWaSaxkJJVU7tNnQ8ynExqtSknKGlAGrbg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:02.527Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
