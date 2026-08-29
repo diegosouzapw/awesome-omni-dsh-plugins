@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lengzhanbao-dsh-taffy-theme
+name: "@dsh-external/dsh-taffy-theme"
+description:
+  en: "Taffy Live Atelier / 塔菲直播工房 — candy acrylic DSH Web theme: light conservatory & dark stage art, gold-pink chat frame, Taffy overlays, optional agent preset."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - ui
+  - ui-theme
+  - webui
+  - taffy
+  - acrylic
+  - light-dark
+source:
+  repository: https://github.com/lengzhanbao/dsh-taffy-theme
+  repositoryNodeId: R_kgDOT_YHTg
+  subpath: null
+  commit: 25850a121727930e36a40418b80c693055ade276
+creator:
+  github: lengzhanbao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:34.487Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
