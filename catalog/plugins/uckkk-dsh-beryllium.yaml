@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-beryllium
+name: dsh-beryllium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-beryllium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-beryllium
+source:
+  repository: https://github.com/uckkk/dsh-beryllium
+  repositoryNodeId: R_kgDOT9vApw
+  subpath: null
+  commit: 591643a5220eff09b00be9cb5a078ee5aaad87fd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:42.154Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
