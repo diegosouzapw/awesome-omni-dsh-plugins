@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: johnxu22786-dsh-doc-index
+name: dsh-doc-index
+description:
+  en: "dsh bundle: local semantic index over workspace documents (MD/PDF/DOCX/TXT) with FTS5 BM25 + local embedding hybrid retrieval, hit citations with line numbers, and incremental updates."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bundle
+  - local
+  - semantic
+  - index
+  - over
+  - workspace
+  - documents
+  - docx
+  - fts5
+  - bm25
+  - embedding
+  - hybrid
+  - retrieval
+  - citations
+  - line
+  - numbers
+source:
+  repository: https://github.com/JohnXu22786/docindex
+  repositoryNodeId: R_kgDOT-SN3g
+  subpath: null
+  commit: fa4a32389153e14ae4d3d8dbbef44b7a22c97adf
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:08.032Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
