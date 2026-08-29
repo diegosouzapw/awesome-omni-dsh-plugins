@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: nonentity303-dsh-plugin-manager-pro
+name: dsh-plugin-manager-pro
+description:
+  en: sh dsh plugin --profile web add dsh-plugin-manager-pro
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - plugin-manager
+  - plugin-management
+  - dsh-plugin
+  - rescue
+source:
+  repository: https://github.com/nonentity303/dsh-plugin-manager
+  repositoryNodeId: R_kgDOT5ACfA
+  subpath: null
+  commit: bf11126bf5716fc3f036806e74bca1ed99680994
+creator:
+  github: nonentity303
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:44.089Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
