@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stardustlc666-dsh-flakefinder
+name: dsh-flakefinder
+description:
+  en: Teach agents the difference between broken code and a flaky test.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - testing
+  - flaky-test
+  - quality
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-flakefinder
+  repositoryNodeId: R_kgDOT5e9PQ
+  subpath: null
+  commit: fa23dac5ebb18baf6d8e8ce8691fa2276984cfc5
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-flakefinder
+  version: 0.3.0
+  integrity: sha512-se/XPonJdiBxjN0QiVaWXMVH2svJ6TIFUXYDtDOlehvjssqsLxVlXZpBfkRXXeQIr6e6cZlVSQGrjj5YDVil9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:51.984Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
