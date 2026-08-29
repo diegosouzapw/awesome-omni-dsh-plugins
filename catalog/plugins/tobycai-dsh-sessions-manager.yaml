@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tobycai-dsh-sessions-manager
+name: dsh-sessions-manager
+description:
+  en: "DSH session manager: archive, move, restore, and inspect sessions from Settings → 会话管理 ; mark unread, move, and delete sessions directly from the main sidebar . Deleted sessions go to the recycle bin first and can be restored or permanently purged."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - session-manager
+  - archived-sessions
+  - session
+source:
+  repository: https://github.com/TOBYCAI/dsh-sessions-manager
+  repositoryNodeId: R_kgDOT-VcJA
+  subpath: null
+  commit: 74720ecbd7a8db5a546527a3dfb55bc78ec0dec0
+creator:
+  github: TOBYCAI
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:24.923Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
