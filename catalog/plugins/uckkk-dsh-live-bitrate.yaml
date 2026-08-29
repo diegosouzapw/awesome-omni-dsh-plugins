@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-live-bitrate
+name: dsh-live-bitrate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-live-bitrate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-live-bitrate
+source:
+  repository: https://github.com/uckkk/dsh-live-bitrate
+  repositoryNodeId: R_kgDOT-x03Q
+  subpath: null
+  commit: 7b9560142f3b809eca90de23252bb668e2127ea8
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:22.786Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
