@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lacquervii-dsh-smooth-cursor
+name: dsh-smooth-cursor
+description:
+  en: Smooth comet-mode animated caret for the DSH chat composer — a standalone installable DSH plugin (ported from the Obsidian Animated Cursor plugin)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - cursor
+  - caret
+  - composer
+source:
+  repository: https://github.com/Lacquervii/smooth-cursor
+  repositoryNodeId: R_kgDOT-f16g
+  subpath: null
+  commit: 7f0caa930131aaf509b9fd19c244b3169c4f37c6
+creator:
+  github: Lacquervii
+package:
+  ecosystem: npm
+  name: dsh-smooth-cursor
+  version: 0.1.6
+  integrity: sha512-NvmRYZWw0T7ZJijyrj260xzJZ1X6aVQ0Ly3PlJ+XVAknK+bx83Lm8MdCUKjRzsD7nSTcowNBBWi+8JU6hwmZvw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:48.388Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
