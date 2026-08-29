@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ratevoid-dsh-aseprite
+name: dsh-aseprite
+description:
+  en: A pixel-art and sprite-animation editor plugin for DeepSeek Harness. It is compatible with Aseprite project files and requires no Aseprite installation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - aseprite
+  - pixel-art
+  - sprite
+  - animation
+  - web-ui
+source:
+  repository: https://github.com/Ratevoid/dsh-aseprite
+  repositoryNodeId: R_kgDOT87tJw
+  subpath: null
+  commit: e6804fe634380e63c1efe09c4c6a749cc110045b
+creator:
+  github: Ratevoid
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:43.938Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
