@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: quaner1234-cmd-dsh-subagent-watchdog
+name: dsh-subagent-watchdog
+description:
+  en: "DSH plugin: safe auto-continue-once recovery for native continuable subagents that end with explicit max-tokens termination. No timers, no polling, no private APIs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - subagent
+  - max-tokens
+  - auto-continue
+  - watchdog
+source:
+  repository: https://github.com/quaner1234-cmd/dsh-subagent-watchdog
+  repositoryNodeId: R_kgDOUBFX4A
+  subpath: null
+  commit: 37c1da0275ecab1dc2818cd624fe2c8255df0ebc
+creator:
+  github: quaner1234-cmd
+package:
+  ecosystem: npm
+  name: dsh-subagent-watchdog
+  version: 0.1.0
+  integrity: sha512-+FQx0Ox5AGlktxzB8Ym6NpvmuFMMlQdVxtwnh7sFhJoBbhNKXwUpUaoUIhWZPd2flg9mjhfPoqCOsHWhkKv6fg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:57.202Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
