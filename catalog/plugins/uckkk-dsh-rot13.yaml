@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-rot13
+name: dsh-rot13
+description:
+  en: bash dsh plugin add dsh-rot13 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-rot13" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - rot13
+  - cipher
+  - rotate
+source:
+  repository: https://github.com/uckkk/dsh-rot13
+  repositoryNodeId: R_kgDOT9tCvg
+  subpath: null
+  commit: d17fe1657ec305eb9487d8b69788e6a98fc5dd79
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:52.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
