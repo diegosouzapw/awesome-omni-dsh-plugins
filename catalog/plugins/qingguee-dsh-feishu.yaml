@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: qingguee-dsh-feishu
+name: "@aiwayds/dsh-feishu"
+description:
+  en: "dsh plugin: drive an existing dsh session from Feishu/Lark — round cards, interactive resume, ask-user cards, steer (outbound-only WebSocket bot)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - feishu
+  - lark
+  - bot
+  - remote
+source:
+  repository: https://github.com/fan56/dsh-feishu
+  repositoryNodeId: R_kgDOUBtjfA
+  subpath: null
+  commit: afd1edc2a723a7f2a88c27a42dd73a9ac4927447
+creator:
+  github: qingguee
+package:
+  ecosystem: npm
+  name: "@aiwayds/dsh-feishu"
+  version: 0.2.0
+  integrity: sha512-LYtVNDMgLyOk77truaGALZYj7gBA+mG5ltOHrXIPpR59FQzD7Nfv5vbUjnEaXh0096OuQgWDeTv+sATf5kAHOw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:49.909Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
