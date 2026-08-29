@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-unicode
+name: dsh-unicode
+description:
+  en: bash dsh plugin add dsh-unicode 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-unicode" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - unicode
+source:
+  repository: https://github.com/uckkk/dsh-unicode
+  repositoryNodeId: R_kgDOT6Nh6w
+  subpath: null
+  commit: 2167ab3a2e99f9fe33d72a8d2f7a29e72022018b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:59.897Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
