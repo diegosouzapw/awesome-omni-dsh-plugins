@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: kirkchinese-dsh-citeciter
+name: "@kirkchinese/dsh-citeciter"
+description:
+  en: Verifiable, source-bound, read-only investigations for DeepSeek Harness responses
+  evidencePath: packages/citeciter/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - citation
+  - source-bound
+  - verification
+  - evidence
+  - investigation
+  - context-management
+  - read-only
+  - explanation
+  - observer
+  - topic
+source:
+  repository: https://github.com/kirkchinese/CiteCiter
+  repositoryNodeId: R_kgDOT7WsnQ
+  subpath: packages/citeciter
+  commit: 8f5f1dc1f12f29c50a981dae235784462928cc5f
+creator:
+  github: kirkchinese
+package:
+  ecosystem: npm
+  name: "@kirkchinese/dsh-citeciter"
+  version: 0.4.1
+  integrity: sha512-BVHm9TqH4OluyJJ7Rtu09vV6bcxwXoWCntTNRQjhU7ed7saqICKp4bqAawg1W38U4p2JQt6n1ps5ENCn2bYYaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/citeciter/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:21.081Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
