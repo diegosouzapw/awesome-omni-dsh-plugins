@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-color-theory
+name: dsh-color-theory
+description:
+  en: bash dsh plugin add dsh-color-theory 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-color-theory" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - color
+  - palette
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-color-theory
+  repositoryNodeId: R_kgDOT6Ojpw
+  subpath: null
+  commit: 4555a313b7b6be41d1a1878283c213308718528b
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-color-theory
+  version: 0.1.0
+  integrity: sha512-/ReiRfwQMvk7hmM4cU+hx5U8I82GwTv0FVXBFDSBABBYcbtHCqSXMY+thqC1RYsfRLhL1WtpbL+zUWJBEkLW3A==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:29.526Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
