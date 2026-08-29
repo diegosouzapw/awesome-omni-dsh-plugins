@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: jinguanghai-dsh-forge-tcm
+name: dsh-forge-tcm
+description:
+  en: TCM diagnosis & herb-pair search
+  evidencePath: plugins/forge-tcm/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - diagnosis
+  - herb
+  - pair
+  - search
+  - dsh
+source:
+  repository: https://github.com/jinguanghai/deepseek-harness-forge-plugins
+  repositoryNodeId: R_kgDOT4V3ww
+  subpath: plugins/forge-tcm
+  commit: ad4e2dd73be06dc72fc05e0e1775032270bc3a0d
+creator:
+  github: jinguanghai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/forge-tcm/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:34.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
