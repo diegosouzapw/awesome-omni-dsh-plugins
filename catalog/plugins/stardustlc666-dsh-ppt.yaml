@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: stardustlc666-dsh-ppt
+name: dsh-ppt
+description:
+  en: "One sentence or one document → a complete presentation : HTML web slideshow + PPTX export, 5 visual themes, bilingual Chinese/English."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - skills
+  - ppt
+  - pptx
+  - presentation
+  - slides
+  - html
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-ppt
+  repositoryNodeId: R_kgDOT5caKQ
+  subpath: null
+  commit: 7d175f7b498b91bcc115e7f02f8a30b4a6cb8479
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-ppt
+  version: 0.2.0
+  integrity: sha512-t3Scz12VFR/BS1+FNRWwOmPbEI3k7nK/5Y5giLgyxkcwOngdLxRAxcdJ3EzKVC5s5NIa9xXP1/Ki/GovBVKBeA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:53.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
