@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hanxuanliang-dsh-chaos
+name: "@hanxuanliang/dsh-chaos"
+description:
+  en: Peer multi-Agent collaboration for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - multi-agent
+  - collaboration
+  - dsh
+source:
+  repository: https://github.com/hanxuanliang/dsh-chaos
+  repositoryNodeId: R_kgDOT5HFvg
+  subpath: null
+  commit: d439bf9f47e2436c408e896ebb7fbad025faf791
+creator:
+  github: hanxuanliang
+package:
+  ecosystem: npm
+  name: "@hanxuanliang/dsh-chaos"
+  version: 0.1.2
+  integrity: sha512-rhad9mIImEfGGLIxZDP79Qwt/XzTyhr1JzSEiTBYNPv0rKO87OEnvYyiIEZdXqEa6oj6wERVU8alXV2QnHpFsw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:35.173Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
