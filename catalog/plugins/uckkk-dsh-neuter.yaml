@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-neuter
+name: dsh-neuter
+description:
+  en: bash dsh plugin add github:uckkk/dsh-neuter
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-neuter
+source:
+  repository: https://github.com/uckkk/dsh-neuter
+  repositoryNodeId: R_kgDOT-vnBQ
+  subpath: null
+  commit: dbb6c4aa49e0280011a73a92c1f5ee949d11a704
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:38.073Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
