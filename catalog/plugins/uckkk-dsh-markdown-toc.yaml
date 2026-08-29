@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-markdown-toc
+name: dsh-markdown-toc
+description:
+  en: bash dsh plugin add dsh-markdown-toc 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-markdown-toc" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - markdown
+  - toc
+source:
+  repository: https://github.com/uckkk/dsh-markdown-toc
+  repositoryNodeId: R_kgDOT6Nn6w
+  subpath: null
+  commit: f1994b65ba501d09e90ca2238fa609a03f9fea08
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-markdown-toc
+  version: 0.1.0
+  integrity: sha512-YOQY+Q101E3RBVjgjpNXPH2V7cwDVtXItr53BowPG5xvn6rxPEgNDJUYup+d2VRL9ULzrpqe+bNny6zHZrD1Hg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:27.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
