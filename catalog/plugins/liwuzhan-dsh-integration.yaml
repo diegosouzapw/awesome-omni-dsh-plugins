@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: liwuzhan-dsh-integration
+name: "@agent-trade/dsh-integration"
+description:
+  en: DeepSeek Harness bundle for agent-native catalog, contact, deal, receipt, settlement, and human-task workflows
+  evidencePath: packages/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - bundle
+  - agent
+  - native
+  - catalog
+  - contact
+  - deal
+  - receipt
+  - settlement
+  - human
+  - task
+  - workflows
+  - dsh
+source:
+  repository: https://github.com/liwuzhan/agent-native-trade
+  repositoryNodeId: R_kgDOUAzMDA
+  subpath: packages/dsh-plugin
+  commit: 74837208eb1b9c6b5b0e1d3055ebc31c93074fd8
+creator:
+  github: liwuzhan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:50.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
