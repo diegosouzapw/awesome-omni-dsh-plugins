@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Web sitesinde tüm eklentilere göz atın, arayın ve kurun →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1356_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1448_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ depo, ikisinin de tükettiği genel katalog verilerini, şemayı ve politikalar�
 
 ## Katalog durumu
 
-**1356 eklenti birleştirildi.** Her eklenti, özgün üretici deposundan, sabitlenmiş bir kaynak
+**1448 eklenti birleştirildi.** Her eklenti, özgün üretici deposundan, sabitlenmiş bir kaynak
 commit'i ve açık atıf ile, tek tek ve ayrı ayrı incelenmiş bir pull request üzerinden katalog'a
 girer.
 
@@ -341,4 +341,4 @@ lisansları altında kalır. Bkz. [docs/CREDIT.md](../../docs/CREDIT.md) ve
 
 </div>
 
-<!-- i18n-source-hash: 8b642bfa4d8167526740cf9c6e40c3831f19ce8412c223f5dbf8bd33d0b4d501 -->
+<!-- i18n-source-hash: b9399f3318226e0fc568aafa5c5a66e506a14d7b0811fa90b3913cfcf84098c8 -->
