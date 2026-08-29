@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: icearia0219-dsh-memory-spaces
+name: dsh-memory-spaces
+description:
+  en: Explicitly governed shared memory spaces for DeepSeek Harness sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-memory
+  - session-memory
+  - shared-memory
+  - dsh
+source:
+  repository: https://github.com/icearia0219/dsh-memory-spaces
+  repositoryNodeId: R_kgDOUDa3eA
+  subpath: null
+  commit: ac8b58d087ff5a50e9a32030bd56cffe61da069d
+creator:
+  github: icearia0219
+package:
+  ecosystem: npm
+  name: dsh-memory-spaces
+  version: 0.1.0
+  integrity: sha512-BFnfrVqM6KVekYXAhqgukBoW35pJ5vBqIh/Ti49d2omdX30oSIwHEVLS2mdcI+cFHN3DwLeO0K033sO8ih//iQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:13.593Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
