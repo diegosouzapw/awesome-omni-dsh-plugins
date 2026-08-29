@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sunyuhuirong-shl-session-history
+name: shl-session-history
+description:
+  en: sh dsh plugin --profile desktop add /path/to/shl-session-history
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - profile
+  - desktop
+  - path
+  - session
+  - history
+  - dsh
+source:
+  repository: https://github.com/sunyuhuirong/shl-session-history
+  repositoryNodeId: R_kgDOT9mcDg
+  subpath: null
+  commit: 72eaa85033cbdc1381a3eb62df42a9f48ed1f1de
+creator:
+  github: sunyuhuirong
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:16.075Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
