@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jmxsxwyzjdwl-dsh-mmroute
+name: dsh-mmroute
+description:
+  en: "English summary — Multimodal router for DeepSeek Harness (DSH). Text-only models (e.g. DeepSeek, GLM) can still handle visual tasks: every image in every step of the agent stream — user uploads, read image results, MCP tool renders (Figma screenshots, …) — is transcribed into detailed text (verbatim OCR, chart data, vi"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - multimodal
+  - vision
+  - router
+source:
+  repository: https://github.com/jmxsxwyzjdwl/dsh-mmroute
+  repositoryNodeId: R_kgDOT_QIcg
+  subpath: null
+  commit: de9d11dc8df847025052d02aa25168de6d5cf5f2
+creator:
+  github: jmxsxwyzjdwl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:01.244Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
