@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: icefall7-dsh-plugin-scout
+name: dsh-plugin-scout
+description:
+  en: "A DeepSeek Harness plugin + skill that scouts the DSH ecosystem: the core deepseek-harness repo and every dsh-plugin-tagged repository, discovers harnesses related to your goal, and judges whether each is worth trying."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - skill
+  - scouts
+  - ecosystem
+  - core
+  - repo
+  - every
+  - tagged
+  - repository
+  - discovers
+  - harnesses
+  - related
+  - goal
+  - judges
+  - whether
+  - each
+  - worth
+source:
+  repository: https://github.com/icefall7/dsh-plugin-scout
+  repositoryNodeId: R_kgDOT4xkUQ
+  subpath: null
+  commit: cccc690850c986570a2d51980818644716344df0
+creator:
+  github: icefall7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:28.340Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
