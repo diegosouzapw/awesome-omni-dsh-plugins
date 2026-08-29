@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: sylkmpo-dsh-web-app-launcher
+name: dsh-web-app-launcher
+description:
+  en: DeepSeek Harness Web app-mode launcher bundle for Windows
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - windows
+  - desktop
+  - dsh
+source:
+  repository: https://github.com/sylkmpo/dsh-web-app-launcher
+  repositoryNodeId: R_kgDOT-cVYg
+  subpath: null
+  commit: de4cd2a6449928f23bf62d340fe5968ff34bb6ee
+creator:
+  github: sylkmpo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:21.296Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
