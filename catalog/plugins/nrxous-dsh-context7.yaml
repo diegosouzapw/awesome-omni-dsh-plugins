@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: nrxous-dsh-context7
+name: dsh-context7
+description:
+  en: "Context7 up-to-date library documentation for DSH: context7 search / context7 get docs model tools backed by the Context7 Public API v2 (context7.com)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - context7
+  - documentation
+  - dsh
+source:
+  repository: https://github.com/Nrxous/dsh-context7
+  repositoryNodeId: R_kgDOT526Pg
+  subpath: null
+  commit: 4fdaf40151cb3677ea7a0af849b6af65c85dee03
+creator:
+  github: Nrxous
+package:
+  ecosystem: npm
+  name: dsh-context7
+  version: 0.2.0
+  integrity: sha512-yvB2cNt2E+zr4kbkC0EjHBTY9B/fkL6oskrp+sUGdiqOxNrO50x8YNFWNyJNrtS4fa2LMqIIoq6cKVbAh3/81w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:47.674Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
