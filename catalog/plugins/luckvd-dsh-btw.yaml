@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: luckvd-dsh-btw
+name: dsh-btw
+description:
+  en: "BTW side-ask panel for the DSH web GUI: answer from the current conversation (per-message anchors) in independent, history-preserving side sessions without writing to the main conversation."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-client
+  - btw
+  - side-ask
+source:
+  repository: https://github.com/LuckVd/dsh-btw
+  repositoryNodeId: R_kgDOT_LqoQ
+  subpath: null
+  commit: 01266d7e20765d9406624ebd9be803bca95125f2
+creator:
+  github: LuckVd
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:48.793Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
