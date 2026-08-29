@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-listing-price
+name: dsh-listing-price
+description:
+  en: bash dsh plugin add github:uckkk/dsh-listing-price
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-listing-price
+source:
+  repository: https://github.com/uckkk/dsh-listing-price
+  repositoryNodeId: R_kgDOT-Dh0A
+  subpath: null
+  commit: 6e062c5f942b75890277e284ab8661842573e6bd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:22.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
