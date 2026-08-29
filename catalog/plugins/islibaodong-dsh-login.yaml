@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: islibaodong-dsh-login
+name: "@islibaodong/dsh-login"
+description:
+  en: Multi-user authentication gateway plugin for the DSH Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - multi
+  - user
+  - authentication
+  - gateway
+  - dsh
+source:
+  repository: https://github.com/islibaodong/dsh-login
+  repositoryNodeId: R_kgDOT67wzA
+  subpath: null
+  commit: 3949b67ebc5297f489bc247c414f57cca2498f86
+creator:
+  github: islibaodong
+package:
+  ecosystem: npm
+  name: "@islibaodong/dsh-login"
+  version: 0.1.0
+  integrity: sha512-XJYSDQRC7TklKRJbeABifykg7xMVDHT7YOtyMsa9pGCu0Agp9/B7ZE2nmQSJTj9hNBN1O0oD/P3euqv/sE1ylg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:54.622Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
