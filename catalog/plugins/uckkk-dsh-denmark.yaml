@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-denmark
+name: dsh-denmark
+description:
+  en: bash dsh plugin add github:uckkk/dsh-denmark
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-denmark
+source:
+  repository: https://github.com/uckkk/dsh-denmark
+  repositoryNodeId: R_kgDOT_G-Dw
+  subpath: null
+  commit: 2c493538719940e34551f476e69416458c9e55dd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:15.271Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
