@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: jeremy9682-dsh-codex-observability
+name: dsh-codex-observability
+description:
+  en: "Two small plugins for DeepSeek Harness that close the observability gap around external subagent runs. Background and upstream proposal: discussion 1493."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - small
+  - close
+  - observability
+  - around
+  - external
+  - subagent
+  - runs
+  - background
+  - upstream
+  - proposal
+  - discussion
+  - "1493"
+  - dsh
+source:
+  repository: https://github.com/jeremy9682/dsh-observability
+  repositoryNodeId: R_kgDOT4ooUQ
+  subpath: null
+  commit: f5bdac556c0f4e6b61bd89201ec0e2401fb45c8e
+creator:
+  github: jeremy9682
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:03.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
