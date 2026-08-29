@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: newdanew-dsh-plugin-voice-input
+name: "@local/dsh-plugin-voice-input"
+description:
+  en: "Voice input plugin for DeepSeek Harness web: a mic button in the composer that recognizes speech (Web Speech API) and fills the draft, with optional auto-send."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - voice
+  - input
+  - button
+  - composer
+  - recognizes
+  - speech
+  - fills
+  - draft
+  - optional
+  - auto
+  - send
+  - dsh
+source:
+  repository: https://github.com/NewDaNew/dsh-voice-input
+  repositoryNodeId: R_kgDOT5DaLg
+  subpath: null
+  commit: abb8c9986a621f37fc0f9b0fc75181b074c1a83a
+creator:
+  github: NewDaNew
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:05.924Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
