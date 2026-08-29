@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-sign
+name: dsh-sign
+description:
+  en: bash dsh plugin add github:uckkk/dsh-sign
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-sign
+source:
+  repository: https://github.com/uckkk/dsh-sign
+  repositoryNodeId: R_kgDOT9uD-g
+  subpath: null
+  commit: a0e74cd4bc05c3baf5c55e8c9349077b134da3ad
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:02.315Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
