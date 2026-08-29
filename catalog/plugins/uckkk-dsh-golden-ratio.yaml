@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-golden-ratio
+name: dsh-golden-ratio
+description:
+  en: bash dsh plugin add dsh-golden-ratio 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-golden-ratio" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - golden-ratio
+  - layout
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-golden-ratio
+  repositoryNodeId: R_kgDOT6i_UA
+  subpath: null
+  commit: c63d6da3c59e7928d0effb68897978bac99d4e3f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:47.193Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
