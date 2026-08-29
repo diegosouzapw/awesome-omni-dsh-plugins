@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: small-tailqwq-dsh-client-ui-skin-orca-link
+name: "@dsh-external/dsh-client-ui-skin-orca-link"
+description:
+  en: "Hot-pluggable ORCA LINK skin for the dsh web GUI: pearl-white technical glass, graphite mechanics, and electric-blue signal accents"
+  evidencePath: orca-link/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - pluggable
+  - orca
+  - link
+  - skin
+  - pearl
+  - white
+  - technical
+  - glass
+  - graphite
+  - mechanics
+  - electric
+  - blue
+  - signal
+  - accents
+  - dsh
+source:
+  repository: https://github.com/Small-tailqwq/dsh-deep-whale
+  repositoryNodeId: R_kgDOT3XawA
+  subpath: orca-link
+  commit: af20f8e8634fbb4490ec6737593da7dbd9046963
+creator:
+  github: Small-tailqwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: orca-link/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: CC-BY-NC-SA-4.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:21.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
