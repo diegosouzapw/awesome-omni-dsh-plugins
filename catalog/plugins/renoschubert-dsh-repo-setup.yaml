@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: renoschubert-dsh-repo-setup
+name: dsh-repo-setup
+description:
+  en: "Repo bootstrap guidance for DeepSeek Harness: read-only repo setup scan tool that detects stack/tests/docs/git/db and recommends skill plugins, MCP servers and hygiene files to install (claude-code-setup counterpart)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - bootstrap
+  - repo-setup
+  - claude-code-setup
+source:
+  repository: https://github.com/gongyijie85/dsh-repo-setup
+  repositoryNodeId: R_kgDOT5uWCg
+  subpath: null
+  commit: 9d745d02e3dd8a8226695ec3c5dc11ed68e33430
+creator:
+  github: renoschubert
+package:
+  ecosystem: npm
+  name: dsh-repo-setup
+  version: 0.1.1
+  integrity: sha512-wZMIiiSex0DnVz4F3KFva4Thq3Gp2xZPo4fHS4tAjhsQyRnxp554SjSggTjktU/CA+VlwFbpG5vAeFFlhse/FQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:15.810Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
