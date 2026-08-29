@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ishuowang-dsh-agent-team-room
+name: dsh-agent-team-room
+description:
+  en: Native DSH rooms for connecting independent sessions and provider-backed AI members without bundled roles or scenarios.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - multi-agent
+  - agent-orchestration
+  - agent-room
+  - session-room
+  - rolehub
+  - native-ui
+  - cordis
+source:
+  repository: https://github.com/ishuowang/dsh-agent-team-room
+  repositoryNodeId: R_kgDOT4n-AQ
+  subpath: null
+  commit: 1b420c760f5db78a19c87f1e439a5b85db61a843
+creator:
+  github: ishuowang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:57.104Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
