@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jasen215-dsh-continual-harness
+name: dsh-continual-harness
+description:
+  en: "Standalone DeepSeek Harness plugin: continual harness self-evolution. The agent persists and refines reusable prompt notes, memories, skill contracts, and subagent specs through small evidence-backed edits, with automatic refinement gates, rollback, and prompt injection."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - self-improvement
+  - continual-harness
+  - agent
+  - dsh
+source:
+  repository: https://github.com/jasen215/dsh-continual-harness
+  repositoryNodeId: R_kgDOT7LX-w
+  subpath: null
+  commit: 290cc0605fcbeed78cdb7f057c79078adfb8290f
+creator:
+  github: jasen215
+package:
+  ecosystem: npm
+  name: dsh-continual-harness
+  version: 0.2.1
+  integrity: sha512-eR4QAN/xiRYDFf7OQhwrgKyRiDbruPYAiCNv4cGqDdaaMhUQNVMBwOFnli+L37sx0FcIejhzFEYuPJ5H0PELaA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:43:50.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
