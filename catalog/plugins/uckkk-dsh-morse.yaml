@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-morse
+name: dsh-morse
+description:
+  en: bash dsh plugin add dsh-morse 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-morse" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - morse
+  - code
+  - cipher
+source:
+  repository: https://github.com/uckkk/dsh-morse
+  repositoryNodeId: R_kgDOT9tB6g
+  subpath: null
+  commit: 894022a721af8988998d0c0e0c825d66b46ca919
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:33.614Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
