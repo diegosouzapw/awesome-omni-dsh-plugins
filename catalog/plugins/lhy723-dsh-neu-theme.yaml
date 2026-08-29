@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lhy723-dsh-neu-theme
+name: dsh-neu-theme
+description:
+  en: A Neumorphism (soft-UI) theme plugin for DeepSeek Harness web — gentle raised-and-recessed surfaces in a cream light palette and an ink-dark palette, complete with ambient lighting, material gloss, grain texture, glassmorphism and micro-interactions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - neumorphism
+  - soft-ui
+  - web-ui
+source:
+  repository: https://github.com/Lhy723/dsh-neu-theme
+  repositoryNodeId: R_kgDOT5uU_g
+  subpath: null
+  commit: 834bf7100d8b298e74921ae3605f7b2045bd25aa
+creator:
+  github: Lhy723
+package:
+  ecosystem: npm
+  name: dsh-neu-theme
+  version: 0.1.1
+  integrity: sha512-33Xtoo8CqEmjCVdxyVxTzAz/IOkrM29CyhBdeDUny6/8oBmAWIOlRwPPPNPouL+/w188XPCoqC+nBlFbNmOuyA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:06.710Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
