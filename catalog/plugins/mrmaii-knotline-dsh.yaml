@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: mrmaii-knotline-dsh
+name: knotline-dsh
+description:
+  en: A single project operating map for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - project-map
+  - agent-orchestration
+source:
+  repository: https://github.com/MrMaii/knotline
+  repositoryNodeId: R_kgDOT7VV5Q
+  subpath: null
+  commit: 1775b051dc21714a6d1de71827e2d00e4da64b28
+creator:
+  github: MrMaii
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:53.212Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
