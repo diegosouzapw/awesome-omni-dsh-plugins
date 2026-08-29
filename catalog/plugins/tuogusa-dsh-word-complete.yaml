@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tuogusa-dsh-word-complete
+name: dsh-word-complete
+description:
+  en: bash dsh plugin --profile web add github:tuogusa/dsh-word-complete
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - tuogusa
+  - word
+  - complete
+  - dsh
+source:
+  repository: https://github.com/tuogusa/dsh-word-complete
+  repositoryNodeId: R_kgDOT77BvA
+  subpath: null
+  commit: ee8ff1a9df708f8ff64193429ce281324f097ca7
+creator:
+  github: tuogusa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:28.904Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
