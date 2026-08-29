@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: small-tailqwq-dsh-client-ui-skin-maid-atelier
+name: "@dsh-external/dsh-client-ui-skin-maid-atelier"
+description:
+  en: Hot-pluggable Deep-sea maid atelier skin with character backdrop and ornamental navy UI for the dsh web GUI
+  evidencePath: maid-atelier/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - pluggable
+  - deep
+  - maid
+  - atelier
+  - skin
+  - character
+  - backdrop
+  - ornamental
+  - navy
+  - dsh
+source:
+  repository: https://github.com/Small-tailqwq/dsh-deep-whale
+  repositoryNodeId: R_kgDOT3XawA
+  subpath: maid-atelier
+  commit: af20f8e8634fbb4490ec6737593da7dbd9046963
+creator:
+  github: Small-tailqwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: maid-atelier/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: CC-BY-NC-SA-4.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:21.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
