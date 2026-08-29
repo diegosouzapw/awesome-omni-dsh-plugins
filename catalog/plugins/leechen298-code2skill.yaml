@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: leechen298-code2skill
+name: "@leechen298/code2skill"
+description:
+  en: Generate and review portable Function, MCP, and Agent Skill packages from existing code.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent-skills
+  - code2skill
+  - deepseek-harness
+  - dsh-plugin
+  - mcp
+  - dsh
+source:
+  repository: https://github.com/leechen298/Code2Skill
+  repositoryNodeId: R_kgDOTbv2eg
+  subpath: null
+  commit: 85fc86a6155b237aa23fda9f02068166a90b590c
+creator:
+  github: leechen298
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:48:57.151Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
