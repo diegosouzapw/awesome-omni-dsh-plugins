@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: rogerdigital-dsh-searxng
+name: dsh-searxng
+description:
+  en: SearXNG-backed search provider for the DeepSeek Harness web capability seam (ctx.web)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - searxng
+  - search
+  - metasearch
+  - agent
+source:
+  repository: https://github.com/rogerdigital/dsh-searxng
+  repositoryNodeId: R_kgDOT5v-Gw
+  subpath: null
+  commit: c071ff26737b85ff5d194363f8b1f89785444a5a
+creator:
+  github: rogerdigital
+package:
+  ecosystem: npm
+  name: dsh-searxng
+  version: 0.1.1
+  integrity: sha512-8MV0faiTR4q/Gx2yrs66xQANZoGY1U1xm9KDVgN0uoGwisxJxMS2L8oOWYeT1cdFo4ludKcNQSlYRpUHeCvcrg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:46.153Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
