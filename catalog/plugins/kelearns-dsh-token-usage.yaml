@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kelearns-dsh-token-usage
+name: "@kelearns/dsh-token-usage"
+description:
+  en: "Token usage heatmap for the dsh web GUI: GitHub-style daily / weekly / cumulative token statistics with hover details, mounted via the official plugin mechanism (dsh plugin add) — no dsh source changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - token
+  - usage
+  - heatmap
+  - statistics
+source:
+  repository: https://github.com/KeLearns/dsh-token-usage
+  repositoryNodeId: R_kgDOT4b8PA
+  subpath: null
+  commit: b1c83721a8bc8c553ee73925733c961f16b12ec9
+creator:
+  github: KeLearns
+package:
+  ecosystem: npm
+  name: "@kelearns/dsh-token-usage"
+  version: 0.1.1
+  integrity: sha512-OmdArn2rxTJMxVyMWVbTO5J5FqI0+j4BXsZJOZHXvoNZEfhm/Ss1vLLuFoawxfNHLr73bOetZfsy3t0mih0Xpg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:29.964Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
