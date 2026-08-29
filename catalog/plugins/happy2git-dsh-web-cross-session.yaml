@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: happy2git-dsh-web-cross-session
+name: dsh-web-cross-session
+description:
+  en: "DSH web plugin: cross-session capability for the Web UI — sidebar content search, composer @-references to other sessions, message forwarding between live sessions, and the model-facing session-query tools (config-gated)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - cross
+  - session
+  - capability
+  - sidebar
+  - content
+  - search
+  - composer
+  - references
+  - other
+  - sessions
+  - message
+  - forwarding
+  - between
+  - live
+  - model
+  - facing
+source:
+  repository: https://github.com/Happy2Git/dsh-web-cross-session
+  repositoryNodeId: R_kgDOUAVVCQ
+  subpath: null
+  commit: 2deec0c989cddcf0fb3a27283a31d7be844e1231
+creator:
+  github: Happy2Git
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:58.597Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
