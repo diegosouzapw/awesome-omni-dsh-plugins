@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: saitamahang-dsh-skill-importer
+name: dsh-skill-importer
+description:
+  en: "Web UI plugin for DeepSeek Harness: import skills from local Markdown files or URLs into the skill roots the harness discovers automatically"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - skill
+  - agent
+source:
+  repository: https://github.com/saitamahang/dsh-skill-importer
+  repositoryNodeId: R_kgDOT39C_g
+  subpath: null
+  commit: 90592df4a37da99f48caee823d0335faf545ca28
+creator:
+  github: saitamahang
+package:
+  ecosystem: npm
+  name: dsh-skill-importer
+  version: 0.2.4
+  integrity: sha512-hTQXTrgAe67ktMEs+IKpnimq6B83s2rExjCCrPoAWltOL6aexSa5UMpXXQ0bnUAeR9gT7D3GlJ68It39OZU8qA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:46.334Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
