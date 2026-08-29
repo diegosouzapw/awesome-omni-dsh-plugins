@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: untr-untr-dsh-marketplace
+name: untr-dsh-marketplace
+description:
+  en: Registry-backed plugin marketplace and profile plugin manager for DeepSeek Harness
+  evidencePath: dsh-marketplace/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - marketplace
+source:
+  repository: https://github.com/UntR/dsh-plugin-marketplace
+  repositoryNodeId: R_kgDOT4Us7Q
+  subpath: dsh-marketplace
+  commit: 2dfd22e4ff4ec635a7856a88262bebd92458ce8f
+creator:
+  github: UntR
+package:
+  ecosystem: npm
+  name: untr-dsh-marketplace
+  version: 0.1.4
+  integrity: sha512-IAoZvIGn17RROkcw7iXQVb8emJ1HfK5TWvXa8+T5kFLgOmq7F50N66jkBspGIygVmRvrFVcnc9QB8qpRoGqF1A==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-marketplace/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:16.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
