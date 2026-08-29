@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mtty-ai-mmx-quota-tool
+name: mmx-quota-tool
+description:
+  en: MiniMax token-plan quota dock for DSH web — drop-shape 5h usage %, click for detail panel, auto-hides for non-MiniMax models.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - minimax
+  - mmx
+  - quota
+  - token-plan
+source:
+  repository: https://github.com/mtty-ai/mmx-quota-tool
+  repositoryNodeId: R_kgDOT5rz2w
+  subpath: null
+  commit: 98cdac017137117a9396a440a44ab39b9fb37335
+creator:
+  github: mtty-ai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:53.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
