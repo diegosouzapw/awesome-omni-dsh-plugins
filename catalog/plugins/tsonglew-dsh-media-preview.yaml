@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: tsonglew-dsh-media-preview
+name: dsh-media-preview
+description:
+  en: "Audio/video preview viewer for dsh-better-sidebar: native playback with Range-seeking served by a dedicated streaming route"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - media
+  - video
+  - audio
+  - preview
+  - better-sidebar
+source:
+  repository: https://github.com/tsonglew/dsh-media-preview
+  repositoryNodeId: R_kgDOT4ZN6A
+  subpath: null
+  commit: ef9685c9b4f0f4e3c810ebf520d3f67d099b1e39
+creator:
+  github: tsonglew
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:17.139Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
