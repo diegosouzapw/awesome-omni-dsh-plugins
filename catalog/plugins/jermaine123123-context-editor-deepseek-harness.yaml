@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jermaine123123-context-editor-deepseek-harness
+name: context-editor-deepseek-harness
+description:
+  en: Context Editor view and native context projection for DeepSeek Harness
+  evidencePath: adapters/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - context
+  - editor
+  - view
+  - native
+  - projection
+  - dsh
+source:
+  repository: https://github.com/jermaine123123/agent-context-editor
+  repositoryNodeId: R_kgDOT7004g
+  subpath: adapters/deepseek-harness
+  commit: e7c6e83987bba198bca891a5307ccdde77bc0dfa
+creator:
+  github: jermaine123123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: adapters/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:47.036Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
