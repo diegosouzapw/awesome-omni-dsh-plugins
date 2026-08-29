@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lovezi0-dsh-memory-palace
+name: dsh-memory-palace
+description:
+  en: bash dsh plugin --profile web add github:lovezi0/dsh-memory-palace
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bash
+  - profile
+  - lovezi0
+  - memory
+  - palace
+  - dsh
+source:
+  repository: https://github.com/lovezi0/dsh-memory-palace
+  repositoryNodeId: R_kgDOT50q5Q
+  subpath: null
+  commit: cca004c48bacf0d3d773684cec6ad5518fb16e75
+creator:
+  github: lovezi0
+package:
+  ecosystem: npm
+  name: dsh-memory-palace
+  version: 1.4.0
+  integrity: sha512-tG+oRJvNDqBc7BCcRaEB8vZCmgZrtq3W205UYGyw8utlsTCEzdwji+SU4u/Id9EoiDbYI5CV7U6j7U2RE0hEQA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:19.282Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
