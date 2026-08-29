@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ldchaowin-dsh-plugin-notify-sound
+name: dsh-plugin-notify-sound
+description:
+  en: "DeepSeek Harness plugin: per-workspace task-completion ringtones plus attention sounds for approval / question / plan-review / goal-blocked / task-failure events (Web UI; built-in synth, voice (TTS), custom audio)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - notification
+  - sound
+  - ringtone
+  - tts
+  - voice
+source:
+  repository: https://github.com/ldchaowin/dsh-plugin-notify-sound
+  repositoryNodeId: R_kgDOT4PHXg
+  subpath: null
+  commit: d6a267dea612569fd97340e62fb9ff6c7873702b
+creator:
+  github: ldchaowin
+package:
+  ecosystem: npm
+  name: dsh-plugin-notify-sound
+  version: 1.0.0
+  integrity: sha512-++s1Jg4lBaPCD8uzbwgPbbCy4VKJDQNdVNzc+6XTFeswYASZSfcvOWUVoM5yPhDlVYHJ6I09sM2UXIIr1UM1qg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:16.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
