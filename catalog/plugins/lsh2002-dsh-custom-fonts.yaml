@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lsh2002-dsh-custom-fonts
+name: dsh-custom-fonts
+description:
+  en: Customize the Chinese and English fonts, the code font , and the global font size of the DeepSeek Harness Web UI — right from a settings page, with a live preview.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - font
+  - fonts
+  - font-size
+  - code-font
+  - chinese
+  - english
+  - ui
+source:
+  repository: https://github.com/lsh2002/dsh-custom-fonts
+  repositoryNodeId: R_kgDOUCnn8w
+  subpath: null
+  commit: 648efa35ef90ebd1375e545598c4a2da86f22bed
+creator:
+  github: lsh2002
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:46.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
