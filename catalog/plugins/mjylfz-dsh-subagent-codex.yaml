@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: mjylfz-dsh-subagent-codex
+name: dsh-subagent-codex
+description:
+  en: DSH subagent provider that delegates tasks to the OpenAI Codex CLI (codex exec), exposing the subagent codex tool
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - subagent
+  - codex
+  - openai
+source:
+  repository: https://github.com/mjylfz/dsh-subagent-codex
+  repositoryNodeId: R_kgDOT9qkuA
+  subpath: null
+  commit: 8d0151e02924dcfb2e0ab38712806f3ba3f76c31
+creator:
+  github: mjylfz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:59.353Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
