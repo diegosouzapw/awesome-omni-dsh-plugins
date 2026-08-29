@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-light-need
+name: dsh-light-need
+description:
+  en: bash dsh plugin add github:uckkk/dsh-light-need
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-light-need
+source:
+  repository: https://github.com/uckkk/dsh-light-need
+  repositoryNodeId: R_kgDOT-sc4A
+  subpath: null
+  commit: 0b9c72914c3817f51a72123affc5132516893381
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:21.911Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
