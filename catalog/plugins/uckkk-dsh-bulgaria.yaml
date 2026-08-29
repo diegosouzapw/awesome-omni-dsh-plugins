@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bulgaria
+name: dsh-bulgaria
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bulgaria
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bulgaria
+source:
+  repository: https://github.com/uckkk/dsh-bulgaria
+  repositoryNodeId: R_kgDOT-6Dgw
+  subpath: null
+  commit: 3522470eb986a2b93302caa13a8284c8efc74f5d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:30.045Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
