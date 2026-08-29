@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-glob
+name: dsh-glob
+description:
+  en: bash dsh plugin add dsh-glob 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-glob" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - glob
+  - match
+  - pattern
+source:
+  repository: https://github.com/uckkk/dsh-glob
+  repositoryNodeId: R_kgDOT9s-3A
+  subpath: null
+  commit: 5c0ff214c936b96d1c33cd7f81dd13c11c85bbcc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:46.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
