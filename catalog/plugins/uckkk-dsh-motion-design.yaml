@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-motion-design
+name: dsh-motion-design
+description:
+  en: bash dsh plugin add dsh-motion-design 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-motion-design" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - motion
+  - animation
+  - ux
+source:
+  repository: https://github.com/uckkk/dsh-motion-design
+  repositoryNodeId: R_kgDOT6OmKQ
+  subpath: null
+  commit: 70192c2e9f55a3c8559b27eb391cff811e795de9
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-motion-design
+  version: 0.1.0
+  integrity: sha512-r9eAiUWEOTQjKw+/zlgRbId3VVN7acfdl+sXMyQ1nXMqleW01J8hiHRVwZYOe6xoZf573eRfpFpyr3yaHSvQLA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:35.047Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
