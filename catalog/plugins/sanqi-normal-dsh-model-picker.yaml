@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sanqi-normal-dsh-model-picker
+name: dsh-model-picker
+description:
+  en: "Enhanced model picker for the dsh web GUI: provider-tabbed left column with model list on the right, both independently scrollable, plus cross-provider search"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - agent-harness
+  - model
+  - picker
+  - web
+  - ui
+source:
+  repository: https://github.com/Sanqi-normal/dsh-model-picker
+  repositoryNodeId: R_kgDOT5B13Q
+  subpath: null
+  commit: 0c02710f9fd704ce5fba9cc65082330876d1f83f
+creator:
+  github: Sanqi-normal
+package:
+  ecosystem: npm
+  name: dsh-model-picker
+  version: 1.0.2
+  integrity: sha512-6BEuD1rfOb7q1DubSUC72p5l6po7yfQ5l9IwcNh/JJ9gtNujE0FS41n1qMKeyp5Ftt2ImRb3RY5k8iWuhgn2pw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:43.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
