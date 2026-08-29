@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pengpeng6845-dsh-balance
+name: "@pengpeng6845/dsh-balance"
+description:
+  en: "Real API balance monitoring for the DeepSeek Harness: polls the official /user/balance endpoint with your API key and shows the true remaining balance in the sidebar"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - balance
+  - billing
+  - usage
+  - monitor
+source:
+  repository: https://github.com/PengPeng6845/dsh-balance
+  repositoryNodeId: R_kgDOT-pn8Q
+  subpath: null
+  commit: a9f2370a2fa7ac72186cc5bf389a8eba105e0d41
+creator:
+  github: PengPeng6845
+package:
+  ecosystem: npm
+  name: "@pengpeng6845/dsh-balance"
+  version: 0.8.0
+  integrity: sha512-Ni407KUrsPen0fAPWArtjt4P7H0r8I9csZfPRyAYrY7vFQkTsXBWDC4m3sf17ap2EcWD2YqPVgzL/m/4UlI7iA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:10.304Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
