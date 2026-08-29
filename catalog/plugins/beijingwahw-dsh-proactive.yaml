@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: beijingwahw-dsh-proactive
+name: dsh-proactive
+description:
+  en: "Proactive Intelligence scheduling plugin — a multi-model collaborative scheduling system for the DeepSeek Harness (DSH) ecosystem: it perceives, decides, and evolves on its own, with a built-in Scientist / Theorist dual mind and a cognitive energy symbiosis economy . English 中文"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - scheduler
+  - autonomous
+  - llm
+  - dsh
+source:
+  repository: https://github.com/beijingwahw/dsh-proactive
+  repositoryNodeId: R_kgDOT5nmEg
+  subpath: null
+  commit: 3a642192ade80fa0ef5e8ced048c5e604c1cbd06
+creator:
+  github: beijingwahw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:14.197Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
