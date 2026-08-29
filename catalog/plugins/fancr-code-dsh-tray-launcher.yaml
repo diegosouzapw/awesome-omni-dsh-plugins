@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fancr-code-dsh-tray-launcher
+name: dsh-tray-launcher
+description:
+  en: <p align="center" <img src="https://img.shields.io/github/stars/fancr-code/dsh-tray-launcher?style=flat-square&cacheSeconds=300" alt="Stars" &nbsp; <img src="https://img.shields.io/npm/v/dsh-tray-launcher?style=flat-square" alt="npm" &nbsp; <img src="https://img.shields.io/npm/dm/dsh-tray-launcher?style=flat-square" al
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - windows
+  - system-tray
+  - launcher
+  - powershell
+source:
+  repository: https://github.com/fancr-code/dsh-tray-launcher
+  repositoryNodeId: R_kgDOT9IZ9g
+  subpath: null
+  commit: 02cca9e6e5368f3916ca2bfbc89b21203d6ca097
+creator:
+  github: fancr-code
+package:
+  ecosystem: npm
+  name: dsh-tray-launcher
+  version: 1.4.0
+  integrity: sha512-EO4rjTuWcldD3Ovl8+DBv006uWAL28KA46DzUwO5sh9KY/6VkfDusS3fBAsHNP1ZZcoMsHXsWc95muF5vlaKGQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:46.933Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
