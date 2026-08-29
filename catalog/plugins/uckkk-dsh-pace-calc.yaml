@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pace-calc
+name: dsh-pace-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pace-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pace-calc
+source:
+  repository: https://github.com/uckkk/dsh-pace-calc
+  repositoryNodeId: R_kgDOT-64yg
+  subpath: null
+  commit: 124624c9d9e759d623c804c872bd7a5f6973eae1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:32.785Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
