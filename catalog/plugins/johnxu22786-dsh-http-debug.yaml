@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: johnxu22786-dsh-http-debug
+name: dsh-http-debug
+description:
+  en: "HTTP network debugging toolset for DeepSeek Harness (dsh): a general-purpose HTTP client with SSRF/private-network protection, per-session request history with replay, response inspection, and a zero-dependency CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - http-client
+  - ssrf
+  - network
+  - debugging
+  - web
+source:
+  repository: https://github.com/JohnXu22786/net-debug
+  repositoryNodeId: R_kgDOT-TePw
+  subpath: null
+  commit: 0b3179ca5344ec1821fdef3c8994b1794055b9db
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:54.742Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
