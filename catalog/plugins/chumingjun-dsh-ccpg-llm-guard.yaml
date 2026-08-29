@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: chumingjun-dsh-ccpg-llm-guard
+name: dsh-ccpg-llm-guard
+description:
+  en: Reject malformed model tool calls before they can poison a dsh session
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - reject
+  - malformed
+  - model
+  - tool
+  - calls
+  - before
+  - they
+  - poison
+  - session
+  - dsh
+source:
+  repository: https://github.com/chumingjun/dsh-harness-one
+  repositoryNodeId: R_kgDOT-ev7w
+  subpath: dsh-plugins/dsh-ccpg-llm-guard
+  commit: a067ae8d03b908c096c5424680686f78d4ddc22d
+creator:
+  github: chumingjun
+package:
+  ecosystem: npm
+  name: dsh-ccpg-llm-guard
+  version: 0.3.2
+  integrity: sha512-oDH5+8cKMNQ0hsU2Etkzpo/yaxif18h11Y0aheylZScsQ8SUaNIiziytC16XZg2OVOz4ikQAZTHrq8tHJ5j73g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: dsh-plugins/dsh-ccpg-llm-guard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:32.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
