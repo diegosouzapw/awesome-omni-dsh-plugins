@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: moyu-good-dsh-lark-bridge
+name: "@moyu-good/dsh-lark-bridge"
+description:
+  en: Feishu (Lark) IM bot channel for DeepSeek Harness agents — per-chat sessions, native thinking process, interactive approval cards, WebSocket long connection.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - feishu
+  - lark
+  - messaging
+  - extension
+source:
+  repository: https://github.com/moyu-good/dsh-lark-bridge
+  repositoryNodeId: R_kgDOT38HKA
+  subpath: null
+  commit: 420a2b7aa5ee484a532f798bffae2153c59037ed
+creator:
+  github: moyu-good
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:52.419Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
