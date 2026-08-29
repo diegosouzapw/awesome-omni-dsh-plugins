@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: seaof0-dsh-mode-group
+name: "@dsh-external/dsh-mode-group"
+description:
+  en: "DSH web client plugin: two-tier agent-preset picker on the new-session screen — built-ins and the researcher entry stay top-level while the eight professional security modes fold into a hover/click submenu, viewport-adaptive, with no other surface touched."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - preset-picker
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-mode-group
+  commit: 45ba1a1cbb20043350e60ee51ec20442a7fb1fbb
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-mode-group/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
