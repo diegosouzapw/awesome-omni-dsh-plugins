@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-kebabcase
+name: dsh-kebabcase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-kebabcase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-kebabcase
+source:
+  repository: https://github.com/uckkk/dsh-kebabcase
+  repositoryNodeId: R_kgDOT9t_Gg
+  subpath: null
+  commit: 209d4639a80df855a1b0d56edcaaa700c680e11a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:17.866Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
