@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: summersec-dsh-web-auth
+name: "@summersec/dsh-web-auth"
+description:
+  en: Transport-level authentication gate for the DeepSeek Harness Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - authentication
+  - web
+source:
+  repository: https://github.com/SummerSec/dsh-web-auth
+  repositoryNodeId: R_kgDOT5_cNA
+  subpath: null
+  commit: b722e44a881d71fc3eb943627d654a6e293876f8
+creator:
+  github: SummerSec
+package:
+  ecosystem: npm
+  name: "@summersec/dsh-web-auth"
+  version: 0.1.3
+  integrity: sha512-9Hl2PpWKwLkfKYVKvpqHlTByS0vNfAqk3MGvpAdXD5LMYzSb/ZlDh9wmrKnqgv+GdVn7enTuizYFGnh9VofhWQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:20.600Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
