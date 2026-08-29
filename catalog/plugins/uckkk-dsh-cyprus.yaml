@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cyprus
+name: dsh-cyprus
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cyprus
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cyprus
+source:
+  repository: https://github.com/uckkk/dsh-cyprus
+  repositoryNodeId: R_kgDOT_GAxQ
+  subpath: null
+  commit: 41b675e013892b85c85b90e29582eb2fe2c5aac5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:14.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
