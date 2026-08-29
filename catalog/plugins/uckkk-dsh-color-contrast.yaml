@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: uckkk-dsh-color-contrast
+name: dsh-color-contrast
+description:
+  en: bash dsh plugin add dsh-color-contrast 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-color-contrast" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - contrast
+  - wcag
+  - a11y
+  - color
+source:
+  repository: https://github.com/uckkk/dsh-color-contrast
+  repositoryNodeId: R_kgDOT6O75w
+  subpath: null
+  commit: 3fcd67f904987310a1963561298bf991157fe0f8
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-color-contrast
+  version: 0.1.0
+  integrity: sha512-EBzAQMdfbBVvS7GSJiU3N5THIGmV3O4TeruMkwVYK4S2YhXYVVVm37vXhjyl2vmEwd3VVeHfStwJFAcYV2DpfQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:28.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
