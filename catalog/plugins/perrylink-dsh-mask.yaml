@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-mask
+name: dsh-mask
+description:
+  en: "PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mas"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - pii
+  - mask
+  - privacy
+  - anonymization
+  - security
+source:
+  repository: https://github.com/PerryLink/dsh-mask
+  repositoryNodeId: R_kgDOT6oBTg
+  subpath: null
+  commit: 663406e1e355b244d5dcde2bc7245f527d2d9221
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-mask
+  version: 0.2.0
+  integrity: sha512-1F97WQEYFzuoi/m78tuEN22HRU3qrHuSyyvwjlATSHUjFn2nGLDHlS91KvLCx8lgF6w1ILMDva5xCIOcwDE1qQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:54.385Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
