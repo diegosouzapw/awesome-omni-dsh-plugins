@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: stardustlc666-dsh-cite
+name: dsh-cite
+description:
+  en: Give it a DOI, get a proper citation — GB/T 7714 / APA / MLA / Chicago / BibTeX.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - citation
+  - crossref
+  - gb-t-7714
+  - apa
+  - mla
+  - chicago
+  - dsh-plugin
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-cite
+  repositoryNodeId: R_kgDOT5h-3g
+  subpath: null
+  commit: 048b98edc222652051fcc8110931120e781e15b8
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-cite
+  version: 0.3.0
+  integrity: sha512-JZO7sAZzDCUSwOEO+5cgD5SpEDv5U7+DO5DP3YNpqTmHq2ikSo6Z8kSYar2OcQyNv1zxHrp1kxLqn5rqjjCJLw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:51.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
