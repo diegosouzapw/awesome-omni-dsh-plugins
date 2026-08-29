@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: leo-ayh-oday-dsh-orcana-linux-bundle
+name: "@leooday/dsh-orcana-linux-bundle"
+description:
+  en: dsh-orcana Linux native-evidence profile bundle for DeepSeek Harness (dsh.bundle.patch contract)
+  evidencePath: packages/dsh-orcana-linux-bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - orcana
+  - linux
+  - native
+  - evidence
+  - profile
+  - bundle
+  - patch
+  - contract
+  - dsh
+source:
+  repository: https://github.com/Leo-Ayh-Oday/dsh-orcana
+  repositoryNodeId: R_kgDOT4Grfg
+  subpath: packages/dsh-orcana-linux-bundle
+  commit: 93b44a5b0251546300b2810a1cfd3089ec33c1de
+creator:
+  github: Leo-Ayh-Oday
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-orcana-linux-bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:53.355Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
