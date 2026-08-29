@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: luckvd-dsh-pin-color
+name: dsh-pin-color
+description:
+  en: "DeepSeek Harness (DSH) Web GUI plugin: pin sidebar sessions to the top (within the session group or globally across the workspace) and give each session a tab color plus an emoji shown before its name. Dual-face (host + browser), persisted by the host, no DSH source changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session
+  - pin
+  - color
+  - emoji
+  - sidebar
+source:
+  repository: https://github.com/LuckVd/dsh-pin-color
+  repositoryNodeId: R_kgDOUAxpQg
+  subpath: null
+  commit: 4baa9ca0cb03760ca1bd5cf482e9a2f522bc2220
+creator:
+  github: LuckVd
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:59.324Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
