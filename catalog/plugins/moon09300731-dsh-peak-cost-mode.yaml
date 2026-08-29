@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: moon09300731-dsh-peak-cost-mode
+name: dsh-peak-cost-mode
+description:
+  en: "DeepSeek peak-pricing cost guard for DeepSeek Harness (DSH): during DeepSeek peak-pricing hours (Mon–Fri Beijing time 09:00–12:00 and 14:00–18:00, price ×2; weekends are always valley) the agent automatically switches to ultra-compressed caveman-style output to cut output tokens, and a header badge + toast keep you pos"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - peak-pricing
+  - peak-valley
+  - caveman
+  - cost-saving
+source:
+  repository: https://github.com/moon09300731/dsh-peak-cost-mode
+  repositoryNodeId: R_kgDOT7MHpg
+  subpath: null
+  commit: 7c709c9f85e6f7ff825f43914a98126f69fede44
+creator:
+  github: moon09300731
+package:
+  ecosystem: npm
+  name: dsh-peak-cost-mode
+  version: 0.4.0
+  integrity: sha512-r472YCrN90aS16y3c/CjirZaRxa+eG2lBHw8ejmKuv4IUTinaB/CpceXs2FeubGKuqm3ME/GwNCMsZqEAoLcZw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:47.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
