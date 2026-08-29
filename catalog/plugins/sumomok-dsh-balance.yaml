@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: sumomok-dsh-balance
+name: "@sumomok/dsh-balance"
+description:
+  en: "DeepSeek account balance and spend for the DeepSeek Harness web GUI: a sidebar-footer chip showing the remaining balance, plus per-session, today, month, and all-time spend priced from a deployment-owned price table"
+  evidencePath: packages/balance/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis-plugin
+source:
+  repository: https://github.com/sumomok/dsh-plugins
+  repositoryNodeId: R_kgDOUBhqvQ
+  subpath: packages/balance
+  commit: 698f2cfb2ac72b38be5871cef5a5e18b247f1808
+creator:
+  github: sumomok
+package:
+  ecosystem: npm
+  name: "@sumomok/dsh-balance"
+  version: 0.1.0
+  integrity: sha512-C1yv0DZc0ffqOzbTJJ+d8+Cjllt8z7NU9vDtHp08gmAjUdilHbILwa+WcjxuTcYhBA/vKPK47pkqH2kjP0NS2A==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/balance/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:46.052Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
