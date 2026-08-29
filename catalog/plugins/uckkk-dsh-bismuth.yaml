@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bismuth
+name: dsh-bismuth
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bismuth
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bismuth
+source:
+  repository: https://github.com/uckkk/dsh-bismuth
+  repositoryNodeId: R_kgDOT-3wpg
+  subpath: null
+  commit: 8460ccd4b4809478183f41bf5ee07b6e0a226ec9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:28.106Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
