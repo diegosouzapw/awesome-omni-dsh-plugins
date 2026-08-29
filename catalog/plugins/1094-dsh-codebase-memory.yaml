@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 1094-dsh-codebase-memory
+name: dsh-codebase-memory
+description:
+  en: DSH bundle that bridges the Codebase Memory MCP code knowledge graph into DSH and can keep indexed repositories fresh with an optional debounced filesystem watcher.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - codebase-memory
+  - mcp
+  - knowledge-graph
+  - bundle-plugin
+  - watcher
+  - chokidar
+source:
+  repository: https://github.com/andyfan1094/dsh-codebase-memory
+  repositoryNodeId: R_kgDOT_RKjw
+  subpath: null
+  commit: c6c64183b6c9c16b2247364ee213c7dad6402ac5
+creator:
+  github: "1094"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:59.834Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
