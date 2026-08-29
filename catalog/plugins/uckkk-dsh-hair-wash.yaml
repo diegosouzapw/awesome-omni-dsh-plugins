@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hair-wash
+name: dsh-hair-wash
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hair-wash
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hair-wash
+source:
+  repository: https://github.com/uckkk/dsh-hair-wash
+  repositoryNodeId: R_kgDOT-s9pg
+  subpath: null
+  commit: 37d1484f873346707bccc487049dacd06b24e305
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:52.010Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
