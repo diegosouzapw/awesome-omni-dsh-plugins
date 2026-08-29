@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: kiligzzz-dsh-session-nav
+name: "@kiligzzz/dsh-session-nav"
+description:
+  en: "Piano-key style in-conversation navigation bar for the DeepSeek Harness web GUI: one key per user message, hover ladder animation, turn-preview tooltip, active-message highlight, click-to-jump. Official dual-face dsh plugin (host + client), no dsh source changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - navigation
+  - piano
+  - conversation
+source:
+  repository: https://github.com/kiligzzz/dsh-session-nav
+  repositoryNodeId: R_kgDOT-Ghlg
+  subpath: null
+  commit: 57d42eafae0f6e0db235eb930208e1d8aa084604
+creator:
+  github: kiligzzz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:48.396Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
