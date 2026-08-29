@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: nattocb-dsh-plugin-notifications
+name: dsh-plugin-notifications
+description:
+  en: "DSH bundle plugin: a General-settings Notifications card that pops a system notification (and optional chime) when a conversation turn completes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - bundle
+  - general
+  - settings
+  - notifications
+  - card
+  - pops
+  - system
+  - notification
+  - optional
+  - chime
+  - conversation
+  - turn
+  - completes
+  - dsh
+source:
+  repository: https://github.com/NattoCB/dsh-plugin-notifications
+  repositoryNodeId: R_kgDOT5UPfg
+  subpath: null
+  commit: b19696036b2402d71ab87d673714595914b95eb2
+creator:
+  github: NattoCB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:03.641Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
