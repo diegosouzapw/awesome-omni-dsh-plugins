@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: qie2035-dsh-llm-headers
+name: dsh-llm-headers
+description:
+  en: Inject custom HTTP headers (user-agent etc.) into DeepSeek Harness LLM provider requests, configured through cordis.yml or the Web UI settings surface.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - inject
+  - custom
+  - headers
+  - user
+  - agent
+  - provider
+  - requests
+  - configured
+  - through
+  - cordis
+  - settings
+  - surface
+  - dsh
+source:
+  repository: https://github.com/QiE2035/dsh-llm-headers
+  repositoryNodeId: R_kgDOT5p18A
+  subpath: null
+  commit: 9565595b15ec864eb3e523c567798ebd940dad4a
+creator:
+  github: QiE2035
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:03.456Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
