@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: magicof2-dsh-turn-marks
+name: dsh-turn-marks
+description:
+  en: "DSH web UI plugin: a Claude Code / Codex desktop style turn-marks strip on the left edge of the conversation - one small bar per user message; click a bar to jump to that message, hover to preview it, and the bar of the message in view turns white."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - claude
+  - code
+  - codex
+  - desktop
+  - style
+  - turn
+  - marks
+  - strip
+  - left
+  - edge
+  - conversation
+  - small
+  - user
+  - message
+  - click
+  - jump
+source:
+  repository: https://github.com/magicOF2/dsh-turn-marks
+  repositoryNodeId: R_kgDOT4kE6w
+  subpath: null
+  commit: 80c7ed10fd495a6918f28544e4203252a05e1a36
+creator:
+  github: magicOF2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:36.641Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
