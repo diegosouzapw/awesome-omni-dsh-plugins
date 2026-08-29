@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: linkingoscar-dsh-attachment-formats
+name: dsh-attachment-formats
+description:
+  en: "DeepSeek Harness (dsh) web plugin — Codex-style attachment expansion: PDF text-layer (pymupdf4llm/pdfjs), Office (docx/xlsx/pptx) to Markdown, TIFF/epub/odt/rtf, long-document spill to index cards, scanned-PDF OCR (tesseract.js + 8 cloud providers inc. DeepSeek Vision), and browser image to PNG. dsh-plugin for the Deep"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - cordis
+  - attachment
+  - attachments
+  - pdf
+  - pdf-extraction
+  - docx
+  - xlsx
+  - pptx
+  - office
+  - tiff
+  - epub
+  - odt
+source:
+  repository: https://github.com/linkingoscar/dsh-attachment-formats
+  repositoryNodeId: R_kgDOT4X5iA
+  subpath: null
+  commit: 051a6172ef1d7800963277205fb0a753446825fc
+creator:
+  github: linkingoscar
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:59.768Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
