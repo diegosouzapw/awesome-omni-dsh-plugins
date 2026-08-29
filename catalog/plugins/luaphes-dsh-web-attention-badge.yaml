@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: luaphes-dsh-web-attention-badge
+name: dsh-web-attention-badge
+description:
+  en: "Web attention badge: a top-left corner indicator counting sessions waiting for user input or finished-but-unopened, plus a browser tab title prefix"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - web
+  - attention
+  - badge
+  - notification
+  - sessions
+source:
+  repository: https://github.com/Luaphes/dsh-web-attention-badge
+  repositoryNodeId: R_kgDOT3rmAw
+  subpath: null
+  commit: 8b2ede6ccda65da20d57e5e1af995aa9e089dc04
+creator:
+  github: Luaphes
+package:
+  ecosystem: npm
+  name: dsh-web-attention-badge
+  version: 0.3.2
+  integrity: sha512-o8EoA7nLw2A7JWpLdg8KWazr57n2AJt526FG9AwrEi8KKoAYao4U/03Sq5gbn3EDUGt/yyAF1pblDbysco3bzw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
