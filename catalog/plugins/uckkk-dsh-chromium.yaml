@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-chromium
+name: dsh-chromium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-chromium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-chromium
+source:
+  repository: https://github.com/uckkk/dsh-chromium
+  repositoryNodeId: R_kgDOT_BBeg
+  subpath: null
+  commit: 20575cc91903fc65e678e169cf881d3c16eeef43
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:24.063Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
