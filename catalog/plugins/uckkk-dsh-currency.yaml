@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-currency
+name: dsh-currency
+description:
+  en: bash dsh plugin add dsh-currency 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-currency" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - currency
+  - money
+  - format
+  - convert
+source:
+  repository: https://github.com/uckkk/dsh-currency
+  repositoryNodeId: R_kgDOT9sBbg
+  subpath: null
+  commit: b381847c9327a4bf461fdbcfc133cdc08dfd1a2a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:36.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
