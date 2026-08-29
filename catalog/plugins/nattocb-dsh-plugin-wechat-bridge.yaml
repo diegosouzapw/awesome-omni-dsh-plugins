@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: nattocb-dsh-plugin-wechat-bridge
+name: dsh-plugin-wechat-bridge
+description:
+  en: "DSH bundle plugin: bridge WeChat (ilink bot) messages into a DSH agent session, with runtime enable/disable hot-plug and a Settings UI tab."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - bundle
+  - bridge
+  - wechat
+  - ilink
+  - messages
+  - agent
+  - session
+  - runtime
+  - enable
+  - disable
+  - plug
+  - settings
+  - dsh
+source:
+  repository: https://github.com/NattoCB/dsh-plugin-wechat-bridge
+  repositoryNodeId: R_kgDOT5RaUQ
+  subpath: null
+  commit: 88257abad5bd3c676c1c2528fb8e2d1d97a5f50e
+creator:
+  github: NattoCB
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:54.743Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
