@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-first-maintenance
+name: dsh-first-maintenance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-first-maintenance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-first-maintenance
+source:
+  repository: https://github.com/uckkk/dsh-first-maintenance
+  repositoryNodeId: R_kgDOT-tNAw
+  subpath: null
+  commit: 124122da15a3981b0b33974167d7bb9bc7ff54f3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:26.083Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
