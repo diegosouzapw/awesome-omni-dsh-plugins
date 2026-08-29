@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: oil-oil-dsh-oil-creator
+name: dsh-oil-creator
+description:
+  en: "Jacky Creator: a local-first content and operations cockpit for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - jacky-creator
+  - creator
+  - content-workflow
+  - creator-operations
+  - video
+  - dsh
+source:
+  repository: https://github.com/Jackywxsz/DSH-Creator
+  repositoryNodeId: R_kgDOUDT8fw
+  subpath: null
+  commit: 8bba9e52e1cabfdd2b9455e80db54369d773389f
+creator:
+  github: oil-oil
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:31.549Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 39
+provenance:
+  discussion: null
+  comment: null
