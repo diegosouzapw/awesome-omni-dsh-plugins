@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sakthiveltofficial-dsh-git-bundle
+name: "@dsh-git/bundle"
+description:
+  en: "Profile bundle for the dsh-git plugin suite: one dsh plugin --profile <name add @dsh-git/bundle installs and wires the full git capability (local git, all hosted platforms, self-evolving memory, and the model-facing tools) into a DSH profile."
+  evidencePath: packages/git/bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - git
+  - plugin-bundle
+  - source-control
+  - install
+source:
+  repository: https://github.com/sakthiveltofficial/dsh-git-plugins
+  repositoryNodeId: R_kgDOUAcLDQ
+  subpath: packages/git/bundle
+  commit: ec669e8794cf0e192e1e071c988bdd4e3312100e
+creator:
+  github: sakthiveltofficial
+package:
+  ecosystem: npm
+  name: "@dsh-git/bundle"
+  version: 0.1.2
+  integrity: sha512-TkZ+vfDkr8AQSjx7Orm4/Yk9lNiqppGkrTkSXHRBIKf5qTBv/zV8wFteusYVzFfc7El9+ALLXTI6lJxriXy/Mw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/git/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:54.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
