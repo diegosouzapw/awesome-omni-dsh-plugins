@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-api-testgen
+name: dsh-api-testgen
+description:
+  en: bash dsh plugin add dsh-api-testgen
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - openapi
+  - testing
+  - test-generation
+source:
+  repository: https://github.com/uckkk/dsh-api-testgen
+  repositoryNodeId: R_kgDOT59L7Q
+  subpath: null
+  commit: a62e94881b2f01af86f5d425e110a9e32a4c54df
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-api-testgen
+  version: 0.1.0
+  integrity: sha512-W3wFCLUIk9W81BxgYdS6erZvviH6fY9d7p9N4SuFv2nhiNIUcbpgVSn/9lbRr1Nl37xeUv2R5Hg+CC4NFZmq7A==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:26.719Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
