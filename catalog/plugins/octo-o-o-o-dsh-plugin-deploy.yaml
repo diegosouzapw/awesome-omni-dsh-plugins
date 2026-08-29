@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: octo-o-o-o-dsh-plugin-deploy
+name: dsh-plugin-deploy
+description:
+  en: <p align="center" <b Ship a project to Cloudflare in one sentence. Publish a plugin to npm in one more.</b <br A DeepSeek Harness plugin · No cloud account needed for your first deploy · Credentials never reach the model </p
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cloudflare
+  - workers
+  - deploy
+  - publish
+  - npm
+  - wrangler
+source:
+  repository: https://github.com/Octo-o-o-o/dsh-plugin-deploy
+  repositoryNodeId: R_kgDOT9upbg
+  subpath: null
+  commit: 1d198fa456a30ab98ea041567571e1cec1fac235
+creator:
+  github: Octo-o-o-o
+package:
+  ecosystem: npm
+  name: dsh-plugin-deploy
+  version: 0.1.3
+  integrity: sha512-4n425x8fKEr0w0TSNnb/Bu1YpQLJwG5Sm/quGnvMciMugbLxIONA2IC2AttMhZDt72yUqWG1Bl8UltOQlJQ89A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:07.085Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
