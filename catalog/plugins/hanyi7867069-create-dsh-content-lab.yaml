@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: hanyi7867069-create-dsh-content-lab
+name: dsh-content-lab
+description:
+  en: 内容工坊 — topic, title, post and content-calendar generation tools for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - content
+  - copywriting
+  - social-media
+  - dsh
+source:
+  repository: https://github.com/hanyi7867069-create/dsh-content-lab
+  repositoryNodeId: R_kgDOT7A3lg
+  subpath: null
+  commit: cd6181b005dd7cafd13d1bedf08b54901e145d5b
+creator:
+  github: hanyi7867069-create
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:25.100Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
