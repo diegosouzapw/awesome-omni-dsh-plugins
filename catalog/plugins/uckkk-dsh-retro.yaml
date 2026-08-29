@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-retro
+name: dsh-retro
+description:
+  en: bash dsh plugin add github:uckkk/dsh-retro
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-retro
+source:
+  repository: https://github.com/uckkk/dsh-retro
+  repositoryNodeId: R_kgDOT-z2GA
+  subpath: null
+  commit: eb83eac259fdb6ada54b19f5ec837a60591cd5eb
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:49.833Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
