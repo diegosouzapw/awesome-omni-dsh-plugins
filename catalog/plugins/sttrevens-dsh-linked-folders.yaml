@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sttrevens-dsh-linked-folders
+name: "@steven-wu/dsh-linked-folders"
+description:
+  en: "dsh plugin: multi-folder workspace — a global linked-folders list (cross-session) plus per-session on-the-fly linking, managed from the Web sidebar."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - workspace
+  - folders
+  - multi-root
+  - codex
+source:
+  repository: https://github.com/Sttrevens/dsh-linked-folders
+  repositoryNodeId: R_kgDOT6HSqw
+  subpath: null
+  commit: 019975c87a6e4abb8b8fc8e5fcb2eb12bf8c2034
+creator:
+  github: Sttrevens
+package:
+  ecosystem: npm
+  name: "@steven-wu/dsh-linked-folders"
+  version: 0.1.0-rc.6
+  integrity: sha512-r/fHE0Zvc78Y2rM/sxsl36OrrdpWoMMNPRhy1TjQYiyon8K9Yrkhtr5Imo1HKHV5m9df8I+sAJ1B/+UmQUOtwQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:59.756Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
