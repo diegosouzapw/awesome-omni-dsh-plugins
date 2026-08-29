@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: daeshawnballard-deepseek-harness-plugin
+name: "@dexthemes/deepseek-harness-plugin"
+description:
+  en: Discover, preview, apply, restore, and revert themes in DeepSeek Harness
+  evidencePath: packages/deepseek-harness-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dexthemes
+  - theme
+  - cordis
+  - developer-tools
+  - color-theme
+  - dsh
+source:
+  repository: https://github.com/daeshawnballard/dexthemes
+  repositoryNodeId: R_kgDORrrNlw
+  subpath: packages/deepseek-harness-plugin
+  commit: b76d22370658d9895b8dbb0f0c1dcc1372600be3
+creator:
+  github: daeshawnballard
+package:
+  ecosystem: npm
+  name: "@dexthemes/deepseek-harness-plugin"
+  version: 0.6.5
+  integrity: sha512-QtXwZVOH09y0PV0W9ZYjXhYFgFhQRd7a5ABRJdNRmyp/H0/EGSZQekXC+5fDIpjNoLWX6MIDzKp+R58U4NmxpQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/deepseek-harness-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:25.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
