@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: boheastill-phone-eye
+name: phone-eye
+description:
+  en: Let your AI agent see and operate a real Android phone — vision + UI-tree fusion over adb, for any MCP client
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - agent
+  - operate
+  - real
+  - android
+  - phone
+  - vision
+  - tree
+  - fusion
+  - over
+  - client
+  - dsh
+source:
+  repository: https://github.com/boheastill/phone-eye
+  repositoryNodeId: R_kgDOUDsvMw
+  subpath: null
+  commit: acd3ea1243d1e6aced6202500db70a1d9acad7ed
+creator:
+  github: boheastill
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:26.401Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
