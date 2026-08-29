@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mandarin-grade
+name: dsh-mandarin-grade
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mandarin-grade
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mandarin-grade
+source:
+  repository: https://github.com/uckkk/dsh-mandarin-grade
+  repositoryNodeId: R_kgDOT-DmNw
+  subpath: null
+  commit: 6e28fb17a0e006f670f734d3be8f36422552ceb4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:27.005Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
