@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: reachga0-dsh-desktop-windows-launcher
+name: dsh-desktop-windows-launcher
+description:
+  en: "dsh plugin: launch the dsh-desktop Windows shell (region screenshot, tray, session manager) from the DSH conversation via a desktop launch tool."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - electron
+  - desktop
+source:
+  repository: https://github.com/ReachGa0/dsh-desktop
+  repositoryNodeId: R_kgDOT3_Ixg
+  subpath: plugin
+  commit: 73e0d0103aaff46a7a934c46bf61636393a0233b
+creator:
+  github: ReachGa0
+package:
+  ecosystem: npm
+  name: dsh-desktop-windows-launcher
+  version: 0.1.0
+  integrity: sha512-5oe9UFGTbe14FH6ebmUZmkooairhrYlr0Io4I1e0ZHVJmjB0ae1IOwafcWZq2CIUhAGlKsiTgX0eHvJdpgl6jA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:09.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
