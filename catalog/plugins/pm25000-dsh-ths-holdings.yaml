@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: pm25000-dsh-ths-holdings
+name: dsh-ths-holdings
+description:
+  en: "A floating position P&L card for the DeepSeek Harness (DSH) web GUI. It automatically syncs your real portfolio data from the Tonghuashun investment-ledger (同花顺投资账本) — no manual stock picking. Displays 今日盈亏 (today's P&L), 上证指数 (Shanghai Composite Index), and an intraday mini chart, all in the A-share red-up/green-down "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - stock
+  - finance
+source:
+  repository: https://github.com/PM25000/dsh-ths-holdings
+  repositoryNodeId: R_kgDOT5EEQw
+  subpath: null
+  commit: 94af1fe5f6879ff8d97b5e15d795000804f5305a
+creator:
+  github: PM25000
+package:
+  ecosystem: npm
+  name: dsh-ths-holdings
+  version: 0.1.7
+  integrity: sha512-QcQuVrjhFq/zaZjgfPcS1Q4JOnVUZOykKggjVtHYqY70r7+x47AJl+9u39D6TqCcFc70tUhZ4wHemGfmJrrqag==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:01.985Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
