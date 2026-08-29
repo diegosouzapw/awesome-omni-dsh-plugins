@@ -16,7 +16,7 @@ Objevování s prioritou pro tvůrce a instalace jedním příkazem pro pluginy 
   <a href="https://dsh-plugins.omniroute.online">Procházejte, vyhledávejte a instalujte všechny pluginy na webu →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1633_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1723_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -83,13 +83,13 @@ Seřazeno podle hvězdiček přesného repozitáře — počítají se pouze hv�
 | 1 | [modlens](https://github.com/liustack/modlens) | [@liustack](https://github.com/liustack) | 3270 | Vision & multimodal | Plug-in vision for text-only LLMs, powered by the free Antigravity CLI |
 | 2 | [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | [@Menghuan1918](https://github.com/Menghuan1918) | 2330 | Coding & dev tools | DSH web plugin: a VSCode-like right sidebar (explorer / editor / terminal / git / browser), isolated per… |
 | 3 | [dsh-tui](https://github.com/ccch1mneyyy/dsh-TUI) | [@CikeSeven](https://github.com/CikeSeven) | 2189 | UI & dashboards | Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core. |
-| 4 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
-| 5 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | [@NanmiCoder](https://github.com/NanmiCoder) | 836 | Sessions & productivity | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies,… |
-| 6 | [dsh-context](https://github.com/bowenliang123/dsh-context) | [@bowenliang123](https://github.com/bowenliang123) | 825 | UI & dashboards | A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for… |
-| 7 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
-| 8 | [graph-memory](https://github.com/adoresever/graph-memory) | [@adoresever](https://github.com/adoresever) | 565 | Memory & RAG | Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and… |
-| 9 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
-| 10 | [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | [@shaobeichen](https://github.com/shaobeichen) | 458 | Coding & dev tools | Put DeepSeek Harness in your pocket : one package, one settings tab — scan a QR code and your phone shows… |
+| 4 | [dsh-whale-widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | [@MeteorNOX](https://github.com/MeteorNOX) | 1285 | UI & dashboards | powershell dsh plugin --profile web add github:MeteorNOX/DeepSeek-Balance-Whale-Widget |
+| 5 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | [@ysr666](https://github.com/ysr666) | 843 | Vision & multimodal | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools… |
+| 6 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | [@NanmiCoder](https://github.com/NanmiCoder) | 836 | Sessions & productivity | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies,… |
+| 7 | [dsh-context](https://github.com/bowenliang123/dsh-context) | [@bowenliang123](https://github.com/bowenliang123) | 825 | UI & dashboards | A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for… |
+| 8 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | [@Anionex](https://github.com/Anionex) | 750 | Vision & multimodal | DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, OCR, grounding, UI restoration,… |
+| 9 | [graph-memory](https://github.com/adoresever/graph-memory) | [@adoresever](https://github.com/adoresever) | 565 | Memory & RAG | Knowledge graph memory for DeepSeek Harness and OpenClaw — cross-session recall, PageRank, communities, and… |
+| 10 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | [@Nagi-ovo](https://github.com/Nagi-ovo) | 511 | Entertainment | DSH ad-infestation plugin: localized Chinese portal ads and English scam-ad parody, with fake pop-ups, a… |
 
 <div align="center">
 
@@ -113,7 +113,7 @@ Web je udržován ze soukromého zdroje. CLI se nachází zde, pod [`cli/`](../.
 
 ## Stav katalogu
 
-**1633 sloučených pluginů.** Každý plugin vstupuje prostřednictvím jednotlivě zkontrolovaného pull requestu, jeden po druhém, z repozitáře původního tvůrce, s fixovaným zdrojovým commitem a explicitním atributem.
+**1723 sloučených pluginů.** Každý plugin vstupuje prostřednictvím jednotlivě zkontrolovaného pull requestu, jeden po druhém, z repozitáře původního tvůrce, s fixovaným zdrojovým commitem a explicitním atributem.
 
 ## 🚀 Instalace CLI
 
@@ -287,4 +287,4 @@ Dokumentace a šablony repozitáře jsou licencovány pod [MIT License](../../LI
 
 </div>
 
-<!-- i18n-source-hash: ee562b46cc87aaa6f83476cfd318f24d37f7ebd7d8a963970421db8f25359580 -->
+<!-- i18n-source-hash: 8801c639ce6986353e9be42b61576ce649979ee4f3046d7cef910832030f570e -->
