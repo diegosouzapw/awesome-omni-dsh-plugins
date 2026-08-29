@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lispking-dsh-devpanel
+name: dsh-devpanel
+description:
+  en: "A developer toolkit for the DeepSeek Harness (DSH) web console: a real multi-tab PTY terminal plus an AI-output file browser."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - terminal
+  - toolkit
+  - pty
+source:
+  repository: https://github.com/lispking/dsh-devpanel
+  repositoryNodeId: R_kgDOUCh61w
+  subpath: null
+  commit: ad40d2f79b12fc093ad8a6542ba48adef2a7a2f3
+creator:
+  github: lispking
+package:
+  ecosystem: npm
+  name: dsh-devpanel
+  version: 0.1.3
+  integrity: sha512-jQ7EAEUUhH1p9uXYL+0FUNgdZurF0Mp9v3ngeDHt/Hx/omMl82CjUNLMg2kIEu6UYfAIK9rIVO4DINQqJGIrCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:24.930Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
