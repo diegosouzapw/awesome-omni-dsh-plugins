@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kannakuron-dsh-gitbash-shell
+name: dsh-gitbash-shell
+description:
+  en: "DSH plugin: run every agent shell command through Git for Windows bash on Windows instead of PowerShell. Replaces the pwsh executor with a Git Bash ctx.shell provider and materializes Git Bash variants of the standard/minimal/code/cordis agent presets into your user preset root at startup. On Windows it also adopts dsh"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - git-bash
+  - windows
+  - shell
+  - dsh-plugin
+source:
+  repository: https://github.com/KannaKuron/dsh-gitbash-shell
+  repositoryNodeId: R_kgDOUBbY-A
+  subpath: null
+  commit: 784aa1e6c22b7cfb44b768eb8577013ff6960caa
+creator:
+  github: KannaKuron
+package:
+  ecosystem: npm
+  name: dsh-gitbash-shell
+  version: 0.5.5
+  integrity: sha512-EuDIJK3cu84nyr59MHqiZVpVUd7hAoNQLR8Zk5eBE8hVBQ0A3uXYoTT8aruZEjDqz+Jnk9OX4cb1F8QkrUjqzA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:56.004Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
