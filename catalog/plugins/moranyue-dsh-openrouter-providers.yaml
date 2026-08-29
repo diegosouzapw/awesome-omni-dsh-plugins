@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moranyue-dsh-openrouter-providers
+name: dsh-openrouter-providers
+description:
+  en: bash pnpm add dsh-openrouter-providers@latest
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - openrouter
+  - provider-routing
+source:
+  repository: https://github.com/MoRanYue/dsh-openrouter-providers
+  repositoryNodeId: R_kgDOT-GeBg
+  subpath: null
+  commit: f61d7a89545cf0a8c8ad40bbd80ec8978c5caa07
+creator:
+  github: MoRanYue
+package:
+  ecosystem: npm
+  name: dsh-openrouter-providers
+  version: 1.0.6
+  integrity: sha512-OB496bdIwJ/MgSoGBEAMgTxvn2c4xqlJyk2hBfZNf/gmvaaA8KNK/mjcL0zqM5HbAPG/0idpL3LIqAKZwlRHyg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:01.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
