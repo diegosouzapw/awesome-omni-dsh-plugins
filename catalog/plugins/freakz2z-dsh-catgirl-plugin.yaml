@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: freakz2z-dsh-catgirl-plugin
+name: dsh-catgirl-plugin
+description:
+  en: Token-efficient catgirl persona runtime for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - persona
+  - catgirl
+  - token-optimization
+source:
+  repository: https://github.com/Freakz2z/dsh-catgirl-plugin
+  repositoryNodeId: R_kgDOT4jh_Q
+  subpath: null
+  commit: b1a7b4958edbc3458c2e3e8049b5fc8188a950c5
+creator:
+  github: Freakz2z
+package:
+  ecosystem: npm
+  name: dsh-catgirl-plugin
+  version: 0.1.1
+  integrity: sha512-8ip/ZcIlSHXzFLs871jIkpniTUyuaFdvrmala6Vbv78cvjK0ghzHeq7lAZTyHzOqXsLybO7eMF0I59sm+6VB5A==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:03.569Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
