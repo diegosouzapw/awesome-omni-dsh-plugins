@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-date-calc
+name: dsh-date-calc
+description:
+  en: bash dsh plugin add dsh-date-calc 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-date-calc" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - date
+source:
+  repository: https://github.com/uckkk/dsh-date-calc
+  repositoryNodeId: R_kgDOT6LzXw
+  subpath: null
+  commit: b948c27367755c7fdfc388854b401d3f3d19e7a0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:37.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
