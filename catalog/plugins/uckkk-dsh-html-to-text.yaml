@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-html-to-text
+name: dsh-html-to-text
+description:
+  en: bash dsh plugin add dsh-html-to-text 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-html-to-text" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - html
+  - text
+source:
+  repository: https://github.com/uckkk/dsh-html-to-text
+  repositoryNodeId: R_kgDOT6N1-Q
+  subpath: null
+  commit: 83136990fa88e1af2cee8d0faee81538fb16ffae
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:55.521Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
