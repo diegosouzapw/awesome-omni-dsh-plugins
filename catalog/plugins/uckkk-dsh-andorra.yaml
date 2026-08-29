@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-andorra
+name: dsh-andorra
+description:
+  en: bash dsh plugin add github:uckkk/dsh-andorra
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-andorra
+source:
+  repository: https://github.com/uckkk/dsh-andorra
+  repositoryNodeId: R_kgDOT-CQyg
+  subpath: null
+  commit: ea5ec89cf51e4b931e2efe2f2cbfb0cc7bff7bd4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:24.824Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
