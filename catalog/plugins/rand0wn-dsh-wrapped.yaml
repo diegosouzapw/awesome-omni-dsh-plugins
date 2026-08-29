@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: rand0wn-dsh-wrapped
+name: dsh-wrapped
+description:
+  en: "DeepSeek Harness (dsh) plugin: /wrapped generates a shareable SVG summary card for the current session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/rand0wn/dsh-wrapped
+  repositoryNodeId: R_kgDOT-TjIg
+  subpath: null
+  commit: aa4a3d1de500827b96373f653452d39c101e565a
+creator:
+  github: rand0wn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:59.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
