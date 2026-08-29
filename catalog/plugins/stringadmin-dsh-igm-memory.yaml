@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: stringadmin-dsh-igm-memory
+name: dsh-igm-memory
+description:
+  en: Typed, importance-gated and guarded memory tools for DeepSeek Harness with isolated current-state and optional version history
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - memory
+  - igm
+  - rag
+source:
+  repository: https://github.com/Stringadmin/dsh-igm-memory
+  repositoryNodeId: R_kgDOT9R4wg
+  subpath: null
+  commit: 4164f4a111459a3506c7bde0c5103409a5a80ea6
+creator:
+  github: Stringadmin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:25.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
