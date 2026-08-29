@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: tongy1n-dsh-client-ui-muyu
+name: "@deepseek-ai/dsh-client-ui-muyu"
+description:
+  en: A cyber wooden fish — a small floating widget in the web window. Tap it during work breaks to rack up some "merit".
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - cyber
+  - wooden
+  - fish
+  - small
+  - floating
+  - widget
+  - window
+  - during
+  - work
+  - breaks
+  - rack
+  - some
+  - merit
+  - dsh
+source:
+  repository: https://github.com/TongY1n/ui-muyu
+  repositoryNodeId: R_kgDOT7nHkg
+  subpath: null
+  commit: ef96072b8b2663b4bf87f7cc01adb5cb30612e71
+creator:
+  github: TongY1n
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:35.757Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
