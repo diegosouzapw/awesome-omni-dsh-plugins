@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jiyr0119-dsh-service-console
+name: "@jiyr0119/dsh-service-console"
+description:
+  en: <p align="center" ⭐ Drop a Star if it helped — it makes the author's day · <a href="https://github.com/Jiyr0119/dsh-service-console" ★ Give a Star</a </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - cordis
+  - dsh-plugin
+  - local-dev-server
+  - port-manager
+  - dsh
+source:
+  repository: https://github.com/Jiyr0119/dsh-service-console
+  repositoryNodeId: R_kgDOT7MHOA
+  subpath: null
+  commit: 4b76aa919fe2e7fb89fc3b2bc634a55ed2212556
+creator:
+  github: Jiyr0119
+package:
+  ecosystem: npm
+  name: "@jiyr0119/dsh-service-console"
+  version: 0.3.2
+  integrity: sha512-BCL/AJBtKyy3wF27UgZlHgDh71k9qf30xx6txMwkHj6vfZs08wQHEuppzHQhTHJuPVAP7B6yJlr72HyAj4wBbg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:14.378Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
