@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: ttmouse-dsh-dingtalk-channel
+name: dsh-dingtalk-channel
+description:
+  en: "DingTalk IM bot channel for DeepSeek Harness: each chat drives its own agent, replies and thinking come back as messages over the Stream-mode long connection."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - dingtalk
+  - dingding
+  - channel
+  - chatbot
+  - im-bot
+  - cordis
+  - ai-agent
+  - stream
+source:
+  repository: https://github.com/ttmouse/dsh-dingtalk-channel
+  repositoryNodeId: R_kgDOT5Q9tg
+  subpath: null
+  commit: ee4a098c6086241bca8a4f393d122f377f9f04a6
+creator:
+  github: ttmouse
+package:
+  ecosystem: npm
+  name: dsh-dingtalk-channel
+  version: 0.1.0
+  integrity: sha512-7LBw1MWMBzQXSep1aI83OY8mikOr/HFfbAVYjHx7AeAfqm8pBa/KeI2vQwAatefrovRTbwD0Bk6uv6MCpXIAjg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:27.798Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
