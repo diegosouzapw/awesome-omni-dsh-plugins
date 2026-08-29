@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: horusjiang-dsh-map-tools
+name: dsh-map-tools
+description:
+  en: "Map & routing tools for DeepSeek Harness: driving/transit/walking/bicycling route planning, geocoding, reverse geocoding and POI search via Amap (高德) or free OSM/OSRM."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - map
+  - routing
+  - path-planning
+  - geocoding
+  - amap
+  - gaode
+  - osm
+  - osrm
+source:
+  repository: https://github.com/HorusJiang/dsh-map-tools
+  repositoryNodeId: R_kgDOT8_0Cw
+  subpath: null
+  commit: ceb48cd0bca746c3b8cf221923c0da1e1d766cfd
+creator:
+  github: HorusJiang
+package:
+  ecosystem: npm
+  name: dsh-map-tools
+  version: 0.4.4
+  integrity: sha512-s75G0w1GSAtELKOOIxbjqv5og6qVGg+GXB/xAVbl2f8Q/g8V4uNVWyw+/lGQ2RRekctN+sfkl9GuE9E9o1AqoQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:05.173Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
