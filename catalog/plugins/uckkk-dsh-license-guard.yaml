@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-license-guard
+name: dsh-license-guard
+description:
+  en: bash dsh plugin add dsh-license-guard
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - license
+  - spdx
+  - compliance
+source:
+  repository: https://github.com/uckkk/dsh-license-guard
+  repositoryNodeId: R_kgDOT57Nqg
+  subpath: null
+  commit: 60a50881744efd3bf09d1e1ef6f344df4bb3bc3f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-license-guard
+  version: 0.1.0
+  integrity: sha512-DtwP3D+2eZpJwq9eQNWxZx+EtXj+37aQgOvtHNJCaNdVKLGU4keQxJhG3XTrw3a0ljLgM1Z61/dGRC7wmHgmOw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:05.982Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
