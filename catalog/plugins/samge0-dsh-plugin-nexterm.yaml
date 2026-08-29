@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: samge0-dsh-plugin-nexterm
+name: dsh-plugin-nexterm
+description:
+  en: Nexterm fleet-maintenance plugin for DeepSeek Harness — batch SSH command execution, fleet-wide health checks and monitoring through the Nexterm REST API. Unofficial, MIT.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - nexterm
+  - ssh
+  - batch-execution
+  - server-maintenance
+  - fleet-management
+  - dsh
+source:
+  repository: https://github.com/Samge0/dsh-plugin-nexterm
+  repositoryNodeId: R_kgDOT6q99w
+  subpath: null
+  commit: f219b9e4ada0a9058dfc7f56f394efb5994ef68f
+creator:
+  github: Samge0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:04.458Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
