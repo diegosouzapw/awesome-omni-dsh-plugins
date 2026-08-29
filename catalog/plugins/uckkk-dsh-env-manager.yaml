@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-env-manager
+name: dsh-env-manager
+description:
+  en: bash dsh plugin add dsh-env-manager
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - env
+  - environment
+  - dotenv
+source:
+  repository: https://github.com/uckkk/dsh-env-manager
+  repositoryNodeId: R_kgDOT6EdGA
+  subpath: null
+  commit: 19d0e37768395c63ca9fa182548a22dc335b7b77
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-env-manager
+  version: 0.1.0
+  integrity: sha512-BdM/2C0euHjtKDT2m29dG1wODOx9rW90gschQwOpBl8LiYOwg6hAMgny55Ez89aGy7IqpC3acANxJylkeupZeg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:36.678Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
