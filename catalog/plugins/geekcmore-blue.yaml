@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: geekcmore-blue
+name: "@dsh-blue/blue"
+description:
+  en: "The dsh Blue bundle: the interactive terminal UI profile over dsh-base"
+  evidencePath: packages/bundle/blue/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - blue
+  - bundle
+  - interactive
+  - terminal
+  - profile
+  - over
+  - base
+  - dsh
+source:
+  repository: https://github.com/dsh-blue/blue
+  repositoryNodeId: R_kgDOT8oLVA
+  subpath: packages/bundle/blue
+  commit: 721f2c512bb76964e78a6eda591c243adaa65550
+creator:
+  github: GeekCmore
+package:
+  ecosystem: npm
+  name: "@dsh-blue/blue"
+  version: 0.1.0-rc.8
+  integrity: sha512-xEnksstVrXG8VULmdyi2jTiYQdYlyotjMA/OmrfbBzfMyLCE4L7BhY+gfYBk2HH6lxEFn06D+Fr984yT8ISnQA==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/bundle/blue/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:42.652Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
