@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: null5069-dsh-better-stats
+name: dsh-better-stats
+description:
+  en: "Enhanced DSH composer stats strip: official CNY cost, coherent live agent-team settlement, live LLM/tool timers, provider balance"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - stats
+  - cost
+  - balance
+source:
+  repository: https://github.com/null5069/dsh-better-stats
+  repositoryNodeId: R_kgDOT7850Q
+  subpath: null
+  commit: 380cfec816f400295f3d292a044eba8a23c30692
+creator:
+  github: null5069
+package:
+  ecosystem: npm
+  name: dsh-better-stats
+  version: 0.1.16
+  integrity: sha512-sp1TcItLSrfWVHTyy85p+C5gsfotOqpikJUHaTCer1zwem8OFl4h65wiIDvya/fOXiuZn0WX0ydBMYTIgLZTDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:56.827Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
