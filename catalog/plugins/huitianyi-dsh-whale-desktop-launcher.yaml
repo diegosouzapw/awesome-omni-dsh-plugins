@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: huitianyi-dsh-whale-desktop-launcher
+name: dsh-whale-desktop-launcher
+description:
+  en: Windows desktop launcher for DeepSeek Harness with a whale-girl icon and a clean Chromium app-mode window.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - windows
+  - desktop-launcher
+source:
+  repository: https://github.com/HUITianYi/dsh-whale-desktop-launcher
+  repositoryNodeId: R_kgDOT65xoQ
+  subpath: null
+  commit: 326075f04a5b22d9b6e1d9a85f2ba418333460c4
+creator:
+  github: HUITianYi
+package:
+  ecosystem: npm
+  name: dsh-whale-desktop-launcher
+  version: 0.1.0
+  integrity: sha512-68A05WNQ+Lu7XGbLAdHN2eoynsFsu7SO/OHHCSCh2M9HfeVmKLE047e2MA58sVQbtIqofRd+GPiEZXA8RriJUQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:45.373Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
