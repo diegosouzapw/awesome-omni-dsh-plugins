@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: semidia-dsh-sampling-sliders
+name: dsh-sampling-sliders
+description:
+  en: "DeepSeek Harness plugin: model sampling sliders (temperature / maxTokens) applied to every provider via the agent/request hook, with live settings persistence."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model
+  - sampling
+  - sliders
+  - temperature
+  - maxtokens
+  - applied
+  - every
+  - provider
+  - agent
+  - request
+  - hook
+  - live
+  - settings
+  - persistence
+  - dsh
+source:
+  repository: https://github.com/Semidia/dsh-sampling-sliders
+  repositoryNodeId: R_kgDOT4vF9g
+  subpath: null
+  commit: 19eb0c65bd71500233e581d034894683e4dc2528
+creator:
+  github: Semidia
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:05.975Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
