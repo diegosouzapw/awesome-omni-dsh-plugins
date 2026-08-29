@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ranecc-windows-acl
+name: "@topolyte/windows-acl"
+description:
+  en: "Windows ACL write-restriction sandbox provider for DeepSeek Harness with NON-BLOCKING workspace grant materialization: the eager inheritable-ACE walk runs in a grant-helper child process (fire-and-forget), so a large workspace's first provision never freezes a command spawn. Installs on the OFFICIAL harness as a ctx.sa"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - windows
+  - write
+  - restriction
+  - sandbox
+  - provider
+  - blocking
+  - workspace
+  - grant
+  - materialization
+  - eager
+  - inheritable
+  - walk
+  - runs
+  - helper
+  - child
+  - process
+source:
+  repository: https://github.com/Ranecc/topolyte-windows-acl
+  repositoryNodeId: R_kgDOT9ow4g
+  subpath: null
+  commit: 12314d21f3ec55ce57f03afbde3239944d8f5b8b
+creator:
+  github: Ranecc
+package:
+  ecosystem: npm
+  name: "@topolyte/windows-acl"
+  version: 0.2.0
+  integrity: sha512-FWQJzmBM1M3gAPX5hrRHY31A8xEgmj5auSirmv6n8t8S7dqGeKNH7n6HvI7CJ0kMpMNzcP8IP0QlHa15JKzFig==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:08.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
