@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lesliewylie-agent-loop-workflow
+name: agent-loop-workflow
+description:
+  en: "A project-agnostic multi-agent collaboration protocol for the DeepSeek Harness: loop guards that stop runaway agent loops, a six-field handoff format, risk-tiered review routing, and a fixed verify-commit-push-review-close sequence."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - agent-loop
+  - workflow
+  - multi-agent
+  - agent-orchestration
+  - handoff
+source:
+  repository: https://github.com/LeslieWylie/agent-loop-workflow
+  repositoryNodeId: R_kgDOT4Sr0Q
+  subpath: null
+  commit: 4ea9be64e9ef3e2940d4719576866044430e8d2c
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:36.679Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
