@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: celineycn-dsh-trading-bundle
+name: "@dsh-trading/bundle"
+description:
+  en: DeepSeek Harness bundle wiring the dsh-trading research stack into a profile
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - trading
+  - market-data
+  - technical-analysis
+  - research
+source:
+  repository: https://github.com/maddogfinance/dsh-trading
+  repositoryNodeId: R_kgDOT7AWPw
+  subpath: bundle/trading
+  commit: f26dbca15beef1a0e139a5c7db5155d3734cfb7c
+creator:
+  github: celineycn
+package:
+  ecosystem: npm
+  name: "@dsh-trading/bundle"
+  version: 0.2.0
+  integrity: sha512-1KVpanjhv0PPJLDjbTSBQ7ftnEJwcsNA1xeinQAXvhX8mG+y9Hd7cgj3PN/WTnd7l9FHs/FCijwbVqxWOiJJ3A==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: bundle/trading/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:02.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
