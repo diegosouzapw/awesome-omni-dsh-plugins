@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jiel521125-dsh-tianshu-analyzer
+name: dsh-tianshu-analyzer
+description:
+  en: TianShu (天枢) — Failure root-cause analyzer for DeepSeek Harness. Detects why an agent session failed, suggests fork points, and produces shareable diagnostic reports.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - diagnostics
+  - root-cause-analysis
+source:
+  repository: https://github.com/jiel521125/dsh-anlayzer
+  repositoryNodeId: R_kgDOT7-rsw
+  subpath: null
+  commit: 776e740e352b4159666d3302bd98c654a3117b13
+creator:
+  github: jiel521125
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:49.154Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
