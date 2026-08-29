@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kaixinbaba-dsh-complete-notify
+name: dsh-complete-notify
+description:
+  en: sh dsh plugin --profile web add dsh-complete-notify dsh plugin --profile web add "github:kaixinbaba/dsh-complete-notify" launchctl kickstart -k gui/$(id -u)/com.dsh.dsh-web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - notification
+  - sound
+  - toast
+source:
+  repository: https://github.com/kaixinbaba/dsh-complete-notify
+  repositoryNodeId: R_kgDOT54iwQ
+  subpath: null
+  commit: da84f4284dd06bcf2fe7800169d3a89063db462e
+creator:
+  github: kaixinbaba
+package:
+  ecosystem: npm
+  name: dsh-complete-notify
+  version: 0.6.2
+  integrity: sha512-rmv0qqWG9OOAR2CY74k1a+HXyRLVWBIq2NMatc2pvzFYx5/yJQ4cI2SxVgSWIY6X+LJqlLnTYzvaqKWmRMhv+A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:53.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
