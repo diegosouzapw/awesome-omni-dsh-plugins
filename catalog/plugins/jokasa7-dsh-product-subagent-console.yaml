@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jokasa7-dsh-product-subagent-console
+name: dsh-product-subagent-console
+description:
+  en: Plan, run, and compare multi-Agent work inside DeepSeek Harness conversations
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - subagent
+  - codex
+  - claude-code
+  - multi-agent
+  - agent-planner
+  - workflow
+  - dsh
+source:
+  repository: https://github.com/Jokasa7/dsh-product-subagent-console
+  repositoryNodeId: R_kgDOUAO2jw
+  subpath: null
+  commit: 0d0e1dfcb4df1b2bd8c39f4763102bd3dd437359
+creator:
+  github: Jokasa7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:25.085Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
