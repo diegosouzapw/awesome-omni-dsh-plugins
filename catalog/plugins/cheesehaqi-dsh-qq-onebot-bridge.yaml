@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: cheesehaqi-dsh-qq-onebot-bridge
+name: dsh-qq-onebot-bridge
+description:
+  en: "QQ ↔ DeepSeek Harness agent bridge over OneBot v11 (reverse WebSocket): per-group/per-user session grouping, @-quote voice speech-to-text (GLM-ASR / OpenAI-compatible), quote & image resolution, face/sticker tools, /new /status commands. Independent bundle; remove anytime: dsh plugin --profile web remove dsh-qq-onebot-"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - qq
+  - onebot
+  - onebot-v11
+  - napcat
+  - bridge
+  - speech-to-text
+  - asr
+source:
+  repository: https://github.com/cheesehaqi/dsh-qq-onebot-bridge
+  repositoryNodeId: R_kgDOT_tlOQ
+  subpath: null
+  commit: 432ee2b28ec2d7d473defd82ecd7aa5f309c3f47
+creator:
+  github: cheesehaqi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:19.954Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
