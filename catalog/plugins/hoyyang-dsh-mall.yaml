@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hoyyang-dsh-mall
+name: dsh-mall
+description:
+  en: "Every dsh-plugin repo on GitHub, in one mall: browse, search, compare scores, install in one click. Not sure about a plugin? Let AI read its code first."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - marketplace
+  - market
+source:
+  repository: https://github.com/hoyyang/dsh-mall
+  repositoryNodeId: R_kgDOUDec8g
+  subpath: null
+  commit: 909955940ab3361f446e7a4951bf93fae9ea0f4c
+creator:
+  github: hoyyang
+package:
+  ecosystem: npm
+  name: dsh-mall
+  version: 1.7.90
+  integrity: sha512-9lX2Ree5jYf1CoIude5+66iOVmszRovqjo5tyfmiP8PTJ/xdJFCC8FRnh+glCR2AmA777UbDK+LfPJnocYHEeg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:53.169Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
