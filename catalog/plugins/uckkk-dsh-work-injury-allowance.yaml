@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-work-injury-allowance
+name: dsh-work-injury-allowance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-work-injury-allowance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-work-injury-allowance
+source:
+  repository: https://github.com/uckkk/dsh-work-injury-allowance
+  repositoryNodeId: R_kgDOT-DTvQ
+  subpath: null
+  commit: 0ee5b12820039b9c8e6becf241591f32d278bf6b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:13.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
