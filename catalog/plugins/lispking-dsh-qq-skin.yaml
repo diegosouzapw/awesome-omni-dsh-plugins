@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lispking-dsh-qq-skin
+name: dsh-qq-skin
+description:
+  en: "QQ 风格皮肤插件 for DeepSeek Harness: overlays a Tencent QQ messenger look on the Web client through the official theme token layer (ctx.theme.overrideTokens)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skin
+  - theme
+  - qq
+source:
+  repository: https://github.com/lispking/dsh-qq-skin
+  repositoryNodeId: R_kgDOUApmRg
+  subpath: null
+  commit: 676d1706b77d193872682ff8a558313692351bdb
+creator:
+  github: lispking
+package:
+  ecosystem: npm
+  name: dsh-qq-skin
+  version: 0.1.2
+  integrity: sha512-HoSeuy/JE0BVApg2BM/zP91AAiitP7NwRuAlgzeGOtQ79Aeug0gYfHMR6hh1GrapPePRY4iAmHViy4hK4wDBoQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:27.981Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
