@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: orangeshinee-dsh-mem0
+name: dsh-mem0
+description:
+  en: "Self-hosted mem0 memory operations for dsh: agent tools (mem0 add / mem0 search / mem0 get / mem0 update / mem0 delete / mem0 history / mem0 reset / mem0 status) against your own mem0 REST server (new OSS build, X-API-Key auth, no /v1 prefix). Hot-pluggable — mounted via dsh plugin --profile web add link:<path , no dsh"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - self
+  - hosted
+  - mem0
+  - memory
+  - operations
+  - agent
+  - tools
+  - search
+  - update
+  - delete
+  - history
+  - reset
+  - status
+  - against
+  - rest
+  - server
+source:
+  repository: https://github.com/orangeshinee/dsh-mem0
+  repositoryNodeId: R_kgDOT5xI2Q
+  subpath: null
+  commit: 35f24b0915da17cf5ea0e8b8294890048a5fc167
+creator:
+  github: orangeshinee
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:57.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
