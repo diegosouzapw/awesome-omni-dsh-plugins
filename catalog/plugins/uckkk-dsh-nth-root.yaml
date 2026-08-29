@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-nth-root
+name: dsh-nth-root
+description:
+  en: bash dsh plugin add github:uckkk/dsh-nth-root
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-nth-root
+source:
+  repository: https://github.com/uckkk/dsh-nth-root
+  repositoryNodeId: R_kgDOT9vBSw
+  subpath: null
+  commit: 2dd95e9942071f1fbf97cbd96042d2b83633773f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:40.328Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
