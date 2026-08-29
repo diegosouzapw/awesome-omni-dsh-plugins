@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-validator
+name: dsh-validator
+description:
+  en: bash dsh plugin add dsh-validator 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-validator" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - validate
+  - email
+  - phone
+source:
+  repository: https://github.com/uckkk/dsh-validator
+  repositoryNodeId: R_kgDOT6Mtzg
+  subpath: null
+  commit: 48356b2cc785b0d39418c625a7509f27ab5b626a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:04.511Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
