@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: 1byteone-dsh-plugin-nlbi
+name: dsh-plugin-nlbi
+description:
+  en: Natural-language data queries + BI reports for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - nlbi
+  - text2sql
+  - nl2sql
+  - bi
+  - dashboard
+  - metrics
+  - olap
+  - mysql
+  - database
+  - sql
+  - chart
+  - echarts
+  - report
+source:
+  repository: https://github.com/1byteone/dsh-plugin-nlbi
+  repositoryNodeId: R_kgDOUBYNyg
+  subpath: null
+  commit: 232f9243029add39dd18a368de45d8326aca178f
+creator:
+  github: 1byteone
+package:
+  ecosystem: npm
+  name: dsh-plugin-nlbi
+  version: 0.2.1
+  integrity: sha512-5opADs5YuPXrYxL26CA9xeqZdOSaK1IzBKmIfjYqHoq5ZT/ukpglKJO0mGKnHSIkjcemwS7kOmFGcUZuKMnUNw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:51.758Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
