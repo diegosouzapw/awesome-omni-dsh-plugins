@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: nickhelion-dsh-qwen-token-plan-cn-responses
+name: dsh-qwen-token-plan-cn-responses
+description:
+  en: DeepSeek Harness adapter for Qwen Token Plan CN with Responses tools, GLM Chat routing, and a versioned official catalog
+  evidencePath: packages/qwen-token-plan-cn-responses/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - qwen
+  - token-plan
+  - responses-api
+  - harness-tools
+  - llm-provider
+  - openai-responses
+source:
+  repository: https://github.com/nickhelion/dsh-plugins
+  repositoryNodeId: R_kgDOT-rJZQ
+  subpath: packages/qwen-token-plan-cn-responses
+  commit: 6f261aa12eeac59412ddbf1047130359094842f1
+creator:
+  github: nickhelion
+package:
+  ecosystem: npm
+  name: dsh-qwen-token-plan-cn-responses
+  version: 0.1.7
+  integrity: sha512-ptXr+E1fTXr3uYTzmUpQB5qNssQYWux9L8igvQKUcZir/P/j7bEVgA1yiWPdA9ahJkQfyJGTD3WnFR2z1IMe3Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/qwen-token-plan-cn-responses/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:17.302Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
