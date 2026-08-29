@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-brand-identity
+name: dsh-brand-identity
+description:
+  en: bash dsh plugin add dsh-brand-identity 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-brand-identity" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - brand
+  - identity
+  - design
+source:
+  repository: https://github.com/uckkk/dsh-brand-identity
+  repositoryNodeId: R_kgDOT6jAsw
+  subpath: null
+  commit: 87c3332f24202ae853c70377608607f29c81a95e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:28.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
