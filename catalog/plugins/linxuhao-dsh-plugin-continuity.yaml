@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: linxuhao-dsh-plugin-continuity
+name: dsh-plugin-continuity
+description:
+  en: "Local image / voice / music / SFX generation for DeepSeek Harness with pinned identity: the same character stays the same character across calls, degenerate output is refused rather than returned, and the GPU is untouched when idle. Hand the image half to any OpenAI-shaped API instead and its engine and 10.1 GiB of wei"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - agent
+  - game-assets
+  - text-to-speech
+  - image-generation
+  - vulkan
+  - sound-effects
+  - music-generation
+  - openai-compatible
+  - speech-to-text
+  - dsh
+source:
+  repository: https://github.com/linxuhao/Deepseek-Continuity
+  repositoryNodeId: R_kgDOT_FFHA
+  subpath: null
+  commit: 87753c268bd6b784387fd3a4074dd39e7d21c81c
+creator:
+  github: linxuhao
+package:
+  ecosystem: npm
+  name: dsh-plugin-continuity
+  version: 0.5.3
+  integrity: sha512-uN7CPV/vLEnHw1vJUWJFV30Xz3HaScGeMagGpzJT6I8TFuPqruWDuq/w7MS5X3WthIXww0FJx07ZSJlGX8/rLA==
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:48.179Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
