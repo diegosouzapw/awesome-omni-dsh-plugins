@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: loonai321-dsh-humanized-deepseek-maid
+name: dsh-humanized-deepseek-maid
+description:
+  en: Gives the DeepSeek Harness agent a configurable humanized whale-girl maid persona (address, self-name, speaking mode), an immersive no-plugin-meta rule, and a lightweight layered memory with query-triggered recall.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - persona
+  - roleplay
+  - maid
+  - whale-girl
+  - memory
+  - dsh
+source:
+  repository: https://github.com/loonai321/dsh-humanized-deepseek-maid
+  repositoryNodeId: R_kgDOT5zndg
+  subpath: null
+  commit: c13281456456a6b4018288396eef14c3c97628c8
+creator:
+  github: loonai321
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:19.306Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
