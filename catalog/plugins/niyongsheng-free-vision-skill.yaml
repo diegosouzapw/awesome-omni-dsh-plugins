@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: niyongsheng-free-vision-skill
+name: "@niyongsheng/free-vision-skill"
+description:
+  en: "DSH-Plugin for DeepSeek-Harness: fully-local image understanding & OCR powered by macOS Vision Framework"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - vision
+  - ocr
+  - dsh
+source:
+  repository: https://github.com/niyongsheng/free-vision-skill
+  repositoryNodeId: R_kgDOTyAUSw
+  subpath: null
+  commit: afcfe088d575fa2287601ed10e22245b7bfabb1b
+creator:
+  github: niyongsheng
+package:
+  ecosystem: npm
+  name: "@niyongsheng/free-vision-skill"
+  version: 0.3.1
+  integrity: sha512-NYtYv9w3GYr2pPXCcOkvAL1v0+dv3Z+DWGtSz3JwFp+sf/83Mf/4z41l5CDLxDxcIzPLcyIz+AXm0tByapsNQA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:42.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
