@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cat-age
+name: dsh-cat-age
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cat-age
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cat-age
+source:
+  repository: https://github.com/uckkk/dsh-cat-age
+  repositoryNodeId: R_kgDOT-_kkQ
+  subpath: null
+  commit: 8341b3ffd6a3eed507c68b3d4050b53cc5f894f0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:18.929Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
