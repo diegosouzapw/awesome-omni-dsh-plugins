@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-grid-system
+name: dsh-grid-system
+description:
+  en: bash dsh plugin add dsh-grid-system 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-grid-system" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - grid
+  - spacing
+  - layout
+source:
+  repository: https://github.com/uckkk/dsh-grid-system
+  repositoryNodeId: R_kgDOT6OnbQ
+  subpath: null
+  commit: 2adf79a8c5e62721f49a7e51ba9ee82c1f41bf38
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-grid-system
+  version: 0.1.0
+  integrity: sha512-fymQIazu6+vKCGSxhRaYAt7hOl+Tx4UphdYKQNO1j9fVySpn2BST/2elRyqgIow6y0yl34WcgzKWBsuK2OhPWQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:48.478Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
