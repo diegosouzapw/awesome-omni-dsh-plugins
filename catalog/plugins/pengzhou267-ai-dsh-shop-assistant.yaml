@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: pengzhou267-ai-dsh-shop-assistant
+name: dsh-shop-assistant
+description:
+  en: "DeepSeek Harness plugin for ecommerce operators: CSV batch tools, reproducible scoring, Chinese skills and store policy KB."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ecommerce
+  - shop
+  - csv
+source:
+  repository: https://github.com/pengzhou267-ai/dsh-shop-assistant
+  repositoryNodeId: R_kgDOT4f08w
+  subpath: null
+  commit: 7335654f5f194b25cb1a668dfb05ec28daf9cece
+creator:
+  github: pengzhou267-ai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:10.991Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
