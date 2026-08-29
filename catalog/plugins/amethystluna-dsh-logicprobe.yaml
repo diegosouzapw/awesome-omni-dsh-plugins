@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: amethystluna-dsh-logicprobe
+name: dsh-logicprobe
+description:
+  en: Design document & plan claim verification — enumerate claims, verify against codebase facts, then escalate to state-machine verification (S1-S8/A1-A11) and data-model verification (DS/DA/DD) for behavioral claims. Supports before/after regression, idempotency/monotonic/sequence/leads-to/atomicity constraints, and concu
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - verification
+  - fact-check
+  - design-review
+  - plan-review
+  - state-machine
+  - logic-verification
+  - adversarial
+  - refactoring
+  - model-checking
+  - agentskills
+  - dsh
+source:
+  repository: https://github.com/AmethystLuna/logicprobe
+  repositoryNodeId: R_kgDOT15nAg
+  subpath: null
+  commit: 1b5f1a56e2d429b3c23e23753e36d24d8cef15ad
+creator:
+  github: AmethystLuna
+package:
+  ecosystem: npm
+  name: dsh-logicprobe
+  version: 0.5.2
+  integrity: sha512-KDggTxNhA2uqzd9k49bgxhN7Ca+aAWpwpmapAjHaPCqtnIKL7716gfekKhJWcIqx2TgI9X8LiHz2hKix+h+0dg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:35.077Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
