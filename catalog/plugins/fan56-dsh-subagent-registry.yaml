@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fan56-dsh-subagent-registry
+name: "@aiwayds/dsh-subagent-registry"
+description:
+  en: "dsh plugin: register locally-defined custom agents (~/.dsh/agents/ .md) as callable subagents via the use agent tool"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - subagent
+  - agent
+  - registry
+  - resume
+  - persistence
+source:
+  repository: https://github.com/fan56/dsh-subagent-registry
+  repositoryNodeId: R_kgDOT56ysg
+  subpath: null
+  commit: 7f7125df0362a8c81ce8c6ec72afb55d04ab3dfe
+creator:
+  github: fan56
+package:
+  ecosystem: npm
+  name: "@aiwayds/dsh-subagent-registry"
+  version: 0.3.0
+  integrity: sha512-Umfk0U8rjjCWiGAyOiW0kXEefaexNEwexz+KiBSLMrJw9h59AeAOfv7w900PzxV+QlxPMP95rLuPTTZ2L9DJ7Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:51.443Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
