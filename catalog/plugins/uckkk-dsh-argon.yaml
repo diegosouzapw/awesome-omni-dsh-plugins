@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-argon
+name: dsh-argon
+description:
+  en: bash dsh plugin add github:uckkk/dsh-argon
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-argon
+source:
+  repository: https://github.com/uckkk/dsh-argon
+  repositoryNodeId: R_kgDOT-w7Dg
+  subpath: null
+  commit: 1f1754bdcccbf596b17f0d472534cd18ce99b146
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:31.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
