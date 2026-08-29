@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-ini
+name: dsh-ini
+description:
+  en: bash dsh plugin add dsh-ini 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-ini" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ini
+  - json
+source:
+  repository: https://github.com/uckkk/dsh-ini
+  repositoryNodeId: R_kgDOT6Mbjg
+  subpath: null
+  commit: 099d16e71ad178aee219dd333003e3fbafe8821c
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-ini
+  version: 0.1.0
+  integrity: sha512-2r3GUOLMj76i5qPzNCDifTBuWjh5RrD0rCqsNo/pWmUKxSswmlvT09Ml2ZRBtRHQC7AYw5RIkn+oYxC4MKcOBQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:58.101Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
