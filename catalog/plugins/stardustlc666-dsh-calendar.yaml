@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: stardustlc666-dsh-calendar
+name: dsh-calendar
+description:
+  en: "DSH community plugin: read/write calendar events via CalDAV. Provides 5 model-facing tools (calendar list / calendar create / calendar update / calendar delete / calendar search), supporting Google / iCloud / Nextcloud and any CalDAV server. This round is a node half-body with no settings-page UI; all configuration goe"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - calendar
+  - caldav
+  - ical
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-calendar
+  repositoryNodeId: R_kgDOT30VgQ
+  subpath: null
+  commit: ae45f12e5f340a5b4b4ce919331ecc38558a8a6c
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-calendar
+  version: 0.4.0
+  integrity: sha512-pC+RogDq9JL5FXuPIkeYAIbY+az0FCwSRhz7cPIiMjCmEtNRT+Fn+gQCs66KhIv7nnsrnB3ky38am9n+ep820g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:44.068Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
