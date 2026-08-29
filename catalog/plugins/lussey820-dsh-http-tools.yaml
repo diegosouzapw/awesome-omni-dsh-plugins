@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lussey820-dsh-http-tools
+name: dsh-http-tools
+description:
+  en: "HTTP/API debugging toolset for DeepSeek Harness: http request, curl parse, request history"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - api
+  - curl
+  - rest
+  - agent
+  - tool
+source:
+  repository: https://github.com/lussey820/dsh-http-tools
+  repositoryNodeId: R_kgDOT50Qug
+  subpath: null
+  commit: c5ed617fd50caf4655f8a54a93e4367c492d9bd2
+creator:
+  github: lussey820
+package:
+  ecosystem: npm
+  name: dsh-http-tools
+  version: 0.1.5
+  integrity: sha512-+65vtdWJx2vQo+siEuNe3zL5nkl7tQ+yi/utMrtngKnB/5WBcKqSH3yP5t8EEo17SALzJX5EUSQUMxdnD1mrqg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:48.790Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
