@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: davidrm1911-dsh-llm-subscription
+name: dsh-llm-subscription
+description:
+  en: Native DeepSeek Harness LLM adapter for Claude Code / Antigravity CLI subscriptions, plus local Ollama — Claude, Gemini and a free local model in the model picker, no API key
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - claude-code
+  - antigravity
+  - ollama
+  - dsh
+source:
+  repository: https://github.com/DavidRm1911/dsh-llm-subscription
+  repositoryNodeId: R_kgDOUC51Gg
+  subpath: null
+  commit: 006240733e5bff22f5f2e3705a07d193d2c1a7d8
+creator:
+  github: DavidRm1911
+package:
+  ecosystem: npm
+  name: dsh-llm-subscription
+  version: 0.1.4
+  integrity: sha512-UEmpIc05ODVeyXuIsu36Vbp/0Wan8CGnB6QK2sAo33XXZ2paW7pgWTplSmBD4S16oX7TvIueKSXHDDSFsqKV/w==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:28.764Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
