@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 534119219-chicheng-peak
+name: chicheng-peak
+description:
+  en: sh dsh plugin --profile web add D:\Harness\chicheng-peak
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - peak
+  - valley
+  - reminder
+  - push
+source:
+  repository: https://github.com/534119219/chicheng-peak
+  repositoryNodeId: R_kgDOT6dW6A
+  subpath: null
+  commit: b89dc9a63eb270736fae63e43445b421477c02ab
+creator:
+  github: "534119219"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:27.616Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
