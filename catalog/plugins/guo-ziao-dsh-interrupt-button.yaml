@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: guo-ziao-dsh-interrupt-button
+name: dsh-interrupt-button
+description:
+  en: "A green interrupt button beside the DeepSeek Harness send box: silently stops a running agent, which then summarizes its progress and asks for your new requirements; the interrupt prompt is customizable."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - interrupt
+  - stop
+  - web-ui
+  - productivity
+source:
+  repository: https://github.com/guo-ziao/dsh-interrupt-button
+  repositoryNodeId: R_kgDOT5SgSg
+  subpath: null
+  commit: f91c86b720075238b9420b10b2f19b833ebae0fd
+creator:
+  github: guo-ziao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:32.407Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
