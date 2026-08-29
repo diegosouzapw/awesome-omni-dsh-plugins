@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: qyw233-dsh-deeplink
+name: "@dsh-community/dsh-deeplink"
+description:
+  en: A DeepSeek Harness Web UI plugin that opens a specific project conversation directly from a URL query parameter, instead of always returning to the last session.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - opens
+  - specific
+  - conversation
+  - directly
+  - query
+  - parameter
+  - instead
+  - always
+  - returning
+  - last
+  - session
+  - dsh
+source:
+  repository: https://github.com/qyw233/dsh-deeplink
+  repositoryNodeId: R_kgDOT3XJNA
+  subpath: null
+  commit: 0ec5da351b246dfcbf9a91a3d0c7b7f2699370e6
+creator:
+  github: qyw233
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:42.065Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
