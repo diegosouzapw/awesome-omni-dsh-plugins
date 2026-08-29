@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: falling-ts-dsh-force-compact
+name: "@falling-ts/dsh-force-compact"
+description:
+  en: "DSH Cordis plugin: hooks the core model-request seam (agent/pre-step + agent/request) to force-compact a session's context and disable thinking per the \"强制压缩配置\" settings namespace (disableThinking, autoThresholdTokens, retainLatestTokens, turnEndForceCompactionEnabled). When the threshold fires (or /force-compact queue"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - compaction
+  - auto-compact
+  - session
+  - settings
+  - force-compact
+  - thinking
+  - reasoningeffort
+  - agent-pre-step
+  - agent-request
+  - slash-command
+  - turn-end
+  - earliest-ratio
+source:
+  repository: https://github.com/falling-ts/dsh-force-compact
+  repositoryNodeId: R_kgDOUCA0WQ
+  subpath: null
+  commit: 2cd23b7d317f8ec488468fa5bebeef17d2d06c7e
+creator:
+  github: falling-ts
+package:
+  ecosystem: npm
+  name: "@falling-ts/dsh-force-compact"
+  version: 0.2.4
+  integrity: sha512-IH/VybFcsERLhf4i5RqiDxPoKRM1yXAjyfv86PtdV8S+ojoLoeK2N1vCvzcpyWqROR+xUohOIbpGuIjoRhxjiw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:00.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
