@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: timedomain1-dsh-mermaid-renderer
+name: dsh-mermaid-renderer
+description:
+  en: A DeepSeek Harness (dsh) web plugin that renders Mermaid code blocks in the chat as diagram cards. Supports flowchart / graph / sequenceDiagram / classDiagram / stateDiagram / erDiagram / journey / gantt / pie / mindmap / timeline / C4Context / gitGraph and more.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - mermaid
+  - diagram
+  - flowchart
+source:
+  repository: https://github.com/timedomain1/dsh-mermaid-renderer
+  repositoryNodeId: R_kgDOT-bRwg
+  subpath: null
+  commit: f9002b72b4a28ef510802001438d044c9bd59b25
+creator:
+  github: timedomain1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:33.860Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
