@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: stvli-dsh-ros2-safety
+name: dsh-ros2-safety
+description:
+  en: "dsh-ros2 real-time safety framework: robot safety start/state/arbitrate/lock/unlock (5 tools) + the dsh ros2 safety ROS2 package + safetyStrict config. Cordis bundle."
+  evidencePath: packages/safety/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ros2
+source:
+  repository: https://github.com/StvLi/dsh-ros2
+  repositoryNodeId: R_kgDOT7EbTQ
+  subpath: packages/safety
+  commit: a7309851ee6a5b5b11bbbffdefd88be1ebe742bc
+creator:
+  github: StvLi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/safety/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:39.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
