@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: johnxu22786-dsh-context-triage
+name: dsh-context-triage
+description:
+  en: "A session context triage plugin for DeepSeek Harness (dsh) that automatically manages context volume during long sessions: it identifies and handles stale, duplicate, failed, oversized, and low-value message content to save token budget and curb context bloat."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - context
+  - token
+  - pruning
+  - triage
+source:
+  repository: https://github.com/JohnXu22786/context-pruner
+  repositoryNodeId: R_kgDOT59MQw
+  subpath: null
+  commit: 9fcef3da179f024f90add697e2883439e69a8415
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-context-triage
+  version: 0.1.0
+  integrity: sha512-5JTg9qjjVanmRgZJH5afEaZh+6mfD7Q0tJiMWB0hJefK3taS49avj8DQLf7BvcFJNn4brl4md6cuu7Lo0oJPdQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:04.931Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
