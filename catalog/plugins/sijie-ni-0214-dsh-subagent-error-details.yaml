@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sijie-ni-0214-dsh-subagent-error-details
+name: dsh-subagent-error-details
+description:
+  en: 'DSH plugin: deliver the real failure reason (e.g. RATE LIMIT 429) to the parent agent when a background subagent fails, instead of an empty "Its closing message:"'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - diagnostics
+  - observability
+source:
+  repository: https://github.com/sijie-ni-0214/dsh-subagent-error-details
+  repositoryNodeId: R_kgDOUE1tRQ
+  subpath: null
+  commit: 0ce7bcf46c0efbfb17c60f2924ae99fc0fdac2f6
+creator:
+  github: sijie-ni-0214
+package:
+  ecosystem: npm
+  name: dsh-subagent-error-details
+  version: 0.1.0
+  integrity: sha512-9/U33zgOXMRG6BdVJvcp6hO9DxTTaDTrh338Fv70CYXZEkHslQLq606vXPAIjgk1nVNTWg2BpWbsYM+Y6NydcQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:05.117Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
