@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-noncompete-pay
+name: dsh-noncompete-pay
+description:
+  en: bash dsh plugin add github:uckkk/dsh-noncompete-pay
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-noncompete-pay
+source:
+  repository: https://github.com/uckkk/dsh-noncompete-pay
+  repositoryNodeId: R_kgDOT-DrgA
+  subpath: null
+  commit: 1f4be1f7b6a1412844e27f6aaf3487d7195ee262
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:38.798Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
