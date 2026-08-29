@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-guinea-bissau
+name: dsh-guinea-bissau
+description:
+  en: bash dsh plugin add github:uckkk/dsh-guinea-bissau
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-guinea-bissau
+source:
+  repository: https://github.com/uckkk/dsh-guinea-bissau
+  repositoryNodeId: R_kgDOT-DJbw
+  subpath: null
+  commit: 52956ef0c6ae54e16b8b618e1264c035ba76e0b0
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:50.965Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
