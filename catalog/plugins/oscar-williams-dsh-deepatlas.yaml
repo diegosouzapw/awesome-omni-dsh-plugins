@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: oscar-williams-dsh-deepatlas
+name: dsh-deepatlas
+description:
+  en: DeepAtlas helps DeepSeek Harness (DSH) users decide whether a plugin capability change is worth making, with a reviewable record of discovery, verification, and installation. Describe a goal such as cross-session memory, messaging, or browser automation, and the DSH host model can call DeepAtlas on demand to compare th
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - capability-assurance
+  - plugin-preflight
+  - plugin-discovery
+  - plugin-navigation
+source:
+  repository: https://github.com/Oscar-Williams/dsh-deepatlas
+  repositoryNodeId: R_kgDOUAdlYA
+  subpath: null
+  commit: cb6ba6055b5fb58088cf68ae34b4845a6728b627
+creator:
+  github: Oscar-Williams
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:16.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
