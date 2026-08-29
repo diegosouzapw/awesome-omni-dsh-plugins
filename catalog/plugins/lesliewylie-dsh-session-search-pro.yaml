@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lesliewylie-dsh-session-search-pro
+name: dsh-session-search-pro
+description:
+  en: Indexed cross-session search for DeepSeek Harness — search, list, and read past and current DSH sessions through the built-in sessionQuery service. Zero runtime dependencies.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - session-search
+  - search
+  - agent-tools
+  - cordis
+source:
+  repository: https://github.com/LeslieWylie/dsh-session-search-pro
+  repositoryNodeId: R_kgDOT4UblA
+  subpath: null
+  commit: 82787487d75f6af3d0e1b219a19dec49b93213cb
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:38.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
