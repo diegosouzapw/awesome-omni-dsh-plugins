@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: codingayice-dsh-interview
+name: dsh-interview
+description:
+  en: powershell dsh plugin --profile web add dsh-interview
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - interview
+  - interview-practice
+source:
+  repository: https://github.com/codingayice/dsh-interview
+  repositoryNodeId: R_kgDOT-T96g
+  subpath: null
+  commit: 5e9ba1bcea0feda5e47d0545d674e523631f712a
+creator:
+  github: codingayice
+package:
+  ecosystem: npm
+  name: dsh-interview
+  version: 0.5.1
+  integrity: sha512-1YGUDN/G/Ikx8RU0mlHw67eHsAk6aiyj/Gn9EAAmn1iKBbJHZ5kB3Okt5M/CFTDSmGeFCj5SgvTdgalC2JjmNA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:52.945Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
