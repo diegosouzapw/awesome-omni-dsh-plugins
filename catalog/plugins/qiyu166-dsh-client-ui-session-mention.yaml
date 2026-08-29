@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: qiyu166-dsh-client-ui-session-mention
+name: dsh-client-ui-session-mention
+description:
+  en: Type @ in the composer to reference another conversation — pick a historical session and its compacted context is injected into the current prompt. Turn the parallel conversations in your workspace into one collaborative team.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - mention
+  - reference
+source:
+  repository: https://github.com/qiyu166/dsh-client-ui-session-mention
+  repositoryNodeId: R_kgDOUAijZQ
+  subpath: null
+  commit: a8a69f0ad10197b0491d0da3cda21bab62de2f8e
+creator:
+  github: qiyu166
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:56.714Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
