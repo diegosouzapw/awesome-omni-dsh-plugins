@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: siriuswj-dsh-updater-npm
+name: dsh-updater-npm
+description:
+  en: "DSH updater + official docs sync plugin for DeepSeek Harness: one-click npm update of @deepseek-ai/dsh with live progress, incremental sync of the official docs/ to local with progress, and dsh docs search / dsh docs read model tools. DSH 更新器 + 官方文档同步器（进度显示）。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - updater
+  - npm-update
+  - docs
+  - documentation
+source:
+  repository: https://github.com/SiriusWJ/dsh-updater-npm
+  repositoryNodeId: R_kgDOT9RXJQ
+  subpath: null
+  commit: 58e091969a7130f01e5dff7813f28bd9da37e72b
+creator:
+  github: SiriusWJ
+package:
+  ecosystem: npm
+  name: dsh-updater-npm
+  version: 1.9.0
+  integrity: sha512-cWET0agBJDeLxGB06DaPA5QRf6b0daNwF7t2o5jNh0iPW6OVnbjZoCVGiI8/2CwPD7+TeKlR+uwlC+yk1qTz1g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:47.125Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
