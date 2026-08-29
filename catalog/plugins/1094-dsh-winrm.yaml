@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 1094-dsh-winrm
+name: dsh-winrm
+description:
+  en: "Remote Windows administration for the dsh web GUI: WinRM/PowerShell Remoting host config store (~/.dsh/dsh-winrm.json), PowerShell exec / streaming console / service & process management / base64-chunked file transfer / cluster execution, plus agent tools (winrm list, winrm exec, winrm service, winrm process, winrm upl"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - windows
+  - winrm
+  - remote
+  - powershell
+  - bundle-plugin
+source:
+  repository: https://github.com/andyfan1094/dsh-winrm
+  repositoryNodeId: R_kgDOT_MkQA
+  subpath: null
+  commit: 220492f2ec7f420637ae9f7dfd00490f5640af49
+creator:
+  github: "1094"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:01.451Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
