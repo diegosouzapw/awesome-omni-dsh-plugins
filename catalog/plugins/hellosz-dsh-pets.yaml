@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: hellosz-dsh-pets
+name: "@hellosz/dsh-pets"
+description:
+  en: DeepSeek Harness pet companion — Codex Pets style floating pet with notification broadcasting and a pet say tool
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - pet
+  - petdex
+  - codex-pets
+  - dsh
+source:
+  repository: https://github.com/hellosz/dsh-pets
+  repositoryNodeId: R_kgDOT38Rtg
+  subpath: null
+  commit: bae5bab8ca717f07967d60801b65e16fb47e30da
+creator:
+  github: hellosz
+package:
+  ecosystem: npm
+  name: "@hellosz/dsh-pets"
+  version: 0.3.1
+  integrity: sha512-+05XxH2u7Xq3iuR9H4xTkEdZ8MkhnzkzK4BUB5C5/IOrtcn5UHPvSlgwPpAGCaljBhQVzvtnbFfR/SMKYLtm9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:10.998Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
