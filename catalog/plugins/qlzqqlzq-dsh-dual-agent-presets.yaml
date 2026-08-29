@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: qlzqqlzq-dsh-dual-agent-presets
+name: dsh-dual-agent-presets
+description:
+  en: General-purpose and coding-focused agent presets for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - coding-agent
+source:
+  repository: https://github.com/QlzqQlzq/dsh-dual-agent-presets
+  repositoryNodeId: R_kgDOT5PBMg
+  subpath: null
+  commit: 46c4cbf21d13815fd706ca1aa2217e45d9fb4400
+creator:
+  github: QlzqQlzq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:57.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
