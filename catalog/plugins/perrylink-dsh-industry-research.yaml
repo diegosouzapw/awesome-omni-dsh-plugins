@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: perrylink-dsh-industry-research
+name: dsh-industry-research
+description:
+  en: "Industry and company research domain pack for DeepSeek Harness: methodology skills, an industry-chain structure model (industry map), public-source policy/news tracking over ctx.web (industry track), company scan cards (company scan), and auditable research reports with an optional ctx.researchReport sealing bridge and"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - industry-research
+  - company-research
+  - research
+  - report
+source:
+  repository: https://github.com/PerryLink/dsh-industry-research
+  repositoryNodeId: R_kgDOT9m8_w
+  subpath: null
+  commit: 89edf0498802143654982f327081c04977f75b9a
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-industry-research
+  version: 0.3.0
+  integrity: sha512-I8l/saktCzgkL8TvyrAuqvYF56sxMVZJJwFvnaWbFNuAPURXIAqVDt0KDhv/3sfRaNXAh0E1PyFsJ6Er+NjR6g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:41.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
