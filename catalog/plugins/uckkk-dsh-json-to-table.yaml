@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-json-to-table
+name: dsh-json-to-table
+description:
+  en: bash dsh plugin add dsh-json-to-table 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-to-table" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - table
+source:
+  repository: https://github.com/uckkk/dsh-json-to-table
+  repositoryNodeId: R_kgDOT6Nswg
+  subpath: null
+  commit: 63e93b29fd4db65c2fbbea70998098545f983f08
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:16.221Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
