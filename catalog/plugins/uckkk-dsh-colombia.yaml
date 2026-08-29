@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-colombia
+name: dsh-colombia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-colombia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-colombia
+source:
+  repository: https://github.com/uckkk/dsh-colombia
+  repositoryNodeId: R_kgDOT_CNrA
+  subpath: null
+  commit: e7c24c8892debb369f752f2e508279174228f0af
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:12.820Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
