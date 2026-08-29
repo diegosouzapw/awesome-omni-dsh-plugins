@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: jo32-dsh-community-market
+name: dsh-community-market
+description:
+  en: Community plugin discovery and managed package operations for DeepSeek Harness Desktop
+  evidencePath: plugins/community-market/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - marketplace
+  - community
+source:
+  repository: https://github.com/jo32/DeepDeck
+  repositoryNodeId: R_kgDOT6sjUA
+  subpath: plugins/community-market
+  commit: d3fe239d7412ec905ee77f8979597b9a386eb1f5
+creator:
+  github: jo32
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/community-market/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:47:31.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
