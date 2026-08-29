@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: heartleo-dsh-hacker-news
+name: dsh-hacker-news
+description:
+  en: "Hacker News tools for DeepSeek Harness: front-page feeds, item comment trees, Algolia search, user profiles."
+  evidencePath: plugins/hacker-news/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - hacker
+  - news
+  - tools
+  - front
+  - page
+  - feeds
+  - item
+  - comment
+  - trees
+  - algolia
+  - search
+  - user
+  - profiles
+  - dsh
+source:
+  repository: https://github.com/heartleo/hn-cli
+  repositoryNodeId: R_kgDOSDJKFA
+  subpath: plugins/hacker-news
+  commit: e1fd6ac6819e334b479c90f12bd7948455a58c62
+creator:
+  github: heartleo
+package:
+  ecosystem: npm
+  name: dsh-hacker-news
+  version: 0.1.0
+  integrity: sha512-KxFxKU0yTnvh7F478yxJnI9DPfOHL0i37JVxrhdY5dV/8ehdgA9MxLEnzCzmaPRhRfEBOy8IyJlMw+VUV9tK2Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/hacker-news/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:09.204Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
