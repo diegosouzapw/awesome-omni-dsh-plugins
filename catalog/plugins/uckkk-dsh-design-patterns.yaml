@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-design-patterns
+name: dsh-design-patterns
+description:
+  en: bash dsh plugin add dsh-design-patterns 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-design-patterns" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ui
+  - design-patterns
+  - components
+source:
+  repository: https://github.com/uckkk/dsh-design-patterns
+  repositoryNodeId: R_kgDOT6Omkw
+  subpath: null
+  commit: e873b89c3750389ca891cd20fb234ac33e4fffbf
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-design-patterns
+  version: 0.1.0
+  integrity: sha512-Iq8y4elzhSQYBPQPSxNeYD7nLuQ+DS+ji0ZySMk5SoDmxXf2UcJW1VxKriYGNlph7TpupKqTGovcBeWux0qqRA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:41.571Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
