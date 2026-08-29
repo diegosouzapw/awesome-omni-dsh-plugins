@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-video-length
+name: dsh-video-length
+description:
+  en: bash dsh plugin add github:uckkk/dsh-video-length
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-video-length
+source:
+  repository: https://github.com/uckkk/dsh-video-length
+  repositoryNodeId: R_kgDOT-s_JA
+  subpath: null
+  commit: e7685988ebaa57b840e3772a6065e2d03e863ae6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:05.537Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
