@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: johnxu22786-gavel-review
+name: gavel-review
+description:
+  en: An adversarial, multi-perspective code review plugin. Multiple independent review perspectives (lenses) attack a code change in parallel — each perspective cares only about its own category of problems and does not interfere with the others; an arbitration layer then merges cross-lens findings, deduplicates them, grade
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - code-review
+  - adversarial-review
+  - llm
+  - agent
+source:
+  repository: https://github.com/JohnXu22786/adversarial-review
+  repositoryNodeId: R_kgDOT59Rfg
+  subpath: null
+  commit: 2d2e5cbc234650c60250b932204d1e5e7f662ac0
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: gavel-review
+  version: 0.1.0
+  integrity: sha512-xSc+iw0j+u4PyrJmaBQpTIR3XaOx2eQuH2N7xqIAvF26PYJpKgNTzFOHmPyh9iwHBCDgpSyP9RCIgbuqx/vT1Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:02.940Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
