@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-water-intake
+name: dsh-water-intake
+description:
+  en: bash dsh plugin add github:uckkk/dsh-water-intake
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-water-intake
+source:
+  repository: https://github.com/uckkk/dsh-water-intake
+  repositoryNodeId: R_kgDOT-DrnQ
+  subpath: null
+  commit: e63211c7bb69dd48916841d02f2a7a6fa01c94dc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:08.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
