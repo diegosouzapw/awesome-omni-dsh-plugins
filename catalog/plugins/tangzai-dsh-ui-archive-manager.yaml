@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tangzai-dsh-ui-archive-manager
+name: "@tangzai/dsh-ui-archive-manager"
+description:
+  en: "Beautified archive manager for DeepSeek Harness (dsh): a settings section listing archived sessions grouped by workspace, each with an unarchive action, with a flat session list, folder group headers, relative timestamps and hover unarchive buttons."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - archive
+  - archived-sessions
+  - unarchive
+  - settings
+  - ui
+source:
+  repository: https://github.com/Neumannzc/dsh-archive-manager
+  repositoryNodeId: R_kgDOT6ku8g
+  subpath: plugin
+  commit: 688d532e30d0d10de271a919111ce2e9681506a0
+creator:
+  github: tangzai
+package:
+  ecosystem: npm
+  name: "@tangzai/dsh-ui-archive-manager"
+  version: 0.1.1
+  integrity: sha512-KsyuEAvKKG5cxUBsieB0/ZTa9KGGNfQ0EPc5I78CfMa5GaHfklpfFqeOJfJTu6+NliJz/dUMAMieBrv2zlnRwg==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:12.520Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
