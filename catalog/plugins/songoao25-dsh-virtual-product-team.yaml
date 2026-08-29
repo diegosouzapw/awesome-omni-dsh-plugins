@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: songoao25-dsh-virtual-product-team
+name: dsh-virtual-product-team
+description:
+  en: A DeepSeek Harness agent mode that walks you through the full product pipeline — from idea validation to release, promotion, and iteration — by saying "I have an idea".
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent-preset
+  - product-management
+  - ai-agent
+  - virtual-team
+  - product-team
+source:
+  repository: https://github.com/songoao25/dsh-virtual-product-team
+  repositoryNodeId: R_kgDOT5AQeA
+  subpath: null
+  commit: 1c49f53f88737dca59c4081bbb4eb62b36ebae09
+creator:
+  github: songoao25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:33.905Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
