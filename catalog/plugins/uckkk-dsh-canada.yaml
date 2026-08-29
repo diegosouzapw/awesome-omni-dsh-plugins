@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-canada
+name: dsh-canada
+description:
+  en: bash dsh plugin add github:uckkk/dsh-canada
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-canada
+source:
+  repository: https://github.com/uckkk/dsh-canada
+  repositoryNodeId: R_kgDOT-9b1w
+  subpath: null
+  commit: 7c518efb6c85c42c2f7da738cd7f3bfe56a810ec
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:48.910Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
