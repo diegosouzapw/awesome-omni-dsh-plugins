@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ri0n72y-dsh-workspace-scope
+name: dsh-workspace-scope
+description:
+  en: "Per-workspace Skill and MCP enablement for DeepSeek Harness: each project controls which skills and MCP servers new sessions load."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skill
+  - mcp
+  - workspace
+source:
+  repository: https://github.com/Ri0n72Y/dsh-workspace-scope
+  repositoryNodeId: R_kgDOT6Kz2g
+  subpath: null
+  commit: 50789094dcf2e7efbeaaf0463754cd6da4ccf2d1
+creator:
+  github: Ri0n72Y
+package:
+  ecosystem: npm
+  name: dsh-workspace-scope
+  version: 0.3.2
+  integrity: sha512-Fk9uP5IY+iBqrJMA4b0U70wLynScbXULjg7wbWYZYEcGL3poM6ephhdnNrpnAbgLYCnVzlv3sFoqJu2OfaH4uA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:52.457Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
