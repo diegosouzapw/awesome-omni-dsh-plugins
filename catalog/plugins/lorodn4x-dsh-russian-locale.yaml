@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lorodn4x-dsh-russian-locale
+name: dsh-russian-locale
+description:
+  en: "Russian language pack for DeepSeek Harness web UI: adds Русский to the language picker"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - russian
+  - locale
+  - i18n
+  - dsh
+source:
+  repository: https://github.com/Lorodn4x/dsh-russian-locale
+  repositoryNodeId: R_kgDOUDGWvw
+  subpath: null
+  commit: 8c5e7c8964f031da6b7cf99ec1c4d1d9ceb62483
+creator:
+  github: Lorodn4x
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:58.777Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
