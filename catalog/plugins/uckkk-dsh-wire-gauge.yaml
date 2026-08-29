@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-wire-gauge
+name: dsh-wire-gauge
+description:
+  en: bash dsh plugin add github:uckkk/dsh-wire-gauge
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-wire-gauge
+source:
+  repository: https://github.com/uckkk/dsh-wire-gauge
+  repositoryNodeId: R_kgDOT-r-Sg
+  subpath: null
+  commit: 34f724db6af49d9ab85cab16a864790efe2dfc2f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:12.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
