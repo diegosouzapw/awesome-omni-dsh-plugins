@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: plolpl789-dsh-raw-html
+name: dsh-raw-html
+description:
+  en: 'Brings VCP (Visual-Synesthesia) to the DeepSeek Harness Web GUI: HTML in messages goes from "a blob of source code" to a genuinely rendered interface, and the agent outputs following a maintainable design system .'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vcp
+  - visual-synesthesia
+  - html
+  - rendering
+source:
+  repository: https://github.com/plolpl789/dsh-raw-html
+  repositoryNodeId: R_kgDOT_SZLg
+  subpath: null
+  commit: 95e658cd3f9cc74ab4402e86c90675eceee1c4ae
+creator:
+  github: plolpl789
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:41.830Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null
