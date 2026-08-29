@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-exposure-calc
+name: dsh-exposure-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-exposure-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-exposure-calc
+source:
+  repository: https://github.com/uckkk/dsh-exposure-calc
+  repositoryNodeId: R_kgDOT-DQ6g
+  subpath: null
+  commit: 06f0cebbdd998f340de88007c490e09d92964b5b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:38.416Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
