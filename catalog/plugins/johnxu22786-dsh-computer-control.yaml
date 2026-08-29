@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: johnxu22786-dsh-computer-control
+name: dsh-computer-control
+description:
+  en: "dsh bundle for computer-control: desktop control (screen capture, pointer/keyboard injection, accessibility-tree semantic actions, safety guards) bridged to the harness over stdio JSON-RPC."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - bundle
+  - computer
+  - control
+  - desktop
+  - screen
+  - capture
+  - pointer
+  - keyboard
+  - injection
+  - accessibility
+  - tree
+  - semantic
+  - actions
+  - safety
+  - guards
+  - bridged
+source:
+  repository: https://github.com/JohnXu22786/computer-control
+  repositoryNodeId: R_kgDOT59Rmw
+  subpath: null
+  commit: c9244af2f012e1118c8ce42c2036d797ac663879
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-computer-control
+  version: 0.1.0
+  integrity: sha512-sJ96S9g2yc8EDyTRqLXdnqHSAgmzsswJpB94Iq5+wzcHDnJ+FlP48oJk8LCnoHP4gxc5wkCSZ9U7ntfdTMb+DQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:10.213Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
