@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-csv-to-md
+name: dsh-csv-to-md
+description:
+  en: bash dsh plugin add dsh-csv-to-md 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-csv-to-md" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - csv
+  - markdown
+source:
+  repository: https://github.com/uckkk/dsh-csv-to-md
+  repositoryNodeId: R_kgDOT6NeTg
+  subpath: null
+  commit: 60f105e9e008d2e7fb9656f10a987976f1d0fd04
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-csv-to-md
+  version: 0.1.0
+  integrity: sha512-BjS2CEvv24IBnwMpf2GoOyj1unO/NL5mQ5j0NRWbe/s1RxLSbSbQlotxTWIIbPbyRISY0YOBI5IL0uCOJu/Cmg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:34.904Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
