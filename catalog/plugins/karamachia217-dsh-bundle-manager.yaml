@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: karamachia217-dsh-bundle-manager
+name: dsh-bundle-manager
+description:
+  en: "DSH web plugin: runtime mount manager for optional third-party plugin bundles — mount/unmount bundle rows in-process through the Loader API (instant, no restart, never touches the profile manifest), with named presets and self-healing failure fallback. v0.5 adds official coexistence (import/export between the official "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - runtime
+  - mount
+  - manager
+  - optional
+  - third
+  - party
+  - bundles
+  - unmount
+  - bundle
+  - rows
+  - process
+  - through
+  - loader
+  - instant
+  - restart
+  - never
+source:
+  repository: https://github.com/KaramachiA217/dsh-bundle-manager
+  repositoryNodeId: R_kgDOT7NlqQ
+  subpath: null
+  commit: 45a6acd38c35f3c112a91f11523c6e95a1a2ed65
+creator:
+  github: KaramachiA217
+package:
+  ecosystem: npm
+  name: dsh-bundle-manager
+  version: 0.5.6
+  integrity: sha512-MIWl+H2XtGUAvmv4hs0UZUQLn8PRGUvUlRL9JzGUrkzLGQ5jc6WKqfU9Qp01lP4M90gdRB74G9vyIjEYdwYsGA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:30.071Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
