@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-html-decode
+name: dsh-html-decode
+description:
+  en: bash dsh plugin add github:uckkk/dsh-html-decode
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-html-decode
+source:
+  repository: https://github.com/uckkk/dsh-html-decode
+  repositoryNodeId: R_kgDOT9uLWg
+  subpath: null
+  commit: 9563f0a18c3d371201376b13047ddd15ad3fe08a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:54.293Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
