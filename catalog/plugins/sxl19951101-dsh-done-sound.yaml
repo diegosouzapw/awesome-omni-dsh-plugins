@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: sxl19951101-dsh-done-sound
+name: dsh-done-sound
+description:
+  en: Play a user-chosen sound whenever a conversation finishes in the DeepSeek Harness web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - sound
+  - notification
+  - chime
+  - turn-complete
+  - done
+source:
+  repository: https://github.com/sxl19951101/dsh-done-sound
+  repositoryNodeId: R_kgDOUBU3Ag
+  subpath: null
+  commit: d6f3effc1e0533bc1cf8388f48a816a25bc36fee
+creator:
+  github: sxl19951101
+package:
+  ecosystem: npm
+  name: dsh-done-sound
+  version: 0.1.8
+  integrity: sha512-Nqzd1dmCTrPkSQcUSPq+4Qq+pBD/LWQ5YX6eXaeQFQdjlazj/xV4NDhE1x4ddvkpyU/yT2yz7LrZUbq25KMLEA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:46.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
