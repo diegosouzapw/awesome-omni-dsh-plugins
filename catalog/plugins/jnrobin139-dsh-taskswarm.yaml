@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jnrobin139-dsh-taskswarm
+name: dsh-taskswarm
+description:
+  en: "TaskSwarm (蜂群) — multi-agent task orchestration for DeepSeek Harness. Native port of TaskPlane (github.com/HenryLach/taskplane, MIT): waves/lanes parallel execution, git worktree isolation, PROMPT.md/STATUS.md task packets, file mailbox, cross-model review."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - orchestration
+  - multi-agent
+  - task-runner
+  - parallel
+  - taskswarm
+source:
+  repository: https://github.com/february2015/dsh-taskswarm
+  repositoryNodeId: R_kgDOT4AuKA
+  subpath: null
+  commit: 032e2c9d228c20cab65fe0ea061d78a7c753ab8c
+creator:
+  github: jnrobin139
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:45.975Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
