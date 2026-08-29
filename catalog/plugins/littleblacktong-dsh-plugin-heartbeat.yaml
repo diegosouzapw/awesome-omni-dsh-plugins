@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: littleblacktong-dsh-plugin-heartbeat
+name: dsh-plugin-heartbeat
+description:
+  en: "Heartbeat plugin for DeepSeek Harness: wakes the agent on a configurable interval so it proactively reports progress, risks, or blockers — and makes small talk when there is nothing to report."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - heartbeat
+  - proactive
+  - agent
+source:
+  repository: https://github.com/LittleBlackTong/dsh-plugin-heartbeat
+  repositoryNodeId: R_kgDOT8Z29A
+  subpath: null
+  commit: 79ade35473fc5d37a534b1d987c600b674a44088
+creator:
+  github: LittleBlackTong
+package:
+  ecosystem: npm
+  name: dsh-plugin-heartbeat
+  version: 0.4.1
+  integrity: sha512-y6k+0/UM/8f4x97ltX62+pHO/du+B6m9S+XDVoWnmvrEtqxv7Iq2wWUSxNMmQBMV/VuL7BrsIUuQSs0vaftgDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:10.687Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
