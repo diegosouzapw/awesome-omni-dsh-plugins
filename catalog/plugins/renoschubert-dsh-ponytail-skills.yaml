@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: renoschubert-dsh-ponytail-skills
+name: dsh-ponytail-skills
+description:
+  en: "Ponytail, lazy senior dev mode, for DeepSeek Harness: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - ponytail
+  - yagni
+  - minimal
+source:
+  repository: https://github.com/gongyijie85/dsh-ponytail
+  repositoryNodeId: R_kgDOT5uV2A
+  subpath: null
+  commit: 3eb0a78044d999e68227ad6f6b643b005e4f69d2
+creator:
+  github: renoschubert
+package:
+  ecosystem: npm
+  name: dsh-ponytail-skills
+  version: 0.1.3
+  integrity: sha512-VjftgEgQEm7J1ZK8D4vK4M7aQO8WEmmppRPOrixXSA7C1CsJthnb24z+MsPg1Q/HQydiKVfJA8RY1YdXBeG9vg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:42.308Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
