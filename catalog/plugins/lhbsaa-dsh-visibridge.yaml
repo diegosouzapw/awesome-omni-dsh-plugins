@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lhbsaa-dsh-visibridge
+name: dsh-visibridge
+description:
+  en: "Host-level vision bridge for text-only models: analyze image tool (Ollama local / Xiaomi MiMo cloud / any OpenAI-compatible endpoint) returning structured evidence."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - ocr
+  - ollama
+  - xiaomi-mimo
+  - agent
+source:
+  repository: https://github.com/lhbsaa/dsh-visibridge
+  repositoryNodeId: R_kgDOT7KhdA
+  subpath: null
+  commit: cf2684830d51ad27cfce343cb131e30963c3141b
+creator:
+  github: lhbsaa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:17.701Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
