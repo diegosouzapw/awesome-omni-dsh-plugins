@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jeremy9682-dsh-tool-cursor
+name: dsh-tool-cursor
+description:
+  en: Delegate a task to Cursor's agent through the official cursor-agent CLI (headless), ported from the opencodex cursor.ts tool.
+  evidencePath: plugin-cursor/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - delegate
+  - task
+  - cursor
+  - agent
+  - through
+  - official
+  - headless
+  - ported
+  - opencodex
+  - tool
+  - dsh
+source:
+  repository: https://github.com/jeremy9682/dsh-observability
+  repositoryNodeId: R_kgDOT4ooUQ
+  subpath: plugin-cursor
+  commit: f5bdac556c0f4e6b61bd89201ec0e2401fb45c8e
+creator:
+  github: jeremy9682
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: plugin-cursor/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:03.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
