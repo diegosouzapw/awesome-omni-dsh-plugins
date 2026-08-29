@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chidaic-dsh-light-memory
+name: dsh-light-memory
+description:
+  en: sh dsh plugin --profile web add dsh-light-memory
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - memory
+  - markdown
+  - worklog
+  - lightweight
+  - prompt-cache
+  - agent
+source:
+  repository: https://github.com/chidaic/dsh-light-memory
+  repositoryNodeId: R_kgDOUBcNgg
+  subpath: null
+  commit: cf1966b04f389f521ac2c92040ba56dc2e0f9958
+creator:
+  github: chidaic
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:23.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
