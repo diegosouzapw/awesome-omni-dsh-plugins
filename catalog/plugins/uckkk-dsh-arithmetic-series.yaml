@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-arithmetic-series
+name: dsh-arithmetic-series
+description:
+  en: bash dsh plugin add github:uckkk/dsh-arithmetic-series
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-arithmetic-series
+source:
+  repository: https://github.com/uckkk/dsh-arithmetic-series
+  repositoryNodeId: R_kgDOT9u-Wg
+  subpath: null
+  commit: ec4b665d946b67325d6e51c20e4ad7033e488b8b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:32.521Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
