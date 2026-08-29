@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: loeanxi-dsh-cursor-acp
+name: dsh-cursor-acp
+description:
+  en: Hand a standalone job to the Cursor CLI already signed in on this machine.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cursor
+  - acp
+  - dsh
+source:
+  repository: https://github.com/loeanxi/dsh-cursor-acp
+  repositoryNodeId: R_kgDOT6BNXg
+  subpath: null
+  commit: 5170de77ffadeb170e3a460e558e7d35830fc585
+creator:
+  github: loeanxi
+package:
+  ecosystem: npm
+  name: dsh-cursor-acp
+  version: 0.2.0
+  integrity: sha512-lw2AiIwt5a8qtVUkcyGRBPX4G5vOMrzULQdeBbXM2w/N8Tz5VSfirHGfmtChGEI2oGX4k4widxaJA8ouzCIrvw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:31.702Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
