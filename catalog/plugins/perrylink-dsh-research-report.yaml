@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-research-report
+name: dsh-research-report
+description:
+  en: "Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim ↔ snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a verification verdict and the manifest hash seals the directory. Retrieval orchestration reuses the official ctx.web / ctx.jobs "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - research
+  - evidence-ledger
+  - verifiable-report
+  - audit
+  - citation-verification
+source:
+  repository: https://github.com/PerryLink/dsh-research-report
+  repositoryNodeId: R_kgDOT9mGKA
+  subpath: null
+  commit: 3e7b98e941ad77bd6c4802e8c91600719fa3c455
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-research-report
+  version: 0.3.0
+  integrity: sha512-cWz2o+Jua3a10gCicQaxXXu2MAgGmkiVjPFpRbCMCcTdHtjrBjts+80yFgEjY2ceOVSfkafvDDDEBGpq0lZvcA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:46.726Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 19
+provenance:
+  discussion: null
+  comment: null
