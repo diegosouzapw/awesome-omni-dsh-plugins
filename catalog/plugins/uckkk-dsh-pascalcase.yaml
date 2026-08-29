@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pascalcase
+name: dsh-pascalcase
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pascalcase
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pascalcase
+source:
+  repository: https://github.com/uckkk/dsh-pascalcase
+  repositoryNodeId: R_kgDOT9t_dQ
+  subpath: null
+  commit: 25621075e5d478a27cfcdf95af27150591f87f97
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:46.858Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
