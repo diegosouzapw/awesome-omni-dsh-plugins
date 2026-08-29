@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-property-tax
+name: dsh-property-tax
+description:
+  en: bash dsh plugin add github:uckkk/dsh-property-tax
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-property-tax
+source:
+  repository: https://github.com/uckkk/dsh-property-tax
+  repositoryNodeId: R_kgDOT-wxqg
+  subpath: null
+  commit: 5fdb800a7e825d3c23767ab82cb783ee99639af3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:55.169Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
