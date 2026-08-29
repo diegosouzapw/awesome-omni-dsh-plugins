@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: leamonac0823-dsh-cornell-classic-theme
+name: dsh-cornell-classic-theme
+description:
+  en: A Cornell notebook workspace and task brief for DeepSeek Harness Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - cornell
+  - notebook
+  - workspace
+  - task
+  - brief
+  - dsh
+source:
+  repository: https://github.com/leamonac0823/dsh-cornell-classic-theme
+  repositoryNodeId: R_kgDOT_Y8gA
+  subpath: null
+  commit: 0bcd3b5083ab8a9a0c3e68bd55c9c76dcb982a3b
+creator:
+  github: leamonac0823
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:13.870Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
