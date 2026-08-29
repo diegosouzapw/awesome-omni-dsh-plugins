@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: mayf3-dsh-session-doctor
+name: dsh-session-doctor
+description:
+  en: "Diagnose, unstick, and read DeepSeek Harness sessions. Five tools for every session: list, read, diagnose, recover, and message other Agent sessions."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - session
+  - agent
+  - diagnosis
+  - recover
+  - stuck
+source:
+  repository: https://github.com/mayf3/dsh-session-doctor
+  repositoryNodeId: R_kgDOT4xvWA
+  subpath: null
+  commit: 8147c144075ad7f7d86541f1393193cf3d522224
+creator:
+  github: mayf3
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:27.918Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
