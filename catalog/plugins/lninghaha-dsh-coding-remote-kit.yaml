@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lninghaha-dsh-coding-remote-kit
+name: dsh-coding-remote-kit
+description:
+  en: "DeepSeek Harness mobile pairing remote plugin: E2EE companion over a dual-plane allowlisted RPC (LAN / Tailscale / optional Cloudflare Quick Tunnel or self-hosted rendezvous)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - remote
+  - mobile
+  - pairing
+  - e2ee
+  - companion
+  - dsh-coding-remote-kit
+  - dsh
+source:
+  repository: https://github.com/lninghaha/dsh-coding-remote-kit
+  repositoryNodeId: R_kgDOT9ZA_g
+  subpath: null
+  commit: 8bbbd17e17e52506210f1d23518f4a1a3eb30d6f
+creator:
+  github: lninghaha
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:36.573Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
