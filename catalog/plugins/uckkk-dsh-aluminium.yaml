@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-aluminium
+name: dsh-aluminium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-aluminium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-aluminium
+source:
+  repository: https://github.com/uckkk/dsh-aluminium
+  repositoryNodeId: R_kgDOT-tg8Q
+  subpath: null
+  commit: fcb773200e3a3e3ebea76187394a3f3719b388b6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:23.487Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
