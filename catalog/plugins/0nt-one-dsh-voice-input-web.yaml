@@ -1,5 +1,5 @@
 schemaVersion: 1
-id: crazygummies-dsh-voice-input-web
+id: 0nt-one-dsh-voice-input-web
 name: dsh-voice-input-web
 description:
   en: "Voice input for DeepSeek Harness Web UI: a mic button in the composer tool row that uses the browser's Web Speech API (Chrome/Edge) to transcribe speech directly into the message draft. Zero dependencies, no API keys."
@@ -23,7 +23,7 @@ source:
   subpath: null
   commit: c2fceee6a865a8466f3909d3896172f0f2fad2fa
 creator:
-  github: CrazyGummies
+  github: 0nt-one
 package:
   ecosystem: source
 dsh:
