@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: perrylink-dsh-local-ai
+name: dsh-local-ai
+description:
+  en: "Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - ollama
+  - local-llm
+  - local-models
+  - offline
+  - privacy
+  - model-routing
+source:
+  repository: https://github.com/PerryLink/dsh-local-ai
+  repositoryNodeId: R_kgDOT6oSWA
+  subpath: null
+  commit: bc9270d8e2cf5dd81544717c639fb69d96c3ce75
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-local-ai
+  version: 0.2.0
+  integrity: sha512-9yi5ZXmDNPuh/hxYLBkjtVJF93wiwVCZwnatTh0TXqFpy6aReDYY/SPGjMUwvWaFYBKPkMst0DRZsrl2wQvUJA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:53.084Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
