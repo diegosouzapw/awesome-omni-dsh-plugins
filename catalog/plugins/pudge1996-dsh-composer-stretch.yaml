@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pudge1996-dsh-composer-stretch
+name: dsh-composer-stretch
+description:
+  en: "Auto-expand composer for DeepSeek Harness: a ⤢ button appears at the top-right of the composer card when the text wraps to 3+ visual lines, stretching the input to near-fullscreen height on click."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - composer
+  - expand
+  - textarea
+  - stretch
+  - dsh
+source:
+  repository: https://github.com/Pudge1996/dsh-composer-stretch
+  repositoryNodeId: R_kgDOUCICPw
+  subpath: null
+  commit: ec8a5186b00261edab877ad922ed027fc0b4500f
+creator:
+  github: Pudge1996
+package:
+  ecosystem: npm
+  name: dsh-composer-stretch
+  version: 0.1.1
+  integrity: sha512-g/qwdpyHfTRe4I42gqsd3ZfRIVZSZBUdDy41aqKpNNWG2oj341CdOtuSJIqTtVxY8MHmGv7DaxWsMsXwlyuC8g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:22.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
