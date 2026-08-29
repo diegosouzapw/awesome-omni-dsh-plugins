@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: bananasoldier01-dsh-tidychat
+name: "@bananasoldier01/dsh-tidychat"
+description:
+  en: Turn long DSH conversations into a scannable, skippable stream of conclusions.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - conversation
+  - timeline
+  - fold
+  - navigator
+source:
+  repository: https://github.com/BananaSoldier01/dsh-tidychat
+  repositoryNodeId: R_kgDOT6EgfQ
+  subpath: null
+  commit: 4bc374f56bece8be6efb3d5c4279233475867cb8
+creator:
+  github: BananaSoldier01
+package:
+  ecosystem: npm
+  name: "@bananasoldier01/dsh-tidychat"
+  version: 0.2.5
+  integrity: sha512-8dWqwitPcjfZ56t4e9g7tRy1rgvZidhNNKrv/b0ynKloC9UpQrgKyrEo3Zb+9Im/0e2mZp0M6aFIA0cO/4t+zA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:01.282Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
