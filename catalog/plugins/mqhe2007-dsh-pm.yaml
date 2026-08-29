@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: mqhe2007-dsh-pm
+name: dsh-pm
+description:
+  en: dsh-pm (pm = project management) is powered by ChunSun — a first-class DeepSeek Harness (DSH) plugin that deeply integrates ChunSun’s AI-native project delivery platform.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - chunsun
+  - project-management
+source:
+  repository: https://github.com/mqhe2007/dsh-pm
+  repositoryNodeId: R_kgDOT_Y20g
+  subpath: null
+  commit: e1db9ebe29fd30701d0bc327df7800a4eeec2481
+creator:
+  github: mqhe2007
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:52.417Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
