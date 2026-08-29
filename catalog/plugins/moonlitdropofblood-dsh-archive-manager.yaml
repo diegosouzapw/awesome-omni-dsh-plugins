@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moonlitdropofblood-dsh-archive-manager
+name: "@duke-dsh-plugins/dsh-archive-manager"
+description:
+  en: "Archive manager for DeepSeek Harness: group archived sessions by project, newest-first, with search, restore and delete."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - archive
+source:
+  repository: https://github.com/MoonlitDropOfBlood/dsh-archive-manager
+  repositoryNodeId: R_kgDOT8bc4w
+  subpath: null
+  commit: 891d2b78c1cca04d00b91edc57bb9d689d7afe54
+creator:
+  github: MoonlitDropOfBlood
+package:
+  ecosystem: npm
+  name: "@duke-dsh-plugins/dsh-archive-manager"
+  version: 1.3.4
+  integrity: sha512-4mBAlpgskPztuuIuUTBVudbpyTaT4HiE7RccW70XeYjKPrukxswGJuUlfcJ/Q2s7hsgxtde6VXu6h1n1+ZRBJw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:49.307Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
