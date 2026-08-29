@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sisyphussq-dsh-session-tools
+name: "@suqingsq/dsh-session-tools"
+description:
+  en: Cross-session tools and Web @session mentions for DeepSeek Harness.
+  evidencePath: packages/dsh-session-tools/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - sessions
+  - agent-tools
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-session-tools
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-session-tools"
+  version: 0.2.0
+  integrity: sha512-vVMi/o1Heep1fkoRVfS19umg8V3SLq99XaKiCS/3zslvecFxV7Fp9S53Ujq/LNrhfb1EbmQzrBxX7IKFYQSMZg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-session-tools/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
