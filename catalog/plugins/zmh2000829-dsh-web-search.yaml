@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zmh2000829-dsh-web-search
+name: "@lemoncat7/dsh-web-search"
+description:
+  en: Configurable and secure multi-provider web search for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - web-search
+  - searxng
+  - brave-search
+  - tavily
+  - gemini
+  - google-search-grounding
+  - wikipedia
+source:
+  repository: https://github.com/lemoncat7/dsh-web-search
+  repositoryNodeId: R_kgDOUD4knA
+  subpath: null
+  commit: f3da5b4605a254f0aac9cfab7a5d462f9ab7b208
+creator:
+  github: zmh2000829
+package:
+  ecosystem: npm
+  name: "@lemoncat7/dsh-web-search"
+  version: 0.1.1
+  integrity: sha512-UlukRuKqDVsxD5Lzjw05E0afD7kjz02FS88HJt1EOVdO4oor/3RCbcYxzL35Xx/ehBzSRaHsSkRxpnbrzVgMxw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:48.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
