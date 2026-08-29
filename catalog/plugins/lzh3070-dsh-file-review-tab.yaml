@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lzh3070-dsh-file-review-tab
+name: dsh-file-review-tab
+description:
+  en: Review agent-produced file changes (line-level red/green diff + undo) both as a chat turn-tail row and as a dsh-better-sidebar tab; a port of left0ver's dsh-file-review.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - diff
+  - code-review
+  - sidebar
+  - dsh
+source:
+  repository: https://github.com/Lzh3070/dsh-file-review-tab
+  repositoryNodeId: R_kgDOT9AsXg
+  subpath: null
+  commit: 31ef012c00708e9afe22b4eeff5740ee532c98da
+creator:
+  github: Lzh3070
+package:
+  ecosystem: npm
+  name: dsh-file-review-tab
+  version: 0.2.0
+  integrity: sha512-vUERh+pjUvnxX6jcFXO6UN9eIVo6EuSxLrQw7T7IKMfiUyFW2iFcNEr5J52yx3KbbwVWqF6ti9nm/D3dxhwv2w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:11.262Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
