@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: qinyre-dsh-plugin-capabilities
+name: dsh-plugin-capabilities
+description:
+  en: sh dsh plugin --profile web add dsh-plugin-capabilities
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - skills
+  - mcp
+source:
+  repository: https://github.com/qinyre/dsh-plugin-capabilities
+  repositoryNodeId: R_kgDOT6Tbmg
+  subpath: null
+  commit: 3412f8ddf0a92bdc89a3bab104b480f8745ebfc1
+creator:
+  github: qinyre
+package:
+  ecosystem: npm
+  name: dsh-plugin-capabilities
+  version: 0.3.6
+  integrity: sha512-mAKz+54pXIV56LwWxwNJ/HHTwca+kySyxMfazH8II5M0T8WHu1Ps+tzoIzrNhzG0wvZEhy86GhfEKiKL0kRWFQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:44.875Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
