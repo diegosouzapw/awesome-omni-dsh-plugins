@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jackcontrols-dsh-telegram-control
+name: dsh-telegram-control
+description:
+  en: "Remote-control plugin for DeepSeek Harness (dsh): drive agents, jobs and status from a Telegram bot"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - telegram
+  - remote-control
+source:
+  repository: https://github.com/jackControls/dsh-telegram-control
+  repositoryNodeId: R_kgDOT9AGfg
+  subpath: null
+  commit: 2430ffb80c7526d8a86184ea5107ae0f2ff4e431
+creator:
+  github: jackControls
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:39.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
