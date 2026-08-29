@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mite-removal
+name: dsh-mite-removal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mite-removal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mite-removal
+source:
+  repository: https://github.com/uckkk/dsh-mite-removal
+  repositoryNodeId: R_kgDOT-wRCA
+  subpath: null
+  commit: 9acfc47a9012a96cbd6fd98aaaaf4697402c6eb9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:31.912Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
