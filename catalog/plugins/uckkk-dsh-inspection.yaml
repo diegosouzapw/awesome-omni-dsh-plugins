@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-inspection
+name: dsh-inspection
+description:
+  en: bash dsh plugin add github:uckkk/dsh-inspection
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-inspection
+source:
+  repository: https://github.com/uckkk/dsh-inspection
+  repositoryNodeId: R_kgDOT-s2sw
+  subpath: null
+  commit: 7e74347e074d742e0d343f8a40fb752136e4ea54
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:10.003Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
