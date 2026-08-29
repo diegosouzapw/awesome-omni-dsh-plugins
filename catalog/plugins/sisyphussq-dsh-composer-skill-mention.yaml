@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sisyphussq-dsh-composer-skill-mention
+name: "@suqingsq/dsh-composer-skill-mention"
+description:
+  en: Codex-style $ and fullwidth ￥ Skill mentions for the DSH composer
+  evidencePath: packages/dsh-composer-skill-mention/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skills
+  - composer
+  - mentions
+source:
+  repository: https://github.com/SisyphusSQ/dsh-plugins
+  repositoryNodeId: R_kgDOT4EUmw
+  subpath: packages/dsh-composer-skill-mention
+  commit: fd704d0f4813b6cdb6416d03c7215eaf4e7e0654
+creator:
+  github: SisyphusSQ
+package:
+  ecosystem: npm
+  name: "@suqingsq/dsh-composer-skill-mention"
+  version: 0.2.0
+  integrity: sha512-TIMz1sXLtWIfPq8eEvRLVXXOE7GeDJ+6J4U4Nc3YWsKC1WRYLvowLheastt64U2UXUtfAbUVI9ouETj1hP4fPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-composer-skill-mention/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:08.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
