@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: naodeng-dsh-qa
+name: dsh-qa
+description:
+  en: "dsh-qa QA Workbench: a local software testing workbench plugin for DeepSeek Harness. Project/iteration dual-mode, full-flow requirements / test cases / defects / milestones / reports, native QA preset, themes, kanban and calendar."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - qa
+  - quality-assurance
+  - test
+  - workbench
+  - kanban
+  - dsh
+source:
+  repository: https://github.com/naodeng/dsh-qa
+  repositoryNodeId: R_kgDOT9A3IQ
+  subpath: null
+  commit: 9add75ccc4620dc1818df30e49f892687c24f1e2
+creator:
+  github: naodeng
+package:
+  ecosystem: npm
+  name: dsh-qa
+  version: 0.1.8
+  integrity: sha512-YFJC+vyqSNvce4nLkca/Njw43tJPDxJajUpy6orw2qkWiZ+KfXdeploZJqCVpZ4YMTU2BYK2VPg8RdrCLI0Pog==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: PolyForm-Noncommercial-1.0.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:42.077Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
