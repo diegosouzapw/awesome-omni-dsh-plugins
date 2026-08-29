@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: penguin-oo-dsh-pathlink
+name: dsh-pathlink
+description:
+  en: "Ctrl+click file paths and links in DeepSeek Harness chat: paths open their folder in the OS file manager, links open in a new browser tab."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - path
+  - link
+  - open
+  - web
+source:
+  repository: https://github.com/penguin-oo/dsh-pathlink
+  repositoryNodeId: R_kgDOT4_Z0g
+  subpath: null
+  commit: a30e98f7279db0f34a00b587546ccb7a43c5ffad
+creator:
+  github: penguin-oo
+package:
+  ecosystem: npm
+  name: dsh-pathlink
+  version: 0.1.3
+  integrity: sha512-xsfS0JfPOlcvUXYeysds/d+afqorjDLUvSzS226QX8C3K75mMzxtITbV0AyY2AQqePnp06plNe5NJV+dTLfVsQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:00.177Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
