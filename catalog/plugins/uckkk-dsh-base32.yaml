@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-base32
+name: dsh-base32
+description:
+  en: bash dsh plugin add dsh-base32 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-base32" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - base32
+  - encode
+  - decode
+source:
+  repository: https://github.com/uckkk/dsh-base32
+  repositoryNodeId: R_kgDOT9sV5w
+  subpath: null
+  commit: a09b41612f6f1e09c511ae7a164d72b54428ed5d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:38.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
