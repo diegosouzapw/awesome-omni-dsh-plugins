@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: berserk0501-dsh-soundscape
+name: "@dsh-external/dsh-soundscape"
+description:
+  en: "- GET/POST /api/dsh-soundscape/config - GET /api/dsh-soundscape/sounds - POST /api/dsh-soundscape/play-test - POST /api/dsh-soundscape/rescan - POST /api/dsh-soundscape/open-sounds-folder"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - post
+  - soundscape
+  - config
+  - sounds
+  - play
+  - test
+  - rescan
+  - open
+  - folder
+  - dsh
+source:
+  repository: https://github.com/berserk0501/dsh-soundscape
+  repositoryNodeId: R_kgDOUE7J1w
+  subpath: null
+  commit: 9e1c9589eefcd125e34c6e25f15e5c636e32cf26
+creator:
+  github: berserk0501
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:23.453Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
