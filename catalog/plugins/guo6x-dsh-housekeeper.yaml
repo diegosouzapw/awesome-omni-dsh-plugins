@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: guo6x-dsh-housekeeper
+name: dsh-housekeeper
+description:
+  en: "Environment housekeeper for DeepSeek Harness: toolchain inventory, agent scratch/cache scan with safe one-click cleanup, and the machine rules file (AGENTS.md) view/edit - all in the Web GUI settings. Zero runtime dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - housekeeping
+  - cache
+  - cleanup
+  - toolchain
+source:
+  repository: https://github.com/guo6x/dsh-housekeeper
+  repositoryNodeId: R_kgDOT5RqMA
+  subpath: null
+  commit: 9d4c3be7d01d9c86e96cbe8d5a7088c1e6f4548c
+creator:
+  github: guo6x
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:40:58.196Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
