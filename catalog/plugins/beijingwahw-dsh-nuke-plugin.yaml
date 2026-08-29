@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: beijingwahw-dsh-nuke-plugin
+name: dsh-nuke-plugin
+description:
+  en: bash dsh plugin add beijingwahw/dsh-nuke-plugin --profile web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - nuke
+  - cleanup
+  - transaction
+source:
+  repository: https://github.com/beijingwahw/dsh-nuke-plugin
+  repositoryNodeId: R_kgDOT7NzMA
+  subpath: null
+  commit: 9d3708f3f821678b39c75e0532f20da655e812bf
+creator:
+  github: beijingwahw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:12.422Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
