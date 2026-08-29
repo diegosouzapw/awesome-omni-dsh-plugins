@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-roast-time
+name: dsh-roast-time
+description:
+  en: bash dsh plugin add github:uckkk/dsh-roast-time
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-roast-time
+source:
+  repository: https://github.com/uckkk/dsh-roast-time
+  repositoryNodeId: R_kgDOT-DqkA
+  subpath: null
+  commit: 8fed23a9f5373242d486ba787182f8715a6a4617
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:51.447Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
