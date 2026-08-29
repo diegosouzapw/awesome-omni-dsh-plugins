@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-czechia
+name: dsh-czechia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-czechia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-czechia
+source:
+  repository: https://github.com/uckkk/dsh-czechia
+  repositoryNodeId: R_kgDOT_GFcw
+  subpath: null
+  commit: 3cf301a428246cd66d98fcfa3bf45a836be6b3c9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:14.923Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
