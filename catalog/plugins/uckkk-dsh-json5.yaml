@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-json5
+name: dsh-json5
+description:
+  en: bash dsh plugin add dsh-json5 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json5" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json5
+  - json
+  - parser
+source:
+  repository: https://github.com/uckkk/dsh-json5
+  repositoryNodeId: R_kgDOT9sWcQ
+  subpath: null
+  commit: 24527af78aee7e687d9ec5668b7171d4ca32b439
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:17.496Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
