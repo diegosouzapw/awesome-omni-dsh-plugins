@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-video-size
+name: dsh-video-size
+description:
+  en: bash dsh plugin add github:uckkk/dsh-video-size
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-video-size
+source:
+  repository: https://github.com/uckkk/dsh-video-size
+  repositoryNodeId: R_kgDOT-xkOQ
+  subpath: null
+  commit: c30538547b97ae24df8fab1bd2a186a9a79cc20c
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:06.193Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
