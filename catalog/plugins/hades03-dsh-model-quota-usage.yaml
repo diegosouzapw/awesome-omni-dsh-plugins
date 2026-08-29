@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: hades03-dsh-model-quota-usage
+name: dsh-model-quota-usage
+description:
+  en: powershell dsh plugin --profile web add "github:Hades03/dsh-model-quota-usage"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - token
+  - model-usage
+  - quota
+  - cost
+  - usage
+  - billing
+  - budget
+  - i18n
+  - bilingual
+  - zh
+  - en
+  - language
+source:
+  repository: https://github.com/Hades03/dsh-model-quota-usage
+  repositoryNodeId: R_kgDOUApiAg
+  subpath: null
+  commit: 21b6b35ee5fdd03a71a6d2557bc933c3fdd1c05e
+creator:
+  github: Hades03
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:47.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
