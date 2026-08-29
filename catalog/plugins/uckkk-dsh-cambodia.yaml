@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cambodia
+name: dsh-cambodia
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cambodia
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cambodia
+source:
+  repository: https://github.com/uckkk/dsh-cambodia
+  repositoryNodeId: R_kgDOT-9Fzg
+  subpath: null
+  commit: a4ccdd47c96a16045dd27bd5430f8679258e0fc3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:47.389Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
