@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: noreply-dsh-marketplace
+name: dsh-marketplace
+description:
+  en: "Plugin marketplace for DeepSeek Harness: browse plugins collected by the dshregistry index, install/uninstall with hot reload via profile cordis.patch.yml, with security warning and risk explanation before every install."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - marketplace
+  - browse
+  - collected
+  - dshregistry
+  - index
+  - install
+  - uninstall
+  - reload
+  - profile
+  - cordis
+  - patch
+  - security
+  - warning
+  - risk
+  - explanation
+  - before
+source:
+  repository: https://github.com/lmy414/dshregistry
+  repositoryNodeId: R_kgDOT5nW0g
+  subpath: plugin
+  commit: 0e3d6ca541ef52c68f07dd898c13e493574d5d29
+creator:
+  github: noreply
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:54:09.347Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
