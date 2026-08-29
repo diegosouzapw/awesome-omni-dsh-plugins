@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cet-pass
+name: dsh-cet-pass
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cet-pass
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cet-pass
+source:
+  repository: https://github.com/uckkk/dsh-cet-pass
+  repositoryNodeId: R_kgDOT-DhaA
+  subpath: null
+  commit: d46d7c9b7037352d1ec2bc7da8bd1eba2cee5858
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:21.377Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
