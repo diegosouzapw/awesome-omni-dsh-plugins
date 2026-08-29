@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-http
+name: dsh-http
+description:
+  en: bash dsh plugin add dsh-http 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-http" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - request
+source:
+  repository: https://github.com/uckkk/dsh-http-uckkk
+  repositoryNodeId: R_kgDOT6KWmg
+  subpath: null
+  commit: 3949476a6f794d657fd4a7072c2eb523231a9fb3
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-http
+  version: 0.1.0
+  integrity: sha512-JKgueNT55gj3OVkl/YjWmBbFgTYJYkhiOr7o979nfX17nyC81oUWHsU03iovq4y1TwutJ3uzJS2dUbaawht2/w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:56.117Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
