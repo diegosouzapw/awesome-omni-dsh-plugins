@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: renji004-dsh-omni-vision
+name: dsh-omni-vision
+description:
+  en: "A canvas the agent draws on and then sees: eyes render draws text/shapes in the Web GUI, stores the PNG locally, and hands the result back to the model. Windows-only: eyes ocr reads text via the built-in Windows OCR engine (Windows.Media.Ocr)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - canvas
+  - agent
+  - draws
+  - sees
+  - eyes
+  - render
+  - text
+  - shapes
+  - stores
+  - locally
+  - hands
+  - result
+  - back
+  - model
+  - windows
+  - only
+source:
+  repository: https://github.com/Renji004/dsh-omni-vision
+  repositoryNodeId: R_kgDOT8Wvig
+  subpath: null
+  commit: 661ac80f70c9784580b7ce2edb75edb9db170f1f
+creator:
+  github: Renji004
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:01.480Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
