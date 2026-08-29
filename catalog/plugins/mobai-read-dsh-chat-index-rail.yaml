@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: mobai-read-dsh-chat-index-rail
+name: dsh-chat-index-rail
+description:
+  en: "Chat input index rail for DeepSeek Harness (DSH) Web UI: one bar per user message on the right edge; hover to preview, click to jump, active bar follows your scroll. Client-only, no host half, no approval needed, survives restarts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chat
+  - index
+  - sidebar
+  - navigation
+source:
+  repository: https://github.com/Mobai-read/dsh-chat-index-rail
+  repositoryNodeId: R_kgDOT5Lo2A
+  subpath: null
+  commit: 217cb0ffdf07dc03aab3312677cac84059c898d8
+creator:
+  github: Mobai-read
+package:
+  ecosystem: npm
+  name: dsh-chat-index-rail
+  version: 0.1.1
+  integrity: sha512-vZdYzeyxvQCoYbVOhiLcMBzMBRjSJqKxywnb3ZtE7qLfZ0C9sI2skK+/hAw+lb8hQNrpcNkao0ul9f0I5Erslw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:59.359Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
