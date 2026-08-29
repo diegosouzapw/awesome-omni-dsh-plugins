@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: mantonlove-dsh-client-ui-prism
+name: "@deepseek-ai/dsh-client-ui-prism"
+description:
+  en: "Prism: a glassmorphism theme layer for the Web surface — adjustable blur, frost, six per-zone glass opacities, damped knobs, font scale/family, accent and backdrop hue, animated aurora or photo/GIF wallpaper"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - prism
+  - glassmorphism
+  - theme
+  - layer
+  - surface
+  - adjustable
+  - blur
+  - frost
+  - zone
+  - glass
+  - opacities
+  - damped
+  - knobs
+  - font
+  - scale
+  - family
+source:
+  repository: https://github.com/mantonlove/dsh-prism-plugin
+  repositoryNodeId: R_kgDOT8MYhQ
+  subpath: null
+  commit: 6dab4f9d52561e835d7ce183b43babf7a70445ec
+creator:
+  github: mantonlove
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:25.019Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
