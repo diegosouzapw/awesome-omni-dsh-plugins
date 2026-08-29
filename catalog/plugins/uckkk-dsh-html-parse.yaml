@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-html-parse
+name: dsh-html-parse
+description:
+  en: bash dsh plugin add dsh-html-parse 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-html-parse" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - html
+  - parse
+  - scrape
+source:
+  repository: https://github.com/uckkk/dsh-html-parse
+  repositoryNodeId: R_kgDOT6GUWg
+  subpath: null
+  commit: 7c38037992840fac42c3f9cf9e30e21d9b57643d
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-html-parse
+  version: 0.1.0
+  integrity: sha512-RPn4x+MfzK4g1tYkyrOhCqbFa7/apAu0o8xYrfh2olR/fhkqdMbUcwqy+a4efru+xO+uY/xGzfQ9CrBI3BSiwQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:55.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
