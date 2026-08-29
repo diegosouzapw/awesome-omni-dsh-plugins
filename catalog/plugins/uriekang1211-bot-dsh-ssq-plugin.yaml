@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uriekang1211-bot-dsh-ssq-plugin
+name: dsh-ssq-plugin
+description:
+  en: sh dsh plugin --profile web remove dsh-ssq-plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - ssq
+  - lottery
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/uriekang1211-bot/dsh-ssq-plugin
+  repositoryNodeId: R_kgDOT8L6rQ
+  subpath: null
+  commit: 08a3281ab8ff2c168f7cde9a56af0887c6d56bd6
+creator:
+  github: uriekang1211-bot
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:36.355Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
