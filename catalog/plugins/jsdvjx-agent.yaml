@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jsdvjx-agent
+name: "@dshn/agent"
+description:
+  en: "Forward this machine's local DeepSeek Harness (dsh) web service to the public internet over ds.hn: an outbound WSS tunnel to the relay, plus the trust-fence integration that lets forwarded requests through."
+  evidencePath: packages/agent/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - tunnel
+  - forwarding
+  - ds-hn
+source:
+  repository: https://github.com/jsdvjx/dshn
+  repositoryNodeId: R_kgDOT9HEHA
+  subpath: packages/agent
+  commit: d489c440139bfd9ca03bf9f105e038fa4a3d8d26
+creator:
+  github: jsdvjx
+package:
+  ecosystem: npm
+  name: "@dshn/agent"
+  version: 0.3.5
+  integrity: sha512-koe5Kcpk5FBPJayDIog9G1EYGOPHMmYhXERcpI5lHjyN3LQg0xRFwQm/5J4ppSSUgNhaBMe4MoOwdIsDA4UMew==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/agent/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:58.157Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
