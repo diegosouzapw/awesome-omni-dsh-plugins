@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kestiny18-dsh-redact
+name: dsh-redact
+description:
+  en: Fail-closed canonical tool-output tokenization for DeepSeek Harness
+  evidencePath: dsh-redact/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - redaction
+  - secrets
+  - llm-security
+  - dsh
+source:
+  repository: https://github.com/kestiny18/dsh-plugins
+  repositoryNodeId: R_kgDOT4WKWQ
+  subpath: dsh-redact
+  commit: 9ed3d60d9dd93c21b48211034304686ebcf9c027
+creator:
+  github: kestiny18
+package:
+  ecosystem: npm
+  name: dsh-redact
+  version: 0.1.0
+  integrity: sha512-rHLns1vLqzk6WQrBP0t7xAPUiU/D94I1RmHzsZhicWeZmv8M5S8Cobe2LNkgy7JSrKSf8lEcxB621CBLe9pdZw==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-redact/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:16.190Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
