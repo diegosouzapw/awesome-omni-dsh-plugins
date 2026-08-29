@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: moonlitdropofblood-dsh-memory-manager
+name: "@duke-dsh-plugins/dsh-memory-manager"
+description:
+  en: "Persistent project memory for DeepSeek Harness, ported from ZCode: ZCode-style markdown memory store (per project + global) with a full memory-management page in Settings, index-first prompt injection, agent memory tools (memory save / memory get / memory list), plus one-click import from an existing ZCode memory direc"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+source:
+  repository: https://github.com/MoonlitDropOfBlood/dsh-memory-manager
+  repositoryNodeId: R_kgDOT8cihQ
+  subpath: null
+  commit: 6828583e6bd8b094eaef803a181977e132b202c6
+creator:
+  github: MoonlitDropOfBlood
+package:
+  ecosystem: npm
+  name: "@duke-dsh-plugins/dsh-memory-manager"
+  version: 1.3.3
+  integrity: sha512-IPPspoXdKbYEA8dkwkVT1Im5iHWQs9e6bAlehgrGTQtIOpqwAaFPdUgof9N6oJEnkDWNOdd7fL7Ao5W9pIuB1A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:00.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
