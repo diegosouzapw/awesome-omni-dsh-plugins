@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: simon-world-dsh-journal-monitor
+name: dsh-journal-monitor
+description:
+  en: sh dsh plugin --profile web add git+https://github.com/SIMON-WORLD/dsh-journal-monitor.git
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - journal
+  - rss
+  - monitor
+  - economics
+source:
+  repository: https://github.com/SIMON-WORLD/dsh-journal-monitor
+  repositoryNodeId: R_kgDOT7RJDw
+  subpath: null
+  commit: 5e701342e14db5711f193ac16d66f3407da23b38
+creator:
+  github: SIMON-WORLD
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:55.999Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
