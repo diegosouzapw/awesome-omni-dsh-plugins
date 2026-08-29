@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: chengshuyi-dsh-plugin
+name: "@agentsight/dsh-plugin"
+description:
+  en: AgentSight observability plugin for DeepSeek Harness
+  evidencePath: src/agentsight/dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - agentsight
+  - observability
+  - dsh
+source:
+  repository: https://github.com/alibaba/anolisa
+  repositoryNodeId: R_kgDOR0eWAQ
+  subpath: src/agentsight/dsh-plugin
+  commit: 0b99b4fae5dc46b96a4a8c6203b2a1ed10143325
+creator:
+  github: chengshuyi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: src/agentsight/dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:10.929Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
