@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-fibonacci
+name: dsh-fibonacci
+description:
+  en: bash dsh plugin add github:uckkk/dsh-fibonacci
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-fibonacci
+source:
+  repository: https://github.com/uckkk/dsh-fibonacci
+  repositoryNodeId: R_kgDOT9uCSA
+  subpath: null
+  commit: 069d41bdffddad053ead8fd31e710be62c526221
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:26.085Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
