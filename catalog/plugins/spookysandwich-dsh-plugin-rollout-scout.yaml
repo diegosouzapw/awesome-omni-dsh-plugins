@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: spookysandwich-dsh-plugin-rollout-scout
+name: dsh-plugin-rollout-scout
+description:
+  en: "Detect which conversation model your DeepSeek Harness account is served: score probe conversations' live chain-of-thought, cancel old-model probes in seconds, keep confident catches."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis-plugin
+  - rollout
+  - ab-test
+  - model-detection
+source:
+  repository: https://github.com/SpookySandwich/dsh-plugin-rollout-scout
+  repositoryNodeId: R_kgDOT-uzLA
+  subpath: null
+  commit: a56c1b0dd8ad0299e8f9dc537fd3191384d160b8
+creator:
+  github: SpookySandwich
+package:
+  ecosystem: npm
+  name: dsh-plugin-rollout-scout
+  version: 1.4.0
+  integrity: sha512-ZuL4lXdCEhbbf6vkgcUsR95p1ngNIf1toiNp9Bb6QULmo14eNEq0QkdkfokoxqJqY/eEQEaaLiGwnSML8k9LuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:44.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
