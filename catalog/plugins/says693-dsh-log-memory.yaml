@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: says693-dsh-log-memory
+name: dsh-log-memory
+description:
+  en: A DSH (Deepseek Harness) plugin that pops up a guardian panel for your session logs the moment you open the Web UI — back up, tune the reminder interval, and pick your backup folder, all inside the popup.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - backup
+  - reminder
+source:
+  repository: https://github.com/says693/dsh-log-memory
+  repositoryNodeId: R_kgDOT6bNQw
+  subpath: null
+  commit: 1b785f25e2f4a841bcaaa69adbe1110f220b83c0
+creator:
+  github: says693
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:42.074Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
