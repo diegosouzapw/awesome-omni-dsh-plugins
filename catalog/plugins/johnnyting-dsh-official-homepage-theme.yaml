@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: johnnyting-dsh-official-homepage-theme
+name: dsh-official-homepage-theme
+description:
+  en: bash dsh plugin --profile web add dsh-official-homepage-theme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-theme
+source:
+  repository: https://github.com/JohnnyTing/dsh-official-homepage-theme
+  repositoryNodeId: R_kgDOUCaPbA
+  subpath: null
+  commit: 085adf37b3ac131ea95a3be7cb4f0a258ef3cd96
+creator:
+  github: JohnnyTing
+package:
+  ecosystem: npm
+  name: dsh-official-homepage-theme
+  version: 1.0.5
+  integrity: sha512-QtVtCdxJE5wT9uyi2buEavSM+p8QJcjkPApO8KUg261T2mw2qWRt5RK0hQGnXj2fe0CWF1909Lb5pWCoDL0aFA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:18.756Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
