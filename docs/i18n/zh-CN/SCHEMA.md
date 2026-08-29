@@ -14,8 +14,7 @@
 完整性(integrity)值要求 SHA-512 SRI,许可证要求 SPDX 表达式解析,并拒绝重复键。一个值即使匹配了
 模式的 pattern,仍可能在语义层面被拒绝。
 
-顶层规则:条目是单个 YAML 对象,`additionalProperties: false`(拒绝未知字段),并且以下**所有**字段
-都是必需的。
+顶层规则：条目是单个 YAML 对象，`additionalProperties: false`（未知字段会被拒绝），并且下面所有字段都是必填的，只有 `media` 例外——它是唯一可选的字段。
 
 ## 顶层字段
 
@@ -38,6 +37,7 @@
 | `license`         | object  |   是    | 上游 SPDX 许可证表达式                                        |
 | `verification`    | object  |   是    | 验证状态、检查时间、身份和冒烟测试                            |
 | `provenance`      | object  |   是    | 公开的 Discussion/评论 URL,或 `null`                         |
+| `media`           | array   |    否    | 最多 6 张截图/视频，每个 URL 都固定到 `source.commit` |
 
 ### `schemaVersion`
 
@@ -213,6 +213,25 @@ source 描述符刻意不存储其他任何内容:仓库、提交和子路径均
 | `discussion` | string or null | 存在时为公开 Discussion URL                       |
 | `comment`    | string or null | 存在时为公开评论 URL                              |
 
+### `media`
+
+唯一可选的字段。一个最多包含 **6** 项的数组，每项描述插件的一张截图或一段短视频：
+
+| 属性 | 类型 | 规则 |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` 或 `video` |
+| `url`    | string | 不可变的 GitHub URL，最长 2048 个字符（见下文） |
+| `alt`    | string | 替代文本，1–120 个字符 |
+
+这里的 URL 必须和 `source.commit` 一样不可变。带分支名的 `raw.githubusercontent.com` 路径（`.../main/docs/shot.png`）显示的是该分支今天的内容，因此一旦分支移动，条目就会发布一张未经审核的图片。只接受两种形式：
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — 固定到提交的 raw 路径；
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub 的内容寻址上传 URL，用于 `video` 项。
+
+schema 只保证安全形状（主机、40 位十六进制引用、长度上限）。其余由 `catalog validate` 在语义层保证：URL 必须固定到**本条目自己的** `source.commit`，且位于**本条目自己的**仓库中；分支 URL 会被拒绝，报错 `media[n].url must pin the entry commit, not a branch`。
+
+没有可展示的内容时请完全省略该字段——`media: []` 不是表达“没有截图”的有效方式。该字段是增量的：在它出现之前发布的条目依然有效，忽略它的消费者读取每个条目的方式与以前完全相同。
+
 ## 模式不检查的内容
 
 该模式在设计上只做本地和结构性检查。它**不会**验证仓库是否存在、节点 ID 是否与 URL 匹配、证据路径
@@ -220,4 +239,4 @@ source 描述符刻意不存储其他任何内容:仓库、提交和子路径均
 [CONTRIBUTING.md](../../CONTRIBUTING.md) 和 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) 中所述的
 维护者审查门禁。
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

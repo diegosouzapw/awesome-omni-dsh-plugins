@@ -1,3 +1,5 @@
+import type { PublicCatalogMedia } from "./publicCatalogValidator.js";
+
 export type DiscoveryKind =
   | "discussion"
   | "comment"
@@ -121,6 +123,11 @@ export interface QualifiedCandidate extends Candidate {
     stars: number | null;
   };
   fieldEvidence: Readonly<Record<string, readonly string[]>>;
+  /**
+   * Screenshots or short videos read from the README at `commit`, every URL rebased onto that
+   * commit. Absent when the README shows none — an empty `media` list is never written.
+   */
+  media?: readonly PublicCatalogMedia[];
 }
 
 function normalizePluginSubpath(subpath: string | null): string {

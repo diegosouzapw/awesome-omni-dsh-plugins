@@ -18,9 +18,9 @@ pag-parse ng SPDX expression para sa mga lisensya, at pagtanggi ng dobleng key. 
 tumugma ang isang halaga sa pattern ng schema at pagkatapos ay tanggihan pa rin nang
 semantikal.
 
-Mga tuntunin sa tuktok na antas: ang entry ay isang YAML object, `additionalProperties: false`
-(tinatanggihan ang mga hindi kilalang field), at **lahat** ng mga sumusunod na field ay
-kinakailangan.
+Mga panuntunan sa pinakamataas na antas: ang entry ay iisang YAML object,
+`additionalProperties: false` (tinatanggihan ang hindi kilalang mga field), at lahat ng field sa
+ibaba ay kailangan maliban sa `media` — ang tanging opsyonal na field.
 
 ## Mga field sa tuktok na antas
 
@@ -43,6 +43,7 @@ kinakailangan.
 | `license`         | object  |   oo    | Upstream SPDX license expression                              |
 | `verification`    | object  |   oo    | Estado ng verification, oras ng pagsusuri, pagkakakilanlan, at smoke test      |
 | `provenance`      | object  |   oo    | Mga pampublikong Discussion/comment URL o `null`                      |
+| `media`           | array   |    hindi    | Hanggang 6 na screenshot/video, bawat URL naka-pin sa `source.commit` |
 
 ### `schemaVersion`
 
@@ -235,6 +236,35 @@ Mga pampublikong link ng provenance, na ang bawat isa ay URI o `null`:
 | `discussion` | string o null | Pampublikong Discussion URL kapag mayroon            |
 | `comment`    | string o null | Pampublikong comment URL kapag mayroon               |
 
+### `media`
+
+Ang tanging opsyonal na field. Isang array na may hindi hihigit sa **6** na item, bawat isa ay naglalarawan ng isang screenshot o maikling video ng plugin:
+
+| Katangian | Uri | Mga panuntunan |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` o `video` |
+| `url`    | string | Hindi nagbabagong URL ng GitHub, hanggang 2048 karakter (tingnan sa ibaba) |
+| `alt`    | string | Alternatibong teksto, 1–120 karakter |
+
+Ang URL dito ay kailangang kasing-hindi-nagbabago ng `source.commit`. Ang landas na
+`raw.githubusercontent.com` na may pangalan ng branch (`.../main/docs/shot.png`) ay nagpapakita ng
+laman ng branch na iyon ngayon, kaya maglalathala ang entry ng hindi nasuring larawan sa araw na
+gumalaw ang branch. Dalawang anyo ang tinatanggap:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — ang naka-pin sa commit na raw na landas;
+- `https://github.com/<owner>/<repo>/assets/…` — ang content-addressed na upload URL ng GitHub, para sa mga item na `video`.
+
+Ang schema ay nagpapatupad lamang ng ligtas na anyo (host, 40-karakter na hexadecimal na
+sanggunian, may hangganang haba). Ang natitira ay ipinapatupad ng `catalog validate` nang
+semantiko: kailangang i-pin ng URL ang `source.commit` **ng entry mismo** sa repositoryo **ng
+entry mismo**, at ang URL ng branch ay tinatanggihan gamit ang
+`media[n].url must pin the entry commit, not a branch`.
+
+Alisin nang buo ang field kapag walang maipapakita — hindi wastong paraan ang `media: []` upang
+sabihing "walang screenshot". Karagdagan ang field na ito: mananatiling wasto ang mga entry na
+nailathala bago ito umiral, at ang mambabasang hindi ito pinapansin ay babasahin ang bawat entry
+nang eksaktong tulad ng dati.
+
 ## Ano ang hindi sinusuri ng schema
 
 Ang schema ay sinasadyang lokal at structural. **Hindi** nito biniberipika na umiiral ang
@@ -243,4 +273,4 @@ commit, na tama ang bilang ng bituin, o na pag-aari ng lumikha ang source. Ang m
 iyon ay nabibilang sa mga review gate ng maintainer na inilarawan sa
 [CONTRIBUTING.md](../../CONTRIBUTING.md) at [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

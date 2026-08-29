@@ -16,8 +16,9 @@ validate`, zorunlu semantik ayrıştırıcılar uygular: sürümler için tam Se
 değerleri için SHA-512 SRI, lisanslar için SPDX ifade ayrıştırması ve yinelenen anahtar reddi.
 Bir değer şema desenine uyabilir ve yine de semantik olarak reddedilebilir.
 
-Üst düzey kurallar: kayıt tek bir YAML nesnesidir, `additionalProperties: false` (bilinmeyen
-alanlar reddedilir) ve aşağıdaki alanların **tümü** zorunludur.
+Üst düzey kurallar: girdi tek bir YAML nesnesidir, `additionalProperties: false`
+(bilinmeyen alanlar reddedilir) ve aşağıdaki alanların tümü zorunludur — tek isteğe bağlı alan
+olan `media` hariç.
 
 ## Üst düzey alanlar
 
@@ -40,6 +41,7 @@ alanlar reddedilir) ve aşağıdaki alanların **tümü** zorunludur.
 | `license`         | object  |   evet    | Üst kaynak SPDX lisans ifadesi                                     |
 | `verification`    | object  |   evet    | Doğrulama durumu, kontrol zamanı, kimlik ve smoke test      |
 | `provenance`      | object  |   evet    | Genel Discussion/yorum URL'leri veya `null`                      |
+| `media`           | array   |    hayır    | En fazla 6 ekran görüntüsü/video, her URL `source.commit`e sabitlenir |
 
 ### `schemaVersion`
 
@@ -220,6 +222,33 @@ Her biri bir URI veya `null` olan genel köken bağlantıları:
 | `discussion` | string veya null | Bir tane var olduğunda genel Discussion URL'si            |
 | `comment`    | string veya null | Bir tane var olduğunda genel yorum URL'si            |
 
+### `media`
+
+Tek isteğe bağlı alan. En fazla **6** öğeden oluşan bir dizi; her öğe eklentinin bir ekran görüntüsünü veya kısa bir videosunu tanımlar:
+
+| Özellik | Tür | Kurallar |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` veya `video` |
+| `url`    | string | Değişmez GitHub URL'si, en fazla 2048 karakter (aşağıya bakın) |
+| `alt`    | string | Alternatif metin, 1–120 karakter |
+
+Buradaki URL, `source.commit` kadar değişmez olmalıdır. Dal adı taşıyan bir
+`raw.githubusercontent.com` yolu (`.../main/docs/shot.png`) o dalın bugün içerdiğini gösterir;
+yani dal hareket ettiği gün girdi, incelenmemiş bir görseli yayımlamış olur. İki biçim kabul
+edilir:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — commit'e sabitlenmiş raw yolu;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub'ın içerik adresli yükleme URL'si, `video` öğeleri için.
+
+Şema yalnızca güvenli biçimi zorunlu kılar (ana makine, 40 karakterlik onaltılık başvuru,
+sınırlı uzunluk). Gerisini `catalog validate` anlamsal olarak zorunlu kılar: URL, **girdinin
+kendi** deposunda **girdinin kendi** `source.commit`ine sabitlenmelidir ve bir dal URL'si
+`media[n].url must pin the entry commit, not a branch` ile reddedilir.
+
+Gösterilecek bir şey yoksa alanı tamamen atlayın — `media: []`, "ekran görüntüsü yok" demenin
+geçerli bir yolu değildir. Alan eklemelidir: o var olmadan önce yayımlanmış girdiler geçerli
+kalır ve alanı yok sayan bir tüketici her girdiyi tam olarak eskisi gibi okur.
+
 ## Şemanın denetlemediği
 
 Şema kasıtlı olarak yerel ve yapısaldır. Deponun var olduğunu, düğüm kimliğinin URL ile
@@ -228,4 +257,4 @@ olduğunu veya üreticinin kaynağa sahip olduğunu **doğrulamaz**. Bu denetiml
 [CONTRIBUTING.md](../../CONTRIBUTING.md) ve [docs/GOVERNANCE.md](GOVERNANCE.md) içinde
 açıklanan sürdürücü inceleme kapılarına aittir.
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

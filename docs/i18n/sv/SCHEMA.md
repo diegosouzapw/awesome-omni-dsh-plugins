@@ -16,8 +16,8 @@ Två valideringslager tillämpas. Det offentliga schemat upprätthåller avgrän
 integritetsvärden, SPDX-uttrycksparsning för licenser och avvisning av dubblettnycklar. Ett värde
 kan matcha schemamönstret och ändå avvisas semantiskt.
 
-Toppnivåregler: posten är ett enda YAML-objekt, `additionalProperties: false` (okända fält
-avvisas) och **alla** följande fält är obligatoriska.
+Regler på toppnivå: posten är ett enda YAML-objekt, `additionalProperties: false`
+(okända fält avvisas), och alla fält nedan är obligatoriska utom `media`, det enda valfria fältet.
 
 ## Toppnivåfält
 
@@ -40,6 +40,7 @@ avvisas) och **alla** följande fält är obligatoriska.
 | `license`         | object  |   ja     | Upstream SPDX-licensuttryck                                   |
 | `verification`    | object  |   ja     | Verifieringsstatus, kontrolltidpunkt, identitet och röktest   |
 | `provenance`      | object  |   ja     | Offentliga Discussion-/kommentar-URL:er eller `null`          |
+| `media`           | array   |    nej    | Upp till 6 skärmbilder/videor, varje URL fäst vid `source.commit` |
 
 ### `schemaVersion`
 
@@ -222,6 +223,33 @@ Offentliga provenienslänkar, vardera en URI eller `null`:
 | `discussion` | string eller null | Offentlig Discussion-URL när en sådan finns |
 | `comment`    | string eller null | Offentlig kommentar-URL när en sådan finns  |
 
+### `media`
+
+Det enda valfria fältet. En array med högst **6** element, där vart och ett beskriver en skärmbild eller en kort video av insticksmodulen:
+
+| Egenskap | Typ | Regler |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` eller `video` |
+| `url`    | string | Oföränderlig GitHub-URL, högst 2048 tecken (se nedan) |
+| `alt`    | string | Alternativtext, 1–120 tecken |
+
+En URL här måste vara lika oföränderlig som `source.commit`. En
+`raw.githubusercontent.com`-sökväg med ett grennamn (`.../main/docs/shot.png`) visar det grenen
+innehåller idag, så posten skulle publicera en ogranskad bild den dag grenen flyttas. Två former
+accepteras:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — den fästa raw-sökvägen;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHubs innehållsadresserade uppladdnings-URL, för `video`-element.
+
+Schemat kräver den säkra formen (värd, 40 tecken lång hexadecimal referens, begränsad längd).
+`catalog validate` kräver resten semantiskt: URL:en måste fästa **postens egen** `source.commit` i
+**postens eget** förråd, och en gren-URL avvisas med
+`media[n].url must pin the entry commit, not a branch`.
+
+Utelämna fältet helt när det inte finns något att visa — `media: []` är inte ett giltigt sätt att
+säga "inga skärmbilder". Fältet är additivt: poster som publicerades innan det fanns är fortfarande
+giltiga, och en konsument som ignorerar det läser varje post precis som förut.
+
 ## Vad schemat inte kontrollerar
 
 Schemat är avsiktligt lokalt och strukturellt. Det verifierar **inte** att repositoryt finns, att
@@ -230,4 +258,4 @@ korrekt eller att skaparen äger källan. Dessa kontroller tillhör de
 underhållargranskningsgrindar som beskrivs i [CONTRIBUTING.md](../../CONTRIBUTING.md) och
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

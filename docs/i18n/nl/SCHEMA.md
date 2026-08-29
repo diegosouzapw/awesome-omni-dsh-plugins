@@ -17,8 +17,9 @@ voor integrity-waarden, SPDX-expressie-parsing voor licenties, en afwijzing van 
 sleutels. Een waarde kan overeenkomen met het schemapatroon en toch semantisch worden
 afgewezen.
 
-Regels op het hoogste niveau: de invoer is één enkel YAML-object, `additionalProperties: false`
-(onbekende velden worden afgewezen), en **alle** onderstaande velden zijn verplicht.
+Regels op het hoogste niveau: het item is één YAML-object, `additionalProperties: false`
+(onbekende velden worden geweigerd), en alle onderstaande velden zijn verplicht behalve `media`,
+het enige optionele veld.
 
 ## Velden op het hoogste niveau
 
@@ -41,6 +42,7 @@ Regels op het hoogste niveau: de invoer is één enkel YAML-object, `additionalP
 | `license`         | object  |   ja    | Upstream SPDX-licentie-expressie                                 |
 | `verification`    | object  |   ja    | Verificatiestatus, controletijdstip, identiteit en smoketest      |
 | `provenance`      | object  |   ja    | Publieke Discussion-/comment-URL's of `null`                     |
+| `media`           | array   |    nee    | Maximaal 6 schermafbeeldingen/video's, elke URL vastgezet op `source.commit` |
 
 ### `schemaVersion`
 
@@ -227,6 +229,33 @@ Publieke herkomstlinks, elk een URI of `null`:
 | `discussion`  | string of null  | Publieke Discussion-URL indien aanwezig                |
 | `comment`     | string of null  | Publieke comment-URL indien aanwezig                   |
 
+### `media`
+
+Het enige optionele veld. Een array met hoogstens **6** items, elk met één schermafbeelding of korte video van de plug-in:
+
+| Eigenschap | Type | Regels |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` of `video` |
+| `url`    | string | Onveranderlijke GitHub-URL, maximaal 2048 tekens (zie hieronder) |
+| `alt`    | string | Alternatieve tekst, 1–120 tekens |
+
+Een URL hier moet net zo onveranderlijk zijn als `source.commit`. Een
+`raw.githubusercontent.com`-pad met een branchnaam (`.../main/docs/shot.png`) toont wat die branch
+vandaag bevat, dus het item zou een niet-beoordeelde afbeelding publiceren zodra de branch
+verschuift. Twee vormen worden geaccepteerd:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — het vastgezette raw-pad;
+- `https://github.com/<owner>/<repo>/assets/…` — de inhoudsgeadresseerde upload-URL van GitHub, voor `video`-items.
+
+Het schema dwingt de veilige vorm af (host, hexadecimale referentie van 40 tekens, begrensde
+lengte). `catalog validate` dwingt de rest semantisch af: de URL moet de `source.commit` **van dit
+item zelf** vastzetten in de repository **van dit item zelf**, en een branch-URL wordt geweigerd
+met `media[n].url must pin the entry commit, not a branch`.
+
+Laat het veld helemaal weg als er niets te tonen valt — `media: []` is geen geldige manier om
+"geen schermafbeeldingen" te zeggen. Het veld is additief: items die vóór het bestond zijn
+gepubliceerd blijven geldig, en een consument die het negeert leest elk item precies als voorheen.
+
 ## Wat het schema niet controleert
 
 Het schema is bewust lokaal en structureel. Het controleert **niet** of het repository bestaat,
@@ -235,4 +264,4 @@ sterrenaantal accuraat is, of dat de maker eigenaar is van de bron. Die controle
 beoordelingscontroles van beheerders die zijn beschreven in [CONTRIBUTING.md](../../CONTRIBUTING.md) en
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

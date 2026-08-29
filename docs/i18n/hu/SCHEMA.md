@@ -18,7 +18,8 @@ licencekhez, és duplikált kulcs elutasítást. Egy érték megfelelhet a séma
 elutasításra kerülhet szemantikailag.
 
 Legfelső szintű szabályok: a bejegyzés egyetlen YAML-objektum, `additionalProperties: false`
-(ismeretlen mezők elutasításra kerülnek), és a következő mezők **mindegyike** kötelező.
+(az ismeretlen mezőket elutasítja), és az alábbi mezők mind kötelezőek a `media` kivételével —
+ez az egyetlen opcionális mező.
 
 ## Legfelső szintű mezők
 
@@ -41,6 +42,7 @@ Legfelső szintű szabályok: a bejegyzés egyetlen YAML-objektum, `additionalPr
 | `license`         | object  |   igen   | Upstream SPDX licenckifejezés                                    |
 | `verification`    | object  |   igen   | Verifikációs állapot, ellenőrzés időpontja, identitás és smoke-teszt |
 | `provenance`      | object  |   igen   | Nyilvános Discussion/komment URL-ek vagy `null`                  |
+| `media`           | array   |    nem    | Legfeljebb 6 képernyőkép/videó, minden URL a `source.commit`-hoz rögzítve |
 
 ### `schemaVersion`
 
@@ -230,6 +232,34 @@ Nyilvános proveniencia-linkek, mindegyik URI vagy `null`:
 | `discussion`   | string vagy null  | Nyilvános Discussion URL, ha létezik                  |
 | `comment`      | string vagy null  | Nyilvános komment-URL, ha létezik                     |
 
+### `media`
+
+Az egyetlen opcionális mező. Legfeljebb **6** elemű tömb, amelyben minden elem a bővítmény egy képernyőképét vagy egy rövid videóját írja le:
+
+| Tulajdonság | Típus | Szabályok |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` vagy `video` |
+| `url`    | string | Változtathatatlan GitHub-URL, legfeljebb 2048 karakter (lásd lent) |
+| `alt`    | string | Alternatív szöveg, 1–120 karakter |
+
+Az itteni URL-nek ugyanolyan változtathatatlannak kell lennie, mint a `source.commit`.
+Egy ágnevet hordozó `raw.githubusercontent.com` útvonal (`.../main/docs/shot.png`) azt mutatja,
+amit az ág ma tartalmaz, így a bejegyzés át nem nézett képet tenne közzé azon a napon, amikor az
+ág elmozdul. Két forma fogadható el:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — a commithoz rögzített raw útvonal;
+- `https://github.com/<owner>/<repo>/assets/…` — a GitHub tartalomcímzett feltöltési URL-je, `video` elemekhez.
+
+A séma csak a biztonságos alakot kényszeríti ki (gazdagép, 40 karakteres hexadecimális
+hivatkozás, korlátozott hossz). A többit a `catalog validate` kényszeríti ki szemantikailag: az
+URL-nek **a bejegyzés saját** `source.commit`-ját kell rögzítenie **a bejegyzés saját**
+tárolójában, az ág URL-jét pedig a `media[n].url must pin the entry commit, not a branch` hibával
+utasítja el.
+
+Hagyja ki teljesen a mezőt, ha nincs mit mutatni — a `media: []` nem érvényes módja annak, hogy
+„nincs képernyőkép”. A mező additív: a létezése előtt közzétett bejegyzések érvényesek maradnak,
+aki pedig figyelmen kívül hagyja, pontosan úgy olvas minden bejegyzést, mint korábban.
+
 ## Amit a séma nem ellenőriz
 
 A séma szándékosan helyi és strukturális. **Nem** ellenőrzi, hogy a repository létezik-e, hogy a
@@ -238,4 +268,4 @@ a csillagszám pontos-e, vagy hogy az alkotó a forrás tulajdonosa-e. Ezek az e
 [CONTRIBUTING.md](../../CONTRIBUTING.md) és a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)
 fájlban leírt karbantartói átvizsgálási kapukhoz tartoznak.
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

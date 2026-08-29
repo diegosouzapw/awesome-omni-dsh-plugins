@@ -14,8 +14,7 @@
 SemVer,完整性(integrity)值要求 SHA-512 SRI,授權要求 SPDX 表達式剖析,並拒絕重複鍵值。一個
 值即使符合結構描述的 pattern,仍可能在語意層被拒絕。
 
-頂層規則:條目是單一 YAML 物件,`additionalProperties: false`(拒絕未知欄位),且以下**所有**
-欄位皆為必要。
+頂層規則：條目是單一 YAML 物件，`additionalProperties: false`（未知欄位會被拒絕），且下列所有欄位皆為必填，只有 `media` 例外——它是唯一可選的欄位。
 
 ## 頂層欄位
 
@@ -38,6 +37,7 @@ SemVer,完整性(integrity)值要求 SHA-512 SRI,授權要求 SPDX 表達式剖�
 | `license`         | object  |   是    | 上游 SPDX 授權表達式                                          |
 | `verification`    | object  |   是    | 驗證狀態、查核時間、身分與煙霧測試                            |
 | `provenance`      | object  |   是    | 公開的 Discussion/留言網址,或 `null`                         |
+| `media`           | array   |    否    | 最多 6 張螢幕截圖/影片，每個 URL 都釘選到 `source.commit` |
 
 ### `schemaVersion`
 
@@ -215,6 +215,25 @@ source 描述子刻意不儲存其他任何內容:儲存庫、提交與子路徑
 | `discussion` | string or null | 若存在,則為公開 Discussion 網址                       |
 | `comment`    | string or null | 若存在,則為公開留言網址                              |
 
+### `media`
+
+唯一可選的欄位。一個最多包含 **6** 個項目的陣列，每個項目描述外掛的一張螢幕截圖或一段短影片：
+
+| 屬性 | 型別 | 規則 |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` 或 `video` |
+| `url`    | string | 不可變的 GitHub URL，最長 2048 個字元（見下文） |
+| `alt`    | string | 替代文字，1–120 個字元 |
+
+這裡的 URL 必須和 `source.commit` 一樣不可變。帶分支名稱的 `raw.githubusercontent.com` 路徑（`.../main/docs/shot.png`）顯示的是該分支今天的內容，因此分支一移動，條目就會發布一張未經審核的圖片。只接受兩種形式：
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — 釘選到提交的 raw 路徑；
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub 的內容定址上傳 URL，用於 `video` 項目。
+
+schema 只保證安全形狀（主機、40 位十六進位參考、長度上限）。其餘由 `catalog validate` 在語意層保證：URL 必須釘選**條目自己的** `source.commit`，且位於**條目自己的**儲存庫中；分支 URL 會被拒絕，錯誤為 `media[n].url must pin the entry commit, not a branch`。
+
+沒有可展示的內容時請完全省略此欄位——`media: []` 不是表達「沒有螢幕截圖」的有效方式。此欄位是增量的：在它出現之前發布的條目仍然有效，忽略它的消費者讀取每個條目的方式與以往完全相同。
+
 ## 結構描述不檢查的事
 
 此結構描述在設計上僅做本機與結構性檢查。它**不會**驗證儲存庫是否存在、節點 ID 是否與網址相
@@ -222,4 +241,4 @@ source 描述子刻意不儲存其他任何內容:儲存庫、提交與子路徑
 屬於 [CONTRIBUTING.md](../../CONTRIBUTING.md) 與 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)
 中所述的維護者審查關卡。
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

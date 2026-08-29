@@ -16,8 +16,7 @@
 SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 일치하더라도 시맨틱적으로 거부될 수
 있습니다.
 
-최상위 규칙: 항목은 단일 YAML 객체이며, `additionalProperties: false`(알려지지 않은 필드는
-거부됨)이고, 다음 필드 **모두**가 필수입니다.
+최상위 규칙: 항목은 하나의 YAML 객체이며 `additionalProperties: false`(알 수 없는 필드는 거부됨)이고, 아래의 모든 필드는 유일한 선택 필드인 `media`를 제외하고 모두 필수입니다.
 
 ## 최상위 필드
 
@@ -40,6 +39,7 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 | `license`              | object  | 예   | 업스트림 SPDX 라이선스 표현식                                  |
 | `verification`         | object  | 예   | 검증 상태, 확인 시각, 신원 및 스모크 테스트                     |
 | `provenance`           | object  | 예   | 공개 Discussion/댓글 URL 또는 `null`                           |
+| `media`           | array   |    아니오    | 최대 6개의 스크린샷/동영상, 모든 URL은 `source.commit`에 고정 |
 
 ### `schemaVersion`
 
@@ -218,6 +218,25 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 | `discussion`  | string 또는 null  | 존재할 경우 공개 Discussion URL                     |
 | `comment`     | string 또는 null  | 존재할 경우 공개 댓글 URL                           |
 
+### `media`
+
+유일한 선택 필드입니다. 최대 **6**개 항목의 배열이며, 각 항목은 플러그인의 스크린샷 한 장 또는 짧은 동영상 하나를 설명합니다:
+
+| 속성 | 타입 | 규칙 |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` 또는 `video` |
+| `url`    | string | 불변 GitHub URL, 최대 2048자(아래 참조) |
+| `alt`    | string | 대체 텍스트, 1–120자 |
+
+여기의 URL은 `source.commit`만큼 불변이어야 합니다. 브랜치 이름이 들어간 `raw.githubusercontent.com` 경로(`.../main/docs/shot.png`)는 그 브랜치가 오늘 담고 있는 것을 보여주므로, 브랜치가 움직이는 날 항목은 검토되지 않은 이미지를 게시하게 됩니다. 두 가지 형식만 허용됩니다:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — 커밋에 고정된 raw 경로;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHub의 콘텐츠 주소 지정 업로드 URL(`video` 항목용).
+
+스키마는 안전한 형태(호스트, 40자 16진수 참조, 길이 제한)만 강제합니다. 나머지는 `catalog validate`가 의미론적으로 강제합니다: URL은 **해당 항목 자신의** 저장소에서 **해당 항목 자신의** `source.commit`을 고정해야 하며, 브랜치 URL은 `media[n].url must pin the entry commit, not a branch`로 거부됩니다.
+
+보여줄 것이 없으면 필드를 통째로 생략하세요 — `media: []`는 "스크린샷 없음"을 말하는 유효한 방법이 아닙니다. 이 필드는 추가적입니다: 필드가 생기기 전에 게시된 항목은 그대로 유효하며, 이를 무시하는 소비자는 모든 항목을 예전과 똑같이 읽습니다.
+
 ## 스키마가 검사하지 않는 것
 
 스키마는 의도적으로 로컬적이고 구조적입니다. 저장소가 존재하는지, 노드 ID가 URL과 일치하는지,
@@ -226,4 +245,4 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 [CONTRIBUTING.md](../../CONTRIBUTING.md)와 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)에
 설명된 메인테이너 검토 게이트에 속합니다.
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

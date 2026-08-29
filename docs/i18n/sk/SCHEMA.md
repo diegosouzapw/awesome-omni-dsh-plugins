@@ -15,8 +15,9 @@ dĺžky, ktoré odmietajú hodnoty vyzerajúce ako prepínače alebo neohraniče
 hodnoty integrity, parsovanie SPDX výrazov pre licencie a odmietanie duplicitných kľúčov. Hodnota
 môže vyhovovať regulárnemu výrazu schémy a predsa byť sémanticky odmietnutá.
 
-Pravidlá najvyššej úrovne: záznam je jeden YAML objekt, `additionalProperties: false` (neznáme polia
-sa odmietajú) a **všetky** nasledujúce polia sú povinné.
+Pravidlá najvyššej úrovne: záznam je jediný objekt YAML, `additionalProperties: false`
+(neznáme polia sa odmietajú) a všetky nižšie uvedené polia sú povinné okrem `media` —
+jediného voliteľného poľa.
 
 ## Polia najvyššej úrovne
 
@@ -39,6 +40,7 @@ sa odmietajú) a **všetky** nasledujúce polia sú povinné.
 | `license`         | object  |   áno    | Upstream SPDX licenčný výraz                              |
 | `verification`    | object  |   áno    | Stav overenia, čas kontroly, identita a smoke test      |
 | `provenance`      | object  |   áno    | Verejné URL Discussion/komentára alebo `null`                      |
+| `media`           | array   |    nie    | Až 6 snímok obrazovky/videí, každá URL pripnutá k `source.commit` |
 
 ### `schemaVersion`
 
@@ -219,6 +221,32 @@ Verejné odkazy pôvodu, každý je URI alebo `null`:
 | `discussion` | string alebo null | Verejná URL Discussion, ak existuje            |
 | `comment`    | string alebo null | Verejná URL komentára, ak existuje               |
 
+### `media`
+
+Jediné voliteľné pole. Pole s najviac **6** položkami, z ktorých každá opisuje jednu snímku obrazovky alebo krátke video pluginu:
+
+| Vlastnosť | Typ | Pravidlá |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` alebo `video` |
+| `url`    | string | Nemenná URL GitHubu, najviac 2048 znakov (pozri nižšie) |
+| `alt`    | string | Alternatívny text, 1–120 znakov |
+
+URL tu musí byť rovnako nemenná ako `source.commit`. Cesta `raw.githubusercontent.com`
+s názvom vetvy (`.../main/docs/shot.png`) ukazuje to, čo vetva obsahuje dnes, takže záznam by
+zverejnil neskontrolovaný obrázok v deň, keď sa vetva pohne. Prijímajú sa dve podoby:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — raw cesta pripnutá ku commitu;
+- `https://github.com/<owner>/<repo>/assets/…` — obsahom adresovaná URL nahratia GitHubu, pre položky `video`.
+
+Schéma vynucuje len bezpečný tvar (host, 40-znakový hexadecimálny odkaz, obmedzená dĺžka).
+Zvyšok vynucuje `catalog validate` sémanticky: URL musí pripínať `source.commit` **samotného
+záznamu** v repozitári **samotného záznamu** a URL vetvy sa odmieta s
+`media[n].url must pin the entry commit, not a branch`.
+
+Pole úplne vynechajte, keď niet čo ukázať — `media: []` nie je platný spôsob, ako povedať „žiadne
+snímky obrazovky“. Pole je aditívne: záznamy zverejnené predtým, než existovalo, zostávajú platné
+a konzument, ktorý ho ignoruje, číta každý záznam presne ako predtým.
+
 ## Čo schéma nekontroluje
 
 Schéma je zámerne lokálna a štrukturálna. **Neoveruje**, že repozitár existuje, že ID uzla sa
@@ -226,4 +254,4 @@ zhoduje s URL, že cesty dôkazov existujú na pripnutom commite, že počet hvi
 že tvorca vlastní zdroj. Tieto kontroly patria do brán posúdenia správcov popísaných v
 [CONTRIBUTING.md](../../CONTRIBUTING.md) a [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

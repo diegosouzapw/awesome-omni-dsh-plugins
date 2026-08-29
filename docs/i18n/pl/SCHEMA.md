@@ -9,7 +9,9 @@ To jest dokumentacja pole po polu dla [`schemas/plugin.schema.yaml`](../../schem
 
 Obowiązują dwie warstwy walidacji. Publiczny schemat wymusza ograniczone *bezpieczne kształty* (wzorce i długości odrzucające wartości przypominające opcje lub nieograniczone). Na tej podstawie `catalog validate` stosuje obowiązkowe parsery semantyczne: dokładny SemVer dla wersji, SHA-512 SRI dla wartości integrity, parsowanie wyrażeń SPDX dla licencji oraz odrzucanie zduplikowanych kluczy. Wartość może pasować do wzorca schematu i mimo to zostać odrzucona semantycznie.
 
-Zasady na najwyższym poziomie: wpis jest pojedynczym obiektem YAML, `additionalProperties: false` (nieznane pola są odrzucane), a **wszystkie** poniższe pola są wymagane.
+Reguły najwyższego poziomu: wpis to pojedynczy obiekt YAML, `additionalProperties: false`
+(nieznane pola są odrzucane), a wszystkie poniższe pola są wymagane z wyjątkiem `media` —
+jedynego pola opcjonalnego.
 
 ## Pola najwyższego poziomu
 
@@ -32,6 +34,7 @@ Zasady na najwyższym poziomie: wpis jest pojedynczym obiektem YAML, `additional
 | `license`         | object  |   tak    | Licencja SPDX z upstreamu                                           |
 | `verification`    | object  |   tak    | Status weryfikacji, czas sprawdzenia, tożsamość i smoke test        |
 | `provenance`      | object  |   tak    | URL-e Discussion/komentarza lub `null`                               |
+| `media`           | array   |    nie    | Do 6 zrzutów ekranu/filmów, każdy URL przypięty do `source.commit` |
 
 ### `schemaVersion`
 
@@ -193,8 +196,35 @@ Publiczne linki pochodzenia, każdy jako URI lub `null`:
 | `discussion` | string lub null | Publiczny URL Discussion, jeśli istnieje       |
 | `comment`    | string lub null | Publiczny URL komentarza, jeśli istnieje       |
 
+### `media`
+
+Jedyne pole opcjonalne. Tablica najwyżej **6** elementów, z których każdy opisuje jeden zrzut ekranu lub krótki film przedstawiający wtyczkę:
+
+| Właściwość | Typ | Reguły |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` lub `video` |
+| `url`    | string | Niezmienny adres URL GitHuba, maksymalnie 2048 znaków (patrz niżej) |
+| `alt`    | string | Tekst alternatywny, 1–120 znaków |
+
+Adres URL musi tu być tak samo niezmienny jak `source.commit`. Ścieżka
+`raw.githubusercontent.com` z nazwą gałęzi (`.../main/docs/shot.png`) pokazuje to, co gałąź zawiera
+dzisiaj, więc wpis opublikowałby niezweryfikowany obraz w dniu, w którym gałąź się przesunie.
+Akceptowane są dwie formy:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — przypięta do commita ścieżka raw;
+- `https://github.com/<owner>/<repo>/assets/…` — adresowany treścią URL przesyłania GitHuba, dla elementów `video`.
+
+Schemat wymusza tylko bezpieczny kształt (host, 40-znakowe odwołanie szesnastkowe, ograniczona
+długość). Resztę `catalog validate` wymusza semantycznie: URL musi przypinać `source.commit`
+**samego wpisu** w repozytorium **samego wpisu**, a URL gałęzi jest odrzucany komunikatem
+`media[n].url must pin the entry commit, not a branch`.
+
+Pomiń pole w całości, gdy nie ma czego pokazywać — `media: []` nie jest poprawnym sposobem
+powiedzenia „brak zrzutów ekranu”. Pole jest addytywne: wpisy opublikowane przed jego istnieniem
+pozostają poprawne, a konsument, który je ignoruje, czyta każdy wpis dokładnie jak wcześniej.
+
 ## Czego schemat nie sprawdza
 
 Schemat jest celowo lokalny i strukturalny. **Nie** weryfikuje, czy repozytorium istnieje, czy node ID pasuje do URL, czy ścieżki dowodowe istnieją w przypiętym commicie, czy liczba gwiazdek jest dokładna, ani czy twórca jest właścicielem źródła. Te sprawdzenia należą do bramek recenzji maintainerów opisanych w [CONTRIBUTING.md](../../CONTRIBUTING.md) i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

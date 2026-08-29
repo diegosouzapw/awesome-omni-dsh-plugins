@@ -16,8 +16,9 @@ Kaksi validointikerrosta ovat käytössä. Julkinen skeema pakottaa rajatut *tur
 SRI integrity-arvoille, SPDX-lausekkeiden jäsennys lisensseille ja duplikaattiavainten hylkäys.
 Arvo voi vastata skeeman kuviota ja silti tulla hylätyksi semanttisesti.
 
-Päätason säännöt: merkintä on yksittäinen YAML-objekti, `additionalProperties: false`
-(tuntemattomat kentät hylätään) ja **kaikki** seuraavat kentät ovat vaadittuja.
+Ylätason säännöt: merkintä on yksi YAML-objekti, `additionalProperties: false`
+(tuntemattomat kentät hylätään), ja kaikki alla olevat kentät ovat pakollisia paitsi `media`,
+ainoa valinnainen kenttä.
 
 ## Päätason kentät
 
@@ -40,6 +41,7 @@ Päätason säännöt: merkintä on yksittäinen YAML-objekti, `additionalProper
 | `license`         | object  |   kyllä  | Upstreamin SPDX-lisenssilauseke                               |
 | `verification`    | object  |   kyllä  | Varmennustila, tarkistusaika, identiteetti ja smoke-test      |
 | `provenance`      | object  |   kyllä  | Julkiset Discussion-/kommentti-URL:t tai `null`               |
+| `media`           | array   |    ei    | Enintään 6 kuvakaappausta/videota, jokainen URL kiinnitetty `source.commit`iin |
 
 ### `schemaVersion`
 
@@ -226,6 +228,33 @@ Julkiset alkuperälinkit, jokainen URI tai `null`:
 | `discussion` | string tai null | Julkinen Discussion-URL, kun sellainen on      |
 | `comment`    | string tai null | Julkinen kommentti-URL, kun sellainen on       |
 
+### `media`
+
+Ainoa valinnainen kenttä. Taulukko, jossa on enintään **6** kohdetta, joista kukin kuvaa yhtä kuvakaappausta tai lyhyttä videota lisäosasta:
+
+| Ominaisuus | Tyyppi | Säännöt |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` tai `video` |
+| `url`    | string | Muuttumaton GitHub-URL, enintään 2048 merkkiä (katso alta) |
+| `alt`    | string | Vaihtoehtoinen teksti, 1–120 merkkiä |
+
+URL-osoitteen on oltava yhtä muuttumaton kuin `source.commit`. Haaran nimen sisältävä
+`raw.githubusercontent.com`-polku (`.../main/docs/shot.png`) näyttää sen, mitä haara sisältää
+tänään, joten merkintä julkaisisi tarkastamattoman kuvan sinä päivänä, kun haara siirtyy. Kaksi
+muotoa hyväksytään:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — kiinnitetty raw-polku;
+- `https://github.com/<owner>/<repo>/assets/…` — GitHubin sisältöosoitteinen lataus-URL, `video`-kohteille.
+
+Skeema vaatii turvallisen muodon (isäntä, 40 merkin heksadesimaaliviite, rajattu pituus).
+`catalog validate` vaatii loput semanttisesti: URL-osoitteen on kiinnitettävä **merkinnän oman**
+`source.commit` **merkinnän omassa** repositoriossa, ja haaran URL hylätään virheellä
+`media[n].url must pin the entry commit, not a branch`.
+
+Jätä kenttä kokonaan pois, kun näytettävää ei ole — `media: []` ei ole pätevä tapa sanoa "ei
+kuvakaappauksia". Kenttä on lisäävä: ennen sen olemassaoloa julkaistut merkinnät pysyvät
+pätevinä, ja kuluttaja, joka jättää sen huomiotta, lukee jokaisen merkinnän täsmälleen kuten ennen.
+
 ## Mitä skeema ei tarkista
 
 Skeema on tarkoituksellisesti paikallinen ja rakenteellinen. Se **ei** varmista, että repositorio
@@ -234,4 +263,4 @@ commitissa, että tähtimäärä on oikea tai että luoja omistaa lähteen. Näm
 ylläpitäjien tarkastusporteille, jotka kuvataan tiedostoissa
 [CONTRIBUTING.md](../../CONTRIBUTING.md) ja [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

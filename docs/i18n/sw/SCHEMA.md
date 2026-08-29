@@ -15,8 +15,9 @@ Tabaka mbili za uthibitishaji zinatumika. Schema ya umma hutekeleza *maumbo sala
 `catalog validate` hutumia vichambuzi vya kisemantiki vya lazima: SemVer halisi kwa matoleo, SRI ya
 SHA-512 kwa thamani za integrity, uchambuzi wa usemi wa SPDX kwa leseni, na kukataliwa kwa funguo rudufu. Thamani inaweza kulingana na pattern ya schema na bado kukataliwa kisemantiki.
 
-Kanuni za ngazi ya juu: kiingilio ni kitu kimoja cha YAML, `additionalProperties: false` (sehemu
-zisizojulikana hukataliwa), na sehemu zote zifuatazo (**zote**) zinahitajika.
+Kanuni za ngazi ya juu: ingizo ni kitu kimoja cha YAML, `additionalProperties: false`
+(sehemu zisizojulikana hukataliwa), na sehemu zote zilizo hapa chini ni za lazima isipokuwa
+`media` — sehemu pekee ya hiari.
 
 ## Sehemu za ngazi ya juu
 
@@ -39,6 +40,7 @@ zisizojulikana hukataliwa), na sehemu zote zifuatazo (**zote**) zinahitajika.
 | `license`         | object  |   ndiyo    | Usemi wa leseni ya SPDX ya upstream                              |
 | `verification`    | object  |   ndiyo    | Hali ya uthibitishaji, muda wa ukaguzi, utambulisho na jaribio la moshi      |
 | `provenance`      | object  |   ndiyo    | URL za Discussion/maoni ya umma au `null`                      |
+| `media`           | array   |    hapana    | Hadi picha za skrini/video 6, kila URL imebandikwa kwenye `source.commit` |
 
 ### `schemaVersion`
 
@@ -219,6 +221,32 @@ Viungo vya asili vya umma, kila kimoja ni URI au `null`:
 | `discussion` | string au null | URL ya Discussion ya umma ikiwepo            |
 | `comment`    | string au null | URL ya maoni ya umma ikiwepo               |
 
+### `media`
+
+Sehemu pekee ya hiari. Safu yenye vipengele visivyozidi **6**, kila kimoja kikieleza picha moja ya skrini au video fupi ya programu-jalizi:
+
+| Sifa | Aina | Kanuni |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` au `video` |
+| `url`    | string | URL isiyobadilika ya GitHub, isiyozidi herufi 2048 (ona hapa chini) |
+| `alt`    | string | Maandishi mbadala, herufi 1–120 |
+
+URL hapa lazima isibadilike kama `source.commit`. Njia ya `raw.githubusercontent.com` yenye jina
+la tawi (`.../main/docs/shot.png`) huonyesha kile tawi hilo linacho leo, hivyo ingizo lingechapisha
+picha ambayo haijakaguliwa siku tawi linapohama. Maumbo mawili yanakubaliwa:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — njia ya raw iliyobandikwa kwenye commit;
+- `https://github.com/<owner>/<repo>/assets/…` — URL ya upakiaji ya GitHub inayoshughulikiwa kwa maudhui, kwa vipengele vya `video`.
+
+Skimu hulazimisha umbo salama pekee (mwenyeji, rejeleo la heksadesimali la herufi 40, urefu
+uliowekewa mipaka). Mengine hulazimishwa na `catalog validate` kimaana: URL lazima ibandike
+`source.commit` **ya ingizo lenyewe** katika hifadhi **ya ingizo lenyewe**, na URL ya tawi
+hukataliwa kwa `media[n].url must pin the entry commit, not a branch`.
+
+Acha sehemu hii kabisa wakati hakuna cha kuonyesha — `media: []` si njia halali ya kusema "hakuna
+picha za skrini". Sehemu hii ni ya nyongeza: maingizo yaliyochapishwa kabla haijakuwepo yanabaki
+halali, na mtumiaji anayeipuuza husoma kila ingizo kama zamani kabisa.
+
 ## Schema haikague nini
 
 Schema kwa makusudi ni ya kienyeji na kimuundo. **Hai**thibitishi kwamba hazina ipo, kwamba ID ya node
@@ -226,4 +254,4 @@ inalingana na URL, kwamba njia za ushahidi zipo kwenye commit iliyobandikwa, kwa
 sahihi, au kwamba muumba ndiye mmiliki wa chanzo. Ukaguzi huo ni wa malango ya ukaguzi ya wasimamizi
 yaliyoelezwa katika [CONTRIBUTING.md](../../CONTRIBUTING.md) na [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->

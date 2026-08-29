@@ -16,8 +16,9 @@ menerapkan parser semantik wajib: SemVer yang tepat untuk versi, SHA-512 SRI unt
 integrity, parsing ekspresi SPDX untuk lisensi, dan penolakan kunci duplikat. Sebuah nilai dapat
 cocok dengan pola skema dan tetap ditolak secara semantik.
 
-Aturan tingkat atas: entri adalah satu objek YAML, `additionalProperties: false` (bidang yang
-tidak dikenal ditolak), dan **semua** bidang berikut wajib diisi.
+Aturan tingkat atas: entri adalah satu objek YAML, `additionalProperties: false`
+(bidang yang tidak dikenal ditolak), dan semua bidang di bawah ini wajib kecuali `media` —
+satu-satunya bidang opsional.
 
 ## Bidang tingkat atas
 
@@ -40,6 +41,7 @@ tidak dikenal ditolak), dan **semua** bidang berikut wajib diisi.
 | `license`         | object  |   ya    | Ekspresi lisensi SPDX upstream                                 |
 | `verification`    | object  |   ya    | Status verifikasi, waktu pemeriksaan, identitas, dan smoke test |
 | `provenance`      | object  |   ya    | URL Discussion/komentar publik atau `null`                     |
+| `media`           | array   |    tidak    | Hingga 6 tangkapan layar/video, setiap URL disematkan ke `source.commit` |
 
 ### `schemaVersion`
 
@@ -227,6 +229,34 @@ Tautan provenance publik, masing-masing berupa URI atau `null`:
 | `discussion` | string atau null | URL Discussion publik jika ada                    |
 | `comment`    | string atau null | URL komentar publik jika ada                      |
 
+### `media`
+
+Satu-satunya bidang opsional. Array berisi paling banyak **6** item, masing-masing menggambarkan satu tangkapan layar atau video pendek dari plugin:
+
+| Properti | Tipe | Aturan |
+| -------- | ------ | ----- |
+| `kind`   | enum   | `screenshot` atau `video` |
+| `url`    | string | URL GitHub yang tidak berubah, maksimal 2048 karakter (lihat di bawah) |
+| `alt`    | string | Teks alternatif, 1–120 karakter |
+
+URL di sini harus sama tidak berubahnya dengan `source.commit`. Jalur
+`raw.githubusercontent.com` yang membawa nama cabang (`.../main/docs/shot.png`) menampilkan apa
+yang dimuat cabang itu hari ini, sehingga entri akan menerbitkan gambar yang belum ditinjau pada
+hari cabang berpindah. Dua bentuk diterima:
+
+- `https://raw.githubusercontent.com/<owner>/<repo>/<commit>/<path>` — jalur raw yang disematkan ke commit;
+- `https://github.com/<owner>/<repo>/assets/…` — URL unggahan GitHub yang dialamatkan berdasarkan konten, untuk item `video`.
+
+Skema hanya menegakkan bentuk yang aman (host, referensi heksadesimal 40 karakter, panjang
+terbatas). Sisanya ditegakkan `catalog validate` secara semantik: URL harus menyematkan
+`source.commit` **milik entri itu sendiri** di repositori **milik entri itu sendiri**, dan URL
+cabang ditolak dengan `media[n].url must pin the entry commit, not a branch`.
+
+Hilangkan bidang ini sepenuhnya bila tidak ada yang ditampilkan — `media: []` bukan cara yang sah
+untuk mengatakan "tanpa tangkapan layar". Bidang ini bersifat aditif: entri yang diterbitkan
+sebelum bidang ini ada tetap valid, dan konsumen yang mengabaikannya membaca setiap entri persis
+seperti sebelumnya.
+
 ## Apa yang tidak diperiksa oleh skema
 
 Skema ini secara sengaja bersifat lokal dan struktural. Skema ini **tidak** memverifikasi bahwa
@@ -235,4 +265,4 @@ yang dipatok, bahwa jumlah bintang akurat, atau bahwa kreator memiliki sumber te
 Pemeriksaan tersebut menjadi bagian gerbang tinjauan maintainer yang dijelaskan di
 [CONTRIBUTING.md](../../CONTRIBUTING.md) dan [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 284a877b347e1fbe1238fab6eb1e0f3b17ab01c1499ee61430f2cc31fc46a62f -->
+<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
