@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: qishuilalala-dsh-voice-mode
+name: dsh-voice-mode
+description:
+  en: "Full-duplex voice conversation mode for DeepSeek Harness (dsh): speak, get a spoken answer. Streamed zipformer2 ASR → editable draft → auto send → the final reply is read out sentence-by-sentence via Edge TTS, and your voice interrupts playback and the running turn. No API key. 中文说明见 README.md。"
+  evidencePath: plugin/dsh-voice-mode/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - voice
+  - speech
+  - asr
+  - tts
+  - duplex
+  - zipformer2
+  - msedge-tts
+source:
+  repository: https://github.com/qishuilalala/dsh-voice-mode
+  repositoryNodeId: R_kgDOUAwauQ
+  subpath: plugin/dsh-voice-mode
+  commit: ba35ce93cc5531bb3030b64bed8ca35f2e3a1569
+creator:
+  github: qishuilalala
+package:
+  ecosystem: npm
+  name: dsh-voice-mode
+  version: 0.2.3
+  integrity: sha512-VLGrWsILrVQ4/mimOp9ISfLRYpR6t87lZ2b2NInyhjRN6RwWf7bTg1M43XX4cGQSIDdG0LDqdc0gbsOFFp14vg==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/dsh-voice-mode/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:07.025Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
