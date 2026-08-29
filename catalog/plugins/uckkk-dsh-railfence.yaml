@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-railfence
+name: dsh-railfence
+description:
+  en: bash dsh plugin add github:uckkk/dsh-railfence
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-railfence
+source:
+  repository: https://github.com/uckkk/dsh-railfence
+  repositoryNodeId: R_kgDOT9uNcw
+  subpath: null
+  commit: 0273164a2a22d119327a45c609d9116b1f275470
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:57.603Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
