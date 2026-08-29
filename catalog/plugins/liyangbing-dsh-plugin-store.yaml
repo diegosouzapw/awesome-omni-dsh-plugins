@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: liyangbing-dsh-plugin-store
+name: "@sandbaseai/dsh-plugin-store"
+description:
+  en: Native DeepSeek Harness plugin marketplace for discovering, filtering, installing, and managing community DSH plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-store
+  - plugin-marketplace
+  - cordis
+  - ai-agent
+  - agent-harness
+  - developer-tools
+  - sandbase
+source:
+  repository: https://github.com/sandbaseai/dsh-plugin-store
+  repositoryNodeId: R_kgDOT6zXMg
+  subpath: null
+  commit: 978770905b0467b7266810df1412a2e10b2695fb
+creator:
+  github: liyangbing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:46.280Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
