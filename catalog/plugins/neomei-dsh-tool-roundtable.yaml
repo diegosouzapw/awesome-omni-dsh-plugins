@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: neomei-dsh-tool-roundtable
+name: "@neomei/dsh-tool-roundtable"
+description:
+  en: "Model-facing roundtable tool: run a single-round multi-agent discussion over ctx.roundtable"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model
+  - facing
+  - roundtable
+  - tool
+  - single
+  - round
+  - multi
+  - agent
+  - discussion
+  - over
+  - dsh
+source:
+  repository: https://github.com/NeoMei/dsh-roundtable
+  repositoryNodeId: R_kgDOT8Xbqg
+  subpath: packages/roundtable/tool-roundtable
+  commit: 6c251e61e5acedda329df799013c84e1b8bd1e68
+creator:
+  github: NeoMei
+package:
+  ecosystem: npm
+  name: "@neomei/dsh-tool-roundtable"
+  version: 0.1.0-rc.6
+  integrity: sha512-7c8UqdxR/5M25wN1JDkmTn55HoKmei/26n4Hv7wX2cO+64N/rZ9hK69rNNxPcnuTMqnyn3/EUROq/qn51d9dQw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/roundtable/tool-roundtable/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:36:14.917Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
