@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-binary
+name: dsh-binary
+description:
+  en: bash dsh plugin add github:uckkk/dsh-binary
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-binary
+source:
+  repository: https://github.com/uckkk/dsh-binary
+  repositoryNodeId: R_kgDOT9uIwQ
+  subpath: null
+  commit: 2c2a8674db2fe18a0a17fbfd5351cd05ffc3f92f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:43.404Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
