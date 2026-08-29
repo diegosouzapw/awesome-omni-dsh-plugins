@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-jsonl
+name: dsh-jsonl
+description:
+  en: bash dsh plugin add github:uckkk/dsh-jsonl
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-jsonl
+source:
+  repository: https://github.com/uckkk/dsh-jsonl
+  repositoryNodeId: R_kgDOT9uXCA
+  subpath: null
+  commit: 26edf51581676f07eeb7bf59b5d0fabac3f6edb9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:17.917Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
