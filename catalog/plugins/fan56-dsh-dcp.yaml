@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: fan56-dsh-dcp
+name: "@aiwayds/dsh-dcp"
+description:
+  en: Deterministic context-pruning compaction backend for dsh (DeepSeek Harness) — zero-LLM summaries, /dcp command, works out of the box. Design references Opencode-DCP/opencode-dynamic-context-pruning.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - compaction
+  - context-pruning
+  - dcp
+source:
+  repository: https://github.com/fan56/dsh-dcp
+  repositoryNodeId: R_kgDOT7UbuQ
+  subpath: null
+  commit: d5ecaea7ea3e12fa3579ed7a2863567ddb87f654
+creator:
+  github: fan56
+package:
+  ecosystem: npm
+  name: "@aiwayds/dsh-dcp"
+  version: 0.5.1
+  integrity: sha512-esIGr5AApKALFdUQlf+VJzODF6zyI2hCB0QenY4NLOu1zl/Nv/sC3giEsLg9iRtOTAI8KAxjIQ0QnMQVMfoZng==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:47.160Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
