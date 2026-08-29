@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: akqwpeter-dsh-agent-conductor
+name: dsh-agent-conductor
+description:
+  en: "In-session cross-agent dispatch for DeepSeek Harness: a zero-dependency skill and a host-only bundle that send self-contained tasks to 11 external agent CLIs (Codex, Claude Code, TraeCode, OpenCode, Gemini, Cursor, Kimi, Qwen, Copilot, WorkBuddy, Grok)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent
+  - codex
+  - claude-code
+  - multica
+  - conductor
+  - dispatch
+source:
+  repository: https://github.com/MJorgin/dsh-agent-conductor
+  repositoryNodeId: R_kgDOT5UycQ
+  subpath: null
+  commit: e2b4d7010b8854109555f8a6476c3dc985df82ca
+creator:
+  github: akqwpeter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:35.483Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
