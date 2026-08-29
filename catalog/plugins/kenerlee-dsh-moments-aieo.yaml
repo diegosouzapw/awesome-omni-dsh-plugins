@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kenerlee-dsh-moments-aieo
+name: dsh-moments-aieo
+description:
+  en: AIEO (GEO/AEO) diagnosis → positioning → content → monitoring skill bundle for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis-plugin
+  - skills
+  - aieo
+  - geo
+  - aeo
+source:
+  repository: https://github.com/Kenerlee/dsh-moments-aieo
+  repositoryNodeId: R_kgDOT-AF7Q
+  subpath: null
+  commit: bd7d25514f91fa8c8f8a7a7d319c60bea8e01503
+creator:
+  github: Kenerlee
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:33.203Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
