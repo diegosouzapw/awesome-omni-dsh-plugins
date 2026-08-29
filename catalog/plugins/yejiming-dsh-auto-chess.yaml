@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yejiming-dsh-auto-chess
+name: "@deepseek-ai/dsh-auto-chess"
+description:
+  en: "Minimal auto chess for the dsh web GUI: AI action routes, model catalog, and default prompt (node half) plus the conversation-view tab with the boards (browser half)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - minimal
+  - auto
+  - chess
+  - action
+  - routes
+  - model
+  - catalog
+  - default
+  - prompt
+  - node
+  - half
+  - plus
+  - conversation
+  - view
+  - boards
+  - browser
+source:
+  repository: https://github.com/omdsh-dev/dsh-auto-chess
+  repositoryNodeId: R_kgDOT0LPJQ
+  subpath: null
+  commit: cc0728d808cb9c9b563cc6be95e5bf60ae2a5025
+creator:
+  github: yejiming
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:50.462Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
