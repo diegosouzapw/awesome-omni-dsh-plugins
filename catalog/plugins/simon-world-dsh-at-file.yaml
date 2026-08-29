@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: simon-world-dsh-at-file
+name: dsh-at-file
+description:
+  en: dsh-at-file/ ├── package.json dsh.bundle manifest ├── src/ │ ├── index.ts 插件入口（注册 composer 扩展） │ ├── file-picker.ts @ 触发 + fuzzy 搜索 │ └── inject.ts 内容注入 ├── README.md └── tests/
+  evidencePath: packages/dsh-at-file/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - at-file
+source:
+  repository: https://github.com/SIMON-WORLD/dsh-toolkit
+  repositoryNodeId: R_kgDOT7Fumw
+  subpath: packages/dsh-at-file
+  commit: 7574d611e7568d28773d49aee7fac2cad3d13a27
+creator:
+  github: SIMON-WORLD
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-at-file/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:06.947Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
