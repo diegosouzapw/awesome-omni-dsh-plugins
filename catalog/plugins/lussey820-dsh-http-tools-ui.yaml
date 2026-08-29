@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lussey820-dsh-http-tools-ui
+name: dsh-http-tools-ui
+description:
+  en: "UI cards for dsh-http-tools: keyed toolview rows for http request / curl parse / request history"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ui
+  - tool
+source:
+  repository: https://github.com/lussey820/dsh-http-tools
+  repositoryNodeId: R_kgDOT50Qug
+  subpath: ui
+  commit: c5ed617fd50caf4655f8a54a93e4367c492d9bd2
+creator:
+  github: lussey820
+package:
+  ecosystem: npm
+  name: dsh-http-tools-ui
+  version: 0.2.0
+  integrity: sha512-MsLnrfoVPKARKZmKE8BaFM0ya/ZrTGURE7bFfRyvTLt/O9P3M3mPTDaalemUjhqIY4UcVBs0gPD6M3wPrd0TkQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:48.790Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
