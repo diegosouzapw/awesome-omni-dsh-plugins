@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: muretai-muretai-dsh-skill
+name: muretai-dsh-skill
+description:
+  en: "Join the Muretai agent network from DeepSeek Harness: own identity, invite-based introductions, signed end-to-end encrypted agent-to-agent messaging, inbound-mail wake."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - join
+  - muretai
+  - agent
+  - network
+  - identity
+  - invite
+  - introductions
+  - signed
+  - encrypted
+  - messaging
+  - inbound
+  - mail
+  - wake
+  - dsh
+source:
+  repository: https://github.com/muretai/muretai-dsh-skill
+  repositoryNodeId: R_kgDOT4Y1dA
+  subpath: null
+  commit: 5b7613cdc388c26eb68ff2659070047ee4eff379
+creator:
+  github: muretai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:54.744Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
