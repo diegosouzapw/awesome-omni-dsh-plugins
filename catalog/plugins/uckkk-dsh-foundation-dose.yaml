@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-foundation-dose
+name: dsh-foundation-dose
+description:
+  en: bash dsh plugin add github:uckkk/dsh-foundation-dose
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-foundation-dose
+source:
+  repository: https://github.com/uckkk/dsh-foundation-dose
+  repositoryNodeId: R_kgDOT-szcw
+  subpath: null
+  commit: 12b2601d345bb092dc76b5e045db1258f6627a94
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:41.563Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
