@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: dygin-dsh-recover-context
+name: dsh-recover-context
+description:
+  en: "DSH web plugin: roll back to before any of your questions, or edit the last one and resubmit, restoring the workspace files the discarded turns produced."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - rollback
+  - undo
+  - conversation
+  - checkpoint
+  - ui
+source:
+  repository: https://github.com/dygin/dsh-recover-context
+  repositoryNodeId: R_kgDOT96K8Q
+  subpath: null
+  commit: 42c64cd8a1a6462cdcd5003874e27b22abbbb669
+creator:
+  github: dygin
+package:
+  ecosystem: npm
+  name: dsh-recover-context
+  version: 1.0.5
+  integrity: sha512-Hk6mMjb+HDNLdLE5sysjG1jVgQL/fe40kevtZGfAQ+Y4kVH5xRFwM6gn3EcvGN3C1g/YDy6n5siWJTSyZAtdGQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:55.728Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
