@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: delef-dsh-free-web-search
+name: dsh-free-web-search
+description:
+  en: "Free web search for DeepSeek Harness: Bing, DuckDuckGo, SearXNG, Exa, Tavily, Keenable — with automatic fallback, time filtering, and platform search"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web-search
+  - bing
+  - duckduckgo
+  - searxng
+  - exa
+  - tavily
+source:
+  repository: https://github.com/delef/dsh-free-web-search
+  repositoryNodeId: R_kgDOT_qgag
+  subpath: null
+  commit: 94bd12880a8f4000374cd25629f5e97c9d5364fd
+creator:
+  github: delef
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:18.864Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
