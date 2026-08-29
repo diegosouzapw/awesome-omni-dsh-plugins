@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: iiiweiii-dsh-guardwall
+name: dsh-guardwall
+description:
+  en: "Security for DeepSeek Harness in two layers: source-backed pre-install vetting plus fail-closed runtime guardrails and HMAC-chained audit logs. Zero runtime dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - security
+  - guardrail
+  - audit
+  - tamper-evident
+  - ssrf
+  - secret-detection
+  - plugin-vetting
+  - trust-score
+  - dsh
+source:
+  repository: https://github.com/iiiweiii/dsh-guardwall
+  repositoryNodeId: R_kgDOT_Pdvg
+  subpath: null
+  commit: 162ff316eacde260e810d55c67a5c7513e044937
+creator:
+  github: iiiweiii
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:45:30.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
