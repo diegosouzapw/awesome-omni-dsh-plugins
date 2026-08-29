@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kirkchinese-claude2dsh
+name: claude2dsh
+description:
+  en: Import Claude Code sessions, skills and plugin assets into DSH as native resumable sessions, and export or sync DSH sessions back to Claude Code JSONL
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - cordis
+  - session
+source:
+  repository: https://github.com/kirkchinese/claude2dsh
+  repositoryNodeId: R_kgDOT5ydsA
+  subpath: null
+  commit: 8499f7577dfb9645e8a932d767b408163f4ee99f
+creator:
+  github: kirkchinese
+package:
+  ecosystem: npm
+  name: claude2dsh
+  version: 0.2.0-rc.5
+  integrity: sha512-h3CH3APKsaui+VWWZYfEMofs8GefmoKm/3sry57+nofULXilL0BhwrK6ewpKX+fYHuYVZXfIiSlUB6AhFu8bnQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:40.538Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
