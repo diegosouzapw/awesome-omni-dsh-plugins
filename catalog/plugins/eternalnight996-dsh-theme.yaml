@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: eternalnight996-dsh-theme
+name: "@eternalnight/dsh-theme"
+description:
+  en: <div align="center" <h1 align="center" @eternalnight/dsh-theme</h1 <p <strong DeepSeek Harness Theme Skin Plugin</strong </p <p <a href="https://www.npmjs.com/package/@eternalnight/dsh-theme" <img src="https://img.shields.io/npm/v/@eternalnight/dsh-theme?style=flat-square" alt="npm version" / </a <a href="LICENSE" <img
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - background
+  - wallpaper
+  - video-background
+  - 360-follow
+source:
+  repository: https://github.com/EternalNight996/dsh-theme
+  repositoryNodeId: R_kgDOUAob0g
+  subpath: null
+  commit: 85d4fd46e5057021b6ef8d558fd4e65c44e95bc4
+creator:
+  github: EternalNight996
+package:
+  ecosystem: npm
+  name: "@eternalnight/dsh-theme"
+  version: 0.1.4
+  integrity: sha512-XUyjW+U86hL7aseyJ/zUvXtSRODFzC0ep0Y7FvkDqUiT4AQBZX33/ao7yypnKZ+bS3sP4DZoSyClZU8oC8xgpw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:30.021Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
