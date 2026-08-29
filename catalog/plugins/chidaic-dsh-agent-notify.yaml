@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: chidaic-dsh-agent-notify
+name: dsh-agent-notify
+description:
+  en: sh dsh plugin --profile web add dsh-agent-notify
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - notification
+  - notify
+  - windows
+  - toast
+  - web
+source:
+  repository: https://github.com/chidaic/dsh-agent-notify
+  repositoryNodeId: R_kgDOUAeX2Q
+  subpath: null
+  commit: a41c11bda2e13cd094d4db856b93d7a2569c7747
+creator:
+  github: chidaic
+package:
+  ecosystem: npm
+  name: dsh-agent-notify
+  version: 1.0.0
+  integrity: sha512-xiAEKQku+msf3gKwM57VJj2CmJQwo4Nfp8UTSA4Cw5uGfR3WQyOj+ecO1GxdNCF5JAPKS2AoBIIKixwW3nH6SQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:42.854Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
