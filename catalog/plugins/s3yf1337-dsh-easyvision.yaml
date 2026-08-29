@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: s3yf1337-dsh-easyvision
+name: dsh-easyvision
+description:
+  en: A DeepSeek Harness plugin that describes images through a dedicated vision model from the dsh model list, called over the harness's own LLM runtime. The vision model is configurable in Settings → EasyVision.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - vision
+  - image
+  - multimodal
+  - settings
+source:
+  repository: https://github.com/s3yf1337/dsh-easyvision
+  repositoryNodeId: R_kgDOT5NSbQ
+  subpath: null
+  commit: 2da8550ebd74dc9ff5d6bcd35daa1e5bdeb1a23a
+creator:
+  github: s3yf1337
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:04.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
