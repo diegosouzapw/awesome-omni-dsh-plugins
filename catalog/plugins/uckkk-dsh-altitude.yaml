@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-altitude
+name: dsh-altitude
+description:
+  en: bash dsh plugin add github:uckkk/dsh-altitude
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-altitude
+source:
+  repository: https://github.com/uckkk/dsh-altitude
+  repositoryNodeId: R_kgDOT-wfhg
+  subpath: null
+  commit: 006c24cfd9cd713a914830478725255f171352f6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:23.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
