@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: reshuibuduo-dsh-tmcra-memory
+name: dsh-tmcra-memory
+description:
+  en: Automatic TMCRA recall, injection, and role-separated writeback for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-memory
+  - tmcra
+  - dsh
+source:
+  repository: https://github.com/reshuibuduo/tmcra-plugin-deepseek-harness
+  repositoryNodeId: R_kgDOT39XoA
+  subpath: null
+  commit: 70bdd940b67da4e6565f4aa89fbf7ed5aed70b7c
+creator:
+  github: reshuibuduo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:01.776Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
