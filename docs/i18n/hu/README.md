@@ -16,7 +16,7 @@ Alkotó-központú felfedezés és egyparancsos telepítés a **DeepSeek Harness
   <a href="https://dsh-plugins.omniroute.online">Böngéssz, keress és telepíts minden bővítményt a weboldalon →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-974_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1074_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -122,7 +122,7 @@ szabályzatokat, amelyeket mindketten fogyasztanak.
 
 ## A katalógus állapota
 
-**974 bővítmény egyesítve.** Minden bővítmény egy egyedileg átvizsgált pull requesten keresztül
+**1074 bővítmény egyesítve.** Minden bővítmény egy egyedileg átvizsgált pull requesten keresztül
 kerül be, egyenként, az eredeti alkotó repository-jából, rögzített forráscommittal és explicit
 jóváírással.
 
@@ -345,4 +345,4 @@ licenceik alatt. Lásd [docs/CREDIT.md](../../docs/CREDIT.md) és [docs/UNOFFICI
 
 </div>
 
-<!-- i18n-source-hash: 700f8a84d15b2a127f49b4eecfb0458b69f18ee4635aada00da6a451e4100da8 -->
+<!-- i18n-source-hash: 79cd7b325295a12873f4f9f58d3fa50aaa8303176219fd8c798347ebff937d98 -->
