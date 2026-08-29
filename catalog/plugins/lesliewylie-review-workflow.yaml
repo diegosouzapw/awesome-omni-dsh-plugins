@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lesliewylie-review-workflow
+name: review-workflow
+description:
+  en: "A structured multi-panelist review workflow for the DeepSeek Harness: N panelists score in isolated subagents blind to each other, a chair reconciles disagreement, an independent critic audits the process."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - review
+  - workflow
+  - multi-panelist
+  - checkpoint
+source:
+  repository: https://github.com/LeslieWylie/review-workflow
+  repositoryNodeId: R_kgDOT4SsIQ
+  subpath: null
+  commit: f423c032ce55694916d5e1edf6520722b1cd809b
+creator:
+  github: LeslieWylie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:40.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
