@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: minecraftbe-dsh-toolfold
+name: dsh-toolfold
+description:
+  en: "A DSH Web GUI plugin delivering a Codex-like folding experience : runs of consecutive tool calls fold into a single compact bar showing a one-line summary of the last call — click to expand/collapse. It replaces no built-in renderer, and uninstalling restores the UI completely."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - delivering
+  - codex
+  - folding
+  - experience
+  - runs
+  - consecutive
+  - tool
+  - calls
+  - fold
+  - single
+  - compact
+  - showing
+  - line
+  - summary
+  - last
+  - call
+source:
+  repository: https://github.com/Minecraftbe/dsh-toolfold
+  repositoryNodeId: R_kgDOT4-JzA
+  subpath: null
+  commit: b0eac08f00651562e62fa24c8d13f1b8cc42084a
+creator:
+  github: Minecraftbe
+package:
+  ecosystem: npm
+  name: dsh-toolfold
+  version: 0.1.7
+  integrity: sha512-UKMwAKQLnUWhwqwb5TQlmIdMF6sM18Ua7gUxwGd+1jpwnlDbn1HrTK6iibbr7hir+YpZPCDK8ZK2jdMcRhMykA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:39.815Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
