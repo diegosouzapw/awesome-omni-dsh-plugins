@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: liangmianya-dsh-synapse
+name: dsh-synapse
+description:
+  en: A visual, non-linear conversation workspace plugin for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - visual
+  - linear
+  - conversation
+  - workspace
+  - dsh
+source:
+  repository: https://github.com/liangmianya/dsh-synapse
+  repositoryNodeId: R_kgDOT6U6IA
+  subpath: null
+  commit: 56935dc1862e7791b212f6eb2dd26404def5a575
+creator:
+  github: liangmianya
+package:
+  ecosystem: npm
+  name: dsh-synapse
+  version: 0.4.1
+  integrity: sha512-PkmCY5LaPcoLC7rxVIPk4cqcteYg0/+pwFg1NvjnEOr1GFrivfSFUUMmw3GdG3qxakTp4KTAhWkXrMOfMzBcwg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:48:48.392Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 249
+provenance:
+  discussion: null
+  comment: null
