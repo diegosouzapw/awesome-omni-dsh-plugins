@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: mr-neutr0n-dsh-medseek
+name: dsh-medseek
+description:
+  en: "Clinical documentation toolkit for DeepSeek Harness: SBAR and I-PASS handovers, SOAP and APSO notes, admission H&P, discharge summaries with pending-results enforcement, patient-instruction readability scoring, HIPAA Safe Harbor de-identification, and cited FDA label/FAERS/recalls/Drugs@FDA, MedlinePlus, PubMed/PMC/Eur"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - healthcare
+  - clinical
+  - clinical-documentation
+  - sbar
+  - i-pass
+  - soap-note
+  - hipaa
+  - phi
+  - de-identification
+  - deidentification
+  - patient-education
+  - medical-notes
+  - nursing
+source:
+  repository: https://github.com/Mr-Neutr0n/dsh-medseek
+  repositoryNodeId: R_kgDOT97obA
+  subpath: null
+  commit: 5f1817feb95054e3646527d27e5786e935b6ee9f
+creator:
+  github: Mr-Neutr0n
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:53.213Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
