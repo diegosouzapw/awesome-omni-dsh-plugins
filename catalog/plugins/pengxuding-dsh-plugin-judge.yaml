@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: pengxuding-dsh-plugin-judge
+name: dsh-plugin-judge
+description:
+  en: "Judge whether a DeepSeek Harness plugin is worth using: pre-install review, post-install audit, and re-audit reminders when the model changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - plugin-audit
+  - plugin-judge
+  - evaluation
+source:
+  repository: https://github.com/pengxuding/dsh-plugin-judge
+  repositoryNodeId: R_kgDOT49EwQ
+  subpath: null
+  commit: d2c046dd83da7c82fa0d25af752959dfcc8f1188
+creator:
+  github: pengxuding
+package:
+  ecosystem: npm
+  name: dsh-plugin-judge
+  version: 0.1.1
+  integrity: sha512-BYFkymuH+VlqL3DsmoVXwauoeKKKLV0YBB2/qBN0et9zYyduB1BcN7DsiczqYR/T6qcmtKcXW+xbGf5E7zXOrw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:18.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
