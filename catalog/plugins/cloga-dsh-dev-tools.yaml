@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: cloga-dsh-dev-tools
+name: dsh-dev-tools
+description:
+  en: "DSH agent-native development tools: dsh status / dsh patch / dsh build / dsh upgrade. Lets the agent inspect the source tree, manage local patches, build a staging runtime, and check for new upstream versions - without leaving the session."
+  evidencePath: tools/dsh-dev-tools/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dev-tools
+  - upgrade
+  - patch
+  - dsh
+source:
+  repository: https://github.com/cloga/dsh-windows-ops
+  repositoryNodeId: R_kgDOUBA_Jg
+  subpath: tools/dsh-dev-tools
+  commit: 2a79f99e656b740cc4916e826aa365c549d56088
+creator:
+  github: cloga
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: tools/dsh-dev-tools/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:21.263Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
