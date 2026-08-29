@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: hanshanxue83-collaborative-emergent-intelligence
+name: collaborative-emergent-intelligence
+description:
+  en: 相位（.drill-chassis-phase.json）/ fragments.json / yongduan.json / blindspots.json / links.json / convergences.json / surge.json / reflections.json / archive.json —— 全部自动双写 .bak 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - cei
+  - collaborative-intelligence
+  - cognitive
+  - breathing
+  - resonance
+  - temporal-resonance
+  - plugin-evolution
+source:
+  repository: https://github.com/hanshanxue83/collaborative-emergent-intelligence
+  repositoryNodeId: R_kgDOUCSLWw
+  subpath: null
+  commit: 598422f906ae95375db9f7a6f82da351b2bab53a
+creator:
+  github: hanshanxue83
+package:
+  ecosystem: npm
+  name: collaborative-emergent-intelligence
+  version: 1.0.1
+  integrity: sha512-PatRWQ2h1S7gqynXwwn28vIFFbdg3p76v3jL3quvhIw7cYJ4Rag8V4ddMxuWZCfpNe8AFJ6CHqgICgZTAvWsDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:56.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
