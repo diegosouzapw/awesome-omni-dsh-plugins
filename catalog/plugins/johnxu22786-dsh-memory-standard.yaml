@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: johnxu22786-dsh-memory-standard
+name: dsh-memory-standard
+description:
+  en: "Memory Standard Protocol (mm) for the DeepSeek Harness: layered MEMORY.md + deterministic budgets + frozen snapshots + cross-agent markdown/URI interop + session-log digestion. Ships as a dsh bundle (tools: mem read, mem write, mem search, mem budget, mem digest) and a standalone CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - bundle
+  - memory
+  - memorization
+  - markdown
+  - standard
+  - fts5
+  - sqlite
+source:
+  repository: https://github.com/JohnXu22786/memory-standard
+  repositoryNodeId: R_kgDOT-Ry7A
+  subpath: null
+  commit: c4c8f2956bd973256a36c79d706f5c9e60f06a1d
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:14.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
