@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: onlyqzq-dsh-riskproof
+name: dsh-riskproof
+description:
+  en: Provenance-aware execution security for DeepSeek Harness. Track sensitive data across tool calls and stop risky side effects before execution.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - ai-agent
+  - agent-security
+  - provenance
+  - information-flow-control
+  - tool-security
+  - taint-tracking
+  - execution-security
+  - policy-engine
+  - dsh
+source:
+  repository: https://github.com/onlyqzq/dsh-riskproof
+  repositoryNodeId: R_kgDOTW4VAw
+  subpath: null
+  commit: 3fda8506fbc9d442ee635aae09e5c0070962e913
+creator:
+  github: onlyqzq
+package:
+  ecosystem: npm
+  name: dsh-riskproof
+  version: 0.2.0
+  integrity: sha512-16JESQR0MfEXOxXxd3GGy/mEyFMAbYkLABCgVyOkP9GzDzu7gUbnBBA+bwHN9dxKTuIWj8Y8B372mJKCRGUkBA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:57.139Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
