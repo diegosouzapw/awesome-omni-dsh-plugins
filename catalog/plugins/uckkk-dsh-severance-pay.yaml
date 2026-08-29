@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-severance-pay
+name: dsh-severance-pay
+description:
+  en: bash dsh plugin add github:uckkk/dsh-severance-pay
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-severance-pay
+source:
+  repository: https://github.com/uckkk/dsh-severance-pay
+  repositoryNodeId: R_kgDOT-Dqww
+  subpath: null
+  commit: 0d3bdeb5359257d2bb51cad59b9fe312aead344d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:58.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
