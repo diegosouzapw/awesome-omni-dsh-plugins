@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: signalight-dsh-codex-pet
+name: "@signalight/dsh-codex-pet"
+description:
+  en: "DSH web-GUI pet runtime: renders Codex spritesheet-atlas pets (v1/v2) with drag/wave/jump, live activity poses and progress bubbles. 把 Codex 桌宠图集渲染为 DSH 网页桌宠的运行时插件。"
+  evidencePath: packages/dsh-codex-pet/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - runtime
+  - renders
+  - codex
+  - spritesheet
+  - atlas
+  - pets
+  - drag
+  - wave
+  - jump
+  - live
+  - activity
+  - poses
+  - progress
+  - bubbles
+  - dsh
+source:
+  repository: https://github.com/Signalight/codex-to-dsh-pet
+  repositoryNodeId: R_kgDOT5aHmg
+  subpath: packages/dsh-codex-pet
+  commit: e786fba25affa45ec2adee43d40755c4ba8dc223
+creator:
+  github: Signalight
+package:
+  ecosystem: npm
+  name: "@signalight/dsh-codex-pet"
+  version: 0.3.0
+  integrity: sha512-lYjsC/7GX162Y8YMnP+y3NZWFs6zUPd8IMRPy5Vv5SvQXxgJz/pzLCXjbaAw22Q1r5WDvIcKoi0Prjjz+9roQQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-codex-pet/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:05.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
