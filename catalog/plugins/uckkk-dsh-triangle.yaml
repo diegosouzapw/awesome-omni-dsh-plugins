@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-triangle
+name: dsh-triangle
+description:
+  en: bash dsh plugin add github:uckkk/dsh-triangle
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-triangle
+source:
+  repository: https://github.com/uckkk/dsh-triangle
+  repositoryNodeId: R_kgDOT9u-jA
+  subpath: null
+  commit: f8ff2b98286ae728ad30e8d37e49d2962768d64b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:57.234Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
