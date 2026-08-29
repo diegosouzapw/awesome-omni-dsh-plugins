@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: tttwh-dsh-plugin-diraud
+name: dsh-plugin-diraud
+description:
+  en: "Audit the DeepSeek Harness plugin list by origin (official vs self-installed): a /plugin-audit command plus a Source tab in Web Settings"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - cordis
+  - plugin-list
+  - audit
+  - origin
+source:
+  repository: https://github.com/tttwh/dsh-plugin-diraud
+  repositoryNodeId: R_kgDOT4F6hw
+  subpath: null
+  commit: 93a2fdd2a1ee227813e99867e79fd12e4603bfa1
+creator:
+  github: tttwh
+package:
+  ecosystem: npm
+  name: dsh-plugin-diraud
+  version: 0.8.3
+  integrity: sha512-vxb5WvdFycs6rY4dJXzRtxfZoH1MdCQiJUFMqPbGHfrub8png3AfxBHJHH0ycuXr6g1dZ39VxWbQkkpgDxSLHw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:17.646Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
