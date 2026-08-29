@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Просматривайте, ищите и устанавливайте любой плагин на сайте →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1904_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1994_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@ YAML-файл в `catalog/plugins/`, проверенный по опублик�
 
 ## Состояние каталога
 
-**1904 плагина принято.** Каждый плагин попадает сюда через индивидуально отрецензированный pull
+**1994 плагина принято.** Каждый плагин попадает сюда через индивидуально отрецензированный pull
 request, по одному за раз, из оригинального репозитория создателя, с закреплённым исходным
 коммитом и явным указанием авторства.
 
@@ -341,4 +341,4 @@ request'ы.
 
 </div>
 
-<!-- i18n-source-hash: 285373af122b2ab6f9cf5c418d272c4de4b0cd1d35f0f87925c17e2e722dafcb -->
+<!-- i18n-source-hash: 70a101b3459af759abf1b626a86b3a317c8f7a41149f50c99779a0d2f092f28c -->
