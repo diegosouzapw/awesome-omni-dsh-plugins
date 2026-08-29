@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: opentritium-dsh-codex-shim
+name: "@opentritium/dsh-codex-shim"
+description:
+  en: Route-aware Codex environment simulation for DeepSeek Harness, improving tool-call reliability for GPT and other Codex-adapted models
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - route
+  - aware
+  - codex
+  - environment
+  - simulation
+  - improving
+  - tool
+  - call
+  - reliability
+  - other
+  - adapted
+  - models
+  - dsh
+source:
+  repository: https://github.com/OpenTritium/dsh-codex-shim
+  repositoryNodeId: R_kgDOT5LrvA
+  subpath: null
+  commit: a35d66378542e97cc862c8dee08007f08d586781
+creator:
+  github: OpenTritium
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:45.273Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
