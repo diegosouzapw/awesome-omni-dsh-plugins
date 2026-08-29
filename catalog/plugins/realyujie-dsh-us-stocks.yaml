@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: realyujie-dsh-us-stocks
+name: dsh-us-stocks
+description:
+  en: DSH US stock market data plugin, powered by yahoo-finance2
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - stocks
+  - us-stocks
+  - yahoo-finance
+source:
+  repository: https://github.com/Realyujie/dsh-us-stocks
+  repositoryNodeId: R_kgDOT4geHA
+  subpath: null
+  commit: 13237087e59238ddbe379a82383cc82a471660b6
+creator:
+  github: Realyujie
+package:
+  ecosystem: npm
+  name: dsh-us-stocks
+  version: 0.3.0
+  integrity: sha512-kqGCmUOCrhC8XdrbjIs8lQ40hRvTkaO+KTf07kmENcca/M2LV5PC2ZFNsE6MwEc3pkCQocrXyldudg4uX4rFOA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.227Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
