@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: luweiyabo-dsh-whale-pet
+name: "@luweiyabo/dsh-whale-pet"
+description:
+  en: "A floating whale desktop pet for the DeepSeek Harness Web UI: 95 categorized animations, event-aware actions, custom uploads, click reactions, dragging and screen wandering."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-pet
+  - pet
+  - whale
+  - floating-widget
+  - web-ui
+  - cordis
+  - react
+source:
+  repository: https://github.com/luweiyabo/dsh-whale-pet
+  repositoryNodeId: R_kgDOUBlUsw
+  subpath: null
+  commit: ea01fda325e029d06545c286c593c6788a6554bb
+creator:
+  github: luweiyabo
+package:
+  ecosystem: npm
+  name: "@luweiyabo/dsh-whale-pet"
+  version: 0.1.2
+  integrity: sha512-cslu3vQoaXDNnUn0TRQGY6XHsm0p+79oXpAheGpf9Dk4gg80eFU+QjQiDTkHSij2lh+A+RCzyFJWOQwvS4iGyQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:01.002Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
