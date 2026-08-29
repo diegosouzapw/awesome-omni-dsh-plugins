@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: fno2010-dsh-web-search-ext
+name: "@fno2010/dsh-web-search-ext"
+description:
+  en: "Multi-backend web search and web fetch providers for the DeepSeek Harness web seam (ctx.web): Exa (REST with key, anonymous hosted MCP without) and Firecrawl (v2 search/scrape API) today, extensible to more backends (SearXNG, ...), with automatic failover when one backend rate-limits, result verification (liveness/cont"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - web-search
+  - exa
+  - firecrawl
+  - failover
+source:
+  repository: https://github.com/fno2010/dsh-web-search-ext
+  repositoryNodeId: R_kgDOT7RAtQ
+  subpath: null
+  commit: 260fe44daec6d470b39a286d556b9928bfea416b
+creator:
+  github: fno2010
+package:
+  ecosystem: npm
+  name: "@fno2010/dsh-web-search-ext"
+  version: 0.3.0
+  integrity: sha512-b4oUAXaBA4lNO0VUGIq5f0mN3Yb8NWRgTVLX/heaGe231R4VJsMtN0r8b4yqGXjjvFqWZrv7i0xi9s/QnG6fYQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:37.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
