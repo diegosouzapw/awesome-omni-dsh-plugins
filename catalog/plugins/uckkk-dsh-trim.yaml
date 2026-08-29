@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-trim
+name: dsh-trim
+description:
+  en: bash dsh plugin add github:uckkk/dsh-trim
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-trim
+source:
+  repository: https://github.com/uckkk/dsh-trim
+  repositoryNodeId: R_kgDOT9t_ww
+  subpath: null
+  commit: 31e88d3aa4324bc94f190d3367e1ad17c5e71365
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:57.534Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
