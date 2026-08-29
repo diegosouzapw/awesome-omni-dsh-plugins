@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-lamp-count
+name: dsh-lamp-count
+description:
+  en: bash dsh plugin add github:uckkk/dsh-lamp-count
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-lamp-count
+source:
+  repository: https://github.com/uckkk/dsh-lamp-count
+  repositoryNodeId: R_kgDOT-siOA
+  subpath: null
+  commit: 572a5b3dd759f516de88dd4fb817fece65fb4e80
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:19.435Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
