@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sharl210-dsh-strip-sandbox-permissions
+name: dsh-strip-sandbox-permissions
+description:
+  en: Strip sandbox permissions / justification from model tool-call arguments so sandbox escalation is never triggered when the session already has sufficient permission.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - sandbox
+  - permissions
+  - escalation
+source:
+  repository: https://github.com/Sharl210/dsh-strip-sandbox-permissions
+  repositoryNodeId: R_kgDOT_-SuQ
+  subpath: null
+  commit: 091d62c3dca0fcaa0cc7f26e6e470e19ef355f35
+creator:
+  github: Sharl210
+package:
+  ecosystem: npm
+  name: dsh-strip-sandbox-permissions
+  version: 0.1.0
+  integrity: sha512-eXPg189DKJtpKg9C+6a2kI9WOsG/9xOGrnpDLtAln3noMqLiBSvhKCuddi68F2pxIcOSFekO08PX1bfOxAGfDg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:55.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
