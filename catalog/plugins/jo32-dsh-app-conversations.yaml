@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: jo32-dsh-app-conversations
+name: "@deepdeck/dsh-app-conversations"
+description:
+  en: App-scoped workspaces and canonical conversation routing for DeepDeck
+  evidencePath: plugins/app-conversations/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - scoped
+  - workspaces
+  - canonical
+  - conversation
+  - routing
+  - deepdeck
+  - dsh
+source:
+  repository: https://github.com/jo32/DeepDeck
+  repositoryNodeId: R_kgDOT6sjUA
+  subpath: plugins/app-conversations
+  commit: d3fe239d7412ec905ee77f8979597b9a386eb1f5
+creator:
+  github: jo32
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/app-conversations/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:47:31.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
