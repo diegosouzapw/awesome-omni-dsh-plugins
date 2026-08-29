@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lancecheney-dsh-deepseek-balance
+name: "@lancecheney/dsh-deepseek-balance"
+description:
+  en: Session-header DeepSeek API balance, per-conversation spend, and peak/off-peak pricing indicator
+  evidencePath: packages/dsh-deepseek-balance/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - session
+  - header
+  - balance
+  - conversation
+  - spend
+  - peak
+  - pricing
+  - indicator
+  - dsh
+source:
+  repository: https://github.com/lancecheney/dsh-plugins
+  repositoryNodeId: R_kgDOT49fiA
+  subpath: packages/dsh-deepseek-balance
+  commit: 5fc65bfbae221fed4da07fd304b1e6afe002e9e6
+creator:
+  github: lancecheney
+package:
+  ecosystem: npm
+  name: "@lancecheney/dsh-deepseek-balance"
+  version: 0.1.2
+  integrity: sha512-w45tgD4BAb6GPSmFG+iSWU5ilzQ6nq0mzfGW9U15AmJRnCYd5/FHu1Dl2d0bDTXVyUfk0XWB0J4jSWxw4hO4nQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-deepseek-balance/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:30.625Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
