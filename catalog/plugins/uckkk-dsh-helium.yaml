@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-helium
+name: dsh-helium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-helium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-helium
+source:
+  repository: https://github.com/uckkk/dsh-helium
+  repositoryNodeId: R_kgDOT9vArg
+  subpath: null
+  commit: 1a38478370429e32ef157892a9b7f3b5dba8cf26
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:52.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
