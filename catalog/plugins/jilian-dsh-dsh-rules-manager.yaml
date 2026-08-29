@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jilian-dsh-dsh-rules-manager
+name: dsh-rules-manager
+description:
+  en: "DeepSeek Harness (dsh) rules, commands & skills manager: /rules slash command, settings panel with visual rule editing, command list, user-defined custom commands (with {input} argument support, disable/enable), skill management (view/disable/enable/delete-to-trash), and backup restore. Installable as an official dsh b"
+  evidencePath: dsh-rules-manager/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - rules
+  - commands
+  - agent
+source:
+  repository: https://github.com/jilian-dsh/dsh-rules-manager
+  repositoryNodeId: R_kgDOT4EKxg
+  subpath: dsh-rules-manager
+  commit: a2dba04eeae2aa04f4e7ac667c3758758fa7d1c4
+creator:
+  github: jilian-dsh
+package:
+  ecosystem: npm
+  name: dsh-rules-manager
+  version: 1.5.1
+  integrity: sha512-jJQ4asMJfqYkOSdyR4z0HfTNN+YdmNrxQRnw8BpTJ88zZUKkQlIbKTd5dg7lv9XWFffWOYx1W6f+3NLiSN21fQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-rules-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:51.254Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
