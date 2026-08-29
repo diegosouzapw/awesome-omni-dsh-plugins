@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: janeickholt-dsh-inline-diff
+name: dsh-inline-diff
+description:
+  en: "Always-expanded split diff view for edit/write tool calls in the DeepSeek Harness web GUI: shadows the stock collapsed rows via the tool.call.toolview slot and renders each mutation as an inline side-by-side diff; bundled highlight.js syntax coloring, word-level highlighting and common-indentation stripping are optiona"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - diff
+  - web-plugin
+source:
+  repository: https://github.com/JanEickholt/dsh-inline-diff
+  repositoryNodeId: R_kgDOUESPlw
+  subpath: null
+  commit: 39808960de9174446418fc311b335f642e4c19b7
+creator:
+  github: JanEickholt
+package:
+  ecosystem: npm
+  name: dsh-inline-diff
+  version: 1.1.0
+  integrity: sha512-PV4M8QF1ImFkzV1L9mc94qZcSUKMDOyFFT1Ou7v3J0Q6Hx+SNrwUeMz+x+Qw2SOT2nnQJICV4fCreQmklILcyQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:46:33.311Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
