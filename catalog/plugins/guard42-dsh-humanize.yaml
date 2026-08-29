@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: guard42-dsh-humanize
+name: dsh-humanize
+description:
+  en: Humanize Mode for DeepSeek Harness — the humanfia flow philosophy (draft → check → lock → review → run/resume, SHA-256 lock identity, HMAC review gate, event-sourced resumability) as an agent preset. Installing this bundle auto-installs the preset into the DSH preset root.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - humanize
+  - flow
+  - workflow-orchestration
+  - llm-agents
+source:
+  repository: https://github.com/Guard42/dsh-humanize
+  repositoryNodeId: R_kgDOUCZMBA
+  subpath: null
+  commit: 18adeaf0f25862c21a0943539fda16345504deed
+creator:
+  github: Guard42
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:19.716Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
