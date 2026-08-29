@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tipoli5890-dsh-file-mention
+name: dsh-file-mention
+description:
+  en: Secure, session-scoped DSH Web @file/@folder mentions with Git-aware indexing, validated path markers, and drag-drop uploads
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - mention
+  - file
+  - composer
+  - input-trigger
+source:
+  repository: https://github.com/tipoLi5890/dsh-file-mention
+  repositoryNodeId: R_kgDOT7-p4g
+  subpath: null
+  commit: d9e37e1255d9443cabfddc307daba8eb380068aa
+creator:
+  github: tipoLi5890
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:16.261Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
