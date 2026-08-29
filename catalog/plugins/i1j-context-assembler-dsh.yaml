@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: i1j-context-assembler-dsh
+name: context-assembler-dsh
+description:
+  en: "Context Assembler DSH V0.99 — Context Assembler plugin for DeepSeek Harness (dsh): context compaction, cache-friendly topic-block management, water-pressure topic splitting, tool trace/rewrite, handoff planning and reality recall injection."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - context-assembly
+  - context-compression
+  - context-compaction
+  - topic-management
+  - handoff
+  - memory
+  - reality-injection
+  - tool-trace
+  - dsh
+source:
+  repository: https://github.com/i1j/context-assembler-DSH
+  repositoryNodeId: R_kgDOT7sZwQ
+  subpath: null
+  commit: 6807b032f771975ceaa9b66ce38fcf048b7438b5
+creator:
+  github: i1j
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:44:32.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
