@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bahamas
+name: dsh-bahamas
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bahamas
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bahamas
+source:
+  repository: https://github.com/uckkk/dsh-bahamas
+  repositoryNodeId: R_kgDOT-y8zw
+  subpath: null
+  commit: 826c012b146d37357b83c74ec21ad9cddd999a7b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:26.900Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
