@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: skymecode-dsh-deep-dive-skins
+name: dsh-deep-dive-skins
+description:
+  en: "Pre-deep-dive ornaments for the DSH Web GUI turn-status row: swap the spouting whale for anime skins (whale-girl variant, cat-girl, mermaid) with a surface-prepare then dive choreography. Official cordis bundle: host half registers the settings namespace, browser half patches the 'Deep diving...' status row."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - whale
+  - deep-dive
+  - skin
+  - web-ui
+source:
+  repository: https://github.com/skymecode/dsh-deep-diving
+  repositoryNodeId: R_kgDOT-qa4g
+  subpath: null
+  commit: c5a5916aa9894dbdfb0516e6977451bff610504b
+creator:
+  github: skymecode
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:41.578Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
