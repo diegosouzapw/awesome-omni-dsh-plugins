@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fancr-code-dsh-plugin-usage-meter
+name: dsh-plugin-usage-meter
+description:
+  en: <p align="center" <img src="https://img.shields.io/github/stars/fancr-code/dsh-plugin-usage-meter?style=flat-square&cacheSeconds=300" alt="Stars" &nbsp; <img src="https://img.shields.io/npm/v/dsh-plugin-usage-meter?style=flat-square" alt="npm" &nbsp; <img src="https://img.shields.io/npm/dm/dsh-plugin-usage-meter?style=
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - usage
+  - usage-meter
+  - token-usage
+  - cost
+  - cost-tracking
+  - billing
+  - balance
+  - budget
+  - token
+  - fee
+source:
+  repository: https://github.com/fancr-code/dsh-plugin-usage-meter
+  repositoryNodeId: R_kgDOT9E74g
+  subpath: null
+  commit: 0941688f9524768384e03941510fc6e12c9a02ca
+creator:
+  github: fancr-code
+package:
+  ecosystem: npm
+  name: dsh-plugin-usage-meter
+  version: 1.8.3
+  integrity: sha512-OQLavqqBwkQ55a+cooa9IM0S+AVOynx3S806ZX+w6Kv+UIzOJBuA0lx2API6+HWtYyGke/DM+ZSX3vS1Pzoo5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:48.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
