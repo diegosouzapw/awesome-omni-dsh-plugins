@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: nxz1026-dsh-tray
+name: dsh-tray
+description:
+  en: "Windows system-tray launcher for DeepSeek Harness Web: start/stop/restart/open UI/show logs from the tray icon."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - tray
+  - systray
+  - windows
+  - launcher
+source:
+  repository: https://github.com/nxz1026/dsh-tray
+  repositoryNodeId: R_kgDOT9Ybnw
+  subpath: null
+  commit: d489100a11ae2ca84073e4921c1e1d5dd79eab93
+creator:
+  github: nxz1026
+package:
+  ecosystem: npm
+  name: dsh-tray
+  version: 0.1.0
+  integrity: sha512-xaixLleIgaCpuguW7fWSP2qnsj61ap2pqzD/9JVSdTTJ7zbsRt4Ep+/LR26Wh+mEDZZtkq7f8k0ymipSH82EIA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:56.826Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
