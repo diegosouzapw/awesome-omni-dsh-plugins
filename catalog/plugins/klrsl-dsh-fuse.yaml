@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: klrsl-dsh-fuse
+name: dsh-fuse
+description:
+  en: bash dsh plugin --profile web add link:./dsh-fuse
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - link
+  - fuse
+  - dsh
+source:
+  repository: https://github.com/KLRSL/dsh-fuse
+  repositoryNodeId: R_kgDOT9pLrw
+  subpath: null
+  commit: 54a9f2e12acbf96712f52daba55fea4f27c253f7
+creator:
+  github: KLRSL
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:38.432Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
