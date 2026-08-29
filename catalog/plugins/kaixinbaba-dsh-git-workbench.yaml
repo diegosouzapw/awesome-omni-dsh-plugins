@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: kaixinbaba-dsh-git-workbench
+name: dsh-git-workbench
+description:
+  en: "DeepSeek Harness git development workbench: captures git context (branch, status, worktrees, stash, recent commits) into every session, asks which branch/worktree to develop in at session start, and switches branches / creates and manages worktrees through /git commands, an agent tool, and a Settings page. Configurable"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - branch
+  - worktree
+  - git-worktree
+  - checkout
+  - stash
+source:
+  repository: https://github.com/kaixinbaba/dsh-git-workbench
+  repositoryNodeId: R_kgDOT7UBeA
+  subpath: null
+  commit: be51bc326bfdb2ebd8d2b83b5d53792058112468
+creator:
+  github: kaixinbaba
+package:
+  ecosystem: npm
+  name: dsh-git-workbench
+  version: 0.3.4
+  integrity: sha512-8I1F5zIa/cAr9J+hkGca3PD9GiJUQ5/yUNntU2HfB8o3avtYrIdJoWm1JKQUORJrPxZKlS/DI9zzsKrX9/y+dw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:06.216Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
