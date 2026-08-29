@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: leeminjing-dsh-eyes
+name: dsh-eyes
+description:
+  en: "On-demand vision for text-only LLMs in DeepSeek Harness: keep pasted/attached images in the backend, and let the model call view image to look at them anytime via any OpenAI-compatible vision endpoint — as if the model were natively multimodal."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - multimodal
+  - ocr
+  - openai-compatible
+  - dsh
+source:
+  repository: https://github.com/Leeminjing/dsh-eyes
+  repositoryNodeId: R_kgDOT570Cg
+  subpath: null
+  commit: b645e41dd6afeba06c58414914a77a150d49fe1a
+creator:
+  github: Leeminjing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:32.523Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
