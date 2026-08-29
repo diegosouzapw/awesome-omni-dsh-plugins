@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: faith1688-dsh-usage-meter-harness
+name: "@faith1688/dsh-usage-meter-harness"
+description:
+  en: A real-time usage / cost / balance meter plugin for DeepSeek Harness (DSH) . See tokens, spending and real wallet balance right next to the chat input — for the official DeepSeek models and any custom model registered in DSH.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - usage
+  - meter
+  - cost
+  - billing
+  - session-projection
+source:
+  repository: https://github.com/faith1688/dsh-usage-meter-harness
+  repositoryNodeId: R_kgDOT6-niw
+  subpath: null
+  commit: bd288701676a7163e9d51f209de0b128672eec4f
+creator:
+  github: faith1688
+package:
+  ecosystem: npm
+  name: "@faith1688/dsh-usage-meter-harness"
+  version: 1.0.30
+  integrity: sha512-mdUiwJaddKKY6OA9A/4cqcdjuRPINX/ktyRcJ4xjlgl46Hq649YfjhpRN3K1v45e9+yQStLdE6nEL08CObEAmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:32.876Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
