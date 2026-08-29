@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-overtime-limit
+name: dsh-overtime-limit
+description:
+  en: bash dsh plugin add github:uckkk/dsh-overtime-limit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-overtime-limit
+source:
+  repository: https://github.com/uckkk/dsh-overtime-limit
+  repositoryNodeId: R_kgDOT-DYeQ
+  subpath: null
+  commit: c02966d7f24e061bd8fdf97bfb86782b67760309
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:45.246Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
