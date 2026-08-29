@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: kikomaotu-ccs-balance
+name: ccs-balance
+description:
+  en: "DSH plugin: sync cc-switch provider balances and track token usage & cost by day/month/total with relay-aware currency settings."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - ds-harness
+  - cc-switch
+  - balance
+  - usage
+  - token
+  - cost
+source:
+  repository: https://github.com/kikomaotu/ccs-balance
+  repositoryNodeId: R_kgDOUAy2AQ
+  subpath: null
+  commit: b8fa0a962e7d3bc8315a0fa6795214c66fe43716
+creator:
+  github: kikomaotu
+package:
+  ecosystem: npm
+  name: ccs-balance
+  version: 1.0.3
+  integrity: sha512-wfNXz85x94DkewpXro+eg102S0OssgKZMtBkJeADTiSH8CHdruI0wuovZ0tA1ZWTpZzisBS8BjPfjkUfwVe1GA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:35.447Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
