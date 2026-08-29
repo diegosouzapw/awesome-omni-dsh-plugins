@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-meeting-talk
+name: dsh-meeting-talk
+description:
+  en: bash dsh plugin add github:uckkk/dsh-meeting-talk
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-meeting-talk
+source:
+  repository: https://github.com/uckkk/dsh-meeting-talk
+  repositoryNodeId: R_kgDOT-zjHg
+  subpath: null
+  commit: 80dda8dd60c597dc6ae65e8d86f20c020f732426
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:29.599Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
