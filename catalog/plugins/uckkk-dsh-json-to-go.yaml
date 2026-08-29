@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-json-to-go
+name: dsh-json-to-go
+description:
+  en: bash dsh plugin add dsh-json-to-go 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-to-go" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - go
+  - golang
+  - struct
+source:
+  repository: https://github.com/uckkk/dsh-json-to-go
+  repositoryNodeId: R_kgDOT6MBWA
+  subpath: null
+  commit: 52be81af3a8808a7c60d2de6fc763633abe31678
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:15.553Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
