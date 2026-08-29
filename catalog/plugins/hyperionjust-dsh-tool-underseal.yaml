@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: hyperionjust-dsh-tool-underseal
+name: dsh-tool-underseal
+description:
+  en: Model-facing typed tools wrapping the frozen, reviewed underseal adapter for the DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - underseal
+  - delegation
+  - cross-agent
+  - multi-agent
+  - sealed-assignment
+  - agent-security
+  - ai-agents
+  - coding-agent
+  - cordis
+  - typescript
+  - bundle
+source:
+  repository: https://github.com/Hyperionjust/dsh-tool-underseal
+  repositoryNodeId: R_kgDOT3rayg
+  subpath: null
+  commit: 11076603a692718c437c2eb0432e1b2a9a0cc2c5
+creator:
+  github: Hyperionjust
+package:
+  ecosystem: npm
+  name: dsh-tool-underseal
+  version: 0.1.4
+  integrity: sha512-84PQ54mpkeQpYHG1BMnnrdtGmL64G8cXaBrGUjiFBk89pw888pcjJQFMWGTYQ9oszTDCltgVr2ZKYU6HamoRJw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:54.595Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
