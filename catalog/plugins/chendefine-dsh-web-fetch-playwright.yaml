@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: chendefine-dsh-web-fetch-playwright
+name: dsh-web-fetch-playwright
+description:
+  en: "Playwright/CDP web-fetch provider for DeepSeek Harness: renders pages in a real browser, denoises them (Readability + DOMPurify), and returns markdown."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - playwright
+  - cdp
+  - web-fetch
+  - fetch-provider
+  - markdown
+  - bundle
+source:
+  repository: https://github.com/chendefine/dsh-web-fetch-playwright
+  repositoryNodeId: R_kgDOT_jnYg
+  subpath: null
+  commit: 18c30007dce9463c1972aeff304a37363204a74c
+creator:
+  github: chendefine
+package:
+  ecosystem: npm
+  name: dsh-web-fetch-playwright
+  version: 0.2.4
+  integrity: sha512-EDi8dzlXCrDoCG1AIrWzr7bqkJU8j9I3MNswujt48BaKK4tLkQyWvNCtvRgbOP3JLMTe7lhBXIwWhO0AGZNBTQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:16.078Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
