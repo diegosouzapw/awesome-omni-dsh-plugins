@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: gengdapeng-dsh-agent-message
+name: dsh-agent-message
+description:
+  en: "A cross-session Agent communication plugin for DeepSeek Harness: it lets different Agent sessions running in the same process send and receive messages to each other, just like messaging."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - agent
+  - multi-agent
+  - messaging
+  - dsh
+source:
+  repository: https://github.com/GengDaPeng/dsh-agent-message
+  repositoryNodeId: R_kgDOT3pNXA
+  subpath: null
+  commit: 88c19c4492287a2220b396153d67a1637c887ae9
+creator:
+  github: GengDaPeng
+package:
+  ecosystem: npm
+  name: dsh-agent-message
+  version: 1.5.1
+  integrity: sha512-7dLo58i/QyqpKf2h6HRFF9DMDcfX3fcnqCGvbO0AU8pxkynQluZQuhXcehFNF2QwXZTgh10PNyqLEdixqRjPIQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:42.152Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
