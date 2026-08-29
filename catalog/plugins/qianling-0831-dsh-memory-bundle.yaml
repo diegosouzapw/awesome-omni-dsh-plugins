@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: qianling-0831-dsh-memory-bundle
+name: dsh-memory-bundle
+description:
+  en: "Meta-bundle: installs all dsh-memory plugins (CJK search, dedup, hybrid memory index, memory tool, compaction locator, core memory, skill manager + self-evolution) into a DeepSeek Harness profile as one patch layer."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - bundle
+  - memory
+  - dsh
+source:
+  repository: https://github.com/QIANLING-0831/dsh-memory-plus
+  repositoryNodeId: R_kgDOT8uSyA
+  subpath: packages/dsh-memory-bundle
+  commit: 5a66aea598f946f88d3bef1bba989336dc6d3d58
+creator:
+  github: QIANLING-0831
+package:
+  ecosystem: npm
+  name: dsh-memory-bundle
+  version: 0.1.0
+  integrity: sha512-GLeQ6GvZlEPqzo52ZR08N4zwM9bWPXsZlJmtOJfxnzvWpVJ1vIgWydkDE3lQGxiwXjfZr3mhLJMJlvGNwc6oWA==
+dsh:
+  profiles:
+    - headless
+  evidencePath: packages/dsh-memory-bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:21:24.851Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
