@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-social-insurance
+name: dsh-social-insurance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-social-insurance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-social-insurance
+source:
+  repository: https://github.com/uckkk/dsh-social-insurance
+  repositoryNodeId: R_kgDOT-DUTg
+  subpath: null
+  commit: da69b0418d6ecab61ffab4552c63637130ce2e2b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:44:05.544Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
