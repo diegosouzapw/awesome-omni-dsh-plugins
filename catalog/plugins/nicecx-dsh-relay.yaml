@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: nicecx-dsh-relay
+name: dsh-relay
+description:
+  en: bash node ~/.dsh/plugins/dsh-relay/cli.js 罗列待回复诉求 node ~/.dsh/plugins/dsh-relay/cli.js status 状态总览 node ~/.dsh/plugins/dsh-relay/cli.js --json JSON 输出（脚本友好）
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - imessage
+  - email
+  - wechat
+  - approval
+  - remote
+  - relay
+  - notify
+source:
+  repository: https://github.com/nicecx/dsh-relay
+  repositoryNodeId: R_kgDOT8TcMQ
+  subpath: null
+  commit: f603f8570283f82deda1f82a41698e053fc4a589
+creator:
+  github: nicecx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:55.623Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
