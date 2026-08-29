@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: haoyueqin-dsh-diff-stat
+name: dsh-diff-stat
+description:
+  en: Inline +N −M diff badges on edit/write tool rows and a per-turn file change summary card for DeepSeek Harness. PTC/code-dispatch fallback, no git required.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - diff
+  - code-review
+source:
+  repository: https://github.com/HaoyueQin/dsh-diff-stat
+  repositoryNodeId: R_kgDOUC4j3Q
+  subpath: null
+  commit: 3cebf9ac2c5de0d537b1d43bb89d3e92edd340ec
+creator:
+  github: HaoyueQin
+package:
+  ecosystem: npm
+  name: dsh-diff-stat
+  version: 0.1.2
+  integrity: sha512-w3sgi0mSif2ACPgp4aeY+K5WcRmoMNukww8eVX2dwyoUN2vtICtn6Q0Unv+NOpORQuEN3tVqRPq34pQs1TpNBA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:04.355Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
