@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: ryubyte-dsh-a2a
+name: "@ryubyte/dsh-a2a"
+description:
+  en: "Agent2Agent (A2A) protocol v1.0 plugin for DeepSeek Harness (DSH): outbound client (remote AgentCard skills as ctx.tools), inbound server (A2A JSON-RPC + AgentCard endpoint), and a settings dashboard of live A2A connections"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - agent2agent
+  - protocol
+  - outbound
+  - client
+  - remote
+  - agentcard
+  - skills
+  - tools
+  - inbound
+  - server
+  - json
+  - endpoint
+  - settings
+  - dashboard
+  - live
+  - connections
+source:
+  repository: https://github.com/ryubyte/dsh-a2a
+  repositoryNodeId: R_kgDOT7aJIw
+  subpath: null
+  commit: 906242757699c3a355f6b1a565c60c1fd90c195f
+creator:
+  github: ryubyte
+package:
+  ecosystem: npm
+  name: "@ryubyte/dsh-a2a"
+  version: 0.2.1
+  integrity: sha512-5oeMkYK9i4q2vvzVUy43wsjYVkxl896xL3zXf5gEOSGTFH630Jq8bHLBhEHBVXWyVWkFXUKu45nZ/fvQzCLv9A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:42.067Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
