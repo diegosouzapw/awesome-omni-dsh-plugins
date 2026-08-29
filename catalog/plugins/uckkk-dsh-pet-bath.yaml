@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-pet-bath
+name: dsh-pet-bath
+description:
+  en: bash dsh plugin add github:uckkk/dsh-pet-bath
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-pet-bath
+source:
+  repository: https://github.com/uckkk/dsh-pet-bath
+  repositoryNodeId: R_kgDOT-tM5g
+  subpath: null
+  commit: df18655713b7a5a31e898e45f0cdf3c46d785008
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:47.810Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
