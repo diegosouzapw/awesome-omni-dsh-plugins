@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-darmstadtium
+name: dsh-darmstadtium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-darmstadtium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-darmstadtium
+source:
+  repository: https://github.com/uckkk/dsh-darmstadtium
+  repositoryNodeId: R_kgDOT_GN6A
+  subpath: null
+  commit: f1231a6c776d80e6d2140d108d70c7371355d7e5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:14.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
