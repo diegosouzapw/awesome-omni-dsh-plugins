@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lonelymoon87-dsh-specflow
+name: dsh-specflow
+description:
+  en: Specification-driven development workflows for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - spec-driven-development
+  - agent
+  - workflow
+  - dsh
+source:
+  repository: https://github.com/lonelymoon87/dsh-specflow
+  repositoryNodeId: R_kgDOT3pL4A
+  subpath: null
+  commit: 39acc6f785438f7b6a133e9147f9cb0c40c3ec15
+creator:
+  github: lonelymoon87
+package:
+  ecosystem: npm
+  name: dsh-specflow
+  version: 0.1.4
+  integrity: sha512-gV7TBm9Xf1eFaxvRj1UkWrGqh5Pj7sYDXbjhAs/VBEhx4wZP3/xhOnV1XK66Qbb66Se+pWYWl77TUgGSkxK2FQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:19.307Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
