@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-code-stats
+name: dsh-code-stats
+description:
+  en: bash dsh plugin add dsh-code-stats
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - code
+  - stats
+  - statistics
+source:
+  repository: https://github.com/uckkk/dsh-code-stats
+  repositoryNodeId: R_kgDOT6EpTw
+  subpath: null
+  commit: 5f6bd1df3de1e7c16f1d0e6480b01d04ffc966f1
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-code-stats
+  version: 0.1.0
+  integrity: sha512-04mvzEZTHjIzMmV1Xd9fX62SC5HHvnlQGHTErtu2v2DioXhu3PA9goC4k/HjBl9NNF2/P6XG4oCxBrDHs3ptxg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:27.033Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
