@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lencx-minke-harness-overlay
+name: "@lencx/minke-harness-overlay"
+description:
+  en: Minke-owned DeepSeek Harness product extensions
+  evidencePath: packages/harness-overlay/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - minke
+  - owned
+  - product
+  - extensions
+  - dsh
+source:
+  repository: https://github.com/lencx/Minke
+  repositoryNodeId: R_kgDOT44fxw
+  subpath: packages/harness-overlay
+  commit: c156b73e1e663a46de4e741da03ff0affb0c5476
+creator:
+  github: lencx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/harness-overlay/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:51:50.617Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
