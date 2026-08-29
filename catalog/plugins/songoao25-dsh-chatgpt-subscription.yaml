@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: songoao25-dsh-chatgpt-subscription
+name: dsh-chatgpt-subscription
+description:
+  en: A DeepSeek Harness plugin that lets you sign in with your ChatGPT account using the official OAuth flow and chat with ChatGPT models inside DSH, consuming your ChatGPT Plus / Pro subscription quota.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - chatgpt
+  - codex
+  - subscription
+  - oauth
+source:
+  repository: https://github.com/songoao25/dsh-chatgpt-subscription
+  repositoryNodeId: R_kgDOT5bdgA
+  subpath: null
+  commit: 4d447e4c3e0b8380af946acb79e05731677f5840
+creator:
+  github: songoao25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:41.668Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
