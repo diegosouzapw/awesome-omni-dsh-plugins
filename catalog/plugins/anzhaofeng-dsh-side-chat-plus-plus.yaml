@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: anzhaofeng-dsh-side-chat-plus-plus
+name: dsh-side-chat-plus-plus
+description:
+  en: https://github.com/user-attachments/assets/5fefe33f-b4e8-42c5-adac-4d728fccfc0d
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - side-chat
+  - cordis
+source:
+  repository: https://github.com/anzhaohao/dsh-side-chat-plus-plus
+  repositoryNodeId: R_kgDOUBHS7Q
+  subpath: null
+  commit: 81e20a94c3c3cc2b67d0f7d642917bb2df5efed0
+creator:
+  github: anzhaofeng
+package:
+  ecosystem: npm
+  name: dsh-side-chat-plus-plus
+  version: 0.1.2
+  integrity: sha512-HmT/wbnYLVckxwM2GzeZOnc6/ZrYXJV6siD57QwltHzzyJdAyAiZTG2Aj8O5UM7lhm0IuT6hl+bvvKeqTVRNKQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:18.300Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
