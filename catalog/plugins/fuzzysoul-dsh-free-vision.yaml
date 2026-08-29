@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fuzzysoul-dsh-free-vision
+name: dsh-free-vision
+description:
+  en: Free vision plugin for DeepSeek Harness (dsh) — gives text-only models the ability to read images (screenshots, code errors, UI layouts, documents, OCR) using free-tier vision models , with zero MCP configuration.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - image
+  - free
+  - qwen
+  - doubao
+  - volcengine
+  - siliconflow
+  - ocr
+  - multimodal
+  - image-to-text
+  - visual
+source:
+  repository: https://github.com/FuzzySoul/dsh-free-vision
+  repositoryNodeId: R_kgDOT5FO1g
+  subpath: null
+  commit: 9daa0dc4b42920c129bec5988765a585a0523843
+creator:
+  github: FuzzySoul
+package:
+  ecosystem: npm
+  name: dsh-free-vision
+  version: 1.0.8
+  integrity: sha512-fLIiTmw5AbCNQyC5GTIaqks73ZHqiVHOWlsAuCc48iNXTqjcIxuDQGCRYWEavBTUxulCRzaSKEp1Z4GEWzOG2Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:34.354Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
