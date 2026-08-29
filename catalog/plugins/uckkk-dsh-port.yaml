@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-port
+name: dsh-port
+description:
+  en: bash dsh plugin add github:uckkk/dsh-port
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-port
+source:
+  repository: https://github.com/uckkk/dsh-port
+  repositoryNodeId: R_kgDOT9uqYQ
+  subpath: null
+  commit: c2f8969416a66130911f46872e258277eb391038
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:51.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
