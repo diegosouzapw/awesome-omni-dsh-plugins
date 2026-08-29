@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-food-transition
+name: dsh-food-transition
+description:
+  en: bash dsh plugin add github:uckkk/dsh-food-transition
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-food-transition
+source:
+  repository: https://github.com/uckkk/dsh-food-transition
+  repositoryNodeId: R_kgDOT-te2A
+  subpath: null
+  commit: 355f6fa46b52f8da9a958bb2e2264e841b587c23
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:40.017Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
