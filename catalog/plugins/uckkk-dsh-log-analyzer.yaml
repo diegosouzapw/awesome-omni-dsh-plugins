@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-log-analyzer
+name: dsh-log-analyzer
+description:
+  en: bash dsh plugin add dsh-log-analyzer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - log
+  - analyzer
+  - debug
+source:
+  repository: https://github.com/uckkk/dsh-log-analyzer
+  repositoryNodeId: R_kgDOT6EGyg
+  subpath: null
+  commit: 571c49484afc18203a68c7d4f3b5d5d4f3b0606f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-log-analyzer
+  version: 0.1.0
+  integrity: sha512-TGz0+/VKdjSHwRv69mDkrVJlswdHNsjIHV3qXZ21KtdSfZN2PIDVBBYjOEax8JXhS2m8h0aAQ64p16RMrQU6ww==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:05.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
