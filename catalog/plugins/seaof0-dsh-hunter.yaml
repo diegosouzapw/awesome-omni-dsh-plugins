@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: seaof0-dsh-hunter
+name: "@dsh-external/dsh-hunter"
+description:
+  en: "DSH hunter plugin: FOFA / Hunter(qianxin) / Quake(360) aggregated asset search with unified DSL → per-platform syntax conversion, quota-aware pagination/export, API-key settings panel, and the code-audit live-verification pipeline (L0 fingerprint check on internet assets, L1 minimal-impact EXP only on user-authorized a"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - asset-hunting
+  - fofa
+  - hunter
+  - quake
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-hunter
+  commit: 45ba1a1cbb20043350e60ee51ec20442a7fb1fbb
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-hunter/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.168Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
