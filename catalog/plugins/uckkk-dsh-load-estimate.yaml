@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-load-estimate
+name: dsh-load-estimate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-load-estimate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-load-estimate
+source:
+  repository: https://github.com/uckkk/dsh-load-estimate
+  repositoryNodeId: R_kgDOT-sU2g
+  subpath: null
+  commit: dd1c9a41abc78d05228cc4cb7a9188ef6a178058
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:23.245Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
