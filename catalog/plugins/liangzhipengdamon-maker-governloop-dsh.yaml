@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: liangzhipengdamon-maker-governloop-dsh
+name: governloop-dsh
+description:
+  en: Thin DeepSeek Harness plugin connecting DSH agents to GovernLoop's independent ChatGPT review with checkpoints and evidence (BEFORE DESTRUCTIVE ACTION vertical slice).
+  evidencePath: governloop-dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - thin
+  - connecting
+  - agents
+  - governloop
+  - independent
+  - chatgpt
+  - review
+  - checkpoints
+  - evidence
+  - before
+  - destructive
+  - action
+  - vertical
+  - slice
+  - dsh
+source:
+  repository: https://github.com/liangzhipengdamon-maker/GovernLoop-DSH
+  repositoryNodeId: R_kgDOUBUgyw
+  subpath: governloop-dsh
+  commit: 41c52577767d910ce2f399eed770508483c49928
+creator:
+  github: liangzhipengdamon-maker
+package:
+  ecosystem: npm
+  name: governloop-dsh
+  version: 0.1.1
+  integrity: sha512-aZJTmMA0laU3vdRRt+zhKl5sg11uR4EcfKqvmwGOcLReM2LE3w8NtmstoCS1MoPXMi4K8FP/U6md9Nb6DvNdug==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: governloop-dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:06.054Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
