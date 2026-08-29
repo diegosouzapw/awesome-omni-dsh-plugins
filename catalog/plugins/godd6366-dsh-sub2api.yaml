@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: godd6366-dsh-sub2api
+name: "@godd6366/dsh-sub2api"
+description:
+  en: "Connect your sub2api gateway to DeepSeek Harness: OpenAI-compatible multi-provider routes (OpenAI / Claude / Grok / Gemini) behind one base URL, with per-key model discovery, usage lookup, global vision/image tools, and a settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - sub2api
+  - llm
+  - openai
+  - claude
+  - grok
+  - gemini
+  - vision
+  - image-generation
+  - dsh
+source:
+  repository: https://github.com/GodD6366/dsh-sub2api
+  repositoryNodeId: R_kgDOT43pIQ
+  subpath: null
+  commit: e4dd7dad0a710c8cde75d505e337f63c391102db
+creator:
+  github: GodD6366
+package:
+  ecosystem: npm
+  name: "@godd6366/dsh-sub2api"
+  version: 0.1.3
+  integrity: sha512-d4n1TktaV1Ej8YLKCXvH/UP7aoK6vbCm58WJdwV5GrhW8W93gYv7utl6EfwmitCZM6QeL76Fs0meJXFdYlrIKw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:11.597Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
