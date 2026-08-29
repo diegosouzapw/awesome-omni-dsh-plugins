@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hyp6666-dsh-open-file
+name: dsh-open-file
+description:
+  en: Workspace-bound arbitrary file upload, reading, OCR, and rendering for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - file-upload
+  - ocr
+source:
+  repository: https://github.com/hyper-dsh-plugins/dsh-open-file
+  repositoryNodeId: R_kgDOT7V7hg
+  subpath: null
+  commit: d788e38eee2feaf0c8ae54036bc335a567055118
+creator:
+  github: Hyp6666
+package:
+  ecosystem: npm
+  name: dsh-open-file
+  version: 0.1.1-rc.2
+  integrity: sha512-axKFJQUREvCAZFaY+KV5lUbpZQ+84+XwLFXvdNVyi2oWFh1KVQ2DHXn32rZpx0VmiHdbA0IIoFWPJsm04Er5UA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:51.969Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
