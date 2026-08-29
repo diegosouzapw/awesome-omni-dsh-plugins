@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: asherliner-dsh-memory-connect
+name: "@deepseek-ai/dsh-memory-connect"
+description:
+  en: Cross-session memory plugin for DSH — auto-extraction, semantic recall, scheduled maintenance, LLM-powered consolidation, context explosion prevention, global Soul identity
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - memory
+  - cross-session
+  - recall
+  - consolidation
+  - soul
+  - identity
+source:
+  repository: https://github.com/Asher-2000/dsh-memory-connect
+  repositoryNodeId: R_kgDOT9OJIA
+  subpath: null
+  commit: 41d71fdd419b8179ef677528a3d01fa7a427128a
+creator:
+  github: asherliner
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:10.274Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
