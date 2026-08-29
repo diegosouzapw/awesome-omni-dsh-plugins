@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lhl-dsh-model-deploy
+name: dsh-model-deploy
+description:
+  en: "DeepSeek Harness plugin: LLM model selection & deployment analysis (deployability, VRAM, TTFT, latency, throughput, power for 38 models × 20 GPUs/NPUs)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - llm
+  - model-selection
+  - deployment
+  - capacity-planning
+  - gpu
+  - npu
+  - ascend
+source:
+  repository: https://github.com/lhwwxy/dsh-model-deploy
+  repositoryNodeId: R_kgDOT78nyQ
+  subpath: null
+  commit: f66be5534db621fd1e4ee930bfb17577be1c9e9b
+creator:
+  github: lhl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:52:02.998Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
