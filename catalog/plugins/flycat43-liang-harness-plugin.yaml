@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: flycat43-liang-harness-plugin
+name: liang-harness-plugin
+description:
+  en: An unofficial Liang character companion plugin for the DeepSeek Harness web profile.
+  evidencePath: plugins/liang-harness-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - cordis
+  - desktop-pet
+  - dsh
+source:
+  repository: https://github.com/Flycat43/liang-desktop-pet
+  repositoryNodeId: R_kgDOUBFsKQ
+  subpath: plugins/liang-harness-plugin
+  commit: 36e367799357a16ee2d4c2de79eacca879deef0f
+creator:
+  github: Flycat43
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/liang-harness-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:52.960Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
