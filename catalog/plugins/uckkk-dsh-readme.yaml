@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-readme
+name: dsh-readme
+description:
+  en: bash dsh plugin add dsh-readme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - documentation
+source:
+  repository: https://github.com/uckkk/dsh-readme
+  repositoryNodeId: R_kgDOT6Drhg
+  subpath: null
+  commit: 739cba851395b575805ac65a48d5b41ad6a48610
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-readme
+  version: 0.1.0
+  integrity: sha512-iALoy8h5y9eJ7m82eLc4s0hjodeLTDHagK2k8i3JLkqXdiXFcAZj3smeTuKI29p+9dP06uaRO+v6uF2eMAySng==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:59.057Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
