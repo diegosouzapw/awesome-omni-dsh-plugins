@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tiantianlaolao-dsh-astock-research
+name: dsh-astock-research
+description:
+  en: A-share (China) stock research assistant — a DeepSeek Harness (dsh) plugin.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - astock
+  - stock
+  - china-a-share
+  - dsh
+source:
+  repository: https://github.com/tiantianlaolao/dsh-astock-research
+  repositoryNodeId: R_kgDOT9HHag
+  subpath: null
+  commit: 1767eb6ad3c96c144d08d0c779a1377c0d204b94
+creator:
+  github: tiantianlaolao
+package:
+  ecosystem: npm
+  name: dsh-astock-research
+  version: 0.1.1
+  integrity: sha512-W7Hg5db9VqRQMTChOMsF/OElt/xdC1GzqyCHSJLWwYZhcuFw3RzRScz0Opxml3CgdYJjH3y26s/Xi+MrSLe86w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:24.682Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
