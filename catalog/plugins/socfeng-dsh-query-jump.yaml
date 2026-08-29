@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: socfeng-dsh-query-jump
+name: dsh-query-jump
+description:
+  en: bash dsh plugin --profile web remove dsh-query-jump dsh plugin --profile web add github:SocFeng/dsh-query-jump
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - query-jump
+  - navigation
+source:
+  repository: https://github.com/SocFeng/dsh-query-jump
+  repositoryNodeId: R_kgDOT7C7WQ
+  subpath: null
+  commit: d255937a0ac4b167bd761ae08c01263ceef9d328
+creator:
+  github: SocFeng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:49.722Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
