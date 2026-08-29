@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: jilian-dsh-dsh-rule-engine
+name: dsh-rule-engine
+description:
+  en: bash dsh plugin --profile web add dsh-rule-engine
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - rules
+  - guard
+  - security
+  - agent
+source:
+  repository: https://github.com/jilian-dsh/dsh-rule-engine
+  repositoryNodeId: R_kgDOT5lVYw
+  subpath: null
+  commit: fd6997fffc1263957bb28c610d0747ac19cc2496
+creator:
+  github: jilian-dsh
+package:
+  ecosystem: npm
+  name: dsh-rule-engine
+  version: 0.5.8
+  integrity: sha512-JMle5uQ4cq2kLyAcrTOy00roezdNz+lG5fQgPOePSzsV3o4SmqYZZAaJdk1E3IklOPBWD2uWs1I2NrsCXfHBDw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:31.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
