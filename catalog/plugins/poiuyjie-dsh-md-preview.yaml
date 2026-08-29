@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: poiuyjie-dsh-md-preview
+name: dsh-md-preview
+description:
+  en: "DeepSeek Harness plugin: dockable Markdown preview panel that opens side-by-side with the conversation, tracks recently accessed .md files per session, and intercepts in-chat .md references so they preview instead of launching the system editor. Built on top of dsh-vision-opencode for a visual-verification + source-pre"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - markdown
+  - preview
+  - docs
+  - vision
+source:
+  repository: https://github.com/poiuyjie/dsh-md-preview
+  repositoryNodeId: R_kgDOT5-xTw
+  subpath: null
+  commit: a14484dd3ca8ea3537dbe847ac65f3496eff20dc
+creator:
+  github: poiuyjie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:54.345Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
