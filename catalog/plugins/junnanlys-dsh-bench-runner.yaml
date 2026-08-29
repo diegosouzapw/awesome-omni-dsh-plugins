@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: junnanlys-dsh-bench-runner
+name: dsh-bench-runner
+description:
+  en: "A layered distillation memory plugin for DeepSeek Harness: conversations are processed in the background through L0 capture → L1 atomic memories → L2 scene consolidation → L3 persona distillation, and relevant memories are automatically injected into context before every model step — neither the user nor the model need"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - layered
+  - distillation
+  - memory
+  - conversations
+  - processed
+  - background
+  - through
+  - capture
+  - atomic
+  - memories
+  - scene
+  - consolidation
+  - persona
+  - relevant
+  - automatically
+  - injected
+source:
+  repository: https://github.com/JunNanLYS/dsh-layered-memory
+  repositoryNodeId: R_kgDOT521jg
+  subpath: bench/harness/dsh-bench-runner
+  commit: 0b2ffc6a08f1380c6771d0cb0430b6d2c5736bac
+creator:
+  github: JunNanLYS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: bench/harness/dsh-bench-runner/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:29.149Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
