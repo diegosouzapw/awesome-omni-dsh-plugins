@@ -16,7 +16,7 @@ Objavovanie s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy *
   <a href="https://dsh-plugins.omniroute.online">Prehliadajte, vyhľadávajte a inštalujte všetky pluginy na webe →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-1448_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-1541_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@ využívajú.
 
 ## Stav katalógu
 
-**1448 zlúčených pluginov.** Každý plugin vstupuje prostredníctvom individuálne posúdeného pull
+**1541 zlúčených pluginov.** Každý plugin vstupuje prostredníctvom individuálne posúdeného pull
 requestu, jeden po druhom, z repozitára pôvodného tvorcu, s pripnutým zdrojovým commitom a
 explicitným pripísaním autorstva.
 
@@ -340,4 +340,4 @@ vlastníkmi a licenciami. Pozri [docs/CREDIT.md](../../docs/CREDIT.md) a
 
 </div>
 
-<!-- i18n-source-hash: b9399f3318226e0fc568aafa5c5a66e506a14d7b0811fa90b3913cfcf84098c8 -->
+<!-- i18n-source-hash: 534c89866e1e17e6acd405f61f0f20312df50d1cbd379f5eda3d9729c958c584 -->
