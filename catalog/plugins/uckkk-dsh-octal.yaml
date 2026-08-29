@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-octal
+name: dsh-octal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-octal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-octal
+source:
+  repository: https://github.com/uckkk/dsh-octal
+  repositoryNodeId: R_kgDOT9uJOQ
+  subpath: null
+  commit: ac8f85927d8ad45656f17f960c8f75f1f1334ea6
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:41.876Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
