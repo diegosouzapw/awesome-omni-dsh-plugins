@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-option-intrinsic
+name: dsh-option-intrinsic
+description:
+  en: bash dsh plugin add github:uckkk/dsh-option-intrinsic
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-option-intrinsic
+source:
+  repository: https://github.com/uckkk/dsh-option-intrinsic
+  repositoryNodeId: R_kgDOT-DcyA
+  subpath: null
+  commit: caed6261b14e898c15a012490e3e0b9e8175b284
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:43.966Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
