@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mangomt-dsh-power
+name: dsh-power
+description:
+  en: "Floating power dock for the DeepSeek Harness web GUI: one-click restart or graceful shutdown of the dsh web host, loopback-guarded and dependency-free."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - shutdown
+  - power
+  - web
+source:
+  repository: https://github.com/mangomt/dsh-power
+  repositoryNodeId: R_kgDOT-3wDA
+  subpath: null
+  commit: 575c15f85a834bae18f6eef4381b2c1ad8aeb4f9
+creator:
+  github: mangomt
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:52.450Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
