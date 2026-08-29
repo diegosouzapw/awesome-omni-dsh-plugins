@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: tianyazty-dsh-hot-plugin-host
+name: dsh-hot-plugin-host
+description:
+  en: "Hot-plugin host for DeepSeek Harness: install/update static client plugins at runtime — drop a bundle into the hot dir, every open page loads it live, no restart."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - hot-reload
+  - client-plugin
+source:
+  repository: https://github.com/tianyaZTY/dsh-hot-plugin-host
+  repositoryNodeId: R_kgDOT4nnyg
+  subpath: null
+  commit: 369985a7722ff16425576b31fadd667ca94c61d0
+creator:
+  github: tianyaZTY
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:24.688Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
