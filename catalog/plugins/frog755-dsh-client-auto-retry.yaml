@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: frog755-dsh-client-auto-retry
+name: "@frog755/dsh-client-auto-retry"
+description:
+  en: powershell pnpm add @frog755/dsh-client-auto-retry
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - retry
+  - auto-retry
+  - client
+source:
+  repository: https://github.com/Frog755/dsh-client-auto-retry
+  repositoryNodeId: R_kgDOT8jOhQ
+  subpath: null
+  commit: adffe5341ea25c15646fff6fb09b21e70cd23048
+creator:
+  github: Frog755
+package:
+  ecosystem: npm
+  name: "@frog755/dsh-client-auto-retry"
+  version: 0.3.1
+  integrity: sha512-zXPzWKPVtil5iGods+tk/Ay3/Pi+TRprrmKqS+w6UkNDef9R8kedPoHdGfldAloG0kwJTcw+JszywUsUFVbkyg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:07.908Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
