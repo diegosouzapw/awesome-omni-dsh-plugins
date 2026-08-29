@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: skepsun-dsh-engram
+name: dsh-engram
+description:
+  en: "Minimalist long-term memory for DeepSeek Harness, distilling symbolic-index + pi-esr ideas: zero-LLM auto-capture, a symbolic [ENGRAM] index with progressive disclosure, and an ESR-lite evidence-closure protocol (esr task / esr node / esr close / esr link). Real agent-behaviour telemetry (usage rollup + /stats) and a d"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - long-term-memory
+  - symbolic-index
+  - pi-esr
+source:
+  repository: https://github.com/skepsun/dsh-engram
+  repositoryNodeId: R_kgDOT8PhZg
+  subpath: null
+  commit: ca4167c2db32392cc6a4c0633edb77bcf4c477c4
+creator:
+  github: skepsun
+package:
+  ecosystem: npm
+  name: dsh-engram
+  version: 0.3.4
+  integrity: sha512-w0VkC+5lvLevKOCVtS7CaBSQe2aqyBeF0LpcqHUcsHj8BlMBYhSeeFSND16zrSVBjY00svNnuUV+YNF1mquWww==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:57.301Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
