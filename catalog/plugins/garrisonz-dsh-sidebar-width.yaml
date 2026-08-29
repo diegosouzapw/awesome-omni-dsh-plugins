@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: garrisonz-dsh-sidebar-width
+name: dsh-sidebar-width
+description:
+  en: Control the DeepSeek Harness Web UI left sidebar width (min/max/default) by patching the installed ui-layout client bundle at dsh web startup.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - sidebar
+  - ui
+source:
+  repository: https://github.com/garrisonz/dsh-sidebar-width
+  repositoryNodeId: R_kgDOT5P-yQ
+  subpath: null
+  commit: ae5671c5f61582870e9234d043a41b2518f96fd5
+creator:
+  github: garrisonz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:09.256Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
