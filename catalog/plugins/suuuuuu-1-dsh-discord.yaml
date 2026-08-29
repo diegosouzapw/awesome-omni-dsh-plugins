@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: suuuuuu-1-dsh-discord
+name: dsh-discord
+description:
+  en: Bidirectional Discord bridge and remote controller for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - bidirectional
+  - discord
+  - bridge
+  - remote
+  - controller
+  - dsh
+source:
+  repository: https://github.com/suuuuuu-1/dsh-discord
+  repositoryNodeId: R_kgDOT4ir2A
+  subpath: null
+  commit: 1c5a55d566fd9eefbbf04a1a81d6e4140240e98c
+creator:
+  github: suuuuuu-1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:16.045Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
