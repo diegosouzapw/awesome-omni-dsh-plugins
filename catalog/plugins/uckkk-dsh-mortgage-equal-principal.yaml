@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-mortgage-equal-principal
+name: dsh-mortgage-equal-principal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-mortgage-equal-principal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-mortgage-equal-principal
+source:
+  repository: https://github.com/uckkk/dsh-mortgage-equal-principal
+  repositoryNodeId: R_kgDOT-DdvQ
+  subpath: null
+  commit: 6a9dfb7612d4fe2c0af723b640e55fd3f848f6ac
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:33.892Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
