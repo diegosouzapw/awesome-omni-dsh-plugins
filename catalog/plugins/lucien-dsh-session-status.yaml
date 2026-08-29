@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lucien-dsh-session-status
+name: dsh-session-status
+description:
+  en: bash dsh plugin --profile web add dsh-session-status
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - session-status
+  - label
+  - cordis
+source:
+  repository: https://github.com/LucienLL/dsh-session-status
+  repositoryNodeId: R_kgDOUEMeWg
+  subpath: null
+  commit: dc7138ff0024be3dd2a0b5d774da7c63b0c65e11
+creator:
+  github: Lucien
+package:
+  ecosystem: npm
+  name: dsh-session-status
+  version: 0.2.0
+  integrity: sha512-hKEJj9cWhYtIkJUrW6TVtijFZmTYtkPfpz4x6OCCXVoLmfE+uQymhDxKQBaByf8ecJTTuD8dYMlDvPJn1gfLog==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:58.779Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
