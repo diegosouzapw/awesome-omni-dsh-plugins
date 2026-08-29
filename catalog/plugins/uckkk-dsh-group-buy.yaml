@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-group-buy
+name: dsh-group-buy
+description:
+  en: bash dsh plugin add github:uckkk/dsh-group-buy
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-group-buy
+source:
+  repository: https://github.com/uckkk/dsh-group-buy
+  repositoryNodeId: R_kgDOT-tYlg
+  subpath: null
+  commit: 52b847dbc2b5d90768f30580947c61f93d1e5d41
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:49.649Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
