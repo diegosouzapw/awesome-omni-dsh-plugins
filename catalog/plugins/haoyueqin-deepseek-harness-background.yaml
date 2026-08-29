@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: haoyueqin-deepseek-harness-background
+name: deepseek-harness-background
+description:
+  en: "Custom background image plugin for the DeepSeek Harness web GUI: upload a local picture or paste an image URL, and render it behind the whole app surface with adjustable opacity, scrim, panel transparency and frosted-glass blur."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - wallpaper
+  - background
+  - web-ui
+source:
+  repository: https://github.com/HaoyueQin/deepseek-harness-background
+  repositoryNodeId: R_kgDOT9kx-g
+  subpath: null
+  commit: b85392d383085e87fffe5b40b7311b094186addd
+creator:
+  github: HaoyueQin
+package:
+  ecosystem: npm
+  name: deepseek-harness-background
+  version: 0.4.2
+  integrity: sha512-XtwObvT7q6210CKdQh5chmf8qAGLlQb6EsS4hjQLJuWO8ZQyQKbX07xGaomUKWOER81rW1BLEwy0aDHLh9zzYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:43:02.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
