@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: pasumao-dsh-plugin-dev-kb
+name: dsh-plugin-dev-kb
+description:
+  en: powershell dsh plugin --profile web add dsh-plugin-dev-kb dsh plugin --profile web add github:Pasumao/dsh-plugin-dev-kb
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - knowledge
+  - documentation
+  - kb
+  - plugin-development
+source:
+  repository: https://github.com/Pasumao/dsh-plugin-dev-kb
+  repositoryNodeId: R_kgDOT7N0pA
+  subpath: null
+  commit: 541f71701cc78fc328141b69d30e57d213512fcc
+creator:
+  github: Pasumao
+package:
+  ecosystem: npm
+  name: dsh-plugin-dev-kb
+  version: 1.0.7
+  integrity: sha512-AQz9SF0Ev54BJQ5tca1fEFlQs7cr5xM2Y3errk3gvoM5NQZcYtpLGn7TcN58YxG6dX2IITRRln4Qg7WSEZo/2g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:59.459Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
