@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: margbug01-dsh-oracle
+name: dsh-oracle
+description:
+  en: Strongly read-only, secret-aware Oracle second-opinion subagent for DeepSeek Harness.
+  evidencePath: dsh-oracle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - oracle
+  - subagent
+source:
+  repository: https://github.com/margbug01/dsh-ma-plugins
+  repositoryNodeId: R_kgDOT5HqkQ
+  subpath: dsh-oracle
+  commit: d554ce499f792fc3434f071262af76becb0b7634
+creator:
+  github: margbug01
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-oracle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:49:02.290Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
