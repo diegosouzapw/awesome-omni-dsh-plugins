@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: future007s-dsh-peak-indicator
+name: dsh-peak-indicator
+description:
+  en: "yaml - insert: - id: peak-indicator name: 'dsh-peak-indicator'"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - peak
+  - off-peak
+  - pricing
+  - cost
+source:
+  repository: https://github.com/future007s/dsh-peak-indicator
+  repositoryNodeId: R_kgDOT6Jx-w
+  subpath: null
+  commit: 8f8c2c3ed2c2fcd51ded523ddcfa963ec0fa35ca
+creator:
+  github: future007s
+package:
+  ecosystem: npm
+  name: dsh-peak-indicator
+  version: 0.1.25
+  integrity: sha512-s8OUw3f23N1ESt/c8e8yA6y4jRf5rfQzaDyl2fBCjAdTjHGC0PJ9R264wHkLcNh0Po9eJUcqMzLs6YglOgWuFA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:57:40.273Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
