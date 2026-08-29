@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: cilis-dsh-tauri-launcher
+name: "@lenorin/dsh-tauri-launcher"
+description:
+  en: Following DeepSeek Harness's "everything-is-a-plugin" architecture, this project abstracts desktop launch, exit confirmation, and desktop-shortcut management into a standard Web plugin. From Settings → Desktop Launcher you can bring up the Tauri desktop app in one click — enjoying both the deep integration of the plugi
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - following
+  - everything
+  - architecture
+  - abstracts
+  - desktop
+  - launch
+  - exit
+  - confirmation
+  - shortcut
+  - management
+  - standard
+  - settings
+  - launcher
+  - bring
+  - tauri
+  - click
+source:
+  repository: https://github.com/cilis/dsh-tauri-launcher
+  repositoryNodeId: R_kgDOT-h3yA
+  subpath: null
+  commit: c36e292659db672a1d85500947fd6d5db7d258ef
+creator:
+  github: cilis
+package:
+  ecosystem: npm
+  name: "@lenorin/dsh-tauri-launcher"
+  version: 1.0.4
+  integrity: sha512-z0J022H+KTAYS8zQteGAmSfSXJnpeKrEbdqa9DXUv5dHMJQqaJ1xHpHtC30QNaPL9RXM5AqYIU5fN0yHxqBaDQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:19.957Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
