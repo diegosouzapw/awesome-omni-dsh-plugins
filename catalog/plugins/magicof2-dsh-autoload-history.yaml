@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: magicof2-dsh-autoload-history
+name: dsh-autoload-history
+description:
+  en: Automatically load the full conversation history when a session opens — no more clicking "Load earlier".
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - automatically
+  - load
+  - full
+  - conversation
+  - history
+  - session
+  - opens
+  - clicking
+  - earlier
+  - dsh
+source:
+  repository: https://github.com/magicOF2/dsh-autoload-history
+  repositoryNodeId: R_kgDOT8Kgmg
+  subpath: null
+  commit: 334063f32333c2c73c254beac258be34a3ee2a2e
+creator:
+  github: magicOF2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:24.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
