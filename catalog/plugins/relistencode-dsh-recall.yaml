@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: relistencode-dsh-recall
+name: dsh-recall
+description:
+  en: "Conversation history recall for DeepSeek Harness: search the original text of every session (like searching chat records) — literal/fuzzy/semantic retrieval, fully local & offline. AI never forgets what you told it."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - recall
+  - memory
+  - history
+  - search
+  - semantic-search
+  - cordis
+source:
+  repository: https://github.com/Relistencode/dsh-recall
+  repositoryNodeId: R_kgDOT5oI5g
+  subpath: null
+  commit: 225b940b7a361e57d9ddb495e04cef2580539d08
+creator:
+  github: Relistencode
+package:
+  ecosystem: npm
+  name: dsh-recall
+  version: 0.2.2
+  integrity: sha512-dF7Upw0fFh6MjJett2T6DDz4s21EjALlgQxyDSRY1KeM0G7dzBjXGYQuIPDqKTm3P4vhd9rtvXeAnH4KLuhr4Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:43.978Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
