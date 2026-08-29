@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: schumchanvi-dsh-voice-input-cn
+name: dsh-voice-input-cn
+description:
+  en: "Voice input plugin for DeepSeek Harness web (China-ready): Alibaba Cloud DashScope ASR via a local bridge. Mic button in the composer, streaming recognition, cursor-aware insertion, silence auto-stop."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - voice
+  - asr
+  - speech
+  - dashscope
+  - aliyun
+source:
+  repository: https://github.com/Schumchanvi/dsh-voice-input-cn
+  repositoryNodeId: R_kgDOT9ffnw
+  subpath: null
+  commit: f87eb135d6f3e85e4d1ea385ada8335eddf4211f
+creator:
+  github: Schumchanvi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:05.986Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
