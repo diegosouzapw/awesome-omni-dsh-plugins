@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: m1khal3v-dsh-llm-key-rotation
+name: "@m1khal3v/dsh-llm-key-rotation"
+description:
+  en: Seamless API-key rotation for DeepSeek Harness LLM providers when subscription limits are hit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - api-key
+  - rotation
+  - rate-limit
+  - quota
+  - llm
+source:
+  repository: https://github.com/m1khal3v/dsh-llm-key-rotation
+  repositoryNodeId: R_kgDOT-dMCA
+  subpath: null
+  commit: 7cb10c39b4a2a3a19b2b658689547078fcabf4d9
+creator:
+  github: m1khal3v
+package:
+  ecosystem: npm
+  name: "@m1khal3v/dsh-llm-key-rotation"
+  version: 1.1.0
+  integrity: sha512-dquwAOb6WYUW8MIiMcuYx7Zp0uIhG4C0cwpAnAzWVh3NQpWWzsGfe2Ur90ngMne2OrSHUBLUyfwAAEl3W7VkNQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:35.746Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
