@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-color-name
+name: dsh-color-name
+description:
+  en: bash dsh plugin add dsh-color-name 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-color-name" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - color
+source:
+  repository: https://github.com/uckkk/dsh-color-name
+  repositoryNodeId: R_kgDOT6NojQ
+  subpath: null
+  commit: 8416bd0e1df3eb19ee9d41cbed4f67ffe58680e4
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-color-name
+  version: 0.1.0
+  integrity: sha512-bJpP+O9MBjuD+tG6xgO63YrtSKCHEFBd30SDIHIbzzr39944RXYyDRmjjHln1YKsysBKnRsrC0MrGOdmAy/FrA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:28.802Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
