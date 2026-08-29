@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: huaxiren6-dsh-remote-qr-button
+name: dsh-remote-qr-button
+description:
+  en: "Floating phone-pairing QR button for the DSH WebUI. Companion UI for dsh-remote-link: opens its /qr pairing page in an in-app overlay."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ui
+  - remote
+  - qr
+  - phone
+  - pairing
+source:
+  repository: https://github.com/huaxiren6/DSH-QrPairing
+  repositoryNodeId: R_kgDOT9PCYQ
+  subpath: null
+  commit: 8427d4613a587bb947e8e7eb69fbdba1e435b402
+creator:
+  github: huaxiren6
+package:
+  ecosystem: npm
+  name: dsh-remote-qr-button
+  version: 0.2.7
+  integrity: sha512-T+MO+/FQPznegqsvGvqJ8YXPRTtPFDScijPGNM53jOrUNiknM9MG+pTzDJHjwMEVv7iumBYZdgQnEzux0WB/SQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:45:20.675Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
