@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: gongyuancaiji-dsh-chinese-thinking
+name: dsh-chinese-thinking
+description:
+  en: Makes your DeepSeek Harness agent think and answer in Chinese by default.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - chinese
+  - i18n
+  - system-prompt
+source:
+  repository: https://github.com/GongYuanCaiJi/dsh-chinese-thinking
+  repositoryNodeId: R_kgDOT4yczA
+  subpath: null
+  commit: 42affd4041ee29592132a00db98028158b33406f
+creator:
+  github: GongYuanCaiJi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:42:41.300Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
