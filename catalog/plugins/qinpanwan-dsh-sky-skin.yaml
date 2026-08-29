@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: qinpanwan-dsh-sky-skin
+name: dsh-sky-skin
+description:
+  en: "A Sky: Children of the Light themed skin for the DeepSeek Harness web UI — three Light Children standing on a glowing constellation board, candlelight gold and a deep-blue starry night. The light theme shows two silhouettes against the setting sun."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skin
+  - theme
+  - sky
+  - cotl
+  - harmonyos
+source:
+  repository: https://github.com/QinpanWan/dsh-sky-skin
+  repositoryNodeId: R_kgDOUDaXKw
+  subpath: null
+  commit: 107538f90757073b3d5ccce9e0300be0cafaa5e3
+creator:
+  github: QinpanWan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: CC-BY-SA-4.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:58:26.495Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
