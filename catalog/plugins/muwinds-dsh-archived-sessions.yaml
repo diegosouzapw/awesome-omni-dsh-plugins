@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: muwinds-dsh-archived-sessions
+name: "@muwinds/dsh-archived-sessions"
+description:
+  en: sh dsh plugin --profile web add github:MuWinds/dsh-archived-sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - archived-sessions
+  - session-management
+source:
+  repository: https://github.com/MuWinds/dsh-archived-sessions
+  repositoryNodeId: R_kgDOT44TKg
+  subpath: null
+  commit: 7d3ba012d3ed08c1296446f709b34f25370c4547
+creator:
+  github: MuWinds
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:39.803Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
