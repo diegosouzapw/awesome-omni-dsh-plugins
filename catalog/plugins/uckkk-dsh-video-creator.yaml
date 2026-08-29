@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-video-creator
+name: dsh-video-creator
+description:
+  en: bash dsh plugin add dsh-video-creator
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - video
+  - short-video
+  - creator
+source:
+  repository: https://github.com/uckkk/dsh-video-creator
+  repositoryNodeId: R_kgDOT57N6g
+  subpath: null
+  commit: 09c893bfc061a018bc47a3b1567c1e852489f699
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-video-creator
+  version: 0.1.4
+  integrity: sha512-lin6KP6MbHvG+fHd4jZB0ip9OWpLnSIr28WUU5Tq33tT12TvEgQqdGeoGHWqtyGKltZamux+ELH9KsnICTWtZw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:40.942Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
