@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: xiaoyuyu6420-dsh-inspect
+name: "@dsh-external/dsh-inspect"
+description:
+  en: bash pnpm install 仅 typescript/@types/node（typecheck 用） pnpm run typecheck tsc -b，类型从 sibling deepseek-harness checkout 解析 cd plugins/dsh-inspect && node --test 回归测试
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - bash
+  - pnpm
+  - install
+  - typescript
+  - types
+  - node
+  - typecheck
+  - sibling
+  - checkout
+  - inspect
+  - test
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-inspect
+  repositoryNodeId: R_kgDOTv-JZg
+  subpath: null
+  commit: a99192eda30115dd3d4d3c5991572f5a37175996
+creator:
+  github: xiaoyuyu6420
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:45.174Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
