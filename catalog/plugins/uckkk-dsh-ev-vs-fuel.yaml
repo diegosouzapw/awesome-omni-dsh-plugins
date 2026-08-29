@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ev-vs-fuel
+name: dsh-ev-vs-fuel
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ev-vs-fuel
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ev-vs-fuel
+source:
+  repository: https://github.com/uckkk/dsh-ev-vs-fuel
+  repositoryNodeId: R_kgDOT-DpKw
+  subpath: null
+  commit: b88de145e7d8a58f93be0ab876307d6a85dbfed2
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:37.629Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
