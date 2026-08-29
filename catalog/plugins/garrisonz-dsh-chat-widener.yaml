@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: garrisonz-dsh-chat-widener
+name: dsh-chat-widener
+description:
+  en: Widen the DeepSeek Harness Web UI conversation content area (shipped default 748px) by overriding the chat-width CSS variables; configurable via the plugin row config.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - chat
+  - width
+  - ui
+source:
+  repository: https://github.com/garrisonz/dsh-chat-widener
+  repositoryNodeId: R_kgDOT7Slmg
+  subpath: null
+  commit: 9d404e09fc5316fb7f25056efc858a129e728a93
+creator:
+  github: garrisonz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:00:05.630Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
