@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ninipa-oh-my-dsh-slim
+name: oh-my-dsh-slim
+description:
+  en: oh-my-opencode-slim-style specialist subagent delegation preset for DeepSeek Harness — orchestrator + 5 specialist roles, background-first delegation, JSON-driven configuration.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - opencode
+  - slim
+  - style
+  - specialist
+  - subagent
+  - delegation
+  - preset
+  - orchestrator
+  - roles
+  - background
+  - first
+  - json
+  - driven
+  - configuration
+  - dsh
+source:
+  repository: https://github.com/ninipa/oh-my-dsh-slim
+  repositoryNodeId: R_kgDOUBkATQ
+  subpath: null
+  commit: 1a8ab153fac97d60f16743ba859fd21b76be43d6
+creator:
+  github: ninipa
+package:
+  ecosystem: npm
+  name: oh-my-dsh-slim
+  version: 0.1.2
+  integrity: sha512-LRvqojvYVNPKnHvIO0U+UoKQhN/17gjbc7xrSeUUTJdC6Nbk+iGP1GJfimwGtLi7lbFZyJjFYAR5jVska5dzsw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:55.636Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
