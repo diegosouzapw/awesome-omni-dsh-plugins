@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: azzygoatcoder-agent-useful-skills
+name: agent-useful-skills
+description:
+  en: Modular AI research/engineering skill pack for DeepSeek Harness — security audit, paper workflows, dev workflow, storage analysis. Installable via dsh plugin add.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - skills
+  - claude-code
+  - security-audit
+  - paper-workflow
+source:
+  repository: https://github.com/Azzygoatcoder/agent-useful-skills
+  repositoryNodeId: R_kgDOS9bD5Q
+  subpath: null
+  commit: f1e82ebcb304e186880b057706d9a1a92ba65c49
+creator:
+  github: Azzygoatcoder
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:18.317Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
