@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: microherox-dsh-unsloth-hands
+name: dsh-unsloth-hands
+description:
+  en: Unsloth for DeepSeek Harness - a pure-client tool plugin that connects the harness online model to a locally running Unsloth Desktop (Unsloth Studio) server for repetitive text and vision (OCR) labor.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - unsloth
+  - unsloth-desktop
+  - llm
+  - gguf
+  - local
+  - offline
+source:
+  repository: https://github.com/MicroHEROX/dsh-unsloth-hands
+  repositoryNodeId: R_kgDOT45KFg
+  subpath: null
+  commit: d86ff2e33344b7199f64c1ee80371e3202deb4f4
+creator:
+  github: MicroHEROX
+package:
+  ecosystem: npm
+  name: dsh-unsloth-hands
+  version: 0.1.0
+  integrity: sha512-NW5H5YxAzx/x5EMWa+Ip9QaDXs3ZUwSCA7utWfauCl7vuZ0rTcPsLbDRErr6LlIhg3KvfKz3smBROfw8CojTlQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:58.568Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
