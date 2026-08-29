@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: momojie-s-dsh-workspace-mcp
+name: "@momojie-s/dsh-workspace-mcp"
+description:
+  en: 'yaml servers: my-server: transport: stdio command: npx args: ["-y", "some-mcp-server@latest"] env: {} remote: transport: streamable-http url: https://example.com/mcp headers: Authorization: "Bearer <token "'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - yaml
+  - servers
+  - server
+  - transport
+  - stdio
+  - command
+  - args
+  - some
+  - latest
+  - remote
+  - streamable
+  - example
+  - headers
+  - authorization
+  - bearer
+  - token
+source:
+  repository: https://github.com/Momojie-S/dsh-workspace-mcp
+  repositoryNodeId: R_kgDOT39Yig
+  subpath: null
+  commit: 9273549552978bbc7676e6d3dc94422760c3fcf1
+creator:
+  github: Momojie-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:39.803Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
