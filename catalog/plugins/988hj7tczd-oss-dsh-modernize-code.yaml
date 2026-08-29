@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 988hj7tczd-oss-dsh-modernize-code
+name: dsh-modernize-code
+description:
+  en: preflight ──► assess ──► map ──► transform（逐块循环）
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - skill
+  - legacy-code
+  - modernization
+  - refactoring
+  - migration
+source:
+  repository: https://github.com/988hj7tczd-oss/dsh-modernize-code
+  repositoryNodeId: R_kgDOUCa2Xg
+  subpath: null
+  commit: 4d110103666fde9515b9a8077b7e0458d00023a8
+creator:
+  github: 988hj7tczd-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:56.705Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
