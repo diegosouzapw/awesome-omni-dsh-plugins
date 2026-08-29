@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: kingguuu8-svg-dsh-pi-compatible
+name: dsh-pi-compatible
+description:
+  en: Full Access-only DeepSeek Harness presets with a Pi coding-agent 0.84.2-compatible seven-tool core and an optional DSH-backed Plus catalog.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - pi-compatible
+  - coding-agent
+  - full-access
+source:
+  repository: https://github.com/kingguuu8-svg/dsh-pi-compatible
+  repositoryNodeId: R_kgDOT7Exuw
+  subpath: null
+  commit: 6a026456d6c5d742f5767a585236c6be441357a0
+creator:
+  github: kingguuu8-svg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:28:34.772Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
