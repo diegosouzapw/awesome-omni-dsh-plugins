@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: moononnn-dsh-biaoqingbao
+name: dsh-biaoqingbao
+description:
+  en: Let the assistant in DeepSeek Harness express emotions with stickers.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - sticker
+  - emoji
+  - expression
+  - dialect
+source:
+  repository: https://github.com/moononnn/DeepSeek-Harness-biaoqingbao
+  repositoryNodeId: R_kgDOT44UuQ
+  subpath: null
+  commit: e8a81042230b33a4800d7c4f01238d368998b0d5
+creator:
+  github: moononnn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T09:35:47.452Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
