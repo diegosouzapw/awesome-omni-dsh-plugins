@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ktdhhc-dsh-custom-subagents
+name: dsh-custom-subagents
+description:
+  en: Custom reusable Subagent Definitions with a Settings page and one delegate agent tool for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - subagent
+  - delegation
+source:
+  repository: https://github.com/ktdhhc/dsh-custom-subagents
+  repositoryNodeId: R_kgDOT_NEew
+  subpath: null
+  commit: 8725328797247a262f2b59c4e57370a7f74b424b
+creator:
+  github: ktdhhc
+package:
+  ecosystem: npm
+  name: dsh-custom-subagents
+  version: 0.1.5
+  integrity: sha512-Q+CgG3o5p4PIxIR3da0ctXSuTBOpLQpobuzKS4rlSqbCmxmSRm2o7692Oh2+bHv/YTkIR/7Q4h5g5hfSwjIGSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:40.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
