@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-roman
+name: dsh-roman
+description:
+  en: bash dsh plugin add dsh-roman 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-roman" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - roman
+source:
+  repository: https://github.com/uckkk/dsh-roman
+  repositoryNodeId: R_kgDOT6NL5g
+  subpath: null
+  commit: d2609f53ff5b2a09fe8752b618b0d0b4bf9bbd00
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-roman
+  version: 0.1.0
+  integrity: sha512-Kzz2s0A5bXTZfrttAVe0YgPE8lF4eV2XwRB+KjKS2Ov4gPab5czdpRP5v8uBv5dJCZdVBFEMiQVIIl2bK1TH6w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:51.588Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
