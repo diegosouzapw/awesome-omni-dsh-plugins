@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: marvekg-dsh-plugins
+name: "@marvekg/dsh-plugins"
+description:
+  en: Out-of-tree DSH plugin collection (compatibility fixes and enhancements)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - tree
+  - collection
+  - compatibility
+  - fixes
+  - enhancements
+  - dsh
+source:
+  repository: https://github.com/MarvekG/dsh-plugins
+  repositoryNodeId: R_kgDOUBMVow
+  subpath: null
+  commit: fb852ebfcefa8c860826b25a2223a7579f7115bc
+creator:
+  github: MarvekG
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:19.287Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
