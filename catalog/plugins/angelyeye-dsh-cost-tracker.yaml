@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: angelyeye-dsh-cost-tracker
+name: dsh-cost-tracker
+description:
+  en: "DeepSeek Harness (DSH) plugin: LLM token usage & cost tracking with a settings dashboard, agent tools, HTTP API and persistent storage."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - cordis
+  - llm
+  - token-usage
+  - cost-tracking
+source:
+  repository: https://github.com/Angelyeye/dsh-cost-tracker
+  repositoryNodeId: R_kgDOT8PGbg
+  subpath: null
+  commit: 2c2a450e6c9a52ab059ae6802ae7dbe449264838
+creator:
+  github: Angelyeye
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:39:04.523Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
