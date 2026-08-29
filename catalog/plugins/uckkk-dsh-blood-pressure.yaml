@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-blood-pressure
+name: dsh-blood-pressure
+description:
+  en: bash dsh plugin add github:uckkk/dsh-blood-pressure
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-blood-pressure
+source:
+  repository: https://github.com/uckkk/dsh-blood-pressure
+  repositoryNodeId: R_kgDOT-tWbA
+  subpath: null
+  commit: 426165aa7d4129bf00e28957bd3f7d3be46e7a70
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:43.990Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
