@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-water-electrolyte
+name: dsh-water-electrolyte
+description:
+  en: bash dsh plugin add github:uckkk/dsh-water-electrolyte
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-water-electrolyte
+source:
+  repository: https://github.com/uckkk/dsh-water-electrolyte
+  repositoryNodeId: R_kgDOT-txUA
+  subpath: null
+  commit: 09362f1ba2014f73ef72adeb597c678f232bc0c4
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:32:07.186Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
