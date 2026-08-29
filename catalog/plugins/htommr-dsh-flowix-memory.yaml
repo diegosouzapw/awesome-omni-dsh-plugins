@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: htommr-dsh-flowix-memory
+name: dsh-flowix-memory
+description:
+  en: "DeepSeek Harness bundle: expose Flowix memos and artifact tools through the local flowix-cli MCP server"
+  evidencePath: dsh-flowix-memory/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - flowix
+  - mcp
+  - notes
+  - dsh
+source:
+  repository: https://github.com/text2future/flowix
+  repositoryNodeId: R_kgDOSm7IOg
+  subpath: dsh-flowix-memory
+  commit: d2614d1e51e6f750e8c77891f630f77112e67877
+creator:
+  github: htommr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: dsh-flowix-memory/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:49.828Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
