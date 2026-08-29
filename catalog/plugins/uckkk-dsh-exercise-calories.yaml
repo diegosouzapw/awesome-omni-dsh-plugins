@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-exercise-calories
+name: dsh-exercise-calories
+description:
+  en: bash dsh plugin add github:uckkk/dsh-exercise-calories
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-exercise-calories
+source:
+  repository: https://github.com/uckkk/dsh-exercise-calories
+  repositoryNodeId: R_kgDOT-sAMw
+  subpath: null
+  commit: c1569c8399cf7bde446b348fbaa6f7949e993614
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T14:41:38.115Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
