@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: taler97-dsh-rollback
+name: dsh-rollback
+description:
+  en: "File-mutation rollback plugin for DeepSeek Harness — checkpoints write/edit pre-images via git blobs or snapshots and restores them on demand through a model-facing rollback files tool and a /rollback command. Opt-in bundle: capture rides the tools/result observation event, restore writes files directly (no loop change"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - rollback
+  - checkpoint
+  - undo
+source:
+  repository: https://github.com/Taler97/dsh-rollback
+  repositoryNodeId: R_kgDOT5lx7g
+  subpath: null
+  commit: 3deb80df973913da93197a3a1cf006dfc3629333
+creator:
+  github: Taler97
+package:
+  ecosystem: npm
+  name: dsh-rollback
+  version: 0.1.1
+  integrity: sha512-oMLqOejFlWKOj7JYgpaoUlPS44cailDOTrMaAkYYs7ZYBPpBr72lqgJl/2w5td/W9IXLz0kWfmwP/I4TkKuBZg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:31.397Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
