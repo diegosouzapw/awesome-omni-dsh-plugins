@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: imkingjh999-dsh-deepsea
+name: dsh-deepsea
+description:
+  en: sh dsh plugin --profile web add npm:dsh-deepsea npm（推荐） dsh plugin --profile web add github:imkingjh999/dsh-deepsea GitHub
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - gamification
+  - context-usage
+  - minimax
+  - moyu
+  - slack-off
+source:
+  repository: https://github.com/imkingjh999/dsh-deepsea
+  repositoryNodeId: R_kgDOUBlXWw
+  subpath: null
+  commit: b17fdf5d36588d8d37e51d671c509c53cd0e3ea8
+creator:
+  github: imkingjh999
+package:
+  ecosystem: npm
+  name: dsh-deepsea
+  version: 1.0.11
+  integrity: sha512-cy618JWeOnk5ZlOQ6cS0mMbi3HJFgvO9gSCSoTezMjdTLa1KQzc6TjW0eFEJm83V9RX5JEEeReM2Rhv5NtbwlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T05:44:47.413Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
