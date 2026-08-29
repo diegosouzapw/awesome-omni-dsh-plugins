@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-text-lines
+name: dsh-text-lines
+description:
+  en: bash dsh plugin add dsh-text-lines 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-text-lines" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - text
+  - lines
+source:
+  repository: https://github.com/uckkk/dsh-text-lines
+  repositoryNodeId: R_kgDOT6My7w
+  subpath: null
+  commit: bc37bf490596f3cefb0602edc6fd66848b3ef7e5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T20:31:44.623Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
