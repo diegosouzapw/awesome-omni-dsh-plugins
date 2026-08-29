@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yfjz-dsh-agfs
+name: "@open-agfs/dsh-agfs"
+description:
+  en: Host file-browser web app over the dsh webserver with a /dsh-agfs command
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - file-browser
+  - web
+source:
+  repository: https://github.com/openAGFS/dsh-agfs
+  repositoryNodeId: R_kgDOT43b1w
+  subpath: null
+  commit: 78c3216c39ff2fe2f7915e6019854446f79228f7
+creator:
+  github: YFJZ
+package:
+  ecosystem: npm
+  name: "@open-agfs/dsh-agfs"
+  version: 0.1.9
+  integrity: sha512-Jg8U7SnWwqGV1WosXDdZJf6cCdFUWQbR5aXFOxf3+A4N1ssUvThYHGWbNz0XtElHM7TcKljWMxXbXN2Wm3KRIg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T10:20:51.894Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
