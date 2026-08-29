@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: anzhaohao-dsh-dragview
+name: dsh-dragview
+description:
+  en: text ~/.hanako/plugin-data/dsh-hanako/dsh-home/profiles/web/node modules/dsh-dragview/ ├── src/ 构建产物 ├── package.json └── cordis.patch.yml
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - drag
+  - drag-and-drop
+  - drag-file
+  - file-drag
+  - file-preview
+  - pdf-preview
+  - video-preview
+  - audio-preview
+  - file-path
+  - attachment
+  - file-attachment
+  - codex-style
+  - cordis
+source:
+  repository: https://github.com/anzhaohao/DragView
+  repositoryNodeId: R_kgDOUCOm-g
+  subpath: null
+  commit: 6fbc1249e0c8c9629a8cb4c4055a3c831d972599
+creator:
+  github: anzhaohao
+package:
+  ecosystem: npm
+  name: dsh-dragview
+  version: 0.1.1
+  integrity: sha512-e/H7KFzBpAyrm7Q1Msk0uX5fclHIooxORskMXqHuz8zR5tlGvIdzaA71aUlteL2y7Xsr8MrwyeDQF9a2vuWRSg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:16.506Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
