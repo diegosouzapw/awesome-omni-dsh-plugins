@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-rental-yield
+name: dsh-rental-yield
+description:
+  en: bash dsh plugin add github:uckkk/dsh-rental-yield
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-rental-yield
+source:
+  repository: https://github.com/uckkk/dsh-rental-yield
+  repositoryNodeId: R_kgDOT-wZZw
+  subpath: null
+  commit: 895d0058f2ddd31f67d8747b5f16400c52ff3835
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T19:43:47.577Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
