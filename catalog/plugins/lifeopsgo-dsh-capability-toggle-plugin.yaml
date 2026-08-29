@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lifeopsgo-dsh-capability-toggle-plugin
+name: dsh-capability-toggle-plugin
+description:
+  en: DSH WebUI capability controls for skills, MCP servers, tools, prompt injections, approvals, and safety guards at session, project, and global levels.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - capability
+  - security
+source:
+  repository: https://github.com/lifeopsgo/dsh-capability-toggle-plugin
+  repositoryNodeId: R_kgDOUAQt5g
+  subpath: null
+  commit: 0d9fd8e5f54b53fb8409fbd94caee6451c23c9d7
+creator:
+  github: lifeopsgo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:42.491Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
