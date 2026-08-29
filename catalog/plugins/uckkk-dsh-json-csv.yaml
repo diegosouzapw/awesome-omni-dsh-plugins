@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-json-csv
+name: dsh-json-csv
+description:
+  en: bash dsh plugin add dsh-json-csv 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-csv" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - csv
+  - json
+source:
+  repository: https://github.com/uckkk/dsh-json-csv
+  repositoryNodeId: R_kgDOT6LD1Q
+  subpath: null
+  commit: e47a90c8d1a0a3b159ef066cbc5f1dea77ffbc55
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-json-csv
+  version: 0.1.0
+  integrity: sha512-4PavgyO7pKr3jXPx0x9MXUzn38+39LZJ3uuE6zC5p/B5HrBgianq+9LLP4ZtJyGUM+PwRcazZ//XxLjKyTTI9w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:12.138Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
