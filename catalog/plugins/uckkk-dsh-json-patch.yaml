@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-json-patch
+name: dsh-json-patch
+description:
+  en: JSON Patch（RFC 6902）
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - patch
+  - "6902"
+source:
+  repository: https://github.com/uckkk/dsh-json-patch
+  repositoryNodeId: R_kgDOT6M4AQ
+  subpath: null
+  commit: 694ebc46a536eb32bcee79249038d04da21074ce
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:13.848Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
