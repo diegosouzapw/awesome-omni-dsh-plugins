@@ -1,5 +1,5 @@
-import { readFile, realpath } from "node:fs/promises";
-import { isAbsolute, relative, resolve, sep } from "node:path";
+import { readdir, readFile, realpath } from "node:fs/promises";
+import { isAbsolute, join, relative, resolve, sep } from "node:path";
 
 import { parse as parseYaml } from "yaml";
 
@@ -121,6 +121,91 @@ function hasBalancedMarkdownFences(content: string): boolean {
   return open === null;
 }
 
+/**
+ * The documents that carry translations under `docs/i18n/<locale>/`.
+ *
+ * A translation is written by hand (or by a script) against the English of the day, and nothing
+ * about it is machine-checkable except its SHAPE. That turns out to be enough: a translation that
+ * lost a section, or repeated one, no longer has the same number of headings and table rows as
+ * its source — which is exactly how a duplicated block slipped into six locales at once and still
+ * read as "current" to the freshness stamp, because the stamp only hashes the ENGLISH.
+ */
+const TRANSLATED_DOCUMENTS = [
+  "README.md",
+  "CONTRIBUTING.md",
+  "SECURITY.md",
+  "docs/SCHEMA.md",
+  "docs/CLI.md",
+  "docs/GOVERNANCE.md",
+  "docs/CATEGORIES.md",
+  "docs/CREDIT.md",
+  "docs/RANKING.md",
+  "docs/UNOFFICIAL.md",
+] as const;
+
+const LOCALE_NAME = /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})?$/u;
+
+interface DocumentShape {
+  readonly sections: number;
+  readonly subsections: number;
+  readonly rows: number;
+}
+
+function documentShape(content: string): DocumentShape {
+  const lines = content.split(/\r?\n/u);
+  return {
+    sections: lines.filter((line) => line.startsWith("## ")).length,
+    subsections: lines.filter((line) => line.startsWith("### ")).length,
+    rows: lines.filter((line) => line.startsWith("| ")).length,
+  };
+}
+
+async function translationShapeDiagnostics(root: string): Promise<CatalogDiagnostic[]> {
+  let locales: string[];
+  try {
+    locales = (await readdir(join(root, "docs", "i18n"), { withFileTypes: true }))
+      .filter((entry) => entry.isDirectory() && LOCALE_NAME.test(entry.name))
+      .map((entry) => entry.name)
+      .sort();
+  } catch {
+    return []; // No translations in this checkout; nothing to keep in shape.
+  }
+
+  const diagnostics: CatalogDiagnostic[] = [];
+  for (const document of TRANSLATED_DOCUMENTS) {
+    let english: DocumentShape;
+    try {
+      english = documentShape(await readContained(root, document));
+    } catch {
+      continue; // The English document does not exist; other checks report a missing required doc.
+    }
+    for (const locale of locales) {
+      const file = `docs/i18n/${locale}/${document.split("/").at(-1)!}`;
+      let translated: DocumentShape;
+      try {
+        translated = documentShape(await readContained(root, file));
+      } catch {
+        continue; // A locale may legitimately not carry every document yet.
+      }
+      const drift = (["sections", "subsections", "rows"] as const).filter(
+        (part) => translated[part] !== english[part],
+      );
+      if (drift.length > 0) {
+        diagnostics.push({
+          file,
+          code: "docs",
+          message:
+            `translation does not match the shape of ${document}: ` +
+            drift
+              .map((part) => `${part} ${translated[part]} != ${english[part]}`)
+              .join(", "),
+        });
+      }
+    }
+  }
+  return diagnostics;
+}
+
 function tableValues(content: string, heading: string): string[] | null {
   const start = content.indexOf(`## ${heading}`);
   if (start < 0) {
@@ -195,6 +280,7 @@ export async function docsCheckCommand(
       diagnostics.push({ file, code: "docs", message: "unbalanced Markdown fence" });
     }
   }
+  diagnostics.push(...(await translationShapeDiagnostics(root)));
   try {
     const categories = contents.get("docs/CATEGORIES.md");
     const schema = parseYaml(await readContained(root, "schemas/plugin.schema.yaml"), {
