@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: tianbuyu-wwx-dsh-hermes-link
+name: "@tianbuyu-wwx/dsh-hermes-link"
+description:
+  en: Bidirectional bridge between Hermes Agent and DeepSeek Harness. Hermes dispatches focused tasks via JSON-RPC over POST /mcp/collab (one-shot or continuable, nonce-bound amend, secret-bound consult reply); DSH lets you continue Hermes sessions as native DSH sessions in the sidebar.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - cordis
+  - hermes
+  - deepseek-harness
+  - session-sync
+  - dsh-plugin
+  - dsh-bundle
+  - dsh-hermes-link
+  - hermes-link
+source:
+  repository: https://github.com/Tianbuyu-wwx/dsh-hermes-link
+  repositoryNodeId: R_kgDOUBrgog
+  subpath: packages/dsh-hermes-link
+  commit: d50f1687b0cdb1862ceb3940cba95ae4d1f7ea26
+creator:
+  github: Tianbuyu-wwx
+package:
+  ecosystem: npm
+  name: "@tianbuyu-wwx/dsh-hermes-link"
+  version: 0.4.0
+  integrity: sha512-M4SJMuvxk2TcOSXTbm8SLAFMH4pDJAXsQ5yK5+KHYoqV5ZXRBZ8TZbobi1SIBT89j255v+iFZcRfxKeBPNgBlw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-hermes-link/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:51.476Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
