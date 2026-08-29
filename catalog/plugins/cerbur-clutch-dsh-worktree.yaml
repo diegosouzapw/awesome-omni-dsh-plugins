@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: cerbur-clutch-dsh-worktree
+name: "@cerbur/clutch-dsh-worktree"
+description:
+  en: Adds a Worktree view to DSH Web UI that groups Sessions by Git worktree while keeping DSH as the source of truth.
+  evidencePath: packages/clutch-dsh-worktree/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - worktree
+source:
+  repository: https://github.com/Cerbur/clutch-dsh
+  repositoryNodeId: R_kgDOT9QNJw
+  subpath: packages/clutch-dsh-worktree
+  commit: 9223f1122de0f13bcb5c9b11b3984d791e1f4961
+creator:
+  github: Cerbur
+package:
+  ecosystem: npm
+  name: "@cerbur/clutch-dsh-worktree"
+  version: 0.1.5
+  integrity: sha512-nnUtufh8/naIa+TM6RiJi4fojBANVxCM/OsYlV6yNlfCjhmBrkSStBShGlMujwqSdbgXbXIWtVgxYNtaHFGCjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/clutch-dsh-worktree/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:28.324Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
