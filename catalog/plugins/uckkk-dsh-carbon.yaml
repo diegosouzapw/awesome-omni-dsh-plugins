@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-carbon
+name: dsh-carbon
+description:
+  en: bash dsh plugin add github:uckkk/dsh-carbon
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-carbon
+source:
+  repository: https://github.com/uckkk/dsh-carbon
+  repositoryNodeId: R_kgDOT9vBlw
+  subpath: null
+  commit: b577d428a89d99668972e59cec90d726bc5582d3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:13:50.088Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
