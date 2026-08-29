@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lchysh-keyringseam
+name: keyringseam
+description:
+  en: A macOS Keychain-backed CredentialProvider for agent harnesses, initially compatible with DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - macos
+  - keychain
+  - backed
+  - credentialprovider
+  - agent
+  - harnesses
+  - initially
+  - compatible
+  - dsh
+source:
+  repository: https://github.com/fieldnote-ops/keyringseam
+  repositoryNodeId: R_kgDOT4h80A
+  subpath: null
+  commit: 22fdc53f882d55cb865511247622af51d2344796
+creator:
+  github: lchysh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:38:47.483Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
