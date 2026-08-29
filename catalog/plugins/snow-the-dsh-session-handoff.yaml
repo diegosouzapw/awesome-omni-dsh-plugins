@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: snow-the-dsh-session-handoff
+name: "@snow-the/dsh-session-handoff"
+description:
+  en: "Session handoff & context management for DeepSeek Harness: structured handoff documents (export/resume/status), active context pruning (acp tools + pressure banner), session management (trash/restore/purge), model routes for one model across vendors/plans, and optional OpenViking memory / archify diagram integration. C"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - handoff
+  - context
+  - compaction
+  - memory
+  - model-routes
+source:
+  repository: https://github.com/snow-The/dsh-session-handoff
+  repositoryNodeId: R_kgDOT8x3xA
+  subpath: null
+  commit: 663dbdc7cd7de72e1e60beca6b04ff9b5660e7e8
+creator:
+  github: snow-The
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:57.732Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
