@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: dff652-dsh-ai-asset-hub
+name: "@dff652/dsh-ai-asset-hub"
+description:
+  en: Configuration-only DeepSeek Harness bundle for an existing AI Asset Hub MCP server
+  evidencePath: packages/dsh-ai-asset-hub/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - mcp
+  - ai-asset-hub
+  - dsh
+source:
+  repository: https://github.com/dff652/deepseek-harness-community-plugins
+  repositoryNodeId: R_kgDOT8C-WA
+  subpath: packages/dsh-ai-asset-hub
+  commit: a846540ba57d1ca8c67eedc7b8b15e6202a25b27
+creator:
+  github: dff652
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-ai-asset-hub/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:33.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
