@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: mervyn-teo-dsh-plugin-collapsible-steps
+name: dsh-plugin-collapsible-steps
+description:
+  en: "DSH Web plugin: collapse consecutive tool-use and thinking steps between messages into a single bracketed, expandable item"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - conversation
+  - collapse
+  - steps
+source:
+  repository: https://github.com/mervyn-teo/dsh-plugin-collapsible-steps
+  repositoryNodeId: R_kgDOT5mCRQ
+  subpath: null
+  commit: 667ed25de8c3a45abe001725d6916cf5cc6a2fec
+creator:
+  github: mervyn-teo
+package:
+  ecosystem: npm
+  name: dsh-plugin-collapsible-steps
+  version: 0.1.1
+  integrity: sha512-55Q9Vbs07ZM1Hsdi3KW586JLI5TxxTIUJBtt69THHMCSrD5w3ctZCLpWGyuuA+tYxy2OFA+y3NcJavgjnztQ4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T08:48:56.519Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
