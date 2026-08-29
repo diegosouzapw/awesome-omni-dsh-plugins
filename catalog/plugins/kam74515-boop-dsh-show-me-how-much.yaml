@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: kam74515-boop-dsh-show-me-how-much
+name: dsh-show-me-how-much
+description:
+  en: DeepSeek Harness token usage and estimated cost dashboard
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - token-usage
+  - cost-tracking
+  - cache-hit
+  - dsh
+source:
+  repository: https://github.com/kam74515-boop/dsh-show-me-how-much
+  repositoryNodeId: R_kgDOT5VbdA
+  subpath: null
+  commit: 29edb9d36deeeda0a2ed2fada4eae2e3b5d4bf64
+creator:
+  github: kam74515-boop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:30:09.035Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
