@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ruiming-cn-dsh-ask-in-sidebar
+name: dsh-ask-in-sidebar
+description:
+  en: Ask a sidebar assistant about selected assistant text using the current DeepSeek Harness conversation context, without touching the main conversation. Inspired by the MIT-licensed DSH plugin ecosystem; see README.md for credits.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - sidebar
+  - ask-in-sidebar
+  - sidebar-qa
+  - selection
+  - context
+  - ephemeral
+  - web-ui
+source:
+  repository: https://github.com/Ruiming-cn/dsh-ask-in-sidebar
+  repositoryNodeId: R_kgDOUD1e7w
+  subpath: null
+  commit: 79b1b382d75f1497cd5f3b0f1c61b4161f3aa569
+creator:
+  github: Ruiming-cn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:01:03.432Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
