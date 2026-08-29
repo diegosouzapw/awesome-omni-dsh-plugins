@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-ctr-significance
+name: dsh-ctr-significance
+description:
+  en: bash dsh plugin add github:uckkk/dsh-ctr-significance
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-ctr-significance
+source:
+  repository: https://github.com/uckkk/dsh-ctr-significance
+  repositoryNodeId: R_kgDOT-tR3w
+  subpath: null
+  commit: 2fdb41381a21cce300e95df74593b2bff2d6dca8
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T13:55:34.904Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
