@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: tomsawyerhu-dsh-tui-contrib
+name: "@deepseek-ai/dsh-tui-contrib"
+description:
+  en: Non-invasive terminal conversation surface for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - invasive
+  - terminal
+  - conversation
+  - surface
+  - dsh
+source:
+  repository: https://github.com/Tomsawyerhu/deepseek-harness-cli
+  repositoryNodeId: R_kgDOT3jXfw
+  subpath: null
+  commit: afbecbce0b6610d9a2858d06a091d0759da284ea
+creator:
+  github: Tomsawyerhu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T12:33:25.905Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
