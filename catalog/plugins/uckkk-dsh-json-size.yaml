@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: uckkk-dsh-json-size
+name: dsh-json-size
+description:
+  en: bash dsh plugin add dsh-json-size 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-json-size" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - json
+  - stats
+source:
+  repository: https://github.com/uckkk/dsh-json-size
+  repositoryNodeId: R_kgDOT6N2gA
+  subpath: null
+  commit: e2145eb23aec9092d53d072d62eccaf413f9a60d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:15.545Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
