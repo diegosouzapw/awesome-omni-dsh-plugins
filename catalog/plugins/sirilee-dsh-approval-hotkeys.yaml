@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: sirilee-dsh-approval-hotkeys
+name: dsh-approval-hotkeys
+description:
+  en: "DeepSeek Harness plugin: panel hotkeys for every interaction panel — Enter presses the confirm (primary) button, Esc presses the cancel button (approval, question/choice, plan review; Claude Code habits)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - approval
+  - hotkey
+  - keyboard
+  - ui
+source:
+  repository: https://github.com/SiriLee/dsh-approval-hotkeys
+  repositoryNodeId: R_kgDOT9NgEg
+  subpath: null
+  commit: 29fb7de42f9ff6bdbf3138574b451fad1034df29
+creator:
+  github: SiriLee
+package:
+  ecosystem: npm
+  name: dsh-approval-hotkeys
+  version: 0.1.4
+  integrity: sha512-2FFwqYPCowtu8ZtnMf1YU5BdDy8cgAaU3UsrO/r+karvDESapvVKGicuEiexTmMBG94CgdK8ywr+OFc1OZe0dg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:46.800Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
