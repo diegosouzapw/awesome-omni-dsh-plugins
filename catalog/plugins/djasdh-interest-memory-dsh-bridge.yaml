@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: djasdh-interest-memory-dsh-bridge
+name: "@djasdh/interest-memory-dsh-bridge"
+description:
+  en: "interest-memory ↔ DeepSeek Harness (DSH) bridge: zero-lag recall injection, session-end transcript ingest, and memory search/memory logs/memory ingest tools for DSH agents."
+  evidencePath: bridge/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - memory
+  - agent
+  - rag
+source:
+  repository: https://github.com/djasdh/interest-memory
+  repositoryNodeId: R_kgDOTrCezQ
+  subpath: bridge/dsh
+  commit: 289831ef274a039cb6c64f5b4e1bc9b33cd73e3c
+creator:
+  github: djasdh
+package:
+  ecosystem: npm
+  name: "@djasdh/interest-memory-dsh-bridge"
+  version: 0.1.1
+  integrity: sha512-MuGORfTTHJASq1zPjV6EyXVcyUtZcqJdau54bi1/2TjABxZGi+OEfTN6sLY6B0obTWKAnppeq6FZf38FhYxT+A==
+dsh:
+  profiles:
+    - web
+  evidencePath: bridge/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T03:59:41.074Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
