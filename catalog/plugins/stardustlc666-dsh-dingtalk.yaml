@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: stardustlc666-dsh-dingtalk
+name: dsh-dingtalk
+description:
+  en: "DeepSeek Harness DingTalk group robot notification plugin: lets the agent push Markdown / plain-text messages to a DingTalk group one-way . Pure plugin implementation, zero core changes, works out of the box."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - dingtalk
+  - dingtalk-robot
+  - webhook
+source:
+  repository: https://github.com/STARDUSTLC666/dsh-dingtalk
+  repositoryNodeId: R_kgDOT30S9g
+  subpath: null
+  commit: 9f871783f9fae23e9c5e2e4dcbe4f888edbd4010
+creator:
+  github: STARDUSTLC666
+package:
+  ecosystem: npm
+  name: dsh-dingtalk
+  version: 0.2.0
+  integrity: sha512-OMp7v+fu+vZataZvlazBnSKY+/I6pWV61R0ZOPX/AB66bOUQCvrTBZaaZkjdY+bEsvUC0p3YoEXVvOTmcinb8g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:43:36.862Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
