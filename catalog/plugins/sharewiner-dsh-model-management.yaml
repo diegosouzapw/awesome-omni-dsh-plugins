@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sharewiner-dsh-model-management
+name: "@sharewiner/dsh-model-management"
+description:
+  en: DSH model management, synchronized model visibility, and OpenAI Responses web search.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - model-management
+  - openai
+  - web-search
+  - dsh
+source:
+  repository: https://github.com/sharewiner/dsh-model-management
+  repositoryNodeId: R_kgDOUDfIOA
+  subpath: null
+  commit: 09db30228b428c3a2cb5e1cf40b9037f0e991ccb
+creator:
+  github: sharewiner
+package:
+  ecosystem: npm
+  name: "@sharewiner/dsh-model-management"
+  version: 0.2.3
+  integrity: sha512-ENCbnzgcY7GfyV7Fad0X78hV/1l6sVzMCiU5hbJ8Axxs5ryiIw9LELUoyxHvzmht/EMcfvASq3nYA7NlQDKQOw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:44:00.979Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
