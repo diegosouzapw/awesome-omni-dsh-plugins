@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lakabuji-arch-dsh-model-accordion
+name: dsh-model-accordion
+description:
+  en: Provider-folded model selector for the DSH Web composer with catalog-driven reasoning effort choices.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - model-selector
+  - reasoning-effort
+source:
+  repository: https://github.com/lakabuji-arch/dsh-model-accordion
+  repositoryNodeId: R_kgDOT_R82g
+  subpath: null
+  commit: f80637c18e28c127f4dc6ecfaf9d54b72b2b00a6
+creator:
+  github: lakabuji-arch
+package:
+  ecosystem: npm
+  name: dsh-model-accordion
+  version: 0.1.1
+  integrity: sha512-rFaop/zH2OHanbvt6/LgsdsFlVJ/0Wj8bHxNu4S7ZGzmCtHPeBhW071HfZxVYUms51poo44nkvtNlx5kR27o9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:45.593Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
