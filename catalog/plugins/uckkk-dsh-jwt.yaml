@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: uckkk-dsh-jwt
+name: dsh-jwt
+description:
+  en: bash dsh plugin add dsh-jwt 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-jwt" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - jwt
+  - auth
+source:
+  repository: https://github.com/uckkk/dsh-jwt
+  repositoryNodeId: R_kgDOT6LPhQ
+  subpath: null
+  commit: a75556b5e230a6d5be6378cb322a7a5e982c4601
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-jwt
+  version: 0.1.0
+  integrity: sha512-dBrseyKHxa6G5+o/oUjOI/asg3Q96exfMnXWYkONj3l8bx0ttzfGnh2cFLmMnV6PUUcXU07lEysxNKdmOze26Q==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T15:27:18.730Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
