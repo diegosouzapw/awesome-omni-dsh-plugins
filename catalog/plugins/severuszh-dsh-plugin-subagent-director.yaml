@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: severuszh-dsh-plugin-subagent-director
+name: dsh-plugin-subagent-director
+description:
+  en: "Subagent Director: choose an LLM provider/model for each subagent (call args role binding plugin default inherit parent) and plan main-agent/subagent responsibilities with role templates, plus a settings UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - subagent
+  - subagent-director
+  - llm
+  - provider
+  - model
+  - role-template
+source:
+  repository: https://github.com/SeverusZh/dsh-plugin-subagent-director
+  repositoryNodeId: R_kgDOT4VbZg
+  subpath: null
+  commit: c5c18c8fc532f455e2c6e84d1822d3271566a4d1
+creator:
+  github: SeverusZh
+package:
+  ecosystem: npm
+  name: dsh-plugin-subagent-director
+  version: 0.2.1
+  integrity: sha512-Uu8WhNlSENWEwye4XMOz+0qwvMKqnvL26kmqyd/OcNKxqmvj4ZCieJzK7DdUk5gzANONoAU1bR64Zy3uiTmViw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T11:00:37.252Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
