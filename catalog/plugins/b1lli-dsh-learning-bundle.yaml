@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: b1lli-dsh-learning-bundle
+name: dsh-learning-bundle
+description:
+  en: "A proof-carrying correction loop for DSH: explicit adoption, scoped recall, and reconstructable delivery."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - correction-learning
+  - agent-memory
+  - agent-learning
+  - llm-evaluation
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/B1lli/dsh-learning-bundle
+  repositoryNodeId: R_kgDOUA1kBA
+  subpath: null
+  commit: 9271370b333cbc9d124a8a9fd8283c37bf9a4b77
+creator:
+  github: B1lli
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:19.916Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
