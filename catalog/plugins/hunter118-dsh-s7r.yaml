@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: hunter118-dsh-s7r
+name: dsh-s7r
+description:
+  en: S7R System 7 Reimagined workstation plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - system-7
+  - retro-ui
+  - agent-workspace
+  - dsh
+source:
+  repository: https://github.com/hunter118/dsh-s7r
+  repositoryNodeId: R_kgDOT9mZ8g
+  subpath: null
+  commit: 5ce0d3b1d4f3ca76f6b2d90f1effcaa785bf0b2d
+creator:
+  github: hunter118
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T04:41:20.877Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
