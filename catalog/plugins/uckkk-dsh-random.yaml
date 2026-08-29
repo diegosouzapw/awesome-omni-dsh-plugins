@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: uckkk-dsh-random
+name: dsh-random
+description:
+  en: bash dsh plugin add dsh-random 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-random" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - random
+source:
+  repository: https://github.com/uckkk/dsh-random
+  repositoryNodeId: R_kgDOT6JvTg
+  subpath: null
+  commit: 050db4d0566f483e2beaf7274d05c3ee9cafa319
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-random
+  version: 0.1.0
+  integrity: sha512-cC8wLea47w6SDIcXYDvcD5ZV4dKtfvtgA7H0cl6R72JH7L1mnn1YBOkpCUi8DVlNn91M59riva9GjTrls8uhrA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T17:50:57.594Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
