@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: johnxu22786-dsh-session-caption
+name: dsh-session-caption
+description:
+  en: "Two-phase session captioning for the DeepSeek Harness: instant keyword captions while the conversation is busy, budget-model refinement when it goes idle."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - session
+  - title
+  - caption
+source:
+  repository: https://github.com/JohnXu22786/session-titler
+  repositoryNodeId: R_kgDOT59Q4g
+  subpath: null
+  commit: cfd39f3946e7ebf31e6ddf21a14c4423be1de7c9
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:29:23.195Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
