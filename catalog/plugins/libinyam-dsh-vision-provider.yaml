@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: libinyam-dsh-vision-provider
+name: dsh-vision-provider
+description:
+  en: DeepSeek Harness adapter that exposes each configured vision model as a selectable DeepSeek composite in Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - vision
+  - multimodal
+  - openai-compatible
+  - image-input
+  - profile-bundle
+  - composite-model
+  - vision-sidecar
+source:
+  repository: https://github.com/libinyam/dsh-vision-provider
+  repositoryNodeId: R_kgDOT3iaZw
+  subpath: null
+  commit: c4c76c2a2a69313b91728dcde2827e014aad7c72
+creator:
+  github: libinyam
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:49:52.411Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
