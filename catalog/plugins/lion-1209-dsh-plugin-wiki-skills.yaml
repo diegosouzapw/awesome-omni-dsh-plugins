@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: lion-1209-dsh-plugin-wiki-skills
+name: dsh-plugin-wiki-skills
+description:
+  en: The claude-obsidian-derived knowledge-suite skills (wiki, wiki-ingest, wiki-query, wiki-lint, save) as a DeepSeek Harness plugin, with attribution.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - obsidian
+  - knowledge-base
+  - agent-skills
+  - dsh
+source:
+  repository: https://github.com/Lion-1209/dsh-plugin-wiki-skills
+  repositoryNodeId: R_kgDOT8ErXQ
+  subpath: null
+  commit: bfbaa62d0d3af09e4871f95183004c2289c24697
+creator:
+  github: Lion-1209
+package:
+  ecosystem: npm
+  name: dsh-plugin-wiki-skills
+  version: 0.2.0
+  integrity: sha512-xg/99s+S4Pge6EezSH6MiFrSZb2scAblIOzCCwoeRwz/VvpZnfuBdCEgSv9i2ciAGTPqYEF9QENl7865sBvZrg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T07:50:04.804Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
