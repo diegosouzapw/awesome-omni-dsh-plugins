@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: alpacachen-dsh-simple-worktree
+name: "@alpacachen/dsh-simple-worktree"
+description:
+  en: A minimal worktree manager with one button and one dialog for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - git
+  - worktree
+source:
+  repository: https://github.com/alpacachen/dsh-worktree
+  repositoryNodeId: R_kgDOT_cJNg
+  subpath: null
+  commit: 18c54e16b71474d9cee046ca84c22d5ecc8d9cc5
+creator:
+  github: alpacachen
+package:
+  ecosystem: npm
+  name: "@alpacachen/dsh-simple-worktree"
+  version: 1.0.2
+  integrity: sha512-EJcxfSqgokXO3ghOOgXNAjXlV8sXCtnL0eZQLka83/HJITIQ0esPALra7T6TfN9UoAHKXTMt+ePMkgeT+0OM4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T02:41:13.406Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
