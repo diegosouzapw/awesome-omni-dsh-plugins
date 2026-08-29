@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: kw78-dsh-office-tools
+name: dsh-office-tools
+description:
+  en: "DSH model-facing Office tools: create, read, and update Word (.docx), Excel (.xlsx), and PowerPoint (.pptx) files inside the session workspace."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - office
+  - word
+  - excel
+  - powerpoint
+  - docx
+  - xlsx
+  - pptx
+  - tools
+source:
+  repository: https://github.com/kw78/dsh-office-tools
+  repositoryNodeId: R_kgDOT4_dFg
+  subpath: null
+  commit: d9b6923ba14a803c331111d7447846d6a6796550
+creator:
+  github: kw78
+package:
+  ecosystem: npm
+  name: dsh-office-tools
+  version: 0.1.0
+  integrity: sha512-TDXlF+NVtAdrNvSJhVe9GTkydp/dJmnqHiB4rhjfLUVRI2Sdnf+MbAszgpiE02MgTLCm8mM0SF+yvHEH6jiu0Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-29T06:27:32.351Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
