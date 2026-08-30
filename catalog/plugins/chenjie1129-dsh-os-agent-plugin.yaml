@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: chenjie1129-dsh-os-agent-plugin
+name: dsh-os-agent-plugin
+description:
+  en: Self-contained Volcengine Mobile Use Agent runtime and configuration UI for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - self
+  - contained
+  - volcengine
+  - mobile
+  - agent
+  - runtime
+  - configuration
+  - dsh
+source:
+  repository: https://github.com/chenjie1129/deepseek-harness-os-agent-plugin
+  repositoryNodeId: R_kgDOT_vNKA
+  subpath: null
+  commit: 90416ff7a9faf45d581f9e33d7c22e331e7ea9cf
+creator:
+  github: chenjie1129
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:55.775Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
