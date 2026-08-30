@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-session-actions
+name: dsh-session-actions
+description:
+  en: "Session row extras for DeepSeek Harness: pin sessions above workspaces, copy session id, export Markdown, and permanently delete a session. 会话菜单增强：置顶 / 复制 ID / 导出 Markdown / 永久删除。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - export
+  - markdown
+  - pin
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-session-actions
+  repositoryNodeId: R_kgDOT6sqkg
+  subpath: null
+  commit: d17e42000788ebb4de303a77df082ee0603b275e
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.772Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xingyingyuzhui/dsh-session-actions/d17e42000788ebb4de303a77df082ee0603b275e/docs/menu.png
+    alt: 置顶分组与会话菜单
