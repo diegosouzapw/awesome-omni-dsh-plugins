@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: qjf44-dsh-plugin-thinking-api
+name: dsh-plugin-thinking-api
+description:
+  en: '<p align="center" DeepSeek Harness plugin: configure any OpenAI-compatible API in one block and get thinking mode for free — while dodging the <code developer</code -role rejection that breaks such APIs. </p'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - openai-compatible
+  - thinking
+  - reasoning
+  - api
+source:
+  repository: https://github.com/qjf44/dsh-plugin-thinking-api
+  repositoryNodeId: R_kgDOT8Komg
+  subpath: null
+  commit: 43bb15b7feba03579c9b4d7c60a2f905b2fb2c0e
+creator:
+  github: qjf44
+package:
+  ecosystem: npm
+  name: dsh-plugin-thinking-api
+  version: 0.1.2
+  integrity: sha512-HXjycLFl58v4/9GjJB43A5bB6JHrxXHB4x84a78Egpip0oWb9K83pobxLMWoQosPObwRwBSwIw1WoPenSJIESg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:54.440Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
