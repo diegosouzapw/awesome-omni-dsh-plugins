@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xsoc1-math-research-dsh
+name: math-research-dsh
+description:
+  en: "Rigorous open mathematics research suite for DeepSeek Harness: four agent skills (rigorous-open-math-research, manage-math-research-program, math-research-workflow, lean-verify) with CI-verified tests, mechanical upstream sync, and a DSH environment doctor."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - cordis
+  - skill
+  - mathematics
+  - research
+  - proof
+  - lean
+source:
+  repository: https://github.com/xsoc1/math-research-dsh
+  repositoryNodeId: R_kgDOT36uTg
+  subpath: null
+  commit: 1c761240dc923c53fc2d0bbff7260a824a2bf35f
+creator:
+  github: xsoc1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:27.635Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
