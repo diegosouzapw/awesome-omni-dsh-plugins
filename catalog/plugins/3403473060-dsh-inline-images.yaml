@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: 3403473060-dsh-inline-images
+name: dsh-inline-images
+description:
+  en: sh pnpm install pnpm run build dsh plugin --profile web add ./dsh-inline-images
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - pnpm
+  - install
+  - build
+  - profile
+  - inline
+  - images
+  - dsh
+source:
+  repository: https://github.com/3403473060/dsh-inline-images
+  repositoryNodeId: R_kgDOT4VF0g
+  subpath: null
+  commit: 79f8ba778441c86738dedba574f5911fd2b5b2be
+creator:
+  github: "3403473060"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:11.674Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/3403473060/dsh-inline-images/79f8ba778441c86738dedba574f5911fd2b5b2be/assets/screenshots/demo.png
+    alt: 示例
