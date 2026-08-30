@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zuoyunlai-lunheng-article-pipeline
+name: lunheng-article-pipeline
+description:
+  en: sh dsh plugin --profile web add lunheng-article-pipeline
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - skill
+  - bundle
+  - article-pipeline
+  - agent
+source:
+  repository: https://github.com/zuoyunlai/lunheng-article-pipeline-dsh
+  repositoryNodeId: R_kgDOT62vvg
+  subpath: null
+  commit: 0d3954b070e10f003dfca054b15b5fd3df354a66
+creator:
+  github: zuoyunlai
+package:
+  ecosystem: npm
+  name: lunheng-article-pipeline
+  version: 2.5.2-dsh.4
+  integrity: sha512-DRoAMpITWxgT1HWa/gbMQOCusG4Osl65MRHdjt5pxhXTTi1jLJBAUMZbdhFe0CxJyD/xlGLXEGW5BZ9OG5A0dw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.494Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
