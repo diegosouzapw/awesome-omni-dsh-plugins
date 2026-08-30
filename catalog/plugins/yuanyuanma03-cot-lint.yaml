@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: yuanyuanma03-cot-lint
+name: cot-lint
+description:
+  en: Lint your repo for chain-of-thought leakage — the session-transcript residue AI assistants leave in docs, comments, and commit-adjacent prose. Ships the cot-trim skill as an installable DeepSeek Harness plugin.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - lint
+  - linter
+  - ai
+  - agents
+  - chain-of-thought
+  - prose
+  - documentation
+  - comments
+  - claude-code
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+source:
+  repository: https://github.com/YuanyuanMa03/cot-lint
+  repositoryNodeId: R_kgDOT5D1bw
+  subpath: null
+  commit: ac0dd5e06cb24da0f904c21c52b88247f2943bbe
+creator:
+  github: YuanyuanMa03
+package:
+  ecosystem: npm
+  name: cot-lint
+  version: 0.2.1
+  integrity: sha512-GSllHUha3M9xrI9+bwaaS4TifJy+gZelCV8k6iP5ncZNxVrgmzbcm+zUHpErAmDSIge63qaNnzq2NKz8keqpkA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:20.005Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
