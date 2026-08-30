@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zhuifengqug-dsh-adaptive-reasoning
+name: dsh-adaptive-reasoning
+description:
+  en: Capability-aware reasoning effort slider for the DeepSeek Harness web model selector.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - reasoning
+  - reasoning-effort
+  - models-dev
+source:
+  repository: https://github.com/zhuifengqug/dsh-adaptive-reasoning
+  repositoryNodeId: R_kgDOT-nb3g
+  subpath: null
+  commit: 3d87a31a0162bf06a4ba05058432708bba116809
+creator:
+  github: zhuifengqug
+package:
+  ecosystem: npm
+  name: dsh-adaptive-reasoning
+  version: 2.0.0
+  integrity: sha512-r/fxDrYhRDMsrlBG4B0HHElys77v7yGu+23SRT9BqsbNhfxLI9vJIlAXSzwuThv1R0pQbIELP7KH0y9ecxgE3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.003Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
