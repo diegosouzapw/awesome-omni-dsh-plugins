@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-session-permissions
+name: dsh-session-permissions
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-session-permissions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - permissions
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-session-permissions
+  repositoryNodeId: R_kgDOT8INlg
+  subpath: null
+  commit: 66f9134e3808368cf99ce0aa52f16800ebc0fead
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:33.779Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
