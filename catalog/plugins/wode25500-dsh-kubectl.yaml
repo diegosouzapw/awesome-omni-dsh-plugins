@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-kubectl
+name: dsh-kubectl
+description:
+  en: "Kubernetes (kubectl) integration for DeepSeek Harness: inspect clusters, get/describe resources, read logs, port-forward and run one-off commands — with structured JSON output that agents parse reliably."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - kubernetes
+  - kubectl
+  - k8s
+  - devops
+source:
+  repository: https://github.com/WODE25500/dsh-kubectl
+  repositoryNodeId: R_kgDOT-CD1A
+  subpath: null
+  commit: 7bb8623b7a55a997c418235b78cfae1443a23a73
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:37.177Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
