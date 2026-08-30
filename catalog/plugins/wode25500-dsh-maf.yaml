@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wode25500-dsh-maf
+name: dsh-maf
+description:
+  en: "Microsoft Agent Framework (MAF) integration for DeepSeek Harness: validate, run and scaffold declarative agents and workflows defined in YAML, through native dsh tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - microsoft-agent-framework
+  - maf
+  - semantic-kernel
+  - agents
+  - yaml
+source:
+  repository: https://github.com/WODE25500/dsh-maf
+  repositoryNodeId: R_kgDOT-osvQ
+  subpath: null
+  commit: 84077ac812f24d7a0334f73efed97912c8b3f97d
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:29.367Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
