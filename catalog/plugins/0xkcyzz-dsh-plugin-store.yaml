@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: 0xkcyzz-dsh-plugin-store
+name: dsh-plugin-store
+description:
+  en: bash dsh plugin --profile web add github:0xKcyzz/dsh-plugin-store
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-store
+  - plugin-marketplace
+source:
+  repository: https://github.com/0xKcyzz/dsh-plugin-store
+  repositoryNodeId: R_kgDOT4M98A
+  subpath: null
+  commit: e3616ab4ede79cdca5af9aaa965fcc88ef115f18
+creator:
+  github: 0xKcyzz
+package:
+  ecosystem: npm
+  name: dsh-plugin-store
+  version: 0.1.0
+  integrity: sha512-0aqBdtGqXX/706SF9+bSp6vpQvdO+fDD7h8iCIutr7ROyVrJbxC/SsJqu20lShmQCwC47EoR5r6lL0Bfw0W6SA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:05.948Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
