@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lucky8197-dsh-code-smell
+name: dsh-code-smell
+description:
+  en: "Code Smell Radar for DeepSeek Harness. A read-only DSH plugin that statically scans a repository for common code smells: TODO/FIXME/HACK debt, stub implementations ( NotImplemented / 未实现 ), over-long lines, oversized files, and duplicated code blocks — then outputs severity-sorted, actionable fix suggestions. Install w"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - code
+  - smell
+  - radar
+  - read
+  - only
+  - statically
+  - scans
+  - repository
+  - common
+  - smells
+  - todo
+  - fixme
+  - hack
+  - debt
+  - stub
+  - implementations
+source:
+  repository: https://github.com/lucky8197/dsh-code-smell
+  repositoryNodeId: R_kgDOT5Bucw
+  subpath: null
+  commit: 44cc94fcf40bdcdcd4cbff0a78806faa68355352
+creator:
+  github: lucky8197
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:44.597Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
