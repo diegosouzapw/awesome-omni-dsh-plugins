@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: goodandready-dsh-image-gen
+name: "@goodandready/dsh-image-gen"
+description:
+  en: "Image generation for DeepSeek Harness: a generate image tool with pluggable providers — the FAL queue, any OpenAI-compatible images API, or a ChatGPT/Grok subscription with no API key at all. The picture is shown inline in the conversation; the model receives either a link (works with any chat model) or the image itsel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - image-generation
+  - text-to-image
+  - fal
+  - fal-ai
+  - flux
+  - openai
+  - gpt-image
+  - grok
+  - aigc
+source:
+  repository: https://github.com/GooDAnDReaDY/dsh-image-gen
+  repositoryNodeId: R_kgDOT8LK1A
+  subpath: null
+  commit: b7a304c51a63e3b003d4dc9ca8e148463e532871
+creator:
+  github: GooDAnDReaDY
+package:
+  ecosystem: npm
+  name: "@goodandready/dsh-image-gen"
+  version: 0.8.0
+  integrity: sha512-QovJ0JHFA00KStTDTr3Iq4V/Qfm9aFKZtZb0v69bVL95QUBjCQ4AWOwVrtVtFbElu7eNw7yPWTsDCMBv6sCWBw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:05.891Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
