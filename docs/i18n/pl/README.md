@@ -16,7 +16,7 @@ Odkrywanie stawiające na pierwszym miejscu twórców i instalacja jedną komend
   <a href="https://dsh-plugins.omniroute.online">Przeglądaj, wyszukuj i instaluj każdą wtyczkę na stronie →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3056_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3147_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ katalogu, schemat i zasady, z których korzystają.
 
 ## Status katalogu
 
-**3056 scalone wtyczki.** Każda wtyczka wchodzi przez indywidualnie zrecenzowany pull
+**3147 scalone wtyczki.** Każda wtyczka wchodzi przez indywidualnie zrecenzowany pull
 request, po jednej naraz, z oryginalnego repozytorium twórcy, z przypiętym commitem
 źródłowym i wyraźną atrybucją.
 
@@ -340,4 +340,4 @@ i [docs/UNOFFICIAL.md](../../docs/UNOFFICIAL.md).
 
 </div>
 
-<!-- i18n-source-hash: 45b3715414f87e6d4c63aee309423c09d756f5a21a719e9e52ad4ed372986fd5 -->
+<!-- i18n-source-hash: be68af18c6424c8a31de4086a1c9cae60cba45fb13f742d22c3dd5df1a238b8a -->
