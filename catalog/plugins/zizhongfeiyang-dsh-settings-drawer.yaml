@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zizhongfeiyang-dsh-settings-drawer
+name: dsh-settings-drawer
+description:
+  en: "Settings drawer for DSH: choose which settings nav items stay visible."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - settings
+  - web-ui
+source:
+  repository: https://github.com/zizhongfeiyang/dsh-settings-drawer
+  repositoryNodeId: R_kgDOT7kSeA
+  subpath: null
+  commit: 9482b9f53679ba50e1f94f07c2380b8345ad739a
+creator:
+  github: zizhongfeiyang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.471Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zizhongfeiyang/dsh-settings-drawer/9482b9f53679ba50e1f94f07c2380b8345ad739a/docs/screenshots/settings-drawer.png
+    alt: Settings Drawer
