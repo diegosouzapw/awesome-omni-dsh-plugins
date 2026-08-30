@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-skill-manager
+name: dsh-my-skill-manager
+description:
+  en: bash dsh plugin --profile web add dsh-my-skill-manager
+  evidencePath: plugins/dsh-my-skill-manager/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - profile
+  - skill
+  - manager
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-skill-manager
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-skill-manager
+  version: 0.1.1
+  integrity: sha512-AIN9WLuqbnYXQ64goz3CS34rEI8Xp7OYQu0fE6S3pJHgb4I173tkDX1U6dmfdrSVA8KqhZ8RDjwj8LqdHYeY7Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-skill-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/baosfeng/my-dsh-plugins/1b8db2b39e88bd6da13b645c9354df8c2af1d3c7/plugins/dsh-my-skill-manager/assets/screenshot.png
+    alt: Skill 管理面板：全局 / 项目分区 + 启用/禁用开关
