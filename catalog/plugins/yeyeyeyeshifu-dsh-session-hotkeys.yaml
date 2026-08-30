@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yeyeyeyeshifu-dsh-session-hotkeys
+name: dsh-session-hotkeys
+description:
+  en: "Session hotkeys for DeepSeek Harness Web: Alt+1-9 positional switching, independent pinned slots, keyboard navigation over the real session list, keyboard-only model switching (ring-guided menu), focus-back and alternate-busy-behavior send chords, archive confirmation — every binding rebindable from the panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - hotkeys
+  - keyboard
+  - shortcut
+  - productivity
+source:
+  repository: https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys
+  repositoryNodeId: R_kgDOT5fxcQ
+  subpath: null
+  commit: dd643a3b3c054a0b02b07276f37548d3199017c4
+creator:
+  github: YEYEYEYESHIFU
+package:
+  ecosystem: npm
+  name: dsh-session-hotkeys
+  version: 1.6.0
+  integrity: sha512-TzwBn+1+z+TA6iMSOuaNdT02K0btjnaelOY6ziX88GJ28HBEqCelniwcnyvPAUP4agUfkI/cASBCy3pxpsZGHQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:13.273Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
