@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zhengjy01-dsh-ticktick
+name: dsh-ticktick
+description:
+  en: "TickTick / Dida365 (滴答清单) sync for DeepSeek Harness: official OAuth 2.0 Open API integration to pull tasks across lists, create, update, complete, delete tasks, and one-shot dedupe sync — with a web settings panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ticktick
+  - dida365
+  - todo
+  - task
+  - sync
+  - oauth
+source:
+  repository: https://github.com/zhengjy01/dsh-ticktick
+  repositoryNodeId: R_kgDOT52PuQ
+  subpath: null
+  commit: e510a51148b69345a0654024a6d20295e00246db
+creator:
+  github: zhengjy01
+package:
+  ecosystem: npm
+  name: dsh-ticktick
+  version: 0.1.3
+  integrity: sha512-Dng4vlav0OaYKExkVVTgBqr2flJRoISkHwiSgpv2mwJj/mVDTcGLrkKXhEffcJrpStIHj7cGpcZFgMPyK2DZJA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.998Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
