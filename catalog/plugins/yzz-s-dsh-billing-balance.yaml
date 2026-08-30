@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yzz-s-dsh-billing-balance
+name: dsh-billing-balance
+description:
+  en: "- DeepSeek balance : total / top-up / gift balance and account availability ( GET https://api.deepseek.com/user/balance ). - Volcengine Ark Coding Plan : used percentage, progress bar and countdown to reset (ticking every second) for the session (5-hour) / weekly / monthly windows; if you also subscribe to Agent Plan ("
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - balance
+  - billing
+  - volcengine
+  - coding-plan
+source:
+  repository: https://github.com/YZz-S/dsh-billing-balance
+  repositoryNodeId: R_kgDOT49DNQ
+  subpath: null
+  commit: 0550c7c76924c56c89f4a8e1756ee680bd4140e0
+creator:
+  github: YZz-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.155Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
