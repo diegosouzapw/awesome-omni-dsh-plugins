@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: ccch713-ddw-teams-panel
+name: "@deepddw/ddw-teams-panel"
+description:
+  en: deepDDW gives DeepSeek Harness (DSH) the three pieces it's missing — memory, a knowledge base, and document search — and makes all of it reachable from any device on your LAN. No app install. No DSH source changes.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepddw
+  - teams
+  - settings
+source:
+  repository: https://github.com/ccch713/deepddw
+  repositoryNodeId: R_kgDOT5l0dA
+  subpath: plugins/ddw-teams-panel
+  commit: 22646509fa21521adcab916405a60f35dee141f9
+creator:
+  github: ccch713
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/ddw-teams-panel/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:12.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
