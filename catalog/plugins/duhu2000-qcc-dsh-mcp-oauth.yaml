@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: duhu2000-qcc-dsh-mcp-oauth
+name: qcc-dsh-mcp-oauth
+description:
+  en: 前置：DeepSeek Harness（ dsh CLI，web profile），Node ≥ 20。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - mcp
+  - qichacha
+  - qcc
+  - oauth
+  - pkce
+source:
+  repository: https://github.com/duhu2000/qcc-mcp-oauth
+  repositoryNodeId: R_kgDOT6qabg
+  subpath: null
+  commit: 72a1ee50546b298c2d8a0e3f0d940e0758b8f338
+creator:
+  github: duhu2000
+package:
+  ecosystem: npm
+  name: qcc-dsh-mcp-oauth
+  version: 0.1.7
+  integrity: sha512-SgPRa1+YeJ9UeWD8dglyyRSWto/TfcMLrwU/qO13/Eq/Dy6M9cs5lfqAM7cF2qnx/9fIJL9ZjnXCOv2SDACRjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:56.166Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
