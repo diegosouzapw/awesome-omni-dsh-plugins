@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wenaixi-dsh-superpower
+name: "@wenaixi/dsh-superpower"
+description:
+  en: 前置 ： Node =20 、 pnpm =9 、 dsh （ npm i -g @deepseek-ai/dsh ）。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - superpowers
+  - skills
+  - agent
+  - methodology
+source:
+  repository: https://github.com/Wenaixi/dsh-superpower
+  repositoryNodeId: R_kgDOT_5Kfg
+  subpath: null
+  commit: 46d16d325b0d5a94a901242191ecf1b0fe8b55dd
+creator:
+  github: Wenaixi
+package:
+  ecosystem: npm
+  name: "@wenaixi/dsh-superpower"
+  version: 6.3.0-dsh.10
+  integrity: sha512-EKFkE1PiS5jBar7TC0I3ZThx+VjaUWov/a9UWjyc7Tu+zoQYT+UlAt9LX+/zMtbnzt7q1pZBCyox9RGEIIJ3dA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:24.683Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
