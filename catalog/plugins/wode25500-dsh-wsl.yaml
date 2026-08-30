@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-wsl
+name: dsh-wsl
+description:
+  en: "WSL (Windows Subsystem for Linux) bridge for DeepSeek Harness: run Linux commands, manage distros, and move files between Windows and WSL through native dsh tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - wsl
+  - windows-subsystem-for-linux
+  - linux
+  - bridge
+source:
+  repository: https://github.com/WODE25500/dsh-wsl
+  repositoryNodeId: R_kgDOT-BlFg
+  subpath: null
+  commit: 91d581e0a60ff9dd01392673b6ba393d6f8a42d9
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:36.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
