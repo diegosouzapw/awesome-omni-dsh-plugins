@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: tianbuyu-wwx-dsh-formatforge
+name: "@tianbuyu-wwx/dsh-formatforge"
+description:
+  en: "FormatForge for DeepSeek Harness: forge any file format (pdf/docx/xlsx/pptx/eml/toml/...) into AI-readable structured data. Thin bundle that spawns the local Python CLI (python -m formatforge) and returns protocol JSON; enhancement is delegated to the current session model via enhance hints."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - cordis
+  - deepseek-harness
+  - formatforge
+  - file-conversion
+  - document-parsing
+source:
+  repository: https://github.com/Tianbuyu-wwx/DSH-FormatForge
+  repositoryNodeId: R_kgDOS2rKyQ
+  subpath: packages/dsh-formatforge
+  commit: df6ec412f16ea615c615dc731862072b3bb80f90
+creator:
+  github: Tianbuyu-wwx
+package:
+  ecosystem: npm
+  name: "@tianbuyu-wwx/dsh-formatforge"
+  version: 0.12.0
+  integrity: sha512-nkdsNuWuPai3leSt+LFKO4f+z1c3sb/YGaoLLrMsv9dVPyL8dgy4cz6N4vOikKG0nyNy4MKAN/TnSEivn4WeCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-formatforge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:33.223Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Tianbuyu-wwx/DSH-FormatForge/df6ec412f16ea615c615dc731862072b3bb80f90/assets/screenshot-drop.png
+    alt: 拖拽锻造 toast
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Tianbuyu-wwx/DSH-FormatForge/df6ec412f16ea615c615dc731862072b3bb80f90/assets/screenshot-inbox.png
+    alt: FormatForge 收件箱产物
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Tianbuyu-wwx/DSH-FormatForge/df6ec412f16ea615c615dc731862072b3bb80f90/assets/screenshot-notice.png
+    alt: 会话锻造完成通知
