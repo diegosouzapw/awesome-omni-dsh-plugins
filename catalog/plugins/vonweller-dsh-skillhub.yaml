@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: vonweller-dsh-skillhub
+name: dsh-skillhub
+description:
+  en: Browse skillhub.cn skills and one-click install them into ~/.dsh/skills
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - skillhub
+  - skills
+source:
+  repository: https://github.com/vonweller/dsh-skillhub
+  repositoryNodeId: R_kgDOUCYVAg
+  subpath: null
+  commit: 2212b4ff02dd7440849f5089a6dcdb0f989e22af
+creator:
+  github: vonweller
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:27.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vonweller/dsh-skillhub/2212b4ff02dd7440849f5089a6dcdb0f989e22af/docs/skill-market.png
+    alt: Settings → Skill Market browsing the skillhub.cn catalog
