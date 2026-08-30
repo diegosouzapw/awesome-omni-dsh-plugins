@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: gastronomicluna-dsh-plugin-matrix
+name: dsh-plugin-matrix
+description:
+  en: bash dsh plugin --profile web add "."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - matrix
+  - code-rain
+  - cli
+  - terminal
+source:
+  repository: https://github.com/Gastronomicluna/Matrix-code
+  repositoryNodeId: R_kgDOT_YJnQ
+  subpath: null
+  commit: 990576ab3116f6bb85534f28fc0d815a75055850
+creator:
+  github: Gastronomicluna
+package:
+  ecosystem: npm
+  name: dsh-plugin-matrix
+  version: 1.0.0
+  integrity: sha512-ocSvm6/m1A/DdLR/+Z2Q2R50stdQtl/TEMcTTxZaqEOOgFbJ++3BlVuOnQqVoYocYgSpsOKphUBmfT7mDCwY9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:09.358Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Gastronomicluna/Matrix-code/990576ab3116f6bb85534f28fc0d815a75055850/assets/demo.png
+    alt: 矩阵思维 CLI 演示
