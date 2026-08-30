@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: xiaoshihou514-dsh-vision
+name: dsh-vision
+description:
+  en: Local vision bridge for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - vision
+  - multimodal
+  - qwen3-vl
+  - dsh
+source:
+  repository: https://github.com/xiaoshihou514/dsh-vision
+  repositoryNodeId: R_kgDOT3ey2A
+  subpath: null
+  commit: d01ddc1deb46bf0b5d33a9f9400d863e6bb51d38
+creator:
+  github: xiaoshihou514
+package:
+  ecosystem: npm
+  name: dsh-vision
+  version: 0.1.0
+  integrity: sha512-Rvt+JPRxsOHy8FgTShrk/KDx3/PDYAGo8SZ6XyzlSZapopeMz2Ey7scpKTGQKt+dgr4Uze/z43kLmuDEiNAD6g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:20.195Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoshihou514/dsh-vision/d01ddc1deb46bf0b5d33a9f9400d863e6bb51d38/assets/logo.png
+    alt: dsh-vision logo
