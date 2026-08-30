@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wpc0323-deepseek-web-import
+name: deepseek-web-import
+description:
+  en: Import chat.deepseek.com conversations into DeepSeek Harness as resumable sessions, from a settings-page UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web-ui
+  - import
+  - conversations
+  - session
+source:
+  repository: https://github.com/wpc0323/deepseek-web-import
+  repositoryNodeId: R_kgDOT6A5jg
+  subpath: null
+  commit: 8780b8c80addf9f6519a02106f6a28d2ebaedb99
+creator:
+  github: wpc0323
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
