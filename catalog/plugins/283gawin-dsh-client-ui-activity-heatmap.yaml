@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: 283gawin-dsh-client-ui-activity-heatmap
+name: "@linxin666/dsh-client-ui-activity-heatmap"
+description:
+  en: "Activity heatmap for the dsh web GUI sidebar: a persistent GitHub-style year grid switching between daily commits / token usage / estimated spend, plus a today line with all-session token totals, cache hit rate, and per-model auto-priced cost. Data is aggregated host-side from the durable session logs (provider usage) "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - heatmap
+  - activity
+  - token
+  - usage
+  - cost
+  - github-style
+source:
+  repository: https://github.com/283Gawin/dsh-heatmap
+  repositoryNodeId: R_kgDOT4gVfQ
+  subpath: null
+  commit: 4ba131df0980c8c8af72901ca9fa0f31accb9a6d
+creator:
+  github: 283Gawin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:09.809Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/283Gawin/dsh-heatmap/4ba131df0980c8c8af72901ca9fa0f31accb9a6d/assets/panel-light.png
+    alt: 面板（浅色）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/283Gawin/dsh-heatmap/4ba131df0980c8c8af72901ca9fa0f31accb9a6d/assets/panel-dark.png
+    alt: 面板（深色）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/283Gawin/dsh-heatmap/4ba131df0980c8c8af72901ca9fa0f31accb9a6d/assets/settings-light.png
+    alt: 设置卡片（浅色）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/283Gawin/dsh-heatmap/4ba131df0980c8c8af72901ca9fa0f31accb9a6d/assets/settings-dark.png
+    alt: 设置卡片（深色）
