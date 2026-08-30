@@ -1,0 +1,59 @@
+schemaVersion: 1
+id: wangzhanchao883-dsh-screenshot-capture
+name: dsh-screenshot-capture
+description:
+  en: "A DeepSeek Harness(DSH) plugin that turns a screenshot (or any copied image) into an Obsidian note: a system-level floating window appears next to your mouse, lets you add a comment / mark it as a key point, then saves the image (with instant OCR via the Tongyi Qianwen multimodal API) into a per-day note, and an option"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - screenshot
+  - screenshot-capture
+  - clipboard
+  - ocr
+  - obsidian
+  - windows
+  - winforms
+  - productivity
+  - automation
+source:
+  repository: https://github.com/wangzhanchao883/dsh-screenshot-capture
+  repositoryNodeId: R_kgDOUCIf6w
+  subpath: null
+  commit: 1cc9f5335e48117221fcb9368a5aec7e44e63e0c
+creator:
+  github: wangzhanchao883
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:45.086Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wangzhanchao883/dsh-screenshot-capture/1cc9f5335e48117221fcb9368a5aec7e44e63e0c/assets/screenshots/settings.png
+    alt: Settings
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wangzhanchao883/dsh-screenshot-capture/1cc9f5335e48117221fcb9368a5aec7e44e63e0c/assets/screenshots/floating-window.png
+    alt: Floating window
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wangzhanchao883/dsh-screenshot-capture/1cc9f5335e48117221fcb9368a5aec7e44e63e0c/assets/screenshots/obsidian-note.png
+    alt: Obsidian note
