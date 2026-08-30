@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: whale-zhang-dsh-complete-chime
+name: "@dsh-external/dsh-complete-chime"
+description:
+  en: Play a short chime when any conversation turn finishes. Built-in tones plus one custom upload, configured in Settings → Plugins.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - notification
+  - sound
+  - chime
+source:
+  repository: https://github.com/Whale-Zhang/dsh-complete-chime
+  repositoryNodeId: R_kgDOUBFfNA
+  subpath: null
+  commit: 9536566e14e61c676adfd155a9c3b7497ab75ee1
+creator:
+  github: Whale-Zhang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:30.506Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Whale-Zhang/dsh-complete-chime/9536566e14e61c676adfd155a9c3b7497ab75ee1/docs/settings-card.png
+    alt: Settings → Plugins → Plugin configuration
