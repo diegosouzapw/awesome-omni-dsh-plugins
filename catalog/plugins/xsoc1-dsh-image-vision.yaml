@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xsoc1-dsh-image-vision
+name: "@dsh-external/dsh-image-vision"
+description:
+  en: "Eyes for text-only DeepSeek: view image tool (any OpenAI-compatible VLM, local Ollama or cloud) + chat image-attachment bridge that rewrites pasted/dropped images into view image path markers"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - image
+  - ocr
+  - multimodal
+  - vlm
+  - ollama
+source:
+  repository: https://github.com/xsoc1/dsh-image-vision
+  repositoryNodeId: R_kgDOT5bTxQ
+  subpath: null
+  commit: dbe64b429289ab8da1ed6940fefd8395bdc167f0
+creator:
+  github: xsoc1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:27.923Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
