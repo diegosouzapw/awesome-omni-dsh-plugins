@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zouyuanqing-dsh-vision-primitives
+name: dsh-vision-primitives
+description:
+  en: "Native interactive visual-reasoning plugin for DeepSeek Harness: precise pixel grounding (SOM grid, zoom, annotate, measure, diff, color, OCR) + MiMo V2.5 multimodal backend, with zero external MCP servers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - vision
+  - computer-vision
+  - ocr
+  - multimodal
+source:
+  repository: https://github.com/zouyuanqing/dsh-vision-primitives
+  repositoryNodeId: R_kgDOT4VLtg
+  subpath: null
+  commit: dfcfbc2b2d22ac34ea723dc9b34aae57d7e6a663
+creator:
+  github: zouyuanqing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.963Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
