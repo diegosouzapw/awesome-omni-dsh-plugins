@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xiaoso456-dsh-run-config
+name: "@xiaoso/dsh-run-config"
+description:
+  en: "VS Code / IDEA-style run control for the DeepSeek Harness web GUI: run buttons, task run configurations (LLM prompt / background command), configuration CRUD, and an LLM-exposed configuration tool with an on-demand usage skill"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - task-runner
+  - run-configuration
+  - conversation
+source:
+  repository: https://github.com/xiaoso456/dsh-run-config
+  repositoryNodeId: R_kgDOUBth5Q
+  subpath: null
+  commit: 8deedae0eaf2b3421a1ef46802cc0ac701667f88
+creator:
+  github: xiaoso456
+package:
+  ecosystem: npm
+  name: "@xiaoso/dsh-run-config"
+  version: 0.1.3
+  integrity: sha512-PLgr9ymT0J8zIfwdla68d8e3AdGKK38j2mv8POPq1xq6qSTaj6FtTNzv6EAmps7+BAZFBT1xdhR/Nt9AE34wmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.017Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoso456/dsh-run-config/8deedae0eaf2b3421a1ef46802cc0ac701667f88/docs/images/hero.png
+    alt: image-20260823222328727
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoso456/dsh-run-config/8deedae0eaf2b3421a1ef46802cc0ac701667f88/docs/images/dialog.png
+    alt: image-20260823222318093
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoso456/dsh-run-config/8deedae0eaf2b3421a1ef46802cc0ac701667f88/docs/images/llm-create.png
+    alt: image-20260823222125260
