@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: abelkeithsun-dsh-question-nav
+name: "@luziyang2026/dsh-question-nav"
+description:
+  en: "In-session question navigator for the DSH web GUI: a vertical minimap of round dots overlaid on the edge of the conversation column (left or right, configurable in settings), one dot per user question — hovering focuses a magnified window and a vertical cascade of crisp question cards showing the full text and sent tim"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - session
+  - question
+  - navigator
+  - vertical
+  - minimap
+  - round
+  - dots
+  - overlaid
+  - edge
+  - conversation
+  - column
+  - left
+  - right
+  - configurable
+  - settings
+  - user
+source:
+  repository: https://github.com/AbelKeithsun/dsh-question-nav
+  repositoryNodeId: R_kgDOT_x7sQ
+  subpath: null
+  commit: f1185f4df9364d8b16117e15fecc4c0ac28c5cd9
+creator:
+  github: AbelKeithsun
+package:
+  ecosystem: npm
+  name: "@luziyang2026/dsh-question-nav"
+  version: 0.7.7
+  integrity: sha512-wpUmUIvYODh9NsgNVZw+iSSMS7aWVxY3K3A0WmI8yY4CIREvZwI8jnUZX8kHtStWC0PoJ+YlxwxrY1goxvHhbw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:12.283Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
