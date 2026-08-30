@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-combination
+name: dsh-combination
+description:
+  en: bash dsh plugin add github:uckkk/dsh-combination
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-combination
+source:
+  repository: https://github.com/uckkk/dsh-combination
+  repositoryNodeId: R_kgDOT_DEDA
+  subpath: null
+  commit: 9b43817f7423ec60a1e816a088c3d6388b0c98ee
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:11.747Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
