@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: xiluovo-dsh-session-timeline
+name: dsh-session-timeline
+description:
+  en: "A session timeline plugin for DeepSeek Harness: renders a horizontal-bar timeline on the left side of the conversation for quickly locating, jumping to, and previewing turns in long sessions."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - session
+  - timeline
+  - ui
+source:
+  repository: https://github.com/XiLuovo/dsh-session-timeline
+  repositoryNodeId: R_kgDOT3l_4Q
+  subpath: null
+  commit: a06e80b43f9b1612454f0a3069d2ec94a6c727df
+creator:
+  github: XiLuovo
+package:
+  ecosystem: npm
+  name: dsh-session-timeline
+  version: 1.0.2
+  integrity: sha512-6Lm9YoSUS+eB8bWBWKq8HLQoEz/gFc4ksLNi3U49oq3S5dvSMCYRxcDwXPfmg5UBGr+WRCgXLrHWFmjMj7AsGw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.475Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XiLuovo/dsh-session-timeline/a06e80b43f9b1612454f0a3069d2ec94a6c727df/docs/screenshots/timeline-main.png
+    alt: 会话时间轴主视图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XiLuovo/dsh-session-timeline/a06e80b43f9b1612454f0a3069d2ec94a6c727df/docs/screenshots/timeline-tooltip.png
+    alt: 悬停预览 tooltip
