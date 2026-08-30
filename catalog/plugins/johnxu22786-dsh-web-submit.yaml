@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: johnxu22786-dsh-web-submit
+name: dsh-web-submit
+description:
+  en: "DeepSeek Harness plugin: run headless-style tasks through the running dsh web process via one HTTP endpoint (POST /x/headless) with status and SSE live-event endpoints — CLI-invoked runs are visible in the Web UI in real time."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - headless
+  - web
+  - bridge
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/JohnXu22786/dsh-web-submit
+  repositoryNodeId: R_kgDOUBISuA
+  subpath: null
+  commit: 98a6f77a1353bdfd13fed26fc5c4eb95187111d2
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:39.220Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
