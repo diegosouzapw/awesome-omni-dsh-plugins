@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zc277584121-memsearch-dsh
+name: "@zilliz/memsearch-dsh"
+description:
+  en: "MemSearch plugin for DeepSeek Harness: shared markdown memory across agents, with capture, pre-step context injection, memory-recall skill, and a skill-candidate review panel."
+  evidencePath: plugins/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - memsearch
+  - memory
+  - deepseek-harness
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/zilliztech/memsearch
+  repositoryNodeId: R_kgDORLxL3A
+  subpath: plugins/dsh
+  commit: b8957058356bf1f2314003b160b2965c160fdbd4
+creator:
+  github: zc277584121
+package:
+  ecosystem: npm
+  name: "@zilliz/memsearch-dsh"
+  version: 0.1.4
+  integrity: sha512-QXmWyn8/0oT8rM9YePt49FlfMvGcR8obz4SN1Gu2/ieT5F/Z1P7ZnS3x4U5uOug3YvMxSO/wViwRck9MnxWSGg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: plugins/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:09.743Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
