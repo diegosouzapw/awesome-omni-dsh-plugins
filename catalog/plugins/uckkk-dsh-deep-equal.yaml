@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-deep-equal
+name: dsh-deep-equal
+description:
+  en: bash dsh plugin add github:uckkk/dsh-deep-equal
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-deep-equal
+source:
+  repository: https://github.com/uckkk/dsh-deep-equal
+  repositoryNodeId: R_kgDOT9uoFA
+  subpath: null
+  commit: b1ab3478ca2ef08bfef5305bf77ef4464b646da5
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:39.098Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
