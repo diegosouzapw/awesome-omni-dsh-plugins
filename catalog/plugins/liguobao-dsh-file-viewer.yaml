@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: liguobao-dsh-file-viewer
+name: dsh-file-viewer
+description:
+  en: Read-only file previews inside DeepSeek Harness for images, PDF, CSV, Markdown, JSON, YAML, source code, and large files.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - file-viewer
+source:
+  repository: https://github.com/liguobao/dsh-file-viewer
+  repositoryNodeId: R_kgDOT9pI7A
+  subpath: null
+  commit: 7469423c871744dd4cce148af940859bb59f051f
+creator:
+  github: liguobao
+package:
+  ecosystem: npm
+  name: dsh-file-viewer
+  version: 0.3.1
+  integrity: sha512-IfxZCAK8raApstkD3OB7oFJ02Hv2tofRRHf7rqOV0nxDD6svidZpNrYyiTu8VM6GxD2sRiNM9Yj263SBATf86Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.865Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
