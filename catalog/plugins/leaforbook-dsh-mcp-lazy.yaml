@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: leaforbook-dsh-mcp-lazy
+name: "@yilinxiao/dsh-mcp-lazy"
+description:
+  en: sh dsh plugin --profile web add @yilinxiao/dsh-mcp-lazy
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - mcp
+  - model-context-protocol
+  - lazy-loading
+  - token-saving
+  - token-savings
+  - context-optimization
+  - tool-schema
+  - tool-router
+  - mcp-router
+  - on-demand-tools
+  - progressive-disclosure
+source:
+  repository: https://github.com/leaforbook/dsh-mcp-lazy
+  repositoryNodeId: R_kgDOT74ryQ
+  subpath: null
+  commit: 91b68dcf3e0291bea6acc336720e9b6d305a79a5
+creator:
+  github: leaforbook
+package:
+  ecosystem: npm
+  name: "@yilinxiao/dsh-mcp-lazy"
+  version: 0.5.1
+  integrity: sha512-R/XtiN2DQfVBwPdb4ylVLbwVsJ+Emr74238iMUM7SUrDiYZgGws9ololUQc1rOCOUd2yDR6y998qksmcBrV+PA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:42.743Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
