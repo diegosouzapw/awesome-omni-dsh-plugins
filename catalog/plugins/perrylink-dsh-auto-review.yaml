@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: perrylink-dsh-auto-review
+name: dsh-auto-review
+description:
+  en: "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - approval
+  - auto-review
+  - second-model
+  - ai-safety
+  - sandbox
+  - subagent
+source:
+  repository: https://github.com/PerryLink/dsh-auto-review
+  repositoryNodeId: R_kgDOT3tUeg
+  subpath: null
+  commit: 850639dc362ffeec57ac06cfd4dddba922f96e9a
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-auto-review
+  version: 0.8.0
+  integrity: sha512-l05weldha5J4QUDzaI5Up8PuqzvsEgRay6QdppIUCxu39kjEx49lmXEXYiPvxrX+wyhkHIP07R65245ofaGTkA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.261Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 120
+provenance:
+  discussion: null
+  comment: null
