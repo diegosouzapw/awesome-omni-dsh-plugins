@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zephyr-vibe-dsh-personalize
+name: dsh-personalize
+description:
+  en: "DSH web plugin: per-host personalization — global custom instructions, local long-term memory (collect / retain / integrate / manage), and reply tone presets."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - host
+  - personalization
+  - global
+  - custom
+  - instructions
+  - local
+  - long
+  - term
+  - memory
+  - collect
+  - retain
+  - integrate
+  - manage
+  - reply
+  - tone
+  - presets
+source:
+  repository: https://github.com/Zephyr-vibe/dsh-personalize
+  repositoryNodeId: R_kgDOT4MoEg
+  subpath: null
+  commit: 96f5525c0b65819fdb12c88cf1a9309747095c1f
+creator:
+  github: Zephyr-vibe
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:46.922Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
