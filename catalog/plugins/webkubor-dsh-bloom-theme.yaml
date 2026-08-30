@@ -1,0 +1,75 @@
+schemaVersion: 1
+id: webkubor-dsh-bloom-theme
+name: "@kubor/dsh-bloom-theme"
+description:
+  en: <table align="center" <tr <td align="center" width="33%" <a href="https://github.com/webkubor/typora-Bloom-theme" 🌸 Bloom for Typora</a <br/ <sub 24 themes</sub </td <td align="center" width="33%" <b 🌊 Bloom for DSH</b <br/ <sub 8 palettes · current</sub </td <td align="center" width="33%" <a href="https://github.com
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-theme
+  - deepseek-harness
+  - theme
+  - skin
+  - dark-theme
+  - ui-theme
+  - web-ui
+  - bloom
+  - morandi
+  - oklch
+  - accessibility
+  - wcag
+  - wallpaper
+  - glassmorphism
+source:
+  repository: https://github.com/webkubor/dsh-bloom-theme
+  repositoryNodeId: R_kgDOT8Bb1g
+  subpath: null
+  commit: b356a6819bcf810755bc29fc0c2256b11f711f82
+creator:
+  github: webkubor
+package:
+  ecosystem: npm
+  name: "@kubor/dsh-bloom-theme"
+  version: 0.8.8
+  integrity: sha512-htzAoHav3Von53pJZhVseqe8MyyXkml/tRYHyqFE+ijPR0VSeYFw4J3eoFmmuFqmZmKEbIDq01c28MZ754DALw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.826Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 17
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-sage-light.png
+    alt: Bloom · Sage (light)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-mist-light.png
+    alt: Screenshot 2
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-cinnabar-light.png
+    alt: Screenshot 3
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-petal-light.png
+    alt: Screenshot 4
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-ripple-light.png
+    alt: Screenshot 5
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/webkubor/dsh-bloom-theme/b356a6819bcf810755bc29fc0c2256b11f711f82/assets/screenshots/ui-stone-light.png
+    alt: Screenshot 6
