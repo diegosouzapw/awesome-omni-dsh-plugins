@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-base36
+name: dsh-base36
+description:
+  en: bash dsh plugin add github:uckkk/dsh-base36
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-base36
+source:
+  repository: https://github.com/uckkk/dsh-base36
+  repositoryNodeId: R_kgDOT9uHFQ
+  subpath: null
+  commit: a5d12f71fb9e4747fc71e510c1d0a6f2527a4330
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:35.061Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
