@@ -1,0 +1,70 @@
+schemaVersion: 1
+id: zhxqc-dsh-oh-my-theme
+name: dsh-oh-my-theme
+description:
+  en: sh dsh plugin --profile web add dsh-oh-my-theme
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - file-system
+  - file-explorer
+  - file-tree
+  - at-mentions
+  - markdown
+  - web-ui
+source:
+  repository: https://github.com/zhxqc/dsh-oh-my-theme
+  repositoryNodeId: R_kgDOT5CrBw
+  subpath: null
+  commit: 6dbea1ac6131abccea755551eb294a8cc4805786
+creator:
+  github: zhxqc
+package:
+  ecosystem: npm
+  name: dsh-oh-my-theme
+  version: 0.6.0
+  integrity: sha512-1TDG5zGZ//MhG71l4T2EfYueVSDS/TiRFD2Mb/QWW5AI1n7Y4kfiIoi2u+e/K4wTZutrcx/GH6WEtIo9eSw7xA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:45.094Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/setting.png
+    alt: 主题与文字显示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/at.png
+    alt: "@ 引用文件"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/slider-icon.png
+    alt: 工作区入口
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/file-sys.png
+    alt: 文件面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/md-preview.png
+    alt: Markdown 预览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhxqc/dsh-oh-my-theme/6dbea1ac6131abccea755551eb294a8cc4805786/docs/assets/git-changes.png
+    alt: Git 更改与工作区 Diff
