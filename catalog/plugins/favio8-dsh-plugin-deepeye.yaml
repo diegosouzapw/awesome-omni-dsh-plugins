@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: favio8-dsh-plugin-deepeye
+name: dsh-plugin-deepeye
+description:
+  en: "DeepSeek Harness native plugin: vision capabilities for text-only LLMs (describe, OCR, VQA, layout analysis, clipboard)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - vision
+  - ocr
+  - image-analysis
+source:
+  repository: https://github.com/Favio8/dsh-plugin-deepeye
+  repositoryNodeId: R_kgDOT3jk0A
+  subpath: null
+  commit: 81c172c66e9cd4d9a8e62cc5d699372962169277
+creator:
+  github: Favio8
+package:
+  ecosystem: npm
+  name: dsh-plugin-deepeye
+  version: 0.2.0
+  integrity: sha512-bZbCc5JaxN0zWMgdSuvH1kOw75M7QmLK2jgm/u5auym8mkHvBCuteVEkZ68uT8qAjV684XIkPvpyn+L3gn707w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:56.071Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
