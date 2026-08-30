@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: byte-info-dsh-projectmodel
+name: dsh-projectmodel
+description:
+  en: bash dsh plugin --profile web add .
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - project-groups
+  - workspace
+source:
+  repository: https://github.com/Youngxj/dsh-ProjectModel
+  repositoryNodeId: R_kgDOT35JAQ
+  subpath: null
+  commit: 68789298dd2a572ac026ecebef106c542995611e
+creator:
+  github: byte-info
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:32.153Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Youngxj/dsh-ProjectModel/68789298dd2a572ac026ecebef106c542995611e/preview.png
+    alt: dsh-ProjectModel 界面预览
