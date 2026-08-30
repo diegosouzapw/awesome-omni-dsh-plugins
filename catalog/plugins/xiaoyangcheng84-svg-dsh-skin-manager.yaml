@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xiaoyangcheng84-svg-dsh-skin-manager
+name: dsh-skin-manager
+description:
+  en: "Dynamic skin manager for the dsh web GUI: discovers every installed skin (skin.json packages and no-skin.json market themes), lets you toggle the active skin from a dedicated Settings page, mutually exclusive, hot-reloaded without restart"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skin
+  - theme
+  - skin-manager
+  - web-ui
+source:
+  repository: https://github.com/xiaoyangcheng84-svg/dsh-skin-manager
+  repositoryNodeId: R_kgDOT5G-6w
+  subpath: null
+  commit: 5e843c463c0195c30ad139fd1072a7ef89b9d5f6
+creator:
+  github: xiaoyangcheng84-svg
+package:
+  ecosystem: npm
+  name: dsh-skin-manager
+  version: 0.1.6
+  integrity: sha512-VkEyqIGUso6KqzgeqbPQLiXhX22taet2QDBy4pvUUMF7rv/l6DvIlOVm2rpMo+rFzTxnldEEifk8EdXUoGy4eg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:16.847Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoyangcheng84-svg/dsh-skin-manager/5e843c463c0195c30ad139fd1072a7ef89b9d5f6/docs/skins.png
+    alt: skins page
