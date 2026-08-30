@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: owlcodetech-dsh-market-plus
+name: dsh-market-plus
+description:
+  en: 安装： dsh plugin --profile web add dsh-market-plus （或本地 npm install file:<路径 + profile bundles 注册）。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - marketplace
+  - market
+  - plugin-manager
+source:
+  repository: https://github.com/OwlCodeTech/dsh-market-plus
+  repositoryNodeId: R_kgDOT564Xg
+  subpath: null
+  commit: 5c859af5431be0a03b20166f3273cb3b1ca7e2e2
+creator:
+  github: OwlCodeTech
+package:
+  ecosystem: npm
+  name: dsh-market-plus
+  version: 0.1.1
+  integrity: sha512-CTvie/nNdcgPr0/vsd+XaRkY9IcvKOFzVsZVc+45o82po4WqwKPmkQc05JdTYceHxfsH4XbzFM481oZ5jWZsKg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:11.260Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OwlCodeTech/dsh-market-plus/5c859af5431be0a03b20166f3273cb3b1ca7e2e2/assets/demo-en.png
+    alt: dsh-market
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OwlCodeTech/dsh-market-plus/5c859af5431be0a03b20166f3273cb3b1ca7e2e2/assets/themes-en.png
+    alt: Themes tab
