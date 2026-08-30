@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wulun811-dsh-malong-bridge
+name: "@jieai/dsh-malong-bridge"
+description:
+  en: LiuHe (Six Harmonies) tool suite as a DeepSeek Harness (dsh) plugin bundle — 44 MCP tools with dynamic workspace injection
+  evidencePath: malong/dsh/bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - mcp
+  - malong
+  - liuhe
+  - code-index
+  - tools
+source:
+  repository: https://github.com/wulun811/LiuHe
+  repositoryNodeId: R_kgDOTquRmw
+  subpath: malong/dsh/bundle
+  commit: aeacf13b6450eaab5e97ddecf880c094abe1801d
+creator:
+  github: wulun811
+package:
+  ecosystem: npm
+  name: "@jieai/dsh-malong-bridge"
+  version: 0.4.7
+  integrity: sha512-UqCIR+rxCyCjB+5hcV3HPRpdpSXBbOd1fz18p6HV7hMOAYQRGV932BOCuVRbprQHwzhAtNvdletGdKApEiEl0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: malong/dsh/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:38.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
