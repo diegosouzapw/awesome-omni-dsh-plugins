@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yzz-s-workspace-files-explorer
+name: workspace-files-explorer
+description:
+  en: "- Floating file panel : registered on shell.overlay , additive registration — replaces no built-in UI; docks at the top right by default - File tree : lazy-loaded expansion, directories first, hidden files (dot-prefixed) dimmed, file sizes shown, truncation notice at 500 items per directory, one-click refresh - Code pr"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - file-explorer
+  - markdown-preview
+  - code-preview
+  - syntax-highlighting
+source:
+  repository: https://github.com/YZz-S/dsh-workspace-files-explorer
+  repositoryNodeId: R_kgDOT49Odw
+  subpath: null
+  commit: 5e2fb92f3226fab47f7cb87d66ddb440ae215706
+creator:
+  github: YZz-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:53.658Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
