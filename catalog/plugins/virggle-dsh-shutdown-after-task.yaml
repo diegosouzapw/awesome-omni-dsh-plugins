@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: virggle-dsh-shutdown-after-task
+name: dsh-shutdown-after-task
+description:
+  en: Shut down Windows automatically after DeepSeek Harness tasks complete. Zero-dependency plugin for the DeepSeek Harness web profile.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - shutdown
+  - power
+  - task-complete
+  - auto-shutdown
+source:
+  repository: https://github.com/virggle/dsh-shutdown-after-task
+  repositoryNodeId: R_kgDOT56NHQ
+  subpath: null
+  commit: 2ef4cd16a003013caaf11b3650f3922400945185
+creator:
+  github: virggle
+package:
+  ecosystem: npm
+  name: dsh-shutdown-after-task
+  version: 0.2.0
+  integrity: sha512-BaJ9QprFL827udxviu+Hb0xbhl9PRM2zR72rYpBc3KcRJA9eg2WGMqPRu+4hYgO3XN2gQHCHgJljjAuFVB6W/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:29.352Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
