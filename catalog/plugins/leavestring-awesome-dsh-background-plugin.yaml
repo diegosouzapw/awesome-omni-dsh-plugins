@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: leavestring-awesome-dsh-background-plugin
+name: awesome-dsh-background-plugin
+description:
+  en: DSH Web background settings plugin with local image upload and live preview.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - background
+  - settings
+  - local
+  - image
+  - upload
+  - live
+  - preview
+  - dsh
+source:
+  repository: https://github.com/leavestring/awesome-dsh-background-plugin
+  repositoryNodeId: R_kgDOT4M6vw
+  subpath: null
+  commit: 2b758a6fed8dfc79644c0cfb755eae11a7778332
+creator:
+  github: leavestring
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:29.732Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/leavestring/awesome-dsh-background-plugin/2b758a6fed8dfc79644c0cfb755eae11a7778332/screenshots/dark-mode-image.png
+    alt: 暗色模式自定义背景
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/leavestring/awesome-dsh-background-plugin/2b758a6fed8dfc79644c0cfb755eae11a7778332/screenshots/light-mode-image.png
+    alt: 浅色模式自定义背景
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/leavestring/awesome-dsh-background-plugin/2b758a6fed8dfc79644c0cfb755eae11a7778332/screenshots/banner.png
+    alt: DSH Background
