@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: smith-yue-dsh-skin-token-dashboard
+name: dsh-skin-token-dashboard
+description:
+  en: DeepSeek Harness desktop skins and durable per-session token usage summaries
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - theme
+  - skin
+  - wallpaper
+  - token-usage
+  - dashboard
+  - dsh
+source:
+  repository: https://github.com/Smith-yue/harness-plugin
+  repositoryNodeId: R_kgDOUBipeA
+  subpath: null
+  commit: 86c26ca4a4382a08243873f576e50e1b8ef01a2b
+creator:
+  github: Smith-yue
+package:
+  ecosystem: npm
+  name: dsh-skin-token-dashboard
+  version: 0.1.0
+  integrity: sha512-lY4r4UikREbZkSSa0c60g8paSEiGgw5UKI6ScRBzTfXbOolK8dPd3bzCzYZeec7qHDvMGU9uQYbPqPDN1eCl5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:58.836Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
