@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: jerryqx-dsh-ximalaya
+name: dsh-ximalaya
+description:
+  en: sh dsh plugin --profile <profile add dsh-ximalaya
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ximalaya
+  - podcast
+  - audio
+  - player
+source:
+  repository: https://github.com/jerryqx/dsh-ximalaya
+  repositoryNodeId: R_kgDOUDz7Nw
+  subpath: null
+  commit: 2fbd8296e3032fe626f41e8ea2f56605ecf48d15
+creator:
+  github: jerryqx
+package:
+  ecosystem: npm
+  name: dsh-ximalaya
+  version: 0.5.2
+  integrity: sha512-TQJPQBi89A4wc+TmEzsl/9SGZ8Uv5/phXOOGzcq2DcAyqffF0ArubR3f3+xRM0wewnTayz6omjRQqCEjCP6Qrg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:46.984Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-ximalaya/2fbd8296e3032fe626f41e8ea2f56605ecf48d15/assets/panel-search.png
+    alt: 搜索
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-ximalaya/2fbd8296e3032fe626f41e8ea2f56605ecf48d15/assets/panel-album.png
+    alt: 专辑
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-ximalaya/2fbd8296e3032fe626f41e8ea2f56605ecf48d15/assets/panel-mine-subs.png
+    alt: 订阅
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-ximalaya/2fbd8296e3032fe626f41e8ea2f56605ecf48d15/assets/panel-mine-anchors.png
+    alt: 主播
