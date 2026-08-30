@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: nyantused-cpun-folio-dsh-tools
+name: "@nyantused/folio-dsh-tools"
+description:
+  en: "- 记忆面 9 ：folio status / folio pending / folio recall / folio read / folio chunk read / folio graph query / folio session start / folio save / folio load - 质量面 6 ：folio verify / folio review / folio cite audit / folio audit / folio theme verify / folio spec diff"
+  evidencePath: plugins/folio-tools/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - folio
+  - consulting
+  - document-generation
+  - guard
+source:
+  repository: https://github.com/nyantused-cpun/folio
+  repositoryNodeId: R_kgDOT47yoQ
+  subpath: plugins/folio-tools
+  commit: 6ce1ec882cda61dbca5ad56bbce874d1dc127605
+creator:
+  github: nyantused-cpun
+package:
+  ecosystem: npm
+  name: "@nyantused/folio-dsh-tools"
+  version: 1.1.0
+  integrity: sha512-4/sn1RTLnsVdlMyN8wuobUwUMb3pymCbmIAttt73kjXZ0LLHGHWVryvDnyFtpEmJkPcRZmIuWMKNlxmoIPJ6EA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/folio-tools/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:08.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
