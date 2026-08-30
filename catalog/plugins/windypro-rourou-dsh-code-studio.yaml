@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: windypro-rourou-dsh-code-studio
+name: "@windypro-rourou/dsh-code-studio"
+description:
+  en: "File-change monitor & code editor for the DSH Web UI: watch agent edits land as line-by-line diffs in real time, right beside your conversation, then view and edit any workspace file without leaving the browser."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - code-studio
+  - cline
+  - diff
+  - editor
+  - web-ui
+source:
+  repository: https://github.com/WindyPro-rourou/dsh-code-studio
+  repositoryNodeId: R_kgDOT9_HRw
+  subpath: null
+  commit: a9e326323941f47d91fdbe4ecdbe9b0997fb880a
+creator:
+  github: WindyPro-rourou
+package:
+  ecosystem: npm
+  name: "@windypro-rourou/dsh-code-studio"
+  version: 0.2.7
+  integrity: sha512-8vCKQexZoRe2oH8oTTZx2uliOQiRREmbhUQblXUYpYAjPuDsdZ+GkhNXIwrbwebCnuyVs9o3SSl4OpWMjRWVzA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:30.811Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
