@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: ll-cmyk-so-dsh-balance-widget
+name: dsh-balance-widget
+description:
+  en: "Balance & cost widget for the dsh web GUI: a sidebar footer card shows the DeepSeek account balance and today's costs; clicking opens a popover with a five-tier cost breakdown (last prompt with session name / today-this-session / today-this-workspace / today-all-workspaces), peak/off-peak status tags, term explanations"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - balance
+  - cost
+  - token
+  - web-ui
+source:
+  repository: https://github.com/LL-cmyk-so/dsh-balance-widget
+  repositoryNodeId: R_kgDOT8Mu4A
+  subpath: null
+  commit: 716099374c5a13deca124a6323e37dd7c7a80c05
+creator:
+  github: LL-cmyk-so
+package:
+  ecosystem: npm
+  name: dsh-balance-widget
+  version: 0.5.0
+  integrity: sha512-oLLtFGIeDvSlYRV2u7lFuiAxzT6YFFbRBPumWCkgBoylQe1e/s630DRaahakL2SCgo8KXsEm5h3AY5V5Gx15jg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.941Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LL-cmyk-so/dsh-balance-widget/716099374c5a13deca124a6323e37dd7c7a80c05/docs/screenshot-corner.png
+    alt: 侧边栏卡片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LL-cmyk-so/dsh-balance-widget/716099374c5a13deca124a6323e37dd7c7a80c05/docs/screenshot-popover.png
+    alt: 成本明细弹框
