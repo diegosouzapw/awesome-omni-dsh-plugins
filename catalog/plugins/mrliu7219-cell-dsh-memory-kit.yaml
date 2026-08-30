@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mrliu7219-cell-dsh-memory-kit
+name: dsh-memory-kit
+description:
+  en: "Persistent memory + learning loop for DeepSeek Harness: MEMORY.md index + notes/ library auto-injected at session start, keyword search (rg), optional semantic search (local embedding), trap library with 3-tier rule escalation. Zero heavy deps; LM Studio optional for semantic/vision."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - memdir
+  - trap-library
+  - learning
+source:
+  repository: https://github.com/mrliu7219-cell/dsh-memory-kit
+  repositoryNodeId: R_kgDOT5nWeQ
+  subpath: null
+  commit: 28f0fee74ef24836222250cf21ca364596f5f18a
+creator:
+  github: mrliu7219-cell
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:07.044Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
