@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hazhuchenglong-gmail-dsh-side-chat
+name: "@zhuchenglong/dsh-side-chat"
+description:
+  en: "DSH web plugin: Codex-style /side side conversations. Open a temporary fork of the current chat in a floating panel — ask side questions without interrupting the main task or polluting its context."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - side-chat
+  - codex
+source:
+  repository: https://github.com/zclDragon/dsh-side-chat
+  repositoryNodeId: R_kgDOUAxkug
+  subpath: null
+  commit: dc52bb74a7682a0921ad3c944e09f06107401847
+creator:
+  github: hazhuchenglong-gmail
+package:
+  ecosystem: npm
+  name: "@zhuchenglong/dsh-side-chat"
+  version: 0.0.9
+  integrity: sha512-2G3ydcNX8cWxiNRDf+TtktKDWH9oL+T9PfXJyT2MHnNNMW74AoEYn3eb9wJ0Lka0cNG15wpJ7d3pHuOJWvEwMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:53.835Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
