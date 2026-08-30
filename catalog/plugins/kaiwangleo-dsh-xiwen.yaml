@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: kaiwangleo-dsh-xiwen
+name: "@kaiwangleo/dsh-xiwen"
+description:
+  en: Semantic-layer analytics tool for DeepSeek Harness backed by the Xiwen service
+  evidencePath: plugins/dsh-xiwen/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - semantic-layer
+  - text-to-sql
+  - data-agent
+  - dsh
+source:
+  repository: https://github.com/kaiwangleo/xiwen
+  repositoryNodeId: R_kgDOT7IAdA
+  subpath: plugins/dsh-xiwen
+  commit: a310ef1e97243c75ab167dd950aac206f7f33cbf
+creator:
+  github: kaiwangleo
+package:
+  ecosystem: npm
+  name: "@kaiwangleo/dsh-xiwen"
+  version: 0.1.0
+  integrity: sha512-SKhITaxiL3GkR0Eep9r0upV+KiAZ2Zmjwoybhd8GylbjLqiCNr8nB2tNYgLt8Tvp093x/PKBYkKzZLtEDNLqBg==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-xiwen/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:50.579Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kaiwangleo/xiwen/a310ef1e97243c75ab167dd950aac206f7f33cbf/plugins/dsh-xiwen/docs/xiwen-workbench.png
+    alt: Xiwen workbench showing a completed regional sales query
