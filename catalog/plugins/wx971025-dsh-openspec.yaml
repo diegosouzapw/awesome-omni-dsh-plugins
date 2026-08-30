@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: wx971025-dsh-openspec
+name: dsh-openspec
+description:
+  en: DeepSeek Harness plugin that browses, previews, edits, and saves OpenSpec change Markdown files in the Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - openspec
+  - dsh
+source:
+  repository: https://github.com/wx971025/dsh-openspec
+  repositoryNodeId: R_kgDOT-S7QA
+  subpath: null
+  commit: 675a3ba57eb6163fc053e2e712e4b1d94013f91e
+creator:
+  github: wx971025
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:25.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
