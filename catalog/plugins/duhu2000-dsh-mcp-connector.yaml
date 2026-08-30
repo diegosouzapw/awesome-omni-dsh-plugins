@@ -1,0 +1,72 @@
+schemaVersion: 1
+id: duhu2000-dsh-mcp-connector
+name: dsh-mcp-connector
+description:
+  en: Connect and manage MCP servers in DeepSeek Harness — a universal MCP connector and marketplace with OAuth 2.0 PKCE, API keys, stdio/HTTP, mcpServers JSON import, tools, and prompts. Maintained by Qichacha/QCC.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - mcp
+  - mcp-client
+  - mcp-server
+  - mcp-connector
+  - mcp-marketplace
+  - model-context-protocol
+  - mcp-hub
+  - mcp-manager
+  - mcp-registry
+  - mcp-tools
+  - mcp-store
+  - remote-mcp
+source:
+  repository: https://github.com/duhu2000/dsh-mcp-connector
+  repositoryNodeId: R_kgDOT-uRIg
+  subpath: null
+  commit: 7fca199a2680fb67e11516f14eeb374a1e46938c
+creator:
+  github: duhu2000
+package:
+  ecosystem: npm
+  name: dsh-mcp-connector
+  version: 0.2.30
+  integrity: sha512-uiH+I4FHcIVubkzl8oYRUM4sbM80ibl8UUvkosgBE2D/rhNkFAE/ugizvM9S0pyCAP7M+iLbRHGBssTpjIwXdw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:51.269Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/duhu2000/dsh-mcp-connector/7fca199a2680fb67e11516f14eeb374a1e46938c/docs/demo.gif
+    alt: MCP 连接器 16 秒演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/duhu2000/dsh-mcp-connector/7fca199a2680fb67e11516f14eeb374a1e46938c/docs/screenshots/01-market-overview.jpg
+    alt: 市场总览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/duhu2000/dsh-mcp-connector/7fca199a2680fb67e11516f14eeb374a1e46938c/docs/screenshots/02-connector-detail.jpg
+    alt: 连接器详情
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/duhu2000/dsh-mcp-connector/7fca199a2680fb67e11516f14eeb374a1e46938c/docs/screenshots/03-tool-discovery.jpg
+    alt: 工具发现
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/duhu2000/dsh-mcp-connector/7fca199a2680fb67e11516f14eeb374a1e46938c/docs/screenshots/04-json-import.jpg
+    alt: JSON 导入
