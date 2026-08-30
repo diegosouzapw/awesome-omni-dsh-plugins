@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: twork097-dsh-profile-lab
+name: dsh-profile-lab
+description:
+  en: Reproducible local experiment matrices for DSH profiles
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - evaluation
+  - benchmark
+  - profiles
+source:
+  repository: https://github.com/young-tim/dsh-profile-lab
+  repositoryNodeId: R_kgDOT88Tzw
+  subpath: null
+  commit: 2cf8c3b7ae29c9ad67465161ee683615c6884cba
+creator:
+  github: twork097
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:14.709Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
