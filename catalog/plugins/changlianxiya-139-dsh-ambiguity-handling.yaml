@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: changlianxiya-139-dsh-ambiguity-handling
+name: dsh-ambiguity-handling
+description:
+  en: Append ambiguity-handling rules to dsh system prompt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+source:
+  repository: https://github.com/changlianxiya-139/dsh-ambiguity-handling
+  repositoryNodeId: R_kgDOT675gg
+  subpath: null
+  commit: a47dfc9fb3c23aebbb4fb612a833b48bb5f7950c
+creator:
+  github: changlianxiya-139
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:01.414Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
