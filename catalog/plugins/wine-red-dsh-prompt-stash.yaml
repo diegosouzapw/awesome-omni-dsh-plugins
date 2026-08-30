@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: wine-red-dsh-prompt-stash
+name: dsh-prompt-stash
+description:
+  en: Local, per-session prompt stash for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - web-ui
+  - local-first
+  - prompt
+  - stash
+source:
+  repository: https://github.com/Wine-Red/dsh-prompt-stash
+  repositoryNodeId: R_kgDOT3w8jA
+  subpath: null
+  commit: 770467287c0577af1d74220d77eda8a0cb5097f4
+creator:
+  github: Wine-Red
+package:
+  ecosystem: npm
+  name: dsh-prompt-stash
+  version: 0.2.5
+  integrity: sha512-pHIw+LHAvQsGW61dcN+S9qKDxczRK6g8H5+qx9XwqcNRRvcjcwK/yO55IGELFkVtpbov26V1J/fUakhWTUjtDA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:31.091Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-prompt-stash/770467287c0577af1d74220d77eda8a0cb5097f4/docs/assets/dsh-prompt-stash-cover.jpg
+    alt: dsh-prompt-stash — Save the thought. Ask the detour.
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-prompt-stash/770467287c0577af1d74220d77eda8a0cb5097f4/docs/assets/dsh-prompt-stash-demo.png
+    alt: 暂存消息与 DSH 原生排队消息组合显示
