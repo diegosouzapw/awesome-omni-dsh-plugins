@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: sqfcyily-dsh-workspace-files
+name: dsh-workspace-files
+description:
+  en: Browse the directories/files of the workspace in DeepSeek Harness Web GUI and display file changes in conjunction with Git.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - workspace
+  - file-browser
+  - git-diff
+source:
+  repository: https://github.com/sqfcyily/dsh-workspace-files
+  repositoryNodeId: R_kgDOUDeCJw
+  subpath: null
+  commit: 68a322f9884cfa4ec5552e3116ab769c97ec9c47
+creator:
+  github: sqfcyily
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:45.136Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/sqfcyily/dsh-workspace-files/68a322f9884cfa4ec5552e3116ab769c97ec9c47/docs/155158.png
+    alt: workspace-files 截图
