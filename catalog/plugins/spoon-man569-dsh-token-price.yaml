@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: spoon-man569-dsh-token-price
+name: dsh-token-price
+description:
+  en: Live token cost + account balance readouts for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - token
+  - cost
+  - price
+  - balance
+source:
+  repository: https://github.com/spoon-man569/dsh-token-price
+  repositoryNodeId: R_kgDOT5AAPQ
+  subpath: null
+  commit: c39f26f0589e1e618eea59711c0e993bdfabe8b7
+creator:
+  github: spoon-man569
+package:
+  ecosystem: npm
+  name: dsh-token-price
+  version: 0.2.0
+  integrity: sha512-0caABTg8xv1GT+QGPk+Q7W65TgubProE7S/nLM9yGSYhp/H0r2Jy3nWeU3c+2+JA7jgOHTvhDA1NWr35dXq5Xg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:59.067Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
