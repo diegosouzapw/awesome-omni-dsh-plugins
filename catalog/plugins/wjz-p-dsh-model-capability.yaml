@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: wjz-p-dsh-model-capability
+name: dsh-model-capability
+description:
+  en: Explicit model input-modality selection for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - models
+  - multimodal
+source:
+  repository: https://github.com/WJZ-P/dsh-model-capabilities
+  repositoryNodeId: R_kgDOT6EQrQ
+  subpath: null
+  commit: 4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8
+creator:
+  github: WJZ-P
+package:
+  ecosystem: npm
+  name: dsh-model-capability
+  version: 1.0.1
+  integrity: sha512-G5413jd85ELcdpu3+3PQQrzVOBKywj3lasETq3RWqDFgdTVn4w21AP5psGv+evLIL6CegXG1vbuiVJyHVKHIcQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:31.774Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WJZ-P/dsh-model-capabilities/4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8/assets/screenshots/01-model-input-selector.png
+    alt: 模型输入类型选择为文本和图片
