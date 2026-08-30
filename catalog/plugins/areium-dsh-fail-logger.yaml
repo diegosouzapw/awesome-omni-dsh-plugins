@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: areium-dsh-fail-logger
+name: dsh-fail-logger
+description:
+  en: "An all-mode tool failure recorder for DeepSeek Harness: whether the agent runs in native mode or PTC (Code Mode) , any tool failure is automatically written into the machine-maintained section of a skill — normalized-dedup, counted, deterministically ranked, TTL-pruned, and redacted — so the next session's model sees t"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - code-mode
+  - ptc
+  - fail-logger
+  - tool-error
+  - skill
+source:
+  repository: https://github.com/Areium/dsh-fail-logger
+  repositoryNodeId: R_kgDOT3sJVQ
+  subpath: null
+  commit: ab09e90f35d74cabf5af510e4c8bcf4bd6f2ddc5
+creator:
+  github: Areium
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:03.520Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Areium/dsh-fail-logger/ab09e90f35d74cabf5af510e4c8bcf4bd6f2ddc5/assets/demo-session.png
+    alt: Session failure example
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Areium/dsh-fail-logger/ab09e90f35d74cabf5af510e4c8bcf4bd6f2ddc5/assets/demo-skill.png
+    alt: Skill auto-log section
