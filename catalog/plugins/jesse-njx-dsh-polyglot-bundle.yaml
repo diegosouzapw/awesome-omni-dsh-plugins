@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: jesse-njx-dsh-polyglot-bundle
+name: "@dsh-polyglot/bundle"
+description:
+  en: "dsh-polyglot — the model switch for DSH: one generic OpenAI-compatible ctx.llm adapter, curated free/cheap DeepSeek provider presets, and automatic provider fallback when a free tier rate-limits you"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - llm
+  - openai-compatible
+  - adapter
+  - router
+  - fallback
+  - openrouter
+source:
+  repository: https://github.com/Jesse-njx/dsh-polyglot
+  repositoryNodeId: R_kgDOT3jlpQ
+  subpath: null
+  commit: 4c939d75be7c24dcd74de219eb24f4a2355faad9
+creator:
+  github: Jesse-njx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:31.214Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
