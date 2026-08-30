@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: cnyac-dsh-polling
+name: dsh-polling
+description:
+  en: "Recurring/scheduled tasks (轮询任务/定时任务) plugin for DeepSeek Harness: cron-driven polling jobs as real sessions, natural-language creation, model tools (polling create/list/edit/delete/trigger) and a web UI. Install-and-go via dsh plugin add ."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cron
+  - cron-scheduler
+  - scheduler
+  - scheduled-tasks
+  - recurring-tasks
+  - automation
+  - polling
+  - agent
+  - dsh
+source:
+  repository: https://github.com/cnyac/dsh-polling
+  repositoryNodeId: R_kgDOT4EscQ
+  subpath: null
+  commit: e14b9dde0c0899e028452c082a20c601210b6e3a
+creator:
+  github: cnyac
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:05.563Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/cnyac/dsh-polling/e14b9dde0c0899e028452c082a20c601210b6e3a/docs/images/task-list.png
+    alt: 轮询任务列表
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/cnyac/dsh-polling/e14b9dde0c0899e028452c082a20c601210b6e3a/docs/images/task-editor.png
+    alt: 轮询任务编辑页
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/cnyac/dsh-polling/e14b9dde0c0899e028452c082a20c601210b6e3a/docs/images/session-controls.png
+    alt: 会话顶部的轮询任务快捷面板
