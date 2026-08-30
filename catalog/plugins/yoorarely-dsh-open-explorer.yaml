@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yoorarely-dsh-open-explorer
+name: dsh-open-explorer
+description:
+  en: Adds a one-click button to open the current DeepSeek Harness workspace in the host file manager.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - adds
+  - click
+  - button
+  - open
+  - current
+  - workspace
+  - host
+  - file
+  - manager
+  - dsh
+source:
+  repository: https://github.com/YooRarely/dsh-open-explorer
+  repositoryNodeId: R_kgDOT52o7A
+  subpath: null
+  commit: d950a30adbf8e55b77d63d6b917d9ce44ab5d7e6
+creator:
+  github: YooRarely
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:14.626Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YooRarely/dsh-open-explorer/d950a30adbf8e55b77d63d6b917d9ce44ab5d7e6/assets/workspace-menu.png
+    alt: 工作区菜单中的在资源管理器中打开
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YooRarely/dsh-open-explorer/d950a30adbf8e55b77d63d6b917d9ce44ab5d7e6/assets/header-button.png
+    alt: 会话标题右侧的在资源管理器中打开按钮
