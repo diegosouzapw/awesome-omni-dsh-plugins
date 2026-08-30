@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: zsxh1990-pr-genius
+name: pr-genius
+description:
+  en: "--- type: Knowledge Bundle title: PR Genius — Pre-submission PR Advisor description: Evidence-backed PR contribution advisor for large open-source projects version: 1.4.0 created: 2026-07-01 updated: 2026-07-22 author: zsxh1990 conforms to: OKF v0.1 (Sudhakaran88/okf-conformance) + agent guidelines extension --- mcp-na"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - pr
+  - code-review
+  - dsh
+source:
+  repository: https://github.com/zsxh1990/pr-genius
+  repositoryNodeId: R_kgDOTLoLYg
+  subpath: null
+  commit: ae3bdad1f86a7003f9f51b54a7ea1db55a000b66
+creator:
+  github: zsxh1990
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.424Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
