@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: caisiyang123-dsh-tick-rail
+name: dsh-tick-rail
+description:
+  en: Tick-rail conversation navigator for the DeepSeek Harness web UI — a slim rail with one tick per message you sent, a peak-falloff hover effect, message previews, and click-to-jump.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - navigation
+  - minimap
+  - web-ui
+source:
+  repository: https://github.com/caisiyang123/dsh-tick-rail
+  repositoryNodeId: R_kgDOT69M9g
+  subpath: null
+  commit: 2d103df93a7c4c11e43807cee525321b39730033
+creator:
+  github: caisiyang123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:01.183Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
