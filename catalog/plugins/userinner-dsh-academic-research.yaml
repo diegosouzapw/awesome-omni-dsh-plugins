@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: userinner-dsh-academic-research
+name: "@onpeople/dsh-academic-research"
+description:
+  en: Evidence-grounded bilingual research tools and workflows for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - academic-research
+  - literature-review
+  - research-paper
+  - dsh
+source:
+  repository: https://github.com/userInner/dsh-academic-research
+  repositoryNodeId: R_kgDOT35ukQ
+  subpath: null
+  commit: 41650f0b52c593867dc352116204a0ad8f067498
+creator:
+  github: userInner
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:37.750Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
