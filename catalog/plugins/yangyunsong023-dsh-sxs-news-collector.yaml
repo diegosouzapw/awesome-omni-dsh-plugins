@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yangyunsong023-dsh-sxs-news-collector
+name: dsh-sxs-news-collector
+description:
+  en: sh dsh plugin --profile web add git+https://github.com/yangyunsong023/dsh-sxs-news-collector.git dsh plugin --profile web add link:/path/to/dsh-sxs-news-collector
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - news
+  - hot-search
+  - trending
+  - content
+source:
+  repository: https://github.com/yangyunsong023/dsh-sxs-news-collector
+  repositoryNodeId: R_kgDOT51xWA
+  subpath: null
+  commit: 0c72c77579bd18e0f95dec1f3da73ac5fe3d6ae9
+creator:
+  github: yangyunsong023
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:17.855Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
