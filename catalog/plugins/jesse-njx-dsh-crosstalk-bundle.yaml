@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jesse-njx-dsh-crosstalk-bundle
+name: "@dsh-crosstalk/bundle"
+description:
+  en: "dsh-crosstalk — cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - crosstalk
+  - messaging
+  - multi-session
+source:
+  repository: https://github.com/Jesse-njx/dsh-crosstalk
+  repositoryNodeId: R_kgDOT3lFTQ
+  subpath: null
+  commit: 24410fdda54b7e8230648e4394169156da85f564
+creator:
+  github: Jesse-njx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:31.006Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
