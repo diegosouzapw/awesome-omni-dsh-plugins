@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zoahdev-dsh-readme-forge
+name: dsh-readme-forge
+description:
+  en: Generate a README.md for DeepSeek Harness (dsh) plugin repositories from package.json + cordis.patch.yml + source layout — deterministic, zero runtime dependencies, read-only by default. CLI + agent-callable readme forge tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - generator
+  - documentation
+  - scaffold
+source:
+  repository: https://github.com/zoahdev/dsh-readme-forge
+  repositoryNodeId: R_kgDOT8fQfA
+  subpath: null
+  commit: b4ccc786999693eaa93918d990e16b5a93728b46
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-readme-forge
+  version: 0.1.0
+  integrity: sha512-sLR/6dqxP4XaaaTS+hyfZ3ZHHesJ0ssP6uWB24FdwkhmGI/oOqQX4uwPQDhKRd8i01f6M//CU8+gzJ7wIlOcnQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.723Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
