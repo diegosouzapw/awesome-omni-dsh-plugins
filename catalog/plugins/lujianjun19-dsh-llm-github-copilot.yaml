@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: lujianjun19-dsh-llm-github-copilot
+name: "@lujianjun19/dsh-llm-github-copilot"
+description:
+  en: "GitHub Copilot adapter for the DeepSeek Harness LLM seam: OAuth device-flow sign-in, Copilot token exchange, and OpenAI-compatible chat completions against api.githubcopilot.com"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - copilot
+  - adapter
+  - seam
+  - oauth
+  - device
+  - flow
+  - sign
+  - token
+  - exchange
+  - openai
+  - compatible
+  - chat
+  - completions
+  - against
+  - githubcopilot
+  - dsh
+source:
+  repository: https://github.com/lujianjun19/dsh-llm-github-copilot
+  repositoryNodeId: R_kgDOT6451g
+  subpath: null
+  commit: 8133b50931a261af344b33e0f711772d2f1d51a6
+creator:
+  github: lujianjun19
+package:
+  ecosystem: npm
+  name: "@lujianjun19/dsh-llm-github-copilot"
+  version: 0.4.5
+  integrity: sha512-qsomxmkzok1qqe1kcK13DLsOcqeHLcuoYPeAjgR3YQ7a5iaWI8Utfu68AB8hsdxv0T5KldNy2V6sINz6fnp3Ow==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.399Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
