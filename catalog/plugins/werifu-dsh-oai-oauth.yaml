@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: werifu-dsh-oai-oauth
+name: dsh-oai-oauth
+description:
+  en: "DSH LLM adapter plugin: use OpenAI ChatGPT subscription (GPT-5.6-Sol, GPT-5.5, ...) via OAuth — no API key. Reuses your local Codex CLI login."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - adapter
+  - openai
+  - chatgpt
+  - subscription
+  - oauth
+  - reuses
+  - local
+  - codex
+  - login
+  - dsh
+source:
+  repository: https://github.com/werifu/dsh-oai-oauth
+  repositoryNodeId: R_kgDOT4BOAA
+  subpath: null
+  commit: 75a0509a987cb4ba45dc293c0a23f2805988beb4
+creator:
+  github: werifu
+package:
+  ecosystem: npm
+  name: dsh-oai-oauth
+  version: 0.1.0
+  integrity: sha512-Vp4cQOB2hknbVX2s3UmbqWr072NF/3hREK2IYH+qE4YumpBQrJL1DnE3r7TJJdzf9OFM7ARFkA0mnWe/Y8sFEg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:40.100Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/werifu/dsh-oai-oauth/75a0509a987cb4ba45dc293c0a23f2805988beb4/usage.png
+    alt: OpenAI OAuth settings section
