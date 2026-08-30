@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zhengjunyao000-dsh-period-report
+name: dsh-period-report
+description:
+  en: "Free-interval session reports for DeepSeek Harness: AI-narrated daily/weekly/monthly digests over any date range, with every-N-days scheduled reminders that generate the report and pop a system notification (macOS Notification Center / Linux notify-send)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - report
+  - daily-report
+  - digest
+  - reminder
+  - session
+  - analytics
+source:
+  repository: https://github.com/zhengjy01/dsh-period-report
+  repositoryNodeId: R_kgDOT5PIQw
+  subpath: null
+  commit: 9ed6591540f459a30cd10fa448f8a6892a69334d
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: dsh-period-report
+  version: 0.2.1
+  integrity: sha512-vpqBqlnjIbn44QYmla4MsB17jOKuhSdQn5g3Sj6yUphVwoPA8s/GDKdTjl20s7xPLFqdalyBUXU11BGUiGBw9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
