@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: jofe2-kaleidosphere-dsh-plugin
+name: kaleidosphere-dsh-plugin
+description:
+  en: Native KaleidoSphere database-analysis tools for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh-plugin
+  - kaleidosphere
+  - database-analysis
+  - ai-agents
+  - dsh
+source:
+  repository: https://github.com/JoFe2/kaleidosphere-dsh-plugin
+  repositoryNodeId: R_kgDOT-L6oQ
+  subpath: null
+  commit: f2d94d7a87236adf99409b4b4018cc29696a7ba5
+creator:
+  github: JoFe2
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:39.035Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
