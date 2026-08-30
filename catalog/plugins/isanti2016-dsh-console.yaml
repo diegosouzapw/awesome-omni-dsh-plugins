@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: isanti2016-dsh-console
+name: dsh-console
+description:
+  en: "Console commands for DeepSeek Harness: web service / SSH tunnel management, one-shot ask, and the dsh-tui launcher."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - console
+  - tunnel
+  - web
+source:
+  repository: https://github.com/Isanti2016/dsh-console
+  repositoryNodeId: R_kgDOT5vMuA
+  subpath: null
+  commit: b137d5f67cf70bad2ddab28b3203f46852419e48
+creator:
+  github: Isanti2016
+package:
+  ecosystem: npm
+  name: dsh-console
+  version: 0.1.0
+  integrity: sha512-AVkSa+8FeecFaLn8NgWobtWm9CsbgRrj4vZJlzOBmuLkOpGz/W0tpWqplKV9z9w3MIFzSSBr3hrLiD1w4Dffrg==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:45.848Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
