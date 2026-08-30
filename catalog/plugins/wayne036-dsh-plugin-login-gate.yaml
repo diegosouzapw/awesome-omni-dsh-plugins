@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wayne036-dsh-plugin-login-gate
+name: dsh-plugin-login-gate
+description:
+  en: sh git clone https://github.com/<你的用户名 /dsh-plugin-login-gate.git
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - login
+  - auth
+  - reverse-proxy
+  - lan
+  - local-network
+  - loopback
+  - settings
+source:
+  repository: https://github.com/Wayne036/dsh-plugin-login-gate
+  repositoryNodeId: R_kgDOT9vT3g
+  subpath: null
+  commit: 7c8b958fd55f9da83fecc949503c36893e5b87d1
+creator:
+  github: Wayne036
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:39.940Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
