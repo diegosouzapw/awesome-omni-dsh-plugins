@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yugasun-dsh-web-search
+name: "@yugasun/dsh-web-search"
+description:
+  en: "Multi-provider web search for DeepSeek Harness: Baidu, Doubao, Tavily, Exa, and Serper backends for ctx.web."
+  evidencePath: packages/dsh-web-search/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - web-search
+  - baidu
+  - doubao
+  - tavily
+  - exa
+  - serper
+source:
+  repository: https://github.com/yugasun/dsh-plugins
+  repositoryNodeId: R_kgDOT8Exqw
+  subpath: packages/dsh-web-search
+  commit: e7acbc379bc997dd83e977386a835449565ecd29
+creator:
+  github: yugasun
+package:
+  ecosystem: npm
+  name: "@yugasun/dsh-web-search"
+  version: 0.2.5
+  integrity: sha512-dhx14KDTe0NX+HCm+j90Ve09jbkKvB0EA9OSuKD/PSmmIbY1MKkqepN7zZDUNlgrjuwtE3sZgFFTcVFotN4FwA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-web-search/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:32.557Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yugasun/dsh-plugins/e7acbc379bc997dd83e977386a835449565ecd29/packages/dsh-web-search/docs/settings.png
+    alt: Web search settings
