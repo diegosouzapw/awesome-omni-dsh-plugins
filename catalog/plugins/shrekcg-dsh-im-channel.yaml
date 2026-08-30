@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: shrekcg-dsh-im-channel
+name: dsh-im-channel
+description:
+  en: "Multi-channel IM bridge for DeepSeek Harness: Feishu, Telegram, DingTalk, Slack, Discord — persistent sessions, true streaming, slash commands"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - feishu
+  - lark
+  - dsh
+  - bridge
+  - chatbot
+  - openclaw
+  - dsh-plugin
+source:
+  repository: https://github.com/shrekcg/dsh-im-channel
+  repositoryNodeId: R_kgDOT5Emvw
+  subpath: null
+  commit: fb64263341fba403a051b3c3fa9875933c425f8c
+creator:
+  github: shrekcg
+package:
+  ecosystem: npm
+  name: dsh-im-channel
+  version: 0.2.1
+  integrity: sha512-nKJvw2Qz3P1ZuXE1KCzHi1SPZ37aj6NefBVnWeUy/iDf/7SEvRBibGS4iVy/SujhTMMCO3DeugkHMf+hfjBElw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.927Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
