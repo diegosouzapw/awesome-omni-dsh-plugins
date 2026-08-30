@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: fengmax1997-dsh-line-select
+name: dsh-line-select
+description:
+  en: "A DeepSeek Harness Web GUI plugin: browse workspace files, preview code with line numbers, visually select a line range , and write a @path:start-end reference into the composer — when the message is sent, the agent automatically receives the exact selected lines and can modify precisely that range (e.g. lines 10–50)."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - browse
+  - workspace
+  - files
+  - preview
+  - code
+  - line
+  - numbers
+  - visually
+  - select
+  - range
+  - write
+  - path
+  - start
+  - reference
+  - composer
+  - message
+source:
+  repository: https://github.com/fengMax1997/dsh-line-select
+  repositoryNodeId: R_kgDOT5LIdw
+  subpath: null
+  commit: 10e41640ce56a73b2471e60fd1d123f6ad51c442
+creator:
+  github: fengMax1997
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:04.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
