@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-hike-water
+name: dsh-hike-water
+description:
+  en: bash dsh plugin add github:uckkk/dsh-hike-water
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-hike-water
+source:
+  repository: https://github.com/uckkk/dsh-hike-water
+  repositoryNodeId: R_kgDOT-wXmg
+  subpath: null
+  commit: 3db3a27060d8e2a01b0151437c1137b3df83f6f1
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:27.229Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
