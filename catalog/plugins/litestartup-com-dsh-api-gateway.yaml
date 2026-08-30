@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: litestartup-com-dsh-api-gateway
+name: dsh-api-gateway
+description:
+  en: "Open-source API Gateway plugin for DeepSeek Harness: give any third-party client a simple REST + SSE interface to chat with your agents."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - api
+  - gateway
+  - sse
+  - rest
+source:
+  repository: https://github.com/litestartup-com/dsh-api-gateway
+  repositoryNodeId: R_kgDOT5XsoQ
+  subpath: null
+  commit: da0291512bffefbe56e91dd1018131cdbf2fb914
+creator:
+  github: litestartup-com
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:28.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
