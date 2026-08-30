@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: okkay712-dsh-dseyes
+name: dsh-dseyes
+description:
+  en: "Give DeepSeek Harness free eyes — natively. Paste or drop an image into the Web GUI composer: it appears as a thumbnail attachment (like a normal AI chat), and before the text-only DeepSeek model is called, the host automatically reads the image with the free Zhipu GLM-4V-Flash vision model and substitutes the descript"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - image
+  - attachment
+  - glm
+  - zhipu
+  - ocr
+source:
+  repository: https://github.com/Okkay712/DSH-dseyes
+  repositoryNodeId: R_kgDOT8DMCQ
+  subpath: null
+  commit: bdf30a509b50e76e2aaacd9afb6febfbe19d83d1
+creator:
+  github: Okkay712
+package:
+  ecosystem: npm
+  name: dsh-dseyes
+  version: 0.2.0
+  integrity: sha512-A0ivJMtpy5aFvCA52GCQ9hf8apWv6iukw3iyUiSgn9ghxkJa7jS7AO299PaPLJsftk5NoLiZIzozuvyhL3sHsA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:48.705Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
