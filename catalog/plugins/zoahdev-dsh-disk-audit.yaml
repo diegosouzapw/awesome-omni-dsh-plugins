@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-disk-audit
+name: dsh-disk-audit
+description:
+  en: "Disk-usage audit for DeepSeek Harness (dsh) data directories: total size, per-directory breakdown, largest files, and oversized-file warnings (session logs can hit hundreds of MB). Zero runtime dependencies, read-only. CLI + agent-callable disk audit tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - disk-usage
+  - storage
+  - session-logs
+  - cleanup
+source:
+  repository: https://github.com/zoahdev/dsh-disk-audit
+  repositoryNodeId: R_kgDOT8htAA
+  subpath: null
+  commit: 2299a17c03196ca627adf783f3f759f330c195a8
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-disk-audit
+  version: 0.1.0
+  integrity: sha512-mlP9Db/A+SrIlVvtTzSdgcjRtqEEFQ3+Rfpvib3hiHKXFD1ukCQXVdBluPY+jZcjDvRX9u3iep6C5F2Fb4r75Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.439Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
