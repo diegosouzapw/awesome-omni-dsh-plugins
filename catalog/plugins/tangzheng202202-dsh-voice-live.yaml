@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tangzheng202202-dsh-voice-live
+name: dsh-voice-live
+description:
+  en: "Real-time voice interaction for DSH: press the composer mic, speak, and the assistant replies aloud. The package ships two halves:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - voice
+  - asr
+  - tts
+  - volcengine
+source:
+  repository: https://github.com/tangzheng202202/dsh-voice-live
+  repositoryNodeId: R_kgDOT6T11A
+  subpath: null
+  commit: 118f56353378421123481121228b8b4a78c05462
+creator:
+  github: tangzheng202202
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:05.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
