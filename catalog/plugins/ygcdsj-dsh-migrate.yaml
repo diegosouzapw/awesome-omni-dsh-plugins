@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ygcdsj-dsh-migrate
+name: dsh-migrate
+description:
+  en: bash dsh plugin --profile web add dsh-migrate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - migration
+  - backup
+  - restore
+  - profile
+source:
+  repository: https://github.com/ygcdsj/dsh-home-migrate
+  repositoryNodeId: R_kgDOT9Krgw
+  subpath: null
+  commit: 4529c2a0d2f13d948ebe3db9f5b462c7d6407860
+creator:
+  github: ygcdsj
+package:
+  ecosystem: npm
+  name: dsh-migrate
+  version: 0.0.11
+  integrity: sha512-ZEh69Oz4Ncxyr73HLZk4vXIi7CGXxNrlAfOz+2DgoiZFWVRNQWe7+yLxE8IJlw3wUH8IDncTlmsqqO/KyaUVaQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:10.144Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
