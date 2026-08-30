@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zoahdev-dsh-dep-audit
+name: dsh-dep-audit
+description:
+  en: "Dependency supply-chain hygiene audit for DeepSeek Harness (dsh) projects and profiles: peer-range resolvability, broken dist-tag detection, stale/missing-license/non-registry dependencies, and installed-vs-declared drift. Complements dsh-poison-guard (malware scan) and dsh-plugin-doctor (publish readiness)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - supply-chain
+  - dependency-audit
+  - security
+  - npm
+  - erresolve
+  - peer-dependencies
+source:
+  repository: https://github.com/zoahdev/dsh-dep-audit
+  repositoryNodeId: R_kgDOT8Rm1Q
+  subpath: null
+  commit: c9dd90b1bbe0777090e344ad7dbce94f2f5f34cb
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-dep-audit
+  version: 0.1.1
+  integrity: sha512-mRdmtCeYC5itTnhkTmraQA9Y+8/FLz4CMo5M7ZMUVZMaQj7uvzKSPAsOQV2++/JyqGvFzylAga52/fmRWOX0sw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.473Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
