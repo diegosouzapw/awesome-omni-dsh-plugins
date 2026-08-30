@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: shiye-10pages-dsh-whale-meter
+name: dsh-whale-meter
+description:
+  en: An electricity meter for your whale — usage & cost dashboard for DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - usage
+  - cost
+  - token
+  - billing
+  - dashboard
+source:
+  repository: https://github.com/Shiye-10Pages/dsh-whale-meter
+  repositoryNodeId: R_kgDOT5pk_g
+  subpath: null
+  commit: c484500e6a00d26317dc71ee854ced26df6f2aaa
+creator:
+  github: Shiye-10Pages
+package:
+  ecosystem: npm
+  name: dsh-whale-meter
+  version: 0.1.0
+  integrity: sha512-Ha++mbQNhtsvh+SYsci0vkim4iREYOf3KO66MkTLAOElyPLXp92ldxOFFNhCGKNogx2KUMvyyED/Oy8OsgTPUA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:43.016Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shiye-10Pages/dsh-whale-meter/c484500e6a00d26317dc71ee854ced26df6f2aaa/assets/social-preview.png
+    alt: 鲸鱼电表 whale-meter
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shiye-10Pages/dsh-whale-meter/c484500e6a00d26317dc71ee854ced26df6f2aaa/assets/demo.gif
+    alt: 鲸鱼电表演示
