@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wingsky-1-dsh-subagent-model-inherit
+name: "@wingsky-1/dsh-subagent-model-inherit"
+description:
+  en: "A collection of plugins for the DSH (DeepSeek Harness) web GUI, distributed via npm: install them all at once as a single bundle, or pick individual plugins as needed."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - subagent
+  - model-inherit
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-subagent-model-inherit
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-subagent-model-inherit"
+  version: 0.1.13
+  integrity: sha512-Bhqq7EvvH4PIrNJ6d1jmxI7yBTjJ+eNlU7J4qxB+8416+hhnEWCYccKyw08WPGFC/uLB/XyI67xe716WG/b9ZA==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-subagent-model-inherit/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
