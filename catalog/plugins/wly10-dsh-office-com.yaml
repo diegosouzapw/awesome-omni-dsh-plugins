@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: wly10-dsh-office-com
+name: "@eqman00003/dsh-office-com"
+description:
+  en: Excel 读写 ： excel new · excel open · excel read range · excel write range
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - office
+  - excel
+  - word
+  - com
+  - vba
+  - pivot-table
+source:
+  repository: https://github.com/wly8691-jpg/dsh-office-com
+  repositoryNodeId: R_kgDOUFBWQg
+  subpath: null
+  commit: 2b7a2051b4b10d63e5b4516b2efc50819dc54741
+creator:
+  github: wly10
+package:
+  ecosystem: npm
+  name: "@eqman00003/dsh-office-com"
+  version: 0.1.1
+  integrity: sha512-fMR6lIUAF5TCLid8rsuRH/sTjvmLtBPbGPRMN6G3dD73Z4drdNUma2invlz/Vedy9+32JO//Z7PWGLcHYWlC2A==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:54.517Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
