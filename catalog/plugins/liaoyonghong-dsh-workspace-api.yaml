@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: liaoyonghong-dsh-workspace-api
+name: dsh-workspace-api
+description:
+  en: 1. Add documents / 放文档：put enterprise docs (contracts, employee handbooks, reimbursement policies, IT policies, product specs...) into a folder 2. Ask / 提问：employees or internal systems ask in natural language, e.g. "How does annual leave work?" / 「年假怎么算？」 3. Answer / 回答：the AI agent reads your documents on the spot an
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - workspace-api
+  - http-api
+  - agent-task
+source:
+  repository: https://github.com/liaoyonghong/dsh-workspace-api
+  repositoryNodeId: R_kgDOT9HI-w
+  subpath: null
+  commit: 6bc8d39b1bb524d8bbc2da57c934bfa73f54f496
+creator:
+  github: liaoyonghong
+package:
+  ecosystem: npm
+  name: dsh-workspace-api
+  version: 1.0.3
+  integrity: sha512-1C9Yl9J9OuQfF2iGqLAb+xm1mSzfcirGROpaSD57QZ/k5W9Y1OdXrdYFWW358codNsk0sJhjWc8RJAM8o7GnhA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:47.666Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
