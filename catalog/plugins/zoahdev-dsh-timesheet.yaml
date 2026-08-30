@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zoahdev-dsh-timesheet
+name: dsh-timesheet
+description:
+  en: "Timesheet for DeepSeek Harness (dsh): turn-based time tracking from session logs — totals, per-day, per-project, per-provider, per-source rollups, tool-call counts, failure rates, and time-to-first-token. CLI + agent-callable timesheet tool, zero runtime dependencies."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - timesheet
+  - time-tracking
+  - productivity
+  - session-log
+  - wakatime
+source:
+  repository: https://github.com/zoahdev/dsh-timesheet
+  repositoryNodeId: R_kgDOT8YIvg
+  subpath: null
+  commit: c9209f8f5c24fec3369c4face21794f325841403
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-timesheet
+  version: 0.1.0
+  integrity: sha512-/b82H3Yiy/YgQgoNZM0YZGvQTDOJG48CyveaCjMP20044cx3srfheB6oYHvrfP0mDH9m8T42khMgudlT3obZHg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
