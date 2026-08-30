@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: shangjian2023-dsh-rss-daily
+name: dsh-rss-daily
+description:
+  en: "dsh plugin: daily RSS news digest from 46 curated sources, LLM-edited via the model already configured in dsh, delivered to your IM via webhook (ServerChan / PushDeer / WeCom / Telegram / Bark / gotify / custom)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - rss
+  - news
+  - digest
+  - daily-briefing
+source:
+  repository: https://github.com/shangjian2023/dsh-rss-daily
+  repositoryNodeId: R_kgDOUAevug
+  subpath: null
+  commit: c3843f13a2a60faecdc8c1399d08de26cf680dfd
+creator:
+  github: shangjian2023
+package:
+  ecosystem: npm
+  name: dsh-rss-daily
+  version: 0.5.0
+  integrity: sha512-TNNFQxTZfccQ+4inqBYbwNLYD6a/rUhL/OFA+ziuBiMuq4dubpNFfuDBR+UUcqTWgocQ2XIYe5wpJT9vZLtwkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:50.967Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/shangjian2023/dsh-rss-daily/c3843f13a2a60faecdc8c1399d08de26cf680dfd/docs/in-chat.png
+    alt: 对话内日报
