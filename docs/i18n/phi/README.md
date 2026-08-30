@@ -16,7 +16,7 @@ Pagtuklas na unang inuuna ang mga lumikha at pag-install na isang-command para s
   <a href="https://dsh-plugins.omniroute.online">Mag-browse, maghanap, at mag-install ng bawat plugin sa website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3329_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -123,7 +123,7 @@ schema, at mga patakarang ginagamit ng dalawa.
 
 ## Katayuan ng katalogo
 
-**3238 na plugin ang na-merge.** Bawat plugin ay pumapasok sa pamamagitan ng isang isa-isang
+**3329 na plugin ang na-merge.** Bawat plugin ay pumapasok sa pamamagitan ng isang isa-isang
 sinuring pull request, isa-isa, mula sa orihinal na repository ng lumikha, may nakapirming
 source commit at malinaw na attribution.
 
@@ -350,4 +350,4 @@ ay nananatili sa ilalim ng kanilang orihinal na may-ari at lisensya. Tingnan ang
 
 </div>
 
-<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->
+<!-- i18n-source-hash: 376361e40f7c81151120c36ebab510f37f0c7be7a182f3b32be1415734136ea5 -->

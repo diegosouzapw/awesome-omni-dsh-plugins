@@ -16,7 +16,7 @@ Descubrimiento centrado en el creador e instalación con un solo comando para pl
   <a href="https://dsh-plugins.omniroute.online">Explora, busca e instala cualquier plugin en el sitio web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3329_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ datos públicos del catálogo, el esquema y las políticas que consumen.
 
 ## Estado del catálogo
 
-**3238 plugins integrados.** Cada plugin entra mediante una pull request revisada individualmente, de una en
+**3329 plugins integrados.** Cada plugin entra mediante una pull request revisada individualmente, de una en
 una, desde el repositorio original del creador, con un commit de origen fijado y atribución explícita.
 
 ## 🚀 Instala la CLI
@@ -342,4 +342,4 @@ Consulta [docs/CREDIT.md](../../docs/CREDIT.md) y [docs/UNOFFICIAL.md](../../doc
 
 </div>
 
-<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->
+<!-- i18n-source-hash: 376361e40f7c81151120c36ebab510f37f0c7be7a182f3b32be1415734136ea5 -->
