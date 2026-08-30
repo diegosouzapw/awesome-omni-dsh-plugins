@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: wha1echai-dsh-cross-session
+name: "@wha1echai/dsh-cross-session"
+description:
+  en: Same-runtime cross-Session discovery and communication for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - agent
+  - multi-agent
+  - cross-session
+source:
+  repository: https://github.com/Wha1eChai/dsh-cross-session
+  repositoryNodeId: R_kgDOT3uFpA
+  subpath: null
+  commit: 23d06783867107a3bd0f2179cf621e9fad5e07b8
+creator:
+  github: Wha1eChai
+package:
+  ecosystem: npm
+  name: "@wha1echai/dsh-cross-session"
+  version: 0.1.0-rc.1
+  integrity: sha512-H0s1t5vga0mCYS9y2DSZhzE2863hwaK8oGZbN9G8seJcLMNNZYPmTs7I3Vy6PrFUj/odQ4Jx39oyFeYS/brQkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:30.357Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wha1eChai/dsh-cross-session/23d06783867107a3bd0f2179cf621e9fad5e07b8/docs/assets/cross-session-readme-review.png
+    alt: A calling Session lists, inspects, and messages a README review Session, then observes the claimed turn through Fleet.
