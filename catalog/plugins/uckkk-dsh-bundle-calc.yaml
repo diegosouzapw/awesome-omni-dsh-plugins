@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bundle-calc
+name: dsh-bundle-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bundle-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle-calc
+source:
+  repository: https://github.com/uckkk/dsh-bundle-calc
+  repositoryNodeId: R_kgDOT-wwEw
+  subpath: null
+  commit: 76e088b529558d14102a944ce2954e79cf489171
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:10.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
