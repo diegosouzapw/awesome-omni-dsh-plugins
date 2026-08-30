@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: modellix-dsh-modellix
+name: dsh-modellix
+description:
+  en: Modellix Design, LLM, and Web providers for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - modellix
+  - llm
+  - image-generation
+  - video-generation
+  - dsh
+source:
+  repository: https://github.com/Modellix/dsh-modellix
+  repositoryNodeId: R_kgDOUCga7A
+  subpath: null
+  commit: 8b273446588ac77641e1f5c1d12a666385d72f53
+creator:
+  github: Modellix
+package:
+  ecosystem: npm
+  name: dsh-modellix
+  version: 0.1.1
+  integrity: sha512-ypbMhTam+qOxryEmNEv3ICDvSe6yGAjV93TAYfA0P3R04x2PKuQJWOdGSMSR4wsrkdGkF0aEPzgK3lCOODimLQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:49.411Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Modellix/dsh-modellix/8b273446588ac77641e1f5c1d12a666385d72f53/docs/assets/design-desktop-en.webp
+    alt: English Modellix Design desktop layout in a real Harness session, with model and parameters on the left and results on t
