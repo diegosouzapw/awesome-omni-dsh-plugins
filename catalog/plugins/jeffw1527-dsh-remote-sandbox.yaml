@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: jeffw1527-dsh-remote-sandbox
+name: dsh-remote-sandbox
+description:
+  en: One-line DeepSeek Harness bundle that moves the execution world into a crash-resilient, heartbeat-kept, workspace-synced E2B sandbox.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh-bundle
+  - deepseek-harness
+  - sandbox
+  - e2b
+  - dsh
+source:
+  repository: https://github.com/weijiafu14/dsh-remote-sandbox
+  repositoryNodeId: R_kgDOT3sTnQ
+  subpath: packages/bundle
+  commit: 4da3dfd7bde2309c335a6d1383ce037c5f6d8e3f
+creator:
+  github: jeffw1527
+package:
+  ecosystem: npm
+  name: dsh-remote-sandbox
+  version: 0.1.0
+  integrity: sha512-XgGpWX0i9VocbDAZB/PqfZZg21Wkiorm1DPktREUNh+96fMWHpJjMNe1CK09obPIEnWS7X2fiMbIFzircq6R6w==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:45.643Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
