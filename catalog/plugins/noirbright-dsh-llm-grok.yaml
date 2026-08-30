@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: noirbright-dsh-llm-grok
+name: dsh-llm-grok
+description:
+  en: xAI Grok subscription login and chat for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - grok
+  - subscription
+  - login
+  - chat
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-llm-grok
+  repositoryNodeId: R_kgDOT6SmZQ
+  subpath: null
+  commit: 45102ca50fddef3294d76f66ac8c87c7f5ab54ee
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:02.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-grok/45102ca50fddef3294d76f66ac8c87c7f5ab54ee/docs/images/plugin-card.png
+    alt: "Grok Plugin card: subscription login, usage, and model catalog"
