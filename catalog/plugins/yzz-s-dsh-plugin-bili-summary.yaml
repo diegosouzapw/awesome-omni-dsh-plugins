@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yzz-s-dsh-plugin-bili-summary
+name: dsh-plugin-bili-summary
+description:
+  en: "DeepSeek Harness Host plugin: bili summary tool — Bilibili video metadata, subtitle timeline and sharp-based frame cutting"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - bilibili
+  - video-summary
+  - subtitle
+  - tool
+  - sharp
+source:
+  repository: https://github.com/YZz-S/dsh-bili-summary
+  repositoryNodeId: R_kgDOT4-OIw
+  subpath: null
+  commit: 81b7a0e2991e311b74de22b5414dcdbdac5648aa
+creator:
+  github: YZz-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:53.554Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
