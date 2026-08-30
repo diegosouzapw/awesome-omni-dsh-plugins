@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-notify
+name: dsh-my-notify
+description:
+  en: "bash curl -X POST http://127.0.0.1:3080/notify/api/trigger \\ -H 'content-type: application/json' \\ -d '{\"title\":\"CI 构建完成\",\"body\":\"构建成功，可发布\",\"sessionId\":\"session-xxx\"}'"
+  evidencePath: plugins/dsh-my-notify/README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - bash
+  - curl
+  - post
+  - "3080"
+  - notify
+  - trigger
+  - content
+  - type
+  - application
+  - json
+  - title
+  - body
+  - sessionid
+  - session
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-notify
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-notify
+  version: 0.3.1
+  integrity: sha512-+TSdv//SMxRO9jZKO0fWROgif2ioU15lAO7P+GnPOGluGOGRMaDViz6suS9vLGbYKqLqt5hwjCDAa37YDfYNaQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-notify/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
