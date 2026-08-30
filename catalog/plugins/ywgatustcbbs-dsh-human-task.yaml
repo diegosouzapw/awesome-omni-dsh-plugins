@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ywgatustcbbs-dsh-human-task
+name: dsh-human-task
+description:
+  en: "Human-in-the-loop capability seam (ctx.humanTasks): pause an agent tool until the human performs a real-world task or returns an observation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - human
+  - loop
+  - capability
+  - seam
+  - humantasks
+  - pause
+  - agent
+  - tool
+  - until
+  - performs
+  - real
+  - world
+  - task
+  - returns
+  - observation
+  - dsh
+source:
+  repository: https://github.com/ywgATustcbbs/dsh-human-task
+  repositoryNodeId: R_kgDOT47LBg
+  subpath: packages/dsh-human-task
+  commit: 07e3d6749c2235763d93aaefa67a45d810c38670
+creator:
+  github: ywgATustcbbs
+package:
+  ecosystem: npm
+  name: dsh-human-task
+  version: 0.1.1
+  integrity: sha512-Wwn0Nyf6xHGCNoqNrbmSrA4ZrlJR3TdZRqJPTpXBzsW0nDQAsEZE+7NLUcOUMonPLacc1DfvmQ+PJ7Hhq9WXxA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-human-task/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:05.975Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
