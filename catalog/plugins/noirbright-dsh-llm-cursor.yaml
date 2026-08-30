@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: noirbright-dsh-llm-cursor
+name: dsh-llm-cursor
+description:
+  en: Unofficial Cursor subscription login and chat for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - unofficial
+  - cursor
+  - subscription
+  - login
+  - chat
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-llm-cursor
+  repositoryNodeId: R_kgDOT6k-Mw
+  subpath: null
+  commit: 4530bb66d3fb135d3e44472bbf2dff52c1aaafd0
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:53.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-cursor/4530bb66d3fb135d3e44472bbf2dff52c1aaafd0/docs/screenshots/plugin-card.png
+    alt: "Cursor plugin card: ToS warning, sign-in, subscription usage, and saved catalog"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-cursor/4530bb66d3fb135d3e44472bbf2dff52c1aaafd0/docs/screenshots/catalog-picker.png
+    alt: "Fetch picker: choose which model families to keep in the catalog"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-cursor/4530bb66d3fb135d3e44472bbf2dff52c1aaafd0/docs/screenshots/chat-model-menu.png
+    alt: Chat model picker after the catalog is saved
