@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-class-budget
+name: dsh-class-budget
+description:
+  en: bash dsh plugin add github:uckkk/dsh-class-budget
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-class-budget
+source:
+  repository: https://github.com/uckkk/dsh-class-budget
+  repositoryNodeId: R_kgDOT-wlYA
+  subpath: null
+  commit: 3ee3cdc083f48f25f53fca200ccb95f7ccb99ccc
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:37.485Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
