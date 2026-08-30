@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: liujia-io-dsh-image-picker
+name: dsh-image-picker
+description:
+  en: bash dsh plugin --profile web add github:liujia-io/dsh-image-picker
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - client-plugin
+  - image
+  - attachment
+  - dsh
+source:
+  repository: https://github.com/liujia-io/dsh-image-picker
+  repositoryNodeId: R_kgDOUEYw5w
+  subpath: null
+  commit: 6818924614150385b38ca30d87262c024030ac12
+creator:
+  github: liujia-io
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:51.332Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
