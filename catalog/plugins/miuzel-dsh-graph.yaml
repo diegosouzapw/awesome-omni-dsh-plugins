@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: miuzel-dsh-graph
+name: dsh-graph
+description:
+  en: sh dsh plugin --profile <name add dsh-graph
+  evidencePath: dsh-graph-host/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - goals
+  - kanban
+  - graph
+  - ui
+source:
+  repository: https://github.com/miuzel/dsh-graph
+  repositoryNodeId: R_kgDOT_6h1w
+  subpath: dsh-graph-host
+  commit: f68077e15f17591bba4360dd436f268d8ef64a58
+creator:
+  github: miuzel
+package:
+  ecosystem: npm
+  name: dsh-graph
+  version: 0.7.2
+  integrity: sha512-PV6Tc/dluBJT7y0Mi3k/7wh3UaQnax9uM7eV1LaTnbw5hf0AJoeSOnkDksh9qgZQ/AyZN6J9M48yxu9atdqR6w==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-graph-host/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:52.573Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
