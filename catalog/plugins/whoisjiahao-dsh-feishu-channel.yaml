@@ -1,0 +1,69 @@
+schemaVersion: 1
+id: whoisjiahao-dsh-feishu-channel
+name: dsh-feishu-channel
+description:
+  en: "Feishu/Lark IM channel for DeepSeek Harness: chats drive agents, answers render as streaming rich cards, approvals settle by button clicks"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - feishu
+  - lark
+  - channel
+  - chats
+  - drive
+  - agents
+  - answers
+  - render
+  - streaming
+  - rich
+  - cards
+  - approvals
+  - settle
+  - button
+  - clicks
+  - dsh
+source:
+  repository: https://github.com/whoisjiahao/dsh-feishu-channel
+  repositoryNodeId: R_kgDOT6XvEQ
+  subpath: null
+  commit: 5feb7f18badfb53923dae244eeba9fa4a0814652
+creator:
+  github: whoisjiahao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:35.843Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whoisjiahao/dsh-feishu-channel/5feb7f18badfb53923dae244eeba9fa4a0814652/docs/preview/feishu-reply-completed.png
+    alt: 飞书中的 DSH 完整回复卡片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whoisjiahao/dsh-feishu-channel/5feb7f18badfb53923dae244eeba9fa4a0814652/docs/preview/feishu-command-running.png
+    alt: 飞书命令执行中的卡片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whoisjiahao/dsh-feishu-channel/5feb7f18badfb53923dae244eeba9fa4a0814652/docs/preview/feishu-command-completed.png
+    alt: 飞书命令执行完成的卡片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whoisjiahao/dsh-feishu-channel/5feb7f18badfb53923dae244eeba9fa4a0814652/docs/preview/feishu-command-center.png
+    alt: 飞书中的 DSH 命令中心
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whoisjiahao/dsh-feishu-channel/5feb7f18badfb53923dae244eeba9fa4a0814652/docs/preview/feishu-model-setting.png
+    alt: 飞书中的 DSH 模型设置卡片
