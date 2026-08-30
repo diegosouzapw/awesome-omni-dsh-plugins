@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-guardian
+name: dsh-my-guardian
+description:
+  en: sh git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-my-guardian
+  evidencePath: plugins/dsh-my-guardian/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - guardian
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-guardian
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-guardian
+  version: 0.3.1
+  integrity: sha512-9skbOMWzhfYSQDvTeQlOPcYCXAtIKjAAwN45p0G30axAUUpOKPxXTJoj9yNzj1DfbgMZMHdBjkCs0wWQvQSA9w==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-guardian/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
