@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: it-lu-dsh-imbot
+name: dsh-imbot
+description:
+  en: "DSH plugin: two-way agent bridge over Feishu (Lark) and DingTalk. Chat with a DeepSeek Harness agent from an IM group via Feishu long-connection / DingTalk Stream Mode — no public port needed. Configurable from the DSH settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - feishu
+  - lark
+  - bot
+  - agent-bridge
+  - im
+source:
+  repository: https://github.com/IT-lu/dsh-imbot
+  repositoryNodeId: R_kgDOUBJFIw
+  subpath: null
+  commit: 53594ba50572ea7415c658f9b71f7c16b83ad847
+creator:
+  github: IT-lu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:49.508Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
