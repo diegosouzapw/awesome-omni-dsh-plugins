@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xiaozhe7772222-dsh-api-key-pool
+name: dsh-api-key-pool
+description:
+  en: "API Key rotation pool for DeepSeek Harness: multiple keys per provider, weighted round-robin selection, automatic failover on 401/429/403, cooldown and recovery probing, usage statistics."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - rotation
+  - pool
+  - multiple
+  - keys
+  - provider
+  - weighted
+  - round
+  - robin
+  - selection
+  - automatic
+  - failover
+  - cooldown
+  - recovery
+  - probing
+  - usage
+  - statistics
+source:
+  repository: https://github.com/xiaozhe7772222/dsh-api-key-pool
+  repositoryNodeId: R_kgDOT5EmEg
+  subpath: null
+  commit: ce5fbe534d0e7e95c960eddc29e527dd2fd5256c
+creator:
+  github: xiaozhe7772222
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:16.758Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
