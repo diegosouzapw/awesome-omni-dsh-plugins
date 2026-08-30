@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-fruitpi
+name: "@kobenfang/dsh-fruitpi"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): fruit-pi."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - fruit
+  - dsh
+source:
+  repository: https://github.com/kobenfang/FruitPi
+  repositoryNodeId: R_kgDOSoaQIA
+  subpath: null
+  commit: 631f06e0ff9dadfb8baf7b1b05eef8b6a88ff079
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:42.482Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
