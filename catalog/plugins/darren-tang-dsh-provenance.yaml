@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: darren-tang-dsh-provenance
+name: dsh-provenance
+description:
+  en: "Pre-install supply-chain provenance checks for DeepSeek Harness plugins: verify the tarball you're about to install matches the source you read, before any code runs. Never executes the audited package."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - supply-chain
+  - supply-chain-security
+  - provenance
+  - security
+  - sigstore
+  - integrity
+  - npm-provenance
+source:
+  repository: https://github.com/Darren-Tang/dsh-provenance
+  repositoryNodeId: R_kgDOT7OWlQ
+  subpath: null
+  commit: 0ccbbfb45b33ee755849ac787f73283dd0f96569
+creator:
+  github: Darren-Tang
+package:
+  ecosystem: npm
+  name: dsh-provenance
+  version: 0.1.0
+  integrity: sha512-aICTbCu/MYaFEk46IDN5qIHMinahKdyafJTPF2TQbr9i7QtmpH58ubymbk/Qm52sNtBJGXi2Rm9TaC9Jcc0qXw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:07.794Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Darren-Tang/dsh-provenance/0ccbbfb45b33ee755849ac787f73283dd0f96569/assets/demo.png
+    alt: dsh-provenance demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Darren-Tang/dsh-provenance/0ccbbfb45b33ee755849ac787f73283dd0f96569/assets/demo.gif
+    alt: dsh-provenance demo (animated)
