@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ht719-dsh-session-categories-bundle
+name: "@deepseek-ai/dsh-session-categories-bundle"
+description:
+  en: Optional Web bundle for Workspace-scoped Session categories
+  evidencePath: packages/bundle/session-categories/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - optional
+  - bundle
+  - workspace
+  - scoped
+  - session
+  - categories
+  - dsh
+source:
+  repository: https://github.com/ht719/dsh-session-categories
+  repositoryNodeId: R_kgDOT9SDDg
+  subpath: packages/bundle/session-categories
+  commit: 183755cdec78872ffbd4b88c6fdcb700de212312
+creator:
+  github: ht719
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/session-categories/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:54.221Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
