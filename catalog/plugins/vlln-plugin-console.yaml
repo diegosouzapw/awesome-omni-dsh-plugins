@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: vlln-plugin-console
+name: "@vlln/plugin-console"
+description:
+  en: '<p align="center" <strong Thin console — a plugin management panel inside the DSH Web settings page</strong <br/ Manage profile plugin installation state with 0 patches: bundle layer stack + insert rows + enable/disable. Read and write the profile installation state without hand-editing config and without introducing a'
+  evidencePath: packages/plugin/console/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - align
+  - center
+  - strong
+  - thin
+  - console
+  - management
+  - panel
+  - inside
+  - settings
+  - page
+  - manage
+  - profile
+  - installation
+  - state
+  - patches
+  - bundle
+source:
+  repository: https://github.com/vlln/plugin-registry
+  repositoryNodeId: R_kgDOTt1caQ
+  subpath: packages/plugin/console
+  commit: e35b86783b9dc932a8e9a7199d0799a2e76a8011
+creator:
+  github: vlln
+package:
+  ecosystem: npm
+  name: "@vlln/plugin-console"
+  version: 0.1.0
+  integrity: sha512-t5a9QUEB+kImezNTH060iBQqd3ltx2LJZUfRMYfQ/iM5dv+5g7tV4t6MmboU4TBUiTFdkLMg/dEVQpGl+O1mTQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/plugin/console/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:44.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vlln/plugin-registry/e35b86783b9dc932a8e9a7199d0799a2e76a8011/screenshots/console-panel.png
+    alt: Plugin panel
