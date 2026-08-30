@@ -1,0 +1,70 @@
+schemaVersion: 1
+id: usersx-dsh-automation-center
+name: dsh-automation-center
+description:
+  en: A global Automation Center with fresh, auditable scheduled Agent runs for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - automation
+  - workflow-automation
+  - scheduled-task
+  - task-scheduler
+  - ai-agent
+  - agentic-ai
+  - coding-agent
+  - typescript
+  - react
+  - desktop
+  - cordis
+source:
+  repository: https://github.com/usersx/dsh-automation-center
+  repositoryNodeId: R_kgDOT9r4zA
+  subpath: null
+  commit: e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3
+creator:
+  github: usersx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:38.038Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/deepseek-whale-girl-automation.png
+    alt: DeepSeek 鲸鱼娘编排自动化任务
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/stock-rc8-conversation-mode-dark.png
+    alt: 原版 rc.8 深色皮肤中的 Session 自动化标签
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/automation-center-empty.png
+    alt: 原版 DeepSeek 皮肤中的 Automation Center
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/create-form.png
+    alt: 原版 DeepSeek 皮肤中的自动化创建表单
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/sidebar-expanded-fixed.png
+    alt: 原版 DeepSeek 展开侧栏中的自动化入口
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/usersx/dsh-automation-center/e9971853cede4e8c91eb2dffde9e0f6a7ef03ed3/docs/assets/sidebar-collapsed-fixed.png
+    alt: 原版 DeepSeek 折叠侧栏中的自动化入口
