@@ -1,0 +1,68 @@
+schemaVersion: 1
+id: mingozhou-dsh-replay
+name: "@mingozhou/dsh-replay"
+description:
+  en: Session replay, fork-tree, audit & compare visualization for DeepSeek Harness — time machine for your agent sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - agent
+  - session-replay
+  - observability
+  - audit
+  - timeline
+  - visualization
+source:
+  repository: https://github.com/MingoZhou/dsh-replay
+  repositoryNodeId: R_kgDOT660mQ
+  subpath: null
+  commit: 930f5bc9d31d316009e2f372989c19ffd642b08d
+creator:
+  github: MingoZhou
+package:
+  ecosystem: npm
+  name: "@mingozhou/dsh-replay"
+  version: 0.4.1
+  integrity: sha512-L2Kk4JmD4UubPVxMLrEfdpPnbytn4tASR+xLuyrXQhj5CvfYBwiUTRvaXASushW/Te0hJeQ2mS9n0OpJ7cu8rA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.230Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/jingxiaoshen.png
+    alt: Jing Xiaoshen (鲸小深), the dsh-replay mascot
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/start.png
+    alt: overview dashboard
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/demo.gif
+    alt: dsh‑replay operation demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/overview-light.png
+    alt: overview dashboard
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/timeline-light.png
+    alt: timeline replay
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/MingoZhou/dsh-replay/930f5bc9d31d316009e2f372989c19ffd642b08d/assets/audit-light.png
+    alt: security audit
