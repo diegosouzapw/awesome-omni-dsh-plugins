@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: baosfeng-dsh-md-render
+name: dsh-md-render
+description:
+  en: sh git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-md-render
+  evidencePath: plugins/dsh-md-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - render
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-md-render
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-md-render
+  version: 0.1.1
+  integrity: sha512-S0h4tDkV18IwJhRs7nZC8Fv9fEIq4O0eZXU2cGyN35638ZUoCriP1LLZrp/KZ3vVQ6yBul0OhifXTRLg30FSyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-md-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/baosfeng/my-dsh-plugins/1b8db2b39e88bd6da13b645c9354df8c2af1d3c7/plugins/dsh-md-render/assets/md-table-render.png
+    alt: 非思考模式 markdown 表格渲染增强（不标准表格渲染为表格）
