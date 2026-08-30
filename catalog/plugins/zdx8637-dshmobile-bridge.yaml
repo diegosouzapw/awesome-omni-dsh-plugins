@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: zdx8637-dshmobile-bridge
+name: "@zdx8637/dshmobile-bridge"
+description:
+  en: sh npx -y @deepseek-ai/dsh plugin --profile web add @zdx8637/dshmobile-bridge@latest
+  evidencePath: plugins/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - profile
+  - zdx8637
+  - dshmobile
+  - bridge
+  - latest
+  - dsh
+source:
+  repository: https://github.com/zdx8637-gitdog/dshmobile
+  repositoryNodeId: R_kgDOT56l4w
+  subpath: plugins
+  commit: 4ef818b539d628a997f4f6a8b4c07f4d2f4779fa
+creator:
+  github: zdx8637
+package:
+  ecosystem: npm
+  name: "@zdx8637/dshmobile-bridge"
+  version: 0.1.0-beta.11
+  integrity: sha512-UjeG7GoDFZQxRFzsV33xgMsS2lOAAT3JDsprEAq+xaybcTdJPW/feDR2LzpQcB3UXQ93EkLOdvdeMZYeD6ZEzQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:34.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zdx8637-gitdog/dshmobile/4ef818b539d628a997f4f6a8b4c07f4d2f4779fa/docs/images/plugin-panel.jpg
+    alt: DSH 插件面板（左侧栏常驻二维码）
