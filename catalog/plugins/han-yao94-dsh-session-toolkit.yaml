@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: han-yao94-dsh-session-toolkit
+name: dsh-session-toolkit
+description:
+  en: "Unified local plugin: session identity, global prompt, auto-resume, web restart, session log reposition, peer message (6 plugins consolidated)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - unified
+  - local
+  - session
+  - identity
+  - global
+  - prompt
+  - auto
+  - resume
+  - restart
+  - reposition
+  - peer
+  - message
+  - consolidated
+  - dsh
+source:
+  repository: https://github.com/Han-Yao94/dsh-session-toolkit
+  repositoryNodeId: R_kgDOT9tQQQ
+  subpath: null
+  commit: 779d67954b59ab7c0869252fc977ff535236f198
+creator:
+  github: Han-Yao94
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:59.610Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
