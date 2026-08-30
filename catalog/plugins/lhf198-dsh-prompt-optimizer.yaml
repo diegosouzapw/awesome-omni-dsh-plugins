@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lhf198-dsh-prompt-optimizer
+name: "@joe0001/dsh-prompt-optimizer"
+description:
+  en: "Improve the current chat draft before sending: one click optimizes the draft with the session's current model and shows an original-vs-result comparison before you decide to adopt. 一键用当前模型优化聊天输入，采用前先对比原文与优化结果。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - prompt
+  - optimize
+  - prompt-optimizer
+  - ui
+source:
+  repository: https://github.com/LHF198/dsh-prompt-optimizer
+  repositoryNodeId: R_kgDOUE8j0w
+  subpath: null
+  commit: f0479f05050f294658037ba06b554b35a48a4935
+creator:
+  github: LHF198
+package:
+  ecosystem: npm
+  name: "@joe0001/dsh-prompt-optimizer"
+  version: 0.2.2
+  integrity: sha512-l1AuKi6DwX22L8nCqesEUSKw+5yjUzqaRzki4Dvz7FQ1Nfs/QclLDdyPX/ZHiJoJZlQMis3WDScgT5FjJ8nuvA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:07.550Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
