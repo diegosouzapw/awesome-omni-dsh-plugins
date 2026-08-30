@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tancheng33-dsh-code-runtime-container
+name: dsh-code-runtime-container
+description:
+  en: "Container-isolated backend for the DeepSeek Harness code-execution seam: Code Mode programs run in a fresh container with no network, a read-only rootfs, and kernel-enforced memory, CPU, and pid ceilings"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - code-runtime
+  - code-mode
+  - sandbox
+  - container
+  - docker
+  - isolation
+  - security
+source:
+  repository: https://github.com/tancheng33/dsh-code-runtime-container
+  repositoryNodeId: R_kgDOT5wWng
+  subpath: null
+  commit: 635a7ccd10f74010c4d249170a82cb4366203e1d
+creator:
+  github: tancheng33
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:16.026Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
