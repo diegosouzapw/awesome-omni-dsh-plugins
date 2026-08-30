@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-bigseed
+name: "@kobenfang/dsh-bigseed"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): bigseed."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - bigseed
+  - dsh
+source:
+  repository: https://github.com/kobenfang/BigSeedSkill
+  repositoryNodeId: R_kgDOT62hxw
+  subpath: null
+  commit: 9f67417fb0d82935f74fa2bc2499a84059958aab
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:35.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
