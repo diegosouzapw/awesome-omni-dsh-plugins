@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zhengjunyao000-dsh-skill-studio
+name: dsh-skill-studio
+description:
+  en: "Skill studio for DeepSeek Harness: visualize all agent skills, view/edit their SKILL.md bodies, toggle model/user invocation, and mine session logs to extract reusable personal skills (auto-loadable by the agent) — from the web settings panel (Skill 工作台) and via skillmgr / skillmgr extract tools"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skill
+  - skills
+  - manager
+  - editor
+  - studio
+  - extract
+  - extractor
+  - session
+source:
+  repository: https://github.com/zhengjy01/dsh-skill-studio
+  repositoryNodeId: R_kgDOUBIwSQ
+  subpath: null
+  commit: 3297482f5c365bcb2949eb52dcce1ec21e5a9d1f
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: dsh-skill-studio
+  version: 0.2.0
+  integrity: sha512-gY+p+PEUlOrUIvbYQHbMVMCe4rZZonsBBsquHK2+TAC4vcNbk/8bddNsKqF51UuIX2vqQcVZYwdPSTcJKi+WRg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:50.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
