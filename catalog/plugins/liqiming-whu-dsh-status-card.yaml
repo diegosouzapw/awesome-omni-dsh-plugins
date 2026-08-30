@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: liqiming-whu-dsh-status-card
+name: dsh-status-card
+description:
+  en: Inject a configurable dsh-ui status card instruction before every DSH agent reply
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - genui
+  - status-card
+source:
+  repository: https://github.com/liqiming-whu/dsh-status-card
+  repositoryNodeId: R_kgDOT9T9Ug
+  subpath: null
+  commit: 30f11393750647286b4f8f1bb646e8f0b80d040f
+creator:
+  github: liqiming-whu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:42.760Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
