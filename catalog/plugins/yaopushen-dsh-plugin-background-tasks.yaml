@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yaopushen-dsh-plugin-background-tasks
+name: dsh-plugin-background-tasks
+description:
+  en: Seam-aligned background command execution for DeepSeek Harness — run command via ctx.shell under the session sandbox policy, auto-promotion into ctx.jobs
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - cordis
+  - deepseek-harness
+  - dsh-plugin
+  - background-tasks
+  - dsh
+source:
+  repository: https://github.com/yaopushen/dsh-plugin-background-tasks
+  repositoryNodeId: R_kgDOUBy3wA
+  subpath: null
+  commit: f17ee3369bc7beada9071026248e00c20f8db197
+creator:
+  github: yaopushen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:23.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
