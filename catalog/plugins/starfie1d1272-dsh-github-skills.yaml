@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: starfie1d1272-dsh-github-skills
+name: dsh-github-skills
+description:
+  en: GitHub workflow skills for DeepSeek Harness, adapted from OpenAI Codex GitHub workflow semantics.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh-skill
+  - deepseek-harness
+  - github-actions
+  - code-review
+  - agent-skills
+  - developer-tools
+  - git
+  - codex
+  - github-workflows
+  - workflow-orchestration
+  - dsh
+source:
+  repository: https://github.com/Starfie1d1272/dsh-github-skills
+  repositoryNodeId: R_kgDOT5TF8A
+  subpath: null
+  commit: 101d90ff3fb6e1185c1972859c50fc1e95c9e469
+creator:
+  github: Starfie1d1272
+package:
+  ecosystem: npm
+  name: dsh-github-skills
+  version: 0.2.1
+  integrity: sha512-RrR+p1q1+3CPtVwvbYPQpD5O7V2+AdM7nhr9xDNk1Fy9YpS43zgccwXNDq2aEppzaNimiuPWlkOXYBC01dPoAQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:45.094Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Starfie1d1272/dsh-github-skills/101d90ff3fb6e1185c1972859c50fc1e95c9e469/docs/assets/dsh-github-skills-architecture.png
+    alt: dsh-github-skills 架构概览：从 Codex 工作流语义基线到 DSH 多 provider 生态
