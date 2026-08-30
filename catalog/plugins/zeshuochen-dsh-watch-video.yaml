@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: zeshuochen-dsh-watch-video
+name: dsh-watch-video
+description:
+  en: Subtitle-first cross-platform video transcription for DeepSeek Harness using yt-dlp and faster-whisper large-v3.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - video
+  - transcription
+  - yt-dlp
+  - whisper
+  - dsh
+source:
+  repository: https://github.com/zeshuochen/dsh-watch-video
+  repositoryNodeId: R_kgDOUAC7iQ
+  subpath: null
+  commit: 30d2f17982256a063f4576c699808e0d0435d61f
+creator:
+  github: zeshuochen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.284Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
