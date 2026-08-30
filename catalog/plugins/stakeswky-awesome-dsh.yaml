@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: stakeswky-awesome-dsh
+name: awesome-dsh
+description:
+  en: Auto-updating catalog of the dsh-plugin topic, plus an on-demand agent skill that finds and installs DeepSeek Harness plugins for a stated need.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - agent-skill
+  - plugin-discovery
+source:
+  repository: https://github.com/stakeswky/awesome-dsh
+  repositoryNodeId: R_kgDOT5VyoA
+  subpath: null
+  commit: eba902820d847b68b3ae674ed1bcd8d927710e6e
+creator:
+  github: stakeswky
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:59.106Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
