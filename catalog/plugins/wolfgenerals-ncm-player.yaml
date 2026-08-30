@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: wolfgenerals-ncm-player
+name: "@wolfgenerals/ncm-player"
+description:
+  en: bash dsh plugin --profile web add @wolfgenerals/ncm-player
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - bash
+  - profile
+  - wolfgenerals
+  - player
+  - dsh
+source:
+  repository: https://github.com/WolfGenerals/ncm-player
+  repositoryNodeId: R_kgDOT4pF6w
+  subpath: null
+  commit: f40f982715128d2f4d7928012b6cebf86af4d40e
+creator:
+  github: WolfGenerals
+package:
+  ecosystem: npm
+  name: "@wolfgenerals/ncm-player"
+  version: 1.2.0
+  integrity: sha512-x7LPGkYEplmycg56ecO7q1jPnasCZOJ5joqUddE+xX6yUQuVL+3vUPQ38WlZ8rjbwpzz4NWaBMHvX0wdheVunw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:20.034Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-1.png
+    alt: 播放
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-2.png
+    alt: 歌词
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-3.png
+    alt: 发现-热门
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-4.png
+    alt: 发现-我的
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-5.png
+    alt: 专辑内容浏览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WolfGenerals/ncm-player/f40f982715128d2f4d7928012b6cebf86af4d40e/doc/screenshot-6.png
+    alt: 队列
