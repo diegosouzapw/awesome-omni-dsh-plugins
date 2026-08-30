@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: small-miao-dsh-statusbar
+name: dsh-statusbar
+description:
+  en: "VSCode-like bottom status bar for DSH Web: conversation token usage, host CPU/memory with Linux-style colored char bars, clock, and a public API for other plugins."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - vscode
+  - bottom
+  - status
+  - conversation
+  - token
+  - usage
+  - host
+  - memory
+  - linux
+  - style
+  - colored
+  - char
+  - bars
+  - clock
+  - public
+  - other
+source:
+  repository: https://github.com/Small-Miao/dsh-statusbar
+  repositoryNodeId: R_kgDOT419XQ
+  subpath: null
+  commit: a5a9cd026533dfd57f3b88a6fea11f591a5a1d22
+creator:
+  github: Small-Miao
+package:
+  ecosystem: npm
+  name: dsh-statusbar
+  version: 0.1.0
+  integrity: sha512-/7yACbJE6Ui2R9BbCdjA5khhzDuzO/ND+rz56Rhom2GGc1y7jN/k80mR4so3IAARyJpGSmFAuTTx0TzD7fpI4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:58.729Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
