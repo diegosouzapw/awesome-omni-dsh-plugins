@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wilianyichen-dsh-deepseek-web
+name: "@yichenwilian/dsh-deepseek-web"
+description:
+  en: "Operate chat.deepseek.com as a programmable agent from inside DeepSeek Harness: list/get/search/chat sessions, shares, digest. Wraps the battle-tested deepseek-ops python client. 把 DeepSeek 网页版当作可编程 Agent 的 DSH 插件"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - chat-deepseek-com
+  - web
+  - share
+  - llm
+  - cordis
+source:
+  repository: https://github.com/wilianyichen/dsh-deepseek-web
+  repositoryNodeId: R_kgDOT_u3rQ
+  subpath: null
+  commit: daa6df3c0098b96138b63a03d915c8455ff16cfd
+creator:
+  github: wilianyichen
+package:
+  ecosystem: npm
+  name: "@yichenwilian/dsh-deepseek-web"
+  version: 0.1.0
+  integrity: sha512-D27Ul5eFCSR4NarQ2LYdmj6ozJkyT7vhX6fF2HWc8lnAVG3pdEJARy13+GMFns/tAiAgqBvoQcXRzrdQ5FvfAQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:40.309Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
