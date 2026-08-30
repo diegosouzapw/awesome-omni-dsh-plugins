@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: dingyi580-dsh-conversation-rail
+name: dsh-conversation-rail
+description:
+  en: A locator for long conversations in DSH Web. A vertical rail sits along the left edge of the conversation, one bar per turn ; hover a bar for a preview card, click it to jump to that turn.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - conversation
+  - minimap
+  - navigation
+  - outline
+  - session
+source:
+  repository: https://github.com/dingyi580/dsh-conversation-rail
+  repositoryNodeId: R_kgDOT7c2oQ
+  subpath: null
+  commit: bf198d53833deea611ab86509120ce5bf6a0a35e
+creator:
+  github: dingyi580
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:09.260Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
