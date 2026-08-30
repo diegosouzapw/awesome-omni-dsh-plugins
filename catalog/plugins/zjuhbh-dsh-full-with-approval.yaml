@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: zjuhbh-dsh-full-with-approval
+name: dsh-full-with-approval
+description:
+  en: "DSH profile plugin: unconfined (GPU-capable) session sandbox plus per-operation user approval for writes outside the workspace or to protected files."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - sandbox
+  - approval
+  - permission
+source:
+  repository: https://github.com/zjuhbh/dsh-full-with-approval
+  repositoryNodeId: R_kgDOUA9YtA
+  subpath: null
+  commit: c664cdae654088cbdbb81b5fac67c1b81e4ec84a
+creator:
+  github: zjuhbh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:04.286Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
