@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: yhyfhgs-dsh-model-hub
+name: "@fhxgs/dsh-model-hub"
+description:
+  en: "DeepSeek Harness plugin: provider sign-in, model catalog, and selection routing over a loopback-only /model-hub channel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - model-hub
+  - oauth
+  - llm
+  - dsh
+source:
+  repository: https://github.com/yhyfhgs/dsh-model-hub
+  repositoryNodeId: R_kgDOUDgIJw
+  subpath: null
+  commit: 2bb54c6543c8faac05d2b54162b33f1c80915e1a
+creator:
+  github: yhyfhgs
+package:
+  ecosystem: npm
+  name: "@fhxgs/dsh-model-hub"
+  version: 0.2.4
+  integrity: sha512-3gSZ5DGF8cjeoeHp3gANQGVxEeK3P2vi4LQTY3zF2uwjr3BhIPGi0/efzk90wlsPWIbmi9zVSSBHprh0xUmWeA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:18.341Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yhyfhgs/dsh-model-hub/2bb54c6543c8faac05d2b54162b33f1c80915e1a/docs/screenshots/composer-picker.png
+    alt: Composer picker bubble with the reasoning-effort slider
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yhyfhgs/dsh-model-hub/2bb54c6543c8faac05d2b54162b33f1c80915e1a/docs/screenshots/settings-providers.png
+    alt: Model Hub settings, Providers panel
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yhyfhgs/dsh-model-hub/2bb54c6543c8faac05d2b54162b33f1c80915e1a/docs/screenshots/settings-catalog.png
+    alt: Model Hub settings, Catalog panel
