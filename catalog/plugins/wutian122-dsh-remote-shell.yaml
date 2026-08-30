@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wutian122-dsh-remote-shell
+name: dsh-remote-shell
+description:
+  en: "DSH plugin bundling the remote-shell skill: secure SSH/SFTP/Telnet/WinRM remote operations with an encrypted credential vault."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - skill
+  - ssh
+  - sftp
+  - telnet
+  - winrm
+  - remote
+source:
+  repository: https://github.com/wutian122/dsh-remote-shell
+  repositoryNodeId: R_kgDOUCeX2g
+  subpath: null
+  commit: 184013598dcaa5b2de37c463e61c3f84d73bb1f4
+creator:
+  github: wutian122
+package:
+  ecosystem: npm
+  name: dsh-remote-shell
+  version: 0.1.0
+  integrity: sha512-ykFAIo4qNcko4C2jElnLkmLO+0Btau85VkCOaZzhNwbi49F0gCdTpSRTAfXmnY+T6Z27GdMKDbGiY081PmiaoA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:30.899Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
