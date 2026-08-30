@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: awesome-ai-pedia-awesome-dsh-pet
+name: awesome-dsh-pet
+description:
+  en: sh dsh plugin --profile web add /Users/icourt/Desktop/DSH-plugin/Awesome-DSH-Pet
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - profile
+  - users
+  - icourt
+  - desktop
+  - awesome
+  - dsh
+source:
+  repository: https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet
+  repositoryNodeId: R_kgDOT61d4A
+  subpath: null
+  commit: 1764a69ba520a4bcae42f54ee8dd4eb895e151bb
+creator:
+  github: Awesome-AI-Pedia
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:13.082Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
