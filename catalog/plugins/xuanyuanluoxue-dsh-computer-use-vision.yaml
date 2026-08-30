@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xuanyuanluoxue-dsh-computer-use-vision
+name: dsh-computer-use-vision
+description:
+  en: "Windows computer-use capability for DeepSeek Harness: screenshot → vision model → simulated mouse/keyboard input, with self-evolving knowledge base."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - computer-use
+  - vision
+  - screen
+  - automation
+  - windows
+  - screenshot
+  - mouse
+  - keyboard
+source:
+  repository: https://github.com/xuanyuanluoxue/computer-use-vision
+  repositoryNodeId: R_kgDOUAN9eg
+  subpath: null
+  commit: 9bbbaeab3e88e19148d805b4b40d4b307b9068a0
+creator:
+  github: xuanyuanluoxue
+package:
+  ecosystem: npm
+  name: dsh-computer-use-vision
+  version: 0.1.1
+  integrity: sha512-iuNt5Ph5TlbusEUmkKRDqH5B0bngopwhQNdVhGvrR/aJHeqWZ/KhxjEZ/OTJZgjwrwOr1jMiyPvQvxJzl5HVnQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:34.969Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
