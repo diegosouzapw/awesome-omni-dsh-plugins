@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-afghanistan
+name: dsh-afghanistan
+description:
+  en: bash dsh plugin add github:uckkk/dsh-afghanistan
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-afghanistan
+source:
+  repository: https://github.com/uckkk/dsh-afghanistan
+  repositoryNodeId: R_kgDOT-sUpg
+  subpath: null
+  commit: 9b387dd7fbe1225115f2e764767eee8ae5bb6a13
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:08.948Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
