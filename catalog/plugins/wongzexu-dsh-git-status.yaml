@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wongzexu-dsh-git-status
+name: "@wongzexu/dsh-git-status"
+description:
+  en: sh dsh plugin --profile web add @wongzexu/dsh-git-status
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - profile
+  - wongzexu
+  - status
+  - dsh
+source:
+  repository: https://github.com/Wongzexu/dsh-git-status
+  repositoryNodeId: R_kgDOT477cA
+  subpath: null
+  commit: 2d18b6e0414829fe0a3021adfc508629845ff017
+creator:
+  github: Wongzexu
+package:
+  ecosystem: npm
+  name: "@wongzexu/dsh-git-status"
+  version: 1.0.0
+  integrity: sha512-LHFV7dlM/Sx9PyOD+jYWCnu9Zjlx9QdMW7ZEp36I7/YcSOwW9MTA7pOrlCzhmZm7aMZx3ukdi2Ss2x5lu/yoOA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
