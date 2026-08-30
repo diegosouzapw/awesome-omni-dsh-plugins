@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: sanshanya-better-model-provider
+name: better-model-provider
+description:
+  en: "Per-model capability declaration for DeepSeek Harness: reasoning-effort levels (with wire spellings) and request modalities (text/image) for OpenAI-compatible providers — one settings section, no YAML hand-editing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - model-capabilities
+  - reasoning-effort
+  - multimodal
+  - llm-settings
+  - dsh
+source:
+  repository: https://github.com/sanshanya/better-model-provider
+  repositoryNodeId: R_kgDOT4Jw1g
+  subpath: null
+  commit: 73a647425b1e5dc106ade408e770af9cb50f1bad
+creator:
+  github: sanshanya
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:42.921Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/sanshanya/better-model-provider/73a647425b1e5dc106ade408e770af9cb50f1bad/docs/screenshot.png
+    alt: Editing one model row
