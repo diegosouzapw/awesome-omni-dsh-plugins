@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: sunnystarye-ui-dsh-plugin-text-quote
+name: dsh-plugin-text-quote
+description:
+  en: Codex-style text annotation for DeepSeek Harness conversations. Select any text in the chat, add a quote with your comment, and it becomes an annotation card in the composer. On send, the annotation is injected into the message and rendered back as an expandable "N 条注释" pill.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - annotation
+  - quote
+  - notes
+  - composer
+source:
+  repository: https://github.com/sunnystarye-ui/dsh-plugin-text-quote
+  repositoryNodeId: R_kgDOUCrakg
+  subpath: null
+  commit: 24845ffa371e32df7591ca08e98ed940856f3488
+creator:
+  github: sunnystarye-ui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:31.802Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
