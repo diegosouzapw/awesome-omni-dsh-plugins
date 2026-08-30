@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: nicoloboschi-hindsight-coding-agents
+name: "@vectorize-io/hindsight-coding-agents"
+description:
+  en: "Reflect-only Hindsight long-term memory for coding agents (harness-pluggable: opencode, …), with automatic background ingestion (no setup CLI)."
+  evidencePath: hindsight-integrations/coding-agents/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - reflect
+  - only
+  - hindsight
+  - long
+  - term
+  - memory
+  - coding
+  - agents
+  - pluggable
+  - opencode
+  - automatic
+  - background
+  - ingestion
+  - setup
+  - dsh
+source:
+  repository: https://github.com/vectorize-io/hindsight
+  repositoryNodeId: R_kgDOQMFwdQ
+  subpath: hindsight-integrations/coding-agents
+  commit: d2e8fa7286b37012b7e45de8f1b10dc333274918
+creator:
+  github: nicoloboschi
+package:
+  ecosystem: npm
+  name: "@vectorize-io/hindsight-coding-agents"
+  version: 0.4.3
+  integrity: sha512-Vdw2tiv17lB5SW7qNmT6PKJHC7eDTBBcW8QBBJH7QpiIsEFgPkCg5TvR+Gt1clgYmViKqpWxzR8OJh9l6YVkRQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: hindsight-integrations/coding-agents/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:44.789Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
