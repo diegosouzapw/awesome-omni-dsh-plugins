@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: leemancheung-dsh-whale-animation
+name: dsh-whale-animation
+description:
+  en: Brand-aligned whale animation director with two preserved legacy loops and five spine-driven states for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - web-ui
+  - animation
+  - whale
+source:
+  repository: https://github.com/LeemanCheung/dsh-whale-animation
+  repositoryNodeId: R_kgDOT4VePQ
+  subpath: null
+  commit: 8cf2d04390d0ccc15a065f622dee90066fba4904
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:29.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-animation/8cf2d04390d0ccc15a065f622dee90066fba4904/docs/hero.png
+    alt: dsh-whale-animation six-state whale animation system
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-animation/8cf2d04390d0ccc15a065f622dee90066fba4904/docs/preview.webp
+    alt: Deep Dive, Sonar, Tool Run, Stream, and Calm whale animations rotating in sequence
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-animation/8cf2d04390d0ccc15a065f622dee90066fba4904/docs/state-gallery.png
+    alt: Gallery of the six whale animation states
