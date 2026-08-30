@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: shiye-10pages-dsh-memory-porter
+name: dsh-memory-porter
+description:
+  en: 记忆搬家：把 Claude / ChatGPT / Claude Code 的历史记忆搬进 DeepSeek Harness —— 带逐字证据，逐条批准 Move your Claude & ChatGPT memory into DeepSeek Harness (DSH), with verbatim evidence and one-by-one approval
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - migration
+  - import
+  - claude-code
+  - chatgpt
+  - memory
+  - conversation-history
+source:
+  repository: https://github.com/Shiye-10Pages/dsh-memory-porter
+  repositoryNodeId: R_kgDOT5rYEQ
+  subpath: null
+  commit: 6fe3c519c325d817f198e8918103e0d2b1c2b9a2
+creator:
+  github: Shiye-10Pages
+package:
+  ecosystem: npm
+  name: dsh-memory-porter
+  version: 0.1.0
+  integrity: sha512-4AfVcWcQNyumceDc9YVwFBICt0pH4d0TpE5mkIoJhPm88+redHfIgX4NJAtKEwTcDZxI41fvHZg7kHLLnpmYuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:56.648Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shiye-10Pages/dsh-memory-porter/6fe3c519c325d817f198e8918103e0d2b1c2b9a2/assets/social-preview.png
+    alt: 记忆搬家
