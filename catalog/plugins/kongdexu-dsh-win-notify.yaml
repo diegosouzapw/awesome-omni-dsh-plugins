@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: kongdexu-dsh-win-notify
+name: dsh-win-notify
+description:
+  en: "DSH (DeepSeek Harness) host plugin for Windows: real OS-level toasts that persist in Notification Center — 任务完成 / 需要您的输入 / 需要您的审批. Windows-only (WinRT Toast API via a self-built .NET helper EXE)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - host-plugin
+  - windows
+  - toast
+  - notification
+  - notify
+  - winrt
+source:
+  repository: https://github.com/kongdexu/dsh-win-notify
+  repositoryNodeId: R_kgDOUDSYzQ
+  subpath: null
+  commit: 74991d0bbcb6efed63d1caa824c6c19285732e55
+creator:
+  github: kongdexu
+package:
+  ecosystem: npm
+  name: dsh-win-notify
+  version: 0.1.0
+  integrity: sha512-WlL15QagAGg5CIuQh/vcSLlfbWMMc7RRhe82BE2RZvzAZgMjilLKMEjUfGEBjl4FxsJCGShXGbGYfA/OXdQPfg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:50.838Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
