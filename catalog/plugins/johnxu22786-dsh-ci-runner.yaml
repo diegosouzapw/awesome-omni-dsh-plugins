@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: johnxu22786-dsh-ci-runner
+name: dsh-ci-runner
+description:
+  en: Trigger GitHub Actions workflow runs and local test pipelines, stream their logs back, and on failure hand the tail of the log to DeepSeek for a Markdown root-cause diagnosis.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - github-actions
+  - ci
+  - workflow-dispatch
+  - check-run
+  - test
+  - diagnosis
+source:
+  repository: https://github.com/JohnXu22786/ci-runner
+  repositoryNodeId: R_kgDOUBJ0Qg
+  subpath: null
+  commit: b73ad4ef52f32acba7d7f6800e363243bf40c643
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:39.218Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
