@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: viger1-dsh-review
+name: dsh-review
+description:
+  en: Packaged multi-agent adversarial code review for DeepSeek Harness — one finder per lens in parallel, then a verifier per finding whose task is to refute it, so only confirmed defects are reported.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - code-review
+  - subagents
+  - multi-agent
+  - static-analysis
+source:
+  repository: https://github.com/Viger1/dsh-review
+  repositoryNodeId: R_kgDOT6Nilg
+  subpath: null
+  commit: 4fa5d7fd43d929bb8f499f672bb1014067e3c15c
+creator:
+  github: Viger1
+package:
+  ecosystem: npm
+  name: dsh-review
+  version: 0.1.1
+  integrity: sha512-9CZSYertxkYbOumEav4Of/LZKXqJVpPRc3sdxtwwLdMo7FNWdxJihqZUcNeRqwqwBzRDq8gIvubtS4HmPS4B3g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:38.948Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
