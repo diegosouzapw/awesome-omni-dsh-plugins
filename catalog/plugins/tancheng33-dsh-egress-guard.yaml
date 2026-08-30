@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: tancheng33-dsh-egress-guard
+name: dsh-egress-guard
+description:
+  en: "Runtime security gate for DeepSeek Harness: egress host allowlist, secret redaction in tool results, and an append-only audit log"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - security
+  - egress
+  - allowlist
+  - dlp
+  - redaction
+  - audit
+source:
+  repository: https://github.com/tancheng33/dsh-egress-guard
+  repositoryNodeId: R_kgDOT5HADg
+  subpath: null
+  commit: c34b9ca4b874b61c881d7e8172fffb9d294d2abe
+creator:
+  github: tancheng33
+package:
+  ecosystem: npm
+  name: dsh-egress-guard
+  version: 0.1.0
+  integrity: sha512-+uwe09wODJws3hda4e4KepPbyjN0CJYnfBObBhZeKz5naAtSBYAb0v59C98Wy5v/+hKK0faFgYXtbXIGu4Ge4g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:08.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
