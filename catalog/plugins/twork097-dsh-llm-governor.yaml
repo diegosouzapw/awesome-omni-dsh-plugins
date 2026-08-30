@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: twork097-dsh-llm-governor
+name: dsh-llm-governor
+description:
+  en: Multi-model governance, routing, fallback, quota, and usage for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - llm-routing
+  - governance
+source:
+  repository: https://github.com/young-tim/dsh-llm-governor
+  repositoryNodeId: R_kgDOT9vSUg
+  subpath: null
+  commit: cb027ceb14492d4cecf04a4e6e879370459f924a
+creator:
+  github: twork097
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:19.759Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
