@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-design-styles
+name: dsh-design-styles
+description:
+  en: bash dsh plugin add dsh-design-styles 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-design-styles" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - style
+  - design
+  - visual
+source:
+  repository: https://github.com/uckkk/dsh-design-styles
+  repositoryNodeId: R_kgDOT6jK2Q
+  subpath: null
+  commit: ded27582e7a127fe580e3f835563dab578796005
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-design-styles
+  version: 0.1.0
+  integrity: sha512-q7GSctH45OzJ4HrJzvuvt0vtEar7SUZADKZJNf2c2H0QfH0BjqAaU3jbYCViEG+xDcou2dXv8n4SR1DHIObleg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:12.640Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
