@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yimlt-dsh-notify-yimit
+name: dsh-notify-yimit
+description:
+  en: "A notification plugin for DeepSeek Harness: alerts you on task completed / task failed / running (live activity) / awaiting approval / awaiting answer . The notification title is the conversation title; both system and custom notifications support click-to-jump to the corresponding session ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - client-plugin
+  - notify
+  - notification
+  - toast
+source:
+  repository: https://github.com/YiMlT/dsh-notify-yimit
+  repositoryNodeId: R_kgDOUAZu_g
+  subpath: null
+  commit: f6216c4eb2bb9cc61262619553c929ae94719d1d
+creator:
+  github: YiMlT
+package:
+  ecosystem: npm
+  name: dsh-notify-yimit
+  version: 0.1.4
+  integrity: sha512-hFbnUqnw4TLJ6uYC8E0vVnFACLRFpvocndOJpAR2boASORiA9QxJmZ038+OE8xC9SSiqa312rGqKwfywJG743A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:13.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
