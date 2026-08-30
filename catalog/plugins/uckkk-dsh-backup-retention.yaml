@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-backup-retention
+name: dsh-backup-retention
+description:
+  en: bash dsh plugin add github:uckkk/dsh-backup-retention
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-backup-retention
+source:
+  repository: https://github.com/uckkk/dsh-backup-retention
+  repositoryNodeId: R_kgDOT-wmLQ
+  subpath: null
+  commit: 7f4a3bf9b9c4c53e80e16f2f0e7169a669f36240
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:34.797Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
