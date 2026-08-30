@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: particlelight-dsh-browser-plus
+name: dsh-browser-plus
+description:
+  en: "Enhanced shared browser for DeepSeek Harness: one visible window with isolated task views, a page task manager, non-stealing background tasks, built-in toolbar and operation trail, and pinned Electron 42.9.3 compositing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - browser
+  - cdp
+  - dsh
+source:
+  repository: https://github.com/ParticleLight/dsh-browser-plus
+  repositoryNodeId: R_kgDOT__S3w
+  subpath: null
+  commit: 61da65472a04b14a2fdf2ebaf2f116bd80047288
+creator:
+  github: ParticleLight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:44.847Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ParticleLight/dsh-browser-plus/61da65472a04b14a2fdf2ebaf2f116bd80047288/assets/readme-glass-workspace.png
+    alt: dsh-browser-plus 任务工作区
