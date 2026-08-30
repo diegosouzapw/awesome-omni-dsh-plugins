@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zasenjc-dsh-plugins-store
+name: dsh-plugins-store
+description:
+  en: Native DSH browser integration for the DSH Plugin Store
+  evidencePath: packages/dsh-plugins-store/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - plugin-store
+  - marketplace
+  - web-ui
+source:
+  repository: https://github.com/ZASENJC/dsh-plugins-store
+  repositoryNodeId: R_kgDOT3zODg
+  subpath: packages/dsh-plugins-store
+  commit: d785835a8a622c36abefaae2af122230a8366a3d
+creator:
+  github: ZASENJC
+package:
+  ecosystem: npm
+  name: dsh-plugins-store
+  version: 0.1.3
+  integrity: sha512-hq7wNHv6BaLqPt0EdHriMrDPCAIQuovFcZRG4nyruvQTa3zsn4QLSL3u2s7jZX4dugtz53VtMrWD4BfnABw4jw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugins-store/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:06.866Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
