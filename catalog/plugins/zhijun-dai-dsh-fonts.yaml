@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zhijun-dai-dsh-fonts
+name: dsh-fonts
+description:
+  en: "Font system plugin for DeepSeek Harness: bundled OFL webfonts served offline, user-imported custom fonts, and a ctx.fonts registry other plugins can extend"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - fonts
+  - typography
+  - webfonts
+  - web-ui
+source:
+  repository: https://github.com/zhijun-dai/dsh-Fonts
+  repositoryNodeId: R_kgDOT49bfw
+  subpath: null
+  commit: 46014ec5663435bdd39acee2e77c3979810b1967
+creator:
+  github: zhijun-dai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:03.822Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/dsh-Fonts/46014ec5663435bdd39acee2e77c3979810b1967/assets/fonts-settings.webp
+    alt: 字体设置行
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/dsh-Fonts/46014ec5663435bdd39acee2e77c3979810b1967/assets/fonts-jetbrains-inter.webp
+    alt: JetBrains Mono + Inter
