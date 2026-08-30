@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: skyloveqiu-dsh-finreport
+name: dsh-finreport
+description:
+  en: sh dsh plugin --profile web add file:/path/to/dsh-finreport
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - profile
+  - file
+  - path
+  - finreport
+  - dsh
+source:
+  repository: https://github.com/SkyloveQiu/dsh-finreport
+  repositoryNodeId: R_kgDOT7puEw
+  subpath: null
+  commit: ffc2987a8c6938cb26132dfa6b848274497c2c65
+creator:
+  github: SkyloveQiu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:58.125Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
