@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: johnxu22786-dsh-audit-trail
+name: dsh-audit-trail
+description:
+  en: "Security auditing and session forensics for DeepSeek Harness (dsh): full tool-invocation-chain recording (who/what/files/status/duration) from the session/event stream and tool-dispatch hook, high-risk pattern flagging, SQLite (WAL) persistence with privacy masking, filter/query with JSON/Markdown/JSONL exports, plain-"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - audit
+  - forensics
+  - security
+  - tool-call
+  - sqlite
+  - compliance
+  - replay
+source:
+  repository: https://github.com/JohnXu22786/auditrail
+  repositoryNodeId: R_kgDOUBJz1g
+  subpath: null
+  commit: bf9634db3038a7486abfa2abb96d81e5050fa555
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: npm
+  name: dsh-audit-trail
+  version: 0.1.0
+  integrity: sha512-rRfGHwehkSYrrVGoHF7ciae4jIZHq6bE6UPatxjzhUr7M8/9OKpxocIuMZLG+nIViNbNe2Qv45lBGaIOgwilJQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:39.143Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
