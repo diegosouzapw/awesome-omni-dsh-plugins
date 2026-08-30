@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: sddft97-dsh-client-ui-skin-verdandi
+name: "@hjbztlbr/dsh-client-ui-skin-verdandi"
+description:
+  en: "Verdandi White Vow skin for the DSH Web GUI: deep crimson navigation, bridal-white workspace, soft-gold knight details, and scoped plugin-safe surfaces."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-skin
+  - theme
+  - aether-gazer
+  - verdandi
+source:
+  repository: https://github.com/Sddft97/dsh-client-ui-skin-verdandi
+  repositoryNodeId: R_kgDOUAoZvA
+  subpath: null
+  commit: bbfbdb8e8b12bf0f791cb5c335ce776da6b46ef8
+creator:
+  github: Sddft97
+package:
+  ecosystem: npm
+  name: "@hjbztlbr/dsh-client-ui-skin-verdandi"
+  version: 0.1.0
+  integrity: sha512-mAvsLEMZiMZqRVvD0GKfNHxOLOd03/NyqRBH/uk/ZL5O2X5vsVTzy3DrnKjInTvxxyG5MkJ3V/Aj4nLYjGb9rA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:55.430Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Sddft97/dsh-client-ui-skin-verdandi/bbfbdb8e8b12bf0f791cb5c335ce776da6b46ef8/preview/light.png
+    alt: 亮色模式预览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Sddft97/dsh-client-ui-skin-verdandi/bbfbdb8e8b12bf0f791cb5c335ce776da6b46ef8/preview/dark.png
+    alt: 暗色模式预览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Sddft97/dsh-client-ui-skin-verdandi/bbfbdb8e8b12bf0f791cb5c335ce776da6b46ef8/preview/settings.png
+    alt: 设置界面兼容性预览
