@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: vinyumao-dsh-opencode-usage
+name: "@chen-001/dsh-opencode-usage"
+description:
+  en: <p align="center" OpenCode Go plan usage display for the DSH web GUI — a persistent badge under the composer shows <b rolling / weekly / monthly</b usage percents and reset countdowns; click to expand a card; agents can query the balance via the <code opencode go usage</code tool.</p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - align
+  - center
+  - opencode
+  - plan
+  - usage
+  - display
+  - persistent
+  - badge
+  - under
+  - composer
+  - shows
+  - rolling
+  - weekly
+  - monthly
+  - percents
+  - reset
+source:
+  repository: https://github.com/vinyumao/dsh-opencode-usage
+  repositoryNodeId: R_kgDOT4kTUw
+  subpath: null
+  commit: 191b1d32b0ec0d29a4305eae89a825faf0658bf0
+creator:
+  github: vinyumao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
