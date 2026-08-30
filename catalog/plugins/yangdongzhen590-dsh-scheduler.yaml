@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yangdongzhen590-dsh-scheduler
+name: dsh-scheduler
+description:
+  en: sh dsh plugin --profile web add dsh-scheduler
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - scheduler
+  - cron
+  - scheduled-tasks
+source:
+  repository: https://github.com/yangdongzhen590/dsh-knj-scheduler
+  repositoryNodeId: R_kgDOUByXNA
+  subpath: null
+  commit: b31519900290fa5cd74b1ed6a671df82f9add5d7
+creator:
+  github: yangdongzhen590
+package:
+  ecosystem: npm
+  name: dsh-scheduler
+  version: 2026.8.251
+  integrity: sha512-asSCTK8YjQaC+hVoW+QO1QDza6eQCjWGVF8Qdbw1/Rlp0IWO70DjviggkQWBpCbPjAE4ceNhbrmj95rGd1TFBA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:23.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
