@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wodongx123-dsh-qq-notify
+name: dsh-qq-notify
+description:
+  en: bash dsh plugin --profile web add file:<本目录
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - qq
+  - napcat
+  - notify
+  - notification
+  - onebot
+source:
+  repository: https://github.com/wodongx123/dsh-qq-notify
+  repositoryNodeId: R_kgDOT7fVZQ
+  subpath: null
+  commit: ecb83b197bb75e7fab84def9cffdf8499866663f
+creator:
+  github: wodongx123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:29.662Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
