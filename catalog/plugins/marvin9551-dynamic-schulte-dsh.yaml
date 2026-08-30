@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: marvin9551-dynamic-schulte-dsh
+name: dynamic-schulte-dsh
+description:
+  en: Dynamic Schulte Table · a waiting-room mini-game plugin for DeepSeek Harness.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dynamic
+  - schulte
+  - table
+  - waiting
+  - room
+  - mini
+  - game
+  - dsh
+source:
+  repository: https://github.com/marvin9551/dynamic-schulte-dsh
+  repositoryNodeId: R_kgDOT5DttQ
+  subpath: null
+  commit: bba63b7d430c598915c824704238fa21a52f96d2
+creator:
+  github: marvin9551
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:48.552Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/marvin9551/dynamic-schulte-dsh/bba63b7d430c598915c824704238fa21a52f96d2/docs/screenshots/gameplay.png
+    alt: 动态轮盘游戏截图
