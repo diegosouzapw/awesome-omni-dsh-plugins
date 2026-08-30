@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: htcqp802-dsh-knowledge-base
+name: dsh-knowledge-base
+description:
+  en: A general-purpose knowledge base plugin for DeepSeek Harness (DSH)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - knowledge-base
+  - kb
+  - rag
+  - retrieval
+  - fts5
+  - bm25
+  - pdf
+  - document-management
+  - file-import
+  - agent
+  - llm
+  - ai
+source:
+  repository: https://github.com/htcqp802/dsh-knowledge-base
+  repositoryNodeId: R_kgDOT5y4ng
+  subpath: null
+  commit: c084a21afe28f96c6b05ec548bd9f6f3e0f47138
+creator:
+  github: htcqp802
+package:
+  ecosystem: npm
+  name: dsh-knowledge-base
+  version: 0.1.5
+  integrity: sha512-krEcGeDYx22xDU27X/Cm410EEk2ZSaNebAgwn2JofFFzUhgk4QKIGNNCBIG58JTknedgV2VSPUt2TKW6XsPZ1g==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:52.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
