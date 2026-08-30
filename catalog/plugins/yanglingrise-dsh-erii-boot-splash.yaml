@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yanglingrise-dsh-erii-boot-splash
+name: dsh-erii-boot-splash
+description:
+  en: 'Erii (Sakura) themed boot splash animation for the DeepSeek Harness Web UI: falling sakura petals, a mint monster mascot with a cherry blossom on its head, a soft pink progress bar, and the line "Sakura, walk slower." Auto fades out after ~3 seconds; pure client-side, zero dependencies.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - splash
+  - loading-screen
+  - animation
+  - sakura
+  - erii
+  - web-ui
+  - cordis
+source:
+  repository: https://github.com/yanglingrise/dsh-erii-boot-splash
+  repositoryNodeId: R_kgDOUAOujQ
+  subpath: null
+  commit: 406f106b8294e80ddde95e24561f088fbfe843c0
+creator:
+  github: yanglingrise
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:35.762Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
