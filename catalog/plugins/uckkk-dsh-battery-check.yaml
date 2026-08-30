@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-battery-check
+name: dsh-battery-check
+description:
+  en: bash dsh plugin add github:uckkk/dsh-battery-check
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-battery-check
+source:
+  repository: https://github.com/uckkk/dsh-battery-check
+  repositoryNodeId: R_kgDOT-sj_g
+  subpath: null
+  commit: 39a5c2551ff53bfd5f17cff848a48aef7281112d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:36.312Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
