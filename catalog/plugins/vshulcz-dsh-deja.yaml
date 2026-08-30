@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: vshulcz-dsh-deja
+name: dsh-deja
+description:
+  en: "Brings the session history of nineteen other coding agents into DeepSeek Harness: recall, session digest and per-file history tools over a local index, plus optional automatic recall before each step."
+  evidencePath: extensions/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - recall
+  - session-history
+  - migration
+source:
+  repository: https://github.com/vshulcz/deja-vu
+  repositoryNodeId: R_kgDOTX8R2w
+  subpath: extensions/dsh
+  commit: fe2bd0a7a5c6b1a8ac2744605c3bff31e59f49d4
+creator:
+  github: vshulcz
+package:
+  ecosystem: npm
+  name: dsh-deja
+  version: 0.20.4
+  integrity: sha512-KF+bb8vu1iK2NRqBG0shV3YZ13+nSYcb/X3t3jY+zHDOIsWLFZ3MQiBezm0+uymdWSuXumPNgUsbNVV9viaV/Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: extensions/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:44.962Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
