@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: noirbright-interaction-operations
+name: "@dsh-mobile/interaction-operations"
+description:
+  en: Modality-independent mobile interaction intents and compatibility adapters for DSH
+  evidencePath: packages/interaction-operations/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - modality
+  - independent
+  - mobile
+  - interaction
+  - intents
+  - compatibility
+  - adapters
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-mobile
+  repositoryNodeId: R_kgDOT5V62Q
+  subpath: packages/interaction-operations
+  commit: c60dc39a75c4c6785d628048d78206877c7f6fca
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/interaction-operations/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:07.453Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
