@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: chuantianml-dsh-open-with
+name: dsh-open-with
+description:
+  en: Open registered DeepSeek Harness workspaces in detected or configured local editors from the Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - editor
+  - workspace
+source:
+  repository: https://github.com/ChuanTianML/dsh-open-with
+  repositoryNodeId: R_kgDOT36p5g
+  subpath: null
+  commit: bfccd740dd86e02c77ee23193b9e8614af59416f
+creator:
+  github: ChuanTianML
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:07.463Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
