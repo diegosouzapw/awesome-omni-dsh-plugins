@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: victorzhong0110-dsh-outcome-loop
+name: dsh-outcome-loop
+description:
+  en: Know whether a task was actually completed — with near-zero extra tokens and mechanically re-checkable evidence — and keep the result as a portable, user-owned record.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - outcome
+  - verification
+  - acceptance
+  - task-ledger
+  - evidence
+source:
+  repository: https://github.com/victorzhong0110/dsh-outcome-loop
+  repositoryNodeId: R_kgDOT7kDOA
+  subpath: null
+  commit: 4953d8cc4ee6da45753658a49ae91e9cd02b5e4c
+creator:
+  github: victorzhong0110
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:29.369Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
