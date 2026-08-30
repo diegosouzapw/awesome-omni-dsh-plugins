@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: zicheng-dsh-window
+name: dsh-window
+description:
+  en: "DeepSeek Harness Windows desktop shell (WebView2) installer: fetches the app zip from GitHub Releases, creates a desktop shortcut, and exposes the desktop launch tool."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - desktop
+  - windows
+  - webview2
+source:
+  repository: https://github.com/ZichengGurrr/dsh-window
+  repositoryNodeId: R_kgDOT4ht9g
+  subpath: plugin
+  commit: aad20bef0f6d0475efef102d1b3b5f357f005680
+creator:
+  github: zicheng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:08.813Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
