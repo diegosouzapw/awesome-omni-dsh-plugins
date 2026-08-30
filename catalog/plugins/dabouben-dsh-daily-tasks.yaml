@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dabouben-dsh-daily-tasks
+name: "@dabouben/dsh-daily-tasks"
+description:
+  en: sh dsh plugin --profile web add @dabouben/dsh-daily-tasks
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - todo
+  - tasks
+  - daily-tasks
+  - token-usage
+  - balance
+source:
+  repository: https://github.com/Dabouben/dsh-daily-tasks
+  repositoryNodeId: R_kgDOT7Tc-Q
+  subpath: null
+  commit: fb5fccbb8d24aa941897f4651e808f24ff78c476
+creator:
+  github: Dabouben
+package:
+  ecosystem: npm
+  name: "@dabouben/dsh-daily-tasks"
+  version: 0.1.0
+  integrity: sha512-ZgmlyVxVkWrA2PwxkoTHIeW+ET6gRNX+EYNLF+KFB7kOi3dRxM+grMc3mBtBekyNzDHgV9I5oqZ4wjeqrLiXvQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:07.720Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
