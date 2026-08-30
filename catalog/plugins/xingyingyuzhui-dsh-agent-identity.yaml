@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-identity
+name: dsh-agent-identity
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-agent-identity
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent
+  - identity
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-identity
+  repositoryNodeId: R_kgDOT8IMiQ
+  subpath: null
+  commit: cbab483bbaa7c8ee44c1bdc958b491afaee6abdd
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.531Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
