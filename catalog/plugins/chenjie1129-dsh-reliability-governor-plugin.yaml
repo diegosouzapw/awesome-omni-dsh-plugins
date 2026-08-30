@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: chenjie1129-dsh-reliability-governor-plugin
+name: "@chenjie1129/dsh-reliability-governor-plugin"
+description:
+  en: A2UI contract review, receipt-bound authorship, deterministic evidence gates, and bounded repair for DeepSeek Harness agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - agent-reliability
+  - llm-evaluation
+  - reliability
+  - verification
+  - agent
+  - dsh
+source:
+  repository: https://github.com/chenjie1129/deepseek-harness-reliability-governor
+  repositoryNodeId: R_kgDOUBFBfg
+  subpath: null
+  commit: 04227452e61149c3bf96fa9cb2ee956901e190ad
+creator:
+  github: chenjie1129
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:02.771Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
