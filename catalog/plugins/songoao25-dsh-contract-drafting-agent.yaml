@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: songoao25-dsh-contract-drafting-agent
+name: dsh-contract-drafting-agent
+description:
+  en: A staged contract-drafting skill pack for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - contract-drafting
+source:
+  repository: https://github.com/songoao25/dsh-contract-drafting-agent
+  repositoryNodeId: R_kgDOT5s8hg
+  subpath: null
+  commit: 25ed02bbb81a57ab3e6f1cb116882bd865151ce9
+creator:
+  github: songoao25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:08.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
