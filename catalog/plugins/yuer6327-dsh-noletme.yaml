@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yuer6327-dsh-noletme
+name: dsh-noletme
+description:
+  en: NoLetMe — real-time reasoning-trajectory keyword stats for the DeepSeek Harness web chat. Tracks the We-need/Let's efficient trajectory vs the Let-me hesitant trajectory vs the The-user-wants neutral framing in the model's streaming reasoning blocks.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-std
+  - community-v0-15
+  - deepseek-harness
+  - reasoning
+  - chain-of-thought
+  - trajectory
+source:
+  repository: https://github.com/Yuer6327/NoLetMe
+  repositoryNodeId: R_kgDOT5zyxQ
+  subpath: null
+  commit: ea392d01ed4a5146fe40b00d3386197aaa2f7d82
+creator:
+  github: Yuer6327
+package:
+  ecosystem: npm
+  name: dsh-noletme
+  version: 0.3.3
+  integrity: sha512-R2ar5Nsjf3a79iLYXQCiGHkdPlK1Kr32zWC0V8pgAzh2qF3DdkrrQqbQHbhd9CUqJd7SM75cLd4hQcH6x0ZGkg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:03.437Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
