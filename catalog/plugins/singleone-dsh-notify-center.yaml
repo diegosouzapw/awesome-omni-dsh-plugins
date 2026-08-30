@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: singleone-dsh-notify-center
+name: dsh-notify-center
+description:
+  en: Unified native desktop and webhook notifications for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - notification
+  - webhook
+  - toast
+source:
+  repository: https://github.com/SingleOne/dsh-notify-center
+  repositoryNodeId: R_kgDOT5pWpQ
+  subpath: null
+  commit: c8a38ab945bfdaa8cd240fbe1ebfd4a55183cc5b
+creator:
+  github: SingleOne
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:44.547Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
