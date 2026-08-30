@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dsh-admin-llmtrim-stats-plugin
+name: llmtrim-stats-plugin
+description:
+  en: "Live llmtrim savings dashboard inside the DeepSeek Harness (DSH) Web UI: a settings dashboard plus a rotating carousel stats strip under the composer."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - llmtrim
+  - compression
+  - tokens
+  - savings
+  - stats
+  - dashboard
+source:
+  repository: https://github.com/Zenjibad/llmtrim-stats-plugin
+  repositoryNodeId: R_kgDOT9YWoA
+  subpath: null
+  commit: f9aa5e69f26d4c675d0dda8ae051faba67bd0cfa
+creator:
+  github: DSH-Admin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.501Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
