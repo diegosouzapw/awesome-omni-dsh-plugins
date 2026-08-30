@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: tkaptop-dsh-seedance2
+name: dsh-seedance2
+description:
+  en: Generate images and Seedance videos in DeepSeek Harness through the Seedance 2 AI API
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - seedance2
+  - seedance-2
+  - seedance-2-5
+  - image-generation
+  - video-generation
+  - nano-banana
+  - dsh
+source:
+  repository: https://github.com/synmindai/dsh-seedance2
+  repositoryNodeId: R_kgDOT4MtQQ
+  subpath: null
+  commit: fbc8716ad80b8d4407af772bef2d1ceaa3de2dfe
+creator:
+  github: tkaptop
+package:
+  ecosystem: npm
+  name: dsh-seedance2
+  version: 0.1.0
+  integrity: sha512-Ifr+lFRTQau0yzoJsL74Ga+rzmdv1sHxCh3mVkxg4rBHtWO5St260+KZ7vUslCUWkj1ewcGwKJO81P+THo5Tkw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:08.862Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
