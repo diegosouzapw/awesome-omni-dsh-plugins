@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-plugin-manager
+name: dsh-my-plugin-manager
+description:
+  en: bash dsh plugin --profile web add dsh-my-plugin-manager
+  evidencePath: plugins/dsh-my-plugin-manager/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - bash
+  - profile
+  - manager
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-plugin-manager
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-plugin-manager
+  version: 0.1.1
+  integrity: sha512-znWI/TiGBKRgvtr07ZL641ik2KMntQgZNHViMbse0z2iFDVzbwgz2xaPdNwTmUmZ/wU9gO3maPyeUaGS9iftEA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-plugin-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/baosfeng/my-dsh-plugins/1b8db2b39e88bd6da13b645c9354df8c2af1d3c7/plugins/dsh-my-plugin-manager/assets/screenshot.png
+    alt: 插件管理面板：已安装列表 + 卸载/更新检查
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/baosfeng/my-dsh-plugins/1b8db2b39e88bd6da13b645c9354df8c2af1d3c7/plugins/dsh-my-plugin-manager/assets/market.png
+    alt: 插件管理面板：市场搜索区块
