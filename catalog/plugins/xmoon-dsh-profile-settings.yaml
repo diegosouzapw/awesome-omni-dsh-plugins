@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: xmoon-dsh-profile-settings
+name: "@xmoon76/dsh-profile-settings"
+description:
+  en: "Per-profile settings overlay for DeepSeek Harness: global settings.yaml plus profiles/<name /settings.patch.yml, transparently layered under ctx.settings"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - profile
+  - settings
+  - overlay
+  - global
+  - yaml
+  - plus
+  - profiles
+  - name
+  - patch
+  - transparently
+  - layered
+  - under
+  - dsh
+source:
+  repository: https://github.com/XMoon/dsh-profile-settings
+  repositoryNodeId: R_kgDOUBEJVg
+  subpath: null
+  commit: 5bff86db924103666fb024a10442c8275bf7c7c0
+creator:
+  github: XMoon
+package:
+  ecosystem: npm
+  name: "@xmoon76/dsh-profile-settings"
+  version: 0.1.0
+  integrity: sha512-2X0VW3auzJDcmmV4enePtdcAsP4W6dUV9hp/mp+CfugTiuKXvsWZgE/uoxkrs0FQNwWyp5KTgqaG0embRjxKXg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:26.437Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
