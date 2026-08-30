@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: mrpulor-gh-dsh-nuphus-mcp
+name: dsh-nuphus-mcp
+description:
+  en: "DeepSeek Harness (DSH) plugin: mount the nuphus-mcp desktop automation MCP server as native tools (mcp nuphus-mcp )."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+  - stdio
+  - desktop-automation
+  - computer-use
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/mrpulor-gh/dsh-nuphus-mcp
+  repositoryNodeId: R_kgDOT8MFiw
+  subpath: null
+  commit: 299e6bfc8c4a18920eafd1381704a9645349595f
+creator:
+  github: mrpulor-gh
+package:
+  ecosystem: npm
+  name: dsh-nuphus-mcp
+  version: 0.2.1
+  integrity: sha512-AHozqmarBTL1/ieR2UvnXRYWoO1WxydZqnTrH4RSa+s/bnHdT76VoNICk8EyoNvECHJvgwy5U40XC+xJTz5QBQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.740Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
