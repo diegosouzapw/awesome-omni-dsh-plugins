@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: mombrane-dsh-ui-subagent-monitor
+name: "@leetoners/dsh-ui-subagent-monitor"
+description:
+  en: "DSH web extension: a live subagent run monitor with a sidebar trigger and a floating card panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - extension
+  - live
+  - subagent
+  - monitor
+  - sidebar
+  - trigger
+  - floating
+  - card
+  - panel
+  - dsh
+source:
+  repository: https://github.com/Mombrane/dsh-subagent-monitor
+  repositoryNodeId: R_kgDOT4QT4g
+  subpath: null
+  commit: 3fa30438d5e976b9c0796d15c3d41b211f52904d
+creator:
+  github: Mombrane
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.132Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Mombrane/dsh-subagent-monitor/3fa30438d5e976b9c0796d15c3d41b211f52904d/docs/screenshot.png
+    alt: 运行中的子代理面板（运行中 / 已完成多状态同屏）
