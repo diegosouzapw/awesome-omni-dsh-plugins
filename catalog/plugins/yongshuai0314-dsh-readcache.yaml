@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yongshuai0314-dsh-readcache
+name: dsh-readcache
+description:
+  en: 'json { "hits": 2, "misses": 4, "hitRatio": 33.3, "stale": 1, "stores": 4, "evictions": 0, "savedChars": 1210, "clearedEntries": 0, "entries": 3, "cachedChars": 1662, "maxEntries": 300 }'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - cache
+  - read
+  - performance
+source:
+  repository: https://github.com/yongshuai0314/dsh-readcache
+  repositoryNodeId: R_kgDOUBqtFg
+  subpath: null
+  commit: f4657b76bb786059426ba275a7619804c30841c8
+creator:
+  github: yongshuai0314
+package:
+  ecosystem: npm
+  name: dsh-readcache
+  version: 1.0.1
+  integrity: sha512-wDP1Z5h5Z5MYxXNIjGS7XKd+TuOU5FYn52UEeOC/F68S7WEOeOrhF6mNE0FqzJYeO8UcoPVsOyNRkJHsZpg8Kw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:19.735Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
