@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: vvlife-whalehub-market
+name: whalehub-market
+description:
+  en: sh dsh plugin --profile web add "github:vvlife/whalehub-dsh main&path:/plugin"
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - profile
+  - vvlife
+  - whalehub
+  - main
+  - path
+  - dsh
+source:
+  repository: https://github.com/vvlife/whalehub-dsh
+  repositoryNodeId: R_kgDOT3jamA
+  subpath: plugin
+  commit: fa68a91128e588265df8322bcfeffb2f95fe4a49
+creator:
+  github: vvlife
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:44.175Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vvlife/whalehub-dsh/fa68a91128e588265df8322bcfeffb2f95fe4a49/docs/screenshots/08-dsh-web-market.png
+    alt: 在 DSH Web 中使用 WhaleHub
