@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wr-web-dsh-context-tree
+name: dsh-context-tree
+description:
+  en: Reusable trajectory-tree context, exact-turn forks, and bounded cross-session recall for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh-plugin
+  - agent-context
+  - context-tree
+  - session-memory
+  - session-visualization
+  - coding-agent
+  - dsh
+source:
+  repository: https://github.com/wr-web/dsh-context-tree
+  repositoryNodeId: R_kgDOUFLGYw
+  subpath: null
+  commit: 6f3cf9287937ea5acee8e118ac02af5cde067928
+creator:
+  github: wr-web
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:37.236Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
