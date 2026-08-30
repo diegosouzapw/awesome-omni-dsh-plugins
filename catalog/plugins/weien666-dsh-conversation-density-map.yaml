@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: weien666-dsh-conversation-density-map
+name: dsh-conversation-density-map
+description:
+  en: 安装： dsh plugin --profile web add github:weien666/dsh-conversation-density-map
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - profile
+  - weien666
+  - conversation
+  - density
+  - dsh
+source:
+  repository: https://github.com/weien666/dsh-conversation-density-map
+  repositoryNodeId: R_kgDOT9FCNQ
+  subpath: null
+  commit: b860585efc441ee9f8f252c591f1969318e92d0a
+creator:
+  github: weien666
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:28.075Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/weien666/dsh-conversation-density-map/b860585efc441ee9f8f252c591f1969318e92d0a/docs/demo-main.gif
+    alt: 主界面总览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/weien666/dsh-conversation-density-map/b860585efc441ee9f8f252c591f1969318e92d0a/docs/demo-window-length.gif
+    alt: 常规与最大化切换
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/weien666/dsh-conversation-density-map/b860585efc441ee9f8f252c591f1969318e92d0a/docs/demo-spread-regular.gif
+    alt: 常规窗口疏散
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/weien666/dsh-conversation-density-map/b860585efc441ee9f8f252c591f1969318e92d0a/docs/demo-spread-maximized.gif
+    alt: 最大化窗口疏散
