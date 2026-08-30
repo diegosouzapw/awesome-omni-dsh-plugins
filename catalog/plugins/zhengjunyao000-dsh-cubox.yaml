@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zhengjunyao000-dsh-cubox
+name: dsh-cubox
+description:
+  en: "Cubox sync for DeepSeek Harness: scheduled sync of your bookmarks, today's collection outline, and aggregated annotations/notes via the Cubox API-extension endpoints (/c/api/cli) — agent tools plus a web settings panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cubox
+  - bookmark
+  - read-later
+  - annotations
+  - sync
+  - summary
+source:
+  repository: https://github.com/zhengjy01/dsh-cubox
+  repositoryNodeId: R_kgDOUBhyHA
+  subpath: null
+  commit: f60a799ebb199ef120eb01fefc41d072e32601d8
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: dsh-cubox
+  version: 0.1.0
+  integrity: sha512-KRaNqZZ82wL3TvlnwXISWGYZtPpycQQtksfhI71poSDN18ruZBJSg0fM9HVvrQ9MA8c4Fqn5GdOUbCN3DaK2UQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:24.753Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
