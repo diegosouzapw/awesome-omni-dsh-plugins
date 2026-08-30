@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: sailingloong-loongport
+name: loongport
+description:
+  en: LoongPort DeepSeek Harness (dsh) Cordis bundle and setup CLI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - loongport
+  - openai-compatible
+  - cordis
+  - cli
+source:
+  repository: https://github.com/SailingLoong/loongport-dsh
+  repositoryNodeId: R_kgDOT3-CyQ
+  subpath: null
+  commit: a5c1c2e8a4f08c72c304078b5cbc5636a641bee9
+creator:
+  github: SailingLoong
+package:
+  ecosystem: npm
+  name: loongport
+  version: 0.2.0
+  integrity: sha512-L/szWvVbDp8oIlTpNoAOZRF15JUh1o2d1wPnJiE7IGuC7SCBDoMRgZ3PWdA7XrPCdvYYAiISvQ48KtHRXNF/qw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:54.834Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
