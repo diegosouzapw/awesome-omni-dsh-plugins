@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wackyju2-beep-dsh-better
+name: dsh-better
+description:
+  en: "Better DSH: archived-session management, task-stop desktop notifications, an update checker, model routing (keyword rules + allowlist-gated model route), and a DeepSeek-style message scroll nav for the dsh web GUI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/wackyju2-beep/dsh-better
+  repositoryNodeId: R_kgDOUAwM1A
+  subpath: null
+  commit: cd6f5572a37e7acd7fda7666d6d3a4e8324463fb
+creator:
+  github: wackyju2-beep
+package:
+  ecosystem: npm
+  name: dsh-better
+  version: 0.4.1
+  integrity: sha512-8e9FEA3dL/wck5vM/3JUF0ibWlJjp6nA0R6R5K0PA+h30oLNkBVD836lvVIDe7+POwTkPEGwwzSxzPb5Ndd/yg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:29.552Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
