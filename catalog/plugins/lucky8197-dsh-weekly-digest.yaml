@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lucky8197-dsh-weekly-digest
+name: dsh-weekly-digest
+description:
+  en: Weekly Digest Generator for DeepSeek Harness. Aggregates the last N days (default 7) of git commits, DSH session activity and daily memory entries into a Markdown weekly report — commits per day, top contributors, recent commit list, per-project session counts, and daily memory highlights. Read-only end to end. Install
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - weekly
+  - digest
+  - generator
+  - aggregates
+  - last
+  - days
+  - default
+  - commits
+  - session
+  - activity
+  - daily
+  - memory
+  - entries
+  - markdown
+  - report
+  - contributors
+source:
+  repository: https://github.com/lucky8197/dsh-weekly-digest
+  repositoryNodeId: R_kgDOT5Csug
+  subpath: null
+  commit: d64a013d46636740d382c473529e9fb86f5c4897
+creator:
+  github: lucky8197
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:36.071Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
