@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: opaimon-dsh-model-gate
+name: dsh-model-gate
+description:
+  en: "Single-model disable gate: hides denied models from every discovery path, blocks dispatch with an in-protocol error chunk, and exposes a settings-section UI for the denylist"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - model-gate
+  - denylist
+source:
+  repository: https://github.com/OPaimon/dsh-model-gate
+  repositoryNodeId: R_kgDOUBhU7Q
+  subpath: null
+  commit: 99ff88fc9fe432faf8ba3dfc0b3f3d2e13809896
+creator:
+  github: OPaimon
+package:
+  ecosystem: npm
+  name: dsh-model-gate
+  version: 0.1.2
+  integrity: sha512-wUUHI620JCFNCZM8qvSUMtcnTHpM5pswaWEBh9cwKU4JisVDCrgz0OicTCXiRW0WCgFo41kEDOcmIRpF6vizPg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:02.291Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OPaimon/dsh-model-gate/99ff88fc9fe432faf8ba3dfc0b3f3d2e13809896/assets/settings-panel.png
+    alt: Model gate settings panel
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OPaimon/dsh-model-gate/99ff88fc9fe432faf8ba3dfc0b3f3d2e13809896/assets/picker-model-enabled.png
+    alt: Picker with the model enabled
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OPaimon/dsh-model-gate/99ff88fc9fe432faf8ba3dfc0b3f3d2e13809896/assets/picker-model-denied.png
+    alt: Picker with the model denied
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/OPaimon/dsh-model-gate/99ff88fc9fe432faf8ba3dfc0b3f3d2e13809896/assets/dispatch-blocked.png
+    alt: Dispatch blocked with MODEL_DISABLED
