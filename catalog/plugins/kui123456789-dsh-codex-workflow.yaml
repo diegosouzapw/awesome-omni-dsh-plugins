@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kui123456789-dsh-codex-workflow
+name: dsh-codex-workflow
+description:
+  en: DeepSeek Harness plugin that uses Codex to plan and review while DSH executes.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - codex
+  - workflow
+  - code-review
+source:
+  repository: https://github.com/kui123456789/dsh-codex-workflow
+  repositoryNodeId: R_kgDOT9iD2w
+  subpath: null
+  commit: 0be09fd3860254993f13ffdf8809131c67101f81
+creator:
+  github: kui123456789
+package:
+  ecosystem: npm
+  name: dsh-codex-workflow
+  version: 1.0.12
+  integrity: sha512-J3RJ8I9X6kjPPzMoGiI3V7gf7Wt1LC+vA2aYLHWRMjI5PFbmShlQBcgkIBzN/dR8Vv/zeL1hZCZqDTF9r3j06g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.852Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
