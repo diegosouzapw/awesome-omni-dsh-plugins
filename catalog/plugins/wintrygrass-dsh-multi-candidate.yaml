@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wintrygrass-dsh-multi-candidate
+name: dsh-multi-candidate
+description:
+  en: bash dsh plugin --profile web add dsh-multi-candidate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - multi-candidate
+  - test-time-scaling
+  - llm-as-a-verifier
+source:
+  repository: https://github.com/WintryGrass/dsh-multi-candidate
+  repositoryNodeId: R_kgDOT-lsug
+  subpath: null
+  commit: c034cd62d2b3f82cd29148cb0d41b8731bfd5dac
+creator:
+  github: WintryGrass
+package:
+  ecosystem: npm
+  name: dsh-multi-candidate
+  version: 1.1.2
+  integrity: sha512-d7RvGoLmDvJYGAsoutRRJl6V/RTvPwko9eMS1Lwfl/+g+nxHfyLO3CaKZSfGEqYtMNLVjOkDr69kjoD1IE8sWA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:31.306Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
