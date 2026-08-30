@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-bigplan
+name: "@kobenfang/dsh-bigplan"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): bigplan."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - agent
+  - skill
+  - bigplan
+  - dsh
+source:
+  repository: https://github.com/kobenfang/BigPlan
+  repositoryNodeId: R_kgDOT62abQ
+  subpath: null
+  commit: 52065045c5001e38d9802618a66f9c1afcce587a
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:41.077Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
