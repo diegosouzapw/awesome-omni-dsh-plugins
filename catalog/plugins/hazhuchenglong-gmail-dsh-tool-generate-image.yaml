@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: hazhuchenglong-gmail-dsh-tool-generate-image
+name: dsh-tool-generate-image
+description:
+  en: "Model-facing generate image tool for DeepSeek Harness (dsh): generates brand-new images with the Google Gemini image-generation service via the Antigravity CLI, saves them, and returns the paths. Hot-pluggable — install with dsh plugin --profile web add dsh-tool-generate-image ."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - image
+  - image-generation
+  - generate-image
+  - gemini
+  - antigravity
+  - tool
+  - vision
+source:
+  repository: https://github.com/zclDragon/dsh-tool-generate-image
+  repositoryNodeId: R_kgDOT8Ajtw
+  subpath: null
+  commit: 0d75d26888fc4272ee3d294cd4ac3549a896b86e
+creator:
+  github: hazhuchenglong-gmail
+package:
+  ecosystem: npm
+  name: dsh-tool-generate-image
+  version: 0.2.1
+  integrity: sha512-+RbirtYSwLyIcm12bkq1dJnbbiH1gMoox7S6Z79YXWqPMuLkJf5LYdR4vjo4iK+UAIZ/LPDo+SvwziSNMxnLsg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.035Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zclDragon/dsh-tool-generate-image/0d75d26888fc4272ee3d294cd4ac3549a896b86e/assets/demo-cat-sofa.png
+    alt: 生成效果示例：坐在蓝色沙发上的橘猫
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zclDragon/dsh-tool-generate-image/0d75d26888fc4272ee3d294cd4ac3549a896b86e/assets/demo-shiba-dev.jpg
+    alt: 生成效果示例：写代码的柴犬程序员
