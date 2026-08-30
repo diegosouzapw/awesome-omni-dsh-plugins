@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: vesna-strivozha-dsh-llm-wiki
+name: "@vesna-strivozha-2026/dsh-llm-wiki"
+description:
+  en: "LLM Wiki host engine: RPC for the wiki panel, ingest/search/graph/lint, the wiki query tool, and a prompt section (Karpathy Wiki methodology)"
+  evidencePath: packages/dsh-llm-wiki/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - wiki
+  - host
+  - engine
+  - panel
+  - ingest
+  - search
+  - graph
+  - lint
+  - query
+  - tool
+  - prompt
+  - section
+  - karpathy
+  - methodology
+  - dsh
+source:
+  repository: https://github.com/Vesna-Strivozha/DSH-LLM-wiki-plugin
+  repositoryNodeId: R_kgDOUBcq5g
+  subpath: packages/dsh-llm-wiki
+  commit: 084e7f5a1ec60e63245ce95e00a5bb4c77bbed85
+creator:
+  github: Vesna-Strivozha
+package:
+  ecosystem: npm
+  name: "@vesna-strivozha-2026/dsh-llm-wiki"
+  version: 1.0.6
+  integrity: sha512-/v4RG58jGQTo1pdajbnNP/PRspYomB7SPlgoty3W07CBEkpnsx9LgwPkCfo4Y+r8Hi3N0gmags0Rxslh9K0c5w==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-llm-wiki/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:42.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
