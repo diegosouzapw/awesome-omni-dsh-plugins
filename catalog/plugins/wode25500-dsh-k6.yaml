@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-k6
+name: dsh-k6
+description:
+  en: "Grafana k6 load-testing integration for DeepSeek Harness: write, run and analyze performance test scripts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - k6
+  - load-testing
+  - performance
+  - grafana
+source:
+  repository: https://github.com/WODE25500/dsh-k6
+  repositoryNodeId: R_kgDOT-CD-w
+  subpath: null
+  commit: 979c8ce347385344b01ae37eab98afad3afd9770
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:24.650Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
