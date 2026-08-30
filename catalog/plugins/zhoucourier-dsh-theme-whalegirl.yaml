@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zhoucourier-dsh-theme-whalegirl
+name: dsh-theme-whalegirl
+description:
+  en: "DeepSeek-鲸鱼娘 (Whale Girl) theme for the DeepSeek Harness web GUI — ported from the DreamSkin skin package: full --dsw- token remap on the native theme runtime, ambient whale-girl wallpaper behind a lightly frosted rose/periwinkle UI with user-adjustable glass strength, coffee-accent composer focus and soft pill navigat"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - whalegirl
+  - dreamskin
+  - web-ui
+  - customizable
+source:
+  repository: https://github.com/ZHOUcourier/dsh-theme-whalegirl
+  repositoryNodeId: R_kgDOUAtkoA
+  subpath: null
+  commit: 77df518360f0a23cf09fad067841c5c090ba54b3
+creator:
+  github: ZHOUcourier
+package:
+  ecosystem: npm
+  name: dsh-theme-whalegirl
+  version: 0.2.0
+  integrity: sha512-5MGeWSYicVmoGr8P8amjMECRIbqrlq+cXT5CeU+04fVxkmMR8q7UOARUh44XVTQ7MdJVovBzgUdjy6eJqD3Msw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:57.034Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZHOUcourier/dsh-theme-whalegirl/77df518360f0a23cf09fad067841c5c090ba54b3/assets/previews/preview.png
+    alt: preview
