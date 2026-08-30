@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: why-daydream-dsh-tool-idempotency
+name: "@why-daydream/dsh-tool-idempotency"
+description:
+  en: Deduplicate retried tool calls by idempotency key, reuse prior results, and prevent duplicate side effects for DeepSeek Harness agents
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deduplicate
+  - retried
+  - tool
+  - calls
+  - idempotency
+  - reuse
+  - prior
+  - results
+  - prevent
+  - duplicate
+  - side
+  - effects
+  - agents
+  - dsh
+source:
+  repository: https://github.com/WHY-Daydream/dsh-tool-idempotency
+  repositoryNodeId: R_kgDOT6NTFw
+  subpath: null
+  commit: 7aab1b927395a27116bbc07096d7a54a6797a9aa
+creator:
+  github: WHY-Daydream
+package:
+  ecosystem: npm
+  name: "@why-daydream/dsh-tool-idempotency"
+  version: 0.1.1
+  integrity: sha512-6+WZaQeEVYFDeAej2UGVYglgSsSrKgxdCIDBFyl61fSpwDExYZGXK5ofpQFO2Ol19ySfDAiPD3hydH3r/ewJpQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:46.009Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
