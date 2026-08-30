@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: githungdang-dsh-host-history-lite
+name: dsh-host-history-lite
+description:
+  en: Host plugin for dsh web that slims session.history responses by folding finalized assistant/chunk deltas, reducing history payloads for long streaming sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - history
+  - session
+source:
+  repository: https://github.com/GithungDang/dsh-host-history-lite
+  repositoryNodeId: R_kgDOT6weNA
+  subpath: null
+  commit: b28757e51c7961f808f3526c7726943f4b669a0f
+creator:
+  github: GithungDang
+package:
+  ecosystem: npm
+  name: dsh-host-history-lite
+  version: 0.1.1
+  integrity: sha512-X7QjX6MN55A+LWZCbYKkBNvRxK2XWw9ysvIAjdb0e+LpihCU+J1e+dnTxnvuB7SFpWXr0WCzka1yVBrp4JrScQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:10.542Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
