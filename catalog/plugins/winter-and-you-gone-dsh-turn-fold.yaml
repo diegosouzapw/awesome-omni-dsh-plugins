@@ -1,0 +1,59 @@
+schemaVersion: 1
+id: winter-and-you-gone-dsh-turn-fold
+name: "@winteries/dsh-turn-fold"
+description:
+  en: Tired of dozens of tool calls filling your screen? Envious of Codex's auto-collapse next door? Then this plugin is made for you.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - collapse
+  - fold
+  - think
+  - tool-call
+source:
+  repository: https://github.com/Winter-And-You-Gone/dsh-turn-fold
+  repositoryNodeId: R_kgDOT5ZvVw
+  subpath: null
+  commit: 004d233369768a09b02b97b644afe6e87c1bf080
+creator:
+  github: Winter-And-You-Gone
+package:
+  ecosystem: npm
+  name: "@winteries/dsh-turn-fold"
+  version: 0.4.0
+  integrity: sha512-UsHye4+UHwIkL4hU7W8CXnGots5sDoBtE6XWiCma5xTZdBOvjgi4Exiw7Zft6BZdg+wtK2lIvt/IrEB0/jMhaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:06.449Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Winter-And-You-Gone/dsh-turn-fold/004d233369768a09b02b97b644afe6e87c1bf080/docs/images/segment-file-hover.png
+    alt: 文件名悬停
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Winter-And-You-Gone/dsh-turn-fold/004d233369768a09b02b97b644afe6e87c1bf080/docs/images/turn-expanded.png
+    alt: 回合展开态
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Winter-And-You-Gone/dsh-turn-fold/004d233369768a09b02b97b644afe6e87c1bf080/docs/images/turn-folded.png
+    alt: 整回合折叠
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Winter-And-You-Gone/dsh-turn-fold/004d233369768a09b02b97b644afe6e87c1bf080/docs/images/gear-popup.png
+    alt: 设置弹窗
