@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yiqizhuapangxiema-dsh-plugin-store-optimized
+name: dsh-plugin-store-optimized
+description:
+  en: "Harness Plugin Store Optimized: a customized fork of dsh-plugin-hub — configurable plugin download directory, bundle-layer conflict detection, automatic pnpm lookup, and upstream bug fixes"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - plugin-hub
+  - plugin-store
+  - plugin-marketplace
+  - web-ui
+  - one-click-install
+  - audit-log
+  - plugin-bundle
+source:
+  repository: https://github.com/yiqizhuapangxiema/harness-plugin-store-optimized
+  repositoryNodeId: R_kgDOT7GFuw
+  subpath: null
+  commit: 940978581a930b726d0b68828f0a6f77100e175c
+creator:
+  github: yiqizhuapangxiema
+package:
+  ecosystem: npm
+  name: dsh-plugin-store-optimized
+  version: 0.2.0
+  integrity: sha512-yCRGDOR2gye7oERyVR+68LQE5gVASX7RPGnfFGqvrRFEyuFDXa2Mqf7YAtoxR61lPPu9v7C4B2Qp21VHzlMbcA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:19.654Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
