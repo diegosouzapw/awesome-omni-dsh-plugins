@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: junkrat9527-dsh-desktop-automation
+name: dsh-desktop-automation
+description:
+  en: "macOS desktop control for DeepSeek Harness: agent operates non-browser apps (CapCut/PS/WPS/native clients) like a human — see screen, move mouse, type text. 14 tools + vision closed-loop (see/locate/click/verify)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - desktop-automation
+  - gui
+  - macos
+  - automation
+  - cgevent
+  - vision
+  - screen-control
+source:
+  repository: https://github.com/Junkrat9527/dsh-desktop-automation
+  repositoryNodeId: R_kgDOT9XH1g
+  subpath: null
+  commit: ba7e01c0bd0f031ceec98d3a433d6f7e55dfab48
+creator:
+  github: Junkrat9527
+package:
+  ecosystem: npm
+  name: dsh-desktop-automation
+  version: 0.1.1
+  integrity: sha512-Lw3hC2GuWzeyQIvqoAXsTOOg8+h4EtnB1gDf97O0Qkku/EyHvi5DtB7McDDSzQ9pv6YJ57omMJGNCzleddyBGg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:50.343Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
