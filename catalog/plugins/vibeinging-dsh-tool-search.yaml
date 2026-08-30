@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: vibeinging-dsh-tool-search
+name: "@deepseek-ai/dsh-tool-search"
+description:
+  en: Experimental per-agent tool discovery and progressive schema disclosure
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - experimental
+  - agent
+  - tool
+  - discovery
+  - progressive
+  - schema
+  - disclosure
+  - dsh
+source:
+  repository: https://github.com/vibeinging/dsh-tool-search
+  repositoryNodeId: R_kgDOT09-qw
+  subpath: null
+  commit: 265ce76eda21b211dc4a4c8f30d73a6826f035ca
+creator:
+  github: vibeinging
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:28.997Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
