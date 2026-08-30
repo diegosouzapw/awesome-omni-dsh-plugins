@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: lxfu1-dsh-plugin-chart
+name: dsh-plugin-chart
+description:
+  en: Community DeepSeek Harness plugin that bundles the AntV chart visualization skill and a native chart-generation tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - antv
+  - chart
+  - data-visualization
+  - deepseek-harness
+  - dsh-plugin
+  - skill
+  - dsh
+source:
+  repository: https://github.com/lxfu1/dsh-plugin-chart
+  repositoryNodeId: R_kgDOT_-6ZQ
+  subpath: null
+  commit: 469445d0fc374431aed6ca19107941db2d63f419
+creator:
+  github: lxfu1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:30.736Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
