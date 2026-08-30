@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: githungdang-dsh-client-ui-mobile
+name: dsh-client-ui-mobile
+description:
+  en: "Mobile layout enhancement for the dsh web UI: narrow-screen CSS and a floating navigation toggle, reusing the built-in layout slots"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - mobile
+  - ui
+source:
+  repository: https://github.com/GithungDang/dsh-client-ui-mobile
+  repositoryNodeId: R_kgDOT6v7kA
+  subpath: null
+  commit: 99c79073b70df311b4a70d5c6f215c347a0c4989
+creator:
+  github: GithungDang
+package:
+  ecosystem: npm
+  name: dsh-client-ui-mobile
+  version: 0.1.9
+  integrity: sha512-S/5+mfIeP1vzhz1PtW3f9TrVyxRs8IcF6jHLntSPCp/p6i27oamhacgZ+xruLXz3P6GXjsHrunB/VasqG8zNYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:59.501Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
