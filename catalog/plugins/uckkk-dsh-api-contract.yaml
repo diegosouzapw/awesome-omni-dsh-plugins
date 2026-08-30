@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-api-contract
+name: dsh-api-contract
+description:
+  en: bash dsh plugin add dsh-api-contract
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - openapi
+  - swagger
+  - client
+source:
+  repository: https://github.com/uckkk/dsh-api-contract
+  repositoryNodeId: R_kgDOT57NbA
+  subpath: null
+  commit: 92930413dc519e0b165b11d19587d0ebad6226de
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-api-contract
+  version: 0.1.0
+  integrity: sha512-0xpp84QWUl6HXbNJZc6q4Gnoi94ZwUFuEKjLCv6yb8VHWh0EDKjY0I3EauNbv+e4holrKVMzIiIvOiZh+Yen6g==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:10.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
