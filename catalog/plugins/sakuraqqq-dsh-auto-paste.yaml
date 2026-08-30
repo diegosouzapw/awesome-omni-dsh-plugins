@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sakuraqqq-dsh-auto-paste
+name: dsh-auto-paste
+description:
+  en: "sh npm i dsh-auto-paste 最新版（dist-tag: latest）；--save-exact 可锁版 npm i dsh-auto-paste@0.1.2 或指定版本 dsh plugin --profile web add dsh-auto-paste dsh --profile web 重启 web profile，观察: [dsh-auto-paste] host ready ..."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - paste
+  - attachment
+source:
+  repository: https://github.com/sakuraqqq/dsh-auto-paste
+  repositoryNodeId: R_kgDOT5zTiw
+  subpath: null
+  commit: 4240952e0ece7a6415380e9ed4c10ee0b5f4e131
+creator:
+  github: sakuraqqq
+package:
+  ecosystem: npm
+  name: dsh-auto-paste
+  version: 0.1.2
+  integrity: sha512-tY7mczjqlIChQQOhc1jEm6KtHgXW5zyWFptFfVYEW6Js6cXb+CFDtiHjL5xJs9bN793/VPPxr+Q7Y+tLdhgiqQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:55.235Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
