@@ -16,7 +16,7 @@ Ugunduzi unaotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi
   <a href="https://dsh-plugins.omniroute.online">Vinjari, tafuta na sakinisha kila programu-jalizi kwenye tovuti →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-2782_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-2874_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ na hazina hii inabeba data ya katalogi ya umma, schema na sera ambazo zote mbili
 
 ## Hali ya Katalogi
 
-**Programu-jalizi 2782 zimeunganishwa.** Kila programu-jalizi inaingia kupitia pull request iliyokaguliwa
+**Programu-jalizi 2874 zimeunganishwa.** Kila programu-jalizi inaingia kupitia pull request iliyokaguliwa
 kibinafsi, moja kwa wakati, kutoka hazina ya muumba wa asili, ikiwa na commit ya chanzo iliyobandikwa na
 utambuzi wa wazi.
 
@@ -336,4 +336,4 @@ Angalia [docs/CREDIT.md](../../docs/CREDIT.md) na [docs/UNOFFICIAL.md](../../doc
 
 </div>
 
-<!-- i18n-source-hash: 55c1a7fca8dc55e7512fe9f471dacc1079c2b1e236e5810f703f356325141f60 -->
+<!-- i18n-source-hash: 067e6c2b264e95012e79d08f619ed7cc9191b8ce6449f2d173e838b53eb84088 -->
