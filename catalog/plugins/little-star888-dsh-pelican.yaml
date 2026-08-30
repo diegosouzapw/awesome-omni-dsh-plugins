@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: little-star888-dsh-pelican
+name: dsh-pelican
+description:
+  en: bash dsh plugin --profile web add ./dsh-pelican
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - pelican
+  - fun
+  - animation
+source:
+  repository: https://github.com/Little-Star888/dsh-pelican
+  repositoryNodeId: R_kgDOT7XEiw
+  subpath: null
+  commit: 7a67c5e7e80be4ad14602e23666128859c4ef533
+creator:
+  github: Little-Star888
+package:
+  ecosystem: npm
+  name: dsh-pelican
+  version: 0.1.1
+  integrity: sha512-ALOQqXVn5/cmSweAGxGvyGmXkEz8Hv1q80gmNqmCxyIMm/IAqKE+j486T0iCFwVUtIdR9loJfBj21zC8Sanbyg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:47.671Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
