@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yzz-s-dsh-notifier
+name: dsh-notifier
+description:
+  en: '- Task-finished notification : when a top-level session goes from running back to idle (a turn ends), sends "Task completed" - Confirmation / input notification : when an approval is triggered ( approval/request , e.g. a tool needs your confirmation), sends "Action required" with the tool name and reason - Does not int'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - notification
+  - notifier
+  - toast
+source:
+  repository: https://github.com/YZz-S/dsh-notifier
+  repositoryNodeId: R_kgDOT4-A0w
+  subpath: null
+  commit: 1979ea18ed4ac20591db1852f7c1a6e198f79cf2
+creator:
+  github: YZz-S
+package:
+  ecosystem: npm
+  name: dsh-notifier
+  version: 0.2.0
+  integrity: sha512-b2EF21ve7t4Jp6AD1+0aTsOEkNVBArhqUYeY7cPHEqSlHhCbvPdTt1YXjbq0BM2X8g5KtkGMH+TXKWHkQmU+Zg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:20.731Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
