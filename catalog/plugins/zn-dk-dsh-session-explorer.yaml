@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: zn-dk-dsh-session-explorer
+name: dsh-session-explorer
+description:
+  en: "DSH Web plugin: message-level full-text search across sessions. Search a specific message (user / assistant / tool / system-injected), preview context read-only, and jump to the real session with one click."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - message
+  - level
+  - full
+  - text
+  - search
+  - across
+  - sessions
+  - specific
+  - user
+  - assistant
+  - tool
+  - system
+  - injected
+  - preview
+  - context
+  - read
+source:
+  repository: https://github.com/Zn-Dk/dsh-session-explorer
+  repositoryNodeId: R_kgDOUCRUpg
+  subpath: null
+  commit: 73ab99e399550d3daf65730b3a012ab2b2c5c5ec
+creator:
+  github: Zn-Dk
+package:
+  ecosystem: npm
+  name: dsh-session-explorer
+  version: 0.4.2
+  integrity: sha512-vgVqR5pHf9cdk4WmkkICKv9XU32yTpSW7KTJeX1AJrCf3bUpQlhqxAe2m0G5ljN5gVXiXfr4fkkJLqqwyxl7tA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:04.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
