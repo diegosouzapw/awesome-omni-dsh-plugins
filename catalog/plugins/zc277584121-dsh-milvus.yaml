@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zc277584121-dsh-milvus
+name: "@zilliz/dsh-milvus"
+description:
+  en: Milvus for DSH — a read-only dsh Web plugin for Agent and RAG developers
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - milvus
+  - read
+  - only
+  - agent
+  - developers
+  - dsh
+source:
+  repository: https://github.com/zilliztech/dsh-milvus
+  repositoryNodeId: R_kgDOT8PVhA
+  subpath: null
+  commit: 604b041bab952a57c713974f85c97bf4dc1c9386
+creator:
+  github: zc277584121
+package:
+  ecosystem: npm
+  name: "@zilliz/dsh-milvus"
+  version: 0.1.3
+  integrity: sha512-n7yDL0kNqhQ0CgFocSFFGxoXH3BgtXQx52I+rW0A8E/Cq+MuQO8lnP+xALb90ADfv+/02VjmcRZ/Z0DKssMOog==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.467Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
