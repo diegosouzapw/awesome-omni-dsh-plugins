@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xiekai886-dsh-music
+name: "@dsh-external/dsh-music"
+description:
+  en: An animated floating music player plugin for DeepSeek Harness Web with a collapsible/expandable draggable frosted-glass card, deep NetEase Cloud Music integration (playlist import by link/ID, search by title/artist), a multi-layer audio source resolver (Meting → outer/url) that works around browser CORS and anti-leechi
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - animated
+  - floating
+  - music
+  - player
+  - collapsible
+  - expandable
+  - draggable
+  - frosted
+  - glass
+  - card
+  - deep
+  - netease
+  - cloud
+  - integration
+  - playlist
+  - import
+source:
+  repository: https://github.com/xiekai886/dsh-MusicPlayer
+  repositoryNodeId: R_kgDOT4kl0w
+  subpath: null
+  commit: b026a1373092ba5a7993a7c63fee6611f0ebe39e
+creator:
+  github: xiekai886
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.787Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
