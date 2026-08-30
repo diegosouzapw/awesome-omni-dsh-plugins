@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yiipu-dsh-agentmemory
+name: dsh-agentmemory
+description:
+  en: DSH ↔ agentmemory session-memory bridge (backend-only). Mirrors session lifecycle into agentmemory with standard hookTypes (compression-friendly, dedup-safe), exposes memory recall / memory remember tools, and injects memory context via agent/pre-step. Configuration comes from the cordis.yml row.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - agentmemory
+  - memory
+source:
+  repository: https://github.com/Yiipu/dsh-agentmemory
+  repositoryNodeId: R_kgDOT5H2aA
+  subpath: null
+  commit: 43b06b1a680ee358c5dabc362bbcbebf6918cb27
+creator:
+  github: Yiipu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:13.701Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
