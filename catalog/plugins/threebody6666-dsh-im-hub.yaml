@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: threebody6666-dsh-im-hub
+name: dsh-im-hub
+description:
+  en: A multi-platform IM gateway for DeepSeek Harness (dsh) — Feishu (Lark), WeCom (WeChat Work), and Telegram, with a visual settings card in the web GUI. Turn your dsh agent into a chat assistant reachable from the messaging apps you already use.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - bundle
+  - im
+  - chatbot
+  - feishu
+  - lark
+  - wecom
+  - wechat
+  - telegram
+  - agent
+source:
+  repository: https://github.com/ThreeBody6666/dsh-im-hub
+  repositoryNodeId: R_kgDOT4U15A
+  subpath: null
+  commit: 46d9059d874ac3df646de8fcaa20836c1a135053
+creator:
+  github: ThreeBody6666
+package:
+  ecosystem: npm
+  name: dsh-im-hub
+  version: 0.2.3
+  integrity: sha512-9J3lyUYDGn4icujaFLzFXQHmEMxO2Vew8lV2vhCew7n5qp71AzynRlOWsF5NAW5mHN7QE/tc1MYdhrItlcgLBg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:48.468Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ThreeBody6666/dsh-im-hub/46d9059d874ac3df646de8fcaa20836c1a135053/docs/images/settings-guidance-telegram.png
+    alt: Telegram settings with labels, guidance, and examples
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ThreeBody6666/dsh-im-hub/46d9059d874ac3df646de8fcaa20836c1a135053/docs/images/settings-guidance-feishu.png
+    alt: Feishu settings with labels, guidance, and examples
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ThreeBody6666/dsh-im-hub/46d9059d874ac3df646de8fcaa20836c1a135053/docs/images/settings-guidance-wecom.png
+    alt: WeCom settings with labels, guidance, and examples
