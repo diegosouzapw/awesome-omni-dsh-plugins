@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: alex04130-dsh-forge-bundle
+name: "@dsh-forge/bundle"
+description:
+  en: "DSH extension suite host bundle: cross-session mailbox, agent teams, model delegation & routing policy, runtime injector, skill manager, dynamic-plugin boot, and the plugin/skill manager client packages."
+  evidencePath: bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - extension
+  - suite
+  - host
+  - bundle
+  - cross
+  - session
+  - mailbox
+  - agent
+  - teams
+  - model
+  - delegation
+  - routing
+  - policy
+  - runtime
+  - injector
+  - skill
+source:
+  repository: https://github.com/alex04130/dsh-forge
+  repositoryNodeId: R_kgDOT5ExAA
+  subpath: bundle
+  commit: 481725b4086aeb5d7b2bf56d3184d944311a380f
+creator:
+  github: alex04130
+package:
+  ecosystem: npm
+  name: "@dsh-forge/bundle"
+  version: 0.1.4
+  integrity: sha512-8d0WobrXtl11H2/RVEiumJfeOTNHZDXx+U1gJvldgFkwiebVzJ/CODmbeb81CNTQ/bil3kOd7gq7aypLbKdjuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:25.575Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
