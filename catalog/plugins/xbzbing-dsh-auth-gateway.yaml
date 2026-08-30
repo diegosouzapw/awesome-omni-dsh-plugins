@@ -1,0 +1,74 @@
+schemaVersion: 1
+id: xbzbing-dsh-auth-gateway
+name: dsh-auth-gateway
+description:
+  en: "Password login gateway plugin for dsh web: auto-generated initial password with forced onboarding, login, password change with real request interception, and OTP two-factor authentication."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - password
+  - login
+  - gateway
+  - auto
+  - generated
+  - initial
+  - forced
+  - onboarding
+  - change
+  - real
+  - request
+  - interception
+  - factor
+  - authentication
+  - dsh
+source:
+  repository: https://github.com/xbzbing/dsh-auth-gateway
+  repositoryNodeId: R_kgDOT4sstQ
+  subpath: null
+  commit: 79692b4d9a47eadd1efca17c78d7cd2056bc8753
+creator:
+  github: xbzbing
+package:
+  ecosystem: npm
+  name: dsh-auth-gateway
+  version: 0.5.1
+  integrity: sha512-JZWXeEfGCN5TO9ZyTHF1BZxy/w0+uYnE+iXuuk+dQV4TK1oF4etWjWzDNvN416LGhpBw7+NnHWxQ/QQvjxlT8A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.928Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/architecture.png
+    alt: dsh-auth-gateway 架构图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/onboarding.png
+    alt: 引导页（设置个人密码）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/login.png
+    alt: 登录（含 2FA 验证码）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/login-success.png
+    alt: 2FA 登录成功
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/otp-setup.png
+    alt: OTP 设置（QR 码）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xbzbing/dsh-auth-gateway/79692b4d9a47eadd1efca17c78d7cd2056bc8753/docs/assets/settings-menu.png
+    alt: 设置菜单（含认证设置入口）
