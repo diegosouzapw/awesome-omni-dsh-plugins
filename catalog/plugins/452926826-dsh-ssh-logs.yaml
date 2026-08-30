@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 452926826-dsh-ssh-logs
+name: dsh-ssh-logs
+description:
+  en: Read allowlisted remote logs over SSH from DeepSeek Harness conversations
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - ssh
+  - logs
+source:
+  repository: https://github.com/452926826/dsh-ssh-logs
+  repositoryNodeId: R_kgDOUDqYUA
+  subpath: null
+  commit: 4dbc65c4bb250f72388edfd42b3d3e4d0103699c
+creator:
+  github: "452926826"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:21.482Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
