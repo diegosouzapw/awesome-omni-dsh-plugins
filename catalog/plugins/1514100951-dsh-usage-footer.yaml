@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 1514100951-dsh-usage-footer
+name: dsh-usage-footer
+description:
+  en: "DSH web plugin: a floating usage/cost button with a hover panel (account balance, peak/off-peak bracket, cost estimate, session tokens, today's spend) and a General-settings on/off toggle, backed by the loopback-only GET /usage-status host route"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - bundle
+  - usage
+  - cost
+  - balance
+source:
+  repository: https://github.com/1514100951/dsh-usage-footer
+  repositoryNodeId: R_kgDOT4FnJQ
+  subpath: null
+  commit: 04fcd235d8fadd289b1d8355f58f493ef40440ac
+creator:
+  github: "1514100951"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:09.351Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
