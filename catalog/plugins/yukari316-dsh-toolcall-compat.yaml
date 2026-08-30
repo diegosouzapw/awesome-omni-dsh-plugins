@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yukari316-dsh-toolcall-compat
+name: "@yukari316/dsh-toolcall-compat"
+description:
+  en: "DSH tool-call compatibility: strips sandbox permissions/justification from tool-call arguments for third-party models (GPT etc.), and lets the user skip possibly-stuck tool calls with an LLM-facing notice."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - toolcall
+  - sandbox
+  - gpt
+  - compatibility
+  - stuck
+  - skip
+source:
+  repository: https://github.com/Yukari316/dsh-toolcall-compat
+  repositoryNodeId: R_kgDOT_SM5Q
+  subpath: null
+  commit: 59048ed0879831bd5ef7ca5d6f839c1d4196185e
+creator:
+  github: Yukari316
+package:
+  ecosystem: npm
+  name: "@yukari316/dsh-toolcall-compat"
+  version: 0.1.4
+  integrity: sha512-J1fCZOAtWnULzAgcAHUkbktLVmJQXL5KzfiUqlrvk1UFgSCNUbdf2SKbyqRYDjHYrvPy9qOXyjjGGZ18Rzh7tQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:24.285Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
