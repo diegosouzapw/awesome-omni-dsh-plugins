@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jhuanxx44-dsh-sseye
+name: dsh-sseye
+description:
+  en: The LLM debug console inside DeepSeek Harness — capture every model call, see everything, replay anything.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - llm
+  - debugging
+  - dsh
+source:
+  repository: https://github.com/jhuanxx44/dsh-sseye
+  repositoryNodeId: R_kgDOT-kK1w
+  subpath: null
+  commit: 1b4bdcf02bf99ac849f33db821548d4fc87d799b
+creator:
+  github: jhuanxx44
+package:
+  ecosystem: npm
+  name: dsh-sseye
+  version: 0.4.1
+  integrity: sha512-cJ0mMHlu4oLfrpsB1U6SPp2uAyE8RUGtMa7iPXxOm89cDYeAdyyBuL8V5o/9Ktk+Lc4b8AOfvZvax3E/QRz9vw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:37.599Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jhuanxx44/dsh-sseye/1b4bdcf02bf99ac849f33db821548d4fc87d799b/assets/panel-detail.png
+    alt: "SSEye panel: turn-grouped call list with an expanded inline detail — provider/model hero, TTFT/duration/usage stats, cac"
