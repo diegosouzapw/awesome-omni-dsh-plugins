@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: fuxin123z-dsh-skill-manage
+name: dsh-skill-manage
+description:
+  en: "DSH skill manage: agent-managed procedural memory. Create/patch/edit/disable/delete skills in ~/.dsh/skills (user scope) or <projectRoot /.dsh/skills (project scope), with validation, delete guards (agent-created marker, pin, path confinement), disable/enable via disable-model-invocation, and an English trigger-discipl"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - skill
+  - procedural-memory
+  - skill-manage
+source:
+  repository: https://github.com/fuxin123z/dsh-skill-manage
+  repositoryNodeId: R_kgDOT_e9-g
+  subpath: null
+  commit: cc2e84b8d35c3016a99b9a108021342869ce26e5
+creator:
+  github: fuxin123z
+package:
+  ecosystem: npm
+  name: dsh-skill-manage
+  version: 0.2.2
+  integrity: sha512-wIAMIIvJS4fYxUQj5wRA0TJfUw7lInVr0bk3RAXY4khOWxpslECNUNwIAtVxtAexNIzUEbo0LVBWjzvOnjJi/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:58.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
