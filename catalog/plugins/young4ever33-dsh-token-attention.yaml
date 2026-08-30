@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: young4ever33-dsh-token-attention
+name: dsh-token-attention
+description:
+  en: Token Check is a token-attention management panel for DeepSeek Harness (DSH). It records every conversation's token usage and estimated cost by task / day / week / month , recognizes task types, and — combined with DeepSeek's peak/off-peak pricing and DSH's context mechanics — tells you when to run a task, whether to s
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - token
+  - usage
+  - cost
+  - attention
+  - sqlite
+source:
+  repository: https://github.com/Young4ever33/dsh-token-attention
+  repositoryNodeId: R_kgDOUAh1TA
+  subpath: null
+  commit: f0f3e90b32f04655e0f5388baa603ec62b8cfe40
+creator:
+  github: Young4ever33
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:14.784Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Young4ever33/dsh-token-attention/f0f3e90b32f04655e0f5388baa603ec62b8cfe40/docs/screenshots/1-overview.png
+    alt: Overview
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Young4ever33/dsh-token-attention/f0f3e90b32f04655e0f5388baa603ec62b8cfe40/docs/screenshots/2-session.png
+    alt: Session card
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Young4ever33/dsh-token-attention/f0f3e90b32f04655e0f5388baa603ec62b8cfe40/docs/screenshots/3-tasks.png
+    alt: Tasks
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Young4ever33/dsh-token-attention/f0f3e90b32f04655e0f5388baa603ec62b8cfe40/docs/screenshots/4-cost.png
+    alt: Cost
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Young4ever33/dsh-token-attention/f0f3e90b32f04655e0f5388baa603ec62b8cfe40/docs/screenshots/5-settings.png
+    alt: Settings
