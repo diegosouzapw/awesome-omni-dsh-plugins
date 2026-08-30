@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: tobysunsun-dsh-code-reading-coach
+name: dsh-code-reading-coach
+description:
+  en: bash dsh plugin --profile web add github:tobysunsun/dsh-code-reading-coach
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - agent-preset
+  - code-reading
+  - paper
+source:
+  repository: https://github.com/tobysunsun/dsh-code-reading-coach
+  repositoryNodeId: R_kgDOUAbCTw
+  subpath: null
+  commit: f48388d4a79e13c43b7168a06a8838b14d933fe6
+creator:
+  github: tobysunsun
+package:
+  ecosystem: npm
+  name: dsh-code-reading-coach
+  version: 0.1.0
+  integrity: sha512-YmSCw3axli8i4eIELiZ25SBngrO4Lp6DcboAssXT6ilEoec/L5/cJZnfIIDNiN1HtHOTL9wYyoD2lt48iDkM9w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.174Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
