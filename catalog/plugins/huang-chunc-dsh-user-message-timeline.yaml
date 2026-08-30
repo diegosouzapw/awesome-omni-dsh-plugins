@@ -1,0 +1,61 @@
+schemaVersion: 1
+id: huang-chunc-dsh-user-message-timeline
+name: dsh-user-message-timeline
+description:
+  en: sh dsh plugin --profile web add dsh-user-message-timeline
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - timeline
+  - user-message
+source:
+  repository: https://github.com/huang-chunc/dsh-user-message-timeline
+  repositoryNodeId: R_kgDOUALV8w
+  subpath: null
+  commit: ecb34b5addc55c432d3f44c4517b7be61c681d53
+creator:
+  github: huang-chunc
+package:
+  ecosystem: npm
+  name: dsh-user-message-timeline
+  version: 0.2.0
+  integrity: sha512-ryUt9LGblRIco22Gw5eUHNqhmuLGNz5akt9RZUOZc15ebZQW/WQr4+Fxvq1amreU1HL718Bgh0f2Hj2x76oJSw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:01.334Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/huang-chunc/dsh-user-message-timeline/ecb34b5addc55c432d3f44c4517b7be61c681d53/docs/screenshot-light.png
+    alt: 浅色截图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/huang-chunc/dsh-user-message-timeline/ecb34b5addc55c432d3f44c4517b7be61c681d53/docs/screenshot-dark.png
+    alt: 深色截图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/huang-chunc/dsh-user-message-timeline/ecb34b5addc55c432d3f44c4517b7be61c681d53/docs/light.gif
+    alt: 浅色
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/huang-chunc/dsh-user-message-timeline/ecb34b5addc55c432d3f44c4517b7be61c681d53/docs/dark.gif
+    alt: 深色
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/huang-chunc/dsh-user-message-timeline/ecb34b5addc55c432d3f44c4517b7be61c681d53/docs/settings.gif
+    alt: 设置
