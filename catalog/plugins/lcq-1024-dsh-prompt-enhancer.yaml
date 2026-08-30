@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: lcq-1024-dsh-prompt-enhancer
+name: dsh-prompt-enhancer
+description:
+  en: text ~/.dsh/profiles/web/node modules/dsh-prompt-enhancer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - prompt
+  - enhance
+  - deepseek-harness
+source:
+  repository: https://github.com/LCQ-1024/dsh-prompt-enhancer
+  repositoryNodeId: R_kgDOT6td7g
+  subpath: null
+  commit: 8ed8036bf1b60403210228c0e02edba5c959db11
+creator:
+  github: LCQ-1024
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.857Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
