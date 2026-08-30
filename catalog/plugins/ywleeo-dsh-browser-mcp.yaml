@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: ywleeo-dsh-browser-mcp
+name: "@ywleeo/dsh-browser-mcp"
+description:
+  en: "dsh bundle: register ywleeo/browser-mcp (a local MCP server driving a real Chrome to search, capture, and automate any logged-in site) as native dsh MCP tools (mcp browser )."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - bundle
+  - register
+  - ywleeo
+  - browser
+  - local
+  - server
+  - driving
+  - real
+  - chrome
+  - search
+  - capture
+  - automate
+  - logged
+  - site
+  - native
+  - tools
+source:
+  repository: https://github.com/ywleeo/browser-mcp
+  repositoryNodeId: R_kgDOT2P_NQ
+  subpath: null
+  commit: 9ff03f9aa889bf0f11fb275bd45a1c6b975ef987
+creator:
+  github: ywleeo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:46.823Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
