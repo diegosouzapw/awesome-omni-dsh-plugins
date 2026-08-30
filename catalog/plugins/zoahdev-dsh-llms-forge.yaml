@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-llms-forge
+name: dsh-llms-forge
+description:
+  en: Generate llms.txt for DeepSeek Harness (dsh) plugin repositories from package.json + README — AI-readable discovery files with zero runtime dependencies. CLI + agent-callable llms forge tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - llms-txt
+  - ai-readable
+  - documentation
+  - discovery
+source:
+  repository: https://github.com/zoahdev/dsh-llms-forge
+  repositoryNodeId: R_kgDOT8SlXg
+  subpath: null
+  commit: 799c18b805c4935b586dce816a59db140cc9eca5
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-llms-forge
+  version: 0.1.0
+  integrity: sha512-n2YGiXLW41pjYIOZiDXNUIeWl2sUnAXfPLnDn6gvL11vVHvGgzVskQcXheaY31YzdlHU3rjYqakfL0J8G4bEyA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.330Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
