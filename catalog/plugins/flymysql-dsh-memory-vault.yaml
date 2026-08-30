@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: flymysql-dsh-memory-vault
+name: dsh-memory-vault
+description:
+  en: "Cross-session memory vault for DeepSeek Harness: remember / recall / forget tools, per-turn prompt injection, and a browser management page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - memory
+source:
+  repository: https://github.com/flymysql/dsh-memory
+  repositoryNodeId: R_kgDOT386Xw
+  subpath: null
+  commit: d6afee4bb594164193b7e262d6539d0c55b54a8b
+creator:
+  github: flymysql
+package:
+  ecosystem: npm
+  name: dsh-memory-vault
+  version: 0.1.5
+  integrity: sha512-EXk51g7F3DXtVXeaqxaMke9V6Du1xWU5qoIAG61KveJQNHyY98eNGH8UVZmmg++y1HkKn8iCCHqvYLSXAWW8FQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:56.300Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
