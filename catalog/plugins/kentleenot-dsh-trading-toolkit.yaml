@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: kentleenot-dsh-trading-toolkit
+name: dsh-trading-toolkit
+description:
+  en: "A-share + US stock trading toolkit for DeepSeek Harness agents: A股/美股行情查询 (EastMoney, no key), ADX regime signals (trend/oscillating/noise), and simple backtest previews. Read-only, no order placement."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - trading
+  - quant
+  - market
+  - signal
+  - adx
+  - a-share
+  - us-stock
+  - china-stock
+  - eastmoney
+source:
+  repository: https://github.com/kentleenot/dsh-trading-toolkit
+  repositoryNodeId: R_kgDOT76ZpQ
+  subpath: null
+  commit: 23924eadacacf4ed866952949a01d2d977f50ed9
+creator:
+  github: kentleenot
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:39.539Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
