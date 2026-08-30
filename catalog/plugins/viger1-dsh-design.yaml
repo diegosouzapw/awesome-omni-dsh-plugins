@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: viger1-dsh-design
+name: dsh-design
+description:
+  en: Design taste your agent can be held to — a design-system skill that constrains the choices, plus design audit, which measures the rendered page (type scale, WCAG contrast, spacing grid, palette drift) instead of trusting it looked right.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - design
+  - design-system
+  - ui
+  - accessibility
+  - wcag
+  - playwright
+source:
+  repository: https://github.com/Viger1/dsh-design
+  repositoryNodeId: R_kgDOT6xJvA
+  subpath: null
+  commit: 7b50c1fc3b9982bd3c8f613a6063444877e07cbd
+creator:
+  github: Viger1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:38.961Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Viger1/dsh-design/7b50c1fc3b9982bd3c8f613a6063444877e07cbd/docs/demo-baseline.png
+    alt: "Baseline: centered blue SaaS pricing page"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Viger1/dsh-design/7b50c1fc3b9982bd3c8f613a6063444877e07cbd/docs/demo-guided.png
+    alt: "Guided: warm off-white editorial pricing page"
