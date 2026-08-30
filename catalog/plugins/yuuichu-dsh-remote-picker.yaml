@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yuuichu-dsh-remote-picker
+name: dsh-remote-picker
+description:
+  en: "Remote-access directory-picker fix for DeepSeek Harness: forces the in-browser browse interaction when the web GUI is served to remote browsers (tailscale serve, cloudflared, reverse proxy with --trusted-host). Native OS chooser dialogs cannot be driven from a phone or remote laptop."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - remote-access
+  - directory-picker
+  - tailscale
+  - browse
+source:
+  repository: https://github.com/Yuuichu/dsh-remote-picker
+  repositoryNodeId: R_kgDOT7e-sA
+  subpath: null
+  commit: 68f729e4dc62dd654eab95c6cf3574d056bf72ec
+creator:
+  github: Yuuichu
+package:
+  ecosystem: npm
+  name: dsh-remote-picker
+  version: 0.1.1
+  integrity: sha512-WxP+fJHknON1ivmF1zyu37usT1Ddo+kCnhPjo9pOrT2Sk1ALtIBRZTutzwLYnZgffYuFjTuBsv0N2VyR2PVxTQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:28.191Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
