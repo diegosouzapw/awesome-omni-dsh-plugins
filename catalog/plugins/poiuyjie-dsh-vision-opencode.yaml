@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: poiuyjie-dsh-vision-opencode
+name: dsh-vision-opencode
+description:
+  en: "DeepSeek Harness plugin: configurable vision model with vision read image tool, composer-bar vision-model selector, and automatic image-to-text conversion for text-only main models."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - vision
+  - multimodal
+  - ocr
+source:
+  repository: https://github.com/poiuyjie/dsh-vision-opencode
+  repositoryNodeId: R_kgDOT3hf_g
+  subpath: null
+  commit: 3f29fe138d8167462db44c9252db95581a9ef01c
+creator:
+  github: poiuyjie
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.105Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/poiuyjie/dsh-vision-opencode/3f29fe138d8167462db44c9252db95581a9ef01c/assets/demo.png
+    alt: dsh-vision-opencode 演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/poiuyjie/dsh-vision-opencode/3f29fe138d8167462db44c9252db95581a9ef01c/assets/reasoning-off.png
+    alt: 推理关闭设置
