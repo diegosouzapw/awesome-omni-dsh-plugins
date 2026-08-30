@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: lininlin-0079-godot-asset-planner
+name: godot-asset-planner
+description:
+  en: "Unified Godot asset and project-goal management for DeepSeek Harness: godot model tools, a /gap REST surface, and a better-sidebar UI with asset manager, scene-tree viewer, and Git panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - unified
+  - godot
+  - asset
+  - goal
+  - management
+  - model
+  - tools
+  - rest
+  - surface
+  - better
+  - sidebar
+  - manager
+  - scene
+  - tree
+  - viewer
+  - panel
+source:
+  repository: https://github.com/LINinLIN-0079/godot-asset-planner-public
+  repositoryNodeId: R_kgDOT_xUOw
+  subpath: null
+  commit: a0e70b004a51c216bd98358ccb5021f1a696f470
+creator:
+  github: LINinLIN-0079
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:36.017Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LINinLIN-0079/godot-asset-planner-public/a0e70b004a51c216bd98358ccb5021f1a696f470/assets/screenshot-1.png
+    alt: 资产管理器
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LINinLIN-0079/godot-asset-planner-public/a0e70b004a51c216bd98358ccb5021f1a696f470/assets/screenshot-2.png
+    alt: 场景树查看器
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LINinLIN-0079/godot-asset-planner-public/a0e70b004a51c216bd98358ccb5021f1a696f470/assets/screenshot-3.png
+    alt: Git 版本控制
