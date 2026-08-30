@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yujiaoliang-dsh-plugin-amdgpu-inspect
+name: dsh-plugin-amdgpu-inspect
+description:
+  en: Structured AMDGPU code-object and ISA inspection for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - rocm
+  - hip
+  - amdgpu
+  - gpu
+  - isa
+  - dsh
+source:
+  repository: https://github.com/yujiaoliang/dsh-plugin-amdgpu-inspect
+  repositoryNodeId: R_kgDOT5W0Mg
+  subpath: null
+  commit: f0b504171367883a0338788e8e4937384d0913a5
+creator:
+  github: yujiaoliang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:33.624Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
