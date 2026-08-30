@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: airborne316-dsh-dynamic-wallpaper
+name: dsh-dynamic-wallpaper
+description:
+  en: "Animated wallpaper plugin for DeepSeek Harness: 8 built-in canvas backgrounds (particles, meteor shower, starfield, waves, rain, bubbles, matrix, aurora) plus custom video import, with speed/density/opacity/blur controls and durable localStorage persistence"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - wallpaper
+  - dynamic-wallpaper
+  - animated-background
+  - web-ui
+source:
+  repository: https://github.com/Willmylife/dsh-dynamic-wallpaper
+  repositoryNodeId: R_kgDOT61Flg
+  subpath: null
+  commit: 65f5215d2edef362c915799f891124990ae9c874
+creator:
+  github: airborne316
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:40.351Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
