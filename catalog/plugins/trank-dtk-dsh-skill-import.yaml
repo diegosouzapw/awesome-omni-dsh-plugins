@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: trank-dtk-dsh-skill-import
+name: dsh-skill-import
+description:
+  en: "Skill-import plugin for DeepSeek Harness: a slash-menu entry that imports local skill folders and switches them per skill (off = no autonomous model invocation, the /name user gesture still works)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - skill
+  - import
+  - slash
+  - menu
+  - entry
+  - imports
+  - local
+  - folders
+  - switches
+  - autonomous
+  - model
+  - invocation
+  - name
+  - user
+  - gesture
+  - still
+source:
+  repository: https://github.com/Trank-DTK/dsh-skill-import
+  repositoryNodeId: R_kgDOT48Bdg
+  subpath: null
+  commit: 68b56106e232aa15e206483d184150b144c13180
+creator:
+  github: Trank-DTK
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:05.261Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
