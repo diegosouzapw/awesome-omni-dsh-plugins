@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: angel2518975237-deepseek-harness-hello-kitty-suite
+name: deepseek-harness-hello-kitty-suite
+description:
+  en: sh dsh plugin --profile web add https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite.git
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - hello-kitty
+  - pink-theme
+  - harness-skin
+source:
+  repository: https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite
+  repositoryNodeId: R_kgDOUBbr2Q
+  subpath: null
+  commit: 12b645a957093507ef888a19afc362cf97e2d146
+creator:
+  github: Angel2518975237
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:03.176Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Angel2518975237/deepseek-harness-hello-kitty-suite/12b645a957093507ef888a19afc362cf97e2d146/docs/screenshots/preview.png
+    alt: Sweetheart Workspace Expressive 效果图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Angel2518975237/deepseek-harness-hello-kitty-suite/12b645a957093507ef888a19afc362cf97e2d146/docs/screenshots/preview-toast.png
+    alt: 弹窗效果图
