@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: buzzso-dsh-sev
+name: dsh-sev
+description:
+  en: "Remote DSH host management for DeepSeek Harness: manage a headless dsh instance on your own server from the local GUI — SSH tunnels, live remote session list, one-click remote GUI. 远程 DSH 分身管理：本地 GUI 控制服务器上的 dsh 实例。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - remote
+  - ssh
+  - tunnel
+  - server
+  - agent
+source:
+  repository: https://github.com/Buzzso/dsh-sev
+  repositoryNodeId: R_kgDOUEeliA
+  subpath: null
+  commit: 4b0188ab2a1e2871c69d19b52bddb1dfc22ab49c
+creator:
+  github: Buzzso
+package:
+  ecosystem: npm
+  name: dsh-sev
+  version: 0.3.4
+  integrity: sha512-K6ehQLPJ57o01yR9IRyIcyfui0n7mYsUX3+J2kHyCVWhruO2VGzZCD+0c0UkiOcDWLLHMseWfCSJ01EHqdxolw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 86
+provenance:
+  discussion: null
+  comment: null
