@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: jhuanxx44-dsh-paste-path
+name: dsh-paste-path
+description:
+  en: "DeepSeek Harness plugin: paste Finder file paths into the composer with Ctrl+V"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - finder
+  - clipboard
+  - absolute-path
+source:
+  repository: https://github.com/jhuanxx44/dsh-paste-path
+  repositoryNodeId: R_kgDOT8etMg
+  subpath: null
+  commit: 000cfbe9cb5fb0b6f337d120bce65f0933e4bfa0
+creator:
+  github: jhuanxx44
+package:
+  ecosystem: npm
+  name: dsh-paste-path
+  version: 0.1.2
+  integrity: sha512-fNW0f0RUMk5/Vhw3C1l9FI+zIzb8eo3o8rCsMZ2X+EgZuVHDBCxsQe3YJW0KH17W41NuYH7E1x0g/wzPDy1CTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:37.591Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
