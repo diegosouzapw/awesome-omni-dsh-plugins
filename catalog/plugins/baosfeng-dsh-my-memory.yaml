@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-memory
+name: dsh-my-memory
+description:
+  en: bash dsh plugin --profile web add dsh-my-memory
+  evidencePath: plugins/dsh-my-memory/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - bash
+  - profile
+  - memory
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-memory
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-memory
+  version: 0.1.1
+  integrity: sha512-vPjzzk60hp0QiA+ZVrE5VrzkbmHiKI+hwS216+PoSN8DHsvv1tgZppwWyzHUXzXi2ryitDr+wgFa7VD5q0icRw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-memory/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/baosfeng/my-dsh-plugins/1b8db2b39e88bd6da13b645c9354df8c2af1d3c7/plugins/dsh-my-memory/assets/screenshot.png
+    alt: 记忆面板：全局/项目分区 + 自定义确认 UI（删除红色、保存绿色）
