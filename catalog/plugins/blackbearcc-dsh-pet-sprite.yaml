@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: blackbearcc-dsh-pet-sprite
+name: dsh-pet-sprite
+description:
+  en: "A playable pixel companion for the DeepSeek Harness Web UI: hatch an egg and pick one of three companions (girl / tabby cat / baby whale), left-click to chat with it through your configured DSH models, platform-jump over chat messages, WASD controllable, with a full nurture system fed by your agent's real token usage."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - playable
+  - pixel
+  - companion
+  - hatch
+  - pick
+  - three
+  - companions
+  - girl
+  - tabby
+  - baby
+  - whale
+  - left
+  - click
+  - chat
+  - through
+  - configured
+source:
+  repository: https://github.com/BlackBearCC/dsh-pet-sprite
+  repositoryNodeId: R_kgDOT8PtRw
+  subpath: null
+  commit: 019f19574aded1d721e06e2788c2091f0d7eb95c
+creator:
+  github: BlackBearCC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:16.670Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
