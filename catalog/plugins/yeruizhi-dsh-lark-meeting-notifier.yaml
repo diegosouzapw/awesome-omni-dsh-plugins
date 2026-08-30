@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yeruizhi-dsh-lark-meeting-notifier
+name: dsh-lark-meeting-notifier
+description:
+  en: bash dsh plugin --profile web add github:yeruizhi/dsh-lark-meeting-notifier
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - feishu
+  - lark
+  - calendar
+  - meeting
+  - reminder
+source:
+  repository: https://github.com/yeruizhi/dsh-lark-meeting-notifier
+  repositoryNodeId: R_kgDOT4Xp6g
+  subpath: null
+  commit: 65782f8d13f79143af86fec1628dfa0918af335f
+creator:
+  github: yeruizhi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:06.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yeruizhi/dsh-lark-meeting-notifier/65782f8d13f79143af86fec1628dfa0918af335f/docs/screenshot.jpg
+    alt: dsh-lark-meeting-notifier 效果图
