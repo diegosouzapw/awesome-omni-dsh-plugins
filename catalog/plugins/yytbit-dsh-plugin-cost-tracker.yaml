@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yytbit-dsh-plugin-cost-tracker
+name: dsh-plugin-cost-tracker
+description:
+  en: Token cost tracker for DeepSeek Harness -- track usage, calculate costs, budget warnings
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - cost
+  - tokens
+  - pricing
+  - budget
+  - dsh
+source:
+  repository: https://github.com/YYTbit/dsh-plugin-cost-tracker
+  repositoryNodeId: R_kgDOT3g4PA
+  subpath: null
+  commit: 4e861a1ac0304ab027f903e195bff7107e3022a7
+creator:
+  github: YYTbit
+package:
+  ecosystem: npm
+  name: dsh-plugin-cost-tracker
+  version: 0.1.0
+  integrity: sha512-Kc6UiDM7tNUtRCcBRweMscOvFM/gBG0cGP5OheS2p0AfvD13UyopR8t42N/MgH5GMFafKRhqE4dpcMyPaCRJsg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.466Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
