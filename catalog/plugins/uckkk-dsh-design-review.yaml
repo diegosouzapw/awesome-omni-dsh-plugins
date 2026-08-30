@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-design-review
+name: dsh-design-review
+description:
+  en: bash dsh plugin add dsh-design-review 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-design-review" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - design-review
+  - checklist
+  - qa
+source:
+  repository: https://github.com/uckkk/dsh-design-review
+  repositoryNodeId: R_kgDOT6i_6A
+  subpath: null
+  commit: ebcd24986fe2dbd68479b581947c2526e001448b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:12.194Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
