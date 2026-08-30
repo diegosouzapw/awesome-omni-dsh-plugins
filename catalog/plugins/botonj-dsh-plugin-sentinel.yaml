@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: botonj-dsh-plugin-sentinel
+name: dsh-plugin-sentinel
+description:
+  en: DSH 插件安检机 — install-time static security auditor for DeepSeek Harness plugin bundles. Zero dependencies, zero install scripts, zero build step.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - security
+  - audit
+  - static-analysis
+source:
+  repository: https://github.com/BotonJ/dsh-plugin-sentinel
+  repositoryNodeId: R_kgDOT5EoTw
+  subpath: null
+  commit: 3dcff7a125d7151f2b75a8962c65425d0d9aa0b8
+creator:
+  github: BotonJ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:06.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
