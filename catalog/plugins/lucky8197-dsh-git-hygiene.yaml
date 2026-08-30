@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lucky8197-dsh-git-hygiene
+name: dsh-git-hygiene
+description:
+  en: "Git Hygiene Checker for DeepSeek Harness. A read-only DSH plugin that inspects a repository's hygiene: merged-but-not-deleted branches, stale branches with no commits for months, oversized tracked files, untracked files, and uncommitted work — then outputs a health report with cleanup suggestions. It never deletes or m"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - hygiene
+  - checker
+  - read
+  - only
+  - inspects
+  - repository
+  - merged
+  - deleted
+  - branches
+  - stale
+  - commits
+  - months
+  - oversized
+  - tracked
+  - files
+  - untracked
+source:
+  repository: https://github.com/lucky8197/dsh-git-hygiene
+  repositoryNodeId: R_kgDOT5CaMw
+  subpath: null
+  commit: 05a56bace438ba7630b7a1797190694b143770b6
+creator:
+  github: lucky8197
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:36.076Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
