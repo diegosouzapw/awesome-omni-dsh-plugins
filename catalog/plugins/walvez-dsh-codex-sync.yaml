@@ -1,0 +1,66 @@
+schemaVersion: 1
+id: walvez-dsh-codex-sync
+name: dsh-codex-sync
+description:
+  en: "Two-way Codex↔DSH bridge: skills from ~/.codex/skills, session import with workspace attach, live MCP mirroring of mcp servers, and a Codex-side reverse MCP installer."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - codex
+  - openai-codex
+  - deepseek-harness
+  - mcp
+  - skills
+  - sync
+  - import
+  - export
+  - migration
+  - chat-sync
+  - subagents
+source:
+  repository: https://github.com/Walvez/dsh-codex-sync
+  repositoryNodeId: R_kgDOT5ySLg
+  subpath: null
+  commit: 20f707a76d2a172951932d4b1734f578f6a99dd8
+creator:
+  github: Walvez
+package:
+  ecosystem: npm
+  name: dsh-codex-sync
+  version: 1.6.1
+  integrity: sha512-dJ5UhA/8SSKr4EaFQlVGUd1bKg7mIzOHRZ/cZn5viOpINve7aFxbBCsBspxMnDZ2WV7Sp/CkQ2EY3vDZMPTx/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 25
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-codex-sync/20f707a76d2a172951932d4b1734f578f6a99dd8/docs/sync-settings-modal.png
+    alt: "Codex Sync Settings modal: actions, switches, language"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-codex-sync/20f707a76d2a172951932d4b1734f578f6a99dd8/docs/sidebar-entry.png
+    alt: Workspace header Codex quick entry button
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-codex-sync/20f707a76d2a172951932d4b1734f578f6a99dd8/docs/import-picker.png
+    alt: "Import picker: projects, chats, and status tags"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-codex-sync/20f707a76d2a172951932d4b1734f578f6a99dd8/docs/export-picker.png
+    alt: "Export picker: smart workspace matching, source filter"
