@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yuunnn-dsh-on-imessage
+name: dsh-on-imessage
+description:
+  en: Chat with local DeepSeek Harness (dsh) agents from iPhone iMessage — no extra apps, no servers, no cloud.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - imessage
+  - bridge
+  - macos
+source:
+  repository: https://github.com/yuunnn/dsh-on-imessage
+  repositoryNodeId: R_kgDOT9Zfyw
+  subpath: null
+  commit: 81b99763bf17f6b88a827e173353c487247cb6d9
+creator:
+  github: yuunnn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:18.613Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
