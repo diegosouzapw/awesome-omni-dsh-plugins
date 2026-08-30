@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wingsky-1-dsh-web-file-preview
+name: "@wingsky-1/dsh-web-file-preview"
+description:
+  en: Click a file link in the conversation to preview file contents right in the web client ( image / text / Markdown / code / git Diff ).
+  evidencePath: packages/dsh-web-file-preview/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - preview
+  - file
+  - markdown
+  - syntax-highlight
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-web-file-preview
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-web-file-preview"
+  version: 0.1.13
+  integrity: sha512-FiRUCUWANLj6dHZvUl123kuA4kUREmUmN9PU1giHFe1fkNur3KNi/Px30Yo/EleKCI+oGFuZwIf2Ux2agMsr4A==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-web-file-preview/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
