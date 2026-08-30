@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: taxueseek-dsh-lexicon
+name: dsh-lexicon
+description:
+  en: "IME lexicon manager for DeepSeek Harness: bridge the ime lexicon.py CLI (Doubao / WeType word libraries) into model tools — detect, export, backup, industry-term search, build, optimize, and staging import. Never applies to a live IME without explicit user confirmation."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - cordis
+  - ime
+  - lexicon
+  - doubao
+  - wetype
+  - input-method
+source:
+  repository: https://github.com/taxueseek/ime-lexicon
+  repositoryNodeId: R_kgDOUAk4WQ
+  subpath: plugin
+  commit: e960d94706009fc3937a3e0e4acc16afe644876e
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:31.970Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
