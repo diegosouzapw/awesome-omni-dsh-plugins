@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: my-dsh-dsh-token-usage-dashboard
+name: "@deepseek-ai/dsh-token-usage-dashboard"
+description:
+  en: "The Token consumption dashboard as a profile bundle: a patch layer inserting the host-side token-usage listener and its SQLite provider plus the browser dashboard panel over any web-surface profile"
+  evidencePath: packages/bundle/token-usage-dashboard/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - token
+  - consumption
+  - dashboard
+  - profile
+  - bundle
+  - patch
+  - layer
+  - inserting
+  - host
+  - side
+  - usage
+  - listener
+  - sqlite
+  - provider
+  - plus
+  - browser
+source:
+  repository: https://github.com/my-dsh/oh-my-dsh
+  repositoryNodeId: R_kgDOT6HYEg
+  subpath: packages/bundle/token-usage-dashboard
+  commit: a2ed77218b391f514d7550cf30e4dc5c24cac31a
+creator:
+  github: my-dsh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/bundle/token-usage-dashboard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:07.070Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
