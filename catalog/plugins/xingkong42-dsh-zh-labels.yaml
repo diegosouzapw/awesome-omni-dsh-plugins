@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xingkong42-dsh-zh-labels
+name: dsh-zh-labels
+description:
+  en: Keep the DeepSeek Harness Web UI in Chinese — even after upgrades.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - zh
+  - chinese
+  - i18n
+  - label
+  - localization
+source:
+  repository: https://github.com/Xingkong42/dsh-zh-labels
+  repositoryNodeId: R_kgDOT_zR9w
+  subpath: null
+  commit: f18c649a5bc8b005eca24196d8d2b08a2f7c3233
+creator:
+  github: Xingkong42
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.701Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
