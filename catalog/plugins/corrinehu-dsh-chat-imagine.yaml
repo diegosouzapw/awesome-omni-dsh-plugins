@@ -1,0 +1,61 @@
+schemaVersion: 1
+id: corrinehu-dsh-chat-imagine
+name: dsh-chat-imagine
+description:
+  en: Generate and display images inline in the DSH chat via API channels or local CLIs (mmx / codex / agy), and read images into structured JSON evidence (OCR / layout / semantics) on any model — with backend probing and a bundled recovery skill.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - image
+  - image-generation
+  - image-recognition
+  - vision
+  - ocr
+  - chat
+source:
+  repository: https://github.com/corrinehu/dsh-chat-imagine
+  repositoryNodeId: R_kgDOT5ah4g
+  subpath: null
+  commit: 2b54498963382690703692c3397c3f11723674d5
+creator:
+  github: corrinehu
+package:
+  ecosystem: npm
+  name: dsh-chat-imagine
+  version: 0.4.1
+  integrity: sha512-E1H5JbPU0ei1la46xfcBoUsnmopy6IuLCoq6FUsd4yE3F6xwsRt9IzXWs6N+S1CgB9wZSOBmsYrh6d1WO68l2Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:50.954Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-chat-imagine/2b54498963382690703692c3397c3f11723674d5/assets/1.png
+    alt: 在 DSH 对话中生成的图片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-chat-imagine/2b54498963382690703692c3397c3f11723674d5/assets/2.png
+    alt: 首次生成时选择默认渠道
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-chat-imagine/2b54498963382690703692c3397c3f11723674d5/assets/3.png
+    alt: 选择非默认渠道
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-chat-imagine/2b54498963382690703692c3397c3f11723674d5/assets/4.png
+    alt: agy 生成图片
