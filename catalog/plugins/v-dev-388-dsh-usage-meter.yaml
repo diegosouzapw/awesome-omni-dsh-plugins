@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: v-dev-388-dsh-usage-meter
+name: dsh-usage-meter
+description:
+  en: bash dsh plugin --profile web add dsh-usage-meter
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - usage
+  - token
+  - dashboard
+source:
+  repository: https://github.com/V-dev-388/dsh-usage-meter
+  repositoryNodeId: R_kgDOT44s2g
+  subpath: null
+  commit: 1a0a4f25495f5d40430b5d9809cf66e5f458432e
+creator:
+  github: V-dev-388
+package:
+  ecosystem: npm
+  name: dsh-usage-meter
+  version: 0.1.2
+  integrity: sha512-wpW7kHMX4swQWrrjgnoeleyZvuv4YmxNSDFEgk2lkARn4E8izsK+GoNHmjjR8Gkjwu7tkf9TV3Ov1+lNpamkpQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:38.490Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
