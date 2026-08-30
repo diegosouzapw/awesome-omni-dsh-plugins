@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-big8
+name: "@kobenfang/dsh-big8"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): big8."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - big8
+  - dsh
+source:
+  repository: https://github.com/kobenfang/Big8
+  repositoryNodeId: R_kgDOT62YAA
+  subpath: null
+  commit: ab5ff2fa8d44363c198ef07e6e4acf477b511084
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:34.470Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
