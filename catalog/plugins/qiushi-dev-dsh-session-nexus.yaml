@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: qiushi-dev-dsh-session-nexus
+name: dsh-session-nexus
+description:
+  en: "Unofficial DeepSeek Harness plugin — sessions as addressable, first-class citizens: lifecycle controls (/resume, /unarchive, opt-in /rm-session) plus session-addressed messaging (/send-to, /notify, /address, session send message tool). Working companion to the session RFCs (deepseek-harness discussion 3640)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - resume
+  - unarchive
+  - mailbox
+  - cross-session
+  - messaging
+  - dsh
+source:
+  repository: https://github.com/qiushi-dev/dsh-session-nexus
+  repositoryNodeId: R_kgDOT-xxxg
+  subpath: null
+  commit: 2a8d733d81b9e63804a9af3f6d36b6c65d231f5f
+creator:
+  github: qiushi-dev
+package:
+  ecosystem: npm
+  name: dsh-session-nexus
+  version: 0.3.0
+  integrity: sha512-YjbV83FnuFqOt3vE48Kq6aF3Pd/XFG6fFSvkOdMo4DqNFbvsuFjRnE943gauSEqtCLxyCmiBErlXFG1ub5IGVQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:50.412Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
