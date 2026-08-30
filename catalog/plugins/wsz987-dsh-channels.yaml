@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wsz987-dsh-channels
+name: "@wsz987/dsh-channels"
+description:
+  en: Connect WeChat, QQ, DingTalk, Lark and Telegram to DeepSeek Harness — unified config, QR-code auth, chat with your Agent from IM
+  evidencePath: packages/channels/README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - connect
+  - wechat
+  - dingtalk
+  - lark
+  - telegram
+  - unified
+  - config
+  - code
+  - auth
+  - chat
+  - agent
+  - dsh
+source:
+  repository: https://github.com/wsz987/dsh-channels
+  repositoryNodeId: R_kgDOT3ihyg
+  subpath: packages/channels
+  commit: bb03191fd509bbbbe97fcd4d4bb1cf4308d91570
+creator:
+  github: wsz987
+package:
+  ecosystem: npm
+  name: "@wsz987/dsh-channels"
+  version: 0.4.2
+  integrity: sha512-Ew1iE2+8Rkn0fOkfKtwdNZ+XijRhPYyq66VXr7IO6gnPq50vf/ebJbBcbfVGkbQF8eZAoJq3pEeClK87PT7TdQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/channels/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:37.536Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
