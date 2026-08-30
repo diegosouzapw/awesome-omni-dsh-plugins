@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: maoyuching-dsh-voice-chat
+name: dsh-voice-chat
+description:
+  en: "A Doubao-style voice chat plugin for the DeepSeek Harness Web GUI: click 🎤 and talk — the AI's reply is read back to you aloud."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - tts
+  - stt
+  - edge-tts
+  - voice-chat
+source:
+  repository: https://github.com/maoyuching/dsh-voice-chat
+  repositoryNodeId: R_kgDOUBNknA
+  subpath: null
+  commit: 9354d54d95f82c9f20e19bb812a48cce540a6ac1
+creator:
+  github: maoyuching
+package:
+  ecosystem: npm
+  name: dsh-voice-chat
+  version: 0.1.1
+  integrity: sha512-Zaa7bnBBzl00l5dt7INTSNPAqsMAyQOm4BmMzrw6/+rlfdZalpYbkW6gNtJrvKA06++OABL5ZaRb/ZDDwReNGw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:48.503Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
