@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: boxeryao-dsh-mini-tui
+name: dsh-mini-tui
+description:
+  en: "DSH Mini TUI: a minimalist terminal interface plugin for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-tui
+  - dsh-plugin
+  - deepseek-harness
+  - tui
+  - terminal-ui
+  - ai-agent
+  - dsh
+source:
+  repository: https://github.com/boxeryao/dsh-mini-tui
+  repositoryNodeId: R_kgDOT3vNIA
+  subpath: null
+  commit: 6b37de9bb5a2231d053ee1fbd086f27a1a95d274
+creator:
+  github: boxeryao
+package:
+  ecosystem: npm
+  name: dsh-mini-tui
+  version: 0.2.1
+  integrity: sha512-3lcau3FNp1r8BJ3a+Fx3K1F8vq1qU6efnt+qPXfYyobg68hgTLoP1/nQLa9GZnMroWwevLqKFENzHzG6nLS7Rg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:51.027Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/boxeryao/dsh-mini-tui/6b37de9bb5a2231d053ee1fbd086f27a1a95d274/assets/dsh-mini-tui-welcome.png
+    alt: DSH Mini TUI — Welcome to DeepSeek
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/boxeryao/dsh-mini-tui/6b37de9bb5a2231d053ee1fbd086f27a1a95d274/assets/tui-startup-dashboard.png
+    alt: 新版 DeepSeek Harness TUI 启动界面
