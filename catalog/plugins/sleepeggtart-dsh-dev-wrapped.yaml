@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sleepeggtart-dsh-dev-wrapped
+name: dsh-dev-wrapped
+description:
+  en: Developer Wrapped for DeepSeek Harness — your coding journey with AI, visualized.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - wrapped
+  - cli
+  - statistics
+  - report
+source:
+  repository: https://github.com/SleepEggTart/dsh-dev-wrapped
+  repositoryNodeId: R_kgDOUFIkpA
+  subpath: null
+  commit: cf4f5a416afd45b7da77b6a4107db7ff187ba7c6
+creator:
+  github: SleepEggTart
+package:
+  ecosystem: npm
+  name: dsh-dev-wrapped
+  version: 1.3.5
+  integrity: sha512-N5JpBdK+VTbGVVsZCbUx9H20ZdImX3RFobhfzg5DCuafY6XB/JI5W3elbtX1UKfaymawIIvzEA2VOpkPla7v+A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:08.708Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
