@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: wiziscool-dsh-ears
+name: dsh-ears
+description:
+  en: Voice input plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - voice
+  - speech-to-text
+  - whisper
+  - asr
+source:
+  repository: https://github.com/WizisCool/dsh-ears
+  repositoryNodeId: R_kgDOT5R8iw
+  subpath: null
+  commit: 3beaf0cd39026a3599515d54aa6fef09fe3d23b3
+creator:
+  github: WizisCool
+package:
+  ecosystem: npm
+  name: dsh-ears
+  version: 0.2.2
+  integrity: sha512-kMRCkcyFiz4l6nrNRZoOIJkH0u9dq6WjK+aqczeqdgdQK52/Gm+h2KAhKYZU66y9/b4fBSPsENh2ptKOWZJ9dg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.818Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WizisCool/dsh-ears/3beaf0cd39026a3599515d54aa6fef09fe3d23b3/assets/banner.jpg
+    alt: dsh-ears
