@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ht719-dsh-session-categories
+name: dsh-session-categories
+description:
+  en: Durable Workspace-scoped Session categories for the DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - session
+  - category
+  - workspace
+source:
+  repository: https://github.com/ht719/dsh-session-categories
+  repositoryNodeId: R_kgDOT9SDDg
+  subpath: null
+  commit: 183755cdec78872ffbd4b88c6fdcb700de212312
+creator:
+  github: ht719
+package:
+  ecosystem: npm
+  name: dsh-session-categories
+  version: 0.1.0
+  integrity: sha512-YSG1FM4feX8k5Uk6Q1otOpQWoMPpwS8idswaYie5JcyS6gJnibSILCGaH+GJabWQjk+Y3dKF7xK19f6tFNwwEA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:54.221Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ht719/dsh-session-categories/183755cdec78872ffbd4b88c6fdcb700de212312/docs/session-categories-overview.png
+    alt: Session categories in the dsh sidebar
