@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: worksassistant-dsh-quickref
+name: dsh-quickref
+description:
+  en: "Developer quick-reference toolbox for DeepSeek Harness (DSH): 12 themed categories (195 entries) + zero-dependency dev tools (regex tester, JSON format, timestamp, Base64/URL codec, cron generator, line diff). 开发者速查工具箱。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+source:
+  repository: https://github.com/worksAssistant/dsh-quickref
+  repositoryNodeId: R_kgDOT7Ojqg
+  subpath: null
+  commit: 608b2356279b754680147498b39d5476ceaa8ba4
+creator:
+  github: worksAssistant
+package:
+  ecosystem: npm
+  name: dsh-quickref
+  version: 0.1.0
+  integrity: sha512-z/wIoPPiGgpFlyA3F2dZSZP3slQaTfJL0skJ2OfolkWVbP8VTwfxN6lRYpi5GnRtW7RKNmCe0vlAOoQ89uWjLQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:30.452Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
