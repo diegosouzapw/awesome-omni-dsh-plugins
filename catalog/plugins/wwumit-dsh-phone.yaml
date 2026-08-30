@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wwumit-dsh-phone
+name: "@wwumit/dsh-phone"
+description:
+  en: Agent phone client plugin — phone dialer overlay in DSH web UI, consuming CHA2A phone directory
+  evidencePath: client/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-phone
+  - cha2a
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/wwumit/dsh-phone
+  repositoryNodeId: R_kgDOT-rwYg
+  subpath: client
+  commit: 65510b4abca04fb89f7eb3bb05f293e9a807683c
+creator:
+  github: wwumit
+package:
+  ecosystem: npm
+  name: "@wwumit/dsh-phone"
+  version: 2.4.0
+  integrity: sha512-nXaXIkXI1FDXqq7OaWQ/3c6u1smkMsTzOz+mUqEjv1psnD8DF1QqHWnZu7WTw6VB1VepRr6nm2XVH2rdk60+8w==
+dsh:
+  profiles:
+    - web
+  evidencePath: client/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:38.773Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
