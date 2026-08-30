@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: asakumizy-dsh-local-skills
+name: dsh-local-skills
+description:
+  en: "Local SKILL browser plugin for DeepSeek Harness: discovers local skills with live filesystem updates and surfaces them in the web UI with a Use button that explains how to invoke each skill."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - local
+  - skill
+  - browser
+  - discovers
+  - skills
+  - live
+  - filesystem
+  - updates
+  - surfaces
+  - button
+  - explains
+  - invoke
+  - each
+  - dsh
+source:
+  repository: https://github.com/asakumizy/dsh-local-skills
+  repositoryNodeId: R_kgDOT6mg3g
+  subpath: null
+  commit: 038d6059fb36ca5d5e1e8456befb8d928c7b958e
+creator:
+  github: asakumizy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:22.318Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
