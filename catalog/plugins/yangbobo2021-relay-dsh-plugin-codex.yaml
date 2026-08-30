@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yangbobo2021-relay-dsh-plugin-codex
+name: relay-dsh-plugin-codex
+description:
+  en: Codex conversation backend for DeepSeek Harness, powered by the Codex App Server with approvals and DSH tool support.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/yangbobo2021/relay-dsh-plugin-codex
+  repositoryNodeId: R_kgDOUBSg_w
+  subpath: null
+  commit: cac79ddc271264e83604f2d3828b8d2f5c55261d
+creator:
+  github: yangbobo2021
+package:
+  ecosystem: npm
+  name: relay-dsh-plugin-codex
+  version: 0.1.4
+  integrity: sha512-F7Hklrx/plGy9rI/9lc2DAfylTDASeDdYjLjhlWgNruSxHkfCDQSI7QN+bZegUwPnlFVdquaXyObP9J2iZ8Odw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:23.240Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yangbobo2021/relay-dsh-plugin-codex/cac79ddc271264e83604f2d3828b8d2f5c55261d/docs/images/dsh-new-session-backends.jpg
+    alt: Codex and Claude Code in the DSH New Session mode menu
