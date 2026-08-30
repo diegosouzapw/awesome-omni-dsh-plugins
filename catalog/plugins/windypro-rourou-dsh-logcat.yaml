@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: windypro-rourou-dsh-logcat
+name: "@windypro-rourou/dsh-logcat"
+description:
+  en: "Android Logcat viewer for the dsh web GUI: auto-connects to any adb device in debug mode, live logcat stream with level/keyword filters, pause/clear/export, plus agent tools (logcat recent). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node modules copy, no dsh source changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - android
+  - logcat
+  - viewer
+  - auto
+  - connects
+  - device
+  - debug
+  - mode
+  - live
+  - stream
+  - level
+  - keyword
+  - filters
+  - pause
+  - clear
+  - export
+source:
+  repository: https://github.com/WindyPro-rourou/dsh-logcat
+  repositoryNodeId: R_kgDOT95wpw
+  subpath: null
+  commit: 4da285470951f7a95cadc467a9cc4adb04b27146
+creator:
+  github: WindyPro-rourou
+package:
+  ecosystem: npm
+  name: "@windypro-rourou/dsh-logcat"
+  version: 0.6.6
+  integrity: sha512-hXmLMXexOQrL0jHoxGW1xawIxTyW8ewmQDgjAxzvNWzytNtbzDUbZQbG2EvR3pVQ9XiN6eG+VyyTPYiJl6hodg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.053Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
