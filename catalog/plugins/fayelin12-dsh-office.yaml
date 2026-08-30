@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: fayelin12-dsh-office
+name: dsh-office
+description:
+  en: "Agent-office dashboard for DeepSeek Harness (DSH): a 6-column sprite office visualizing workspaces, sessions, token usage and subagents — with built-in Agent Mail, Feishu/Lark message feed, meeting schedules, transcripts and an office log tab. One screen to see what every agent is doing, plus your mail, messages & meet"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - office
+  - workspace
+  - session
+  - dashboard
+  - visualization
+  - subagent
+  - token-usage
+  - agent
+  - productivity
+  - agent-mail
+  - feishu
+  - lark
+  - meeting
+source:
+  repository: https://github.com/Fayelin12/dsh-office
+  repositoryNodeId: R_kgDOT5PsTw
+  subpath: null
+  commit: 3c965e88d2955c4a28c2d7c910217ff7f63c0af7
+creator:
+  github: Fayelin12
+package:
+  ecosystem: npm
+  name: dsh-office
+  version: 0.3.0
+  integrity: sha512-NLE1Mt2XfLFz/w6SVsBZ8kydkzOMdIR+JFoM+3VwWIovohVTSjN86fo8Q5gGjwW3EPT+v2enDOrV5/3dtl9NUQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:56.299Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
