@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yxy050208-multisim-mcp-dsh-plugin
+name: multisim-mcp-dsh-plugin
+description:
+  en: DeepSeek Harness plugin for NI Multisim circuit generation, simulation, optimization, and lab reports via MCP
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - multisim
+  - ni-multisim
+  - circuit-simulation
+  - electronics
+  - eda
+  - dsh
+source:
+  repository: https://github.com/yxy050208/multisim-mcp
+  repositoryNodeId: R_kgDOTyZ-dQ
+  subpath: integrations/deepseek-harness
+  commit: dc037c853f5e9dae416d39967c26e57f3ddb9ae8
+creator:
+  github: yxy050208
+package:
+  ecosystem: npm
+  name: multisim-mcp-dsh-plugin
+  version: 1.1.0
+  integrity: sha512-tdZ2d3tw5lxe7Dg5aCTEZekw8tIb0jqk3d8j8o39BylKrEs+aPOiuXka1mNT4pYVLLdkzAZ6gEiRUHzf0pMEqQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:06.747Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
