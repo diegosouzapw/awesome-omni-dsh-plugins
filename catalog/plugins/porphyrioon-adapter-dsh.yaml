@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: porphyrioon-adapter-dsh
+name: "@ironlaw/adapter-dsh"
+description:
+  en: "IronLaw governance and evidence plugin for DeepSeek Harness (DSH): records tool-call evidence, blocks destructive actions in enforcer mode, and gates turn completion on verifiable evidence."
+  evidencePath: packages/adapter-dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - ironlaw
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - governance
+  - evidence
+  - coding-agent
+  - completion-gate
+source:
+  repository: https://github.com/Porphyrioon/ironlaw
+  repositoryNodeId: R_kgDOT3pwmA
+  subpath: packages/adapter-dsh
+  commit: 40b02e36433e4415ea8f75587a77933719df233d
+creator:
+  github: Porphyrioon
+package:
+  ecosystem: npm
+  name: "@ironlaw/adapter-dsh"
+  version: 0.1.0-alpha.1
+  integrity: sha512-m9zY+2l3PO8QBDkZWaAzudU/zylWyC+q/RxEXUy05f729zebc3NcqJKceK+2dXTgshow5NMq5jcUHEXYEpfmmg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/adapter-dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:11.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
