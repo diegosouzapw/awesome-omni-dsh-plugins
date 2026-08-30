@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sujiu222-dsh-one-click-archive
+name: dsh-one-click-archive
+description:
+  en: One-click time-based conversation archiving for the DeepSeek Harness Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - archive
+  - conversation
+  - cleanup
+source:
+  repository: https://github.com/sujiu222/dsh-one-click-archive
+  repositoryNodeId: R_kgDOUAr1Yw
+  subpath: null
+  commit: 80554098d7b940fda37f910de47a5e7a24e2dc6e
+creator:
+  github: sujiu222
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:15.743Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/sujiu222/dsh-one-click-archive/80554098d7b940fda37f910de47a5e7a24e2dc6e/assets/settings-one-click-archive.png
+    alt: One-click archive settings
