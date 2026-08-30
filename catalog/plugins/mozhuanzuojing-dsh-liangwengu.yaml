@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: mozhuanzuojing-dsh-liangwengu
+name: dsh-liangwengu
+description:
+  en: sh dsh plugin --profile <name add ./dsh-liangwengu
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - liangwengu
+  - deepseek-pricing
+  - reminder
+source:
+  repository: https://github.com/mozhuanzuojing/dsh-liangwengu
+  repositoryNodeId: R_kgDOT89fPw
+  subpath: null
+  commit: 568cb121a966390442819e38d10fa27cbc71a4c2
+creator:
+  github: mozhuanzuojing
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:48.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
