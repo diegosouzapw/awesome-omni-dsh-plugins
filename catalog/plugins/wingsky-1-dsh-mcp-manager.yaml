@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wingsky-1-dsh-mcp-manager
+name: "@wingsky-1/dsh-mcp-manager"
+description:
+  en: "A MCP server management plugin for DSH (DeepSeek Harness): a floating window in the top-right of the session UI + a tiered panel + quick onboarding (manual form + paste mcpServers JSON import, no servers preconfigured ). The MCP protocol client is implemented directly on top of node:child process and the global fetch —"
+  evidencePath: packages/dsh-mcp-manager/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-mcp-manager
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-mcp-manager"
+  version: 0.1.13
+  integrity: sha512-la3zlWBAvh/TQtKC9IaCCJn27FBg9M5TzachlxRHLB/DBaaWOETva9ndLU+bubWfEcyt7xgMfy0hGE3DqvK6Vw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-mcp-manager/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
