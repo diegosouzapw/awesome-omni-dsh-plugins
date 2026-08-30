@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zoahdev-dsh-github-release-radar
+name: dsh-github-release-radar
+description:
+  en: "GitHub Release Radar for DeepSeek Harness: query releases, repo stats, repository search, and Git tags without an API key."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - releases
+  - cordis
+  - agent
+source:
+  repository: https://github.com/zoahdev/dsh-github-release-radar
+  repositoryNodeId: R_kgDOT43Wng
+  subpath: null
+  commit: ea998b22171b697185853e3ce04dbbe772527aed
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:51.711Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
