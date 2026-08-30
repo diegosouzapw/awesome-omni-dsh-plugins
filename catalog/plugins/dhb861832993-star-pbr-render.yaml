@@ -1,0 +1,67 @@
+schemaVersion: 1
+id: dhb861832993-star-pbr-render
+name: pbr-render
+description:
+  en: "PBR model preview for DeepSeek Harness: render GLB/GLTF game art with physically-based materials, textures, environment lighting, and orbit controls — fence language pbr3d + pbr render tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - pbr
+  - 3d
+  - gltf
+  - glb
+  - game-art
+  - preview
+  - texture
+  - material
+source:
+  repository: https://github.com/dhb861832993-star/pbr-render
+  repositoryNodeId: R_kgDOT52g8Q
+  subpath: null
+  commit: 5bda86a8f102aae5c061b9ab45c0fe3385ac5484
+creator:
+  github: dhb861832993-star
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:54.688Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-pbr.png
+    alt: pbr
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-basecolor.png
+    alt: basecolor
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-normal.png
+    alt: normal
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-roughness.png
+    alt: roughness
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-metallic.png
+    alt: metallic
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dhb861832993-star/pbr-render/5bda86a8f102aae5c061b9ab45c0fe3385ac5484/assets/mode-ao.png
+    alt: ao
