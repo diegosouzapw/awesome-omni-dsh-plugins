@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-winget
+name: dsh-winget
+description:
+  en: "Windows Package Manager (winget) integration for DeepSeek Harness: search, install, upgrade, list, uninstall, export/import and pin software through native dsh tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - winget
+  - windows-package-manager
+  - package-management
+  - windows
+source:
+  repository: https://github.com/WODE25500/dsh-winget
+  repositoryNodeId: R_kgDOT-BeZA
+  subpath: null
+  commit: 65ba32fb6b9c14e7f78f801770ce0d3758ef5ce3
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:24.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
