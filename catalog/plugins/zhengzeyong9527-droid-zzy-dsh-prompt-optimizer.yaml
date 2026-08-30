@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zhengzeyong9527-droid-zzy-dsh-prompt-optimizer
+name: zzy-dsh-prompt-optimizer
+description:
+  en: Direct-apply, privacy-aware prompt optimization for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - prompt-optimizer
+source:
+  repository: https://github.com/zhengzeyong9527-droid/zzy-dsh-prompt-optimizer
+  repositoryNodeId: R_kgDOT7N6Cw
+  subpath: null
+  commit: b6e572ff7d841015288d6bc2e52a77b845990aea
+creator:
+  github: zhengzeyong9527-droid
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:56.979Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhengzeyong9527-droid/zzy-dsh-prompt-optimizer/b6e572ff7d841015288d6bc2e52a77b845990aea/assets/screenshots/composer-action.png
+    alt: 提示词优化操作入口
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhengzeyong9527-droid/zzy-dsh-prompt-optimizer/b6e572ff7d841015288d6bc2e52a77b845990aea/assets/screenshots/advanced-settings.png
+    alt: 高级设置
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhengzeyong9527-droid/zzy-dsh-prompt-optimizer/b6e572ff7d841015288d6bc2e52a77b845990aea/assets/screenshots/model-limits.png
+    alt: 模型与执行限制
