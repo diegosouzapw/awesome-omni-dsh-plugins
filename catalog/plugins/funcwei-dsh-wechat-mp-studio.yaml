@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: funcwei-dsh-wechat-mp-studio
+name: dsh-wechat-mp-studio
+description:
+  en: "WeChat Official Account content studio for DeepSeek Harness: anti-homogenization writing methodology, blessing-image visual baseline, gpt-image cover pipeline with OCR acceptance, interaction rules, and the measured xiaolvshu (newspic) draft web API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wechat
+  - weixin
+  - xiaolvshu
+  - content
+  - writing
+  - gpt-image
+  - ocr
+source:
+  repository: https://github.com/FuncWei/dsh-wechat-mp-studio
+  repositoryNodeId: R_kgDOT5313A
+  subpath: null
+  commit: d5341aeaaf67830f0193cd004ade402b99de93d9
+creator:
+  github: FuncWei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:04.672Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
