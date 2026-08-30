@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yangdongzhen590-dsh-knj-menu
+name: dsh-knj-menu
+description:
+  en: sh dsh plugin --profile web add dsh-knj-menu
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - profile
+  - menu
+  - dsh
+source:
+  repository: https://github.com/yangdongzhen590/dsh-knj-menu
+  repositoryNodeId: R_kgDOUByW5A
+  subpath: null
+  commit: f7380be2e15bf25f9cdc26fd5b58a4870b28bb7b
+creator:
+  github: yangdongzhen590
+package:
+  ecosystem: npm
+  name: dsh-knj-menu
+  version: 2026.8.251
+  integrity: sha512-4/XsrRYhPZaBVqVDSBs8Piw/8zDYUK8jogKo31PqP/kvdVdkEfOi4uyudgks/kbYeG2jSp7z2TbVXl40GoQvrw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:35.664Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
