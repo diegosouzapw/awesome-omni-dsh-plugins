@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: winter-and-you-gone-dsh-deep-verbs
+name: dsh-deep-verbs
+description:
+  en: Tired of the built-in status line showing Deep diving... forever? Want the model to show some personality while it thinks? Then this plugin is for you.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - status
+  - spinner
+  - emotion
+  - whale
+source:
+  repository: https://github.com/Winter-And-You-Gone/dsh-deep-verbs
+  repositoryNodeId: R_kgDOT6OrDw
+  subpath: null
+  commit: 3af25c3ee634b2a65b4bdbb194db28b6e1040d41
+creator:
+  github: Winter-And-You-Gone
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:36.262Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
