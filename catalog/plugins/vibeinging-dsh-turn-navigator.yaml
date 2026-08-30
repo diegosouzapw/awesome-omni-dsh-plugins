@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: vibeinging-dsh-turn-navigator
+name: "@deepseek-ai/dsh-turn-navigator"
+description:
+  en: Compact conversation turn navigation for the DSH Web client
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - compact
+  - conversation
+  - turn
+  - navigation
+  - client
+  - dsh
+source:
+  repository: https://github.com/vibeinging/dsh-turn-navigator
+  repositoryNodeId: R_kgDOT2Sw4Q
+  subpath: null
+  commit: bcae07a2684205b3ebbd3976493c9084c2e882a1
+creator:
+  github: vibeinging
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:33.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vibeinging/dsh-turn-navigator/bcae07a2684205b3ebbd3976493c9084c2e882a1/docs/assets/turn-navigator-hover.png
+    alt: The compact turn navigator highlighting the fourth turn and showing its hover preview.
