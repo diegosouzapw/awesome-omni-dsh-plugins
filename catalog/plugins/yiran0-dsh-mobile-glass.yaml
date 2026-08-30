@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: yiran0-dsh-mobile-glass
+name: dsh-mobile-glass
+description:
+  en: sh dsh plugin --profile web add github:YiRan0/dsh-mobile-glass
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - web
+  - mobile
+  - ui
+source:
+  repository: https://github.com/YiRan0/dsh-mobile-glass
+  repositoryNodeId: R_kgDOT5C1Ww
+  subpath: null
+  commit: b0cc59979876ff089df2f948eb14b2754f15d480
+creator:
+  github: YiRan0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:23.910Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YiRan0/dsh-mobile-glass/b0cc59979876ff089df2f948eb14b2754f15d480/assets/mobile-main.png
+    alt: 移动端主界面
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YiRan0/dsh-mobile-glass/b0cc59979876ff089df2f948eb14b2754f15d480/assets/mobile-drawer.png
+    alt: 侧栏抽屉
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YiRan0/dsh-mobile-glass/b0cc59979876ff089df2f948eb14b2754f15d480/assets/mobile-composer.png
+    alt: 悬浮输入框
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YiRan0/dsh-mobile-glass/b0cc59979876ff089df2f948eb14b2754f15d480/assets/mobile-settings.png
+    alt: 设置底部卡片
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YiRan0/dsh-mobile-glass/b0cc59979876ff089df2f948eb14b2754f15d480/assets/desktop-unchanged.png
+    alt: 桌面端
