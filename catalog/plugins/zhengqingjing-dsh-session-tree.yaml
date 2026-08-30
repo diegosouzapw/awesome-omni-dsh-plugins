@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zhengqingjing-dsh-session-tree
+name: dsh-session-tree
+description:
+  en: Lightweight read-only session lineage navigation for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - session-lineage
+  - conversation
+  - typescript
+source:
+  repository: https://github.com/ZhengQingJing/dsh-session-tree
+  repositoryNodeId: R_kgDOT4NIjg
+  subpath: null
+  commit: 28e7887a888adf1747e9a35b38b96f1dac233a23
+creator:
+  github: ZhengQingJing
+package:
+  ecosystem: npm
+  name: dsh-session-tree
+  version: 0.2.0-beta.1
+  integrity: sha512-Yl8Su/cmHMYAn8kZjvMdLW1EG30S9Ds9n2tmYWGqgBxN3368zc01zxszVTLeTUHLeMQ6+yqh9kkgryhbLFtaKw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:50.290Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
