@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: nagasakisoyo-ui-dsh-llm-deepseek-vision
+name: "@deepseek-ai/dsh-llm-deepseek-vision"
+description:
+  en: "Vision-augmented DeepSeek adapter plugin for DeepSeek Harness: a vision-capable model describes image input, then a text-only DeepSeek model reasons over the description"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - vision
+  - multimodal
+  - llm
+  - cordis
+source:
+  repository: https://github.com/NagasakiSoyo-ui/dsh-llm-deepseek-vision
+  repositoryNodeId: R_kgDOT4FeEA
+  subpath: null
+  commit: 4347929795042b665b6ddccd6806f22b92689f32
+creator:
+  github: NagasakiSoyo-ui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:52.670Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
