@@ -1,0 +1,67 @@
+schemaVersion: 1
+id: chuantianml-dsh-chat-tidy
+name: dsh-chat-tidy
+description:
+  en: Codex-aligned chat typography, layout, and polished Markdown tables for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chat
+  - markdown
+  - tables
+  - typography
+  - web-ui
+source:
+  repository: https://github.com/ChuanTianML/dsh-chat-tidy
+  repositoryNodeId: R_kgDOT5Pc2Q
+  subpath: null
+  commit: 42d40b45e786eb69ce802b3e9a6b8c45ff18ed35
+creator:
+  github: ChuanTianML
+package:
+  ecosystem: npm
+  name: dsh-chat-tidy
+  version: 0.3.0
+  integrity: sha512-0x1pbaTgG2gFF4C/ZN+BtroKBQ6pYop9W3J2o4P0agE2j2FwBuNmeF3SKCt9d9RNFdWe4fqlE6hgdIsSGO0f3g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:52.881Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/hero.png
+    alt: The DSH Web conversation page with Tidy Chat applied
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/typography.png
+    alt: The heading ladder and body text before and after Tidy Chat
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/tidy-tables.png
+    alt: The same Markdown table before and after Tidy Tables
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/comparison.png
+    alt: The same viewport before and after Tidy Chat
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/density.png
+    alt: Full-height reply flow before and after Tidy Chat
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ChuanTianML/dsh-chat-tidy/42d40b45e786eb69ce802b3e9a6b8c45ff18ed35/docs/images/themes.png
+    alt: The same stylesheet under the built-in dark theme
