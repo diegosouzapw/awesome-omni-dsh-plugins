@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zelinw1-dsh-cosplay
+name: dsh-cosplay
+description:
+  en: "Cosplay mode for DeepSeek Harness: a global switch turns the agent into any character you define, with a settings UI for role configuration and management."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - cosplay
+  - roleplay
+  - persona
+  - cordis
+source:
+  repository: https://github.com/ZelinW1/dsh-cosplay
+  repositoryNodeId: R_kgDOT8nB4A
+  subpath: null
+  commit: 7a15aa1bd6ab3530f062173de35f11f0bf51be4a
+creator:
+  github: ZelinW1
+package:
+  ecosystem: npm
+  name: dsh-cosplay
+  version: 0.4.0
+  integrity: sha512-JaqheJzU4g5lMOCrsh6Sd+bcL+Mm0B7ZmTmhGnJ7sVBqVNzYJ/bWHR4CgvCC1CfUaKkz8owWVLYore+dJUB36Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:46.846Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
