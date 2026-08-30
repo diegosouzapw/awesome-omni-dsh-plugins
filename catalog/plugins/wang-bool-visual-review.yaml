@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wang-bool-visual-review
+name: visual-review
+description:
+  en: "DSH plugin: renders images inline in DeepSeek Harness Web chat and gives text-only models vision — cloud multimodal API first, local Qwen3-VL fallback."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - image
+  - multimodal
+  - visual-review
+source:
+  repository: https://github.com/wang-bool/visual-review
+  repositoryNodeId: R_kgDOT4M9AQ
+  subpath: null
+  commit: 0e2a4a6c2cbee9667b544e57f0232b2cc7ddcc21
+creator:
+  github: wang-bool
+package:
+  ecosystem: npm
+  name: visual-review
+  version: 1.0.1
+  integrity: sha512-g0SNT2VngvQ5ruF9Tc4wjIVCNjZNw3bs77Yw4w8bFUpI/I2Ifsq36SWYpnogYh6XBiR4nnh48RY9ZH2dXbj5Rg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:29.873Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wang-bool/visual-review/0e2a4a6c2cbee9667b544e57f0232b2cc7ddcc21/assets/qr-official-account.jpg
+    alt: 公众号二维码
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wang-bool/visual-review/0e2a4a6c2cbee9667b544e57f0232b2cc7ddcc21/assets/qr-group.png
+    alt: 交流群二维码
