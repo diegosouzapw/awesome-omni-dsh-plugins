@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ricketts-guo-dsh-offpeak-send
+name: dsh-offpeak-send
+description:
+  en: bash pnpm --dir ~/.dsh/profiles/web add --save-prod dsh-offpeak-send
+  evidencePath: dsh-offpeak-send/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - off-peak
+  - scheduler
+  - cordis
+source:
+  repository: https://github.com/Ricketts-Guo/dsh-off-peak-message
+  repositoryNodeId: R_kgDOT9BR5w
+  subpath: dsh-offpeak-send
+  commit: 5332a169f24ec7949cb40bcf13bc2e809e7f18db
+creator:
+  github: Ricketts-Guo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-offpeak-send/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:11.626Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
