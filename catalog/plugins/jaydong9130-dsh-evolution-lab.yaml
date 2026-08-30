@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jaydong9130-dsh-evolution-lab
+name: dsh-evolution-lab
+description:
+  en: Proof-carrying Skill self-evolution for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - agent-skills
+  - self-evolution
+  - self-evolving
+  - harness-evolution
+  - canary
+source:
+  repository: https://github.com/JayDong9130/dsh-evolution-lab
+  repositoryNodeId: R_kgDOT50rFA
+  subpath: null
+  commit: 6bc8a776fe8dde6433315c8afa97098eaca396a2
+creator:
+  github: JayDong9130
+package:
+  ecosystem: npm
+  name: dsh-evolution-lab
+  version: 0.3.1
+  integrity: sha512-QOdZTTrJvry4Zy5/r2aX9ANfpeHmxzkH/+p/k4uBxv10vCnh1LFFWDrJW3BKUaonu0L+o6XPJvo7+dmKx/sBLQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:46.121Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
