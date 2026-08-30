@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: swaylq-dsh-genie
+name: dsh-genie
+description:
+  en: Wishes that outlive the session — turn a DeepSeek Harness agent's runtime plugins into permanently installed ones, with no pnpm, no network, and no build authorization.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - ai-agents
+source:
+  repository: https://github.com/swaylq/dsh-genie
+  repositoryNodeId: R_kgDOT5AJcg
+  subpath: null
+  commit: d917d28c7d903de8247771cbf6ad09c6b1a0bae7
+creator:
+  github: swaylq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:00.116Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
