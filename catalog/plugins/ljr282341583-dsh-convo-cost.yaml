@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ljr282341583-dsh-convo-cost
+name: dsh-convo-cost
+description:
+  en: "Real-time cost tracking for the current DSH conversation: a composer-dock line showing the running token usage and DeepSeek official price estimate (base and peak/valley pricing)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - cost
+  - usage
+  - tokens
+  - billing
+source:
+  repository: https://github.com/ljr282341583/dsh-convo-cost
+  repositoryNodeId: R_kgDOT6YIXA
+  subpath: null
+  commit: e50308bfc9ad3c93dc670cea2c0f7500a5785b41
+creator:
+  github: ljr282341583
+package:
+  ecosystem: npm
+  name: dsh-convo-cost
+  version: 1.0.1
+  integrity: sha512-DaIy3r8Kyj5tnewWlfxyDJuRph4w347VW7oZN1C/jZumzpMqH+oLsPUKGf+nhGrrPdiI4SBN9Y0krPB9w654Fg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:47.988Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
