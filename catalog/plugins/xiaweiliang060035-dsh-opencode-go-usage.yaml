@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xiaweiliang060035-dsh-opencode-go-usage
+name: "@xiaweiliang060035/dsh-opencode-go-usage"
+description:
+  en: DSH (DeepSeek Harness) web plugin — floating widget showing real-time OpenCode Go subscription usage (rolling / weekly / monthly) for every API key. 悬浮实时展示 opencode-go 各 key 用量。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - opencode
+  - opencode-go
+  - usage
+  - quota
+source:
+  repository: https://github.com/xiaweiliang060035/dsh-opencode-go-usage
+  repositoryNodeId: R_kgDOT5IG6A
+  subpath: null
+  commit: ad2586d30d4dd7274cb151a01ea9db07abbe595e
+creator:
+  github: xiaweiliang060035
+package:
+  ecosystem: npm
+  name: "@xiaweiliang060035/dsh-opencode-go-usage"
+  version: 0.3.0
+  integrity: sha512-sYFwfRWUlBLQoXQJRRaOs+91orD88NqiaHt4RsE32vKDOopp4rk6OgGuAX22BoJJe7XV7nXoWEToi3shBxNeuA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaweiliang060035/dsh-opencode-go-usage/ad2586d30d4dd7274cb151a01ea9db07abbe595e/docs/screenshot.png
+    alt: floating widget
