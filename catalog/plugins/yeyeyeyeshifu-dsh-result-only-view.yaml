@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yeyeyeyeshifu-dsh-result-only-view
+name: dsh-result-only-view
+description:
+  en: "Results-only toggle for the DeepSeek Harness Web GUI: hides thinking and tool-call process nodes so a conversation shows only final answers, while keeping a single live status line (the latest running step) during agent activity. Whitelisted interactive cards (ask user question, cordis run) stay visible; approval promp"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ui
+  - results-only
+  - productivity
+source:
+  repository: https://github.com/YEYEYEYESHIFU/dsh-result-only-view
+  repositoryNodeId: R_kgDOT5dUnA
+  subpath: null
+  commit: 7fcc3f0979767f89b937758b5b3f566f458f05b1
+creator:
+  github: YEYEYEYESHIFU
+package:
+  ecosystem: npm
+  name: dsh-result-only-view
+  version: 1.6.3
+  integrity: sha512-wjSeCKTVVmhvQHSLVnGD+q88NW4Kwd0LVH4PTRvVxog5u7v4esbpizigOQiQPS4fcOwchUTt7P+5oYD8hpt/nw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:17.987Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
