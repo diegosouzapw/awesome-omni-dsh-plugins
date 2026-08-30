@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: rizenhnt-dsh-skin-digital-arcade
+name: dsh-skin-digital-arcade
+description:
+  en: "Rizen Signal Console — digital arcade HUD skin for DeepSeek Harness Web GUI: neon cyan/violet/magenta palette, pixel fonts, animated HUD sprites, custom crosshair cursor"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - rizen
+  - signal
+  - console
+  - digital
+  - arcade
+  - skin
+  - neon
+  - cyan
+  - violet
+  - magenta
+  - palette
+  - pixel
+  - fonts
+  - animated
+  - sprites
+  - custom
+source:
+  repository: https://github.com/RizenHNT/dsh-skin-digital-arcade
+  repositoryNodeId: R_kgDOT5H6HA
+  subpath: null
+  commit: 04a29edc60e4a528e3967ebe688a9dfee994e4db
+creator:
+  github: RizenHNT
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:54.809Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RizenHNT/dsh-skin-digital-arcade/04a29edc60e4a528e3967ebe688a9dfee994e4db/preview/preview-dark.png
+    alt: dark
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RizenHNT/dsh-skin-digital-arcade/04a29edc60e4a528e3967ebe688a9dfee994e4db/preview/preview-light.png
+    alt: light
