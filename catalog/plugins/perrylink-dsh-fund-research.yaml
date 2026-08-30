@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-fund-research
+name: dsh-fund-research
+description:
+  en: "Research plugin for Chinese public mutual funds on DeepSeek Harness: collects fund data from public sources (Tiantian Fund / Eastmoney), computes deterministic metrics (manager profile, holdings penetration, style attribution, performance decomposition), and seals versioned Markdown research reports whose every key num"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - fund-research
+  - mutual-fund
+  - investment-research
+  - finance
+  - research-report
+source:
+  repository: https://github.com/PerryLink/dsh-fund-research
+  repositoryNodeId: R_kgDOT9nGKA
+  subpath: null
+  commit: 955c2b89deba67b69d154e1f8280368bbcf03384
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-fund-research
+  version: 0.3.0
+  integrity: sha512-n4dN+RqbMd0LDu1y8HdKdApzkrVc+NVY8LVudZAbzFlQ9m4oiOX/1dHKRuLdehfNwRtyY0nBEnZMX6YZ1AH1hQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.268Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
