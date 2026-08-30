@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zhengjy01-dsh-settings-nav-organizer
+name: dsh-settings-nav-organizer
+description:
+  en: "Organize the DSH settings panel nav: fold third-party plugin entries under collapsible group rows, with bookmark-style custom groups and a fold toggle in General settings."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - settings
+  - sidebar
+  - nav
+  - fold
+  - ui
+source:
+  repository: https://github.com/zhengjy01/dsh-settings-nav-organizer
+  repositoryNodeId: R_kgDOT50UHQ
+  subpath: null
+  commit: a0fe225635e49770dbb0d55db42cfac4b0633389
+creator:
+  github: zhengjy01
+package:
+  ecosystem: npm
+  name: dsh-settings-nav-organizer
+  version: 1.7.1
+  integrity: sha512-RV5kfygtOrCTEnwmV2pGH0Hs3/pIITCYBQEMtPdRbkg4o8/v8Ir+EgZeWzyYiN9XDHk89Oc4aWZYi65Op2PV3A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:56.543Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
