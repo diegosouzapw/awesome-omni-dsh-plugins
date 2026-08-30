@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: tingfeng347-dsh-vscode-workbench
+name: dsh-vscode-workbench
+description:
+  en: Explorer, Monaco editor, search and local Git overlay for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - explorer
+  - monaco
+  - editor
+  - search
+  - local
+  - overlay
+  - dsh
+source:
+  repository: https://github.com/tingfeng347/dsh-vscode-workbench
+  repositoryNodeId: R_kgDOUBqyyw
+  subpath: null
+  commit: 44401a86fced3166c192309da795f58654ad6bab
+creator:
+  github: tingfeng347
+package:
+  ecosystem: npm
+  name: dsh-vscode-workbench
+  version: 0.1.6
+  integrity: sha512-vTjA39dGB4gqce5a2Wrozf+A4EkTPOAJrUXJ21TsaCCntacZA6C9FqWyHi4J9mX89ytiMGv/u5PpAZi55xsoZg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:03.079Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/tingfeng347/dsh-vscode-workbench/44401a86fced3166c192309da795f58654ad6bab/assets/screenshots/explorer.png
+    alt: 资源管理器与 Monaco 编辑器
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/tingfeng347/dsh-vscode-workbench/44401a86fced3166c192309da795f58654ad6bab/assets/screenshots/source-control.png
+    alt: 源代码管理与提交图表
