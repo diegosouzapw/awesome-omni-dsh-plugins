@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yuanyuanma03-dsh-funnel
+name: dsh-funnel
+description:
+  en: "Curate tool output before it enters the model's context: keep error/warning lines and head/tail, spill the full text to disk with a pointer. Faster turns, smaller context, sharper attention — for every tool, not just bash."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - context
+  - tokens
+  - performance
+  - tool-output
+source:
+  repository: https://github.com/YuanyuanMa03/dsh-funnel
+  repositoryNodeId: R_kgDOT5HeVQ
+  subpath: null
+  commit: 596361966226a89c2361ac0250b41f6541ce9ea5
+creator:
+  github: YuanyuanMa03
+package:
+  ecosystem: npm
+  name: dsh-funnel
+  version: 0.1.0
+  integrity: sha512-mvg/4scAtyB7l3ILtmkX5uLgYzvIO/uh1QbB5YccyUTTbNi5ZwAM+UAbxjHefXrw8NRZ+NjCJiJsO+KxON3+eQ==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:24.020Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
