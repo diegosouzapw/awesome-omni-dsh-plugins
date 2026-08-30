@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: luxiwusuobuneng-dsh-plugin-context-manager
+name: dsh-plugin-context-manager
+description:
+  en: "DeepSeek Harness context manager: auto-records every turn, injects priority-sorted memory and pinned cross-session notes into each model request, and folds real conversation history to save tokens. NOTE: manual multi-step install — copy the three package folders into profiles/node modules and add the provided cordis.pa"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - context-manager
+  - memory
+source:
+  repository: https://github.com/luxiwusuobuneng/dsh-plugin-context-manager
+  repositoryNodeId: R_kgDOT8fgHg
+  subpath: null
+  commit: be110699f9f605566c03151675cd32ab64abbd01
+creator:
+  github: luxiwusuobuneng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:44.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
