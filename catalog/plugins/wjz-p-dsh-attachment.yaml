@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: wjz-p-dsh-attachment
+name: dsh-attachment
+description:
+  en: Drag-and-drop file and folder attachments for the DeepSeek Harness Web UI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - attachments
+  - drag-and-drop
+source:
+  repository: https://github.com/WJZ-P/dsh-attachments
+  repositoryNodeId: R_kgDOT6EM1Q
+  subpath: null
+  commit: c94ec8b38a126b8ab919dd3849cd88560f0063a6
+creator:
+  github: WJZ-P
+package:
+  ecosystem: npm
+  name: dsh-attachment
+  version: 1.0.1
+  integrity: sha512-cuQ3IfTBVV2LDXGCGB47GV8pkeaEnCzayJunUXvN6n2Udg+UXg0uN4v+CZhBwKmDLfnIcVfhbDp5FP0/hSXmxQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.282Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WJZ-P/dsh-attachments/c94ec8b38a126b8ab919dd3849cd88560f0063a6/assets/markdown/01-drag-drop-overlay.png
+    alt: 拖放附件界面
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WJZ-P/dsh-attachments/c94ec8b38a126b8ab919dd3849cd88560f0063a6/assets/markdown/02-image-conversation.png
+    alt: 图片消息与模型回复
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WJZ-P/dsh-attachments/c94ec8b38a126b8ab919dd3849cd88560f0063a6/assets/markdown/03-multiple-image-preview.png
+    alt: 多图片输入预览
