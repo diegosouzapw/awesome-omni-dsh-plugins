@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-base62
+name: dsh-base62
+description:
+  en: bash dsh plugin add github:uckkk/dsh-base62
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-base62
+source:
+  repository: https://github.com/uckkk/dsh-base62
+  repositoryNodeId: R_kgDOT9uHxA
+  subpath: null
+  commit: b9a43800044edc6aed379930ae1de8e04a71e52f
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:35.573Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
