@@ -1,0 +1,66 @@
+schemaVersion: 1
+id: alloevil-dsh-xray
+name: dsh-xray
+description:
+  en: "X-ray for your DeepSeek Harness — diagnostics for what's actually loaded, why, and what it costs: per-plugin context-tax attribution, per-request token ledger, skill catalog pricing, dependency cascades."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - cordis
+  - diagnostics
+  - introspection
+  - plugin-tree
+  - dependency-graph
+  - observability
+  - audit
+  - security-scan
+  - token-cost
+  - lockfile
+  - troubleshooting
+  - context-cost
+  - token-attribution
+source:
+  repository: https://github.com/alloevil/dsh-xray
+  repositoryNodeId: R_kgDOT-YrRQ
+  subpath: null
+  commit: 6d86469f04e29ea61e21cd8c230e119d1c5a97c9
+creator:
+  github: alloevil
+package:
+  ecosystem: npm
+  name: dsh-xray
+  version: 0.10.2
+  integrity: sha512-JNqwOeNWtSfMiHUxicu1DTr3qRpDrPIP9L2l5xM77paGluXfpWOEIOG3ioAg8Pb+edWw/eijH7czPf0VVigPXg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:16.206Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/alloevil/dsh-xray/6d86469f04e29ea61e21cd8c230e119d1c5a97c9/assets/tab-cost.webp
+    alt: "The X-Ray tab: every plugin's per-request context tax, attributed and ranked"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/alloevil/dsh-xray/6d86469f04e29ea61e21cd8c230e119d1c5a97c9/assets/tab-expand.webp
+    alt: A plugin unfolds into its registered entries
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/alloevil/dsh-xray/6d86469f04e29ea61e21cd8c230e119d1c5a97c9/assets/tab-entry.webp
+    alt: The raw text behind ~184 tokens, with a chars/tokens ruler
