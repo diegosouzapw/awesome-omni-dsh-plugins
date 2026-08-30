@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ciky20171114-dsh-plugin-midscene
+name: dsh-plugin-midscene
+description:
+  en: "Midscene-based AI UI automation for DeepSeek Harness: one ctx.midscene seam, Android and Web (Puppeteer) providers, and the android ui / web ui model tools"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - midscene
+  - android
+  - puppeteer
+  - ui-automation
+  - dsh
+source:
+  repository: https://github.com/ciky20171114/dsh-plugin-midscene
+  repositoryNodeId: R_kgDOT-YuIw
+  subpath: null
+  commit: 158f751a9cd64ba7ac0204c914474abccedf8649
+creator:
+  github: ciky20171114
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:57.519Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
