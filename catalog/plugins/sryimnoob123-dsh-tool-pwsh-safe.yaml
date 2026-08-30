@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sryimnoob123-dsh-tool-pwsh-safe
+name: dsh-tool-pwsh-safe
+description:
+  en: "Elbow-proof PowerShell for DeepSeek Harness: run multiline pwsh scripts via -EncodedCommand, immune to quoting/escaping pain."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - powershell
+  - pwsh
+  - tool
+source:
+  repository: https://github.com/sryimnoob123/dsh-tool-pwsh-safe
+  repositoryNodeId: R_kgDOT-7ffw
+  subpath: null
+  commit: af74e2c208ab1315b4c8d0e902b31364cc188cc5
+creator:
+  github: sryimnoob123
+package:
+  ecosystem: npm
+  name: dsh-tool-pwsh-safe
+  version: 0.1.1
+  integrity: sha512-9s258slTDE1yIGaPPWv6vc5TTQHU5/jwpvZBoz2RareCXWwrxSDDJMx5QaFVzc7CCjYIlKjcJxtjC6fYkZn/7w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:04.118Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
