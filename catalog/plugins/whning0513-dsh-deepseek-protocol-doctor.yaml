@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: whning0513-dsh-deepseek-protocol-doctor
+name: dsh-deepseek-protocol-doctor
+description:
+  en: Offline DeepSeek request, tool-loop, reasoning content, and SSE diagnostics for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - tool-calling
+  - reasoning-content
+  - sse
+source:
+  repository: https://github.com/Whning0513/deepseek-protocol-doctor
+  repositoryNodeId: R_kgDOT4Q3Sw
+  subpath: null
+  commit: 43f6df8cbeb4073cd83535966a47c13fb40b0e6f
+creator:
+  github: Whning0513
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:35.700Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
