@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: yu-tao-li-dsh-reference-checker
+name: dsh-reference-checker
+description:
+  en: "Reference verification for DeepSeek Harness (参考文献真实性检查器): the reference checker model tool checks a paper's bibliography (.pdf/.bib/.tex/.txt/.md or pasted text) against Crossref, OpenAlex and arXiv, reports found/partial/not found/error per entry, and emits corrected citations in the input's style (APA, GB/T 7714, IEE"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - references
+  - refcheck
+  - bibliography
+  - verification
+  - crossref
+  - openalex
+  - arxiv
+source:
+  repository: https://github.com/Yu-tao-Li/dsh-reference-checker
+  repositoryNodeId: R_kgDOT7h79A
+  subpath: null
+  commit: b6c1cf95937e4d19837702d1cd14f7679762a61e
+creator:
+  github: Yu-tao-Li
+package:
+  ecosystem: npm
+  name: dsh-reference-checker
+  version: 1.1.0
+  integrity: sha512-i9iIf3s2uu8bgUlCjFQ+UrZbvoja6Jw1hN4ZzEo62kOAbZnsOdeVm+gUTRrLaqyjIBtMdReYVkYx0KYEavQ8Sw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:07.945Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-reference-checker/b6c1cf95937e4d19837702d1cd14f7679762a61e/assets/screenshot-1.png
+    alt: dsh-reference-checker 示例报告
