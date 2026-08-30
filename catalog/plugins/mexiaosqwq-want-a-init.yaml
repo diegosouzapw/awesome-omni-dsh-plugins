@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: mexiaosqwq-want-a-init
+name: want-a-init
+description:
+  en: "Model-driven /init command for DeepSeek Harness: analyzes the current project and generates/updates a high-signal AGENTS.md."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - init
+  - agents-md
+  - claude-code
+  - dsh
+source:
+  repository: https://github.com/mexiaosqwq/want-a-init
+  repositoryNodeId: R_kgDOT5HPIA
+  subpath: null
+  commit: 601916d73221e44afc81fcdcf6acc4d4e0326a16
+creator:
+  github: mexiaosqwq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:34.334Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
