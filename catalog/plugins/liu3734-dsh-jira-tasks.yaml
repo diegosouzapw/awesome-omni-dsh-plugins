@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: liu3734-dsh-jira-tasks
+name: dsh-jira-tasks
+description:
+  en: "JIRA open tasks panel for DeepSeek Harness (DSH): shows the current user's open/reopened issues below the composer, per-workspace project key, persistent profile bundle."
+  evidencePath: profile-package/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - jira
+  - cordis
+  - tasks
+source:
+  repository: https://github.com/liu3734/jira-tasks-dsh-plugin
+  repositoryNodeId: R_kgDOT7B2Zw
+  subpath: profile-package
+  commit: e99a5778b77c50e4e014c9a9bbb02fd4b98a9763
+creator:
+  github: liu3734
+package:
+  ecosystem: npm
+  name: dsh-jira-tasks
+  version: 1.0.2
+  integrity: sha512-owJUeG1oiW2yS5UsV0E+hXy/YyieOD4ZWC6ywOqRs9GRt7xiTITXwalEIoiyM8+us98RJEbduroeyfIZIuSuMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: profile-package/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:51.200Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
