@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zzy1601-dsh-zcode-sync
+name: dsh-zcode-sync
+description:
+  en: "English : A DeepSeek Harness (DSH) plugin that syncs your ZCode custom model providers into DSH — in-process via the settings & credentials services, with llm-pi-ai 's own validation as the gatekeeper. Idempotent, zero hardcoded paths, works on any machine. See English summary below."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - zcode
+  - model-providers
+  - sync
+  - dsh
+source:
+  repository: https://github.com/zzy1601/dsh-zcode-sync
+  repositoryNodeId: R_kgDOUCMPYw
+  subpath: null
+  commit: c11b0a76d8c20372744f7ede8559da9448943132
+creator:
+  github: zzy1601
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:39.255Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
