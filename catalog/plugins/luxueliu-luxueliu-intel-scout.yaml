@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: luxueliu-luxueliu-intel-scout
+name: luxueliu-intel-scout
+description:
+  en: powershell dsh plugin --profile web add luxueliu/luxueliu-intel-scout
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - automation
+  - intel-scout
+  - rss
+  - daily-brief
+source:
+  repository: https://github.com/luxueliu/luxueliu-intel-scout
+  repositoryNodeId: R_kgDOUDmtpQ
+  subpath: null
+  commit: 44b606c1a091b8d9977212ac1dfb0aaf778ec2fc
+creator:
+  github: luxueliu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:28.676Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
