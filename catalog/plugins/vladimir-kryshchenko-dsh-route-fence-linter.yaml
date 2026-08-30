@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: vladimir-kryshchenko-dsh-route-fence-linter
+name: dsh-route-fence-linter
+description:
+  en: "Static linter: every plugin HTTP route must carry a browser-trust fence (loopback Host pin before Origin / sec-fetch-site)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - security
+  - audit
+  - static-analysis
+  - dns-rebinding
+  - csrf
+source:
+  repository: https://github.com/Vladimir-Kryshchenko/dsh-route-fence-linter
+  repositoryNodeId: R_kgDOT_qC2g
+  subpath: null
+  commit: 904339d50031181390bdb22ddd970c15876e5870
+creator:
+  github: Vladimir-Kryshchenko
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:43.474Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
