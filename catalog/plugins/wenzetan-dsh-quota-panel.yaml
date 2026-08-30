@@ -1,0 +1,66 @@
+schemaVersion: 1
+id: wenzetan-dsh-quota-panel
+name: dsh-quota-panel
+description:
+  en: "Provider quota/balance widget for the dsh web surface: collapsed glanceable capsule expanding into a Harness-native card with a settings panel (provider visibility / refresh interval / warn thresholds), fed by a loopback Connection RPC channel whose host half proxies each provider with credentials that never reach the "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - quota
+  - balance
+  - usage
+  - opencode
+source:
+  repository: https://github.com/wenzetan/dsh-quota-panel
+  repositoryNodeId: R_kgDOT4iLjA
+  subpath: null
+  commit: 8f916973ab06eee7498de4e4fff56e5556ffe61b
+creator:
+  github: wenzetan
+package:
+  ecosystem: npm
+  name: dsh-quota-panel
+  version: 0.9.1-rc.1
+  integrity: sha512-z88d/Qjmwr9Cw4XoxKMLRymsRaZYmxlWWkgjpKS7s9JPbRWsUzFrYENdezlqZozKIMbh89ItT4MSSEGDdDSvfQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:24.826Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-light.png
+    alt: capsule (light)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-light-expanded.png
+    alt: expanded (light)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-light-settings.png
+    alt: settings (light)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-dark.png
+    alt: capsule (dark)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-dark-expanded.png
+    alt: expanded (dark)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenzetan/dsh-quota-panel/8f916973ab06eee7498de4e4fff56e5556ffe61b/docs/screenshot-dark-settings.png
+    alt: settings (dark)
