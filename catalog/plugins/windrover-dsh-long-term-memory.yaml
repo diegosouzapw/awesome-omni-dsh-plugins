@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: windrover-dsh-long-term-memory
+name: dsh-long-term-memory
+description:
+  en: "Layered deterministic long-term memory for DeepSeek Harness: CJK-aware BM25 recall, JSONL storage, per-assembly context injection, and an optional write-approval gate."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - layered
+  - deterministic
+  - long
+  - term
+  - memory
+  - aware
+  - bm25
+  - recall
+  - jsonl
+  - storage
+  - assembly
+  - context
+  - injection
+  - optional
+  - write
+  - approval
+source:
+  repository: https://github.com/windrover/dsh-long-term-memory
+  repositoryNodeId: R_kgDOUDsvmA
+  subpath: null
+  commit: 3740ba890cfe97a593ab0a74cbd56010622edc3e
+creator:
+  github: windrover
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: archived
+  checkedAt: 2026-08-30T09:18:46.555Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
