@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yangbobo2021-relay-dsh-plugin-manager
+name: relay-dsh-plugin-manager
+description:
+  en: Conversation-first plugin discovery and lifecycle management for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - plugin-manager
+  - ai-agent
+source:
+  repository: https://github.com/yangbobo2021/relay-dsh-plugin-manager
+  repositoryNodeId: R_kgDOUEvW2g
+  subpath: null
+  commit: 2115aa26734ec4cf0b6a2fe5c4b65fbff857812e
+creator:
+  github: yangbobo2021
+package:
+  ecosystem: npm
+  name: relay-dsh-plugin-manager
+  version: 0.1.0-rc.4
+  integrity: sha512-3c7puTHvaaWw6NrSq21zZejpBSO5niQvg7Esa/F9+8HnOK40yR4fays6bmLe02NIODqtz+tXBxtKJXZOKE2Lyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:35.492Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
