@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: whning0513-dsh-awesome-deepseek-skills
+name: dsh-awesome-deepseek-skills
+description:
+  en: Browse and install pinned Agent Skills from Awesome DeepSeek Skills in DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - agent-skills
+  - awesome-list
+source:
+  repository: https://github.com/Whning0513/awesome-deepseek-skills
+  repositoryNodeId: R_kgDOT4YJhw
+  subpath: null
+  commit: 11f4b482afc58f2830f0f039e2588df9a3bdffd8
+creator:
+  github: Whning0513
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:35.699Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
