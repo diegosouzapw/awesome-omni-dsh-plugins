@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: aryswisnu-dsh-eval-regression
+name: dsh-eval-regression
+description:
+  en: Deterministic, CI-safe golden-output evaluation for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - evaluation
+  - regression-testing
+  - ci
+  - dsh
+source:
+  repository: https://github.com/aryswisnu/dsh-eval-regression
+  repositoryNodeId: R_kgDOT3d-5w
+  subpath: null
+  commit: 39382eb9d97ce19cff848e4f81e6cf6cf5948cb5
+creator:
+  github: aryswisnu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:16.254Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
