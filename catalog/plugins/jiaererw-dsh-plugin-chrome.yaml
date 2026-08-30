@@ -1,0 +1,61 @@
+schemaVersion: 1
+id: jiaererw-dsh-plugin-chrome
+name: dsh-plugin-chrome
+description:
+  en: "A DeepSeek Harness browser visualization plugin: opens a real, visible Chrome window per session, lets the agent drive the browser through the chrome tool suite, and streams the live view into a Chrome tab in the Web GUI — take over manually at any time."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - browser
+  - visualization
+  - opens
+  - real
+  - visible
+  - chrome
+  - window
+  - session
+  - lets
+  - agent
+  - drive
+  - through
+  - tool
+  - suite
+  - streams
+  - live
+source:
+  repository: https://github.com/jiaererw/dsh-plugin-chrome
+  repositoryNodeId: R_kgDOT-xncA
+  subpath: null
+  commit: 2a7e7928aea98aa365a4eea5f66703dfbbc73d54
+creator:
+  github: jiaererw
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.036Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jiaererw/dsh-plugin-chrome/2a7e7928aea98aa365a4eea5f66703dfbbc73d54/assets/screenshot-1-bing.jpg
+    alt: browsing
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jiaererw/dsh-plugin-chrome/2a7e7928aea98aa365a4eea5f66703dfbbc73d54/assets/screenshot-2-douyin.jpg
+    alt: douyin
