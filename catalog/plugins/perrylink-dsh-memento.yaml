@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: perrylink-dsh-memento
+name: dsh-memento
+description:
+  en: Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - memory
+  - agent-memory
+  - approval
+  - audit
+  - sqlite
+  - cordis
+  - llm
+source:
+  repository: https://github.com/PerryLink/dsh-memento
+  repositoryNodeId: R_kgDOT3soog
+  subpath: null
+  commit: 09d0e05132034dd38041a4dea8a3609eea7ad136
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-memento
+  version: 0.5.0
+  integrity: sha512-L34OEFfD8fOCjPFYUt2bYbAS1z44HeC25m3tZN0ePyAvXbNc6Kx/hbm7bDvnCoqwGZoWJt+Erp2zTeHFRh/VlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 75
+provenance:
+  discussion: null
+  comment: null
