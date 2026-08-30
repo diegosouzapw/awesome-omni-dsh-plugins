@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yurzi-dsh-pdf-mineru
+name: dsh-pdf-mineru
+description:
+  en: Provider-independent DSH document parsing powered by MinerU, with native background jobs, immutable results, and safe request coalescing.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/Yurzi/dsh-pdf-mineru
+  repositoryNodeId: R_kgDOUCSi_w
+  subpath: null
+  commit: 5343aa6a5593d2b3637a9557ca81b50f598492b2
+creator:
+  github: Yurzi
+package:
+  ecosystem: npm
+  name: dsh-pdf-mineru
+  version: 0.0.5
+  integrity: sha512-plVX+hfYPqBC4ajl5sg/0FhTGatWR3ODgfUT2AIhIJ3Bc2Jck54R2mpZJ8iTm7FOme6rHHCGwDBuVMi3TnFg8w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:27.959Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yurzi/dsh-pdf-mineru/5343aa6a5593d2b3637a9557ca81b50f598492b2/docs/assets/deepseek-mineru-banner.png
+    alt: DeepSeek 娘与 MinerU 文档解析插件横幅
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yurzi/dsh-pdf-mineru/5343aa6a5593d2b3637a9557ca81b50f598492b2/docs/assets/mineru-settings-preview.png
+    alt: dsh-pdf-mineru 在 DSH Settings 中的设置界面
