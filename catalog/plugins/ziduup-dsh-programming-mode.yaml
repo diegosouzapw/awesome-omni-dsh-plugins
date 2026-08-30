@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ziduup-dsh-programming-mode
+name: dsh-programming-mode
+description:
+  en: "A DeepSeek Harness bundle that ships the 编程模式 agent preset: the full standard coding agent with its persona replaced by a mandatory Superpowers engineering discipline."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - dsh-bundle
+  - agent-preset
+  - superpowers
+  - dsh
+source:
+  repository: https://github.com/ziduup/dsh-programming-mode
+  repositoryNodeId: R_kgDOUCQo5w
+  subpath: null
+  commit: e51b32cc0732be81b1d563bd3a0d4911d4e7deaa
+creator:
+  github: ziduup
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:50.356Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
