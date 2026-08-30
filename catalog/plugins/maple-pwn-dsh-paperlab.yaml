@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: maple-pwn-dsh-paperlab
+name: dsh-paperlab
+description:
+  en: "DeepSeek Harness bundle for PaperLab: an Overleaf-style workbench where you annotate a rendered PDF and a dsh agent revises the LaTeX sources."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - latex
+  - paper
+  - revision
+  - annotation
+  - dsh
+source:
+  repository: https://github.com/maple-pwn/paperlab
+  repositoryNodeId: R_kgDOT5bI6A
+  subpath: null
+  commit: 2792dc632634835f81b2d1cac27daa2a28bf4491
+creator:
+  github: maple-pwn
+package:
+  ecosystem: npm
+  name: dsh-paperlab
+  version: 0.1.2
+  integrity: sha512-SFTP73ijZg2biVEd+EXUtC1HrpM1ScKith1PngmI92lZ/LkAR9QScj7cZc4A7Q2HYviLB4yGGyjL1hqE9ZjNTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:34.246Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/maple-pwn/paperlab/2792dc632634835f81b2d1cac27daa2a28bf4491/docs/assets/screenshot.png
+    alt: PaperLab 界面截图
