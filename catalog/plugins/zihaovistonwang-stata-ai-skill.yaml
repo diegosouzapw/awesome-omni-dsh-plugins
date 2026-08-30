@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zihaovistonwang-stata-ai-skill
+name: "@zihaovistonwang/stata-ai-skill"
+description:
+  en: Start the native Stata AI Skill service together with DeepSeek Harness — platform-aware (macOS arm64 / Windows x64 / Windows arm64), reuses an already-running service, restarts on crash, and shuts down cleanly with DSH.
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - stata
+  - econometrics
+  - skill
+source:
+  repository: https://github.com/ZihaoVistonWang/Stata-AI-Skill
+  repositoryNodeId: R_kgDOS5XL7A
+  subpath: dsh-plugin
+  commit: 8ed19243fbb4864b6177b5a855de14fda55771c7
+creator:
+  github: ZihaoVistonWang
+package:
+  ecosystem: npm
+  name: "@zihaovistonwang/stata-ai-skill"
+  version: 1.3.0
+  integrity: sha512-AAMTfA0jH3cOq6X4gaj+2V7NixzAGUMtsVfVl6aa4dC9dxc/S+XIzccrotjGfoHkgp4FEhUy19CCLlialBC9cQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:09.866Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
