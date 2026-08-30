@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: winditer-dsh-elf
+name: dsh-elf
+description:
+  en: A DeepSeek whale elf that lives on your DSH page. A translucent, slowly drifting whale (rendered from the official DeepSeek favicon path, tinted blue → purple → green) hovers at the edge of the viewport; click it to open a lightweight, draggable chat window that never touches your session history.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - whale
+  - lives
+  - page
+  - translucent
+  - slowly
+  - drifting
+  - rendered
+  - official
+  - favicon
+  - path
+  - tinted
+  - blue
+  - purple
+  - green
+  - hovers
+  - edge
+source:
+  repository: https://github.com/winditer/dsh-elf
+  repositoryNodeId: R_kgDOT8Ue6w
+  subpath: null
+  commit: 14b3748d9bd70959c3c1161051db2590d14fd99e
+creator:
+  github: winditer
+package:
+  ecosystem: npm
+  name: dsh-elf
+  version: 2.2.1
+  integrity: sha512-TIZmbfs9Y8WOs+RQJj4+44C+7dJ1N/aTF3wDenUJF37sdKDC+lxwesixPBJcGoS0OBWr6zhTWCU9ze2coykXOw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:40.723Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/winditer/dsh-elf/14b3748d9bd70959c3c1161051db2590d14fd99e/assets/screenshot-elf.png
+    alt: The whale elf hovering at the corner of the page
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/winditer/dsh-elf/14b3748d9bd70959c3c1161051db2590d14fd99e/assets/screenshot-chat.png
+    alt: The temporary chat window opened by clicking the elf
