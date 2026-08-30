@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: frost-reed-dsh-blocker-notify
+name: dsh-blocker-notify
+description:
+  en: "Real-time attention alerts for DeepSeek Harness: a global banner plus flashing workspace entries when the agent is blocked (approval request / sandbox denial), with an audible chime and OS-level notifications for new blockers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - bundle
+  - notification
+  - approval
+  - sandbox
+source:
+  repository: https://github.com/Frost-Reed/blocker-notify
+  repositoryNodeId: R_kgDOT4ESMQ
+  subpath: null
+  commit: 0a0f396240d955e787b9ad8d64c91fd0151bfb3f
+creator:
+  github: Frost-Reed
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:04.656Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Frost-Reed/blocker-notify/0a0f396240d955e787b9ad8d64c91fd0151bfb3f/assets/show_fullscreen.png
+    alt: 示例
