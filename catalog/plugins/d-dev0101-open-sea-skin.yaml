@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: d-dev0101-open-sea-skin
+name: open-sea-skin
+description:
+  en: Realtime WebGPU ocean skin for DeepSeek Harness on Chrome and Edge
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - theme
+  - skin
+  - webgpu
+  - ocean
+  - dsh
+source:
+  repository: https://github.com/d-dev0101/open-sea-skin
+  repositoryNodeId: R_kgDOT4yoDA
+  subpath: null
+  commit: 2437d80a96de4124c54fbe89872fa7090103f025
+creator:
+  github: d-dev0101
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.834Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 194
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/d-dev0101/open-sea-skin/2437d80a96de4124c54fbe89872fa7090103f025/docs/marketplace/open-sea-harness-cover.png
+    alt: Open Sea for DeepSeek Harness
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/d-dev0101/open-sea-skin/2437d80a96de4124c54fbe89872fa7090103f025/docs/screenshots/harness-dark-overview-40.gif
+    alt: Open Sea inside DeepSeek Harness in dark mode
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/d-dev0101/open-sea-skin/2437d80a96de4124c54fbe89872fa7090103f025/docs/screenshots/harness-light-overview-40.gif
+    alt: Open Sea inside DeepSeek Harness in light mode
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/d-dev0101/open-sea-skin/2437d80a96de4124c54fbe89872fa7090103f025/docs/screenshots/harness-wave-control-40.gif
+    alt: Adjusting wave size in DeepSeek Harness
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/d-dev0101/open-sea-skin/2437d80a96de4124c54fbe89872fa7090103f025/docs/screenshots/harness-daylight-sunset-40.gif
+    alt: Adjusting daylight from midday to sunset
