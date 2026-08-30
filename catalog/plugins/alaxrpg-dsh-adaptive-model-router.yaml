@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: alaxrpg-dsh-adaptive-model-router
+name: dsh-adaptive-model-router
+description:
+  en: Adaptive model discovery, evaluation, tiering, and subagent routing for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - adaptive
+  - model
+  - discovery
+  - evaluation
+  - tiering
+  - subagent
+  - routing
+  - dsh
+source:
+  repository: https://github.com/alaxrpg/dsh-adaptive-model-router
+  repositoryNodeId: R_kgDOT4BHbQ
+  subpath: null
+  commit: f095794278246e345b48bcffde470e1ceb7c99b5
+creator:
+  github: alaxrpg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:21.984Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
