@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: 030611-qiushi-dsh-evidence-audit
+name: qiushi-dsh-evidence-audit
+description:
+  en: Observe-only hash-chained evidence receipts for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - audit
+  - evidence
+  - jsonl
+  - dsh
+source:
+  repository: https://github.com/030611/qiushi-dsh-evidence-audit
+  repositoryNodeId: R_kgDOT3lryg
+  subpath: null
+  commit: 94fae130b2845309e1dcabac14696fddb18f8f3a
+creator:
+  github: "030611"
+package:
+  ecosystem: npm
+  name: qiushi-dsh-evidence-audit
+  version: 0.1.0
+  integrity: sha512-akVLrAo6Fi9TGfDUEYGqUTPCTdt0htoZDaejlSfiXKVfl4NTtsDatnWJqDYMFtZQhulTvbOm3fm51/zOP5FwKQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:08.396Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/030611/qiushi-dsh-evidence-audit/94fae130b2845309e1dcabac14696fddb18f8f3a/docs/social-preview.jpg
+    alt: Qiushi DSH Evidence Audit social preview
