@@ -16,7 +16,7 @@ Khám phá và cài đặt plugin **DeepSeek Harness (DSH)** chỉ bằng một 
   <a href="https://dsh-plugins.omniroute.online">Duyệt, tìm kiếm và cài đặt mọi plugin trên website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-2341_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-2388_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -119,7 +119,7 @@ dữ liệu danh mục công khai, schema và các chính sách mà cả hai đ�
 
 ## Trạng thái danh mục
 
-**Đã hợp nhất 2341 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
+**Đã hợp nhất 2388 plugin.** Mỗi plugin gia nhập danh mục qua một pull request được xét duyệt riêng, từng cái một, từ
 repository của nhà phát triển gốc, kèm commit nguồn đã ghim cố định và ghi công rõ ràng.
 
 ## 🚀 Cài đặt CLI
@@ -328,4 +328,4 @@ chụp màn hình ở nguồn gốc vẫn thuộc về chủ sở hữu và gi�
 
 </div>
 
-<!-- i18n-source-hash: 60dbff04f4c49cd495e5bfe24d87f2787078f2aa3ae1b91b59a3b866e4ad2fe7 -->
+<!-- i18n-source-hash: f9b3406946a74dcdddee7b7c5565530ddc42f169899f30447938b1e4ea2fdb0a -->
