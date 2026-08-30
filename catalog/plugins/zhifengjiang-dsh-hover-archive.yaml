@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zhifengjiang-dsh-hover-archive
+name: dsh-hover-archive
+description:
+  en: "Codex-style hover archive for DeepSeek Harness web: hovering a sidebar session row reveals an Archive icon at the far right; one click archives the session through the official workspaces.archiveSession API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh-plugin
+  - session
+  - archive
+  - sidebar
+  - hover
+  - codex
+  - ui
+  - web
+source:
+  repository: https://github.com/zhifengjiang/dsh-hover-archive
+  repositoryNodeId: R_kgDOT8m0BA
+  subpath: null
+  commit: 430491ab1e36db6019a7d6d11b2f7506e5c2915d
+creator:
+  github: zhifengjiang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
