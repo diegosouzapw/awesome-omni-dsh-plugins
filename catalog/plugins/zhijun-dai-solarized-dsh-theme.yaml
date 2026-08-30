@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: zhijun-dai-solarized-dsh-theme
+name: "@yuquexianzhou/solarized-dsh-theme"
+description:
+  en: "Solarized + Selenized themes for DeepSeek Harness: four faithful palettes (Solarized Dark/Light, Selenized Dark/Light) registered into DSH's theme runtime with a picker row in Settings, including the canonical syntax colors for markdown code blocks"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - solarized
+  - selenized
+  - web-ui
+source:
+  repository: https://github.com/zhijun-dai/Solarized-dsh-theme
+  repositoryNodeId: R_kgDOT4Y7tQ
+  subpath: null
+  commit: 1e6be502a30ad7d11a3c0936be275c332da81743
+creator:
+  github: zhijun-dai
+package:
+  ecosystem: npm
+  name: "@yuquexianzhou/solarized-dsh-theme"
+  version: 0.2.1
+  integrity: sha512-ftFl06il8YQY/oMSny2Q6OHVimctxHq8gwM+Pyk6i/GDwqRSYmsaZ3S82BZMedZ1ZFIWOmIAwWaKoA4pY1xzYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:45.120Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/Solarized-dsh-theme/1e6be502a30ad7d11a3c0936be275c332da81743/assets/preview.webp
+    alt: Screenshot 1
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/Solarized-dsh-theme/1e6be502a30ad7d11a3c0936be275c332da81743/assets/solarized-dark.webp
+    alt: Screenshot 2
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/Solarized-dsh-theme/1e6be502a30ad7d11a3c0936be275c332da81743/assets/solarized-light.webp
+    alt: Screenshot 3
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/Solarized-dsh-theme/1e6be502a30ad7d11a3c0936be275c332da81743/assets/selenized-dark.webp
+    alt: Screenshot 4
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhijun-dai/Solarized-dsh-theme/1e6be502a30ad7d11a3c0936be275c332da81743/assets/selenized-light.webp
+    alt: Screenshot 5
