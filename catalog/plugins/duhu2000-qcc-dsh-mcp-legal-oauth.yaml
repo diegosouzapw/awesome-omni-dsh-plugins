@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: duhu2000-qcc-dsh-mcp-legal-oauth
+name: qcc-dsh-mcp-legal-oauth
+description:
+  en: 前置：DeepSeek Harness（ dsh CLI，web profile），Node ≥ 20。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - mcp
+  - mcp-client
+  - mcp-server
+  - qichacha
+  - qcc
+  - oauth
+  - oauth2
+  - pkce
+  - legal
+  - law
+  - legal-tech
+  - legal-data
+  - regulation
+source:
+  repository: https://github.com/duhu2000/qcc-mcp-legal-oauth
+  repositoryNodeId: R_kgDOT9AA8A
+  subpath: null
+  commit: 5b460ebcaf5179c21262ea3e28d66f2f7b7936ab
+creator:
+  github: duhu2000
+package:
+  ecosystem: npm
+  name: qcc-dsh-mcp-legal-oauth
+  version: 0.1.4
+  integrity: sha512-mJFO/cc+i4UgKkn7kwc5Yu8TE94CmVpxSnakZYDRpG1pIWvfYb6XTjscw73+/mkemybXi9mF9F+SKUiNz0OrWA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:57.854Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
