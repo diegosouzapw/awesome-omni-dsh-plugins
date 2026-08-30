@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: yoza10635-dsh-argp
+name: dsh-argp
+description:
+  en: "Guarded context compaction for DeepSeek Harness (dsh): the LLM proposes, deterministic guards dispose — eager per-atom shrink (extract/summary/false under verbatim guards) + lazy reference-graph eviction (0-LLM) + byte-exact recall from an append-only log. 压缩率精确兑现，历史永不销毁。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - guarded
+  - context
+  - compaction
+  - proposes
+  - deterministic
+  - guards
+  - dispose
+  - eager
+  - atom
+  - shrink
+  - extract
+  - summary
+  - "false"
+  - under
+  - verbatim
+  - lazy
+source:
+  repository: https://github.com/yoza10635/dsh-argp
+  repositoryNodeId: R_kgDOT6t8VA
+  subpath: null
+  commit: aa52be542892325302a597284aa5550a62c98fbe
+creator:
+  github: yoza10635
+package:
+  ecosystem: npm
+  name: dsh-argp
+  version: 1.0.0
+  integrity: sha512-k/+fXG5CQql4qMzaJL+f+RUhU+ItQTWszk1A3HmFFP56enwkVhr+dDsAK79ZkV9czOGEc0k1rOXDmFdE2rWdKw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:11.043Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
