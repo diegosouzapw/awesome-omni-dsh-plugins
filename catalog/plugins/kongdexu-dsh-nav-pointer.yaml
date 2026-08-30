@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: kongdexu-dsh-nav-pointer
+name: dsh-nav-pointer
+description:
+  en: "DSH Web client plugin: vertical message pointer rail on the left edge of the chat area, with clickable markers per user message for quick navigation and hover preview bubbles."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - client-plugin
+  - ui
+  - message-pointer
+  - navigation
+  - chat
+source:
+  repository: https://github.com/kongdexu/dsh-nav-pointer
+  repositoryNodeId: R_kgDOT9QsdA
+  subpath: null
+  commit: 17b3e7a6abb8b5f2432e9fce16975f3ff342ac65
+creator:
+  github: kongdexu
+package:
+  ecosystem: npm
+  name: dsh-nav-pointer
+  version: 0.3.1
+  integrity: sha512-I1Y+fbLAvRBmuWLZAy8UaHgMFCYtApki+c0x3xDUnfS2rU2Fj/Iv8WpBivyoUhe8SMJcliLGvHqb9uMY4jVNmw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:29.393Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kongdexu/dsh-nav-pointer/17b3e7a6abb8b5f2432e9fce16975f3ff342ac65/screenshots/screenshot-20260824-172246.png
+    alt: 使用 DSH 发布 v0.2.0 到插件商店的总结
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kongdexu/dsh-nav-pointer/17b3e7a6abb8b5f2432e9fce16975f3ff342ac65/screenshots/screenshot-20260824-172301.png
+    alt: 发布后重新安装并测试新版本
