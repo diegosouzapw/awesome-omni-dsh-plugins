@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: xohmai-dsh-cpa-status
+name: dsh-cpa-status
+description:
+  en: "CPA account-pool status panel for DeepSeek Harness: sidebar health light, quota bars, success-rate ticks, and gateway key endings"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cliproxyapi
+  - cpa
+  - status-panel
+source:
+  repository: https://github.com/xohmai/dsh-cpa-status
+  repositoryNodeId: R_kgDOT8Otxw
+  subpath: null
+  commit: f54a2ac4a06006b866ee2953a114d3b87342aba2
+creator:
+  github: xohmai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.749Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xohmai/dsh-cpa-status/f54a2ac4a06006b866ee2953a114d3b87342aba2/docs/images/panel.png
+    alt: 状态面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xohmai/dsh-cpa-status/f54a2ac4a06006b866ee2953a114d3b87342aba2/docs/images/collapsed.png
+    alt: 侧栏底部收起态
