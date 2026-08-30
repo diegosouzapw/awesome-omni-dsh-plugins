@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: zutomayoo-toto-the-cat
+name: toto-the-cat
+description:
+  en: A desktop pet named Toto living inside the DeepSeek Harness web UI. Its look is entirely defined by custom images in assets/ (transparent PNGs — a still idle.png or a frame sequence idle-0.png , idle-1.png , ...). With no images, Toto is not displayed. Zero dependencies, zero build step — installs like a skin.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - desktop-pet
+  - pet
+  - toto
+  - cat
+  - pomodoro
+  - web-ui
+source:
+  repository: https://github.com/ZutoMayoo/totoTheCat
+  repositoryNodeId: R_kgDOT-Th_Q
+  subpath: null
+  commit: dec5e6b5da34dde07fa62d4dff9bac7169c8adf8
+creator:
+  github: ZutoMayoo
+package:
+  ecosystem: npm
+  name: toto-the-cat
+  version: 1.0.1
+  integrity: sha512-bTO/vsxBbnM9zTowTFjLmvZnJyCHmLHFXKoXf7JktWB8+ng6oKYdK43L6PBrFtl6HE5sZeJ/vwhP84EZfAC/Uw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:13.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZutoMayoo/totoTheCat/dec5e6b5da34dde07fa62d4dff9bac7169c8adf8/assets/screenshot.png
+    alt: Screenshot 1
