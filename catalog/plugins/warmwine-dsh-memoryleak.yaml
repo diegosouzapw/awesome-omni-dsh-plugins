@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: warmwine-dsh-memoryleak
+name: dsh-memoryleak
+description:
+  en: "Notes and todos as plain Markdown in one Vault folder of your choice: /ml jots into today's journal, todos come in deadline/sleep-until/anytime flavors with auto-wakeup, /ml view fuzzy-opens any file — zero-token slash commands, notes stay plain files."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - notes
+  - todo
+  - markdown
+  - journal
+  - memory
+source:
+  repository: https://github.com/warmwine/dsh-memoryleak
+  repositoryNodeId: R_kgDOT5V_LQ
+  subpath: null
+  commit: 38e5b6af259428709283d989410bbe6f4e3b3f49
+creator:
+  github: warmwine
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:39.813Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
