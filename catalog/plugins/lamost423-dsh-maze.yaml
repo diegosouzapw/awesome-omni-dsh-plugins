@@ -1,0 +1,68 @@
+schemaVersion: 1
+id: lamost423-dsh-maze
+name: dsh-maze
+description:
+  en: "The execution maze for DeepSeek Harness agents: see how the agent actually worked — main path, detours and backtracks on one timeline, with data tracks, deterministic analysis, and multi-session comparison"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - maze
+  - agent-observability
+  - trace
+  - visualization
+  - session-log
+  - timeline
+source:
+  repository: https://github.com/lamost423/dsh-maze
+  repositoryNodeId: R_kgDOT8hO_Q
+  subpath: null
+  commit: 66abee3bbcdd9fab45c003609e2eae3f00551ea3
+creator:
+  github: lamost423
+package:
+  ecosystem: npm
+  name: dsh-maze
+  version: 1.1.0
+  integrity: sha512-XXsW+eToZn1rgmRuRyNI8ODYBSYEDUDhn2q3FwKOTqftCdO6GtFbK1tvZFJWCHd31dqC3cTp6uejP2Gkf+6Waw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:25.130Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 59
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-hero.png
+    alt: 执行迷宫：迷宫 + 数据轨道 + 执行分析，一屏读懂一场 8.6 小时的真实会话
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-zoom.gif
+    alt: 密集会话：整图态聚合徽标 → 点击放大 → 标签补齐 → 点开失败详情
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-tracks.gif
+    alt: 轨道悬停：Token 分层数字 → 上下文占用 → 压缩事件前后对比
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-drilldown.gif
+    alt: 点失败链任意一条：缩放定位到那次失败，弹出完整命令、报错返回与判定依据
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-compare.gif
+    alt: 对比：同一任务的两次真实跑 → 支路盘点按轮次列差额 → 点行缩放到该轮
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-maze/66abee3bbcdd9fab45c003609e2eae3f00551ea3/assets/maze-replay.gif
+    alt: 回放：300× 重放一场 8.6 小时的会话
