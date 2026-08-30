@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yyb16yyb-hub-dsh-deepseek-usage
+name: dsh-deepseek-usage
+description:
+  en: "Real-time DeepSeek API usage: balance, token usage, request counts and estimated cost — a Web UI dock plus a model tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - real
+  - time
+  - usage
+  - balance
+  - token
+  - request
+  - counts
+  - estimated
+  - cost
+  - dock
+  - plus
+  - model
+  - tool
+  - dsh
+source:
+  repository: https://github.com/yyb16yyb-hub/dsh-deepseek-usage
+  repositoryNodeId: R_kgDOT5wdkw
+  subpath: null
+  commit: ab8f76c04b1eeaae19e13a7545c601893716493d
+creator:
+  github: yyb16yyb-hub
+package:
+  ecosystem: npm
+  name: dsh-deepseek-usage
+  version: 0.1.0
+  integrity: sha512-6wldUFweYR5WlV2vkGlei8JrmjbjPG69bi6Iz+0UbLSa3ftDynnljFVaD1zmFr+IxVYWVgrAceL94HoGBAmI9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.349Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
