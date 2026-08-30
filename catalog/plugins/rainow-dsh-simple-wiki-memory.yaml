@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: rainow-dsh-simple-wiki-memory
+name: dsh-simple-wiki-memory
+description:
+  en: "DSWM — Simple Wiki Memory for DeepSeek Harness: a self-maintaining persistent memory system (index + reference/pending/archive + git backup + memory skills)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - persistent-memory
+  - wiki
+  - agent
+source:
+  repository: https://github.com/rainow/dsh-simple-wiki-memory
+  repositoryNodeId: R_kgDOT8Dg2g
+  subpath: null
+  commit: 38f7d68d945008bf1bc972eef03d67ec35ea57e1
+creator:
+  github: rainow
+package:
+  ecosystem: npm
+  name: dsh-simple-wiki-memory
+  version: 0.1.1
+  integrity: sha512-XJvES1ONkwkxJ5cMnccW32aB9NvLWb++ZNj0peyZvcbQdaJ9i7VpqareMQgd2XNx6dWcDeZVTSM2qP/2Wfl2QQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/rainow/dsh-simple-wiki-memory/38f7d68d945008bf1bc972eef03d67ec35ea57e1/assets/reference-dir-example.png
+    alt: reference 目录示例
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/rainow/dsh-simple-wiki-memory/38f7d68d945008bf1bc972eef03d67ec35ea57e1/assets/pending-report-example.png
+    alt: pending 汇报示例
