@@ -1,0 +1,59 @@
+schemaVersion: 1
+id: daetz-coder-dsh-multi-chat
+name: dsh-multi-chat
+description:
+  en: Run N conversations in DeepSeek Harness at once, watch every Agent's live progress side-by-side, and check in from your phone or tablet. One browser tab goes from "one conversation at a time" to "a panoramic multi-conversation cockpit."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - multi-chat
+  - multi-conversation
+  - multi-window
+  - multi-agent
+  - client-plugin
+  - gateway
+  - phone-access
+source:
+  repository: https://github.com/daetz-coder/dsh-multi-chat
+  repositoryNodeId: R_kgDOT5tQ7A
+  subpath: null
+  commit: 31ef6d74c86d45098f48d41542b6920f9f321298
+creator:
+  github: daetz-coder
+package:
+  ecosystem: npm
+  name: dsh-multi-chat
+  version: 1.0.3
+  integrity: sha512-oZ2KekXzWsFmEQQ7ZzyMM/DJhlTPmLJLLbqPeWNXcYO9IA/LrT6ij7zko7vT0F3c25y7uNE/CJ6CrnUOzt7pOA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:54.205Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/daetz-coder/dsh-multi-chat/31ef6d74c86d45098f48d41542b6920f9f321298/assets/01-windows-dual-chat.png
+    alt: "Windows dual chat: two DSH instances side-by-side"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/daetz-coder/dsh-multi-chat/31ef6d74c86d45098f48d41542b6920f9f321298/assets/02-ipad-dual-chat.png
+    alt: "iPad dual chat: two DSH instances on tablet"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/daetz-coder/dsh-multi-chat/31ef6d74c86d45098f48d41542b6920f9f321298/assets/03-windows-triple-chat.png
+    alt: "Windows triple chat: 3-column grid of three DSH instances"
