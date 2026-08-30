@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: wikkd-dsh-remote-access-web
+name: "@froststarinquire/dsh-remote-access-web"
+description:
+  en: "Remote-access bundle for the DSH browser surface: mounts the reverse-tunnel host plugin and pins the directory picker to the in-app browse dialog so a remote operator can add workspaces"
+  evidencePath: packages/bundle/remote-access-web/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - remote
+  - access
+  - bundle
+  - browser
+  - surface
+  - mounts
+  - reverse
+  - tunnel
+  - host
+  - pins
+  - directory
+  - picker
+  - browse
+  - dialog
+  - operator
+  - workspaces
+source:
+  repository: https://github.com/wikkd/dsh-remote-access-web
+  repositoryNodeId: R_kgDOT4HXpw
+  subpath: packages/bundle/remote-access-web
+  commit: 73e3ef308d1efbc6673650c22f6d3491677474a0
+creator:
+  github: wikkd
+package:
+  ecosystem: npm
+  name: "@froststarinquire/dsh-remote-access-web"
+  version: 0.1.0-rc.7
+  integrity: sha512-UjDz0zzDvkT5dPC9IHUub/DGmNkd6dwhJt0PlaUUYWRJ/zxWVgAWXRIipTKAIe2Lgc7YE84Fob2kOSApMDd7jg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/bundle/remote-access-web/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:46.542Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
