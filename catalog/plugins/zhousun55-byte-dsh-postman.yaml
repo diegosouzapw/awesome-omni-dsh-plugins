@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zhousun55-byte-dsh-postman
+name: dsh-postman
+description:
+  en: "DeepSeek Harness web plugin — upload files and folders straight into the conversation (no workspace copy needed): images attach as real image blocks, text content is written into the composer, folders land under ~/.dsh/uploads by directory structure"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - upload
+  - attachment
+  - file-drop
+  - chat
+source:
+  repository: https://github.com/zhousun55-byte/dsh-postman
+  repositoryNodeId: R_kgDOT6NSQA
+  subpath: null
+  commit: 11a2cc95925b85e4e30594f6d71a525bf445bdc3
+creator:
+  github: zhousun55-byte
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:04.141Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
