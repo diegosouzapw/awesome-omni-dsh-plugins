@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 452926826-dsh-at-skill
+name: dsh-at-skill
+description:
+  en: Invoke DeepSeek Harness skills with @name and show skill suggestions in the composer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - autocomplete
+source:
+  repository: https://github.com/452926826/dsh-at-skill
+  repositoryNodeId: R_kgDOUDqvEg
+  subpath: null
+  commit: 7502c9bce1a65597188c12d4ab1e33e9365e3a22
+creator:
+  github: "452926826"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:21.172Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
