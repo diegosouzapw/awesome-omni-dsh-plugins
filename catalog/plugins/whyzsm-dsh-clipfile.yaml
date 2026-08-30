@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: whyzsm-dsh-clipfile
+name: dsh-clipfile
+description:
+  en: "Attach files and folders in the DSH composer: clipboard paste, native file/folder picker, @-mention path search; folders are converted to paged Markdown for the agent to read page by page"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - attach
+  - files
+  - folders
+  - composer
+  - clipboard
+  - paste
+  - native
+  - file
+  - folder
+  - picker
+  - mention
+  - path
+  - search
+  - converted
+  - paged
+  - markdown
+source:
+  repository: https://github.com/whyzsm/dsh-clipfile
+  repositoryNodeId: R_kgDOT-cqVA
+  subpath: null
+  commit: 1c23c1c77f60fb082f86a0ceac8c67847241fe85
+creator:
+  github: whyzsm
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:46.617Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
