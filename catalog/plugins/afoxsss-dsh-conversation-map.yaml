@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: afoxsss-dsh-conversation-map
+name: dsh-conversation-map
+description:
+  en: Conversation Minimap — a DeepSeek Harness ( dsh ) Web client plugin.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - minimap
+  - conversation
+  - code-map
+source:
+  repository: https://github.com/afoxsss/dsh-conversation-map
+  repositoryNodeId: R_kgDOUCQ8oA
+  subpath: null
+  commit: e5716f98c1382e6c8ef21ce2ba785f7271d501ca
+creator:
+  github: afoxsss
+package:
+  ecosystem: npm
+  name: dsh-conversation-map
+  version: 0.1.6
+  integrity: sha512-F+GTAjF1WH76eRxgSRX/Oelek4MVKIv/zoquOM5VgvM2K3oy9eMBhH34sV6QmBA3noZUGOvu08jwE2lQPTbmRw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:15.374Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/afoxsss/dsh-conversation-map/e5716f98c1382e6c8ef21ce2ba785f7271d501ca/assets/screenshots/ex1.jpg
+    alt: 缩略图模式
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/afoxsss/dsh-conversation-map/e5716f98c1382e6c8ef21ce2ba785f7271d501ca/assets/screenshots/ex2.jpg
+    alt: 色块模式
