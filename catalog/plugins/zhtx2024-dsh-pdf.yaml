@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zhtx2024-dsh-pdf
+name: "@zhtx2026/dsh-pdf"
+description:
+  en: PDF parsing toolkit for DeepSeek Harness — three agent-facing tools ( pdf info / pdf extract text / pdf render page ) with hybrid engines, including system-font rendering for PDFs with non-embedded CJK fonts (e.g. EasyEDA / JLC EDA schematic exports).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - pdf
+  - pdfjs
+  - agent-tool
+source:
+  repository: https://github.com/zhtx2024/dsh-pdf
+  repositoryNodeId: R_kgDOT5ymCA
+  subpath: null
+  commit: 38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe
+creator:
+  github: zhtx2024
+package:
+  ecosystem: npm
+  name: "@zhtx2026/dsh-pdf"
+  version: 0.1.1
+  integrity: sha512-SG+G4e+dzq71K7glkVBBuA73fptxo2Pxtu3VuVnZK7LkHtaNBdCzMc6cI+pUcAKTfYikeo5qpsqrrLZcXfLJTA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:57.047Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
