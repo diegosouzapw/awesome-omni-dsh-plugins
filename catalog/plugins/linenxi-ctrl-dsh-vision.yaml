@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: linenxi-ctrl-dsh-vision
+name: "@linenxi-ctrl/dsh-vision"
+description:
+  en: bash dsh plugin --profile web add @linenxi-ctrl/dsh-vision
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - bash
+  - profile
+  - linenxi
+  - ctrl
+  - vision
+  - dsh
+source:
+  repository: https://github.com/linenxi-ctrl/dsh-vision
+  repositoryNodeId: R_kgDOT30_2w
+  subpath: null
+  commit: 50f6ba065e8cf42c4ecc5a06c4e96dc2d5c69b11
+creator:
+  github: linenxi-ctrl
+package:
+  ecosystem: npm
+  name: "@linenxi-ctrl/dsh-vision"
+  version: 0.2.6
+  integrity: sha512-htfXnhx8JcE6utMFU0m3RQYyNKY8OX8YJdxccJkqcNFs3GHPEBTQGY99sV1Mx+gCyQSZqIoy3KUQ8dMcuS5GXg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.122Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
