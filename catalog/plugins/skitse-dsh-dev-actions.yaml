@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: skitse-dsh-dev-actions
+name: dsh-dev-actions
+description:
+  en: AI turns repeated dev commands, prompts, and instructions into one-click DeepSeek Harness actions.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - ai-agent
+  - developer-tools
+  - human-in-the-loop
+  - workflow-automation
+  - flutter
+  - dev-server
+  - prompt
+  - productivity
+source:
+  repository: https://github.com/skitse/dsh-dev-actions
+  repositoryNodeId: R_kgDOT3qjxA
+  subpath: null
+  commit: ba3428e4101a9451ee87361a49c71787ef6898e7
+creator:
+  github: skitse
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:57.209Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/skitse/dsh-dev-actions/ba3428e4101a9451ee87361a49c71787ef6898e7/docs/assets/dev-actions-panel.png
+    alt: DSH 快捷动作面板，展示命令、Prompt 和 AI 指令三种可复用动作
