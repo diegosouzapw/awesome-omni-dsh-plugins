@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tetckx-deep-structural-analysis-skill
+name: deep-structural-analysis-skill
+description:
+  en: Opt-in DeepSeek Harness Skill-only bundle for the deep-structural-analysis multi-lens structural analysis skill.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skill
+  - structural-analysis
+  - multi-lens
+  - dsh
+source:
+  repository: https://github.com/tetckx/deep-structural-analysis-skill
+  repositoryNodeId: R_kgDOTezLnQ
+  subpath: null
+  commit: 07b5ad8564cbbb352ad93e8a733ca835e43a448e
+creator:
+  github: tetckx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:51.261Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
