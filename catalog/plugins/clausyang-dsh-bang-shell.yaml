@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: clausyang-dsh-bang-shell
+name: "@omdsh-dev/dsh-bang-shell"
+description:
+  en: Run !-prefixed commands directly from the DeepSeek Harness Web composer without sending them to the model.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - shell
+  - bash
+  - command
+  - bang
+  - dsh
+source:
+  repository: https://github.com/ClausYang/dsh-bang-shell
+  repositoryNodeId: R_kgDOT4QiNw
+  subpath: null
+  commit: 96f46e20f3a280f20de73cb8cae6968384c1334e
+creator:
+  github: ClausYang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:12.542Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
