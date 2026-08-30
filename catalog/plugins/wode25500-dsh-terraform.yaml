@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-terraform
+name: dsh-terraform
+description:
+  en: "Infrastructure as Code (Terraform) integration for DeepSeek Harness: plan/apply/diff, state inspection, output querying and resource listing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - terraform
+  - iac
+  - infrastructure-as-code
+  - hashicorp
+source:
+  repository: https://github.com/WODE25500/dsh-terraform
+  repositoryNodeId: R_kgDOT-CD5Q
+  subpath: null
+  commit: fe4999ab36b81d8c4eaf6bc2566f3de7fabb5c10
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:24.648Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
