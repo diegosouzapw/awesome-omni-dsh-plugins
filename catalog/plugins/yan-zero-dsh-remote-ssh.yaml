@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yan-zero-dsh-remote-ssh
+name: dsh-remote-ssh
+description:
+  en: Transparent local and Remote SSH workspaces for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - transparent
+  - local
+  - remote
+  - workspaces
+  - dsh
+source:
+  repository: https://github.com/Yan-Zero/dsh-remote-ssh
+  repositoryNodeId: R_kgDOT4SNLA
+  subpath: null
+  commit: 21d727cbe24fbae283196e5101adb3de2bdd9157
+creator:
+  github: Yan-Zero
+package:
+  ecosystem: npm
+  name: dsh-remote-ssh
+  version: 0.2.4
+  integrity: sha512-CkvAhbaZNpE8Pp6FYGWuw3QQrivBz92VkuijDTsOb2h8as+OlJ+ABYP8paq1hufuX/KfHMmhF6mRfyhJclqINQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:16.950Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
