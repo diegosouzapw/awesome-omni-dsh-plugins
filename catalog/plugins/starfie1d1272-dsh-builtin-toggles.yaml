@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: starfie1d1272-dsh-builtin-toggles
+name: dsh-builtin-toggles
+description:
+  en: Evidence-backed built-in capability inspector with fail-closed controls for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/Starfie1d1272/dsh-builtin-toggles
+  repositoryNodeId: R_kgDOT3uDGA
+  subpath: null
+  commit: bc86c777564a6f192c01582698696d9dd7ac7014
+creator:
+  github: Starfie1d1272
+package:
+  ecosystem: npm
+  name: dsh-builtin-toggles
+  version: 0.3.2
+  integrity: sha512-Z+6O/7i4vn2/aoUITaV4AWMQ7YTibpmItm3k8idsX6+hokDerpJOFK3s+FdNrRhqpMEh43cGHjZnFkOK2/MKIA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:43.360Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Starfie1d1272/dsh-builtin-toggles/bc86c777564a6f192c01582698696d9dd7ac7014/docs/assets/builtin-toggles-inspector.png
+    alt: Capability Inspector 主视图
