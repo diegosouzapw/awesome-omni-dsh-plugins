@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: tangwenhao616-netizen-dsh-clawbot
+name: dsh-clawbot
+description:
+  en: Turn your WeChat into an AI agent command center. Scan a QR code, chat with DeepSeek Harness directly from WeChat — no extra apps, no servers, no bridges.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - weixin
+  - wechat
+  - ilink
+  - clawbot
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/tangwenhao616-netizen/dsh-clawbot
+  repositoryNodeId: R_kgDOT75jZQ
+  subpath: null
+  commit: 77748ea665e215aab9f9e7f9890802441af5b92e
+creator:
+  github: tangwenhao616-netizen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:48.240Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
