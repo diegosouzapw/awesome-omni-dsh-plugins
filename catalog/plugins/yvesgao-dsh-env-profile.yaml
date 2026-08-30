@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yvesgao-dsh-env-profile
+name: dsh-env-profile
+description:
+  en: dsh plugin --profile web add "E:\My Documents\DskHarness-PC\dsh-env-profile"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - memory
+  - environment
+  - experience
+  - token-saving
+source:
+  repository: https://github.com/Yvesgao/dsh-env-profile
+  repositoryNodeId: R_kgDOT6Cg7A
+  subpath: null
+  commit: a3b589208906e97701b1fa111d5080bb8e1463d3
+creator:
+  github: Yvesgao
+package:
+  ecosystem: npm
+  name: dsh-env-profile
+  version: 0.1.3
+  integrity: sha512-bGQENc9wYDbKBNPHPIAyjTE6NCcgG3c0QCwLD2RLzsDphAki5IfylYtu/zMN0GjMXRS39M7hA1xNh+PESORFZA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:01.213Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
