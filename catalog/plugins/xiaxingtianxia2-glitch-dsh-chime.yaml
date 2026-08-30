@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xiaxingtianxia2-glitch-dsh-chime
+name: dsh-chime
+description:
+  en: <p align="center" <sub <i Independently built with the dsh creation mode + Deepseek-V4-Flash0731</i </sub </p
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - chime
+  - sound
+  - notification
+source:
+  repository: https://github.com/xiaxingtianxia2-glitch/dsh-chime
+  repositoryNodeId: R_kgDOT9GnbQ
+  subpath: null
+  commit: 3d13e52902b0e2e70cbfa4d170d682801d0ed612
+creator:
+  github: xiaxingtianxia2-glitch
+package:
+  ecosystem: npm
+  name: dsh-chime
+  version: 0.1.3
+  integrity: sha512-UpQLNV02+5TnB0rW+3VtiRMfaMZlhDXIFQKkhkn/NdaB2QO0xswRDIAPALzVIF9rff56XBUEBHGQGA+Pgr+N0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.531Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
