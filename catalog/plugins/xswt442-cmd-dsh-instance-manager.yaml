@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: xswt442-cmd-dsh-instance-manager
+name: dsh-instance-manager
+description:
+  en: DSH Web Instance Management Plugin. Uses the shared tool dock as the entry point. Lists all DSH Web instances within the local port range, with support for viewing instance details, stopping instances, and launching new ones. Once pairing is configured, remote instances can also be viewed.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - instance-manager
+  - process-manager
+source:
+  repository: https://github.com/xswt442-cmd/dsh-instance-manager
+  repositoryNodeId: R_kgDOUBpvbw
+  subpath: null
+  commit: a6b93039f1f5719ff65d3866a7631c4ac2185a3a
+creator:
+  github: xswt442-cmd
+package:
+  ecosystem: npm
+  name: dsh-instance-manager
+  version: 0.9.0
+  integrity: sha512-Fo3FwVGeKkKgw/tzVCg6g2kJFdI8es0ecl4P6+kGzbo2S46pZd9t3qBYRH0OwPHWidsJ6jXn79OxMZo9Tr45Kg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:27.676Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
