@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wingsky-1-dsh-lan-proxy
+name: "@wingsky-1/dsh-lan-proxy"
+description:
+  en: "LAN access to the dsh web UI: listens on 0.0.0.0:<port and forwards HTTP/HTTPS and WebSocket/wss to the loopback web server (default 127.0.0.1:3080 )."
+  evidencePath: packages/dsh-lan-proxy/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - lan
+  - proxy
+  - tunnel
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-lan-proxy
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-lan-proxy"
+  version: 0.1.13
+  integrity: sha512-lMu+O5xgRkdzw4scpv+lP1lsCn8vJ698Ba/0swe6r8ZM1dCCkPg8Ro+Kkbo3ouqBQBiwKlBl7ObVp99SdcmPcQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-lan-proxy/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
