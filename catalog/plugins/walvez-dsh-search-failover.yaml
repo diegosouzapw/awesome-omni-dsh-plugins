@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: walvez-dsh-search-failover
+name: dsh-search-failover
+description:
+  en: "Provider-level web search+fetch pool for DeepSeek Harness: bypass the official LLM search channel (0 model tokens), failover/rotate across Exa/Tavily/Jina/Firecrawl/Serper/SerpApi/SearXNG/DDG/Brave with quota-aware circuit breaking, multi-key rotation, and a GUI settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - search
+  - failover
+  - circuit-breaker
+  - web-search
+source:
+  repository: https://github.com/Walvez/dsh-search-failover
+  repositoryNodeId: R_kgDOT6zdng
+  subpath: null
+  commit: 0327cf929e179998ba5469af7d38e66a15d37ffa
+creator:
+  github: Walvez
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:34.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-search-failover/0327cf929e179998ba5469af7d38e66a15d37ffa/docs/screenshots/settings-panel-overview.png
+    alt: DSH 搜索池设置面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Walvez/dsh-search-failover/0327cf929e179998ba5469af7d38e66a15d37ffa/docs/screenshots/settings-panel-scrolled.png
+    alt: DSH 搜索池引擎卡片列表
