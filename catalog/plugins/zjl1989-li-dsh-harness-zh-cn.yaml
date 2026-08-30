@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zjl1989-li-dsh-harness-zh-cn
+name: dsh-harness-zh-cn
+description:
+  en: bash npm install dsh-harness-zh-cn pnpm add dsh-harness-zh-cn
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chinese
+  - zh-cn
+  - localization
+  - i18n
+  - l10n
+source:
+  repository: https://github.com/zjl1989-li/dsh-harness-zh-cn
+  repositoryNodeId: R_kgDOT50HEw
+  subpath: null
+  commit: 7b282c4d6665d149f81a37059921a9108251167f
+creator:
+  github: zjl1989-li
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:45.116Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
