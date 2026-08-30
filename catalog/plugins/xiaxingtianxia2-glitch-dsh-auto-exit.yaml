@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xiaxingtianxia2-glitch-dsh-auto-exit
+name: dsh-auto-exit
+description:
+  en: "Exit the DSH CLI process automatically when the Web UI closes (equivalent to Ctrl+C). DSH plugin: 关闭 Web UI 自动退出 CLI 进程."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - exit
+  - process
+  - automatically
+  - closes
+  - equivalent
+  - ctrl
+  - dsh
+source:
+  repository: https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit
+  repositoryNodeId: R_kgDOT7QTGA
+  subpath: null
+  commit: 7eebd9b2806b28c5a3bc9bff7f8c5d4a88dabc50
+creator:
+  github: xiaxingtianxia2-glitch
+package:
+  ecosystem: npm
+  name: dsh-auto-exit
+  version: 0.0.4
+  integrity: sha512-krOOFkyvIOtwSstSrzkX2Dd3Ts+2SrNPIVPqbj0RGOqZDtIE6NXe6aU6v93SXjGZjdHMInVeWrTPNnwBTvgMXQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:26.581Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
