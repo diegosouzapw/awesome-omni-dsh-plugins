@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: vibeinging-dsh-trace
+name: "@deepseek-ai/dsh-trace"
+description:
+  en: Embedded yiTrace plugin for DeepSeek Harness turns, model steps, and tool calls
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - embedded
+  - yitrace
+  - turns
+  - model
+  - steps
+  - tool
+  - calls
+  - dsh
+source:
+  repository: https://github.com/vibeinging/dsh-trace
+  repositoryNodeId: R_kgDOT1C92w
+  subpath: null
+  commit: caadf1b831ae2643bd25a365cc1356c2100e7a05
+creator:
+  github: vibeinging
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:32.949Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
