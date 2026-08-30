@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-delegate
+name: dsh-agent-delegate
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-agent-delegate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - delegate
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-delegate
+  repositoryNodeId: R_kgDOT8IOfg
+  subpath: null
+  commit: bb26181ca3fa5fce1acbbd9b68bba5527d6c20d8
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.199Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
