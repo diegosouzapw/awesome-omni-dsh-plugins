@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: delightor-dsh-depguard
+name: dsh-depguard
+description:
+  en: "DeepSeek Harness plugin: predict (pre-install) and detect (post-install) duplicate @deepseek-ai/dsh- copies, version drift, and vendored core services to prevent Symbol-key crashes like \"Cannot read properties of undefined (reading 'prepare')\"."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - predict
+  - install
+  - detect
+  - post
+  - duplicate
+  - copies
+  - version
+  - drift
+  - vendored
+  - core
+  - services
+  - prevent
+  - symbol
+  - crashes
+  - cannot
+  - read
+source:
+  repository: https://github.com/DeLightor/dsh-depguard
+  repositoryNodeId: R_kgDOT5xpww
+  subpath: null
+  commit: 3f2e9814a5fa510707114086f25c5b0f7e7003df
+creator:
+  github: DeLightor
+package:
+  ecosystem: npm
+  name: dsh-depguard
+  version: 0.1.0
+  integrity: sha512-RRJkRzNzmcOZPfuzQ+UF1GGY51MERt90uF25yLl1V2kRVxPCXznBiLh6qJsS0Ms+wFkN0avK8BLMwvHgifC/nw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:09.008Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
