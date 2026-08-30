@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: featherhunter-dsh-chinese-skill-patch
+name: dsh-chinese-skill-patch
+description:
+  en: js const SKILL NAME = /^[a-z0-9]+(?:-[a-z0-9]+) $/
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skill
+  - skills
+  - chinese
+  - i18n
+  - unicode
+  - slash
+  - cjk
+source:
+  repository: https://github.com/FeatherHunter/dsh-chinese-skill-patch
+  repositoryNodeId: R_kgDOT9t5vw
+  subpath: null
+  commit: a7c1a31aac599bbcf445d107ef8520bda227c591
+creator:
+  github: FeatherHunter
+package:
+  ecosystem: npm
+  name: dsh-chinese-skill-patch
+  version: 0.1.2
+  integrity: sha512-iLlNCDthHSlDQ90v24R4tQlHMDiL7HdU+tFQTjMVXMscLvIc6u7HZGu9xolmfOZSy2Tmc7b0iLG6Jgr5QN75Tg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:04.464Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/FeatherHunter/dsh-chinese-skill-patch/a7c1a31aac599bbcf445d107ef8520bda227c591/docs/assets/feishu-qr.png
+    alt: 作者飞书二维码
