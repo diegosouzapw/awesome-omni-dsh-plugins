@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: lihang-lh-dsh-task-panel
+name: dsh-task-panel
+description:
+  en: "yaml - id: session-query-sqlite config: path: ~/.dsh/session-query/index.sqlite openAt: first-search"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - yaml
+  - session
+  - query
+  - sqlite
+  - config
+  - path
+  - index
+  - openat
+  - first
+  - search
+  - dsh
+source:
+  repository: https://github.com/lihang-lh/dsh-task-panel
+  repositoryNodeId: R_kgDOT-RDRA
+  subpath: null
+  commit: 63cc116952b54cf4e1943429f99e96fedc768a2f
+creator:
+  github: lihang-lh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.596Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
