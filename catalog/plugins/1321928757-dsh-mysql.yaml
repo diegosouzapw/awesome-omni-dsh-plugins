@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: 1321928757-dsh-mysql
+name: dsh-mysql
+description:
+  en: <p align="center" <b MySQL connections and guarded database tools for DeepSeek Harness</b <br / Configure connections once, choose one per conversation, and let your agent inspect or query the selected database. </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mysql
+  - database
+  - sql
+  - tools
+  - connector
+source:
+  repository: https://github.com/1321928757/dsh-mysql
+  repositoryNodeId: R_kgDOT779mA
+  subpath: null
+  commit: d6851af75e04d6dc37fe02b99cc171a05d5a89b0
+creator:
+  github: "1321928757"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:11.499Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/settings.png
+    alt: MySQL settings page
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/conversation-no-connection.png
+    alt: Composer without a selected database connection
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/conversation-picker.png
+    alt: Per-session database connection picker
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/conversation-connected.png
+    alt: Composer with a selected database connection
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/conversation-context.png
+    alt: Dynamic database context injected into the prompt
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1321928757/dsh-mysql/d6851af75e04d6dc37fe02b99cc171a05d5a89b0/assets/conversation-query.png
+    alt: Agent querying MySQL in a conversation
