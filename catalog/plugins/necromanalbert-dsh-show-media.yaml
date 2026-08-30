@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: necromanalbert-dsh-show-media
+name: dsh-show-media
+description:
+  en: Show a local image or short video inside the current DeepSeek Harness conversation card, with click-to-preview. Does not replace the official read image model path.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - conversation
+  - image
+  - video
+  - preview
+source:
+  repository: https://github.com/NecromanAlbert/dsh-show-media
+  repositoryNodeId: R_kgDOUDyaLA
+  subpath: null
+  commit: cc3e0df1b4dc89e937834b11cb13752818b7bbc4
+creator:
+  github: NecromanAlbert
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:00.883Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
