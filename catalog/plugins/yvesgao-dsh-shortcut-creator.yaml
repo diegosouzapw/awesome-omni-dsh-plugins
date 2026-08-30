@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: yvesgao-dsh-shortcut-creator
+name: dsh-shortcut-creator
+description:
+  en: "DSH web plugin: create a one-click Windows desktop shortcut (launcher .cmd + auto browser open + taskbar pin hint) for DeepSeek Harness or any local server, right from the Settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - create
+  - click
+  - windows
+  - desktop
+  - shortcut
+  - launcher
+  - auto
+  - browser
+  - open
+  - taskbar
+  - hint
+  - local
+  - server
+  - right
+  - settings
+  - page
+source:
+  repository: https://github.com/Yvesgao/dsh-desktop-launcher
+  repositoryNodeId: R_kgDOT5VaDA
+  subpath: null
+  commit: 01d64b20f6f8ab4297f01c19e97074a313db1bda
+creator:
+  github: Yvesgao
+package:
+  ecosystem: npm
+  name: dsh-shortcut-creator
+  version: 0.1.0
+  integrity: sha512-xfgMivjZDuIQPKWBjR1RDr2gC3Fo7uj1XpmKi9o169aQiajJXvP3FbzmGD/HCB5JrZvZq21/VuBZl9CHixNzmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:53.289Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
