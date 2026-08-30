@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-fast
+name: dsh-fast
+description:
+  en: "Read-only performance diagnostics for DeepSeek Harness: session load (open/restore) timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via the /fast command and the fast report tool, persisted as reconstructable "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - performance
+  - diagnostics
+  - profiling
+  - context-engineering
+  - llm-cache
+source:
+  repository: https://github.com/PerryLink/dsh-fast
+  repositoryNodeId: R_kgDOT6o9Fg
+  subpath: null
+  commit: d58c2fad4919135531b3a304b660935e23ea90e1
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-fast
+  version: 0.2.0
+  integrity: sha512-9wfeWoet4Q6m5RPRwtsoAJ0OlBssiwDIiUPluy1hGkSqmEda8EzLhG6udK450+BRjnz3Ksqbb59sd7u71obXlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:50.096Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
