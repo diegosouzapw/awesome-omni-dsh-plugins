@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-quality-score
+name: dsh-quality-score
+description:
+  en: "Quality scorecard for DeepSeek Harness (dsh) plugins: 0-100 score with grade and per-component breakdown (manifest, peer resolvability, dist-tag health, dead ranges, freshness, docs, dsh-tools peer compat). Zero runtime dependencies, read-only. CLI + agent-callable quality score tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - quality
+  - scorecard
+  - rating
+  - registry
+source:
+  repository: https://github.com/zoahdev/dsh-quality-score
+  repositoryNodeId: R_kgDOT8uh_g
+  subpath: null
+  commit: 3f59685d5c0edde00bdd958fbeaedf65acfa1058
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-quality-score
+  version: 0.1.4
+  integrity: sha512-nIcMb/Fjgd1/U0P2IFB2C9JahTLX5eYZ7d5zlj2HqMkd86bE2Djo/swFlYa3vikXYbuI48EiFwehs8/SXKEULw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.551Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
