@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: godchen520-dsh-web-remote
+name: dsh-web-remote
+description:
+  en: bash dsh plugin --profile web add github:godchen520/dsh-web-remote && dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - remote
+  - cloudflare
+  - tunnel
+  - monitor
+  - weixin
+  - feishu
+  - lark
+source:
+  repository: https://github.com/godchen520/dsh-web-remote
+  repositoryNodeId: R_kgDOT5T6Gg
+  subpath: null
+  commit: 154e360b52f87d848e55b7d6c5042866949e4748
+creator:
+  github: godchen520
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:52.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/godchen520/dsh-web-remote/154e360b52f87d848e55b7d6c5042866949e4748/docs/quick-button.png
+    alt: 快捷按钮
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/godchen520/dsh-web-remote/154e360b52f87d848e55b7d6c5042866949e4748/docs/remote-screenshot.png
+    alt: 远程面板
