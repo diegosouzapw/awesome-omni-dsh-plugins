@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zhengjunyao000-dsh-flomo
+name: dsh-flomo
+description:
+  en: "flomo (浮墨笔记) integration for DeepSeek Harness: configure your flomo API URL / API Key in the web settings panel, then let any agent send notes, memos, and summaries straight into flomo via the flomo send tool"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - flomo
+  - memo
+  - note
+  - second-brain
+  - webhook
+source:
+  repository: https://github.com/zhengjy01/dsh-flomo
+  repositoryNodeId: R_kgDOT5GraQ
+  subpath: null
+  commit: f58a481aebcd2486e1f14af4853c3cc24eba0360
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: dsh-flomo
+  version: 0.2.1
+  integrity: sha512-R35Q+4qyXGyqFhZ/S9niufKguZ6I3ZH0HTq+fIQU4s/+sivlF86yg8aU+hwRB+WHE8EUKGnCzLaX2fPpmslcYw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
