@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: loguhan-dsh-workshop
+name: dsh-workshop
+description:
+  en: "Steam Workshop style plugin store for DSH Web UI: browse, search and one-click install community plugins with mirror acceleration"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - workshop
+  - store
+  - marketplace
+  - web-ui
+source:
+  repository: https://github.com/loguhan/dsh-workshop
+  repositoryNodeId: R_kgDOT4L7qA
+  subpath: null
+  commit: cf36f61f708100d9f2c67db3a1722a8b85b53757
+creator:
+  github: loguhan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:33.771Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/loguhan/dsh-workshop/cf36f61f708100d9f2c67db3a1722a8b85b53757/docs/screenshots/workshop.png
+    alt: features
