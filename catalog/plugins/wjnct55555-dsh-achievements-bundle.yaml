@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wjnct55555-dsh-achievements-bundle
+name: "@wjnct55555/dsh-achievements-bundle"
+description:
+  en: "Achievements for DeepSeek Harness Web: gallery, toasts, trophy, dock, and crossover achievements — installable bundle"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - achievements
+  - gamification
+source:
+  repository: https://github.com/WJNCT55555/dsh-achievements
+  repositoryNodeId: R_kgDOT5pfDw
+  subpath: null
+  commit: ce6ceb3f3231648565cadcd598edbe50e41eda26
+creator:
+  github: WJNCT55555
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:28.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WJNCT55555/dsh-achievements/ce6ceb3f3231648565cadcd598edbe50e41eda26/assets/gallery.png
+    alt: 成就画廊
