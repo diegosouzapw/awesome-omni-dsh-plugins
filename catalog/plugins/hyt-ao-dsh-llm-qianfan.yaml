@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hyt-ao-dsh-llm-qianfan
+name: dsh-llm-qianfan
+description:
+  en: Baidu Qianfan chat-completions adapter for the DeepSeek Harness LLM seam
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - baidu
+  - qianfan
+  - chat
+  - completions
+  - adapter
+  - seam
+  - dsh
+source:
+  repository: https://github.com/hyt-ao/dsh-llm-qianfan
+  repositoryNodeId: R_kgDOT9ZzGQ
+  subpath: null
+  commit: bb7ab03dca19330e3a09238e30176fe6848f24b2
+creator:
+  github: hyt-ao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:37.586Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
