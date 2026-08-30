@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xohmai-dsh-session-delete
+name: dsh-session-delete
+description:
+  en: "Real session deletion for DeepSeek Harness: settings-page manager with trash & restore, archived-session cleanup, and batch delete"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - session-management
+source:
+  repository: https://github.com/xohmai/dsh-session-delete
+  repositoryNodeId: R_kgDOT8RaWQ
+  subpath: null
+  commit: 8c8ad2ce3122caef7fb3c83d5666157fc4b2f5bb
+creator:
+  github: xohmai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.936Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
