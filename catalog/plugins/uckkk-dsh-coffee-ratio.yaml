@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-coffee-ratio
+name: dsh-coffee-ratio
+description:
+  en: bash dsh plugin add github:uckkk/dsh-coffee-ratio
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-coffee-ratio
+source:
+  repository: https://github.com/uckkk/dsh-coffee-ratio
+  repositoryNodeId: R_kgDOT-DMzQ
+  subpath: null
+  commit: a0823d744d2a094890646881d2ded6019ef50bf9
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:37.746Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
