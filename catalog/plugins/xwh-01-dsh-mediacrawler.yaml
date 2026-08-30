@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xwh-01-dsh-mediacrawler
+name: dsh-mediacrawler
+description:
+  en: Installable DeepSeek Harness profile bundle for a separately installed MediaCrawler checkout
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - mediacrawler
+source:
+  repository: https://github.com/xwh-01/dsh-mediacrawler
+  repositoryNodeId: R_kgDOT3_XNQ
+  subpath: null
+  commit: 22fd327dc47ad2c40461b0d60b3f6f63f5d5446b
+creator:
+  github: xwh-01
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:23.169Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
