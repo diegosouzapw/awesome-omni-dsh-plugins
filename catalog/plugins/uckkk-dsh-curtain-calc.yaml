@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-curtain-calc
+name: dsh-curtain-calc
+description:
+  en: bash dsh plugin add github:uckkk/dsh-curtain-calc
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-curtain-calc
+source:
+  repository: https://github.com/uckkk/dsh-curtain-calc
+  repositoryNodeId: R_kgDOT_F1vA
+  subpath: null
+  commit: f634160bbca728e35a0fb43fab2b28a05e2a5e52
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:39.048Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
