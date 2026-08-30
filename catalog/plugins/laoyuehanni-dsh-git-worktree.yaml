@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: laoyuehanni-dsh-git-worktree
+name: "@laoyuehanni/dsh-git-worktree"
+description:
+  en: "DSH plugin: branch visibility and git worktree isolation for Web UI sessions"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - cordis
+  - git
+  - worktree
+  - branch
+source:
+  repository: https://github.com/LaoYueHanNi/dsh-git-worktree
+  repositoryNodeId: R_kgDOT5wIpA
+  subpath: null
+  commit: 2c602e091bbf412932e222a8ef28cf34f31e5599
+creator:
+  github: LaoYueHanNi
+package:
+  ecosystem: npm
+  name: "@laoyuehanni/dsh-git-worktree"
+  version: 0.4.0
+  integrity: sha512-qXfGX5s5Fswh7TmszriMEUHHbo47S/1kNG1+CgN64Nez8UIunmbqSPFdEKv2Lc56V/kVcWt6Q3Z3lGV+QBddbA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:02.751Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-git-worktree/2c602e091bbf412932e222a8ef28cf34f31e5599/gitworktree.png
+    alt: dsh-git-worktree in the Web UI
