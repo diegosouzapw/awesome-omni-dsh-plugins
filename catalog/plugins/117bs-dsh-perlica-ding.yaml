@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: 117bs-dsh-perlica-ding
+name: dsh-perlica-ding
+description:
+  en: '"We are not the ones who state ideals — we are the ones who carry them out." —— Perlica, Supervisor of Endfield Industries'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - notification
+  - sound
+  - beep
+  - ding
+  - task-complete
+  - arknights
+  - endfield
+  - perlica
+source:
+  repository: https://github.com/117BS/dsh-perlica-ding
+  repositoryNodeId: R_kgDOT508TQ
+  subpath: null
+  commit: eb6b33307d1df5395160e2caa14131829bf64a75
+creator:
+  github: 117BS
+package:
+  ecosystem: npm
+  name: dsh-perlica-ding
+  version: 0.1.0
+  integrity: sha512-82hcA6eFkhlaYTiCKXNJ7086WTLf3gE0TnwvebXYGuQJcNE2ijbd1vdCJ6RUnp99yPaxmI2Hyc8qky0QxSQw3g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:07.681Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/117BS/dsh-perlica-ding/eb6b33307d1df5395160e2caa14131829bf64a75/assets/avatar.png
+    alt: 佩丽卡 - 终末地工业监督
