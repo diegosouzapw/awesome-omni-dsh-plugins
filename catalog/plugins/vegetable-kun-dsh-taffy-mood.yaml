@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: vegetable-kun-dsh-taffy-mood
+name: dsh-taffy-mood
+description:
+  en: A standard DSH plugin that pins a Taffy mood mascot in the bottom-right corner of the DeepSeek Harness Web UI. The GIF reacts live to agent state — approval pending, thinking, tool runs, interrupts, errors and more — each with its own expression. One-line install, assets bundled, no build step.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - taffy
+  - mascot
+  - emoji
+  - status
+source:
+  repository: https://github.com/vegetable-kun/DSH_Plugin_Taffy
+  repositoryNodeId: R_kgDOT6tXIQ
+  subpath: null
+  commit: cd7ab206a2beffb3e9e34b976c243da88b517af4
+creator:
+  github: vegetable-kun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:32.708Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vegetable-kun/DSH_Plugin_Taffy/cd7ab206a2beffb3e9e34b976c243da88b517af4/assets/taffy-fork.gif
+    alt: taffy
