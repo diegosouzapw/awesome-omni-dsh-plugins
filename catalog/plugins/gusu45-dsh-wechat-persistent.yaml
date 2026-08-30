@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: gusu45-dsh-wechat-persistent
+name: dsh-wechat-persistent
+description:
+  en: Persistent WeChat bridge for DeepSeek Harness. One WeChat user = one persistent DSH session.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - wechat
+  - weixin
+  - ilink
+  - persistent-session
+  - dsh
+source:
+  repository: https://github.com/gusu45/dsh-wechat-persistent
+  repositoryNodeId: R_kgDOT-q77g
+  subpath: null
+  commit: 0c1f3b0f11d872ee8b70080db683102ff82c1c8c
+creator:
+  github: gusu45
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:17.045Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
