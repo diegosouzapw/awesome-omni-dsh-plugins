@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jinsiyu-dsh-safemode-profile
+name: dsh-safemode-profile
+description:
+  en: "Safemode profile enforcer: force-restores ~/.dsh/profiles/safemode to a clean whitelist (dsh-base + dsh-web-app) on start and continuously guards it against modification, so dsh --profile safemode always boots with zero third-party plugins. No build scripts: the bundle row does all work."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - safemode
+  - profile
+  - enforcer
+  - force
+  - restores
+  - profiles
+  - clean
+  - whitelist
+  - base
+  - start
+  - continuously
+  - guards
+  - against
+  - modification
+  - always
+  - boots
+source:
+  repository: https://github.com/jinsiyu/dsh-safemode-profile
+  repositoryNodeId: R_kgDOT9d7FA
+  subpath: null
+  commit: f9aab39ca9c4da42f8fc4bebcda14951261889e5
+creator:
+  github: jinsiyu
+package:
+  ecosystem: npm
+  name: dsh-safemode-profile
+  version: 0.3.9
+  integrity: sha512-rnSVniky2GbZEQABPq/SCR4X+BSTQMlEQIbILnLb6uiUErWV5Pr7RO5TgBVUDDy74/zMUXyNA6OFct9x+/HQiA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:34.470Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
