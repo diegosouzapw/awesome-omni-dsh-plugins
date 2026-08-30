@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-compound-interest
+name: dsh-compound-interest
+description:
+  en: bash dsh plugin add github:uckkk/dsh-compound-interest
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-compound-interest
+source:
+  repository: https://github.com/uckkk/dsh-compound-interest
+  repositoryNodeId: R_kgDOT-DmPQ
+  subpath: null
+  commit: bb206ab70158911c942809a4d07c7aef72ac0737
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:37.761Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
