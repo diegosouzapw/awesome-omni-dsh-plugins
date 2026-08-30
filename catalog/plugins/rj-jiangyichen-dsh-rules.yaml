@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: rj-jiangyichen-dsh-rules
+name: dsh-rules
+description:
+  en: "DSH rules plugin: activate rule prompts / markdown documents by glob-matching the files an agent reads or edits (Claude Code rules.md style)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - rules
+  - claude-code
+  - agents
+  - prompt
+source:
+  repository: https://github.com/rj-jiangyichen/dsh-rules
+  repositoryNodeId: R_kgDOT5r_fQ
+  subpath: null
+  commit: 12dbeb1810403fac936e0aadfa52389d05fad6fe
+creator:
+  github: rj-jiangyichen
+package:
+  ecosystem: npm
+  name: dsh-rules
+  version: 0.1.1
+  integrity: sha512-+RO4mWCKy19F1R9zIYrYOKvzQraDnvqE5Gq5hhcwdjNdvWZ8cDtd5Nr0B3uTNBGMBAJQ70pnnSAAssZ0DTYZOA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:50.789Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
