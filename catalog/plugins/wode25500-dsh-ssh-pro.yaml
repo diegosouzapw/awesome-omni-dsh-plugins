@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-ssh-pro
+name: dsh-ssh-pro
+description:
+  en: "Enhanced SSH ops for DeepSeek Harness: adds agent tools the base dsh-ssh plugin leaves uncovered — host testing, remote ls, ~/.ssh/config import, known hosts fingerprint check and multi-host exec — on top of the shared ssh2 engine."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - ssh
+  - remote
+  - ops
+  - server
+source:
+  repository: https://github.com/WODE25500/dsh-ssh-pro
+  repositoryNodeId: R_kgDOT-B2PA
+  subpath: null
+  commit: d3785e4c8a77c9e59156a68f8794af35e24ff6e0
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:29.373Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
