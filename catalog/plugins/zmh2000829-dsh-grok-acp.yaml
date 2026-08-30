@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: zmh2000829-dsh-grok-acp
+name: dsh-grok-acp
+description:
+  en: Use Grok Build as an ACP-powered root agent inside DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - grok-build
+  - agent-client-protocol
+  - acp
+  - coding-agent
+source:
+  repository: https://github.com/zmh2000829/DSH-agent-bridge
+  repositoryNodeId: R_kgDOUBJiPg
+  subpath: null
+  commit: e7111741a67269503d1f71c379902354687da7f8
+creator:
+  github: zmh2000829
+package:
+  ecosystem: npm
+  name: dsh-grok-acp
+  version: 0.3.3
+  integrity: sha512-3tXZGBtdaJBWINCm4YMBM70szxHcXaMzRg89IJ30Zhz86eCSBbchavF9214V8G9gI0LrOqmt8qNPOhkcPAy3jw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:46.995Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zmh2000829/DSH-agent-bridge/e7111741a67269503d1f71c379902354687da7f8/docs/assets/dsh-home.png
+    alt: DSH 首页
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zmh2000829/DSH-agent-bridge/e7111741a67269503d1f71c379902354687da7f8/docs/assets/grok-home.png
+    alt: Grok Build 首页
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zmh2000829/DSH-agent-bridge/e7111741a67269503d1f71c379902354687da7f8/docs/assets/harness.gif
+    alt: 在 DSH 首页切换 DSH 与 Grok Build
