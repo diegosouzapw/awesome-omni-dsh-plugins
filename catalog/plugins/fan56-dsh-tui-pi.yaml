@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: fan56-dsh-tui-pi
+name: "@aiwayds/dsh-tui-pi"
+description:
+  en: pi-style terminal UI for DeepSeek Harness (dsh) — pi-tui look & feel, dsh slash commands, GitHub light/dark themes, powerline footer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - tui
+  - terminal
+  - pi
+  - powerline
+  - ui
+source:
+  repository: https://github.com/fan56/dsh-tui-pi
+  repositoryNodeId: R_kgDOT4YOMQ
+  subpath: null
+  commit: 014bdca26c655bb897a3dd8df97855a73e27a453
+creator:
+  github: fan56
+package:
+  ecosystem: npm
+  name: "@aiwayds/dsh-tui-pi"
+  version: 1.0.8
+  integrity: sha512-WdMhQy5Rj5hbRVTbh/fGSu52MJ2yig+lvRtXoA+5/1IkFnZCmSBnmZXnFMTkS5r9efUM5TjTARhtKqKPF6dE3A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:06.119Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
