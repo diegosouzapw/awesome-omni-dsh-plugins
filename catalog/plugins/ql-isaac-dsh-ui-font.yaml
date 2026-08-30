@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: ql-isaac-dsh-ui-font
+name: dsh-ui-font
+description:
+  en: "DSH Web GUI font engine + settings page: runtime discovery of every client plugin's styles, declaration-point pick-to-tune selector (design tokens / per-rule px), configurable hotkeys (picker / font size ±1), system font enumeration via sfnt name-table parsing, DSH settings.yaml persistence (with localStorage fallback "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - font
+  - font-size
+  - ui
+  - settings
+source:
+  repository: https://github.com/warmwine/dsh-ui-font
+  repositoryNodeId: R_kgDOT48enQ
+  subpath: null
+  commit: 3d986759e4d8b083016959f982a2cb0b3fc30880
+creator:
+  github: ql-isaac
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:24.576Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/warmwine/dsh-ui-font/3d986759e4d8b083016959f982a2cb0b3fc30880/images/before.png
+    alt: 安装前
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/warmwine/dsh-ui-font/3d986759e4d8b083016959f982a2cb0b3fc30880/images/after.png
+    alt: 安装后
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/warmwine/dsh-ui-font/3d986759e4d8b083016959f982a2cb0b3fc30880/images/setting.png
+    alt: 设置界面
