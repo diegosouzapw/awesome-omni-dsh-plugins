@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-score
+name: dsh-score
+description:
+  en: "Multi-dimensional quality scoring for DeepSeek Harness plugins: scores one repo or npm package across install success (consuming dsh-test-drive results), maintenance activity, documentation completeness, security scan, and protocol compliance — every conclusion backed by real CLI evidence with audit timestamps — and pr"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - plugin-scoring
+  - quality-score
+  - leaderboard
+  - supply-chain
+source:
+  repository: https://github.com/PerryLink/dsh-score
+  repositoryNodeId: R_kgDOT6oNJg
+  subpath: null
+  commit: c2a87601dadc28e07a72170446b0af27f626e388
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-score
+  version: 0.2.1
+  integrity: sha512-FVSmviVC6OYVyZ1Rd1qOMot36szila242PxE5gsZe2dpu3quj44okPVUDeJdn7PoZqsD8MmZR3ab3QxEdeLC8Q==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:53.914Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
