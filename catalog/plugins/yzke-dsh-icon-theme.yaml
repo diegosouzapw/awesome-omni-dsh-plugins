@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: yzke-dsh-icon-theme
+name: dsh-icon-theme
+description:
+  en: Auto-detected, user-customizable icons for DeepSeek Harness settings and sidebar surfaces.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - icons
+  - theme
+source:
+  repository: https://github.com/yzke/dsh-icon-theme
+  repositoryNodeId: R_kgDOT6bAww
+  subpath: null
+  commit: cf5d18f738900467c72b0247df18aa5cb76c3d69
+creator:
+  github: yzke
+package:
+  ecosystem: npm
+  name: dsh-icon-theme
+  version: 0.2.2
+  integrity: sha512-LwFCOWKPY/Wx9q3pF57822pSVjaQvTpLJgwnOy7kyofuaN0HWSD/t6Hq1yMd7mo5tbyx/ktUUEmYhY33JgQryg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:48.564Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yzke/dsh-icon-theme/cf5d18f738900467c72b0247df18aa5cb76c3d69/docs/images/settings-overview.png
+    alt: Settings overview
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yzke/dsh-icon-theme/cf5d18f738900467c72b0247df18aa5cb76c3d69/docs/images/icon-picker.png
+    alt: Icon picker
