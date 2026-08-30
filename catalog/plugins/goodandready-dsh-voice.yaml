@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: goodandready-dsh-voice
+name: "@goodandready/dsh-voice"
+description:
+  en: "Voice input for DeepSeek Harness: dictation chunked by pauses and voice messages, each with its own provider fallback chain (Deepgram, Groq, HuggingFace, local whisper.cpp, plus any OpenAI-compatible API of your own)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - voice
+  - stt
+  - dictation
+  - whisper
+  - deepgram
+  - groq
+  - openrouter
+  - openai-compatible
+source:
+  repository: https://github.com/GooDAnDReaDY/dsh-voice
+  repositoryNodeId: R_kgDOT9pu1A
+  subpath: null
+  commit: fa05a61f2ee5eb14fa27ec6510b41009918c22c4
+creator:
+  github: GooDAnDReaDY
+package:
+  ecosystem: npm
+  name: "@goodandready/dsh-voice"
+  version: 0.8.9
+  integrity: sha512-zERAvZZ1FkVFV5tQBLUKcVmKdJQng5nNQXHUNU2wS04BGkEin8c7Bw8yhkqob9ttVdjhstez/01guyW6xYVyNw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:06.059Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
