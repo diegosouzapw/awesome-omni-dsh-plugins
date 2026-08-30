@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: swd146296-dsh-memos-bridge
+name: dsh-memos-bridge
+description:
+  en: "DeepSeek Harness bundle that bridges the MemOS memory service into the agent over MCP: add, search, update and manage memories as native tools (mcp memos )."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memos
+  - memory
+  - mcp
+  - long-term-memory
+source:
+  repository: https://github.com/Swd146296/dsh-memos-bridge
+  repositoryNodeId: R_kgDOT-SwEQ
+  subpath: null
+  commit: 15fe5e381a9060d8688f9e612babe90d54b303c8
+creator:
+  github: Swd146296
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:00.438Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
