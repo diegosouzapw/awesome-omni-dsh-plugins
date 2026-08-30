@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: lamost423-dsh-todo-freshness-guard
+name: dsh-todo-freshness-guard
+description:
+  en: Remind and block stale tool work until todo write is reconciled in DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - todo
+  - guard
+  - agent
+source:
+  repository: https://github.com/lamost423/dsh-todo-freshness-guard
+  repositoryNodeId: R_kgDOT4T8dg
+  subpath: null
+  commit: ea0866eaddf33973ff756d7ab1dcb90d3fe2f4bf
+creator:
+  github: lamost423
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:47.323Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lamost423/dsh-todo-freshness-guard/ea0866eaddf33973ff756d7ab1dcb90d3fe2f4bf/assets/progress-stays-visible.png
+    alt: DSH Todo Freshness Guard keeps long-running task progress visible
