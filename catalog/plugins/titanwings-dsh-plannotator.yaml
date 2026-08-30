@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: titanwings-dsh-plannotator
+name: "@dsh-external/dsh-plannotator"
+description:
+  en: "Unofficial Plannotator integration for DeepSeek Harness: annotate plans inline and return structured feedback to the waiting coding agent"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - plan-review
+  - annotation
+  - plannotator
+  - coding-agent
+source:
+  repository: https://github.com/titanwings/dsh-plannotator
+  repositoryNodeId: R_kgDOT3ZCjQ
+  subpath: null
+  commit: 053c982f96b77fd750360ee66384bf90d5c1e603
+creator:
+  github: titanwings
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.355Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/social-preview.png
+    alt: DSH Plannotator social preview with Liang Xiaojing reviewing an annotated plan
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/01-sidebar-open-en.png
+    alt: A real plan review docked beside the DeepSeek Harness conversation
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/02-precise-annotation-en.png
+    alt: Writing a precise annotation in the docked review panel
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/03-multi-comment-sidebar-en.png
+    alt: Three anchored comments and overall feedback in one review
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/04-collapsed-rail-en.png
+    alt: The review collapsed to an edge rail while the conversation remains usable
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/titanwings/dsh-plannotator/053c982f96b77fd750360ee66384bf90d5c1e603/docs/05-safe-approval-en.png
+    alt: Approval requires confirmation when comments have not been sent
