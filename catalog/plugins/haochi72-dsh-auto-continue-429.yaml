@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: haochi72-dsh-auto-continue-429
+name: dsh-auto-continue-429
+description:
+  en: Auto-continue on 429 rate limit and quota-exhausted errors for DeepSeek Harness Web UI. Host-side RATE LIMIT/QUOTA recovery plus an on/off switch at the bottom of the chat input area.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - "429"
+  - rate-limit
+  - auto-continue
+  - retry
+  - web-ui
+  - cordis
+source:
+  repository: https://github.com/haochi72/dsh-auto-continue-429
+  repositoryNodeId: R_kgDOT8dJpA
+  subpath: null
+  commit: 697a8b47bf0f24ef6a6851d2f966df23f0c097d9
+creator:
+  github: haochi72
+package:
+  ecosystem: npm
+  name: dsh-auto-continue-429
+  version: 0.2.3
+  integrity: sha512-qyOPayTIqhcwfkw8LnEHyEvE7OF+6FXHwHuwMFVwJBW1Eocq8KlkXiggZFx34x6R7Jyk312j1nZ3LXyfH5zjJg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:59.726Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
