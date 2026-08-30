@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zoahdev-dsh-cn-boot
+name: dsh-cn-boot
+description:
+  en: "China-network bootstrap for DeepSeek Harness (dsh): connectivity probes to npm/GitHub/HuggingFace/mirrors, local proxy detection, mirror recommendations, and a generated PowerShell/bash bootstrap script. Read-only by default; apply is explicit. CLI + agent-callable cn boot tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - china
+  - mirror
+  - proxy
+  - network
+  - bootstrap
+  - npmmirror
+source:
+  repository: https://github.com/zoahdev/dsh-cn-boot
+  repositoryNodeId: R_kgDOT8SzgA
+  subpath: null
+  commit: 86b9f804ef4763e60d665b1a422a216a653170f3
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-cn-boot
+  version: 0.1.0
+  integrity: sha512-T0GUhVcG9ivxU7Ow1slsvDZIdySJu25V15cdwQmoH3GAt5Z7YZ45J1HEaIiwuDq93/AeHdq3uzuiYTmZoApLAg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.230Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
