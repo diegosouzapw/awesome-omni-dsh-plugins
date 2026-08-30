@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-registry
+name: dsh-agent-registry
+description:
+  en: 合集与整体说明：https://github.com/xingyingyuzhui/dsh-claw-suite
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent
+  - workspace
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-registry
+  repositoryNodeId: R_kgDOT8ILKg
+  subpath: null
+  commit: ffdd482b7342589078b244a554c0b44ea7294699
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:33.455Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
