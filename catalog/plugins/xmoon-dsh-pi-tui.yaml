@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xmoon-dsh-pi-tui
+name: "@xmoon76/dsh-pi-tui"
+description:
+  en: "The dsh-pi-tui bundle: a TUI surface for DeepSeek Harness profiles (dsh --profile pi-tui)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - tui
+  - terminal
+  - cordis
+  - cli
+source:
+  repository: https://github.com/XMoon/dsh-pi-tui
+  repositoryNodeId: R_kgDOT4gL3A
+  subpath: null
+  commit: c9a639608a15d4e86be81ebcc5d89dc59ba4b816
+creator:
+  github: XMoon
+package:
+  ecosystem: npm
+  name: "@xmoon76/dsh-pi-tui"
+  version: 0.3.5
+  integrity: sha512-pzCi64gEHsp1A8GEPMzS13W9Lydkmq/kRa5lNxEhwA4M7tJCE8uzteaksoYsUywz+RP3YEExqkzn+x2JhU43cA==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.884Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 15
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XMoon/dsh-pi-tui/c9a639608a15d4e86be81ebcc5d89dc59ba4b816/docs/dsh-pi-tui.png
+    alt: dsh-pi-tui
