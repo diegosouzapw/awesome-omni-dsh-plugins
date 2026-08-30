@@ -1,0 +1,61 @@
+schemaVersion: 1
+id: tauruswood-dsh-plugin-appshot
+name: dsh-plugin-appshot
+description:
+  en: dsh-plugin-appshot — a DeepSeek Harness plugin for macOS and Windows context screenshot capture.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - appshot
+  - screenshot
+  - screencapturekit
+  - macos
+  - windows
+  - win32
+  - agent
+  - context
+source:
+  repository: https://github.com/TaurusWood/dsh-plugin-appshot
+  repositoryNodeId: R_kgDOT57Ybw
+  subpath: null
+  commit: 6ebeaa19683f93f36223ed9461e5ed72ed2d90bf
+creator:
+  github: TaurusWood
+package:
+  ecosystem: npm
+  name: dsh-plugin-appshot
+  version: 0.4.1
+  integrity: sha512-yoNl6SBpOs/iPZJJQ5Byw6lDEQCaftVMG2GoA4gSlUwUs56p5oJRwO6LZx8QWUODaecJaCs/ET9pYbQPDDyBlQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:02.758Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TaurusWood/dsh-plugin-appshot/6ebeaa19683f93f36223ed9461e5ed72ed2d90bf/docs/assets/before-double-command.png
+    alt: 触发前
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TaurusWood/dsh-plugin-appshot/6ebeaa19683f93f36223ed9461e5ed72ed2d90bf/docs/assets/after-double-command.png
+    alt: 触发后
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TaurusWood/dsh-plugin-appshot/6ebeaa19683f93f36223ed9461e5ed72ed2d90bf/docs/assets/open-app-shot-in-dsh-desktop.png
+    alt: 在 DSH 桌面端查看 Appshot 截图
