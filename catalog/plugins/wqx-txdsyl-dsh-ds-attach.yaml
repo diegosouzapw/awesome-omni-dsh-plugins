@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wqx-txdsyl-dsh-ds-attach
+name: dsh-ds-attach
+description:
+  en: "chat.deepseek.com-style attachments for DeepSeek Harness: official upload icon, DS-style file cards (240x64, 16px radius), drag-drop, text extraction (PDF/DOCX/XLSX/TXT) injected into the message"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - chat
+  - style
+  - attachments
+  - official
+  - upload
+  - icon
+  - file
+  - cards
+  - 240x64
+  - 16px
+  - radius
+  - drag
+  - drop
+  - text
+  - extraction
+  - docx
+source:
+  repository: https://github.com/wqx-txdsyl/dsh-ds-attach
+  repositoryNodeId: R_kgDOT5rnLg
+  subpath: null
+  commit: 7b11a471e731253b74d6f41a34e15dabaa715244
+creator:
+  github: wqx-txdsyl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:20.189Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
