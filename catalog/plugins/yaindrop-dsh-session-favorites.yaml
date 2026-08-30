@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yaindrop-dsh-session-favorites
+name: "@dsh-external/dsh-session-favorites"
+description:
+  en: "Persistent favorites section for DeepSeek Harness: a sidebar.favorites list above Workspaces plus a per-session-row star toggle."
+  evidencePath: packages/dsh-session-favorites/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - persistent
+  - favorites
+  - section
+  - sidebar
+  - list
+  - above
+  - workspaces
+  - plus
+  - session
+  - star
+  - toggle
+  - dsh
+source:
+  repository: https://github.com/yaindrop/dsh-session-favorites
+  repositoryNodeId: R_kgDOT4F6aA
+  subpath: packages/dsh-session-favorites
+  commit: 7b125b2c45cc5c992c8558eea85ee3f2adcf827a
+creator:
+  github: yaindrop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-session-favorites/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:40.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
