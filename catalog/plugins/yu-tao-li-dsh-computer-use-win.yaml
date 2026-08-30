@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: yu-tao-li-dsh-computer-use-win
+name: dsh-computer-use-win
+description:
+  en: "Windows computer use for DeepSeek Harness: an MCP stdio server + PowerShell UIA backend, bridged into DSH via @deepseek-ai/dsh-mcp-client. Read/act on real Windows desktop apps (UI Automation tree, screenshots, typed input, OCR, window management)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - computer-use
+  - windows
+  - uia
+  - desktop-automation
+source:
+  repository: https://github.com/Yu-tao-Li/dsh-computer-use-win
+  repositoryNodeId: R_kgDOT6YEZw
+  subpath: null
+  commit: 04f4643eba86b28ee26788dbe72e34fa87503852
+creator:
+  github: Yu-tao-Li
+package:
+  ecosystem: npm
+  name: dsh-computer-use-win
+  version: 0.1.2
+  integrity: sha512-byIWWKzJIP7LuCQF5VskK68XjcfQtQuHBGgE3rjqSuXOt6CDRqWqHDwFpY5tSKPNgtgP/+CRluQf97Z5iJ2MJQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:03.223Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-computer-use-win/04f4643eba86b28ee26788dbe72e34fa87503852/assets/screenshot-1.png
+    alt: "1"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-computer-use-win/04f4643eba86b28ee26788dbe72e34fa87503852/assets/screenshot-2.png
+    alt: "2"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-computer-use-win/04f4643eba86b28ee26788dbe72e34fa87503852/assets/screenshot-3.png
+    alt: "3"
