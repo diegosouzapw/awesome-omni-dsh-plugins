@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wanbinyu-dsh-provider-probe
+name: dsh-provider-probe
+description:
+  en: Safe, explicit provider connectivity and latency checks for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - provider
+  - diagnostics
+  - latency
+source:
+  repository: https://github.com/Wanbinyu/dsh-provider-probe
+  repositoryNodeId: R_kgDOT9GDpg
+  subpath: null
+  commit: ea035f77793420fb451e5c977093a335cf4a304e
+creator:
+  github: Wanbinyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:34.235Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wanbinyu/dsh-provider-probe/ea035f77793420fb451e5c977093a335cf4a304e/docs/images/dsh-provider-probe.png
+    alt: dsh-provider-probe 的供应商检测页面
