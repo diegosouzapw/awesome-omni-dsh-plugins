@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: zylzyqzz-dsh-mobile-pwa
+name: dsh-mobile-pwa
+description:
+  en: "Complete mobile PWA for DeepSeek Harness (DSH): secure LAN/Tailscale remote access gateway + install-to-homescreen (manifest), offline-capable service worker, touch-first gestures, agent-done notifications, and dark compact mobile UI. 移动端 PWA 完整方案 for DeepSeek Harness."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-plugin-add
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - pwa
+  - progressive-web-app
+  - mobile
+  - phone
+  - mobile-ui
+  - remote-access
+  - lan
+  - tailscale
+  - service-worker
+  - web-push
+  - offline
+source:
+  repository: https://github.com/zylzyqzz/dsh-mobile-pwa
+  repositoryNodeId: R_kgDOT5Opgw
+  subpath: null
+  commit: 258607721a76cd54c8297c3fe74511c5cc7c485c
+creator:
+  github: zylzyqzz
+package:
+  ecosystem: npm
+  name: dsh-mobile-pwa
+  version: 0.1.0
+  integrity: sha512-pORR40aHeJNaZf68U0wjj4iDyGTYnaWosNbuzyUre3gtDX0nwUZoxINxxYSiQKZV4bopAddlkBsUJfigYYsRlA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:13.272Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
