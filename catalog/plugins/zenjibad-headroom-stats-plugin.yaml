@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zenjibad-headroom-stats-plugin
+name: headroom-stats-plugin
+description:
+  en: "Live token/cost-savings dashboard for the Headroom compression proxy inside the DeepSeek Harness (DSH) Web UI: a settings-page dashboard plus a persistent stats line under the composer. 在 DSH 内实时展示 Headroom 压节省统计：设置页仪表盘 + 输入区常驻统计行。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - headroom
+  - token-savings
+  - compression
+  - tokens
+  - cost
+  - stats
+  - dashboard
+  - ai-agent
+source:
+  repository: https://github.com/Zenjibad/headroom-stats-plugin
+  repositoryNodeId: R_kgDOT5pcMQ
+  subpath: null
+  commit: ca279849ff61f6193660bdf8b97fe9093048f035
+creator:
+  github: Zenjibad
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.609Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
