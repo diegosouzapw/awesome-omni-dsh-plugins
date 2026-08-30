@@ -1,0 +1,66 @@
+schemaVersion: 1
+id: revolutionla-dsh-dream-skin
+name: dsh-dream-skin
+description:
+  en: sh dsh plugin --profile web add dsh-dream-skin && dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - wallpaper
+  - web-ui
+source:
+  repository: https://github.com/RevolutionLA/dsh-dream-skin
+  repositoryNodeId: R_kgDOT456Gw
+  subpath: null
+  commit: 4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9
+creator:
+  github: RevolutionLA
+package:
+  ecosystem: npm
+  name: dsh-dream-skin
+  version: 8.30.1
+  integrity: sha512-o+s7EHUAtqCAeaYkhIFvGc5RyaqFv5yQxw/Qw8F2iHooGFmc9gOdYjsBYOejlNGu8nphdJHojCV1uZDXwyNXMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:40.273Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 132
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/screenshots/preview.png
+    alt: DSH 皮肤实机预览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/screenshots/settings.png
+    alt: 设置中的外观分节
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/previews/abyss.png
+    alt: abyss
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/previews/aurora.png
+    alt: aurora
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/previews/nebula.png
+    alt: nebula
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/RevolutionLA/dsh-dream-skin/4ff28f9a94dd8c5f3ef9452fa034ca124dcc8ce9/docs/previews/ember.png
+    alt: ember
