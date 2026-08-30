@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: zenjibad-dsh-any-attachment
+name: dsh-any-attachment
+description:
+  en: "dsh bundle: attach any file type in dsh web — text-likes inline, binaries as workspace path references, rasters via the built-in pipeline"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - bundle
+  - attach
+  - file
+  - type
+  - text
+  - likes
+  - inline
+  - binaries
+  - workspace
+  - path
+  - references
+  - rasters
+  - built
+  - pipeline
+  - dsh
+source:
+  repository: https://github.com/Zenjibad/dsh-any-attachment
+  repositoryNodeId: R_kgDOT4gXXg
+  subpath: null
+  commit: 290edabc213eb2802676a7d7bf6b8894492ddbc6
+creator:
+  github: Zenjibad
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:50.166Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
