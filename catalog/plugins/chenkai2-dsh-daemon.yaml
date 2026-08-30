@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: chenkai2-dsh-daemon
+name: "@chenkai114/dsh-daemon"
+description:
+  en: "dsh daemon: register the DeepSeek Harness web server (dsh web) as an auto-start, self-healing background service (LaunchAgent / systemd / cron + watchdog)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - daemon
+  - watchdog
+  - launchagent
+  - launchd
+  - systemd
+  - self-healing
+source:
+  repository: https://github.com/chenkai2/dsh-daemon
+  repositoryNodeId: R_kgDOT657cw
+  subpath: null
+  commit: a0f13bc896394a7280d07b3157b0c1f772da7f08
+creator:
+  github: chenkai2
+package:
+  ecosystem: npm
+  name: "@chenkai114/dsh-daemon"
+  version: 0.1.20
+  integrity: sha512-/Mghn1GMtwTYVp/VkVbxo7mfKVrDy9BjDQUShDPS1y7CE2GMJTvvVFlEkgZxjTFM18hiaAENMbXMcNcTyQYLQw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:02.711Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
