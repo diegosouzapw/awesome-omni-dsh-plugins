@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: youjiaqi421-dsh-plugin-workspace-rules
+name: dsh-plugin-workspace-rules
+description:
+  en: Load Cursor, Gemini CLI, and GitHub Copilot workspace instructions into DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+source:
+  repository: https://github.com/youjiaqi421/dsh-plugin-workspace-rules
+  repositoryNodeId: R_kgDOT37Q4g
+  subpath: null
+  commit: 1f70fd9ba6096753f39f2a2c8f4b51b8dcce71c7
+creator:
+  github: youjiaqi421
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:31.859Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
