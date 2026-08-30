@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yv3507-dsh-webui-launcher
+name: dsh-webui-launcher
+description:
+  en: "Cross-platform Web UI launcher plugin for DeepSeek Harness: webui start/stop/status/open model tools, a /webui slash command and a Settings-page launch card."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - launcher
+  - web-ui
+source:
+  repository: https://github.com/YV3507/dsh-webui-launcher
+  repositoryNodeId: R_kgDOT5CKUw
+  subpath: null
+  commit: 6af762132027ce94c84d0c052ba3eeee4a27a1ac
+creator:
+  github: YV3507
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:52.211Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
