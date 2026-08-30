@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: pan17-dsh-wechat
+name: dsh-wechat
+description:
+  en: Bridge WeChat (iLink bot) to DeepSeek Harness (DSH)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - wechat
+  - dsh
+  - deepseek-harness
+  - cordis
+  - bridge
+  - agent
+source:
+  repository: https://github.com/pan17/dsh-wechat
+  repositoryNodeId: R_kgDOT4kMtg
+  subpath: null
+  commit: 4214ca34468309fcebdf0435df0442b21b584254
+creator:
+  github: pan17
+package:
+  ecosystem: npm
+  name: dsh-wechat
+  version: 0.7.2
+  integrity: sha512-Cd7Bj5nOWmWlCfKn1xOS4HqqsoJnlIAEHN+EmwT2enSs3hkfnmm2kh6x8glir0z1y8sqaNiNF1R8AEL9ghXTkQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:44.894Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/pan17/dsh-wechat/4214ca34468309fcebdf0435df0442b21b584254/resources/send.jpg
+    alt: 发送
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/pan17/dsh-wechat/4214ca34468309fcebdf0435df0442b21b584254/resources/receive.jpg
+    alt: 接收
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/pan17/dsh-wechat/4214ca34468309fcebdf0435df0442b21b584254/resources/settings.png
+    alt: 设置页
