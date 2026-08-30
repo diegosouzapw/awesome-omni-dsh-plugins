@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: ye-yi7-dsh-plugin
+name: "@asm-protocol/dsh-plugin"
+description:
+  en: DeepSeek Harness tool for evidence-backed service selection with ASM
+  evidencePath: integrations/deepseek-harness/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - asm
+  - deepseek-harness
+  - dsh-plugin
+  - agent-tools
+  - service-selection
+  - dsh
+source:
+  repository: https://github.com/YE-YI7/asm-spec
+  repositoryNodeId: R_kgDOR5s7rA
+  subpath: integrations/deepseek-harness
+  commit: cf2276c425a72d84390ffccb208f6e570093fb12
+creator:
+  github: YE-YI7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: integrations/deepseek-harness/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:28.745Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
