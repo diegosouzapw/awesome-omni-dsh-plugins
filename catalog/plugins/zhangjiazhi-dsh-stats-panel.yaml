@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zhangjiazhi-dsh-stats-panel
+name: "@linxin666/dsh-stats-panel"
+description:
+  en: "Token usage statistics for DeepSeek Harness: per-channel usage, balances and plan quotas for mainstream providers, cost estimates in CNY — a settings-sidebar section."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - token
+  - usage
+  - statistics
+  - balance
+source:
+  repository: https://github.com/zhang-jiazhi/dsh-stats-panel
+  repositoryNodeId: R_kgDOT573nA
+  subpath: null
+  commit: bd28621129036f88ab4ba122829aa4c2ae1fb772
+creator:
+  github: zhangjiazhi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.621Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
