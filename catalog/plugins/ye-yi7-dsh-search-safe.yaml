@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: ye-yi7-dsh-search-safe
+name: "@fixture/dsh-search-safe"
+description:
+  en: The agent economy has discovery and it's getting payment rails. The layer in between — deciding which tool an agent uses and who gets paid — is missing. ASM is our bid to build it.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - agent
+  - economy
+  - discovery
+  - getting
+  - payment
+  - rails
+  - layer
+  - between
+  - deciding
+  - tool
+  - uses
+  - gets
+  - paid
+  - missing
+  - build
+  - dsh
+source:
+  repository: https://github.com/YE-YI7/asm-spec
+  repositoryNodeId: R_kgDOR5s7rA
+  subpath: examples/interop/deepseek-harness-selection-boundary/bundles/search-safe
+  commit: cf2276c425a72d84390ffccb208f6e570093fb12
+creator:
+  github: YE-YI7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: examples/interop/deepseek-harness-selection-boundary/bundles/search-safe/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:28.745Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YE-YI7/asm-spec/cf2276c425a72d84390ffccb208f6e570093fb12/docs/assets/asm-openrouter-demo.gif
+    alt: ASM OpenRouter CLI demo
