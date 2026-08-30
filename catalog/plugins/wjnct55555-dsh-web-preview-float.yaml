@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wjnct55555-dsh-web-preview-float
+name: "@dsh-external/dsh-web-preview-float"
+description:
+  en: "yaml - id: dsh-web-preview-float name: '@dsh-external/dsh-web-preview-float'"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - yaml
+  - preview
+  - float
+  - name
+  - external
+  - dsh
+source:
+  repository: https://github.com/WJNCT55555/dsh-web-preview-float
+  repositoryNodeId: R_kgDOT4YfuA
+  subpath: null
+  commit: c3289448f4e2c3aa3d59041e65c22f675234cb15
+creator:
+  github: WJNCT55555
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:36.343Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
