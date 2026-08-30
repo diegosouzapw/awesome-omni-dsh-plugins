@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baosfeng-dsh-file-activity
+name: dsh-file-activity
+description:
+  en: sh git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-file-activity
+  evidencePath: plugins/dsh-file-activity/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - file
+  - activity
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-file-activity
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-file-activity
+  version: 0.5.1
+  integrity: sha512-s+82zFWCmyrya3v16yfd/aGrSbsXlI5Hj9vum5xpYu3Mt56lu5y64uay3ARpERZ2Ohm5CDavE85GJaREdZ6SEw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-file-activity/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
