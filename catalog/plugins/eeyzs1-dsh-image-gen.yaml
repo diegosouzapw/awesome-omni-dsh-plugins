@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: eeyzs1-dsh-image-gen
+name: "@eeyzs1/dsh-image-gen"
+description:
+  en: "Image generation capability plugin for DSH: generate image (text-to-image via Zhipu CogView). The agent decides when to call it. Vision-understanding (reading images) is NOT included — that is the main model's native capability."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - image
+  - generation
+  - capability
+  - generate
+  - text
+  - zhipu
+  - cogview
+  - agent
+  - decides
+  - call
+  - vision
+  - understanding
+  - reading
+  - images
+  - included
+  - main
+source:
+  repository: https://github.com/eeyzs1/dsh-plugins
+  repositoryNodeId: R_kgDOT5anVw
+  subpath: packages/image-gen
+  commit: 7b5019388f5c5ff168f67e802e4945db46407d9f
+creator:
+  github: eeyzs1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/image-gen/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:13.877Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
