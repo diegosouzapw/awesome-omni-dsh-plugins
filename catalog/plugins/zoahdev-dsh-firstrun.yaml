@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-firstrun
+name: dsh-firstrun
+description:
+  en: "First-run health check for DeepSeek Harness (dsh): verifies Node/pnpm/dsh toolchain, profile, API key, workspace and registry config, then prints actionable next steps. Zero runtime dependencies, read-only. CLI + agent-callable quickstart tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - quickstart
+  - onboarding
+  - diagnostics
+  - setup
+source:
+  repository: https://github.com/zoahdev/dsh-firstrun
+  repositoryNodeId: R_kgDOT8f8uw
+  subpath: null
+  commit: f32ebfdfe48334dda1ec0a8a47911d5f9bafca10
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-firstrun
+  version: 0.1.0
+  integrity: sha512-1rfjKEVaVCTUijyeL5sAN1nn+HFXH2xRclM3MdT7+UgXoIaV5Qo8b2aCSzQZ4i5D4/lTYQwdXrj5EijmmvpO4w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:04.410Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
