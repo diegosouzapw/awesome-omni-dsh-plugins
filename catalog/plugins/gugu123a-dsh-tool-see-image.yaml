@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: gugu123a-dsh-tool-see-image
+name: dsh-tool-see-image
+description:
+  en: "see image tool for DSH: route image files to a configurable vision model (OpenAI-compatible API) and relay its description back to a text-only model"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - vision
+  - image
+  - image-recognition
+  - see-image
+  - glm-4v
+  - glm
+  - zhipu
+  - llm
+source:
+  repository: https://github.com/gugu123a/dsh-tool-see-image
+  repositoryNodeId: R_kgDOT3h-jw
+  subpath: null
+  commit: 45b9421be610c9a31a1e3f084e047579cf536c18
+creator:
+  github: gugu123a
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:02.713Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
