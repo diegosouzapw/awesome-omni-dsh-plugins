@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: ai-galaxy-gpu-dsh-sound
+name: dsh-sound
+description:
+  en: "DeepSeek Harness plugin: per-event task-completion and attention sounds for turn-end / approval / question / plan-review / goal-blocked / task-failure, each with its own sound (built-in synth, local audio file) and volume (Web UI)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - notification
+  - sound
+  - ringtone
+  - tts
+  - voice
+source:
+  repository: https://github.com/AI-Galaxy-GPU/dsh-sound
+  repositoryNodeId: R_kgDOT5eOUw
+  subpath: null
+  commit: 92deeda22be4a7d7f3f2d75be0922e18d26e86ca
+creator:
+  github: AI-Galaxy-GPU
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:06.153Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/AI-Galaxy-GPU/dsh-sound/92deeda22be4a7d7f3f2d75be0922e18d26e86ca/assets/screenshots/sound-image.png
+    alt: dsh-sound settings
