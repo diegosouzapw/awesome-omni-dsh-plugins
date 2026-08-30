@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: xiaoksio-dsh-solution-explorer
+name: dsh-solution-explorer
+description:
+  en: "DSH Web GUI right sidebar: VS Code-style file explorer plus source control (git status, stage/unstage/discard, commit, diff, commit graph, sync fetch/pull/push, branch/remote management, git init, multi-repo switch, color-coded file status, file-type icons, image preview) with an editable full-file diff view, a syntax-"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - sidebar
+  - file-explorer
+  - source-control
+  - git
+  - dsh
+source:
+  repository: https://github.com/xiaoksio/dsh-solution-explorer
+  repositoryNodeId: R_kgDOUBElpw
+  subpath: null
+  commit: 75e77fb2c439f7dd37f274da30381beb2fb1036d
+creator:
+  github: xiaoksio
+package:
+  ecosystem: npm
+  name: dsh-solution-explorer
+  version: 0.5.0
+  integrity: sha512-UJk1PrA0KePMlYvoxxrLaYFarddqKpPjLw8qHpxvJ6JeMMBMa07lXQV8S3AicBX8Ha/mr+ZvJqDuzju2l6wbJQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.927Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoksio/dsh-solution-explorer/75e77fb2c439f7dd37f274da30381beb2fb1036d/demo.gif
+    alt: dsh-solution-explorer demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoksio/dsh-solution-explorer/75e77fb2c439f7dd37f274da30381beb2fb1036d/assets/screenshot-1-file-explorer.png
+    alt: File Explorer
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoksio/dsh-solution-explorer/75e77fb2c439f7dd37f274da30381beb2fb1036d/assets/screenshot-2-source-control.png
+    alt: Source Control
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoksio/dsh-solution-explorer/75e77fb2c439f7dd37f274da30381beb2fb1036d/assets/screenshot-3-diff.png
+    alt: Diff
