@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wldxiaobai-dsh-project-mcp-manager
+name: dsh-project-mcp-manager
+description:
+  en: "dsh-project-mcp-manager: per-project MCP server loading for DSH. Reads <projectRoot /.dsh/mcp.yml, mounts each server as an @deepseek-ai/dsh-mcp-client instance, hot-reloads on file change, and scopes tool visibility per session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - cordis
+source:
+  repository: https://github.com/wldxiaobai/dsh-project-mcp-manager
+  repositoryNodeId: R_kgDOUA_BUw
+  subpath: null
+  commit: 4405735acd0bb7e4fb0e3271f0c51ee0a12f96bd
+creator:
+  github: wldxiaobai
+package:
+  ecosystem: npm
+  name: dsh-project-mcp-manager
+  version: 0.1.1
+  integrity: sha512-MCq8WckovS8LuKOUHUI4pMoEn5zftDCkF4xgTBoF0wYCfMSHCPpleBxZjC5YD+Y/JmZvKSx7p7PdkceuZ+OP9g==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:41.382Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
