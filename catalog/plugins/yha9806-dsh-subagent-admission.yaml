@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yha9806-dsh-subagent-admission
+name: dsh-subagent-admission
+description:
+  en: Shared lifecycle admission protocol and reference policy kernel for DSH subagents.
+  evidencePath: packages/dsh-subagent-admission/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - subagent
+  - admission-control
+  - agent-infrastructure
+source:
+  repository: https://github.com/yha9806/dsh-subagent-admission
+  repositoryNodeId: R_kgDOT4QQmg
+  subpath: packages/dsh-subagent-admission
+  commit: 2e2e921e7154d9e11d23f97800723d712bcda2c3
+creator:
+  github: yha9806
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-subagent-admission/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:30.874Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yha9806/dsh-subagent-admission/2e2e921e7154d9e11d23f97800723d712bcda2c3/packages/dsh-subagent-admission/docs/assets/admission-control.png
+    alt: Admission Control view
