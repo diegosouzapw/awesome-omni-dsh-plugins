@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: westwind2022-dsh-stock-jt
+name: dsh-stock-jt
+description:
+  en: sh dsh plugin --profile web add github:westwind2022/dsh-stock-jt dsh plugin --profile web add /path/to/dsh-stock-jt dsh plugin --profile web remove dsh-stock-jt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - profile
+  - westwind2022
+  - stock
+  - path
+  - remove
+  - dsh
+source:
+  repository: https://github.com/westwind2022/dsh-stock-jt
+  repositoryNodeId: R_kgDOUBVwCQ
+  subpath: null
+  commit: 6e7cbcd7bf79fc6f328ab51415678a70b31b4d0a
+creator:
+  github: westwind2022
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:35.690Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
