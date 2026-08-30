@@ -16,7 +16,7 @@ Luojalähtöinen löytäminen ja yhden komennon asennus **DeepSeek Harness (DSH)
   <a href="https://dsh-plugins.omniroute.online">Selaa, hae ja asenna jokainen laajennus verkkosivustolla →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3329_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3420_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@ joita molemmat käyttävät.
 
 ## Katalogin tila
 
-**3329 laajennusta yhdistetty.** Jokainen laajennus tulee mukaan yksilöllisesti tarkastetun pull
+**3420 laajennusta yhdistetty.** Jokainen laajennus tulee mukaan yksilöllisesti tarkastetun pull
 requestin kautta, yksi kerrallaan, alkuperäisen luojan repositoriosta, kiinnitetyllä
 lähdekommitilla ja selkeällä tunnustuksella.
 
@@ -343,4 +343,4 @@ Katso [docs/CREDIT.md](../../docs/CREDIT.md) ja [docs/UNOFFICIAL.md](../../docs/
 
 </div>
 
-<!-- i18n-source-hash: 376361e40f7c81151120c36ebab510f37f0c7be7a182f3b32be1415734136ea5 -->
+<!-- i18n-source-hash: 100877fa447d3814869774dd7c802dbf6bea785f995419273521eb5478cce832 -->

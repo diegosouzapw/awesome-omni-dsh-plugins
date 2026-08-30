@@ -16,7 +16,7 @@ Skaber-først opdagelse og installation med én kommando til **DeepSeek Harness 
   <a href="https://dsh-plugins.omniroute.online">Gennemse, søg og installér alle plugins på hjemmesiden →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3329_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3420_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@ repository indeholder de offentlige katalogdata, skemaet og de politikker, som b
 
 ## Katalogstatus
 
-**3329 plugins mergede.** Hvert plugin kommer ind via en individuelt gennemgået pull request, ét
+**3420 plugins mergede.** Hvert plugin kommer ind via en individuelt gennemgået pull request, ét
 ad gangen, fra skaberens oprindelige repository, med et fastlåst kilde-commit og eksplicit
 kreditering.
 
@@ -339,4 +339,4 @@ deres oprindelige ejere og licenser. Se [docs/CREDIT.md](../../docs/CREDIT.md) o
 
 </div>
 
-<!-- i18n-source-hash: 376361e40f7c81151120c36ebab510f37f0c7be7a182f3b32be1415734136ea5 -->
+<!-- i18n-source-hash: 100877fa447d3814869774dd7c802dbf6bea785f995419273521eb5478cce832 -->

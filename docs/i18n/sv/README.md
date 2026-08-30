@@ -16,7 +16,7 @@ Kreatörsfokuserad upptäckt och installation med ett kommando för **DeepSeek H
   <a href="https://dsh-plugins.omniroute.online">Bläddra, sök och installera alla plugins på webbplatsen →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3329_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3420_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ repository innehåller den offentliga katalogdatan, schemat och policyerna som b
 
 ## Katalogstatus
 
-**3329 plugins sammanslagna.** Varje plugin läggs till genom en individuellt granskad pull
+**3420 plugins sammanslagna.** Varje plugin läggs till genom en individuellt granskad pull
 request, en i taget, från skaparens ursprungliga repository, med en fastnålad källcommit och
 tydlig attribution.
 
@@ -341,4 +341,4 @@ sina ursprungliga ägare och licenser. Se [docs/CREDIT.md](../../docs/CREDIT.md)
 
 </div>
 
-<!-- i18n-source-hash: 376361e40f7c81151120c36ebab510f37f0c7be7a182f3b32be1415734136ea5 -->
+<!-- i18n-source-hash: 100877fa447d3814869774dd7c802dbf6bea785f995419273521eb5478cce832 -->
