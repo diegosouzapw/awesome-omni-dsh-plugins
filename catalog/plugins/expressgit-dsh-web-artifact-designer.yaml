@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: expressgit-dsh-web-artifact-designer
+name: dsh-web-artifact-designer
+description:
+  en: bash dsh plugin --profile web add github:xulelenlp/dsh-web-artifact-designer main
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-skill
+  - deepseek-harness
+  - web-design
+  - agent-skill
+  - artifact
+  - canvas-design
+  - frontend
+source:
+  repository: https://github.com/xulelenlp/dsh-web-artifact-designer
+  repositoryNodeId: R_kgDOT5_wkQ
+  subpath: null
+  commit: 0a7f1e79d373625527e388a09a92e6651e8e9056
+creator:
+  github: ExpressGit
+package:
+  ecosystem: npm
+  name: dsh-web-artifact-designer
+  version: 1.0.0
+  integrity: sha512-Hl9nm5j0jASllSh08lLooRba6HCQjIJf5I+Y6ujD1/LZHRkf3+oPATI3O0P3cn/nNJywDFkJxLRy0MqEBCF6XQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:22.882Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
