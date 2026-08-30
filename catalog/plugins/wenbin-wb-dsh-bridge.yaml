@@ -1,0 +1,75 @@
+schemaVersion: 1
+id: wenbin-wb-dsh-bridge
+name: "@wenbin_wb/dsh-bridge"
+description:
+  en: Multi-channel remote access & enterprise security guard plugin for DeepSeek Harness Keep using your DeepSeek Harness on the go. Scan a QR code with your phone and keep working from your sofa, another room, or across the world — no need to sit at your desk, no need to be on the same network, and no need to set up your o
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - remote
+  - remote-access
+  - tunnel
+  - cloudflare
+  - mobile
+  - smartphone
+  - tablet
+  - qr-code
+  - qrcode
+  - websocket
+  - bot
+  - wechat
+  - qq
+source:
+  repository: https://github.com/wenbin-wb/dsh-bridge
+  repositoryNodeId: R_kgDOT780aQ
+  subpath: null
+  commit: dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06
+creator:
+  github: wenbin-wb
+package:
+  ecosystem: npm
+  name: "@wenbin_wb/dsh-bridge"
+  version: 2.8.6
+  integrity: sha512-dBd+5NDvitIljT7uvLw8ip6onFcxFIQSXSPmd/8EXOdQ32DGdtBqBKpkqqQnyiT62RUjeutMfCoiZCmPpcd3Gg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.825Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 101
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/security-auth-config.jpg
+    alt: 安全认证配置
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/lan-access.jpg
+    alt: 局域网扫码访问
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/tunnel-access.jpg
+    alt: 公网隧道配置
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/wechat-bot-config.jpg
+    alt: 微信 Bot 配置
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/qq-bot-config.jpg
+    alt: QQ Bot 配置
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wenbin-wb/dsh-bridge/dbbe6c6dd644cb5dc26af71ac4af87f0eb605d06/docs/screenshots/feishu-bot-config.jpg
+    alt: 飞书 Bot 配置
