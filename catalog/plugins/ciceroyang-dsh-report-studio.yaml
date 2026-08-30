@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ciceroyang-dsh-report-studio
+name: dsh-report-studio
+description:
+  en: Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - report
+  - daily-report
+  - handoff
+  - agent
+  - deliverable
+source:
+  repository: https://github.com/ciceroyang/dsh-report-studio
+  repositoryNodeId: R_kgDOT4CDzw
+  subpath: null
+  commit: 257a5385b307a7bcf6a55452c09f8bf756d3b678
+creator:
+  github: ciceroyang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:02.755Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
