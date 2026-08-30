@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-currency-tips
+name: dsh-currency-tips
+description:
+  en: bash dsh plugin add github:uckkk/dsh-currency-tips
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-currency-tips
+source:
+  repository: https://github.com/uckkk/dsh-currency-tips
+  repositoryNodeId: R_kgDOT-vrfQ
+  subpath: null
+  commit: c1ede8288519c9c1303d85dbe080d1d372817029
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:11.791Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
