@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: bing-bryan-dsh-unread-dot
+name: dsh-unread-dot
+description:
+  en: "DSH web plugin: macOS Dock unread red dot (dot = running, number = results) + bubble chime when the app is hidden/minimized — built on the Badging API"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - badging-api
+  - dock-badge
+  - notification
+  - macos
+source:
+  repository: https://github.com/Bing-Bryan/dsh-unread-dot
+  repositoryNodeId: R_kgDOT5IzDQ
+  subpath: null
+  commit: c6dbc1dae83928f10f4f713f5fcfc7423babefd9
+creator:
+  github: Bing-Bryan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:09.809Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
