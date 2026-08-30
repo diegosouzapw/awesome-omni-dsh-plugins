@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-flour-swap
+name: dsh-flour-swap
+description:
+  en: bash dsh plugin add github:uckkk/dsh-flour-swap
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-flour-swap
+source:
+  repository: https://github.com/uckkk/dsh-flour-swap
+  repositoryNodeId: R_kgDOT-tHQA
+  subpath: null
+  commit: 450d3354a02e85d8bbd9839350616015c1e33e79
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:27.078Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
