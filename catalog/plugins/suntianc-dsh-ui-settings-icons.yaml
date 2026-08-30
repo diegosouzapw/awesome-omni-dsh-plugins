@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: suntianc-dsh-ui-settings-icons
+name: dsh-ui-settings-icons
+description:
+  en: DeepSeek Harness UI extension plugin providing customizable icons and keyed icon slot for settings sections
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - settings
+  - icons
+  - ui
+  - dsh
+source:
+  repository: https://github.com/suntianc/dsh-ui-settings-icons
+  repositoryNodeId: R_kgDOT_XlUw
+  subpath: null
+  commit: 432c227365764ab99e58a11fabb030c69198394b
+creator:
+  github: suntianc
+package:
+  ecosystem: npm
+  name: dsh-ui-settings-icons
+  version: 0.1.2
+  integrity: sha512-cE9FTMwMCEQ0Zx+E4KuvNEh5X9l9IzE3ru6EHyE4X0NqvoYlNBkxo4IHKJk2tk2hOkCOPg7CWRs79frRq7+mIw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:04.582Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
