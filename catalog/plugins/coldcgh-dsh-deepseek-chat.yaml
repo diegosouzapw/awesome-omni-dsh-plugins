@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: coldcgh-dsh-deepseek-chat
+name: "@coldcgh/dsh-deepseek-chat"
+description:
+  en: "Web chat entry for DeepSeek Harness (dsh plugin): a sidebar button (right below New Session) that opens chat.deepseek.com in a dedicated desktop window when running under dsh-desktop (Wails bridge), falling back to in-webview navigation in plain web environments"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - chat
+  - web-chat
+source:
+  repository: https://github.com/ColdCGH/dsh-deepseek-chat
+  repositoryNodeId: R_kgDOT7WkWQ
+  subpath: null
+  commit: 6d70c4e4fd5bb26aafea5bdd183cca116361b406
+creator:
+  github: ColdCGH
+package:
+  ecosystem: npm
+  name: "@coldcgh/dsh-deepseek-chat"
+  version: 0.3.0
+  integrity: sha512-l8Ll5NsnIz0UizmVl/JrNyZ5mWnlm4GM/Tt/5OWsupVp1/3OSe2gjOQIyduwbfaAECLfBNpAxDDhNgL9kvvLQQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:57.879Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
