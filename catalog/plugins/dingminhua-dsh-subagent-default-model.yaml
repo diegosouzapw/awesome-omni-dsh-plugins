@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: dingminhua-dsh-subagent-default-model
+name: dsh-subagent-default-model
+description:
+  en: Configure default model routes for DeepSeek Harness subagents, with single-model, round-robin, random, and per-route reasoning-effort options.
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - subagent
+  - agent
+  - model-routing
+  - round-robin
+source:
+  repository: https://github.com/dingminhua/dsh-subagent-default-model
+  repositoryNodeId: R_kgDOT5w1Ag
+  subpath: plugin
+  commit: 3de9db8199ccd8c134e382366511e2672e16255b
+creator:
+  github: dingminhua
+package:
+  ecosystem: npm
+  name: dsh-subagent-default-model
+  version: 1.0.0
+  integrity: sha512-Iv4cedsUq6IqolveD3yIOyyEyWSJMrZETMXqdC292lbgTB+/d9O2D41ReZQIqUxSffLy7gNlwhBGftnakX63DA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:13.425Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dingminhua/dsh-subagent-default-model/3de9db8199ccd8c134e382366511e2672e16255b/assets/pic_01.png
+    alt: 子代理默认模型设置面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/dingminhua/dsh-subagent-default-model/3de9db8199ccd8c134e382366511e2672e16255b/assets/pic_02.png
+    alt: 子代理默认模型分配统计
