@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: eri64-dsh-claude-ux
+name: dsh-claude-ux
+description:
+  en: Claude-style region risk-control (China / non-China target, reversible) + abusive-interaction auto-end for DeepSeek Harness web profile
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - claude
+  - region
+  - risk-control
+  - geo-block
+source:
+  repository: https://github.com/eri64/dsh-claude-ux
+  repositoryNodeId: R_kgDOT5YhaA
+  subpath: null
+  commit: 5cb3d4973ca627288df2ae2e99a87ede5c6759d5
+creator:
+  github: eri64
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.736Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 67
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/eri64/dsh-claude-ux/5cb3d4973ca627288df2ae2e99a87ede5c6759d5/docs/assets/settings-page.png
+    alt: 设置页「Claude 风控」标签全貌
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/eri64/dsh-claude-ux/5cb3d4973ca627288df2ae2e99a87ede5c6759d5/docs/assets/region-ladder.png
+    alt: 区域惩罚阶梯：拒绝文案（带尝试计数）→ 达到次数后结束会话
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/eri64/dsh-claude-ux/5cb3d4973ca627288df2ae2e99a87ede5c6759d5/docs/assets/abuse-end.png
+    alt: 辱骂升级 → 警告 → 主动结束对话
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/eri64/dsh-claude-ux/5cb3d4973ca627288df2ae2e99a87ede5c6759d5/docs/assets/harmful-end.png
+    alt: 严重有害请求 → 立即结束对话
