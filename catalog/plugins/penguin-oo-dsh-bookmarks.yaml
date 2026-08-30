@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: penguin-oo-dsh-bookmarks
+name: dsh-bookmarks
+description:
+  en: "Bookmark assistant replies in DeepSeek Harness: per-message bookmarks with notes and tags, a cross-session bookmark center, and one-click Markdown export."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - bookmark
+  - web
+source:
+  repository: https://github.com/penguin-oo/dsh-bookmarks
+  repositoryNodeId: R_kgDOT4cQlw
+  subpath: null
+  commit: 881e2e6425898ed8fe2d4b6df48515d72b73a6ca
+creator:
+  github: penguin-oo
+package:
+  ecosystem: npm
+  name: dsh-bookmarks
+  version: 0.1.2
+  integrity: sha512-93++cdCKxayLzk9MgOQrQcAHe30L4+XTFg0LIsTgP1GIZzxMaHkoNuBONlvqbV1SRTznjwrrB55ye3R4W8q3eg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:42.891Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/penguin-oo/dsh-bookmarks/881e2e6425898ed8fe2d4b6df48515d72b73a6ca/docs/screenshot-actions.png
+    alt: Bookmark action on an assistant reply
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/penguin-oo/dsh-bookmarks/881e2e6425898ed8fe2d4b6df48515d72b73a6ca/docs/screenshot-center.png
+    alt: The standalone bookmark center
