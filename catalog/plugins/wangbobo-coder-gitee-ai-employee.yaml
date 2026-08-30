@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wangbobo-coder-gitee-ai-employee
+name: gitee-ai-employee
+description:
+  en: An issue-driven AI developer for DeepSeek Harness , working against Gitee (码云) and GitHub .
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - gitee
+  - bundle
+  - ai
+  - issue
+  - pull-request
+  - automation
+source:
+  repository: https://github.com/wangbobo-coder/gitee-ai-employee
+  repositoryNodeId: R_kgDOUCaIXA
+  subpath: null
+  commit: b136171588e8151b138cdc1721394dd3371c80d1
+creator:
+  github: wangbobo-coder
+package:
+  ecosystem: npm
+  name: gitee-ai-employee
+  version: 1.1.2
+  integrity: sha512-dRJ3QWir4JDGKkQhmtzZG3EEZlIH5uLEEBa3ZhEb3aEkyxacdP2A3Wrzt2ssqE6M6+fyggpE27moutYmpNdYfw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:34.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
