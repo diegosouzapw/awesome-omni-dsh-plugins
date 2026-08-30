@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yoyudev-dsh-ping
+name: dsh-ping
+description:
+  en: "DeepSeek Harness plugin: play a sound and show a desktop notification when the agent needs you"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - notification
+  - sound
+source:
+  repository: https://github.com/YoyuDev/dsh-ping
+  repositoryNodeId: R_kgDOT9GM7Q
+  subpath: null
+  commit: 836841548e053b9ccc3649837b692bd266ec6da2
+creator:
+  github: YoyuDev
+package:
+  ecosystem: npm
+  name: dsh-ping
+  version: 1.9.0
+  integrity: sha512-Wrqkrfrz4oMEQ0g7GklgXAKpuKBD7ehTs6xpepxO7oUO1At3J5eYhEHxOcAiI6BADKocM5bpwzw6qDyQ+Y4zVA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:32.387Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YoyuDev/dsh-ping/836841548e053b9ccc3649837b692bd266ec6da2/docs/settings-page.png
+    alt: dsh-ping 设置页面
