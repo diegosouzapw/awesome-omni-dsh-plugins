@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: tluoluo-dsh-persist
+name: dsh-persist
+description:
+  en: "Persistent memory for DeepSeek Harness: per-conversation notes, selective injection, project memory, semantic Vault search (bge-m3, free optional key) and automatic retrieval — agents stop forgetting."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - deepseek-harness
+  - memory
+  - persistent-memory
+  - long-term-memory
+  - agent-memory
+  - semantic-search
+  - bge-m3
+  - rag
+  - conversation-memory
+  - ai-agent
+source:
+  repository: https://github.com/tluoluo/dsh-persist
+  repositoryNodeId: R_kgDOT5V5CA
+  subpath: null
+  commit: fb319170ec101a286bc04fe4593c94dfd1188413
+creator:
+  github: tluoluo
+package:
+  ecosystem: npm
+  name: dsh-persist
+  version: 0.2.5
+  integrity: sha512-nIIu3E01+rQMwwe4sxMBvjXLp00Hj9I3IsLXM1w8U0kEABdgmY/9QqFrnfOPb8naMGzNW8M6Kc1wv4vHVoVyIg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:00.486Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
