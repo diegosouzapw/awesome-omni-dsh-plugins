@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: zenghaili0901-dsh-client-ui-bot-mode
+name: "@deepseek-ai/dsh-client-ui-bot-mode"
+description:
+  en: "Bot Mode for DeepSeek Harness: a roster of named bots with their own personas, chats and routines."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - mode
+  - roster
+  - named
+  - bots
+  - personas
+  - chats
+  - routines
+  - dsh
+source:
+  repository: https://github.com/zenghaili0901/dsh-bot-mode
+  repositoryNodeId: R_kgDOT8BNRg
+  subpath: null
+  commit: f29ef471a84e6d6b4df43c9dae29184340e4d289
+creator:
+  github: zenghaili0901
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.228Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenghaili0901/dsh-bot-mode/f29ef471a84e6d6b4df43c9dae29184340e4d289/assets/bot-roster.png
+    alt: Bot Mode roster — 8 named bots with their own personas and chats
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenghaili0901/dsh-bot-mode/f29ef471a84e6d6b4df43c9dae29184340e4d289/assets/bot-roster-mini.png
+    alt: Bot roster panel — standby capsules
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenghaili0901/dsh-bot-mode/f29ef471a84e6d6b4df43c9dae29184340e4d289/assets/bot-create.png
+    alt: Create bot dialog — pick a role icon, name, and persona
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenghaili0901/dsh-bot-mode/f29ef471a84e6d6b4df43c9dae29184340e4d289/assets/bot-delete.png
+    alt: Delete confirmation with red badge
