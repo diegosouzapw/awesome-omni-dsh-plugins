@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: wine-red-dsh-codex-timeline
+name: dsh-codex-timeline
+description:
+  en: Codex-style turn timeline and local conversation search for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - conversation
+  - timeline
+  - navigation
+  - search
+  - web-ui
+source:
+  repository: https://github.com/Wine-Red/dsh-codex-timeline
+  repositoryNodeId: R_kgDOT5O1FA
+  subpath: null
+  commit: 903f3a8be5680ce8aff165a387ff26d0e163f55b
+creator:
+  github: Wine-Red
+package:
+  ecosystem: npm
+  name: dsh-codex-timeline
+  version: 0.5.5
+  integrity: sha512-pzaMvfgIWVDUcn4SIme+FI98oxP2KssJbCUhvhO6TeC2zvhIa7g+j7K8SNKDaUrT4atEl1Pp/Eq/al1hHhHruw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:24.704Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/903f3a8be5680ce8aff165a387ff26d0e163f55b/docs/images/cover.png
+    alt: DSH Codex Timeline 封面：对话左侧的轮次轨道、预览和搜索
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/903f3a8be5680ce8aff165a387ff26d0e163f55b/docs/images/timeline-default-dsh.png
+    alt: DSH 原生浅色主题中的 0.5.0 默认时间线：搜索、收藏和完整静态索引
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/903f3a8be5680ce8aff165a387ff26d0e163f55b/docs/images/timeline-default-dsh-dark.png
+    alt: DSH 原生深色主题中的 0.5.0 默认时间线：搜索、收藏和完整静态索引
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/903f3a8be5680ce8aff165a387ff26d0e163f55b/docs/images/timeline-hover-dsh.png
+    alt: DSH 原生浅色主题中的 0.5.0 悬停时间线：分级波动和顶层预览卡
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/903f3a8be5680ce8aff165a387ff26d0e163f55b/docs/images/timeline-hover-dsh-dark.png
+    alt: DSH 原生深色主题中的 0.5.0 悬停时间线：分级波动和顶层预览卡
