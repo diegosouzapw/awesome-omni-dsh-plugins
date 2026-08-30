@@ -1,0 +1,67 @@
+schemaVersion: 1
+id: woosh2010-dsh-client-ui-usage
+name: "@deepseek-ai/dsh-client-ui-usage"
+description:
+  en: "Usage dashboard for the conversation composer dock: peak/valley pricing with period progress, live DeepSeek balance, cross-session usage history and analysis charts"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - usage
+  - dashboard
+  - conversation
+  - composer
+  - dock
+  - peak
+  - valley
+  - pricing
+  - period
+  - progress
+  - live
+  - balance
+  - cross
+  - session
+  - history
+  - analysis
+source:
+  repository: https://github.com/woosh2010/dsh-usage-dashboard
+  repositoryNodeId: R_kgDOT_zfOw
+  subpath: null
+  commit: 4d2be914f937880704198353f8a77f31dc07eda2
+creator:
+  github: woosh2010
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:30.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/woosh2010/dsh-usage-dashboard/4d2be914f937880704198353f8a77f31dc07eda2/docs/demo.gif
+    alt: 演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/woosh2010/dsh-usage-dashboard/4d2be914f937880704198353f8a77f31dc07eda2/docs/screenshots/dashboard.png
+    alt: 用量分析仪表盘
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/woosh2010/dsh-usage-dashboard/4d2be914f937880704198353f8a77f31dc07eda2/docs/screenshots/dock.png
+    alt: 折叠坞
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/woosh2010/dsh-usage-dashboard/4d2be914f937880704198353f8a77f31dc07eda2/docs/screenshots/recent.png
+    alt: 最近记录
