@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: 1123762794-dsh-web-restart
+name: dsh-web-restart
+description:
+  en: One-click restart button for the DeepSeek Harness Web UI .
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - web
+  - restart
+  - ui
+source:
+  repository: https://github.com/1123762794/dsh-web-restart
+  repositoryNodeId: R_kgDOT5NmJw
+  subpath: null
+  commit: 5de8214051b3245a8cfc825e7e907cf5e57f51d8
+creator:
+  github: "1123762794"
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:05.937Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
