@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: vlln-dsh-loop
+name: "@vlln/dsh-loop"
+description:
+  en: '<p align="center" Scheduled loop plugin: /loop command + loop tool (self-adjusting by the model) + active status bar on the chat page, with support for multiple concurrent loops</p'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - align
+  - center
+  - scheduled
+  - loop
+  - command
+  - tool
+  - self
+  - adjusting
+  - model
+  - active
+  - status
+  - chat
+  - page
+  - multiple
+  - concurrent
+  - loops
+source:
+  repository: https://github.com/vlln/dsh-loop
+  repositoryNodeId: R_kgDOT0bSyw
+  subpath: null
+  commit: 82539f9d750d79b7745e2cf7bd38d9c6db8c9fb4
+creator:
+  github: vlln
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.302Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
