@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wold9168-dsh-model-filter
+name: dsh-model-filter
+description:
+  en: "Model filter plugin: adds search box to model selection with fuzzy search and highlighting"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model
+  - filter
+  - adds
+  - search
+  - selection
+  - fuzzy
+  - highlighting
+  - dsh
+source:
+  repository: https://github.com/wold9168/dsh-model-filter
+  repositoryNodeId: R_kgDOT-BM-w
+  subpath: null
+  commit: 72dac61f5373894235d369bd9349137bbcf97226
+creator:
+  github: wold9168
+package:
+  ecosystem: npm
+  name: dsh-model-filter
+  version: 0.1.0
+  integrity: sha512-IQji8KREMGzSes5107N3RAiGYGPC5U3NwDV+O2xyQfZ2MQbhqwodpVEdH/H05ExlhHflYwEZdBlapmxojq4ozA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:37.099Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
