@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-eyes
+name: "@kobenfang/dsh-eyes"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): eyes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - agent
+  - skill
+  - eyes
+  - dsh
+source:
+  repository: https://github.com/kobenfang/Eyes
+  repositoryNodeId: R_kgDOSoaBPQ
+  subpath: null
+  commit: 853957e11e369a65fb1a92cdd177ff8a1de10d75
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:42.420Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
