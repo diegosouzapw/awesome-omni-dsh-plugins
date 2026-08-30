@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: uckkk-dsh-cinematography
+name: dsh-cinematography
+description:
+  en: bash dsh plugin add dsh-cinematography 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-cinematography" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cinematography
+  - film
+  - camera
+source:
+  repository: https://github.com/uckkk/dsh-cinematography
+  repositoryNodeId: R_kgDOT6OZUg
+  subpath: null
+  commit: 00e73cdb926b324936522650b317f4220e0a394f
+creator:
+  github: uckkk
+package:
+  ecosystem: npm
+  name: dsh-cinematography
+  version: 0.1.0
+  integrity: sha512-/+HetfH3SCOOxSX9naAGf3C6LoY81mhL1FYfC4kvc53JrWH+P76RWCXEUNkleM30EgODtko/SLee3t0q0Q2C2w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:10.474Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
