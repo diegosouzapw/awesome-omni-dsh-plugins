@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: mdr-ex1000-dsh-rw
+name: dsh-rw
+description:
+  en: "Remote-SSH-style workspace for DeepSeek Harness (DSH): pick an SSH host and a remote directory as a native DSH workspace; the agent operates the remote filesystem directly via rw tools (SFTP/exec). No mirror, no sync — the remote is the source of truth."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - remote
+  - remote-ssh
+  - ssh
+  - sftp
+  - workspace
+source:
+  repository: https://github.com/MDR-EX1000/dsh-rw
+  repositoryNodeId: R_kgDOT9EQ9g
+  subpath: null
+  commit: 87dc8e8c825562b43cb03ed03121ce204cb266fc
+creator:
+  github: MDR-EX1000
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:48.890Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
