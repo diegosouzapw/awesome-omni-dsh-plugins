@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: suntianc-dsh-antigravity-auth
+name: dsh-antigravity-auth
+description:
+  en: Private, single-account, unofficial Antigravity OAuth capability bundle for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - private
+  - single
+  - account
+  - unofficial
+  - antigravity
+  - oauth
+  - capability
+  - bundle
+  - dsh
+source:
+  repository: https://github.com/suntianc/dsh-antigravity-auth
+  repositoryNodeId: R_kgDOT_NeeQ
+  subpath: null
+  commit: 315df057ecd0e19c47833588b3b43c2e7e671524
+creator:
+  github: suntianc
+package:
+  ecosystem: npm
+  name: dsh-antigravity-auth
+  version: 0.1.2
+  integrity: sha512-+36EchyevZ61BgSfjv1J/8q6pnyY40qSq2vBnH+wMWyhkIOCwJTbClBBluWSCnRxpBZtsm3dPPYgOeoGERHJdw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.431Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
