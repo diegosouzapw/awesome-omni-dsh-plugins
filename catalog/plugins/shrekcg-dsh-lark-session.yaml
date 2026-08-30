@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: shrekcg-dsh-lark-session
+name: dsh-lark-session
+description:
+  en: "Persistent-session runner for the Feishu bridge: resume a fixed session across turns"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - persistent
+  - session
+  - runner
+  - feishu
+  - bridge
+  - resume
+  - fixed
+  - across
+  - turns
+  - dsh
+source:
+  repository: https://github.com/shrekcg/dsh-im-channel
+  repositoryNodeId: R_kgDOT5Emvw
+  subpath: dsh-lark-session
+  commit: fb64263341fba403a051b3c3fa9875933c425f8c
+creator:
+  github: shrekcg
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: dsh-lark-session/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.927Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
