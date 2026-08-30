@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sryimnoob123-dsh-global-prompt
+name: dsh-global-prompt
+description:
+  en: bash dsh plugin --profile <你的profile add dsh-global-prompt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - bash
+  - profile
+  - global
+  - prompt
+  - dsh
+source:
+  repository: https://github.com/sryimnoob123/dsh-global-prompt
+  repositoryNodeId: R_kgDOUDowcA
+  subpath: null
+  commit: de3c329a28e8e611dcdbfc477a3599f258cea77a
+creator:
+  github: sryimnoob123
+package:
+  ecosystem: npm
+  name: dsh-global-prompt
+  version: 0.1.2
+  integrity: sha512-7N8NGHbMZmt0uP9UfU5+Mc++jlCyEAXpxuv9ewcP7qzz573jNquaoe3jGL4zB+3lKXHDyM90ryJKdztALGVq5w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:02.991Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
