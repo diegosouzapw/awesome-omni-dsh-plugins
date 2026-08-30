@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xinchen03-dsh-plugin
+name: "@xxinchen/dsh-plugin"
+description:
+  en: Minta for DeepSeek Harness — bundles the MCP wiring, a real Cordis plugin (runtime skill + session-start prewarm), and the minta agent preset (per-turn preflight/postflight protocol) over the Minta memory engine.
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - minta
+  - bundles
+  - wiring
+  - real
+  - cordis
+  - runtime
+  - skill
+  - session
+  - start
+  - prewarm
+  - agent
+  - preset
+  - turn
+  - preflight
+  - postflight
+  - protocol
+source:
+  repository: https://github.com/xinchen03/minta
+  repositoryNodeId: R_kgDOSs8i6Q
+  subpath: dsh-plugin
+  commit: 2f5020c6e2a80985cc567c360b14998b8997682f
+creator:
+  github: xinchen03
+package:
+  ecosystem: npm
+  name: "@xxinchen/dsh-plugin"
+  version: 0.2.0
+  integrity: sha512-jsM5uZAET9D7KXVBVfsa48IMXzdfeB9tGNuc5oxhudEDJu7ktp5GtxQmrY1wd40EBQpp9gARgB/dHw7IRQTijA==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:40.078Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
