@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: letter2025-dsh-task-worktree
+name: dsh-task-worktree
+description:
+  en: "Complete Git worktree support for DeepSeek Harness: task-scoped isolated worktrees with per-repo manifests, workspace registration, bring-back to main, direct commit, and durable state. Reference: Qoder / Codex / Claude Code worktrees."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - worktree
+  - git
+  - parallel-development
+source:
+  repository: https://github.com/Letter2025/dsh-task-worktree
+  repositoryNodeId: R_kgDOT8Dtsw
+  subpath: null
+  commit: dc424f5063a10b1b9f60cb58cb349bf114181555
+creator:
+  github: Letter2025
+package:
+  ecosystem: npm
+  name: dsh-task-worktree
+  version: 0.4.1
+  integrity: sha512-ErcJ+ELJk/l8jTHw8fFa1teexq3nlXnGVAGTuIKqIbqiBhFBzrsWubqC+7/afuO2b0QrkzZ6UqaDmVZbfKKx2A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:42.660Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
