@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zzhzz-dsh-ask-peer
+name: dsh-ask-peer
+description:
+  en: Decentralized peer-to-peer 'ask a colleague's agent' plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - p2p
+  - peer-to-peer
+  - decentralized
+  - agent-collaboration
+  - lan
+  - ask-peer
+  - agents
+source:
+  repository: https://github.com/zzhzz/dsh-ask-peer
+  repositoryNodeId: R_kgDOT7RJFQ
+  subpath: null
+  commit: b803fcd94bd231d8f9055a2116beabdd5de25c1c
+creator:
+  github: zzhzz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.266Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
