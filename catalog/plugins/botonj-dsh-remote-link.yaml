@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: botonj-dsh-remote-link
+name: dsh-remote-link
+description:
+  en: "Authenticated LAN gateway for DeepSeek Harness: reverse-proxies the official web UI with Basic Auth, advertises via mDNS, and adds a fork session tool."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - remote
+  - gateway
+  - mdns
+source:
+  repository: https://github.com/BotonJ/dsh-remote-link
+  repositoryNodeId: R_kgDOT47aVg
+  subpath: null
+  commit: f7a444eb6e0254c1c2f79a54d8389c01886dfc7f
+creator:
+  github: BotonJ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:52.482Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
