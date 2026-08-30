@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: williamshi666-multiple-chat-panels
+name: multiple-chat-panels
+description:
+  en: "Multiple chat panels for DeepSeek Harness: view and interact with several agent sessions side by side in a Mission Control grid"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - multi-pane
+  - chat
+  - mission-control
+  - dsh
+source:
+  repository: https://github.com/WilliamShi666/dsh-multiple-chat-panels
+  repositoryNodeId: R_kgDOT8gaVA
+  subpath: null
+  commit: 03a50af07ab9dc9df11da9201cc31ecc59012b9a
+creator:
+  github: WilliamShi666
+package:
+  ecosystem: npm
+  name: multiple-chat-panels
+  version: 0.1.1
+  integrity: sha512-3vhEPis7CA3g3OHQFzBIiZWDhNlwQOsp9uIXh1fI9PeW5kTnvIAUBA2eYcUzIKqIH2l9CEvwZr+pv+9zfgF/Vw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.796Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WilliamShi666/dsh-multiple-chat-panels/03a50af07ab9dc9df11da9201cc31ecc59012b9a/docs/screenshots/claude-code-terminal.jpg
+    alt: Claude Code in a terminal with multiple conversation panes
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WilliamShi666/dsh-multiple-chat-panels/03a50af07ab9dc9df11da9201cc31ecc59012b9a/docs/screenshots/dark.jpg
+    alt: DeepSeek Harness multi-chat panels in dark mode
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WilliamShi666/dsh-multiple-chat-panels/03a50af07ab9dc9df11da9201cc31ecc59012b9a/docs/screenshots/light.jpg
+    alt: DeepSeek Harness multi-chat panels in light mode
