@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-observability
+name: dsh-my-observability
+description:
+  en: bash git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-my-observability
+  evidencePath: plugins/dsh-my-observability/README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - bash
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - observability
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-observability
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-observability
+  version: 0.1.0
+  integrity: sha512-8JJnI//eeMsSsbcFOx25/28Gi4TWnFeZzG1KUM0AXoVBNh6vl8GqwUPzc78nU7jfywN71CsjNvr0sdE/xPtbPw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-observability/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
