@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: zk-andy-dsh-desktop-companion
+name: dsh-desktop-companion
+description:
+  en: '<p align="center" <strong A .NET desktop client for DeepSeek Harness — online-first: downloads and prepares the runtime on first launch, no manual setup.</strong </p'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - align
+  - center
+  - strong
+  - desktop
+  - client
+  - online
+  - first
+  - downloads
+  - prepares
+  - runtime
+  - launch
+  - manual
+  - setup
+  - dsh
+source:
+  repository: https://github.com/ZK-Andy/dotnet-deepseek-harness-desktop
+  repositoryNodeId: R_kgDOT9_gQg
+  subpath: plugins/dsh-desktop-companion
+  commit: a3f68959d94880836eb216fed6e69dd7c7794ec1
+creator:
+  github: ZK-Andy
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-desktop-companion/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:11.510Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZK-Andy/dotnet-deepseek-harness-desktop/a3f68959d94880836eb216fed6e69dd7c7794ec1/assets/icon.png
+    alt: DeepSeek Harness Desktop for .NET
