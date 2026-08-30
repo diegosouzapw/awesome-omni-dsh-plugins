@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: whitefirer-dsh-browser-fs
+name: dsh-browser-fs
+description:
+  en: "dsh plugin: let the agent list/read/write files inside a browser-authorized local directory (File System Access API) through a WebSocket relay"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - agent
+  - list
+  - read
+  - write
+  - files
+  - inside
+  - browser
+  - authorized
+  - local
+  - directory
+  - file
+  - system
+  - access
+  - through
+  - websocket
+  - relay
+source:
+  repository: https://github.com/whitefirer/dsh-browser-fs
+  repositoryNodeId: R_kgDOT5eIGQ
+  subpath: null
+  commit: 2568a800bf6a045703ad00a2072c881bc2c204ac
+creator:
+  github: whitefirer
+package:
+  ecosystem: npm
+  name: dsh-browser-fs
+  version: 0.2.0
+  integrity: sha512-K6h9UjBtV3AxEHzUdPD4XitCigRDXRo7lhC5JfuUZakSU73JQl06N+/DO652iq76pmTVdjIRZ1j/SVqQ4H3r+g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:27.899Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/whitefirer/dsh-browser-fs/2568a800bf6a045703ad00a2072c881bc2c204ac/docs/screenshot-in-action.png
+    alt: agent 调 browser_fs_read 读到授权目录里的 hello.txt；右下角为插件卡片
