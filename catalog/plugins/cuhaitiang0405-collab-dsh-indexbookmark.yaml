@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: cuhaitiang0405-collab-dsh-indexbookmark
+name: dsh-indexbookmark
+description:
+  en: "A DSH (DeepSeek Harness) web client plugin: conversation question index . Adds a ☰ button beside the input box; click it to see every question you asked in the current session, and click any entry to scroll the conversation straight to that message with a highlight."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - conversation
+  - index
+  - question
+  - navigation
+source:
+  repository: https://github.com/cuhaitiang0405-collab/dsh-indexbookmark
+  repositoryNodeId: R_kgDOT8Ktlw
+  subpath: null
+  commit: b526c3905abef12f6476d41b90a80ab62cbc4870
+creator:
+  github: cuhaitiang0405-collab
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:07.463Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
