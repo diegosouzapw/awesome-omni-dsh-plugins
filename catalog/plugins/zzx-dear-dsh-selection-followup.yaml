@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zzx-dear-dsh-selection-followup
+name: dsh-selection-followup
+description:
+  en: sh dsh plugin --profile web add "github:zzx-dear/dsh-selection-followup" dsh plugin --profile web add link:/path/to/dsh-selection-followup
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - selection
+  - followup
+  - productivity
+source:
+  repository: https://github.com/zzx-dear/dsh-selection-followup
+  repositoryNodeId: R_kgDOT8GhEQ
+  subpath: null
+  commit: 64a00c824121dbbf1fa167e6b92c0a216014aac8
+creator:
+  github: zzx-dear
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:13.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
