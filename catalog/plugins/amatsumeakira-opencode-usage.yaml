@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: amatsumeakira-opencode-usage
+name: opencode-usage
+description:
+  en: OpenCode Go quota badge plugin (bundle) — shows rolling / weekly / monthly quota usage and reset times for OpenCode Go right in the dsh Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - opencode
+  - quota
+  - badge
+  - bundle
+  - shows
+  - rolling
+  - weekly
+  - monthly
+  - usage
+  - reset
+  - times
+  - right
+  - dsh
+source:
+  repository: https://github.com/AmaTsumeAkira/opencode-usage
+  repositoryNodeId: R_kgDOT4CZGA
+  subpath: null
+  commit: d9f87058597f35a9189fa5ca3dafbb7a47ee954e
+creator:
+  github: AmaTsumeAkira
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:22.027Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/AmaTsumeAkira/opencode-usage/d9f87058597f35a9189fa5ca3dafbb7a47ee954e/docs/screenshot.png
+    alt: OpenCode Go quota badge in the composer dock
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/AmaTsumeAkira/opencode-usage/d9f87058597f35a9189fa5ca3dafbb7a47ee954e/docs/screenshot.en.png
+    alt: OpenCode Go quota badge in the composer dock
