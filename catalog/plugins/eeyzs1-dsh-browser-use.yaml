@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: eeyzs1-dsh-browser-use
+name: "@eeyzs1/dsh-browser-use"
+description:
+  en: "Browser-use MCP integration for DSH: mounts the browser-use MCP server (headless by default) and provides browser set mode / browser get mode tools to switch headless/headed at runtime, plus a system-prompt hint to switch to headed on login pages."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - browser
+  - integration
+  - mounts
+  - server
+  - headless
+  - default
+  - mode
+  - tools
+  - switch
+  - headed
+  - runtime
+  - plus
+  - system
+  - prompt
+  - hint
+  - login
+source:
+  repository: https://github.com/eeyzs1/dsh-plugins
+  repositoryNodeId: R_kgDOT5anVw
+  subpath: packages/browser-use
+  commit: 7b5019388f5c5ff168f67e802e4945db46407d9f
+creator:
+  github: eeyzs1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/browser-use/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:13.877Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
