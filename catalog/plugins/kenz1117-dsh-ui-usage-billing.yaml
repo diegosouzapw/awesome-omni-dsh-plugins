@@ -1,0 +1,75 @@
+schemaVersion: 1
+id: kenz1117-dsh-ui-usage-billing
+name: "@kenz1117/dsh-ui-usage-billing"
+description:
+  en: "Usage billing dashboard for DeepSeek Harness: sidebar cost metrics plus a full dashboard modal, priced from a current multi-provider catalog with real usage aggregated from session logs."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - usage
+  - billing
+  - dashboard
+  - sidebar
+  - cost
+  - metrics
+  - plus
+  - full
+  - modal
+  - priced
+  - current
+  - multi
+  - provider
+  - catalog
+  - real
+  - aggregated
+source:
+  repository: https://github.com/kenz1117/dsh-ui-usage-billing
+  repositoryNodeId: R_kgDOT5xrsQ
+  subpath: null
+  commit: 8ae6531fd39adfb5af12863f30c401ab3cde6d7f
+creator:
+  github: kenz1117
+package:
+  ecosystem: npm
+  name: "@kenz1117/dsh-ui-usage-billing"
+  version: 1.0.19
+  integrity: sha512-ZVhIeEdXej/FEir/JOa+SyLBkPICv+fnQup1WDKYyR7RkOB2IB925qTNZ0IamKJWpWpbi5f1opJFKAqDIllMMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:25.156Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/demo.gif
+    alt: 演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/1.png
+    alt: 概览：本月费用 Hero、预算进度、KPI 与用量热力图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/5.png
+    alt: 费率：模型单价表（峰谷分时与实时汇率）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/3.png
+    alt: 明细：厂商计费与订阅（余额、套餐额度、模型用量）
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/2.png
+    alt: 趋势：每日费用趋势、每轮费用与峰谷时段占比
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kenz1117/dsh-ui-usage-billing/8ae6531fd39adfb5af12863f30c401ab3cde6d7f/screenshots/4.png
+    alt: 统计：导出、费用构成、工作区与会话明细
