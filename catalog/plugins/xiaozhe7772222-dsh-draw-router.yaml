@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xiaozhe7772222-dsh-draw-router
+name: dsh-draw-router
+description:
+  en: Unified image generation router for DeepSeek Harness (DSH). Auto-discovers image models from any OpenAI-compatible endpoint. Supports SenseNova, StepFun, Agnes, Qwen, Tongyi Wanxiang, Jimeng/Seedream, Hunyuan, GPT Image, Flux, Stable Diffusion, Imagen, and more. DeepSeek Harness 统一绘图路由器：自动识别任意 OpenAI 兼容端点的绘图模型，支持商汤、阶跃〃
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - draw
+  - image-generation
+  - text-to-image
+  - image-gen
+  - ai-draw
+  - sensenova
+  - stepfun
+  - agnes
+  - qwen
+  - wanxiang
+  - tongyi
+  - flux
+source:
+  repository: https://github.com/xiaozhe7772222/dsh-draw-router
+  repositoryNodeId: R_kgDOT5KsUw
+  subpath: null
+  commit: c0ff2a0c55cd5a3bbf31fb1cc34b3c6a5908ace3
+creator:
+  github: xiaozhe7772222
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.362Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
