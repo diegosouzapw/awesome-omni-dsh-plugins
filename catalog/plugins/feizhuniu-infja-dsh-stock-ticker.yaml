@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: feizhuniu-infja-dsh-stock-ticker
+name: dsh-stock-ticker
+description:
+  en: bash dsh plugin --profile web add github:FeiZhuNiU-INFJA/dsh-stock-ticker
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - stock
+  - market
+  - quote
+  - index
+  - shanghai
+  - hangseng
+source:
+  repository: https://github.com/FeiZhuNiU-INFJA/dsh-stock-ticker
+  repositoryNodeId: R_kgDOT-i5OA
+  subpath: null
+  commit: c04e09146a222ece70dcda535294c25a88c49eae
+creator:
+  github: FeiZhuNiU-INFJA
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:54.590Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/FeiZhuNiU-INFJA/dsh-stock-ticker/c04e09146a222ece70dcda535294c25a88c49eae/assets/screenshot.png
+    alt: dsh-stock-ticker 悬浮行情
