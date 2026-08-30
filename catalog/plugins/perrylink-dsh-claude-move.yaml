@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: perrylink-dsh-claude-move
+name: dsh-claude-move
+description:
+  en: "Four-source migration wizard: copy Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DeepSeek Harness as resumable sessions — copy-only, approval-gated, idempotent"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - claude-code
+  - migration
+  - session-import
+  - resume
+source:
+  repository: https://github.com/PerryLink/dsh-claude-move
+  repositoryNodeId: R_kgDOT3lhjw
+  subpath: null
+  commit: c74b1365d9f536e0f875a02ebcca8cf5cf10a123
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: dsh-claude-move
+  version: 0.3.0
+  integrity: sha512-DomtkZVEvK8I6NVsqq5ZKKiyZR0Cq6nSk45syOjA1yIOZgSNBEko5TsNW850oaGNPKpnAFNAfrW2fauTyt7vbw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:42.991Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 12
+provenance:
+  discussion: null
+  comment: null
