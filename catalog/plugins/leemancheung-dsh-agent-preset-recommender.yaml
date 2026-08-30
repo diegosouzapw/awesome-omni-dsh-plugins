@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: leemancheung-dsh-agent-preset-recommender
+name: dsh-agent-preset-recommender
+description:
+  en: Privacy-safe local activity scanner and agent preset recommender for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - agent-preset
+  - codex
+  - claude-code
+  - workbuddy
+  - workflow
+  - privacy
+source:
+  repository: https://github.com/LeemanCheung/dsh-agent-preset-recommender
+  repositoryNodeId: R_kgDOT4iMmg
+  subpath: null
+  commit: 409a3218cf139838a5c4189a5e3c9c048cb0b68e
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:35.925Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-agent-preset-recommender/409a3218cf139838a5c4189a5e3c9c048cb0b68e/docs/screenshot.png
+    alt: Synthetic aggregate recommendation overview in DeepSeek Harness
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-agent-preset-recommender/409a3218cf139838a5c4189a5e3c9c048cb0b68e/docs/project-detail.png
+    alt: Synthetic aggregate project detail in DeepSeek Harness
