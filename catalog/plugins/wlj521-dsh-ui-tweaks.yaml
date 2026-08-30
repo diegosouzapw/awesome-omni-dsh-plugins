@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: wlj521-dsh-ui-tweaks
+name: dsh-ui-tweaks
+description:
+  en: "DSH web plugin: live-tune the conversation UI — code font size (px input), markdown table style (Claude Desktop look), a GitBar (branch / diff pills inside the composer tool row, with branch management, per-file diff, and commit & push from the diff panel), a real PTY terminal side panel (xterm.js over a WebSocket to a"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - deepseek-ai
+  - cordis
+  - ui-tweaks
+  - chat-ui
+source:
+  repository: https://github.com/wlj521/dsh-ui-tweaks
+  repositoryNodeId: R_kgDOT428Sw
+  subpath: null
+  commit: f0649dc3459e7f1a868cca80c22968f0fccc5e45
+creator:
+  github: wlj521
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:22.766Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/table.png
+    alt: Claude Desktop 表格样式
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/settings.png
+    alt: 设置面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/git.png
+    alt: GitBar
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/branch.png
+    alt: 分支面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/gitdiff.png
+    alt: 差异面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wlj521/dsh-ui-tweaks/f0649dc3459e7f1a868cca80c22968f0fccc5e45/assets/terminal.png
+    alt: 终端面板
