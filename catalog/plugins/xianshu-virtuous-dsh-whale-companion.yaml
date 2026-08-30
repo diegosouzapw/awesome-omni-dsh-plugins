@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xianshu-virtuous-dsh-whale-companion
+name: "@dsh-external/dsh-whale-companion"
+description:
+  en: Additive whale-maid persona and automatic near-limit session continuation for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - additive
+  - whale
+  - maid
+  - persona
+  - automatic
+  - near
+  - limit
+  - session
+  - continuation
+  - dsh
+source:
+  repository: https://github.com/xianshu-virtuous/dsh-whale-companion
+  repositoryNodeId: R_kgDOT5g_ow
+  subpath: null
+  commit: baaaf1a0785891e32ea984476f19c1e31e2f41ba
+creator:
+  github: xianshu-virtuous
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:31.383Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
