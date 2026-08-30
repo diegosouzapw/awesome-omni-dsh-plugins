@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-biga
+name: "@kobenfang/dsh-biga"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): biga."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - agent
+  - skill
+  - biga
+  - dsh
+source:
+  repository: https://github.com/kobenfang/bigA
+  repositoryNodeId: R_kgDOSoZ2aw
+  subpath: null
+  commit: 90467c38203a942d6fcd587a09a82e1a5760118c
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
