@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: txy-ucas-dsh-workspace-snapshot
+name: dsh-workspace-snapshot
+description:
+  en: A bounded read-only Git workspace status tool for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - bounded
+  - read
+  - only
+  - workspace
+  - status
+  - tool
+  - dsh
+source:
+  repository: https://github.com/txy-ucas/dsh-workspace-snapshot
+  repositoryNodeId: R_kgDOT5P5PQ
+  subpath: null
+  commit: 99bc94a9cf5293f90dc8f043746a7a6ce7fe86a0
+creator:
+  github: txy-ucas
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:06.991Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
