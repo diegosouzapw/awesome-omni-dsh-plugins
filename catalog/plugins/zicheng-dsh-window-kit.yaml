@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zicheng-dsh-window-kit
+name: dsh-window-kit
+description:
+  en: sh dsh plugin --profile web add github:ZichengGurrr/dsh-window path:/kit
+  evidencePath: kit/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - desktop
+  - windows
+  - vision
+  - glm
+  - voice
+  - speech
+source:
+  repository: https://github.com/ZichengGurrr/dsh-window
+  repositoryNodeId: R_kgDOT4ht9g
+  subpath: kit
+  commit: aad20bef0f6d0475efef102d1b3b5f357f005680
+creator:
+  github: zicheng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: kit/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:08.813Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
