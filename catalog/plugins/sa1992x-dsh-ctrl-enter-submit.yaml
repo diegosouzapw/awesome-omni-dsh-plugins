@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: sa1992x-dsh-ctrl-enter-submit
+name: dsh-ctrl-enter-submit
+description:
+  en: bash dsh plugin --profile web add dsh-ctrl-enter-submit
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bundle
+  - dsh-client-plugin
+  - keyboard
+  - shortcut
+  - ctrl-enter
+  - submit
+  - textarea
+  - composer
+source:
+  repository: https://github.com/SA1992X/dsh-ctrl-enter-submit
+  repositoryNodeId: R_kgDOUDbkdg
+  subpath: null
+  commit: e7ed67c925ce1d82d78ecd527deedd85ce39188b
+creator:
+  github: SA1992X
+package:
+  ecosystem: npm
+  name: dsh-ctrl-enter-submit
+  version: 1.0.1
+  integrity: sha512-UHDq6kkHyByfX2dnNW0OsjqhLeTYt11I0znbT95amBdyaT9+lJrm6R/qVyo04JRu9VDtaX1hMcVJ3r/ioXG/PQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:02.961Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
