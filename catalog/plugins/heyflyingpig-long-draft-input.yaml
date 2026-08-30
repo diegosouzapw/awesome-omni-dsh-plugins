@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: heyflyingpig-long-draft-input
+name: long-draft-input
+description:
+  en: Collapse very long composer drafts into a summary card without changing DSH message submission.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - collapse
+  - very
+  - long
+  - composer
+  - drafts
+  - summary
+  - card
+  - without
+  - changing
+  - message
+  - submission
+  - dsh
+source:
+  repository: https://github.com/Heyflyingpig/long-draft-input
+  repositoryNodeId: R_kgDOT3_0Dw
+  subpath: null
+  commit: 3c69b87dcef07dc86ac075f078d6aa45e4a44c9d
+creator:
+  github: Heyflyingpig
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:01.103Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Heyflyingpig/long-draft-input/3c69b87dcef07dc86ac075f078d6aa45e4a44c9d/readme_img/image.png
+    alt: alt text
