@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zhangbo-cn-dsh-client-ui-voice-input
+name: "@zhangbo-cn/dsh-client-ui-voice-input"
+description:
+  en: "Composer mic for DeepSeek Harness Web: tap-to-monitor live transcription and hold-to-talk, with host Edge TTS reply reading that streams while the model generates, echo-pause during reading, and tap-to-stop."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - composer
+  - monitor
+  - live
+  - transcription
+  - hold
+  - talk
+  - host
+  - edge
+  - reply
+  - reading
+  - streams
+  - while
+  - model
+  - generates
+  - echo
+  - pause
+source:
+  repository: https://github.com/Zhangbo-cn/dsh-voice-input-plugin
+  repositoryNodeId: R_kgDOT5agVA
+  subpath: null
+  commit: bf9ecf74dd84b341b28173802ab76f1e244a0a77
+creator:
+  github: Zhangbo-cn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:45.262Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
