@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-bigfocus
+name: "@kobenfang/dsh-bigfocus"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): bigfocus."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - agent
+  - skill
+  - bigfocus
+  - dsh
+source:
+  repository: https://github.com/kobenfang/BigFocus
+  repositoryNodeId: R_kgDOT62cKw
+  subpath: null
+  commit: 65095b123d6db7d04bcf8bd85f38f386e5a1758c
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:41.060Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
