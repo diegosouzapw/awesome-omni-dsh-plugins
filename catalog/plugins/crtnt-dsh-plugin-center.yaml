@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: crtnt-dsh-plugin-center
+name: dsh-plugin-center
+description:
+  en: powershell & .\scripts\install.ps1
+  evidencePath: dsh-plugin-center/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - marketplace
+source:
+  repository: https://github.com/crTnT/dsh-plugin-suite
+  repositoryNodeId: R_kgDOT4P-Og
+  subpath: dsh-plugin-center
+  commit: 5582b6035563bf6146a35746b9259a0dbbca5e23
+creator:
+  github: crTnT
+package:
+  ecosystem: npm
+  name: dsh-plugin-center
+  version: 0.1.0
+  integrity: sha512-Kz7JP7ighGLq0J9M3RB5SArasjIASDSC/85N43EK/Ye8hPU7TpTZGoAYofXitfAKPKTKQDnkSp9g1iM4OUQKWg==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin-center/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:12.436Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
