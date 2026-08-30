@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: senrylee-dsh-frosted-window
+name: dsh-frosted-window
+description:
+  en: Upload an image as a full-window frosted-glass theme for DeepSeek Harness Web. Official Light / Dark / System stay in charge.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - theme
+  - wallpaper
+  - frosted-glass
+  - glassmorphism
+source:
+  repository: https://github.com/SenryLee/dsh-frosted-window
+  repositoryNodeId: R_kgDOT5aS8A
+  subpath: null
+  commit: ccee61d02837d2e3e3160743c07c8627a40c3438
+creator:
+  github: SenryLee
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:56.711Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/SenryLee/dsh-frosted-window/ccee61d02837d2e3e3160743c07c8627a40c3438/docs/preview.jpg
+    alt: "Settings: wallpaper upload, frost sliders, Save / Delete"
