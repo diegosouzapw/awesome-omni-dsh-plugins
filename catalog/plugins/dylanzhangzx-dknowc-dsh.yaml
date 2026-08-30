@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dylanzhangzx-dknowc-dsh
+name: dknowc-dsh
+description:
+  en: sh dsh plugin --profile web add dknowc-dsh
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - dknowc
+  - trusted-consulting
+  - trusted-search
+  - official-doc-writing
+source:
+  repository: https://github.com/dylanzhangzx/dknowc-dsh
+  repositoryNodeId: R_kgDOT7Db_Q
+  subpath: null
+  commit: 8f15792b24634c6e0eb586cdef7533b76e9e96b2
+creator:
+  github: dylanzhangzx
+package:
+  ecosystem: npm
+  name: dknowc-dsh
+  version: 1.1.1
+  integrity: sha512-+QtrvEtuzJtM4XoaEzY3cTE7h2PEpFUR8BRSZSRaAZjGiFB9oHywFYKTf59SrSIPaIzz5k7aH/hXnPrvAFrJow==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:03.702Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
