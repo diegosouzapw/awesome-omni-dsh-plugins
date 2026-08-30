@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wiyi-dsh-web-service-manager
+name: dsh-web-service-manager
+description:
+  en: "Manage the DSH web service from a settings panel: status, version, restart, stop, and one-click updates."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - web
+  - service-manager
+source:
+  repository: https://github.com/wiyi/dsh-web-service-manager
+  repositoryNodeId: R_kgDOT9gHlg
+  subpath: null
+  commit: 4c8af2cede6355a7ccab175af92182ab12dfe19f
+creator:
+  github: wiyi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:31.348Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wiyi/dsh-web-service-manager/4c8af2cede6355a7ccab175af92182ab12dfe19f/assets/screenshot.png
+    alt: DSH Web 服务 设置面板 | DSH web service settings panel
