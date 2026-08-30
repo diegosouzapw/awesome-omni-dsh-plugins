@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: 3361805598-gif-dsh-md-annotator
+name: dsh-md-annotator
+description:
+  en: sh curl -L -o dsh-md-annotator-0.6.0.tgz \ https://github.com/3361805598-gif/dsh-md-annotator/releases/download/v0.6.0/dsh-md-annotator-0.6.0.tgz shasum -a 256 dsh-md-annotator-0.6.0.tgz
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - dsh-better-sidebar
+  - markdown
+  - annotation
+  - deepseek-harness
+source:
+  repository: https://github.com/3361805598-gif/dsh-md-annotator
+  repositoryNodeId: R_kgDOT5bZ9Q
+  subpath: null
+  commit: 1b7bbf96b7d2df262ad8159b94dc5669baffa73b
+creator:
+  github: 3361805598-gif
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:09.808Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
