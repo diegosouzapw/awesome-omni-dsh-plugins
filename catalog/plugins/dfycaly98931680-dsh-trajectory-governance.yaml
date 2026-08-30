@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: dfycaly98931680-dsh-trajectory-governance
+name: dsh-trajectory-governance
+description:
+  en: "Agent trajectory governance & anomaly diagnosis for DeepSeek Harness: rebuild structured multi-branch trajectory trees from the session/event feed, keep observation-layer snapshots, and run three temporal anomaly strategies (loop deadlock / invalid retry / goal drift)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - trajectory
+  - anomaly-detection
+  - observability
+  - dsh-plugin
+source:
+  repository: https://github.com/dfycaly98931680/dsh-trajectory-governance
+  repositoryNodeId: R_kgDOT4iktg
+  subpath: null
+  commit: 4fa614af844aff601c473ac31d7cb1dd8d786d9d
+creator:
+  github: dfycaly98931680
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:56.386Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
