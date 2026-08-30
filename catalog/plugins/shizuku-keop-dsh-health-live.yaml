@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: shizuku-keop-dsh-health-live
+name: dsh-health-live
+description:
+  en: "dsh-health live bundle: mirrors session/event to $DSH HOME/.dsh-health (watch data) + health projection on session.list (badges) + browser health card/panel via ConversationNode."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-health
+source:
+  repository: https://github.com/Shizuku-keop/dsh-health
+  repositoryNodeId: R_kgDOUEaNTg
+  subpath: bundle
+  commit: 3cdfca19c34c9da2c72a3eb3a8d91375a8e624cd
+creator:
+  github: Shizuku-keop
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:13.580Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shizuku-keop/dsh-health/3cdfca19c34c9da2c72a3eb3a8d91375a8e624cd/docs/screenshots/health-100-green.png
+    alt: 健康会话 100/100：工具多样性良好且无告警
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shizuku-keop/dsh-health/3cdfca19c34c9da2c72a3eb3a8d91375a8e624cd/docs/screenshots/health-80-near-repeat-glob.png
+    alt: 健康 80/100：定位到 near-repeat 参数漂移与 glob 工具报错
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shizuku-keop/dsh-health/3cdfca19c34c9da2c72a3eb3a8d91375a8e624cd/docs/screenshots/health-50-alerts-wide.png
+    alt: 健康 50/100：振荡循环 + 参数漂移 + edit 报错
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Shizuku-keop/dsh-health/3cdfca19c34c9da2c72a3eb3a8d91375a8e624cd/docs/screenshots/health-panel-in-app.png
+    alt: 在 DSH 对话流中实时渲染的健康面板
