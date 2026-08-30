@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zoahdev-dsh-rule-evolve
+name: dsh-rule-evolve
+description:
+  en: "In-session self-evolution for DeepSeek Harness: agents extract lessons from failures, verify them, and install auditable rules into the profile's AGENTS.md."
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - self-evolution
+  - agent
+  - memory
+  - rules
+source:
+  repository: https://github.com/zoahdev/dsh-rule-evolve
+  repositoryNodeId: R_kgDOT5LYeg
+  subpath: plugin
+  commit: d95d6705f62857edb68ce4dce364d8d1a77f9f54
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:11.563Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
