@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: kidli1412-dsh-session-cost
+name: "@kidli1412/dsh-session-cost"
+description:
+  en: "DSH web plugin: a status bar at the bottom of the conversation showing the estimated API cost of the current session (per-model token pricing, CNY) plus the live DeepSeek account balance queried through the official balance API."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cost
+  - token
+  - usage
+  - balance
+source:
+  repository: https://github.com/KIDLi1412/dsh-session-cost
+  repositoryNodeId: R_kgDOT5umdw
+  subpath: null
+  commit: f59b720f1ddb1f433ba0279c0af931025029ce67
+creator:
+  github: KIDLi1412
+package:
+  ecosystem: npm
+  name: "@kidli1412/dsh-session-cost"
+  version: 0.1.6
+  integrity: sha512-Als/ZYcsBiH1i8mh22JVkTDxj8iN5BNB5/okgnQXpNmxDNPgq0hF5ZqIl0MjOhAk89ByLCYzVd238qBWxvyvyQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:34.368Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
