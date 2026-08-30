@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-memory
+name: dsh-agent-memory
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-agent-memory
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent
+  - memory
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-memory
+  repositoryNodeId: R_kgDOT8IPBw
+  subpath: null
+  commit: a225e6a461539a113f795e2481d76d551f961a32
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.648Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
