@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xxiaoxiong-dsh-prometheus
+name: dsh-prometheus
+description:
+  en: Privacy-conscious Prometheus metrics and a Grafana dashboard for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - prometheus
+  - grafana
+  - monitoring
+  - observability
+source:
+  repository: https://github.com/xxiaoxiong/dsh-prometheus
+  repositoryNodeId: R_kgDOT4_6EQ
+  subpath: null
+  commit: 2ce4d945b06f40be8101976df359f98a8bfede8e
+creator:
+  github: xxiaoxiong
+package:
+  ecosystem: npm
+  name: dsh-prometheus
+  version: 0.1.0
+  integrity: sha512-/svdchsy4VpGzveGCvVQ0E+z5rilDwzc0b/Dgi/xyBwxXjPhApfH6LkRmzIWE+f2O3AjS2HwIQhhzPOr3U2XhA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:27.937Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
