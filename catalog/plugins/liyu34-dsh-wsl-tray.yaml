@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: liyu34-dsh-wsl-tray
+name: dsh-wsl-tray
+description:
+  en: "DSH plugin: Windows desktop shortcut and system-tray launcher for DSH running in WSL"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - wsl
+  - windows
+  - tray
+  - shortcut
+  - launcher
+source:
+  repository: https://github.com/liyu34/dsh-wsl-tray
+  repositoryNodeId: R_kgDOUALiEw
+  subpath: null
+  commit: 90e7cfbb6f2ece2ff1cdbe7cdd12ef21df14c428
+creator:
+  github: liyu34
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:43.443Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
