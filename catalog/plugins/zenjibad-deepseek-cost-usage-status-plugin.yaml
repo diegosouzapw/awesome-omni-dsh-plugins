@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zenjibad-deepseek-cost-usage-status-plugin
+name: deepseek-cost-usage-status-plugin
+description:
+  en: A packaged Cordis plugin for DeepSeek Harness (DSH) that adds a second, colored status line under the shipped conversation stats line, showing live DeepSeek API cost, usage, and account balance .
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - deepseek-api
+  - cost
+  - usage
+  - tokens
+  - balance
+  - stats
+  - pricing
+  - ai-agent
+source:
+  repository: https://github.com/Zenjibad/deepseek-cost-usage-status-plugin
+  repositoryNodeId: R_kgDOT5qjYQ
+  subpath: null
+  commit: 4d3de23b82a4412a32d933fec06ffc570e50b77f
+creator:
+  github: Zenjibad
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:55.152Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
