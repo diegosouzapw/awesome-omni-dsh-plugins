@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: yu-tao-li-dsh-read-image-view
+name: dsh-read-image-view
+description:
+  en: "Display images read by the read image tool inside the DeepSeek Harness Web GUI: a dedicated Read image row with a default-expanded message-style image card (PS-style transparency checkerboard), merged read-N-images rows with side-by-side frames for multi-image requests, and an in-page full-resolution lightbox (zoom but"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - read-image
+  - image
+  - attachment
+  - web
+  - ui
+  - conversation
+source:
+  repository: https://github.com/Yu-tao-Li/dsh-read-image-view
+  repositoryNodeId: R_kgDOT7nTfw
+  subpath: null
+  commit: 91c8119b6c709c941ca25e18b2cc6ae8d076e956
+creator:
+  github: Yu-tao-Li
+package:
+  ecosystem: npm
+  name: dsh-read-image-view
+  version: 0.3.0
+  integrity: sha512-O0/etWv0OkYHRKTWeBuabUevkcApnrmniYoyT4MBtzI8eTjHFQxOkmayFpyXEP93G3R47nFZpNcuXzBFBgrihw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:07.691Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-read-image-view/91c8119b6c709c941ca25e18b2cc6ae8d076e956/assets/screenshot-1.png
+    alt: "1"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-read-image-view/91c8119b6c709c941ca25e18b2cc6ae8d076e956/assets/screenshot-2.png
+    alt: "2"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-read-image-view/91c8119b6c709c941ca25e18b2cc6ae8d076e956/assets/screenshot-3.png
+    alt: "3"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yu-tao-Li/dsh-read-image-view/91c8119b6c709c941ca25e18b2cc6ae8d076e956/assets/screenshot-4.png
+    alt: "4"
