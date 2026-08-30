@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: taxueseek-dsh-healthcheck
+name: dsh-healthcheck
+description:
+  en: sh dsh plugin --profile web add "github:taxueseek/dsh-healthcheck main&path:."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - cordis
+  - health
+  - diagnostic
+  - cleanup
+source:
+  repository: https://github.com/taxueseek/dsh-healthcheck
+  repositoryNodeId: R_kgDOT5WeuQ
+  subpath: null
+  commit: 1d85d1dc61e96c12354cf9bf2fbb252bdffb48f6
+creator:
+  github: taxueseek
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:05.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
