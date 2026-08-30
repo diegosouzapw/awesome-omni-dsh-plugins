@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ddsg-x-dsh-workspace-dir
+name: dsh-workspace-dir
+description:
+  en: "DeepSeek Harness plugin: show the current conversation's working directory in a draggable directory panel with adjustable opacity."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - workspace
+  - file-explorer
+  - dsh
+source:
+  repository: https://github.com/DDSG-X/dsh-workspace-dir
+  repositoryNodeId: R_kgDOT46pSQ
+  subpath: null
+  commit: 0a05dbb6562677eeb7b478883abe04631e970b6e
+creator:
+  github: DDSG-X
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:09.215Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
