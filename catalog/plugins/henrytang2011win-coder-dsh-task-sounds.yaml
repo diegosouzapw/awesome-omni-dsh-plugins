@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: henrytang2011win-coder-dsh-task-sounds
+name: dsh-task-sounds
+description:
+  en: Task-complete & question notification sounds for the DeepSeek Harness Web UI. A small chime plays when the agent finishes a turn , and a different "ding-dong" plays when the agent asks you a question mid-task (questions, plan reviews, and approval prompts all pause the agent waiting for your input).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - notification
+  - sound
+  - chime
+  - alert
+  - task-complete
+source:
+  repository: https://github.com/henrytang2011win-coder/dsh-task-sounds
+  repositoryNodeId: R_kgDOUDeCbg
+  subpath: null
+  commit: 4e7990b0e561f052c3bcee00a322baecd8fa71c0
+creator:
+  github: henrytang2011win-coder
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:17.655Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
