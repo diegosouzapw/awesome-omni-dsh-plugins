@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: songoao25-dsh-auto-compact
+name: dsh-auto-compact
+description:
+  en: Enhanced auto-compaction defaults for DeepSeek Harness agent presets
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - enhanced
+  - auto
+  - compaction
+  - defaults
+  - agent
+  - presets
+  - dsh
+source:
+  repository: https://github.com/songoao25/dsh-auto-compact
+  repositoryNodeId: R_kgDOT5eXTA
+  subpath: null
+  commit: 6ba59f4ccfdbd0be1397712f879fe415af73eefc
+creator:
+  github: songoao25
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.331Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
