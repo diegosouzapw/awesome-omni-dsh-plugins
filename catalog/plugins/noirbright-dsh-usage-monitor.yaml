@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: noirbright-dsh-usage-monitor
+name: dsh-usage-monitor
+description:
+  en: Session-log usage dashboard for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - session
+  - usage
+  - dashboard
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-usage-monitor
+  repositoryNodeId: R_kgDOT644qA
+  subpath: null
+  commit: f1b99007d11b10a0fd667befa4b94a90c8ea299a
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:46.878Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-usage-monitor/f1b99007d11b10a0fd667befa4b94a90c8ea299a/docs/screenshots/settings-usage.png
+    alt: "Settings → Usage: tiles, stacked chart, and provider table"
