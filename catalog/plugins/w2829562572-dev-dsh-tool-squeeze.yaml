@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: w2829562572-dev-dsh-tool-squeeze
+name: dsh-tool-squeeze
+description:
+  en: Content-aware tool output compression for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - context-engineering
+  - token-optimization
+  - ai-agent
+  - coding-agent
+source:
+  repository: https://github.com/w2829562572-dev/dsh-tool-squeeze
+  repositoryNodeId: R_kgDOT_HsWQ
+  subpath: null
+  commit: 9baf17e7bd48ae3cc0b60162de2ad816b6197c78
+creator:
+  github: w2829562572-dev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:33.421Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
