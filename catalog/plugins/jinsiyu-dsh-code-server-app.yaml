@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jinsiyu-dsh-code-server-app
+name: dsh-code-server-app
+description:
+  en: "Integrate code-server (VS Code in the browser) into DSH Web: floating ball entry + fullscreen overlay, host-side process lifecycle over a /code-server JSON API (motion-based spring window animations)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - integrate
+  - code
+  - server
+  - browser
+  - floating
+  - ball
+  - entry
+  - fullscreen
+  - overlay
+  - host
+  - side
+  - process
+  - lifecycle
+  - over
+  - json
+  - motion
+source:
+  repository: https://github.com/jinsiyu/dsh-code-server-app
+  repositoryNodeId: R_kgDOUEEXvg
+  subpath: null
+  commit: f7666b0120ddfc2ab5d0052175695e4106a29fc4
+creator:
+  github: jinsiyu
+package:
+  ecosystem: npm
+  name: dsh-code-server-app
+  version: 0.1.24
+  integrity: sha512-FrxBWTP8a8Gh/3FlPBzUdpFUr/e3H02nnhcdXRLtnMh9psZXRzYCgRzn8xlW8ER2ld7XzkCUReVLwcoTdDiZaA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:38.754Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
