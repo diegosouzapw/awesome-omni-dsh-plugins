@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ximisi-dsh-quick-attach
+name: dsh-quick-attach
+description:
+  en: "Paste an image into the DSH web GUI composer: the plugin saves it into your configured directory and appends the absolute path to your message draft — when you send, the AI receives the path and can read the image with its file and vision tooling."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - attach
+  - image
+  - paste
+source:
+  repository: https://github.com/ximisi/dsh-quick-attach
+  repositoryNodeId: R_kgDOT5vHyw
+  subpath: null
+  commit: f793ebffcf0c323603c16c3952117e38178f35c1
+creator:
+  github: ximisi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:26.151Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
