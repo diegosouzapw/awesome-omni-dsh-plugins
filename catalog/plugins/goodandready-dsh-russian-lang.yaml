@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: goodandready-dsh-russian-lang
+name: "@goodandready/dsh-russian-lang"
+description:
+  en: "Russian localization for the DeepSeek Harness web UI: adds Русский as the third option in the native Settings - General - Language menu. Translates the full core surface (100% coverage of DSH 0.1.1-rc.2) plus 16 community plugin namespaces - 52 namespaces, 2795 strings (many machine-drafted, queued for manual review), "
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - i18n
+  - locale
+  - russian
+source:
+  repository: https://github.com/GooDAnDReaDY/dsh-russian-lang
+  repositoryNodeId: R_kgDOUBb_5Q
+  subpath: null
+  commit: 7384ae03db6f1f69526d74b6cacab14974c9c583
+creator:
+  github: GooDAnDReaDY
+package:
+  ecosystem: npm
+  name: "@goodandready/dsh-russian-lang"
+  version: 0.1.20
+  integrity: sha512-Vp+DQ2baRf7S2gxLd65rLpzV5OQxc63s6fBttrx/mWeiG44kzVIVoKfGlvIojbA5sBPj9MFceh+U/RIVRRtLow==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:59.539Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
