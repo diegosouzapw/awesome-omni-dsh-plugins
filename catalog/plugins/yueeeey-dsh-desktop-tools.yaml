@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yueeeey-dsh-desktop-tools
+name: dsh-desktop-tools
+description:
+  en: "dsh environment management plugin (TypeScript): desktop window, runtime management, platform compatibility, billing panel, code editor."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - environment
+  - management
+  - typescript
+  - desktop
+  - window
+  - runtime
+  - platform
+  - compatibility
+  - billing
+  - panel
+  - code
+  - editor
+  - dsh
+source:
+  repository: https://github.com/YUEEEEY/dsh-desktop-tools
+  repositoryNodeId: R_kgDOT8KT_A
+  subpath: null
+  commit: 910e6bb167fe42121f10088ae48062b24627a287
+creator:
+  github: YUEEEEY
+package:
+  ecosystem: npm
+  name: dsh-desktop-tools
+  version: 0.5.3
+  integrity: sha512-rbtFEFE+VKCjjKv+M1ciBANBWc6Msy2Dwn3ULrxPKIUuOPBxFuN5Ur9862oOgVd4pFXEtE26ua2Em9K7wSnYLg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:20.312Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
