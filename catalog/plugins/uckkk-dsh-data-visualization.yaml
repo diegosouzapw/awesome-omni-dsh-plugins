@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-data-visualization
+name: dsh-data-visualization
+description:
+  en: bash dsh plugin add dsh-data-visualization 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-data-visualization" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - chart
+  - dataviz
+  - visualization
+source:
+  repository: https://github.com/uckkk/dsh-data-visualization
+  repositoryNodeId: R_kgDOT6jKlg
+  subpath: null
+  commit: 21ca4b6fc82887c2271100f0c8e8b7bba504d76b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:11.980Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
