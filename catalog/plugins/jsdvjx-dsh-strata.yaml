@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jsdvjx-dsh-strata
+name: dsh-strata
+description:
+  en: "Session strata for the DeepSeek Harness Web GUI: the transcript's scrollbar becomes a to-scale, colour-coded map of the whole run — user messages emphasised, clickable anchors, auto-loading history, and a hover deck of every prompt in the session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - minimap
+  - scrollbar
+  - conversation
+  - navigation
+source:
+  repository: https://github.com/jsdvjx/dsh-strata
+  repositoryNodeId: R_kgDOT8lpkQ
+  subpath: null
+  commit: 283bea4c66458165e4a32752e8f04c28074a6267
+creator:
+  github: jsdvjx
+package:
+  ecosystem: npm
+  name: dsh-strata
+  version: 0.9.0
+  integrity: sha512-mCQJU7YRXperDxK56WzAursk50nm/MICqdB/UJEo7OE7Y8IM40S7vYeeqTTxqzXfcNdnGprgi+sn84LBdJPCPw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:25.275Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 60
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jsdvjx/dsh-strata/283bea4c66458165e4a32752e8f04c28074a6267/docs/demo.gif
+    alt: "Live demo: hovering expands the rail with a preview card, clicking a band or an anchor dot jumps, dragging the lens scru"
