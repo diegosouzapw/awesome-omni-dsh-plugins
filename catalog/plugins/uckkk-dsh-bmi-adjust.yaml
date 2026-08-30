@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-bmi-adjust
+name: dsh-bmi-adjust
+description:
+  en: bash dsh plugin add github:uckkk/dsh-bmi-adjust
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-bmi-adjust
+source:
+  repository: https://github.com/uckkk/dsh-bmi-adjust
+  repositoryNodeId: R_kgDOT-skqg
+  subpath: null
+  commit: 3a6eb88aa045c53fe52139b181f2a004c338e6bd
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:10.154Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
