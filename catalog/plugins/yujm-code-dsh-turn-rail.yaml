@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yujm-code-dsh-turn-rail
+name: dsh-turn-rail
+description:
+  en: "Codex-style auto-hiding turn rail for DeepSeek Harness Web: edge-peek navigation, per-turn tooltips, search, 30-turn scrolling window and scroll-follow."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - turn
+  - navigation
+  - timeline
+  - codex
+source:
+  repository: https://github.com/Yujm888/dsh-turn-rail
+  repositoryNodeId: R_kgDOT5NREw
+  subpath: null
+  commit: f9d4b290bcac8343e389f8d2ee5a0d392a95e743
+creator:
+  github: yujm-code
+package:
+  ecosystem: npm
+  name: dsh-turn-rail
+  version: 0.1.0
+  integrity: sha512-ljPoXBc4SgdjtpOAZBrQzJT57SPAEtC3Cqhxn/C3JIDR5TOIU7N5vyxkDGUwOQKxkf9vgEOR5NRSQMOmBwWuCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:15.238Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yujm888/dsh-turn-rail/f9d4b290bcac8343e389f8d2ee5a0d392a95e743/rail.png
+    alt: Turn rail
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yujm888/dsh-turn-rail/f9d4b290bcac8343e389f8d2ee5a0d392a95e743/search.png
+    alt: Tooltip and search
