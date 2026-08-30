@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: lucky8197-dsh-doc-guard
+name: dsh-doc-guard
+description:
+  en: "Document-Code Consistency Guard for DeepSeek Harness. A read-only DSH plugin that audits your versioned Markdown design docs against the actual repository: header version numbers, changelog tables, directory-structure trees, module/test counts, and cross-document references. It detects drift (docs saying one thing, cod"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - document
+  - code
+  - consistency
+  - guard
+  - read
+  - only
+  - audits
+  - versioned
+  - markdown
+  - design
+  - docs
+  - against
+  - actual
+  - repository
+  - header
+  - version
+source:
+  repository: https://github.com/lucky8197/dsh-doc-guard
+  repositoryNodeId: R_kgDOT5ADWg
+  subpath: null
+  commit: 7f232e8c4b1253b47aeb78952195f07fa73af565
+creator:
+  github: lucky8197
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:44.318Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
