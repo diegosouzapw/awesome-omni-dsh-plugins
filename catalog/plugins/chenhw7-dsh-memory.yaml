@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: chenhw7-dsh-memory
+name: "@chenhw7/dsh-memory"
+description:
+  en: "Cairn — long-term memory for the DeepSeek Harness: persistent cross-session memory (store, tools, auto-extraction, context injection) as one installable profile bundle"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - memory
+  - long-term-memory
+  - agent-memory
+  - cross-session
+  - bm25
+  - llm-agents
+source:
+  repository: https://github.com/chenhw7/dsh-memory
+  repositoryNodeId: R_kgDOT63dZQ
+  subpath: null
+  commit: 5158bb9df402ea1ccea9f376f1d79c6b3b7ef8af
+creator:
+  github: chenhw7
+package:
+  ecosystem: npm
+  name: "@chenhw7/dsh-memory"
+  version: 0.5.1
+  integrity: sha512-ggWD553qviL+K4XBcuZzi3Yd5FzQ1Ycav2GuH6QGYCmYPxwI8f4WUr/qvcFp2LERNP+kRbhuqh2lhxhrrbAhdQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:07.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/chenhw7/dsh-memory/5158bb9df402ea1ccea9f376f1d79c6b3b7ef8af/assets/memory-architecture-hero.png
+    alt: Hero preview
