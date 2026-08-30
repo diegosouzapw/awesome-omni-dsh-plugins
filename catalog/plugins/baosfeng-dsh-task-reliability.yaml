@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: baosfeng-dsh-task-reliability
+name: dsh-task-reliability
+description:
+  en: bash dsh plugin --profile web add link:<本目录绝对路径
+  evidencePath: plugins/dsh-task-reliability/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bash
+  - profile
+  - link
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-task-reliability
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-task-reliability
+  version: 0.4.0
+  integrity: sha512-REPSVDIGWlQAsGj+Nyq4qVxz8ZnMR8ihAeWQ+PyLUDzg4YFnKzwG+erN99H17mXx2SG7gzY53M2jia1Oju49qw==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-task-reliability/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
