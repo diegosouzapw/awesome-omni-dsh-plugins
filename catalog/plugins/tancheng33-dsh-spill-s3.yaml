@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: tancheng33-dsh-spill-s3
+name: dsh-spill-s3
+description:
+  en: "S3-compatible spill backend for DeepSeek Harness: oversized tool output goes to object storage (AWS S3, MinIO, R2) instead of the agent's local disk"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - spill
+  - s3
+  - minio
+  - object-storage
+  - r2
+source:
+  repository: https://github.com/tancheng33/dsh-spill-s3
+  repositoryNodeId: R_kgDOT5wWRg
+  subpath: null
+  commit: 9125bbb93e97c5535d9c0953c125dbf08acb2f94
+creator:
+  github: tancheng33
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:05.170Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
