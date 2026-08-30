@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wangcong1137-dsh-geoserver
+name: dsh-geoserver
+description:
+  en: Read GeoServer WMS services and render map images in the dsh web GUI, with a configuration card in the settings page.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - geoserver
+  - wms
+  - gis
+  - map
+source:
+  repository: https://github.com/wangcong1137-hash/dsh-geoserver
+  repositoryNodeId: R_kgDOT9MuMA
+  subpath: null
+  commit: c320f01d5cbef0ccb8d0bfe64a34e061b57d0c3f
+creator:
+  github: wangcong1137
+package:
+  ecosystem: npm
+  name: dsh-geoserver
+  version: 0.2.4
+  integrity: sha512-ZmEwYssP4Q7SVgTXOH+k1dYkXSK/knLHUpD2ZnnDolP4dYp6bB371Nry+JU9T7oQVJLzQALuXKQZ4mU9W7YBaQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:34.372Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
