@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baosfeng-dsh-mermaid-render
+name: dsh-mermaid-render
+description:
+  en: sh git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-mermaid-render
+  evidencePath: plugins/dsh-mermaid-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - mermaid
+  - render
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-mermaid-render
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-mermaid-render
+  version: 0.1.3
+  integrity: sha512-kL5Cg3hicG1aExRu3Fx4/mSrxfYA3t5umxhU/Gi28b2FlKHUyW6t1F6uM3P35btQgipa2Huh9tEcmthHEYXHng==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-mermaid-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
