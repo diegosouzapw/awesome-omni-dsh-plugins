@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: welsione-dsh-model-router
+name: "@welsione/dsh-model-router"
+description:
+  en: "Unified ModelID routing for DeepSeek Harness: one logical model id over multiple providers, first-token failover with cooldown, health-aware ranking, fallback reasoning efforts, purpose-based simple/complex task split, per-tier reasoning effort, and a settings-page management panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - model-router
+  - model-routing
+  - failover
+  - reasoning-effort
+  - llm
+source:
+  repository: https://github.com/welsione/dsh-model-router
+  repositoryNodeId: R_kgDOT784Nw
+  subpath: null
+  commit: 9a9c1529b6a413dfc3621b944192fb1c84c04e60
+creator:
+  github: welsione
+package:
+  ecosystem: npm
+  name: "@welsione/dsh-model-router"
+  version: 0.0.8
+  integrity: sha512-8SN3G7k+etpi09cyF5nzdRh0S7GBknNGSXuEWXzXPIVHscAHeYulqUzEgq/6/ceMn1TZ/CjBWZjfkK/3qaaxQg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:35.014Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/welsione/dsh-model-router/9a9c1529b6a413dfc3621b944192fb1c84c04e60/assets/readme/screenshot-chat-tier-picker.png
+    alt: 对话窗口档位选择器
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/welsione/dsh-model-router/9a9c1529b6a413dfc3621b944192fb1c84c04e60/assets/readme/screenshot-settings-panel.png
+    alt: 设置面板路由管理
