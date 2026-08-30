@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: good-boy4069-dsh-mobile-remote
+name: dsh-mobile-remote
+description:
+  en: "DeepSeek Harness WeChat remote-control plugin: control your dsh agent from WeChat (iLink long-polling, fully outbound, works over any network)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - wechat
+  - weixin
+  - ilink
+  - remote-control
+  - chat-channel
+source:
+  repository: https://github.com/good-boy4069/dsh-mobile-remote
+  repositoryNodeId: R_kgDOT5z-cQ
+  subpath: null
+  commit: f0ce76aeac09896835f3ca482d78d7854185ad82
+creator:
+  github: good-boy4069
+package:
+  ecosystem: npm
+  name: dsh-mobile-remote
+  version: 0.1.0
+  integrity: sha512-fiYv6KWxlwXtcD+2LJiZrIvY186qNAfdWCzp+LGbfL7I+a1IbQgHBXY7XS7M+n1LxWoiBWU4TGfx3KEJmgIvSQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:05.397Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
