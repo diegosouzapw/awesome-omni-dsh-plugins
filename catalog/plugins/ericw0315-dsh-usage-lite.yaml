@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: ericw0315-dsh-usage-lite
+name: dsh-usage-lite
+description:
+  en: Compact provider balances and local token-usage analytics for dsh web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - token-usage
+  - provider-balance
+source:
+  repository: https://github.com/ericw0315/dsh-usage-lite
+  repositoryNodeId: R_kgDOT_kEvA
+  subpath: null
+  commit: acf9c1e8557a77099bfbb2221c829872af125a80
+creator:
+  github: ericw0315
+package:
+  ecosystem: npm
+  name: dsh-usage-lite
+  version: 0.1.1
+  integrity: sha512-VkxhJ9C9QpTVdzXgwDjy1oxgROQ4FDqaB2rVrtFzS4PBs+0AlBkVwaBxnNRWEN9bBsfzuVQNK09IpAn1BqrnYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:58.040Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ericw0315/dsh-usage-lite/acf9c1e8557a77099bfbb2221c829872af125a80/docs/images/usage-lite-preview.jpg
+    alt: dsh-usage-lite balance and usage overview
