@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: raphaelutumn-dsh-change-budget
+name: "@raphelutumn/dsh-change-budget"
+description:
+  en: DeepSeek Harness guardrail that limits how many files an AI coding agent can edit per turn
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - ai-agent
+  - coding-agent
+  - file-safety
+  - file-editing
+  - edit-limit
+  - guardrail
+  - circuit-breaker
+  - tool-budget
+  - dsh
+source:
+  repository: https://github.com/Raphaelutumn/dsh-change-budget
+  repositoryNodeId: R_kgDOT65UTg
+  subpath: null
+  commit: e38a859ca811a49da2ec212002715241b82bd485
+creator:
+  github: Raphaelutumn
+package:
+  ecosystem: npm
+  name: "@raphelutumn/dsh-change-budget"
+  version: 0.1.0
+  integrity: sha512-bEHPK3Z6Uzw5KnbQXQ5FuhiRw7RtjHCoPMxlezcLA+eYMGC0Hy5DxBye50j8ChXVEDrw6dVZPatC4/jD5xUC9Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:54.917Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Raphaelutumn/dsh-change-budget/e38a859ca811a49da2ec212002715241b82bd485/assets/dsh-change-budget-hero.png
+    alt: A bounded change budget protecting structured file mutations
