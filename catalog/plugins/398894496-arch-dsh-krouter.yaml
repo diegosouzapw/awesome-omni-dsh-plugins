@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: 398894496-arch-dsh-krouter
+name: dsh-krouter
+description:
+  en: "DSH-KRouter DSH socket (same product as the repo root: router + writer). Not a second project."
+  evidencePath: extras/dsh/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - obsidian
+  - krouter
+  - knowledge-base
+  - memory-system
+  - second-brain
+  - self-evolution
+  - agent-memory
+source:
+  repository: https://github.com/398894496-arch/runtime36
+  repositoryNodeId: R_kgDOT_ftdA
+  subpath: extras/dsh
+  commit: 904ed76fd8422b0d4ae72f745551c50a2cd65015
+creator:
+  github: 398894496-arch
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: extras/dsh/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:25.392Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
