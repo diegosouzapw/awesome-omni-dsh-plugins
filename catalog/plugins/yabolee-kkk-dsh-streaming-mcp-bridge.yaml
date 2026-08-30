@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yabolee-kkk-dsh-streaming-mcp-bridge
+name: dsh-streaming-mcp-bridge
+description:
+  en: "DeepSeek Harness streaming MCP bridge: expose live session events as MCP progress and stream ACP updates to cc-connect/Feishu."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - acp
+  - streaming
+  - feishu
+  - cc-connect
+source:
+  repository: https://github.com/yabolee-kkk/dsh-streaming-mcp-bridge
+  repositoryNodeId: R_kgDOT698ag
+  subpath: null
+  commit: f6c96745cbc9b8fd1a376b20d090ce27c464806e
+creator:
+  github: yabolee-kkk
+package:
+  ecosystem: npm
+  name: dsh-streaming-mcp-bridge
+  version: 0.1.1
+  integrity: sha512-MJ6uSwgOBIp7bL9mQOXE4TRJ+dlchWiG+j0ChjnDC9aobq9EFRtOWg1Nc2B8kVK7GaiM3RstVz9m/IF7d8jKTg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:40.405Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
