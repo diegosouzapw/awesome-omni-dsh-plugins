@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: wqy8593521-dsh-model-pro
+name: dsh-model-pro
+description:
+  en: "Model Pro — DSH plugin for llm-pi-ai provider lifecycle: create/edit, custom headers, enable/disable with uninstall-restore safety, smart routing, composites, observability, and per-model connectivity tests"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - llm-pi-ai
+  - bundle
+  - model-provider
+  - settings
+source:
+  repository: https://github.com/wqy8593521/dsh-model-pro
+  repositoryNodeId: R_kgDOT8iKCg
+  subpath: null
+  commit: d36e2f0b928fc56b0ff2f00731bac424f48abc5c
+creator:
+  github: wqy8593521
+package:
+  ecosystem: npm
+  name: dsh-model-pro
+  version: 1.1.8
+  integrity: sha512-POMATifFzNHwkTC57kH3Ulv7qx9etZcCWXnQdzBGEhidVufeIuf4hToAFG79C/TkZWI3+z1Ka5q0VP/Y1WcoIg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:17.002Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wqy8593521/dsh-model-pro/d36e2f0b928fc56b0ff2f00731bac424f48abc5c/docs/screenshots/dashboard.png
+    alt: 仪表盘
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wqy8593521/dsh-model-pro/d36e2f0b928fc56b0ff2f00731bac424f48abc5c/docs/screenshots/editor.png
+    alt: 编辑器
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wqy8593521/dsh-model-pro/d36e2f0b928fc56b0ff2f00731bac424f48abc5c/docs/screenshots/models.png
+    alt: 模型发现
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wqy8593521/dsh-model-pro/d36e2f0b928fc56b0ff2f00731bac424f48abc5c/docs/screenshots/test.png
+    alt: 连通性测试
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wqy8593521/dsh-model-pro/d36e2f0b928fc56b0ff2f00731bac424f48abc5c/docs/screenshots/routes.png
+    alt: 智能路由
