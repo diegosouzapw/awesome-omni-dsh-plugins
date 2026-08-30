@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: uckkk-dsh-design-tokens
+name: dsh-design-tokens
+description:
+  en: bash dsh plugin add dsh-design-tokens 安装后在 profile 的 package.json 的 dsh.profile.bundles 中加入 "dsh-design-tokens" 。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - design-tokens
+  - design-system
+  - naming
+source:
+  repository: https://github.com/uckkk/dsh-design-tokens
+  repositoryNodeId: R_kgDOT6jA6w
+  subpath: null
+  commit: e5c0fc4a657d17578b2d7fe4bd9410597826d52b
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:07.269Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
