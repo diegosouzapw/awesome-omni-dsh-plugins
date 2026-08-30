@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-observability
+name: dsh-observability
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-observability
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - observability
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-observability
+  repositoryNodeId: R_kgDOT8ZArA
+  subpath: null
+  commit: f4673bab8d58812fbc348b772bca39cbfd607e89
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:40.202Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
