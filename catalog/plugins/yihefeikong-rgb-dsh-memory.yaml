@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yihefeikong-rgb-dsh-memory
+name: dsh-memory
+description:
+  en: 'json { "dsh": { "bundle": { "patch": "./cordis.patch.yml" }, "client": { "platform": "web", "inject": ["@deepseek-ai/dsh-client-runtime"] } } }'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cc-haha
+  - memory
+  - persistent-memory
+source:
+  repository: https://github.com/yihefeikong-rgb/dsh-cc-haha-memory
+  repositoryNodeId: R_kgDOT5aFGw
+  subpath: null
+  commit: 5dcb33cb2a64c1b7f5cc82b255a993e5addc9e51
+creator:
+  github: yihefeikong-rgb
+package:
+  ecosystem: npm
+  name: dsh-memory
+  version: 0.1.0
+  integrity: sha512-ZDm81nMFI2iwBDzZS7PIeGKTO7R93ihlt757SB6qngHabJ+yGOrmBC95yMm9AiMCpX2+LQNZniHJRGvEuU8YTg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:18.861Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
