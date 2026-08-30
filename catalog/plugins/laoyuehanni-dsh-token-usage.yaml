@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: laoyuehanni-dsh-token-usage
+name: "@laoyuehanni/dsh-token-usage"
+description:
+  en: "dsh local plugin: persist per-request model token usage (live hook + first-run history backfill + web settings stats page)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - cordis
+  - token-usage
+  - tokens
+  - statistics
+source:
+  repository: https://github.com/LaoYueHanNi/dsh-token-usage
+  repositoryNodeId: R_kgDOT37cwA
+  subpath: null
+  commit: c808f443088bd430d244bdac801d3a80f38a508f
+creator:
+  github: LaoYueHanNi
+package:
+  ecosystem: npm
+  name: "@laoyuehanni/dsh-token-usage"
+  version: 0.3.12
+  integrity: sha512-oBWoGmUK+SVplq1pRk5dXTxNOJv6CEnYnBpYx+/nfuVwqdwKuHgU6wVUJetqR/oRBdhyuFE7HNd8D4mZEAdxtg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-token-usage/c808f443088bd430d244bdac801d3a80f38a508f/docs/images/token-usage.png
+    alt: Token Usage stats page
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-token-usage/c808f443088bd430d244bdac801d3a80f38a508f/docs/images/usage-tab.png
+    alt: Session Usage tab
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-token-usage/c808f443088bd430d244bdac801d3a80f38a508f/docs/images/model-price.png
+    alt: Model pricing dialog
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-token-usage/c808f443088bd430d244bdac801d3a80f38a508f/docs/images/zhipu-plan-usage.png
+    alt: Zhipu GLM quota panel
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LaoYueHanNi/dsh-token-usage/c808f443088bd430d244bdac801d3a80f38a508f/docs/images/opencode-go-plan-usage.png
+    alt: OpenCode Go quota panel
