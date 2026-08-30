@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-credit-card-installment
+name: dsh-credit-card-installment
+description:
+  en: bash dsh plugin add github:uckkk/dsh-credit-card-installment
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-credit-card-installment
+source:
+  repository: https://github.com/uckkk/dsh-credit-card-installment
+  repositoryNodeId: R_kgDOT_Edhw
+  subpath: null
+  commit: 168a7508fd9b0467bf88a81697ed36947f1358ac
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:38.422Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
