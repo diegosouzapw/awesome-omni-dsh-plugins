@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: normanfxxkingrockwell-dsh-auto-vision
+name: dsh-auto-vision
+description:
+  en: sh dsh plugin --profile <你的profile名 add dsh-auto-vision
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - vision
+  - image
+  - multimodal
+  - qwen
+source:
+  repository: https://github.com/NormanFxxkingRockwell/dsh-auto-vision
+  repositoryNodeId: R_kgDOT7AQ6g
+  subpath: null
+  commit: 78f7933a7ce9fc2ec8ab777af672e6d324a3481c
+creator:
+  github: NormanFxxkingRockwell
+package:
+  ecosystem: npm
+  name: dsh-auto-vision
+  version: 0.4.0
+  integrity: sha512-WGUJCjJULZDAwtpCdjHWg5u5pkdg/9syZmN0wo+ZBGiZgfm9r6IWCj2Nlb3wz3fM5dYdUrPcpT3zXsAfbGMmYw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:53.039Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
