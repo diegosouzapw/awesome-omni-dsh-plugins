@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: e2mcc-dsh-popout-sidebar
+name: dsh-popout-sidebar
+description:
+  en: 可弹出侧边栏 · A DeepSeek Harness sidebar that shows artifacts and pops out into a larger web tab.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - sidebar
+  - artifacts
+source:
+  repository: https://github.com/e2mcc/dsh-popout-sidebar
+  repositoryNodeId: R_kgDOT5N4Sg
+  subpath: null
+  commit: e9a8458cb65c0a863ba5c86bf4ad272b1e0e3162
+creator:
+  github: e2mcc
+package:
+  ecosystem: npm
+  name: dsh-popout-sidebar
+  version: 1.0.1
+  integrity: sha512-Yr9L/CZGTFGhjd2utH/xJbw0w7YAe8XHDPkqdkhAOBQrxMrpleoDUtx+LR5VgoP9mZKU4AsLI2rFQR4Le6RHPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.832Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 166
+provenance:
+  discussion: null
+  comment: null
