@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xmanrui-dsh-weixin
+name: "@xmanrui/dsh-weixin"
+description:
+  en: DeepSeek Harness Weixin channel plugin with QR-code account binding
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - weixin
+  - channel
+  - code
+  - account
+  - binding
+  - dsh
+source:
+  repository: https://github.com/xmanrui/dsh-weixin
+  repositoryNodeId: R_kgDOT4tuXg
+  subpath: null
+  commit: 16ca866af80e8b95b2d73619579894e817095122
+creator:
+  github: xmanrui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:26.361Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
