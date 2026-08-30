@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: fengb3-dsh-session-icons
+name: dsh-session-icons
+description:
+  en: powershell dsh plugin --profile web add dsh-session-icons
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - icon
+  - svg
+  - sidebar
+source:
+  repository: https://github.com/fengb3/dsh-session-icons
+  repositoryNodeId: R_kgDOUAqtxA
+  subpath: null
+  commit: 56c3d950de96ceb2777e3c99cf48e2b7feae29d4
+creator:
+  github: fengb3
+package:
+  ecosystem: npm
+  name: dsh-session-icons
+  version: 0.1.0
+  integrity: sha512-RqiiXTLLbfy9H8l5bGgguyFfGpSNkrW2Mr0msYfwbq+Yu1rB8aSljcadKdTxXUS4LEi3y8AIknc0UKxRVJvr9A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:58.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/fengb3/dsh-session-icons/56c3d950de96ceb2777e3c99cf48e2b7feae29d4/docs/screenshot.png
+    alt: 侧边栏会话标题图标效果
