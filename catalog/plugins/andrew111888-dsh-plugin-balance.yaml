@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: andrew111888-dsh-plugin-balance
+name: dsh-plugin-balance
+description:
+  en: A floating credit / quota widget for the DeepSeek Harness Web — plus DSH session token usage & cost stats.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - balance
+  - opencode
+  - usage
+  - tokens
+source:
+  repository: https://github.com/Andrew111888/dsh-plugin-balance
+  repositoryNodeId: R_kgDOT-MNFw
+  subpath: null
+  commit: 96bb1592c949456aa37ccc3a296085f59df2ee9c
+creator:
+  github: Andrew111888
+package:
+  ecosystem: npm
+  name: dsh-plugin-balance
+  version: 1.4.4
+  integrity: sha512-Lrp7+1rEhbInQfnuk4epIwnI0WGKZIiNWU0bT5SJhs5jLHvAb13FZz5EPBLubvjXUK6xTfHFqvilB2EpsIAwsw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:07.844Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Andrew111888/dsh-plugin-balance/96bb1592c949456aa37ccc3a296085f59df2ee9c/docs/preview-anim.gif
+    alt: 动画演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Andrew111888/dsh-plugin-balance/96bb1592c949456aa37ccc3a296085f59df2ee9c/docs/preview-usage.png
+    alt: 用量明细
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Andrew111888/dsh-plugin-balance/96bb1592c949456aa37ccc3a296085f59df2ee9c/docs/preview-tokens.png
+    alt: Token 统计
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Andrew111888/dsh-plugin-balance/96bb1592c949456aa37ccc3a296085f59df2ee9c/docs/preview-context.png
+    alt: 实际效果
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Andrew111888/dsh-plugin-balance/96bb1592c949456aa37ccc3a296085f59df2ee9c/docs/preview-balance-type.png
+    alt: 余额类型
