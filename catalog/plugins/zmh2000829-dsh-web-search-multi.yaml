@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zmh2000829-dsh-web-search-multi
+name: dsh-web-search-multi
+description:
+  en: Configurable SearXNG, Brave, Tavily, Gemini, and Wikipedia search provider for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - web-search
+  - searxng
+  - brave-search
+  - tavily
+  - gemini
+  - google-search-grounding
+  - wikipedia
+source:
+  repository: https://github.com/zmh2000829/dsh-web-search-multi
+  repositoryNodeId: R_kgDOT8hI5w
+  subpath: null
+  commit: c4dce6e14283be7b5c10c5f4b8ab353f307f649d
+creator:
+  github: zmh2000829
+package:
+  ecosystem: npm
+  name: dsh-web-search-multi
+  version: 0.2.0
+  integrity: sha512-XgDIYR6uaOaZGQMvkDpv5Zz4GzaveskYCHAp4+xKgxkGpA43iFBSOJ3dW8kFol1TrBAjr5petpD3a97COaHeZQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:45.139Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
