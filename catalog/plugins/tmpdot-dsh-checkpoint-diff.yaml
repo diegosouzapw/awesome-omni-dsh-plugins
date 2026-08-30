@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: tmpdot-dsh-checkpoint-diff
+name: dsh-checkpoint-diff
+description:
+  en: "File-diff visualization between checkpoint time nodes for DeepSeek Harness: a read-only timeline + per-file line diff over the dsh-checkpoint-rewind checkpoints storage domain, with preview-first rollback (restore workspace files from any time node, single-file or whole-node; per-file current→snapshot preview diff; sin"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - diff
+  - checkpoint
+  - snapshot
+  - timeline
+  - cordis-plugin
+source:
+  repository: https://github.com/tmpdot/dsh-checkpoint-diff
+  repositoryNodeId: R_kgDOT54oRA
+  subpath: null
+  commit: 604f384f4e798656a7cf9eca03440fdeceb6b6d5
+creator:
+  github: tmpdot
+package:
+  ecosystem: npm
+  name: dsh-checkpoint-diff
+  version: 0.5.2
+  integrity: sha512-SzOGRssxTdBITWuRJIEivWNWTJqtKxU4kFg5/xXyd17L5Dc4wuJR4V0TuPyevHSSACbWxIvLMxOkiYkgwDLhZg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.259Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/tmpdot/dsh-checkpoint-diff/604f384f4e798656a7cf9eca03440fdeceb6b6d5/screenshots/01-overview.png
+    alt: 面板全貌
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/tmpdot/dsh-checkpoint-diff/604f384f4e798656a7cf9eca03440fdeceb6b6d5/screenshots/02-trace.png
+    alt: Trace 范围
