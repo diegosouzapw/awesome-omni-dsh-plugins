@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: chengzeyi-wavespeed-dsh-skill
+name: wavespeed-dsh-skill
+description:
+  en: "WaveSpeed skill for DeepSeek Harness (dsh): generate and edit AI media (image, video, audio, 3D) via the open-source wavespeed CLI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - wavespeed
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - skill
+  - ai-image-generation
+  - ai-video-generation
+source:
+  repository: https://github.com/WaveSpeedAI/wavespeed-dsh-skill
+  repositoryNodeId: R_kgDOT8785A
+  subpath: null
+  commit: cef794e54dce0582a008486f152540c9e56081e7
+creator:
+  github: chengzeyi
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:34.735Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
