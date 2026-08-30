@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: yuanbaoerer-dsh-decision-split
+name: dsh-decision-split
+description:
+  en: sh dsh plugin --profile web add dsh-decision-split
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - web-ui
+  - decision
+  - markdown
+source:
+  repository: https://github.com/yuanbaoerer/dsh-decision-split
+  repositoryNodeId: R_kgDOT-Rtrw
+  subpath: null
+  commit: 4a330fbed3ebe669bb69c06c25e4a7cebeb5a2e1
+creator:
+  github: yuanbaoerer
+package:
+  ecosystem: npm
+  name: dsh-decision-split
+  version: 0.2.2
+  integrity: sha512-mYMh0AZfzF5hE97iw8POOOSJ/LhTnClXAtDqT72A/vI0XQfq5au+mQ7mgQbPfTIynlNkNQZfpOFDDLUHWTajoA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:11.971Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yuanbaoerer/dsh-decision-split/4a330fbed3ebe669bb69c06c25e4a7cebeb5a2e1/docs/dsh-decision-split.png
+    alt: dsh-decision-split 效果图
