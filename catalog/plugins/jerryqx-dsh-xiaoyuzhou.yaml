@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jerryqx-dsh-xiaoyuzhou
+name: dsh-xiaoyuzhou
+description:
+  en: bash dsh plugin --profile web add dsh-xiaoyuzhou
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - xiaoyuzhou
+  - podcast
+  - player
+source:
+  repository: https://github.com/jerryqx/dsh-xiaoyuzhou
+  repositoryNodeId: R_kgDOUEcS5A
+  subpath: null
+  commit: ac6a2defc85d4379a38f6b0406b2d4d171cc3627
+creator:
+  github: jerryqx
+package:
+  ecosystem: npm
+  name: dsh-xiaoyuzhou
+  version: 0.2.4
+  integrity: sha512-kUWRhNAg9da3D+7+/dj4HZkHBNWTsUxjLdVmulnKlfzJ9Uy1eGZryxr/r/fclKfie8BeeM1Uperfzl3dlJ6XTg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:46.484Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-xiaoyuzhou/ac6a2defc85d4379a38f6b0406b2d4d171cc3627/assets/screenshot-bar.png
+    alt: 正在播放条
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-xiaoyuzhou/ac6a2defc85d4379a38f6b0406b2d4d171cc3627/assets/screenshot-mysubs.png
+    alt: 我的订阅
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/jerryqx/dsh-xiaoyuzhou/ac6a2defc85d4379a38f6b0406b2d4d171cc3627/assets/screenshot-podcast.png
+    alt: 节目详情与单集列表
