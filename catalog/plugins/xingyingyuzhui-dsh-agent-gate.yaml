@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-gate
+name: dsh-agent-gate
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-agent-gate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - permissions
+  - gate
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-gate
+  repositoryNodeId: R_kgDOT8IOHw
+  subpath: null
+  commit: 495f5a4d9c3a62ad364358313d3457643de7ba33
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.339Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
