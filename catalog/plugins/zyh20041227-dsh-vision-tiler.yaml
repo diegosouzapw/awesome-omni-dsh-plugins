@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zyh20041227-dsh-vision-tiler
+name: dsh-vision-tiler
+description:
+  en: Loss-aware, full-coverage image tiling for DeepSeek Harness vision models
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - vision
+  - ocr
+  - document-ai
+  - image-tiling
+  - dsh
+source:
+  repository: https://github.com/zyh20041227/improved_vision_for_deepseek
+  repositoryNodeId: R_kgDOUA2mUg
+  subpath: null
+  commit: cbcf80280074082e7299daddeeaa1542385e372c
+creator:
+  github: zyh20041227
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:04.619Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zyh20041227/improved_vision_for_deepseek/cbcf80280074082e7299daddeeaa1542385e372c/assets/benchmark-comparison.png
+    alt: Dense-text benchmark comparison
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zyh20041227/improved_vision_for_deepseek/cbcf80280074082e7299daddeeaa1542385e372c/assets/dsh-web-installed-v0.2.3.png
+    alt: DSH Web showing Vision Tiler enabled
