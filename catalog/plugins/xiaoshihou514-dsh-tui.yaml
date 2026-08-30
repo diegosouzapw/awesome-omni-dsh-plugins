@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: xiaoshihou514-dsh-tui
+name: dsh-tui
+description:
+  en: An interactive terminal surface for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - terminal
+  - tui
+  - agent
+  - dsh
+source:
+  repository: https://github.com/xiaoshihou514/dsh-tui
+  repositoryNodeId: R_kgDOT3ewXQ
+  subpath: null
+  commit: 8b58105741f7e5400724393fcaa1b9640a31fe89
+creator:
+  github: xiaoshihou514
+package:
+  ecosystem: npm
+  name: dsh-tui
+  version: 0.1.0
+  integrity: sha512-cRw5vW54Wk/2naNosQwXsnN2Ybe4pM1Oi6ZPLxriawbLuwQcaXip9xzyGQwapzpqsgpau0GemSKqh0OYgwmgfA==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:20.215Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoshihou514/dsh-tui/8b58105741f7e5400724393fcaa1b9640a31fe89/assets/logo.png
+    alt: dsh-tui logo
