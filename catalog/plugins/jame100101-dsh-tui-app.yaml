@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: jame100101-dsh-tui-app
+name: "@deepseek-ai/dsh-tui-app"
+description:
+  en: "The dsh terminal-surface bundle: a thin patch layer over dsh-base mounting the in-process TUI"
+  evidencePath: packages/bundle/tui-app/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - terminal
+  - surface
+  - bundle
+  - thin
+  - patch
+  - layer
+  - over
+  - base
+  - mounting
+  - process
+  - dsh
+source:
+  repository: https://github.com/jame100101/dsh-terminal-ui
+  repositoryNodeId: R_kgDOT5NAhQ
+  subpath: packages/bundle/tui-app
+  commit: a1d8ee0a1e949d5b9bcd6da946f7d89786808c44
+creator:
+  github: jame100101
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/bundle/tui-app/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:28.846Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
