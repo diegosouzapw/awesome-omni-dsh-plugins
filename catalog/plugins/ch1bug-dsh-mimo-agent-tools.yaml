@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ch1bug-dsh-mimo-agent-tools
+name: dsh-mimo-agent-tools
+description:
+  en: "Xiaomi MiMo search + multimodal tools for DSH agents: mimo search/vision/audio/video/asr/tts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - xiaomi
+  - mimo
+  - search
+  - multimodal
+  - tools
+  - agents
+  - vision
+  - audio
+  - video
+  - dsh
+source:
+  repository: https://github.com/ch1bug/dsh-mimo-agent-tools
+  repositoryNodeId: R_kgDOT4AjGw
+  subpath: null
+  commit: 38d860417dbad9ade4d88c959ac79e069085ca82
+creator:
+  github: ch1bug
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:52.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
