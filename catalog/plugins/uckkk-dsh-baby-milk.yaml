@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-baby-milk
+name: dsh-baby-milk
+description:
+  en: bash dsh plugin add github:uckkk/dsh-baby-milk
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-baby-milk
+source:
+  repository: https://github.com/uckkk/dsh-baby-milk
+  repositoryNodeId: R_kgDOT-Dmng
+  subpath: null
+  commit: f3eb1b61f5ea95b2da53f359bf30c370b1d9be84
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:34.218Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
