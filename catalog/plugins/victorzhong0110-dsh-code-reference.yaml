@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: victorzhong0110-dsh-code-reference
+name: dsh-code-reference
+description:
+  en: 'json { "allowedLicenses": ["MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "MPL-2.0", "Unlicense", "0BSD"], "blockedLanguages": [], "requireTests": false, "minCommentRatio": 0, "reuseMode": "ask", "remoteSearch": true }'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - code-reference
+  - code-reuse
+  - reuse
+source:
+  repository: https://github.com/victorzhong0110/dsh-code-reference
+  repositoryNodeId: R_kgDOT4eSkw
+  subpath: null
+  commit: 2a2f0f1496a83034723c429866760a796720370e
+creator:
+  github: victorzhong0110
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:29.061Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
