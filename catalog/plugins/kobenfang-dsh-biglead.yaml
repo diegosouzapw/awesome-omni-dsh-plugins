@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-biglead
+name: "@kobenfang/dsh-biglead"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): biglead."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - biglead
+  - dsh
+source:
+  repository: https://github.com/kobenfang/BigLead
+  repositoryNodeId: R_kgDOT62Zuw
+  subpath: null
+  commit: 009ee339a8f1dc7b698924f91893ec6f4a0acc7e
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:41.342Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
