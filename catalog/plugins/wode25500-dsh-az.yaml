@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wode25500-dsh-az
+name: dsh-az
+description:
+  en: "Azure CLI integration for DeepSeek Harness: manage Azure resources, query ARM, deploy and diagnose through native tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - azure
+  - az-cli
+  - cloud
+  - microsoft
+source:
+  repository: https://github.com/WODE25500/dsh-az
+  repositoryNodeId: R_kgDOT-CECg
+  subpath: null
+  commit: eea989303b8c98d1a524e7f56ee49f3c65827e54
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:36.887Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
