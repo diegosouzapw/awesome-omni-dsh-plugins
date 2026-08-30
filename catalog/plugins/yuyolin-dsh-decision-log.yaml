@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yuyolin-dsh-decision-log
+name: dsh-decision-log
+description:
+  en: Auto-capture key decisions from dsh sessions into a versionable DECISIONS.md and inject them into future sessions
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - decision
+  - decision-log
+  - adr
+  - documentation
+source:
+  repository: https://github.com/yuyolin/dsh-decision-log
+  repositoryNodeId: R_kgDOUCcYjw
+  subpath: null
+  commit: cb81668adfe1065c9f3a43160e8b9c0708757665
+creator:
+  github: yuyolin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:53.233Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
