@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wenzetan-dsh-llm-newapi
+name: dsh-llm-newapi
+description:
+  en: "NewAPI (OpenAI-compatible gateway) chat-completions adapter for the DeepSeek Harness LLM seam. Provider route id 'newapi', display name 'NewAPI'. Dual-face: host half registers the LLM adapter and chat-only model discovery; browser half adds a NewAPI settings section to dsh web. The API key is configured on the web set"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - newapi
+  - llm
+  - provider
+  - openai-compatible
+source:
+  repository: https://github.com/wenzetan/dsh-llm-newapi
+  repositoryNodeId: R_kgDOT4h9Ug
+  subpath: null
+  commit: ff24e65bba30df09360fb28c7c11c3e06567fcc9
+creator:
+  github: wenzetan
+package:
+  ecosystem: npm
+  name: dsh-llm-newapi
+  version: 0.8.3
+  integrity: sha512-c8QI+tap0Lf/sz+uNNPyt5Te6u2lPT4IYIUwmqQrS5C+rzocO8y3aEFY0KLTtr+z46eBsXcWM9CnY2nok5CvLQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:24.939Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
