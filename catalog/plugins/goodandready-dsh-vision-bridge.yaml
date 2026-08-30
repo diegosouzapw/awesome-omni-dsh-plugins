@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: goodandready-dsh-vision-bridge
+name: "@goodandready/dsh-vision-bridge"
+description:
+  en: "Universal vision bridge for DeepSeek Harness: pick how images are processed — auto-rewrite via a vision LLM, explicit tools, or hybrid. Multi-channel endpoint (DSH catalog / OpenAI-compatible / Ollama / custom), LRU description cache, settings card with channels editor and test button."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - vision
+  - vision-model
+  - image
+  - multimodal
+  - text-to-image
+source:
+  repository: https://github.com/GooDAnDReaDY/dsh-vision-bridge
+  repositoryNodeId: R_kgDOT8LL1Q
+  subpath: null
+  commit: 37656f0cb032fd9879318570515f4d317cb73ba0
+creator:
+  github: GooDAnDReaDY
+package:
+  ecosystem: npm
+  name: "@goodandready/dsh-vision-bridge"
+  version: 0.4.0
+  integrity: sha512-CxjGmv95wJKd0deC39ErozmrnekUHyfsazK6CYzv9aM5jfpn8pE2tTX58VuTR/3/EF3LrgzLZ1AEa3yZpHgQ/w==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:10.844Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
