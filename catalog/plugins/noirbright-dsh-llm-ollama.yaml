@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: noirbright-dsh-llm-ollama
+name: dsh-llm-ollama
+description:
+  en: Ollama Cloud models, OpenAI-compatible chat, and Web Search/Fetch for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - ollama
+  - cloud
+  - models
+  - openai
+  - compatible
+  - chat
+  - search
+  - fetch
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-llm-ollama
+  repositoryNodeId: R_kgDOT449zA
+  subpath: null
+  commit: 6f59423885ff2f082c91c3746eac2b51d1b41c89
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:48.807Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-ollama/6f59423885ff2f082c91c3746eac2b51d1b41c89/docs/images/ollama-cloud-usage.png
+    alt: Ollama Cloud connection and usage
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/NOirBRight/dsh-llm-ollama/6f59423885ff2f082c91c3746eac2b51d1b41c89/docs/images/ollama-model-catalog.png
+    alt: Ollama Cloud sortable model catalog
