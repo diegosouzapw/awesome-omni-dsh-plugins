@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: sakikotgw-pack-agent-dsh
+name: "@sakikotgw/pack-agent-dsh"
+description:
+  en: "DeepSeek Harness plugin: project Agent Modpacks into .agent-pack/modpacks and allow them"
+  evidencePath: agent-pack-dsh/plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-modpack
+  - pack-agent
+  - dsh
+source:
+  repository: https://github.com/sakikoTGW/pack-agent
+  repositoryNodeId: R_kgDOTEJVkg
+  subpath: agent-pack-dsh/plugin
+  commit: 4c929ead1d937661d58e13a553f047678a9534e2
+creator:
+  github: sakikoTGW
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: agent-pack-dsh/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:13.602Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
