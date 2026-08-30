@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yihefeikong-rgb-dsh-dream
+name: dsh-dream
+description:
+  en: powershell dsh plugin --profile web add C:\Users\huangxinyang\.dsh\plugins\dsh-dream dsh plugin --profile web add D:\claude\...\dsh-dream
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - powershell
+  - profile
+  - users
+  - huangxinyang
+  - dream
+  - claude
+  - dsh
+source:
+  repository: https://github.com/yihefeikong-rgb/dsh-cc-haha-dream
+  repositoryNodeId: R_kgDOT-tCUA
+  subpath: null
+  commit: b8b3277e94ea7c57cd8e990010cc9614b0f98abb
+creator:
+  github: yihefeikong-rgb
+package:
+  ecosystem: npm
+  name: dsh-dream
+  version: 0.1.0
+  integrity: sha512-1Da6A0CIhAIuGB7RzaPACr93ba1GORGQqCSEmSxxutorN0o8sWTbMIgnGgKEadQ0j8uECXcV1yuGcUCUP+jEYg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:23.936Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
