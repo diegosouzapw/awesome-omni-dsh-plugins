@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: kidli1412-dsh-token-heatmap
+name: "@kidli1412/dsh-token-heatmap"
+description:
+  en: "DSH web plugin: GitHub-style daily token-usage heatmap on the new-session screen with a selectable calendar-year view, green/blue color schemes and a display switch (设置 → 插件 → 插件配置), plus today / this-month / all-time totals."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - token
+  - usage
+  - heatmap
+source:
+  repository: https://github.com/KIDLi1412/dsh-token-heatmap
+  repositoryNodeId: R_kgDOT5vylg
+  subpath: null
+  commit: 33cf375c95f40ad9951378ad93ac387a9d8c9706
+creator:
+  github: KIDLi1412
+package:
+  ecosystem: npm
+  name: "@kidli1412/dsh-token-heatmap"
+  version: 0.1.2
+  integrity: sha512-HgeXzLl3332eDl0nni0Yi6DxkAC0oaZT0XQ8b4+b5Pu5+ZgwauVP1PWokOWNTOLvzjcyJCwognV8LAAijza09A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:40.702Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
