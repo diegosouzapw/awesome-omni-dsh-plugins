@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: seetraum-dsh-session-recycle-bin
+name: dsh-session-recycle-bin
+description:
+  en: Session recycle bin & permanent delete for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - session
+  - trash
+  - recycle-bin
+  - session-management
+source:
+  repository: https://github.com/Seetraum/harness-session-delete
+  repositoryNodeId: R_kgDOUDOxHA
+  subpath: null
+  commit: 930170eabfbea1217eb5a3c1561db00367c4824c
+creator:
+  github: Seetraum
+package:
+  ecosystem: npm
+  name: dsh-session-recycle-bin
+  version: 0.2.1
+  integrity: sha512-3JbkdPdFrMDFTywvR7d03IJ94aIeTIaE3PQN2vgn/8ILOTKQn3q5AtiQEX49I5JpFge+7fmz782CzcqNolQWvQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:56.214Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
