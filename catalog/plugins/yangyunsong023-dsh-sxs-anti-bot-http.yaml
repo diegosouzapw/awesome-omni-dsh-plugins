@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yangyunsong023-dsh-sxs-anti-bot-http
+name: dsh-sxs-anti-bot-http
+description:
+  en: "Anti-bot HTTP fetch tools for DeepSeek Harness: UA pool rotation, retry with exponential backoff, anti-bot wall detection, and adaptive rate limiting."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - anti-bot
+  - crawler
+  - rate-limit
+source:
+  repository: https://github.com/yangyunsong023/dsh-sxs-anti-bot-http
+  repositoryNodeId: R_kgDOT51xBA
+  subpath: null
+  commit: 5a956bf01da88fef35ae689d21feeded60c75261
+creator:
+  github: yangyunsong023
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:18.135Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
