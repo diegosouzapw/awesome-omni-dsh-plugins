@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: chenbin-dev-dsh-scan-mcp
+name: dsh-scan-mcp
+description:
+  en: "Windows MCP Hub for DeepSeek Harness: scan MCP servers configured in Claude Code / Codex / CodeBuddy, probe real connectivity via stdio & streamable-http initialize handshakes, enable/disable from a /mcp popup panel or the settings page."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - model-context-protocol
+  - windows
+  - claude-code
+  - codex
+  - codebuddy
+  - dsh
+source:
+  repository: https://github.com/chenbin-dev/dsh-scan-mcp
+  repositoryNodeId: R_kgDOUBSNlg
+  subpath: null
+  commit: 5010ce4df9e96841dfb61701e4683e09a35e536a
+creator:
+  github: chenbin-dev
+package:
+  ecosystem: npm
+  name: dsh-scan-mcp
+  version: 0.1.1
+  integrity: sha512-uSv/OTMBClslhfjSEQR7yBZsQPqGYr/odTOiYEW9CCgtML4z+TMZz26VMcnZ1V16dok0IZJb48+ne2ZuY9L2WA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:01.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
