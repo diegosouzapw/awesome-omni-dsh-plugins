@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: dsh-admin-dsh-drop-any-file
+name: dsh-drop-any-file
+description:
+  en: "Extend the DeepSeek Harness (DSH) web chat drag-and-drop to accept every file type: dropping any file in the composer saves it into the current session's workspace so the agent can read and use it."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - drag-drop
+  - file-upload
+  - workspace
+  - attachment
+source:
+  repository: https://github.com/Zenjibad/dsh-drop-any-file
+  repositoryNodeId: R_kgDOT8aZcQ
+  subpath: null
+  commit: a7bfde698e0d8495616c9f0eed750e3cec601408
+creator:
+  github: DSH-Admin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:07.360Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
