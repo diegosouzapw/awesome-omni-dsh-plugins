@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-audio-bitrate
+name: dsh-audio-bitrate
+description:
+  en: bash dsh plugin add github:uckkk/dsh-audio-bitrate
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-audio-bitrate
+source:
+  repository: https://github.com/uckkk/dsh-audio-bitrate
+  repositoryNodeId: R_kgDOT-yE9g
+  subpath: null
+  commit: fb602363a77d0113187f35371eb32b9ab141ae9a
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:34.123Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
