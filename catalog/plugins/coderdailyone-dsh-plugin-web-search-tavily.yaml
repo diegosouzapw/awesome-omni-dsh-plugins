@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: coderdailyone-dsh-plugin-web-search-tavily
+name: dsh-plugin-web-search-tavily
+description:
+  en: "Tavily search provider bundle for DeepSeek Harness (dsh): registers a WebSearchProvider into ctx.web"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - tavily
+  - web-search
+  - agent
+source:
+  repository: https://github.com/coderdailyone/dsh-plugin-web-search-tavily
+  repositoryNodeId: R_kgDOT4m41Q
+  subpath: null
+  commit: e307834e4f59c61f5019e28403f4d01115b06b90
+creator:
+  github: coderdailyone
+package:
+  ecosystem: npm
+  name: dsh-plugin-web-search-tavily
+  version: 0.1.2
+  integrity: sha512-nCWXb/q5neG46YM5IqemdwGgXvgnRQDc7FL57bYaj62BHrhoy8RBXAf+Nb88oa6+Sw675jr7eCDBhLonjtksMA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:02.836Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
