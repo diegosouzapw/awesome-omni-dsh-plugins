@@ -1,0 +1,39 @@
+schemaVersion: 1
+id: lsz-asd-dsh-plugin-device-info
+name: "@huanlin/dsh-plugin-device-info"
+description:
+  en: DSH plugin exposing Windows device information tools — one tool per Win32 device category (time, system, cpu, memory, disk, gpu, network, battery, processes, usb, audio, printers). Read-only WMI/CIM + Node os collectors.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - dsh
+source:
+  repository: https://github.com/lsz-asd/dsh-plugin-device-info
+  repositoryNodeId: R_kgDOT4Ooog
+  subpath: null
+  commit: cca8aec573c99f1ff78df6d0214bd22232fb958c
+creator:
+  github: lsz-asd
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: AGPL-3.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:44.180Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
