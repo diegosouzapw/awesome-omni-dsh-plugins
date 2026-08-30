@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zoahdev-dsh-zh
+name: dsh-zh
+description:
+  en: "Chinese-thinking system-prompt section for DeepSeek Harness: make your dsh agent think and answer in simplified Chinese (code/commands stay verbatim)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - chinese
+  - i18n
+  - system-prompt
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-zh
+  repositoryNodeId: R_kgDOT6-7sQ
+  subpath: null
+  commit: 19d48a66c540e7185204cd96b7f724888bf3bb7d
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-zh
+  version: 0.1.0
+  integrity: sha512-nC8Ba9qSsN7KNUcEVgHD4rSA3Oj56ViFHfRyje3r9jtFr3UwAH+X9ok4TwUg7FGL6jA6LZMCQY5eJ8iH1+rSxw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:52.209Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
