@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zaiwenj-dsh-cdp-browser
+name: dsh-cdp-browser
+description:
+  en: "Zero-spawn browser automation + pixel-level visual verification as a DeepSeek Harness plugin. Drives an already-running Chrome/Edge over CDP using Node built-ins only: global fetch + global WebSocket (Node ≥ 22) + zlib PNG decode. No child process , no npm dependencies, no per-use approval."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cdp
+  - browser
+  - screenshot
+  - visual-testing
+  - pixel-assertion
+  - chrome
+  - edge
+source:
+  repository: https://github.com/zaiwenJ/dsh-cdp-browser
+  repositoryNodeId: R_kgDOT5z1wA
+  subpath: null
+  commit: caecd3bded2ea29fd6258ef7e667f14d0c8444eb
+creator:
+  github: zaiwenJ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:01.365Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
