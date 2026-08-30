@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: ricketts-guo-dsh-shortcuts
+name: dsh-shortcuts
+description:
+  en: Fully customizable keyboard shortcuts for the DeepSeek Harness WebUI — macOS-first defaults, 34 pre-registered features across session/view/clipboard/model/permission/system groups, one-click recording to add your own bindings, silent permission cycling with color feedback.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - keyboard-shortcuts
+  - hotkeys
+  - web-ui
+  - productivity
+source:
+  repository: https://github.com/Ricketts-Guo/dsh-shortcuts
+  repositoryNodeId: R_kgDOT5CxbQ
+  subpath: null
+  commit: bf392410868c9686ed3292d2c2272469da3a3293
+creator:
+  github: Ricketts-Guo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:50.370Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
