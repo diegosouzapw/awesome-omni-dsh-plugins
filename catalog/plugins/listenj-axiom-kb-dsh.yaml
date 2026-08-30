@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: listenj-axiom-kb-dsh
+name: axiom-kb-dsh
+description:
+  en: "Axiom Knowledge Base (KB) as a DeepSeek Harness (dsh) plugin: bridges the Vault memory (memory ) and knowledge-graph (kg /kal /dip ) tools into dsh under the kb prefix. Bundles its own memory + KG backend; no web-search tools."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - knowledge-base
+  - memory
+  - knowledge-graph
+  - mcp
+source:
+  repository: https://github.com/ListenJ/axiom-kb-dsh
+  repositoryNodeId: R_kgDOT8_VLw
+  subpath: null
+  commit: 7f9047f4b9c41eeaec67fb68dc53c8c8a9672eea
+creator:
+  github: ListenJ
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:50.989Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
