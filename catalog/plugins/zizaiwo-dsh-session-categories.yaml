@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zizaiwo-dsh-session-categories
+name: "@zizaiwo/dsh-session-categories"
+description:
+  en: Organize DeepSeek Harness (dsh) sidebar sessions into custom category folders. dsh 侧边栏会话分类插件。
+  evidencePath: dsh-session-categories/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - categories
+  - workspace
+  - sidebar
+  - dsh-plugin
+source:
+  repository: https://github.com/zizaiwo/dsh_plugins
+  repositoryNodeId: R_kgDOUAd86A
+  subpath: dsh-session-categories
+  commit: 2b4be364f874b954ad00e6549c7ad6a1aa0c5771
+creator:
+  github: zizaiwo
+package:
+  ecosystem: npm
+  name: "@zizaiwo/dsh-session-categories"
+  version: 0.1.3
+  integrity: sha512-9MUYb4edOS8lbMKItUarVAMb7THL3G20Yg5LeFNyniTlTLZU4kzIJKlZdp5EwBTbgFKIgxLrHRjbKPFUfWo4Kg==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-session-categories/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:09.839Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
