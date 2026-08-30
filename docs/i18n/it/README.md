@@ -16,7 +16,7 @@ Scoperta orientata ai creatori e installazione con un solo comando per i plugin 
   <a href="https://dsh-plugins.omniroute.online">Sfoglia, cerca e installa ogni plugin sul sito →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3147_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ dati pubblici del catalogo, lo schema e le policy che essi consumano.
 
 ## Stato del catalogo
 
-**3147 plugin uniti.** Ogni plugin entra tramite una pull request revisionata individualmente, una
+**3238 plugin uniti.** Ogni plugin entra tramite una pull request revisionata individualmente, una
 alla volta, dal repository originale del creatore, con un commit sorgente fissato e attribuzione
 esplicita.
 
@@ -341,4 +341,4 @@ originali. Vedi [docs/CREDIT.md](../../docs/CREDIT.md) e [docs/UNOFFICIAL.md](..
 
 </div>
 
-<!-- i18n-source-hash: be68af18c6424c8a31de4086a1c9cae60cba45fb13f742d22c3dd5df1a238b8a -->
+<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->

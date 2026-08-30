@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">वेबसाइटवर प्रत्येक प्लगइन ब्राउझ करा, शोधा आणि इंस्टॉल करा →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3147_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -120,7 +120,7 @@ YAML फाइल आहे, प्रकाशित JSON स्कीमा �
 
 ## कॅटलॉगची स्थिती
 
-**3147 प्लगइन विलीन झाले.** प्रत्येक प्लगइन एका स्वतंत्रपणे पुनरावलोकन केलेल्या पुल रिक्वेस्टद्वारे,
+**3238 प्लगइन विलीन झाले.** प्रत्येक प्लगइन एका स्वतंत्रपणे पुनरावलोकन केलेल्या पुल रिक्वेस्टद्वारे,
 एका वेळी एक, मूळ निर्मात्याच्या रिपॉझिटरीमधून, निश्चित केलेल्या सोर्स कमिटसह आणि स्पष्ट श्रेयासह
 दाखल होतो.
 
@@ -337,4 +337,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: be68af18c6424c8a31de4086a1c9cae60cba45fb13f742d22c3dd5df1a238b8a -->
+<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->
