@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: hellosky983-dsh-qrcode
+name: dsh-qrcode
+description:
+  en: "Offline QR code generator for DeepSeek Harness (dsh): pure-JS, no network, no shell, cross-platform. Model tools (qrcode + barcode) with SVG/PNG/ASCII output."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - qrcode
+  - barcode
+  - code128
+  - ean13
+source:
+  repository: https://github.com/hellosky983/dsh-qrcode
+  repositoryNodeId: R_kgDOT3_z8g
+  subpath: null
+  commit: d0fcd706cf2e6f9bdc6b5b873fe374d898840359
+creator:
+  github: hellosky983
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:00.854Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
