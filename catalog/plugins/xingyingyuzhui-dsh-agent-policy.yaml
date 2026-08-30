@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: xingyingyuzhui-dsh-agent-policy
+name: dsh-agent-policy
+description:
+  en: sh dsh plugin --profile web add github:xingyingyuzhui/dsh-agent-policy
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agent
+  - policy
+source:
+  repository: https://github.com/xingyingyuzhui/dsh-agent-policy
+  repositoryNodeId: R_kgDOT8INFg
+  subpath: null
+  commit: f4983d2870553c0ac06f847f3fc69ed1430690e3
+creator:
+  github: xingyingyuzhui
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:32.938Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
