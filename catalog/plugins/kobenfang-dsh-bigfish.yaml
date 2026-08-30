@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-bigfish
+name: "@kobenfang/dsh-bigfish"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): bigfish."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - bigfish
+  - dsh
+source:
+  repository: https://github.com/kobenfang/BigFish
+  repositoryNodeId: R_kgDOT62Y9w
+  subpath: null
+  commit: 01f9e841b91e4ebc939afa6b342461093ef12b83
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:40.972Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
