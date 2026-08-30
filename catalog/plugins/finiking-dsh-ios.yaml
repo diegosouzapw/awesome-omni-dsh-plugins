@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: finiking-dsh-ios
+name: "@zseven-w/dsh-ios"
+description:
+  en: DeepSeek Harness plugin for the iOS Simulator — build, run, and interact with a live simulator stream inside a conversation. Tested with DSH 0.1.1-rc.1.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - simulator
+  - ios-simulator
+  - ios
+source:
+  repository: https://github.com/ZSeven-W/dsh-ios
+  repositoryNodeId: R_kgDOT9z7Ug
+  subpath: null
+  commit: 9e3b600ba556baf64bbe74ebf39fa1b2ce30545c
+creator:
+  github: finiking
+package:
+  ecosystem: npm
+  name: "@zseven-w/dsh-ios"
+  version: 0.1.0-rc.5
+  integrity: sha512-ZAeHkTmm/YpCDc+tGOgj6fAZaGJ6sQkV8q1HaJDV8OLKixtmj+FuNX/DSNOyNduORmwzg5zF/MMuGSq7yijNVw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 268
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZSeven-W/dsh-ios/9e3b600ba556baf64bbe74ebf39fa1b2ce30545c/docs/images/dsh-ios-logo.png
+    alt: DSH iOS
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZSeven-W/dsh-ios/9e3b600ba556baf64bbe74ebf39fa1b2ce30545c/docs/images/dsh-ios-overview.png
+    alt: DSH iOS Simulator — a real iPhone inside the conversation
