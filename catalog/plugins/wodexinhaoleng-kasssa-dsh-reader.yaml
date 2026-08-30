@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wodexinhaoleng-kasssa-dsh-reader
+name: "@wodexinhaoleng-kasssa/dsh-reader"
+description:
+  en: bash node scripts/test-sources.mjs 雪中悍刀行
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - bash
+  - node
+  - scripts
+  - test
+  - sources
+  - dsh
+source:
+  repository: https://github.com/Wodexinhaoleng-Kasssa/dsh-reader
+  repositoryNodeId: R_kgDOUAUa0Q
+  subpath: null
+  commit: ff8a16c4af82ed1a0dd643bf3d4bb9d88f167fa6
+creator:
+  github: Wodexinhaoleng-Kasssa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:29.429Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
