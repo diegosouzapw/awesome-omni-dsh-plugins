@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wuxiangru915-dsh-session-navigator
+name: "@dsh-plugin/dsh-session-navigator"
+description:
+  en: Session navigation minimap & outline for DeepSeek Harness web UI (Google AI Studio style side navigation) · DSH 会话导航插件：仿 Google AI Studio 侧边 Minimap、问题刻度与悬浮预览
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - session-navigator
+  - minimap
+  - ai-studio
+source:
+  repository: https://github.com/wuxiangru915/dsh-session-navigator
+  repositoryNodeId: R_kgDOT_kVBA
+  subpath: null
+  commit: d3710670fa97c2e957ccbf7957408b8e8ce8eeff
+creator:
+  github: wuxiangru915
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:38.608Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wuxiangru915/dsh-session-navigator/d3710670fa97c2e957ccbf7957408b8e8ce8eeff/assets/session-navigator.png
+    alt: Session navigator
