@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yukiykchen-dsh-scan-remote
+name: "@yukiykchen/dsh-scan-remote"
+description:
+  en: Passwordless QR remote access plugin for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - remote-access
+  - dsh
+source:
+  repository: https://github.com/yukiykchen/dsh-scan-remote
+  repositoryNodeId: R_kgDOUCJOyQ
+  subpath: null
+  commit: ba18aaff97c51516497bbc73971ca696fc1ea3bc
+creator:
+  github: yukiykchen
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:33.987Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
