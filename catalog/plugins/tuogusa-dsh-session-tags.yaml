@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: tuogusa-dsh-session-tags
+name: dsh-session-tags
+description:
+  en: bash dsh plugin --profile web add github:tuogusa/dsh-session-tags
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bash
+  - profile
+  - tuogusa
+  - session
+  - tags
+  - dsh
+source:
+  repository: https://github.com/tuogusa/dsh-session-tags
+  repositoryNodeId: R_kgDOT4pjaw
+  subpath: null
+  commit: 4ef4858916ae28fd3caa8c322116bb344396051a
+creator:
+  github: tuogusa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:06.909Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
