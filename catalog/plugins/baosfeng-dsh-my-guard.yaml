@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: baosfeng-dsh-my-guard
+name: dsh-my-guard
+description:
+  en: bash git clone https://github.com/baosfeng/my-dsh-plugins.git dsh plugin --profile web add link:<仓库路径 /plugins/dsh-my-guard
+  evidencePath: plugins/dsh-my-guard/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - bash
+  - clone
+  - baosfeng
+  - profile
+  - link
+  - guard
+  - dsh
+source:
+  repository: https://github.com/baosfeng/my-dsh-plugins
+  repositoryNodeId: R_kgDOUAMi7w
+  subpath: plugins/dsh-my-guard
+  commit: 1b8db2b39e88bd6da13b645c9354df8c2af1d3c7
+creator:
+  github: baosfeng
+package:
+  ecosystem: npm
+  name: dsh-my-guard
+  version: 0.1.0
+  integrity: sha512-6y8U+BPviNZpdPXzdTf64JyCOGDbxJRZ4kg4f3/RgZwJ2mlvLR7M026Mj/4jrY12wbfPEVp+7abpinh7xci6yQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-my-guard/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:14.279Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
