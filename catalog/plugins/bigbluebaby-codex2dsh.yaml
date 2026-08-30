@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: bigbluebaby-codex2dsh
+name: codex2dsh
+description:
+  en: Migrate your Codex (OpenAI Codex CLI / Desktop) MCP servers, skills, global instructions, memories and session history into DeepSeek Harness (DSH) — fully visual, no CLI required.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - codex
+  - codex-cli
+  - codex-desktop
+  - migration
+  - import
+  - session
+  - mcp
+  - skills
+  - agents
+  - config
+  - memory
+  - cli
+source:
+  repository: https://github.com/BigBlueBaby/codex2dsh
+  repositoryNodeId: R_kgDOUCeXFw
+  subpath: null
+  commit: 1718801d97b7140822122fa43699147a893b7b4a
+creator:
+  github: BigBlueBaby
+package:
+  ecosystem: npm
+  name: codex2dsh
+  version: 0.1.4
+  integrity: sha512-aaqvZ/DHHzcI2nr8c2DmKJUa4hY28465gG+6FasLxjkE4kmjufcpQtQjUrTAfmFHk2S/E/VlE00vMUwPvUF+kg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:13.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/BigBlueBaby/codex2dsh/1718801d97b7140822122fa43699147a893b7b4a/assets/screenshot-panel-top.png
+    alt: 插件首页
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/BigBlueBaby/codex2dsh/1718801d97b7140822122fa43699147a893b7b4a/assets/screenshot-panel-bottom.png
+    alt: 插件底页
