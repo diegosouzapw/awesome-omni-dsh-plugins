@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yxqfg-phone-lens
+name: phone-lens
+description:
+  en: "Phone camera → dsh session: pairing, MJPEG viewfinder, upload-to-attachment pipeline"
+  evidencePath: packages/phone-lens/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - phone
+  - camera
+  - session
+  - pairing
+  - mjpeg
+  - viewfinder
+  - upload
+  - attachment
+  - pipeline
+  - dsh
+source:
+  repository: https://github.com/yxqfg/phone-lens
+  repositoryNodeId: R_kgDOUA0Kvg
+  subpath: packages/phone-lens
+  commit: 1bc5f5f7fad29ac3c2351188b085b4b82aee81f5
+creator:
+  github: yxqfg
+package:
+  ecosystem: npm
+  name: phone-lens
+  version: 0.3.1
+  integrity: sha512-kotyhpAKM4zfHMSv4sqsvmf7SVPYxy46lKMs7JhCr+rmh5KIyUQB09vOP3snTr3R2qDsi5UH1yFtYtXLcwCoLg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/phone-lens/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:06.077Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
