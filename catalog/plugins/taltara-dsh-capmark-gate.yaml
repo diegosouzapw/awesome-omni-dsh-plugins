@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: taltara-dsh-capmark-gate
+name: dsh-capmark-gate
+description:
+  en: "Hold a DeepSeek Harness agent to a capmark capability manifest: mask its tools and judge every call."
+  evidencePath: packages/gate/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - cordis
+  - capabilities
+  - permissions
+  - security
+source:
+  repository: https://github.com/taltara/capmark
+  repositoryNodeId: R_kgDOT-ttkg
+  subpath: packages/gate
+  commit: dd113b436b5c263eeaa16517b250a2205f8d6081
+creator:
+  github: taltara
+package:
+  ecosystem: npm
+  name: dsh-capmark-gate
+  version: 0.3.1
+  integrity: sha512-k+NGf3+X9eXPzEZ8JGQLMwQhH/Q6npzPU8UW88/RL386a+BXmYbdNr1GN0EXCKiT9yBC/cStVlpbDAZKDWAesg==
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/gate/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:15.665Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
