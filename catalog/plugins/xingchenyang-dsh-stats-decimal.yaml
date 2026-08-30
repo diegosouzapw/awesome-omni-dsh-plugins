@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xingchenyang-dsh-stats-decimal
+name: dsh-stats-decimal
+description:
+  en: "DSH plugin: shadows the built-in conversation stats line with a decimal cache-hit percentage, and adds a per-currency (CNY/USD) cost row via a host-side pure projection plus a browser-fetched recharge balance row."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - shadows
+  - built
+  - conversation
+  - stats
+  - line
+  - decimal
+  - cache
+  - percentage
+  - adds
+  - currency
+  - cost
+  - host
+  - side
+  - pure
+  - projection
+  - plus
+source:
+  repository: https://github.com/xingchenyang/dsh-stats-decimal
+  repositoryNodeId: R_kgDOT_a5TQ
+  subpath: null
+  commit: 6ab67e26f192ccc618e2ff09e828135c86526750
+creator:
+  github: xingchenyang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:40.178Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
