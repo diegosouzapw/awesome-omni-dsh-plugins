@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: wssfk12138-dsh-damage-pulse
+name: dsh-damage-pulse
+description:
+  en: DeepSeek Harness balance monitor with a whale-girl companion and cache-aware damage animations for every token charge.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - token-monitor
+  - balance-monitor
+  - damage-animation
+  - cache-aware
+  - dsh
+source:
+  repository: https://github.com/wssfk12138/dsh-damage-pulse
+  repositoryNodeId: R_kgDOT6sftQ
+  subpath: null
+  commit: c6900219afdd13dfea178910e8d076c360e7bc97
+creator:
+  github: wssfk12138
+package:
+  ecosystem: npm
+  name: dsh-damage-pulse
+  version: 4.0.1
+  integrity: sha512-Oyzeyp0EPjGZc9U9pQtq8NlOs4r84A5u7zCp871oxq/qLmwVL8IBYu0QVE7A7xGQzrv3wvmPyY2Ytrmq4LAuBg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.903Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 143
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wssfk12138/dsh-damage-pulse/c6900219afdd13dfea178910e8d076c360e7bc97/docs/assets/dsh-damage-pulse-peak-valley-whale-poster.png
+    alt: dsh-damage-pulse 实时用量、鲸鱼娘、提醒规则、微信通知与安全更新功能总览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wssfk12138/dsh-damage-pulse/c6900219afdd13dfea178910e8d076c360e7bc97/docs/assets/readme/whale-girl-idle-bite-finger.png
+    alt: 鲸鱼娘啃手指待机原画
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wssfk12138/dsh-damage-pulse/c6900219afdd13dfea178910e8d076c360e7bc97/docs/assets/readme/whale-girl-critical-damage.png
+    alt: 鲸鱼娘严重扣费原画
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wssfk12138/dsh-damage-pulse/c6900219afdd13dfea178910e8d076c360e7bc97/docs/assets/readme/dsh-damage-pulse-wechat-live.jpg
+    alt: dsh-damage-pulse 通过 ClawBot 发送的微信通知实机截图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wssfk12138/dsh-damage-pulse/c6900219afdd13dfea178910e8d076c360e7bc97/docs/assets/fastaitoken-channel-models.png
+    alt: FastAiToken 支持的渠道与模型
