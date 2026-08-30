@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zhao1012-dsh-fix-duplicate-loader-id
+name: dsh-fix-duplicate-loader-id
+description:
+  en: "DSH skill: detect & fix duplicate loader entry id boot crashes - converts duplicate - insert: rows into id-targeted patches so dsh web / tui profiles boot reliably."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - cordis
+source:
+  repository: https://github.com/zhao1012/dsh-fix-duplicate-loader-id
+  repositoryNodeId: R_kgDOT9rYSQ
+  subpath: null
+  commit: 64f0d6fc80d03cb07b563abcfce66b8c8665aeaa
+creator:
+  github: zhao1012
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:56.713Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhao1012/dsh-fix-duplicate-loader-id/64f0d6fc80d03cb07b563abcfce66b8c8665aeaa/sponsor-qr.jpg
+    alt: 赞助收款码
