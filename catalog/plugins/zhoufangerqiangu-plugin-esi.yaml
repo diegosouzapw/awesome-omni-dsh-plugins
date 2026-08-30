@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: zhoufangerqiangu-plugin-esi
+name: "@dsh-esi/plugin-esi"
+description:
+  en: DSH plugin bridging EVE Online ESI API and SDE static data with a small always-visible tool surface plus on-demand endpoint materialization.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - bridging
+  - online
+  - static
+  - data
+  - small
+  - always
+  - visible
+  - tool
+  - surface
+  - plus
+  - demand
+  - endpoint
+  - materialization
+  - dsh
+source:
+  repository: https://github.com/ZhoufangErqiangu/dsh-esi
+  repositoryNodeId: R_kgDOT7W9kw
+  subpath: null
+  commit: 6a0285733bc1d10cd0e2b7bc6581f1721668f9b0
+creator:
+  github: ZhoufangErqiangu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:08.394Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
