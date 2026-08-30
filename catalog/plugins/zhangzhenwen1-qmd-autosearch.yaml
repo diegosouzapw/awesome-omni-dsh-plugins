@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zhangzhenwen1-qmd-autosearch
+name: qmd-autosearch
+description:
+  en: "DSH plugin: auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - qmd
+  - semantic-search
+  - mcp
+  - knowledge-base
+source:
+  repository: https://github.com/zhangzhenwen1/qmd-autosearch
+  repositoryNodeId: R_kgDOT5IUwg
+  subpath: null
+  commit: c3eebe32e9e7d8fe1a50ffc3190dffbcaa608c81
+creator:
+  github: zhangzhenwen1
+package:
+  ecosystem: npm
+  name: qmd-autosearch
+  version: 0.1.1
+  integrity: sha512-Cc57f7rBcRMqj3gc9yX/TiFQ8dqS3BrKSbLVVt3MujL8W5i2us2tNEjYerQKEdIRxfU9U/HDExbLbP1RjiCcgw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:02.232Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
