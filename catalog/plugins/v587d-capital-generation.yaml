@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: v587d-capital-generation
+name: capital-generation
+description:
+  en: "China A-share financial data MCP server for DeepSeek Harness: 11 fin data tools (quotes/K-lines/financials/calendar/special-data/announcements/EDB/reconcile/funds/indices) over THS (free official REST, primary) + AKShare (fallback) + Wind (authoritative/exclusive), with observable degradation and context-budget compres"
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - finance
+  - a-share
+  - china-stock
+source:
+  repository: https://github.com/v587d/capital-generation
+  repositoryNodeId: R_kgDOT52yiw
+  subpath: dsh-plugin
+  commit: 7f4fe3df32bfbec908567b4df169380fb27f3293
+creator:
+  github: v587d
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:41.973Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
