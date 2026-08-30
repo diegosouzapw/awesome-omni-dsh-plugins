@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zrui-c-dsh-minimal-first-turn
+name: dsh-minimal-first-turn
+description:
+  en: Minimal first-turn conditioning for DeepSeek Harness Web sessions, with a persistent UI toggle.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - agent
+  - prompt
+  - tools
+source:
+  repository: https://github.com/ZRui-C/dsh-minimal-first-turn
+  repositoryNodeId: R_kgDOT5ur2A
+  subpath: null
+  commit: 02aaf1f5f0c9a294c877fcc07b3e3abff1e5847f
+creator:
+  github: ZRui-C
+package:
+  ecosystem: npm
+  name: dsh-minimal-first-turn
+  version: 0.1.0
+  integrity: sha512-3KXGzg1FlVIdxEMvL8ItA2kjfhdNnQy9ZbdJaHjzuaIkpvLeIcCOUIWOPSjndtQ9APeGJhHI1+O/ZeS7OWBbmQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:59.991Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
