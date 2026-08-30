@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wingsky-1-dsh-provider-usage
+name: "@wingsky-1/dsh-provider-usage"
+description:
+  en: "DSH (DeepSeek Harness) Web GUI plugin: a generic multi-provider usage statistics framework (v2 adapter contract)."
+  evidencePath: packages/dsh-provider-usage/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - opencode
+  - usage
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-provider-usage
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-provider-usage"
+  version: 0.1.13
+  integrity: sha512-ONw7rTp8CTkZPCpXF2J592mFZN4GBWrgl5rLQh8BZeANja4MAFy8Dx6jEciwPgP9esNwpKgCo4wCQe2j1q9KeQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-provider-usage/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
