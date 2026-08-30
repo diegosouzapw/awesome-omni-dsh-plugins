@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ওয়েবসাইটে সব প্লাগইন ব্রাউজ, সার্চ এবং ইনস্টল করুন →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-2965_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3056_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -119,7 +119,7 @@
 
 ## ক্যাটালগের অবস্থা
 
-**২৯৬৫টি প্লাগইন মার্জ হয়েছে।** প্রতিটি প্লাগইন একটি করে, মূল নির্মাতার রিপোজিটরি থেকে, একটি পৃথকভাবে পর্যালোচিত পুল
+**৩০৫৬টি প্লাগইন মার্জ হয়েছে।** প্রতিটি প্লাগইন একটি করে, মূল নির্মাতার রিপোজিটরি থেকে, একটি পৃথকভাবে পর্যালোচিত পুল
 রিকোয়েস্টের মাধ্যমে, একটি পিন করা সোর্স কমিট এবং স্পষ্ট কৃতিত্ব-সহ প্রবেশ করে।
 
 ## 🚀 CLI ইনস্টল করুন
@@ -324,4 +324,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 0d62697b5022fb0bb623c2ebc2fec087aa3094e0f49db735b01a1e9a198a6b1d -->
+<!-- i18n-source-hash: 45b3715414f87e6d4c63aee309423c09d756f5a21a719e9e52ad4ed372986fd5 -->
