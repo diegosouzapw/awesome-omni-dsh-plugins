@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: zoahdev-dsh-pet-evolve
+name: dsh-pet-evolve
+description:
+  en: "The pet that grows with your DeepSeek Harness agent: stage evolution from real signals (verified rules, sessions, tool calls), agent-state mirroring, and one-click growth share cards."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - pet
+  - agent
+  - evolution
+  - gamification
+  - dsh
+source:
+  repository: https://github.com/zoahdev/dsh-pet-evolve
+  repositoryNodeId: R_kgDOT5S-CQ
+  subpath: null
+  commit: ca52329bbf09ab817a4b016f0fec772bd2aef37c
+creator:
+  github: zoahdev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:05.270Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
