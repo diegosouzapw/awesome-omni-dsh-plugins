@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-brunei
+name: dsh-brunei
+description:
+  en: bash dsh plugin add github:uckkk/dsh-brunei
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-brunei
+source:
+  repository: https://github.com/uckkk/dsh-brunei
+  repositoryNodeId: R_kgDOT-5l9g
+  subpath: null
+  commit: 34f0f2c7de30510ed012b7f818ca2bbdb7072490
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:10.284Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
