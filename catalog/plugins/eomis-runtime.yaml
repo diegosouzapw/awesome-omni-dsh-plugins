@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: eomis-runtime
+name: "@packhub/runtime"
+description:
+  en: "- DSH Desktop：2.0.2 - DeepSeek Harness：0.1.1-rc.2"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - template
+source:
+  repository: https://github.com/eomis/packhub-workbench-assistant
+  repositoryNodeId: R_kgDOUBjbMg
+  subpath: null
+  commit: 3aaf326df60ae733a23578d6edd5d490eca1a9ee
+creator:
+  github: eomis
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:04.336Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
