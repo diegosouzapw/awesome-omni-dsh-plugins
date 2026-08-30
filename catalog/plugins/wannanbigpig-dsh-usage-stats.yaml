@@ -1,0 +1,65 @@
+schemaVersion: 1
+id: wannanbigpig-dsh-usage-stats
+name: "@wannanbigpig/dsh-usage-stats"
+description:
+  en: The local usage, balance, quota, and billing companion for DeepSeek Harness Web.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - token-usage
+  - balance
+  - usage-stats
+source:
+  repository: https://github.com/wannanbigpig/dsh-usage-stats
+  repositoryNodeId: R_kgDOT9MOzQ
+  subpath: null
+  commit: 4bbc1aea1a787cdefc085673fec7e0e92b4c5989
+creator:
+  github: wannanbigpig
+package:
+  ecosystem: npm
+  name: "@wannanbigpig/dsh-usage-stats"
+  version: 0.3.0
+  integrity: sha512-J4p38cVelFLkDETl2zaytNQubnvUDNgZaeUCdtmSjs7M3l2TJc9ewSM4ClRNqYTGRf/2t3d5hhU/xDd4lYD2tA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:39.183Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/usage-overview-all.png
+    alt: 全部供应商用量概览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/usage-overview-deepseek.png
+    alt: DeepSeek 用量与余额概览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/usage-overview-zai.png
+    alt: Z.ai 套餐用量概览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/usage-overview-xiaomi-token-plan.png
+    alt: MiMo Token Plan 用量概览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/usage-details.png
+    alt: 最近用量明细
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wannanbigpig/dsh-usage-stats/4bbc1aea1a787cdefc085673fec7e0e92b4c5989/assets/screenshots/settings-providers.png
+    alt: 供应商与账户设置
