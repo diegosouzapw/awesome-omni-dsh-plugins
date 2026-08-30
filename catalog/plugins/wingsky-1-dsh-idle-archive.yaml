@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: wingsky-1-dsh-idle-archive
+name: "@wingsky-1/dsh-idle-archive"
+description:
+  en: "Idle-session archive reminder: automatically scans sessions that have had no conversation for over X hours and pops up a dialog asking whether to archive them; after choosing \"Snooze\", the session won't be prompted again for Y hours."
+  evidencePath: packages/dsh-idle-archive/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - session
+  - archive
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-idle-archive
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-idle-archive"
+  version: 0.1.13
+  integrity: sha512-zLj/yngiC3J0gV819CpwNIGuPfQsPr2o40IkX90FTKVevv9Ce7VyLEUpBv3PkoI3Cg5M4YfFyN6TJZh9B83YbA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-idle-archive/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
