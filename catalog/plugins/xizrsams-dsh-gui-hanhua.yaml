@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xizrsams-dsh-gui-hanhua
+name: dsh-gui-hanhua
+description:
+  en: "📌 Current version: v1.1.0"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - current
+  - version
+  - dsh
+source:
+  repository: https://github.com/XIZRSAMS/dsh-gui-hanhua
+  repositoryNodeId: R_kgDOT8UKaQ
+  subpath: null
+  commit: ac1974e90805fbf39a3cb7759490618cfd49b29b
+creator:
+  github: XIZRSAMS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:34.231Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XIZRSAMS/dsh-gui-hanhua/ac1974e90805fbf39a3cb7759490618cfd49b29b/assets/main.jpg
+    alt: 插件主页面
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XIZRSAMS/dsh-gui-hanhua/ac1974e90805fbf39a3cb7759490618cfd49b29b/assets/plugin-list.png
+    alt: 插件面板汉化
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XIZRSAMS/dsh-gui-hanhua/ac1974e90805fbf39a3cb7759490618cfd49b29b/assets/command-menu.png
+    alt: 命令面板双语
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XIZRSAMS/dsh-gui-hanhua/ac1974e90805fbf39a3cb7759490618cfd49b29b/assets/permission.png
+    alt: 权限选择器双语
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XIZRSAMS/dsh-gui-hanhua/ac1974e90805fbf39a3cb7759490618cfd49b29b/assets/agent-preset.png
+    alt: Agent 预设汉化
