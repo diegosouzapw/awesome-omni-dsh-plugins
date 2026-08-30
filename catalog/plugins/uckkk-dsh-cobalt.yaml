@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cobalt
+name: dsh-cobalt
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cobalt
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cobalt
+source:
+  repository: https://github.com/uckkk/dsh-cobalt
+  repositoryNodeId: R_kgDOT_Bqyw
+  subpath: null
+  commit: a9e1c58f611cdb0d48c61886275979ab54576963
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:11.033Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
