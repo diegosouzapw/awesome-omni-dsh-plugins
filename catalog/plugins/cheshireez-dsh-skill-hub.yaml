@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: cheshireez-dsh-skill-hub
+name: dsh-skill-hub
+description:
+  en: "In-GUI skill hub for DeepSeek Harness (dsh): browse the full local skill catalog from the official ctx.skills registry (every root + third-party providers), toggle skills on/off, inspect bodies, surface frontmatter diagnostics, and scaffold new skills — plus a codex-style skill market (built-in catalog, upstream update"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - skill
+  - skills
+  - skill-manager
+  - agent-skills
+  - skill-hub
+source:
+  repository: https://github.com/cheshireez/dsh-skill-hub
+  repositoryNodeId: R_kgDOT4fb5w
+  subpath: null
+  commit: 7c39dbd3902dcf1a75deff67a99e3462d4896294
+creator:
+  github: cheshireez
+package:
+  ecosystem: npm
+  name: dsh-skill-hub
+  version: 0.3.0
+  integrity: sha512-4HFRiJUOloA+mSzvhEh9myvn41EecGZpxR5TSr4QxvfzwuW6sOAH/IkPEnI7Q2oxyS3Q/zqF8HYc8Xmznj7Dzg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:50.969Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/cheshireez/dsh-skill-hub/7c39dbd3902dcf1a75deff67a99e3462d4896294/promo/real-skill-hub.png
+    alt: dsh-skill-hub panel
