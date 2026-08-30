@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: lizhennet-dsh-antigravity
+name: dsh-antigravity
+description:
+  en: Google Antigravity / Cloud Code Assist model provider for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - antigravity
+  - google
+  - cloud-code-assist
+  - oauth
+  - llm
+  - adapter
+source:
+  repository: https://github.com/LiZhenNet/dsh-antigravity
+  repositoryNodeId: R_kgDOT8aCUw
+  subpath: null
+  commit: 94957767c5e247d86cec8833fb1b67f659078af6
+creator:
+  github: LiZhenNet
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.145Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LiZhenNet/dsh-antigravity/94957767c5e247d86cec8833fb1b67f659078af6/assets/images/settings-not-signed-in.png
+    alt: Antigravity Settings - Not Signed In
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LiZhenNet/dsh-antigravity/94957767c5e247d86cec8833fb1b67f659078af6/assets/images/settings-signed-in.png
+    alt: Antigravity Settings - Signed In with Quota
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LiZhenNet/dsh-antigravity/94957767c5e247d86cec8833fb1b67f659078af6/assets/images/chat-model-picker.png
+    alt: dsh-antigravity
