@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: xiaoyuink-dsh-image-create
+name: "@xiaoyuink/dsh-image-create"
+description:
+  en: "AI 生图 (image generation) plugin for the dsh web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint, with multi-provider support, model discovery, and agent tool registration. 与 @xiaoyuink/dsh-image-vision 同系列的图像插件。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - image
+  - generation
+  - text
+  - through
+  - configurable
+  - openai
+  - compatible
+  - endpoint
+  - multi
+  - provider
+  - model
+  - discovery
+  - agent
+  - tool
+  - registration
+  - xiaoyuink
+source:
+  repository: https://github.com/xiaoyuink/dsh-image-create
+  repositoryNodeId: R_kgDOT94CZg
+  subpath: null
+  commit: 8e83a779ea559623fe8ea44bfa810886defc83c6
+creator:
+  github: xiaoyuink
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:26.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
