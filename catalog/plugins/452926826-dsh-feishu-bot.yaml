@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: 452926826-dsh-feishu-bot
+name: dsh-feishu-bot
+description:
+  en: Connect a Feishu bot to DeepSeek Harness projects and conversations
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - feishu
+  - lark
+  - bot
+source:
+  repository: https://github.com/452926826/dsh-feishu-bot
+  repositoryNodeId: R_kgDOUDqvUg
+  subpath: null
+  commit: 130084a2618bebe52a5b226964479c3b2f255b6e
+creator:
+  github: "452926826"
+package:
+  ecosystem: npm
+  name: dsh-feishu-bot
+  version: 0.1.4
+  integrity: sha512-C9I0ISxTgKEX5a1/dLQv1ii6uDFhQNC7JExbVTFMn9WDloiCMHRomtvZb2U61EmIbmqia7pZgoK8HcQf7bL2Yg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:25.887Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
