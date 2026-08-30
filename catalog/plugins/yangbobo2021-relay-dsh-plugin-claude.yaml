@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yangbobo2021-relay-dsh-plugin-claude
+name: relay-dsh-plugin-claude
+description:
+  en: Claude Code integration plugin for DeepSeek Harness, providing native Claude conversations powered by the Claude Agent SDK, with model selection, approvals, questions, tools, and session continuation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+source:
+  repository: https://github.com/yangbobo2021/relay-dsh-plugin-claude
+  repositoryNodeId: R_kgDOUBSjlQ
+  subpath: null
+  commit: dc209eb82966933b0895f37d86e1ab82a3d2f77e
+creator:
+  github: yangbobo2021
+package:
+  ecosystem: npm
+  name: relay-dsh-plugin-claude
+  version: 0.1.5
+  integrity: sha512-U70gcl9+qTe17xvF4zk6RilgOezqyWKWysk+imTB7fjJiws3957w3gDQzuLqXUzuTN+XVcuvUeSMQXVI20jvrg==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:23.140Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yangbobo2021/relay-dsh-plugin-claude/dc209eb82966933b0895f37d86e1ab82a3d2f77e/docs/images/dsh-new-session-backends.jpg
+    alt: Codex and Claude Code in the DSH New Session mode menu
