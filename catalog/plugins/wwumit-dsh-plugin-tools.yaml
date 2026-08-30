@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wwumit-dsh-plugin-tools
+name: "@wwumit/dsh-plugin-tools"
+description:
+  en: "Plugin tools provider for DeepSeek Harness: install plugin/skill development tools (expert2skill, skill-compliance, dependency-scan) via ctx.skills from a line catalog."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - tools
+  - cordis
+  - dsh
+source:
+  repository: https://github.com/wwumit/dsh-plugin-tools
+  repositoryNodeId: R_kgDOT6rnAQ
+  subpath: null
+  commit: 6084e8972fc649431e8268e1057853072571ec4c
+creator:
+  github: wwumit
+package:
+  ecosystem: npm
+  name: "@wwumit/dsh-plugin-tools"
+  version: 1.2.0
+  integrity: sha512-vuTlTNbUgMPVbwQwD1hmJBRl5938gY//ytlUgdY9gfBv6HLBQjHbQOv6Vmi4RT9BUr2cjpS7uudyXxQ+H5uyKg==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:31.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
