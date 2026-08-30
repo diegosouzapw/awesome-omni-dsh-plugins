@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: yangruiyangdan-dsh-media-card
+name: dsh-media-card
+description:
+  en: Show local images or short videos in the current DeepSeek Harness conversation card, with click-to-preview and a download link. Works over local and remote connections.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - conversation
+  - image
+  - video
+  - preview
+  - download
+source:
+  repository: https://github.com/YangRuiYangDan/dsh-media-card
+  repositoryNodeId: R_kgDOUEkghA
+  subpath: null
+  commit: e27abd12d3320ff4981dc9fa9c383a331ebfa7a4
+creator:
+  github: YangRuiYangDan
+package:
+  ecosystem: npm
+  name: dsh-media-card
+  version: 0.3.0
+  integrity: sha512-q3fIclp+TEwTNPzI8svxU09NQjQwJPUq3vxIylBWeW1n2j14FXk1vlrQ1Rnb6xE4C373fTLLRLf81AQhdkF7Rg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:41.669Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
