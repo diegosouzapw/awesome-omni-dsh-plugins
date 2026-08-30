@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: pensivefei-dsh-voice-scribe
+name: dsh-voice-scribe
+description:
+  en: bash dsh plugin --profile web add dsh-voice-scribe 重启 dsh web 后生效
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - voice
+  - speech-to-text
+  - asr
+  - whisper
+  - voice-input
+source:
+  repository: https://github.com/PensiveFei/dsh-voice-scribe
+  repositoryNodeId: R_kgDOUDeCVQ
+  subpath: null
+  commit: 1edc8b2b8351a46d1fc2e6ed7b33f0c3be8eeb49
+creator:
+  github: PensiveFei
+package:
+  ecosystem: npm
+  name: dsh-voice-scribe
+  version: 0.4.1
+  integrity: sha512-yr74joWDH5E8tjUwLuzys8TlQpeasB8vW+6UJKAlaMqaQ9X5yYkZ35vRraJS5NFrfxxJyt+CIj15i6BKPDvW1g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:00.308Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 24
+provenance:
+  discussion: null
+  comment: null
