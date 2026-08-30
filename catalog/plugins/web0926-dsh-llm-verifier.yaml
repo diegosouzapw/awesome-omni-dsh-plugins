@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: web0926-dsh-llm-verifier
+name: dsh-llm-verifier
+description:
+  en: Best-of-3/5 orchestration and LLM-as-a-Verifier selection for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - best
+  - orchestration
+  - verifier
+  - selection
+  - dsh
+source:
+  repository: https://github.com/Web0926/dsh-llm-verifier
+  repositoryNodeId: R_kgDOT-Jhag
+  subpath: null
+  commit: ce06d928d495b865920aa0b24907a3b8d3ead669
+creator:
+  github: Web0926
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:27.641Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
