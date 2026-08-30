@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zhengjunyao000-weread-export
+name: weread-export
+description:
+  en: "微信读书 (WeChat Reading) integration for DeepSeek Harness: connect the official WeRead Skills Agent Gateway with a wrk- API key, then browse your bookshelf, export highlights & thoughts, query reading stats, and send highlights to flomo — agent tools plus a web settings panel"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - weread
+  - wechat-reading
+  - books
+  - highlights
+  - notes
+  - reading
+source:
+  repository: https://github.com/zhengjy01/weread-export
+  repositoryNodeId: R_kgDOUBU9jQ
+  subpath: null
+  commit: d854d28ea2e43f2d45932afc9c9f7af0b9a1a0c0
+creator:
+  github: zhengjunyao000
+package:
+  ecosystem: npm
+  name: weread-export
+  version: 0.1.12
+  integrity: sha512-hL9U41ubF2RyeJoQ4VSPfST77cmES3bPmy/eAi3+udOSzdbKMcLoo+cjlCxcQshw1Qu1SrjV/JiUb6YNTp7D/g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:56.572Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
