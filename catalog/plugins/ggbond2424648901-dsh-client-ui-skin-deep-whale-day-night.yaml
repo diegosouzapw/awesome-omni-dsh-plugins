@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ggbond2424648901-dsh-client-ui-skin-deep-whale-day-night
+name: "@dsh-external/dsh-client-ui-skin-deep-whale-day-night"
+description:
+  en: Hot-pluggable Deep Whale day/night skin with themed scenes, companions, controls, and lightweight ambience for the dsh web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - pluggable
+  - deep
+  - whale
+  - night
+  - skin
+  - themed
+  - scenes
+  - companions
+  - controls
+  - lightweight
+  - ambience
+  - dsh
+source:
+  repository: https://github.com/GGBond2424648901/deep-whale-day-night-theme
+  repositoryNodeId: R_kgDOT4iJuQ
+  subpath: null
+  commit: 3f6c4f14716d1e500f585be0c0d3c139c7a8a90b
+creator:
+  github: GGBond2424648901
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: CC-BY-NC-SA-4.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.832Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 109
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/GGBond2424648901/deep-whale-day-night-theme/3f6c4f14716d1e500f585be0c0d3c139c7a8a90b/screenshots/day.png
+    alt: Deep Whale day theme
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/GGBond2424648901/deep-whale-day-night-theme/3f6c4f14716d1e500f585be0c0d3c139c7a8a90b/screenshots/night.png
+    alt: Deep Whale night theme
