@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: normanfxxkingrockwell-dsh-keyboard-history
+name: dsh-keyboard-history
+description:
+  en: "Pure ↑/↓ input history for the DSH web composer: recall previously sent messages with arrow keys. Nothing else."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - input-history
+  - keyboard
+  - web-ui
+source:
+  repository: https://github.com/NormanFxxkingRockwell/dsh-keyboard-history
+  repositoryNodeId: R_kgDOT74ebw
+  subpath: null
+  commit: e6e8033603a02de351a0d9663b4f09a2af1080ba
+creator:
+  github: NormanFxxkingRockwell
+package:
+  ecosystem: npm
+  name: dsh-keyboard-history
+  version: 0.1.2
+  integrity: sha512-vqdef3dab3f+R6rpmsVejOs3B7kNHmP4D0K4f/euAw22tS2EHAcLOXGz0kkW4r8XNcLiHmvFahYu0GLIbGW7JA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:53.423Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
