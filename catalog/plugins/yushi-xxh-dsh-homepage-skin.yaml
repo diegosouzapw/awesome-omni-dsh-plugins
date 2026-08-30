@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yushi-xxh-dsh-homepage-skin
+name: dsh-homepage-skin
+description:
+  en: "DeepSeek Harness homepage-style background skin: WebGL fluid, dot grid and digital whale. Dark and light variants included."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - homepage
+source:
+  repository: https://github.com/yushi-xxh/dsh-homepage-skin
+  repositoryNodeId: R_kgDOT5UG9w
+  subpath: null
+  commit: 44933213da11f82caefd609ad1bdfe84ac95b3e0
+creator:
+  github: yushi-xxh
+package:
+  ecosystem: npm
+  name: dsh-homepage-skin
+  version: 0.1.12
+  integrity: sha512-Qjh7YEYlEM+zR+1QnX0Xim+i1h6i3dN3RQUDnbUXJuN5f6SXLrDkbuZAMhNOhheKq3Qb3+t4uXk7gPYCjM2tOw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:23.516Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yushi-xxh/dsh-homepage-skin/44933213da11f82caefd609ad1bdfe84ac95b3e0/docs/compare-dark.png
+    alt: 深色主题
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yushi-xxh/dsh-homepage-skin/44933213da11f82caefd609ad1bdfe84ac95b3e0/docs/compare-light.png
+    alt: 亮色主题
