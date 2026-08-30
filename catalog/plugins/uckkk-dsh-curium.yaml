@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-curium
+name: dsh-curium
+description:
+  en: bash dsh plugin add github:uckkk/dsh-curium
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-curium
+source:
+  repository: https://github.com/uckkk/dsh-curium
+  repositoryNodeId: R_kgDOT_Ft9w
+  subpath: null
+  commit: 577347a1eaf2266d945545f28f70d1e98e66e48e
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:11.828Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
