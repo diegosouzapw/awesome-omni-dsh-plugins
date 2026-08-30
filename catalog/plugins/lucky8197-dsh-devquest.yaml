@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: lucky8197-dsh-devquest
+name: dsh-devquest
+description:
+  en: "DevQuest is a DSH plugin: every turn, tool call, todo and token output in your agent is converted into XP by fixed rules. XP raises your level, levels unlock titles, and achievements track how far you've come. Install it and do nothing else — normal work scores automatically."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - game
+  - rpg
+  - gamification
+  - productivity
+source:
+  repository: https://github.com/lucky8197/dsh-devquest
+  repositoryNodeId: R_kgDOT5A2aQ
+  subpath: null
+  commit: 8c5e885b8a5437901a2246497ecede45a73f1baf
+creator:
+  github: lucky8197
+package:
+  ecosystem: npm
+  name: dsh-devquest
+  version: 1.3.0
+  integrity: sha512-ql++oTBwS7GJrEKFtTv3DFnUHi7T7d9grikPQCAK7MVT6vVRKnJIyEQjh8G+FSGsxOP5i7kMaTwyCCSTcdZLcQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:29.075Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lucky8197/dsh-devquest/8c5e885b8a5437901a2246497ecede45a73f1baf/screenshots/panel.png
+    alt: DevQuest 面板：等级环 / 冲刺条 / 每日+每周任务 / 商店 / 新手链 / 称号 / 收藏 / 成就墙 / 周报
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/lucky8197/dsh-devquest/8c5e885b8a5437901a2246497ecede45a73f1baf/screenshots/toast.png
+    alt: 成就解锁 toast（稀有度着色）
