@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: 1070296335-create-taskboard
+name: "@dph/taskboard"
+description:
+  en: bash git clone <你的仓库地址 dph-taskboard cd dph-taskboard
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - taskboard
+  - kanban
+source:
+  repository: https://github.com/1070296335-create/dph-taskboard
+  repositoryNodeId: R_kgDOT7Drag
+  subpath: null
+  commit: ceda7a378b713afdfcae4d94b670b026f2e24100
+creator:
+  github: 1070296335-create
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:09.193Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/1070296335-create/dph-taskboard/ceda7a378b713afdfcae4d94b670b026f2e24100/docs/screenshot.png
+    alt: 任务看板截图（占位，发布前请替换为真实界面截图）
