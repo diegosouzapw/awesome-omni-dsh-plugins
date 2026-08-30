@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: johnxu22786-subtitle-studio
+name: subtitle-studio
+description:
+  en: "Multi-language subtitle translation workflow for dsh: SRT/VTT parsing, sentence-level LLM translation, bilingual merge, alignment validation, and batch processing."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - subtitle
+  - srt
+  - vtt
+  - translation
+  - bilingual
+source:
+  repository: https://github.com/JohnXu22786/subtitle-studio
+  repositoryNodeId: R_kgDOUBJ0cQ
+  subpath: null
+  commit: 1d47538b1c6fa4151b1663c4d26f6684f9100399
+creator:
+  github: JohnXu22786
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:46.956Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
