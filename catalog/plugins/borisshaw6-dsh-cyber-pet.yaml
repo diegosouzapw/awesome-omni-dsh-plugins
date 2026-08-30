@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: borisshaw6-dsh-cyber-pet
+name: "@borisshaw6/dsh-cyber-pet"
+description:
+  en: "Cyber whale pet for DeepSeek Harness: a floating, feedable, color-customizable whale over shell.overlay that reports token usage, quota, interactions, and session counts — one dsh-plugin bundle carrying the host chat brain and the browser surface"
+  evidencePath: dsh-cyber-pet-bundle/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cyber-pet
+  - web-ui
+  - dsh
+source:
+  repository: https://github.com/BorisShaw6/dsh-cyber-pet
+  repositoryNodeId: R_kgDOT5CMIw
+  subpath: dsh-cyber-pet-bundle
+  commit: 56e68d2ff3f40caa587fd84e2622b89c3b56e71e
+creator:
+  github: BorisShaw6
+package:
+  ecosystem: npm
+  name: "@borisshaw6/dsh-cyber-pet"
+  version: 0.3.1
+  integrity: sha512-NZQgs6pUvUwowhrn1BQpIUoQbGtZWWnX4V0V3lJBWTRnhGeAgYt17ebuORAf4shFrO4NScs74dJoFb9Rkr24ww==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-cyber-pet-bundle/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:12.231Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
