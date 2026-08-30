@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zoahdev-dsh-discussions-radar
+name: dsh-discussions-radar
+description:
+  en: "Official GitHub Discussions radar for DeepSeek Harness (dsh): list, filter and search the deepseek-ai/deepseek-harness discussion boards (Ideas / Q&A / Show Your Plugins / General / Announcements) from inside dsh. CLI + agent-callable discussions radar tool, zero runtime dependencies, read-only."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - discussions
+  - radar
+  - community
+  - announcements
+source:
+  repository: https://github.com/zoahdev/dsh-discussions-radar
+  repositoryNodeId: R_kgDOT8eD7w
+  subpath: null
+  commit: d2af74955988b000ed535fe45d22d12a5bf67030
+creator:
+  github: zoahdev
+package:
+  ecosystem: npm
+  name: dsh-discussions-radar
+  version: 0.1.0
+  integrity: sha512-qVKx8fPNESosIMf01aowL2vDuNJQNgNU2vhmv6IqjaiFUS8/LUcScTXFXzd72q+1D9xD4K6muWBtD9mp4UpWhw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
