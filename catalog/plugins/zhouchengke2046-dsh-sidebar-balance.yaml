@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zhouchengke2046-dsh-sidebar-balance
+name: dsh-sidebar-balance
+description:
+  en: 需要 DSH 0.1.0-rc.6+ (web profile)与 Node.js ≥ 18。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - opencode
+  - opencode-go
+  - balance
+  - quota
+  - minimal
+  - cordis
+source:
+  repository: https://github.com/zhouchengke2046/dsh-sidebar-balance
+  repositoryNodeId: R_kgDOT8Mw6w
+  subpath: null
+  commit: a446c30f183ec274232d70d831e12a504e6a03a9
+creator:
+  github: zhouchengke2046
+package:
+  ecosystem: npm
+  name: dsh-sidebar-balance
+  version: 0.1.1
+  integrity: sha512-jFo8akqkipSkd1eP8CtKLANfOI0JLR8uZd0DpQ5sOzMJNp7bfYlWBRyJ9e2/kwMpdPKexKS9XwJ8GkVacXg1rA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:03.819Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhouchengke2046/dsh-sidebar-balance/a446c30f183ec274232d70d831e12a504e6a03a9/docs/preview.png
+    alt: dsh-sidebar-balance 界面预览
