@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: mlittlefriend-dsh-character-profiler
+name: dsh-character-profiler
+description:
+  en: "DSH writing plugin: character personality profiling + appearance-weight statistics + behavioral-drift detection . Quantified consistency monitoring for long-form fiction — every character's personality stays grounded, verifiable, and drift-free."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - novel
+  - writing
+  - character
+  - profiling
+  - consistency
+  - dsh
+source:
+  repository: https://github.com/MlittleFriend/dsh-character-profiler
+  repositoryNodeId: R_kgDOT6m1kg
+  subpath: null
+  commit: 9417ad1a6d084a29c7e050c39afb823cbbce3273
+creator:
+  github: MlittleFriend
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:31.005Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
