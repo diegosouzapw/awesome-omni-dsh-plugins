@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-c2f
+name: dsh-c2f
+description:
+  en: bash dsh plugin add github:uckkk/dsh-c2f
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-c2f
+source:
+  repository: https://github.com/uckkk/dsh-c2f
+  repositoryNodeId: R_kgDOT-6sIw
+  subpath: null
+  commit: 222cd6242920887c6e763a2f51b0b9bc041b23c3
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:37.058Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
