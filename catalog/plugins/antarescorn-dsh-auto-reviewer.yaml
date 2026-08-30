@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: antarescorn-dsh-auto-reviewer
+name: "@dsh-external/dsh-auto-reviewer"
+description:
+  en: Codex-style auto reviewer (approve for me) permission mode for DSH
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - permission
+  - auto-reviewer
+  - approve-for-me
+  - dsh
+source:
+  repository: https://github.com/AntaresCorn/dsh-auto-reviewer
+  repositoryNodeId: R_kgDOT6SThg
+  subpath: null
+  commit: 4ab578384aea0f7ac374c23591e4609558353533
+creator:
+  github: AntaresCorn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:25.571Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
