@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: zfu691531-hash-dsh-codex-collab
+name: dsh-codex-collab
+description:
+  en: Visible, bidirectional local collaboration between DeepSeek Harness and Codex Desktop.
+  evidencePath: plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - codex
+  - codex-desktop
+  - mcp
+source:
+  repository: https://github.com/zfu691531-hash/dsh-codex-collab
+  repositoryNodeId: R_kgDOT5P-Qg
+  subpath: plugin
+  commit: 1fc8b34f942ba7aad1616a137a1f7f7659884dc4
+creator:
+  github: zfu691531-hash
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:08.051Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
