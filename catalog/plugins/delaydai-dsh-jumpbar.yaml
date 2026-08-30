@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: delaydai-dsh-jumpbar
+name: dsh-jumpbar
+description:
+  en: "User message jump bar for the DSH web GUI: a minimap-style dash strip on the right edge of the conversation, hover for message preview, click to jump. · DSH Web 用户消息跳转条：对话区右缘 minimap 式横杠，悬停预览、点击跳转。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - ui
+  - conversation
+  - jump
+  - minimap
+source:
+  repository: https://github.com/delaydai/dsh-jumpbar
+  repositoryNodeId: R_kgDOT_0wow
+  subpath: null
+  commit: 3f453be4d1c0cce6c8494fd5ddfc661e7e3553b8
+creator:
+  github: delaydai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:08.915Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
