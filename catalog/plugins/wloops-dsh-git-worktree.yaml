@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wloops-dsh-git-worktree
+name: dsh-git-worktree
+description:
+  en: Experimental Git worktree Session Targets for DeepSeek Harness with isolated sessions, review checkpoints, human-confirmed delivery, and safe recovery.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - worktree
+  - git
+source:
+  repository: https://github.com/wloops/dsh-git-worktree
+  repositoryNodeId: R_kgDOT5CX7g
+  subpath: null
+  commit: 0fc9e5a797034a953b683e9ad01fceddea49fad6
+creator:
+  github: wloops
+package:
+  ecosystem: npm
+  name: dsh-git-worktree
+  version: 0.7.1
+  integrity: sha512-3oXvl00scKSbNfM8bRWCZWLoyaWg2/6Rag/h6Pux2D0Pf2eHqWDU5HdyNVDW9BqRKYRdbcy6ef0s2z0+0k218Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.081Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wloops/dsh-git-worktree/0fc9e5a797034a953b683e9ad01fceddea49fad6/docs/screenshots/00-project-sidebar.png
+    alt: Managed Worktree 聚合到原 Local 项目
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wloops/dsh-git-worktree/0fc9e5a797034a953b683e9ad01fceddea49fad6/docs/screenshots/02-ready-for-review.png
+    alt: Agent 完成任务并准备预览修改
