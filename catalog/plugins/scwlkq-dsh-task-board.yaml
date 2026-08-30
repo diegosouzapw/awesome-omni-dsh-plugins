@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: scwlkq-dsh-task-board
+name: dsh-task-board
+description:
+  en: Durable reviewed task cards for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - task-board
+  - kanban
+  - dsh
+source:
+  repository: https://github.com/scwlkq/dsh-task-board
+  repositoryNodeId: R_kgDOT5gQYA
+  subpath: null
+  commit: 7fe31114b7dfe959ede4d4993c98f6b6e3b3c0e4
+creator:
+  github: scwlkq
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:02.982Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
