@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xtd1145-dsh-full-access-switch
+name: dsh-full-access-switch
+description:
+  en: powershell powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - permission
+  - full-access
+  - cordis
+source:
+  repository: https://github.com/xtd1145/dsh-full-access-switch
+  repositoryNodeId: R_kgDOUB4KPg
+  subpath: null
+  commit: 6175d10325aa4b4dd081f9168101090f2777ae7d
+creator:
+  github: xtd1145
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:34.243Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
