@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: menghuan1918-dsh-session-theme
+name: dsh-session-theme
+description:
+  en: "DSH web plugin: show every session's theme in the left sidebar on open — warms the session projection cache at startup so session.list carries titles for cold sessions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - sidebar
+  - session-title
+  - projection-cache
+source:
+  repository: https://github.com/Xliecc/dsh-session-theme
+  repositoryNodeId: R_kgDOT6Jicw
+  subpath: null
+  commit: 65c85e6cb711127a9bf8bb0925a9f508995c1a23
+creator:
+  github: Menghuan1918
+package:
+  ecosystem: npm
+  name: dsh-session-theme
+  version: 0.2.1
+  integrity: sha512-bMNHs+yFpMbh8k1kaMubct/1Zvrj2sIzEfAzhB2UKp1ciw/NTC6x33thVVx5Xfv1k9HkjhG0ZGKxbDGUVSkDhQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:19.968Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
