@@ -1,0 +1,69 @@
+schemaVersion: 1
+id: xczhanjun-dsh-lazeword
+name: dsh-lazeword
+description:
+  en: "躺着背单词 lazeword — cozy offline vocabulary & subject learning for DeepSeek Harness (dsh): 15,000 words (EDB math/science/geography, Oxford 5000, Chinese classics, engineers' words), FSRS-5 scheduling, Anki sync, word games (3D racing, mine-sweeping, letter spelling, memory match). Runs standalone as a single HTML file."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - desktop
+  - vocabulary
+  - english
+  - kids
+  - education
+  - flashcards
+  - spaced-repetition
+  - fsrs
+  - anki
+  - offline
+source:
+  repository: https://github.com/xczhanjun/lazeword
+  repositoryNodeId: R_kgDOT5UYmQ
+  subpath: null
+  commit: 214b105af1315a5cdc55a769b08df31e3769cff0
+creator:
+  github: xczhanjun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:31.011Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/learn-tokens.png
+    alt: Learn card (token view)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/tutor.png
+    alt: AI tutor
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/race.png
+    alt: Word racing (AV-simulation projection)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/dsh-sidebar.png
+    alt: dsh sidebar
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/dsh-panel.png
+    alt: lazeword panel in dsh
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xczhanjun/lazeword/214b105af1315a5cdc55a769b08df31e3769cff0/docs/screenshots/standalone.png
+    alt: standalone app
