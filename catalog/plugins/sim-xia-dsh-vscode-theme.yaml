@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: sim-xia-dsh-vscode-theme
+name: dsh-vscode-theme
+description:
+  en: Import VS Code .vsix themes into DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - vscode
+  - theme
+  - vsix
+  - theme-importer
+  - dsh
+source:
+  repository: https://github.com/Sim-xia/dsh-vscode-theme
+  repositoryNodeId: R_kgDOT5EDpQ
+  subpath: null
+  commit: 1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8
+creator:
+  github: Sim-xia
+package:
+  ecosystem: npm
+  name: dsh-vscode-theme
+  version: 0.1.0
+  integrity: sha512-ycsUCMhB58J/eIX4gEXZQIfhX6/K/r52KipHYOMfhBOEItLdHvErUBSeoLKWsAwPCZqSqzg7+rIcyEUoyxbIwA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:57.201Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
