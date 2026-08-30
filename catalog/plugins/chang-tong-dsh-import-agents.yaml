@@ -1,0 +1,73 @@
+schemaVersion: 1
+id: chang-tong-dsh-import-agents
+name: dsh-import-agents
+description:
+  en: "Import pi / opencode sessions, chat history, and agents into DeepSeek Harness (dsh): slash commands, session-start migration prompt, and a one-click Sync button in the composer."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - import
+  - opencode
+  - sessions
+  - chat
+  - history
+  - agents
+  - slash
+  - commands
+  - session
+  - start
+  - migration
+  - prompt
+  - click
+  - sync
+  - button
+  - composer
+source:
+  repository: https://github.com/Chang-Tong/dsh-import-agents
+  repositoryNodeId: R_kgDOT4L45Q
+  subpath: null
+  commit: 238d1a650a3f403e1c05227dd73be527728bc699
+creator:
+  github: Chang-Tong
+package:
+  ecosystem: npm
+  name: dsh-import-agents
+  version: 0.3.0
+  integrity: sha512-g4XfYHn9jGEcGAduLSFvx0tTuX+zcbfyFYSQkdU+RmZk+8Mry8jkTfqsmcrLUItb1HWsx70huyXCNLQ8luCTPQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:50.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 14
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Chang-Tong/dsh-import-agents/238d1a650a3f403e1c05227dd73be527728bc699/assets/screenshot-main.png
+    alt: dsh web UI with the Sync button
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Chang-Tong/dsh-import-agents/238d1a650a3f403e1c05227dd73be527728bc699/assets/screenshot-sync.png
+    alt: Sync button and import result
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Chang-Tong/dsh-import-agents/238d1a650a3f403e1c05227dd73be527728bc699/assets/screenshot-sessions.png
+    alt: Imported sessions in the session list
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Chang-Tong/dsh-import-agents/238d1a650a3f403e1c05227dd73be527728bc699/assets/screenshot-session.png
+    alt: Imported session with full history
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Chang-Tong/dsh-import-agents/238d1a650a3f403e1c05227dd73be527728bc699/assets/screenshot-trajectory.png
+    alt: Trajectory with tool cards
