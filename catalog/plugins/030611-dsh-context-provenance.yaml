@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: 030611-dsh-context-provenance
+name: dsh-context-provenance
+description:
+  en: Observe-only provenance ledger over public DeepSeek Harness runtime evidence
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - observe
+  - only
+  - provenance
+  - ledger
+  - over
+  - public
+  - runtime
+  - evidence
+  - dsh
+source:
+  repository: https://github.com/030611/dsh-context-provenance
+  repositoryNodeId: R_kgDOT4MfaQ
+  subpath: null
+  commit: 2307c57766846efebfc8f1afe9003ea8ede65a66
+creator:
+  github: "030611"
+package:
+  ecosystem: npm
+  name: dsh-context-provenance
+  version: 0.1.1
+  integrity: sha512-DNZymukB7cKNDXjh76kjjYCafiHxH0ymAPuGHZBIdawHFv3wRz9qS6JspKjvYLoksfc9uZn6nt1gjmfwQkcQ4w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:11.505Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/030611/dsh-context-provenance/2307c57766846efebfc8f1afe9003ea8ede65a66/docs/social-preview.jpg
+    alt: DSH Context Provenance social preview
