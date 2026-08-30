@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xxvk-dsh-cost-crystal
+name: dsh-cost-crystal
+description:
+  en: A cost & usage crystal ball for the DeepSeek Harness web GUI — balance, real-time rate, peak/off-peak billing, and a 🔮 next-message cost forecast, all timezone-aware.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - balance
+  - cost
+  - usage
+  - peak
+  - off-peak
+source:
+  repository: https://github.com/xxvk/dsh-cost-crystal
+  repositoryNodeId: R_kgDOT5Gw8g
+  subpath: null
+  commit: 023bed604b2a7c45a566853fcc47f0ec59bc99d1
+creator:
+  github: xxvk
+package:
+  ecosystem: npm
+  name: dsh-cost-crystal
+  version: 0.1.0
+  integrity: sha512-myiOlyHKFXWHADiFNBZNza8aJpqyRJMRYx1XZ1yvG2td4QvjuOelfyWe0GbcGdHIdG7InI4t8KXZN+YhZ4lDBQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:35.345Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xxvk/dsh-cost-crystal/023bed604b2a7c45a566853fcc47f0ec59bc99d1/docs/card.png
+    alt: dsh-cost-crystal balance card
