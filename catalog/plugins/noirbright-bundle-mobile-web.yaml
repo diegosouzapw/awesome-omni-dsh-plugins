@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: noirbright-bundle-mobile-web
+name: "@dsh-mobile/bundle-mobile-web"
+description:
+  en: Your own DeepSeek Harness, on your phone. Scan a QR, keep an encrypted tunnel, keep the official UI — composed for a hand.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - phone
+  - scan
+  - keep
+  - encrypted
+  - tunnel
+  - official
+  - composed
+  - hand
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-mobile
+  repositoryNodeId: R_kgDOT5V62Q
+  subpath: bundle/mobile-web
+  commit: c60dc39a75c4c6785d628048d78206877c7f6fca
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: bundle/mobile-web/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:07.453Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
