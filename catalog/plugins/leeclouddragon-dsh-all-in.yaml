@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: leeclouddragon-dsh-all-in
+name: dsh-all-in
+description:
+  en: A local-only Texas Hold'em table for DeepSeek Harness — play while your agent thinks.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - texas-holdem
+  - poker
+  - game
+source:
+  repository: https://github.com/leeclouddragon/dsh-all-in
+  repositoryNodeId: R_kgDOT8Jt3A
+  subpath: null
+  commit: 8a442058143f96c4ea4ee5b7f33a73d270d50eef
+creator:
+  github: leeclouddragon
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:27.899Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/leeclouddragon/dsh-all-in/8a442058143f96c4ea4ee5b7f33a73d270d50eef/assets/table-preview.png
+    alt: dsh-all-in running inside DeepSeek Harness
