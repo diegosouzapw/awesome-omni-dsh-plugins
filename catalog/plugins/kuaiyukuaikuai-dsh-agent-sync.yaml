@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: kuaiyukuaikuai-dsh-agent-sync
+name: dsh-agent-sync
+description:
+  en: DSH plugin that scans other AI agents on this machine (Codex, Claude Code, cc-switch, custom sources) and one-click syncs their MCP servers and skills into DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mcp
+  - skills
+  - codex
+  - claude-code
+  - cc-switch
+  - hermes
+  - opencode
+  - gemini
+  - grok
+  - kimi
+  - codebuddy
+  - trae
+  - openclaw
+source:
+  repository: https://github.com/kuaiyukuaikuai/dsh-agent-sync
+  repositoryNodeId: R_kgDOT8fazw
+  subpath: null
+  commit: d0dde63bdda9e50408a23b15fc79494f54b5fcb8
+creator:
+  github: kuaiyukuaikuai
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:32.773Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kuaiyukuaikuai/dsh-agent-sync/d0dde63bdda9e50408a23b15fc79494f54b5fcb8/assets/screenshot-main.png
+    alt: main
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kuaiyukuaikuai/dsh-agent-sync/d0dde63bdda9e50408a23b15fc79494f54b5fcb8/assets/screenshot-sync.png
+    alt: sync
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/kuaiyukuaikuai/dsh-agent-sync/d0dde63bdda9e50408a23b15fc79494f54b5fcb8/assets/screenshot-add.png
+    alt: add
