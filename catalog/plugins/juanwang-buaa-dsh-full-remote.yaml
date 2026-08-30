@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: juanwang-buaa-dsh-full-remote
+name: dsh-full-remote
+description:
+  en: "DeepSeek Harness plugin for remote access: a token-gated reverse proxy keeps settings, credentials, and file access working over public tunnels and on other devices instead of returning 403. Per-device sessions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - reverse-proxy
+  - remote-access
+  - tunnel
+  - mobile
+source:
+  repository: https://github.com/JUANWANG-BUAA/dsh-full-remote
+  repositoryNodeId: R_kgDOT44NzA
+  subpath: null
+  commit: abd0dfd62e7c02199cb10c8796e4b6c2152eda5c
+creator:
+  github: JUANWANG-BUAA
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:24.946Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 29
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-desktop.png
+    alt: Desktop control panel
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-mobile.png
+    alt: Mobile workspace
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-remote-confirm-mobile.png
+    alt: Phone confirmation sheet
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-remote-confirm-desktop.png
+    alt: Remote desktop confirmation
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-invite.png
+    alt: Phone invite
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/JUANWANG-BUAA/dsh-full-remote/abd0dfd62e7c02199cb10c8796e4b6c2152eda5c/docs/screenshots/preview-devices.png
+    alt: Connected devices
