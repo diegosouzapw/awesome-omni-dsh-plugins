@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: jmoksz-lark-bridge
+name: "@jmoksz/lark-bridge"
+description:
+  en: "Feishu (Lark) entry point for DSH: one-command install plugin that lets users drive DSH agents from a Feishu bot over the long-connection event channel, with image/file/video/audio attachments, interactive ask/approval cards, live streaming progress cards with a tool panel, and proactive feishu send pushes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - feishu
+  - lark
+  - entry
+  - point
+  - command
+  - install
+  - lets
+  - users
+  - drive
+  - agents
+  - over
+  - long
+  - connection
+  - event
+  - channel
+  - image
+source:
+  repository: https://github.com/JMOKSZ/dsh-lark-bridge
+  repositoryNodeId: R_kgDOT4BlBg
+  subpath: null
+  commit: e1cfe700c1e839e48ec81bc04fbd5997f33d770d
+creator:
+  github: JMOKSZ
+package:
+  ecosystem: npm
+  name: "@jmoksz/lark-bridge"
+  version: 0.6.0
+  integrity: sha512-1fLR9Eqe4F5Px3+p/2A1F9hMYKaVgM4a1WGMTg/O5Rm9P8WB1iVWAgSP/HtGvXg9fjrwhpZXPXyaupx1X4iF8w==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:28.965Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
