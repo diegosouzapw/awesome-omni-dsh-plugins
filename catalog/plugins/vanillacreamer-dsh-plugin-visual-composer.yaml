@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: vanillacreamer-dsh-plugin-visual-composer
+name: dsh-plugin-visual-composer
+description:
+  en: Visual Cordis plugin-tree composer for the DeepSeek Harness Web UI.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - visual-editor
+  - plugin-composer
+  - dsh
+source:
+  repository: https://github.com/VanillaCreamer/dsh-plugin-visual-composer
+  repositoryNodeId: R_kgDOT4jQBg
+  subpath: null
+  commit: 78ce825c5f5da264c709c4979b70654b1a3dac7d
+creator:
+  github: VanillaCreamer
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:28.379Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/VanillaCreamer/dsh-plugin-visual-composer/78ce825c5f5da264c709c4979b70654b1a3dac7d/demo.png
+    alt: Visual Composer 运行在 DSH Web 中
