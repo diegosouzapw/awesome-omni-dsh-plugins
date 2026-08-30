@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: zhangbo1201-dsh-local-file-upload
+name: dsh-local-file-upload
+description:
+  en: Upload local files into the current DeepSeek Harness workspace from the Web composer
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - file-upload
+  - cordis
+source:
+  repository: https://github.com/zhangbo1201/dsh-file-upload
+  repositoryNodeId: R_kgDOT8LyFw
+  subpath: null
+  commit: 94118e7cfb0fc96ce7c9854aad0859e8e468e8d9
+creator:
+  github: zhangbo1201
+package:
+  ecosystem: npm
+  name: dsh-local-file-upload
+  version: 0.1.4
+  integrity: sha512-9l7kWzgiDgYAp48oGITxCHUVogKuU/NJXxyS/C0Qx+ZxEmscct/MPg9TC8McAwO/dKreJRaPGiTqqoNP2ViLyw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:07.587Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
