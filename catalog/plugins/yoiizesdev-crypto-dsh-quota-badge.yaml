@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yoiizesdev-crypto-dsh-quota-badge
+name: dsh-quota-badge
+description:
+  en: bash cd ~/.dsh/profiles/desktop npm install <git仓库地址
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - quota
+  - balance
+source:
+  repository: https://github.com/yoiizesdev-crypto/DSH-Balance-display
+  repositoryNodeId: R_kgDOT6AY2g
+  subpath: null
+  commit: dcfde8263e25d2471901c69754081f6559577d02
+creator:
+  github: yoiizesdev-crypto
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:06.087Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
