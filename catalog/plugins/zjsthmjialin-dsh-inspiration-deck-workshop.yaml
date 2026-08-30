@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zjsthmjialin-dsh-inspiration-deck-workshop
+name: dsh-inspiration-deck-workshop
+description:
+  en: sh dsh plugin --profile web add dsh-inspiration-deck-workshop
+  evidencePath: dsh-inspiration-deck-workshop/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - skill
+  - presentation
+  - html-deck
+  - ppt
+  - slides
+  - dsh
+source:
+  repository: https://github.com/zjsthmjialin/inspiration-deck-workshop
+  repositoryNodeId: R_kgDOTVT7tQ
+  subpath: dsh-inspiration-deck-workshop
+  commit: c2252ed83462623cebc4ffd198d6ffa0af7bea47
+creator:
+  github: zjsthmjialin
+package:
+  ecosystem: npm
+  name: dsh-inspiration-deck-workshop
+  version: 0.1.1
+  integrity: sha512-lMg8QB+15clTxgIuXNdIeFa9Rd1K8GaSob5eWUqo088GOqH2wiW3wWIAbQ9GjPWSdHnJT/L4g7cRyk2Qi3XYFQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-inspiration-deck-workshop/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:10.793Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
