@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: abnerai-dsh-monitor
+name: dsh-monitor
+description:
+  en: Persistent watchers that wake the DeepSeek Harness agent when new messages arrive — the harness analog of Claude Code's Monitor tool.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - monitor
+  - notification
+  - claude-code
+source:
+  repository: https://github.com/AbnerAI/dsh-monitor
+  repositoryNodeId: R_kgDOT3qxqQ
+  subpath: null
+  commit: 4ef3cc6f3e4332a85d913a13ae929f5eb587818a
+creator:
+  github: AbnerAI
+package:
+  ecosystem: npm
+  name: dsh-monitor
+  version: 0.1.1
+  integrity: sha512-Y9sHB6dQglobdpGgypOwHQ3uRkGNpAGaF7Nf4qFmz8URyuvpIVC+Z/8f2uy0x8n4idAC5b6YA5dSUcw7uBvHMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:12.637Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
