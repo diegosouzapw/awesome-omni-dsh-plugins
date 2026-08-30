@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xhr666-dsh-mpkg-wallpaper
+name: dsh-mpkg-wallpaper
+description:
+  en: "A plugin for the DeepSeek Harness Web UI (dsh web) that adds background wallpapers: Wallpaper Engine .mpkg parsing, Steam Workshop raw folders, video/web/image wallpapers, time-of-day switching, a full-screen frosted blur suite, theme-color & glass appearance, a local wallpaper library, timed rotation and one-click upd"
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - wallpaper-engine
+  - mpkg
+  - background
+  - web-ui
+source:
+  repository: https://github.com/XHR666/dsh-mpkg-wallpaper
+  repositoryNodeId: R_kgDOT6gjIA
+  subpath: null
+  commit: 287dc65bf3729cc27b601e644120fca0fd56a66b
+creator:
+  github: XHR666
+package:
+  ecosystem: npm
+  name: dsh-mpkg-wallpaper
+  version: 3.7.0
+  integrity: sha512-lO7hUR9XoPVqW3vVpOUG8aedjiGYCLhPdVY9n08/jDUWujraeO2N2rPirkuvDokg1jBWZJu5vi9xYvJ6yl3C0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:14.892Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XHR666/dsh-mpkg-wallpaper/287dc65bf3729cc27b601e644120fca0fd56a66b/screenshots/dhsw1.jpg
+    alt: 侧边栏收起 · 新会话界面
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XHR666/dsh-mpkg-wallpaper/287dc65bf3729cc27b601e644120fca0fd56a66b/screenshots/dshw2.jpg
+    alt: 侧边栏展开
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XHR666/dsh-mpkg-wallpaper/287dc65bf3729cc27b601e644120fca0fd56a66b/screenshots/dshw3.jpg
+    alt: 设置页
