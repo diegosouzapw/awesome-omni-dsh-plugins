@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: tinqiao-oss-dsh-engramory
+name: dsh-engramory
+description:
+  en: Curated file-based long-term memory for DeepSeek Harness — human-readable markdown notes, one plain-file store shared across hosts (git-ignored when it lives inside a project repo), and a deterministic index cap enforced by ctx.tools.guard()
+  evidencePath: adapters/dsh/plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - memory
+  - agent-memory
+  - long-term-memory
+  - engramory
+  - markdown
+source:
+  repository: https://github.com/tinqiao-oss/engramory
+  repositoryNodeId: R_kgDOS5qe6g
+  subpath: adapters/dsh/plugin
+  commit: 39efc183a55cb3d2c56e11a42b2b5e059a193ce3
+creator:
+  github: tinqiao-oss
+package:
+  ecosystem: npm
+  name: dsh-engramory
+  version: 0.2.3
+  integrity: sha512-2THdPKjjj3w5ROFwH312ArioEdLEp0JX54azd4AfJ6Tcz3vc8ATiyDrpECsFxSiaHDectR+HAI2PnkUxCp41+A==
+dsh:
+  profiles:
+    - web
+  evidencePath: adapters/dsh/plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:16.056Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
