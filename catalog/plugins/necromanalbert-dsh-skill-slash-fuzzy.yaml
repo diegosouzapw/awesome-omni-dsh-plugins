@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: necromanalbert-dsh-skill-slash-fuzzy
+name: dsh-skill-slash-fuzzy
+description:
+  en: Resolve unique kebab-case skill substrings in DeepSeek Harness slash tokens, so /oneshot can load game-package-oneshot.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - skill
+  - slash
+  - fuzzy
+source:
+  repository: https://github.com/NecromanAlbert/dsh-skill-slash-fuzzy
+  repositoryNodeId: R_kgDOUD77Jg
+  subpath: null
+  commit: 66ddb8867f47598a2a0bb02abca33d142e0e3bfa
+creator:
+  github: NecromanAlbert
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:07.134Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
