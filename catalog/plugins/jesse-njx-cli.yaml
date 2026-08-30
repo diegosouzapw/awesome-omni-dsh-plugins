@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: jesse-njx-cli
+name: "@dsh-pm/cli"
+description:
+  en: "@dsh-pm/cli — the dsh pm command group: search, install, remove, list, update, and doctor for dsh plugins, wiring the registry, installer, and core contract together"
+  evidencePath: packages/cli/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - plugin-manager
+  - cli
+source:
+  repository: https://github.com/Jesse-njx/dsh-plugin-manager
+  repositoryNodeId: R_kgDOT36tPQ
+  subpath: packages/cli
+  commit: d0fbacf017706bc05ec415d07c38bd0a79b05cec
+creator:
+  github: Jesse-njx
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/cli/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:49.902Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
