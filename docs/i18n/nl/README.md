@@ -16,7 +16,7 @@ Ontdekking met voorrang voor makers en installatie met één commando voor **Dee
   <a href="https://dsh-plugins.omniroute.online">Blader, zoek en installeer elke plugin op de website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3147_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@ en deze repository bevat de publieke catalogusdata, het schema en het beleid dat
 
 ## Catalogusstatus
 
-**3147 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
+**3238 plugins samengevoegd.** Elke plugin komt binnen via een individueel beoordeelde pull
 request, één tegelijk, vanuit het oorspronkelijke repository van de maker, met een
 vastgepinde broncommit en expliciete attributie.
 
@@ -340,4 +340,4 @@ licenties. Zie [docs/CREDIT.md](../../docs/CREDIT.md) en [docs/UNOFFICIAL.md](..
 
 </div>
 
-<!-- i18n-source-hash: be68af18c6424c8a31de4086a1c9cae60cba45fb13f742d22c3dd5df1a238b8a -->
+<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->

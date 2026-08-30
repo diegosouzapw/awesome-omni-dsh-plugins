@@ -16,7 +16,7 @@ Yaradıcı-önləşdirilmiş kəşf və **DeepSeek Harness (DSH)** əlavələri 
   <a href="https://dsh-plugins.omniroute.online">Bütün əlavələrə veb saytda baxın, axtarın və quraşdırın →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3147_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3238_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -118,7 +118,7 @@ hər ikisinin istifadə etdiyi ictimai kataloq məlumatlarını, sxemi və siyas
 
 ## Kataloq statusu
 
-**3147 əlavə birləşdirildi.** Hər əlavə orijinal yaradıcı repozitoriyasından, sabitlənmiş mənbə
+**3238 əlavə birləşdirildi.** Hər əlavə orijinal yaradıcı repozitoriyasından, sabitlənmiş mənbə
 commit-i və aydın atribusiya ilə, bir-bir, ayrıca nəzərdən keçirilən pull request vasitəsilə daxil
 olur.
 
@@ -337,4 +337,4 @@ loqoları və ekran görüntüləri öz orijinal sahiblərinin və lisenziyalar�
 
 </div>
 
-<!-- i18n-source-hash: be68af18c6424c8a31de4086a1c9cae60cba45fb13f742d22c3dd5df1a238b8a -->
+<!-- i18n-source-hash: f2353d725a39809e71e7d51494e319babfea74360c581f8369a11a9292cc3196 -->
