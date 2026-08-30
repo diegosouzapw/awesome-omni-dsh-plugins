@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zhou1736948757-cpu-dsh-auto-continue
+name: "@dsh-external/dsh-auto-continue"
+description:
+  en: When a model hits the per-request output token cap ( max-tokens ), DeepSeek Harness ends the turn and shows "Send 'continue' to let the model resume" . This plugin watches for exactly that event and sends the continuation automatically — no manual typing, no babysitting long answers.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - ollama
+  - max-tokens
+  - auto-continue
+  - truncation
+source:
+  repository: https://github.com/zhou1736948757-cpu/dsh-auto-continue
+  repositoryNodeId: R_kgDOUDh6OQ
+  subpath: null
+  commit: 3e2730dea6f0fa1cbf05c1bf353a1982d3326276
+creator:
+  github: zhou1736948757-cpu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: BSD-3-Clause
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:08.226Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
