@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: yeqingtang-dsh-task-watcher-plugin
+name: "@yeqingtang/dsh-task-watcher-plugin"
+description:
+  en: "Windows tray monitor for DeepSeek Harness tasks: deploys and launches DshTaskWatcher (standalone PowerShell tray app) from the plugin bundle. Status/start/stop via loopback API. The watcher runs detached from the host process."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - windows
+  - tray
+  - monitor
+  - tasks
+  - deploys
+  - launches
+  - dshtaskwatcher
+  - standalone
+  - powershell
+  - bundle
+  - status
+  - start
+  - stop
+  - loopback
+  - watcher
+  - runs
+source:
+  repository: https://github.com/YeqingTang/dsh-task-watcher-plugin
+  repositoryNodeId: R_kgDOT-tYAw
+  subpath: null
+  commit: ba4210feb6de4f9b9c4ea2d66dec0caee80dc350
+creator:
+  github: YeqingTang
+package:
+  ecosystem: npm
+  name: "@yeqingtang/dsh-task-watcher-plugin"
+  version: 0.5.4
+  integrity: sha512-UfZDLV5K2+p9+/65vr/bl6OvePQJLAdpvFtG2EOW1Zsq49OQWJWeGeFpiwhBhevnPOHOodzdMDM/hUiMAqhFWQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:30.802Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YeqingTang/dsh-task-watcher-plugin/ba4210feb6de4f9b9c4ea2d66dec0caee80dc350/assets/screenshots/preview.png
+    alt: preview
