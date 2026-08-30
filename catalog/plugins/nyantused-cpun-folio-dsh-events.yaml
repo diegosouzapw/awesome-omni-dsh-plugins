@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: nyantused-cpun-folio-dsh-events
+name: "@nyantused/folio-dsh-events"
+description:
+  en: '- agent/session-start / agent/disposed ：dsh-agent 官方 live 词汇（non-vetoing）； - tool/call 会话事件形状 {turn, step, callId, name, arguments} ：dsh-agent-loop appendToolCall （ session.append("tool/call", ...) ）； - agent.followup(message) ：dsh-agent 入队原语（next-turn FIFO 唤醒）； - createUserMessage ：dsh-llm/message 依赖最小入口（mint MessageI'
+  evidencePath: plugins/folio-events/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - folio
+  - consulting
+  - document-generation
+  - session-protocol
+source:
+  repository: https://github.com/nyantused-cpun/folio
+  repositoryNodeId: R_kgDOT47yoQ
+  subpath: plugins/folio-events
+  commit: 6ce1ec882cda61dbca5ad56bbce874d1dc127605
+creator:
+  github: nyantused-cpun
+package:
+  ecosystem: npm
+  name: "@nyantused/folio-dsh-events"
+  version: 1.0.1
+  integrity: sha512-EMOi2D99LMvropgScya7NmFvifs9iijQHT4+igGXEcHuyME1K0t0yADIyCK/zH9+a9+TBPcGzinT40zaYnVn8g==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/folio-events/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:36:08.901Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
