@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: cosmic-snail-dsh-travel-plan
+name: dsh-travel-plan
+description:
+  en: "DeepSeek Harness bundle: plan-travel-guide skill with map/OTA/ticketing catalog sweep, Xiaohongshu/Douyin/Weibo/Bilibili discovery, POI verification, and day-by-day route clustering."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - travel
+  - skill
+  - xiaohongshu
+  - dsh
+source:
+  repository: https://github.com/cosmic-snail/dsh-travel-plan
+  repositoryNodeId: R_kgDOT8MYZA
+  subpath: null
+  commit: 285466a0cfdb9996524c14f20e760e14f74f2f3c
+creator:
+  github: cosmic-snail
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:03.049Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
