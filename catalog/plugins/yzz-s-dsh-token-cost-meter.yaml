@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: yzz-s-dsh-token-cost-meter
+name: dsh-token-cost-meter
+description:
+  en: "Supports two forms: an installable dsh.bundle package (recommended, persists across DSH restarts) and the dynamic cordis define usage (temporary run)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - token
+  - pricing
+  - cost
+source:
+  repository: https://github.com/YZz-S/dsh-token-cost-meter
+  repositoryNodeId: R_kgDOT484Lw
+  subpath: null
+  commit: c36087118c8df000ec721ea4f2553aca480b50e2
+creator:
+  github: YZz-S
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:49.984Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
