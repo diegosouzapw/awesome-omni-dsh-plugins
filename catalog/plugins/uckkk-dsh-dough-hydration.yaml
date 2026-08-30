@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-dough-hydration
+name: dsh-dough-hydration
+description:
+  en: bash dsh plugin add github:uckkk/dsh-dough-hydration
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-dough-hydration
+source:
+  repository: https://github.com/uckkk/dsh-dough-hydration
+  repositoryNodeId: R_kgDOT-DcIQ
+  subpath: null
+  commit: 4a155089acf7b39c8233d1d52c9b7afc394c4313
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:27.137Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
