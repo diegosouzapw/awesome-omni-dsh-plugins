@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: wss534857356-dsh-llm-codex-app-server
+name: dsh-llm-codex-app-server
+description:
+  en: DeepSeek Harness LLM provider backed by the locally authenticated Codex App Server
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - codex
+  - llm
+  - dsh
+source:
+  repository: https://github.com/wss534857356/dsh-plugin-codex
+  repositoryNodeId: R_kgDOT4_vTw
+  subpath: null
+  commit: ad2f35322ebaa2dee61c41663d38653d57ad7a97
+creator:
+  github: wss534857356
+package:
+  ecosystem: npm
+  name: dsh-llm-codex-app-server
+  version: 0.1.20
+  integrity: sha512-GNdA1PjpX6WBs83Mc1gyd+5pgehVIV5G7MY/H0q3BQzFth6ZigpwOWLdXD5WP6NZgzdFgI8Itqt2QzE9qZI9Zg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:16.801Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wss534857356/dsh-plugin-codex/ad2f35322ebaa2dee61c41663d38653d57ad7a97/docs/images/conversation-screenshot.png
+    alt: Conversation screenshot
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wss534857356/dsh-plugin-codex/ad2f35322ebaa2dee61c41663d38653d57ad7a97/docs/images/model-selector-screenshot.png
+    alt: Model selector
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wss534857356/dsh-plugin-codex/ad2f35322ebaa2dee61c41663d38653d57ad7a97/docs/images/codex-settings-card.png
+    alt: Codex App Server settings card
