@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: suntianc-dsh-codex-auth
+name: dsh-codex-auth
+description:
+  en: One DeepSeek Harness Codex capability bundle for ChatGPT login, LLM access, Web Search, and durable Image Creation
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - codex
+  - chatgpt
+  - oauth
+  - web-search
+  - image-generation
+  - dsh
+source:
+  repository: https://github.com/suntianc/dsh-codex-auth
+  repositoryNodeId: R_kgDOT36FGw
+  subpath: null
+  commit: c3550ad56f1d40baef1fc64eb40297eb279caa71
+creator:
+  github: suntianc
+package:
+  ecosystem: npm
+  name: dsh-codex-auth
+  version: 0.3.1
+  integrity: sha512-xZrC9eAOrPrjzqyybjWStgFuPNMmT8jQquGwZwkMI5OqvXBgYzMW+k9pRfdVsXpeI0vc39NpuZDUYqE0nkm8JQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:42.895Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 13
+provenance:
+  discussion: null
+  comment: null
