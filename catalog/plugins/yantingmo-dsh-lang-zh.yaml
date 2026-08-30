@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yantingmo-dsh-lang-zh
+name: dsh-lang-zh
+description:
+  en: sh dsh plugin --profile web add dsh-lang-zh
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - language
+  - chinese
+  - zh-cn
+  - simplified-chinese
+source:
+  repository: https://github.com/Yantingmo/dsh-lang-zh
+  repositoryNodeId: R_kgDOUARJ9w
+  subpath: null
+  commit: bb2990dfbdec46281ac762c70049a5a76fe857e8
+creator:
+  github: Yantingmo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:28.606Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
