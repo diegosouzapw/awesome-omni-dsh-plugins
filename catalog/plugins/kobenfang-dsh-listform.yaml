@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: kobenfang-dsh-listform
+name: "@kobenfang/dsh-listform"
+description:
+  en: "Agent Skill for DeepSeek Harness (dsh): list."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - agent
+  - skill
+  - list
+  - dsh
+source:
+  repository: https://github.com/kobenfang/ListForm
+  repositoryNodeId: R_kgDOSoaKDA
+  subpath: null
+  commit: 33b73a13d98e442220eb0e5420fe8b0916fab961
+creator:
+  github: kobenfang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:35.862Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
