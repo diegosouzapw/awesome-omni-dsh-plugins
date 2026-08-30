@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wode25500-dsh-skillopt
+name: dsh-skillopt
+description:
+  en: "Microsoft SkillOpt-Sleep integration for DeepSeek Harness: give your dsh agent a nightly sleep cycle that harvests past sessions, replays recurring tasks, and consolidates validated skills behind a held-out gate."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - skillopt
+  - skill-optimization
+  - self-improvement
+  - memory-consolidation
+  - sleep
+source:
+  repository: https://github.com/WODE25500/dsh-skillopt
+  repositoryNodeId: R_kgDOT9_AAA
+  subpath: null
+  commit: 654f6eb386f7d766dd8d571dba7ba9454e649a2d
+creator:
+  github: WODE25500
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:20.030Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
