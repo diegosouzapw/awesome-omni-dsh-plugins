@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: vdnight89-host
+name: "@infinite-dsh/host"
+description:
+  en: DSH host plugin sources (install the repo root package dsh-infinite)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - host
+  - sources
+  - install
+  - repo
+  - root
+  - package
+  - infinite
+  - dsh
+source:
+  repository: https://github.com/vdnight89/InfiniteDSH
+  repositoryNodeId: R_kgDOT51DMA
+  subpath: packages/dsh-infinite
+  commit: b9716a43e1d396b71baf2b270ba33c5e92b944db
+creator:
+  github: vdnight89
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-infinite/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:26.383Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/vdnight89/InfiniteDSH/b9716a43e1d396b71baf2b270ba33c5e92b944db/docs/banner.jpg
+    alt: 诸天万界DSH：鲸鱼娘与梁圣立于碎裂的万界，身后是修仙、末世、规则怪谈与赛博霓虹
