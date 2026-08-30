@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: classicoke-cleverer-dsh
+name: cleverer-dsh
+description:
+  en: "Execution-discipline plugin suite for DeepSeek Harness: anti-stuck retry interception, forced reflection, todo discipline, memory dedup, and self-evolving skills. Zero dependencies, never touches DSH source."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+  - deepseek-harness
+  - cordis
+  - ai-agents
+  - agent-skills
+source:
+  repository: https://github.com/Classicoke/cleverer-dsh
+  repositoryNodeId: R_kgDOT5TgiA
+  subpath: null
+  commit: 40bd216ea9c7a95da887aa97fb661a0e8c7b1dd2
+creator:
+  github: Classicoke
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:50.879Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 11
+provenance:
+  discussion: null
+  comment: null
