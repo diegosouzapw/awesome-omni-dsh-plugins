@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xiyuepcl-dsh-translator
+name: dsh-translator
+description:
+  en: sh npx -y @deepseek-ai/dsh plugin --profile web-desktop add https://github.com/xiyuepcl/dsh-approval-translator/releases/download/v0.1.3/dsh-translator-0.1.3.tgz
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - translation
+  - approval
+  - hanhua
+source:
+  repository: https://github.com/xiyuepcl/dsh-approval-translator
+  repositoryNodeId: R_kgDOT6qTVg
+  subpath: null
+  commit: 2279a497b82029384c5126f9318a9b83141788cd
+creator:
+  github: xiyuepcl
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:33.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
