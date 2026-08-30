@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wingsky-1-dsh-codegraph
+name: "@wingsky-1/dsh-codegraph"
+description:
+  en: "A collection of plugins for the DSH (DeepSeek Harness) web GUI, distributed via npm: install them all at once as a single bundle, or pick individual plugins as needed."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - codegraph
+  - mcp
+  - worktree
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-codegraph
+  commit: 4fdd64b0af07c9321308667784e9349bdf7c17b1
+creator:
+  github: wingsky-1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-codegraph/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:27.526Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
