@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: particlelight-dsh-all-usage
+name: dsh-all-usage
+description:
+  en: DeepSeek Harness usage dashboard with model, provider, workspace, cache, balance, and CSV insights
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - usage
+  - stats
+  - heatmap
+  - tokens
+  - balance
+source:
+  repository: https://github.com/ParticleLight/dsh-all-usage
+  repositoryNodeId: R_kgDOT7LIAA
+  subpath: null
+  commit: ff20ec5cd5a321e1e1465d731b315b618328e450
+creator:
+  github: ParticleLight
+package:
+  ecosystem: npm
+  name: dsh-all-usage
+  version: 1.1.2
+  integrity: sha512-ltMIoveTaCGz5wMS4BF4vLjEuxNLNsjVyl0VFG6s9AZvWs/03WLuDrnMVecALvmwRJkSabbKFeW9epWoTpRnrQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:02.859Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ParticleLight/dsh-all-usage/ff20ec5cd5a321e1e1465d731b315b618328e450/assets/screenshot-1.png
+    alt: dsh-all-usage 看板总览 / Dashboard overview
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ParticleLight/dsh-all-usage/ff20ec5cd5a321e1e1465d731b315b618328e450/assets/screenshot-2.png
+    alt: dsh-all-usage 成本统计设置 / Cost statistics settings
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ParticleLight/dsh-all-usage/ff20ec5cd5a321e1e1465d731b315b618328e450/assets/screenshot-3.png
+    alt: dsh-all-usage 请求日志与审计 / Request logs and audit
