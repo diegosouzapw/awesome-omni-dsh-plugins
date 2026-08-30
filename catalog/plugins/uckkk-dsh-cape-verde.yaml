@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: uckkk-dsh-cape-verde
+name: dsh-cape-verde
+description:
+  en: bash dsh plugin add github:uckkk/dsh-cape-verde
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - dsh-cape-verde
+source:
+  repository: https://github.com/uckkk/dsh-cape-verde
+  repositoryNodeId: R_kgDOT-DATQ
+  subpath: null
+  commit: ee82a38842caf2037c0c1dc43c1738e8cfbb194d
+creator:
+  github: uckkk
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T16:41:37.152Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
