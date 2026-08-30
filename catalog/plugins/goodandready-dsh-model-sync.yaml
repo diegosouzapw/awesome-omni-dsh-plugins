@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: goodandready-dsh-model-sync
+name: "@goodandready/dsh-model-sync"
+description:
+  en: Automatic model catalog synchronization for API-key DeepSeek Harness providers.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - models
+  - api-key
+  - catalog
+source:
+  repository: https://github.com/GooDAnDReaDY/dsh-model-sync
+  repositoryNodeId: R_kgDOUByJtA
+  subpath: null
+  commit: 76906b93743b572fb4ab2a40196a57a8dd2d93e9
+creator:
+  github: GooDAnDReaDY
+package:
+  ecosystem: npm
+  name: "@goodandready/dsh-model-sync"
+  version: 0.3.4
+  integrity: sha512-YbkvQv3JRax2vdAcIp00ug9QCLQ2WnrnWM+PJ542zRy4NoHzKONwubIlGjqx41D+tqmmiM32KejEJKIwGDEPZQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:15.578Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
