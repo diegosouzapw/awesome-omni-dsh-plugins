@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: eeyzs1-dsh-llm-transport-recovery
+name: "@eeyzs1/dsh-llm-transport-recovery"
+description:
+  en: "Two-phase recovery for DeepSeek TRANSPORT failures: 5 normal HTTP/1.1 retries within a 2-min window, then a recovery path (fresh DNS + all-IP fallback + brand-new connections) up to a bounded budget (5+15=20 total), then the turn fails like stock DSH. Phase is tracked per session; compaction gets bounded auto-retry. Th"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - phase
+  - recovery
+  - transport
+  - failures
+  - normal
+  - retries
+  - within
+  - window
+  - path
+  - fresh
+  - fallback
+  - brand
+  - connections
+  - bounded
+  - budget
+  - total
+source:
+  repository: https://github.com/eeyzs1/dsh-plugins
+  repositoryNodeId: R_kgDOT5anVw
+  subpath: packages/llm-transport-recovery
+  commit: 7b5019388f5c5ff168f67e802e4945db46407d9f
+creator:
+  github: eeyzs1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/llm-transport-recovery/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:13.877Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
