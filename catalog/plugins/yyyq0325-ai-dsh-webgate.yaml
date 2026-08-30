@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yyyq0325-ai-dsh-webgate
+name: "@yyyq0325/dsh-webgate"
+description:
+  en: "Login gate for the DeepSeek Harness web GUI: username/password entry page (DeepSeek style), 12-hour session tokens, slash commands for user management. Background tasks keep running while logged out."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - auth
+  - login
+  - webgate
+source:
+  repository: https://github.com/yyyq0325-ai/dsh-webgate
+  repositoryNodeId: R_kgDOUBAj3Q
+  subpath: null
+  commit: 402a10a33e96793bdddb66e00987731f674c93e9
+creator:
+  github: yyyq0325-ai
+package:
+  ecosystem: npm
+  name: "@yyyq0325/dsh-webgate"
+  version: 0.2.2
+  integrity: sha512-F63nPPQpdow3mWAYZjqOWnblS4BQjLV+teipI4ndTB3F71RhvamqCeMoHdt5tw47OfJdL7p/zZkJfM190yaCMQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:01.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yyyq0325-ai/dsh-webgate/402a10a33e96793bdddb66e00987731f674c93e9/docs/login-preview.png
+    alt: login
