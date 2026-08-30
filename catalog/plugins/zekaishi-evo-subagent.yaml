@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: zekaishi-evo-subagent
+name: evo-subagent
+description:
+  en: "Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution — prefercmd/memory as knowledge allow/deny lists, so repeated tasks start from proven commands and save tokens"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - subagent
+  - model-routing
+source:
+  repository: https://github.com/ZekaiShi/evo-subagent
+  repositoryNodeId: R_kgDOUAnzhA
+  subpath: null
+  commit: de0814f4daaca94d4aca94bd8724915ef79bce5f
+creator:
+  github: ZekaiShi
+package:
+  ecosystem: npm
+  name: evo-subagent
+  version: 0.5.0
+  integrity: sha512-tEVfX/wAkPGSWu3Ziqp6YR6mJQtrOB6SWStc/5LdoLKq8lHrdJccsxQNFSS11ET8bvLEdj1Itr1AktUiLjwHTw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:46.859Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZekaiShi/evo-subagent/de0814f4daaca94d4aca94bd8724915ef79bce5f/assets/Evo-subagent-preview.png
+    alt: evo-subagent — Route. Remember. Evolve.
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZekaiShi/evo-subagent/de0814f4daaca94d4aca94bd8724915ef79bce5f/assets/evo-subagent-tutorial.gif
+    alt: Open and manage evo-subagent in DSH
