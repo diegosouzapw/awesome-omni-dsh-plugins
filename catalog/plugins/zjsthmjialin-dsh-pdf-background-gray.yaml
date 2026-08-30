@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: zjsthmjialin-dsh-pdf-background-gray
+name: dsh-pdf-background-gray
+description:
+  en: sh dsh plugin --profile web add dsh-pdf-background-gray
+  evidencePath: dsh-pdf-background-gray/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - skill
+  - pdf
+  - background-removal
+  - image-processing
+  - dsh
+source:
+  repository: https://github.com/zjsthmjialin/pdf-background-gray-codex-skill
+  repositoryNodeId: R_kgDOS-ESHg
+  subpath: dsh-pdf-background-gray
+  commit: c224d16deba0c48c247403707f14b11f416473f3
+creator:
+  github: zjsthmjialin
+package:
+  ecosystem: npm
+  name: dsh-pdf-background-gray
+  version: 0.1.0
+  integrity: sha512-z9ETUElAJhfIPxbJxuYxyovQBLmNCAIvkLzrVZbrybwfmB/qr+vFTT2Z30PsaiTbcD4eF3Lp3axQSZpTasf4Ww==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-pdf-background-gray/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:10.754Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
