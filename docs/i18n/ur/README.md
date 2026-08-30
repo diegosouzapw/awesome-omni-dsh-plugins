@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">ویب سائٹ پر تمام پلگ انز کو براؤز، تلاش اور انسٹال کریں →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-2388_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-2782_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -113,7 +113,7 @@
 
 ## کیٹلاگ کی صورتحال
 
-**2388 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
+**2782 پلگ ان ضم ہو چکے ہیں۔** ہر پلگ ان اصل تخلیق کار کی ریپوزٹری سے، ایک وقت میں ایک، ایک انفرادی طور پر جائزہ شدہ pull request کے ذریعے، ایک پن شدہ سورس کمٹ اور واضح انتساب کے ساتھ داخل ہوتا ہے۔
 
 ## 🚀 CLI انسٹال کریں
 
@@ -287,4 +287,4 @@ pull request کھولنے سے پہلے [CONTRIBUTING.md](../../CONTRIBUTING.md)
 
 </div>
 
-<!-- i18n-source-hash: f9b3406946a74dcdddee7b7c5565530ddc42f169899f30447938b1e4ea2fdb0a -->
+<!-- i18n-source-hash: 55c1a7fca8dc55e7512fe9f471dacc1079c2b1e236e5810f703f356325141f60 -->
