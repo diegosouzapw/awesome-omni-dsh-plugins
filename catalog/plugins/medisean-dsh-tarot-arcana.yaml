@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: medisean-dsh-tarot-arcana
+name: dsh-tarot-arcana
+description:
+  en: A deterministic three-card tarot reflection tool for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - tarot
+  - reflection
+  - dsh
+source:
+  repository: https://github.com/medisean/dsh-tarot-arcana
+  repositoryNodeId: R_kgDOT9YOLA
+  subpath: null
+  commit: 80f5488aa9c547e79c750fa7e7d3c8a548040c02
+creator:
+  github: medisean
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:51.894Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
