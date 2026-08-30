@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: victorytianyi-dev-dsh-upload-button
+name: dsh-upload-button
+description:
+  en: Add an upload-image button beside the composer plus button. Picks local images and feeds them through the conversation draft-image drop path (DataTransfer + synthetic drop event), so describe-image rewrites the send into an image reference.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - upload
+  - image
+  - button
+  - beside
+  - composer
+  - plus
+  - picks
+  - local
+  - images
+  - feeds
+  - through
+  - conversation
+  - draft
+  - drop
+  - path
+  - datatransfer
+source:
+  repository: https://github.com/victorytianyi-dev/dsh-upload-button
+  repositoryNodeId: R_kgDOT9MXeQ
+  subpath: null
+  commit: ab6800277eece8c9086f9990bd01cdd2f7e54550
+creator:
+  github: victorytianyi-dev
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:38.684Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
