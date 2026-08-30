@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jingxuanc-causal-memory-dsh-plugin
+name: causal-memory-dsh-plugin
+description:
+  en: "DeepSeek Harness native plugin bridging the causal-memory MCP server: clean-named causal memory tools + a system-prompt section. Zero runtime dependencies."
+  evidencePath: dsh-plugin/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - native
+  - bridging
+  - causal
+  - memory
+  - server
+  - clean
+  - named
+  - tools
+  - system
+  - prompt
+  - section
+  - zero
+  - runtime
+  - dependencies
+  - dsh
+source:
+  repository: https://github.com/JingxuanC/causal-memory
+  repositoryNodeId: R_kgDOTkGjsA
+  subpath: dsh-plugin
+  commit: c162eef51332f37b682541f91220e3f19f7371b3
+creator:
+  github: JingxuanC
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:50.065Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
