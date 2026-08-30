@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: dsh-admin-dsh-mcp-toggle
+name: dsh-mcp-toggle
+description:
+  en: "Enable/disable MCP servers directly from DSH Settings: a 'MCP Servers' page that stops/starts @deepseek-ai/dsh-mcp-client connections live and persists the change across restarts."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - mcp
+  - mcp-client
+  - settings
+  - enable
+  - disable
+  - toggle
+source:
+  repository: https://github.com/Zenjibad/dsh-mcp-toggle
+  repositoryNodeId: R_kgDOT8x2xA
+  subpath: null
+  commit: e9a7ed6a0adceb039f6ea0540af117130c9fa6c4
+creator:
+  github: DSH-Admin
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:25:01.382Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
