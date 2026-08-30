@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xi-zhao-harness-web-branding
+name: "@openquantum/harness-web-branding"
+description:
+  en: OpenQuantum branding and PWA metadata for the native DeepSeek Harness web UI
+  evidencePath: packages/openquantum-web-branding/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - openquantum
+  - quantum-computing
+  - web-ui
+  - dsh
+source:
+  repository: https://github.com/xi-zhao/OpenQuantum
+  repositoryNodeId: R_kgDOT5PL0g
+  subpath: packages/openquantum-web-branding
+  commit: 8a94635e6222a6c0b6f2cb29b1c9922107bb4005
+creator:
+  github: xi-zhao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/openquantum-web-branding/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:39.031Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
