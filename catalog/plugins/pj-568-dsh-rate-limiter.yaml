@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: pj-568-dsh-rate-limiter
+name: "@xidong-ai/dsh-rate-limiter"
+description:
+  en: "A proactive rate limiter plugin for DeepSeek Harness ( dsh ): it controls the request rate per provider (token bucket) before model requests are issued, and queues the request with a delay instead of failing when the limit is exceeded — avoiding upstream 429s."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - proactive
+  - rate
+  - limiter
+  - controls
+  - request
+  - provider
+  - token
+  - bucket
+  - before
+  - model
+  - requests
+  - issued
+  - queues
+  - delay
+  - instead
+  - failing
+source:
+  repository: https://github.com/Xidong-AI/dsh-rate-limiter
+  repositoryNodeId: R_kgDOT7TiVA
+  subpath: null
+  commit: ebcf3cb7ef339a8cb07c63a6bc777752b22853d2
+creator:
+  github: PJ-568
+package:
+  ecosystem: npm
+  name: "@xidong-ai/dsh-rate-limiter"
+  version: 0.3.1
+  integrity: sha512-iJ62N8z0wXl5az1z31R3HqrY9aVIAInkYzqtAV6zHIXoNsBwIM5TIoZqNxvOu71QH0Hut4tZzZlO5D1QEAnSyg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T10:47:21.737Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
