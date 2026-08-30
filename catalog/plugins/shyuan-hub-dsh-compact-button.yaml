@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: shyuan-hub-dsh-compact-button
+name: dsh-compact-button
+description:
+  en: "DSH web plugin: adds a one-click Compact button and a New Session button to the conversation context meter panel. Compact submits /compact to summarize older history; New Session starts a fresh session in the same workspace (agent preset and permission settings follow the deployment default)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - adds
+  - click
+  - compact
+  - button
+  - session
+  - conversation
+  - context
+  - meter
+  - panel
+  - submits
+  - summarize
+  - older
+  - history
+  - starts
+  - fresh
+  - same
+source:
+  repository: https://github.com/shyuan-hub/dsh-compact-button
+  repositoryNodeId: R_kgDOUBcz1w
+  subpath: null
+  commit: 371390db605489683cb5b0527ee6073daa0cc0fc
+creator:
+  github: shyuan-hub
+package:
+  ecosystem: npm
+  name: dsh-compact-button
+  version: 0.3.2
+  integrity: sha512-5TP32U0vWtXeqfpcJswrGLCahuP22e7qpKbopAsDOld/YZmxFyxGfPtZgwn5yRfYdqICHihsWwXL+Ae6Bhx+aQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T22:35:57.209Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/shyuan-hub/dsh-compact-button/371390db605489683cb5b0527ee6073daa0cc0fc/doc/assets/screenshot.png
+    alt: dsh-compact-button 在上下文计量面板中的效果
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/shyuan-hub/dsh-compact-button/371390db605489683cb5b0527ee6073daa0cc0fc/doc/assets/screencap.gif
+    alt: dsh-compact-button 动态演示：一键压缩上下文与新建会话
