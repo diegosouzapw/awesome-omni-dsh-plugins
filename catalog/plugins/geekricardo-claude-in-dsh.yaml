@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: geekricardo-claude-in-dsh
+name: claude-in-dsh
+description:
+  en: bash curl -fsSL https://raw.githubusercontent.com/GeekRicardo/claude-in-dsh/main/install.sh bash
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - bash
+  - curl
+  - fssl
+  - githubusercontent
+  - geekricardo
+  - claude
+  - main
+  - install
+  - dsh
+source:
+  repository: https://github.com/GeekRicardo/claude-in-dsh
+  repositoryNodeId: R_kgDOT-JVsg
+  subpath: null
+  commit: 62e3805b3572f3478e5db73968b9c1d29233047e
+creator:
+  github: GeekRicardo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:59.299Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
