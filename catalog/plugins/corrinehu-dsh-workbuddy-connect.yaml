@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: corrinehu-dsh-workbuddy-connect
+name: dsh-workbuddy-connect
+description:
+  en: 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness — bring WorkBuddy desktop app models into DeepSeek Harness with zero configuration.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - workbuddy
+  - model-provider
+  - dsh
+source:
+  repository: https://github.com/corrinehu/dsh-workbuddy-connect
+  repositoryNodeId: R_kgDOT7lRbg
+  subpath: null
+  commit: 7c2eba26afaf50cd8b21439fe589dcec8f563039
+creator:
+  github: corrinehu
+package:
+  ecosystem: npm
+  name: dsh-workbuddy-connect
+  version: 0.2.5
+  integrity: sha512-rSAeNkjG/9Ukc9J97MG8gYmCoAz+29xIZWXTWEgI/R22nD2DqIT8kJBu4zgyZLeSw2VMOayEICXuSNc1YTjajA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:56:48.856Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 18
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-workbuddy-connect/7c2eba26afaf50cd8b21439fe589dcec8f563039/assets/1.png
+    alt: WorkBuddy 模型出现在 DSH 模型选择器中
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-workbuddy-connect/7c2eba26afaf50cd8b21439fe589dcec8f563039/assets/2.png
+    alt: 设置卡片显示插件
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/corrinehu/dsh-workbuddy-connect/7c2eba26afaf50cd8b21439fe589dcec8f563039/assets/3.png
+    alt: 设置卡片显示账号与剩余积分
