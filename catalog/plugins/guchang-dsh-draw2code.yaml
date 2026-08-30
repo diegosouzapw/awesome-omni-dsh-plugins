@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: guchang-dsh-draw2code
+name: dsh-draw2code
+description:
+  en: Human-AI collaborative prototyping for DSH, Codex and MCP agents, from product clarification to editable Excalidraw wireframes and verified frontend generation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - excalidraw
+  - prototype
+  - wireframe
+  - vibe-coding
+source:
+  repository: https://github.com/guchang/draw2code
+  repositoryNodeId: R_kgDOT8iMtw
+  subpath: null
+  commit: 0d7e33e2f3dd5aa38bb1a405f75452b5f054d8ae
+creator:
+  github: guchang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:57:00.336Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
