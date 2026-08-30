@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yingjunnan-dsh-deepseek-quota
+name: dsh-deepseek-quota
+description:
+  en: "DeepSeek API quota widget for the dsh web GUI: shows remaining DeepSeek API balance in a floating card pinned to the bottom-right corner (shell.overlay slot)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - quota
+  - balance
+  - web
+source:
+  repository: https://github.com/yingjunnan/dsh-deepseek-quota
+  repositoryNodeId: R_kgDOT4BJHA
+  subpath: null
+  commit: 88bfbd8253b2749f2bba418c90925841c51b5e1c
+creator:
+  github: yingjunnan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T17:18:10.759Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yingjunnan/dsh-deepseek-quota/88bfbd8253b2749f2bba418c90925841c51b5e1c/docs/screenshot.png
+    alt: dsh-deepseek-quota 截图
