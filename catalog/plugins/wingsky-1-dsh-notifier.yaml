@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wingsky-1-dsh-notifier
+name: "@wingsky-1/dsh-notifier"
+description:
+  en: "Notifications for approval / completion / error events: get alerted even when you are away from the browser."
+  evidencePath: packages/dsh-notifier/README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - notification
+  - toast
+source:
+  repository: https://github.com/wingsky-1/dsh-plugin-hub
+  repositoryNodeId: R_kgDOT6Jr1Q
+  subpath: packages/dsh-notifier
+  commit: 3df534bb1114cc108b633d2bd27eb491cf756a3f
+creator:
+  github: wingsky-1
+package:
+  ecosystem: npm
+  name: "@wingsky-1/dsh-notifier"
+  version: 0.1.13
+  integrity: sha512-sSP15SHla/5yLEapOX67nsXD8keuapZOXthWAhQBLXxA2DLitSnsqMK6qsypeKn27eybytXsweZaDEzIuXpFnw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: packages/dsh-notifier/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T09:18:47.375Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
