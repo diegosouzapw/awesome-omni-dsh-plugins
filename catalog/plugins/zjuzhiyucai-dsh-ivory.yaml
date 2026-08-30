@@ -1,0 +1,59 @@
+schemaVersion: 1
+id: zjuzhiyucai-dsh-ivory
+name: dsh-ivory
+description:
+  en: An unofficial Claude-inspired light/dark theme for DeepSeek Harness with responsive layout, safe Markdown preview, and zero telemetry.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - dsh
+  - theme
+  - skin
+  - claude-inspired
+  - dark-mode
+  - accessibility
+  - responsive
+source:
+  repository: https://github.com/ZJUZhiyuCai/dsh-ivory
+  repositoryNodeId: R_kgDOT57HmA
+  subpath: null
+  commit: 6da0020d145213ce10433f28983e69cc598508c7
+creator:
+  github: ZJUZhiyuCai
+package:
+  ecosystem: npm
+  name: dsh-ivory
+  version: 0.2.7
+  integrity: sha512-k5yEwkFKHNceqtOJhWIk2MTD4+v5Mw5tSyQFrZSkXPZsWQF4Z0ovL4H8lrPhw9IlDL6nA+BUVBtMS8UGOF4W3w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T11:24:58.081Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZJUZhiyuCai/dsh-ivory/6da0020d145213ce10433f28983e69cc598508c7/assets/hero-light.png
+    alt: Ivory for DSH home screen
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZJUZhiyuCai/dsh-ivory/6da0020d145213ce10433f28983e69cc598508c7/assets/conversation-light.png
+    alt: Ivory conversation view on desktop
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/ZJUZhiyuCai/dsh-ivory/6da0020d145213ce10433f28983e69cc598508c7/assets/mobile-light.png
+    alt: Ivory conversation view on mobile
