@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: jinsiyu-dsh-auto-open-web
+name: dsh-auto-open-web
+description:
+  en: Open the DSH Web GUI in an app-style WebView2 window on profile start, with a settings card for browser paths
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - open
+  - style
+  - webview2
+  - window
+  - profile
+  - start
+  - settings
+  - card
+  - browser
+  - paths
+  - dsh
+source:
+  repository: https://github.com/jinsiyu/dsh-auto-open-web
+  repositoryNodeId: R_kgDOT54IRQ
+  subpath: null
+  commit: 6c6d06976c5b2a14ccd921b5e81470fdccf461be
+creator:
+  github: jinsiyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T18:35:37.885Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
