@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: zenjibad-skill-injector-plugin
+name: skill-injector-plugin
+description:
+  en: "Keywords : dsh-plugin · deepseek-harness-plugin · skills · skill-injection · caveman · ponytail"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - skills
+  - skill-injection
+  - caveman
+  - ponytail
+  - ai-agent
+source:
+  repository: https://github.com/Zenjibad/skill-injector-plugin
+  repositoryNodeId: R_kgDOT6Gmww
+  subpath: null
+  commit: 3ac2cd002c05961e5d60070bb7a26b1d02d2395d
+creator:
+  github: Zenjibad
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:08.488Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
