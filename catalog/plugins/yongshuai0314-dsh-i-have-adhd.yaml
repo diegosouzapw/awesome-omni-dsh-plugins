@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: yongshuai0314-dsh-i-have-adhd
+name: dsh-i-have-adhd
+description:
+  en: "ADHD-friendly output shaping for DeepSeek Harness: one system-prompt section with on/off/status tools, persisted across restarts"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - adhd
+  - output-style
+  - accessibility
+  - productivity
+  - dsh-plugin
+source:
+  repository: https://github.com/yongshuai0314/dsh-i-have-adhd
+  repositoryNodeId: R_kgDOUE1Xlg
+  subpath: null
+  commit: 4dd11e9e80921739f6cddc1df08f3ca204c223fa
+creator:
+  github: yongshuai0314
+package:
+  ecosystem: npm
+  name: dsh-i-have-adhd
+  version: 1.0.2
+  integrity: sha512-Mqp7sYOMBk0+yMk01c/GsA6MkZTnORVdFQC8cEN/mGxSUf3kiqjCxwd7Za/NGhyFryrijALYZ88bZjxZKOPudQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:14.549Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
