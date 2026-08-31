@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ch4acko3-dsh-patchouli-memory-ui
+name: dsh-patchouli-memory-ui
+description:
+  en: Knowledge workspace UI for Patchouli and DeepSeek Harness
+  evidencePath: packages/memory-ui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - deepseek-harness-plugin
+  - dsh
+  - dsh-plugin
+  - knowledge
+  - memory
+  - ui
+source:
+  repository: https://github.com/memorax-ai/dsh-patchouli
+  repositoryNodeId: R_kgDOT3_3gQ
+  subpath: packages/memory-ui
+  commit: 04a82a1adca7a37c1a934400a4586c01dced77dc
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: dsh-patchouli-memory-ui
+  version: 0.1.0
+  integrity: sha512-kWamMH3pWwTdU98Y/yvlZBjxLECL/GJiTP8ca3kztwc7wFwKyLTMxuCJsDV0jkZtY9nLPdx+kgQknlx46giIWg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/memory-ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:33.907Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
