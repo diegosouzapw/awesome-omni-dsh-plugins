@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: waknow-dsh-web-icon-indicator
+name: dsh-web-icon-indicator
+description:
+  en: Browser tab favicon reflects the current DSH session state — idle / running / asking / done — so you can see at a glance whether a session needs your attention, even when the tab is in the background.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - dsh-plugin
+  - favicon
+  - icon-indicator
+  - browser-tab
+source:
+  repository: https://github.com/waknow/dsh-web-icon-indicator
+  repositoryNodeId: R_kgDOT9QbRQ
+  subpath: null
+  commit: e3dd29806413ea5f33dd36077caa340c24e8c70c
+creator:
+  github: waknow
+package:
+  ecosystem: npm
+  name: dsh-web-icon-indicator
+  version: 0.2.3
+  integrity: sha512-1rsjXbwX0zAyC2s9YVZ8pvcbTYBdOQFaKRfYf4kO954B/TmbTU9vvT+gCcckXQt3fknC8JglsBr2UxoUCaW3dA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:03.653Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
