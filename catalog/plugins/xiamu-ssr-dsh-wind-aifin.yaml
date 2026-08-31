@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xiamu-ssr-dsh-wind-aifin
+name: "@xiamu-ssr/dsh-wind-aifin"
+description:
+  en: Credential-safe Wind AIFin MCP and Alice integration for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - wind
+  - aifin
+  - mcp
+  - finance
+  - dsh
+source:
+  repository: https://github.com/Xiamu-ssr/snowmountain-market
+  repositoryNodeId: R_kgDOTXTu3A
+  subpath: null
+  commit: 0a05c84b8d631d3672e1857dd807691eee0150d0
+creator:
+  github: Xiamu-ssr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:06.770Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
