@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: wyzh0117-dsh-skill-select
+name: dsh-skill-select
+description:
+  en: "DSH web plugin: pick skills from a sidebar tab — list every installed skill with global/local badges, LLM-generated descriptions (cached, never touching skill files), and inject the /skill gesture into the current session composer on check."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - skill
+  - sidebar
+  - skill-select
+source:
+  repository: https://github.com/wyzh0117/dsh-skill-select
+  repositoryNodeId: R_kgDOT-rndQ
+  subpath: null
+  commit: f1834b3b0e1cf4ff2ff4b0642abce0711ce3a081
+creator:
+  github: wyzh0117
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:58.904Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wyzh0117/dsh-skill-select/f1834b3b0e1cf4ff2ff4b0642abce0711ce3a081/assets/better-sidebar.png
+    alt: Skills tab inside dsh-better-sidebar
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wyzh0117/dsh-skill-select/f1834b3b0e1cf4ff2ff4b0642abce0711ce3a081/assets/product.png
+    alt: dsh-SkillSelect — Pick skills from the sidebar.
