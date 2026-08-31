@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: waverly-w-dsh-scratchpad
+name: dsh-scratchpad
+description:
+  en: Quick temporary conversation & workspace manager for DeepSeek Harness (DSH) Web GUI
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - scratchpad
+  - temporary-session
+  - workspace
+  - web-ui
+source:
+  repository: https://github.com/Waverly-W/dsh-scratchpad
+  repositoryNodeId: R_kgDOT9Wxrg
+  subpath: null
+  commit: 6bc9fd6415a138e52c25164204c10238d3c93e11
+creator:
+  github: Waverly-W
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:03.312Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
