@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: wydddddcool-dsh-hover-approve
+name: dsh-hover-approve
+description:
+  en: '<p align="center" <strong Approve without opening the conversation.</strong <br An anchored sidebar bubble for DSH Web: sessions waiting for approval, questions, plan reviews or blocked goals — handled right at their list row. </p'
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - approval
+  - question
+  - plan-review
+  - hover
+  - sidebar
+source:
+  repository: https://github.com/wydddddcool/dsh-hover-approve
+  repositoryNodeId: R_kgDOT8GwVQ
+  subpath: null
+  commit: 70cd0c3176431eab98c8f8158f7381d7d7ecea2c
+creator:
+  github: wydddddcool
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:05.887Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wydddddcool/dsh-hover-approve/70cd0c3176431eab98c8f8158f7381d7d7ecea2c/assets/shot-approval.png
+    alt: 需要你授权：操作/智能体说明/写入文件高亮/一键拒绝或授权
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wydddddcool/dsh-hover-approve/70cd0c3176431eab98c8f8158f7381d7d7ecea2c/assets/shot-goal-blocked.png
+    alt: 目标已阻断：红色原因 + 目标内容 + 去会话查看
