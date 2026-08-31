@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xjungit-dsh-connector
+name: "@omdp/dsh-connector"
+description:
+  en: "Unified DeepSeek Harness connector: edit MCP servers (cordis.patch.yml), user skills (~/.dsh/skills) and browse the ModelScope MCP/Skills marketplaces from one Web UI settings page."
+  evidencePath: dsh-connector/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - mcp
+  - skill
+  - cordis
+source:
+  repository: https://github.com/XJungit/omdp
+  repositoryNodeId: R_kgDOT4A-Tg
+  subpath: dsh-connector
+  commit: 47b09a75eeb3d40ac48d9c66b35c60c021ee832d
+creator:
+  github: XJungit
+package:
+  ecosystem: npm
+  name: "@omdp/dsh-connector"
+  version: 0.2.5
+  integrity: sha512-1vbWoq7PqIzLYEh8am+Q7yJVG77f63y0yRw3GpOOs9RwnrqSheIA8CflsTA5TfCT/d0x5sreMLKCtKlLyADq8Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-connector/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:27.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
