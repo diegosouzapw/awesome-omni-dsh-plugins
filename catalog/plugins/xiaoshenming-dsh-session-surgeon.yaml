@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xiaoshenming-dsh-session-surgeon
+name: dsh-session-surgeon
+description:
+  en: Repair DeepSeek Harness sessions that refuse to load (seq gap, torn zstd frames, lone surrogates).
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - jsonl
+  - repair
+  - dsh
+source:
+  repository: https://github.com/xiaoshenming/dsh-session-surgeon
+  repositoryNodeId: R_kgDOT79N8w
+  subpath: null
+  commit: e7af94ea0c2c06f8edd3adc61a2dcce1219dd78c
+creator:
+  github: xiaoshenming
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:00.040Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
