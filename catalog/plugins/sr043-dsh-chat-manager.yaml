@@ -1,0 +1,66 @@
+schemaVersion: 1
+id: sr043-dsh-chat-manager
+name: dsh-chat-manager
+description:
+  en: "DeepSeek Harness chat history and session management: search archives, restore conversations, and delete safely"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - session
+  - session-manager
+  - session-management
+  - conversation
+  - archive
+  - unarchive
+  - restore
+  - history-search
+  - chat-history
+  - conversation-history
+  - archived-sessions
+  - session-delete
+  - permanent-delete
+  - delete
+source:
+  repository: https://github.com/WSL043/dsh-chat-manager
+  repositoryNodeId: R_kgDOT5QqVA
+  subpath: null
+  commit: 875cb4b6a985c6b8ca31a8536de86f87ea03f0d8
+creator:
+  github: SR043
+package:
+  ecosystem: npm
+  name: dsh-chat-manager
+  version: 1.2.1
+  integrity: sha512-IFJcfYS571pTiRxq79faQ3fcLiIEyMAqJEtQPdq4T4t2ehOKlCRtbjZO9LdUCz8PKLM7pXZmwqmCnHxky9dR9w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: archived
+  checkedAt: 2026-08-31T15:52:56.140Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-chat-manager/875cb4b6a985c6b8ca31a8536de86f87ea03f0d8/docs/assets/hero.png
+    alt: DeepSeek Harness 聊天历史与归档会话管理器，支持搜索、恢复和安全永久删除
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-chat-manager/875cb4b6a985c6b8ca31a8536de86f87ea03f0d8/docs/assets/archive-manager.png
+    alt: DeepSeek Harness 原生归档会话管理器，支持聊天历史搜索、恢复和永久删除
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-chat-manager/875cb4b6a985c6b8ca31a8536de86f87ea03f0d8/docs/assets/confirm-delete.png
+    alt: DeepSeek Harness 安全永久删除会话的中文二次确认弹窗
