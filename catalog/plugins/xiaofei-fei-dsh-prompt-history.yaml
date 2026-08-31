@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xiaofei-fei-dsh-prompt-history
+name: dsh-prompt-history
+description:
+  en: "DSH web plugin: terminal-style input for the composer — bash-like Up/Down prompt history with prefix search and Ctrl+R, selection toolbar with copy and quote (Codex-style blockquote), right-click paste, toggleable draggable chat TOC, fully internationalized (zh/en), with copy modes in Settings (history sourced from the"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - history
+  - composer
+  - input
+  - prompt
+source:
+  repository: https://github.com/Xiaofei-fei/dsh-prompt-history
+  repositoryNodeId: R_kgDOT9Gskg
+  subpath: null
+  commit: 557fe7e5373890c725d96a19320d472dab2c023d
+creator:
+  github: Xiaofei-fei
+package:
+  ecosystem: npm
+  name: dsh-prompt-history
+  version: 1.2.5
+  integrity: sha512-NnDUVUk8kNHhpxvQObO5K7OcjYGHHeZPkxSJC7FI3q6sDBkUg4Zr1KwognO9xdkH5CxmlidEiADmuNb8AEtE/A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:06.667Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
