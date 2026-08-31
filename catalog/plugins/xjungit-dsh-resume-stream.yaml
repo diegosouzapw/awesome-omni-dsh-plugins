@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xjungit-dsh-resume-stream
+name: "@omdp/dsh-resume-stream"
+description:
+  en: Recover interrupted LLM streams through same-step AgentLoop retries for all providers, preserving task continuity without committing partial reasoning/body output; includes a compact inline status row.
+  evidencePath: archive/resume-stream/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - recover
+  - interrupted
+  - streams
+  - through
+  - same
+  - step
+  - agentloop
+  - retries
+  - providers
+  - preserving
+  - task
+  - continuity
+  - without
+  - committing
+  - partial
+  - reasoning
+source:
+  repository: https://github.com/XJungit/omdp
+  repositoryNodeId: R_kgDOT4A-Tg
+  subpath: archive/resume-stream
+  commit: 47b09a75eeb3d40ac48d9c66b35c60c021ee832d
+creator:
+  github: XJungit
+package:
+  ecosystem: npm
+  name: "@omdp/dsh-resume-stream"
+  version: 1.0.14
+  integrity: sha512-lZDeHurCVVBtoxTQHQdEe+Zga9M6KhWEBjG9FrIQ91wHSHaHRB2MoxnizGsuxQ2DXng2rQ8HTDCnifiG4jBFdQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: archive/resume-stream/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:27.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
