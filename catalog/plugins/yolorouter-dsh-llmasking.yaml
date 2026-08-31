@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yolorouter-dsh-llmasking
+name: dsh-llmasking
+description:
+  en: "Transport-layer data masking for deepseek-harness (dsh): sensitive values never leave the process — the model sees placeholders, you see real values restored live in the stream."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - llm
+  - pii
+  - masking
+  - redaction
+  - privacy
+  - security
+  - sse
+  - streaming
+source:
+  repository: https://github.com/yolorouter/dsh-llmasking
+  repositoryNodeId: R_kgDOT52Meg
+  subpath: null
+  commit: bcfdea357a5597b074f8e3a79322a002cf810556
+creator:
+  github: yolorouter
+package:
+  ecosystem: npm
+  name: dsh-llmasking
+  version: 0.1.1
+  integrity: sha512-icc8Ehg54RIkoqiCPd1Y2Zwa2uapq2ownLShLRhh0q3Cvp5cJcIXj73mrKofMTCGe3IUR2rEXj1aSBdnNz8SiQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:13.920Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
