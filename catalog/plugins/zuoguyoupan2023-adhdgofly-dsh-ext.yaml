@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: zuoguyoupan2023-adhdgofly-dsh-ext
+name: adhdgofly-dsh-ext
+description:
+  en: "ADHDGoFly POS highlighting for DeepSeek Harness Web: nouns green, verbs red, adjectives/adverbs purple, others gray, in rendered Markdown (conversation messages, deliverables, etc.)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - adhdgofly
+  - part-of-speech
+  - pos-tagging
+  - highlighting
+  - markdown
+source:
+  repository: https://github.com/zuoguyoupan2023/adhdgofly-dsh-ext
+  repositoryNodeId: R_kgDOT4BUSg
+  subpath: null
+  commit: afa2676fc18d13e25fbfeb901591118edd22e642
+creator:
+  github: zuoguyoupan2023
+package:
+  ecosystem: npm
+  name: adhdgofly-dsh-ext
+  version: 0.1.6
+  integrity: sha512-hheMznMrXneZuI18bk07zHhvkcGpyi3zpl8+GjT5pzMIJ4FUAJb8ie1T3W7w4bj8XEVECVxCBpeM5zEUNQuO6A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:58.449Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
