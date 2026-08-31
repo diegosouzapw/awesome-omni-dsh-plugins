@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ch4acko3-dsh-mermaid-render
+name: "@ch4acko3/dsh-mermaid-render"
+description:
+  en: Safe Mermaid diagram rendering service for DeepSeek Harness Web plugins
+  evidencePath: packages/mermaid-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - mermaid
+  - diagram
+  - svg
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/mermaid-render
+  commit: cca409bdfbcdb58e20267f970744d9b2918d218a
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-mermaid-render"
+  version: 0.1.1
+  integrity: sha512-xAwrL/LmQlPvDljwfY2T2e2u4cXpiLiGP4xrUABfDIfP6uEw7w0ToG2ybFHeHSQn8itB2mrVC9Uao9Kh2J5B2g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/mermaid-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:16.709Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
