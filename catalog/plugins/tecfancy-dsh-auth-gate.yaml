@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: tecfancy-dsh-auth-gate
+name: dsh-auth-gate
+description:
+  en: Application-layer authentication plugin for the dsh web surface
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - auth
+  - authentication
+  - login
+  - password
+  - token
+  - security
+  - access-control
+  - rate-limiting
+source:
+  repository: https://github.com/TecFancy/dsh-auth-gate
+  repositoryNodeId: R_kgDOT4NVHQ
+  subpath: null
+  commit: 860834eea03c4be74760482aea977b936f903d9b
+creator:
+  github: TecFancy
+package:
+  ecosystem: npm
+  name: dsh-auth-gate
+  version: 0.11.0
+  integrity: sha512-a7qu3VcTsvD7IpjfoXER5QLV+2KbXSNRYHf29AaNYwlOaGGkWnWFKiO7D5LYPuvmNhweMhEEcJOPvZYVL5Zw4g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:44:21.847Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TecFancy/dsh-auth-gate/860834eea03c4be74760482aea977b936f903d9b/docs/demo/login-page.png
+    alt: Login page
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TecFancy/dsh-auth-gate/860834eea03c4be74760482aea977b936f903d9b/docs/demo/totp-code.png
+    alt: TOTP verification step
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/TecFancy/dsh-auth-gate/860834eea03c4be74760482aea977b936f903d9b/docs/demo/dashboard.png
+    alt: dsh instance
