@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: xanthanl-dsh-plugin-uisfx
+name: dsh-plugin-uisfx
+description:
+  en: "dsh plugin: semantic UI sound effects powered by uisfx — per-scenario cues with a settings UI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh-plugin
+  - dsh
+  - uisfx
+  - web-audio
+  - sound-effects
+  - ui-sfx
+source:
+  repository: https://github.com/XanthanL/dsh-plugin-uisfx
+  repositoryNodeId: R_kgDOT5Gp3w
+  subpath: null
+  commit: f020972c3291abcbd84b99c6355953866e045b5c
+creator:
+  github: XanthanL
+package:
+  ecosystem: npm
+  name: dsh-plugin-uisfx
+  version: 0.1.1
+  integrity: sha512-xODTvOVU2XxN0cFsNjHcjdsaK6JZhQcK2qUG7H8f+sI+yYlm0UkuZL/vtTr3IU9Oalva5Faoq+hTqavbUdnApw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:57.349Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/XanthanL/dsh-plugin-uisfx/f020972c3291abcbd84b99c6355953866e045b5c/docs/settings-sound-effects.png
+    alt: dsh-plugin-uisfx settings page
