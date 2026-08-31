@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: cerbur-clutch-dsh-fireworks
+name: "@cerbur/clutch-dsh-fireworks"
+description:
+  en: Adds a celebratory fireworks overlay to the DSH Web UI through a happy fireworks agent tool.
+  evidencePath: packages/clutch-dsh-fireworks/README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - fireworks
+  - celebration
+source:
+  repository: https://github.com/Cerbur/clutch-dsh
+  repositoryNodeId: R_kgDOT9QNJw
+  subpath: packages/clutch-dsh-fireworks
+  commit: e54f365ac0bf7c0bcc20fd3a448446e3aaca3ee5
+creator:
+  github: Cerbur
+package:
+  ecosystem: npm
+  name: "@cerbur/clutch-dsh-fireworks"
+  version: 0.1.0
+  integrity: sha512-m1qqd2MI9wm+8FqaMW5oAOre+70M0JHrGyUKWRxRFbaezm+UUdhzkTGyG4mTNvDZwPnWer3T2ClxupGp0svr9g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/clutch-dsh-fireworks/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:16.499Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
