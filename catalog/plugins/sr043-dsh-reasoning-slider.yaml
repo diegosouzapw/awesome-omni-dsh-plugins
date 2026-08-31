@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: sr043-dsh-reasoning-slider
+name: dsh-reasoning-slider
+description:
+  en: A model-aware reasoning slider with polished light, dark, and per-model colors for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - reasoning-effort
+  - effort-slider
+  - claude-inspired
+  - thinking
+  - model-selector
+  - dsh
+source:
+  repository: https://github.com/WSL043/dsh-reasoning-slider
+  repositoryNodeId: R_kgDOUBHeSg
+  subpath: null
+  commit: 2e82c0ac69aeffcaa732251f8320c8de952e4d62
+creator:
+  github: SR043
+package:
+  ecosystem: npm
+  name: dsh-reasoning-slider
+  version: 0.2.0
+  integrity: sha512-zQdUkrspruTZGp0zgDS1NUeImtX3Aoggj8MN7mtdrv88vBk8z3EaTe530qjMVhoHf4RaM/7M0c1tE4t/ErYacA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: archived
+  checkedAt: 2026-08-31T15:53:04.820Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-reasoning-slider/2e82c0ac69aeffcaa732251f8320c8de952e4d62/docs/assets/reasoning-slider-hero-dark-en.png
+    alt: 暗色 DeepSeek Harness 输入区与局部放大的能量推理滑杆
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-reasoning-slider/2e82c0ac69aeffcaa732251f8320c8de952e4d62/docs/assets/reasoning-slider-energy-dark.gif
+    alt: 从 Off 拖动到 Max 的高清推理滑杆动图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-reasoning-slider/2e82c0ac69aeffcaa732251f8320c8de952e4d62/docs/assets/mode-settings-zh.png
+    alt: DSH 推理强度控制设置中的能量模式与浅色、深色独立配色
