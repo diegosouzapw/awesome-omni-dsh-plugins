@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: xu1132-dsh-plugin-browser
+name: dsh-plugin-browser
+description:
+  en: "A DeepSeek Harness community plugin that drives a headless Playwright browser: rendered page text, screenshots, and page automation"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - community
+  - drives
+  - headless
+  - playwright
+  - browser
+  - rendered
+  - page
+  - text
+  - screenshots
+  - automation
+  - dsh
+source:
+  repository: https://github.com/xu1132/dsh-plugin-browser
+  repositoryNodeId: R_kgDOT36X5Q
+  subpath: null
+  commit: 2ebc902ccbae2f2ffe9a334d04dc7f74757e56c8
+creator:
+  github: xu1132
+package:
+  ecosystem: npm
+  name: dsh-plugin-browser
+  version: 0.1.0
+  integrity: sha512-BOf6oHTizjfK0ykNfmc4P/OVfWN1IJv8f02iOYKgeBJW69pIhAvLArJcm+wKFcRJ3/cZ8zVj7ONlkiJgYGlN6Q==
+dsh:
+  profiles:
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:13.465Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
