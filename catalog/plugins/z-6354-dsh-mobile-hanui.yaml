@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: z-6354-dsh-mobile-hanui
+name: dsh-mobile-hanui
+description:
+  en: Standalone mobile UI shell for the DeepSeek Harness web GUI (phone layout, drawers, FAB, mobile composer fixes)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - standalone
+  - mobile
+  - shell
+  - phone
+  - layout
+  - drawers
+  - composer
+  - fixes
+  - dsh
+source:
+  repository: https://github.com/Z-6354/dsh-mobile-hanui
+  repositoryNodeId: R_kgDOT5Tj2g
+  subpath: null
+  commit: 27f11e7b7925fafcd63926dfefde11cfc1197cf3
+creator:
+  github: Z-6354
+package:
+  ecosystem: npm
+  name: dsh-mobile-hanui
+  version: 0.2.5
+  integrity: sha512-M2EMyZYrc8tyccSHEeOSiFJ/paJecOPcbq9fIaBG+FjpiBgISwFHvjFkD5r/WYRvGNVLIBFfPIFnObOVtpqxyg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:52.658Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 16
+provenance:
+  discussion: null
+  comment: null
