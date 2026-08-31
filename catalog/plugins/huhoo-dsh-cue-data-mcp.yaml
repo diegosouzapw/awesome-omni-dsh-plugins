@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: huhoo-dsh-cue-data-mcp
+name: "@cueai/dsh-cue-data-mcp"
+description:
+  en: "DSH bundle: exposes Cue's public data MCP services (regulatory, macro, disclosures, market data, statute, holdings, entity, academic, IPO, ESOP, buyback, footnote, fact index) as native mcp cue <domain tools."
+  evidencePath: dsh/cue-data-mcp/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - cue
+  - data
+  - finance
+source:
+  repository: https://github.com/sensedeal/cue-skills
+  repositoryNodeId: R_kgDOSigUuw
+  subpath: dsh/cue-data-mcp
+  commit: 5b5b8005dfa51aca0b56028d2bc6ccbfcd266d6b
+creator:
+  github: huhoo
+package:
+  ecosystem: npm
+  name: "@cueai/dsh-cue-data-mcp"
+  version: 0.1.2
+  integrity: sha512-nwYPyxzLp5Ykg8il+oUArLQ651LerU1ItbXaaQnuKnmg3JGQMzX40TH5GRJ5rcBwQgZqktkmEFaJniq3YJ+mBQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh/cue-data-mcp/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:45.377Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
