@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zfu691531-hash-dsh-realtime-voice
+name: dsh-realtime-voice
+description:
+  en: Lightweight realtime speech-to-speech for DeepSeek Harness with Qwen and OpenAI providers.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - realtime-voice
+  - asr
+  - tts
+  - qwen
+  - openai
+source:
+  repository: https://github.com/zfu691531-hash/dsh-realtime-voice
+  repositoryNodeId: R_kgDOT5VQ_Q
+  subpath: null
+  commit: 91aae229357e647964bbf2e50ec7602c4ce55d4a
+creator:
+  github: zfu691531-hash
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:08.691Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zfu691531-hash/dsh-realtime-voice/91aae229357e647964bbf2e50ec7602c4ce55d4a/screenshots/settings.png
+    alt: DeepSeek Harness 实时语音插件设置
