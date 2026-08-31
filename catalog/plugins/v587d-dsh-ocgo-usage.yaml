@@ -1,0 +1,58 @@
+schemaVersion: 1
+id: v587d-dsh-ocgo-usage
+name: dsh-ocgo-usage
+description:
+  en: "OpenCode Go subscription usage readout for the dsh web GUI: rolling (5h), weekly, and monthly usage windows with reset countdowns in the composer dock."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - opencode
+  - opencode-go
+  - usage
+  - subscription
+  - composer-dock
+source:
+  repository: https://github.com/v587d/dsh-opencode-go-usage
+  repositoryNodeId: R_kgDOT4GNbA
+  subpath: null
+  commit: 682a7872e6a3bf9313f08b9337319678b8a25895
+creator:
+  github: v587d
+package:
+  ecosystem: npm
+  name: dsh-ocgo-usage
+  version: 0.1.1
+  integrity: sha512-c26g0aWiObPEu9B8IjQbg/s2zIFkfG0Phm/WIKEKWB2qLWweJ98Zgpmo1XFLC02U2eYS2twXReq8vytKVQD28g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:53.074Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/v587d/dsh-opencode-go-usage/682a7872e6a3bf9313f08b9337319678b8a25895/assets/custom-footer.png
+    alt: Footer demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/v587d/dsh-opencode-go-usage/682a7872e6a3bf9313f08b9337319678b8a25895/assets/set-cookie-wid.png
+    alt: Set editor
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/v587d/dsh-opencode-go-usage/682a7872e6a3bf9313f08b9337319678b8a25895/assets/usage-detail.png
+    alt: Usage detail
