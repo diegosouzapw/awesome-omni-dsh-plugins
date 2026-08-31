@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: yuuhann1999-dsh-bloub-mood
+name: dsh-bloub-mood
+description:
+  en: bash dsh plugin --profile web add dsh-bloub-mood
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - web
+  - favicon
+  - logo
+  - animated
+  - bloub
+  - mood
+source:
+  repository: https://github.com/Yuuhann1999/dsh-bloub-mood
+  repositoryNodeId: R_kgDOT8CJqQ
+  subpath: null
+  commit: c626528b3d6c32669c265d7144e85f60f48570d2
+creator:
+  github: Yuuhann1999
+package:
+  ecosystem: npm
+  name: dsh-bloub-mood
+  version: 2.4.4
+  integrity: sha512-mShun0DJXAM4rBo+eKuPsfEXlK+oVvuJFag1bGA+HlX5xtoToCdYPJeVM4QWvbX96LxuaaOfy3+81jl9paisig==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:55.294Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yuuhann1999/dsh-bloub-mood/c626528b3d6c32669c265d7144e85f60f48570d2/docs/settings-expressions.png
+    alt: 设置页 · 表情与形状颜色
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yuuhann1999/dsh-bloub-mood/c626528b3d6c32669c265d7144e85f60f48570d2/docs/settings-desktop-launch.png
+    alt: 设置页 · 桌面启动
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yuuhann1999/dsh-bloub-mood/c626528b3d6c32669c265d7144e85f60f48570d2/docs/dock-icon.png
+    alt: Dock · DSH Desktop
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Yuuhann1999/dsh-bloub-mood/c626528b3d6c32669c265d7144e85f60f48570d2/docs/desktop-app.png
+    alt: DSH Desktop 主界面
