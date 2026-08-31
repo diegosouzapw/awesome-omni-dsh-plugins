@@ -1,0 +1,72 @@
+schemaVersion: 1
+id: xiajiajun516-dsh-config-manager
+name: dsh-config-manager
+description:
+  en: "Backup, restore, export, import, migrate and sync your DeepSeek Harness (DSH) configuration: settings, plugins, MCP servers, skills, agent presets and workspaces. One-click migration to another machine. DSH 配置一键备份、恢复、导出、导入、迁移与同步插件。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - backup
+  - restore
+  - export
+  - import
+  - migration
+  - migrate
+  - sync
+  - webdav
+  - mcp
+  - skills
+  - configuration
+  - config-manager
+source:
+  repository: https://github.com/xiajiajun516/dsh-config-manager
+  repositoryNodeId: R_kgDOT4nZIQ
+  subpath: null
+  commit: 94a4ea5ac6432f708bbb4d448fe112df58b75d59
+creator:
+  github: xiajiajun516
+package:
+  ecosystem: npm
+  name: dsh-config-manager
+  version: 0.1.54
+  integrity: sha512-QOimBhlWzewClqK/25rrNQfNlAHicONw2Pdrt13ujfeN7y4nm+/HNPHXHAVg2F01Lv1g4LEbwuSCD3MDLGqoeQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:53.960Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 57
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiajiajun516/dsh-config-manager/94a4ea5ac6432f708bbb4d448fe112df58b75d59/assets/screenshot-export.png
+    alt: One-click Export
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiajiajun516/dsh-config-manager/94a4ea5ac6432f708bbb4d448fe112df58b75d59/assets/screenshot-import-preview.png
+    alt: Import Preview
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiajiajun516/dsh-config-manager/94a4ea5ac6432f708bbb4d448fe112df58b75d59/assets/screenshot-snapshots.png
+    alt: Snapshot Restore
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiajiajun516/dsh-config-manager/94a4ea5ac6432f708bbb4d448fe112df58b75d59/assets/screenshot-sync.png
+    alt: Remote Sync
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiajiajun516/dsh-config-manager/94a4ea5ac6432f708bbb4d448fe112df58b75d59/assets/screenshot-market.png
+    alt: Configuration Market
