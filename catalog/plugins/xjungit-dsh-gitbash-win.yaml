@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: xjungit-dsh-gitbash-win
+name: "@omdp/dsh-gitbash-win"
+description:
+  en: "Git Bash tool plugin for DeepSeek Harness on Windows: registers a global gitbash tool that runs commands via Git for Windows bash.exe. Lightweight, no node-pty, no WSL, sandbox-aware."
+  evidencePath: archive/dsh-gitbash-win/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - bash
+  - git-bash
+  - gitbash
+  - windows
+  - cordis
+source:
+  repository: https://github.com/XJungit/omdp
+  repositoryNodeId: R_kgDOT4A-Tg
+  subpath: archive/dsh-gitbash-win
+  commit: 47b09a75eeb3d40ac48d9c66b35c60c021ee832d
+creator:
+  github: XJungit
+package:
+  ecosystem: npm
+  name: "@omdp/dsh-gitbash-win"
+  version: 0.1.6
+  integrity: sha512-Z+xJbTIGJQ8TTFXqrzq9fj9Gm11IqZxApvesHaqm78bQroQrzF2Eju5esbBl8bh3KAqwsEjiCtYGaBuNEOc89Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: archive/dsh-gitbash-win/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:27.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
