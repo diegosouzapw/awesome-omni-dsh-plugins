@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wyouwd1-dsh-opencode-models
+name: dsh-opencode-models
+description:
+  en: "Manage OpenCode Zen free-tier and Go-tier models in settings.yaml: live model listings from opencode.ai, configured-versus-live drift per route, add/remove through four agent tools plus an OpenCode Models settings section."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - opencode
+  - zen
+  - models
+  - dsh
+source:
+  repository: https://github.com/wyouwd1/dsh-opencode-models
+  repositoryNodeId: R_kgDOUCKltg
+  subpath: null
+  commit: 9f6451ac58885b39d038e085d5475467f2746e97
+creator:
+  github: wyouwd1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:06.246Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
