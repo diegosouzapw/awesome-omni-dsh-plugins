@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: wenaixi-dsh-ponytail
+name: "@wenaixi/dsh-ponytail"
+description:
+  en: <p align="center" <a href="CHANGELOG.md" Changelog</a · <a href="https://github.com/DietrichGebert/ponytail" 上游</a · <a href="https://www.npmjs.com/package/@wenaixi/dsh-ponytail" npm</a </p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - ponytail
+  - yagni
+  - skills
+  - agent-skills
+  - claude-code
+  - lazy
+  - over-engineering
+source:
+  repository: https://github.com/Wenaixi/dsh-ponytail
+  repositoryNodeId: R_kgDOT_6Vsw
+  subpath: null
+  commit: 2db016c8f9a81bd80b24f906d49effb983a0e1b1
+creator:
+  github: Wenaixi
+package:
+  ecosystem: npm
+  name: "@wenaixi/dsh-ponytail"
+  version: 4.9.0-dsh.5
+  integrity: sha512-/HqepYWshx+2a7xLNsjwn/yWJVL/fMzPAb2PvbqAWz29SZdZSAyX/vlax4s1Iu2TuFV4GzX6Xcv49LjS6U9+Bw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:55.789Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Wenaixi/dsh-ponytail/2db016c8f9a81bd80b24f906d49effb983a0e1b1/assets/logo.png
+    alt: Ponytail
