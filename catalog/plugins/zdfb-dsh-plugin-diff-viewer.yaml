@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: zdfb-dsh-plugin-diff-viewer
+name: dsh-plugin-diff-viewer
+description:
+  en: A diff plugin for DeepSeek Harness (DSH). Captures file write/edit operations, computes structured diff data, and provides a block-level diff renderer with syntax highlighting and dimmed deleted lines.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - diff
+  - code-review
+source:
+  repository: https://github.com/zdfb/dsh-plugin-diff-viewer
+  repositoryNodeId: R_kgDOT9f7zg
+  subpath: null
+  commit: f2fc696c691d6ebe2c8172232bc6ff4119dc2cf0
+creator:
+  github: zdfb
+package:
+  ecosystem: npm
+  name: dsh-plugin-diff-viewer
+  version: 0.1.1
+  integrity: sha512-uhhJ/wNv4jfyoRu4Z9r0ubZUB1ed4E5MOuop3+vJuEoSxRIjVrnmB/3zK2BCSZArZKh/ZhPcoKBVRDPLvosHUQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:15.111Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
