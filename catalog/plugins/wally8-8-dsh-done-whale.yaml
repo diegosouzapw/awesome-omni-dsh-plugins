@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wally8-8-dsh-done-whale
+name: dsh-done-whale
+description:
+  en: sh dsh plugin --profile web add dsh-done-whale
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - favicon
+  - whale
+source:
+  repository: https://github.com/wally8-8/dsh-done-whale
+  repositoryNodeId: R_kgDOT6LhVw
+  subpath: null
+  commit: f27878701aa9d48bbfedeef7d6bbcd949832f105
+creator:
+  github: wally8-8
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:53.097Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 9
+provenance:
+  discussion: null
+  comment: null
