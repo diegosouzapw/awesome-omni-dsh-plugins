@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-shield
+name: dsh-shield
+description:
+  en: "yaml - id: dsh-shield config: trashRoot: D:\\\\path\\\\to\\\\trash 默认 $DSH HOME/trash retentionDays: 14 maxTrashBytes: 5368709120 trashMode: dir dir system"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - safety
+  - trash
+  - symlink
+  - rm
+source:
+  repository: https://github.com/x2802490130-prog/dsh-shield
+  repositoryNodeId: R_kgDOT43hww
+  subpath: null
+  commit: 56db93deae6ea2b7bf3722907501f5e8c282b6e3
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-shield
+  version: 1.0.0
+  integrity: sha512-cYoU7T6G5Zd7S3dL1stYxrMNfJv4YT6v35o+UHSHXrfdJYA4FAUm/oiqbhNtQI3d9dprLML/1qvatoD2+o4WYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:12.800Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
