@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wodongx123-dsh-desktop-tray
+name: dsh-desktop-tray
+description:
+  en: "System tray support for DSH Desktop: tray icon plus settings to hide the main window on minimize or close, with self-healing boot-time injection and an injection management panel."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - system
+  - tray
+  - desktop
+  - icon
+  - plus
+  - settings
+  - hide
+  - main
+  - window
+  - minimize
+  - close
+  - self
+  - healing
+  - boot
+  - time
+  - injection
+source:
+  repository: https://github.com/wodongx123/dsh-desktop-tray
+  repositoryNodeId: R_kgDOT7We0A
+  subpath: null
+  commit: 8f25fd2b600948b028733ef7f8e95f3dc5d74208
+creator:
+  github: wodongx123
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:11.562Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
