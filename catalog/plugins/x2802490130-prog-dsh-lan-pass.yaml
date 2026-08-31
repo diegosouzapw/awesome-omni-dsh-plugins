@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-lan-pass
+name: dsh-lan-pass
+description:
+  en: \ \ \ bash dsh plugin --profile web add link:/path/to/lan-pass \ \ \
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - lan
+  - auth
+  - password
+source:
+  repository: https://github.com/x2802490130-prog/dsh-lan-pass
+  repositoryNodeId: R_kgDOT4z5Ng
+  subpath: null
+  commit: 78022bd33cb8653e7d4c56b76f5a8921e3880371
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-lan-pass
+  version: 1.0.1
+  integrity: sha512-oHppFB5rovHGWRkEK9xcvN5QNeGmGhAU+Ni/u2LUBNmjDZMauIBcx1bMEwTbE7iUnNiwKfLst3ETr/nkQjlPMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:12.114Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
