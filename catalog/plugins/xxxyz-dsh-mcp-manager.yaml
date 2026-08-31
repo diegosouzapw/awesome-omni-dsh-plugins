@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: xxxyz-dsh-mcp-manager
+name: "@xxxyz/dsh-mcp-manager"
+description:
+  en: "DSH-standard MCP manager plugin: Settings UI + HTTP API + model-facing mcp manager tools. Install with one command: dsh plugin --profile web add @xxxyz/dsh-mcp-manager@latest"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - deepseek-harness
+  - mcp
+  - mcp-server
+  - cordis
+source:
+  repository: https://github.com/xxxyz/DeepSeekHarness-MCP-Manager
+  repositoryNodeId: R_kgDOT8F70g
+  subpath: null
+  commit: 2f27cb2cb5648a17a19e696a8c5177c65fa50a67
+creator:
+  github: xxxyz
+package:
+  ecosystem: npm
+  name: "@xxxyz/dsh-mcp-manager"
+  version: 2.2.2
+  integrity: sha512-vd6bbRIaRgQf3m86UV14m1iXvlmTAbQ8n4Cud33mtVMRiegVsSXxklwo8OwOtxL2jjo4wNd9/JWv7ZlTIrwOTw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:55.598Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xxxyz/DeepSeekHarness-MCP-Manager/2f27cb2cb5648a17a19e696a8c5177c65fa50a67/show.png
+    alt: dsh-mcp-manager 设置 → MCP 管理 页面图例
