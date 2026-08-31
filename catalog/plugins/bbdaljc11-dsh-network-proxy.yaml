@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: bbdaljc11-dsh-network-proxy
+name: dsh-network-proxy
+description:
+  en: Network proxy management plugin for DeepSeek Harness. Switch between system / manual / direct proxy modes from the settings UI, applied live.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - proxy
+  - network
+source:
+  repository: https://github.com/kriskite/dsh-network-proxy
+  repositoryNodeId: R_kgDOT89unQ
+  subpath: null
+  commit: 4cc265a2115cffdcfbf4f74257243b12a98ac9e0
+creator:
+  github: bbdaljc11
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:14.466Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
