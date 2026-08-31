@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: zn-dk-dsh-session-repair
+name: dsh-session-repair
+description:
+  en: DSH Web plugin for session diagnosis, trusted checkpoints, pre-repair backups, and safe repair.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - session
+  - diagnosis
+  - trusted
+  - checkpoints
+  - repair
+  - backups
+  - safe
+  - dsh
+source:
+  repository: https://github.com/Zn-Dk/dsh-session-repair
+  repositoryNodeId: R_kgDOUAlxaA
+  subpath: null
+  commit: e50d589663fbc9044d6100fe3e50b9da5a0a79ae
+creator:
+  github: Zn-Dk
+package:
+  ecosystem: npm
+  name: dsh-session-repair
+  version: 0.6.2
+  integrity: sha512-eaScW+Vb75oPKapxLoGkS37tC643dkRlzxELzwdqkPhmEQfncEoKQs74KYcCDhcT0Up98As9RFSueHTMTo8wwQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:01.376Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Zn-Dk/dsh-session-repair/e50d589663fbc9044d6100fe3e50b9da5a0a79ae/assets/session-health-check-repairable.png
+    alt: "Repairable: backup & repair"
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Zn-Dk/dsh-session-repair/e50d589663fbc9044d6100fe3e50b9da5a0a79ae/assets/session-health-check-repaired.png
+    alt: Repaired session
