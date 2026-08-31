@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: yangbobo2021-relay-dsh-plugin-files
+name: relay-dsh-plugin-files
+description:
+  en: Workspace file explorer plugin for the Relay workbench in DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - workspace
+  - file
+  - explorer
+  - relay
+  - workbench
+  - dsh
+source:
+  repository: https://github.com/yangbobo2021/relay-dsh-plugin-files
+  repositoryNodeId: R_kgDOUCFi2A
+  subpath: null
+  commit: e676da231412113d65e44189a4d27dcc4313b058
+creator:
+  github: yangbobo2021
+package:
+  ecosystem: npm
+  name: relay-dsh-plugin-files
+  version: 0.1.0
+  integrity: sha512-3S1zXUXp/i3/yPrhClvkBOv1bxXDn2pujHthsAklRJkyJloEArVm/+iCG6sOus0IidzCJ8Y0xoWhn3oQJ7fyZg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:30.225Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yangbobo2021/relay-dsh-plugin-files/e676da231412113d65e44189a4d27dcc4313b058/docs/images/dsh-files-preview.png
+    alt: Relay Files side panel previewing a workspace file in DSH Web
