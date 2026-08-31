@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wjt0321-dsh-git-proxy
+name: dsh-git-proxy
+description:
+  en: "On-demand GitHub proxy for DeepSeek Harness: one-click git/SSH proxy switch in the Web UI. · DSH 按需 GitHub 代理：设置区一键开关 git/SSH 代理。"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - proxy
+  - git
+source:
+  repository: https://github.com/wjt0321/dsh-git-proxy
+  repositoryNodeId: R_kgDOT54R0g
+  subpath: null
+  commit: 7179a3f64ad92b3432b4e29a7df9e36aa698e3b1
+creator:
+  github: wjt0321
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:11.117Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wjt0321/dsh-git-proxy/7179a3f64ad92b3432b4e29a7df9e36aa698e3b1/image/open.jpg
+    alt: Git 代理已开启
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wjt0321/dsh-git-proxy/7179a3f64ad92b3432b4e29a7df9e36aa698e3b1/image/close.jpg
+    alt: Git 代理已关闭
