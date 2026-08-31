@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: xu1132-dsh-plugin-hello
+name: dsh-plugin-hello
+description:
+  en: A minimal DeepSeek Harness community plugin that adds a callable hello tool
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - minimal
+  - community
+  - adds
+  - callable
+  - hello
+  - tool
+  - dsh
+source:
+  repository: https://github.com/xu1132/dsh-plugin-hello
+  repositoryNodeId: R_kgDOT35gaQ
+  subpath: null
+  commit: 5ce5be43d40e1ba1b76751e23db301c44044dbf5
+creator:
+  github: xu1132
+package:
+  ecosystem: npm
+  name: dsh-plugin-hello
+  version: 0.1.0
+  integrity: sha512-dRN8i4CvUw9iD0XPTae9FfDwFHP1jpFcjY2oSpc6e8RBbJmLYya8hpYgChtohRpv9Fw8o46NRMv919zUMK6Niw==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:13.468Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
