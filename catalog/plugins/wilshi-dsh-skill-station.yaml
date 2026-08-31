@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: wilshi-dsh-skill-station
+name: dsh-skill-station
+description:
+  en: "A skill hub inside DeepSeek Harness: one sidebar button opens a panel that scans the skill libraries of Claude Code, Codex CLI, Cursor, and Gemini CLI, imports skills with one click, manages global and project skills, and installs a skill folder by dragging it in."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - skills
+  - skill-manager
+  - agent-skills
+  - claude
+  - codex
+  - cursor
+  - gemini
+source:
+  repository: https://github.com/WilShi/dsh-skill-station
+  repositoryNodeId: R_kgDOT-dpUQ
+  subpath: null
+  commit: 6d294d30c41132cca1d4ef519d1e8dcd321872fe
+creator:
+  github: WilShi
+package:
+  ecosystem: npm
+  name: dsh-skill-station
+  version: 0.1.0
+  integrity: sha512-+KKOztPpcCsI+HPeLAxy1ug6e6pPN4xecGYf0eU60J8egW32UQXq6AxS0NA9vgMSKT1ogUxCMDDR2jCU49iWMw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:04.409Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
