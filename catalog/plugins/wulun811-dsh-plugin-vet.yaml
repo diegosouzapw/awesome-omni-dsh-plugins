@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: wulun811-dsh-plugin-vet
+name: "@jieai/dsh-plugin-vet"
+description:
+  en: Audit deepseek-harness (DSH) plugins before install, guard them at runtime. Static verdict + pre-install audit protocol; supply-chain checks (typosquat, OSV); exfiltration & ransomware detection, honeypot canaries, integrity baseline. Alarm-only; blocks confirmed destructive ops.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - security
+  - trust
+  - audit
+  - guard
+  - vet
+  - static-analysis
+  - sandbox
+  - supply-chain
+  - vulnerability
+  - malware-detection
+  - typosquat
+  - runtime-protection
+  - exfiltration-detection
+  - ransomware
+source:
+  repository: https://github.com/wulun811/dsh-plugin-vet
+  repositoryNodeId: R_kgDOT5VRhg
+  subpath: null
+  commit: c23b6feef46270ff785c485c5294d32037cc057f
+creator:
+  github: wulun811
+package:
+  ecosystem: npm
+  name: "@jieai/dsh-plugin-vet"
+  version: 0.3.3
+  integrity: sha512-2qC/dIG6VlxrD/cKjndUmJ/GlKeNTTujczvMZfHKf7H7RSNNsEh639HvEWRxvf5QP6cImLZQvEdRk2pC88ymCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:00.070Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wulun811/dsh-plugin-vet/c23b6feef46270ff785c485c5294d32037cc057f/assets/white.jpg
+    alt: vet shield panel (light theme)
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wulun811/dsh-plugin-vet/c23b6feef46270ff785c485c5294d32037cc057f/assets/dark.jpg
+    alt: vet shield panel (dark theme)
