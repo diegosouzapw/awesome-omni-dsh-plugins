@@ -249,6 +249,112 @@
 वैध मार्ग नाही. हे फील्ड वाढीव आहे: ते अस्तित्वात येण्यापूर्वी प्रकाशित झालेल्या नोंदी वैध राहतात,
 आणि त्याकडे दुर्लक्ष करणारा ग्राहक प्रत्येक नोंद पूर्वीसारखीच वाचतो.
 
+## `kind: skill` एंट्रीज
+
+स्कीमा आवृत्ती 1 `kind: skill` साठी दुसरा, स्वयंपूर्ण एंट्री करार देखील परिभाषित करते, जो
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) म्हणून प्रकाशित झाला आहे
+(SKL-01 टप्पा 0). तो वरील प्लगइन स्कीमाला कधीही स्पर्श करत नाही: `kind: plugin` असलेल्या
+एंट्रीज पूर्वीप्रमाणेच अचूक पडताळल्या जातात, आणि ज्याप्रमाणे प्लगइन स्कीमा प्लगइन एंट्रीजसाठी
+सत्याचा स्रोत आहे, त्याचप्रमाणे स्किल स्कीमा फाइल स्किल एंट्रीजसाठी सत्याचा स्रोत आहे.
+
+स्किल इंस्टॉल केली जात नाही, ती harness कडून **लोड** केली जाते, म्हणून फक्त-प्लगइनसाठीचे
+इंस्टॉल डिस्क्रिप्टर (`package`, `dsh`) स्किल एंट्रीवर अस्तित्वात नाहीत आणि त्यांची जागा
+`usage` + `compat` घेतात. स्किल अनेकदा अनेक स्किल्स असलेल्या रिपॉझिटरीच्या सबडिरेक्टरीत
+राहते, म्हणून ओळख आणि डिड्युप `source.repository` + `source.subpath` अशी आहे, केवळ
+रिपॉझिटरी नाही. स्किल एंट्रीला `media` गॅलरी मान्य नाही: स्किल हा harness लोड करत असलेला
+मजकूर आहे, त्यामुळे स्क्रीनशॉट घेण्यासारखे काहीही नाही (हे `additionalProperties: false`
+लागू करते).
+
+ही फील्ड्स वरील प्लगइन एंट्रीजसाठी दस्तऐवजीकृत आकार आणि नियम अगदी तसेच ठेवतात:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. `triggers` — एकमेव पर्यायी
+स्किल फील्ड — वगळता प्रत्येक फील्ड आवश्यक आहे.
+
+### स्किल-विशिष्ट फील्ड्स
+
+| फील्ड              | प्रकार  | आवश्यक | नियम                                                          |
+| -------------------- | ------ | :------: | ------------------------------------------------------------- |
+| `kind`               | const  |   होय    | नेमके `skill` असले पाहिजे                                     |
+| `skillScope`         | enum   |   होय    | `repository` (संपूर्ण रिपॉझिटरी **हीच** स्किल आहे) किंवा `subdirectory` (स्किल `source.subpath` वर राहते) |
+| `triggers`           | array  |    नाही    | स्किल केव्हा सक्रिय होते — लोड करण्यापूर्वी वापरकर्ता ज्या मजकुराचे मूल्यमापन करतो तो. किमान 1 अद्वितीय स्ट्रिंग, प्रत्येक 3–200 अक्षरे; एकही नसल्यास फील्ड पूर्णपणे वगळा (`triggers: []` अवैध आहे) |
+| `usage.load`         | string |   होय    | harness स्किल कशी लोड करते, 1–200 अक्षरे; स्किल लोड केली जाते, कधीही इंस्टॉल केली जात नाही |
+| `usage.evidencePath` | string |   होय    | `source.commit` वरील लोड पुराव्यासाठी सुरक्षित सापेक्ष पथ (`description.evidencePath` सारखाच पॅटर्न) |
+| `compat.harnessMin`  | string |   होय    | स्किल जिच्याविरुद्ध पडताळली गेली ती किमान harness आवृत्ती; अचूक `x.y.z` आकार (वैकल्पिक प्रिरिलीज/बिल्ड), कमाल 64 अक्षरे. सिमॅंटिक स्तर अतिरिक्तरित्या पार्स करता येणारी, अचूक SemVer आवश्यक करतो |
+
+सशर्त नियम (स्किल स्कीमाच्या `allOf` ब्लॉक्सद्वारे लागू):
+
+- `skillScope: subdirectory` हे `source.subpath` सुरक्षित सापेक्ष-पथ स्ट्रिंग असणे **सक्तीचे**
+  करते — सबडिरेक्टरीत होस्ट केलेल्या स्किलने ती सबडिरेक्टरी पिन केली पाहिजे.
+- `skillScope: repository` हे `source.subpath: null` **सक्तीचे** करते — संपूर्ण-रिपॉझिटरी
+  स्किलने सबपाथ जाहीर करू नये.
+
+`verification` प्लगइन आकार ठेवते (`status`, `checkedAt`, `repositoryIdentity`, `smokeTest`),
+पण `smokeTest` नेमके `null` असले पाहिजे: स्किलला इंस्टॉल स्मोक टेस्ट नाही, आणि आशय
+पुनरावलोकन हेच प्रवेशाचे गेट आहे. स्किल स्कीमामध्ये `status: verified` → `smokeTest` सशर्त
+नियम नाही आणि `repositoryScope` → `popularity` सशर्त नियमही नाहीत; त्या जोडण्या केवळ
+प्लगइन-स्कीमाचे नियम आहेत.
+
+### स्किल्ससाठी सिमॅंटिक स्तर
+
+स्कीमाच्या वर, कॅटलॉग पडताळणी — जिथे फील्ड्स अस्तित्वात आहेत तिथे — प्लगइनसाठी वापरले
+जाणारेच अनिवार्य सिमॅंटिक पार्सर्स लागू करते: `license.spdx` वैध SPDX अभिव्यक्ती म्हणून पार्स
+झाले पाहिजे (`invalid-spdx`), आणि `compat.harnessMin` अचूक SemVer असले पाहिजे
+(`invalid-semver`). `invalid-sri` केस नाही — स्किलला `package.integrity` नाही.
+
+### स्किल ओळख आणि डिड्युप
+
+स्किलची प्रामाणिक की `skill:<source.repositoryNodeId>:<normalized subpath>` आहे. सबपाथ केवळ
+ओळखीच्या हेतूने नॉर्मलाइझ केला जातो: बॅकस्लॅशचे `/` होतात, रिकामे आणि `.` विभाग टाकून दिले
+जातात, आणि रिकामा निकाल (किंवा `subpath: null`) `.` होतो — संपूर्ण रिपॉझिटरी. NUL बाइट्स
+किंवा `..` विभाग असलेला सबपाथ नाकारला जातो, कधीही "साफ" केला जात नाही. एकाच रिपॉझिटरीच्या
+दोन स्किल्स म्हणजे दोन एंट्रीज; तीच रिपॉझिटरी + सबपाथ दोनदा म्हणजे कोलिजन.
+
+### किमान स्किल उदाहरण
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## स्कीमा काय तपासत नाही
 
 स्कीमा जाणूनबुजून स्थानिक आणि संरचनात्मक आहे. ती रिपॉझिटरी अस्तित्वात आहे का, नोड ID

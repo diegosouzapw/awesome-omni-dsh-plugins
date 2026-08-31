@@ -244,6 +244,111 @@
 मान्य तरीका नहीं है। यह फ़ील्ड योगात्मक है: इसके अस्तित्व से पहले प्रकाशित प्रविष्टियाँ मान्य रहती
 हैं, और इसे अनदेखा करने वाला उपभोक्ता हर प्रविष्टि पहले जैसी ही पढ़ता है।
 
+## `kind: skill` प्रविष्टियाँ
+
+स्कीमा संस्करण 1 `kind: skill` के लिए एक दूसरा, स्व-निहित प्रविष्टि अनुबंध भी परिभाषित करता है, जो
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) के रूप में प्रकाशित है (SKL-01 फ़ेज़ 0)।
+यह ऊपर के प्लगइन स्कीमा को कभी नहीं छूता: `kind: plugin` वाली प्रविष्टियाँ ठीक पहले की तरह मान्य होती
+रहती हैं, और स्किल स्कीमा फ़ाइल स्किल प्रविष्टियों के लिए उसी तरह सत्य का स्रोत है जिस तरह प्लगइन
+स्कीमा प्लगइन प्रविष्टियों के लिए है।
+
+स्किल इंस्टॉल नहीं होती, उसे हार्नेस **लोड** करता है, इसलिए केवल-प्लगइन वाले इंस्टॉल डिस्क्रिप्टर
+(`package`, `dsh`) स्किल प्रविष्टि पर मौजूद नहीं होते और उनकी जगह `usage` + `compat` लेते हैं।
+स्किल अक्सर ऐसे रिपॉज़िटरी की सबडायरेक्टरी में भी रहती है जो कई स्किल्स होस्ट करता है, इसलिए पहचान
+और डीडुप्लीकेशन `source.repository` + `source.subpath` है, अकेला रिपॉज़िटरी नहीं। स्किल प्रविष्टि
+कोई `media` गैलरी स्वीकार नहीं करती: स्किल वह टेक्स्ट है जिसे हार्नेस लोड करता है, इसलिए स्क्रीनशॉट
+लेने के लिए कुछ नहीं है (`additionalProperties: false` ही इसे लागू करता है)।
+
+ये फ़ील्ड ऊपर प्लगइन प्रविष्टियों के लिए प्रलेखित आकार और नियम ठीक वैसे ही बनाए रखते हैं:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. `triggers` — एकमात्र वैकल्पिक
+स्किल फ़ील्ड — को छोड़कर हर फ़ील्ड आवश्यक है।
+
+### स्किल-विशिष्ट फ़ील्ड
+
+| फ़ील्ड                | प्रकार   | आवश्यक | नियम                                                        |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   हां    | ठीक `skill` होना चाहिए                                       |
+| `skillScope`         | enum   |   हां    | `repository` (पूरा रिपॉज़िटरी **ही** स्किल है) या `subdirectory` (स्किल `source.subpath` पर रहती है) |
+| `triggers`           | array  |    नहीं    | स्किल कब सक्रिय होती है — वह टेक्स्ट जिसे उपयोगकर्ता लोड करने से पहले आँकता है। कम से कम 1 अद्वितीय स्ट्रिंग, प्रत्येक 3–200 वर्ण; जब कोई न हो तो फ़ील्ड पूरी तरह छोड़ दें (`triggers: []` अमान्य है) |
+| `usage.load`         | string |   हां    | हार्नेस स्किल को कैसे लोड करता है, 1–200 वर्ण; स्किल लोड होती है, कभी इंस्टॉल नहीं होती |
+| `usage.evidencePath` | string |   हां    | `source.commit` पर लोड प्रमाण तक सुरक्षित सापेक्ष पथ (`description.evidencePath` जैसा ही पैटर्न) |
+| `compat.harnessMin`  | string |   हां    | न्यूनतम हार्नेस संस्करण जिसके विरुद्ध स्किल सत्यापित की गई; ठीक `x.y.z` आकार (वैकल्पिक prerelease/build), अधिकतम 64 वर्ण। सिमेंटिक परत अतिरिक्त रूप से एक पार्स करने योग्य, सटीक SemVer मांगती है |
+
+सशर्त नियम (स्किल स्कीमा के `allOf` ब्लॉकों द्वारा लागू):
+
+- `skillScope: subdirectory` `source.subpath` को सुरक्षित सापेक्ष पथ स्ट्रिंग होने के लिए
+  **बाध्य करता है** — सबडायरेक्टरी में होस्ट की गई स्किल को वह सबडायरेक्टरी पिन करनी ही होगी।
+- `skillScope: repository` `source.subpath: null` **बाध्य करता है** — पूरे-रिपॉज़िटरी वाली स्किल
+  को subpath घोषित नहीं करना चाहिए।
+
+`verification` प्लगइन आकार बनाए रखता है (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), लेकिन `smokeTest` ठीक `null` होना चाहिए: स्किल का कोई इंस्टॉल स्मोक टेस्ट नहीं
+होता, और सामग्री समीक्षा ही प्रवेश द्वार है। स्किल स्कीमा में `status: verified` → `smokeTest`
+शर्त नहीं है और `repositoryScope` → `popularity` शर्तें भी नहीं हैं; वे युग्मन केवल
+प्लगइन-स्कीमा के नियम हैं।
+
+### स्किल्स के लिए सिमेंटिक परत
+
+स्कीमा के ऊपर, कैटलॉग सत्यापन वहीं वही अनिवार्य सिमेंटिक पार्सर लागू करता है जो प्लगइनों के लिए
+हैं, जहाँ फ़ील्ड मौजूद हों: `license.spdx` को मान्य SPDX अभिव्यक्ति के रूप में पार्स होना चाहिए
+(`invalid-spdx`), और `compat.harnessMin` को सटीक SemVer होना चाहिए (`invalid-semver`)।
+कोई `invalid-sri` केस नहीं है — स्किल के पास `package.integrity` नहीं होता।
+
+### स्किल पहचान और डीडुप्लीकेशन
+
+स्किल की कैनोनिकल कुंजी `skill:<source.repositoryNodeId>:<normalized subpath>` है। subpath केवल
+पहचान के प्रयोजनों के लिए सामान्यीकृत होता है: बैकस्लैश `/` बन जाते हैं, खाली और `.` खंड हटा दिए
+जाते हैं, और खाली परिणाम (या `subpath: null`) `.` बन जाता है — पूरा रिपॉज़िटरी। NUL बाइट या `..`
+खंडों वाला subpath अस्वीकार किया जाता है, कभी "साफ़" नहीं किया जाता। एक ही रिपॉज़िटरी की दो
+स्किल्स दो प्रविष्टियाँ हैं; वही रिपॉज़िटरी + subpath दो बार एक टकराव है।
+
+### न्यूनतम स्किल उदाहरण
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## स्कीमा क्या जांच नहीं करती
 
 स्कीमा जानबूझकर स्थानीय और संरचनात्मक है। यह **यह सत्यापित नहीं करती** कि रिपॉज़िटरी मौजूद है, कि नोड ID URL से मेल

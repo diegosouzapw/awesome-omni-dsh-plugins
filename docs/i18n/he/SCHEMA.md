@@ -243,6 +243,111 @@ smoke test הניתנת לבדיקה משתמשות ב-`status: eligible` וב-`
 הוא תוספתי: רשומות שפורסמו לפני שהיה קיים נשארות תקפות, וצרכן שמתעלם ממנו קורא כל רשומה בדיוק
 כמקודם.
 
+## רשומות `kind: skill`
+
+גרסה 1 של הסכימה מגדירה גם חוזה רשומה שני ועצמאי עבור `kind: skill`, המפורסם בתור
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01 שלב 0). הוא לעולם
+אינו נוגע בסכימת הפלאגין שלמעלה: רשומות עם `kind: plugin` ממשיכות להיות מאומתות בדיוק
+כמקודם, וקובץ סכימת הסקיל הוא מקור האמת לרשומות סקיל באותו אופן שסכימת הפלאגין היא
+לרשומות פלאגין.
+
+סקיל אינו מותקן, הוא **נטען** על ידי ה-harness, ולכן מתארי ההתקנה הייחודיים לפלאגינים
+(`package`, `dsh`) אינם קיימים ברשומת סקיל ומוחלפים ב-`usage` + `compat`. סקיל גם חי לעתים
+קרובות בתת-ספרייה של מאגר המארח סקילים רבים, ולכן הזהות ומניעת הכפילויות הן
+`source.repository` + `source.subpath` ולא המאגר לבדו. רשומת סקיל אינה מתירה גלריית
+`media`: סקיל הוא טקסט שה-harness טוען, כך שאין מה לצלם (`additionalProperties: false` הוא
+מה שאוכף זאת).
+
+השדות הבאים שומרים בדיוק על הצורה והכללים שתועדו למעלה עבור רשומות פלאגין:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. כל שדה נדרש מלבד
+`triggers`, שדה הסקיל האופציונלי היחיד.
+
+### שדות ייחודיים לסקיל
+
+| שדה                  | סוג     | נדרש  | כללים                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | קבוע    |   כן    | חייב להיות בדיוק `skill`                                    |
+| `skillScope`         | enum   |   כן    | `repository` (המאגר כולו **הוא** הסקיל) או `subdirectory` (הסקיל חי ב-`source.subpath`) |
+| `triggers`           | array  |    לא    | מתי הסקיל מופעל — הטקסט שמשתמש מעריך לפני טעינתו. לפחות מחרוזת ייחודית אחת, כל אחת באורך 3–200 תווים; השמיטו את השדה לחלוטין כשאין אף אחת (`triggers: []` אינו תקף) |
+| `usage.load`         | מחרוזת |   כן    | כיצד ה-harness טוען את הסקיל, 1–200 תווים; סקיל נטען, לעולם אינו מותקן |
+| `usage.evidencePath` | מחרוזת |   כן    | מסלול יחסי בטוח (אותה תבנית כמו `description.evidencePath`) לראיית הטעינה ב-`source.commit` |
+| `compat.harnessMin`  | מחרוזת |   כן    | גרסת ה-harness המינימלית שמולה אומת הסקיל; צורת `x.y.z` מדויקת (prerelease/build אופציונלי), עד 64 תווים. השכבה הסמנטית דורשת בנוסף SemVer מדויק וניתן לניתוח |
+
+כללים מותנים (הנאכפים על ידי בלוקי ה-`allOf` של סכימת הסקיל):
+
+- `skillScope: subdirectory` **מכריח** את `source.subpath` להיות מחרוזת מסלול יחסי בטוח —
+  סקיל המתארח בתת-ספרייה חייב להצמיד את אותה תת-ספרייה.
+- `skillScope: repository` **מכריח** `source.subpath: null` — סקיל של מאגר שלם אסור לו
+  להצהיר על subpath.
+
+`verification` שומר על צורת הפלאגין (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), אבל `smokeTest` חייב להיות בדיוק `null`: לסקיל אין בדיקת עשן של התקנה,
+ובדיקת התוכן היא שער הקבלה. סכימת הסקיל אינה נושאת את התנאי `status: verified` →
+`smokeTest` ולא את התנאים `repositoryScope` → `popularity`; צימודים אלו הם כללים של סכימת
+הפלאגין בלבד.
+
+### שכבה סמנטית לסקילים
+
+מעל הסכימה, אימות הקטלוג מחיל את אותם מנתחים סמנטיים מחייבים כמו לפלאגינים היכן שהשדות
+קיימים: `license.spdx` חייב להתנתח כביטוי SPDX תקף (`invalid-spdx`), ו-`compat.harnessMin`
+חייב להיות SemVer מדויק (`invalid-semver`). אין מקרה `invalid-sri` — לסקיל אין
+`package.integrity`.
+
+### זהות סקיל ומניעת כפילויות
+
+המפתח הקנוני של סקיל הוא `skill:<source.repositoryNodeId>:<normalized subpath>`. ה-subpath
+מנורמל למטרות זהות בלבד: לוכסנים הפוכים הופכים ל-`/`, מקטעים ריקים ומקטעי `.` מושמטים,
+ותוצאה ריקה (או `subpath: null`) הופכת ל-`.` — המאגר כולו. subpath המכיל בייטי NUL או
+מקטעי `..` נדחה, לעולם אינו "מנוקה". שני סקילים של אותו מאגר הם שתי רשומות; אותו מאגר +
+subpath פעמיים הם התנגשות.
+
+### דוגמת סקיל מינימלית
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## מה הסכימה אינה בודקת
 
 הסכימה מכוונת להיות מקומית ומבנית. היא **אינה** מוודאת שהמאגר קיים, שמזהה ה-Node תואם

@@ -254,6 +254,112 @@ Göstəriləcək bir şey yoxdursa sahəni tamamilə buraxın — `media: []` "e
 demək üçün etibarlı yol deyil. Sahə əlavədir: o mövcud olmazdan əvvəl dərc edilmiş qeydlər
 etibarlı qalır və onu nəzərə almayan istehlakçı hər qeydi əvvəlki kimi oxuyur.
 
+## `kind: skill` qeydləri
+
+Sxem versiyası 1 həmçinin `kind: skill` üçün ikinci, özündə tam qeyd kontraktı müəyyən edir —
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) kimi dərc edilib (SKL-01 faza 0).
+O, yuxarıdakı plagin sxeminə heç vaxt toxunmur: `kind: plugin` olan qeydlər əvvəlki kimi dəqiq
+doğrulanmağa davam edir və skill sxem faylı skill qeydləri üçün həqiqət mənbəyidir — eynilə
+plagin sxeminin plagin qeydləri üçün olduğu kimi.
+
+Skill quraşdırılmır, harness tərəfindən **yüklənir**, buna görə də yalnız plaginlərə aid
+quraşdırma deskriptorları (`package`, `dsh`) skill qeydində mövcud deyil və `usage` + `compat`
+ilə əvəz olunur. Skill həmçinin tez-tez çoxlu skill saxlayan repozitoriyanın alt qovluğunda
+yaşayır, buna görə də kimlik və dedupe yalnız repozitoriya deyil, `source.repository` +
+`source.subpath`-dır. Skill qeydi heç bir `media` qalereyasına icazə vermir: skill harness-in
+yüklədiyi mətndir, yəni ekran görüntüsü alınacaq bir şey yoxdur (bunu tətbiq edən
+`additionalProperties: false`-dır).
+
+Bu sahələr yuxarıda plagin qeydləri üçün sənədləşdirilmiş forma və qaydaları dəqiq saxlayır:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Yeganə isteğe bağlı skill
+sahəsi olan `triggers` istisna olmaqla, hər sahə tələb olunur.
+
+### Skill-ə xas sahələr
+
+| Sahə                 | Növ    | Tələb olunur | Qaydalar                                                    |
+| -------------------- | ------ | :----------: | ----------------------------------------------------------- |
+| `kind`               | const  |     bəli     | Dəqiq `skill` olmalıdır                                     |
+| `skillScope`         | enum   |     bəli     | `repository` (bütün repozitoriya **elə** skill-dir) və ya `subdirectory` (skill `source.subpath` ünvanında yaşayır) |
+| `triggers`           | array  |     xeyr     | Skill-in nə vaxt işə düşdüyü — istifadəçinin onu yükləməzdən əvvəl qiymətləndirdiyi mətn. Ən azı 1 unikal string, hər biri 3–200 simvol; heç biri olmadıqda sahəni tamamilə buraxın (`triggers: []` etibarsızdır) |
+| `usage.load`         | string |     bəli     | Harness-in skill-i necə yüklədiyi, 1–200 simvol; skill yüklənir, heç vaxt quraşdırılmır |
+| `usage.evidencePath` | string |     bəli     | `source.commit` anında yükləmə sübutuna təhlükəsiz nisbi yol (`description.evidencePath` ilə eyni nümunə) |
+| `compat.harnessMin`  | string |     bəli     | Skill-in yoxlanıldığı minimal harness versiyası; dəqiq `x.y.z` forması (isteğe bağlı prerelease/build), maksimum 64 simvol. Semantik qat əlavə olaraq parser-lənə bilən, dəqiq SemVer tələb edir |
+
+Şərti qaydalar (skill sxeminin `allOf` blokları tərəfindən tətbiq edilir):
+
+- `skillScope: subdirectory` `source.subpath`-ın təhlükəsiz nisbi yol string-i olmasını
+  **məcbur edir** — alt qovluqda yerləşən skill həmin alt qovluğu sabitləməlidir.
+- `skillScope: repository` `source.subpath: null` dəyərini **məcbur edir** — bütöv
+  repozitoriya olan skill alt yol bəyan etməməlidir.
+
+`verification` plagin formasını saxlayır (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), lakin `smokeTest` dəqiq `null` olmalıdır: skill-in quraşdırma tüstü-sınağı
+yoxdur və qəbul qapısı məzmun baxışıdır. Skill sxemi heç bir `status: verified` → `smokeTest`
+şərtini və heç bir `repositoryScope` → `popularity` şərtlərini daşımır; bu bağlılıqlar yalnız
+plagin sxeminin qaydalarıdır.
+
+### Skill-lər üçün semantik qat
+
+Sxemin üstündə kataloq doğrulaması sahələr mövcud olduğu yerlərdə plaginlərdəki eyni məcburi
+semantik parser-ləri tətbiq edir: `license.spdx` etibarlı SPDX ifadəsi kimi parser-lənməlidir
+(`invalid-spdx`) və `compat.harnessMin` dəqiq SemVer olmalıdır (`invalid-semver`).
+`invalid-sri` halı mövcud deyil — skill-in `package.integrity` sahəsi yoxdur.
+
+### Skill kimliyi və dedupe
+
+Skill-in kanonik açarı `skill:<source.repositoryNodeId>:<normalized subpath>`-dır. Alt yol
+yalnız kimlik məqsədləri üçün normallaşdırılır: tərs çəp xətlər `/`-ə çevrilir, boş və `.`
+seqmentləri atılır və boş nəticə (və ya `subpath: null`) `.` olur — bütöv repozitoriya. NUL
+baytları və ya `..` seqmentləri olan alt yol rədd edilir, heç vaxt "təmizlənmir". Eyni
+repozitoriyanın iki skill-i iki qeyddir; eyni repozitoriya + alt yol iki dəfə isə kolliziyadır.
+
+### Minimal skill nümunəsi
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Sxemin yoxlamadığı şeylər
 
 Sxem qəsdən yerli və strukturaldır. O, repozitoriyanın mövcud olduğunu, node ID-nin URL-ə

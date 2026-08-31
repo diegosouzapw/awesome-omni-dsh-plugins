@@ -265,6 +265,121 @@ sabihing "walang screenshot". Karagdagan ang field na ito: mananatiling wasto an
 nailathala bago ito umiral, at ang mambabasang hindi ito pinapansin ay babasahin ang bawat entry
 nang eksaktong tulad ng dati.
 
+## Mga entry na `kind: skill`
+
+Tinutukoy din ng bersyon 1 ng schema ang ikalawang, nakapag-iisang kontrata ng entry para sa
+`kind: skill`, na inilathala bilang
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01 phase 0). Hindi nito
+kailanman ginagalaw ang plugin schema sa itaas: ang mga entry na may `kind: plugin` ay
+patuloy na nava-validate nang eksaktong tulad ng dati, at ang skill schema file ang
+pinagmumulan ng katotohanan para sa mga skill entry sa parehong paraan na ang plugin schema
+ay para sa mga plugin entry.
+
+Ang isang skill ay hindi ini-install, ito ay **nilo-load** ng harness, kaya ang mga install
+descriptor na pang-plugin lamang (`package`, `dsh`) ay hindi umiiral sa isang skill entry at
+pinapalitan ng `usage` + `compat`. Madalas ding nakatira ang isang skill sa isang
+subdirectory ng repository na naglalaman ng maraming skill, kaya ang pagkakakilanlan at
+dedupe ay `source.repository` + `source.subpath` sa halip na ang repository lamang. Ang
+isang skill entry ay hindi tumatanggap ng `media` gallery: ang skill ay tekstong nilo-load
+ng harness, kaya walang maiscre-screenshot (`additionalProperties: false` ang nagpapatupad
+nito).
+
+Pinapanatili ng mga field na ito ang eksaktong hugis at mga tuntuning nakadokumento para sa
+mga plugin entry sa itaas: `schemaVersion`, `id`, `name`, `description`, `unofficial`,
+`primaryCategory`, `tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`.
+Lahat ng field ay kinakailangan maliban sa `triggers`, ang tanging opsyonal na field ng
+skill.
+
+### Mga field na tiyak sa skill
+
+| Field                | Uri    | Kinakailangan | Mga Tuntunin                                                |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   oo    | Dapat eksaktong `skill`                                     |
+| `skillScope`         | enum   |   oo    | `repository` (ang buong repository **ang** skill) o `subdirectory` (ang skill ay nakatira sa `source.subpath`) |
+| `triggers`           | array  |    hindi    | Kailan pumapasok ang skill — ang tekstong sinusuri ng user bago ito i-load. Hindi bababa sa 1 natatanging string, bawat isa 3–200 character; alisin nang buo ang field kapag wala (`triggers: []` ay hindi wasto) |
+| `usage.load`         | string |   oo    | Paano nilo-load ng harness ang skill, 1–200 character; ang skill ay nilo-load, hindi kailanman ini-install |
+| `usage.evidencePath` | string |   oo    | Ligtas na relative path (parehong pattern ng `description.evidencePath`) patungo sa ebidensya ng pag-load sa `source.commit` |
+| `compat.harnessMin`  | string |   oo    | Pinakamababang bersyon ng harness na pinatunayan laban sa skill; eksaktong hugis na `x.y.z` (opsyonal na prerelease/build), hanggang 64 character. Nangangailangan din ang semantic layer ng mapaparse at eksaktong SemVer |
+
+Mga kundisyonal na tuntunin (ipinapatupad ng mga `allOf` block ng skill schema):
+
+- **Pinipilit** ng `skillScope: subdirectory` na ang `source.subpath` ay isang ligtas na
+  relative-path string — ang skill na naka-host sa isang subdirectory ay dapat mag-pin ng
+  subdirectory na iyon.
+- **Pinipilit** ng `skillScope: repository` ang `source.subpath: null` — ang skill na
+  buong-repository ay hindi dapat magdeklara ng subpath.
+
+Pinapanatili ng `verification` ang hugis ng plugin (`status`, `checkedAt`,
+`repositoryIdentity`, `smokeTest`), ngunit ang `smokeTest` ay dapat eksaktong `null`: walang
+install smoke test ang isang skill, at ang pagsusuri ng nilalaman ang gate ng pagtanggap.
+Walang dala ang skill schema na kundisyong `status: verified` → `smokeTest` at walang mga
+kundisyong `repositoryScope` → `popularity`; ang mga pagkakaugnay na iyon ay mga tuntunin
+lamang ng plugin schema.
+
+### Semantic layer para sa mga skill
+
+Sa ibabaw ng schema, ginagamit ng catalog validation ang parehong mga sapilitang semantic
+parser tulad ng sa mga plugin kung saan umiiral ang mga field: ang `license.spdx` ay dapat
+ma-parse bilang wastong SPDX expression (`invalid-spdx`), at ang `compat.harnessMin` ay
+dapat eksaktong SemVer (`invalid-semver`). Walang kasong `invalid-sri` — walang
+`package.integrity` ang isang skill.
+
+### Pagkakakilanlan at dedupe ng skill
+
+Ang canonical na key ng isang skill ay `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Ang subpath ay nino-normalize para lamang sa layunin ng pagkakakilanlan: ang mga backslash ay
+nagiging `/`, ang mga walang laman at `.` na segment ay inaalis, at ang walang laman na
+resulta (o `subpath: null`) ay nagiging `.` — ang buong repository. Ang subpath na may mga
+NUL byte o `..` na segment ay tinatanggihan, hindi kailanman "nililinis". Ang dalawang skill
+ng parehong repository ay dalawang entry; ang parehong repository + subpath nang dalawang
+beses ay isang banggaan.
+
+### Minimal na halimbawa ng skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Ano ang hindi sinusuri ng schema
 
 Ang schema ay sinasadyang lokal at structural. **Hindi** nito biniberipika na umiiral ang

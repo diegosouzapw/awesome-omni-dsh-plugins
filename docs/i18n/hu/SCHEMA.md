@@ -260,6 +260,114 @@ Hagyja ki teljesen a mezőt, ha nincs mit mutatni — a `media: []` nem érvény
 „nincs képernyőkép”. A mező additív: a létezése előtt közzétett bejegyzések érvényesek maradnak,
 aki pedig figyelmen kívül hagyja, pontosan úgy olvas minden bejegyzést, mint korábban.
 
+## `kind: skill` bejegyzések
+
+Az 1-es sémaverzió egy második, önálló bejegyzés-kontraktust is definiál a `kind: skill`
+számára, amely [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) néven jelent meg
+(SKL-01, 0. fázis). Ez soha nem érinti a fenti bővítmény-sémát: a `kind: plugin` bejegyzések
+pontosan úgy validálódnak, mint eddig, és a skill-séma-fájl ugyanúgy a hiteles forrás a
+skill-bejegyzésekhez, ahogyan a bővítmény-séma a bővítmény-bejegyzésekhez.
+
+Egy skillt nem telepítenek: a harness **betölti**, ezért a csak bővítményekre vonatkozó
+telepítési deszkriptorok (`package`, `dsh`) nem léteznek egy skill-bejegyzésen, helyüket a
+`usage` + `compat` veszi át. Egy skill emellett gyakran egy olyan repository alkönyvtárában él,
+amely sok skillt tartalmaz, ezért az identitás és a deduplikáció a `source.repository` +
+`source.subpath` páros, nem pedig önmagában a repository. Egy skill-bejegyzés nem enged meg
+`media` galériát: a skill szöveg, amelyet a harness betölt, így nincs miről képernyőképet
+készíteni (ezt az `additionalProperties: false` kényszeríti ki).
+
+Ezek a mezők pontosan a fenti bővítmény-bejegyzéseknél dokumentált formát és szabályokat
+tartják meg: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. Minden mező kötelező,
+kivéve a `triggers`-t, az egyetlen opcionális skill-mezőt.
+
+### Skill-specifikus mezők
+
+| Mező                 | Típus  | Kötelező | Szabályok                                                   |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   igen   | Pontosan `skill` kell legyen                                |
+| `skillScope`         | enum   |   igen   | `repository` (a teljes repository **maga** a skill) vagy `subdirectory` (a skill a `source.subpath` alatt él) |
+| `triggers`           | array  |    nem   | Mikor aktiválódik a skill — a szöveg, amelyet a felhasználó a betöltés előtt mérlegel. Legalább 1 egyedi string, mindegyik 3–200 karakter; ha nincs egy sem, a mezőt teljesen ki kell hagyni (a `triggers: []` érvénytelen) |
+| `usage.load`         | string |   igen   | Hogyan tölti be a harness a skillt, 1–200 karakter; egy skillt betöltenek, soha nem telepítenek |
+| `usage.evidencePath` | string |   igen   | Biztonságos relatív útvonal (ugyanaz a minta, mint a `description.evidencePath`) a betöltési bizonyítékhoz a `source.commit`-on |
+| `compat.harnessMin`  | string |   igen   | A legkisebb harness-verzió, amellyel a skillt ellenőrizték; pontos `x.y.z` forma (opcionális prerelease/build), max 64 karakter. A szemantikai réteg emellett megkövetel egy interpretálható, pontos SemVert |
+
+Feltételes szabályok (a skill-séma `allOf` blokkjai kényszerítik ki):
+
+- A `skillScope: subdirectory` **kikényszeríti**, hogy a `source.subpath` biztonságos relatív
+  útvonal-string legyen — egy alkönyvtárban élő skillnek rögzítenie kell azt az alkönyvtárat.
+- A `skillScope: repository` **kikényszeríti** a `source.subpath: null` értéket — egy
+  teljes-repository skill nem deklarálhat subpathot.
+
+A `verification` megtartja a bővítmény-formát (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), de a `smokeTest` pontosan `null` kell legyen: egy skillnek nincs telepítési
+smoke-tesztje, és a tartalmi átvizsgálás a befogadási kapu. A skill-séma nem hordoz
+`status: verified` → `smokeTest` feltételt, sem `repositoryScope` → `popularity` feltételeket;
+ezek a kapcsolások kizárólag a bővítmény-séma szabályai.
+
+### Szemantikai réteg a skillekhez
+
+A séma felett a katalógus-validáció ugyanazokat a kötelező szemantikai interpretálókat
+alkalmazza, mint a bővítményeknél, ahol a mezők léteznek: a `license.spdx`-nek érvényes
+SPDX-kifejezésként kell interpretálódnia (`invalid-spdx`), a `compat.harnessMin`-nek pedig
+pontos SemVernek kell lennie (`invalid-semver`). `invalid-sri` eset nincs — egy skillnek nincs
+`package.integrity`-je.
+
+### Skill-identitás és deduplikáció
+
+Egy skill kanonikus kulcsa: `skill:<source.repositoryNodeId>:<normalized subpath>`. A subpath
+kizárólag identitási célra normalizálódik: a backslash-ekből `/` lesz, az üres és `.`
+szegmensek kiesnek, az üres eredmény (vagy a `subpath: null`) pedig `.` lesz — a teljes
+repository. A NUL bájtokat vagy `..` szegmenseket tartalmazó subpath elutasításra kerül, soha
+nem „tisztítódik". Ugyanazon repository két skillje két bejegyzés; ugyanaz a repository +
+subpath kétszer viszont ütközés.
+
+### Minimális skill-példa
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Amit a séma nem ellenőriz
 
 A séma szándékosan helyi és strukturális. **Nem** ellenőrzi, hogy a repository létezik-e, hogy a

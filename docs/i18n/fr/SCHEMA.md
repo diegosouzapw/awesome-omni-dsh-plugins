@@ -257,6 +257,115 @@ Omettez entièrement le champ lorsqu'il n'y a rien à montrer — `media: []` n'
 valide de dire « aucune capture ». Le champ est additif : les entrées publiées avant son
 existence restent valides, et un consommateur qui l'ignore lit chaque entrée exactement comme avant.
 
+## Entrées `kind: skill`
+
+La version 1 du schéma définit aussi un second contrat d'entrée autonome pour `kind: skill`,
+publié en tant que [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01
+phase 0). Il ne touche jamais le schéma de plugin ci-dessus : les entrées avec `kind: plugin`
+continuent de se valider exactement comme avant, et le fichier de schéma de skill est la source
+de vérité pour les entrées de skill de la même manière que le schéma de plugin l'est pour les
+entrées de plugin.
+
+Une skill ne s'installe pas, elle est **chargée** par le harness ; les descripteurs
+d'installation propres aux plugins (`package`, `dsh`) n'existent donc pas sur une entrée de
+skill et sont remplacés par `usage` + `compat`. Une skill vit aussi fréquemment dans un
+sous-répertoire d'un dépôt hébergeant de nombreuses skills, l'identité et la déduplication
+reposent donc sur `source.repository` + `source.subpath` plutôt que sur le dépôt seul. Une
+entrée de skill n'admet aucune galerie `media` : une skill est du texte que le harness charge,
+il n'y a donc rien à capturer (`additionalProperties: false` est ce qui l'impose).
+
+Ces champs gardent exactement la forme et les règles documentées ci-dessus pour les entrées de
+plugin : `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. Chaque champ est
+obligatoire sauf `triggers`, le seul champ de skill optionnel.
+
+### Champs spécifiques aux skills
+
+| Champ                | Type   | Obligatoire | Règles                                                    |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   oui    | Doit être exactement `skill`                                |
+| `skillScope`         | enum   |   oui    | `repository` (le dépôt entier **est** la skill) ou `subdirectory` (la skill vit à `source.subpath`) |
+| `triggers`           | array  |    non    | Quand la skill se déclenche — le texte qu'un utilisateur évalue avant de la charger. Au moins 1 chaîne unique, chacune de 3 à 200 caractères ; omettez entièrement le champ lorsqu'il n'y en a aucune (`triggers: []` est invalide) |
+| `usage.load`         | string |   oui    | Comment le harness charge la skill, 1 à 200 caractères ; une skill se charge, ne s'installe jamais |
+| `usage.evidencePath` | string |   oui    | Chemin relatif sûr (même motif que `description.evidencePath`) vers la preuve de chargement au `source.commit` |
+| `compat.harnessMin`  | string |   oui    | Version minimale du harness contre laquelle la skill a été vérifiée ; forme exacte `x.y.z` (prerelease/build optionnel), 64 caractères max. La couche sémantique exige en plus un SemVer exact et analysable |
+
+Règles conditionnelles (imposées par les blocs `allOf` du schéma de skill) :
+
+- `skillScope: subdirectory` **force** `source.subpath` à être une chaîne de chemin relatif
+  sûr — une skill hébergée dans un sous-répertoire doit épingler ce sous-répertoire.
+- `skillScope: repository` **force** `source.subpath: null` — une skill couvrant tout le dépôt
+  ne doit pas déclarer de subpath.
+
+`verification` garde la forme de plugin (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), mais `smokeTest` doit être exactement `null` : une skill n'a pas de smoke test
+d'installation, et la revue de contenu est la porte d'admission. Le schéma de skill ne porte
+pas le conditionnel `status: verified` → `smokeTest` ni les conditionnels `repositoryScope` →
+`popularity` ; ces couplages sont des règles propres au schéma de plugin.
+
+### Couche sémantique pour les skills
+
+Par-dessus le schéma, la validation du catalogue applique les mêmes analyseurs sémantiques
+obligatoires que pour les plugins là où les champs existent : `license.spdx` doit s'analyser
+comme une expression SPDX valide (`invalid-spdx`), et `compat.harnessMin` doit être un SemVer
+exact (`invalid-semver`). Il n'y a pas de cas `invalid-sri` — une skill n'a pas de
+`package.integrity`.
+
+### Identité et déduplication des skills
+
+La clé canonique d'une skill est `skill:<source.repositoryNodeId>:<normalized subpath>`. Le
+subpath n'est normalisé qu'à des fins d'identité : les antislashs deviennent `/`, les segments
+vides et `.` sont supprimés, et un résultat vide (ou `subpath: null`) devient `.` — le dépôt
+entier. Un subpath contenant des octets NUL ou des segments `..` est rejeté, jamais « nettoyé ».
+Deux skills du même dépôt sont deux entrées ; le même dépôt + subpath deux fois est une
+collision.
+
+### Exemple minimal de skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Ce que le schéma ne vérifie pas
 
 Le schéma est intentionnellement local et structurel. Il **ne** vérifie **pas** que le dépôt

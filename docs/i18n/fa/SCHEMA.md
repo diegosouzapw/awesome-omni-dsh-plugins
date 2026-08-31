@@ -249,6 +249,111 @@ URL پروفایل عمومی همیشه به‌صورت `https://github.com/<ha
 تصویر صفحه» نیست. این فیلد افزایشی است: ورودی‌هایی که پیش از وجود آن منتشر شده‌اند معتبر می‌مانند و
 مصرف‌کننده‌ای که آن را نادیده بگیرد هر ورودی را دقیقاً مثل گذشته می‌خواند.
 
+## ورودی‌های `kind: skill`
+
+نسخهٔ ۱ اسکیما همچنین یک قرارداد ورودی دومِ خودکفا برای `kind: skill` تعریف می‌کند که به‌صورت
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) منتشر شده است (SKL-01 فاز ۰).
+این قرارداد هرگز به اسکیمای پلاگین بالا دست نمی‌زند: ورودی‌های دارای `kind: plugin` دقیقاً مثل
+قبل اعتبارسنجی می‌شوند، و فایل اسکیمای اسکیل برای ورودی‌های اسکیل همان‌طور منبع حقیقت است که
+اسکیمای پلاگین برای ورودی‌های پلاگین است.
+
+اسکیل نصب نمی‌شود، بلکه هارنس آن را **بارگذاری** می‌کند؛ بنابراین توصیف‌گرهای نصبِ مخصوص
+پلاگین (`package`، `dsh`) روی ورودی اسکیل وجود ندارند و با `usage` + `compat` جایگزین می‌شوند.
+اسکیل همچنین اغلب در زیرشاخه‌ای از ریپازیتوری‌ای زندگی می‌کند که میزبان اسکیل‌های فراوانی است،
+پس هویت و حذف تکرار `source.repository` + `source.subpath` است، نه ریپازیتوری به‌تنهایی.
+ورودی اسکیل هیچ گالری `media` را نمی‌پذیرد: اسکیل متنی است که هارنس بارگذاری می‌کند، پس چیزی
+برای تصویربرداری وجود ندارد (`additionalProperties: false` همان چیزی است که این را الزام
+می‌کند).
+
+این فیلدها دقیقاً همان شکل و قواعدی را نگه می‌دارند که در بالا برای ورودی‌های پلاگین مستند
+شده است: `schemaVersion`، `id`، `name`، `description`، `unofficial`، `primaryCategory`،
+`tags`، `source`، `creator`، `repositoryScope`، `license`، `provenance`. همهٔ فیلدها الزامی
+هستند به‌جز `triggers`، تنها فیلد اختیاری اسکیل.
+
+### فیلدهای مخصوص اسکیل
+
+| فیلد                 | نوع    | الزامی | قواعد                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   بله    | باید دقیقاً `skill` باشد                                    |
+| `skillScope`         | enum   |   بله    | `repository` (کل ریپازیتوری **خودِ** اسکیل است) یا `subdirectory` (اسکیل در `source.subpath` زندگی می‌کند) |
+| `triggers`           | array  |    خیر    | کِی اسکیل فعال می‌شود — متنی که کاربر پیش از بارگذاری آن ارزیابی می‌کند. دست‌کم ۱ رشتهٔ یکتا، هرکدام ۳ تا ۲۰۰ کاراکتر؛ وقتی هیچ‌کدام وجود ندارد فیلد را کاملاً حذف کنید (`triggers: []` نامعتبر است) |
+| `usage.load`         | string |   بله    | این‌که هارنس اسکیل را چگونه بارگذاری می‌کند، ۱ تا ۲۰۰ کاراکتر؛ اسکیل بارگذاری می‌شود، هرگز نصب نمی‌شود |
+| `usage.evidencePath` | string |   بله    | مسیر نسبی امن (همان الگوی `description.evidencePath`) به شاهد بارگذاری در `source.commit` |
+| `compat.harnessMin`  | string |   بله    | حداقل نسخهٔ هارنسی که اسکیل در برابر آن راستی‌آزمایی شده است؛ شکل دقیق `x.y.z` (پیش‌انتشار/بیلد اختیاری)، حداکثر ۶۴ کاراکتر. لایهٔ معنایی علاوه بر این یک SemVer دقیق و قابل‌تجزیه الزام می‌کند |
+
+قواعد شرطی (که بلوک‌های `allOf` اسکیمای اسکیل الزام می‌کنند):
+
+- `skillScope: subdirectory` **الزام می‌کند** که `source.subpath` یک رشتهٔ مسیر نسبی امن
+  باشد — اسکیلی که در یک زیرشاخه میزبانی می‌شود باید آن زیرشاخه را سنجاق کند.
+- `skillScope: repository` **الزام می‌کند** `source.subpath: null` — اسکیلِ تمام‌ریپازیتوری
+  نباید subpath اعلام کند.
+
+`verification` شکل پلاگین را نگه می‌دارد (`status`، `checkedAt`، `repositoryIdentity`،
+`smokeTest`)، اما `smokeTest` باید دقیقاً `null` باشد: اسکیل تست دود نصب ندارد و بازبینی
+محتوا دروازهٔ پذیرش است. اسکیمای اسکیل شرطِ `status: verified` → `smokeTest` و شرط‌های
+`repositoryScope` → `popularity` را ندارد؛ آن پیوندها فقط قواعد اسکیمای پلاگین هستند.
+
+### لایهٔ معنایی برای اسکیل‌ها
+
+روی اسکیما، اعتبارسنجی کاتالوگ همان تجزیه‌گرهای معنایی اجباریِ پلاگین‌ها را هرجا فیلدها
+وجود دارند اعمال می‌کند: `license.spdx` باید به‌صورت یک عبارت SPDX معتبر تجزیه شود
+(`invalid-spdx`)، و `compat.harnessMin` باید یک SemVer دقیق باشد (`invalid-semver`). حالت
+`invalid-sri` وجود ندارد — اسکیل `package.integrity` ندارد.
+
+### هویت و حذف تکرار اسکیل
+
+کلید متعارف یک اسکیل `skill:<source.repositoryNodeId>:<normalized subpath>` است. subpath فقط
+برای هویت نرمال‌سازی می‌شود: بک‌اسلش‌ها `/` می‌شوند، بخش‌های خالی و `.` حذف می‌شوند، و نتیجهٔ
+خالی (یا `subpath: null`) به `.` تبدیل می‌شود — کل ریپازیتوری. subpath حاوی بایت NUL یا
+بخش‌های `..` رد می‌شود، هرگز «پاک‌سازی» نمی‌شود. دو اسکیل از یک ریپازیتوری دو ورودی هستند؛
+همان ریپازیتوری + subpath دو بار یک برخورد است.
+
+### حداقلی‌ترین مثال اسکیل
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## آنچه اسکیما بررسی نمی‌کند
 
 اسکیما عمداً محلی و ساختاری است. این **بررسی نمی‌کند** که ریپازیتوری وجود دارد، شناسهٔ گره با URL

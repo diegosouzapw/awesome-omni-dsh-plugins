@@ -241,6 +241,107 @@ URL ที่นี่ต้องเปลี่ยนแปลงไม่ไ�
 ให้ละฟิลด์นี้ทั้งหมดเมื่อไม่มีอะไรจะแสดง — `media: []` ไม่ใช่วิธีที่ถูกต้องในการบอกว่า "ไม่มีภาพหน้าจอ"
 ฟิลด์นี้เป็นส่วนเพิ่ม: รายการที่เผยแพร่ก่อนที่ฟิลด์นี้จะมีอยู่ยังคงใช้ได้ และผู้บริโภคที่ละเลยมันจะอ่านทุกรายการเหมือนเดิมทุกประการ
 
+## รายการ `kind: skill`
+
+สคีมาเวอร์ชัน 1 ยังกำหนดสัญญารายการชุดที่สองที่เป็นอิสระในตัวเองสำหรับ `kind: skill`
+ซึ่งเผยแพร่เป็น [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01 เฟส 0)
+มันไม่แตะต้องสคีมาปลั๊กอินด้านบนเลย: รายการที่มี `kind: plugin` ยังคงผ่านการตรวจสอบเหมือนเดิมทุกประการ
+และไฟล์สคีมาสกิลเป็นแหล่งความจริงสำหรับรายการสกิล เช่นเดียวกับที่สคีมาปลั๊กอินเป็นสำหรับรายการปลั๊กอิน
+
+สกิลไม่ได้ถูกติดตั้ง แต่ถูก**โหลด**โดย harness ดังนั้นตัวระบุการติดตั้งเฉพาะปลั๊กอิน
+(`package`, `dsh`) จึงไม่มีอยู่ในรายการสกิล และถูกแทนที่ด้วย `usage` + `compat`
+สกิลยังมักอยู่ในไดเรกทอรีย่อยของรีโพซิทอรีที่โฮสต์สกิลจำนวนมาก ดังนั้นอัตลักษณ์และการขจัดข้อมูลซ้ำจึงเป็น
+`source.repository` + `source.subpath` ไม่ใช่รีโพซิทอรีเพียงอย่างเดียว รายการสกิลไม่รับแกลเลอรี `media`:
+สกิลคือข้อความที่ harness โหลด จึงไม่มีอะไรให้จับภาพหน้าจอ (`additionalProperties: false` คือสิ่งที่บังคับเรื่องนี้)
+
+ฟิลด์เหล่านี้คงรูปแบบและกฎตามที่บันทึกไว้สำหรับรายการปลั๊กอินด้านบนทุกประการ:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance` ทุกฟิลด์จำเป็นทั้งหมด
+ยกเว้น `triggers` ซึ่งเป็นฟิลด์สกิลเดียวที่ไม่บังคับ
+
+### ฟิลด์เฉพาะของสกิล
+
+| ฟิลด์                | ชนิด   | จำเป็น | กฎ                                                          |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   ใช่    | ต้องเป็น `skill` เท่านั้น                                     |
+| `skillScope`         | enum   |   ใช่    | `repository` (รีโพซิทอรีทั้งหมด**คือ**สกิล) หรือ `subdirectory` (สกิลอยู่ที่ `source.subpath`) |
+| `triggers`           | array  |   ไม่    | เมื่อใดสกิลจะทำงาน — ข้อความที่ผู้ใช้ประเมินก่อนโหลดมัน อย่างน้อย 1 สตริงที่ไม่ซ้ำกัน แต่ละสตริงยาว 3–200 อักขระ ให้ละฟิลด์นี้ทั้งหมดเมื่อไม่มีเลย (`triggers: []` ไม่ถูกต้อง) |
+| `usage.load`         | string |   ใช่    | วิธีที่ harness โหลดสกิล ยาว 1–200 อักขระ สกิลถูกโหลด ไม่เคยถูกติดตั้ง |
+| `usage.evidencePath` | string |   ใช่    | เส้นทางสัมพัทธ์ที่ปลอดภัย (แพตเทิร์นเดียวกับ `description.evidencePath`) ไปยังหลักฐานการโหลด ณ `source.commit` |
+| `compat.harnessMin`  | string |   ใช่    | เวอร์ชัน harness ต่ำสุดที่สกิลได้รับการตรวจสอบด้วย รูปแบบ `x.y.z` แบบตรงตัว (prerelease/build ไม่บังคับ) สูงสุด 64 อักขระ ชั้นเชิงความหมายยังกำหนดเพิ่มว่าต้องเป็น SemVer ตรงตัวที่แยกวิเคราะห์ได้ |
+
+กฎแบบมีเงื่อนไข (บังคับโดยบล็อก `allOf` ของสคีมาสกิล):
+
+- `skillScope: subdirectory` **บังคับ**ให้ `source.subpath` เป็นสตริงเส้นทางสัมพัทธ์ที่ปลอดภัย —
+  สกิลที่โฮสต์ในไดเรกทอรีย่อยต้องตรึงไดเรกทอรีย่อยนั้นไว้
+- `skillScope: repository` **บังคับ**ให้ `source.subpath: null` — สกิลแบบทั้งรีโพซิทอรีต้องไม่ประกาศ subpath
+
+`verification` คงรูปแบบของปลั๊กอิน (`status`, `checkedAt`, `repositoryIdentity`, `smokeTest`)
+แต่ `smokeTest` ต้องเป็น `null` เท่านั้น: สกิลไม่มี smoke test ของการติดตั้ง และการตรวจทานเนื้อหาคือด่านรับเข้า
+สคีมาสกิลไม่มีเงื่อนไข `status: verified` → `smokeTest` และไม่มีเงื่อนไข `repositoryScope` → `popularity`
+การเชื่อมโยงเหล่านั้นเป็นกฎของสคีมาปลั๊กอินเท่านั้น
+
+### ชั้นเชิงความหมายสำหรับสกิล
+
+นอกเหนือจากสคีมา การตรวจสอบแคตาล็อกใช้ตัวแยกวิเคราะห์เชิงความหมายภาคบังคับชุดเดียวกับของปลั๊กอิน
+ในฟิลด์ที่มีอยู่: `license.spdx` ต้องแยกวิเคราะห์เป็นนิพจน์ SPDX ที่ถูกต้อง (`invalid-spdx`)
+และ `compat.harnessMin` ต้องเป็น SemVer ตรงตัว (`invalid-semver`) ไม่มีกรณี `invalid-sri` —
+สกิลไม่มี `package.integrity`
+
+### อัตลักษณ์และการขจัดข้อมูลซ้ำของสกิล
+
+คีย์มาตรฐานของสกิลคือ `skill:<source.repositoryNodeId>:<normalized subpath>` โดย subpath
+จะถูกทำให้เป็นรูปแบบมาตรฐานเพื่อวัตถุประสงค์ด้านอัตลักษณ์เท่านั้น: แบ็กสแลชกลายเป็น `/`
+เซกเมนต์ว่างและ `.` ถูกตัดทิ้ง และผลลัพธ์ที่ว่างเปล่า (หรือ `subpath: null`) กลายเป็น `.` —
+รีโพซิทอรีทั้งหมด subpath ที่มีไบต์ NUL หรือเซกเมนต์ `..` จะถูกปฏิเสธ ไม่มีวัน "ถูกทำความสะอาด"
+สกิลสองตัวของรีโพซิทอรีเดียวกันคือสองรายการ ส่วนรีโพซิทอรี + subpath เดียวกันซ้ำสองครั้งคือการชนกัน
+
+### ตัวอย่างสกิลแบบน้อยที่สุด
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## สิ่งที่สคีมาไม่ตรวจสอบ
 
 สคีมาตั้งใจให้เป็นการตรวจสอบเชิงโครงสร้างและภายในเครื่องเท่านั้น มัน**ไม่**ตรวจสอบว่ารีโพซิทอรีมีอยู่จริง ว่า
