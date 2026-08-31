@@ -361,4 +361,4 @@ provenance:
 లేదో, లేదా సృష్టికర్త సోర్స్‌కు యజమానో లేదో ధృవీకరించ**దు**. ఆ తనిఖీలు [CONTRIBUTING.md](../../CONTRIBUTING.md)
 మరియు [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md)లో వివరించిన మెయింటైనర్ సమీక్ష గేట్‌లకు చెందుతాయి.
 
-<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
+<!-- i18n-source-hash: dd689b0ee2a7910f069d498c831668b022852a8a20cc64efb3516ce6e289c4dd -->

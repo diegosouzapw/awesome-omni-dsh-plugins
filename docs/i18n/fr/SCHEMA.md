@@ -374,4 +374,4 @@ que le nombre d'étoiles est exact, ou que le créateur possède la source. Ces 
 des contrôles de révision des mainteneurs décrits dans [CONTRIBUTING.md](../../CONTRIBUTING.md) et
 [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).
 
-<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
+<!-- i18n-source-hash: dd689b0ee2a7910f069d498c831668b022852a8a20cc64efb3516ce6e289c4dd -->
