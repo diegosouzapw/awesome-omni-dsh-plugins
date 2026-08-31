@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: zem17-dsh-subagent-antigravity
+name: "@dsh-external/dsh-subagent-antigravity"
+description:
+  en: Delegate tasks to Google Antigravity CLI (agy) as a DSH subagent — no Gemini API key needed, uses your Antigravity login
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - antigravity
+  - agy
+  - gemini
+  - subagent
+source:
+  repository: https://github.com/ZEM17/dsh-subagent-agy
+  repositoryNodeId: R_kgDOT5gMiw
+  subpath: null
+  commit: d520b9f690dbba9f8dafac09ebc79a5e1c5a8c8e
+creator:
+  github: ZEM17
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:59.032Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
