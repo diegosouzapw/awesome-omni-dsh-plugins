@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: trench-xinxin-dsh-tool-lens
+name: "@trench-xinxin/dsh-tool-lens"
+description:
+  en: "DeepSeek Lens: Deep AST code graph, symbol call hierarchies, and refactoring impact analysis tool plugin for DeepSeek Harness"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - lens
+  - deep
+  - code
+  - graph
+  - symbol
+  - call
+  - hierarchies
+  - refactoring
+  - impact
+  - analysis
+  - tool
+  - dsh
+source:
+  repository: https://github.com/trench-xinxin/dsh-tool-lens
+  repositoryNodeId: R_kgDOT7DF8A
+  subpath: null
+  commit: 4bf13121ef320584a9b75af42b95ad1147970370
+creator:
+  github: trench-xinxin
+package:
+  ecosystem: npm
+  name: "@trench-xinxin/dsh-tool-lens"
+  version: 2.0.5
+  integrity: sha512-emWZvgEbo4+gun1rBY2tF64QktSLIF9d0R5KIsjErTWTWr2lMmbcWmiP6m5CwY7owPksxcqF3rKDeHVR7BQHNQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:55.200Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
