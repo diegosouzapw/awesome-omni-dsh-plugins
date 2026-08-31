@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: alib8b8-dsh-plugin-aflare
+name: "@alib8b8/dsh-plugin-aflare"
+description:
+  en: DeepSeek Harness (DSH) Cordis plugin exposing aflare workflow tools
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - cordis
+  - aflare
+  - workflow
+  - mcp
+  - dsh
+source:
+  repository: https://github.com/alib8b8/dsh-plugin-aflare
+  repositoryNodeId: R_kgDOT5MTBQ
+  subpath: null
+  commit: 502375e9c7aecb795af3b6b54f84e7771f09ea38
+creator:
+  github: alib8b8
+package:
+  ecosystem: npm
+  name: "@alib8b8/dsh-plugin-aflare"
+  version: 0.1.0
+  integrity: sha512-AM0TRQySF1bfB5w2/oH02VvhN1vtp27RrKv4zNGGMkkZ0QWBUYklxc5Atc5rIwVTakEKTS+IqHFk0jwyOMMlUg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: AGPL-3.0-or-later
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:08.845Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
