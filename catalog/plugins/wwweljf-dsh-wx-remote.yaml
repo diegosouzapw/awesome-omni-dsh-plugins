@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wwweljf-dsh-wx-remote
+name: dsh-wx-remote
+description:
+  en: "Permanent host plugin: continue an existing PC DSH session from WeChat (poll iLink, followup live session or resume closed one, send the reply back). Requires wechat-acp; only allowlisted WeChat senders are handled (empty allowlist denies everyone)."
+  evidencePath: plugins/dsh-wx-remote/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - permanent
+  - host
+  - continue
+  - existing
+  - session
+  - wechat
+  - poll
+  - ilink
+  - followup
+  - live
+  - resume
+  - closed
+  - send
+  - reply
+  - back
+  - requires
+source:
+  repository: https://github.com/wwweljf/dsh-plugins
+  repositoryNodeId: R_kgDOUADf_Q
+  subpath: plugins/dsh-wx-remote
+  commit: 13bd684e4ef1f76d38ff2fe1da99a4187cf00083
+creator:
+  github: wwweljf
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-wx-remote/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:25.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
