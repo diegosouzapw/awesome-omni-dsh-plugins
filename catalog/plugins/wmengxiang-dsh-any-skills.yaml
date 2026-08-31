@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: wmengxiang-dsh-any-skills
+name: dsh-any-skills
+description:
+  en: Import, install and invoke Agent Skills in DeepSeek Harness from Codex, Claude Code, OpenCode, GitHub or npm — with a composer-side skill picker. · 从 Codex / Claude Code / OpenCode / GitHub / npm 导入并安装技能到 ~/.dsh/skills，支持 composer 旁一键插入 /skill-name 调用。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - skills
+  - skill-manager
+  - codex
+  - claude-code
+  - opencode
+  - web-ui
+source:
+  repository: https://github.com/wmengxiang/dsh-any-skills
+  repositoryNodeId: R_kgDOT-oeOA
+  subpath: null
+  commit: d80a4f665a0926af9bf66579eebdc9c5c3f1751f
+creator:
+  github: wmengxiang
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:04.566Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
