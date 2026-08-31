@@ -1,0 +1,73 @@
+schemaVersion: 1
+id: grivn-dsh-mnemon-evaluation-runner
+name: dsh-mnemon-evaluation-runner
+description:
+  en: <p align="center" <strong The three-tier, pluggable, Agent-driven memory system for DeepSeek Harness.</strong </p <p align="center" Three memory tiers · Nine long-term providers · One supervised workflow</p
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - align
+  - center
+  - strong
+  - three
+  - tier
+  - pluggable
+  - agent
+  - driven
+  - memory
+  - system
+  - tiers
+  - nine
+  - long
+  - term
+  - providers
+  - supervised
+source:
+  repository: https://github.com/omdsh-dev/dsh-mnemon
+  repositoryNodeId: R_kgDOTz1oiA
+  subpath: scripts/evaluation/v0.3/runner-plugin
+  commit: 9099f1516265d7a2f7aa797358de533d4ee58a17
+creator:
+  github: Grivn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: scripts/evaluation/v0.3/runner-plugin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:44.455Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/media/dsh-mnemon-memory-system-demo.gif
+    alt: Full dsh-mnemon v0.2.0 WebUI walkthrough with scrolling and button interactions
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/screenshots/remember-dialog.png
+    alt: Edit a candidate before dispatching an independent task Agent
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/screenshots/recall-agent-answer.png
+    alt: Read-only Agent answer grounded in bounded multi-provider evidence
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/screenshots/memory-space-create-dialog.png
+    alt: Choose a Provider while creating a Memory Space
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/screenshots/distillation-strategy.png
+    alt: Choose manual or smart Provider placement
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/omdsh-dev/dsh-mnemon/9099f1516265d7a2f7aa797358de533d4ee58a17/docs/assets/media/dsh-mnemon-memory-system-demo-poster.jpg
+    alt: dsh-mnemon v0.2.0 live multi-memory snapshot and observable provider surfaces
