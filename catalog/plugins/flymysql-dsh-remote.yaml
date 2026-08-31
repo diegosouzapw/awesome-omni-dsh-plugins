@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: flymysql-dsh-remote
+name: dsh-remote
+description:
+  en: "Remote-work assistant for DeepSeek Harness: connect SSH (password/key/agent/keyboard-interactive/proxy jump), pick a remote workspace, operate on it with 21 rw tools (incl. rw edit/rw stat/rw mkdir/rw remove/rw move/rw forward), conflict-aware mirror sync, port forwarding, side-bar remote file editing, audit log, keych"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - remote
+  - ssh
+  - tunnel
+source:
+  repository: https://github.com/flymysql/dsh-remote
+  repositoryNodeId: R_kgDOT3_9Og
+  subpath: null
+  commit: 5ae197a94c0fe4f0a8ffe5de14822f79418dc3bd
+creator:
+  github: flymysql
+package:
+  ecosystem: npm
+  name: dsh-remote
+  version: 0.8.8
+  integrity: sha512-HVkGiHfhMmpH3Y4HERAFLmw3AUzW+baA5VX7TwQX/8ap245fo2HMaGcWuvi4BTXckbgwvZSWi1qp3ULMVkrcdQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:15.281Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 48
+provenance:
+  discussion: null
+  comment: null
