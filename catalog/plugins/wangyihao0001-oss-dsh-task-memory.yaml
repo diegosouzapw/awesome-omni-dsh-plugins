@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wangyihao0001-oss-dsh-task-memory
+name: dsh-task-memory
+description:
+  en: "Task-isolated long-term memory for DeepSeek Harness: remember / recall / search stay inside one task boundary, with optional prompt injection."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - memory
+  - task-memory
+  - long-term-memory
+  - isolation
+source:
+  repository: https://github.com/wangyihao0001-oss/dsh-task-memory
+  repositoryNodeId: R_kgDOT-K88Q
+  subpath: null
+  commit: 96e6552a26b11b6430e48cbd37755bb40f1a13dc
+creator:
+  github: wangyihao0001-oss
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:55.597Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
