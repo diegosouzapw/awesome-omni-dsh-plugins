@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: xjungit-dsh-vision-bridge
+name: "@omdp/dsh-vision-bridge"
+description:
+  en: "- DeepSeek Harness 带 web profile GUI（ npx @deepseek-ai/dsh web ） - Node.js ^22.19 或 =24 - 文本模型场景需要一个 OpenAI 兼容多模态端点（ provider.baseUrl + provider.apiKey / credential + provider.model ，默认 Agnes agnes-2.5-flash ）"
+  evidencePath: dsh-vision-bridge/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - multimodal
+  - image
+source:
+  repository: https://github.com/XJungit/omdp
+  repositoryNodeId: R_kgDOT4A-Tg
+  subpath: dsh-vision-bridge
+  commit: 47b09a75eeb3d40ac48d9c66b35c60c021ee832d
+creator:
+  github: XJungit
+package:
+  ecosystem: npm
+  name: "@omdp/dsh-vision-bridge"
+  version: 0.1.7
+  integrity: sha512-t45+s5rCH9+tQ/EwvqOMwR8I0SlJeGZ8GfAbypX6a0zNNWjA0e8swDufGEYdjCjbowGxMa4tZ4UvoavB2MXyNg==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-vision-bridge/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:27.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
