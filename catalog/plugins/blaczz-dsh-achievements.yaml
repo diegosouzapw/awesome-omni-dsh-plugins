@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: blaczz-dsh-achievements
+name: dsh-achievements
+description:
+  en: "DeepSeek Harness achievement & gamification plugin: cross-session badges for turns, tool calls, sessions and daily streaks, with a badge panel, unlock toasts and a ctx.achievements service. Zero core changes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - achievements
+  - gamification
+  - badges
+source:
+  repository: https://github.com/Blaczz/dsh-achievements
+  repositoryNodeId: R_kgDOT4MJKw
+  subpath: null
+  commit: 8c00e76de04498b743364bacd17888fe9a75f853
+creator:
+  github: Blaczz
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:19.840Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
