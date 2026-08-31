@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: zenglihunter-dsh-petdex-pet
+name: "@dsh-external/dsh-petdex-pet"
+description:
+  en: "Petdex pet in the DSH web GUI: floating bottom-right, draggable, sprite-animated by agent activity, with a live settings page (size / enable / switch / delete / gallery search + previews / install-by-code) and hover interactions. Ships with 4 bundled Hunter x Hunter starter pets (Gon, Killua, Kurapika, Leorio)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - deepseek-harness
+  - petdex
+  - pet
+  - desktop-pet
+source:
+  repository: https://github.com/zenglihunter/dsh-petdex-pet
+  repositoryNodeId: R_kgDOT9NWmQ
+  subpath: null
+  commit: 258b06dd20753c597207dc5c64716d27cf3f7c3c
+creator:
+  github: zenglihunter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:08.191Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenglihunter/dsh-petdex-pet/258b06dd20753c597207dc5c64716d27cf3f7c3c/img/screenshot.png
+    alt: dsh-petdex-pet 主界面 - 宠物菜单可预览 4 个默认猎人主角
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenglihunter/dsh-petdex-pet/258b06dd20753c597207dc5c64716d27cf3f7c3c/img/menu.png
+    alt: 宠物菜单
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenglihunter/dsh-petdex-pet/258b06dd20753c597207dc5c64716d27cf3f7c3c/img/install.png
+    alt: 一键安装和在线获取宠物
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zenglihunter/dsh-petdex-pet/258b06dd20753c597207dc5c64716d27cf3f7c3c/img/banner.jpg
+    alt: "dsh-petdex-pet · Pixel Adventure: Hunter × Hunter & DeepSeek"
