@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ch4acko3-dsh-table-render
+name: "@ch4acko3/dsh-table-render"
+description:
+  en: Safe responsive table rendering service for DeepSeek Harness Web plugins
+  evidencePath: packages/table-render/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - table
+  - records
+  - data-grid
+source:
+  repository: https://github.com/CH4ACKO3/dsh-render-engine
+  repositoryNodeId: R_kgDOT_CyLg
+  subpath: packages/table-render
+  commit: cca409bdfbcdb58e20267f970744d9b2918d218a
+creator:
+  github: CH4ACKO3
+package:
+  ecosystem: npm
+  name: "@ch4acko3/dsh-table-render"
+  version: 0.1.2
+  integrity: sha512-Uw82Vl+c+eJ3KA85ZSb+CAVklLXpZs/O9XeYSWHR7cHwyVtgXt5iIBIhcc+kPIL1TURp8oAAa6uthovO90M0vw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/table-render/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:16.709Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
