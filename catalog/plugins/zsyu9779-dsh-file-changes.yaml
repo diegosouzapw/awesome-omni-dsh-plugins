@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: zsyu9779-dsh-file-changes
+name: dsh-file-changes
+description:
+  en: Per-turn file-change panel with workspace-bound reveal (self-developed for dsh-desktop)
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - file-changes
+  - diff
+source:
+  repository: https://github.com/zsyu9779/dsh-desktop
+  repositoryNodeId: R_kgDOT3kQCg
+  subpath: plugins/file-changes
+  commit: f27fbd5ebdd8321754c02302e714e779016de75f
+creator:
+  github: zsyu9779
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/file-changes/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:31.926Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zsyu9779/dsh-desktop/f27fbd5ebdd8321754c02302e714e779016de75f/assets/hero.jpg
+    alt: DeepSeek Harness Desktop：官网视觉背景上的原生应用窗口
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zsyu9779/dsh-desktop/f27fbd5ebdd8321754c02302e714e779016de75f/assets/remote-control.png
+    alt: DeepSeek Harness Desktop 局域网手机扫码远程控制
