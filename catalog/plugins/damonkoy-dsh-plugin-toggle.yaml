@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: damonkoy-dsh-plugin-toggle
+name: dsh-plugin-toggle
+description:
+  en: "DSH plugin switchboard: a Settings → Plugins tab that lists every loaded plugin with its package.json description, fuzzy search, and runtime start/stop toggles (does not rewrite config files)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - plugin-manager
+  - settings
+source:
+  repository: https://github.com/DamonKoy/dsh-plugin-toggle
+  repositoryNodeId: R_kgDOT5WaPw
+  subpath: null
+  commit: be4d811aebbc9aa972383dd713ed81b48195b181
+creator:
+  github: DamonKoy
+package:
+  ecosystem: npm
+  name: dsh-plugin-toggle
+  version: 0.1.0
+  integrity: sha512-ZMiMSmtpiVrfWq8u3DG/jYjEO5SD/ErJuTB9fgJ9Vlqpo9YKIwn2hS/gC9RSmzydZoQYwzOTzZytkdGXar+TQA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:16.264Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
