@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: ylwl1997-dsh-browser-bsk
+name: dsh-browser-bsk
+description:
+  en: Browser automation for DeepSeek Harness via bsk — navigate, snapshot, click, fill, and screenshot the user's real browser.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - browser
+  - automation
+  - bsk
+  - dsh
+source:
+  repository: https://github.com/ylwl1997/dsh-browser
+  repositoryNodeId: R_kgDOT4V6KQ
+  subpath: null
+  commit: f612db958e7e10d06e90d13ed13738bef8c2be64
+creator:
+  github: ylwl1997
+package:
+  ecosystem: npm
+  name: dsh-browser-bsk
+  version: 0.1.0
+  integrity: sha512-qmCsnC8dBnhZhvDPgXehiPHUcuLpN7WfeajUGjQgTLyB71u8RtFysEvVFttLtH7GaHSjk5yXKNpg3q3eUKaOAQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:31.880Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
