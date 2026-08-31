@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: htommr-dsh-appserver
+name: dsh-appserver
+description:
+  en: Codex app-server-shaped protocol adapter for DeepSeek Harness
+  evidencePath: dsh-appserver/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - codex
+  - server
+  - shaped
+  - protocol
+  - adapter
+  - dsh
+source:
+  repository: https://github.com/text2future/flowix
+  repositoryNodeId: R_kgDOSm7IOg
+  subpath: dsh-appserver
+  commit: 8876781829f0ce2163b1736fbe41e344a9cf11a1
+creator:
+  github: htommr
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+  evidencePath: dsh-appserver/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:25:04.727Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
