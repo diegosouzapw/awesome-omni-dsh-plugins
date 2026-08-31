@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: astra3294-dsh-doctor
+name: dsh-doctor
+description:
+  en: Deterministic diagnostics and recovery for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh
+  - doctor
+  - diagnostics
+  - recovery
+source:
+  repository: https://github.com/astra3294/dsh-doctor
+  repositoryNodeId: R_kgDOT4orWw
+  subpath: null
+  commit: fa6128115e258782b6eba544b195095c06b1280a
+creator:
+  github: astra3294
+package:
+  ecosystem: npm
+  name: dsh-doctor
+  version: 0.4.3
+  integrity: sha512-awf+wye0mqvWtkT4Cndgu0Xczclc+Z9pr5mZbczYP5MKWWnN8VAemSM0aflrvH9g0cf2+ZV9nzz31RZK5eiToQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:16.277Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
