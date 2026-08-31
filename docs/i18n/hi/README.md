@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">वेबसाइट पर हर प्लगइन ब्राउज़, खोज और इंस्टॉल करें →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3511_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3526_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -119,7 +119,7 @@
 
 ## कैटलॉग स्थिति
 
-**3511 प्लगइन मर्ज किए गए।** हर प्लगइन एक-एक करके, मूल निर्माता की रिपॉज़िटरी से, एक पिन किए गए सोर्स कमिट और स्पष्ट श्रेय
+**3526 प्लगइन मर्ज किए गए।** हर प्लगइन एक-एक करके, मूल निर्माता की रिपॉज़िटरी से, एक पिन किए गए सोर्स कमिट और स्पष्ट श्रेय
 के साथ, एक अलग से समीक्षा किए गए पुल रिक्वेस्ट के माध्यम से आता है।
 
 ## 🚀 CLI इंस्टॉल करें
@@ -325,4 +325,4 @@ provenance:
 
 </div>
 
-<!-- i18n-source-hash: 6a799f93efd4d4e84fb2c7d4a10e6dfb2e4463f3aed201b32cfd1e955c0ed0d5 -->
+<!-- i18n-source-hash: 7bea15e412fffbbf6fffc7172898eea255e108a4787bdacf85b7d8c35911c8e3 -->
