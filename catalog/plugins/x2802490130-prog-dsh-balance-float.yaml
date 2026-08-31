@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-balance-float
+name: dsh-balance-float
+description:
+  en: bash dsh plugin --profile web add dsh-balance-float
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - balance
+  - widget
+  - deepseek-api
+source:
+  repository: https://github.com/x2802490130-prog/dsh-balance-float
+  repositoryNodeId: R_kgDOT4r-WQ
+  subpath: null
+  commit: 14311f51e81b5b1fef335705d4e56c788d091979
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-balance-float
+  version: 1.0.3
+  integrity: sha512-YdaUwFIdyfnztuNOjZm/gnKqS52dqlbcjh0RgoDP1VprUnDdMx4dvwII8ZhuxljV309DVizrOYPU/p2QxPTT4g==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:56.873Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
