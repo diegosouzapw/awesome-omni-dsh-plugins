@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: xjungit-dsh-key-fallback
+name: "@omdp/dsh-key-fallback"
+description:
+  en: "Multi-key API key pool with automatic rotation for DeepSeek Harness (DSH) — sits between the LLM adapter and the credential store. Before each request the plugin picks a key from the per-provider pool and pre-writes it into the provider's credential reference; when a configured trigger error occurs it marks the failed "
+  evidencePath: dsh-key-fallback/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - multi
+  - pool
+  - automatic
+  - rotation
+  - sits
+  - between
+  - adapter
+  - credential
+  - store
+  - before
+  - each
+  - request
+  - picks
+  - provider
+  - writes
+  - reference
+source:
+  repository: https://github.com/XJungit/omdp
+  repositoryNodeId: R_kgDOT4A-Tg
+  subpath: dsh-key-fallback
+  commit: 47b09a75eeb3d40ac48d9c66b35c60c021ee832d
+creator:
+  github: XJungit
+package:
+  ecosystem: npm
+  name: "@omdp/dsh-key-fallback"
+  version: 3.1.1
+  integrity: sha512-E2XVFnpjXYLBGdNZ6pZVGDw/449EmvUHSB5/uA8N543rXq1moWCI/SdMiEtY1r0MFmc6ruDja0wCoSJKhk+1Fg==
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-key-fallback/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:27.441Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
