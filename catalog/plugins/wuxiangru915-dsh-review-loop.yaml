@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: wuxiangru915-dsh-review-loop
+name: "@dsh-plugin/dsh-review-loop"
+description:
+  en: Incremental diff reviewer for DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - incremental
+  - diff
+  - reviewer
+  - dsh
+source:
+  repository: https://github.com/wuxiangru915/dsh-review-loop
+  repositoryNodeId: R_kgDOT3i7nA
+  subpath: null
+  commit: eb4190498ef76daec21dfcf5c24c44f337a61ed3
+creator:
+  github: wuxiangru915
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:05.428Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/wuxiangru915/dsh-review-loop/eb4190498ef76daec21dfcf5c24c44f337a61ed3/assets/review-panel.en.png
+    alt: Review panel (English)
