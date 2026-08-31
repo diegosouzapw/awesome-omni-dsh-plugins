@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: wade20250715-dsh-pubmed
+name: dsh-pubmed
+description:
+  en: sh dsh plugin --profile web add <本仓库地址或 npm 包名
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - profile
+  - dsh
+source:
+  repository: https://github.com/wade20250715/dsh-pubmed
+  repositoryNodeId: R_kgDOT5LqqA
+  subpath: null
+  commit: fa92128836d19e8bacb5aafa58e7160bd706fbe3
+creator:
+  github: wade20250715
+package:
+  ecosystem: npm
+  name: dsh-pubmed
+  version: 0.1.0
+  integrity: sha512-5XW5kZVQxAQ+BHkJM3invQnpCW+HThmId4yomAfQMoV/9QF1FJSjvaEj9Jmc8nvp+RvpTziRVjn/bZ7hkPuPZQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:10.450Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
