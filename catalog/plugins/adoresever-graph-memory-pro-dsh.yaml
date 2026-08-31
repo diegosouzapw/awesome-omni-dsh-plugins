@@ -1,0 +1,62 @@
+schemaVersion: 1
+id: adoresever-graph-memory-pro-dsh
+name: graph-memory-pro-dsh
+description:
+  en: Read-only Graph Memory Pro graph view for DeepSeek Harness Web
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - read
+  - only
+  - graph
+  - memory
+  - view
+  - dsh
+source:
+  repository: https://github.com/adoresever/graph-memory
+  repositoryNodeId: R_kgDORjueyw
+  subpath: dsh-pro
+  commit: 443e6ccb9d1d37169404977199398f4b4935c4fc
+creator:
+  github: adoresever
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: dsh-pro/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:15.207Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/brand/graph-memory-hosts-banner.png
+    alt: DeepSeek Harness + OpenClaw → Graph Memory
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/dsh/vector-status.png
+    alt: Vector status
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/token-comparison.png
+    alt: Seven-turn token comparison
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/history/tsinghua-sharing.jpg
+    alt: Graph Memory technical sharing
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/history/sina-report.jpg
+    alt: Sina Finance event coverage
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/adoresever/graph-memory/443e6ccb9d1d37169404977199398f4b4935c4fc/docs/images/graph-ui.png
+    alt: Existing Graph Memory Pro prototype
