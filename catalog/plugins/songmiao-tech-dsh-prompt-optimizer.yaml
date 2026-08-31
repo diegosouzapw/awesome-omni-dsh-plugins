@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: songmiao-tech-dsh-prompt-optimizer
+name: dsh-prompt-optimizer
+description:
+  en: "Prompt optimizer plugin for DeepSeek Harness: rewrite a composer draft into a clearer, more executable prompt with one click."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - prompt
+  - optimizer
+  - rewrite
+  - composer
+  - draft
+  - clearer
+  - executable
+  - click
+  - dsh
+source:
+  repository: https://github.com/SongMiao-tech/dsh-prompt-optimizer
+  repositoryNodeId: R_kgDOT5HIeQ
+  subpath: null
+  commit: 4e304b82f5fbf508346cd460c349f730f3b4ca6f
+creator:
+  github: SongMiao-tech
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:44:29.511Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
