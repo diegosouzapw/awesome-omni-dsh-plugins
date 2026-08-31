@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: wulusai2333-mimo-vision
+name: mimo-vision
+description:
+  en: "DeepSeek Harness (DSH) native plugin: the describe image tool, a vision bridge (image - mimo-v2.5 - text description) over the ctx.fs / ctx.credentials seams"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - vision
+  - multimodal
+  - image
+  - describe-image
+  - agent
+  - typescript
+source:
+  repository: https://github.com/wulusai2333/mimo-vision
+  repositoryNodeId: R_kgDOT1Y8fw
+  subpath: null
+  commit: 9a6bacab4119158f1dbe4c24e70f14fb8b15fbec
+creator:
+  github: wulusai2333
+package:
+  ecosystem: npm
+  name: mimo-vision
+  version: 0.1.0
+  integrity: sha512-KLZB3misghS5jDhf0ocWXUIUayX3n8icp4IvZ7LjfcUB5l8tJ3AtnSQjhE2NBitAwYoBgwjFt5D0Q3FKvkXCeA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:05.192Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
