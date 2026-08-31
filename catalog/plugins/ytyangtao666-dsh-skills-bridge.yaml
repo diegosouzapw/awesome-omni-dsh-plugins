@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: ytyangtao666-dsh-skills-bridge
+name: dsh-skills-bridge
+description:
+  en: Bring your Claude Code skills into DeepSeek Harness — a drop-in SkillProvider that scans Claude skills directories (SKILL.md), normalizes frontmatter differences, and mounts them as first-class DSH skills.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - claude-code
+  - skills
+  - skill-provider
+source:
+  repository: https://github.com/YTyangtao666/dsh-skills-bridge
+  repositoryNodeId: R_kgDOT-L9Qw
+  subpath: null
+  commit: e9396fb243cf77cb9a0b0cdeb95c523997b71868
+creator:
+  github: YTyangtao666
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:00.816Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/YTyangtao666/dsh-skills-bridge/e9396fb243cf77cb9a0b0cdeb95c523997b71868/assets/hero-verification.png
+    alt: "Verified: Claude Code skill invoked inside DeepSeek Harness via claude-bridge provider"
