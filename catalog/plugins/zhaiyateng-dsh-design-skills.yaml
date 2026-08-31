@@ -1,0 +1,64 @@
+schemaVersion: 1
+id: zhaiyateng-dsh-design-skills
+name: dsh-design-skills
+description:
+  en: Design aesthetics skill pack for DeepSeek Harness (DSH) — keeps your vibe-coded websites away from the "AI look".
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - design-system
+  - design-skills
+  - vibe-coding
+  - web-design
+  - ui
+  - dsh
+source:
+  repository: https://github.com/zhaiyateng/dsh-design-skills
+  repositoryNodeId: R_kgDOT4i62w
+  subpath: null
+  commit: 741272753c257c9b48fb60b015b4ecdb438d86e3
+creator:
+  github: zhaiyateng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:52.655Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 20
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/dark-saas-landing.png
+    alt: dark-saas landing demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/apple-minimal-landing.png
+    alt: apple-minimal landing demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/neo-neumorphism-landing.png
+    alt: neo-neumorphism landing demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/brutalism-landing.png
+    alt: brutalism landing demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/glassmorphism-landing.png
+    alt: glassmorphism landing demo
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zhaiyateng/dsh-design-skills/741272753c257c9b48fb60b015b4ecdb438d86e3/assets/japanese-minimal-landing.png
+    alt: japanese-minimal landing demo
