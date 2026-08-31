@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: ylwl1997-noatmark-dsh-plugin
+name: noatmark-dsh-plugin
+description:
+  en: NoAtMark text hygiene as a DeepSeek Harness (dsh) plugin — sanitize untrusted text, scan invisible characters, clean LLM formatting, and escape CSV formula injection.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - text-hygiene
+  - sanitize
+  - prompt-injection
+  - dsh
+source:
+  repository: https://github.com/ylwl1997/noatmark-dsh-plugin
+  repositoryNodeId: R_kgDOT35xlg
+  subpath: null
+  commit: 0e28246d0208e11b7d6ca0883af4722d5ef58bb4
+creator:
+  github: ylwl1997
+package:
+  ecosystem: npm
+  name: noatmark-dsh-plugin
+  version: 0.1.0
+  integrity: sha512-n3hbkFLva/oo+Fn6zpHvp4AobmQceeSwx2VyshgY2EjZ00+4FU6rJ4gmJOA7m0M+ZQMMuOGhDLO0VxxNLutMrw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:07.832Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
