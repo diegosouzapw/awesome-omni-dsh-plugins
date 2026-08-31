@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-client-ui-writing
+name: dsh-client-ui-writing
+description:
+  en: "Client-side writing panel for the DeepSeek Harness: project volumes, library, search, and evolution tab with inline version-chain diff and SVG thread graph."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - client-plugin
+  - panel
+  - svg-graph
+  - dsh
+source:
+  repository: https://github.com/x2802490130-prog/dsh-client-ui-writing
+  repositoryNodeId: R_kgDOT45r3Q
+  subpath: null
+  commit: a7b759a110ee1cc4056e7726d31ccb0cb5fd577b
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-client-ui-writing
+  version: 0.6.2
+  integrity: sha512-/Z8x3ybBcwsYNqQIxaDJ3PagrZ73EdTI10i9m4yNIY7UqGfVGKs4fbgfeYGmXHS0y7kLDIF0/QLQKFGhe0jxCw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:56.907Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
