@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: yuqingsh-dsh-image-subagent
+name: dsh-image-subagent
+description:
+  en: sh dsh plugin --profile web add ./dsh-image-subagent
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - image
+  - vision
+  - subagent
+  - multimodal
+  - attachment
+source:
+  repository: https://github.com/yuqingsh/dsh-image-subagent
+  repositoryNodeId: R_kgDOT4QTng
+  subpath: null
+  commit: 289fdd85a94484ee938d15a497e5e0161d774702
+creator:
+  github: yuqingsh
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:57.569Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
