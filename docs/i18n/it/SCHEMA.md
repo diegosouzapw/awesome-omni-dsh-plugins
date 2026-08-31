@@ -373,4 +373,4 @@ conteggio delle stelle sia accurato, o che il creatore possieda la sorgente. Que
 appartengono ai gate di revisione dei maintainer descritti in
 [CONTRIBUTING.md](../../CONTRIBUTING.md) e [docs/GOVERNANCE.md](GOVERNANCE.md).
 
-<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
+<!-- i18n-source-hash: dd689b0ee2a7910f069d498c831668b022852a8a20cc64efb3516ce6e289c4dd -->

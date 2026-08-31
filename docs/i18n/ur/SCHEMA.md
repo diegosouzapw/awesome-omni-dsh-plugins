@@ -332,4 +332,4 @@ provenance:
 
 اسکیما جان بوجھ کر مقامی اور ساختی ہے۔ یہ تصدیق **نہیں** کرتی کہ ریپوزٹری موجود ہے، node ID URL سے مطابقت رکھتا ہے، ثبوت کے راستے پن شدہ کمٹ پر موجود ہیں، ستاروں کی تعداد درست ہے، یا تخلیق کار سورس کا مالک ہے۔ وہ چیکس [CONTRIBUTING.md](../../CONTRIBUTING.md) اور [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) میں بیان کردہ مینٹینر جائزہ گیٹس سے تعلق رکھتی ہیں۔
 
-<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
+<!-- i18n-source-hash: dd689b0ee2a7910f069d498c831668b022852a8a20cc64efb3516ce6e289c4dd -->

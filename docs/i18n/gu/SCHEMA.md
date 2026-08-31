@@ -361,4 +361,4 @@ URL સાથે મેચ થાય છે કે નહીં, પિન ક�
 [CONTRIBUTING.md](../../CONTRIBUTING.md) અને [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) માં
 વર્ણવેલા મેન્ટેનર રિવ્યૂ ગેટ્સની જવાબદારી છે.
 
-<!-- i18n-source-hash: 7928f14612f5cf4a63bfedceed6c38d862a829a4f88a0045efd277aec2b62f47 -->
+<!-- i18n-source-hash: dd689b0ee2a7910f069d498c831668b022852a8a20cc64efb3516ce6e289c4dd -->
