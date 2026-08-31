@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: howe829-dsh-model-proxy
+name: "@awiki/dsh-model-proxy"
+description:
+  en: AWiki-authenticated model proxy and Quick Recharge UI for DeepSeek Harness
+  evidencePath: packages/dsh-model-proxy/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - awiki
+  - deepseek-harness
+  - dsh
+  - model-proxy
+source:
+  repository: https://github.com/AgentConnect/dsh-awiki
+  repositoryNodeId: R_kgDOT4nC7Q
+  subpath: packages/dsh-model-proxy
+  commit: a88e6750fc7a51387377a4e1322efefc3c280300
+creator:
+  github: Howe829
+package:
+  ecosystem: npm
+  name: "@awiki/dsh-model-proxy"
+  version: 0.1.4
+  integrity: sha512-fQUwoyUm8w5U90gr1QKfsS1vQ+ReTL4xuXjkaulJj4jRkkho+VyCXY5p6QeVW1lUxLa4oYFjyG78UPcAMNPHmg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-model-proxy/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:15.618Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
