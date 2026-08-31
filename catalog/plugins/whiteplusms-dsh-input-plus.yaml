@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: whiteplusms-dsh-input-plus
+name: dsh-input-plus
+description:
+  en: "DSH 输入框强化 (DSH Input+): @ file/directory reference and native composer status for the DeepSeek Harness Web UI."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - deepseek-harness
+  - web-ui
+  - input-enhancement
+  - file-reference
+  - dsh-plugin
+source:
+  repository: https://github.com/WhitePlusMS/dsh-input-plus
+  repositoryNodeId: R_kgDOT4jVZQ
+  subpath: null
+  commit: cee1c7907e7f5ad1b38971d316d39c07d787967d
+creator:
+  github: WhitePlusMS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:58.461Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WhitePlusMS/dsh-input-plus/cee1c7907e7f5ad1b38971d316d39c07d787967d/docs/image1.png
+    alt: File reference candidate menu
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WhitePlusMS/dsh-input-plus/cee1c7907e7f5ad1b38971d316d39c07d787967d/docs/image2.png
+    alt: Input history menu
