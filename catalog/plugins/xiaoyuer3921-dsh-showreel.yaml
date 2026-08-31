@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: xiaoyuer3921-dsh-showreel
+name: dsh-showreel
+description:
+  en: "English summary: dsh-showreel turns the latest completed DeepSeek Harness turn into an editable, privacy-redacted vertical video. It runs locally, exports a 1080×1920 MP4/WebM plus PNG cover, and never uploads your session."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - showreel
+  - agent
+  - dsh
+source:
+  repository: https://github.com/xiaoyuer3921/dsh-showreel
+  repositoryNodeId: R_kgDOT9NVPg
+  subpath: null
+  commit: 6eda9593c834a5579490e776c0ae076539f023ed
+creator:
+  github: xiaoyuer3921
+package:
+  ecosystem: npm
+  name: dsh-showreel
+  version: 0.1.1
+  integrity: sha512-FymYXA45URsfzL+KSfzZ/UrffWDVqLZmY1fnaC/cCKgpMxVcT0MfC+/WZ2ZmQlswBGeWD7QKsv2kD2TSaJfpjw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:00.750Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xiaoyuer3921/dsh-showreel/6eda9593c834a5579490e776c0ae076539f023ed/assets/demo-cover.png
+    alt: 鲸迹演示封面
