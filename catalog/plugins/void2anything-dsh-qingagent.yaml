@@ -1,0 +1,69 @@
+schemaVersion: 1
+id: void2anything-dsh-qingagent
+name: dsh-qingagent
+description:
+  en: QingAgent inside DeepSeek Harness
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - ai-writing
+  - writing-assistant
+  - qingml
+  - qingagent
+  - docs
+  - markdown
+source:
+  repository: https://github.com/void2anything/dsh-qingagent
+  repositoryNodeId: R_kgDOT6A0ng
+  subpath: null
+  commit: 56245b7709f13e1d285216a70695138f84f51617
+creator:
+  github: void2anything
+package:
+  ecosystem: npm
+  name: dsh-qingagent
+  version: 0.1.47
+  integrity: sha512-dTjAjq4tfRrO3wFY6CaYlR9gBUHFNav19vCmMjPj9oDSSiW5igMWBV+u1rKnWcmD0BoMnGguHulTqefLKxVsTg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:59.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/dsh-demo.gif
+    alt: 在 DSH 里一句话起草，右侧宣纸面板同步成文
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/dsh-diagram.webp
+    alt: DSH 对话与宣纸面板里的 Mermaid 流程图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/dsh-table-math.webp
+    alt: 表格与行内、块级公式
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/dsh-review.webp
+    alt: 审阅态逐条裁决
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/dsh-onboarding.webp
+    alt: 未连接青简时的引导卡
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/void2anything/dsh-qingagent/56245b7709f13e1d285216a70695138f84f51617/docs/assets/wechat-group.png
+    alt: 青简用户交流群
