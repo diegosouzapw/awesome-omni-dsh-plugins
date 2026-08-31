@@ -1,0 +1,60 @@
+schemaVersion: 1
+id: bentong-chain-dsh-dir-tree
+name: dsh-dir-tree
+description:
+  en: "A DeepSeek Harness (DSH) floating workspace directory-tree plugin: drag-and-drop file/folder paths into the chat box, lazy loading, search, file-type icons, and auto-follow when switching workspace/session."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - cordis
+  - directory-tree
+  - file-tree
+  - workspace
+  - drag-drop
+source:
+  repository: https://github.com/bentong-chain/dsh-dir-tree
+  repositoryNodeId: R_kgDOT9qTww
+  subpath: null
+  commit: b49b4b760abd3dd4eb35cafd2e0da08aae9c3a16
+creator:
+  github: bentong-chain
+package:
+  ecosystem: npm
+  name: dsh-dir-tree
+  version: 0.1.0
+  integrity: sha512-nr/kcmF0zKBzlOI2SxsBSDkU9cBVwGW2npS46Xevoov7VuvjosqwFnrK3d8WhG8LQxlriQDOahkiho9BhuSiCA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:01.669Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/bentong-chain/dsh-dir-tree/b49b4b760abd3dd4eb35cafd2e0da08aae9c3a16/docs/screenshot-main.png
+    alt: 主界面
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/bentong-chain/dsh-dir-tree/b49b4b760abd3dd4eb35cafd2e0da08aae9c3a16/docs/drag-drop.gif
+    alt: 拖拽演示
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/bentong-chain/dsh-dir-tree/b49b4b760abd3dd4eb35cafd2e0da08aae9c3a16/docs/lazy-load.gif
+    alt: 懒加载展开
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/bentong-chain/dsh-dir-tree/b49b4b760abd3dd4eb35cafd2e0da08aae9c3a16/docs/minimize.gif
+    alt: 最小化
