@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: sr043-dsh-deepseek-dashboard
+name: dsh-deepseek-dashboard
+description:
+  en: DeepSeek API balance and local token usage dashboard for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - api-balance
+  - billing
+  - token-usage
+  - usage-dashboard
+  - dsh
+source:
+  repository: https://github.com/WSL043/dsh-deepseek-dashboard
+  repositoryNodeId: R_kgDOUCEQHA
+  subpath: null
+  commit: fd07b2bdbf39f7fe03da2bb48f15703a74c14847
+creator:
+  github: SR043
+package:
+  ecosystem: npm
+  name: dsh-deepseek-dashboard
+  version: 0.3.0
+  integrity: sha512-WW3L+eEVRngapIiK1cNYFcgamK88k6oVIvOHZd7A6RE4Ge5CS7Z85CrwKQA1nInUPhqe02DP0ENWzurTQo4XXw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: archived
+  checkedAt: 2026-08-31T15:53:11.907Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-deepseek-dashboard/fd07b2bdbf39f7fe03da2bb48f15703a74c14847/docs/assets/balance-composer-zh.png
+    alt: DeepSeek Harness 输入框中的 DeepSeek API 现金余额胶囊与详情弹层
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WSL043/dsh-deepseek-dashboard/fd07b2bdbf39f7fe03da2bb48f15703a74c14847/docs/assets/balance-usage-zh.png
+    alt: DeepSeek Harness 设置中的 DeepSeek API 现金余额、请求次数与 Token 用量图表
