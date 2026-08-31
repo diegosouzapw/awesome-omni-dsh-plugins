@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-writing-remote
+name: dsh-writing-remote
+description:
+  en: Host-side Typert remote exposing the writing engine's read/search data to the client panel.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - deepseek-harness
+  - typert
+  - remote
+  - dsh
+source:
+  repository: https://github.com/x2802490130-prog/dsh-writing-remote
+  repositoryNodeId: R_kgDOT45ryQ
+  subpath: null
+  commit: d92fc1060a848b8cc6054ce420f7fb84bdc96e8c
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-writing-remote
+  version: 0.6.2
+  integrity: sha512-rN01JmA6mmgQ586tU25WyzNC/rv6zTOTQCO+TN6h1NVGysd9qt24JGK9QogIjL5oG8mZUCkZGQdc9Ob1sUFs3A==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:57.349Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
