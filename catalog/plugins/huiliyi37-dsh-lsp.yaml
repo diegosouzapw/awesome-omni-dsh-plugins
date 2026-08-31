@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: huiliyi37-dsh-lsp
+name: "@huiliyi37/dsh-lsp"
+description:
+  en: "dsh-lsp: LSP model tool surface for the DeepSeek Harness — goto-definition / find-references / diagnostics tools + a shared 'lsp' service consumed by the dsh-tianshu-tui display bridge (single LSP server set, no double spawn)"
+  evidencePath: lsp/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - model
+  - tool
+  - surface
+  - goto
+  - definition
+  - find
+  - references
+  - diagnostics
+  - tools
+  - shared
+  - service
+  - consumed
+  - tianshu
+  - display
+  - bridge
+  - single
+source:
+  repository: https://github.com/huiliyi37/dsh-tianshu-tui
+  repositoryNodeId: R_kgDOT29GJw
+  subpath: lsp
+  commit: da5833e3b5ed5e6c94dfe092e898c53ee41014ee
+creator:
+  github: huiliyi37
+package:
+  ecosystem: npm
+  name: "@huiliyi37/dsh-lsp"
+  version: 0.1.0-rc.1
+  integrity: sha512-N+7wVgpOBNOYCJaH3uI3GyXjdChIdv17BhTUWGzUI5zsKvpOQgoD3VZeA3s3i4n/fV4ASMxi2JvttHRBdqRjyw==
+dsh:
+  profiles:
+    - default
+  evidencePath: lsp/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:28.095Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
