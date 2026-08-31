@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: xiaheng1-dsh-turn-nav
+name: dsh-turn-nav
+description:
+  en: Turn histogram navigation rail for DeepSeek Harness Web with mixed, DeepSeek, and Codex visual variants. Hover/focus reveals a wave or highlight and a message preview; click jumps to that turn. Visual behavior is configurable through DSH settings.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - turn-navigation
+  - histogram
+  - conversation-ui
+  - dsh
+source:
+  repository: https://github.com/xiaheng1/dsh-turn-nav
+  repositoryNodeId: R_kgDOT74dzw
+  subpath: null
+  commit: 74b128343ddb6d33014bdbeb77c9b1d0c0491026
+creator:
+  github: xiaheng1
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:13.226Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
