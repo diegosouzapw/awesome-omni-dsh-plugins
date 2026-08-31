@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: yumm007-dsh-reveal-files
+name: dsh-reveal-files
+description:
+  en: "DeepSeek Harness plugin: adds a folder icon next to the produced-files row that reveals the files in the native file browser (macOS Finder / Linux file manager)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - cordis
+  - finder
+  - reveal
+  - files
+source:
+  repository: https://github.com/yumm007/dsh-reveal-files
+  repositoryNodeId: R_kgDOUBqiGA
+  subpath: null
+  commit: 328917ff210ed2ec7f674dda386f2de39fd59bfb
+creator:
+  github: yumm007
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:14.894Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
