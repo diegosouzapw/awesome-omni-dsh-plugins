@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: hua1q1ng-dsh-prompt-self-client
+name: dsh-prompt-self-client
+description:
+  en: "Personal prompt profile engine for DeepSeek Harness: message-level prompt rewriting and automatic profile learning with a bilingual settings panel and conversation dock."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - dsh
+  - dsh-plugin
+  - prompt
+  - prompt-optimizer
+  - profile
+  - memory
+source:
+  repository: https://github.com/Hua1Q1nG/dsh-prompt-self
+  repositoryNodeId: R_kgDOT5cLog
+  subpath: null
+  commit: aac7d4206a0f17a6cc5cf392408ee617f495fb6f
+creator:
+  github: Hua1Q1nG
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:21.481Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
