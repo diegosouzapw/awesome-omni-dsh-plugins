@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: jieice-dsh-wallpaper-rotator
+name: dsh-wallpaper-rotator
+description:
+  en: powershell dsh plugin --profile web add C:\path\to\dsh-wallpaper-rotator dsh plugin --profile web add github:Jieice/dsh-wallpaper-rotator-enhanced
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - wallpaper
+  - background
+  - rotation
+source:
+  repository: https://github.com/Jieice/dsh-wallpaper-rotator-enhanced
+  repositoryNodeId: R_kgDOT432pg
+  subpath: null
+  commit: 48f5cee32eff7c91f2c6f1b4f1de719bc2f1750e
+creator:
+  github: Jieice
+package:
+  ecosystem: npm
+  name: dsh-wallpaper-rotator
+  version: 1.0.0
+  integrity: sha512-3K2ldP8Q70apsj24C/AkBpoocn+RaX+K7HAXfVE+mOZ+IKBGo5ErMpxEtS7pIjFrn4Erhxz22ih0iHIkdajf0w==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:24:24.505Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Jieice/dsh-wallpaper-rotator-enhanced/48f5cee32eff7c91f2c6f1b4f1de719bc2f1750e/docs/preview-1.png
+    alt: 整页壁纸 + 毛玻璃面板
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Jieice/dsh-wallpaper-rotator-enhanced/48f5cee32eff7c91f2c6f1b4f1de719bc2f1750e/docs/preview-2.png
+    alt: 侧栏与文件树透出背景
