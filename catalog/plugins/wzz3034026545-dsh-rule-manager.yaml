@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: wzz3034026545-dsh-rule-manager
+name: dsh-rule-manager
+description:
+  en: sh dsh plugin --profile web add dsh-rule-manager
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - agents
+  - instructions
+  - rules
+  - rule-splitter
+  - global-rules
+source:
+  repository: https://github.com/wzz3034026545/dsh-rule-manager
+  repositoryNodeId: R_kgDOT6Cg_A
+  subpath: null
+  commit: 1ec0f30b76c90af8360a67a20c033486a73c061b
+creator:
+  github: wzz3034026545
+package:
+  ecosystem: npm
+  name: dsh-rule-manager
+  version: 0.1.0
+  integrity: sha512-Zw7Qw9UiWeOaUJ5LVtJA2cY4paXeyhP6EmFTSUGrxc59yseJ6aAVKzDz2JOxVBWCPTucYJupPpEdoBZ1CjSVfA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:11.890Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
