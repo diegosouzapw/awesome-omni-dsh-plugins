@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: changhang155-dsh-plugin-claude-import
+name: dsh-plugin-claude-import
+description:
+  en: "Import Claude Code sessions into DeepSeek Harness: agent tools (claude session list / claude session import) plus a Web GUI one-click import dock."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - claude-code
+  - cordis
+source:
+  repository: https://github.com/changhang155/dsh-plugin-claude-import
+  repositoryNodeId: R_kgDOT44iLw
+  subpath: null
+  commit: 6d3aaff9e5958ce4d323c6247e457d954f190e4a
+creator:
+  github: changhang155
+package:
+  ecosystem: npm
+  name: dsh-plugin-claude-import
+  version: 0.1.0
+  integrity: sha512-4fSnjbvJ6YdmiyfQQm3ZUSSe03a//v7CtSuBRKfZSC0SZhl6qaXsGVNfQGauuphrV2gT8X3S6uxS33axucvibw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:09.480Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
