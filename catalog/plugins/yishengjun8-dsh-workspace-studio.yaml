@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: yishengjun8-dsh-workspace-studio
+name: "@yishengjun8/dsh-workspace-studio"
+description:
+  en: "DeepSeek Harness single-package plugin: workspace-confined editable file API, CodeMirror 6 editor, and a four-pane workspace-studio Web layout"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - single
+  - package
+  - workspace
+  - confined
+  - editable
+  - file
+  - codemirror
+  - editor
+  - four
+  - pane
+  - studio
+  - layout
+  - dsh
+source:
+  repository: https://github.com/yishengjun8/dsh-workspace-studio
+  repositoryNodeId: R_kgDOT7NhOg
+  subpath: null
+  commit: 06c4a38136fdd6056cf852ba91c2c8deb2299936
+creator:
+  github: yishengjun8
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:07.240Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yishengjun8/dsh-workspace-studio/06c4a38136fdd6056cf852ba91c2c8deb2299936/image/image-1.png
+    alt: 三栏布局总览
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yishengjun8/dsh-workspace-studio/06c4a38136fdd6056cf852ba91c2c8deb2299936/image/image-2.png
+    alt: 文件视图与编辑器
