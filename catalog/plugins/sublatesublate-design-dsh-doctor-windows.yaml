@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: sublatesublate-design-dsh-doctor-windows
+name: dsh-doctor-windows
+description:
+  en: Windows environment diagnostics for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - windows
+  - diagnostics
+  - dsh
+source:
+  repository: https://github.com/sublatesublate-design/dsh-doctor-windows
+  repositoryNodeId: R_kgDOT3790A
+  subpath: null
+  commit: 7ed5bd36299c55059b386d11713d5b9ac758544b
+creator:
+  github: sublatesublate-design
+package:
+  ecosystem: npm
+  name: dsh-doctor-windows
+  version: 0.1.0
+  integrity: sha512-+5j1wy1HCgQfBZc1eOZh55gsyN81OlpoXCZIq3o+3h8mzqO4xhYKtBKJ7fvxVoZUAvbgA5IlRVLEb2SW+OfBYA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:45:15.020Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
