@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: x2802490130-prog-dsh-guard
+name: dsh-guard
+description:
+  en: "yaml - id: dsh-guard config: snapshotRoot: D:\\path\\to\\snapshots profileDir: C:\\path\\to\\profiles\\web sourceDirs: [D:\\path\\to\\plugin-src] restartCommand: D:\\path\\to\\restart.bat 空 = 只回退不重启 graceMs: 120000 autoSaveDelayMs: 150000 keepSnapshots: 5"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - deepseek-harness
+  - snapshot
+  - rollback
+  - guard
+source:
+  repository: https://github.com/x2802490130-prog/dsh-guard
+  repositoryNodeId: R_kgDOT43hTA
+  subpath: null
+  commit: 71396827781c2579ebf48a8d29da484942364032
+creator:
+  github: x2802490130-prog
+package:
+  ecosystem: npm
+  name: dsh-guard
+  version: 1.0.0
+  integrity: sha512-ZEiiD3h/b+WeJOgE7zDCQLxevx2/31/85owPy3aoaooRU0OkpMsaC13/szjwtRighJw76Vw3l+dewJN7kTEHwQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:12.021Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
