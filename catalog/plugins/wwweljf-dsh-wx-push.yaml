@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: wwweljf-dsh-wx-push
+name: dsh-wx-push
+description:
+  en: "Permanent host plugin: auto-send every DSH turn result to WeChat via the wechat-acp iLink bridge (a separately installed WeChat daemon that must be logged in)."
+  evidencePath: plugins/dsh-wx-push/README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - permanent
+  - host
+  - auto
+  - send
+  - every
+  - turn
+  - result
+  - wechat
+  - ilink
+  - bridge
+  - separately
+  - installed
+  - daemon
+  - must
+  - logged
+  - dsh
+source:
+  repository: https://github.com/wwweljf/dsh-plugins
+  repositoryNodeId: R_kgDOUADf_Q
+  subpath: plugins/dsh-wx-push
+  commit: 13bd684e4ef1f76d38ff2fe1da99a4187cf00083
+creator:
+  github: wwweljf
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-wx-push/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:25.752Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
