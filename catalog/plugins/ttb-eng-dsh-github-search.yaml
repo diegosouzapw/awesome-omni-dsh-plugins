@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: ttb-eng-dsh-github-search
+name: dsh-github-search
+description:
+  en: English overview — full 中文说明 below.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - english
+  - overview
+  - full
+  - below
+  - dsh
+source:
+  repository: https://github.com/ttb-eng/dsh-github-search
+  repositoryNodeId: R_kgDOT8_3SQ
+  subpath: null
+  commit: b9c5c14c6fd33f77fab1b1a5c224a9cd53fde400
+creator:
+  github: ttb-eng
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:10.448Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
