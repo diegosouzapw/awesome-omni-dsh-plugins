@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xuhurdern-beep-dsh-live-reload
+name: dsh-live-reload
+description:
+  en: One-click hot reload of the running DSH plugin composition — without restarting the process.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - hot-reload
+  - live-reload
+  - plugin-manager
+  - reload
+source:
+  repository: https://github.com/xuhurdern-beep/dsh-live-reload
+  repositoryNodeId: R_kgDOT4yV5A
+  subpath: null
+  commit: 5b4513183a27752777de9441980bd3f489bedf54
+creator:
+  github: xuhurdern-beep
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:07.265Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
