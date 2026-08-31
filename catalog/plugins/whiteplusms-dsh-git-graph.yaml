@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: whiteplusms-dsh-git-graph
+name: dsh-git-graph
+description:
+  en: Standalone Git Graph conversation view for DeepSeek Harness
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - standalone
+  - graph
+  - conversation
+  - view
+  - dsh
+source:
+  repository: https://github.com/WhitePlusMS/dsh-git-graph
+  repositoryNodeId: R_kgDOT5AtZw
+  subpath: null
+  commit: 79af087915588bd91c699b221d81e624fe8ab453
+creator:
+  github: WhitePlusMS
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:59.726Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WhitePlusMS/dsh-git-graph/79af087915588bd91c699b221d81e624fe8ab453/docs/image1.png
+    alt: Git Graph view in the DeepSeek Harness web interface
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/WhitePlusMS/dsh-git-graph/79af087915588bd91c699b221d81e624fe8ab453/docs/image2.png
+    alt: Uncommitted changes list and per-file diff preview
