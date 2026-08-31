@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: yinhcao-yinchao-ai-music
+name: yinchao-ai-music
+description:
+  en: Generate complete AI songs and BGM with YinChao, including lyrics-to-song, reference-audio creation, and song extension.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh-plugin
+  - deepseek-harness
+  - agent-skills
+  - ai-music
+  - text-to-music
+  - lyrics-to-song
+  - song-extension
+  - yinchao
+  - dsh
+source:
+  repository: https://github.com/yinhcao/yinchao-ai-music-skill
+  repositoryNodeId: R_kgDOT-J7zQ
+  subpath: null
+  commit: 5f37cb9b6e4026114e9fb5531fce42e3128dde20
+creator:
+  github: yinhcao
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:52:53.077Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
