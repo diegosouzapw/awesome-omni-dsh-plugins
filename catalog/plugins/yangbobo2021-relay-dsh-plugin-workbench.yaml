@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: yangbobo2021-relay-dsh-plugin-workbench
+name: relay-dsh-plugin-workbench
+description:
+  en: Extensible workbench shell for DeepSeek Harness with generic side and bottom view registration.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - extensible
+  - workbench
+  - shell
+  - generic
+  - side
+  - bottom
+  - view
+  - registration
+  - dsh
+source:
+  repository: https://github.com/yangbobo2021/relay-dsh-plugin-workbench
+  repositoryNodeId: R_kgDOUCFi1A
+  subpath: null
+  commit: 07fa06d88942b14411cd0048a7f3dcfaa06dba92
+creator:
+  github: yangbobo2021
+package:
+  ecosystem: npm
+  name: relay-dsh-plugin-workbench
+  version: 0.1.0
+  integrity: sha512-1nvsO5kTrVineoe803hlvD28ixuN3E31gSPzl5W0qaH7emSyIPcOgUAXCmAFTS+GqOeWI289KDSDy9+hcm5JnQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:31.459Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yangbobo2021/relay-dsh-plugin-workbench/07fa06d88942b14411cd0048a7f3dcfaa06dba92/docs/images/dsh-workbench-files-panel.png
+    alt: Workbench hosting the Relay Files side panel in DSH Web
