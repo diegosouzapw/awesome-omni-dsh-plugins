@@ -237,6 +237,111 @@ SPDX 표현식 파싱, 그리고 중복 키 거부. 값이 스키마 패턴과 �
 
 보여줄 것이 없으면 필드를 통째로 생략하세요 — `media: []`는 "스크린샷 없음"을 말하는 유효한 방법이 아닙니다. 이 필드는 추가적입니다: 필드가 생기기 전에 게시된 항목은 그대로 유효하며, 이를 무시하는 소비자는 모든 항목을 예전과 똑같이 읽습니다.
 
+## `kind: skill` 항목
+
+스키마 버전 1은 `kind: skill`을 위한 두 번째의 자기 완결적인 항목 계약도 정의하며,
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)로 게시되었습니다(SKL-01
+0단계). 이 계약은 위의 플러그인 스키마를 결코 건드리지 않습니다: `kind: plugin` 항목은
+이전과 정확히 동일하게 검증되며, 플러그인 스키마가 플러그인 항목의 원천인 것과 마찬가지로
+스킬 스키마 파일이 스킬 항목의 신뢰할 수 있는 원천입니다.
+
+스킬은 설치되는 것이 아니라 harness에 의해 **로드**되므로, 플러그인 전용 설치
+디스크립터(`package`, `dsh`)는 스킬 항목에 존재하지 않고 `usage` + `compat`로 대체됩니다.
+또한 스킬은 많은 스킬을 호스팅하는 저장소의 서브디렉터리에 있는 경우가 많으므로, 신원과
+중복 제거는 저장소 하나만이 아니라 `source.repository` + `source.subpath`로 이루어집니다.
+스킬 항목은 `media` 갤러리를 허용하지 않습니다: 스킬은 harness가 로드하는 텍스트이므로
+스크린샷으로 찍을 것이 없습니다(이를 강제하는 것이 `additionalProperties: false`입니다).
+
+다음 필드들은 위의 플러그인 항목에 문서화된 형태와 규칙을 정확히 그대로 유지합니다:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. 유일한 선택적 스킬 필드인
+`triggers`를 제외하고 모든 필드가 필수입니다.
+
+### 스킬 전용 필드
+
+| 필드                 | 유형   | 필수 | 규칙                                                          |
+| -------------------- | ------ | :--: | ------------------------------------------------------------- |
+| `kind`               | const  | 예   | 정확히 `skill`이어야 함                                        |
+| `skillScope`         | enum   | 예   | `repository`(저장소 전체**가** 스킬임) 또는 `subdirectory`(스킬이 `source.subpath`에 있음) |
+| `triggers`           | array  | 아니오 | 스킬이 언제 발동하는지 — 사용자가 로드하기 전에 평가하는 텍스트. 최소 1개의 고유한 문자열, 각각 3–200자; 하나도 없으면 필드를 통째로 생략하세요(`triggers: []`는 유효하지 않음) |
+| `usage.load`         | string | 예   | harness가 스킬을 로드하는 방법, 1–200자; 스킬은 로드되는 것이지 결코 설치되지 않음 |
+| `usage.evidencePath` | string | 예   | `source.commit` 시점의 로드 증거에 대한 안전한 상대 경로(`description.evidencePath`와 동일한 패턴) |
+| `compat.harnessMin`  | string | 예   | 스킬이 검증된 최소 harness 버전; 정확한 `x.y.z` 형태(선택적 prerelease/build), 최대 64자. 시맨틱 계층은 추가로 파싱 가능한 정확한 SemVer를 요구함 |
+
+조건부 규칙(스킬 스키마의 `allOf` 블록에 의해 강제됨):
+
+- `skillScope: subdirectory`는 `source.subpath`가 안전한 상대 경로 문자열이어야 함을
+  **강제합니다** — 서브디렉터리에 호스팅된 스킬은 그 서브디렉터리를 고정해야 합니다.
+- `skillScope: repository`는 `source.subpath: null`을 **강제합니다** — 저장소 전체 스킬은
+  서브패스를 선언해서는 안 됩니다.
+
+`verification`은 플러그인의 형태(`status`, `checkedAt`, `repositoryIdentity`, `smokeTest`)를
+유지하지만, `smokeTest`는 정확히 `null`이어야 합니다: 스킬에는 설치 스모크 테스트가 없으며,
+콘텐츠 검토가 승인 게이트입니다. 스킬 스키마는 `status: verified` → `smokeTest` 조건도,
+`repositoryScope` → `popularity` 조건도 갖지 않습니다; 그 결합들은 플러그인 스키마만의
+규칙입니다.
+
+### 스킬을 위한 시맨틱 계층
+
+스키마 위에서, 카탈로그 검증은 필드가 존재하는 곳에 플러그인과 동일한 필수 시맨틱 파서를
+적용합니다: `license.spdx`는 유효한 SPDX 표현식으로 파싱되어야 하고(`invalid-spdx`),
+`compat.harnessMin`은 정확한 SemVer여야 합니다(`invalid-semver`). `invalid-sri` 케이스는
+없습니다 — 스킬에는 `package.integrity`가 없기 때문입니다.
+
+### 스킬 신원과 중복 제거
+
+스킬의 정규 키는 `skill:<source.repositoryNodeId>:<normalized subpath>`입니다. 서브패스는
+오직 신원 목적을 위해서만 정규화됩니다: 백슬래시는 `/`가 되고, 빈 세그먼트와 `.` 세그먼트는
+버려지며, 빈 결과(또는 `subpath: null`)는 `.` — 저장소 전체 — 가 됩니다. NUL 바이트나 `..`
+세그먼트를 포함하는 서브패스는 거부되며, 결코 "정리"되지 않습니다. 같은 저장소의 두 스킬은
+두 개의 항목이지만, 같은 저장소 + 서브패스가 두 번 나오면 충돌입니다.
+
+### 최소 스킬 예시
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## 스키마가 검사하지 않는 것
 
 스키마는 의도적으로 로컬적이고 구조적입니다. 저장소가 존재하는지, 노드 ID가 URL과 일치하는지,

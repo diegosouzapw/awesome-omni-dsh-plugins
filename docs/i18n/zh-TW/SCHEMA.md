@@ -234,6 +234,105 @@ schema 只保證安全形狀（主機、40 位十六進位參考、長度上限�
 
 沒有可展示的內容時請完全省略此欄位——`media: []` 不是表達「沒有螢幕截圖」的有效方式。此欄位是增量的：在它出現之前發布的條目仍然有效，忽略它的消費者讀取每個條目的方式與以往完全相同。
 
+## `kind: skill` 條目
+
+結構描述版本 1 也為 `kind: skill` 定義了第二份自成一體的條目契約，發布為
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)（SKL-01 第 0 階段）。它完全
+不觸及上面的外掛結構描述：`kind: plugin` 的條目繼續照原樣通過驗證，而技能結構描述檔案對
+技能條目而言是真實來源，正如外掛結構描述之於外掛條目。
+
+技能不是被安裝的，而是由 harness **載入**的，因此僅外掛才有的安裝描述子（`package`、`dsh`）
+在技能條目上不存在，取而代之的是 `usage` + `compat`。技能也經常位於託管多個技能的儲存庫的
+子目錄中，因此身分與去重依據是 `source.repository` + `source.subpath`，而不只是儲存庫本身。
+技能條目不接受 `media` 圖庫：技能是 harness 載入的文字，沒有可截圖的內容
+（正是 `additionalProperties: false` 強制了這一點）。
+
+以下欄位完全保持上面為外掛條目記錄的形狀和規則：
+`schemaVersion`、`id`、`name`、`description`、`unofficial`、`primaryCategory`、`tags`、
+`source`、`creator`、`repositoryScope`、`license`、`provenance`。除 `triggers`（唯一可選的
+技能欄位）外，每個欄位都是必要的。
+
+### 技能特有欄位
+
+| 欄位                 | 型別   | 是否必要 | 規則                                                        |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   是    | 必須恰好等於 `skill`                                        |
+| `skillScope`         | enum   |   是    | `repository`（整個儲存庫**就是**技能）或 `subdirectory`（技能位於 `source.subpath`） |
+| `triggers`           | array  |   否    | 技能何時觸發——使用者在載入它之前評估的文字。至少 1 個唯一字串，每個 3–200 個字元；沒有觸發條件時請完全省略此欄位（`triggers: []` 是無效的） |
+| `usage.load`         | string |   是    | harness 如何載入該技能，1–200 個字元；技能只會被載入，絕不會被安裝 |
+| `usage.evidencePath` | string |   是    | 指向 `source.commit` 處載入證據的安全相對路徑（與 `description.evidencePath` 相同的格式） |
+| `compat.harnessMin`  | string |   是    | 技能經過驗證的最低 harness 版本；恰好的 `x.y.z` 形狀（可選的 prerelease/build），最長 64 個字元。語意層還額外要求一個可解析的、精確的 SemVer |
+
+條件規則（由技能結構描述的 `allOf` 區塊強制執行）：
+
+- `skillScope: subdirectory` **強制** `source.subpath` 為安全相對路徑字串——託管在
+  子目錄中的技能必須釘選該子目錄。
+- `skillScope: repository` **強制** `source.subpath: null`——整儲存庫技能不得宣告子路徑。
+
+`verification` 保持外掛的形狀（`status`、`checkedAt`、`repositoryIdentity`、`smokeTest`），
+但 `smokeTest` 必須恰好等於 `null`：技能沒有安裝煙霧測試，內容審查才是准入關卡。技能結構
+描述不帶 `status: verified` → `smokeTest` 條件，也不帶 `repositoryScope` → `popularity`
+條件；這些耦合僅是外掛結構描述的規則。
+
+### 技能的語意層
+
+在結構描述之上，目錄驗證在欄位存在時套用與外掛相同的強制語意解析器：`license.spdx` 必須
+解析為有效的 SPDX 表達式（`invalid-spdx`），`compat.harnessMin` 必須是精確的 SemVer
+（`invalid-semver`）。不存在 `invalid-sri` 情形——技能沒有 `package.integrity`。
+
+### 技能身分與去重
+
+技能的規範鍵是 `skill:<source.repositoryNodeId>:<normalized subpath>`。子路徑僅出於身分
+目的進行正規化：反斜線變為 `/`，空段和 `.` 段被捨棄，空結果（或 `subpath: null`）變為
+`.`——即整個儲存庫。包含 NUL 位元組或 `..` 段的子路徑會被拒絕，絕不會被「清理」。同一
+儲存庫的兩個技能是兩個條目；相同的儲存庫 + 子路徑出現兩次則是衝突。
+
+### 最小技能範例
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## 結構描述不檢查的事
 
 此結構描述在設計上僅做本機與結構性檢查。它**不會**驗證儲存庫是否存在、節點 ID 是否與網址相

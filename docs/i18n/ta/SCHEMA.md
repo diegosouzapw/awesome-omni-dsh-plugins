@@ -261,6 +261,116 @@ commit-இல் ஆதாரப்படுத்தப்பட்ட மு�
 வெளியிடப்பட்ட பதிவுகள் செல்லுபடியாகவே இருக்கும், இதைப் புறக்கணிக்கும் நுகர்வோர் ஒவ்வொரு பதிவையும்
 முன்பு போலவே படிப்பார்.
 
+## `kind: skill` பதிவுகள்
+
+திட்டவரைவு பதிப்பு 1, `kind: skill`-க்கான இரண்டாவது, தன்னிறைவான பதிவு ஒப்பந்தத்தையும்
+வரையறுக்கிறது; அது [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) ஆக
+வெளியிடப்பட்டுள்ளது (SKL-01 கட்டம் 0). இது மேலே உள்ள செருகுநிரல் திட்டவரைவை ஒருபோதும்
+தொடுவதில்லை: `kind: plugin` கொண்ட பதிவுகள் முன்பு போலவே சரிபார்க்கப்படுகின்றன, மேலும்
+செருகுநிரல் திட்டவரைவு செருகுநிரல் பதிவுகளுக்கு எப்படியோ அப்படியே skill திட்டவரைவுக்
+கோப்பு skill பதிவுகளுக்கு உண்மையின் மூலம்.
+
+ஒரு skill நிறுவப்படுவதில்லை, அது ஹார்னெஸால் **ஏற்றப்படுகிறது**; எனவே செருகுநிரலுக்கு
+மட்டுமே உரிய நிறுவல் விவரிப்பான்கள் (`package`, `dsh`) skill பதிவில் இல்லை, அவற்றுக்குப்
+பதிலாக `usage` + `compat` உள்ளன. ஒரு skill பல skill-களை வைத்திருக்கும் களஞ்சியத்தின் துணை
+அடைவில் அடிக்கடி வாழ்கிறது; எனவே அடையாளமும் நகல்நீக்கமும் களஞ்சியம் மட்டுமன்றி
+`source.repository` + `source.subpath` ஆகும். skill பதிவு `media` காட்சியகத்தை
+அனுமதிப்பதில்லை: skill என்பது ஹார்னெஸ் ஏற்றும் உரை; எனவே திரைப்பிடிக்க எதுவும் இல்லை
+(`additionalProperties: false` தான் இதை அமல்படுத்துகிறது).
+
+இந்தப் புலங்கள் மேலே செருகுநிரல் பதிவுகளுக்கு ஆவணப்படுத்தப்பட்ட வடிவத்தையும் விதிகளையும்
+அப்படியே வைத்திருக்கின்றன: `schemaVersion`, `id`, `name`, `description`, `unofficial`,
+`primaryCategory`, `tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`.
+ஒரே விருப்ப skill புலமான `triggers` தவிர ஒவ்வொரு புலமும் கட்டாயம்.
+
+### skill-க்குரிய புலங்கள்
+
+| புலம்             | வகை    | தேவை | விதிகள்                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   ஆம்    | சரியாக `skill` ஆக இருக்க வேண்டும்                                     |
+| `skillScope`         | enum   |   ஆம்    | `repository` (முழு களஞ்சியமும் skill **ஆகும்**) அல்லது `subdirectory` (skill `source.subpath`-இல் வாழ்கிறது) |
+| `triggers`           | array  |    இல்லை    | skill எப்போது தூண்டப்படுகிறது — ஏற்றுவதற்கு முன் பயனர் மதிப்பிடும் உரை. குறைந்தது 1 தனித்துவமான சரம், ஒவ்வொன்றும் 3–200 எழுத்துகள்; எதுவும் இல்லாதபோது புலத்தை முழுவதுமாக விட்டுவிடுங்கள் (`triggers: []` செல்லாது) |
+| `usage.load`         | string |   ஆம்    | ஹார்னெஸ் skill-ஐ எப்படி ஏற்றுகிறது, 1–200 எழுத்துகள்; skill ஏற்றப்படுகிறது, ஒருபோதும் நிறுவப்படுவதில்லை |
+| `usage.evidencePath` | string |   ஆம்    | `source.commit`-இல் ஏற்றல் ஆதாரத்திற்கான பாதுகாப்பான தொடர்புடைய பாதை (`description.evidencePath` போன்ற அதே முறை) |
+| `compat.harnessMin`  | string |   ஆம்    | skill சரிபார்க்கப்பட்ட குறைந்தபட்ச ஹார்னெஸ் பதிப்பு; சரியான `x.y.z` வடிவம் (விருப்ப prerelease/build), அதிகபட்சம் 64 எழுத்துகள். சொற்பொருள் அடுக்கு கூடுதலாகப் பாகுபடுத்தக்கூடிய, சரியான SemVer-ஐக் கோருகிறது |
+
+நிபந்தனை விதிகள் (skill திட்டவரைவின் `allOf` தொகுதிகளால் அமல்படுத்தப்படுகின்றன):
+
+- `skillScope: subdirectory` `source.subpath` ஒரு பாதுகாப்பான தொடர்புடைய-பாதை சரமாக இருக்க
+  வேண்டும் என **கட்டாயப்படுத்துகிறது** — துணை அடைவில் வாழும் skill அந்தத் துணை அடைவைப்
+  பின்னிணைக்க வேண்டும்.
+- `skillScope: repository` `source.subpath: null`-ஐ **கட்டாயப்படுத்துகிறது** — முழு-களஞ்சிய
+  skill துணைப்பாதையை அறிவிக்கக்கூடாது.
+
+`verification` செருகுநிரல் வடிவத்தையே (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`) வைத்திருக்கிறது, ஆனால் `smokeTest` சரியாக `null` ஆக இருக்க வேண்டும்: skill-க்கு
+நிறுவல் புகை சோதனை இல்லை; உள்ளடக்க மதிப்பாய்வே அனுமதி நுழைவாயில். skill திட்டவரைவில்
+`status: verified` → `smokeTest` நிபந்தனையும் `repositoryScope` → `popularity`
+நிபந்தனைகளும் இல்லை; அந்த இணைப்புகள் செருகுநிரல்-திட்டவரைவு விதிகள் மட்டுமே.
+
+### skill-களுக்கான சொற்பொருள் அடுக்கு
+
+திட்டவரைவின் மீது, புலங்கள் இருக்கும் இடங்களில் பட்டியல் சரிபார்ப்பு செருகுநிரல்களுக்குப்
+பயன்படுத்தும் அதே கட்டாய சொற்பொருள் பாகுபடுத்திகளையே பயன்படுத்துகிறது: `license.spdx`
+செல்லுபடியாகும் SPDX கோவையாகப் பாகுபடுத்தப்பட வேண்டும் (`invalid-spdx`), மேலும்
+`compat.harnessMin` சரியான SemVer ஆக இருக்க வேண்டும் (`invalid-semver`). `invalid-sri`
+நிகழ்வு இல்லை — skill-க்கு `package.integrity` இல்லை.
+
+### skill அடையாளமும் நகல்நீக்கமும்
+
+ஒரு skill-இன் அதிகாரப்பூர்வ விசை `skill:<source.repositoryNodeId>:<normalized subpath>`.
+துணைப்பாதை அடையாள நோக்கங்களுக்காக மட்டுமே இயல்பாக்கப்படுகிறது: பின்சாய்வுகள் `/`
+ஆகின்றன, காலி மற்றும் `.` பிரிவுகள் நீக்கப்படுகின்றன, காலி முடிவு (அல்லது `subpath: null`)
+`.` ஆகிறது — முழு களஞ்சியம். NUL பைட்டுகள் அல்லது `..` பிரிவுகளைக் கொண்ட துணைப்பாதை
+நிராகரிக்கப்படுகிறது, ஒருபோதும் "சுத்தம்" செய்யப்படாது. ஒரே களஞ்சியத்தின் இரண்டு skill-கள்
+இரண்டு பதிவுகள்; ஒரே களஞ்சியம் + துணைப்பாதை இருமுறை என்பது மோதல்.
+
+### குறைந்தபட்ச skill எடுத்துக்காட்டு
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## திட்டவரைவு என்ன சோதிப்பதில்லை
 
 திட்டவரைவு வேண்டுமென்றே உள்ளூர் மற்றும் கட்டமைப்பு சார்ந்தது. களஞ்சியம் உள்ளதா, நோட் ID

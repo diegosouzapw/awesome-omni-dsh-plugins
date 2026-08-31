@@ -255,6 +255,115 @@ Omita o campo por completo quando não houver nada a mostrar — `media: []` nã
 de dizer "sem capturas de ecrã". O campo é aditivo: as entradas publicadas antes de ele existir
 mantêm-se válidas, e um consumidor que o ignora lê todas as entradas exatamente como antes.
 
+## Entradas `kind: skill`
+
+A versão 1 do esquema também define um segundo contrato de entrada, autónomo, para
+`kind: skill`, publicado como
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01, fase 0). Nunca toca
+no esquema de plugins acima: as entradas com `kind: plugin` continuam a validar exatamente
+como antes, e o ficheiro de esquema de skill é a fonte da verdade para entradas de skill da
+mesma forma que o esquema de plugins o é para entradas de plugin.
+
+Uma skill não é instalada, é **carregada** pelo harness, pelo que os descritores de
+instalação exclusivos de plugins (`package`, `dsh`) não existem numa entrada de skill e são
+substituídos por `usage` + `compat`. Uma skill também vive frequentemente num subdiretório
+de um repositório que aloja muitas skills, pelo que a identidade e a desduplicação são
+`source.repository` + `source.subpath`, em vez do repositório sozinho. Uma entrada de skill
+não admite galeria `media`: uma skill é texto que o harness carrega, pelo que não há nada
+para capturar (é `additionalProperties: false` que o impõe).
+
+Estes campos mantêm exatamente a forma e as regras documentadas acima para as entradas de
+plugin: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. Todos os campos são
+obrigatórios exceto `triggers`, o único campo opcional de skill.
+
+### Campos específicos de skill
+
+| Campo                | Tipo   | Obrigatório | Regras                                                      |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   sim    | Tem de ser exatamente `skill`                               |
+| `skillScope`         | enum   |   sim    | `repository` (o repositório inteiro **é** a skill) ou `subdirectory` (a skill vive em `source.subpath`) |
+| `triggers`           | array  |    não    | Quando a skill dispara — o texto que um utilizador avalia antes de a carregar. Pelo menos 1 string única, cada uma com 3–200 carateres; omita o campo por completo quando não houver nenhum (`triggers: []` é inválido) |
+| `usage.load`         | string |   sim    | Como o harness carrega a skill, 1–200 carateres; uma skill é carregada, nunca instalada |
+| `usage.evidencePath` | string |   sim    | Caminho relativo seguro (mesmo padrão que `description.evidencePath`) para a prova de carregamento em `source.commit` |
+| `compat.harnessMin`  | string |   sim    | Versão mínima do harness contra a qual a skill foi verificada; forma exata `x.y.z` (pré-lançamento/build opcional), máx. 64 carateres. A camada semântica exige adicionalmente um SemVer exato e analisável |
+
+Regras condicionais (impostas pelos blocos `allOf` do esquema de skill):
+
+- `skillScope: subdirectory` **obriga** a que `source.subpath` seja uma string de caminho
+  relativo seguro — uma skill alojada num subdiretório tem de fixar esse subdiretório.
+- `skillScope: repository` **obriga** a `source.subpath: null` — uma skill de repositório
+  inteiro não pode declarar um subcaminho.
+
+`verification` mantém a forma dos plugins (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), mas `smokeTest` tem de ser exatamente `null`: uma skill não tem teste de fumo
+de instalação, e a revisão de conteúdo é o controlo de admissão. O esquema de skill não
+transporta a condição `status: verified` → `smokeTest` nem as condições `repositoryScope` →
+`popularity`; esses acoplamentos são regras exclusivas do esquema de plugins.
+
+### Camada semântica para skills
+
+Por cima do esquema, a validação do catálogo aplica os mesmos analisadores semânticos
+obrigatórios que para os plugins onde os campos existem: `license.spdx` tem de ser analisado
+como uma expressão SPDX válida (`invalid-spdx`), e `compat.harnessMin` tem de ser um SemVer
+exato (`invalid-semver`). Não existe o caso `invalid-sri` — uma skill não tem
+`package.integrity`.
+
+### Identidade e desduplicação de skills
+
+A chave canónica de uma skill é `skill:<source.repositoryNodeId>:<normalized subpath>`. O
+subcaminho é normalizado apenas para fins de identidade: as barras invertidas tornam-se `/`,
+os segmentos vazios e `.` são descartados, e um resultado vazio (ou `subpath: null`)
+torna-se `.` — o repositório inteiro. Um subcaminho contendo bytes NUL ou segmentos `..` é
+rejeitado, nunca "limpo". Duas skills do mesmo repositório são duas entradas; o mesmo
+repositório + subcaminho duas vezes é uma colisão.
+
+### Exemplo mínimo de skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## O que o esquema não verifica
 
 O esquema é intencionalmente local e estrutural. **Não** verifica se o repositório existe, se o

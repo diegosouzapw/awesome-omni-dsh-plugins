@@ -247,6 +247,111 @@ Pole úplne vynechajte, keď niet čo ukázať — `media: []` nie je platný sp
 snímky obrazovky“. Pole je aditívne: záznamy zverejnené predtým, než existovalo, zostávajú platné
 a konzument, ktorý ho ignoruje, číta každý záznam presne ako predtým.
 
+## Záznamy `kind: skill`
+
+Verzia 1 schémy definuje aj druhý, samostatný kontrakt záznamu pre `kind: skill`, zverejnený
+ako [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01, fáza 0). Nikdy sa
+nedotýka vyššie uvedenej schémy pluginov: záznamy s `kind: plugin` sa naďalej validujú presne
+ako doteraz a súbor schémy skillov je zdrojom pravdy pre záznamy skillov rovnako, ako je schéma
+pluginov pre záznamy pluginov.
+
+Skill sa neinštaluje, harness ho **načítava**, takže inštalačné deskriptory určené len pre
+pluginy (`package`, `dsh`) na zázname skillu neexistujú a nahrádzajú ich `usage` + `compat`.
+Skill navyše často žije v podadresári repozitára, ktorý hostí mnoho skillov, takže identita a
+deduplikácia je `source.repository` + `source.subpath`, nie samotný repozitár. Záznam skillu
+nepripúšťa galériu `media`: skill je text, ktorý harness načítava, takže nie je čo odfotiť
+(vynucuje to práve `additionalProperties: false`).
+
+Tieto polia si zachovávajú presne tvar a pravidlá zdokumentované pre záznamy pluginov vyššie:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Každé pole je povinné okrem
+`triggers`, jediného voliteľného poľa skillu.
+
+### Polia špecifické pre skill
+
+| Pole                 | Typ    | Povinné | Pravidlá                                                    |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   áno    | Musí byť presne `skill`                                     |
+| `skillScope`         | enum   |   áno    | `repository` (celý repozitár **je** skill) alebo `subdirectory` (skill žije na `source.subpath`) |
+| `triggers`           | array  |    nie    | Kedy sa skill spúšťa — text, ktorý používateľ posudzuje pred jeho načítaním. Aspoň 1 unikátny reťazec, každý 3–200 znakov; pole úplne vynechajte, keď žiadne nie sú (`triggers: []` je neplatné) |
+| `usage.load`         | string |   áno    | Ako harness skill načítava, 1–200 znakov; skill sa načítava, nikdy neinštaluje |
+| `usage.evidencePath` | string |   áno    | Bezpečná relatívna cesta (rovnaký regulárny výraz ako `description.evidencePath`) k dôkazu načítania na `source.commit` |
+| `compat.harnessMin`  | string |   áno    | Minimálna verzia harnessu, voči ktorej bol skill overený; presný tvar `x.y.z` (voliteľný prerelease/build), max. 64 znakov. Sémantická vrstva navyše vyžaduje parsovateľné, presné SemVer |
+
+Podmienené pravidlá (vynucované blokmi `allOf` schémy skillov):
+
+- `skillScope: subdirectory` **vynucuje**, aby `source.subpath` bol reťazec bezpečnej relatívnej
+  cesty — skill hosťovaný v podadresári musí tento podadresár pripnúť.
+- `skillScope: repository` **vynucuje** `source.subpath: null` — skill pokrývajúci celý
+  repozitár nesmie deklarovať podcestu.
+
+`verification` si zachováva tvar z pluginov (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), ale `smokeTest` musí byť presne `null`: skill nemá inštalačný smoke test a bránou
+prijatia je posúdenie obsahu. Schéma skillov nenesie podmienku `status: verified` → `smokeTest`
+ani podmienky `repositoryScope` → `popularity`; tieto väzby sú pravidlami výlučne schémy
+pluginov.
+
+### Sémantická vrstva pre skilly
+
+Nad schémou uplatňuje validácia katalógu rovnaké povinné sémantické parsery ako pri pluginoch
+tam, kde polia existujú: `license.spdx` sa musí dať spracovať ako platný SPDX výraz
+(`invalid-spdx`) a `compat.harnessMin` musí byť presné SemVer (`invalid-semver`). Prípad
+`invalid-sri` neexistuje — skill nemá `package.integrity`.
+
+### Identita a deduplikácia skillov
+
+Kanonickým kľúčom skillu je `skill:<source.repositoryNodeId>:<normalized subpath>`. Podcesta sa
+normalizuje len na účely identity: spätné lomky sa menia na `/`, prázdne segmenty a segmenty
+`.` sa zahadzujú a prázdny výsledok (alebo `subpath: null`) sa stáva `.` — celým repozitárom.
+Podcesta obsahujúca bajty NUL alebo segmenty `..` sa odmieta, nikdy sa „nečistí“. Dva skilly
+toho istého repozitára sú dva záznamy; ten istý repozitár + podcesta dvakrát je kolízia.
+
+### Minimálny príklad skillu
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Čo schéma nekontroluje
 
 Schéma je zámerne lokálna a štrukturálna. **Neoveruje**, že repozitár existuje, že ID uzla sa

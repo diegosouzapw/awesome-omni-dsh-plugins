@@ -257,6 +257,113 @@ yang sah untuk berkata "tiada tangkapan skrin". Medan ini bersifat tambahan: ent
 diterbitkan sebelum ia wujud kekal sah, dan pengguna yang mengabaikannya membaca setiap entri
 tepat seperti dahulu.
 
+## Entri `kind: skill`
+
+Versi skema 1 juga mentakrifkan kontrak entri kedua yang berdiri sendiri untuk `kind: skill`,
+diterbitkan sebagai [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01
+fasa 0). Ia tidak sesekali menyentuh skema pemalam di atas: entri dengan `kind: plugin` terus
+disahkan tepat seperti sebelumnya, dan fail skema skill adalah sumber kebenaran untuk entri
+skill sama seperti skema pemalam bagi entri pemalam.
+
+Sesuatu skill tidak dipasang, ia **dimuatkan** oleh harness, jadi deskriptor pemasangan
+khusus-pemalam (`package`, `dsh`) tidak wujud pada entri skill dan digantikan oleh `usage` +
+`compat`. Skill juga kerap tinggal dalam subdirektori repositori yang menempatkan banyak
+skill, jadi identiti dan penyahduaan ialah `source.repository` + `source.subpath`, bukannya
+repositori sahaja. Entri skill tidak menerima galeri `media`: skill ialah teks yang dimuatkan
+oleh harness, jadi tiada apa-apa untuk ditangkap skrin (`additionalProperties: false` yang
+menguatkuasakannya).
+
+Medan-medan ini mengekalkan tepat bentuk dan peraturan yang didokumenkan untuk entri pemalam
+di atas: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. Setiap medan adalah
+wajib kecuali `triggers`, satu-satunya medan skill pilihan.
+
+### Medan khusus skill
+
+| Medan                | Jenis  | Diperlukan | Peraturan                                                   |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | konstan  |   ya    | Mesti tepat `skill`                                     |
+| `skillScope`         | enum   |   ya    | `repository` (keseluruhan repositori **ialah** skill itu) atau `subdirectory` (skill tinggal di `source.subpath`) |
+| `triggers`           | tatasusunan  |    tidak    | Bila skill itu terpicu — teks yang dinilai pengguna sebelum memuatkannya. Sekurang-kurangnya 1 rentetan unik, setiap satu 3–200 aksara; tinggalkan medan ini sepenuhnya apabila tiada (`triggers: []` tidak sah) |
+| `usage.load`         | rentetan |   ya    | Cara harness memuatkan skill itu, 1–200 aksara; skill dimuatkan, tidak sesekali dipasang |
+| `usage.evidencePath` | rentetan |   ya    | Laluan relatif selamat (corak yang sama seperti `description.evidencePath`) kepada bukti muatan pada `source.commit` |
+| `compat.harnessMin`  | rentetan |   ya    | Versi harness minimum yang terhadapnya skill itu disahkan; bentuk `x.y.z` tepat (prarilis/binaan pilihan), maksimum 64 aksara. Lapisan semantik juga memerlukan SemVer yang boleh dihurai dan tepat |
+
+Peraturan bersyarat (dikuatkuasakan oleh blok `allOf` skema skill):
+
+- `skillScope: subdirectory` **memaksa** `source.subpath` menjadi rentetan laluan relatif
+  selamat — skill yang ditempatkan dalam subdirektori mesti memasak subdirektori itu.
+- `skillScope: repository` **memaksa** `source.subpath: null` — skill seluruh repositori
+  tidak boleh mengisytiharkan subpath.
+
+`verification` mengekalkan bentuk pemalam (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), tetapi `smokeTest` mesti tepat `null`: skill tiada ujian asap pemasangan, dan
+semakan kandungan ialah pintu kemasukannya. Skema skill tidak membawa syarat
+`status: verified` → `smokeTest` dan tiada syarat `repositoryScope` → `popularity`; gandingan
+tersebut adalah peraturan skema pemalam sahaja.
+
+### Lapisan semantik untuk skill
+
+Di atas skema itu, pengesahan katalog menggunakan penghurai semantik mandatori yang sama
+seperti untuk pemalam di mana medan itu wujud: `license.spdx` mesti dihurai sebagai ungkapan
+SPDX yang sah (`invalid-spdx`), dan `compat.harnessMin` mesti SemVer tepat
+(`invalid-semver`). Tiada kes `invalid-sri` — skill tiada `package.integrity`.
+
+### Identiti dan penyahduaan skill
+
+Kunci kanonik sesuatu skill ialah `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Subpath dinormalkan untuk tujuan identiti sahaja: garis miring terbalik menjadi `/`, segmen
+kosong dan `.` digugurkan, dan hasil kosong (atau `subpath: null`) menjadi `.` — keseluruhan
+repositori. Subpath yang mengandungi bait NUL atau segmen `..` ditolak, tidak sesekali
+"dibersihkan". Dua skill daripada repositori yang sama ialah dua entri; repositori + subpath
+yang sama dua kali ialah perlanggaran.
+
+### Contoh skill minimum
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Apa yang tidak disemak oleh skema
 
 Skema itu sengaja tempatan dan struktur. Ia **tidak** mengesahkan bahawa repositori itu

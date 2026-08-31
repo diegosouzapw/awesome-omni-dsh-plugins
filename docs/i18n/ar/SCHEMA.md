@@ -221,6 +221,86 @@
 لقطات شاشة". الحقل إضافي: تظل الإدخالات المنشورة قبل وجوده صالحة، ويقرأ المستهلك الذي يتجاهله كل
 إدخال تمامًا كما كان.
 
+## إدخالات `kind: skill`
+
+يُعرِّف الإصدار 1 من المخطط أيضًا عقد إدخال ثانيًا قائمًا بذاته لـ `kind: skill`، منشورًا باسم [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (المرحلة 0 من SKL-01). وهو لا يمسّ أبدًا مخطط الإضافات أعلاه: تستمر الإدخالات ذات `kind: plugin` في التحقق تمامًا كما كانت من قبل، وملف مخطط المهارة (skill) هو مصدر الحقيقة لإدخالات المهارات بنفس الطريقة التي يكون بها مخطط الإضافات مصدر الحقيقة لإدخالات الإضافات.
+
+المهارة لا تُثبَّت، بل **تُحمَّل** بواسطة بيئة التشغيل (harness)، لذا فإن واصفات التثبيت الخاصة بالإضافات فقط (`package` و`dsh`) لا وجود لها في إدخال المهارة وتُستبدل بـ `usage` + `compat`. كما تعيش المهارة كثيرًا في مجلد فرعي من مستودع يستضيف مهارات عديدة، لذا فإن الهوية وإزالة التكرار (dedupe) هما `source.repository` + `source.subpath` وليس المستودع وحده. ولا يقبل إدخال المهارة معرض `media`: فالمهارة نص تُحمِّله بيئة التشغيل، فليس هناك ما يُلتقط له لقطة شاشة (`additionalProperties: false` هو ما يفرض ذلك).
+
+تحتفظ هذه الحقول تمامًا بالشكل والقواعد الموثَّقة لإدخالات الإضافات أعلاه: `schemaVersion`، و`id`، و`name`، و`description`، و`unofficial`، و`primaryCategory`، و`tags`، و`source`، و`creator`، و`repositoryScope`، و`license`، و`provenance`. كل حقل مطلوب باستثناء `triggers`، حقل المهارة الاختياري الوحيد.
+
+### الحقول الخاصة بالمهارة
+
+| الحقل                | النوع   | مطلوب | القواعد                                                       |
+| -------------------- | ------ | :------: | ------------------------------------------------------------- |
+| `kind`               | const  |   نعم    | يجب أن يكون `skill` بالضبط                                      |
+| `skillScope`         | enum   |   نعم    | `repository` (المستودع كله **هو** المهارة) أو `subdirectory` (المهارة تعيش في `source.subpath`) |
+| `triggers`           | array  |    لا    | متى تنطلق المهارة — النص الذي يُقيِّمه المستخدم قبل تحميلها. سلسلة نصية فريدة واحدة على الأقل، كل واحدة من 3 إلى 200 حرف؛ احذف الحقل بالكامل عندما لا يوجد أي منها (`triggers: []` غير صالح) |
+| `usage.load`         | string |   نعم    | كيف تُحمِّل بيئة التشغيل المهارة، من 1 إلى 200 حرف؛ المهارة تُحمَّل ولا تُثبَّت أبدًا |
+| `usage.evidencePath` | string |   نعم    | مسار نسبي آمن (نفس نمط `description.evidencePath`) إلى دليل التحميل عند `source.commit` |
+| `compat.harnessMin`  | string |   نعم    | الحد الأدنى لإصدار بيئة التشغيل الذي تم التحقق من المهارة مقابله؛ صيغة `x.y.z` دقيقة (prerelease/build اختياريان)، بحد أقصى 64 حرفًا. تشترط الطبقة الدلالية إضافيًا SemVer دقيقًا وقابلًا للتحليل |
+
+القواعد المشروطة (مفروضة بواسطة كتل `allOf` في مخطط المهارة):
+
+- يفرض `skillScope: subdirectory` أن يكون `source.subpath` سلسلة مسار نسبي آمن — المهارة المستضافة في مجلد فرعي يجب أن تُثبِّت ذلك المجلد الفرعي.
+- يفرض `skillScope: repository` القيمة `source.subpath: null` — مهارة المستودع الكامل يجب ألا تُعلن مسارًا فرعيًا.
+
+يحتفظ `verification` بشكل الإضافات (`status`، و`checkedAt`، و`repositoryIdentity`، و`smokeTest`)، لكن `smokeTest` يجب أن يكون `null` بالضبط: فالمهارة لا تملك اختبار تشغيل سريع للتثبيت، ومراجعة المحتوى هي بوابة القبول. لا يحمل مخطط المهارة شرط `status: verified` → `smokeTest` ولا شروط `repositoryScope` → `popularity`؛ فهذه الارتباطات قواعد خاصة بمخطط الإضافات فقط.
+
+### الطبقة الدلالية للمهارات
+
+فوق المخطط، يُطبِّق التحقق من الكتالوج نفس المُحلِّلات الدلالية الإلزامية المُطبَّقة على الإضافات حيثما وُجدت الحقول: يجب أن يُحلَّل `license.spdx` كتعبير SPDX صالح (`invalid-spdx`)، ويجب أن يكون `compat.harnessMin` بصيغة SemVer دقيقة (`invalid-semver`). ولا توجد حالة `invalid-sri` — فالمهارة لا تملك `package.integrity`.
+
+### هوية المهارة وإزالة التكرار
+
+المفتاح القانوني للمهارة هو `skill:<source.repositoryNodeId>:<normalized subpath>`. يُطبَّع المسار الفرعي لأغراض الهوية فقط: تتحول الشرطات المائلة العكسية إلى `/`، وتُحذف المقاطع الفارغة ومقاطع `.`، والنتيجة الفارغة (أو `subpath: null`) تصبح `.` — أي المستودع كله. أما المسار الفرعي الذي يحتوي على بايتات NUL أو مقاطع `..` فيُرفض ولا "يُنظَّف" أبدًا. مهارتان من نفس المستودع هما إدخالان؛ ونفس المستودع + المسار الفرعي مرتين هو تصادم.
+
+### مثال مهارة بالحد الأدنى
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## ما لا يفحصه المخطط
 
 المخطط محلي وبنيوي عمدًا. وهو لا يتحقق من وجود المستودع، أو تطابق معرّف العقدة مع عنوان URL، أو وجود مسارات الأدلة عند الالتزام المثبَّت، أو دقة عدد النجوم، أو ملكية المنشئ للمصدر. تنتمي تلك الفحوصات إلى بوابات مراجعة المشرفين الموصوفة في [CONTRIBUTING.md](../../CONTRIBUTING.md) و[docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).

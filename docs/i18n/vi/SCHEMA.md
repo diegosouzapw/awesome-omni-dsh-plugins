@@ -245,6 +245,113 @@ Hãy bỏ hẳn trường này khi không có gì để hiển thị — `media:
 "không có ảnh chụp màn hình". Trường này mang tính bổ sung: các mục được công bố trước khi nó tồn
 tại vẫn hợp lệ, và một bên tiêu thụ bỏ qua nó vẫn đọc mọi mục y như trước.
 
+## Mục nhập `kind: skill`
+
+Schema phiên bản 1 cũng định nghĩa một hợp đồng mục nhập thứ hai, khép kín, dành cho
+`kind: skill`, được công bố dưới dạng
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01 giai đoạn 0). Nó không
+bao giờ chạm vào schema plugin ở trên: các mục nhập với `kind: plugin` tiếp tục được xác thực
+y như trước, và file schema skill là nguồn chân lý cho các mục nhập skill giống như cách
+schema plugin là nguồn chân lý cho các mục nhập plugin.
+
+Một skill không được cài đặt, nó được harness **tải**, nên các bộ mô tả cài đặt chỉ dành cho
+plugin (`package`, `dsh`) không tồn tại trên mục nhập skill và được thay bằng `usage` +
+`compat`. Một skill cũng thường sống trong thư mục con của một repository chứa nhiều skill,
+nên danh tính và khử trùng lặp là `source.repository` + `source.subpath` thay vì chỉ riêng
+repository. Mục nhập skill không chấp nhận thư viện `media`: skill là văn bản mà harness tải,
+nên không có gì để chụp màn hình (`additionalProperties: false` chính là thứ bắt buộc điều đó).
+
+Các trường sau giữ nguyên chính xác hình dạng và quy tắc đã được ghi cho mục nhập plugin ở
+trên: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Mọi trường đều bắt buộc,
+ngoại trừ `triggers`, trường skill duy nhất mang tính tùy chọn.
+
+### Các trường riêng của skill
+
+| Trường               | Kiểu   | Bắt buộc | Quy tắc                                                     |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | hằng số  |   có    | Phải chính xác bằng `skill`                                 |
+| `skillScope`         | enum   |   có    | `repository` (toàn bộ repository **chính là** skill) hoặc `subdirectory` (skill nằm tại `source.subpath`) |
+| `triggers`           | mảng  |   không    | Khi nào skill kích hoạt — văn bản mà người dùng đánh giá trước khi tải nó. Ít nhất 1 chuỗi duy nhất, mỗi chuỗi 3–200 ký tự; hãy bỏ hẳn trường này khi không có gì (`triggers: []` là không hợp lệ) |
+| `usage.load`         | chuỗi |   có    | Cách harness tải skill, 1–200 ký tự; một skill được tải, không bao giờ được cài đặt |
+| `usage.evidencePath` | chuỗi |   có    | Đường dẫn tương đối an toàn (cùng mẫu như `description.evidencePath`) tới bằng chứng tải tại `source.commit` |
+| `compat.harnessMin`  | chuỗi |   có    | Phiên bản harness tối thiểu mà skill đã được kiểm chứng; hình dạng `x.y.z` chính xác (prerelease/build tùy chọn), tối đa 64 ký tự. Tầng ngữ nghĩa còn yêu cầu thêm một SemVer chính xác, phân tích được |
+
+Các quy tắc có điều kiện (được các khối `allOf` của schema skill bắt buộc):
+
+- `skillScope: subdirectory` **buộc** `source.subpath` phải là một chuỗi đường dẫn tương đối
+  an toàn — skill được lưu trong thư mục con phải ghim thư mục con đó.
+- `skillScope: repository` **buộc** `source.subpath: null` — skill toàn-repository không được
+  khai báo subpath.
+
+`verification` giữ nguyên hình dạng của plugin (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), nhưng `smokeTest` phải chính xác bằng `null`: skill không có smoke test cài
+đặt, và việc xét duyệt nội dung chính là cổng tiếp nhận. Schema skill không mang điều kiện
+`status: verified` → `smokeTest` và không mang các điều kiện `repositoryScope` →
+`popularity`; những ràng buộc đó chỉ là quy tắc của schema plugin.
+
+### Tầng ngữ nghĩa cho skill
+
+Bên trên schema, việc xác thực catalog áp dụng cùng các bộ phân tích ngữ nghĩa bắt buộc như
+với plugin ở những trường tồn tại: `license.spdx` phải phân tích được thành một biểu thức
+SPDX hợp lệ (`invalid-spdx`), và `compat.harnessMin` phải là một SemVer chính xác
+(`invalid-semver`). Không có trường hợp `invalid-sri` — skill không có `package.integrity`.
+
+### Danh tính skill và khử trùng lặp
+
+Khóa chính tắc của một skill là `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Subpath chỉ được chuẩn hóa cho mục đích danh tính: dấu gạch chéo ngược trở thành `/`, các
+phân đoạn rỗng và `.` bị loại bỏ, và kết quả rỗng (hoặc `subpath: null`) trở thành `.` —
+toàn bộ repository. Subpath chứa byte NUL hoặc phân đoạn `..` sẽ bị từ chối, không bao giờ
+được "làm sạch". Hai skill của cùng một repository là hai mục nhập; cùng repository +
+subpath xuất hiện hai lần là một va chạm.
+
+### Ví dụ skill tối thiểu
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Những gì schema không kiểm tra
 
 Schema được thiết kế cố ý mang tính cục bộ và cấu trúc. Nó **không** xác minh repository có tồn tại hay không, ID

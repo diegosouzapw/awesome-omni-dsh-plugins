@@ -249,6 +249,112 @@ Gösterilecek bir şey yoksa alanı tamamen atlayın — `media: []`, "ekran gö
 geçerli bir yolu değildir. Alan eklemelidir: o var olmadan önce yayımlanmış girdiler geçerli
 kalır ve alanı yok sayan bir tüketici her girdiyi tam olarak eskisi gibi okur.
 
+## `kind: skill` girdileri
+
+Şema sürüm 1, `kind: skill` için ikinci, kendi başına yeterli bir girdi sözleşmesi de tanımlar;
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) olarak yayımlanmıştır (SKL-01
+faz 0). Yukarıdaki eklenti şemasına asla dokunmaz: `kind: plugin` girdileri tam olarak eskisi
+gibi doğrulanmaya devam eder ve skill şema dosyası, eklenti şemasının eklenti girdileri için
+olduğu gibi, skill girdileri için doğruluk kaynağıdır.
+
+Bir skill kurulmaz, harness tarafından **yüklenir**; bu yüzden yalnızca eklentiye özgü kurulum
+tanımlayıcıları (`package`, `dsh`) bir skill girdisinde yoktur ve yerlerini `usage` + `compat`
+alır. Bir skill ayrıca sıkça, çok sayıda skill barındıran bir deponun alt dizininde yaşar; bu
+yüzden kimlik ve yinelenme ayıklama, tek başına depo yerine `source.repository` +
+`source.subpath` ikilisidir. Bir skill girdisi `media` galerisi kabul etmez: skill, harness'ın
+yüklediği metindir, dolayısıyla ekran görüntüsü alınacak bir şey yoktur (bunu zorunlu kılan
+`additionalProperties: false`'tur).
+
+Şu alanlar, yukarıda eklenti girdileri için belgelenen şekil ve kuralları tam olarak korur:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Tek isteğe bağlı skill alanı
+olan `triggers` dışında her alan zorunludur.
+
+### Skill'e özgü alanlar
+
+| Alan                 | Tür    | Zorunlu | Kurallar                                                    |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   evet    | Tam olarak `skill` olmalıdır                                |
+| `skillScope`         | enum   |   evet    | `repository` (tüm depo skill'in **kendisidir**) veya `subdirectory` (skill `source.subpath` konumunda yaşar) |
+| `triggers`           | array  |   hayır    | Skill'in ne zaman tetiklendiği — kullanıcının onu yüklemeden önce değerlendirdiği metin. En az 1 benzersiz dize, her biri 3–200 karakter; hiç yoksa alanı tamamen atlayın (`triggers: []` geçersizdir) |
+| `usage.load`         | string |   evet    | Harness'ın skill'i nasıl yüklediği, 1–200 karakter; bir skill yüklenir, asla kurulmaz |
+| `usage.evidencePath` | string |   evet    | `source.commit`teki yükleme kanıtına giden güvenli göreli yol (`description.evidencePath` ile aynı desen) |
+| `compat.harnessMin`  | string |   evet    | Skill'in doğrulandığı en düşük harness sürümü; tam `x.y.z` şekli (isteğe bağlı prerelease/build), en fazla 64 karakter. Anlamsal katman ayrıca ayrıştırılabilir, tam bir SemVer gerektirir |
+
+Koşullu kurallar (skill şemasının `allOf` blokları tarafından zorunlu kılınır):
+
+- `skillScope: subdirectory`, `source.subpath`in güvenli bir göreli yol dizesi olmasını
+  **zorlar** — bir alt dizinde barındırılan skill o alt dizini sabitlemek zorundadır.
+- `skillScope: repository`, `source.subpath: null` olmasını **zorlar** — tüm depoyu kapsayan
+  bir skill alt yol bildirmemelidir.
+
+`verification`, eklenti şeklini korur (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), ancak `smokeTest` tam olarak `null` olmalıdır: bir skill'in kurulum smoke
+test'i yoktur ve kabul kapısı içerik incelemesidir. Skill şeması, `status: verified` →
+`smokeTest` koşulunu ve `repositoryScope` → `popularity` koşullarını taşımaz; bu bağlantılar
+yalnızca eklenti şeması kurallarıdır.
+
+### Skill'ler için anlamsal katman
+
+Şemanın üzerine, katalog doğrulaması, alanların var olduğu yerlerde eklentilerle aynı zorunlu
+anlamsal ayrıştırıcıları uygular: `license.spdx` geçerli bir SPDX ifadesi olarak
+ayrıştırılmalıdır (`invalid-spdx`) ve `compat.harnessMin` tam bir SemVer olmalıdır
+(`invalid-semver`). `invalid-sri` durumu yoktur — bir skill'in `package.integrity`si yoktur.
+
+### Skill kimliği ve yinelenme ayıklama
+
+Bir skill'in kanonik anahtarı `skill:<source.repositoryNodeId>:<normalized subpath>`tır. Alt
+yol yalnızca kimlik amaçlı normalize edilir: ters eğik çizgiler `/` olur, boş ve `.`
+parçaları atılır ve boş bir sonuç (veya `subpath: null`) `.` olur — yani tüm depo. NUL bayt
+veya `..` parçaları içeren bir alt yol reddedilir, asla "temizlenmez". Aynı deponun iki
+skill'i iki girdidir; aynı depo + alt yolun iki kez geçmesi ise bir çakışmadır.
+
+### Asgari skill örneği
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Şemanın denetlemediği
 
 Şema kasıtlı olarak yerel ve yapısaldır. Deponun var olduğunu, düğüm kimliğinin URL ile

@@ -249,6 +249,114 @@ Udelad feltet helt, når der ikke er noget at vise — `media: []` er ikke en gy
 "ingen skærmbilleder" på. Feltet er additivt: poster, der blev udgivet, før det fandtes, er
 fortsat gyldige, og en forbruger, der ignorerer det, læser hver post præcis som før.
 
+## `kind: skill`-poster
+
+Schema-version 1 definerer også en anden, selvstændig postkontrakt for `kind: skill`,
+udgivet som [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01 fase 0). Den
+rører aldrig plugin-schemaet ovenfor: poster med `kind: plugin` bliver ved med at validere
+præcis som før, og skill-schema-filen er kilde til sandhed for skill-poster på samme måde, som
+plugin-schemaet er det for plugin-poster.
+
+En skill installeres ikke, den **indlæses** af harnesset, så de plugin-specifikke
+installationsdeskriptorer (`package`, `dsh`) findes ikke på en skill-post og erstattes af
+`usage` + `compat`. En skill bor desuden ofte i en undermappe af et repository, der huser mange
+skills, så identitet og deduplikering er `source.repository` + `source.subpath` frem for
+repositoryet alene. En skill-post tillader intet `media`-galleri: en skill er tekst, som
+harnesset indlæser, så der er intet at tage skærmbillede af (det er
+`additionalProperties: false`, der håndhæver det).
+
+Disse felter beholder præcis den form og de regler, der er dokumenteret for plugin-poster
+ovenfor: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Hvert felt er påkrævet undtagen
+`triggers`, det eneste valgfrie skill-felt.
+
+### Skill-specifikke felter
+
+| Felt                 | Type   | Påkrævet | Regler                                                      |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |    ja    | Skal være præcis `skill`                                    |
+| `skillScope`         | enum   |    ja    | `repository` (hele repositoryet **er** skillen) eller `subdirectory` (skillen bor på `source.subpath`) |
+| `triggers`           | array  |   nej    | Hvornår skillen udløses — den tekst, en bruger vurderer, før den indlæses. Mindst 1 unik streng, hver på 3–200 tegn; udelad feltet helt, når der ingen er (`triggers: []` er ugyldigt) |
+| `usage.load`         | string |    ja    | Hvordan harnesset indlæser skillen, 1–200 tegn; en skill indlæses, installeres aldrig |
+| `usage.evidencePath` | string |    ja    | Sikker relativ sti (samme mønster som `description.evidencePath`) til indlæsningsbeviset ved `source.commit` |
+| `compat.harnessMin`  | string |    ja    | Minimum harness-version, som skillen blev verificeret imod; præcis `x.y.z`-form (valgfri prerelease/build), maks. 64 tegn. Det semantiske lag kræver desuden en fortolkbar, præcis SemVer |
+
+Betingede regler (håndhævet af skill-schemaets `allOf`-blokke):
+
+- `skillScope: subdirectory` **tvinger** `source.subpath` til at være en streng med en sikker
+  relativ sti — en skill, der bor i en undermappe, skal fastlåse den undermappe.
+- `skillScope: repository` **tvinger** `source.subpath: null` — en skill, der udgør hele
+  repositoryet, må ikke erklære en understi.
+
+`verification` beholder plugin-formen (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), men `smokeTest` skal være præcis `null`: en skill har ingen
+installations-smoke-test, og indholdsgennemgang er adgangsgaten. Skill-schemaet bærer ingen
+`status: verified` → `smokeTest`-betingelse og ingen `repositoryScope` →
+`popularity`-betingelser; disse koblinger er udelukkende plugin-schema-regler.
+
+### Semantisk lag for skills
+
+Oven på schemaet anvender katalogvalideringen de samme obligatoriske semantiske fortolkere som
+for plugins, hvor felterne findes: `license.spdx` skal kunne fortolkes som et gyldigt
+SPDX-udtryk (`invalid-spdx`), og `compat.harnessMin` skal være en præcis SemVer
+(`invalid-semver`). Der findes intet `invalid-sri`-tilfælde — en skill har ingen
+`package.integrity`.
+
+### Skill-identitet og deduplikering
+
+Den kanoniske nøgle for en skill er `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Understien normaliseres kun til identitetsformål: backslashes bliver til `/`, tomme og
+`.`-segmenter droppes, og et tomt resultat (eller `subpath: null`) bliver til `.` — hele
+repositoryet. En understi, der indeholder NUL-bytes eller `..`-segmenter, afvises, aldrig
+"renset". To skills fra samme repository er to poster; samme repository + understi to gange er
+en kollision.
+
+### Minimalt skill-eksempel
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Hvad schemaet ikke kontrollerer
 
 Schemaet er med vilje lokalt og strukturelt. Det verificerer **ikke**, at repositoryet findes, at

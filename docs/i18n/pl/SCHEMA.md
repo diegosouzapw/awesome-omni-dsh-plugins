@@ -223,6 +223,114 @@ Pomiń pole w całości, gdy nie ma czego pokazywać — `media: []` nie jest po
 powiedzenia „brak zrzutów ekranu”. Pole jest addytywne: wpisy opublikowane przed jego istnieniem
 pozostają poprawne, a konsument, który je ignoruje, czyta każdy wpis dokładnie jak wcześniej.
 
+## Wpisy `kind: skill`
+
+Wersja 1 schematu definiuje również drugi, samodzielny kontrakt wpisu dla `kind: skill`,
+opublikowany jako [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01,
+faza 0). Nigdy nie dotyka on powyższego schematu wtyczek: wpisy z `kind: plugin` walidują
+się dokładnie tak jak dotychczas, a plik schematu skilla jest źródłem prawdy dla wpisów
+skilli w ten sam sposób, w jaki schemat wtyczek jest nim dla wpisów wtyczek.
+
+Skill nie jest instalowany, jest **ładowany** przez harness, więc deskryptory instalacji
+właściwe tylko wtyczkom (`package`, `dsh`) nie istnieją we wpisie skilla i są zastąpione
+przez `usage` + `compat`. Skill często mieszka też w podkatalogu repozytorium goszczącego
+wiele skilli, więc tożsamość i deduplikacja to `source.repository` + `source.subpath`, a nie
+samo repozytorium. Wpis skilla nie dopuszcza galerii `media`: skill to tekst, który ładuje
+harness, więc nie ma czego uwiecznić na zrzucie ekranu (wymusza to
+`additionalProperties: false`).
+
+Te pola zachowują dokładnie kształt i zasady udokumentowane powyżej dla wpisów wtyczek:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Każde pole jest wymagane z
+wyjątkiem `triggers` — jedynego opcjonalnego pola skilla.
+
+### Pola specyficzne dla skilla
+
+| Pole                 | Typ    | Wymagane | Zasady                                                      |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   tak    | Musi być dokładnie `skill`                                  |
+| `skillScope`         | enum   |   tak    | `repository` (całe repozytorium **jest** skillem) lub `subdirectory` (skill mieszka pod `source.subpath`) |
+| `triggers`           | array  |    nie    | Kiedy skill się uruchamia — tekst, który użytkownik ocenia przed jego załadowaniem. Co najmniej 1 unikalny ciąg znaków, każdy 3–200 znaków; pomiń pole w całości, gdy nie ma żadnych (`triggers: []` jest nieprawidłowe) |
+| `usage.load`         | string |   tak    | Jak harness ładuje skilla, 1–200 znaków; skill jest ładowany, nigdy instalowany |
+| `usage.evidencePath` | string |   tak    | Bezpieczna względna ścieżka (ten sam wzorzec co `description.evidencePath`) do dowodu ładowania przy `source.commit` |
+| `compat.harnessMin`  | string |   tak    | Minimalna wersja harnessa, względem której skill został zweryfikowany; dokładny kształt `x.y.z` (opcjonalny prerelease/build), maks. 64 znaki. Warstwa semantyczna dodatkowo wymaga parsowalnego, dokładnego SemVer |
+
+Zasady warunkowe (wymuszane przez bloki `allOf` schematu skilla):
+
+- `skillScope: subdirectory` **wymusza**, aby `source.subpath` był ciągiem znaków będącym
+  bezpieczną ścieżką względną — skill goszczony w podkatalogu musi przypiąć ten podkatalog.
+- `skillScope: repository` **wymusza** `source.subpath: null` — skill obejmujący całe
+  repozytorium nie może deklarować podścieżki.
+
+`verification` zachowuje kształt z wtyczek (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), ale `smokeTest` musi być dokładnie `null`: skill nie ma instalacyjnego smoke
+testu, a bramką dopuszczenia jest recenzja treści. Schemat skilla nie niesie warunku
+`status: verified` → `smokeTest` ani warunków `repositoryScope` → `popularity`; te
+powiązania są zasadami wyłącznie schematu wtyczek.
+
+### Warstwa semantyczna dla skilli
+
+Na tej podstawie walidacja katalogu stosuje te same obowiązkowe parsery semantyczne co dla
+wtyczek tam, gdzie pola istnieją: `license.spdx` musi być parsowalne jako prawidłowe
+wyrażenie SPDX (`invalid-spdx`), a `compat.harnessMin` musi być dokładnym SemVer
+(`invalid-semver`). Nie istnieje przypadek `invalid-sri` — skill nie ma
+`package.integrity`.
+
+### Tożsamość i deduplikacja skilla
+
+Kanonicznym kluczem skilla jest `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Podścieżka jest normalizowana wyłącznie na potrzeby tożsamości: ukośniki wsteczne stają się
+`/`, puste segmenty i segmenty `.` są usuwane, a pusty wynik (lub `subpath: null`) staje się
+`.` — całym repozytorium. Podścieżka zawierająca bajty NUL lub segmenty `..` jest odrzucana,
+nigdy „czyszczona". Dwa skille tego samego repozytorium to dwa wpisy; to samo repozytorium +
+podścieżka dwa razy to kolizja.
+
+### Minimalny przykład skilla
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Czego schemat nie sprawdza
 
 Schemat jest celowo lokalny i strukturalny. **Nie** weryfikuje, czy repozytorium istnieje, czy node ID pasuje do URL, czy ścieżki dowodowe istnieją w przypiętym commicie, czy liczba gwiazdek jest dokładna, ani czy twórca jest właścicielem źródła. Te sprawdzenia należą do bramek recenzji maintainerów opisanych w [CONTRIBUTING.md](../../CONTRIBUTING.md) i [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md).

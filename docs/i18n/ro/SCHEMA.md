@@ -253,6 +253,113 @@ Omite complet câmpul când nu este nimic de arătat — `media: []` nu este o m
 spune "fără capturi". Câmpul este aditiv: intrările publicate înainte ca el să existe rămân
 valide, iar un consumator care îl ignoră citește fiecare intrare exact ca înainte.
 
+## Intrări `kind: skill`
+
+Versiunea 1 a schemei definește și un al doilea contract de intrare, de sine stătător, pentru
+`kind: skill`, publicat ca [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)
+(SKL-01 faza 0). El nu atinge niciodată schema de plugin de mai sus: intrările cu `kind: plugin`
+continuă să se valideze exact ca înainte, iar fișierul schemei de skill este sursa de adevăr
+pentru intrările de skill în același fel în care schema de plugin este pentru intrările de plugin.
+
+Un skill nu se instalează, ci este **încărcat** de harness, astfel încât descriptorii de instalare
+exclusiv de plugin (`package`, `dsh`) nu există pe o intrare de skill și sunt înlocuiți de
+`usage` + `compat`. Un skill trăiește de asemenea frecvent într-un subdirector al unui repository
+care găzduiește multe skill-uri, deci identitatea și deduplicarea sunt `source.repository` +
+`source.subpath`, nu repository-ul singur. O intrare de skill nu admite o galerie `media`: un
+skill este text pe care harness-ul îl încarcă, deci nu există nimic de capturat
+(`additionalProperties: false` este ceea ce impune asta).
+
+Aceste câmpuri păstrează exact forma și regulile documentate pentru intrările de plugin de mai
+sus: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Fiecare câmp este obligatoriu,
+cu excepția lui `triggers`, singurul câmp opțional de skill.
+
+### Câmpuri specifice skill-urilor
+
+| Câmp                 | Tip    | Obligatoriu | Reguli                                                      |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   da    | Trebuie să fie exact `skill`                                     |
+| `skillScope`         | enum   |   da    | `repository` (întregul repository **este** skill-ul) sau `subdirectory` (skill-ul trăiește la `source.subpath`) |
+| `triggers`           | array  |    nu    | Când se declanșează skill-ul — textul pe care un utilizator îl evaluează înainte de a-l încărca. Cel puțin 1 string unic, fiecare de 3–200 de caractere; omite complet câmpul când nu există niciunul (`triggers: []` este invalid) |
+| `usage.load`         | string |   da    | Cum încarcă harness-ul skill-ul, 1–200 de caractere; un skill este încărcat, niciodată instalat |
+| `usage.evidencePath` | string |   da    | Cale relativă sigură (același tipar ca `description.evidencePath`) către dovada de încărcare la `source.commit` |
+| `compat.harnessMin`  | string |   da    | Versiunea minimă de harness față de care skill-ul a fost verificat; formă exactă `x.y.z` (prerelease/build opționale), max 64 de caractere. Stratul semantic cere în plus un SemVer exact, parsabil |
+
+Reguli condiționale (impuse de blocurile `allOf` ale schemei de skill):
+
+- `skillScope: subdirectory` **forțează** ca `source.subpath` să fie un string de cale relativă
+  sigură — un skill găzduit într-un subdirector trebuie să fixeze acel subdirector.
+- `skillScope: repository` **forțează** `source.subpath: null` — un skill de repository întreg
+  nu trebuie să declare un subpath.
+
+`verification` păstrează forma de plugin (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), dar `smokeTest` trebuie să fie exact `null`: un skill nu are smoke-test de
+instalare, iar revizuirea conținutului este poarta de admitere. Schema de skill nu poartă
+condiționala `status: verified` → `smokeTest` și nici condiționalele `repositoryScope` →
+`popularity`; acele cuplaje sunt reguli exclusiv ale schemei de plugin.
+
+### Stratul semantic pentru skill-uri
+
+Deasupra schemei, validarea catalogului aplică aceleași parsere semantice obligatorii ca pentru
+pluginuri, acolo unde câmpurile există: `license.spdx` trebuie să se parseze ca o expresie SPDX
+validă (`invalid-spdx`), iar `compat.harnessMin` trebuie să fie un SemVer exact
+(`invalid-semver`). Nu există cazul `invalid-sri` — un skill nu are `package.integrity`.
+
+### Identitatea și deduplicarea skill-urilor
+
+Cheia canonică a unui skill este `skill:<source.repositoryNodeId>:<normalized subpath>`.
+Subpath-ul este normalizat doar în scopuri de identitate: backslash-urile devin `/`, segmentele
+goale și `.` sunt eliminate, iar un rezultat gol (sau `subpath: null`) devine `.` — întregul
+repository. Un subpath care conține octeți NUL sau segmente `..` este respins, niciodată
+„curățat". Două skill-uri ale aceluiași repository sunt două intrări; același repository +
+subpath de două ori este o coliziune.
+
+### Exemplu minim de skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Ce nu verifică schema
 
 Schema este intenționat locală și structurală. **Nu** verifică faptul că repository-ul există, că

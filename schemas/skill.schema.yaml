@@ -1,0 +1,258 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Awesome Omni DSH Skill Entry
+description: Public schema version 1 for one creator-sourced DSH skill catalog artifact.
+$comment: >-
+  Phase-0 decision: a skill admits no media[] gallery. A skill is text the harness loads,
+  so there is nothing to screenshot; additionalProperties:false is what enforces it.
+type: object
+additionalProperties: false
+required:
+  - schemaVersion
+  - id
+  - name
+  - description
+  - unofficial
+  - kind
+  - skillScope
+  - primaryCategory
+  - tags
+  - source
+  - creator
+  - usage
+  - compat
+  - repositoryScope
+  - popularity
+  - license
+  - verification
+  - provenance
+properties:
+  schemaVersion:
+    const: 1
+  id:
+    type: string
+    pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+  name:
+    type: string
+    minLength: 1
+    maxLength: 120
+  description:
+    type: object
+    additionalProperties: false
+    required:
+      - en
+      - evidencePath
+    properties:
+      en:
+        type: string
+        minLength: 20
+        maxLength: 320
+      evidencePath:
+        type: string
+        pattern: '^(?!/)(?!.*\\)(?!\.{1,2}(?:/|$))(?!.*(?:/\.{1,2})(?:/|$))[A-Za-z0-9._@+-]+(?:/[A-Za-z0-9._@+-]+)*$'
+  unofficial:
+    const: true
+  kind:
+    const: skill
+  skillScope:
+    enum:
+      - repository
+      - subdirectory
+  primaryCategory:
+    enum:
+      - user-interface-dashboards
+      - memory-rag
+      - search-research
+      - coding-developer-tools
+      - browser-automation
+      - vision-audio-multimodal
+      - sessions-productivity
+      - security-permissions-approvals
+      - diagnostics-observability
+      - models-providers-routing
+      - messaging-notifications
+      - data-external-services
+      - entertainment-customization
+      - finance-trading
+  tags:
+    type: array
+    uniqueItems: true
+    items:
+      type: string
+      pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+  triggers:
+    description: When the skill fires — the text a user evaluates before loading it.
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      type: string
+      minLength: 3
+      maxLength: 200
+  source:
+    type: object
+    additionalProperties: false
+    required:
+      - repository
+      - repositoryNodeId
+      - subpath
+      - commit
+    properties:
+      repository:
+        type: string
+        pattern: '^https://github\.com/[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?/(?!\.{1,2}$)(?![A-Za-z0-9._-]*\.git$)[A-Za-z0-9._-]{1,100}$'
+      repositoryNodeId:
+        type: string
+        minLength: 1
+      subpath:
+        oneOf:
+          - type: string
+            pattern: '^(?!/)(?!.*\\)(?!\.{1,2}(?:/|$))(?!.*(?:/\.{1,2})(?:/|$))[A-Za-z0-9._@+-]+(?:/[A-Za-z0-9._@+-]+)*$'
+          - type: "null"
+      commit:
+        type: string
+        pattern: '^[0-9a-fA-F]{40}$'
+  creator:
+    type: object
+    additionalProperties: false
+    required:
+      - github
+    properties:
+      github:
+        type: string
+        pattern: '^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$'
+  usage:
+    description: How the harness loads the skill; a skill is loaded, never installed.
+    type: object
+    additionalProperties: false
+    required:
+      - load
+      - evidencePath
+    properties:
+      load:
+        type: string
+        minLength: 1
+        maxLength: 200
+      evidencePath:
+        type: string
+        pattern: '^(?!/)(?!.*\\)(?!\.{1,2}(?:/|$))(?!.*(?:/\.{1,2})(?:/|$))[A-Za-z0-9._@+-]+(?:/[A-Za-z0-9._@+-]+)*$'
+  compat:
+    type: object
+    additionalProperties: false
+    required:
+      - harnessMin
+    properties:
+      harnessMin:
+        type: string
+        maxLength: 64
+        pattern: '^[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$'
+        $comment: Safe shape only; catalog-core parses it with an exact SemVer parser.
+  repositoryScope:
+    enum:
+      - dedicated
+      - monorepo
+  popularity:
+    type: object
+    additionalProperties: false
+    required:
+      - starsPolicy
+      - stars
+    properties:
+      starsPolicy:
+        enum:
+          - exact-repository
+          - undefined-parent-repository
+      stars:
+        oneOf:
+          - type: integer
+            minimum: 0
+          - type: "null"
+  license:
+    description: 'Mandatory: a repository without an explicit license is ineligible.'
+    type: object
+    additionalProperties: false
+    required:
+      - spdx
+    properties:
+      spdx:
+        type: string
+        minLength: 2
+        maxLength: 256
+        pattern: '^(?!-)[A-Za-z0-9.+(): -]+$'
+  verification:
+    type: object
+    additionalProperties: false
+    required:
+      - status
+      - checkedAt
+      - repositoryIdentity
+      - smokeTest
+    properties:
+      status:
+        enum:
+          - eligible
+          - verified
+          - stale
+          - unavailable
+          - archived
+          - quarantined
+      checkedAt:
+        type: string
+        format: date-time
+      repositoryIdentity:
+        const: resolved
+      smokeTest:
+        type: "null"
+        $comment: A skill has no install smoke test; content review is the admission gate.
+  provenance:
+    type: object
+    additionalProperties: false
+    required:
+      - discussion
+      - comment
+    properties:
+      discussion:
+        oneOf:
+          - type: string
+            format: uri
+          - type: "null"
+      comment:
+        oneOf:
+          - type: string
+            format: uri
+          - type: "null"
+allOf:
+  - if:
+      type: object
+      required:
+        - skillScope
+      properties:
+        skillScope:
+          const: subdirectory
+    then:
+      type: object
+      properties:
+        source:
+          type: object
+          required:
+            - subpath
+          properties:
+            subpath:
+              type: string
+              pattern: '^(?!/)(?!.*\\)(?!\.{1,2}(?:/|$))(?!.*(?:/\.{1,2})(?:/|$))[A-Za-z0-9._@+-]+(?:/[A-Za-z0-9._@+-]+)*$'
+  - if:
+      type: object
+      required:
+        - skillScope
+      properties:
+        skillScope:
+          const: repository
+    then:
+      type: object
+      properties:
+        source:
+          type: object
+          required:
+            - subpath
+          properties:
+            subpath:
+              type: "null"

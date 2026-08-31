@@ -245,6 +245,110 @@
 উপায় নয়। ফিল্ডটি সংযোজনী: এটি থাকার আগে প্রকাশিত এন্ট্রিগুলো বৈধই থাকে, আর যে ভোক্তা এটি
 উপেক্ষা করে সে প্রতিটি এন্ট্রি আগের মতোই পড়ে।
 
+## `kind: skill` এন্ট্রি
+
+স্কিমা সংস্করণ ১ `kind: skill`-এর জন্য একটি দ্বিতীয়, স্বয়ংসম্পূর্ণ এন্ট্রি চুক্তিও সংজ্ঞায়িত করে, যা
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) হিসেবে প্রকাশিত (SKL-01 ফেজ ০)। এটি
+উপরের প্লাগইন স্কিমাকে কখনও স্পর্শ করে না: `kind: plugin`-সহ এন্ট্রিগুলি আগের মতোই ঠিক বৈধতা যাচাই
+হতে থাকে, এবং স্কিল স্কিমা ফাইলটি স্কিল এন্ট্রির জন্য সত্যের উৎস, ঠিক যেভাবে প্লাগইন স্কিমা প্লাগইন
+এন্ট্রির জন্য।
+
+একটি স্কিল ইনস্টল করা হয় না, এটি হারনেস দ্বারা **লোড** করা হয়, তাই শুধুমাত্র-প্লাগইনের ইনস্টল
+ডেস্ক্রিপ্টরগুলি (`package`, `dsh`) স্কিল এন্ট্রিতে বিদ্যমান নেই এবং `usage` + `compat` দ্বারা
+প্রতিস্থাপিত হয়। একটি স্কিল প্রায়ই এমন রিপোজিটরির একটি সাবডিরেক্টরিতে থাকে যেটি অনেক স্কিল ধারণ
+করে, তাই পরিচয় এবং ডিডুপ হলো `source.repository` + `source.subpath`, শুধু রিপোজিটরি নয়। একটি
+স্কিল এন্ট্রি কোনো `media` গ্যালারি গ্রহণ করে না: স্কিল হলো এমন টেক্সট যা হারনেস লোড করে, তাই
+স্ক্রিনশট নেওয়ার কিছু নেই (`additionalProperties: false`-ই এটি প্রয়োগ করে)।
+
+এই ফিল্ডগুলি উপরে প্লাগইন এন্ট্রির জন্য নথিভুক্ত আকার এবং নিয়ম ঠিক বজায় রাখে: `schemaVersion`,
+`id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`, `source`, `creator`,
+`repositoryScope`, `license`, `provenance`। প্রতিটি ফিল্ড প্রয়োজনীয়, কেবল `triggers` ছাড়া — একমাত্র
+ঐচ্ছিক স্কিল ফিল্ড।
+
+### স্কিল-নির্দিষ্ট ফিল্ড
+
+| ফিল্ড                | টাইপ   | প্রয়োজনীয় | নিয়ম                                                        |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   হ্যাঁ    | অবশ্যই ঠিক `skill` হতে হবে                                     |
+| `skillScope`         | enum   |   হ্যাঁ    | `repository` (সম্পূর্ণ রিপোজিটরিটিই **হলো** স্কিল) অথবা `subdirectory` (স্কিলটি `source.subpath`-এ থাকে) |
+| `triggers`           | array  |    না    | স্কিল কখন সক্রিয় হয় — যে টেক্সট একজন ব্যবহারকারী এটি লোড করার আগে মূল্যায়ন করেন। অন্তত ১টি অনন্য স্ট্রিং, প্রতিটি ৩–২০০ অক্ষর; কোনোটি না থাকলে ফিল্ডটি পুরোপুরি বাদ দিন (`triggers: []` অবৈধ) |
+| `usage.load`         | string |   হ্যাঁ    | হারনেস কীভাবে স্কিলটি লোড করে, ১–২০০ অক্ষর; স্কিল লোড করা হয়, কখনও ইনস্টল করা হয় না |
+| `usage.evidencePath` | string |   হ্যাঁ    | `source.commit`-এ লোড প্রমাণের নিরাপদ আপেক্ষিক পথ (`description.evidencePath`-এর মতো একই প্যাটার্ন) |
+| `compat.harnessMin`  | string |   হ্যাঁ    | স্কিলটি যে ন্যূনতম হারনেস সংস্করণের বিপরীতে যাচাই করা হয়েছে; সঠিক `x.y.z` আকার (ঐচ্ছিক prerelease/build), সর্বোচ্চ ৬৪ অক্ষর। সিমান্টিক স্তরে অতিরিক্তভাবে পার্সযোগ্য, সঠিক SemVer প্রয়োজন |
+
+শর্তসাপেক্ষ নিয়ম (স্কিল স্কিমার `allOf` ব্লক দ্বারা প্রয়োগকৃত):
+
+- `skillScope: subdirectory` **বাধ্য করে** `source.subpath`-কে একটি নিরাপদ আপেক্ষিক-পথ স্ট্রিং হতে —
+  সাবডিরেক্টরিতে হোস্ট করা স্কিলকে অবশ্যই সেই সাবডিরেক্টরি পিন করতে হবে।
+- `skillScope: repository` **বাধ্য করে** `source.subpath: null` — সম্পূর্ণ-রিপোজিটরি স্কিল কোনো
+  সাবপাথ ঘোষণা করতে পারবে না।
+
+`verification` প্লাগইনের আকার বজায় রাখে (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), কিন্তু `smokeTest`-কে অবশ্যই ঠিক `null` হতে হবে: স্কিলের কোনো ইনস্টল স্মোক টেস্ট নেই,
+এবং কনটেন্ট পর্যালোচনাই ভর্তির গেট। স্কিল স্কিমা কোনো `status: verified` → `smokeTest` শর্ত এবং
+কোনো `repositoryScope` → `popularity` শর্ত বহন করে না; সেই সংযোগগুলি কেবল প্লাগইন-স্কিমার নিয়ম।
+
+### স্কিলের জন্য সিমান্টিক স্তর
+
+স্কিমার উপরে, ক্যাটালগ বৈধতা যাচাইকরণ যেখানে ফিল্ডগুলি বিদ্যমান সেখানে প্লাগইনের মতো একই
+বাধ্যতামূলক সিমান্টিক পার্সার প্রয়োগ করে: `license.spdx`-কে অবশ্যই বৈধ SPDX এক্সপ্রেশন হিসেবে পার্স
+হতে হবে (`invalid-spdx`), এবং `compat.harnessMin`-কে অবশ্যই সঠিক SemVer হতে হবে
+(`invalid-semver`)। কোনো `invalid-sri` কেস নেই — স্কিলের কোনো `package.integrity` নেই।
+
+### স্কিলের পরিচয় এবং ডিডুপ
+
+একটি স্কিলের প্রামাণ্য কী হলো `skill:<source.repositoryNodeId>:<normalized subpath>`। সাবপাথটি
+কেবল পরিচয়ের উদ্দেশ্যে স্বাভাবিক করা হয়: ব্যাকস্ল্যাশ `/` হয়ে যায়, খালি এবং `.` সেগমেন্ট বাদ পড়ে,
+এবং একটি খালি ফলাফল (অথবা `subpath: null`) `.` হয়ে যায় — সম্পূর্ণ রিপোজিটরি। NUL বাইট বা `..`
+সেগমেন্ট ধারণকারী সাবপাথ প্রত্যাখ্যাত হয়, কখনও "পরিষ্কার" করা হয় না। একই রিপোজিটরির দুটি স্কিল
+দুটি এন্ট্রি; একই রিপোজিটরি + সাবপাথ দুইবার হলো একটি সংঘর্ষ।
+
+### ন্যূনতম স্কিল উদাহরণ
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## স্কিমা কী পরীক্ষা করে না
 
 স্কিমাটি ইচ্ছাকৃতভাবে স্থানীয় এবং স্ট্রাকচারাল। এটি রিপোজিটরিটি বিদ্যমান কিনা, নোড ID URL-এর সাথে মেলে

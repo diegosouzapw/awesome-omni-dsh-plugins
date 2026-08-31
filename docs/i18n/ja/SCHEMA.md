@@ -241,6 +241,110 @@
 
 見せるものがない場合はフィールドごと省略してください — `media: []` は「スクリーンショットなし」を表す有効な書き方ではありません。このフィールドは追加的です: 存在する前に公開されたエントリは有効なままで、無視するコンシューマーはこれまでと全く同じようにすべてのエントリを読めます。
 
+## `kind: skill` エントリ
+
+スキーマバージョン1は、`kind: skill` 向けの、自己完結した第2のエントリ契約も定義しており、
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) として公開されています(SKL-01 フェーズ0)。
+これは上記のプラグインスキーマに一切触れません: `kind: plugin` のエントリはこれまでと全く同じように検証
+され続け、プラグインスキーマがプラグインエントリの信頼できる情報源であるのと同様に、スキルスキーマファ
+イルはスキルエントリの信頼できる情報源です。
+
+スキルはインストールされるのではなく、harnessによって**ロード**されます。そのため、プラグイン専用のイン
+ストール記述子(`package`、`dsh`)はスキルエントリには存在せず、`usage` + `compat` に置き換えられていま
+す。またスキルは、多くのスキルをホストするリポジトリのサブディレクトリに置かれることが多いため、識別と
+重複排除はリポジトリ単体ではなく `source.repository` + `source.subpath` で行われます。スキルエントリは
+`media` ギャラリーを認めません: スキルはharnessがロードするテキストであり、スクリーンショットに撮るもの
+が何もないからです(これを強制しているのが `additionalProperties: false` です)。
+
+以下のフィールドは、上記のプラグインエントリ向けに文書化された形状とルールをそのまま保ちます:
+`schemaVersion`、`id`、`name`、`description`、`unofficial`、`primaryCategory`、`tags`、
+`source`、`creator`、`repositoryScope`、`license`、`provenance`。唯一の任意スキルフィールドである
+`triggers` を除き、すべてのフィールドが必須です。
+
+### スキル固有のフィールド
+
+| フィールド             | 型    | 必須 | ルール                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   yes    | 正確に `skill` でなければならない                                |
+| `skillScope`         | enum   |   yes    | `repository`(リポジトリ全体**が**そのスキルである)または `subdirectory`(スキルは `source.subpath` に置かれている) |
+| `triggers`           | array  |    no    | スキルがいつ発火するか — ユーザーがロード前に評価するテキスト。少なくとも1つの一意な文字列で、それぞれ3〜200文字; 1つもない場合はフィールドごと省略する(`triggers: []` は無効) |
+| `usage.load`         | string |   yes    | harnessがスキルをどうロードするか、1〜200文字; スキルはロードされるものであり、決してインストールされない |
+| `usage.evidencePath` | string |   yes    | `source.commit` 時点のロードの証拠への安全な相対パス(`description.evidencePath` と同じパターン) |
+| `compat.harnessMin`  | string |   yes    | スキルが検証された最小のharnessバージョン; 正確な `x.y.z` 形式(オプションのプレリリース/ビルド)、最大64文字。セマンティック層は加えて、パース可能な正確なSemVerを要求する |
+
+条件付きルール(スキルスキーマの `allOf` ブロックによって強制されます):
+
+- `skillScope: subdirectory` は、`source.subpath` が安全な相対パス文字列であることを**強制します** —
+  サブディレクトリにホストされたスキルは、そのサブディレクトリを固定しなければなりません。
+- `skillScope: repository` は `source.subpath: null` を**強制します** — リポジトリ全体のスキルはサブパス
+  を宣言してはいけません。
+
+`verification` はプラグインの形状(`status`、`checkedAt`、`repositoryIdentity`、`smokeTest`)を保ちます
+が、`smokeTest` は正確に `null` でなければなりません: スキルにはインストールのスモークテストがなく、内容
+レビューが受け入れのゲートです。スキルスキーマは `status: verified` → `smokeTest` の条件も、
+`repositoryScope` → `popularity` の条件も持ちません。それらの結合はプラグインスキーマのみのルールです。
+
+### スキルのセマンティック層
+
+スキーマの上で、カタログの検証は、フィールドが存在する箇所についてプラグインと同じ必須のセマンティック
+パーサーを適用します: `license.spdx` は有効なSPDX表記としてパースできなければならず(`invalid-spdx`)、
+`compat.harnessMin` は正確なSemVerでなければなりません(`invalid-semver`)。`invalid-sri` のケースはあり
+ません — スキルには `package.integrity` がないからです。
+
+### スキルの識別と重複排除
+
+スキルの正規キーは `skill:<source.repositoryNodeId>:<normalized subpath>` です。サブパスは識別の目的で
+のみ正規化されます: バックスラッシュは `/` になり、空のセグメントと `.` セグメントは取り除かれ、空の結果
+(または `subpath: null`)は `.` — リポジトリ全体 — になります。NULバイトや `..` セグメントを含むサブパ
+スは拒否され、決して「クリーンアップ」されません。同じリポジトリの2つのスキルは2つのエントリですが、同じ
+リポジトリ + サブパスが2回現れれば衝突です。
+
+### 最小のスキル例
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## スキーマがチェックしないこと
 
 このスキーマは、意図的にローカルかつ構造的なものです。それは、リポジトリが存在すること、ノードIDがURL

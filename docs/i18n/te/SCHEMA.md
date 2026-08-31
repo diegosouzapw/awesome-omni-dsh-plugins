@@ -247,6 +247,113 @@
 అని చెప్పడానికి చెల్లుబాటు అయ్యే మార్గం కాదు. ఈ ఫీల్డ్ అదనపుది: ఇది ఉనికిలోకి రాకముందు ప్రచురించిన
 ఎంట్రీలు చెల్లుబాటులోనే ఉంటాయి, దీన్ని విస్మరించే వినియోగదారు ప్రతి ఎంట్రీని మునుపటిలాగే చదువుతారు.
 
+## `kind: skill` ఎంట్రీలు
+
+స్కీమా వెర్షన్ 1, `kind: skill` కోసం రెండవ, స్వతంత్ర ఎంట్రీ కాంట్రాక్ట్‌ను కూడా నిర్వచిస్తుంది; ఇది
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)గా ప్రచురించబడింది (SKL-01 దశ 0).
+ఇది పైన ఉన్న ప్లగిన్ స్కీమాను ఎప్పుడూ తాకదు: `kind: plugin` ఉన్న ఎంట్రీలు మునుపటిలాగే ఖచ్చితంగా
+వాలిడేట్ అవుతూనే ఉంటాయి, మరియు ప్లగిన్ ఎంట్రీలకు ప్లగిన్ స్కీమా ఎలాగో అలాగే స్కిల్ ఎంట్రీలకు స్కిల్
+స్కీమా ఫైల్ మూలం (సోర్స్ ఆఫ్ ట్రూత్).
+
+స్కిల్ ఇన్‌స్టాల్ చేయబడదు, హార్నెస్ దాన్ని **లోడ్ చేస్తుంది**; కాబట్టి ప్లగిన్-మాత్రమే ఇన్‌స్టాల్
+డిస్క్రిప్టర్‌లు (`package`, `dsh`) స్కిల్ ఎంట్రీపై ఉండవు, వాటి స్థానంలో `usage` + `compat`
+ఉంటాయి. స్కిల్ తరచుగా అనేక స్కిల్స్‌ను హోస్ట్ చేసే రిపాజిటరీ యొక్క సబ్‌డైరెక్టరీలో కూడా
+నివసిస్తుంది; కాబట్టి ఐడెంటిటీ మరియు డీడూప్ రిపాజిటరీ మాత్రమే కాకుండా `source.repository` +
+`source.subpath`. స్కిల్ ఎంట్రీ `media` గ్యాలరీని అనుమతించదు: స్కిల్ అనేది హార్నెస్ లోడ్ చేసే
+టెక్స్ట్, కాబట్టి స్క్రీన్‌షాట్ తీయడానికి ఏమీ లేదు (దీన్ని అమలు చేసేది
+`additionalProperties: false`).
+
+ఈ ఫీల్డ్‌లు పైన ప్లగిన్ ఎంట్రీలకు డాక్యుమెంట్ చేసిన రూపం మరియు నియమాలను ఖచ్చితంగా
+ఉంచుకుంటాయి: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. ఏకైక ఐచ్ఛిక స్కిల్
+ఫీల్డ్ అయిన `triggers` తప్ప ప్రతి ఫీల్డ్ తప్పనిసరి.
+
+### స్కిల్-ప్రత్యేక ఫీల్డ్‌లు
+
+| ఫీల్డ్               | రకం    | అవసరం | నియమాలు                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   అవును    | ఖచ్చితంగా `skill` అయి ఉండాలి                                     |
+| `skillScope`         | enum   |   అవును    | `repository` (రిపాజిటరీ మొత్తం **స్కిల్లే**) లేదా `subdirectory` (స్కిల్ `source.subpath` వద్ద నివసిస్తుంది) |
+| `triggers`           | array  |    కాదు    | స్కిల్ ఎప్పుడు ప్రేరేపితమవుతుందో — లోడ్ చేసే ముందు వినియోగదారు అంచనా వేసే టెక్స్ట్. కనీసం 1 ప్రత్యేకమైన స్ట్రింగ్, ప్రతిదీ 3–200 అక్షరాలు; ఏవీ లేనప్పుడు ఫీల్డ్‌ను పూర్తిగా వదిలేయండి (`triggers: []` చెల్లదు) |
+| `usage.load`         | string |   అవును    | హార్నెస్ స్కిల్‌ను ఎలా లోడ్ చేస్తుందో, 1–200 అక్షరాలు; స్కిల్ లోడ్ చేయబడుతుంది, ఎప్పుడూ ఇన్‌స్టాల్ చేయబడదు |
+| `usage.evidencePath` | string |   అవును    | `source.commit` వద్ద లోడ్ ఎవిడెన్స్‌కు సేఫ్ రిలేటివ్ పాత్ (`description.evidencePath` వలె అదే ప్యాటర్న్) |
+| `compat.harnessMin`  | string |   అవును    | స్కిల్ ధృవీకరించబడిన కనీస హార్నెస్ వెర్షన్; ఖచ్చితమైన `x.y.z` రూపం (ఐచ్ఛిక ప్రీరిలీజ్/బిల్డ్), గరిష్టంగా 64 అక్షరాలు. సెమాంటిక్ పొర అదనంగా పార్స్ చేయదగిన, ఖచ్చితమైన SemVerను అవసరం చేస్తుంది |
+
+ఆధారిత నియమాలు (స్కిల్ స్కీమా యొక్క `allOf` బ్లాక్‌ల ద్వారా అమలు చేయబడతాయి):
+
+- `skillScope: subdirectory` `source.subpath` సేఫ్ రిలేటివ్-పాత్ స్ట్రింగ్ అయి ఉండాలని
+  **బలవంతం** చేస్తుంది — సబ్‌డైరెక్టరీలో హోస్ట్ అయిన స్కిల్ ఆ సబ్‌డైరెక్టరీని పిన్ చేయాలి.
+- `skillScope: repository` `source.subpath: null`ను **బలవంతం** చేస్తుంది — మొత్తం-రిపాజిటరీ
+  స్కిల్ సబ్‌పాత్‌ను ప్రకటించకూడదు.
+
+`verification` ప్లగిన్ రూపాన్నే (`status`, `checkedAt`, `repositoryIdentity`, `smokeTest`)
+ఉంచుకుంటుంది, కానీ `smokeTest` ఖచ్చితంగా `null` అయి ఉండాలి: స్కిల్‌కు ఇన్‌స్టాల్ స్మోక్ టెస్ట్
+లేదు, కంటెంట్ సమీక్షే ప్రవేశ గేట్. స్కిల్ స్కీమా `status: verified` → `smokeTest` షరతును గానీ
+`repositoryScope` → `popularity` షరతులను గానీ మోయదు; ఆ బంధాలు ప్లగిన్-స్కీమా నియమాలు
+మాత్రమే.
+
+### స్కిల్స్ కోసం సెమాంటిక్ పొర
+
+స్కీమాపై, ఫీల్డ్‌లు ఉన్న చోట ప్లగిన్‌ల కోసం ఉపయోగించే అవే తప్పనిసరి సెమాంటిక్ పార్సర్‌లను
+కేటలాగ్ వాలిడేషన్ వర్తింపజేస్తుంది: `license.spdx` చెల్లుబాటు అయ్యే SPDX ఎక్స్‌ప్రెషన్‌గా పార్స్
+కావాలి (`invalid-spdx`), మరియు `compat.harnessMin` ఖచ్చితమైన SemVer అయి ఉండాలి
+(`invalid-semver`). `invalid-sri` కేసు లేదు — స్కిల్‌కు `package.integrity` లేదు.
+
+### స్కిల్ ఐడెంటిటీ మరియు డీడూప్
+
+స్కిల్ యొక్క కానానికల్ కీ `skill:<source.repositoryNodeId>:<normalized subpath>`. సబ్‌పాత్
+ఐడెంటిటీ ప్రయోజనాల కోసం మాత్రమే నార్మలైజ్ చేయబడుతుంది: బ్యాక్‌స్లాష్‌లు `/` అవుతాయి, ఖాళీ
+మరియు `.` సెగ్మెంట్‌లు తొలగించబడతాయి, మరియు ఖాళీ ఫలితం (లేదా `subpath: null`) `.` అవుతుంది —
+రిపాజిటరీ మొత్తం. NUL బైట్‌లు లేదా `..` సెగ్మెంట్‌లు ఉన్న సబ్‌పాత్ తిరస్కరించబడుతుంది, ఎప్పుడూ
+"శుభ్రం" చేయబడదు. ఒకే రిపాజిటరీకి చెందిన రెండు స్కిల్స్ రెండు ఎంట్రీలు; అదే రిపాజిటరీ +
+సబ్‌పాత్ రెండుసార్లు ఉంటే అది ఘర్షణ.
+
+### కనిష్ఠ స్కిల్ ఉదాహరణ
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## స్కీమా తనిఖీ చేయనిది
 
 స్కీమా ఉద్దేశపూర్వకంగా లోకల్ మరియు స్ట్రక్చరల్. ఇది రిపాజిటరీ ఉనికిలో ఉందో లేదో, నోడ్ IDతో URL

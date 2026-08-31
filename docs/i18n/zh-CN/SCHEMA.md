@@ -232,6 +232,105 @@ schema 只保证安全形状（主机、40 位十六进制引用、长度上限�
 
 没有可展示的内容时请完全省略该字段——`media: []` 不是表达“没有截图”的有效方式。该字段是增量的：在它出现之前发布的条目依然有效，忽略它的消费者读取每个条目的方式与以前完全相同。
 
+## `kind: skill` 条目
+
+模式版本 1 还为 `kind: skill` 定义了第二份自成一体的条目契约，发布为
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)（SKL-01 第 0 阶段）。它完全
+不触及上面的插件模式：`kind: plugin` 的条目继续按原样通过校验，而技能模式文件对技能条目而言
+是真实来源，正如插件模式之于插件条目。
+
+技能不是被安装的，而是由 harness **加载**的，因此仅插件才有的安装描述符（`package`、`dsh`）
+在技能条目上不存在，取而代之的是 `usage` + `compat`。技能也经常位于托管多个技能的仓库的
+子目录中，因此身份与去重依据是 `source.repository` + `source.subpath`，而不只是仓库本身。
+技能条目不接受 `media` 图库：技能是 harness 加载的文本，没有可截图的内容
+（正是 `additionalProperties: false` 强制了这一点）。
+
+以下字段完全保持上面为插件条目记录的形状和规则：
+`schemaVersion`、`id`、`name`、`description`、`unofficial`、`primaryCategory`、`tags`、
+`source`、`creator`、`repositoryScope`、`license`、`provenance`。除 `triggers`（唯一可选的
+技能字段）外，每个字段都是必需的。
+
+### 技能特有字段
+
+| 字段                 | 类型   | 是否必需 | 规则                                                        |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   是    | 必须精确等于 `skill`                                        |
+| `skillScope`         | enum   |   是    | `repository`（整个仓库**就是**技能）或 `subdirectory`（技能位于 `source.subpath`） |
+| `triggers`           | array  |   否    | 技能何时触发——用户在加载它之前评估的文本。至少 1 个唯一字符串，每个 3–200 个字符；没有触发条件时请完全省略该字段（`triggers: []` 是无效的） |
+| `usage.load`         | string |   是    | harness 如何加载该技能，1–200 个字符；技能只会被加载，绝不会被安装 |
+| `usage.evidencePath` | string |   是    | 指向 `source.commit` 处加载证据的安全相对路径（与 `description.evidencePath` 相同的模式） |
+| `compat.harnessMin`  | string |   是    | 技能经过验证的最低 harness 版本；精确的 `x.y.z` 形状（可选的 prerelease/build），最长 64 个字符。语义层还额外要求一个可解析的、精确的 SemVer |
+
+条件规则（由技能模式的 `allOf` 块强制执行）：
+
+- `skillScope: subdirectory` **强制** `source.subpath` 为安全相对路径字符串——托管在
+  子目录中的技能必须固定该子目录。
+- `skillScope: repository` **强制** `source.subpath: null`——整仓库技能不得声明子路径。
+
+`verification` 保持插件的形状（`status`、`checkedAt`、`repositoryIdentity`、`smokeTest`），
+但 `smokeTest` 必须精确等于 `null`：技能没有安装冒烟测试，内容审查才是准入门禁。技能模式
+不携带 `status: verified` → `smokeTest` 条件，也不携带 `repositoryScope` → `popularity`
+条件；这些耦合仅是插件模式的规则。
+
+### 技能的语义层
+
+在模式之上，目录校验在字段存在时应用与插件相同的强制语义解析器：`license.spdx` 必须解析为
+有效的 SPDX 表达式（`invalid-spdx`），`compat.harnessMin` 必须是精确的 SemVer
+（`invalid-semver`）。不存在 `invalid-sri` 情形——技能没有 `package.integrity`。
+
+### 技能身份与去重
+
+技能的规范键是 `skill:<source.repositoryNodeId>:<normalized subpath>`。子路径仅出于身份
+目的进行规范化：反斜杠变为 `/`，空段和 `.` 段被丢弃，空结果（或 `subpath: null`）变为
+`.`——即整个仓库。包含 NUL 字节或 `..` 段的子路径会被拒绝，绝不会被"清理"。同一仓库的
+两个技能是两个条目；相同的仓库 + 子路径出现两次则是冲突。
+
+### 最小技能示例
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## 模式不检查的内容
 
 该模式在设计上只做本地和结构性检查。它**不会**验证仓库是否存在、节点 ID 是否与 URL 匹配、证据路径

@@ -255,6 +255,113 @@ Jätä kenttä kokonaan pois, kun näytettävää ei ole — `media: []` ei ole 
 kuvakaappauksia". Kenttä on lisäävä: ennen sen olemassaoloa julkaistut merkinnät pysyvät
 pätevinä, ja kuluttaja, joka jättää sen huomiotta, lukee jokaisen merkinnän täsmälleen kuten ennen.
 
+## `kind: skill` -merkinnät
+
+Skeemaversio 1 määrittelee myös toisen, itsenäisen merkintäsopimuksen arvolle `kind: skill`,
+julkaistuna tiedostona [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01,
+vaihe 0). Se ei koskaan kosketa yllä olevaa plugin-skeemaa: merkinnät, joilla on
+`kind: plugin`, validoituvat täsmälleen kuten ennenkin, ja skill-skeematiedosto on totuuden
+lähde skill-merkinnöille samalla tavalla kuin plugin-skeema on plugin-merkinnöille.
+
+Skilliä ei asenneta, vaan harness **lataa** sen, joten vain plugineille kuuluvat
+asennuskuvaimet (`package`, `dsh`) eivät ole olemassa skill-merkinnässä, ja niiden tilalla ovat
+`usage` + `compat`. Skill asuu myös usein sellaisen repositorion alihakemistossa, joka isännöi
+monia skillejä, joten identiteetti ja deduplikointi on `source.repository` + `source.subpath`
+pelkän repositorion sijaan. Skill-merkintä ei salli `media`-galleriaa: skill on tekstiä, jonka
+harness lataa, joten kuvakaapattavaa ei ole (`additionalProperties: false` on se, mikä tämän
+pakottaa).
+
+Nämä kentät säilyttävät täsmälleen yllä plugin-merkinnöille dokumentoidun muodon ja säännöt:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Jokainen kenttä on vaadittu
+paitsi `triggers`, ainoa valinnainen skill-kenttä.
+
+### Skill-kohtaiset kentät
+
+| Kenttä               | Tyyppi | Vaadittu | Säännöt                                                     |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   kyllä  | On oltava täsmälleen `skill`                                |
+| `skillScope`         | enum   |   kyllä  | `repository` (koko repositorio **on** skilli) tai `subdirectory` (skill asuu polussa `source.subpath`) |
+| `triggers`           | array  |    ei    | Milloin skill laukeaa — teksti, jonka käyttäjä arvioi ennen sen lataamista. Vähintään 1 uniikki merkkijono, kukin 3–200 merkkiä; jätä kenttä kokonaan pois, kun laukaisimia ei ole (`triggers: []` on epäkelpo) |
+| `usage.load`         | string |   kyllä  | Miten harness lataa skillin, 1–200 merkkiä; skill ladataan, ei koskaan asenneta |
+| `usage.evidencePath` | string |   kyllä  | Turvallinen suhteellinen polku (sama kuvio kuin `description.evidencePath`) lataustodisteeseen commitissa `source.commit` |
+| `compat.harnessMin`  | string |   kyllä  | Harnessin vähimmäisversio, jota vasten skill varmistettiin; täsmällinen `x.y.z`-muoto (valinnainen prerelease/build), enintään 64 merkkiä. Semanttinen kerros vaatii lisäksi jäsennettävän, täsmällisen SemVerin |
+
+Ehdolliset säännöt (skill-skeeman `allOf`-lohkojen pakottamat):
+
+- `skillScope: subdirectory` **pakottaa** kentän `source.subpath` olemaan turvallinen
+  suhteellinen polkumerkkijono — alihakemistossa isännöidyn skillin on kiinnitettävä se
+  alihakemisto.
+- `skillScope: repository` **pakottaa** arvon `source.subpath: null` — koko repositorion
+  kattava skill ei saa ilmoittaa subpathia.
+
+`verification` säilyttää plugin-muodon (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), mutta `smokeTest`in on oltava täsmälleen `null`: skillillä ei ole asennuksen
+smoke-testiä, ja sisältökatselmointi on hyväksymisportti. Skill-skeema ei sisällä ehtoa
+`status: verified` → `smokeTest` eikä ehtoja `repositoryScope` → `popularity`; nuo kytkennät
+ovat vain plugin-skeeman sääntöjä.
+
+### Semanttinen kerros skilleille
+
+Skeeman päälle katalogin validointi soveltaa samoja pakollisia semanttisia jäsentimiä kuin
+plugineille siellä, missä kentät ovat olemassa: `license.spdx`in on jäsennyttävä kelvolliseksi
+SPDX-lausekkeeksi (`invalid-spdx`), ja `compat.harnessMin`in on oltava täsmällinen SemVer
+(`invalid-semver`). `invalid-sri`-tapausta ei ole — skillillä ei ole `package.integrity`ä.
+
+### Skillin identiteetti ja deduplikointi
+
+Skillin kanoninen avain on `skill:<source.repositoryNodeId>:<normalized subpath>`. Subpath
+normalisoidaan vain identiteettiä varten: kenoviivoista tulee `/`, tyhjät ja `.`-segmentit
+pudotetaan, ja tyhjästä tuloksesta (tai arvosta `subpath: null`) tulee `.` — koko repositorio.
+NUL-tavuja tai `..`-segmenttejä sisältävä subpath hylätään, ei koskaan "siivota". Kaksi saman
+repositorion skilliä ovat kaksi merkintää; sama repositorio + subpath kahdesti on törmäys.
+
+### Minimaalinen skill-esimerkki
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Mitä skeema ei tarkista
 
 Skeema on tarkoituksellisesti paikallinen ja rakenteellinen. Se **ei** varmista, että repositorio

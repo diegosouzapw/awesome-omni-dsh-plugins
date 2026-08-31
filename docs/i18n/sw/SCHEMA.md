@@ -247,6 +247,113 @@ Acha sehemu hii kabisa wakati hakuna cha kuonyesha — `media: []` si njia halal
 picha za skrini". Sehemu hii ni ya nyongeza: maingizo yaliyochapishwa kabla haijakuwepo yanabaki
 halali, na mtumiaji anayeipuuza husoma kila ingizo kama zamani kabisa.
 
+## Viingilio vya `kind: skill`
+
+Toleo la 1 la schema pia linafafanua mkataba wa pili wa kiingilio unaojitegemea kwa
+`kind: skill`, uliochapishwa kama [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml)
+(SKL-01 awamu ya 0). Kamwe haugusi schema ya programu-jalizi hapo juu: viingilio vyenye
+`kind: plugin` vinaendelea kuthibitishwa kama zamani kabisa, na faili la schema ya skill ndilo
+chanzo cha ukweli kwa viingilio vya skill kama vile schema ya programu-jalizi ilivyo kwa
+viingilio vya programu-jalizi.
+
+Skill haisakinishwi, bali **inapakiwa** na harness, kwa hivyo vielezi vya usakinishaji vya
+programu-jalizi pekee (`package`, `dsh`) havipo kwenye kiingilio cha skill na vinabadilishwa na
+`usage` + `compat`. Skill pia mara nyingi huishi katika saraka ndogo ya hazina inayohifadhi
+skill nyingi, kwa hivyo utambulisho na uondoaji-nakala ni `source.repository` + `source.subpath`
+badala ya hazina pekee. Kiingilio cha skill hakiruhusu maonyesho ya `media`: skill ni maandishi
+ambayo harness hupakia, kwa hivyo hakuna cha kupiga picha ya skrini
+(`additionalProperties: false` ndiyo inayolazimisha hilo).
+
+Sehemu hizi zinahifadhi haswa umbo na kanuni zilizoandikwa kwa viingilio vya programu-jalizi
+hapo juu: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`,
+`tags`, `source`, `creator`, `repositoryScope`, `license`, `provenance`. Kila sehemu ni ya
+lazima isipokuwa `triggers`, sehemu pekee ya hiari ya skill.
+
+### Sehemu mahususi za skill
+
+| Sehemu               | Aina   | Inahitajika | Kanuni                                                      |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   ndiyo    | Lazima iwe `skill` haswa                                     |
+| `skillScope`         | enum   |   ndiyo    | `repository` (hazina nzima **ndiyo** skill) au `subdirectory` (skill inaishi kwenye `source.subpath`) |
+| `triggers`           | array  |    hapana    | Wakati skill inapowashwa — maandishi ambayo mtumiaji hutathmini kabla ya kuipakia. Angalau string 1 ya kipekee, kila moja herufi 3–200; acha sehemu hii kabisa wakati hakuna zozote (`triggers: []` ni batili) |
+| `usage.load`         | string |   ndiyo    | Jinsi harness inavyopakia skill, herufi 1–200; skill hupakiwa, kamwe haisakinishwi |
+| `usage.evidencePath` | string |   ndiyo    | Njia salama ya uwiano (pattern ile ile kama `description.evidencePath`) ya ushahidi wa upakiaji kwenye `source.commit` |
+| `compat.harnessMin`  | string |   ndiyo    | Toleo la chini la harness ambalo skill ilithibitishwa dhidi yake; umbo halisi la `x.y.z` (prerelease/build ya hiari), hadi herufi 64. Tabaka la kisemantiki pia linahitaji SemVer halisi inayoweza kuchambuliwa |
+
+Kanuni za masharti (zinazotekelezwa na vitalu vya `allOf` vya schema ya skill):
+
+- `skillScope: subdirectory` **hulazimisha** `source.subpath` kuwa string ya njia salama ya
+  uwiano — skill inayoishi katika saraka ndogo lazima ibandike saraka ndogo hiyo.
+- `skillScope: repository` **hulazimisha** `source.subpath: null` — skill ya hazina nzima
+  haipaswi kutangaza subpath.
+
+`verification` inahifadhi umbo la programu-jalizi (`status`, `checkedAt`,
+`repositoryIdentity`, `smokeTest`), lakini `smokeTest` lazima iwe `null` haswa: skill haina
+jaribio la moshi la usakinishaji, na ukaguzi wa maudhui ndilo lango la kukubaliwa. Schema ya
+skill haibebi sharti la `status: verified` → `smokeTest` wala masharti ya `repositoryScope` →
+`popularity`; miunganisho hiyo ni kanuni za schema ya programu-jalizi pekee.
+
+### Tabaka la kisemantiki kwa skill
+
+Juu ya schema, uthibitishaji wa katalogi hutumia vichambuzi vile vile vya kisemantiki vya
+lazima kama kwa programu-jalizi pale sehemu zilipo: `license.spdx` lazima ichambuliwe kama
+usemi halali wa SPDX (`invalid-spdx`), na `compat.harnessMin` lazima iwe SemVer halisi
+(`invalid-semver`). Hakuna kesi ya `invalid-sri` — skill haina `package.integrity`.
+
+### Utambulisho na uondoaji-nakala wa skill
+
+Ufunguo rasmi wa skill ni `skill:<source.repositoryNodeId>:<normalized subpath>`. Subpath
+husanifishwa kwa madhumuni ya utambulisho pekee: backslash huwa `/`, sehemu tupu na za `.`
+huondolewa, na matokeo matupu (au `subpath: null`) huwa `.` — hazina nzima. Subpath yenye baiti
+za NUL au sehemu za `..` hukataliwa, kamwe "haisafishwi". Skill mbili za hazina ile ile ni
+viingilio viwili; hazina ile ile + subpath mara mbili ni mgongano.
+
+### Mfano mdogo wa skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Schema haikague nini
 
 Schema kwa makusudi ni ya kienyeji na kimuundo. **Hai**thibitishi kwamba hazina ipo, kwamba ID ya node

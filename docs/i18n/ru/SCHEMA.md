@@ -251,6 +251,113 @@ URL здесь должен быть таким же неизменяемым, �
 сказать «скриншотов нет». Поле аддитивно: записи, опубликованные до его появления, остаются
 действительными, а потребитель, который его игнорирует, читает каждую запись ровно как прежде.
 
+## Записи `kind: skill`
+
+Версия 1 схемы также определяет второй, самостоятельный контракт записи для `kind: skill`,
+опубликованный как [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01,
+фаза 0). Он никогда не затрагивает схему плагинов выше: записи с `kind: plugin` продолжают
+валидироваться ровно как прежде, а файл схемы скиллов — источник истины для записей скиллов так
+же, как схема плагинов — для записей плагинов.
+
+Скилл не устанавливается, он **загружается** харнесом, поэтому дескрипторы установки, присущие
+только плагинам (`package`, `dsh`), отсутствуют в записи скилла и заменены на `usage` +
+`compat`. Скилл также часто живёт в подкаталоге репозитория, содержащего много скиллов, поэтому
+идентичность и дедупликация — это `source.repository` + `source.subpath`, а не репозиторий сам
+по себе. Запись скилла не допускает галереи `media`: скилл — это текст, который загружает
+харнес, поэтому снимать на скриншот нечего (именно `additionalProperties: false` это и
+обеспечивает).
+
+Эти поля сохраняют ровно ту форму и правила, что задокументированы для записей плагинов выше:
+`schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Каждое поле обязательно, кроме
+`triggers` — единственного необязательного поля скилла.
+
+### Поля, специфичные для скиллов
+
+| Поле                 | Тип    | Обязательно | Правила                                                     |
+| -------------------- | ------ | :---------: | ----------------------------------------------------------- |
+| `kind`               | const  |     да      | Должно быть точно `skill`                                   |
+| `skillScope`         | enum   |     да      | `repository` (весь репозиторий **является** скиллом) или `subdirectory` (скилл живёт по пути `source.subpath`) |
+| `triggers`           | array  |     нет     | Когда скилл срабатывает — текст, который пользователь оценивает перед загрузкой. Не менее 1 уникальной строки, каждая 3–200 символов; полностью опускайте поле, когда их нет (`triggers: []` недопустимо) |
+| `usage.load`         | string |     да      | Как харнес загружает скилл, 1–200 символов; скилл загружается, никогда не устанавливается |
+| `usage.evidencePath` | string |     да      | Безопасный относительный путь (тот же паттерн, что у `description.evidencePath`) к доказательству загрузки на `source.commit` |
+| `compat.harnessMin`  | string |     да      | Минимальная версия харнеса, с которой скилл был проверен; точная форма `x.y.z` (опциональные prerelease/build), не более 64 символов. Семантический уровень дополнительно требует разбираемого точного SemVer |
+
+Условные правила (применяются блоками `allOf` схемы скиллов):
+
+- `skillScope: subdirectory` **вынуждает** `source.subpath` быть строкой безопасного
+  относительного пути — скилл, размещённый в подкаталоге, обязан закрепить этот подкаталог.
+- `skillScope: repository` **вынуждает** `source.subpath: null` — скилл на весь репозиторий не
+  должен объявлять подпуть.
+
+`verification` сохраняет форму плагина (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), но `smokeTest` должен быть точно `null`: у скилла нет установочного smoke-теста,
+а барьером допуска служит ревью содержимого. Схема скиллов не несёт условного правила
+`status: verified` → `smokeTest` и условных правил `repositoryScope` → `popularity`; эти связки
+— правила только схемы плагинов.
+
+### Семантический уровень для скиллов
+
+Поверх схемы проверка каталога применяет те же обязательные семантические парсеры, что и для
+плагинов, там, где поля существуют: `license.spdx` должно разбираться как валидное
+SPDX-выражение (`invalid-spdx`), а `compat.harnessMin` должно быть точным SemVer
+(`invalid-semver`). Случая `invalid-sri` не существует — у скилла нет `package.integrity`.
+
+### Идентичность и дедупликация скиллов
+
+Канонический ключ скилла — `skill:<source.repositoryNodeId>:<normalized subpath>`. Подпуть
+нормализуется только для целей идентичности: обратные слэши становятся `/`, пустые сегменты и
+сегменты `.` отбрасываются, а пустой результат (или `subpath: null`) становится `.` — весь
+репозиторий. Подпуть, содержащий NUL-байты или сегменты `..`, отклоняется, а не «очищается».
+Два скилла одного репозитория — это две записи; один и тот же репозиторий + подпуть дважды —
+это коллизия.
+
+### Минимальный пример скилла
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Что схема не проверяет
 
 Схема намеренно локальна и структурна. Она **не** проверяет, существует ли репозиторий, совпадает

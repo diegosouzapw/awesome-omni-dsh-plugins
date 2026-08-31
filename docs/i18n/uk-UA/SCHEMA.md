@@ -249,6 +249,112 @@ URL тут має бути таким самим незмінним, як `sourc
 «немає знімків екрана». Поле є адитивним: записи, опубліковані до його появи, залишаються
 дійсними, а споживач, який його ігнорує, читає кожен запис точно як раніше.
 
+## Записи `kind: skill`
+
+Схема версії 1 також визначає другий, самодостатній контракт запису для `kind: skill`,
+опублікований як [`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) (SKL-01
+фаза 0). Він ніколи не торкається схеми плагінів вище: записи з `kind: plugin` продовжують
+валідуватися точно як раніше, а файл схеми skill є джерелом істини для записів skill так
+само, як схема плагінів — для записів плагінів.
+
+Skill не встановлюється, а **завантажується** harness-ом, тож суто плагінні інсталяційні
+дескриптори (`package`, `dsh`) не існують на записі skill і замінені на `usage` + `compat`.
+Skill також часто живе в підкаталозі репозиторію, що хостить багато skill-ів, тому
+ідентичність і дедуплікація — це `source.repository` + `source.subpath`, а не сам лише
+репозиторій. Запис skill не допускає галереї `media`: skill — це текст, який завантажує
+harness, тож знімати нема чого (саме `additionalProperties: false` це забезпечує).
+
+Ці поля зберігають точно ту саму форму та правила, задокументовані для записів плагінів
+вище: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`. Кожне поле обов'язкове,
+окрім `triggers` — єдиного необов'язкового поля skill.
+
+### Поля, специфічні для skill
+
+| Поле                 | Тип    | Обов'язкове | Правила                                                  |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   так    | Має бути рівно `skill`                                      |
+| `skillScope`         | enum   |   так    | `repository` (увесь репозиторій **і є** skill) або `subdirectory` (skill живе за `source.subpath`) |
+| `triggers`           | array  |   ні    | Коли skill спрацьовує — текст, який користувач оцінює перед його завантаженням. Щонайменше 1 унікальний рядок, кожен 3–200 символів; коли їх немає, повністю пропускайте поле (`triggers: []` є недійсним) |
+| `usage.load`         | string |   так    | Як harness завантажує skill, 1–200 символів; skill завантажується, ніколи не встановлюється |
+| `usage.evidencePath` | string |   так    | Безпечний відносний шлях (той самий патерн, що й `description.evidencePath`) до доказу завантаження на `source.commit` |
+| `compat.harnessMin`  | string |   так    | Мінімальна версія harness, з якою skill було перевірено; точна форма `x.y.z` (необов'язковий prerelease/build), максимум 64 символи. Семантичний шар додатково вимагає розбірного, точного SemVer |
+
+Умовні правила (забезпечуються блоками `allOf` схеми skill):
+
+- `skillScope: subdirectory` **змушує** `source.subpath` бути рядком безпечного відносного
+  шляху — skill, розміщений у підкаталозі, має закріпити цей підкаталог.
+- `skillScope: repository` **змушує** `source.subpath: null` — skill на весь репозиторій не
+  повинен оголошувати субшлях.
+
+`verification` зберігає плагінну форму (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`), але `smokeTest` має бути рівно `null`: skill не має інсталяційного smoke
+test-у, а шлюзом допуску є перегляд вмісту. Схема skill не несе умови `status: verified` →
+`smokeTest` і умов `repositoryScope` → `popularity`; ці зв'язки є правилами лише схеми
+плагінів.
+
+### Семантичний шар для skill-ів
+
+Понад схемою валідація каталогу застосовує ті самі обов'язкові семантичні парсери, що й для
+плагінів, там, де поля існують: `license.spdx` має розбиратися як дійсний вираз SPDX
+(`invalid-spdx`), а `compat.harnessMin` має бути точним SemVer (`invalid-semver`). Випадку
+`invalid-sri` немає — skill не має `package.integrity`.
+
+### Ідентичність skill і дедуплікація
+
+Канонічний ключ skill — `skill:<source.repositoryNodeId>:<normalized subpath>`. Субшлях
+нормалізується лише для цілей ідентичності: зворотні скісні риски стають `/`, порожні
+сегменти та `.` відкидаються, а порожній результат (або `subpath: null`) стає `.` — увесь
+репозиторій. Субшлях із байтами NUL або сегментами `..` відхиляється, ніколи не
+«очищується». Два skill-и одного репозиторію — це два записи; той самий репозиторій +
+субшлях двічі — це колізія.
+
+### Мінімальний приклад skill
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## Чого схема не перевіряє
 
 Схема навмисно локальна та структурна. Вона **не** перевіряє, що репозиторій існує, що вузловий

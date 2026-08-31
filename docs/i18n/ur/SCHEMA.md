@@ -223,6 +223,111 @@
 کا درست طریقہ نہیں ہے۔ یہ فیلڈ اضافی ہے: اس کے وجود سے پہلے شائع ہونے والے اندراجات درست رہتے
 ہیں، اور اسے نظرانداز کرنے والا صارف ہر اندراج بالکل پہلے کی طرح پڑھتا ہے۔
 
+## `kind: skill` اندراجات
+
+اسکیما ورژن 1 `kind: skill` کے لیے ایک دوسرا، خودمکتفی اندراجی معاہدہ بھی متعین کرتی ہے، جو
+[`schemas/skill.schema.yaml`](../../schemas/skill.schema.yaml) کے طور پر شائع ہے (SKL-01 فیز 0)۔
+یہ اوپر والی پلگ ان اسکیما کو کبھی نہیں چھیڑتا: `kind: plugin` والے اندراجات بالکل پہلے کی طرح
+ویلیڈیٹ ہوتے رہتے ہیں، اور اسکل اسکیما فائل اسکل اندراجات کے لیے اسی طرح سچائی کا ماخذ ہے جس
+طرح پلگ ان اسکیما پلگ ان اندراجات کے لیے ہے۔
+
+اسکل انسٹال نہیں ہوتی، اسے harness کے ذریعے **لوڈ** کیا جاتا ہے، لہٰذا صرف-پلگ ان انسٹال
+ڈسکرپٹرز (`package`, `dsh`) اسکل اندراج پر موجود نہیں ہوتے اور ان کی جگہ `usage` + `compat`
+لیتے ہیں۔ اسکل اکثر ایسی ریپوزٹری کی ذیلی ڈائریکٹری میں بھی رہتی ہے جو بہت سی اسکلز کی میزبانی
+کرتی ہے، اس لیے شناخت اور ڈی ڈیوپ صرف ریپوزٹری کے بجائے `source.repository` + `source.subpath`
+ہے۔ اسکل اندراج کوئی `media` گیلری قبول نہیں کرتا: اسکل وہ متن ہے جسے harness لوڈ کرتی ہے، لہٰذا
+اسکرین شاٹ لینے کو کچھ نہیں (`additionalProperties: false` ہی اسے نافذ کرتا ہے)۔
+
+یہ فیلڈز بالکل وہی شکل اور قواعد برقرار رکھتی ہیں جو اوپر پلگ ان اندراجات کے لیے دستاویز کیے
+گئے ہیں: `schemaVersion`, `id`, `name`, `description`, `unofficial`, `primaryCategory`, `tags`,
+`source`, `creator`, `repositoryScope`, `license`, `provenance`۔ ہر فیلڈ درکار ہے سوائے
+`triggers` کے، جو واحد اختیاری اسکل فیلڈ ہے۔
+
+### اسکل مخصوص فیلڈز
+
+| فیلڈ                | قسم   | درکار | قواعد                                                       |
+| -------------------- | ------ | :------: | ----------------------------------------------------------- |
+| `kind`               | const  |   ہاں    | لازمی طور پر بالکل `skill`                                   |
+| `skillScope`         | enum   |   ہاں    | `repository` (پوری ریپوزٹری **ہی** اسکل ہے) یا `subdirectory` (اسکل `source.subpath` پر رہتی ہے) |
+| `triggers`           | array  |   نہیں    | اسکل کب فائر ہوتی ہے — وہ متن جسے صارف اسے لوڈ کرنے سے پہلے پرکھتا ہے۔ کم از کم 1 منفرد سٹرنگ، ہر ایک 3–200 حروف؛ جب کوئی نہ ہو تو فیلڈ کو مکمل طور پر چھوڑ دیں (`triggers: []` غیر درست ہے) |
+| `usage.load`         | string |   ہاں    | harness اسکل کو کیسے لوڈ کرتی ہے، 1–200 حروف؛ اسکل لوڈ ہوتی ہے، کبھی انسٹال نہیں |
+| `usage.evidencePath` | string |   ہاں    | `source.commit` پر لوڈ ثبوت تک محفوظ نسبتی راستہ (وہی pattern جو `description.evidencePath` کا ہے) |
+| `compat.harnessMin`  | string |   ہاں    | کم از کم harness ورژن جس کے خلاف اسکل کی تصدیق کی گئی؛ بالکل `x.y.z` شکل (اختیاری prerelease/build)، زیادہ سے زیادہ 64 حروف۔ معنوی تہہ اضافی طور پر ایک پارس ہونے کے قابل، بالکل درست SemVer کا تقاضا کرتی ہے |
+
+مشروط قواعد (اسکل اسکیما کے `allOf` بلاکس کے ذریعے نافذ):
+
+- `skillScope: subdirectory` `source.subpath` کو ایک محفوظ نسبتی راستے کی سٹرنگ ہونے پر
+  **مجبور** کرتا ہے — ذیلی ڈائریکٹری میں میزبان اسکل کو وہ ذیلی ڈائریکٹری پن کرنی ہوگی۔
+- `skillScope: repository` `source.subpath: null` پر **مجبور** کرتا ہے — پوری ریپوزٹری والی
+  اسکل کو subpath کا اعلان نہیں کرنا چاہیے۔
+
+`verification` پلگ ان والی شکل برقرار رکھتا ہے (`status`, `checkedAt`, `repositoryIdentity`,
+`smokeTest`)، مگر `smokeTest` لازمی طور پر بالکل `null` ہونا چاہیے: اسکل کا کوئی انسٹال
+smoke test نہیں ہوتا، اور مواد کا جائزہ ہی داخلے کا گیٹ ہے۔ اسکل اسکیما میں کوئی
+`status: verified` → `smokeTest` شرط نہیں اور کوئی `repositoryScope` → `popularity` شرائط
+نہیں؛ وہ جوڑ صرف پلگ ان اسکیما کے قواعد ہیں۔
+
+### اسکلز کے لیے معنوی تہہ
+
+اسکیما کے اوپر، کیٹلاگ ویلیڈیشن وہی لازمی معنوی پارسرز لاگو کرتی ہے جو پلگ انز کے لیے ہیں،
+جہاں فیلڈز موجود ہوں: `license.spdx` کو ایک درست SPDX اظہار کے طور پر پارس ہونا چاہیے
+(`invalid-spdx`)، اور `compat.harnessMin` کو بالکل درست SemVer ہونا چاہیے (`invalid-semver`)۔
+کوئی `invalid-sri` کیس نہیں — اسکل کے پاس `package.integrity` نہیں ہوتا۔
+
+### اسکل کی شناخت اور ڈی ڈیوپ
+
+اسکل کی معیاری کلید `skill:<source.repositoryNodeId>:<normalized subpath>` ہے۔ subpath صرف
+شناختی مقاصد کے لیے نارملائز کیا جاتا ہے: بیک سلیشز `/` بن جاتے ہیں، خالی اور `.` سیگمنٹس
+گرا دیے جاتے ہیں، اور خالی نتیجہ (یا `subpath: null`) `.` بن جاتا ہے — یعنی پوری ریپوزٹری۔
+NUL بائٹس یا `..` سیگمنٹس رکھنے والا subpath مسترد ہوتا ہے، کبھی "صاف" نہیں کیا جاتا۔ ایک ہی
+ریپوزٹری کی دو اسکلز دو اندراجات ہیں؛ وہی ریپوزٹری + subpath دو بار ایک ٹکراؤ ہے۔
+
+### کم سے کم اسکل مثال
+
+```yaml
+schemaVersion: 1
+id: alice-dsh-commit-lint-skill
+name: DSH Commit Lint Skill
+description:
+  en: Loads a commit-message linting skill that checks Conventional Commit shape before the harness commits.
+  evidencePath: skills/commit-lint/SKILL.md
+unofficial: true
+kind: skill
+skillScope: subdirectory
+primaryCategory: coding-developer-tools
+tags:
+  - git
+  - linting
+triggers:
+  - When the user asks to commit staged work
+source:
+  repository: https://github.com/alice/dsh-skills
+  repositoryNodeId: R_kgDOexample1
+  subpath: skills/commit-lint
+  commit: 0123456789abcdef0123456789abcdef01234567
+creator:
+  github: alice
+usage:
+  load: dsh skill load skills/commit-lint
+  evidencePath: skills/commit-lint/SKILL.md
+compat:
+  harnessMin: 1.4.0
+repositoryScope: monorepo
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-30T12:00:00Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
+```
+
 ## اسکیما کیا چیک نہیں کرتی
 
 اسکیما جان بوجھ کر مقامی اور ساختی ہے۔ یہ تصدیق **نہیں** کرتی کہ ریپوزٹری موجود ہے، node ID URL سے مطابقت رکھتا ہے، ثبوت کے راستے پن شدہ کمٹ پر موجود ہیں، ستاروں کی تعداد درست ہے، یا تخلیق کار سورس کا مالک ہے۔ وہ چیکس [CONTRIBUTING.md](../../CONTRIBUTING.md) اور [docs/GOVERNANCE.md](../../docs/GOVERNANCE.md) میں بیان کردہ مینٹینر جائزہ گیٹس سے تعلق رکھتی ہیں۔
