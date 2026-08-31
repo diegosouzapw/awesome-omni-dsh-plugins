@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: yangshen830-eng-dsh-editor
+name: dsh-editor
+description:
+  en: "DSH web plugin: a VS Code-style code editor view (file tree, Monaco, ripgrep search/replace, Markdown preview, git diff)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - code
+  - style
+  - editor
+  - view
+  - file
+  - tree
+  - monaco
+  - ripgrep
+  - search
+  - replace
+  - markdown
+  - preview
+  - diff
+  - dsh
+source:
+  repository: https://github.com/yangshen830-eng/dsh-editor
+  repositoryNodeId: R_kgDOT8IH4g
+  subpath: null
+  commit: dafd1d6a91366e37a53844e3d3ef35e34dd30dd9
+creator:
+  github: yangshen830-eng
+package:
+  ecosystem: npm
+  name: dsh-editor
+  version: 0.2.3
+  integrity: sha512-rtuV3tl/z+GjLZ95eX1lDUZpX+Sv76Llb5HfeOxRVQn0hzDOSq5IixbEUzD04WYn3zJkvtabsi2aJVi/ii+JzQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:13.632Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
