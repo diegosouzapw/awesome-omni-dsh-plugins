@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: nanshan1995-dsh-plugin-market
+name: dsh-plugin-market
+description:
+  en: "Plugin market inside DeepSeek Harness: browse, search, one-click install — every install/update passes a static security audit gate first."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - marketplace
+  - plugin-manager
+  - security
+  - audit
+source:
+  repository: https://github.com/nanshan1995/DSH-Plugin-Market
+  repositoryNodeId: R_kgDOT4edCQ
+  subpath: null
+  commit: cb79579df4f41be8902d53a64221e21367b46652
+creator:
+  github: nanshan1995
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T16:44:26.644Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
