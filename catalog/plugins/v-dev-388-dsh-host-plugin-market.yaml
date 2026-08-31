@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: v-dev-388-dsh-host-plugin-market
+name: "@deepseek-ai/dsh-host-plugin-market"
+description:
+  en: 'json { "version": 1, "plugins": [ { "id": "example-static", "name": "示例静态插件", "version": "1.0.0", "description": "一个经过校验的静态插件。", "type": "static", "downloadUrl": "https://example.com/plugins/example-static/index.js", "checksum": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef", "entry": "index.js", "p'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - json
+  - version
+  - example
+  - static
+  - name
+  - description
+  - type
+  - downloadurl
+  - index
+  - checksum
+  - 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+  - entry
+  - dsh
+source:
+  repository: https://github.com/V-dev-388/DSH-plugin-market
+  repositoryNodeId: R_kgDOT47kaA
+  subpath: null
+  commit: 0cc75c9d380af179fc4f576e4b3234b945541c08
+creator:
+  github: V-dev-388
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:25.705Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
