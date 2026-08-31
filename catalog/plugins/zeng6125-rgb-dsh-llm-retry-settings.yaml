@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: zeng6125-rgb-dsh-llm-retry-settings
+name: dsh-llm-retry-settings
+description:
+  en: A settings card for the DSH LLM auto-retry engine ( @deepseek-ai/dsh-llm-retry ). Tune the retry count and backoff from Settings → General ; changes take effect immediately.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - settings
+  - card
+  - auto
+  - retry
+  - engine
+  - tune
+  - count
+  - backoff
+  - general
+  - changes
+  - take
+  - effect
+  - immediately
+  - dsh
+source:
+  repository: https://github.com/zeng6125-rgb/dsh-llm-retry-settings
+  repositoryNodeId: R_kgDOT7QYSA
+  subpath: null
+  commit: 083f84810998f6950f9282a10a39c25d150cc78b
+creator:
+  github: zeng6125-rgb
+package:
+  ecosystem: npm
+  name: dsh-llm-retry-settings
+  version: 0.1.4
+  integrity: sha512-HYdA6TtaNSzlgcFK719UUZJPpODzl3XixeePLupgzZj+DB5nLtgLimy1QJToGDY98uYfhOs3mLqnnGzPhO7URQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-08-31T15:53:01.522Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
