@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: pasumao-dsh-notify
+name: dsh-notify
+description:
+  en: "Native Windows toast + system tray for DeepSeek Harness (dsh): the only dsh plugin with a tray icon. Pops the moment the agent stops running — finished / aborted / error / output limit / waiting for your choice / session closed — body labeled with workspace · session, so you can switch windows during long tasks and gla"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - notify
+  - notification
+  - toast
+  - windows-toast
+  - tray
+  - system-tray
+  - windows
+  - long-running
+  - agent-monitor
+source:
+  repository: https://github.com/Pasumao/dsh-plugin-notify
+  repositoryNodeId: R_kgDOT4amnw
+  subpath: null
+  commit: f0ee902be68f2b201ba45012844ee8dd9ac84eb8
+creator:
+  github: Pasumao
+package:
+  ecosystem: npm
+  name: dsh-notify
+  version: 0.1.6
+  integrity: sha512-iMAAIvnAO/KNAdk/QHUXOeSfjg6iP6STnOhJ3Eghk5umoFAFd4rclgfSsVEXZrcCISGLGItM9ItZD6DQt+OqnQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:16.663Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Pasumao/dsh-plugin-notify/f0ee902be68f2b201ba45012844ee8dd9ac84eb8/docs/notify-toast.png
+    alt: dsh-notify 实机截图：Windows 原生 Toast 通知
