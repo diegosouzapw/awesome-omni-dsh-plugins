@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-calculator
+name: "@deepseek-ai/dsh-tool-calculator"
+description:
+  en: DSH Calculator tool plugin — a safe mathematical expression evaluator. Zero dependencies, zero processes, pure functions.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - calculator
+  - tool
+  - safe
+  - mathematical
+  - expression
+  - evaluator
+  - zero
+  - dependencies
+  - processes
+  - pure
+  - functions
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-calculator
+  repositoryNodeId: R_kgDOTuNoQQ
+  subpath: null
+  commit: 9168c73ed58f79aa59e9a8921cff66ece3988e88
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.362Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 8
+provenance:
+  discussion: null
+  comment: null
