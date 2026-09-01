@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: weijiafu14-dsh-work-x
+name: dsh-work-x
+description:
+  en: "Batteries-included capability suite for DeepSeek Harness: MCP manager with lazy proxy + OAuth, parallel steerable subagents, side conversations, image generation — one install, every piece verified end to end."
+  evidencePath: dsh-x/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - mcp
+  - subagents
+  - pi2dsh
+source:
+  repository: https://github.com/weijiafu14/pi2dsh
+  repositoryNodeId: R_kgDOT3reRg
+  subpath: dsh-x
+  commit: f200553784f3e594acefcd8a653161b70f20cc70
+creator:
+  github: weijiafu14
+package:
+  ecosystem: npm
+  name: dsh-work-x
+  version: 0.3.0
+  integrity: sha512-fAPH3NVPk5sfJpcg0YaTi1RxlDJXXBZbewJ911B1dqbxgwoKXl3zSxpRqVt0LBtC9RkDWEo95iTkWil6mFsyMQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: dsh-x/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:15.461Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
