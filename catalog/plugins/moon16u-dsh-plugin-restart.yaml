@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: moon16u-dsh-plugin-restart
+name: "@moon16u/dsh-plugin-restart"
+description:
+  en: Schedule a detached DSH restart from inside DSH via /dsh-restart command or dsh restart agent tool
+  evidencePath: packages/dsh-plugin-restart/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - schedule
+  - detached
+  - restart
+  - inside
+  - command
+  - agent
+  - tool
+  - dsh
+source:
+  repository: https://github.com/moon16u/dsh-pouch
+  repositoryNodeId: R_kgDOT-10Xw
+  subpath: packages/dsh-plugin-restart
+  commit: b32d03cfc0a380af10dfabf6770407980f9f902d
+creator:
+  github: moon16u
+package:
+  ecosystem: npm
+  name: "@moon16u/dsh-plugin-restart"
+  version: 0.3.0
+  integrity: sha512-j+lw882jociXdX2VB+IdDiqKLG/eL0jFWqUbDysJfMX9DWdK8PcSbly7lhQt/hFznvqoCnRxFP0zb6aV19z90g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-restart/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:34.568Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
