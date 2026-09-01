@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-csv
+name: "@deepseek-ai/dsh-tool-csv"
+description:
+  en: "DSH CSV data tool: parse/query/stats over RFC 4180 CSV text, zero-dependency state-machine parser"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - data
+  - tool
+  - parse
+  - query
+  - stats
+  - over
+  - "4180"
+  - text
+  - zero
+  - dependency
+  - state
+  - machine
+  - parser
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-csv
+  repositoryNodeId: R_kgDOTxXM_w
+  subpath: null
+  commit: a882f555b2f81a2129f8c051d99be8f15008c6b0
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:15.261Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
