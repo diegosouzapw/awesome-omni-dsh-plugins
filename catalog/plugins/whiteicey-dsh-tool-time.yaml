@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-time
+name: "@deepseek-ai/dsh-tool-time"
+description:
+  en: DSH time tool plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - time
+  - tool
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-time
+  repositoryNodeId: R_kgDOTvRiZQ
+  subpath: null
+  commit: 1c6b8b2602294082b14a3c4a932f1686169f423c
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:16.443Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
