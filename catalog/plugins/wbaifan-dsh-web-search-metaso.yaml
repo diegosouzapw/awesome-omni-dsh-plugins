@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: wbaifan-dsh-web-search-metaso
+name: dsh-web-search-metaso
+description:
+  en: "Metaso (秘塔AI搜索) providers for the DeepSeek Harness web seam: web search returns page summaries, web fetch reads full page markdown"
+  evidencePath: packages/dsh-web-search-metaso/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - deepseek-harness
+  - metaso
+  - search
+  - web-search
+  - web-fetch
+source:
+  repository: https://github.com/TZHR-invest/dsh-plugins
+  repositoryNodeId: R_kgDOT3_JbQ
+  subpath: packages/dsh-web-search-metaso
+  commit: 6654ad5a12d09b533ec49711616ac22a87324363
+creator:
+  github: wbaifan
+package:
+  ecosystem: npm
+  name: dsh-web-search-metaso
+  version: 0.1.0
+  integrity: sha512-VwUY84lDLIX0Rhdt6SbmfiLN65mUg0Eh0hCvHou7FD5NKeTZvbiaDBXT5Bt7XMTTJXVlohniGWheO2ugmYaecw==
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-web-search-metaso/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:07.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
