@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: lxzy-7-dsh-plugin-guard
+name: dsh-plugin-guard
+description:
+  en: "A bad plugin install can leave the app unable to boot, and fixing it by hand usually means digging through config files. This plugin automates the whole chain:"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - cordis
+  - rollback
+  - snapshot
+  - guard
+source:
+  repository: https://github.com/lxzy-7/dsh-plugin-guard
+  repositoryNodeId: R_kgDOT56vtw
+  subpath: null
+  commit: c95036f33a2a10bb4c12d04a7f470747effe6532
+creator:
+  github: lxzy-7
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.409Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 36
+provenance:
+  discussion: null
+  comment: null
