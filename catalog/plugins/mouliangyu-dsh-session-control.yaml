@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: mouliangyu-dsh-session-control
+name: dsh-session-control
+description:
+  en: Global session and workspace management for DeepSeek Harness
+  evidencePath: packages/session-control/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - global
+  - session
+  - workspace
+  - management
+  - dsh
+source:
+  repository: https://github.com/mouliangyu/dsh-plugins
+  repositoryNodeId: R_kgDOT395xQ
+  subpath: packages/session-control
+  commit: ad19451d8f5ec2286c358197b5fb6e137f0ba064
+creator:
+  github: mouliangyu
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/session-control/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:39.793Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
