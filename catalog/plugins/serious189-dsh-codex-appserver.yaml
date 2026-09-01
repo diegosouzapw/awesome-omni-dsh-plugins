@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: serious189-dsh-codex-appserver
+name: dsh-codex-appserver
+description:
+  en: OpenAI Codex ChatGPT App Server provider for DeepSeek Harness
+  evidencePath: packages/dsh-codex-appserver/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - openai
+  - codex
+  - chatgpt
+  - server
+  - provider
+  - dsh
+source:
+  repository: https://github.com/seriousz158/dsh-codex-use
+  repositoryNodeId: R_kgDOT_dHHQ
+  subpath: packages/dsh-codex-appserver
+  commit: 9b81ed3d09252cd2ce3d69a64a3412f5a56bc5ce
+creator:
+  github: serious189
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-codex-appserver/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:42.380Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
