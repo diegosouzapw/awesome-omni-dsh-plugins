@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: woshishadowhunter-dsh-seed-society
+name: dsh-seed-society
+description:
+  en: "Yogacara eight-consciousness agent society for DeepSeek Harness: auditable double-loop runtime bridge, mneme memory consolidation tuning, MCP society tools, and six seed skills"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - dsh-plugin
+  - memory
+  - agents
+  - yogacara
+  - mneme
+  - dsh
+source:
+  repository: https://github.com/woshishadowhunter/dsh-seed-society
+  repositoryNodeId: R_kgDOUDcH4w
+  subpath: null
+  commit: ed95419f71e7fcd723e510d319cf1f3b0f348f91
+creator:
+  github: woshishadowhunter
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:15.034Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
