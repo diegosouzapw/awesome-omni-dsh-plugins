@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lkmeng2001-dsh-mcp-market
+name: dsh-mcp-market
+description:
+  en: "MCP server marketplace for DeepSeek Harness: browse a curated catalog of MCP servers and install them into the running profile with one click (powered by @deepseek-ai/dsh-mcp-client)."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - mcp
+  - mcp-server
+  - marketplace
+source:
+  repository: https://github.com/LKMeng2001/dsh-mcp-market
+  repositoryNodeId: R_kgDOT5Hjmg
+  subpath: null
+  commit: 21155c9a48a6320155d7d0e6de8706cddcc2eae4
+creator:
+  github: LKMeng2001
+package:
+  ecosystem: npm
+  name: dsh-mcp-market
+  version: 0.1.2
+  integrity: sha512-b7CQzhjAhT32URbCDkQtt6Nvd4tRgPeLhi9YMTZfAqi93/qK/z9twVNO8O0Qajx4LNDDua2sdOPMKD6jDyHYWQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:21.701Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
