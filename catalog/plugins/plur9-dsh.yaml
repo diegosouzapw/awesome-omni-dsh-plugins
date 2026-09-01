@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: plur9-dsh
+name: "@plur-ai/dsh"
+description:
+  en: PLUR memory for DeepSeek Harness — engrams injected straight into the prompt, no tool call required
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+  - agent-memory
+  - llm-memory
+  - persistent-memory
+  - local-first
+  - plur
+source:
+  repository: https://github.com/plur-ai/dsh-plugin
+  repositoryNodeId: R_kgDOT5Na4w
+  subpath: null
+  commit: 2c526f12fdb237ed3c303af96cbe2cdc93533d19
+creator:
+  github: plur9
+package:
+  ecosystem: npm
+  name: "@plur-ai/dsh"
+  version: 0.1.0
+  integrity: sha512-/imp3kMQ3ccPXMsSbEkhc9AStCWZRbk1yxS6zL24KApBuvRWrdfqs0z7T2NQMNDRw9xKTUuBIe5626X6u5DP5Q==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:23.217Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
