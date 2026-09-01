@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: jo32-dsh-provider-aware-web
+name: "@deepdeck/dsh-provider-aware-web"
+description:
+  en: This Cordis service replacement keeps the Harness ctx.web contract while selecting search through the provider used by the current agent request.
+  evidencePath: plugins/provider-aware-web/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - cordis
+  - service
+  - replacement
+  - keeps
+  - contract
+  - while
+  - selecting
+  - search
+  - through
+  - provider
+  - used
+  - current
+  - agent
+  - request
+  - dsh
+source:
+  repository: https://github.com/jo32/DeepDeck
+  repositoryNodeId: R_kgDOT6sjUA
+  subpath: plugins/provider-aware-web
+  commit: 01e4b6c1f5c17ba60c5fd8b3e2ec588d5741ea5c
+creator:
+  github: jo32
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/provider-aware-web/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:25.863Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
