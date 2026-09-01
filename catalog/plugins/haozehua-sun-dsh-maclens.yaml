@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: haozehua-sun-dsh-maclens
+name: dsh-maclens
+description:
+  en: "Bridge Apple's on-device Vision framework (macOS) into DeepSeek Harness: OCR, image classification, face detection, and document layout as local dsh tools. No network, no API key, no daemon."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - vision
+  - ocr
+  - macos
+  - apple
+  - on-device
+  - privacy
+source:
+  repository: https://github.com/Harzva/dsh-maclens
+  repositoryNodeId: R_kgDOT8oorQ
+  subpath: null
+  commit: 3d8c56110be0d7851332ecee2cf76707414b4a02
+creator:
+  github: haozehua-sun
+package:
+  ecosystem: npm
+  name: dsh-maclens
+  version: 0.1.2
+  integrity: sha512-sdAYRvA096xfTXXQ9erK3+erMlPuuKni1hj3+suWQ889ge91YtjrLaDi124kQ7PXNgtYzncTuhcV38De9km3YQ==
+dsh:
+  profiles:
+    - default
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:24.898Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
