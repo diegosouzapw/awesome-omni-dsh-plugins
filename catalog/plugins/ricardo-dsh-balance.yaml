@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: ricardo-dsh-balance
+name: dsh-balance
+description:
+  en: provider 供应商 展示内容 密钥 接口 --- --- --- --- --- deepseek / deepseek-official / deepseek-vision DeepSeek 官方（含 dsh-vision-router 的“DeepSeek+视觉” wrapper） ● 本会话 ¥X.XX · ● 余额 ¥465.46 DEEPSEEK API KEY GET api.deepseek.com/user/balance kimi-coding Kimi For Coding 5小时 3% 4h15m · 7天 31% 6d0h · 5分钟前 KIMI CODING API KEY （兼容 KIMI CODE
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - provider
+  - official
+  - vision
+  - router
+  - wrapper
+  - user
+  - balance
+  - kimi
+  - coding
+  - 4h15m
+  - 6d0h
+  - code
+  - dsh
+source:
+  repository: https://github.com/GeekRicardo/dsh-balance
+  repositoryNodeId: R_kgDOT4O8Ug
+  subpath: null
+  commit: 862cd404dbc283e17fb9c5317716311af2539671
+creator:
+  github: ricardo
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:16.661Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
