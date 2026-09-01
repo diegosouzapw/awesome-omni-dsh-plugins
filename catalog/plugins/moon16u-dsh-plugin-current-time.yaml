@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: moon16u-dsh-plugin-current-time
+name: "@moon16u/dsh-plugin-current-time"
+description:
+  en: Inject the host's current date and time into agent context at the start of every turn
+  evidencePath: packages/dsh-plugin-current-time/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - inject
+  - host
+  - current
+  - date
+  - time
+  - agent
+  - context
+  - start
+  - every
+  - turn
+  - dsh
+source:
+  repository: https://github.com/moon16u/dsh-pouch
+  repositoryNodeId: R_kgDOT-10Xw
+  subpath: packages/dsh-plugin-current-time
+  commit: b32d03cfc0a380af10dfabf6770407980f9f902d
+creator:
+  github: moon16u
+package:
+  ecosystem: npm
+  name: "@moon16u/dsh-plugin-current-time"
+  version: 0.2.0
+  integrity: sha512-m4eedLfkCmkjDu6rEyVBX6YmUSpia2Rrahn+BfA/KVK7wpCkfPJvBNEOtnL8bEb6T/nGSZhYlwsyzW1w/fqlYw==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-current-time/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:34.568Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
