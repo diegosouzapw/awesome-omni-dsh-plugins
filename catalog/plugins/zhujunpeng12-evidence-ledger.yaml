@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: zhujunpeng12-evidence-ledger
+name: evidence-ledger
+description:
+  en: "Tool-call ledger foundation for trajectory review: accumulates per-tool call counts and error classes across all sessions/workspaces into DSH HOME/storages/tool-telemetry.json, consumed by trajectory-review.py as the evidence layer."
+  evidencePath: plugins/evidence-ledger/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - tool
+  - call
+  - ledger
+  - foundation
+  - trajectory
+  - review
+  - accumulates
+  - counts
+  - error
+  - classes
+  - across
+  - sessions
+  - workspaces
+  - home
+  - storages
+  - telemetry
+source:
+  repository: https://github.com/zhujunpeng12/dsh-memory-system
+  repositoryNodeId: R_kgDOT4-qXQ
+  subpath: plugins/evidence-ledger
+  commit: 71d48bd105a91d0196e6c7489839dabd049182d4
+creator:
+  github: zhujunpeng12
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/evidence-ledger/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:17.364Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
