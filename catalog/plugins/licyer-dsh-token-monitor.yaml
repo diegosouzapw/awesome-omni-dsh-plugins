@@ -1,0 +1,68 @@
+schemaVersion: 1
+id: licyer-dsh-token-monitor
+name: dsh-token-monitor
+description:
+  en: sh dsh plugin --profile web add dsh-token-monitor
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - token-monitor
+  - usage
+  - quota
+  - kimi
+  - llm
+  - token-usage
+source:
+  repository: https://github.com/licyer/dsh-token-monitor
+  repositoryNodeId: R_kgDOT8OPcQ
+  subpath: null
+  commit: 2f1e265f37b67a75930bffe968ec391b9ce87b83
+creator:
+  github: licyer
+package:
+  ecosystem: npm
+  name: dsh-token-monitor
+  version: 1.0.2
+  integrity: sha512-TSd0f27KeEb0XQkkIQxEyoefpPlkZRhZhwp6DhGM3WURCPkQEQ/Y/hZetd50hp1Ld5Otgv/8bB3+buMm7pwYEw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:14.915Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/quota-popover.png
+    alt: 余量徽标与详情弹层
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/usage-trend.png
+    alt: 使用趋势
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/provider-bars.png
+    alt: 供应商消耗统计
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/heatmap.png
+    alt: 年度消耗热力图
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/usage-rank.png
+    alt: 使用排行
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/licyer/dsh-token-monitor/2f1e265f37b67a75930bffe968ec391b9ce87b83/docs/images/usage-records.png
+    alt: 请求记录
