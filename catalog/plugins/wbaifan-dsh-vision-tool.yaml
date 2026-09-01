@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: wbaifan-dsh-vision-tool
+name: dsh-vision-tool
+description:
+  en: "vision tool for DeepSeek Harness agents: describe local images via any OpenAI-compatible vision endpoint you configure (no built-in keys, optional multi-model cross-check)"
+  evidencePath: packages/dsh-vision/README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - vision
+  - tool
+  - agents
+  - describe
+  - local
+  - images
+  - openai
+  - compatible
+  - endpoint
+  - configure
+  - built
+  - keys
+  - optional
+  - multi
+  - model
+  - cross
+source:
+  repository: https://github.com/TZHR-invest/dsh-plugins
+  repositoryNodeId: R_kgDOT3_JbQ
+  subpath: packages/dsh-vision
+  commit: 6654ad5a12d09b533ec49711616ac22a87324363
+creator:
+  github: wbaifan
+package:
+  ecosystem: npm
+  name: dsh-vision-tool
+  version: 0.1.1
+  integrity: sha512-Yh5cNZDx+gcjboc8StC4tPLO8/laBWcYDkhSFY25UZhYjfzj/O9bzd/HykAIJ+2KpnUgdQx+tkPwjFZjLRr8wA==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-vision/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:07.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
