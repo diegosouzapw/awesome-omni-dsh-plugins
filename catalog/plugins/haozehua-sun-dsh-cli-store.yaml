@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: haozehua-sun-dsh-cli-store
+name: dsh-cli-store
+description:
+  en: A security-conscious registry and installer for external CLI tools exposed through DeepSeek Harness.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cli
+  - cli-manager
+  - developer-tools
+  - market
+source:
+  repository: https://github.com/Harzva/dsh-cli-store
+  repositoryNodeId: R_kgDOT-tJoA
+  subpath: null
+  commit: 9d9994817b97f22bfbda927a2f408ebdfea8ce61
+creator:
+  github: haozehua-sun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:19.018Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
