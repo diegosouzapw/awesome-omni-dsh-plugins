@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: haozehua-sun-dsh-agent-project-sync
+name: dsh-agent-project-sync
+description:
+  en: Discover Codex and Claude project directories and register them as shared DeepSeek Harness workspaces.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - codex
+  - claude-code
+  - workspace
+  - project-sync
+source:
+  repository: https://github.com/Harzva/dsh-agent-project-sync
+  repositoryNodeId: R_kgDOUBUrmg
+  subpath: null
+  commit: 5ff9b30f5a3cc4d798af7288920c539ac2d84515
+creator:
+  github: haozehua-sun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:18.890Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
