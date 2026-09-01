@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lvienoeria-dsh-launcher
+name: dsh-launcher
+description:
+  en: "A tiny DeepSeek Harness plugin that installs a terminal command to start the harness with one word : type dsh-go , and it starts the web UI and opens your browser. Everything is a plugin — this whole thing is just a bundle."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - launcher
+  - terminal
+source:
+  repository: https://github.com/LvienOeria/dsh-launcher
+  repositoryNodeId: R_kgDOT4BSDQ
+  subpath: null
+  commit: 1502f586e2017ec5f91a360480715999000c42b2
+creator:
+  github: LvienOeria
+package:
+  ecosystem: npm
+  name: dsh-launcher
+  version: 0.3.4
+  integrity: sha512-1C53lEF9ceK8lyVFuYWTLX5rlRXLRtylq4uhxwU++ll4jAKuo1YGehYP3iLGqj5BNrEXgSO5JsWCRVETcA9knw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:17.028Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
