@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-stat
+name: "@deepseek-ai/dsh-tool-stat"
+description:
+  en: "DSH statistics tool: describe/percentile/frequency/correlation over explicit finite numeric arrays, zero-dependency, deterministic, numerically stable (Neumaier sum + Welford variance + linear-interpolation percentiles + Spearman midrank)"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - statistics
+  - tool
+  - describe
+  - percentile
+  - frequency
+  - correlation
+  - over
+  - explicit
+  - finite
+  - numeric
+  - arrays
+  - zero
+  - dependency
+  - deterministic
+  - numerically
+  - stable
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-stat
+  repositoryNodeId: R_kgDOTz72_A
+  subpath: null
+  commit: dc934ddcb0fcfd45a39da37fc8871053f33d3b33
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.418Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
