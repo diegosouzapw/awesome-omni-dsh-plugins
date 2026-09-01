@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: tuogusa-dsh-session-nav
+name: dsh-session-nav
+description:
+  en: bash dsh plugin --profile web add github:tuogusa/dsh-session-nav
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - bash
+  - profile
+  - tuogusa
+  - session
+  - dsh
+source:
+  repository: https://github.com/tuogusa/dsh-session-nav
+  repositoryNodeId: R_kgDOT5Bt-A
+  subpath: null
+  commit: 53ba777ca94a3dc03d4aec939f37acba62e0c445
+creator:
+  github: tuogusa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:23.273Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
