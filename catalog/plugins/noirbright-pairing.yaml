@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: noirbright-pairing
+name: "@dsh-mobile/pairing"
+description:
+  en: "DSH Mobile Remote plugin: Host Gateway, Public Endpoint pairing, WebRTC Direct, encrypted Tunnel Fallback"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - mobile
+  - remote
+  - host
+  - gateway
+  - public
+  - endpoint
+  - pairing
+  - webrtc
+  - direct
+  - encrypted
+  - tunnel
+  - fallback
+  - dsh
+source:
+  repository: https://github.com/NOirBRight/dsh-mobile-pairing
+  repositoryNodeId: R_kgDOT_TNiw
+  subpath: null
+  commit: 279ec4ddd133104acaf54eb65558059ed3704a58
+creator:
+  github: NOirBRight
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:41.400Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
