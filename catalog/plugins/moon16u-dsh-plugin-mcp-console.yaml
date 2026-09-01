@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: moon16u-dsh-plugin-mcp-console
+name: "@moon16u/dsh-plugin-mcp-console"
+description:
+  en: "Web GUI console for MCP servers: manages the official @deepseek-ai/dsh-mcp-client at runtime — add/edit/enable/disable/reconnect/delete servers, live status, mcpServers JSON import. No MCP protocol code: connection and tool registration are 100% the official client, resolved from the running DSH profile."
+  evidencePath: packages/dsh-plugin-mcp-console/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - console
+  - servers
+  - manages
+  - official
+  - client
+  - runtime
+  - edit
+  - enable
+  - disable
+  - reconnect
+  - delete
+  - live
+  - status
+  - mcpservers
+  - json
+  - import
+source:
+  repository: https://github.com/moon16u/dsh-pouch
+  repositoryNodeId: R_kgDOT-10Xw
+  subpath: packages/dsh-plugin-mcp-console
+  commit: b32d03cfc0a380af10dfabf6770407980f9f902d
+creator:
+  github: moon16u
+package:
+  ecosystem: npm
+  name: "@moon16u/dsh-plugin-mcp-console"
+  version: 0.1.2
+  integrity: sha512-I2XDQfGTUXzprAZgUT9MM5DGo+kYCb60bHxpzMHHyud5xTConrc7uDHFwVaI2SWvcXhb6UxiPYeNAf9HvCTSMg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-mcp-console/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:34.568Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
