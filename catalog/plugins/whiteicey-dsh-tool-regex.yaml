@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-regex
+name: "@deepseek-ai/dsh-tool-regex"
+description:
+  en: "DSH regex tool: test/find/replace over text plus static pattern explanation, zero-dependency with ReDoS guards"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - regex
+  - tool
+  - test
+  - find
+  - replace
+  - over
+  - text
+  - plus
+  - static
+  - pattern
+  - explanation
+  - zero
+  - dependency
+  - redos
+  - guards
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-regex
+  repositoryNodeId: R_kgDOTxXNMA
+  subpath: null
+  commit: a24400e434582aa9a49786d86ff50cc79eda4afa
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:18.277Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
