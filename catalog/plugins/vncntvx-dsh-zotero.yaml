@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: vncntvx-dsh-zotero
+name: dsh-zotero
+description:
+  en: "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - zotero
+  - dsh
+  - deepseek-harness
+  - research
+  - literature
+source:
+  repository: https://github.com/Vncntvx/dsh-zotero
+  repositoryNodeId: R_kgDOT46EBA
+  subpath: null
+  commit: ae33e5b5332620a8307a789d75224c34577a0782
+creator:
+  github: Vncntvx
+package:
+  ecosystem: npm
+  name: dsh-zotero
+  version: 0.5.2
+  integrity: sha512-7HScAfmfkYYuI3ShB+hPev6fXaGVrGqgQ5d1UrmGHBttLcvsu0p7l+07k21Cv2txrfPfCzSFoKCbN1bIm1a/pA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.528Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Vncntvx/dsh-zotero/ae33e5b5332620a8307a789d75224c34577a0782/docs/images/header-collage.png
+    alt: dsh-zotero 界面：来源面板、证据提取、导出视图
