@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: lvienoeria-dsh-desktop-launcher
+name: dsh-desktop-launcher
+description:
+  en: "A tiny DeepSeek Harness plugin that installs a desktop double-click launcher for the harness: a dsh.app with the official black-whale icon (macOS) or a dsh.desktop entry (Linux). Double-click it and the web UI starts and your browser opens. Everything is a plugin — this whole thing is just a bundle."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - bundle
+  - launcher
+  - desktop
+source:
+  repository: https://github.com/LvienOeria/dsh-desktop-launcher
+  repositoryNodeId: R_kgDOT4CHOQ
+  subpath: null
+  commit: 9a09866cd6694669d77f3db1745eef73f30b997a
+creator:
+  github: LvienOeria
+package:
+  ecosystem: npm
+  name: dsh-desktop-launcher
+  version: 0.1.4
+  integrity: sha512-RN0fEUwZmIqfB9bN9S6ADGK8Hki7JLY+K8WST7jgQJPEtBCdpT/lM+5qUKRwLx0HJSJfmYC0Ic+EgmX8MBvsoQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:21.914Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
