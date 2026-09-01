@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-schema
+name: "@deepseek-ai/dsh-tool-schema"
+description:
+  en: "DSH JSON Schema validation tool: validate, failure paths, static explain, default-only normalize; zero-network, zero-dynamic-code with resource limits and a pattern ReDoS worker budget"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - json
+  - schema
+  - validation
+  - tool
+  - validate
+  - failure
+  - paths
+  - static
+  - explain
+  - default
+  - only
+  - normalize
+  - zero
+  - network
+  - dynamic
+  - code
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-schema
+  repositoryNodeId: R_kgDOTz73Gg
+  subpath: null
+  commit: 8f76dc68b07869348c4828b8f8ec598604e0933a
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:18.327Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
