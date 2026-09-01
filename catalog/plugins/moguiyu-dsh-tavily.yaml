@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: moguiyu-dsh-tavily
+name: "@moguiyu/dsh-tavily"
+description:
+  en: Opt-in advanced Tavily model tools for DeepSeek Harness with the Tavily Search settings card (rc.8 plugin management). The built-in web search is never replaced.
+  evidencePath: packages/dsh-tavily/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - tavily
+  - web-search
+  - tool
+source:
+  repository: https://github.com/moguiyu/dsh-tavily
+  repositoryNodeId: R_kgDOT5QALQ
+  subpath: packages/dsh-tavily
+  commit: f1367e83a1c46d90bca3bf144a6f5ce61bcb61e8
+creator:
+  github: moguiyu
+package:
+  ecosystem: npm
+  name: "@moguiyu/dsh-tavily"
+  version: 0.2.0
+  integrity: sha512-KOxrYDfPlFTm4wDxR+j+sIOambMzCan/n3UGehiqneLm22++dxVmO83NB1L2/eC2s1bkiJGhUtlR4Ep6Z3Kn+g==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-tavily/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:33.474Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
