@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: leemancheung-dsh-agent-arena
+name: dsh-agent-arena
+description:
+  en: Isolated multi-model coding matches with deterministic verification, scoring, and reports
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/LeemanCheung/dsh-agent-arena
+  repositoryNodeId: R_kgDOT5-frQ
+  subpath: null
+  commit: 2b494d2462244eb2565ac80aa44c0ce0f70ff311
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:16.803Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-agent-arena/2b494d2462244eb2565ac80aa44c0ce0f70ff311/assets/screenshots/overview.png
+    alt: Agent Arena results and diff review
