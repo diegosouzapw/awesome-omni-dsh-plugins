@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: wbaifan-dsh-auto-archive
+name: dsh-auto-archive
+description:
+  en: bash tail -f /tmp/dsh-web.log grep dsh-auto-archive
+  evidencePath: packages/dsh-auto-archive/README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - dsh
+  - deepseek-harness
+  - auto-archive
+  - session
+  - archive
+source:
+  repository: https://github.com/TZHR-invest/dsh-plugins
+  repositoryNodeId: R_kgDOT3_JbQ
+  subpath: packages/dsh-auto-archive
+  commit: 6654ad5a12d09b533ec49711616ac22a87324363
+creator:
+  github: wbaifan
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: packages/dsh-auto-archive/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:07.841Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
