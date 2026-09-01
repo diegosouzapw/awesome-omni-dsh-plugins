@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-encoding
+name: "@deepseek-ai/dsh-tool-encoding"
+description:
+  en: DSH encoding tool plugin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - encoding
+  - tool
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-encoding
+  repositoryNodeId: R_kgDOTvRidg
+  subpath: null
+  commit: 783f760123efa24a9ba81474a7d817a816e990c3
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:17.798Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
