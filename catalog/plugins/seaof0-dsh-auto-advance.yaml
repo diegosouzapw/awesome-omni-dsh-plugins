@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: seaof0-dsh-auto-advance
+name: "@dsh-external/dsh-auto-advance"
+description:
+  en: "Auto-advancer for the eight professional security presets: when a subagent-class executor returns and the intent ledger still has open directions, a followup nudge is injected carrying the ledger state — close the intent (done with output pointer / blocked with reason), then anchor-dispatch the next step or finish quie"
+  evidencePath: plugins/dsh-auto-advance/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - auto-advance
+  - intent-ledger
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-auto-advance
+  commit: fdae3e964c6cdb7760970488c2841488a9ffcba8
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-auto-advance/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:41.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
