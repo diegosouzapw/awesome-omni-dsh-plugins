@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: xing666173-dsh-bridge-preview
+name: dsh-bridge-preview
+description:
+  en: "[User sent an image (image.png), exported to: C:\\...\\dsh-vision-bridge\\image sha256:xxx.png. Inspect it with the inspect image tool to see its content.]"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - dsh
+  - deepseek-harness
+  - dsh-plugin
+  - client-plugin
+  - ui
+  - vision
+  - image-preview
+  - tool-vision
+source:
+  repository: https://github.com/xing666173/dsh-bridge-preview
+  repositoryNodeId: R_kgDOT8Xqxw
+  subpath: null
+  commit: 94e7516906895de30652aea62fa4930cbdc53ae0
+creator:
+  github: xing666173
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:23.479Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/xing666173/dsh-bridge-preview/94e7516906895de30652aea62fa4930cbdc53ae0/assets/screenshots/screenshot-conversation.png
+    alt: 对话内联预览
