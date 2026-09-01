@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: moguiyu-dsh-tavily-backend
+name: "@moguiyu/dsh-tavily-backend"
+description:
+  en: "Tavily settings backend for DeepSeek Harness: usage endpoint, flat key-list manager, and the opt-in advanced tavily search tool switch."
+  evidencePath: packages/dsh-tavily-backend/README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - tavily
+  - web-search
+source:
+  repository: https://github.com/moguiyu/dsh-tavily
+  repositoryNodeId: R_kgDOT5QALQ
+  subpath: packages/dsh-tavily-backend
+  commit: f1367e83a1c46d90bca3bf144a6f5ce61bcb61e8
+creator:
+  github: moguiyu
+package:
+  ecosystem: npm
+  name: "@moguiyu/dsh-tavily-backend"
+  version: 0.1.12
+  integrity: sha512-8XW1VvK9yZbaU5umIZB3nNtuJnjNj6vJheCaE+khmysNH4ioYY0lUNTf4MP98hz/twE2n/YA5mfWslFGHFSrBg==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-tavily-backend/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:33.474Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
