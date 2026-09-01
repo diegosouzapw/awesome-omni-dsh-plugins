@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: maxnull-dsh-capture
+name: "@max-null/dsh-capture"
+description:
+  en: "SSiD (思灵) quick screenshot capture: tray/hotkey → fullscreen box-select overlay → cropped image into the current conversation composer"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - ssid
+  - quick
+  - screenshot
+  - capture
+  - tray
+  - hotkey
+  - fullscreen
+  - select
+  - overlay
+  - cropped
+  - image
+  - current
+  - conversation
+  - composer
+  - dsh
+source:
+  repository: https://github.com/Max-Null/dsh-capture
+  repositoryNodeId: R_kgDOUA8lJw
+  subpath: null
+  commit: afc803e92cce0242e10735aa07d2efaa9769ad28
+creator:
+  github: maxnull
+package:
+  ecosystem: npm
+  name: "@max-null/dsh-capture"
+  version: 0.2.1
+  integrity: sha512-hPDsRsvDug0dsLsXWqN5UPdlo/vdrPkYi0asYMqMDgktATFCsrHKJMQFtbxXYnbAYZcrncqe6pAXim4ms0SXCg==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:22.560Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
