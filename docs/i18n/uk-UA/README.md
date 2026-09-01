@@ -16,7 +16,7 @@
   <a href="https://dsh-plugins.omniroute.online">Переглядайте, шукайте та встановлюйте будь-який плагін на сайті →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3526_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3613_merged-3fb950)](https://dsh-plugins.omniroute.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
@@ -121,7 +121,7 @@
 
 ## Статус каталогу
 
-**Об'єднано 3526 плагіни.** Кожен плагін потрапляє до каталогу через окремо розглянутий pull
+**Об'єднано 3613 плагіни.** Кожен плагін потрапляє до каталогу через окремо розглянутий pull
 request, по одному за раз, із репозиторію оригінального автора, із закріпленим вихідним
 комітом і явною вказівкою авторства.
 
@@ -340,4 +340,4 @@ issue. Ніколи не надсилайте облікові дані, при�
 
 </div>
 
-<!-- i18n-source-hash: 7bea15e412fffbbf6fffc7172898eea255e108a4787bdacf85b7d8c35911c8e3 -->
+<!-- i18n-source-hash: af1f73af435c21773feef4d09c1eaa2054480f2c9586b67e8929e407f157919c -->
