@@ -1,0 +1,63 @@
+schemaVersion: 1
+id: nexsjournal-dsh-vision-plugin
+name: dsh-vision-plugin
+description:
+  en: "DeepSeek Harness plugin: (1) installs an image-input (input modalities) checkbox into the Models settings catalog so a custom model can declare input:[text,image] and DSH passes images straight to it — the core feature; (2) optionally registers an OpenAI-compatible vision relay provider + vision analyze/vision status/v"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - installs
+  - image
+  - input
+  - modalities
+  - checkbox
+  - models
+  - settings
+  - catalog
+  - custom
+  - model
+  - declare
+  - text
+  - passes
+  - images
+  - straight
+  - core
+source:
+  repository: https://github.com/nexsjournal/dsh-vision-plugin
+  repositoryNodeId: R_kgDOT5r6HQ
+  subpath: null
+  commit: a9c3f557500614a735217453e2dbfc6a794dff53
+creator:
+  github: nexsjournal
+package:
+  ecosystem: npm
+  name: dsh-vision-plugin
+  version: 1.1.1
+  integrity: sha512-4Fw1FrTP8XLADCtB1O+c5kLyonmKnajBHNAVXbGYNNGu7dtzwKI+kJhrrw7DozhAaQQHT47ykbmpfqPUULkXxQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:15.191Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/nexsjournal/dsh-vision-plugin/a9c3f557500614a735217453e2dbfc6a794dff53/docs/banner.png
+    alt: dsh-vision-plugin
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/nexsjournal/dsh-vision-plugin/a9c3f557500614a735217453e2dbfc6a794dff53/docs/models-image-input.png
+    alt: 模型目录：展开模型后，在「最大输出 token」下方勾选「图片输入」
