@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: kaziii-dsh-ui-github
+name: dsh-ui-github
+description:
+  en: GitHub workflow UI for the DeepSeek Harness web client — the Connect GitHub settings section and the conversation PR status bar (create / AI-review / merge), driven entirely by dsh-github-connect's @Remote methods and forwarded events, bound to the client shell through a narrow injected port
+  evidencePath: packages/github/ui-github/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - workflow
+  - client
+  - connect
+  - settings
+  - section
+  - conversation
+  - status
+  - create
+  - review
+  - merge
+  - driven
+  - entirely
+  - remote
+  - methods
+  - forwarded
+  - events
+source:
+  repository: https://github.com/kaziii/dsh-github-connector
+  repositoryNodeId: R_kgDOT3ijLg
+  subpath: packages/github/ui-github
+  commit: 34117bfad325e47a30c5146d4b7c2421d07594b5
+creator:
+  github: kaziii
+package:
+  ecosystem: npm
+  name: dsh-ui-github
+  version: 0.1.4
+  integrity: sha512-WEidaLwUXTRYzVoGEbm2Cp+NQxveXSoQvRJ4kEoGaBMOwJeewv50MmEKF16TdFAKS+4ifrsCZB8Hwvw9ira4NQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/github/ui-github/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:26.476Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
