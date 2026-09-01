@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: sakuraaa667-dsh-wallpaper-engine
+name: dsh-wallpaper-engine
+description:
+  en: Use wallpapers downloaded in Wallpaper Engine as the DeepSeek Harness web background. 将 Wallpaper Engine 中已下载的壁纸用作 DeepSeek Harness 的背景。
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - dsh
+  - dsh-plugin
+  - wallpaper-engine
+  - background
+  - theme
+source:
+  repository: https://github.com/sakuraaa667/dsh-wallpaper-engine
+  repositoryNodeId: R_kgDOT59U1A
+  subpath: null
+  commit: fba60078781763d80bb5b84b8f907ef98e3a632b
+creator:
+  github: sakuraaa667
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.438Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 7
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/sakuraaa667/dsh-wallpaper-engine/fba60078781763d80bb5b84b8f907ef98e3a632b/assets/screenshot.jpg
+    alt: DeepSeek Harness 壁纸背景效果
