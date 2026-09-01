@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-markdown
+name: "@deepseek-ai/dsh-tool-markdown"
+description:
+  en: "DSH Markdown tool: HTML-to-Markdown conversion, whitelisted Markdown-to-HTML, GFM table normalization, TOC generation. Zero-dependency lightweight parsers."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - markdown
+  - tool
+  - html
+  - conversion
+  - whitelisted
+  - table
+  - normalization
+  - generation
+  - zero
+  - dependency
+  - lightweight
+  - parsers
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-markdown
+  repositoryNodeId: R_kgDOTySM0Q
+  subpath: null
+  commit: f4a2f8956bb0e26054bc5804fcdf1a64a551e107
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:15.230Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
