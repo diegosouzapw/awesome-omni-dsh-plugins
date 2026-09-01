@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: realdanny-dsh-file-drop
+name: dsh-file-drop
+description:
+  en: sh dsh plugin --profile web add "link:/Users/fanxiaokang/dsh-file-drop"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - profile
+  - link
+  - users
+  - fanxiaokang
+  - file
+  - drop
+  - dsh
+source:
+  repository: https://github.com/dannyvan/dsh-file-drop
+  repositoryNodeId: R_kgDOT5u3TA
+  subpath: null
+  commit: afa3ce99a6a167fb17ff65a1a4030d887d2869db
+creator:
+  github: realdanny
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:13.373Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 5
+provenance:
+  discussion: null
+  comment: null
