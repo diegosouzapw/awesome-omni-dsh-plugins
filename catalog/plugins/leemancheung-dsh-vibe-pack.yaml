@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: leemancheung-dsh-vibe-pack
+name: dsh-vibe-pack
+description:
+  en: Transactional data-only DSH configuration packs with integrity, ownership, and rollback
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/LeemanCheung/dsh-vibe-pack
+  repositoryNodeId: R_kgDOT5-fsQ
+  subpath: null
+  commit: 3f348f8e6c07365f367375b012abb6bf61cfea8e
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:19.703Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-vibe-pack/3f348f8e6c07365f367375b012abb6bf61cfea8e/assets/screenshots/overview.png
+    alt: Vibe Pack reviewed install plan
