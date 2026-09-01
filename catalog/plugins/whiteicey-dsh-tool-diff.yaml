@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-diff
+name: "@deepseek-ai/dsh-tool-diff"
+description:
+  en: "DSH diff tool: structured comparison of text/JSON/CSV/Markdown plus unified diff generation and in-memory patch validation. Zero-dependency, read-only."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: memory-rag
+tags:
+  - diff
+  - tool
+  - structured
+  - comparison
+  - text
+  - json
+  - markdown
+  - plus
+  - unified
+  - generation
+  - memory
+  - patch
+  - validation
+  - zero
+  - dependency
+  - read
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-diff
+  repositoryNodeId: R_kgDOTy7pLQ
+  subpath: null
+  commit: 596c6f2bcbbfeab9eadacacc2a80a09d1f5d897d
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:15.318Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
