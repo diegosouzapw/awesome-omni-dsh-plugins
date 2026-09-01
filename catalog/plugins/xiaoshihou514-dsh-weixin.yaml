@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: xiaoshihou514-dsh-weixin
+name: dsh-weixin
+description:
+  en: Control DeepSeek Harness remotely through Weixin
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: vision-audio-multimodal
+tags:
+  - deepseek-harness
+  - weixin
+  - wechat
+  - dsh
+source:
+  repository: https://github.com/xiaoshihou514/dsh-weixin
+  repositoryNodeId: R_kgDOT3e1uQ
+  subpath: null
+  commit: a83ecd355e751219c177f5e0e105075fd8680ac6
+creator:
+  github: xiaoshihou514
+package:
+  ecosystem: npm
+  name: dsh-weixin
+  version: 0.1.0
+  integrity: sha512-VY8zxXAIssGgXq61pWp6SSIkkiFv+g1eNnRcLNmAhRcZYDQT7bPHtEuwVFNJyajaMh9lxNqKNjTuFMqFdXpJPQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:16.444Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 4
+provenance:
+  discussion: null
+  comment: null
