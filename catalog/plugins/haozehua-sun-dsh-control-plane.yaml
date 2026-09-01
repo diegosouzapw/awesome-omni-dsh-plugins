@@ -1,0 +1,42 @@
+schemaVersion: 1
+id: haozehua-sun-dsh-control-plane
+name: dsh-control-plane
+description:
+  en: A local-first developer control plane for multiple DeepSeek Harness runtimes.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - developer-tools
+  - agent-runtime
+  - control-plane
+source:
+  repository: https://github.com/Harzva/dsh-control-plane
+  repositoryNodeId: R_kgDOT_cY2w
+  subpath: null
+  commit: 238b79d02a3b71d34d8eb68229eed161e32d4283
+creator:
+  github: haozehua-sun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:21.031Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
