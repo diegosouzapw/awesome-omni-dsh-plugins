@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: whiteicey-dsh-tool-json
+name: "@deepseek-ai/dsh-tool-json"
+description:
+  en: DSH JSON query tool plugin — JMESPath-inspired path queries (custom subset) with a zero-dependency recursive-descent parser.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - json
+  - query
+  - tool
+  - jmespath
+  - inspired
+  - path
+  - queries
+  - custom
+  - subset
+  - zero
+  - dependency
+  - recursive
+  - descent
+  - parser
+  - dsh
+source:
+  repository: https://github.com/omdsh-dev/dsh-tool-json
+  repositoryNodeId: R_kgDOTuTRQA
+  subpath: null
+  commit: 7e2a41692889f2b07de2fc24c8e8d24c7c6bda15
+creator:
+  github: whiteicey
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - headless
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:18.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
