@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: yifanxuaaa-dsh-workbench-ui
+name: dsh-workbench-ui
+description:
+  en: A right-side Workbench surface for DeepSeek Harness client plugins
+  evidencePath: work-bench-ui/README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - right
+  - side
+  - workbench
+  - surface
+  - client
+  - dsh
+source:
+  repository: https://github.com/Ephemeral-AI-Lab/dsh-plugins
+  repositoryNodeId: R_kgDOT5uUvw
+  subpath: work-bench-ui
+  commit: 05c50f3a54fff7bed7ee6325dc322a9b5ea20460
+creator:
+  github: yifanxuaaa
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: work-bench-ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:24.314Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
