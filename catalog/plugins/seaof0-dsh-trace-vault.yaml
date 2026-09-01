@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: seaof0-dsh-trace-vault
+name: "@dsh-external/dsh-trace-vault"
+description:
+  en: "Process vault for the nine security presets: zero-touch capture of every tool call (tool/call + tool/result paired by callId) into a local SQLite store with outcome classification (ok / blocked / error), plus model-side trace search / trace get / trace recent tools — cross-compaction process memory and the failure-attr"
+  evidencePath: plugins/dsh-trace-vault/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh-bundle
+  - trace-vault
+  - process-memory
+  - dsh
+source:
+  repository: https://github.com/SeaOf0/dsh-redteam-model
+  repositoryNodeId: R_kgDOT67RoQ
+  subpath: plugins/dsh-trace-vault
+  commit: fdae3e964c6cdb7760970488c2841488a9ffcba8
+creator:
+  github: SeaOf0
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: plugins/dsh-trace-vault/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:41.889Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
