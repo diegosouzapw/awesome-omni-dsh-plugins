@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: moon16u-dsh-plugin-llm-headers
+name: "@moon16u/dsh-plugin-llm-headers"
+description:
+  en: Hand-declared pi-ai LLM routes for DeepSeek Harness whose configured request headers reach the wire, including the ones the harness reserves
+  evidencePath: packages/dsh-plugin-llm-headers/README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - llm
+  - pi-ai
+  - user-agent
+source:
+  repository: https://github.com/moon16u/dsh-pouch
+  repositoryNodeId: R_kgDOT-10Xw
+  subpath: packages/dsh-plugin-llm-headers
+  commit: b32d03cfc0a380af10dfabf6770407980f9f902d
+creator:
+  github: moon16u
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-plugin-llm-headers/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:34.568Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
