@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: relistencode-dsh-myrules
+name: dsh-myrules
+description:
+  en: 'My Rules for DeepSeek Harness (DSH): edit your host-wide global instructions from the DSH Web settings page. A "Customize" section (个性化) provides a multi-line editor for $DSH HOME/AGENTS.md — the file dsh-agent-instructions injects into every session on this machine as a durable instruction block.'
+  evidencePath: packages/dsh-myrules/README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - deepseek-harness
+  - instructions
+  - agents
+  - global-rules
+  - cordis
+source:
+  repository: https://github.com/Relistencode/dsh-extension-hub
+  repositoryNodeId: R_kgDOT4tCvw
+  subpath: packages/dsh-myrules
+  commit: ef7021ce3263f85e7ac981e095d1ba1370529ca6
+creator:
+  github: Relistencode
+package:
+  ecosystem: npm
+  name: dsh-myrules
+  version: 0.1.1
+  integrity: sha512-LJFhDUSDqUhtpdD77K3AGx8EoijykjEQCX8XArwg37KW2EUXdzZJaabUIBemmH8D/0FC8fe1QA2UQ3tdUbY5fQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-myrules/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:41.882Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
