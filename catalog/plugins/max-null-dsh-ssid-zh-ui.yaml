@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: max-null-dsh-ssid-zh-ui
+name: "@max-null/dsh-ssid-zh-ui"
+description:
+  en: "SSiD (思灵) input-bar localization: Chinese command descriptions and permission preset labels for the DSH web GUI"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - ssid
+  - input
+  - localization
+  - chinese
+  - command
+  - descriptions
+  - permission
+  - preset
+  - labels
+  - dsh
+source:
+  repository: https://github.com/Max-Null/seek-soul-in-darkness
+  repositoryNodeId: R_kgDOT5byLA
+  subpath: plugins/dsh-ssid-zh-ui
+  commit: 0fdb24d6bb2f10df4d7e3f00f0dc8e5ed890de9f
+creator:
+  github: Max-Null
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-ssid-zh-ui/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:27.757Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Max-Null/seek-soul-in-darkness/0fdb24d6bb2f10df4d7e3f00f0dc8e5ed890de9f/assets/logo.png
+    alt: SSiD logo — Si 原子，原子核是瞳孔
