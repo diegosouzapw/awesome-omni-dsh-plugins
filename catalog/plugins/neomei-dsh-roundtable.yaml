@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: neomei-dsh-roundtable
+name: dsh-roundtable
+description:
+  en: Roundtable (圆桌讨论) multi-agent discussion plugin for DeepSeek Harness — host engine, model-facing tool, and web sidebar entry.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - roundtable
+  - multi
+  - agent
+  - discussion
+  - host
+  - engine
+  - model
+  - facing
+  - tool
+  - sidebar
+  - entry
+  - dsh
+source:
+  repository: https://github.com/NeoMei/dsh-roundtable
+  repositoryNodeId: R_kgDOT8Xbqg
+  subpath: null
+  commit: 6c251e61e5acedda329df799013c84e1b8bd1e68
+creator:
+  github: NeoMei
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:22.834Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
