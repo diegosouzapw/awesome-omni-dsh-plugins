@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: leemancheung-dsh-skin-studio
+name: dsh-skin-studio
+description:
+  en: A local token-safe DSH theme generator, editor, auditor, and exporter
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/LeemanCheung/dsh-skin-studio
+  repositoryNodeId: R_kgDOT5-fqw
+  subpath: null
+  commit: e855106bc832c9102bea265b039fa5572e5fa679
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:19.107Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-skin-studio/e855106bc832c9102bea265b039fa5572e5fa679/assets/screenshots/overview.png
+    alt: Skin Studio token editor and preview
