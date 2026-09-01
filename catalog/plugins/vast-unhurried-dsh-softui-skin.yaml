@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: vast-unhurried-dsh-softui-skin
+name: dsh-softui-skin
+description:
+  en: "A collection of purely incremental native plugins for DeepSeek Harness: sticky notes , API balance & per-turn cost , reasoning levels , session deletion , conversation node navigation , and a soft-UI skin ."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - theme
+  - skin
+  - neumorphism
+  - soft-ui
+  - web-ui
+source:
+  repository: https://github.com/Vast-Unhurried/dsh-toolkit
+  repositoryNodeId: R_kgDOT5-XIg
+  subpath: packages/dsh-softui-skin
+  commit: f86506fa5d1199cb21d3e49b6a1a850a6f1c9b11
+creator:
+  github: Vast-Unhurried
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: packages/dsh-softui-skin/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:20.618Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/Vast-Unhurried/dsh-toolkit/f86506fa5d1199cb21d3e49b6a1a850a6f1c9b11/packages/dsh-softui-skin/preview.jpg
+    alt: dsh-softui-skin 预览
