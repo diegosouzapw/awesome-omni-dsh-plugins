@@ -1,0 +1,51 @@
+schemaVersion: 1
+id: leemancheung-dsh-whale-companion
+name: dsh-whale-companion
+description:
+  en: A local-first DSH whale world with a named SVG companion, dynamic goals, collectibles, expeditions, and privacy-safe sharing
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: entertainment-customization
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - cordis
+source:
+  repository: https://github.com/LeemanCheung/dsh-whale-companion
+  repositoryNodeId: R_kgDOT5-frg
+  subpath: null
+  commit: fdfb6e6707901ed6a1980fd56b630af64f49d287
+creator:
+  github: LeemanCheung
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:19.770Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-companion/fdfb6e6707901ed6a1980fd56b630af64f49d287/assets/screenshots/overview.png
+    alt: Whale Companion overview
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-companion/fdfb6e6707901ed6a1980fd56b630af64f49d287/assets/screenshots/atlas.png
+    alt: Whale Companion atlas
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/LeemanCheung/dsh-whale-companion/fdfb6e6707901ed6a1980fd56b630af64f49d287/assets/screenshots/customize.png
+    alt: Whale Companion skins, achievements, and local backup
