@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: michengai-dsh-codex-suite
+name: "@michengai/dsh-codex-suite"
+description:
+  en: "@michengai/dsh-codex-suite is not recommended for new installations. It remains in source form only for compatibility and migration of existing profiles; no new versions are published."
+  evidencePath: packages/dsh-codex-suite/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - michengai
+  - codex
+  - suite
+  - recommended
+  - installations
+  - remains
+  - source
+  - form
+  - only
+  - compatibility
+  - migration
+  - existing
+  - profiles
+  - versions
+  - published
+  - dsh
+source:
+  repository: https://github.com/MichengAI/dsh-codex-ui
+  repositoryNodeId: R_kgDOT4iDRA
+  subpath: packages/dsh-codex-suite
+  commit: 4bfd4656d86a96363036ec1a205c3575bb88eae0
+creator:
+  github: MichengAI
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - default
+  evidencePath: packages/dsh-codex-suite/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:31.572Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
