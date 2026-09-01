@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: zevorn-web
+name: "@oh-dsh/web"
+description:
+  en: "Oh-DSH Web: a packaged DeepSeek Harness browser runtime with Oh-DSH plugin capabilities"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: browser-automation
+tags:
+  - packaged
+  - browser
+  - runtime
+  - capabilities
+  - dsh
+source:
+  repository: https://github.com/hust-open-atom-club/oh-dsh
+  repositoryNodeId: R_kgDOT05OeQ
+  subpath: web
+  commit: d19353a3ecb4faabaf63bedd27a2dd0e6abd3b80
+creator:
+  github: zevorn
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: web/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:25.356Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/hust-open-atom-club/oh-dsh/d19353a3ecb4faabaf63bedd27a2dd0e6abd3b80/assets/oh-dsh-plugin-marketplace.png
+    alt: Oh-DSH 插件市场
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/hust-open-atom-club/oh-dsh/d19353a3ecb4faabaf63bedd27a2dd0e6abd3b80/assets/oh-dsh-desktop-skins.png
+    alt: Oh-DSH 跨界面皮肤
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/hust-open-atom-club/oh-dsh/d19353a3ecb4faabaf63bedd27a2dd0e6abd3b80/assets/dsh-whale.png
+    alt: Oh-DSH whale
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/hust-open-atom-club/oh-dsh/d19353a3ecb4faabaf63bedd27a2dd0e6abd3b80/assets/oh-dsh-desktop-readme.png
+    alt: Oh-DSH Desktop 界面展示
