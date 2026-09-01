@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tttnny-dsh-a6api
+name: "@lynn123411/dsh-a6api"
+description:
+  en: bash dsh plugin --profile web add @lynn123411/dsh-a6api
+  evidencePath: plugins/dsh-a6api/README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - a6api
+  - llm-provider
+  - marketplace
+  - web-ui
+source:
+  repository: https://github.com/tttnny/my-dsh
+  repositoryNodeId: R_kgDOT91T7A
+  subpath: plugins/dsh-a6api
+  commit: d1ffda68c1016facc7d5b393f90eae1ec57b3cf3
+creator:
+  github: tttnny
+package:
+  ecosystem: npm
+  name: "@lynn123411/dsh-a6api"
+  version: 1.0.1
+  integrity: sha512-uafWfLLXoJ4AcXBDyzPYoE8B0ZH8Du8SrFRUxusnOv0L/pNJh8liCVSjrOOlc0M+WKmwJforvj1IIqVcI6P5NQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-a6api/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:07.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
