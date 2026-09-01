@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: qingqingpi-dsh-design-qa
+name: dsh-design-qa
+description:
+  en: Let text-only models in DeepSeek Harness read images.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - dsh
+  - vision
+  - design-qa
+  - visual-regression
+  - design-review
+  - multimodal
+  - qwen-vl
+  - openai-compatible
+source:
+  repository: https://github.com/sunxin-ai/dsh-design-qa
+  repositoryNodeId: R_kgDOT7UkHQ
+  subpath: null
+  commit: a760f72e965e0a650fc03ba5df3802316f28756a
+creator:
+  github: qingqingpi
+package:
+  ecosystem: npm
+  name: dsh-design-qa
+  version: 0.1.4
+  integrity: sha512-lzOonhZMAIZ+mWgQ1x+9LG9h6PGkAtyOeDfF1kG5DeWjxLcJBh4k3l54tFCTzqKlk3x8BNxJ/TLbJDwdNGRyGw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:20.315Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+provenance:
+  discussion: null
+  comment: null
