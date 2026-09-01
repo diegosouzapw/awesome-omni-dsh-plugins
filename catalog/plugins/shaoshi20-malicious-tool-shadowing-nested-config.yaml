@@ -1,0 +1,57 @@
+schemaVersion: 1
+id: shaoshi20-malicious-tool-shadowing-nested-config
+name: malicious-tool-shadowing-nested-config
+description:
+  en: "Security scanner for DSH plugins: static and semantic passes over plugin source, DSH-specific attack-surface rules, npm audit, batch scanning, and an HTML report with per-finding severity and evidence."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - security
+  - scanner
+  - static
+  - semantic
+  - passes
+  - over
+  - source
+  - specific
+  - attack
+  - surface
+  - rules
+  - audit
+  - batch
+  - scanning
+  - html
+  - report
+source:
+  repository: https://github.com/shaoshi20/dshscan
+  repositoryNodeId: R_kgDOT8KcWw
+  subpath: benchmark/cases/malicious-tool-shadowing-nested-config
+  commit: 0633b01b2cdfa778b308b273580d4dffee28f661
+creator:
+  github: shaoshi20
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: benchmark/cases/malicious-tool-shadowing-nested-config/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:43.009Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/shaoshi20/dshscan/0633b01b2cdfa778b308b273580d4dffee28f661/docs/demo-report.png
+    alt: DShScan Demo Report
