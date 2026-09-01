@@ -1,0 +1,47 @@
+schemaVersion: 1
+id: tttnny-dsh-chat-translate
+name: "@lynn123411/dsh-chat-translate"
+description:
+  en: Tool-call & think-summary translation with dual AI (OpenAI-compatible) + Bing channels for the DeepSeek Harness Web UI
+  evidencePath: plugins/dsh-chat-translate/README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - translation
+  - i18n
+  - openai
+  - web-ui
+source:
+  repository: https://github.com/tttnny/my-dsh
+  repositoryNodeId: R_kgDOT91T7A
+  subpath: plugins/dsh-chat-translate
+  commit: d1ffda68c1016facc7d5b393f90eae1ec57b3cf3
+creator:
+  github: tttnny
+package:
+  ecosystem: npm
+  name: "@lynn123411/dsh-chat-translate"
+  version: 1.1.0
+  integrity: sha512-MS57KDbYXRJrdPM+VgALCPrm55bY9VD9ajsRj7dTeyG99CHT8bWmO6TufdqXaXlcI5om54OubaM+97Ufz8VPWA==
+dsh:
+  profiles:
+    - web
+  evidencePath: plugins/dsh-chat-translate/cordis.patch.yml
+repositoryScope: monorepo
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:12:07.958Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
