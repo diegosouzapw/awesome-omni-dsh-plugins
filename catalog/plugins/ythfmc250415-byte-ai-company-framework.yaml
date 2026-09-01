@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: ythfmc250415-byte-ai-company-framework
+name: ai-company-framework
+description:
+  en: "Single-download DeepSeek Harness bundle: multi-agent company Skills, workflow templates, AgentTeams runtime, employee sidebar and Feishu bot bridge. v0.3.10: explicit memory-mode field (three-layer / single) in role skeletons. v0.3.9: full feishu scopes + extraScopes. v0.3.8: cross-group merge. v0.3.7: generic customer"
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: data-external-services
+tags:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - multi-agent
+  - workflow
+  - skills
+  - agent-teams
+  - feishu
+source:
+  repository: https://github.com/yyyy231209/ai-company-framework
+  repositoryNodeId: R_kgDOT8YlFA
+  subpath: null
+  commit: 465d08361dfcb03cf5958c648c4d3551189803e0
+creator:
+  github: ythfmc250415-byte
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:15.012Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 6
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yyyy231209/ai-company-framework/465d08361dfcb03cf5958c648c4d3551189803e0/assets/screenshots/agentteams-activity.png
+    alt: AgentTeams
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yyyy231209/ai-company-framework/465d08361dfcb03cf5958c648c4d3551189803e0/assets/screenshots/employee-sidebar.png
+    alt: Sidebar
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/yyyy231209/ai-company-framework/465d08361dfcb03cf5958c648c4d3551189803e0/assets/screenshots/company-created.png
+    alt: Company
