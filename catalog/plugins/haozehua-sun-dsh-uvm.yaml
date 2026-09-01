@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: haozehua-sun-dsh-uvm
+name: "@harness-flow/dsh-uvm"
+description:
+  en: DSH-native uv environment manager with pip fallback and conda visibility
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - uv
+  - uvm
+  - venv
+  - virtualenv
+  - environment-management
+  - python
+source:
+  repository: https://github.com/Harzva/dsh-uvm
+  repositoryNodeId: R_kgDOT9eciQ
+  subpath: null
+  commit: f5bab7a5e2bb2a530e3b7dc1a89378dedbe0183f
+creator:
+  github: haozehua-sun
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-01T03:11:21.567Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
