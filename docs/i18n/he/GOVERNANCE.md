@@ -106,7 +106,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   ב-[docs/CREDIT.md](../../docs/CREDIT.md). אצירה לעולם אינה גוברת על תרומת יוצר ישירה
   שמגיעה אחר כך.
 - **מתחזקים** בודקים, מיישמים את שערי הראיה, פותרים התנגשויות וממזגים. הם גם מתחזקים את
-  האתר (‏[dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) ואת ה-CLI
+  האתר (‏[dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) ואת ה-CLI
   המפורסם ממקור פרטי; הנתונים הציבוריים, הסכימה והמדיניות של מאגר זה הם מה שמשטחים אלה
   צורכים.
 

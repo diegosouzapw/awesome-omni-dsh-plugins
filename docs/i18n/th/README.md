@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — แคตตาล็อกที่ให้ความสำคัญกับผู้สร้างเป็นอันดับแรก และติดตั้งปลั๊กอิน DeepSeek Harness ได้ด้วยคำสั่งเดียว คอมมิตต้นทางถูกตรึงไว้ ให้เครดิตผู้สร้าง และทุกปลั๊กอินผ่านการรีวิว PR หนึ่งครั้ง dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — แคตตาล็อกที่ให้ความสำคัญกับผู้สร้างเป็นอันดับแรก และติดตั้งปลั๊กอิน DeepSeek Harness ได้ด้วยคำสั่งเดียว คอมมิตต้นทางถูกตรึงไว้ ให้เครดิตผู้สร้าง และทุกปลั๊กอินผ่านการรีวิว PR หนึ่งครั้ง dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 การค้นหาและติดตั้งปลั๊กอิน **DeepSeek Harness (DSH)** ด้วยคำสั่งเดียว โดยให้ความสำคัญกับผู้สร้างเป็นอันดับแรก
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">เรียกดู ค้นหา และติดตั้งปลั๊กอินทั้งหมดได้ที่เว็บไซต์ →</a>
+  <a href="https://dsh-plugins.omniskill.online">เรียกดู ค้นหา และติดตั้งปลั๊กอินทั้งหมดได้ที่เว็บไซต์ →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -94,7 +94,7 @@
 
 <div align="center">
 
-### 👉 [**ค้นหาปลั๊กอินทั้งหมด อ่านรายละเอียด และคัดลอกคำสั่งติดตั้งได้ที่เว็บไซต์ →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**ค้นหาปลั๊กอินทั้งหมด อ่านรายละเอียด และคัดลอกคำสั่งติดตั้งได้ที่เว็บไซต์ →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -102,11 +102,11 @@
 
 | ส่วนประกอบ     | คืออะไร                                                       | อยู่ที่ไหน                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **เว็บไซต์** | ตัวเรียกดูแคตตาล็อกแบบเรนเดอร์ พร้อมการค้นหาและการจัดอันดับ                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **เว็บไซต์** | ตัวเรียกดูแคตตาล็อกแบบเรนเดอร์ พร้อมการค้นหาและการจัดอันดับ                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **แคตตาล็อก** | ไฟล์ YAML หนึ่งไฟล์ต่อหนึ่งปลั๊กอิน คือแหล่งข้อมูลจริงเพียงแหล่งเดียว             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **สคีมา**  | JSON Schema สาธารณะ (draft 2020-12) ที่ทุกรายการต้องตรวจสอบผ่าน | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | ค้นหา ตรวจสอบข้อมูล ยืนยันความถูกต้อง และติดตั้งจากแคตตาล็อก           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **ฟีดสำหรับเครื่องจักร** | `catalog.json` + `catalog.snapshot.json` สำหรับเครื่องมือต่าง ๆ           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **ฟีดสำหรับเครื่องจักร** | `catalog.json` + `catalog.snapshot.json` สำหรับเครื่องมือต่าง ๆ           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 รีโพซิทอรีนี้คือแหล่งข้อมูลจริงสาธารณะของแคตตาล็อก ทุกรายการที่ลงคือไฟล์ YAML หนึ่งไฟล์ภายใต้ `catalog/plugins/`
 ผ่านการตรวจสอบด้วย JSON Schema ที่เผยแพร่ไว้ ถูกเพิ่มผ่านพูลรีเควสต์ที่รีวิวแยกทีละรายการ และให้เครดิตแก่ผู้สร้างดั้งเดิม
@@ -319,7 +319,7 @@ README ฉบับนี้มีให้บริการ 43 ภาษาภ
 
 ### ⭐ หากแคตตาล็อกนี้ช่วยให้คุณค้นพบปลั๊กอินที่ต้องการ ช่วยกดดาวให้รีโพซิทอรีนี้ด้วย — จะช่วยให้ผู้คนค้นพบผลงานของผู้สร้างมากขึ้น
 
-**[เรียกดูปลั๊กอินทั้งหมดบนเว็บไซต์ →](https://dsh-plugins.omniroute.online)**
+**[เรียกดูปลั๊กอินทั้งหมดบนเว็บไซต์ →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

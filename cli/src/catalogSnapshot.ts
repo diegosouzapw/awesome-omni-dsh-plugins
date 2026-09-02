@@ -28,7 +28,7 @@ export const PUBLIC_CATALOG_RAW_ORIGIN =
 // generated snapshot at this stable URL instead; the user-supplied --revision stays the trust
 // anchor because parseSnapshot rejects any envelope whose declared revision differs from it.
 export const PUBLIC_SNAPSHOT_SITE_URL =
-  "https://dsh-plugins.omniroute.online/catalog.snapshot.json";
+  "https://dsh-plugins.omniskill.online/catalog.snapshot.json";
 
 // Raised 2026-08-29 (see catalog-validation outage, #cli-catalog-ceilings): the public
 // catalog crossed 2,081 entries and tripped the old `files: 2_048` ceiling on every PR and

@@ -114,7 +114,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   [docs/CREDIT.md](../../docs/CREDIT.md) માંના આદરપૂર્ણ-સંપર્ક અને ક્રેડિટ નિયમો હેઠળ. ક્યુરેશન ક્યારેય
   પછીના સીધા ક્રિએટર યોગદાન કરતાં ઉપર આવતું નથી.
 - **મેન્ટેનર્સ** રિવ્યૂ કરે છે, પ્રોવેનન્સ ગેટ્સ લાગુ કરે છે, કોલિઝન ઉકેલે છે અને મર્જ કરે છે. તેઓ
-  વેબસાઇટ ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  વેબસાઇટ ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   અને પ્રકાશિત CLI ખાનગી સોર્સમાંથી પણ જાળવે છે; આ રિપોઝિટરીનો પબ્લિક ડેટા, સ્કીમા અને પોલિસીઓ
   જ તે સરફેસ વાપરે છે.
 

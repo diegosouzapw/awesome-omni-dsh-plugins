@@ -108,7 +108,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   따라, 아직 기여하지 않은 크리에이터를 위해 항목을 큐레이션할 수 있습니다. 큐레이션은 절대
   이후의 직접적인 크리에이터 기여보다 우선하지 않습니다.
 - **메인테이너**는 검토하고, 프로버넌스 게이트를 적용하고, 충돌을 해결하고, 병합합니다. 또한
-  웹사이트([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))와 비공개
+  웹사이트([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))와 비공개
   소스로부터의 배포된 CLI를 유지 관리합니다; 이 저장소의 공개 데이터, 스키마, 정책이 바로 그
   표면들이 소비하는 것입니다.
 

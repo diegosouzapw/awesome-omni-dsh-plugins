@@ -377,9 +377,9 @@ describe("catalog snapshot materialization", () => {
   });
 
   it.each([
-    "https://dsh-plugins.omniroute.online/other.json",
-    "https://dsh-plugins.omniroute.online/catalog.snapshot.json?x=1",
-    "https://dsh-plugins.omniroute.online:8443/catalog.snapshot.json",
+    "https://dsh-plugins.omniskill.online/other.json",
+    "https://dsh-plugins.omniskill.online/catalog.snapshot.json?x=1",
+    "https://dsh-plugins.omniskill.online:8443/catalog.snapshot.json",
     "https://evil.invalid/catalog.snapshot.json",
   ])("rejects the near-miss site URL %s without fetching", async (badUrl) => {
     let fetched = false;

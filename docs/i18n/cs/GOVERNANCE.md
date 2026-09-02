@@ -119,7 +119,7 @@ Pravidla platná pro všechny tři postupy:
   podle pravidel uctivého kontaktu a kreditu v [docs/CREDIT.md](../../docs/CREDIT.md).
   Kurátorství nikdy nepřeváží pozdější přímý příspěvek tvůrce.
 - **Správci** posuzují, uplatňují brány původu, řeší kolize a slučují. Udržují také web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) a publikované CLI ze
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) a publikované CLI ze
   soukromého zdroje; veřejná data, schéma a zásady tohoto repozitáře jsou to, co tyto povrchy
   konzumují.
 

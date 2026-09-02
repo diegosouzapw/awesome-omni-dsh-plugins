@@ -113,7 +113,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   ールの下で、まだ貢献していないクリエイターのためにエントリをキュレートできます。キュレーションが、その
   後の直接のクリエイターによる貢献より優先されることは決してありません。
 - **メンテナー** は、レビューを行い、来歴ゲートを適用し、衝突を解決し、マージを行います。彼らはまた、非
-  公開のソースから、ウェブサイト ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  公開のソースから、ウェブサイト ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   と公開されたCLIを保守します。このリポジトリの公開データ、スキーマ、ポリシーは、それらの表面が利用する
   ものです。
 

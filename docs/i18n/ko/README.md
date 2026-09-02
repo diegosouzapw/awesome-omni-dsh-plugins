@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness 플러그인을 위한 크리에이터 우선 카탈로그와 원커맨드 설치. 고정된 소스 커밋, 공로를 인정받는 크리에이터, 플러그인당 하나씩 검토되는 PR. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness 플러그인을 위한 크리에이터 우선 카탈로그와 원커맨드 설치. 고정된 소스 커밋, 공로를 인정받는 크리에이터, 플러그인당 하나씩 검토되는 PR. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** 플러그인을 위한 크리에이터 우선 발견과 원커맨드 설치.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">웹사이트에서 모든 플러그인을 둘러보고, 검색하고, 설치하세요 →</a>
+  <a href="https://dsh-plugins.omniskill.online">웹사이트에서 모든 플러그인을 둘러보고, 검색하고, 설치하세요 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -93,7 +93,7 @@
 
 <div align="center">
 
-### 👉 [**웹사이트에서 모든 플러그인을 검색하고, 세부 정보를 읽고, 설치 명령어를 복사하세요 →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**웹사이트에서 모든 플러그인을 검색하고, 세부 정보를 읽고, 설치 명령어를 복사하세요 →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -101,11 +101,11 @@
 
 | 영역     | 설명                                                       | 위치                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **웹사이트** | 검색과 순위 기능을 갖춘 렌더링된 카탈로그 브라우저                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **웹사이트** | 검색과 순위 기능을 갖춘 렌더링된 카탈로그 브라우저                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **카탈로그** | 플러그인당 하나의 YAML 파일, 단 하나의 신뢰할 수 있는 원천 데이터             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **스키마**  | 모든 항목이 검증되는 공개 JSON 스키마(draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | 카탈로그에서 검색, 조사, 검증, 설치           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **머신 피드** | 도구를 위한 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **머신 피드** | 도구를 위한 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 이 저장소는 카탈로그의 공개된 신뢰할 수 있는 원천 데이터입니다. 모든 항목은 `catalog/plugins/` 아래의 하나의 YAML 파일이며, 공개된 JSON 스키마에 대해 검증되고, 개별적으로 검토된 하나의 풀 리퀘스트를 통해 추가되며, 항상 플러그인의 원 크리에이터에게 공로가 인정됩니다. 카탈로그의 어떤 항목도 다른 카탈로그나 목록으로부터 생성되지 않습니다: 각 항목은 고정된 커밋 시점의 원 크리에이터 저장소로부터 재구성됩니다.
 
@@ -283,7 +283,7 @@ provenance:
 
 ### ⭐ 이 카탈로그가 플러그인을 찾는 데 도움이 되었다면, 저장소에 스타를 눌러주세요 — 크리에이터가 발견되는 데 도움이 됩니다.
 
-**[웹사이트에서 모든 플러그인 둘러보기 →](https://dsh-plugins.omniroute.online)**
+**[웹사이트에서 모든 플러그인 둘러보기 →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

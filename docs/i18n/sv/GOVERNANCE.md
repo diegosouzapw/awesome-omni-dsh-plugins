@@ -121,7 +121,7 @@ Regler som gäller för alla tre flödena:
   rankas aldrig högre än ett senare direkt skaparbidrag.
 - **Underhållare** granskar, tillämpar proveniensgrindarna, löser kollisioner och slår samman. De
   underhåller även webbplatsen
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) och det publicerade CLI:t
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) och det publicerade CLI:t
   från privat källa; detta repositorys offentliga data, schema och policyer är vad dessa ytor
   konsumerar.
 

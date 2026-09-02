@@ -121,7 +121,7 @@ Regels die voor alle drie de stromen gelden:
   onder de regels voor respectvol contact en credit in [docs/CREDIT.md](../../docs/CREDIT.md).
   Curatie staat nooit boven een latere directe bijdrage van de maker.
 - **Beheerders** beoordelen, passen de herkomstcontroles toe, lossen botsingen op en mergen. Ze
-  onderhouden ook de website ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  onderhouden ook de website ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   en de gepubliceerde CLI vanuit privébroncode; de publieke data, het schema en het beleid van
   deze repository zijn wat die oppervlakken gebruiken.
 

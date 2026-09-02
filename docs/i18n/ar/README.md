@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — كتالوج يضع صاحب الإضافة أولاً مع تثبيت بأمر واحد لإضافات DeepSeek Harness. التزامات مصدر مثبّتة، ونسب فضل صريح للمنشئين، وطلب سحب واحد مُراجَع لكل إضافة. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — كتالوج يضع صاحب الإضافة أولاً مع تثبيت بأمر واحد لإضافات DeepSeek Harness. التزامات مصدر مثبّتة، ونسب فضل صريح للمنشئين، وطلب سحب واحد مُراجَع لكل إضافة. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 اكتشاف يضع صاحب الإضافة في المقدمة، وتثبيت بأمر واحد لإضافات **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">تصفَّح جميع الإضافات وابحث عنها وثبّتها من الموقع ←</a>
+  <a href="https://dsh-plugins.omniskill.online">تصفَّح جميع الإضافات وابحث عنها وثبّتها من الموقع ←</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@
 
 <div align="center">
 
-### 👉 [**ابحث في جميع الإضافات، واطّلع على التفاصيل، وانسخ أمر التثبيت من الموقع ←**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**ابحث في جميع الإضافات، واطّلع على التفاصيل، وانسخ أمر التثبيت من الموقع ←**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@
 
 | الواجهة     | ما هي                                                       | أين                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **الموقع** | متصفّح كتالوج مُصيَّر مع بحث وترتيب                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **الموقع** | متصفّح كتالوج مُصيَّر مع بحث وترتيب                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **الكتالوج** | ملف YAML واحد لكل إضافة، وهو المصدر الوحيد للحقيقة             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **المخطط (Schema)**  | مخطط JSON Schema عام (المسودة 2020-12) يتحقق كل مُدخل بموجبه | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **واجهة سطر الأوامر (CLI)**     | البحث والفحص والتحقق والتثبيت من الكتالوج           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **تغذية آلية (Machine feeds)** | `catalog.json` + `catalog.snapshot.json` للأدوات           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **تغذية آلية (Machine feeds)** | `catalog.json` + `catalog.snapshot.json` للأدوات           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 هذا المستودع هو المصدر العلني الموثوق للكتالوج. كل إدراج هو ملف YAML واحد تحت `catalog/plugins/`،
 يُتحقّق منه مقابل مخطط JSON Schema منشور، ويُضاف عبر طلب سحب واحد يُراجَع بشكل فردي، ويُنسب دائمًا
@@ -328,7 +328,7 @@ YAML التحريرية الوصفية مُخصَّصة للملكية العا�
 
 ### ⭐ إذا ساعدك هذا الكتالوج في العثور على إضافة، ضَع نجمة على المستودع — فذلك يساعد المُنشئين على أن يُكتشفوا.
 
-**[تصفَّح جميع الإضافات على الموقع ←](https://dsh-plugins.omniroute.online)**
+**[تصفَّح جميع الإضافات على الموقع ←](https://dsh-plugins.omniskill.online)**
 
 </div>
 

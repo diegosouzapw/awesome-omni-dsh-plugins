@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness プラグインのための、クリエイター最優先のカタログとワンコマンドインストール。固定されたソースコミット、クリエイターへのクレジット、プラグインごとに1件のレビュー済みPR。dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness プラグインのための、クリエイター最優先のカタログとワンコマンドインストール。固定されたソースコミット、クリエイターへのクレジット、プラグインごとに1件のレビュー済みPR。dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** プラグインのための、クリエイター最優先の発見とワンコマンドインストール。
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">ウェブサイトですべてのプラグインを閲覧・検索・インストール →</a>
+  <a href="https://dsh-plugins.omniskill.online">ウェブサイトですべてのプラグインを閲覧・検索・インストール →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -93,7 +93,7 @@
 
 <div align="center">
 
-### 👉 [**ウェブサイトですべてのプラグインを検索し、詳細を読み、インストールコマンドをコピー →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**ウェブサイトですべてのプラグインを検索し、詳細を読み、インストールコマンドをコピー →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -101,11 +101,11 @@
 
 | 面     | それは何か                                                       | 場所                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **ウェブサイト** | 検索とランキング機能を備えたレンダリング済みカタログブラウザ                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **ウェブサイト** | 検索とランキング機能を備えたレンダリング済みカタログブラウザ                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **カタログ** | プラグインごとに1つのYAMLファイル、唯一の信頼できる情報源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **スキーマ**  | すべてのエントリが検証される、公開のJSON Schema（draft 2020-12） | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | カタログから検索・調査・検証・インストール           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **マシン向けフィード** | ツール向けの `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **マシン向けフィード** | ツール向けの `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 このリポジトリは、カタログの公開された信頼できる情報源です。すべてのエントリは `catalog/plugins/` 配下の1つのYAMLファイルであり、公開されたJSON Schemaに対して検証され、個別にレビューされた1件のプルリクエストを通じて追加され、常にプラグインの元のクリエイターにクレジットされます。カタログ内のいかなる項目も、他のカタログやリストから生成されたものではありません。各エントリは、固定されたコミットにおけるクリエイターの元のリポジトリから再構築されています。
 
@@ -283,7 +283,7 @@ provenance:
 
 ### ⭐ このカタログがプラグインを見つける助けになったなら、リポジトリにスターを付けてください — それがクリエイターに見つけてもらう助けになります。
 
-**[ウェブサイトですべてのプラグインを閲覧 →](https://dsh-plugins.omniroute.online)**
+**[ウェブサイトですべてのプラグインを閲覧 →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

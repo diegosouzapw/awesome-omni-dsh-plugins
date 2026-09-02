@@ -117,7 +117,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   Кураторство ніколи не має пріоритету над пізнішим прямим внеском автора.
 - **Мейнтейнери** проводять рев'ю, застосовують шлюзи походження, розв'язують колізії та
   зливають. Вони також підтримують сайт
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) і опублікований CLI із
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) і опублікований CLI із
   закритого джерела; публічні дані, схема та політики цього репозиторію — саме те, що споживають
   ці поверхні.
 

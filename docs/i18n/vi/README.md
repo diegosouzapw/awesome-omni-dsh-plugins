@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — danh mục ưu tiên nhà phát triển và cài đặt bằng một lệnh duy nhất cho các plugin DeepSeek Harness. Commit nguồn được ghim cố định, ghi công nhà phát triển, mỗi plugin có một PR được xét duyệt riêng. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — danh mục ưu tiên nhà phát triển và cài đặt bằng một lệnh duy nhất cho các plugin DeepSeek Harness. Commit nguồn được ghim cố định, ghi công nhà phát triển, mỗi plugin có một PR được xét duyệt riêng. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Khám phá và cài đặt plugin **DeepSeek Harness (DSH)** chỉ bằng một lệnh, ưu tiên hàng đầu là nhà phát triển.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Duyệt, tìm kiếm và cài đặt mọi plugin trên website →</a>
+  <a href="https://dsh-plugins.omniskill.online">Duyệt, tìm kiếm và cài đặt mọi plugin trên website →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ của nhà phát triển, được ghim tại đúng commit mà danh mục đã 
 
 <div align="center">
 
-### 👉 [**Tìm kiếm mọi plugin, đọc chi tiết và sao chép lệnh cài đặt trên website →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Tìm kiếm mọi plugin, đọc chi tiết và sao chép lệnh cài đặt trên website →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ của nhà phát triển, được ghim tại đúng commit mà danh mục đã 
 
 | Bề mặt     | Là gì                                                       | Ở đâu                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Website** | Trình duyệt danh mục đã kết xuất, có tìm kiếm và xếp hạng                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Website** | Trình duyệt danh mục đã kết xuất, có tìm kiếm và xếp hạng                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Danh mục** | Một file YAML cho mỗi plugin, là nguồn dữ liệu chân lý duy nhất             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | JSON Schema công khai (draft 2020-12) mà mọi mục đều xác thực theo | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Tìm kiếm, xem chi tiết, xác thực và cài đặt từ danh mục           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Nguồn dữ liệu cho máy** | `catalog.json` + `catalog.snapshot.json` dành cho các công cụ           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Nguồn dữ liệu cho máy** | `catalog.json` + `catalog.snapshot.json` dành cho các công cụ           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Repository này là nguồn dữ liệu chân lý công khai của danh mục. Mỗi mục niêm yết là một file YAML nằm dưới
 `catalog/plugins/`, được xác thực theo một JSON Schema đã công bố, được thêm vào qua một pull request được xét duyệt
@@ -324,7 +324,7 @@ chụp màn hình ở nguồn gốc vẫn thuộc về chủ sở hữu và gi�
 
 ### ⭐ Nếu danh mục này đã giúp bạn tìm được plugin ưng ý, hãy gắn sao cho repository — điều đó giúp các nhà phát triển được biết đến nhiều hơn.
 
-**[Duyệt tất cả plugin trên website →](https://dsh-plugins.omniroute.online)**
+**[Duyệt tất cả plugin trên website →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

@@ -111,7 +111,7 @@ Các quy tắc áp dụng cho cả ba luồng:
   liên hệ tôn trọng và ghi công trong [docs/CREDIT.md](CREDIT.md). Việc biên tập không bao giờ vượt quyền ưu tiên
   một đóng góp trực tiếp sau này của nhà phát triển.
 - **Người bảo trì** xét duyệt, áp dụng các cổng kiểm soát nguồn gốc, giải quyết xung đột và hợp nhất. Họ cũng duy
-  trì website ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) và CLI đã phát hành từ mã
+  trì website ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) và CLI đã phát hành từ mã
   nguồn riêng tư; dữ liệu công khai, schema và chính sách của repository này chính là những gì hai bề mặt đó sử
   dụng.
 

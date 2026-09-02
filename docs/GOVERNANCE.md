@@ -112,6 +112,6 @@ Rules that apply to all three flows:
   under the respectful-contact and credit rules in [docs/CREDIT.md](CREDIT.md). Curation never
   outranks a later direct creator contribution.
 - **Maintainers** review, apply the provenance gates, resolve collisions and merge. They also
-  maintain the website ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  maintain the website ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   and the published CLI from private source; this repository's public data, schema and policies
   are what those surfaces consume.

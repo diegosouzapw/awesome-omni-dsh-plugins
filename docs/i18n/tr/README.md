@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness eklentileri için üretici öncelikli katalog ve tek komutla kurulum. Sabitlenmiş kaynak commit'leri, emeği geçen üreticiler, eklenti başına bir incelenmiş PR. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness eklentileri için üretici öncelikli katalog ve tek komutla kurulum. Sabitlenmiş kaynak commit'leri, emeği geçen üreticiler, eklenti başına bir incelenmiş PR. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** eklentileri için üretici öncelikli keşif ve tek komutla kurulum.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Web sitesinde tüm eklentilere göz atın, arayın ve kurun →</a>
+  <a href="https://dsh-plugins.omniskill.online">Web sitesinde tüm eklentilere göz atın, arayın ve kurun →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ Her isim, katalogun doğruladığı tam commit'e sabitlenmiş üretici deposuna 
 
 <div align="center">
 
-### 👉 [**Tüm eklentileri arayın, ayrıntıları okuyun ve kurulum komutunu web sitesinden kopyalayın →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Tüm eklentileri arayın, ayrıntıları okuyun ve kurulum komutunu web sitesinden kopyalayın →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ Her isim, katalogun doğruladığı tam commit'e sabitlenmiş üretici deposuna 
 
 | Yüzey     | Ne olduğu                                                       | Nerede                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Web sitesi** | Arama ve sıralama içeren, oluşturulmuş katalog tarayıcısı                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Web sitesi** | Arama ve sıralama içeren, oluşturulmuş katalog tarayıcısı                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalog** | Eklenti başına bir YAML dosyası, tek gerçek kaynak             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Şema**  | Her kaydın doğrulandığı genel JSON Şeması (taslak 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Katalogdan arama, inceleme, doğrulama ve kurulum yapma           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Makine beslemeleri** | Araçlar için `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Makine beslemeleri** | Araçlar için `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Bu depo, katalog için herkese açık gerçek kaynaktır. Her liste öğesi, `catalog/plugins/`
 altında yayımlanmış bir JSON Şemasına göre doğrulanmış, ayrı ayrı incelenmiş bir pull request
@@ -337,7 +337,7 @@ lisansları altında kalır. Bkz. [docs/CREDIT.md](../../docs/CREDIT.md) ve
 
 ### ⭐ Bu katalog bir eklenti bulmanıza yardımcı olduysa depoyu yıldızlayın — bu, üreticilerin keşfedilmesine yardımcı olur.
 
-**[Web sitesinde tüm eklentilere göz atın →](https://dsh-plugins.omniroute.online)**
+**[Web sitesinde tüm eklentilere göz atın →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

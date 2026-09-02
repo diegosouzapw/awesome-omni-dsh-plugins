@@ -119,7 +119,7 @@ Regras que se aplicam aos três fluxos:
   contribuíram, sob as regras de contato respeitoso e crédito em [docs/CREDIT.md](../../docs/CREDIT.md). A
   curadoria nunca supera uma contribuição direta posterior do criador.
 - **Mantenedores** revisam, aplicam os gates de proveniência, resolvem colisões e mesclam.
-  Também mantêm o website ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  Também mantêm o website ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   e o CLI publicado a partir de código-fonte privado; os dados públicos, o schema e as políticas
   deste repositório são o que essas superfícies consomem.
 

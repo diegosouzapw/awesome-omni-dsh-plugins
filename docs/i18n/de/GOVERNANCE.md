@@ -125,7 +125,7 @@ Regeln, die für alle drei Abläufe gelten:
   Beitrag des Erstellers.
 - **Maintainer** prüfen, wenden die Provenienz-Gates an, lösen Kollisionen auf und mergen. Sie
   pflegen außerdem die Website
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) und die
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) und die
   veröffentlichte CLI aus privatem Quellcode; die öffentlichen Daten, das Schema und die
   Richtlinien dieses Repositorys sind das, was diese Oberflächen konsumieren.
 

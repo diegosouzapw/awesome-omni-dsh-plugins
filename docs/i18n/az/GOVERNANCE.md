@@ -121,7 +121,7 @@ Hər üç axına tətbiq olunan qaydalar:
   üstün olmur.
 - **Baxıcılar** nəzərdən keçirir, mənşə qapılarını tətbiq edir, toqquşmaları həll edir və
   birləşdirir. Onlar həmçinin veb saytı
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) və dərc edilmiş CLI-ni
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) və dərc edilmiş CLI-ni
   özəl mənbədən saxlayırlar; bu repozitoriyanın ictimai məlumatları, sxemi və siyasətləri həmin
   səthlərin istehlak etdiyi şeylərdir.
 

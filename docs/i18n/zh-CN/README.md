@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — 面向创作者的 DeepSeek Harness 插件目录,一条命令即可安装。固定源代码提交、创作者署名、每个插件都经过一次代码评审的 PR。dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — 面向创作者的 DeepSeek Harness 插件目录,一条命令即可安装。固定源代码提交、创作者署名、每个插件都经过一次代码评审的 PR。dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 为 **DeepSeek Harness (DSH)** 插件提供以创作者为先的发现方式,一条命令即可完成安装。
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">在网站上浏览、搜索并安装所有插件 →</a>
+  <a href="https://dsh-plugins.omniskill.online">在网站上浏览、搜索并安装所有插件 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -93,7 +93,7 @@
 
 <div align="center">
 
-### 👉 [**在网站上搜索所有插件、查看详情并复制安装命令 →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**在网站上搜索所有插件、查看详情并复制安装命令 →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -101,11 +101,11 @@
 
 | 界面        | 是什么                                                             | 在哪里                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **网站** | 带搜索和排名功能的目录浏览网页                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **网站** | 带搜索和排名功能的目录浏览网页                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **目录** | 每个插件一个 YAML 文件,是唯一的真实来源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **模式**  | 公开的 JSON Schema(draft 2020-12),所有条目均据此校验 | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | 从目录中搜索、查看、校验并安装           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **机器订阅源** | 供工具使用的 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **机器订阅源** | 供工具使用的 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 本仓库是该目录的公开真实来源。每一条记录都是 `catalog/plugins/` 下的一个 YAML 文件,依据已发布的 JSON Schema 校验,通过一次单独评审的拉取请求添加,并始终署名插件的原始创作者。目录中的任何内容都不是从其他目录或列表生成的:每个条目都是根据创作者原始仓库在固定提交处重新构建而成。
 
@@ -297,7 +297,7 @@ provenance:
 
 ### ⭐ 如果这份目录帮你找到了合适的插件,请给仓库点个星——这能帮助创作者被更多人看到。
 
-**[在网站上浏览所有插件 →](https://dsh-plugins.omniroute.online)**
+**[在网站上浏览所有插件 →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

@@ -118,7 +118,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   هرگز بر یک مشارکت مستقیم بعدیِ سازنده اولویت پیدا نمی‌کند.
 - **نگهدارندگان** بازبینی می‌کنند، دروازه‌های منشأ را اعمال می‌کنند، تصادم‌ها را حل می‌کنند و
   ادغام می‌کنند. آن‌ها همچنین وب‌سایت
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) و CLI منتشرشده را از
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) و CLI منتشرشده را از
   منبع خصوصی نگهداری می‌کنند؛ دادهٔ عمومی، اسکیما و سیاست‌های این ریپازیتوری همان چیزی هستند که
   آن سطوح مصرف می‌کنند.
 

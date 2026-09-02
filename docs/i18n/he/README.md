@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — קטלוג שמעניק עדיפות ליוצרים והתקנה בפקודה אחת לתוספי DeepSeek Harness. קומיטים מקוריים מוצמדים, יוצרים מוכרים בקרדיט, PR אחד שנבדק לכל תוסף. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — קטלוג שמעניק עדיפות ליוצרים והתקנה בפקודה אחת לתוספי DeepSeek Harness. קומיטים מקוריים מוצמדים, יוצרים מוכרים בקרדיט, PR אחד שנבדק לכל תוסף. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 גילוי שמעניק עדיפות ליוצרים והתקנה בפקודה אחת לתוספי **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">עיינו, חפשו והתקינו כל תוסף באתר →</a>
+  <a href="https://dsh-plugins.omniskill.online">עיינו, חפשו והתקינו כל תוסף באתר →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@
 
 <div align="center">
 
-### 👉 [**חפשו את כל התוספים, קראו את הפרטים והעתיקו את פקודת ההתקנה באתר →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**חפשו את כל התוספים, קראו את הפרטים והעתיקו את פקודת ההתקנה באתר →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@
 
 | משטח     | מה זה                                                       | היכן                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **אתר** | דפדפן קטלוג מרונדר עם חיפוש ודירוג                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **אתר** | דפדפן קטלוג מרונדר עם חיפוש ודירוג                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **קטלוג** | קובץ YAML אחד לכל תוסף, מקור האמת היחיד             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **סכימה**  | סכימת JSON ציבורית (טיוטה 2020-12) שכל רשומה מאומתת מולה | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | חיפוש, בדיקה, אימות והתקנה מהקטלוג           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **הזנות מכונה** | `catalog.json` + `catalog.snapshot.json` לכלים           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **הזנות מכונה** | `catalog.json` + `catalog.snapshot.json` לכלים           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 מאגר זה הוא מקור האמת הציבורי לקטלוג. כל רשומה היא קובץ YAML אחד תחת `catalog/plugins/`, מאומתת
 מול סכימת JSON שפורסמה, נוספה דרך בקשת משיכה (pull request) אחת שנבדקה בנפרד, ומקבלת תמיד קרדיט
@@ -323,7 +323,7 @@ README זה זמין ב-43 שפות תחת [`docs/i18n/`](../../docs/i18n) — �
 
 ### ⭐ אם הקטלוג הזה עזר לכם למצוא תוסף, תנו כוכב למאגר — זה עוזר ליוצרים להתגלות.
 
-**[עיינו בכל התוספים באתר →](https://dsh-plugins.omniroute.online)**
+**[עיינו בכל התוספים באתר →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

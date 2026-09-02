@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog yang mengutamakan kreator dan instalasi satu perintah untuk plugin DeepSeek Harness. Commit sumber yang dipatok, kreator yang diberi kredit, satu PR yang ditinjau per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalog yang mengutamakan kreator dan instalasi satu perintah untuk plugin DeepSeek Harness. Commit sumber yang dipatok, kreator yang diberi kredit, satu PR yang ditinjau per plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Penemuan yang mengutamakan kreator dan instalasi satu perintah untuk plugin **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Jelajahi, cari, dan instal setiap plugin di situs web →</a>
+  <a href="https://dsh-plugins.omniskill.online">Jelajahi, cari, dan instal setiap plugin di situs web →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ Setiap nama tertaut ke repositori kreator, dipatok pada commit tepat yang divali
 
 <div align="center">
 
-### 👉 [**Cari semua plugin, baca detailnya, dan salin perintah instalasi di situs web →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Cari semua plugin, baca detailnya, dan salin perintah instalasi di situs web →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ Setiap nama tertaut ke repositori kreator, dipatok pada commit tepat yang divali
 
 | Permukaan     | Apa itu                                                       | Di mana                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Situs web** | Peramban katalog yang dirender lengkap dengan pencarian dan peringkat                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Situs web** | Peramban katalog yang dirender lengkap dengan pencarian dan peringkat                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalog** | Satu file YAML per plugin, satu-satunya sumber kebenaran             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Skema**  | JSON Schema publik (draft 2020-12) yang divalidasi oleh setiap entri | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Cari, periksa, validasi, dan instal dari katalog           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Feed mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat bantu           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Feed mesin** | `catalog.json` + `catalog.snapshot.json` untuk alat bantu           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Repositori ini adalah sumber kebenaran publik untuk katalog. Setiap entri adalah satu file YAML
 di bawah `catalog/plugins/`, divalidasi terhadap JSON Schema yang dipublikasikan, ditambahkan
@@ -334,7 +334,7 @@ Lihat [docs/CREDIT.md](../../docs/CREDIT.md) dan [docs/UNOFFICIAL.md](../../docs
 
 ### ⭐ Jika katalog ini membantu Anda menemukan plugin, beri bintang pada repositorinya — ini membantu para kreator ditemukan.
 
-**[Jelajahi semua plugin di situs web →](https://dsh-plugins.omniroute.online)**
+**[Jelajahi semua plugin di situs web →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

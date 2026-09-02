@@ -118,7 +118,7 @@ değiştirmek için yönetilen yoldur:
   yapabilirler. Küratörlük hiçbir zaman daha sonraki doğrudan bir üretici katkısından üstün
   değildir.
 - **Sürdürücüler**, inceler, köken kapılarını uygular, çakışmaları çözer ve birleştirir. Ayrıca
-  web sitesini ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) ve
+  web sitesini ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) ve
   yayımlanmış CLI'yi özel kaynaktan sürdürürler; bu depo, o yüzeylerin tükettiği genel veriyi,
   şemayı ve politikaları taşır.
 

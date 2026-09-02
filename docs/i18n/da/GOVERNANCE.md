@@ -120,7 +120,7 @@ Regler, der gælder for alle tre forløb:
   Kuratering rangerer aldrig over et senere direkte skaberbidrag.
 - **Vedligeholdere** gennemgår, anvender proveniens-gates, løser kollisioner og merger. De
   vedligeholder også webstedet
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) og det udgivne CLI fra
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) og det udgivne CLI fra
   privat kilde; dette repositorys offentlige data, schema og politikker er, hvad disse flader
   forbruger.
 

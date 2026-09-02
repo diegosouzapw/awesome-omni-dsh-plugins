@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — کاتالوگ اولویت‌دار برای سازندگان و نصب تک‌دستوری برای افزونه‌های DeepSeek Harness. کامیت‌های منبع پین‌شده، سازندگان اعتباردهی‌شده، یک PR بازبینی‌شده برای هر افزونه. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — کاتالوگ اولویت‌دار برای سازندگان و نصب تک‌دستوری برای افزونه‌های DeepSeek Harness. کامیت‌های منبع پین‌شده، سازندگان اعتباردهی‌شده، یک PR بازبینی‌شده برای هر افزونه. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 کشف اولویت‌دار برای سازندگان و نصب تک‌دستوری برای افزونه‌های **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">همهٔ افزونه‌ها را در وب‌سایت مرور، جستجو و نصب کنید →</a>
+  <a href="https://dsh-plugins.omniskill.online">همهٔ افزونه‌ها را در وب‌سایت مرور، جستجو و نصب کنید →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@
 
 <div align="center">
 
-### 👉 [**همهٔ افزونه‌ها را جستجو کنید، جزئیات را بخوانید و دستور نصب را از وب‌سایت کپی کنید →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**همهٔ افزونه‌ها را جستجو کنید، جزئیات را بخوانید و دستور نصب را از وب‌سایت کپی کنید →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@
 
 | سطح     | چیست                                                       | کجا                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **وب‌سایت** | مرورگر کاتالوگ رندرشده با جستجو و رتبه‌بندی                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **وب‌سایت** | مرورگر کاتالوگ رندرشده با جستجو و رتبه‌بندی                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **کاتالوگ** | یک فایل YAML برای هر افزونه، تنها منبع حقیقت             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **اسکیما**  | JSON Schema عمومی (پیش‌نویس 2020-12) که هر ورودی در برابر آن اعتبارسنجی می‌شود | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | جستجو، بازرسی، اعتبارسنجی و نصب از کاتالوگ           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **فیدهای ماشینی** | `catalog.json` + `catalog.snapshot.json` برای ابزارها           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **فیدهای ماشینی** | `catalog.json` + `catalog.snapshot.json` برای ابزارها           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 این ریپازیتوری منبع حقیقتِ عمومیِ کاتالوگ است. هر فهرست یک فایل YAML زیر `catalog/plugins/` است که در برابر یک
 JSON Schema منتشرشده اعتبارسنجی شده، از طریق یک pull request بازبینی‌شدهٔ جداگانه افزوده شده، و همیشه به سازندهٔ اصلی
@@ -322,7 +322,7 @@ YAML تحت [CC0-1.0](../../LICENSE-CATALOG) وقف شده‌اند. کد، نا
 
 ### ⭐ اگر این کاتالوگ به شما در یافتن یک افزونه کمک کرد، به ریپو ستاره بدهید — این به دیده‌شدن سازندگان کمک می‌کند.
 
-**[همهٔ افزونه‌ها را در وب‌سایت مرور کنید →](https://dsh-plugins.omniroute.online)**
+**[همهٔ افزونه‌ها را در وب‌سایت مرور کنید →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

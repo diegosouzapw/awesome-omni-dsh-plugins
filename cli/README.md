@@ -22,7 +22,7 @@ never ships here.
 - Node.js 20 or newer.
 - The official `dsh` executable on `PATH` for add, update and remove operations.
 - Network access for discovery. With no `--catalog`, the CLI reads the snapshot published at
-  <https://dsh-plugins.omniroute.online/catalog.snapshot.json> and accepts the revision that
+  <https://dsh-plugins.omniskill.online/catalog.snapshot.json> and accepts the revision that
   snapshot declares, so a plugin merged today is findable today. Passing `--revision` turns the
   fetch into an exact-commit demand and rejects any snapshot declaring a different one.
 
@@ -136,7 +136,7 @@ granting `--allow-code-execution`.
 
 `--catalog` accepts a local catalog directory, a local
 `omni-dsh-catalog-snapshot-v1` JSON file, or one of two allowlisted HTTPS URLs: the stable
-site-hosted snapshot `https://dsh-plugins.omniroute.online/catalog.snapshot.json` (the
+site-hosted snapshot `https://dsh-plugins.omniskill.online/catalog.snapshot.json` (the
 operational remote source) or the raw GitHub form embedding the revision in its path.
 Remote snapshots require `--revision <40-character-commit-sha>` and the snapshot document must
 declare exactly that SHA. Redirects, alternate hosts, traversal, symlinks, oversized inputs,
@@ -144,7 +144,7 @@ and revision mismatches are rejected before catalog validation.
 
 ```bash
 npx omni-dsh-plugins search tui \
-  --catalog https://dsh-plugins.omniroute.online/catalog.snapshot.json \
+  --catalog https://dsh-plugins.omniskill.online/catalog.snapshot.json \
   --revision <published-catalog-revision>
 ```
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness প্লাগইনের জন্য স্রষ্টা-কেন্দ্রিক ক্যাটালগ এবং এক-কমান্ড ইনস্টল। পিন করা সোর্স কমিট, কৃতিত্বপ্রাপ্ত নির্মাতা, প্রতিটি প্লাগইনের জন্য একটি পর্যালোচিত PR। dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness প্লাগইনের জন্য স্রষ্টা-কেন্দ্রিক ক্যাটালগ এবং এক-কমান্ড ইনস্টল। পিন করা সোর্স কমিট, কৃতিত্বপ্রাপ্ত নির্মাতা, প্রতিটি প্লাগইনের জন্য একটি পর্যালোচিত PR। dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** প্লাগইনের জন্য স্রষ্টা-কেন্দ্রিক আবিষ্কার এবং এক-কমান্ড ইনস্টলেশন।
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">ওয়েবসাইটে সব প্লাগইন ব্রাউজ, সার্চ এবং ইনস্টল করুন →</a>
+  <a href="https://dsh-plugins.omniskill.online">ওয়েবসাইটে সব প্লাগইন ব্রাউজ, সার্চ এবং ইনস্টল করুন →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@
 
 <div align="center">
 
-### 👉 [**ওয়েবসাইটে সব প্লাগইন খুঁজুন, বিস্তারিত পড়ুন এবং ইনস্টল কমান্ড কপি করুন →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**ওয়েবসাইটে সব প্লাগইন খুঁজুন, বিস্তারিত পড়ুন এবং ইনস্টল কমান্ড কপি করুন →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@
 
 | সারফেস     | এটি কী                                                       | কোথায়                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **ওয়েবসাইট** | সার্চ ও র‍্যাঙ্কিংসহ রেন্ডার করা ক্যাটালগ ব্রাউজার                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **ওয়েবসাইট** | সার্চ ও র‍্যাঙ্কিংসহ রেন্ডার করা ক্যাটালগ ব্রাউজার                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **ক্যাটালগ** | প্রতি প্লাগইনের জন্য একটি YAML ফাইল, একমাত্র সত্যের উৎস             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **স্কিমা**  | পাবলিক JSON Schema (draft 2020-12) যার বিপরীতে প্রতিটি এন্ট্রি যাচাই হয় | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | ক্যাটালগ থেকে সার্চ, পরিদর্শন, যাচাই এবং ইনস্টল করুন           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **মেশিন ফিড** | টুলের জন্য `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **মেশিন ফিড** | টুলের জন্য `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 এই রিপোজিটরি ক্যাটালগের জন্য সত্যের পাবলিক উৎস। প্রতিটি তালিকাভুক্তি `catalog/plugins/`-এর অধীনে একটি YAML
 ফাইল, যা একটি প্রকাশিত JSON Schema-র বিপরীতে যাচাই করা হয়, একটি পৃথকভাবে পর্যালোচিত পুল রিকোয়েস্টের মাধ্যমে যুক্ত করা
@@ -320,7 +320,7 @@ provenance:
 
 ### ⭐ যদি এই ক্যাটালগ আপনাকে একটি প্লাগইন খুঁজে পেতে সাহায্য করে থাকে, তাহলে রিপোতে স্টার দিন — এটি নির্মাতাদের খুঁজে পেতে সাহায্য করে।
 
-**[ওয়েবসাইটে সব প্লাগইন ব্রাউজ করুন →](https://dsh-plugins.omniroute.online)**
+**[ওয়েবসাইটে সব প্লাগইন ব্রাউজ করুন →](https://dsh-plugins.omniskill.online)**
 
 </div>
 
