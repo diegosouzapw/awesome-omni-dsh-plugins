@@ -85,11 +85,23 @@ function addMutationOptions(command: Command): Command {
 // such a release can never be corrected, only superseded. Both the bundled entrypoint
 // (dist/bin.js) and this module sit exactly one directory below the package root, so the same
 // relative path resolves in the published artifact and under the test runner.
+// Exported to be tested in process: the failure modes below otherwise need a relocated bundle in
+// a subprocess, and those spawns are pure load on an already timing-sensitive suite.
+export function parseManifestVersion(raw: string): string {
+  const manifest = JSON.parse(raw) as { version?: unknown };
+  // The read can succeed against the wrong file: a relocated bundle resolves `../package.json`
+  // onto whatever package root sits above it. Announcing that file's version — or `undefined`,
+  // which crashes commander several calls later — is worse than refusing, so require the exact
+  // semver a published release always carries.
+  const version = manifest.version;
+  if (typeof version !== "string" || !/^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/u.test(version)) {
+    throw new Error("the package manifest does not declare an exact version");
+  }
+  return version;
+}
+
 function publishedVersion(): string {
-  const manifest = JSON.parse(
-    readFileSync(new URL("../package.json", import.meta.url), "utf8"),
-  ) as { version: string };
-  return manifest.version;
+  return parseManifestVersion(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
 }
 
 export async function runCli(
@@ -97,9 +109,20 @@ export async function runCli(
   dependencies: CliDependencies = defaultDependencies,
 ): Promise<number> {
   let result = 0;
+  // Reading the manifest is file I/O where a string literal used to be, and it runs while the
+  // command tree is built — outside the parse try/catch below. Guard it here so an unreadable
+  // manifest still honours the sanitized failure contract instead of printing a V8 stack.
+  let version: string;
+  try {
+    version = publishedVersion();
+  } catch (error) {
+    dependencies.stderr(`${sanitizedErrorMessage(error)}\n`);
+    dependencies.stderr("Command failed safely; no changes were made.\n");
+    return 1;
+  }
   const program = new Command()
     .name("dsh-plugins")
-    .version(publishedVersion())
+    .version(version)
     .description("Unofficial catalog and safe installer for DeepSeek Harness plugins.")
     .addHelpText(
       "after",

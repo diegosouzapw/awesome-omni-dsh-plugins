@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { mkdirSync, mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -40,7 +40,14 @@ function npmPack(args: readonly string[]): PackResult {
     encoding: "utf8",
     stdio: ["ignore", "pipe", "pipe"],
   });
-  return (JSON.parse(raw) as PackResult[])[0] as PackResult;
+  // npm 11 emits an array of reports; npm 12 keys the same reports by package name. Accept both,
+  // or every contributor whose npm is one major ahead of CI's starts from a red baseline.
+  const parsed = JSON.parse(raw) as PackResult[] | Record<string, PackResult>;
+  const report = Array.isArray(parsed) ? parsed[0] : Object.values(parsed)[0];
+  if (report === undefined) {
+    throw new Error(`npm pack --json returned no report: ${raw.slice(0, 200)}`);
+  }
+  return report;
 }
 
 // The build + double npm pack competes with the rest of the suite for CPU;
@@ -132,4 +139,47 @@ describe("packed public CLI", () => {
     }
     expect(help).toContain("Unofficial community project");
   });
+
+  // Reading the version from the manifest replaced a string literal, which could not fail, with
+  // file I/O, which can — and it runs while the command tree is built, outside the parse
+  // try/catch. Lives here rather than beside the other version assertions because it needs
+  // dist/bin.js, and this file already owns the single build. One spawn, not one per failure
+  // mode: the content cases (missing/invalid version) are covered in process against
+  // parseManifestVersion in reported-version.test.ts, and extra subprocesses are pure concurrent
+  // load on an already timing-sensitive suite.
+  it("fails sanitized, not with a raw stack, when the manifest cannot be read", () => {
+    // The bundle goes one level below a temp root we own, mirroring its real dist/ position, so
+    // the parent it resolves is ours and never a real package root above the OS temp dir.
+    const orphan = mkdtempSync(join(tmpdir(), "dsh-plugins-orphan-"));
+    const nested = join(orphan, "dist");
+    mkdirSync(nested);
+    const bin = join(nested, "bin.js");
+    copyFileSync(join(cliRoot, "dist/bin.js"), bin);
+
+    // stderr and status keep their initial values when the command does not throw; stdout is
+    // overwritten by the first statement either way, so it starts undeclared.
+    let stdout: string;
+    let stderr = "";
+    let status: number | null = 0;
+    try {
+      stdout = execFileSync(process.execPath, [bin, "--help"], {
+        encoding: "utf8",
+        stdio: ["ignore", "pipe", "pipe"],
+        timeout: 30_000,
+      });
+    } catch (error) {
+      const failure = error as { stderr?: string; stdout?: string; status?: number };
+      stderr = failure.stderr ?? "";
+      stdout = failure.stdout ?? "";
+      status = failure.status ?? null;
+    }
+    rmSync(orphan, { recursive: true, force: true });
+
+    expect(status).toBe(1);
+    expect(stderr).toContain("Command failed safely; no changes were made.");
+    // Stack-frame marker: a leaked V8 stack always renders " at /abs/path".
+    expect(stderr).not.toContain(" at /");
+    expect(stdout).not.toContain(" at /");
+    expect(stderr).not.toContain("ENOENT");
+  }, 60_000);
 });
