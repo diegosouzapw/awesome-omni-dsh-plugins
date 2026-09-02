@@ -122,7 +122,7 @@ Regler som gjelder for alle tre flytene:
   skaperbidrag.
 - **Vedlikeholdere** gjennomgår, anvender opprinnelsesportene, løser kollisjoner og slår
   sammen. De vedlikeholder også nettstedet
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) og den publiserte
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) og den publiserte
   CLI-en fra privat kildekode; dette repositoriets offentlige data, skjema og policyer er det
   disse flatene konsumerer.
 

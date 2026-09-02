@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalóg s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy DeepSeek Harness. Pripnuté zdrojové commity, pripísaní tvorcovia, jeden posúdený pull request na plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalóg s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy DeepSeek Harness. Pripnuté zdrojové commity, pripísaní tvorcovia, jeden posúdený pull request na plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Objavovanie s dôrazom na tvorcov a inštalácia jedným príkazom pre pluginy **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Prehliadajte, vyhľadávajte a inštalujte všetky pluginy na webe →</a>
+  <a href="https://dsh-plugins.omniskill.online">Prehliadajte, vyhľadávajte a inštalujte všetky pluginy na webe →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ Každý názov odkazuje na repozitár tvorcu, pripnutý na presný commit, ktor�
 
 <div align="center">
 
-### 👉 [**Vyhľadajte všetky pluginy, prečítajte si podrobnosti a skopírujte inštalačný príkaz na webe →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Vyhľadajte všetky pluginy, prečítajte si podrobnosti a skopírujte inštalačný príkaz na webe →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ Každý názov odkazuje na repozitár tvorcu, pripnutý na presný commit, ktor�
 
 | Časť     | Čo to je                                                       | Kde                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Web** | Vykreslený prehliadač katalógu s vyhľadávaním a rebríčkom                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Web** | Vykreslený prehliadač katalógu s vyhľadávaním a rebríčkom                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalóg** | Jeden YAML súbor na plugin, jediný zdroj pravdy             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schéma**  | Verejná JSON schéma (draft 2020-12), voči ktorej sa validuje každý záznam | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Vyhľadávanie, kontrola, validácia a inštalácia z katalógu           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Strojové zdroje** | `catalog.json` + `catalog.snapshot.json` pre nástroje           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Strojové zdroje** | `catalog.json` + `catalog.snapshot.json` pre nástroje           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Tento repozitár je verejným zdrojom pravdy pre katalóg. Každý záznam je jeden YAML súbor v priečinku
 `catalog/plugins/`, validovaný voči zverejnenej JSON schéme, pridaný prostredníctvom jedného
@@ -336,7 +336,7 @@ vlastníkmi a licenciami. Pozri [docs/CREDIT.md](../../docs/CREDIT.md) a
 
 ### ⭐ Ak vám tento katalóg pomohol nájsť plugin, ohviezdičkujte repozitár — pomáha to tvorcom, aby ich bolo vidieť.
 
-**[Prehliadajte všetky pluginy na webe →](https://dsh-plugins.omniroute.online)**
+**[Prehliadajte všetky pluginy na webe →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

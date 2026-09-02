@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalogi inayotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi za DeepSeek Harness. Commits za chanzo zilizobandikwa, waumbaji wanaotambuliwa, PR moja iliyokaguliwa kwa kila programu-jalizi. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — katalogi inayotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi za DeepSeek Harness. Commits za chanzo zilizobandikwa, waumbaji wanaotambuliwa, PR moja iliyokaguliwa kwa kila programu-jalizi. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Ugunduzi unaotanguliza waumbaji na usakinishaji wa amri moja kwa programu-jalizi za **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Vinjari, tafuta na sakinisha kila programu-jalizi kwenye tovuti →</a>
+  <a href="https://dsh-plugins.omniskill.online">Vinjari, tafuta na sakinisha kila programu-jalizi kwenye tovuti →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ na hazina ya muumba, iliyobandikwa kwenye commit halisi ambayo katalogi ilithibi
 
 <div align="center">
 
-### 👉 [**Tafuta programu-jalizi zote, soma maelezo na nakili amri ya usakinishaji kwenye tovuti →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Tafuta programu-jalizi zote, soma maelezo na nakili amri ya usakinishaji kwenye tovuti →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ na hazina ya muumba, iliyobandikwa kwenye commit halisi ambayo katalogi ilithibi
 
 | Sehemu     | Ni nini                                                       | Wapi                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Tovuti** | Kivinjari cha katalogi kilichoonyeshwa chenye utafutaji na upangaji                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Tovuti** | Kivinjari cha katalogi kilichoonyeshwa chenye utafutaji na upangaji                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalogi** | Faili moja la YAML kwa kila programu-jalizi, chanzo kikuu cha ukweli             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | JSON Schema ya umma (rasimu ya 2020-12) ambayo kila kiingilio kinathibitishwa dhidi yake | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Tafuta, kagua, thibitisha na sakinisha kutoka kwa katalogi           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Malisho ya mashine** | `catalog.json` + `catalog.snapshot.json` kwa zana           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Malisho ya mashine** | `catalog.json` + `catalog.snapshot.json` kwa zana           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Hazina hii ndiyo chanzo kikuu cha ukweli cha umma kwa katalogi. Kila kiingilio ni faili moja la YAML
 chini ya `catalog/plugins/`, kilichothibitishwa dhidi ya JSON Schema iliyochapishwa, kilichoongezwa kupitia
@@ -332,7 +332,7 @@ Angalia [docs/CREDIT.md](../../docs/CREDIT.md) na [docs/UNOFFICIAL.md](../../doc
 
 ### ⭐ Ikiwa katalogi hii ilikusaidia kupata programu-jalizi, ipe hazina nyota — inasaidia waumba kupatikana.
 
-**[Vinjari programu-jalizi zote kwenye tovuti →](https://dsh-plugins.omniroute.online)**
+**[Vinjari programu-jalizi zote kwenye tovuti →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

@@ -123,7 +123,7 @@ Zasady obowiązujące dla wszystkich trzech przepływów:
   bezpośredniego wkładu twórcy.
 - **Opiekunowie** recenzują, stosują bramki pochodzenia, rozwiązują kolizje i scalają. Utrzymują
   też stronę internetową
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) oraz opublikowane CLI
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) oraz opublikowane CLI
   z prywatnego źródła; publiczne dane, schemat i polityki tego repozytorium są tym, co te
   powierzchnie konsumują.
 

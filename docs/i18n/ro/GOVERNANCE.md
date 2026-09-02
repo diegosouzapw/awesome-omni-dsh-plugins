@@ -120,7 +120,7 @@ Reguli care se aplică tuturor celor trei fluxuri:
   [docs/CREDIT.md](../../docs/CREDIT.md). Curatoria nu depășește niciodată o contribuție directă
   ulterioară a creatorului.
 - **Întreținătorii** revizuiesc, aplică porțile de proveniență, rezolvă coliziunile și integrează.
-  Ei întrețin de asemenea site-ul ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  Ei întrețin de asemenea site-ul ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   și CLI-ul publicat dintr-o sursă privată; datele publice, schema și politicile acestui repository
   sunt ceea ce consumă acele suprafețe.
 

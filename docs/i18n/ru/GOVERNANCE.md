@@ -124,7 +124,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   последующий прямой вклад создателя.
 - **Мейнтейнеры** рецензируют, применяют барьеры происхождения, разрешают коллизии и сливают
   изменения. Они также поддерживают сайт
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) и опубликованный CLI
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) и опубликованный CLI
   из приватного исходного кода; публичные данные, схема и политики этого репозитория — это
   то, что потребляют эти поверхности.
 

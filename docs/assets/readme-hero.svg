@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-label="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Every entry pinned to a source commit, credited to its creator, merged one reviewed PR at a time. Browse and install at dsh-plugins.omniroute.online">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-label="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Every entry pinned to a source commit, credited to its creator, merged one reviewed PR at a time. Browse and install at dsh-plugins.omniskill.online">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -35,7 +35,7 @@
     <tspan fill="#484f58">  ·  </tspan>
     <tspan fill="#d29922">one reviewed PR per plugin</tspan>
   </text>
-  <text x="200" y="200" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" font-weight="700" fill="#58a6ff">dsh-plugins.omniroute.online</text>
+  <text x="200" y="200" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" font-weight="700" fill="#58a6ff">dsh-plugins.omniskill.online</text>
 
   <text x="1136" y="200" text-anchor="end" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" fill="#484f58">unofficial community project</text>
 </svg>

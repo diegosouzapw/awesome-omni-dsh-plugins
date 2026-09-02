@@ -96,7 +96,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
 - **社区贡献者** 可以为尚未贡献的创作者策展条目,须遵循 [docs/CREDIT.md](../../docs/CREDIT.md) 中的
   礼貌联系和署名规则。策展绝不会优先于后续创作者的直接贡献。
 - **维护者** 负责评审、应用溯源门禁、解决冲突并进行合并。他们还从私有源代码维护网站
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))和已发布的 CLI;本仓库的公开
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))和已发布的 CLI;本仓库的公开
   数据、模式定义和政策正是这些界面所消费的内容。
 
 <!-- i18n-source-hash: d43a6ba221ce5d31c551bad845038f0e6453100435f2358c4d69b97ba9dede2a -->

@@ -112,7 +112,7 @@ Pravidlá platné pre všetky tri postupy:
   [docs/CREDIT.md](../../docs/CREDIT.md). Kurátorstvo nikdy nepredbehne neskorší priamy príspevok
   tvorcu.
 - **Správcovia** posudzujú, uplatňujú brány pôvodu, riešia kolízie a zlučujú. Tiež udržiavajú web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) a publikované CLI zo
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) a publikované CLI zo
   súkromného zdrojového kódu; verejné dáta, schéma a politiky tohto repozitára sú to, čo tieto
   povrchy spotrebúvajú.
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — luojalähtöinen katalogi ja yhden komennon asennus DeepSeek Harness -laajennuksille. Kiinnitetyt lähdekommitit, tunnustetut luojat, yksi tarkastettu PR per laajennus. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — luojalähtöinen katalogi ja yhden komennon asennus DeepSeek Harness -laajennuksille. Kiinnitetyt lähdekommitit, tunnustetut luojat, yksi tarkastettu PR per laajennus. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Luojalähtöinen löytäminen ja yhden komennon asennus **DeepSeek Harness (DSH)** -laajennuksille.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Selaa, hae ja asenna jokainen laajennus verkkosivustolla →</a>
+  <a href="https://dsh-plugins.omniskill.online">Selaa, hae ja asenna jokainen laajennus verkkosivustolla →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ Jokainen nimi linkittää luojan repositorioon, kiinnitettynä siihen commitiin,
 
 <div align="center">
 
-### 👉 [**Hae kaikkia laajennuksia, lue tiedot ja kopioi asennuskomento verkkosivustolta →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Hae kaikkia laajennuksia, lue tiedot ja kopioi asennuskomento verkkosivustolta →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ Jokainen nimi linkittää luojan repositorioon, kiinnitettynä siihen commitiin,
 
 | Osa-alue     | Mikä se on                                                       | Missä                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Verkkosivusto** | Renderöity katalogiselain hakuineen ja järjestyksineen                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Verkkosivusto** | Renderöity katalogiselain hakuineen ja järjestyksineen                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalogi** | Yksi YAML-tiedosto per laajennus, ainoa totuuden lähde             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Skeema**  | Julkinen JSON Schema (draft 2020-12), jota vasten jokainen merkintä validoidaan | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Hae, tarkastele, validoi ja asenna katalogista           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Konesyötteet** | `catalog.json` + `catalog.snapshot.json` työkaluille           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Konesyötteet** | `catalog.json` + `catalog.snapshot.json` työkaluille           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Tämä repositorio on katalogin julkinen totuuden lähde. Jokainen merkintä on yksi YAML-tiedosto
 hakemistossa `catalog/plugins/`, validoitu julkaistua JSON Schemaa vasten, lisätty yhden
@@ -339,7 +339,7 @@ Katso [docs/CREDIT.md](../../docs/CREDIT.md) ja [docs/UNOFFICIAL.md](../../docs/
 
 ### ⭐ Jos tämä katalogi auttoi sinua löytämään laajennuksen, tähtää repositorio — se auttaa luojia tulemaan löydetyiksi.
 
-**[Selaa kaikkia laajennuksia verkkosivustolla →](https://dsh-plugins.omniroute.online)**
+**[Selaa kaikkia laajennuksia verkkosivustolla →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — каталог с приоритетом создателя и установка одной командой для плагинов DeepSeek Harness. Закреплённые исходные коммиты, указанные создатели, один проверенный PR на плагин. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — каталог с приоритетом создателя и установка одной командой для плагинов DeepSeek Harness. Закреплённые исходные коммиты, указанные создатели, один проверенный PR на плагин. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Поиск с приоритетом создателя и установка одной командой для плагинов **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Просматривайте, ищите и устанавливайте любой плагин на сайте →</a>
+  <a href="https://dsh-plugins.omniskill.online">Просматривайте, ищите и устанавливайте любой плагин на сайте →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -96,7 +96,7 @@
 
 <div align="center">
 
-### 👉 [**Ищите любые плагины, читайте описания и копируйте команду установки на сайте →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Ищите любые плагины, читайте описания и копируйте команду установки на сайте →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -104,11 +104,11 @@
 
 | Поверхность | Что это                                                          | Где                                                                      |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Сайт**    | Отрисованный обозреватель каталога с поиском и ранжированием      | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Сайт**    | Отрисованный обозреватель каталога с поиском и ранжированием      | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Каталог** | Один YAML-файл на плагин — единственный источник истины           | [`catalog/plugins/`](../../catalog/plugins)                              |
 | **Схема**   | Публичная JSON Schema (draft 2020-12), которой соответствует каждая запись | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
 | **CLI**     | Поиск, просмотр, валидация и установка из каталога                | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Машинные фиды** | `catalog.json` + `catalog.snapshot.json` для инструментов    | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Машинные фиды** | `catalog.json` + `catalog.snapshot.json` для инструментов    | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Этот репозиторий — публичный источник истины для каталога. Каждая запись представляет собой один
 YAML-файл в `catalog/plugins/`, проверенный по опубликованной JSON Schema, добавленный через один
@@ -337,7 +337,7 @@ request'ы.
 
 ### ⭐ Если этот каталог помог вам найти плагин, поставьте звезду репозиторию — это помогает создателям быть найденными.
 
-**[Смотреть все плагины на сайте →](https://dsh-plugins.omniroute.online)**
+**[Смотреть все плагины на сайте →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

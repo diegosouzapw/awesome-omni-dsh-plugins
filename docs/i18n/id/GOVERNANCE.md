@@ -127,7 +127,7 @@ Aturan yang berlaku untuk ketiga alur tersebut:
   Kurasi tidak pernah mengungguli kontribusi langsung dari kreator yang menyusul kemudian.
 - **Maintainer** meninjau, menerapkan gerbang provenance, menyelesaikan tabrakan, dan
   menggabungkan. Mereka juga memelihara situs web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) dan CLI yang
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) dan CLI yang
   dipublikasikan dari sumber privat; data publik, skema, dan kebijakan repositori ini adalah
   apa yang dikonsumsi oleh kedua permukaan tersebut.
 

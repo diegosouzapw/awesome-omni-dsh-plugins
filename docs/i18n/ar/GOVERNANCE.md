@@ -110,7 +110,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   المحترم ونسب الفضل في [docs/CREDIT.md](../../docs/CREDIT.md). لا يتفوق التنسيق المجتمعي أبدًا
   على مساهمة مباشرة لاحقة من المنشئ.
 - **المشرفون** يراجعون، ويُطبِّقون بوابات إثبات المصدر، ويحلّون التعارضات، ويدمجون. كما يصونون
-  الموقع ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) والـ CLI
+  الموقع ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) والـ CLI
   المنشور من مصدر خاص؛ وبيانات هذا المستودع العامة، والمخطط، والسياسات هي ما تستهلكه تلك
   الأسطح.
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness પ્લગિન્સ માટે ક્રિએટર-ફર્સ્ટ કેટલોગ અને વન-કમાન્ડ ઇન્સ્ટોલ. પિન કરેલા સોર્સ કમિટ્સ, ક્રેડિટ અપાયેલા ક્રિએટર્સ, દરેક પ્લગિન માટે એક રિવ્યૂ થયેલ PR. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — DeepSeek Harness પ્લગિન્સ માટે ક્રિએટર-ફર્સ્ટ કેટલોગ અને વન-કમાન્ડ ઇન્સ્ટોલ. પિન કરેલા સોર્સ કમિટ્સ, ક્રેડિટ અપાયેલા ક્રિએટર્સ, દરેક પ્લગિન માટે એક રિવ્યૂ થયેલ PR. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** પ્લગિન્સ માટે ક્રિએટર-ફર્સ્ટ ડિસ્કવરી અને વન-કમાન્ડ ઇન્સ્ટોલેશન.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">વેબસાઇટ પર દરેક પ્લગિન બ્રાઉઝ, સર્ચ અને ઇન્સ્ટોલ કરો →</a>
+  <a href="https://dsh-plugins.omniskill.online">વેબસાઇટ પર દરેક પ્લગિન બ્રાઉઝ, સર્ચ અને ઇન્સ્ટોલ કરો →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@
 
 <div align="center">
 
-### 👉 [**વેબસાઇટ પર બધા પ્લગિન્સ સર્ચ કરો, વિગતો વાંચો અને ઇન્સ્ટોલ કમાન્ડ કોપી કરો →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**વેબસાઇટ પર બધા પ્લગિન્સ સર્ચ કરો, વિગતો વાંચો અને ઇન્સ્ટોલ કમાન્ડ કોપી કરો →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@
 
 | સરફેસ     | તે શું છે                                                       | ક્યાં                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **વેબસાઇટ** | સર્ચ અને રેન્કિંગ સાથે રેન્ડર થયેલ કેટલોગ બ્રાઉઝર                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **વેબસાઇટ** | સર્ચ અને રેન્કિંગ સાથે રેન્ડર થયેલ કેટલોગ બ્રાઉઝર                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **કેટલોગ** | દરેક પ્લગિન માટે એક YAML ફાઇલ, એકમાત્ર સોર્સ ઓફ ટ્રુથ             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **સ્કીમા**  | પબ્લિક JSON સ્કીમા (draft 2020-12) જેની સામે દરેક એન્ટ્રી વેલિડેટ થાય છે | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | કેટલોગમાંથી સર્ચ, ઇન્સ્પેક્ટ, વેલિડેટ અને ઇન્સ્ટોલ કરો           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **મશીન ફીડ્સ** | ટૂલ્સ માટે `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **મશીન ફીડ્સ** | ટૂલ્સ માટે `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 આ રિપોઝીટરી કેટલોગ માટે પબ્લિક સોર્સ ઓફ ટ્રુથ છે. દરેક લિસ્ટિંગ `catalog/plugins/` હેઠળની
 એક YAML ફાઇલ છે, જે પ્રકાશિત JSON સ્કીમા સામે વેલિડેટ થયેલ છે, એક વ્યક્તિગત રીતે
@@ -330,7 +330,7 @@ provenance:
 
 ### ⭐ જો આ કેટલોગે તમને પ્લગિન શોધવામાં મદદ કરી હોય, તો રિપોને સ્ટાર આપો — તે ક્રિએટર્સને શોધાવામાં મદદ કરે છે.
 
-**[વેબસાઇટ પર બધા પ્લગિન્સ બ્રાઉઝ કરો →](https://dsh-plugins.omniroute.online)**
+**[વેબસાઇટ પર બધા પ્લગિન્સ બ્રાઉઝ કરો →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

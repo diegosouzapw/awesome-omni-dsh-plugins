@@ -122,7 +122,7 @@ Szabályok, amelyek mindhárom folyamatra vonatkoznak:
   alkotói hozzájárulást.
 - **Karbantartók** átvizsgálják, alkalmazzák az eredetiség-kapukat, feloldják az ütközéseket és
   egyesítenek. Ők tartják karban a weboldalt
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) és a publikált CLI-t is
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) és a publikált CLI-t is
   privát forrásból; ennek a repository-nak a nyilvános adatai, sémája és szabályzatai azok,
   amelyeket ezek a felületek fogyasztanak.
 

@@ -130,7 +130,7 @@ Mga tuntuning lumalapat sa tatlong daloy:
   tataas kaysa sa kalaunang direkta na ambag ng lumikha.
 - **Mga maintainer** ay nagsusuri, gumagamit ng provenance gate, naglulutas ng banggaan, at
   nagme-merge. Pinapanatili rin nila ang website
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) at ang inilathalang
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) at ang inilathalang
   CLI mula sa pribadong source; ang pampublikong data, schema, at mga patakaran ng
   repository na ito ang ginagamit ng mga surface na iyon.
 

@@ -122,7 +122,7 @@ Säännöt, jotka pätevät kaikkiin kolmeen prosessiin:
   osallistumista.
 - **Ylläpitäjät** tarkastavat, soveltavat alkuperäportteja, ratkaisevat törmäyksiä ja yhdistävät.
   He myös ylläpitävät verkkosivustoa
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) ja julkaistua CLI:tä
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) ja julkaistua CLI:tä
   yksityisestä lähteestä; tämän repositorion julkinen data, skeema ja käytännöt ovat sitä, mitä
   nämä pinnat käyttävät.
 

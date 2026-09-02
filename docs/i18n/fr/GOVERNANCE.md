@@ -122,7 +122,7 @@ Règles qui s'appliquent aux trois flux :
   directe ultérieure du créateur.
 - **Les mainteneurs** revoient, appliquent les contrôles de provenance, résolvent les collisions
   et fusionnent. Ils maintiennent aussi le site web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) et le CLI publié depuis
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) et le CLI publié depuis
   une source privée ; les données publiques, le schéma et les politiques de ce dépôt sont ce que
   ces surfaces consomment.
 

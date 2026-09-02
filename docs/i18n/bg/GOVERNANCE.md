@@ -123,7 +123,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   [docs/CREDIT.md](../../docs/CREDIT.md). Курацията никога не изпреварва по-късен директен
   принос от създателя.
 - **Поддръжниците** рецензират, прилагат порталите за произход, разрешават колизии и обединяват.
-  Те поддържат и уебсайта ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online))
+  Те поддържат и уебсайта ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
   и публикувания CLI от частен изходен код; публичните данни, схема и политики на това хранилище
   са това, което тези повърхности използват.
 

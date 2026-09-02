@@ -120,7 +120,7 @@ Regole che si applicano a tutti e tre i flussi:
   del creatore.
 - **I maintainer** revisionano, applicano i gate di provenienza, risolvono le collisioni e
   uniscono. Mantengono anche il sito web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) e la CLI pubblicata a
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) e la CLI pubblicata a
   partire da sorgente privato; i dati pubblici, lo schema e le policy di questo repository sono
   ciò che quelle superfici consumano.
 

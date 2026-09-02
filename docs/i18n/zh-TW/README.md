@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — 以創作者為優先的 DeepSeek Harness 外掛目錄,一條指令即可安裝。固定來源提交、創作者掛名、每個外掛都經過一次審查的 PR。dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — 以創作者為優先的 DeepSeek Harness 外掛目錄,一條指令即可安裝。固定來源提交、創作者掛名、每個外掛都經過一次審查的 PR。dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 為 **DeepSeek Harness (DSH)** 外掛提供以創作者為優先的探索方式,一條指令即可完成安裝。
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">在網站上瀏覽、搜尋並安裝所有外掛 →</a>
+  <a href="https://dsh-plugins.omniskill.online">在網站上瀏覽、搜尋並安裝所有外掛 →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -93,7 +93,7 @@
 
 <div align="center">
 
-### 👉 [**在網站上搜尋所有外掛、閱讀詳細說明並複製安裝指令 →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**在網站上搜尋所有外掛、閱讀詳細說明並複製安裝指令 →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -101,11 +101,11 @@
 
 | 介面     | 內容                                                       | 位置                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **網站** | 具搜尋與排名功能的目錄瀏覽網頁                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **網站** | 具搜尋與排名功能的目錄瀏覽網頁                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **目錄** | 每個外掛一個 YAML 檔案,是唯一的真實來源             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **結構描述**  | 公開的 JSON Schema(draft 2020-12),所有項目皆依此驗證 | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | 從目錄中搜尋、檢視、驗證並安裝           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **機器饋送** | 供工具使用的 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **機器饋送** | 供工具使用的 `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 本儲存庫是這份目錄的公開真實來源。每一筆項目都是 `catalog/plugins/` 底下的一個 YAML 檔案,依已發佈的 JSON Schema 驗證,
 透過一次單獨審查的提取請求加入,並始終掛名外掛的原始創作者。目錄中沒有任何內容是從其他目錄或清單產生的:每個項目都是根據
@@ -304,7 +304,7 @@ monorepo 中的整合仍可被發現,但使用 `stars: null`,絕不繼承母專�
 
 ### ⭐ 如果這份目錄幫你找到了合適的外掛,請為儲存庫按顆星——這能幫助創作者被更多人看見。
 
-**[在網站上瀏覽所有外掛 →](https://dsh-plugins.omniroute.online)**
+**[在網站上瀏覽所有外掛 →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

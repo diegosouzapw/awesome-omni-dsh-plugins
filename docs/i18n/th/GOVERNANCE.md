@@ -107,7 +107,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   และการให้เครดิตใน [docs/CREDIT.md](../../docs/CREDIT.md) การจัดทำโดยชุมชนไม่เคยมีความสำคัญเหนือกว่าการมี
   ส่วนร่วมโดยตรงของผู้สร้างในภายหลัง
 - **ผู้ดูแล** รีวิว ใช้ด่านตรวจแหล่งที่มา แก้ไขการชนกัน และผสาน พวกเขายังดูแลเว็บไซต์
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) และ CLI ที่เผยแพร่จากซอร์สโค้ด
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) และ CLI ที่เผยแพร่จากซอร์สโค้ด
   ส่วนตัวด้วย; ข้อมูลสาธารณะ สคีมา และนโยบายของรีโพซิทอรีนี้คือสิ่งที่พื้นผิวเหล่านั้นใช้บริโภค
 
 <!-- i18n-source-hash: d43a6ba221ce5d31c551bad845038f0e6453100435f2358c4d69b97ba9dede2a -->

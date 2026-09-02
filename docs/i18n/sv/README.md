@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — kreatörsfokuserad katalog och installation med ett kommando för DeepSeek Harness-plugins. Fastnålade källcommits, krediterade skapare, en granskad PR per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — kreatörsfokuserad katalog och installation med ett kommando för DeepSeek Harness-plugins. Fastnålade källcommits, krediterade skapare, en granskad PR per plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Kreatörsfokuserad upptäckt och installation med ett kommando för **DeepSeek Harness (DSH)**-plugins.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Bläddra, sök och installera alla plugins på webbplatsen →</a>
+  <a href="https://dsh-plugins.omniskill.online">Bläddra, sök och installera alla plugins på webbplatsen →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -95,7 +95,7 @@ länkar till skaparens repository, fastnålat vid den exakta commit som kataloge
 
 <div align="center">
 
-### 👉 [**Sök bland alla plugins, läs detaljerna och kopiera installationskommandot på webbplatsen →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Sök bland alla plugins, läs detaljerna och kopiera installationskommandot på webbplatsen →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -103,11 +103,11 @@ länkar till skaparens repository, fastnålat vid den exakta commit som kataloge
 
 | Yta         | Vad det är                                                       | Var                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Webbplats** | Renderad katalogbläddrare med sökning och rankning              | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Webbplats** | Renderad katalogbläddrare med sökning och rankning              | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Katalog** | En YAML-fil per plugin, den enda sanningskällan                   | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schema**  | Offentligt JSON Schema (draft 2020-12) som varje post valideras mot | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Sök, inspektera, validera och installera från katalogen           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Maskinflöden** | `catalog.json` + `catalog.snapshot.json` för verktyg           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Maskinflöden** | `catalog.json` + `catalog.snapshot.json` för verktyg           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Detta repository är den offentliga sanningskällan för katalogen. Varje post är en YAML-fil
 under `catalog/plugins/`, validerad mot ett publicerat JSON Schema, tillagd genom en
@@ -337,7 +337,7 @@ sina ursprungliga ägare och licenser. Se [docs/CREDIT.md](../../docs/CREDIT.md)
 
 ### ⭐ Om den här katalogen hjälpte dig hitta en plugin, sätt en stjärna på repot — det hjälper skapare att bli upptäckta.
 
-**[Bläddra bland alla plugins på webbplatsen →](https://dsh-plugins.omniroute.online)**
+**[Bläddra bland alla plugins på webbplatsen →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

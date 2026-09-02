@@ -123,7 +123,7 @@ Reglas que se aplican a los tres flujos:
   posterior del creador.
 - **Mantenedores** revisan, aplican los gates de procedencia, resuelven colisiones y fusionan.
   También mantienen el sitio web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) y la CLI publicada desde
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) y la CLI publicada desde
   código fuente privado; los datos públicos, el schema y las políticas de este repositorio son lo
   que esas superficies consumen.
 

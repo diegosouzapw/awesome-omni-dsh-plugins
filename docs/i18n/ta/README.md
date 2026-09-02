@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Pinned source commits, credited creators, one reviewed PR per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — creator-first catalog and one-command install for DeepSeek Harness plugins. Pinned source commits, credited creators, one reviewed PR per plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 **DeepSeek Harness (DSH)** செருகுநிரல்களுக்கான படைப்பாளர்-முன்னுரிமை கண்டறிதலும் ஒரே-கட்டளை நிறுவலும்.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">இணையதளத்தில் ஒவ்வொரு செருகுநிரலையும் உலாவவும், தேடவும், நிறுவவும் →</a>
+  <a href="https://dsh-plugins.omniskill.online">இணையதளத்தில் ஒவ்வொரு செருகுநிரலையும் உலாவவும், தேடவும், நிறுவவும் →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -96,7 +96,7 @@
 
 <div align="center">
 
-### 👉 [**இணையதளத்தில் அனைத்து செருகுநிரல்களையும் தேடி, விவரங்களைப் படித்து, நிறுவல் கட்டளையை நகலெடுக்கவும் →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**இணையதளத்தில் அனைத்து செருகுநிரல்களையும் தேடி, விவரங்களைப் படித்து, நிறுவல் கட்டளையை நகலெடுக்கவும் →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -104,11 +104,11 @@
 
 | தளம்     | இது என்ன                                                       | எங்கே                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **இணையதளம்** | தேடல் மற்றும் தரவரிசையுடன் காட்டப்படும் பட்டியல் உலாவி                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **இணையதளம்** | தேடல் மற்றும் தரவரிசையுடன் காட்டப்படும் பட்டியல் உலாவி                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **பட்டியல்** | ஒவ்வொரு செருகுநிரலுக்கும் ஒரு YAML கோப்பு, ஒரே உண்மை மூலம்             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **திட்டவரைவு**  | ஒவ்வொரு பதிவும் சரிபார்க்கும் பொது JSON திட்டவரைவு (draft 2020-12) | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | பட்டியலிலிருந்து தேடு, ஆய்வு செய், சரிபார் மற்றும் நிறுவு           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **இயந்திரத் தரவுகள்** | கருவிகளுக்கான `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **இயந்திரத் தரவுகள்** | கருவிகளுக்கான `catalog.json` + `catalog.snapshot.json`           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 இந்தக் களஞ்சியம் பட்டியலுக்கான பொது உண்மை மூலமாகும். ஒவ்வொரு பதிவும் `catalog/plugins/` கீழ் ஒரு
 YAML கோப்பாகும், வெளியிடப்பட்ட JSON திட்டவரைவுக்கு எதிராகச் சரிபார்க்கப்பட்டது, தனித்தனியாக மதிப்பாய்வு
@@ -338,7 +338,7 @@ pull request திறப்பதற்கு முன் [CONTRIBUTING.md](..
 
 ### ⭐ இந்தப் பட்டியல் உங்களுக்கு ஒரு செருகுநிரலைக் கண்டறிய உதவியிருந்தால், களஞ்சியத்தை நட்சத்திரமிடவும் — இது படைப்பாளர்களைக் கண்டறியப்பட உதவுகிறது.
 
-**[இணையதளத்தில் அனைத்து செருகுநிரல்களையும் உலாவவும் →](https://dsh-plugins.omniroute.online)**
+**[இணையதளத்தில் அனைத்து செருகுநிரல்களையும் உலாவவும் →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

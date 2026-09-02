@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalog centrat pe creatori și instalare cu o singură comandă pentru pluginurile DeepSeek Harness. Commit-uri sursă fixate, creatori creditați, câte un PR revizuit per plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalog centrat pe creatori și instalare cu o singură comandă pentru pluginurile DeepSeek Harness. Commit-uri sursă fixate, creatori creditați, câte un PR revizuit per plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -11,17 +11,17 @@ Descoperire centrată pe creatori și instalare cu o singură comandă pentru pl
 **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Răsfoiește, caută și instalează orice plugin pe site →</a>
+  <a href="https://dsh-plugins.omniskill.online">Răsfoiește, caută și instalează orice plugin pe site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -97,7 +97,7 @@ la commit-ul exact validat de catalog.
 
 <div align="center">
 
-### 👉 [**Caută toate pluginurile, citește detaliile și copiază comanda de instalare pe site →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Caută toate pluginurile, citește detaliile și copiază comanda de instalare pe site →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -105,11 +105,11 @@ la commit-ul exact validat de catalog.
 
 | Suprafață   | Ce este                                                           | Unde                                                                      |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Site**    | Interfață web randată a catalogului, cu căutare și clasament     | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Site**    | Interfață web randată a catalogului, cu căutare și clasament     | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Catalog** | Un fișier YAML per plugin, sursa unică de adevăr                 | [`catalog/plugins/`](../../catalog/plugins)                              |
 | **Schemă**  | Schemă JSON publică (draft 2020-12) față de care se validează fiecare intrare | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml) |
 | **CLI**     | Caută, inspectează, validează și instalează din catalog          | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Fluxuri pentru mașini** | `catalog.json` + `catalog.snapshot.json` pentru unelte | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Fluxuri pentru mașini** | `catalog.json` + `catalog.snapshot.json` pentru unelte | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Acest repository este sursa publică de adevăr pentru catalog. Fiecare intrare este un fișier YAML
 sub `catalog/plugins/`, validat față de o schemă JSON publicată, adăugat printr-un pull request
@@ -342,7 +342,7 @@ rămân sub proprietarii și licențele lor originale. Vezi [docs/CREDIT.md](../
 
 ### ⭐ Dacă acest catalog te-a ajutat să găsești un plugin, dă o stea repository-ului — îi ajută pe creatori să fie descoperiți.
 
-**[Răsfoiește toate pluginurile pe site →](https://dsh-plugins.omniroute.online)**
+**[Răsfoiește toate pluginurile pe site →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

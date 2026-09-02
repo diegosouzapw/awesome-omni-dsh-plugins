@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogue axé sur le créateur et installation en une seule commande pour les plugins DeepSeek Harness. Commits source épinglés, créateurs crédités, une PR revue par plugin. dsh-plugins.omniroute.online"/>
+<img src="../../docs/assets/readme-hero.svg" width="100%" alt="Awesome Omni DSH Plugins — catalogue axé sur le créateur et installation en une seule commande pour les plugins DeepSeek Harness. Commits source épinglés, créateurs crédités, une PR revue par plugin. dsh-plugins.omniskill.online"/>
 
 # 🧩 Awesome Omni DSH Plugins
 
@@ -10,17 +10,17 @@
 Découverte axée sur le créateur et installation en une seule commande pour les plugins **DeepSeek Harness (DSH)**.
 
 <h2>
-  🌐 <a href="https://dsh-plugins.omniroute.online"><strong>dsh-plugins.omniroute.online</strong></a> 🌐
+  🌐 <a href="https://dsh-plugins.omniskill.online"><strong>dsh-plugins.omniskill.online</strong></a> 🌐
 </h2>
 <h3>
-  <a href="https://dsh-plugins.omniroute.online">Parcourez, recherchez et installez tous les plugins sur le site →</a>
+  <a href="https://dsh-plugins.omniskill.online">Parcourez, recherchez et installez tous les plugins sur le site →</a>
 </h3>
 
-[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniroute.online)
+[![Plugins](https://img.shields.io/badge/plugins-3614_merged-3fb950)](https://dsh-plugins.omniskill.online)
 [![npm](https://img.shields.io/npm/v/omni-dsh-plugins?label=CLI&color=cb3837&logo=npm)](https://www.npmjs.com/package/omni-dsh-plugins)
 [![Catalog validation](https://img.shields.io/github/actions/workflow/status/diegosouzapw/awesome-omni-dsh-plugins/validate-catalog.yml?label=catalog%20validation&logo=github)](https://github.com/diegosouzapw/awesome-omni-dsh-plugins/actions/workflows/validate-catalog.yml)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0--1.0-blue)](../../LICENSE)
-[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniroute.online)
+[![Website](https://img.shields.io/badge/website-live-58a6ff?logo=google-chrome&logoColor=white)](https://dsh-plugins.omniskill.online)
 
 <br/>
 
@@ -94,7 +94,7 @@ nom renvoie vers le dépôt du créateur, épinglé au commit exact validé par 
 
 <div align="center">
 
-### 👉 [**Recherchez tous les plugins, consultez les détails et copiez la commande d'installation sur le site →**](https://dsh-plugins.omniroute.online) 👈
+### 👉 [**Recherchez tous les plugins, consultez les détails et copiez la commande d'installation sur le site →**](https://dsh-plugins.omniskill.online) 👈
 
 </div>
 
@@ -102,11 +102,11 @@ nom renvoie vers le dépôt du créateur, épinglé au commit exact validé par 
 
 | Surface     | Ce que c'est                                                       | Où                                                                    |
 | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Site web** | Navigateur de catalogue avec recherche et classement                 | [dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)     |
+| **Site web** | Navigateur de catalogue avec recherche et classement                 | [dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)     |
 | **Catalogue** | Un fichier YAML par plugin, source de vérité unique             | [`catalog/plugins/`](../../catalog/plugins)                                    |
 | **Schéma**  | Schéma JSON public (brouillon 2020-12) auquel chaque entrée doit être conforme | [`schemas/plugin.schema.yaml`](../../schemas/plugin.schema.yaml)               |
 | **CLI**     | Recherche, inspecte, valide et installe depuis le catalogue           | [`omni-dsh-plugins`](https://www.npmjs.com/package/omni-dsh-plugins) |
-| **Flux machine** | `catalog.json` + `catalog.snapshot.json` pour les outils           | [catalog.json](https://dsh-plugins.omniroute.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniroute.online/catalog.snapshot.json) |
+| **Flux machine** | `catalog.json` + `catalog.snapshot.json` pour les outils           | [catalog.json](https://dsh-plugins.omniskill.online/catalog.json) · [catalog.snapshot.json](https://dsh-plugins.omniskill.online/catalog.snapshot.json) |
 
 Ce dépôt est la source de vérité publique du catalogue. Chaque entrée est un fichier YAML sous
 `catalog/plugins/`, validé par rapport à un schéma JSON publié, ajouté via une pull request
@@ -342,7 +342,7 @@ Voir [docs/CREDIT.md](../../docs/CREDIT.md) et [docs/UNOFFICIAL.md](../../docs/U
 
 ### ⭐ Si ce catalogue vous a aidé à trouver un plugin, mettez une étoile au dépôt — cela aide les créateurs à se faire connaître.
 
-**[Parcourir tous les plugins sur le site →](https://dsh-plugins.omniroute.online)**
+**[Parcourir tous les plugins sur le site →](https://dsh-plugins.omniskill.online)**
 
 </div>
 

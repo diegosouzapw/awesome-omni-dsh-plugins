@@ -125,7 +125,7 @@ Peraturan yang digunakan pada ketiga-tiga aliran:
   langsung yang datang kemudian.
 - **Penyelenggara** menyemak, menggunakan pintu gerbang provenans, menyelesaikan
   perlanggaran dan menggabungkan. Mereka juga menyelenggara laman web
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) dan CLI yang
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) dan CLI yang
   diterbitkan daripada sumber persendirian; data awam, skema dan dasar repositori ini
   adalah apa yang digunakan oleh permukaan tersebut.
 

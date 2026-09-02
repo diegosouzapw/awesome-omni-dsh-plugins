@@ -114,7 +114,7 @@ npx --yes omni-dsh-plugins catalog validate --catalog .
   পরবর্তী সরাসরি স্রষ্টা অবদানের চেয়ে অগ্রাধিকার পায় না।
 - **মেইনটেইনাররা** পর্যালোচনা করেন, প্রোভেন্যান্স গেট প্রয়োগ করেন, সংঘর্ষ সমাধান করেন এবং মার্জ করেন।
   তারা প্রাইভেট সোর্স থেকে ওয়েবসাইট
-  ([dsh-plugins.omniroute.online](https://dsh-plugins.omniroute.online)) এবং প্রকাশিত CLI-ও
+  ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online)) এবং প্রকাশিত CLI-ও
   রক্ষণাবেক্ষণ করেন; এই রিপোজিটরির পাবলিক ডেটা, স্কিমা এবং নীতিগুলি হলো তা সেই সারফেসগুলি ব্যবহার করে।
 
 <!-- i18n-source-hash: d43a6ba221ce5d31c551bad845038f0e6453100435f2358c4d69b97ba9dede2a -->
