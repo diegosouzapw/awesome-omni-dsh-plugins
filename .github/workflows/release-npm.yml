@@ -29,7 +29,6 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: npm-release
     defaults:
       run:
         working-directory: cli
