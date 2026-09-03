@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: delef-dsh-plugin-auto-review
+name: dsh-plugin-auto-review
+description:
+  en: Automatically review native DeepSeek Harness tool approval requests through a configured DSH LLM route, with Web controls and fail-closed handling
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: security-permissions-approvals
+tags:
+  - deepseek-harness
+  - dsh-plugin
+  - approvals
+  - security
+  - automation
+  - llm
+  - web-ui
+  - settings
+  - headless
+source:
+  repository: https://github.com/delef/dsh-plugin-auto-review
+  repositoryNodeId: R_kgDOUNA1nA
+  subpath: null
+  commit: b3a619ede575bc3c90d08c824d7d610671cb33ea
+creator:
+  github: delef
+package:
+  ecosystem: npm
+  name: dsh-plugin-auto-review
+  version: 0.1.0
+  integrity: sha512-v1qHPxejpucTuRu0NElredGyooLOWdf6XeS2dFnQs0i8t0ug13pMG3Gji1XG+1YNiSYwD6HB44Mrx601/u159A==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-03T13:03:48.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
