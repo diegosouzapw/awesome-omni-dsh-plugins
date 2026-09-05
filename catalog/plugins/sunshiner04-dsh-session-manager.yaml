@@ -1,0 +1,44 @@
+schemaVersion: 1
+id: sunshiner04-dsh-session-manager
+name: dsh-session-manager
+description:
+  en: Settings-page manager for archived DeepSeek Harness sessions: restore an archived session to its previous workspace position or permanently delete it (direct physical delete, optional backup checkbox removed in favor of irreversible deletion with a confirm dialog). Also adds a red permanently-delete item to the session context menu, /sessions slash commands, and three agent tools. Deleting an open session works immediately: the lingering in-memory summary is hidden via an archive-set tombstone and cleaned up at the next restart.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - sessions
+  - archive
+  - delete
+  - restore
+  - settings-page
+  - slash-commands
+  - agent-tools
+  - dsh
+source:
+  repository: https://github.com/SunshineR04/dsh-session-manager
+  repositoryNodeId: R_kgDOUPhlxg
+  commit: b3de482adee11260f54ab97cfc7f594bd062d7ed
+creator:
+  github: SunshineR04
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: single
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-05T19:47:45.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: undefined-parent-repository
+  stars: null
+provenance:
+  discussion: null
+  comment: null
