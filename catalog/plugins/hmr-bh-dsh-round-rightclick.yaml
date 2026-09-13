@@ -21,7 +21,10 @@ source:
 creator:
   github: hmr-BH
 package:
-  ecosystem: source
+  ecosystem: npm
+  name: dsh-round-rightclick
+  version: 0.1.0
+  integrity: sha512-FXflANNo3h8pTdSKdw8rSD2ZV3Q0dOC+ITy2vqBYz7YbTciFgaxX9RvKjuNQTPxkjABvyeFJ2rp57UFl6nVC+Q==
 dsh:
   profiles:
     - web
