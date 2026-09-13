@@ -1,0 +1,46 @@
+schemaVersion: 1
+id: hmr-bh-dsh-round-rightclick
+name: dsh-round-rightclick
+description:
+  en: 'Radial right-click menu on DeepSeek Harness Web conversation turns: fork a session from the chosen turn, interrupt generation, copy the working directory path or session ID, open the working directory, and export logs.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - radial-menu
+  - context-menu
+  - session-fork
+  - conversation-turns
+  - web-gui
+source:
+  repository: https://github.com/hmr-BH/dsh-round-rightclick
+  repositoryNodeId: R_kgDOUYp4eg
+  subpath: null
+  commit: 51cceb8e5496a9931dce32f5e33bc704598dd419
+creator:
+  github: hmr-BH
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-09-13T07:20:00.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/hmr-BH/dsh-round-rightclick/51cceb8e5496a9931dce32f5e33bc704598dd419/assets/screenshots/radial-menu.png
+    alt: Radial right-click menu opened on a conversation turn
+provenance:
+  discussion: null
+  comment: null
