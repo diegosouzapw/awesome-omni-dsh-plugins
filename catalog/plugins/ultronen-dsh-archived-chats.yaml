@@ -1,8 +1,8 @@
 schemaVersion: 1
 id: ultronen-dsh-archived-chats
-name: dsh-archived-chats
+name: Archive Management
 description:
-  en: ⚡ Deletion takes effect immediately — no restart. Even sessions still resident in the background are torn down safely along the official lifecycle and wiped from disk the moment you click delete, instead of being "parked until the next restart".
+  en: Manage archived chats with search, preview, restore, workspace bulk archiving, ZIP backups, and a Recycle Bin.
   evidencePath: README.md
 unofficial: true
 kind: plugin
@@ -18,14 +18,14 @@ source:
   repository: https://github.com/Ultronen/dsh-archived-chats
   repositoryNodeId: R_kgDOT5pXsw
   subpath: null
-  commit: 2fbbdefdf0fda0d5e414d9c0278a87c7cfdb9e8c
+  commit: f519985a4bc7add41602e35931582dde60ea8e53
 creator:
   github: Ultronen
 package:
   ecosystem: npm
   name: dsh-archived-chats
-  version: 0.7.0
-  integrity: sha512-2XSIJYRdOET9tsQ/0R6541iXPjYJfXgdF316Ot61G26uocB1V48WlUxsLR/8/XY/qhwLko/5arVggbwCg27Lkg==
+  version: 1.4.1
+  integrity: sha512-LNezIiY5wNZa6A7Ct1VO9vdgtDzeXSwmy8x62LrfPhggPOjOuA2SpTu6a0+TQ+7jTpHoxsswBpegXH1kDDl+Yg==
 dsh:
   profiles:
     - web
@@ -35,12 +35,12 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T04:48:51.667Z
+  checkedAt: 2026-09-21T20:04:58.162Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 5
+  stars: 23
 provenance:
   discussion: null
   comment: null
