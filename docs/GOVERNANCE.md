@@ -41,13 +41,19 @@ working policy for the default branch:
 
 ## The `catalog-validation` check
 
-Every pull request touching `catalog/plugins/`, `schemas/` or the workflow itself runs the
-`catalog-validation` job (`.github/workflows/validate-catalog.yml`), pinned to the published
-CLI:
+Every pull request runs the `catalog-validation` job
+(`.github/workflows/validate-catalog.yml`). The job installs and builds the CLI from the
+checked-out commit, so changes to the validator are tested together with the catalog:
 
 ```bash
-npx --yes omni-dsh-plugins catalog validate --catalog .
+node cli/dist/bin.js catalog validate --catalog .
 ```
+
+The same workflow runs on pushes to `main` and manual dispatch. Documentation checks require
+an exact README entry count on those runs; pull requests use `--skip-count` and separately
+reject a counter lower than the base branch. The `cli` workflow also runs on every pull
+request and checks types, tests, the build, and the binary's reported version. Workflows for
+outside contributors may require maintainer approval before any of these checks can run.
 
 **What it validates** — local structure and semantics only:
 
@@ -88,11 +94,11 @@ full semantics, including how states interact with ranking, are in
 Structured GitHub issue forms (`.github/ISSUE_TEMPLATE/`) are the governed path for changing an
 entry you did not submit:
 
-| Form           | Who uses it                              | Outcome                                             |
-| -------------- | ---------------------------------------- | --------------------------------------------------- |
-| **Claim**      | A creator whose plugin was curated by someone else | Ownership is bound to the original source; the creator can then contribute directly |
-| **Correction** | Anyone who spots inaccurate public metadata | A reviewed fix to the affected entry             |
-| **Removal**    | A creator who wants their listing removed, or a reporter of a policy violation | Reviewed removal or quarantine of the entry |
+| Form           | Who uses it                                                                    | Outcome                                                                             |
+| -------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| **Claim**      | A creator whose plugin was curated by someone else                             | Ownership is bound to the original source; the creator can then contribute directly |
+| **Correction** | Anyone who spots inaccurate public metadata                                    | A reviewed fix to the affected entry                                                |
+| **Removal**    | A creator who wants their listing removed, or a reporter of a policy violation | Reviewed removal or quarantine of the entry                                         |
 
 Rules that apply to all three flows:
 
@@ -113,5 +119,7 @@ Rules that apply to all three flows:
   outranks a later direct creator contribution.
 - **Maintainers** review, apply the provenance gates, resolve collisions and merge. They also
   maintain the website ([dsh-plugins.omniskill.online](https://dsh-plugins.omniskill.online))
-  and the published CLI from private source; this repository's public data, schema and policies
-  are what those surfaces consume.
+  from private source and the public CLI in this repository's `cli/` directory. Both consume
+  this repository's public catalog, schema and policies. The CLI package is
+  `omni-dsh-plugins`, published by `.github/workflows/release-npm.yml` from a reviewed
+  `cli-v<version>` tag through npm trusted publishing with provenance.
