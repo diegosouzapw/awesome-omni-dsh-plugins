@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-laya
+name: "dsh-laya"
+description:
+  en: "Laya typed decisions (noul, choice, score) as a Cordis service and two model-visible tools for DeepSeek Harness, with a token-budget preflight and an honest low-confidence answer rather than a forced pick. It installs nothing: it is a client of a laya-mcp sidecar you start, and says so when that process is not running."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - decision-model
+  - typed-decisions
+  - mcp
+  - calibration
+source:
+  repository: https://github.com/PerryLink/dsh-laya
+  repositoryNodeId: R_kgDOUjvcJg
+  subpath: null
+  commit: 87f86bc9d6a941f3c907f58a898e9bff14a5054d
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-laya"
+  version: 0.1.4
+  integrity: sha512-jM1DGiVdRzefxm8NqCRBJJRu4gbXUgnb2OTPvZv0YacUVZgGlYiZTESNxKVtTSd66TlAPik0bPCXjMBvIG0Iog==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-22T14:59:13Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
