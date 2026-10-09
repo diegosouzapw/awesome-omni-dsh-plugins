@@ -20,14 +20,14 @@ source:
   repository: https://github.com/PerryLink/dsh-skill-pack-security
   repositoryNodeId: R_kgDOT3sihg
   subpath: provider
-  commit: 6c1af73c4bea1258f151038dc0e0f1318c887ff5
+  commit: 8e74c4d35bda063c9066a1cce453236f9dce09ae
 creator:
   github: PerryLink
 package:
   ecosystem: npm
   name: "@perrylink/dsh-skill-pack-security-provider"
-  version: 2.1.1
-  integrity: sha512-kfPVo86sfByh2s+QMtwPEoZmoF7g+HaY2mwu3sQnaZGXQzpYJIgmR0No/51DYFxWOQfIuyuIWkkCmxsZ2w2tHw==
+  version: 2.2.16
+  integrity: sha512-zLR74darcwUbvrkP5UVpDnhN9KpCpcHL2cTtGfdQaE2/w5Rpxq+c+XumaRiZAfsmBdWSuGAmKT4NtPmcEj1yZg==
 dsh:
   profiles:
     - default
@@ -37,7 +37,7 @@ license:
   spdx: Apache-2.0
 verification:
   status: eligible
-  checkedAt: 2026-08-21T05:27:03.533Z
+  checkedAt: 2026-09-22T14:48:53Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
