@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: lcestou-dsh-oh-my-claude
+name: dsh-oh-my-claude
+description:
+  en: "Claude Code CLI as a native dsh provider: drives the logged-in claude binary over stream-json on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - claude-code
+  - claude
+  - anthropic
+  - provider
+  - llm
+  - cordis
+source:
+  repository: https://github.com/lcestou/dsh-oh-my-claude
+  repositoryNodeId: R_kgDOUXWkAA
+  subpath: null
+  commit: 6962e0d206f5d54582014e2ba5c662d39db91ca7
+creator:
+  github: lcestou
+package:
+  ecosystem: npm
+  name: dsh-oh-my-claude
+  version: 1.5.3
+  integrity: sha512-UrifQmxVTT2XUrCKKMjjJAp+8OO5M+KSR4a3JJ4WYfAwnel+WtVad6CUQA7sXVRHppkp1sa/J4HyrJQRttT5eA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-10-09T05:45:21.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 10
+provenance:
+  discussion: null
+  comment: null
