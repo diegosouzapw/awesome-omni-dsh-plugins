@@ -20,7 +20,7 @@ source:
   repository: https://github.com/PerryLink/dsh-ticktick
   repositoryNodeId: R_kgDOUNCCrg
   subpath: null
-  commit: 41ff66d2e6a2447237a91b5b90571a4b49bfcea0
+  commit: 0c8f1ccc7da7936f1b3e513e09f3a618ce5612c7
 creator:
   github: PerryLink
 package:
@@ -38,12 +38,12 @@ license:
   spdx: Apache-2.0
 verification:
   status: eligible
-  checkedAt: 2026-09-20T03:29:32Z
+  checkedAt: 2026-09-22T14:51:27Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 0
+  stars: 1
 provenance:
   discussion: null
   comment: null
