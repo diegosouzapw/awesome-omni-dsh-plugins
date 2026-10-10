@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "sev7een7-dsh-sieve",
+  "name": "dsh-sieve",
+  "description": {
+    "en": "Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.",
+    "evidencePath": "README.en.md"
+  },
+  "unofficial": true,
+  "kind": "plugin",
+  "primaryCategory": "sessions-productivity",
+  "tags": [
+    "context-management",
+    "tool-output-filtering",
+    "skill-disclosure",
+    "headless"
+  ],
+  "source": {
+    "repository": "https://github.com/Sev7eEn7/sieve",
+    "repositoryNodeId": "R_kgDOU7UMtA",
+    "subpath": "packages/dsh-sieve",
+    "commit": "72cb90bae727960956660b8e80a8d7c10fcafbc3"
+  },
+  "creator": {
+    "github": "Sev7eEn7"
+  },
+  "package": {
+    "ecosystem": "npm",
+    "name": "dsh-sieve",
+    "version": "0.1.0",
+    "integrity": "sha512-poGu4NemJIP75PojOWUxJjbYjy5uhBDA3LOV8Zx2gNW7y8p5SG2643db8Y5dMSPKoOObb5j820Jcb3+I5TPhlA=="
+  },
+  "dsh": {
+    "profiles": [
+      "web",
+      "headless"
+    ],
+    "evidencePath": "packages/dsh-sieve/package.json"
+  },
+  "repositoryScope": "monorepo",
+  "popularity": {
+    "starsPolicy": "undefined-parent-repository",
+    "stars": null
+  },
+  "license": {
+    "spdx": "MIT"
+  },
+  "verification": {
+    "status": "eligible",
+    "checkedAt": "2026-10-06T15:45:34.940656Z",
+    "repositoryIdentity": "resolved",
+    "smokeTest": null
+  },
+  "provenance": {
+    "discussion": null,
+    "comment": null
+  }
+}
