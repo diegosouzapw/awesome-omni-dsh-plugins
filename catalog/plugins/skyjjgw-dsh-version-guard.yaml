@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "skyjjgw-dsh-version-guard",
+  "name": "dsh-version-guard",
+  "description": {
+    "en": "Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.",
+    "evidencePath": "README.md"
+  },
+  "unofficial": true,
+  "kind": "plugin",
+  "primaryCategory": "diagnostics-observability",
+  "tags": [
+    "settings",
+    "cli",
+    "recovery",
+    "rollback"
+  ],
+  "source": {
+    "repository": "https://github.com/skyjjgw/dsh-version-guard",
+    "repositoryNodeId": "R_kgDOVHCcRw",
+    "subpath": null,
+    "commit": "88e313df37c2b37896fd0a948844d4f614ef23e3"
+  },
+  "creator": {
+    "github": "skyjjgw"
+  },
+  "package": {
+    "ecosystem": "source"
+  },
+  "dsh": {
+    "profiles": [
+      "web"
+    ],
+    "evidencePath": "package.json"
+  },
+  "repositoryScope": "dedicated",
+  "popularity": {
+    "starsPolicy": "exact-repository",
+    "stars": 1
+  },
+  "license": {
+    "spdx": "MIT"
+  },
+  "verification": {
+    "status": "eligible",
+    "checkedAt": "2026-10-13T15:43:20.514Z",
+    "repositoryIdentity": "resolved",
+    "smokeTest": null
+  },
+  "provenance": {
+    "discussion": null,
+    "comment": null
+  }
+}
