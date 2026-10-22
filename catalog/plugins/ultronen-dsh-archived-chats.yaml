@@ -2,7 +2,7 @@ schemaVersion: 1
 id: ultronen-dsh-archived-chats
 name: Archive Management
 description:
-  en: Manage archived and unarchived chats with search, previews, tags and notes, workspace archiving, ZIP backups, selected actions, a Recycle Bin, storage and retention, origins and branches, and automatic residual chat checks.
+  en: Browse archived and unarchived chats; search archived content with context previews, add tags and notes, archive by workspace, import/export ZIP backups, confirm permanent deletion of archived chats, inspect read-only origins and branches, and manually check residual chats.
   evidencePath: README.md
 unofficial: true
 kind: plugin
@@ -18,14 +18,14 @@ source:
   repository: https://github.com/Ultronen/dsh-archived-chats
   repositoryNodeId: R_kgDOT5pXsw
   subpath: null
-  commit: ce6df374da649eae306b9a7a5b73d1f3335ce7c9
+  commit: d02470d3dfd6515da4b23534ae440a0cccfd3823
 creator:
   github: Ultronen
 package:
   ecosystem: npm
   name: dsh-archived-chats
-  version: 1.5.2
-  integrity: sha512-RRrVfDGXHy5NEU06+OWOv+YeNmatzlH/bTvdhHdcEj86glxf3QqcT81qZ7oU4J6MqItO37Fbx1tB4KX1nMxkTA==
+  version: 1.6.0
+  integrity: sha512-0Jl5MdjEqxmUqeJ7njp1FVD03yIov/P+c1dylO/W3gzLsablvb9WPVKOOt7j+6LixK61sYLsM5gUcwvkGTVgVA==
 dsh:
   profiles:
     - web
@@ -35,12 +35,12 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-10-13T12:30:03.537Z
+  checkedAt: 2026-10-22T15:21:26.466Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 28
+  stars: 29
 provenance:
   discussion: null
   comment: null
