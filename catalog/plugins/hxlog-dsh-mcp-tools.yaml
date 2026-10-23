@@ -1,0 +1,45 @@
+schemaVersion: 1
+id: hxlog-dsh-mcp-tools
+name: dsh-mcp-tools
+description:
+  en: "MCP server and tool manager inside DeepSeek Harness Settings: add streamable-http or stdio servers, fill header rows Postman-style, test connectivity before saving, and toggle individual tools so disabled tools never reach the model."
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - web-ui
+  - settings
+  - mcp
+  - mcp-servers
+  - developer-tools
+source:
+  repository: https://github.com/hxlog/dsh-mcp-tools
+  repositoryNodeId: R_kgDOVRrk5w
+  subpath: null
+  commit: 65fc43897fec7d66d19053e21012e789dbb36dc6
+creator:
+  github: hxlog
+package:
+  ecosystem: npm
+  name: dsh-mcp-tools
+  version: 1.0.2
+  integrity: sha512-SdZ7nAkqJzuppqZYHoMj12PSTmEbqxO+8G7loKrny9ECmAbX4i0oVnjGwFWvn48h5+WhBb3RCJcxxQYyC++uew==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-10-23T07:44:25Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
