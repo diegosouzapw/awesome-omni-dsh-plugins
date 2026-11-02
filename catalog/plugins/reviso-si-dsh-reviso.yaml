@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: reviso-si-dsh-reviso
+name: dsh-reviso
+description:
+  en: "Publish agent output to Reviso for human review from a sidebar document browser and a session tab scoped to the producing session, then read the documents back from that session. OAuth is host-mediated: tokens stay in DSH credentials; the browser only receives short-lived embed sessions."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - document-review
+  - sidebar
+  - web-ui
+  - oauth
+  - cordis
+source:
+  repository: https://github.com/reviso-si/reviso-dsh
+  repositoryNodeId: R_kgDOVLb07A
+  subpath: null
+  commit: aeb7180303b7f730a4405c34e75df2d700475522
+creator:
+  github: reviso-si
+package:
+  ecosystem: npm
+  name: dsh-reviso
+  version: "0.1.1"
+  integrity: sha512-C1H4A8PJq4GGIlKPnTWDPnAX5BCR4NJQYlM6m5jFeyyWUQ4HSrcqVTn6rM6rQshOUyjOUAAGcLZmMzUrIuDDtQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-02T01:50:07Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: https://github.com/deepseek-ai/deepseek-harness/discussions/11796
+  comment: null
