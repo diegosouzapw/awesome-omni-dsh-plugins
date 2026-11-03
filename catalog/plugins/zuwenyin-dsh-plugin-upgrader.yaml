@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: zuwenyin-dsh-plugin-upgrader
+name: dsh-plugin-upgrader
+description:
+  en: "Versions tab for the DeepSeek Harness Plugins page: lists every published version, upgrades one or many in place so the bundle is never uninstalled, streams pnpm progress with cancel, rolls back in one click, flags versions a mirror is missing, and lets the user pick the install registry."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - cordis
+  - web-ui
+  - plugin-manager
+  - version-manager
+source:
+  repository: https://github.com/zuwenyin/dsh-plugin-upgrader
+  repositoryNodeId: R_kgDOVTN2_w
+  subpath: null
+  commit: 94076b3b34032dee792766c93537aeb14772fda6
+creator:
+  github: zuwenyin
+package:
+  ecosystem: npm
+  name: dsh-plugin-upgrader
+  version: 1.6.3
+  integrity: sha512-n2kmxkyfxjhKqyHuevGuXKErELJe8hdZcUIJXwRyqRcwIibJh2psLv3wSBIbpR47Lma0sK8fR+utcPJ0cG99JQ==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-03T02:10:00.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 3
+provenance:
+  discussion: null
+  comment: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/history.png
+    alt: Version history for one plugin with a rollback button
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/selection.png
+    alt: Selecting several plugins for one upgrade batch
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/sources.png
+    alt: Choosing which npm registry to install from
