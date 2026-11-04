@@ -1,0 +1,41 @@
+schemaVersion: 1
+id: lijiaqi-ai-product-manager-agentcompare
+name: AgentCompare
+description:
+  en: Compare two running Vite implementations in DSH conversations, choose blind, and review adoption against current project edits.
+  evidencePath: README.en.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - web-ui
+  - code-comparison
+  - live-preview
+  - git-worktree
+source:
+  repository: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
+  repositoryNodeId: R_kgDOVfhc6g
+  subpath: null
+  commit: a92d239a8078c3142290194807a261e4707e1807
+creator:
+  github: lijiaqi-AI-Product-Manager
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: package.json
+repositoryScope: dedicated
+popularity:
+  starsPolicy: exact-repository
+  stars: 27
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: '2026-11-04T02:38:58.101Z'
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
