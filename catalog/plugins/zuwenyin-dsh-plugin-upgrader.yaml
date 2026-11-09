@@ -18,14 +18,14 @@ source:
   repository: https://github.com/zuwenyin/dsh-plugin-upgrader
   repositoryNodeId: R_kgDOVTN2_w
   subpath: null
-  commit: 94076b3b34032dee792766c93537aeb14772fda6
+  commit: af77dc6b6c4fadf9d1dffa75d80235cd922e98e2
 creator:
   github: zuwenyin
 package:
   ecosystem: npm
   name: dsh-plugin-upgrader
-  version: 1.6.3
-  integrity: sha512-n2kmxkyfxjhKqyHuevGuXKErELJe8hdZcUIJXwRyqRcwIibJh2psLv3wSBIbpR47Lma0sK8fR+utcPJ0cG99JQ==
+  version: 1.8.0
+  integrity: sha512-p65cIkwRLDBBYH8L9HPqqA4dmt2OnJl9W3oihxZ0hBQdbEuVrNeQqdmljeykb1fa1/sqFlaEIswqVaPYzjjGJA==
 dsh:
   profiles:
     - web
@@ -35,7 +35,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-11-03T02:10:00.000Z
+  checkedAt: 2026-11-09T03:10:00.000Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
@@ -46,11 +46,11 @@ provenance:
   comment: null
 media:
   - kind: screenshot
-    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/history.png
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/af77dc6b6c4fadf9d1dffa75d80235cd922e98e2/screenshots/history.png
     alt: Version history for one plugin with a rollback button
   - kind: screenshot
-    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/selection.png
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/af77dc6b6c4fadf9d1dffa75d80235cd922e98e2/screenshots/selection.png
     alt: Selecting several plugins for one upgrade batch
   - kind: screenshot
-    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/94076b3b34032dee792766c93537aeb14772fda6/screenshots/sources.png
+    url: https://raw.githubusercontent.com/zuwenyin/dsh-plugin-upgrader/af77dc6b6c4fadf9d1dffa75d80235cd922e98e2/screenshots/sources.png
     alt: Choosing which npm registry to install from
