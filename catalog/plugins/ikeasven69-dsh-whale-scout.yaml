@@ -1,0 +1,56 @@
+schemaVersion: 1
+id: ikeasven69-dsh-whale-scout
+name: dsh-whale-scout
+description:
+  en: "A whale-girl research sentinel that patrols Bilibili (subtitle transcripts, Whisper fallback), Weibo, Zhihu, GitHub Trending and Hacker News on your interest list, scores each pick with an explicit why, and dual-writes findings into your knowledge base and her first-person diary."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - web-ui
+  - settings
+  - research
+  - content-curation
+  - knowledge-base
+  - diary
+  - memory
+  - scheduler
+  - feedback-loop
+  - im-push
+  - tts
+  - bilibili
+  - prompt-injection-defense
+source:
+  repository: https://github.com/IKEASven69/dsh-whale-scout
+  repositoryNodeId: R_kgDOVitYsw
+  subpath: null
+  commit: 4b64cb4f82444dc12c0825baf860dc43157160e0
+creator:
+  github: IKEASven69
+package:
+  ecosystem: npm
+  name: dsh-whale-scout
+  version: 0.1.0
+  integrity: sha512-SP+rPZKC8hJn3vLzYm9PzjG/NtHtFPRN2un7cbaeXrma5f8lojcnxfxNXv9qN1nrHzGXqoR778a/mlMiDEs6Uw==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-13T00:00:00.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
