@@ -40,7 +40,7 @@ verification:
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 28
+  stars: 30
 provenance:
   discussion: null
   comment: null
