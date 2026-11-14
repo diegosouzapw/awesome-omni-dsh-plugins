@@ -2,7 +2,7 @@ schemaVersion: 1
 id: ultronen-dsh-liquid-glass
 name: dsh-liquid-glass
 description:
-  en: Liquid glass for DeepSeek Harness — one toggle, and the whole interface turns to glass.
+  en: Theme backgrounds for DeepSeek Harness — translucent surfaces with image or local video backgrounds.
   evidencePath: README.md
 unofficial: true
 kind: plugin
@@ -16,17 +16,17 @@ tags:
   - wallpaper
   - web-ui
 source:
-  repository: https://github.com/Ultronen/dsh-liquid-glass
+  repository: https://github.com/Ultroncn/dsh-liquid-glass
   repositoryNodeId: R_kgDOT5p4Aw
   subpath: null
-  commit: f710ce2fbb1e91c82f72df49ee513e109d0f3ba3
+  commit: bdc25b32be2229ca9d78ebebc8b3b38dcd3bd1cb
 creator:
-  github: Ultronen
+  github: Ultroncn
 package:
   ecosystem: npm
   name: dsh-liquid-glass
-  version: 0.1.0
-  integrity: sha512-rb1fPbi7Zt7Gf0UqwF4shew3+bjt8E74s8R0IXhmYgeJCkVLzAgWxbv7FrO96H0V/LgjP28OqnHT2dEuoazOqA==
+  version: 0.4.0
+  integrity: sha512-GWvkYAllwucIATSSZ99L+WeykGZkfPhuM8WV+HN5yNbP80WFv3+a5Y/6jcK5rH4BWUJEp9Kk3LE4TxE+ITljeg==
 dsh:
   profiles:
     - web
@@ -36,12 +36,12 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-08-21T05:22:46.698Z
+  checkedAt: 2026-11-14T19:58:20.954Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 2
+  stars: 3
 provenance:
   discussion: null
   comment: null
