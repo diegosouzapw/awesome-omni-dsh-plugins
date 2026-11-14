@@ -18,14 +18,14 @@ source:
   repository: https://github.com/Ultroncn/dsh-archived-chats
   repositoryNodeId: R_kgDOT5pXsw
   subpath: null
-  commit: a4c9b5b1da894e694fc4b36c496355b793782c4a
+  commit: 0884f59c90de1fa99a8fa988e03850dcd3b1b16e
 creator:
   github: Ultroncn
 package:
   ecosystem: npm
   name: dsh-archived-chats
-  version: 2.0.2
-  integrity: sha512-1vJFIVGlJluDy1FUvPjBEMUftAaN88iNK/806XVk5MuS6+vMFQRUyw1gcPWfxAi9Sw0xsJVRATGbP4QNNRa+9w==
+  version: 2.0.3
+  integrity: sha512-SRByfoROXRM8u6TKGEb3hvfIOR8aJo9Gxsvz9S/p5Ka3AcexBVD3Fda+rakDSjBNw0ESG1VmrQKy+rUUsJUqFQ==
 dsh:
   profiles:
     - web
@@ -35,7 +35,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-11-13T02:51:27.036Z
+  checkedAt: 2026-11-14T20:15:15.474Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
