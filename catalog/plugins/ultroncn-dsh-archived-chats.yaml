@@ -1,5 +1,5 @@
 schemaVersion: 1
-id: ultronen-dsh-archived-chats
+id: ultroncn-dsh-archived-chats
 name: Archive Management
 description:
   en: Search and organize archived and unarchived chats with previews, tags, notes, workspace bulk archiving, ZIP backups, and conversation lineage.
