@@ -20,7 +20,7 @@ source:
   subpath: null
   commit: a4c9b5b1da894e694fc4b36c496355b793782c4a
 creator:
-  github: Ultronen
+  github: Ultroncn
 package:
   ecosystem: npm
   name: dsh-archived-chats
