@@ -19,14 +19,14 @@ source:
   repository: https://github.com/Ultroncn/dsh-liquid-glass
   repositoryNodeId: R_kgDOT5p4Aw
   subpath: null
-  commit: 6274406bd5533acedb926e40b821e979d17378f5
+  commit: b3a2cabd6082685ed830d9bf3ce1190c1957e749
 creator:
   github: Ultroncn
 package:
   ecosystem: npm
   name: dsh-liquid-glass
-  version: 0.4.2
-  integrity: sha512-3UpNAxj/HjASjI6y2pBLOy6ka6ShHGem71RKHU6a/BSR2gHLABvCOMlXVFUOpm/L0gGk0923pWy8YG0cOxu4iQ==
+  version: 0.5.0
+  integrity: sha512-ltL3emb1cx+tBOLfJJF7V5UccwSQDqcVBWi0113K2J9x4vgQDzCvRQcqC0fz2wnuYYvBGarqZxV3A7CS/55yfg==
 dsh:
   profiles:
     - web
@@ -36,12 +36,12 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-11-16T00:12:00.000Z
+  checkedAt: 2026-11-18T19:36:40.000Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
   starsPolicy: exact-repository
-  stars: 3
+  stars: 4
 provenance:
   discussion: null
   comment: null
