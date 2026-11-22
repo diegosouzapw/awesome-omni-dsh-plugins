@@ -2,7 +2,7 @@ schemaVersion: 1
 id: lijiaqi-ai-product-manager-agentcompare
 name: "鲸挑细选 · AgentCompare"
 description:
-  en: "AgentCompare compares 2–4 answers, files or live pages in the DSH Desktop/Web main conversation, with Chinese/English UI, shared conversation context, blind or open picks and reviewed adoption."
+  en: "Compare 2–4 answers, files or live pages in the main DSH Desktop or Web conversation. Pick styles, compare blind or openly, and review what you adopt. The Chinese/English interface keeps the chosen result and reasons in context."
   evidencePath: README.en.md
 unofficial: true
 kind: plugin
@@ -16,14 +16,14 @@ source:
   repository: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
   repositoryNodeId: R_kgDOVfhc6g
   subpath: null
-  commit: c66e4fd0d8d0b4cfb8f9468a3270e179306be58e
+  commit: c3dc500ac8d45afca5263160b28b545220a0e384
 creator:
   github: lijiaqi-AI-Product-Manager
 package:
   ecosystem: npm
   name: dsh-agent-compare
-  version: 3.1.1
-  integrity: sha512-rGOlEsHvqOe0IRrnzpWnLaMEuGAlosgyixUELIzHKEz/E7qJnMq4YJS7f1yA/NsCmitEfUzdKGb6QxZopLpfMA==
+  version: 3.3.0
+  integrity: sha512-JoezcujGWyle/5VyR7OuJ/sMKipUvAbYzg+YXs0/jmP354Xbxlbud2GLOoRHmsq2ofnpE+8NctrpeePJ8HGn0w==
 dsh:
   profiles:
     - web
@@ -31,32 +31,32 @@ dsh:
 repositoryScope: dedicated
 popularity:
   starsPolicy: exact-repository
-  stars: 426
+  stars: 458
 license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: "2026-11-16T09:53:14.926Z"
+  checkedAt: "2026-11-22T04:28:26.545Z"
   repositoryIdentity: resolved
   smokeTest: null
 media:
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/02-live-comparison.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/02-live-comparison.png
     alt: "Four live pages with steps and replies"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/03-main-conversation.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/03-main-conversation.png
     alt: "A greeting answered four ways, with steps"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/04-comparison-settings.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/04-comparison-settings.png
     alt: "Versions, styles and context"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/05-saved-result.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/05-saved-result.png
     alt: "Reply beside the page, saved with reasons"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/06-english-answers.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/06-english-answers.png
     alt: "Compare English answers"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c66e4fd0d8d0b4cfb8f9468a3270e179306be58e/assets/readme/gallery-2.0/07-history.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/07-history.png
     alt: "Find history, picks and reasons"
 provenance:
   discussion: null
