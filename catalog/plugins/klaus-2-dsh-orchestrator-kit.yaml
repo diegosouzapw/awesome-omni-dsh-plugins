@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: klaus-2-dsh-orchestrator-kit
+name: dsh-orchestrator-kit
+description:
+  en: Settings panel that routes provider, model, reasoning effort and per-role fallback retry routes for a 20-role dev-flow pipeline, with fail-closed live-catalog validation and an auto-installing Orchestrator craft bundle
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - model-routing
+  - fallback-routes
+  - reasoning-effort
+  - settings
+  - web-ui
+  - agent-teams
+  - dev-flow
+  - role-cards
+  - craft-bundle
+source:
+  repository: https://github.com/klaus-2/dsh-orchestrator-kit
+  repositoryNodeId: R_kgDOVzxP-Q
+  subpath: null
+  commit: 6324d0443477755c4d2f2feca0d5bb7daff51355
+creator:
+  github: "klaus-2"
+package:
+  ecosystem: npm
+  name: dsh-orchestrator-kit
+  version: 0.2.0
+  integrity: sha512-DR77UbO2dkEPZaxVmDPom0YMKhOnuI7+H4HIzLx4haa/4l7VmhG6jfrMJq1yp9UQqRhZB8GrV9cAXIw7q/DOOA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-22T18:20:00.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
