@@ -21,8 +21,8 @@ creator:
 package:
   ecosystem: npm
   name: dsh-science-review
-  version: 0.3.0
-  integrity: sha512-ohj+o9QQhEnjwyniFW6cH96eQvK83ldKQYQKSeRqL493F3L1qKI7ae5lhtoICWJh0ccLJ7IaeH5FChMfuJBJ8w==
+  version: 0.3.1
+  integrity: sha512-Hz9y6b+Gf0SM46dl1ewiKtp7HpZ2jL23xHRTyWamSjUBFlYnjLcX1wNticahjjE5SGwT3sZecNkOY6ybObcRSQ==
 dsh:
   profiles:
     - web
