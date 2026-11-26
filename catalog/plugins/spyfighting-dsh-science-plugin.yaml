@@ -15,7 +15,7 @@ source:
   repository: https://github.com/SPYfighting/dsh-science-plugin
   repositoryNodeId: R_kgDOVm3Wbg
   subpath: null
-  commit: 17cee65d0c0b26df3de233256bae534a57b2dac6
+  commit: c96b096b249b85b12ded15f7e641d5ab457754dd
 creator:
   github: SPYfighting
 package:
