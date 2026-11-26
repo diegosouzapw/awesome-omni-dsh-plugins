@@ -1,0 +1,40 @@
+schemaVersion: 1
+id: spyfighting-dsh-science-plugin
+name: DSH Science Workbench
+description:
+  en: Organizes paper plans, experiment tasks, supporting evidence and figures in a project workspace. Research roles contribute proposals and a lead agent coordinates results with user confirmation.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: search-research
+tags:
+  - web-ui
+  - research-workflows
+  - figures
+source:
+  repository: https://github.com/SPYfighting/dsh-science-plugin
+  repositoryNodeId: R_kgDOVm3Wbg
+  subpath: null
+  commit: c96b096b249b85b12ded15f7e641d5ab457754dd
+creator:
+  github: SPYfighting
+package:
+  ecosystem: source
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-26T02:06:44.000Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
