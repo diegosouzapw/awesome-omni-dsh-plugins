@@ -16,14 +16,14 @@ source:
   repository: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
   repositoryNodeId: R_kgDOVfhc6g
   subpath: null
-  commit: c3dc500ac8d45afca5263160b28b545220a0e384
+  commit: ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5
 creator:
   github: lijiaqi-AI-Product-Manager
 package:
   ecosystem: npm
   name: dsh-agent-compare
-  version: 3.3.0
-  integrity: sha512-JoezcujGWyle/5VyR7OuJ/sMKipUvAbYzg+YXs0/jmP354Xbxlbud2GLOoRHmsq2ofnpE+8NctrpeePJ8HGn0w==
+  version: 3.3.1
+  integrity: sha512-GIZyQ7js3ARgFxHHr7dW9KGLm1V9U8yWbVSNNWgp7bcES5ykwIHd24AZc1ip87BK3Y6UWUoCZz9AiplJMa9kkg==
 dsh:
   profiles:
     - web
@@ -31,32 +31,32 @@ dsh:
 repositoryScope: dedicated
 popularity:
   starsPolicy: exact-repository
-  stars: 458
+  stars: 500
 license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: "2026-11-22T04:28:26.545Z"
+  checkedAt: "2026-11-26T05:14:56.266Z"
   repositoryIdentity: resolved
   smokeTest: null
 media:
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/02-live-comparison.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/02-live-comparison.png
     alt: "Four live pages with steps and replies"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/03-main-conversation.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/03-main-conversation.png
     alt: "A greeting answered four ways, with steps"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/04-comparison-settings.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/04-comparison-settings.png
     alt: "Versions, styles and context"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/05-saved-result.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/05-saved-result.png
     alt: "Reply beside the page, saved with reasons"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/06-english-answers.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/06-english-answers.png
     alt: "Compare English answers"
   - kind: screenshot
-    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/c3dc500ac8d45afca5263160b28b545220a0e384/assets/readme/gallery-2.0/07-history.png
+    url: https://raw.githubusercontent.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/ac58c379192414b1f0ffc37e27e0f6c44aa0e5b5/assets/readme/gallery-2.0/07-history.png
     alt: "Find history, picks and reasons"
 provenance:
   discussion: null
