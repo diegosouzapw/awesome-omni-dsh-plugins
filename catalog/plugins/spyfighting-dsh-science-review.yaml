@@ -1,0 +1,43 @@
+schemaVersion: 1
+id: spyfighting-dsh-science-review
+name: DSH Science Review
+description:
+  en: Reviews claims in a DSH Web reply against the original task and tool output, quotes the corresponding evidence below the answer, and can pass suggested corrections to the next turn.
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - web-ui
+  - settings
+  - evidence-review
+source:
+  repository: https://github.com/SPYfighting/dsh-science-review
+  repositoryNodeId: R_kgDOV7qXRA
+  subpath: null
+  commit: 210aa4488aad2c55b973dbba5940a76a28c48780
+creator:
+  github: SPYfighting
+package:
+  ecosystem: npm
+  name: dsh-science-review
+  version: 0.4.0
+  integrity: sha512-BwyaM6njl7jiVcwLyeajvrjKppwJiH8qujzX6V4n3DeOA0wWGRXb6ngC2ebPkl/6cOkXtuz6fr+HhSgaxZOkqA==
+dsh:
+  profiles:
+    - web
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: 2026-11-27T09:26:47.072Z
+  repositoryIdentity: resolved
+  smokeTest: null
+provenance:
+  discussion: null
+  comment: null
