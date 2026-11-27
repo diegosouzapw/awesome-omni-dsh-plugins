@@ -15,14 +15,14 @@ source:
   repository: https://github.com/SPYfighting/dsh-science-review
   repositoryNodeId: R_kgDOV7qXRA
   subpath: null
-  commit: d2deae756eae6ae698d89582433a8691f8c1b11d
+  commit: 210aa4488aad2c55b973dbba5940a76a28c48780
 creator:
   github: SPYfighting
 package:
   ecosystem: npm
   name: dsh-science-review
-  version: 0.3.1
-  integrity: sha512-Hz9y6b+Gf0SM46dl1ewiKtp7HpZ2jL23xHRTyWamSjUBFlYnjLcX1wNticahjjE5SGwT3sZecNkOY6ybObcRSQ==
+  version: 0.4.0
+  integrity: sha512-BwyaM6njl7jiVcwLyeajvrjKppwJiH8qujzX6V4n3DeOA0wWGRXb6ngC2ebPkl/6cOkXtuz6fr+HhSgaxZOkqA==
 dsh:
   profiles:
     - web
@@ -35,7 +35,7 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: 2026-11-25T14:52:03.000Z
+  checkedAt: 2026-11-27T09:26:47.072Z
   repositoryIdentity: resolved
   smokeTest: null
 provenance:
